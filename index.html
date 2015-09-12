@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="description" content="Bioconda.GitHub.io : Bioconda is a distribution of bioinformatics software realized as a channel for the versatile package manager Conda.">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Bioconda.GitHub.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/bioconda">View on GitHub</a>
+
+          <h1 id="project_title">Bioconda.GitHub.io</h1>
+          <h2 id="project_tagline">Bioconda is a distribution of bioinformatics software realized as a channel for the versatile package manager Conda.</h2>
+
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a id="bioconda---a-conda-based-distribution-of-bioinformatics-software" class="anchor" href="#bioconda---a-conda-based-distribution-of-bioinformatics-software" aria-hidden="true"><span class="octicon octicon-link"></span></a>Bioconda - a Conda-based distribution of bioinformatics software</h1>
+
+<p>Bioconda is a distribution of bioinformatics software realized as a channel for the versatile package manager <a href="http://conda.pydata.org/docs">Conda</a>.
+Key features of Conda are</p>
+
+<ul>
+<li>very easy package creation,</li>
+<li>distribution of packages via channels on <a href="https://anaconda.org">Anaconda.org</a>,</li>
+<li>a command line client for simple installation and dependency handling in the spirit of <code>conda install mypackage</code>,</li>
+<li>a mechanism for creating isolated environments that allows different package versions to coexist.</li>
+</ul>
+
+<p>These features make turn Conda into the perfect package manager for bioinformatics, where analyses often involve the application of various tools with sometimes complicated and even conflicting dependencies or mixtures of different languages.
+Ultimately, the usage of Conda should help to perform reproducible science.</p>
+
+<h2>
+<a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
+
+<p>To use bioconda, you need to install a version of Conda which is most easily obtained via the <a href="http://conda.pydata.org/miniconda.html">Miniconda</a> Python distribution.
+After installing Miniconda, you can use the <code>conda</code> command to install packages from bioconda, e.g.</p>
+
+<div class="highlight highlight-bash"><pre>conda install -c bioconda bwa</pre></div>
+
+<p>Isolated environments (with e.g. specific software versions) can be created via</p>
+
+<div class="highlight highlight-bash"><pre>conda create -n myenviroment -c bioconda bwa=0.7.12</pre></div>
+
+<p>For more information, visit the <a href="http://conda.pydata.org/docs">Conda documentation</a>.</p>
+
+<h2>
+<a id="contribution" class="anchor" href="#contribution" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contribution</h2>
+
+<p>So far, the package selection in Conda is still limited.
+Our policy is to add a package if we need it ourselves.
+However, we invite anybody who wants to use Conda for bioinformatics to join the team and contribute new packages.
+To get started, have a look at our <a href="https://github.com/bioconda/recipes">recipes</a> and the <a href="http://conda.pydata.org/docs/building/recipe.html#conda-recipe-files-overview">Conda documentation</a>.</p>
+
+<h2>
+<a id="developers" class="anchor" href="#developers" aria-hidden="true"><span class="octicon octicon-link"></span></a>Developers</h2>
+
+<ul>
+<li><a href="https://github.com/johanneskoester">Johannes Köster</a></li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
