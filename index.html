@@ -64,6 +64,12 @@ Ultimately, the usage of Conda should help to perform reproducible science.</p>
 
 <div class="highlight highlight-source-shell"><pre>conda create -n myenviroment -c bioconda bwa=0.7.12</pre></div>
 
+<p>To permanently subscribe to the bioconda channel, add the following to the <code>.condarc</code> file in your home folder:</p>
+
+<div class="highlight highlight-source-yaml"><pre><span class="pl-s"><span class="pl-ent">channels:</span></span>
+    <span class="pl-s">- <span class="pl-s">defaults</span></span>
+    <span class="pl-s">- <span class="pl-s">bioconda</span></span></pre></div>
+
 <p>For more information, visit the <a href="http://conda.pydata.org/docs">Conda documentation</a> or have a look at the command line options by executing</p>
 
 <div class="highlight highlight-source-shell"><pre>conda --help</pre></div>
