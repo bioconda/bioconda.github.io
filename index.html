@@ -43,7 +43,7 @@ Key features of Conda are</p>
 
 <p>These features turn Conda into the perfect package manager for bioinformatics, where analyses often involve the application of various tools with sometimes complicated and even conflicting dependencies or mixtures of different languages.
 Ultimately, the usage of Conda should help to perform reproducible science.
-Bioconda already contains over 300 bioinformatics related packages (<a href="https://anaconda.org/bioconda">list of packages</a>).</p>
+Bioconda already contains over 400 bioinformatics related packages (<a href="https://anaconda.org/bioconda">list of packages</a>).</p>
 
 <h2>
 <a id="usage" class="anchor" href="#usage" aria-hidden="true"><span class="octicon octicon-link"></span></a>Usage</h2>
@@ -61,21 +61,21 @@ Bioconda already contains over 300 bioinformatics related packages (<a href="htt
 <h3>
 <a id="step-3-install-packages-or-create-environments" class="anchor" href="#step-3-install-packages-or-create-environments" aria-hidden="true"><span class="octicon octicon-link"></span></a>Step 3: Install packages or create environments</h3>
 
-<p>After installing Miniconda, you can use the <code>conda</code> command to install packages from bioconda, e.g.</p>
-
-<div class="highlight highlight-source-shell"><pre>conda install -c bioconda bwa</pre></div>
-
-<p>Isolated environments (with e.g. specific software versions) can be created via</p>
-
-<div class="highlight highlight-source-shell"><pre>conda create -n myenviroment -c bioconda bwa=0.7.12</pre></div>
-
-<p>Instead of specifying the channel manually at the command line, you can permanently subscribe by</p>
+<p>After installing Miniconda, you can use the <code>conda</code> command to setup bioconda with</p>
 
 <div class="highlight highlight-source-shell"><pre>conda config --add channels r
 conda config --add channels bioconda</pre></div>
 
 <p>The <code>r</code> channel is added to satisfy the <a href="https://www.r-project.org/">R language</a> dependencies of some packages.
-For more information, visit the <a href="http://conda.pydata.org/docs">Conda documentation</a> or have a look at the command line options by executing</p>
+Then, you can install packages, e.g.</p>
+
+<div class="highlight highlight-source-shell"><pre>conda install bwa</pre></div>
+
+<p>Isolated environments (with e.g. specific software versions) can be created via</p>
+
+<div class="highlight highlight-source-shell"><pre>conda create -n myenviroment bwa=0.7.12</pre></div>
+
+<p>For more information, visit the <a href="http://conda.pydata.org/docs">Conda documentation</a> or have a look at the command line options by executing</p>
 
 <div class="highlight highlight-source-shell"><pre>conda --help</pre></div>
 
