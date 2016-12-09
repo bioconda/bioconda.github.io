@@ -1,0 +1,50 @@
+.. _`ucsc-netclass`:
+
+ucsc-netclass
+=============
+
+|downloads|
+
+Add classification info to net
+
+======== ===========
+Home     http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions 332
+License  varies; see http://genome.ucsc.edu/license
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-netclass
+======== ===========
+
+Installation
+------------
+
+.. highlight: bash
+
+With an activated Bioconda channel (see :ref:`setup`), install with::
+
+   conda install ucsc-netclass
+
+and update with::
+
+   conda update ucsc-netclass
+
+
+
+|docker|
+
+A Docker container is available at https://quay.io/repository/biocontainers/ucsc-netclass.
+
+Link to this page
+-----------------
+
+Render an |badge| badge with the following Markdown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ucsc-netclass/README.html)
+
+.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
+           :target: http://bioconda.github.io/recipes/ucsc-netclass/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/ucsc-netclass/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/ucsc-netclass
+.. |docker| image:: https://quay.io/repository/biocontainers/ucsc-netclass/status
+                :target: https://quay.io/repository/biocontainers/ucsc-netclass
+
+
