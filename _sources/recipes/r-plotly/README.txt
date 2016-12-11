@@ -9,7 +9,7 @@ Easily translate ggplot2 graphs to an interactive web-based version and/or creat
 
 ======== ===========
 Home     https://plot.ly/r, https://github.com/ropensci/plotly
-Versions 4.5.2
+Versions 2.0.16, 4.5.2
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-plotly
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-plotly
 

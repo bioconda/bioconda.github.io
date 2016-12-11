@@ -9,7 +9,7 @@ PICRUSt: Phylogenetic Investigation of Communities by Reconstruction of Unobserv
 
 ======== ===========
 Home     http://picrust.github.com
-Versions 1.1.0
+Versions 1.0.1, 1.1.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install picrust
 

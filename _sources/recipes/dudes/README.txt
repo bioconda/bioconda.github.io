@@ -9,7 +9,7 @@ DUDes is a taxonomic profiler for NGS metagenomic samples
 
 ======== ===========
 Home     https://sourceforge.net/projects/dudes/
-Versions 0.07, 0.06
+Versions 0.06, 0.07
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install dudes
 

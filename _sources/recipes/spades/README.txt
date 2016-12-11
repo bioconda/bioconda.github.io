@@ -9,7 +9,7 @@ SPAdes – St. Petersburg genome assembler – is intended for both standard iso
 
 ======== ===========
 Home     http://bioinf.spbau.ru/en/spades
-Versions 3.9.0
+Versions 3.6.2, 3.7.0, 3.8.0, 3.8.1, 3.9.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spades
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install spades
 

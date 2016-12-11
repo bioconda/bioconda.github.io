@@ -9,7 +9,7 @@ Annotate variants, compute amino acid coding changes, predict coding outcomes.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/VariantAnnotation.html
-Versions 1.18.7
+Versions 1.16.0, 1.16.1, 1.16.3, 1.16.4, 1.18.7
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantannotation
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-variantannotation
 

@@ -9,7 +9,7 @@ An RNA-seq read aligner.
 
 ======== ===========
 Home     https://github.com/alexdobin/STAR
-Versions 2.5.2b
+Versions 2.4.2a, 2.5.0a, 2.5.0b, 2.5.0c, 2.5.1b, 2.5.2a, 2.5.2b
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install star
 

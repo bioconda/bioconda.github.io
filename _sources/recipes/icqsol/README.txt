@@ -9,7 +9,7 @@ A collection of utilities for constructing complex geometries from primitive sha
 
 ======== ===========
 Home     https://github.com/pletzer/icqsol
-Versions 0.3.26
+Versions 0.3.20, 0.3.26
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icqsol
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install icqsol
 

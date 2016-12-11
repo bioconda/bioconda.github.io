@@ -9,7 +9,7 @@ Phylogenetic tree analyses and exploration
 
 ======== ===========
 Home     http://etetoolkit.org/
-Versions 2.3.10
+Versions 2.2.1072, 2.3.10
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ete2
 

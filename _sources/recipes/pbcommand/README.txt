@@ -9,7 +9,7 @@ Library and Tools for interfacing to PacBio pbsmrtpipe workflow engine.
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/pbcommand
-Versions 0.3.29
+Versions 0.2.17, 0.3.29
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcommand
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pbcommand
 

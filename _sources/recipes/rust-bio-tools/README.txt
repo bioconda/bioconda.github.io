@@ -11,7 +11,7 @@ implemented on top of Rust-Bio.
 
 ======== ===========
 Home     https://github.com/rust-bio/rust-bio-tools
-Versions 0.1.2
+Versions 0.1.1, 0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools
 ======== ===========
@@ -21,7 +21,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rust-bio-tools
 

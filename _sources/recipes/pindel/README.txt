@@ -9,7 +9,7 @@ Pindel can detect breakpoints of large deletions, medium sized insertions, inver
 
 ======== ===========
 Home     http://gmt.genome.wustl.edu/packages/pindel/index.html
-Versions 0.2.5b8
+Versions 0.2.5a7, 0.2.5b8
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pindel
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pindel
 

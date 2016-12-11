@@ -9,7 +9,7 @@ Efficient detection of local RNA secondary structure changes induced by SNPs.
 
 ======== ===========
 Home     http://rth.dk/resources/rnasnp/software
-Versions 1.2, scripts
+Versions 1.2
 License  RTH
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasnp
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rnasnp
 

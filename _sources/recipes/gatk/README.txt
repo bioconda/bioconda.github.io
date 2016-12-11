@@ -9,7 +9,7 @@ The full Genome Analysis Toolkit (GATK) framework, license restricted.
 
 ======== ===========
 Home     https://www.broadinstitute.org/gatk/
-Versions 3.6, 3.5
+Versions 3.5, 3.6
 License  https://www.broadinstitute.org/gatk/about/#licensing
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gatk
 

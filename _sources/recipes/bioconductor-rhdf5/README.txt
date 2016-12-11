@@ -9,7 +9,7 @@ This R/Bioconductor package provides an interface between HDF5 and R. HDF5's mai
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/rhdf5.html
-Versions 2.16.0
+Versions 2.12.0, 2.14.0, 2.16.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-rhdf5
 

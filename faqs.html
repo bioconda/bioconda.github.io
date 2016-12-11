@@ -1,0 +1,244 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>FAQs &mdash; Bioconda  documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Bioconda  documentation" href="index.html" />
+    <link rel="prev" title="Guidelines for bioconda recipes" href="guidelines.html" />
+<link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="_static/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">  
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.js"></script>
+
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+    $('#recipestable').DataTable( {
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
+} );
+</script>
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="faqs">
+<h1>FAQs<a class="headerlink" href="#faqs" title="Permalink to this headline">¶</a></h1>
+<p>This section is to help contributors get up to speed on various topics related
+to building and testing conda packages.</p>
+<div class="section" id="what-s-the-difference-between-anaconda-conda-and-miniconda">
+<span id="conda-anaconda-minconda"></span><h2>What&#8217;s the difference between Anaconda, conda, and Miniconda?<a class="headerlink" href="#what-s-the-difference-between-anaconda-conda-and-miniconda" title="Permalink to this headline">¶</a></h2>
+<p>The <a class="reference external" href="https://www.continuum.io/downloads">Anaconda Python distribution</a>
+started out as a bundle of scientific Python packages that were otherwise
+difficult to install. It was created by <a class="reference external" href="https://www.continuum.io/">ContinuumIO</a> and remains the easiest way to install the full
+scientific Python stack.</p>
+<p>Many packaging problems had to be solved in order to provide a cross-platform
+bundle, and one of the tools that came out of that work was the conda package
+manager. So conda is part of Anaconda. But conda ended up being very useful on
+its own and for things other than Python, so ContinuumIO spun it out into its
+own separate <a class="reference external" href="https://github.com/conda/conda">open-source package</a>.</p>
+<p>However, conda is not just for Python, it is not &#8220;pip-installable&#8221; and rather
+needs to be installed in a language-agnostic manner. The conda installer is
+called Miniconda, to differentiate it from the full-size Anaconda.</p>
+<p>So: conda is a package manager, Miniconda is the conda installer, and Anaconda
+is a scientific Python distribution that also includes conda.</p>
+</div>
+<div class="section" id="recipe-vs-package">
+<h2>Recipe vs package<a class="headerlink" href="#recipe-vs-package" title="Permalink to this headline">¶</a></h2>
+<p>A <em>recipe</em> is a directory containing small set of files that defines name,
+version, dependencies, and URL for source code. A recipe typically contains
+a <cite>meta.yaml</cite> file that defines these settings and a <cite>build.sh</cite> script that
+builds the software. A recipe is converted into a <em>package</em> by running
+<cite>conda-build</cite> on the recipe. A package is a bgzipped tar file (<cite>.tar.bz2</cite>) that
+contains the built software. Packages are uploaded to anaconda.org so that
+users can install them with <cite>conda install</cite>.</p>
+<div class="admonition seealso">
+<p class="first admonition-title">See also</p>
+<p class="last">The <a class="reference external" href="http://conda.pydata.org/docs/spec.html">conda package specification</a>
+has details on exactly what a package contains and how it is installed into
+an environment.</p>
+</div>
+</div>
+<div class="section" id="continuous-integration-travis-ci">
+<h2>Continuous integration (Travis-CI)<a class="headerlink" href="#continuous-integration-travis-ci" title="Permalink to this headline">¶</a></h2>
+<p>We use the Travis-CI continuous integration service. Continuous integration
+tests each small incremental change to code to ensure that everything is
+up-to-date and correct. Travis-CI graciously provides this service for free to
+open-source projects. It is connected to GitHub such that each time a pull
+request or merge occurs, a new Travis-CI build is created. For bioconda,
+a &#8220;build&#8221; means identifying any recipes that need to built, running
+<cite>conda-build</cite> on them, and testing to make sure they work.</p>
+</div>
+<div class="section" id="how-is-travis-ci-set-up-and-configured">
+<h2>How is Travis-CI set up and configured?<a class="headerlink" href="#how-is-travis-ci-set-up-and-configured" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><cite>.travis.yml</cite> is read by the Travis-CI worker.</li>
+<li>The worker runs <cite>scripts/travis-setup.sh</cite>. This installs conda, adds
+channels, and installs <cite>bioconda-utils</cite></li>
+<li>The worker runs <cite>scripts/travis-run.sh</cite>. If the system is Linux, then the
+build is performed in a docker container (the one listed in <cite>.travis.yml</cite>).
+If OSX, then the build is performed without docker.</li>
+</ul>
+<p>There are some environmental variables that exist on Travis-CI. The
+<cite>simulate-travis.py</cite> script adds these so that a locally-run test behaves close
+as possible to the Travis-CI run.</p>
+</div>
+<div class="section" id="what-does-subdag-mean-on-travis-ci">
+<h2>What does &#8220;SUBDAG&#8221; mean on Travis-CI?<a class="headerlink" href="#what-does-subdag-mean-on-travis-ci" title="Permalink to this headline">¶</a></h2>
+<p>The test results page on travis-ci.org for a PR or merge shows 4 separate
+sub-tests. There are two for Linux and two for OSX.</p>
+<p>We have limited resources on Travis-CI on which to build packages. In an
+attempt to speed up builds, we split the full DAG of recipes that need to be
+built in to multiple independent sub-DAGs. These are named <cite>SUBDAG 0</cite> and
+<cite>SUBDAG 1</cite>. Each sub-DAG is considered an independent build and they are run in
+parallel. If you submit a single recipe, which sub-DAG it is built on is
+nondeterministic so if you don&#8217;t see log output for the recipe in one sub-DAG,
+check the other.</p>
+<p>The <cite>simulate-travis.py</cite> script sets the number of sub-DAGs to 1 so that there
+is only a single process running the builds.</p>
+</div>
+<div class="section" id="how-are-environmental-variables-defined-and-used">
+<h2>How are environmental variables defined and used?<a class="headerlink" href="#how-are-environmental-variables-defined-and-used" title="Permalink to this headline">¶</a></h2>
+<p>In some cases a recipe may need to pin the version of a dependency.  Jinja2
+templating is used within recipes to use a uniform set of versions for core
+packages used by bioconda packages. For example, see this <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/f5eb63e30a76fd13c28663786d219c9f7750267c/recipes/gfold/meta.yaml">meta.yaml</a>
+that uses a variable to hold the current GSL (GNU Scientific Library) version
+supported by bioconda.</p>
+<p>The currently defined dependencies are defined in <cite>scripts/env_matrix.yml</cite> and
+are sent to <cite>conda-build</cite> by setting them as environment variables. More
+specifically:</p>
+<ul>
+<li><dl class="first docutils">
+<dt><cite>config.yml</cite> indicates an <cite>env_matrix</cite> file in which CONDA_GSL is defined</dt>
+<dd><ul class="first last simple">
+<li><a href="#id1"><span class="problematic" id="id2">`</span></a>config.yaml example</li>
+</ul>
+</dd>
+</dl>
+<p>&lt;<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/config.yml#L1">https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/config.yml#L1</a>&gt;`_ pointing to file</p>
+<blockquote>
+<div><ul class="simple">
+<li><cite>env_matrix.yml example
+&lt;https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/scripts/env_matrix.yml&gt;</cite> defining CONDA_GSL.</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">When figuring out which recipes need to be built, the filtering step attaches
+each unique env to a Target object. For example, one env might be
+<cite>CONDA_GSL=1.6; CONDA_PY=27, CONDA_R=3.3.1;</cite> while a different env would be
+<cite>CONDA_GSL=1.6; CONDA_PY=35, CONDA_R=3.3.1;</cite>.</p>
+</li>
+<li><p class="first">That env is provided to the build function which is either sent directly to
+docker as environment variables, or used to temporarily update os.environ so
+that conda-build sees it.</p>
+</li>
+<li><p class="first">These environment variables are then seen by conda-build and used to fill in
+the templated variables via jinja2.</p>
+</li>
+</ul>
+</div>
+<div class="section" id="what-s-the-lifecycle-of-a-bioconda-package">
+<h2>What&#8217;s the lifecycle of a bioconda package?<a class="headerlink" href="#what-s-the-lifecycle-of-a-bioconda-package" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>Submit a pull request with a new recipe or an updated recipe</li>
+<li>Travis-CI automatically builds and tests the changed recipe[s] using
+conda-build. Test results are shown on the PR.</li>
+<li>If tests fail, push changes to PR until they pass.</li>
+<li>Once tests pass, merge into master branch</li>
+<li>Travis-CI tests again, but this time after testing the built packages are uploaded to the bioconda channel on anaconda.org</li>
+<li>Users can now install the package just like any other conda package with
+<cite>conda install</cite>.</li>
+</ul>
+<p>Once uploaded to anaconda.org, it is our intention to never delete any old
+packages. Even if a recipe in the bioconda repo is updated to a new version,
+the old version will remain on anaconda.org. ContinuumIO has graciously agreed
+to sponsor the storage required by the bioconda channel.</p>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="index.html">
+    <img class="logo" src="_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="recipes.html">Available packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">FAQs</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-difference-between-anaconda-conda-and-miniconda">What&#8217;s the difference between Anaconda, conda, and Miniconda?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#recipe-vs-package">Recipe vs package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#continuous-integration-travis-ci">Continuous integration (Travis-CI)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-is-travis-ci-set-up-and-configured">How is Travis-CI set up and configured?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-does-subdag-mean-on-travis-ci">What does &#8220;SUBDAG&#8221; mean on Travis-CI?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-are-environmental-variables-defined-and-used">How are environmental variables defined and used?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What&#8217;s the lifecycle of a bioconda package?</a></li>
+</ul>
+</li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/faqs.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

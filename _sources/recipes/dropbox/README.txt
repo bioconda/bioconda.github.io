@@ -9,7 +9,7 @@ Official Dropbox API Client
 
 ======== ===========
 Home     http://www.dropbox.com/developers
-Versions 5.2.1
+Versions 3.38, 5.2.1
 License  https://raw.githubusercontent.com/dropbox/dropbox-sdk-python/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropbox
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install dropbox
 

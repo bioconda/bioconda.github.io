@@ -9,7 +9,7 @@ Infernal ("INFERence of RNA ALignment") is for searching DNA sequence databases 
 
 ======== ===========
 Home     http://infernal.janelia.org/
-Versions 1.1.1, 1.0.2
+Versions 1.0.2, 1.1.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install infernal
 

@@ -9,7 +9,7 @@ prioritize effects of variant annotations from VEP, SnpEff, et al.
 
 ======== ===========
 Home     https://github.com/brentp/geneimpacts
-Versions 0.2.0
+Versions 0.0.4, 0.0.5, 0.0.7, 0.0.8, 0.0.9, 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geneimpacts
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install geneimpacts
 

@@ -9,7 +9,7 @@ Genomic data analyses requires integrated visualization of known genomic informa
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/Gviz.html
-Versions 1.16.5
+Versions 1.14.2, 1.16.5
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-gviz
 

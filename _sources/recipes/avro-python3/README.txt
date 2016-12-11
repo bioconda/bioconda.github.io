@@ -9,7 +9,7 @@ Avro is a serialization and RPC framework.
 
 ======== ===========
 Home     http://avro.apache.org/
-Versions 1.8.1
+Versions 1.8.0, 1.8.1
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python3
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install avro-python3
 

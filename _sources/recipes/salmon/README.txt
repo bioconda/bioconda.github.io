@@ -9,7 +9,7 @@ Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads
 
 ======== ===========
 Home     https://github.com/COMBINE-lab/salmon
-Versions 0.7.2
+Versions 0.5.1, 0.6.0, 0.7.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install salmon
 

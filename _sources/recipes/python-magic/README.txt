@@ -9,7 +9,7 @@ File type identification using libmagic
 
 ======== ===========
 Home     http://github.com/ahupp/python-magic
-Versions 0.4.12, 0.4.6
+Versions 0.4.10, 0.4.12, 0.4.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-magic
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install python-magic
 

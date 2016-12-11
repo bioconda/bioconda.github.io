@@ -9,7 +9,7 @@ Quantitative DNA sequencing for chromosomal aberrations. The genome is divided i
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/QDNAseq.html
-Versions 1.10.0
+Versions 1.10.0, 1.8.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-qdnaseq
 

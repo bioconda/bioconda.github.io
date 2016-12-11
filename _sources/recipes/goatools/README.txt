@@ -9,7 +9,7 @@ Python scripts to find enrichment of GO terms
 
 ======== ===========
 Home     https://github.com/tanghaibao/goatools
-Versions 0.6.10
+Versions 0.5.9, 0.6.10, 0.6.4
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goatools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install goatools
 

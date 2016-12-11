@@ -9,7 +9,7 @@ a small but growing collection of ASN.1 data structures expressed in Python term
 
 ======== ===========
 Home     https://pypi.python.org/pypi/pyasn1-modules
-Versions 0.0.5
+Versions 0.0.5, 0.0.8
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasn1-modules
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pyasn1-modules
 

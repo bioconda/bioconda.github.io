@@ -9,7 +9,7 @@ Type Hints for Python
 
 ======== ===========
 Home     https://docs.python.org/3.5/library/typing.html
-Versions 3.5.2.2
+Versions 3.5.0.1, 3.5.2.2
 License  Python Software Foundation License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/typing
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install typing
 

@@ -9,7 +9,7 @@ inheritance models for mendelian diseases
 
 ======== ===========
 Home     https://github.com/brentp/inheritance
-Versions 0.1.2
+Versions 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.9, 0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inheritance
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install inheritance
 

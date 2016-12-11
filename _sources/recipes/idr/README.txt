@@ -9,7 +9,7 @@ The IDR (Irreproducible Discovery Rate) framework is a uniﬁed approach to meas
 
 ======== ===========
 Home     https://github.com/nboley/idr
-Versions 2.0.3
+Versions 2.0.2, 2.0.3
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install idr
 

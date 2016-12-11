@@ -9,7 +9,7 @@ Accelerated performance bioinformatics tools for mapping and variant calling
 
 ======== ===========
 Home     http://sentieon.com
-Versions 201611
+Versions 201603.02, 201606, 201611
 License  Commercial (requires license for use)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sentieon
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install sentieon
 

@@ -9,7 +9,7 @@ A framework for the analysis of quantitative mass spectrometry data
 
 ======== ===========
 Home     http://www.github.com/pandeylab/pyquant
-Versions 0.1.43rc3
+Versions 0.1.42, 0.1.43rc3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquant-ms
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pyquant-ms
 

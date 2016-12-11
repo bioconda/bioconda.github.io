@@ -9,7 +9,7 @@ Tools for processing and analyzing structural variants
 
 ======== ===========
 Home     https://github.com/hall-lab/svtools
-Versions 0.3.0, 0.1.1, 0.2.0
+Versions 0.1.1, 0.2.0, 0.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svtools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install svtools
 

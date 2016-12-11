@@ -9,7 +9,7 @@ This package uses the source code of zlib-1.2.5 to create libraries for systems 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/zlibbioc.html
-Versions 1.18.0
+Versions 1.14.0, 1.16.0, 1.18.0
 License  Artistic-2.0 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zlibbioc
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-zlibbioc
 

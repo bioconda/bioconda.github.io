@@ -9,7 +9,7 @@ libbambamc
 
 ======== ===========
 Home     https://github.com/gt1/bambamc
-Versions 0.5.00
+Versions 0.0.50
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc/0.5.00
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install libbambamc
 

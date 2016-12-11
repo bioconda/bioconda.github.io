@@ -9,7 +9,7 @@ Structural variant and indel caller for mapped sequencing data
 
 ======== ===========
 Home     https://github.com/Illumina/manta
-Versions 1.0.3
+Versions 0.29.1, 0.29.3, 0.29.6, 1.0.0, 1.0.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manta
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install manta
 

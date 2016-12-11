@@ -9,7 +9,7 @@ Python interface to MySQL
 
 ======== ===========
 Home     https://github.com/PyMySQL/mysqlclient-python
-Versions 1.3.9
+Versions 1.3.7, 1.3.9
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysqlclient
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install mysqlclient
 

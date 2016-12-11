@@ -9,7 +9,7 @@ High-performance genomic feature operations.
 
 ======== ===========
 Home     http://bedops.readthedocs.io
-Versions 2.4.20
+Versions 2.4.19, 2.4.20
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bedops
 

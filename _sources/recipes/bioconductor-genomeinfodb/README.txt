@@ -9,7 +9,7 @@ Contains data and functions that define and allow translation between different 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html
-Versions 1.8.7
+Versions 1.4.3, 1.6.0, 1.6.1, 1.6.3, 1.8.7
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-genomeinfodb
 

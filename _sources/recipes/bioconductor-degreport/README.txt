@@ -9,7 +9,7 @@ Creation of a HTML report of differential expression analyses of count data. It 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/DEGreport.html
-Versions 1.8.2
+Versions 1.7.2, 1.8.2
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-degreport
 

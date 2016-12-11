@@ -9,7 +9,7 @@ Create aggregate bioinformatics analysis reports across many samples and tools
 
 ======== ===========
 Home     http://multiqc.info
-Versions 0.8
+Versions 0.4, 0.5, 0.6, 0.7, 0.7.1dev0, 0.8, 0.8dev0
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install multiqc
 

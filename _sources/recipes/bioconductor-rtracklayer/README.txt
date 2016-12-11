@@ -9,7 +9,7 @@ Extensible framework for interacting with multiple genome browsers (currently UC
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/rtracklayer.html
-Versions 1.34.1
+Versions 1.30.0, 1.30.1, 1.32.2, 1.34.1
 License  Artistic-2.0 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtracklayer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-rtracklayer
 

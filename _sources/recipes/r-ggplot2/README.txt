@@ -9,7 +9,7 @@ A system for 'declaratively' creating graphics, based on "The Grammar of Graphic
 
 ======== ===========
 Home     http://ggplot2.tidyverse.org, https://github.com/tidyverse/ggplot2
-Versions 2.2.0
+Versions 2.0.0, 2.1.0, 2.2.0
 License  GPL-2 | file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggplot2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-ggplot2
 

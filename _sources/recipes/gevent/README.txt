@@ -9,7 +9,7 @@ Coroutine-based network library
 
 ======== ===========
 Home     http://www.gevent.org/
-Versions 1.1rc4
+Versions 1.0.2, 1.1rc4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gevent
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gevent
 

@@ -9,7 +9,7 @@ JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq, DNase-Seq..etc.) tha
 
 ======== ===========
 Home     https://github.com/mahmoudibrahim/JAMM
-Versions 1.0.7.4, 1.0.7.2
+Versions 1.0.7.2, 1.0.7.4
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jamm
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install jamm
 

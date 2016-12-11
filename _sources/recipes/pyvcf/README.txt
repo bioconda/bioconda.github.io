@@ -9,7 +9,7 @@ A Variant Call Format reader for Python
 
 ======== ===========
 Home     https://github.com/jamescasbon/PyVCF
-Versions 0.6.8
+Versions 0.6.8, 0.6.8.dev0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvcf
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pyvcf
 

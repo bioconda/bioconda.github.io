@@ -9,7 +9,7 @@ C library for high-throughput sequencing data formats.
 
 ======== ===========
 Home     https://github.com/samtools/htslib
-Versions 1.3.2
+Versions 1.2.1, 1.3, 1.3.1, 1.3.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htslib
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install htslib
 

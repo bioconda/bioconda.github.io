@@ -9,7 +9,7 @@ Non-parametric bootstrap and permutation resampling-based multiple testing proce
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/multtest.html
-Versions 2.28.0
+Versions 2.26.0, 2.28.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-multtest
 

@@ -9,7 +9,7 @@ HUMAnN is a pipeline for efficiently and accurately profiling the presence/absen
 
 ======== ===========
 Home     http://huttenhower.sph.harvard.edu/humann2
-Versions 0.6.1
+Versions 0.5.0, 0.6.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install humann2
 

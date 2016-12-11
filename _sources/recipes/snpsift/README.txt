@@ -9,7 +9,7 @@ Toolbox that allows you to filter and manipulate annotated files
 
 ======== ===========
 Home     http://snpeff.sourceforge.net/SnpSift.html
-Versions 4.3, 4.1l, 4.2
+Versions 4.1l, 4.2, 4.3
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install snpsift
 

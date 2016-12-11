@@ -9,7 +9,7 @@ Scripts to aid the design of differential primers for diagnostic PCR.
 
 ======== ===========
 Home     https://github.com/widdowquinn/find_differential_primers
-Versions 0.1.3.p1
+Versions 0.1.3, 0.1.3.p1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/find_differential_primers
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install find_differential_primers
 

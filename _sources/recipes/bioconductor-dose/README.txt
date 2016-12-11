@@ -9,7 +9,7 @@ This package implements five methods proposed by Resnik, Schlicker, Jiang, Lin a
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/DOSE.html
-Versions 2.10.7
+Versions 2.10.6, 2.10.7, 2.8.2, 2.8.3
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-dose
 

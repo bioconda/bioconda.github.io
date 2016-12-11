@@ -9,7 +9,7 @@ File path utility
 
 ======== ===========
 Home     https://github.com/dagolden/Path-Tiny
-Versions 0.082, 0.076
+Versions 0.076, 0.082
 License  apache_2_0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-tiny
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-path-tiny
 

@@ -9,7 +9,7 @@ Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-me
 
 ======== ===========
 Home     http://www.genome.umd.edu/jellyfish.html
-Versions 2.2.6, 2.2.3, 1.1.11
+Versions 1.1.11, 2.2.3, 2.2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install jellyfish
 

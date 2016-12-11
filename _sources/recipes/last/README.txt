@@ -9,7 +9,7 @@ LAST finds similar regions between sequences, and aligns them. It is designed fo
 
 ======== ===========
 Home     http://last.cbrc.jp/
-Versions 719, 490, 638
+Versions 490, 638, 719
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install last
 

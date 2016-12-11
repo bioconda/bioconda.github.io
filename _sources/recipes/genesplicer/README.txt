@@ -9,7 +9,7 @@ GeneSplicer : A computational method for splice site prediction
 
 ======== ===========
 Home     http://www.cs.jhu.edu/~genomics/GeneSplicer
-Versions 0_2003.04.03
+Versions 0_2003.04.03, 1.0
 License  OSI
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install genesplicer
 

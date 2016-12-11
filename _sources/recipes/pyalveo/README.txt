@@ -9,7 +9,7 @@ A Python library for interfacing with the Alveo API
 
 ======== ===========
 Home     https://github.com/Alveo/pyalveo
-Versions 0.7
+Versions 0.5, 0.6, 0.7
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyalveo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pyalveo
 

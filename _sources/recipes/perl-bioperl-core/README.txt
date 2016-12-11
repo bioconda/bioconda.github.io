@@ -9,7 +9,7 @@ perl-bioperl-core
 
 ======== ===========
 Home     http://metacpan.org/pod/BioPerl
-Versions 1.7.1
+Versions 1.6.924, 1.7.1
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-bioperl-core
 

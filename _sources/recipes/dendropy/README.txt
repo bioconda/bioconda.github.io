@@ -9,7 +9,7 @@ A Python library for phylogenetics and phylogenetic computing: reading, writing,
 
 ======== ===========
 Home     http://packages.python.org/DendroPy/
-Versions 4.0.3, 3.12.3
+Versions 3.12.3, 4.0.3
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install dendropy
 

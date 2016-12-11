@@ -9,7 +9,7 @@ Circular layout is an efficient way for the visualization of huge  amounts of in
 
 ======== ===========
 Home     https://github.com/jokergoo/circlize
-Versions 0.3.3
+Versions 0.3.2, 0.3.3
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-circlize
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-circlize
 

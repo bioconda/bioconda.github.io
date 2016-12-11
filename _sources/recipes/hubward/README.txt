@@ -9,7 +9,7 @@ Manage the visualization of large amounts of other people's [often messy] genomi
 
 ======== ===========
 Home     https://github.com/daler/hubward
-Versions 0.2.2
+Versions 0.2.0, 0.2.1, 0.2.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install hubward
 

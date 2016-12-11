@@ -9,7 +9,7 @@ Work with GFF and GTF files in a flexible database framework
 
 ======== ===========
 Home     https://github.com/daler/gffutils
-Versions 0.8.7.1
+Versions 0.8.6.1, 0.8.7, 0.8.7.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gffutils
 

@@ -9,7 +9,7 @@ BBMap is a short read aligner, as well as various other bioinformatic tools
 
 ======== ===========
 Home     https://sourceforge.net/projects/bbmap
-Versions 36.32
+Versions 35.85, 36.32
 License  UC-LBL license (see package)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbmap
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bbmap
 

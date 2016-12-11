@@ -9,7 +9,7 @@ List environments are environments that have list-like properties.  For instance
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/listenv
-Versions 0.6.0, 0.5.0
+Versions 0.5.0, 0.6.0
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-listenv
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-listenv
 

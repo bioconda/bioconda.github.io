@@ -9,7 +9,7 @@ Analyze antibody repertoires and discover new V genes
 
 ======== ===========
 Home     https://igdiscover.readthedocs.io/
-Versions 0.6.0
+Versions 0.3, 0.4, 0.5, 0.6.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igdiscover
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install igdiscover
 

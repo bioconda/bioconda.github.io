@@ -9,7 +9,7 @@ A Workflow Management System geared towards scientific workflows described in WD
 
 ======== ===========
 Home     https://github.com/broadinstitute/cromwell
-Versions 0.22
+Versions 0.19.4, 0.21, 0.22
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cromwell
 

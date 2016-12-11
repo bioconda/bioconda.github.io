@@ -9,7 +9,7 @@ GNU gettext
 
 ======== ===========
 Home     https://www.gnu.org/software/gettext/
-Versions 0.19.8
+Versions 0.18.3, 0.19.8
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gettext
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gettext
 

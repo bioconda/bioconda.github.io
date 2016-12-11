@@ -9,7 +9,7 @@ MACS -- Model-based Analysis of ChIP-Seq
 
 ======== ===========
 Home     https://github.com/taoliu/MACS/
-Versions 2.1.1.20160309
+Versions 2.1.0, 2.1.1, 2.1.1.20160309
 License  BSD New
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install macs2
 

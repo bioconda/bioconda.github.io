@@ -9,7 +9,7 @@ goleft is a collection of bioinformatics tools distributed under MIT license in 
 
 ======== ===========
 Home     https://github.com/brentp/goleft
-Versions 0.1.6
+Versions 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goleft
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install goleft
 

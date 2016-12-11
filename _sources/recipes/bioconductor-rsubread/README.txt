@@ -9,7 +9,7 @@ Provides powerful and easy-to-use tools for analyzing next-gen sequencing read d
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/Rsubread.html
-Versions 1.23.0
+Versions 1.22.1, 1.23.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-rsubread
 

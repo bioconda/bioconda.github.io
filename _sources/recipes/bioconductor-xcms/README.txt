@@ -9,7 +9,7 @@ Framework for processing and visualization of chromatographically separated and 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/xcms.html
-Versions 1.48.0, 1.44.0, 1.46.0
+Versions 1.44.0, 1.46.0, 1.48.0
 License  GPL (>= 2) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-xcms
 

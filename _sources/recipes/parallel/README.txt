@@ -9,7 +9,7 @@ GNU parallel is a shell tool for executing jobs in parallel using one or more co
 
 ======== ===========
 Home     http://www.gnu.org/software/parallel/
-Versions 20160622
+Versions 20150922, 20160622
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install parallel
 

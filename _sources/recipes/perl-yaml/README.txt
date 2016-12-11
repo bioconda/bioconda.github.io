@@ -9,7 +9,7 @@ YAML Ain't Markup Language
 
 ======== ===========
 Home     https://github.com/ingydotnet/yaml-pm
-Versions 1.18
+Versions 1.15, 1.18
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-yaml
 

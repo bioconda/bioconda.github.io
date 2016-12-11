@@ -9,7 +9,7 @@ Provides efficient containers for storing and manipulating short genomic alignme
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GenomicAlignments.html
-Versions 1.10.0
+Versions 1.10.0, 1.6.0, 1.6.1, 1.6.3, 1.8.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicalignments
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-genomicalignments
 

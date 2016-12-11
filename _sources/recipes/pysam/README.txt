@@ -9,7 +9,7 @@ Pysam is a python module for reading and manipulating Samfiles. It is a lightwei
 
 ======== ===========
 Home     https://github.com/pysam-developers/pysam
-Versions 0.9.1.4, 0.8.3, 0.9.1
+Versions 0.8.3, 0.8.4, 0.8.4pre0, 0.9.0, 0.9.1, 0.9.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysam
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pysam
 

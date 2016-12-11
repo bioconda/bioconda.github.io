@@ -9,7 +9,7 @@ Rapid Mapping-based Isoform Quantification from RNA-Seq Reads
 
 ======== ===========
 Home     http://www.cs.cmu.edu/~ckingsf/software/sailfish/
-Versions 0.10.1
+Versions 0.10.1, 0.7.6, 0.9.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sailfish
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install sailfish
 

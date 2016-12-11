@@ -9,7 +9,7 @@ The BD2K Python module kitchen sink
 
 ======== ===========
 Home     https://github.com/BD2KGenomics/bd2k-python-lib
-Versions 1.14a1.dev37
+Versions 1.13.dev14, 1.14a1.dev28, 1.14a1.dev29, 1.14a1.dev33, 1.14a1.dev37
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bd2k-python-lib
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bd2k-python-lib
 

@@ -9,7 +9,7 @@ Accelerated BLAST compatible local sequence aligner
 
 ======== ===========
 Home     http://ab.inf.uni-tuebingen.de/software/diamond/
-Versions 0.8.24, 0.8.22
+Versions 0.7.10, 0.8.22, 0.8.24, 0.8.9
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond/0.8.24
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install diamond
 

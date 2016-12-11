@@ -9,7 +9,7 @@ Differential Expression analysis at both gene and isoform level using RNA-seq da
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/EBSeq.html
-Versions 1.14.0
+Versions 1.12.0, 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-ebseq
 

@@ -9,7 +9,7 @@ High-performing functions operating on rows and columns of matrices, e.g. col / 
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/matrixStats
-Versions 0.51.0
+Versions 0.50.1, 0.51.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-matrixstats
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-matrixstats
 

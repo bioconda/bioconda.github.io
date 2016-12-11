@@ -9,7 +9,7 @@ A Portable Foreign Function Interface Library
 
 ======== ===========
 Home     https://sourceware.org/libffi/
-Versions 3.2.1, 3.0.13
+Versions 3.0.13, 3.2.1
 License  https://raw.githubusercontent.com/atgreen/libffi/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libffi
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install libffi
 

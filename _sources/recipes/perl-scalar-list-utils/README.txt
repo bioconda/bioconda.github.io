@@ -11,7 +11,7 @@ Common Scalar and List utility subroutines
 Home     http://metacpan.org/pod/Scalar-List-Utils
 Versions 1.42, 1.45
 License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-list-utils/1.42
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-list-utils/1.45
 ======== ===========
 
 Installation
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-scalar-list-utils
 

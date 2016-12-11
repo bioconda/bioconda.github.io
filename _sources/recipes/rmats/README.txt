@@ -9,7 +9,7 @@ MATS is a computational tool to detect differential alternative splicing events 
 
 ======== ===========
 Home     http://rnaseq-mats.sourceforge.net
-Versions 3.2.5
+Versions 3.2.2beta, 3.2.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmats
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rmats
 

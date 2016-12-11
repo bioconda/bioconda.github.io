@@ -9,7 +9,7 @@ The package is focused on finding differential exon usage using RNA-seq exon cou
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/DEXSeq.html
-Versions 1.18.4
+Versions 1.16.6
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexseq
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-dexseq
 

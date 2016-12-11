@@ -9,7 +9,7 @@ create mafFrames tables from a genePreds
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332
+Versions 324, 332
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtomafframes
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ucsc-genepredtomafframes
 

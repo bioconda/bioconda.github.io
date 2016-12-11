@@ -9,7 +9,7 @@ A set of annotation maps for KEGG assembled using data from KEGG
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/annotation/html/KEGG.db.html
-Versions 3.2.3
+Versions 3.2.2, 3.2.3
 License  file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegg.db
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-kegg.db
 

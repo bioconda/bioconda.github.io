@@ -9,7 +9,7 @@ CloudMan and Galaxy API library
 
 ======== ===========
 Home     http://bioblend.readthedocs.org/
-Versions 0.8.0, 0.7.0
+Versions 0.7.0, 0.8.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioblend
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioblend
 

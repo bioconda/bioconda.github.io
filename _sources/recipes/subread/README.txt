@@ -9,7 +9,7 @@ High-performance read alignment, quantification, and mutation discovery
 
 ======== ===========
 Home     http://subread.sourceforge.net/
-Versions 1.5.0.post3
+Versions 1.4.6p5, 1.5.0, 1.5.0.post3, 1.5.0p3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install subread
 

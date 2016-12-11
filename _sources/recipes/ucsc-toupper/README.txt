@@ -9,7 +9,7 @@ Convert lower case to upper case in file. Leave other chars alone
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332
+Versions 324, 332
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-toupper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ucsc-toupper
 

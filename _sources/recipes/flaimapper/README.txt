@@ -9,7 +9,7 @@ FlaiMapper: Detecting small ncRNA derived fragments in small RNA-Seq data
 
 ======== ===========
 Home     https://github.com/yhoogstrate/flaimapper/
-Versions 2.3.4
+Versions 2.0.0, 2.3.3, 2.3.4
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flaimapper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install flaimapper
 

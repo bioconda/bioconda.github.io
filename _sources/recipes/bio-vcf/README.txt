@@ -9,7 +9,7 @@ Smart VCF parser
 
 ======== ===========
 Home     https://github.com/pjotrp/bioruby-vcf
-Versions 0.9.2
+Versions 0.9.0, 0.9.1, 0.9.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bio-vcf
 

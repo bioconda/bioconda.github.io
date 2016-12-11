@@ -9,7 +9,7 @@ Gnuplot, plotting from command line
 
 ======== ===========
 Home     https://github.com/gnuplot/gnuplot
-Versions 5.0.4, 4.6.0
+Versions 4.6.0, 5.0.3, 5.0.4
 License  Gnuplot License + others
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnuplot
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gnuplot
 

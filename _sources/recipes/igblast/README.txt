@@ -9,7 +9,7 @@ A tool for analyzing immunoglobulin (IG) and T cell receptor (TR) sequences.
 
 ======== ===========
 Home     http://www.ncbi.nlm.nih.gov/projects/igblast/
-Versions 1.5.0, 1.4.0
+Versions 1.4.0, 1.5.0
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igblast
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install igblast
 

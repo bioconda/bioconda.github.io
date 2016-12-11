@@ -9,7 +9,7 @@ Arvados Common Workflow Language runner
 
 ======== ===========
 Home     https://github.com/curoverse/arvados/tree/master/sdk/cwl
-Versions 1.0.20161123235904
+Versions 1.0.20160311144647, 1.0.20160314171956, 1.0.20160318143738, 1.0.20160323, 1.0.20160401183214, 1.0.20160406195023, 1.0.20160411202258, 1.0.20160421150319, 1.0.20160502202716, 1.0.20160715171107, 1.0.20161031135838, 1.0.20161123235904
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-cwl-runner
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install arvados-cwl-runner
 

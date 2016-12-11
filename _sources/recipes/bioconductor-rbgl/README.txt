@@ -9,7 +9,7 @@ A fairly extensive and comprehensive interface to the graph algorithms contained
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/RBGL.html
-Versions 1.48.1
+Versions 1.46.0, 1.48.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-rbgl
 

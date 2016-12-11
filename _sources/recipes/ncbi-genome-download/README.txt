@@ -9,7 +9,7 @@ Download genome files from the NCBI FTP server.
 
 ======== ===========
 Home     https://github.com/kblin/ncbi-genome-download/
-Versions 0.2.2
+Versions 0.1.8, 0.2.0, 0.2.2
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ncbi-genome-download
 

@@ -9,7 +9,7 @@ Design PCR primers from DNA sequence. From mispriming libraries to sequence qual
 
 ======== ===========
 Home     http://primer3.sourceforge.net/
-Versions 2.3.7, 1.1.4
+Versions 1.1.4, 2.3.7
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install primer3
 

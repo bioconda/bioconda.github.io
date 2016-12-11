@@ -9,7 +9,7 @@ Common utilities to ease the development of Python packages
 
 ======== ===========
 Home     
-Versions 0.9.14
+Versions 0.9.11, 0.9.14
 License  GNU Library or Lesser General Public License (LGPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/easydev
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install easydev
 

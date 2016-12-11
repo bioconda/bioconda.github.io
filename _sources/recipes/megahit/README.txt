@@ -9,7 +9,7 @@ MEGAHIT: An ultra-fast single-node solution for large and complex metagenomics a
 
 ======== ===========
 Home     https://github.com/voutcn/megahit
-Versions 1.0.6
+Versions 1.0.3, 1.0.6
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install megahit
 

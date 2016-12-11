@@ -9,7 +9,7 @@ A Python library to read/write Excel 2010 xlsx/xlsm files
 
 ======== ===========
 Home     http://openpyxl.readthedocs.org
-Versions 2.4.0, 1.8.6
+Versions 1.8.6, 2.4.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openpyxl
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install openpyxl
 

@@ -9,7 +9,7 @@ Tool to easily start up an IPython cluster on different schedulers
 
 ======== ===========
 Home     https://github.com/roryk/ipython-cluster-helper
-Versions 0.5.3
+Versions 0.5.0, 0.5.1, 0.5.2, 0.5.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipython-cluster-helper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ipython-cluster-helper
 

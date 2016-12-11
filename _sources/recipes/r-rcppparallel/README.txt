@@ -9,7 +9,7 @@ High level functions for parallel programming with 'Rcpp'. For example, the 'par
 
 ======== ===========
 Home     http://rcppcore.github.io/RcppParallel, https://github.com/RcppCore/RcppParallel
-Versions 4.3.20
+Versions 4.3.19, 4.3.20
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rcppparallel
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-rcppparallel
 

@@ -9,7 +9,7 @@ A python interface to the 2D triangulation program TRIANGLE
 
 ======== ===========
 Home     https://github.com/pletzer/pytriangle
-Versions 1.0.9
+Versions 1.0.0, 1.0.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytriangle
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pytriangle
 

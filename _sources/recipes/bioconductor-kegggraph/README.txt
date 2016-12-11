@@ -9,7 +9,7 @@ KEGGGraph is an interface between KEGG pathway and graph object as well as a col
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/KEGGgraph.html
-Versions 1.30.0
+Versions 1.28.0, 1.30.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegggraph
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-kegggraph
 

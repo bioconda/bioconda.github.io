@@ -9,7 +9,7 @@ Access to Biological Web Services from Python
 
 ======== ===========
 Home     
-Versions 1.4.10
+Versions 1.4.10, 1.4.5, 1.4.7
 License  GNU Library or Lesser General Public License (LGPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioservices
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioservices
 

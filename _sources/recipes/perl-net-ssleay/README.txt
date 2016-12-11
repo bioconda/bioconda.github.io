@@ -9,7 +9,7 @@ Perl extension for using OpenSSL
 
 ======== ===========
 Home     http://metacpan.org/pod/Net-SSLeay
-Versions 1.74
+Versions 1.72, 1.74
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ssleay
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-net-ssleay
 

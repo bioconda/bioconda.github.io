@@ -9,7 +9,7 @@ This package provides classes and methods to support Gene Set Enrichment Analysi
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GSEABase.html
-Versions 1.34.1
+Versions 1.32.0, 1.34.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-gseabase
 

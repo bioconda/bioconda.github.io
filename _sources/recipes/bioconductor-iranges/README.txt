@@ -9,7 +9,7 @@ The package provides efficient low-level and highly reusable S4 classes for stor
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/IRanges.html
-Versions 2.8.0, 2.4.6, 2.4.7
+Versions 2.2.9, 2.4.0, 2.4.1, 2.4.6, 2.4.7, 2.4.8, 2.6.0, 2.6.1, 2.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iranges
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-iranges
 

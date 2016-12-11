@@ -9,7 +9,7 @@ Memory efficient S4 classes for storing sequences "externally" (behind an R exte
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/XVector.html
-Versions 0.12.1
+Versions 0.10.0, 0.12.1, 0.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xvector
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-xvector
 

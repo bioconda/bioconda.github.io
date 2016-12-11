@@ -9,7 +9,7 @@ Filtering and profiling of next-generational sequencing data using region-specif
 
 ======== ===========
 Home     https://github.com/jwalabroad/VariantBam
-Versions 1.3.0
+Versions 1.2.1_2015.01.08, 1.3.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variantbam
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install variantbam
 

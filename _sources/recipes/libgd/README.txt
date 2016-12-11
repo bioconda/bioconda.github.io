@@ -9,7 +9,7 @@ libgd
 
 ======== ===========
 Home     http://libgd.github.io/
-Versions 2.2.3
+Versions 2.1.1, 2.1.1.bioconda, 2.1.1post, 2.2.3
 License  Custom OSS
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgd
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install libgd
 

@@ -9,7 +9,7 @@ Framework for testing CWL tools and workflows
 
 ======== ===========
 Home     https://github.com/common-workflow-language/cwltest
-Versions 1.0.20161124105442
+Versions 1.0.20160907111242, 1.0.20161124105442
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwltest
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cwltest
 

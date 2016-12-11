@@ -9,7 +9,7 @@ Regular expression-based Perl Parser for NCBI Entrez Gene
 
 ======== ===========
 Home     http://search.cpan.org/dist/Bio-ASN1-EntrezGene
-Versions 1.72
+Versions 1.70, 1.72
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-asn1-entrezgene
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-bio-asn1-entrezgene
 

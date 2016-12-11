@@ -9,7 +9,7 @@ Data analysis, linear models and differential expression for microarray data.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/limma.html
-Versions 3.28.21, 3.28.6, 3.26.7, 3.28.2
+Versions 3.24.15, 3.26.0, 3.26.1, 3.26.3, 3.26.7, 3.26.9, 3.27.4, 3.28.10, 3.28.2, 3.28.21, 3.28.6, 3.29.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-limma
 

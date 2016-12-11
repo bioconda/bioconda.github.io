@@ -9,7 +9,7 @@ A C++ header-only library for reading Oxford Nanopore Fast5 files
 
 ======== ===========
 Home     https://github.com/mateidavid/fast5
-Versions 0.5.6
+Versions 0.2.0, 0.5.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast5
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install fast5
 

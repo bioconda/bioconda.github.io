@@ -9,7 +9,7 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 ======== ===========
 Home     https://github.com/samtools/bcftools
-Versions 1.3.1, 1.2, 1.3
+Versions 1.2, 1.3, 1.3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools/1.3.1
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bcftools
 

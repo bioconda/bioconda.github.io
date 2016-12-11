@@ -9,7 +9,7 @@ Identifies global ("unknown") objects in R expressions by code inspection using 
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/globals
-Versions 0.7.1, 0.6.0
+Versions 0.6.0, 0.7.1
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-globals
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-globals
 

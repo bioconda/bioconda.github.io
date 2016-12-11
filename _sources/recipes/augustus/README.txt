@@ -9,7 +9,7 @@ AUGUSTUS is a gene prediction program for eukaryotes written by Mario Stanke and
 
 ======== ===========
 Home     http://bioinf.uni-greifswald.de/augustus/
-Versions 3.2.2, 3.1
+Versions 3.1, 3.2.2
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/augustus/3.2.2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install augustus
 

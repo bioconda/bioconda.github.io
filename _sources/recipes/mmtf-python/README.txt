@@ -9,7 +9,7 @@ A decoding libary for the PDB mmtf format
 
 ======== ===========
 Home     http://mmtf.rcsb.org
-Versions 1.0.5
+Versions 1.0.2, 1.0.5
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmtf-python
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install mmtf-python
 

@@ -9,7 +9,7 @@ Convert genomic coordiates between assemblies
 
 ======== ===========
 Home     http://crossmap.sourceforge.net
-Versions 0.2.2
+Versions 0.2.1, 0.2.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossmap
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install crossmap
 

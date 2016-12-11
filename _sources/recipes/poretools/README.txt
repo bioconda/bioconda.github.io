@@ -9,7 +9,7 @@ poretools: a toolkit for working with nanopore sequencing data from Oxford Nanop
 
 ======== ===========
 Home     http://poretools.readthedocs.org/en/latest/
-Versions 0.6.0, 0.5.1, 0.5.0
+Versions 0.5.0, 0.5.1, 0.6.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poretools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install poretools
 

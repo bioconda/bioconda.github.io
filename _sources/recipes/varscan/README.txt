@@ -9,7 +9,7 @@ variant detection in massively parallel sequencing data
 
 ======== ===========
 Home     http://dkoboldt.github.io/varscan/
-Versions 2.4.2, 2.3.7
+Versions 2.3.7, 2.4.0, 2.4.1, 2.4.2
 License  The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install varscan
 

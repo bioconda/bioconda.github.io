@@ -9,7 +9,7 @@ Rmd templates for bcbio-nextgen analysis
 
 ======== ===========
 Home     https://github.com/lpantano/bcbio.coverage
-Versions 0.99.29
+Versions 0.99.20, 0.99.21, 0.99.22, 0.99.23, 0.99.24, 0.99.25, 0.99.26, 0.99.27, 0.99.28, 0.99.29
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbreport
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bcbreport
 

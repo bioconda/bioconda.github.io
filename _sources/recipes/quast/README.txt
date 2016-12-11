@@ -9,7 +9,7 @@ Quality Assessment Tool for Genome Assemblies
 
 ======== ===========
 Home     https://sourceforge.net/projects/quast/
-Versions 4.1
+Versions 3.2, 4.1
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install quast
 

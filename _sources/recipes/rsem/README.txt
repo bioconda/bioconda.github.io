@@ -9,7 +9,7 @@ RSEM (RNA-Seq by Expectation-Maximization)
 
 ======== ===========
 Home     http://deweylab.biostat.wisc.edu/rsem/
-Versions 1.2.28
+Versions 1.2.22, 1.2.28
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rsem
 

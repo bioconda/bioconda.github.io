@@ -9,7 +9,7 @@ A sensitive variant caller for both single and paired sample variant calling
 
 ======== ===========
 Home     https://github.com/AstraZeneca-NGS/VarDict
-Versions 2016.02.19
+Versions 2015.10.30, 2016.02.19
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install vardict
 

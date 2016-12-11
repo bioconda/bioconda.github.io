@@ -9,7 +9,7 @@ Simple wrapper around alignlib C++ library for sequence alignment
 
 ======== ===========
 Home     http://sourceforge.net/projects/alignlib/
-Versions 0.3
+Versions 0.2.3, 0.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install alignlib-lite
 

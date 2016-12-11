@@ -9,7 +9,7 @@ ggtree extends the ggplot2 plotting system which implemented the grammar of grap
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ggtree.html
-Versions 1.4.20
+Versions 1.2.12, 1.4.20
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-ggtree
 

@@ -9,7 +9,7 @@ Structural variant discovery by integrated paired-end and split-read analysis
 
 ======== ===========
 Home     https://github.com/tobiasrausch/delly
-Versions 0.7.6, 0.7.2
+Versions 0.7.2, 0.7.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install delly
 

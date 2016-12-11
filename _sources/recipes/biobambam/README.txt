@@ -9,7 +9,7 @@ Tools for early stage alignment file processing
 
 ======== ===========
 Home     https://github.com/gt1/biobambam2
-Versions 2.0.62
+Versions 2.0.25, 2.0.39, 2.0.42, 2.0.44, 2.0.57, 2.0.58, 2.0.62
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install biobambam
 

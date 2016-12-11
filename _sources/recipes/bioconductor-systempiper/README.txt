@@ -9,7 +9,7 @@ R package for building and running automated end-to-end analysis workflows for a
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/systemPipeR.html
-Versions 1.8.1
+Versions 1.4.7, 1.4.8
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-systempiper
 

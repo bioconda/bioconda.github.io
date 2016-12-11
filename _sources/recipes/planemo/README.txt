@@ -9,7 +9,7 @@ Command-line utilities to assist in building tools for the Galaxy project (http:
 
 ======== ===========
 Home     https://github.com/galaxyproject/planemo
-Versions 0.34.1, 0.23.0
+Versions 0.23.0, 0.29.1, 0.33.2, 0.34.1
 License  Academic Free License (AFL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install planemo
 

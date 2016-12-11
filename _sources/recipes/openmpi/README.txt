@@ -9,7 +9,7 @@ Open MPI: A high performance message passing library
 
 ======== ===========
 Home     http://www.open-mpi.org/
-Versions 2.0.1, test
+Versions 2.0.1
 License  BSD (https://www.open-mpi.org/community/license.php)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmpi
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install openmpi
 

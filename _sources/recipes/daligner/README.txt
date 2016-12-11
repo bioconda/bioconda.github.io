@@ -9,7 +9,7 @@ DALIGNER: Find all significant local alignments between reads
 
 ======== ===========
 Home     https://github.com/thegenemyers/DALIGNER
-Versions 1.0p1
+Versions 1.0, 1.0p1
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daligner
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install daligner
 

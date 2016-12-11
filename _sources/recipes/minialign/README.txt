@@ -9,7 +9,7 @@ Fast and accurate alignment tool for PacBio and Nanopore long reads.
 
 ======== ===========
 Home     https://github.com/ocxtal/minialign
-Versions 0.4.2
+Versions 0.3.1, 0.4.0, 0.4.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minialign
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install minialign
 

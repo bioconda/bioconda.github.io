@@ -9,7 +9,7 @@ A framework to process and analyze data from high-throughput sequencing (HTS) as
 
 ======== ===========
 Home     http://www-huber.embl.de/users/anders/HTSeq/
-Versions 0.6.1.post1, 0.6.1
+Versions 0.6.1, 0.6.1.post1, 0.6.1p1
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install htseq
 

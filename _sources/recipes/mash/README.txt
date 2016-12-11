@@ -9,7 +9,7 @@ Fast sequence distance estimator that uses MinHash
 
 ======== ===========
 Home     https://github.com/marbl/Mash
-Versions 1.1
+Versions 1.0.2, 1.1
 License  https://raw.githubusercontent.com/marbl/Mash/master/LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mash
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install mash
 

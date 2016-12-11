@@ -9,7 +9,7 @@ Set of programs to process, analyze and visualize Hi-C data
 
 ======== ===========
 Home     https://github.com/maxplanck-ie/HiCExplorer
-Versions 1.3
+Versions 0.1, 1.1a, 1.2, 1.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install hicexplorer
 

@@ -9,7 +9,7 @@ Stacks is a software pipeline for building loci from RAD-seq
 
 ======== ===========
 Home     http://catchenlab.life.illinois.edu/stacks/
-Versions 1.42, 1.37, 1.40
+Versions 1.37, 1.40, 1.42
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install stacks
 

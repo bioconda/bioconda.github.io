@@ -9,7 +9,7 @@ This framework allows you to design and implement complex pipelines, and deploy 
 
 ======== ===========
 Home     https://github.com/sahilseth/flowr
-Versions 0.9.10
+Versions 0.9.10, 0.9.9.5
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-flowr
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-flowr
 

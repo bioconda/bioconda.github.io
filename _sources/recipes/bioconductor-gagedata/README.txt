@@ -9,7 +9,7 @@ This is a supportive data package for the software package, gage. However, the d
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/experiment/html/gageData.html
-Versions 2.10.0
+Versions 2.10.0, 2.8.0
 License  GPL (>=2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gagedata
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-gagedata
 

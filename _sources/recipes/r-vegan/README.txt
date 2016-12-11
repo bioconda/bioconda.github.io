@@ -9,9 +9,9 @@ Ordination methods, diversity analysis and other functions for community and veg
 
 ======== ===========
 Home     http://cran.r-project.org, https://github.com/vegandevs/vegan
-Versions 2.3_0, 2.3_4, 2.3_3
+Versions 2.3_0, 2.3_2, 2.3_3, 2.3_4
 License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-vegan/2.3_0
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-vegan/2.3_3
 ======== ===========
 
 Installation
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-vegan
 

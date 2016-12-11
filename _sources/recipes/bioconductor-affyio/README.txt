@@ -9,7 +9,7 @@ Routines for parsing Affymetrix data files based upon file format information. P
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/affyio.html
-Versions 1.42.0
+Versions 1.40.0, 1.42.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyio
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-affyio
 

@@ -9,7 +9,7 @@ Some basic functions for filtering genes
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/genefilter.html
-Versions 1.54.2
+Versions 1.50.0, 1.51.0, 1.52.0, 1.52.1, 1.54.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-genefilter
 

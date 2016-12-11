@@ -9,7 +9,7 @@ MUSCLE: multiple sequence alignment with high accuracy and high throughput
 
 ======== ===========
 Home     http://www.drive5.com/muscle/
-Versions 3.8.1551
+Versions 3.8.1551, 3.8.31
 License  http://www.drive5.com/muscle/manual/license.html
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install muscle
 

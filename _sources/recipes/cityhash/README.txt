@@ -9,7 +9,7 @@ Python-bindings for CityHash, a fast non-cryptographic hash algorithm
 
 ======== ===========
 Home     https://github.com/escherba/python-cityhash
-Versions 0.1.7
+Versions 0.1.5, 0.1.7
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cityhash
 

@@ -9,7 +9,7 @@ Tool for motif conservation analysis
 
 ======== ===========
 Home     https://github.com/saketkc/moca
-Versions 0.3.3
+Versions 0.2.9, 0.3.3
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moca
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install moca
 

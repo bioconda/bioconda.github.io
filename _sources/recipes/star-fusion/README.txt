@@ -9,7 +9,7 @@ A fusion gene caller for STAR. The FusionFilter tools to create needed index dat
 
 ======== ===========
 Home     https://github.com/STAR-Fusion/STAR-Fusion
-Versions 0.5.4
+Versions 0.4.0, 0.5.3, 0.5.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install star-fusion
 

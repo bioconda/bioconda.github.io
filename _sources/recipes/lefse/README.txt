@@ -9,7 +9,7 @@ LDA Effect Size (LEfSe) (Segata et. al 2010) is an algorithm for high-dimensiona
 
 ======== ===========
 Home     https://bitbucket.org/nsegata/lefse
-Versions 1.0.7.post1
+Versions 1.0.7, 1.0.7.post1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install lefse
 

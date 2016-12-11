@@ -9,7 +9,7 @@ r-ggally
 
 ======== ===========
 Home     https://ggobi.github.io/ggally, https://github.com/ggobi/ggally
-Versions 1.3.0, 0.5.0
+Versions 0.5.0, 1.3.0
 License  GPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggally
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-ggally
 

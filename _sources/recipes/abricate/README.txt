@@ -9,7 +9,7 @@ Mass screening of contigs for antibiotic resistance genes
 
 ======== ===========
 Home     https://github.com/tseemann/abricate
-Versions 0.3
+Versions 0.2, 0.3
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abricate
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install abricate
 

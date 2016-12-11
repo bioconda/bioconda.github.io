@@ -9,7 +9,7 @@ Python interface to the R language (embedded R)
 
 ======== ===========
 Home     http://rpy.sourceforge.net
-Versions 2.7.8
+Versions 2.7.6, 2.7.8
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpy2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rpy2
 

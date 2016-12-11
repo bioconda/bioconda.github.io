@@ -9,7 +9,7 @@ A set of scripts and tools for the analysis of viral NGS data
 
 ======== ===========
 Home     https://github.com/broadinstitute/viral-ngs
-Versions 1.12.2
+Versions 1.10.1, 1.11.0, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.5.4, 1.5.5, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.9.0, 1.9.1, 1.9.2
 License  https://raw.githubusercontent.com/broadinstitute/viral-ngs/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral-ngs
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install viral-ngs
 

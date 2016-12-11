@@ -9,7 +9,7 @@ A read visualizer for structural variants
 
 ======== ===========
 Home     https://github.com/svviz/svviz
-Versions 1.5.1
+Versions 1.4.0, 1.5.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svviz
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install svviz
 

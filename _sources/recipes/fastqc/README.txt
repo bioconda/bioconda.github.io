@@ -9,7 +9,7 @@ A quality control tool for high throughput sequence data.
 
 ======== ===========
 Home     http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
-Versions 0.11.5, 0.11.3, 0.10.1
+Versions 0.10.1, 0.11.2, 0.11.3, 0.11.4, 0.11.5
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install fastqc
 

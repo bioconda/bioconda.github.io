@@ -9,7 +9,7 @@ Rapid sensitive and accurate read mapping via quasi-mapping
 
 ======== ===========
 Home     https://github.com/COMBINE-lab/RapMap
-Versions v0.2.1
+Versions v0.1.0pre, v0.2.0, v0.2.1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapmap
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rapmap
 

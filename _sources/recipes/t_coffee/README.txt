@@ -9,7 +9,7 @@ A collection of tools for Computing, Evaluating and Manipulating Multiple Alignm
 
 ======== ===========
 Home     http://www.tcoffee.org/Projects/tcoffee/
-Versions 11.0.8, t_coffee
+Versions 11.0.8
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t_coffee
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install t_coffee
 

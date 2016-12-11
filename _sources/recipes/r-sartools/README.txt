@@ -9,7 +9,7 @@ SARTools provides R tools and an environment for the statistical analysis of RNA
 
 ======== ===========
 Home     https://github.com/PF2-pasteur-fr/SARTools
-Versions 1.3.2, 1.2.0
+Versions 1.2.0, 1.3.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sartools/1.3.2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-sartools
 

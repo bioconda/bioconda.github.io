@@ -9,7 +9,7 @@ Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout.
 
 ======== ===========
 Home     http://mageck.sourceforge.net
-Versions 0.5.4
+Versions 0.5.2, 0.5.3, 0.5.4
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install mageck
 

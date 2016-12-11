@@ -9,7 +9,7 @@ sed (stream editor)
 
 ======== ===========
 Home     http://www.gnu.org/software/sed/
-Versions 4.2.3.dev0
+Versions 4.2.2, 4.2.3.dev0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sed
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install sed
 

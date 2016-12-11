@@ -9,7 +9,7 @@ This tool provides a preliminary annotation of your DNA sequence(s) based upon t
 
 ======== ===========
 Home     https://card.mcmaster.ca
-Versions 3.1.1
+Versions 3.1.0, 3.1.1
 License  https://card.mcmaster.ca/about
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgi
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rgi
 

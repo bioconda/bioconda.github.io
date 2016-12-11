@@ -9,7 +9,7 @@ Coverage analysis tool for clinical sequencing
 
 ======== ===========
 Home     http://www.chanjo.co/
-Versions 3.3.0
+Versions 3.1.1, 3.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chanjo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install chanjo
 

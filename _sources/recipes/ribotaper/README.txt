@@ -9,7 +9,7 @@ RiboTaper is a new analysis pipeline for Ribosome Profiling (Ribo-seq) experimen
 
 ======== ===========
 Home     https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/
-Versions 1.3.1a
+Versions 1.3.1, 1.3.1a
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotaper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ribotaper
 

@@ -9,7 +9,7 @@ Exploratory analysis and visualization of high-throughput sequencing data
 
 ======== ===========
 Home     https://github.com/simonvh/fluff
-Versions 2.1.0
+Versions 2.0.1, 2.0.2, 2.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install biofluff
 

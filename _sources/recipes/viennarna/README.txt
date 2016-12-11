@@ -9,7 +9,7 @@ Vienna RNA package -- RNA secondary structure prediction and comparison
 
 ======== ===========
 Home     http://www.tbi.univie.ac.at/RNA/
-Versions 2.3.1, 2.2.9, 2.2.8, 2.1.8, 2.1.9, 2.3.0, 2.2.7, 2.2.5, 2.2.10, 1.8.5, 2.1.5
+Versions 1.8.5, 2.1.5, 2.1.8, 2.1.9, 2.2.10, 2.2.5, 2.2.7, 2.2.8, 2.2.9, 2.3.0, 2.3.1
 License  custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viennarna
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install viennarna
 

@@ -9,7 +9,7 @@ A YAML package for Python. It is a derivative of Kirill Simonov's PyYAML 3.11 wh
 
 ======== ===========
 Home     https://bitbucket.org/ruamel/yaml
-Versions 0.12.13
+Versions 0.11.11, 0.12.13
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruamel.yaml
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ruamel.yaml
 

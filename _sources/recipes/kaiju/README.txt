@@ -9,7 +9,7 @@ Fast and sensitive taxonomic classification for metagenomics
 
 ======== ===========
 Home     http://kaiju.binf.ku.dk/
-Versions 1.4.4, 1.0
+Versions 1.0, 1.4.4
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaiju
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install kaiju
 

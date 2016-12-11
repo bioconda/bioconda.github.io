@@ -9,7 +9,7 @@ Biosequence analysis using profile hidden Markov models
 
 ======== ===========
 Home     http://hmmer.janelia.org/
-Versions 3.1b2, 2.3.2
+Versions 2.3.2, 3.1b2
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install hmmer
 

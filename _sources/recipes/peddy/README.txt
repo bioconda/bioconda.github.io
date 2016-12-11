@@ -9,7 +9,7 @@ pleasingly pythonic pedigree manipulation
 
 ======== ===========
 Home     https://github.com/brentp/peddy
-Versions 0.2.5
+Versions 0.0.4, 0.1.1, 0.1.2, 0.1.3, 0.2.0, 0.2.2, 0.2.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peddy
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install peddy
 

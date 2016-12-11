@@ -9,7 +9,7 @@ Agilent "Mouse Genome,  Whole" annotation data (chip mgug4122a) assembled using 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/annotation/html/mgug4122a.db.html
-Versions 3.2.3
+Versions 3.2.2, 3.2.3
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgug4122a.db
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-mgug4122a.db
 

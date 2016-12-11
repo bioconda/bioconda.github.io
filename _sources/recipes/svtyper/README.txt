@@ -9,7 +9,7 @@ Bayesian genotyper for structural variants
 
 ======== ===========
 Home     https://github.com/hall-lab/svtyper
-Versions 0.0.4
+Versions 0.0.2, 0.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svtyper
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install svtyper
 

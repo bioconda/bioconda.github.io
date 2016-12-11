@@ -9,7 +9,7 @@ Snakemake is a workflow management system that aims to reduce the complexity of 
 
 ======== ===========
 Home     http://snakemake.bitbucket.org
-Versions 3.9.0
+Versions 3.4.2, 3.5.1, 3.5.2, 3.5.3, 3.5.4, 3.5.5, 3.6.0, 3.6.1, 3.7.0, 3.7.1, 3.8.0, 3.8.1, 3.8.2, 3.9.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install snakemake
 

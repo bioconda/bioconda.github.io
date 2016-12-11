@@ -9,7 +9,7 @@ The Zulu OpenJDK build.
 
 ======== ===========
 Home     http://www.azulsystems.com/products/zulu
-Versions 8.0.92, 7.0.91, 6.0.77
+Versions 6.0.77, 7.0.91, 8.0.45, 8.0.92
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/java-jdk
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install java-jdk
 

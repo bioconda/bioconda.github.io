@@ -9,7 +9,7 @@ Data objects in R can be rendered as HTML tables using the JavaScript library 'D
 
 ======== ===========
 Home     http://rstudio.github.io/DT
-Versions 0.2
+Versions 0.1, 0.2
 License  GPL-3 | file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dt
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-dt
 

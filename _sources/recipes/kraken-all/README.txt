@@ -9,7 +9,7 @@ This metapackage installs kraken with optional dependency jellyfish for building
 
 ======== ===========
 Home     http://ccb.jhu.edu/software/kraken/
-Versions 0.10.6_eaf8fb68, 0.10.5beta
+Versions 0.10.5beta, 0.10.6_eaf8fb68
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-all
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install kraken-all
 

@@ -9,7 +9,7 @@ Post-processor for TopHat unmapped reads
 
 ======== ===========
 Home     https://github.com/cbrueffer/tophat-recondition
-Versions 1.4
+Versions 1.1, 1.2, 1.3, 1.4
 License  BSD_2_clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install tophat-recondition
 

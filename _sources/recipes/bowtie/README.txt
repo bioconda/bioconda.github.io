@@ -9,7 +9,7 @@ An ultrafast memory-efficient short read aligner
 
 ======== ===========
 Home     https://github.com/BenLangmead/bowtie
-Versions 1.1.2, 1.0.0
+Versions 1.0.0, 1.1.2
 License  Artistic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bowtie
 

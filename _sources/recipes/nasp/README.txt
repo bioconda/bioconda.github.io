@@ -9,7 +9,7 @@ The Northern Arizona SNP Pipeline (NASP)
 
 ======== ===========
 Home     https://github.com/TGenNorth/nasp
-Versions 1.0.2a1
+Versions 1.0.1, 1.0.2a1
 License  Academic and Research License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasp
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install nasp
 

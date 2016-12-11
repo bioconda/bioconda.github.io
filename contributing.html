@@ -1,0 +1,150 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Contributing &mdash; Bioconda  documentation</title>
+    
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    './',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="top" title="Bioconda  documentation" href="index.html" />
+    <link rel="next" title="One-time setup" href="contrib-setup.html" />
+    <link rel="prev" title="zifa" href="recipes/zifa/README.html" />
+<link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="_static/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">  
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.js"></script>
+
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+    $('#recipestable').DataTable( {
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
+} );
+</script>
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="contributing">
+<h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<p>Bioconda is completely dependent on contributors to add, update, and maintain
+recipes. Every little bit helps! Below are instructions for one-time setup as
+well as a general procedure to follow for each recipe you&#8217;d like to add.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="contrib-setup.html">One-time setup</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contrib-setup.html#git-and-github-one-time-setup">Git and GitHub (one-time setup)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contrib-setup.html#install-conda-and-docker-one-time-setup">Install conda and Docker (one-time setup)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html#update-repo-and-requirements">Update repo and requirements</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html#write-a-recipe">Write a recipe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html#test-locally">Test locally</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html#push-changes-wait-for-tests-to-pass-submit-pull-request">Push changes, wait for tests to pass, submit pull request</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html#use-your-new-recipe">Use your new recipe</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="troubleshooting.html">Troubleshooting failed recipes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#reading-bioconda-utils-logs-on-travis-ci">Reading bioconda-utils logs on Travis-CI</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#http-500-errors">HTTP 500 errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#http-404-errors">HTTP 404 errors</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html#zlib-errors">ZLIB errors</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal"><span class="pre">bioconda</span></code> recipes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#bioconda-recipe-checklist">bioconda recipe checklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#examples">Examples</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#name-collisions">Name collisions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#tests">Tests</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#link-and-unlink-scripts-pre-and-post-install-hooks">Link and unlink scripts (pre- and post- install hooks)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html#versions">Versions</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="index.html">
+    <img class="logo" src="_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="recipes.html">Available packages</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Contributing</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a></li>
+<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a></li>
+<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting failed recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal"><span class="pre">bioconda</span></code> recipes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.4.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
+      
+      |
+      <a href="_sources/contributing.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

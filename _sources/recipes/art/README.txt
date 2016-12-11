@@ -9,7 +9,7 @@ Illumina, 454 and Solid read simulator
 
 ======== ===========
 Home     http://www.niehs.nih.gov/research/resources/software/biostatistics/art/
-Versions 3.19.15, 3.11.14
+Versions 3.11.14, 3.19.15
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install art
 

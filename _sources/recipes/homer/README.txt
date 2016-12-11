@@ -9,7 +9,7 @@ Software for motif discovery and next generation sequencing analysis
 
 ======== ===========
 Home     http://homer.salk.edu/homer/
-Versions 4.8.3
+Versions 4.8, 4.8.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install homer
 

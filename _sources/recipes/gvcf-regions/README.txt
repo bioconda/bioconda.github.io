@@ -9,7 +9,7 @@ Convert a gVCF file in multiple formats into a BED file of callable regions
 
 ======== ===========
 Home     https://github.com/lijiayong/gvcf_regions
-Versions 2016.06.23
+Versions 2016.05.20, 2016.05.24, 2016.06.21, 2016.06.23
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcf-regions
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gvcf-regions
 

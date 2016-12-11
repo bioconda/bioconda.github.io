@@ -9,7 +9,7 @@ Gene Set Enrichment Analysis in Python
 
 ======== ===========
 Home     https://github.com/BioNinja/gseapy
-Versions 0.7.3
+Versions 0.4.2, 0.5.2a0, 0.5.3, 0.6.0, 0.6.2, 0.7.2, 0.7.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gseapy
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gseapy
 

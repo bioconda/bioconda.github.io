@@ -9,7 +9,7 @@ Schema Annotations for Linked Avro Data (SALAD)
 
 ======== ===========
 Home     https://github.com/common-workflow-language/schema_salad
-Versions 1.20.20161122192122
+Versions 1.14.20160708181155, 1.18.20160907135919, 1.18.20160930145650, 1.18.20161005190847, 1.20.20161122192122, 1.7, 1.7.20160316203940
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schema-salad
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install schema-salad
 

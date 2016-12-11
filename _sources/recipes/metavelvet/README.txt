@@ -9,7 +9,7 @@ MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly fro
 
 ======== ===========
 Home     http://metavelvet.dna.bio.keio.ac.jp
-Versions 1.2.02, 1.1.01
+Versions 1.1.01, 1.2.02
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install metavelvet
 

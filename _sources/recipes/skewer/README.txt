@@ -9,7 +9,7 @@ A fast and accurate adapter trimmer for next-generation sequencing paired-end re
 
 ======== ===========
 Home     https://github.com/relipmoc/skewer.git
-Versions 0.2.2, 0.1.126
+Versions 0.1.126, 0.2.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install skewer
 

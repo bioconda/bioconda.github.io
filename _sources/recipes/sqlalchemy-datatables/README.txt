@@ -9,7 +9,7 @@ SQLAlchemy integration of jQuery DataTables
 
 ======== ===========
 Home     https://github.com/pegase745/sqlalchemy-datatables
-Versions 0.3.0
+Versions 0.2.1, 0.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-datatables
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install sqlalchemy-datatables
 

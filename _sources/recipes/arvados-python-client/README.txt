@@ -9,7 +9,7 @@ Python API for Arvados, an open source platform for managing and analyzing biome
 
 ======== ===========
 Home     https://github.com/curoverse/arvados/tree/master/sdk/python
-Versions 0.1.20161123074954
+Versions 0.1.20160301181511, 0.1.20160318153100, 0.1.20160331153549, 0.1.20160412193510, 0.1.20160517202250, 0.1.20161031135838, 0.1.20161123074954
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-python-client
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install arvados-python-client
 

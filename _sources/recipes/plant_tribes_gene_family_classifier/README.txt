@@ -9,9 +9,9 @@ Gene family classification pipeline
 
 ======== ===========
 Home     https://github.com/dePamphilis/PlantTribes
-Versions 0.2, 0.1
+Versions 0.1, 0.2
 License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_classifier/0.2
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_classifier/0.1
 ======== ===========
 
 Installation
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install plant_tribes_gene_family_classifier
 

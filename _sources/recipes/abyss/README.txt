@@ -9,7 +9,7 @@ Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
 
 ======== ===========
 Home     http://www.bcgsc.ca/platform/bioinfo/software/abyss
-Versions 2.0.1, 1.9.0
+Versions 1.9.0, 2.0.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install abyss
 

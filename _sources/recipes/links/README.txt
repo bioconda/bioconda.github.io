@@ -9,7 +9,7 @@ Long Interval Nucleotide K-mer Scaffolder
 
 ======== ===========
 Home     http://www.bcgsc.ca/platform/bioinfo/software/links
-Versions 1.8.4
+Versions 1.5.2, 1.8.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/links
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install links
 

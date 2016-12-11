@@ -9,7 +9,7 @@ Wraps BEDTools for use in Python and adds many additional features.
 
 ======== ===========
 Home     https://github.com/daler/pybedtools
-Versions 0.7.8
+Versions 0.7.0, 0.7.2, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedtools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pybedtools
 

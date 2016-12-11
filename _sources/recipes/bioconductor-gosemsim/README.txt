@@ -9,7 +9,7 @@ Implemented five methods proposed by Resnik, Schlicker, Jiang, Lin and Wang resp
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GOSemSim.html
-Versions 1.30.3
+Versions 1.28.2, 1.29.0, 1.30.3
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-gosemsim
 

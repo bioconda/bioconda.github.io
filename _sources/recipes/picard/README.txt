@@ -9,7 +9,7 @@ Java tools for working with NGS data in the BAM format
 
 ======== ===========
 Home     http://broadinstitute.github.io/picard/
-Versions 2.5.0, 2.7.1, 1.141, 1.126, 1.97, 2.0.1
+Versions 1.126, 1.139, 1.141, 1.97, 2.0.1, 2.3.0, 2.5.0, 2.7.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install picard
 

@@ -9,7 +9,7 @@ Characterization of miRNAs and isomiRs, clustering and differential expression.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/isomiRs.html
-Versions 1.0.3
+Versions 1.0.1, 1.0.3
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isomirs
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-isomirs
 

@@ -9,7 +9,7 @@ ruby
 
 ======== ===========
 Home     https://www.ruby-lang.org/
-Versions 2.2.3, 1.9, 2.0, 2.1.7
+Versions 1.9.3, 2.0.0, 2.1.7, 2.2.2, 2.2.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruby
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ruby
 

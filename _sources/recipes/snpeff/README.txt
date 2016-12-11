@@ -9,7 +9,7 @@ Genetic variant annotation and effect prediction toolbox
 
 ======== ===========
 Home     http://snpeff.sourceforge.net/
-Versions 4.3g, 4.1l, 4.2
+Versions 4.1l, 4.2, 4.3, 4.3b, 4.3g
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpeff
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install snpeff
 

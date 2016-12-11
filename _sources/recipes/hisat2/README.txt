@@ -9,7 +9,7 @@ graph-based alignment of next generation sequencing reads to a population of gen
 
 ======== ===========
 Home     https://ccb.jhu.edu/software/hisat2/index.shtml
-Versions 2.0.5
+Versions 2.0.0beta, 2.0.1beta, 2.0.2beta, 2.0.3beta, 2.0.4, 2.0.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install hisat2
 

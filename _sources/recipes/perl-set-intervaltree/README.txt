@@ -9,7 +9,7 @@ An interval tree implementation in PERL.
 
 ======== ===========
 Home     https://metacpan.org/pod/Set::IntervalTree
-Versions 0.10
+Versions 0.1, 0.10
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intervaltree
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-set-intervaltree
 

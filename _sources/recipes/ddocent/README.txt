@@ -9,7 +9,7 @@ ddocent
 
 ======== ===========
 Home     http://ddocent.wordpress.com/
-Versions 2.2.4
+Versions 2.1, 2.2.4
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddocent
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ddocent
 

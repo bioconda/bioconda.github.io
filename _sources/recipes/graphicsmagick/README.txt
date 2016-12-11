@@ -9,7 +9,7 @@ GraphicsMagick is the swiss army knife of image processing
 
 ======== ===========
 Home     http://www.graphicsmagick.org/
-Versions 1.3.20
+Versions 1.3.20, 1.3.23
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphicsmagick/1.3.20
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install graphicsmagick
 

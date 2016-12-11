@@ -9,7 +9,7 @@ high-throughput mzML parsing
 
 ======== ===========
 Home     http://pymzml.github.com
-Versions 0.7.7, 0.7.5
+Versions 0.7.5, 0.7.7
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymzml
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install pymzml
 

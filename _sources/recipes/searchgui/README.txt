@@ -10,7 +10,7 @@ SearchGUI is a user-friendly open-source graphical user interface for configurin
 
 ======== ===========
 Home     https://github.com/compomics/searchgui
-Versions 2.9.0, 2.1.4, 3.1.4
+Versions 2.1.4, 2.9.0, 3.1.4
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui
 ======== ===========
@@ -20,7 +20,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install searchgui
 

@@ -9,7 +9,7 @@ This package provides functions for fitting MOSAiCS and MOSAiCS-HMM, a statistic
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/mosaics.html
-Versions 2.10.0
+Versions 2.10.0, 2.4.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-mosaics
 

@@ -9,7 +9,7 @@ topGO package provides tools for testing GO terms while accounting for the topol
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/topGO.html
-Versions 2.24.0
+Versions 2.22.0, 2.24.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-topgo
 

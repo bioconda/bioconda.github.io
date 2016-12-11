@@ -9,7 +9,7 @@ OPSIN is a Java(1.6+) library for IUPAC name-to-structure conversion offering hi
 
 ======== ===========
 Home     https://bitbucket.org/dan2097/opsin/
-Versions 2.1.0, 1.4.0
+Versions 1.4.0, 2.1.0
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/opsin/2.1.0
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install opsin
 

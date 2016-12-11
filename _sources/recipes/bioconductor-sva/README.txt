@@ -9,7 +9,7 @@ The sva package contains functions for removing batch effects and other unwanted
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/sva.html
-Versions 3.20.0
+Versions 3.15.0, 3.18.0, 3.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-sva
 

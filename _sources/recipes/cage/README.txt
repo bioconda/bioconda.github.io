@@ -9,7 +9,7 @@ Changepoint Analysis for Efficient Variant Calling
 
 ======== ===========
 Home     https://github.com/adambloniarz/CAGe
-Versions 2016.05.13
+Versions 2016.01.24, 2016.05.13
 License  Apache v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cage
 

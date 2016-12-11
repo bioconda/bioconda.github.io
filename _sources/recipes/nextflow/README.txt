@@ -9,7 +9,7 @@ A DSL for data-driven computational pipelines http://nextflow.io
 
 ======== ===========
 Home     https://github.com/nextflow-io/nextflow
-Versions 0.21.3
+Versions 0.19.3, 0.21.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextflow
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install nextflow
 

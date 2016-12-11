@@ -9,7 +9,7 @@ A combined strategy to identify circular RNAs (circRNAs and ciRNAs)
 
 ======== ===========
 Home     https://github.com/YangLab/CIRCexplorer
-Versions 1.1.10
+Versions 0.1, 1.1.10, 1.1.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circexplorer
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install circexplorer
 

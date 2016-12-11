@@ -9,7 +9,7 @@ ChIP-seq peak caller
 
 ======== ===========
 Home     
-Versions 1.13
+Versions 1.11, 1.13
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-spp
 

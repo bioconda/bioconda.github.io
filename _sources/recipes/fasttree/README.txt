@@ -9,7 +9,7 @@ FastTree infers approximately-maximum-likelihood phylogenetic trees from alignme
 
 ======== ===========
 Home     http://www.microbesonline.org/fasttree/
-Versions 2.1.9, 2.1.8
+Versions 2.1.8, 2.1.9
 License  GPL v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install fasttree
 

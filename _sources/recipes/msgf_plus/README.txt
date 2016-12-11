@@ -9,7 +9,7 @@ MS-GF+ is a new MS/MS database search tool that is sensitive (it identifies more
 
 ======== ===========
 Home     https://omics.pnl.gov/software/ms-gf
-Versions 2016.10.26
+Versions 1.0.0, 2016.10.26
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install msgf_plus
 

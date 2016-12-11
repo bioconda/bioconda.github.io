@@ -9,7 +9,7 @@ A swiss army knife for genome arithmetic.  https://github.com/arq5x/bedtools2
 
 ======== ===========
 Home     
-Versions 2.19.1, 2.22, 2.20.1, 2.26.0, 2.23.0, 2.25, 2.17.0, 2.16.2
+Versions 2.16.2, 2.17.0, 2.19.1, 2.20.1, 2.22, 2.23.0, 2.24.0, 2.25.0, 2.26.0, 2.26.0gx
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/2.19.1
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bedtools
 

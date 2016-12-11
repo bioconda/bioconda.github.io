@@ -9,7 +9,7 @@ Stacks reports generator
 
 ======== ===========
 Home     https://github.com/mariabernard/galaxy_wrappers
-Versions 1.1, 1.0
+Versions 1.0, 1.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks_summary
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install stacks_summary
 

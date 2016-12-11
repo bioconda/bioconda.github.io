@@ -9,7 +9,7 @@ Constraint-based Alignment of RNA Ensembles
 
 ======== ===========
 Home     https://www.bioinf.uni-leipzig.de/~will/Software/CARNA/
-Versions 1.3.2, 1.3.1
+Versions 1.3.1, 1.3.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carna
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install carna
 

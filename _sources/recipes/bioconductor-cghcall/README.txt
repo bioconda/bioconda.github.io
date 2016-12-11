@@ -9,7 +9,7 @@ Calls aberrations for array CGH data using a six state mixture model as well as 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/CGHcall.html
-Versions 2.34.1
+Versions 2.34.0, 2.34.1
 License  GPL (http://www.gnu.org/copyleft/gpl.html)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghcall
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-cghcall
 

@@ -9,7 +9,7 @@ trf
 
 ======== ===========
 Home     
-Versions 4.07b, test-data
+Versions 4.07b
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install trf
 

@@ -9,7 +9,7 @@ Methods and classes for object-oriented programming in R with or without referen
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/R.oo
-Versions 1.21.0, 1.19.0
+Versions 1.19.0, 1.21.0
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-r.oo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-r.oo
 

@@ -9,7 +9,7 @@ miRNA and isomiR annotation
 
 ======== ===========
 Home     https://github.com/lpantano/seqbuster
-Versions 3.1
+Versions 2.3, 3.0, 3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install seqbuster
 

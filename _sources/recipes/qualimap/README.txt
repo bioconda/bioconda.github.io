@@ -9,7 +9,7 @@ Quality control of alignment sequencing data and its derivatives like feature co
 
 ======== ===========
 Home     http://qualimap.bioinfo.cipf.es/
-Versions 2.2
+Versions 2.1.3, 2.2
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qualimap
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install qualimap
 

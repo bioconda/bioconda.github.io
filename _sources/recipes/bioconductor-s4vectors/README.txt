@@ -9,7 +9,7 @@ The S4Vectors package defines the Vector and List virtual classes and a set of g
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/S4Vectors.html
-Versions 0.12.0, 0.8.11
+Versions 0.10.3, 0.12.0, 0.6.6, 0.8.0, 0.8.1, 0.8.11, 0.8.5, 0.8.7, 0.9.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4vectors
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-s4vectors
 

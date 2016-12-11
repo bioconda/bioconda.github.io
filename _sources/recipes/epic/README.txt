@@ -9,7 +9,7 @@ Chip-Seq broad peak/domain finder.
 
 ======== ===========
 Home     http://github.com/endrebak/epic
-Versions 0.1.20
+Versions 0.1.17, 0.1.20
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install epic
 

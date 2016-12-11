@@ -9,7 +9,7 @@ Fast, accurate and versatile k-mer based classification system
 
 ======== ===========
 Home     http://clark.cs.ucr.edu/
-Versions 1.2.3, 1.2.2-b
+Versions 1.2.2_b, 1.2.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clark
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install clark
 

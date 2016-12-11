@@ -9,7 +9,7 @@ The BWA read mapper.
 
 ======== ===========
 Home     http://bio-bwa.sourceforge.net
-Versions 0.7.15, 0.7.8, 0.6.2, 0.5.9
+Versions 0.5.9, 0.6.2, 0.7.12, 0.7.13, 0.7.15, 0.7.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bwa
 

@@ -9,7 +9,7 @@ command line tools for IGV
 
 ======== ===========
 Home     http://www.broadinstitute.org/igv/
-Versions 2.3.75
+Versions 2.3.16, 2.3.48, 2.3.75
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install igvtools
 

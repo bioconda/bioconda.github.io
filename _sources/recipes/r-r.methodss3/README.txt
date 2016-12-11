@@ -9,7 +9,7 @@ Methods that simplify the setup of S3 generic functions and S3 methods.  Major e
 
 ======== ===========
 Home     
-Versions 1.7.1, 1.7.0
+Versions 1.7.0, 1.7.1
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-r.methodss3
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-r.methodss3
 

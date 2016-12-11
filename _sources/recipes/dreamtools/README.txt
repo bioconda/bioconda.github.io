@@ -9,7 +9,7 @@ Scoring functions for the DREAM / SAGE challenges
 
 ======== ===========
 Home     
-Versions 1.3.0
+Versions 1.2.5, 1.3.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install dreamtools
 

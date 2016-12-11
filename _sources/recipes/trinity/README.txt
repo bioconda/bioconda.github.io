@@ -9,7 +9,7 @@ Trinity RNA-Seq de novo transcriptome assembly
 
 ======== ===========
 Home     https://github.com/trinityrnaseq/trinityrnaseq/
-Versions 2.2.0, date.2011_11_26, 2.1.1
+Versions 2.1.1, 2.2.0, date.2011_11_26
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install trinity
 

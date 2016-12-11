@@ -9,7 +9,7 @@ seqLogo takes the position weight matrix of a DNA sequence motif and plots the c
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/seqLogo.html
-Versions 1.38.0
+Versions 1.36.0, 1.38.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqlogo
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-seqlogo
 

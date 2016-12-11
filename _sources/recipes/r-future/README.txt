@@ -9,7 +9,7 @@ A Future API for R is provided. In programming, a future is an abstraction for a
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/future
-Versions 1.2.0, 0.9.0
+Versions 0.9.0, 1.2.0
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-future
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install r-future
 

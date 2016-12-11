@@ -9,7 +9,7 @@ six-frame genome-inferred libraries for LC-MS/MS
 
 ======== ===========
 Home     
-Versions 0.2.4
+Versions 0.2.3, 0.2.4
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install sixgill
 

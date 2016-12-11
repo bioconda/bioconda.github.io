@@ -9,7 +9,7 @@ A set of tools and methods for making and manipulating transcript centric annota
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GenomicFeatures.html
-Versions 1.26.0
+Versions 1.22.0, 1.22.13, 1.22.4, 1.22.6, 1.24.5, 1.26.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-genomicfeatures
 

@@ -9,7 +9,7 @@ Access to Biological Web Services from Python
 
 ======== ===========
 Home     
-Versions 0.2.1
+Versions 0.1.3, 0.1.4, 0.2.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biokit
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install biokit
 

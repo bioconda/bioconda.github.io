@@ -13,7 +13,7 @@ PeptideShaker attempts to give you the best possible understanding of your prote
 
 ======== ===========
 Home     https://github.com/compomics/peptide-shaker
-Versions 1.11.0, 1.13.6, 1.13.3
+Versions 1.1.3, 1.11.0, 1.13.3, 1.13.6
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker
 ======== ===========
@@ -23,7 +23,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install peptide-shaker
 

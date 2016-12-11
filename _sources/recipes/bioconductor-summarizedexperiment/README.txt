@@ -9,7 +9,7 @@ The SummarizedExperiment container contains one or more assays, each represented
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/SummarizedExperiment.html
-Versions 1.4.0, 1.0.2
+Versions 1.0.0, 1.0.1, 1.0.2, 1.2.3, 1.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-summarizedexperiment
 

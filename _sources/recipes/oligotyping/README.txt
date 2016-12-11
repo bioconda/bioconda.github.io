@@ -9,7 +9,7 @@ The oligotyping and minimum entropy decomposition (MED) pipeline for the analysi
 
 ======== ===========
 Home     http://oligotyping.org
-Versions 2.1, 2.0
+Versions 2.0, 2.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oligotyping
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install oligotyping
 

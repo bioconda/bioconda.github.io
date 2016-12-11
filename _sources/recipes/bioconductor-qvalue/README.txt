@@ -9,7 +9,7 @@ This package takes a list of p-values resulting from the simultaneous testing of
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/qvalue.html
-Versions 2.4.2
+Versions 2.2.2, 2.4.2
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-qvalue
 

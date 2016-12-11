@@ -9,7 +9,7 @@ Copy number variant detection from targeted DNA sequencing
 
 ======== ===========
 Home     https://github.com/etal/cnvkit
-Versions 0.8.1
+Versions 0.7.10, 0.7.11, 0.7.3, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9, 0.8.0, 0.8.1
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cnvkit
 

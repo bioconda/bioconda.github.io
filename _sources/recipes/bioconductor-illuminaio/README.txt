@@ -9,7 +9,7 @@ Tools for parsing Illumina's microarray output files, including IDAT.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/illuminaio.html
-Versions 0.14.0
+Versions 0.12.0, 0.14.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminaio
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-illuminaio
 

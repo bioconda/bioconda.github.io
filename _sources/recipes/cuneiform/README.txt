@@ -9,7 +9,7 @@ Cuneiform is an OCR system.
 
 ======== ===========
 Home     https://launchpad.net/cuneiform-linux/
-Versions 1.1.0
+Versions 
 License  Simplified BSD Licence
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cuneiform/1.1.0
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install cuneiform
 

@@ -9,7 +9,7 @@ Module of basic descriptive statistical functions.
 
 ======== ===========
 Home     http://web-cpan.shlomifish.org/modules/Statistics-Descriptive/
-Versions 3.0612, 3.0609
+Versions 3.0609, 3.0612
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-descriptive
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install perl-statistics-descriptive
 

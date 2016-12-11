@@ -9,7 +9,7 @@ PPANINI: Prioritization and Prediction of functional Annotations for Novel and I
 
 ======== ===========
 Home     http://huttenhower.sph.harvard.edu/ppanini
-Versions 0.6.4
+Versions 0.6.2, 0.6.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ppanini
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install ppanini
 

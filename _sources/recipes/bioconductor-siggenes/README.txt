@@ -9,7 +9,7 @@ Identification of differentially expressed genes and estimation of the False Dis
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/siggenes.html
-Versions 1.46.0
+Versions 1.44.0, 1.46.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siggenes
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-siggenes
 

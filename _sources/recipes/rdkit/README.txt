@@ -9,7 +9,7 @@ Open-Source Cheminformatics Software
 
 ======== ===========
 Home     http://rdkit.org
-Versions 2016.03.3, 2015.09.2
+Versions 2015.09.2, 2016.03.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdkit/2016.03.3
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install rdkit
 

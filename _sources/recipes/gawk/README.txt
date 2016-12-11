@@ -5,11 +5,11 @@ gawk
 
 |downloads|
 
-GNU awk
+The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code.
 
 ======== ===========
 Home     https://www.gnu.org/software/gawk/
-Versions 4.1.3
+Versions 4.1.0, 4.1.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gawk
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gawk
 

@@ -9,7 +9,7 @@ Genomic mapping and alignment program for mRNA and EST sequences
 
 ======== ===========
 Home     http://research-pub.gene.com/gmap/
-Versions 2016.09.23, 2015.09.10
+Versions 2015.09.10, 2016.09.23
 License  Non-commercial
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install gmap
 

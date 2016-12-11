@@ -9,7 +9,7 @@ small RNA analysis from NGS data
 
 ======== ===========
 Home     https://github.com/lpantano/seqclsuter
-Versions 1.2.4a
+Versions 1.1.13, 1.1.14, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4a
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqcluster
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install seqcluster
 

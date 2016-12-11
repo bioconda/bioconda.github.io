@@ -9,7 +9,7 @@ This package provides modified versions and novel implementation of functions fo
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/BiocParallel.html
-Versions 1.6.6
+Versions 1.2.22, 1.4.0, 1.4.3, 1.5.0, 1.6.6
 License  GPL-2 | GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel
 ======== ===========
@@ -19,7 +19,7 @@ Installation
 
 .. highlight: bash
 
-With an activated Bioconda channel (see :ref:`setup`), install with::
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
    conda install bioconductor-biocparallel
 
