@@ -29,6 +29,7 @@
     <link rel="up" title="Contributing" href="contributing.html" />
     <link rel="next" title="Contributing a recipe" href="contribute-a-recipe.html" />
     <link rel="prev" title="Contributing" href="contributing.html" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
@@ -54,10 +55,6 @@ $(document).ready(function() {
             
   <div class="section" id="one-time-setup">
 <h1>One-time setup<a class="headerlink" href="#one-time-setup" title="Permalink to this headline">¶</a></h1>
-<p><cite>conda-build</cite>, which is required for building conda packages, must be
-installed in the root environment, and the root environment must be Python
-3. The dependencies for the build system also need to be installed in the
-root environment.</p>
 <div class="section" id="git-and-github-one-time-setup">
 <span id="github-setup"></span><h2>Git and GitHub (one-time setup)<a class="headerlink" href="#git-and-github-one-time-setup" title="Permalink to this headline">¶</a></h2>
 <ul>
@@ -85,12 +82,21 @@ update your branch with the upstream master branch:</p>
 </div>
 <div class="section" id="install-conda-and-docker-one-time-setup">
 <h2>Install conda and Docker (one-time setup)<a class="headerlink" href="#install-conda-and-docker-one-time-setup" title="Permalink to this headline">¶</a></h2>
+<p>Currently, you need to install the requirements (see below) into the root
+conda environment which must be a Python 3 environment.</p>
 <ol class="arabic simple">
 <li>Install <a class="reference external" href="http://conda.pydata.org/miniconda.html">conda</a>. The Python
 3 version is required.</li>
 <li>Install <a class="reference external" href="https://www.docker.com/">Docker</a>. (optional, but allows you to
 simulate most closely the Travis-CI tests).</li>
 </ol>
+</div>
+<div class="section" id="request-to-be-added-to-the-bioconda-team">
+<h2>Request to be added to the bioconda team<a class="headerlink" href="#request-to-be-added-to-the-bioconda-team" title="Permalink to this headline">¶</a></h2>
+<p>While not required, you can be added to the bioconda by posting in <a class="reference external" href="https://github.com/bioconda/recipes/issues/1">Issue #1</a>. Members of the bioconda team
+can merge their own recipes once tests pass, though we ask that first-time
+contributions and anything out of the ordinary be reviewed by the
+&#64;bioconda/core team.</p>
 </div>
 </div>
 
@@ -121,6 +127,7 @@ simulate most closely the Travis-CI tests).</li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">One-time setup</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#git-and-github-one-time-setup">Git and GitHub (one-time setup)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#install-conda-and-docker-one-time-setup">Install conda and Docker (one-time setup)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#request-to-be-added-to-the-bioconda-team">Request to be added to the bioconda team</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a></li>

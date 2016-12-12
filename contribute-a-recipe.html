@@ -29,6 +29,7 @@
     <link rel="up" title="Contributing" href="contributing.html" />
     <link rel="next" title="Troubleshooting failed recipes" href="troubleshooting.html" />
     <link rel="prev" title="One-time setup" href="contrib-setup.html" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
@@ -61,7 +62,7 @@ contribute.</p>
 <ol class="arabic simple">
 <li>Before starting, it&#8217;s best to update your fork with any changes made
 recently to the upstream bioconda repo. Assuming you&#8217;ve set up your fork as
-above:</li>
+<a class="reference internal" href="contrib-setup.html#github-setup"><span class="std std-ref">above</span></a>:</li>
 </ol>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
 git pull upstream master
@@ -85,14 +86,10 @@ environment on travis-ci:</li>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout -b my-recipe
 </pre></div>
 </div>
-<p>and write one or more recipes.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p>The <a class="reference external" href="http://conda.pydata.org/docs/building/recipe.html">conda-build docs</a>
-are the authoritative source for information on building a recipe.</p>
-<p class="last">Please familiarize yourself with the <a class="reference internal" href="guidelines.html#guidelines"><span class="std std-ref">Guidelines for bioconda recipes</span></a> for details on
+<p>and write one or more recipes. The <a class="reference external" href="http://conda.pydata.org/docs/building/recipe.html">conda-build docs</a> are the authoritative
+source for information on building a recipe.</p>
+<p>Please familiarize yourself with the <a class="reference internal" href="guidelines.html#guidelines"><span class="std std-ref">Guidelines for bioconda recipes</span></a> for details on
 bioconda-specific policies.</p>
-</div>
 </div>
 <div class="section" id="test-locally">
 <h2>Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
@@ -174,6 +171,15 @@ something non-standard, please ask <cite>&#64;bioconda/core</cite> for a review.
 builds but at the end will upload the packages to anaconda.org. Once the merge
 build completes, your new package is installable by anyone using:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span>
+</pre></div>
+</div>
+<p>You should recommend to your users that they set up the same channel order as
+used by bioconda to ensure that all dependencies are correctly met, by doing
+the following:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">r</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 </pre></div>
 </div>
 </div>
