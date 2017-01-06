@@ -9,7 +9,7 @@ a versatile open source tool for metagenomics (USEARCH alternative)
 
 ======== ===========
 Home     https://github.com/torognes/vsearch
-Versions 1.10.2, 1.11.1, 1.9.5, 1.9.7, 2.0.0, 2.0.2, 2.0.3, 2.3.2
+Versions 1.10.2, 1.11.1, 1.9.5, 1.9.7, 2.0.0, 2.0.2, 2.0.3, 2.3.2, 2.3.4
 License  dual-licensed under GPLv3+ or BSD 2-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsearch
 ======== ===========

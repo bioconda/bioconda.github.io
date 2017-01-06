@@ -9,7 +9,7 @@ The VEP determines the effect of your variants (SNPs, insertions, deletions, CNV
 
 ======== ===========
 Home     http://www.ensembl.org/info/docs/tools/vep/index.html
-Versions 83, 86
+Versions 83, 86, 87
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variant-effect-predictor
 ======== ===========

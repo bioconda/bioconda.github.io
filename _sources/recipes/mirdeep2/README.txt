@@ -9,9 +9,9 @@ miRNA prediction
 
 ======== ===========
 Home     https://github.com/lpantano/mirdeep2_core.git
-Versions 2.0.0.7
+Versions 2.0.0.7, 2.0.0.8
 License  academic
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.7
 ======== ===========
 
 Installation

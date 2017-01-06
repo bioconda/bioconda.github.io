@@ -9,7 +9,7 @@ The Bumbershoot tool suite for analyzing shotgun proteomic data
 
 ======== ===========
 Home     https://proteowizard.sourceforge.net
-Versions 3_0_10158
+Versions 3_0_10158, 3_0_10246
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bumbershoot
 ======== ===========

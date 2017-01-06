@@ -221,6 +221,8 @@ dependencies with an <code class="docutils literal"><span class="pre">r-</span><
 Sometimes the software already comes with one; for example, <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc">fastqc</a>
 already had a wrapper script, but <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker">peptide-shaker</a>
 did not.</p>
+<p>New recipes should use the <code class="docutils literal"><span class="pre">openjdk</span></code> package from <a class="reference external" href="https://github.com/conda-forge/openjdk-feedstock">conda-forge</a>
+, the java-jdk package from bioconda is deprecated.</p>
 <p>JAR files should go in <code class="docutils literal"><span class="pre">$PREFIX/share/$PKG_NAME-$PKG_VERSION-$PKG_BUILDNUM</span></code>.
 A wrapper script should be placed here as well, and symlinked to
 <code class="docutils literal"><span class="pre">$PREFIX/bin</span></code>.</p>
@@ -391,7 +393,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id8"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id9"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An &#8220;adequate&#8221; test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit

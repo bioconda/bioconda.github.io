@@ -9,7 +9,7 @@ RNA Centric Annotation System (RCAS) is an automated system that provides dynami
 
 ======== ===========
 Home     https://github.com/BIMSBbioinfo/RCAS/tree/rcas_R/rpackage/RCAS
-Versions 1.0.0
+Versions 1.0.0, 1.0.0.dev75225b9
 License  Artistic-2.0Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcas
 ======== ===========

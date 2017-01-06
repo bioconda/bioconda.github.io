@@ -5,11 +5,11 @@ idba
 
 |downloads|
 
-IDBA-UD is a iterative De Bruijn Graph De Novo Assembler for Short Reads Sequencing data with Highly Uneven Sequencing Depth.
+IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
 
 ======== ===========
 Home     http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
-Versions 1.1.1
+Versions 1.1.1, 1.1.3
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba
 ======== ===========

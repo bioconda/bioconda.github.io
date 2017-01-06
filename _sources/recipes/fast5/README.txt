@@ -5,11 +5,11 @@ fast5
 
 |downloads|
 
-A C++ header-only library for reading Oxford Nanopore Fast5 files
+A C++ header-only library for reading Oxford Nanopore Fast5 files.
 
 ======== ===========
 Home     https://github.com/mateidavid/fast5
-Versions 0.2.0, 0.5.6
+Versions 0.2.0, 0.5.6, 0.5.8, 0.5.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast5
 ======== ===========

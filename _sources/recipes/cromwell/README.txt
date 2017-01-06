@@ -9,7 +9,7 @@ A Workflow Management System geared towards scientific workflows described in WD
 
 ======== ===========
 Home     https://github.com/broadinstitute/cromwell
-Versions 0.19.4, 0.21, 0.22
+Versions 0.19.4, 0.21, 0.22, 0.23
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell
 ======== ===========

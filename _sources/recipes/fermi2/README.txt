@@ -9,7 +9,7 @@ Fermi2 focuses on the exploration of FMD-index as a graph.
 
 ======== ===========
 Home     https://github.com/lh3/fermi2
-Versions r188
+Versions r188, r193
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi2
 ======== ===========

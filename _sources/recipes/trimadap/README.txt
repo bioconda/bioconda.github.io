@@ -9,7 +9,7 @@ Fast but inaccurate adapter trimmer for Illumina reads.
 
 ======== ===========
 Home     https://github.com/lh3/trimadap
-Versions r9
+Versions r10, r9
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimadap
 ======== ===========

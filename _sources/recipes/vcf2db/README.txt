@@ -9,7 +9,7 @@ Create a gemini-compatible database from a VCF
 
 ======== ===========
 Home     https://github.com/quinlan-lab/vcf2db
-Versions 2016.04.29, 2016.11.08
+Versions 2016.04.29, 2016.11.08, 2016.12.09
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2db
 ======== ===========
