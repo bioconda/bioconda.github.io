@@ -1936,6 +1936,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/anvio/README.html">anvio</a></td>
+        
+        <td>2.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-module-build-tiny/README.html">perl-module-build-tiny</a></td>
         
         <td>0.039</td>
@@ -9401,6 +9415,20 @@ Available packages
         <td><a href="recipes/r-sets/README.html">r-sets</a></td>
         
         <td>1.0_16</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/meryl/README.html">meryl</a></td>
+        
+        <td>2013</td>
         
         <td></td>
         
@@ -20332,6 +20360,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-patpro/README.html">r-patpro</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-corpcor/README.html">r-corpcor</a></td>
         
         <td>1.6.8</td>
@@ -22418,6 +22460,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/busco/README.html">busco</a></td>
+        
+        <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pycluster/README.html">pycluster</a></td>
         
         <td>1.52</td>
@@ -24087,6 +24143,20 @@ Available packages
         <td><a href="recipes/genomicassertions/README.html">genomicassertions</a></td>
         
         <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/randfold/README.html">randfold</a></td>
+        
+        <td>2.0.1</td>
         
         <td></td>
         
@@ -25955,6 +26025,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sim4db/README.html">sim4db</a></td>
+        
+        <td>2008</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -29978,6 +30062,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/kat/README.html">kat</a></td>
+        
+        <td>2.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/toil/README.html">toil</a></td>
         
         <td>3.2.0a2</td>
@@ -31213,6 +31311,20 @@ Available packages
         <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
         
         <td>2.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
+        
+        <td>2.3.0</td>
         
         <td></td>
         
@@ -37384,6 +37496,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bowtie/README.html">bowtie</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/fgbio/README.html">fgbio</a></td>
         
         <td>0.1.2a</td>
@@ -38574,6 +38700,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cansnper/README.html">cansnper</a></td>
+        
+        <td>1.0.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/tabview/README.html">tabview</a></td>
         
         <td>1.4.2</td>
@@ -38745,6 +38885,20 @@ Available packages
         <td><a href="recipes/seqkit/README.html">seqkit</a></td>
         
         <td>0.3.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.4.3</td>
         
         <td></td>
         
@@ -41864,6 +42018,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/centrifuge/README.html">centrifuge</a></td>
+        
+        <td>1.0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-compquadform/README.html">r-compquadform</a></td>
         
         <td>1.4.1</td>
@@ -42656,7 +42824,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     

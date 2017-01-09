@@ -9,7 +9,7 @@ Fast and sensitive read alignment
 
 ======== ===========
 Home     http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
-Versions 2.2.5, 2.2.6, 2.2.7, 2.2.8
+Versions 2.2.5, 2.2.6, 2.2.7, 2.2.8, 2.3.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2
 ======== ===========

@@ -9,7 +9,7 @@ cross-platform and ultrafast toolkit for FASTA/Q file manipulation
 
 ======== ===========
 Home     https://github.com/shenwei356/seqkit
-Versions 0.3.4.1
+Versions 0.3.4.1, 0.4.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqkit
 ======== ===========
