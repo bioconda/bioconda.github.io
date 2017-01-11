@@ -1250,6 +1250,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-delaporte/README.html">r-delaporte</a></td>
+        
+        <td>3.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/python-levenshtein/README.html">python-levenshtein</a></td>
         
         <td>0.12.0</td>
@@ -2014,7 +2028,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td><i class="fa fa-apple"></i></td>
+        <td></td>
         
     </tr>
     
@@ -9832,6 +9846,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mageck/README.html">mageck</a></td>
+        
+        <td>0.5.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/swarm/README.html">swarm</a></td>
         
         <td>1.2.19</td>
@@ -16146,6 +16174,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/estmapper/README.html">estmapper</a></td>
+        
+        <td>2008</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/samblaster/README.html">samblaster</a></td>
         
         <td>0.1.22</td>
@@ -20839,6 +20881,20 @@ Available packages
         <td><a href="recipes/edlib/README.html">edlib</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-chicago/README.html">bioconductor-chicago</a></td>
+        
+        <td>1.2.0</td>
         
         <td></td>
         
@@ -31126,6 +31182,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-pchicdata/README.html">bioconductor-pchicdata</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ete3/README.html">ete3</a></td>
         
         <td>3.0.0b35</td>
@@ -33990,7 +34060,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
