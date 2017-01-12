@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>peptide-shaker &mdash; Bioconda  documentation</title>
+    <title>fido &mdash; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -27,8 +27,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="top" title="Bioconda  documentation" href="../../index.html" />
     <link rel="up" title="Available packages" href="../../recipes.html" />
-    <link rel="next" title="percolator" href="../percolator/README.html" />
-    <link rel="prev" title="pepr" href="../pepr/README.html" />
+    <link rel="next" title="fiji" href="../fiji/README.html" />
+    <link rel="prev" title="ficus" href="../ficus/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -53,59 +53,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="peptide-shaker">
-<span id="id1"></span><h1>peptide-shaker<a class="headerlink" href="#peptide-shaker" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/peptide-shaker"><img alt="downloads" src="https://anaconda.org/bioconda/peptide-shaker/badges/downloads.svg" /></a></p>
-<p>PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search engines,
-currently supporting X!Tandem, MS-GF+, MS Amanda, OMSSA, MyriMatch, Comet, Tide, Mascot, Andromeda and mzIdentML.
-By combining the results from multiple search engines, while re-calculating PTM localization scores and redoing the protein inference,
-PeptideShaker attempts to give you the best possible understanding of your proteomics data!</p>
+  <div class="section" id="fido">
+<span id="id1"></span><h1>fido<a class="headerlink" href="#fido" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/fido"><img alt="downloads" src="https://anaconda.org/bioconda/fido/badges/downloads.svg" /></a></p>
+<p>A method for protein identification in MS/MS proteomics. Think of it like a protein delivery dog. You bring it the scored matches between peptides and spectra, and it fetches a list of proteins ranked by posterior probability by doing clever tricks.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="9%" />
-<col width="91%" />
+<col width="10%" />
+<col width="90%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/compomics/peptide-shaker">https://github.com/compomics/peptide-shaker</a></td>
+<td><a class="reference external" href="https://noble.gs.washington.edu/proj/fido/">https://noble.gs.washington.edu/proj/fido/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.1.3, 1.11.0, 1.13.3, 1.13.6, 1.14.4, 1.14.6</td>
+<td>1.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Apache License, Version 2.0</td>
+<td>MIT license</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">peptide</span><span class="o">-</span><span class="n">shaker</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">fido</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">peptide</span><span class="o">-</span><span class="n">shaker</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">fido</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>PeptideShaker is Java program that comes with a custom wrapper shell script.
-This shell wrapper is called &#8220;opsin&#8221; and is on $PATH by default. By default
-&#8220;-Xms512m -Xmx1g&#8221; is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have _JAVA_OPTIONS
-set globally this will take precedence.
-For example run it with &#8220;peptide-shaker -Xms512m -Xmx1g&#8221;</p>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/peptide-shaker"><img alt="docker" src="https://quay.io/repository/biocontainers/peptide-shaker/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/peptide-shaker">https://quay.io/repository/biocontainers/peptide-shaker</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/fido"><img alt="docker" src="https://quay.io/repository/biocontainers/fido/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/fido">https://quay.io/repository/biocontainers/fido</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/peptide-shaker/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/peptide-shaker/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/fido/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fido/README.html)
 </pre></div>
 </div>
 </div>
@@ -151,7 +139,7 @@ For example run it with &#8220;peptide-shaker -Xms512m -Xmx1g&#8221;</p>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/peptide-shaker/README.txt"
+      <a href="../../_sources/recipes/fido/README.txt"
           rel="nofollow">Page source</a>
     </div>
 

@@ -9,7 +9,7 @@ DCMTK is a collection of libraries and applications implementing large parts the
 
 ======== ===========
 Home     http://dicom.offis.de
-Versions 
+Versions 3.6.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcmtk
 ======== ===========

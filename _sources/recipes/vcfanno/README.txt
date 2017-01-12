@@ -9,7 +9,7 @@ annotate a VCF with other VCFs/BEDs/tabixed files
 
 ======== ===========
 Home     https://github.com/brentp/vcfanno
-Versions 0.0.10, 0.0.11, 0.1.0
+Versions 0.0.10, 0.0.11, 0.1.0, 0.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfanno
 ======== ===========
