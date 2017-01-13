@@ -9,7 +9,7 @@ Plasmid profiler
 
 ======== ===========
 Home     
-Versions 0.1.4
+Versions 0.1.4, 0.1.6
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-plasmidprofiler
 ======== ===========

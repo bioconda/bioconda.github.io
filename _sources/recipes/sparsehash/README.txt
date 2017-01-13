@@ -11,7 +11,7 @@ An extremely memory-efficient hash_map implementation. 2 bits/entry overhead! Th
 Home     https://github.com/sparsehash/sparsehash
 Versions 2.0.2, 2.0.3
 License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparsehash/2.0.3
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparsehash/2.0.2
 ======== ===========
 
 Installation
