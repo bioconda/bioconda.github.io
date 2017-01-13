@@ -13206,6 +13206,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/geneimpacts/README.html">geneimpacts</a></td>
+        
+        <td>0.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-perlio-gzip/README.html">perl-perlio-gzip</a></td>
         
         <td>0.19</td>
@@ -16009,6 +16023,20 @@ Available packages
         <td><a href="recipes/bbmap/README.html">bbmap</a></td>
         
         <td>36.32</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bbmap/README.html">bbmap</a></td>
+        
+        <td>36.84</td>
         
         <td></td>
         
