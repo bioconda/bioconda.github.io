@@ -13214,7 +13214,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -18190,6 +18190,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/infernal/README.html">infernal</a></td>
+        
+        <td>1.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cd-hit/README.html">cd-hit</a></td>
         
         <td>4.6.4</td>
@@ -20299,6 +20313,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/csvtk/README.html">csvtk</a></td>
+        
+        <td>0.4.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
