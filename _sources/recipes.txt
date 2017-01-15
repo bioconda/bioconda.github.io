@@ -2300,6 +2300,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
+        
+        <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-gsalib/README.html">r-gsalib</a></td>
         
         <td>2.1</td>
@@ -5893,6 +5907,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pacbio_falcon/README.html">pacbio_falcon</a></td>
+        
+        <td>052016</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -20321,6 +20349,20 @@ Available packages
         <td><a href="recipes/csvtk/README.html">csvtk</a></td>
         
         <td>0.4.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/csvtk/README.html">csvtk</a></td>
+        
+        <td>0.4.5</td>
         
         <td></td>
         
@@ -36404,6 +36446,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/emmix/README.html">emmix</a></td>
+        
+        <td>1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-types-serialiser/README.html">perl-types-serialiser</a></td>
         
         <td>1.0</td>
@@ -39249,6 +39305,20 @@ Available packages
         <td><a href="recipes/perl-http-cookies/README.html">perl-http-cookies</a></td>
         
         <td>6.01</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fuma/README.html">fuma</a></td>
+        
+        <td>3.0.3</td>
         
         <td></td>
         
