@@ -9,7 +9,7 @@ The corrplot package is a graphical display of a correlation matrix, confidence 
 
 ======== ===========
 Home     https://github.com/taiyun/corrplot
-Versions 0.73
+Versions 0.73, 0.77
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-corrplot
 ======== ===========
