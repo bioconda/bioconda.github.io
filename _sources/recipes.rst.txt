@@ -27612,6 +27612,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vardict/README.html">vardict</a></td>
+        
+        <td>2017.02.16</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-rcppparallel/README.html">r-rcppparallel</a></td>
         
         <td>4.3.19</td>
@@ -33761,6 +33775,20 @@ Available packages
         <td><a href="recipes/cnvkit/README.html">cnvkit</a></td>
         
         <td>0.8.3a0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cnvkit/README.html">cnvkit</a></td>
+        
+        <td>0.8.4</td>
         
         <td></td>
         
