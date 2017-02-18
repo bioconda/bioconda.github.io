@@ -9,7 +9,7 @@ Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial 
 
 ======== ===========
 Home     http://prodigal.ornl.gov/
-Versions 2.6.2, 2.6.3, 2.60
+Versions 2.6.2, 2.6.3
 License  GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal
 ======== ===========
