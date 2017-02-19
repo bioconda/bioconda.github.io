@@ -8,8 +8,8 @@ galaxy_sequence_utils
 Sequence Utilities from the Galaxy project
 
 ======== ===========
-Home     https://github.com/galaxyproject/galaxy
-Versions 1.0.1
+Home     https://github.com/galaxyproject/sequence_utils
+Versions 1.0.1, 1.1.0
 License  Academic Free License version 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy_sequence_utils
 ======== ===========

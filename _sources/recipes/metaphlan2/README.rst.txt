@@ -9,7 +9,7 @@ MetaPhlAn is a computational tool for profiling the composition of microbial com
 
 ======== ===========
 Home     https://bitbucket.org/biobakery/metaphlan2
-Versions 2.2.0, 2.5.0
+Versions 2.2.0, 2.5.0, 2.6.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2
 ======== ===========
