@@ -9,7 +9,7 @@ RDFLib is a pure Python package work working with RDF
 
 ======== ===========
 Home     http://rdflib.readthedocs.org/en/stable/
-Versions 4.2.1
+Versions 4.2.1, 4.2.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdflib
 ======== ===========

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>r-jsonlite &#8212; Bioconda  documentation</title>
+    <title>r-missforest &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-klar" href="../r-klar/README.html" />
-    <link rel="prev" title="r-itertools" href="../r-itertools/README.html" />
+    <link rel="next" title="r-mitools" href="../r-mitools/README.html" />
+    <link rel="prev" title="r-misc3d" href="../r-misc3d/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,47 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-jsonlite">
-<span id="id1"></span><h1>r-jsonlite<a class="headerlink" href="#r-jsonlite" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-jsonlite"><img alt="downloads" src="https://anaconda.org/bioconda/r-jsonlite/badges/downloads.svg" /></a></p>
-<p>A fast JSON parser and generator optimized for statistical data and the web. Started out as a fork of &#8216;RJSONIO&#8217;, but has been completely rewritten in recent versions. The package offers flexible, robust, high performance tools for working with JSON in R and is particularly powerful for building pipelines and interacting with a web API. The implementation is based on the mapping described in the vignette (Ooms, 2014). In addition to converting JSON data from/to R objects, &#8216;jsonlite&#8217; contains functions to stream, validate, and prettify JSON data. The unit tests included with the package verify that all edge cases are encoded and decoded consistently for use with dynamic data in systems and applications.</p>
+  <div class="section" id="r-missforest">
+<span id="id1"></span><h1>r-missforest<a class="headerlink" href="#r-missforest" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-missforest"><img alt="downloads" src="https://anaconda.org/bioconda/r-missforest/badges/downloads.svg" /></a></p>
+<p>The function &#8216;missForest&#8217; in this package is used to impute missing values particularly in the case of mixed-type data. It uses a random forest trained on the observed values of a data matrix to predict the missing values. It can be used to impute continuous and/or categorical data including complex interactions and non-linear relations. It yields an out-of-bag (OOB) imputation error estimate without the need of a test set or elaborate cross-validation. It can be run in parallel to  save computation time.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="8%" />
-<col width="92%" />
+<col width="9%" />
+<col width="91%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://arxiv.org/abs/1403.2805">http://arxiv.org/abs/1403.2805</a>, <a class="reference external" href="https://www.opencpu.org/posts/jsonlite-a-smarter-json-encoder">https://www.opencpu.org/posts/jsonlite-a-smarter-json-encoder</a></td>
+<td><a class="reference external" href="http://www.r-project.org">http://www.r-project.org</a>, <a class="reference external" href="https://github.com/stekhoven/missForest">https://github.com/stekhoven/missForest</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.9.19</td>
+<td>1.4</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT + file LICENSE</td>
+<td>GPL (&gt;= 2)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-jsonlite">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-jsonlite</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-missforest">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-missforest</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">jsonlite</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">missforest</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">jsonlite</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">missforest</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-jsonlite"><img alt="docker" src="https://quay.io/repository/biocontainers/r-jsonlite/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-jsonlite">https://quay.io/repository/biocontainers/r-jsonlite</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-missforest"><img alt="docker" src="https://quay.io/repository/biocontainers/r-missforest/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-missforest">https://quay.io/repository/biocontainers/r-missforest</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-jsonlite/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-jsonlite/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-missforest/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-missforest/README.html)
 </pre></div>
 </div>
 </div>
@@ -140,7 +140,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/r-jsonlite/README.rst.txt"
+      <a href="../../_sources/recipes/r-missforest/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
