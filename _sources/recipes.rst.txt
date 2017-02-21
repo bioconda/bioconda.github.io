@@ -12044,6 +12044,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/lemon/README.html">lemon</a></td>
+        
+        <td>1.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/functools32/README.html">functools32</a></td>
         
         <td>3.2.3.2</td>
@@ -20066,6 +20080,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-edaseq/README.html">bioconductor-edaseq</a></td>
+        
+        <td>2.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ceas/README.html">ceas</a></td>
         
         <td>1.0.2</td>
@@ -20769,6 +20797,20 @@ Available packages
         <td><a href="recipes/picopore/README.html">picopore</a></td>
         
         <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picopore/README.html">picopore</a></td>
+        
+        <td>0.2.2</td>
         
         <td></td>
         
@@ -36264,6 +36306,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cwltool/README.html">cwltool</a></td>
+        
+        <td>1.0.20170217172322</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-text-glob/README.html">perl-text-glob</a></td>
         
         <td>0.09</td>
@@ -38784,6 +38840,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mercat/README.html">mercat</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ericscript/README.html">ericscript</a></td>
         
         <td>0.5.5</td>
@@ -39851,6 +39921,20 @@ Available packages
         <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
         
         <td>2.1.20161227191302</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
+        
+        <td>2.2.20170216125639</td>
         
         <td></td>
         
@@ -46848,6 +46932,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/graphclust-wrappers/README.html">graphclust-wrappers</a></td>
+        
+        <td>0.1.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/dnapi/README.html">dnapi</a></td>
         
         <td>1.1</td>
@@ -47131,6 +47229,20 @@ Available packages
         <td><a href="recipes/cwltest/README.html">cwltest</a></td>
         
         <td>1.0.20161124105442</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cwltest/README.html">cwltest</a></td>
+        
+        <td>1.0.20170214185319</td>
         
         <td></td>
         
