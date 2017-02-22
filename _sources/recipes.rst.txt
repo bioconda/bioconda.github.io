@@ -9776,6 +9776,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/wgs-assembler/README.html">wgs-assembler</a></td>
+        
+        <td>8.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td>
         
         <td>0.1.8</td>
@@ -38848,7 +38862,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -41850,6 +41864,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
+        
+        <td>0.3.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-dnacopy/README.html">bioconductor-dnacopy</a></td>
         
         <td>1.44.0</td>
@@ -43267,6 +43295,20 @@ Available packages
         <td><a href="recipes/sistr_cmd/README.html">sistr_cmd</a></td>
         
         <td>0.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sistr_cmd/README.html">sistr_cmd</a></td>
+        
+        <td>0.3.3</td>
         
         <td></td>
         
@@ -46395,6 +46437,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/segmentation-fold/README.html">segmentation-fold</a></td>
+        
+        <td>1.6.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
