@@ -9,7 +9,7 @@ High resolution alarm, sleep, gettimeofday, interval timers
 
 ======== ===========
 Home     https://metacpan.org/pod/Time::HiRes
-Versions 1.9728
+Versions 1.9726, 1.9728
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-hires
 ======== ===========

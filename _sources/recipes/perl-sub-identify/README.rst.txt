@@ -9,7 +9,7 @@ Retrieve names of code references
 
 ======== ===========
 Home     http://metacpan.org/pod/Sub::Identify
-Versions 
+Versions 0.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify/0.12
 ======== ===========
