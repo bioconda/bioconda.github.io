@@ -9,7 +9,7 @@ Mercat: a versatile counter and diversity estimator for data base independent pr
 
 ======== ===========
 Home     
-Versions 0.1
+Versions 0.1, 0.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat
 ======== ===========
