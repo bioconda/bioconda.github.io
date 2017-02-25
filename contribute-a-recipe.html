@@ -93,7 +93,7 @@ source for information on building a recipe.</p>
 bioconda-specific policies.</p>
 </div>
 <div class="section" id="test-locally">
-<h2>Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
 <p>To make sure your recipe works, there are several options. The quickest, but
 not necessarily most complete, is to run conda-build directly:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">build</span> <span class="o">&lt;</span><span class="n">recipe</span><span class="o">-</span><span class="nb">dir</span><span class="o">&gt;</span>
@@ -101,11 +101,12 @@ not necessarily most complete, is to run conda-build directly:</p>
 </div>
 <p>To test the recipe in a way more representative of the travis-ci environment,
 use the <cite>simulate-travis.py</cite> script in the top-level directory of the repo.
-<cite>simulate-travis.py</cite> reads the config files in the repo and sets things up as
-closely as possible to how the builds will be run on travis-ci. It should be
-run from the top-level dir of the repo. Any arguments are passed on to the
-<cite>bioconda-utils build</cite> command, so check <cite>bioconda-utils build -h</cite> for help and
-more options.</p>
+Currently, it is mandatory to build any recipe <em>before</em> using
+<cite>simulate-travis.py</cite> for the first time. <cite>simulate-travis.py</cite> reads the config
+files in the repo and sets things up as closely as possible to how the builds
+will be run on travis-ci. It should be run from the top-level dir of the repo.
+Any arguments are passed on to the <cite>bioconda-utils build</cite> command, so check
+<cite>bioconda-utils build -h</cite> for help and more options.</p>
 <p>Some example commands:</p>
 <p>This tests everything, using the installed conda-build. It will check all
 recipes to see what needs to be built and so it is the most comprehensive:</p>
