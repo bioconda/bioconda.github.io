@@ -9,7 +9,7 @@ Circos is a software package for visualizing data and information. It visualizes
 
 ======== ===========
 Home     http://circos.ca
-Versions 0.69.2
+Versions 0.69.2, 0.69.4
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circos
 ======== ===========

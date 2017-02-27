@@ -9,7 +9,7 @@ The set of individual perl wrappers extracted from GraphClust pipeline
 
 ======== ===========
 Home     http://www.bioinf.uni-freiburg.de/Software/GraphClust/
-Versions 0.1, 0.1.7, 0.1.8
+Versions 0.1, 0.1.7, 0.1.8, 0.1.9
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphclust-wrappers
 ======== ===========

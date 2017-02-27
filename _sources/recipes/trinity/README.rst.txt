@@ -9,7 +9,7 @@ Trinity RNA-Seq de novo transcriptome assembly
 
 ======== ===========
 Home     https://github.com/trinityrnaseq/trinityrnaseq/
-Versions 2.1.1, 2.2.0, 2.3.2, date.2011_11_26
+Versions 2.1.1, 2.2.0, 2.3.2, 2.4.0, date.2011_11_26
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinity
 ======== ===========
