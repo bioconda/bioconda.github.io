@@ -9,7 +9,7 @@ Extensions to the standard Python datetime module
 
 ======== ===========
 Home     https://dateutil.readthedocs.org
-Versions 2.3
+Versions 2.3, 2.6.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-dateutil
 ======== ===========

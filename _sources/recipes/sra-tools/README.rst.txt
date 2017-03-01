@@ -9,7 +9,7 @@ The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for usi
 
 ======== ===========
 Home     https://github.com/ncbi/sra-tools
-Versions 2.6.2, 2.6.3, 2.7.0, 2.8.0
+Versions 2.6.2, 2.6.3, 2.7.0, 2.8.0, 2.8.1
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools
 ======== ===========

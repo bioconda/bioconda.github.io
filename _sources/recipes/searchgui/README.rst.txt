@@ -10,7 +10,7 @@ SearchGUI is a user-friendly open-source graphical user interface for configurin
 
 ======== ===========
 Home     https://github.com/compomics/searchgui
-Versions 2.1.4, 2.9.0, 3.1.4, 3.2.3, 3.2.5, 3.2.6, 3.2.7
+Versions 2.1.4, 2.9.0, 3.1.4, 3.2.3, 3.2.5, 3.2.6, 3.2.7, 3.2.8
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/searchgui
 ======== ===========
