@@ -9,7 +9,7 @@ blastalign
 
 ======== ===========
 Home     http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
-Versions 
+Versions 1.4
 License  GNU GENERAL PUBLIC LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastalign
 ======== ===========
