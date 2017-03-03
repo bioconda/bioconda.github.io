@@ -8,8 +8,8 @@ mygene
 Python Client for MyGene.Info services.
 
 ======== ===========
-Home     https://bitbucket.org/newgene/mygene
-Versions 2.2.0
+Home     https://github.com/suLab/mygene.py
+Versions 2.2.0, 3.0.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mygene
 ======== ===========
