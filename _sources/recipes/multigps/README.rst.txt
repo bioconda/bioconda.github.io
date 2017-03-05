@@ -9,7 +9,7 @@ MultiGPS is a framework for analyzing collections of multi-condition ChIP-seq da
 
 ======== ===========
 Home     http://mahonylab.org/software/multigps/
-Versions 0.5, 0.72
+Versions 0.5, 0.72, 0.73
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.5
 ======== ===========
