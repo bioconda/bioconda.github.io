@@ -8,7 +8,7 @@ delly
 Structural variant discovery by integrated paired-end and split-read analysis
 
 ======== ===========
-Home     https://github.com/tobiasrausch/delly
+Home     https://github.com/dellytools/delly
 Versions 0.7.2, 0.7.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delly
