@@ -9,7 +9,7 @@ Validated, scalable, community developed variant calling, RNA-seq and small RNA 
 
 ======== ===========
 Home     https://github.com/chapmanb/bcbio-nextgen
-Versions 0.9.5, 0.9.6, 0.9.6a, 0.9.7, 0.9.7a, 0.9.8, 0.9.8a0, 0.9.9, 0.9.9a0, 1.0.0, 1.0.0a0, 1.0.1, 1.0.1a0, 1.0.2a
+Versions 0.9.5, 0.9.6, 0.9.6a, 0.9.7, 0.9.7a, 0.9.8, 0.9.8a0, 0.9.9, 0.9.9a0, 1.0.0, 1.0.0a0, 1.0.1, 1.0.1a0, 1.0.2, 1.0.2a
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-nextgen
 ======== ===========
