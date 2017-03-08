@@ -9,7 +9,7 @@ Create composable bioinformatics hpc analyses.
 
 ======== ===========
 Home     https://github.com/jerowe/HPC-Runner-Command
-Versions 
+Versions 3.0.1
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-command/3.0.1
 ======== ===========

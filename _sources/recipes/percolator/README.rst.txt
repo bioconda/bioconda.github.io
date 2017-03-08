@@ -9,7 +9,7 @@ Semi-supervised learning for peptide identification from shotgun proteomics data
 
 ======== ===========
 Home     https://github.com/percolator/percolator
-Versions 3.0
+Versions 3.0, 3.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator
 ======== ===========

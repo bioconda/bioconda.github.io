@@ -9,7 +9,7 @@ A date and time object for Perl
 
 ======== ===========
 Home     http://metacpan.org/release/DateTime
-Versions 
+Versions 1.42
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42
 ======== ===========

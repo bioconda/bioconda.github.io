@@ -2020,6 +2020,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-knitr/README.html">r-knitr</a></td>
         
         <td>1.12.3</td>
@@ -7175,6 +7189,20 @@ Available packages
         <td><a href="recipes/percolator/README.html">percolator</a></td>
         
         <td>3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/percolator/README.html">percolator</a></td>
+        
+        <td>3.1</td>
         
         <td></td>
         
@@ -17182,6 +17210,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-kcsmart/README.html">bioconductor-kcsmart</a></td>
+        
+        <td>2.32.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-crtreesearchbed/README.html">ucsc-crtreesearchbed</a></td>
         
         <td>324</td>
@@ -17353,6 +17395,20 @@ Available packages
         <td><a href="recipes/colorbrewer/README.html">colorbrewer</a></td>
         
         <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-datetime-timezone/README.html">perl-datetime-timezone</a></td>
+        
+        <td>2.09</td>
         
         <td></td>
         
@@ -18907,6 +18963,20 @@ Available packages
         <td><a href="recipes/ucsc-bedgraphpack/README.html">ucsc-bedgraphpack</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-datetime-locale/README.html">perl-datetime-locale</a></td>
+        
+        <td>1.12</td>
         
         <td></td>
         
@@ -24610,7 +24680,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -27825,6 +27895,20 @@ Available packages
         <td><a href="recipes/coreutils/README.html">coreutils</a></td>
         
         <td>8.25</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-datetime/README.html">perl-datetime</a></td>
+        
+        <td>1.42</td>
         
         <td></td>
         
@@ -33828,6 +33912,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sniffles/README.html">sniffles</a></td>
+        
+        <td>1.0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gffutils/README.html">gffutils</a></td>
         
         <td>0.8.6.1</td>
@@ -36020,7 +36118,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -41416,6 +41514,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sharedmem/README.html">sharedmem</a></td>
+        
+        <td>0.3.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-locfit/README.html">r-locfit</a></td>
         
         <td>1.5_9.1</td>
@@ -45345,6 +45457,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pepr/README.html">pepr</a></td>
+        
+        <td>1.1.18</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     

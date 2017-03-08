@@ -9,7 +9,7 @@ Localization support for DateTime.pm
 
 ======== ===========
 Home     http://metacpan.org/release/DateTime-Locale
-Versions 
+Versions 1.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/1.12
 ======== ===========
