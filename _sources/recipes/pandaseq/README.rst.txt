@@ -9,7 +9,7 @@ PANDASEQ is a program to align Illumina reads, optionally with PCR primers embed
 
 ======== ===========
 Home     https://github.com/neufeld/pandaseq
-Versions 2.10
+Versions 2.10, 2.11
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandaseq
 ======== ===========

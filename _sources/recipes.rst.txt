@@ -6192,6 +6192,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pandaseq/README.html">pandaseq</a></td>
+        
+        <td>2.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cyvcf2/README.html">cyvcf2</a></td>
         
         <td>0.2.0</td>
