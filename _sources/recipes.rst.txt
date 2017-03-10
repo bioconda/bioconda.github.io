@@ -14592,6 +14592,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rna-seqc/README.html">rna-seqc</a></td>
+        
+        <td>1.1.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/primer3/README.html">primer3</a></td>
         
         <td>1.1.4</td>
