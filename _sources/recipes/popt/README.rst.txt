@@ -5,12 +5,12 @@ popt
 
 |downloads|
 
-
+Popt is a C library for parsing command line parameters.
 
 ======== ===========
-Home     https://fedorahosted.org/newt/
+Home     http://rpm5.org/
 Versions 1.16
-License  GPL
+License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popt
 ======== ===========
 

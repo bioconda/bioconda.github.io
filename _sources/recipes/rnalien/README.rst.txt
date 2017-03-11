@@ -9,7 +9,7 @@ A tool for unsupervised construction of RNA family models
 
 ======== ===========
 Home     http://rna.tbi.univie.ac.at/rnalien/tool
-Versions 1.2.5, 1.3.4, 1.3.5
+Versions 1.2.5, 1.3.4, 1.3.5, 1.3.6
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnalien
 ======== ===========
