@@ -64,24 +64,25 @@ is a list of the checks performed and how to fix them if they fail.</p>
 <div class="section" id="skipping-a-linting-test">
 <h2>Skipping a linting test<a class="headerlink" href="#skipping-a-linting-test" title="Permalink to this headline">¶</a></h2>
 <p>While only recommended in special cases, it is possible to skip specific
-linting tests on a commit by using special text in the commit message, <cite>[lint
-skip $FUNCTION for $RECIPE]</cite> where <cite>$FUNCTION</cite> is the name of the function to
-skip and <cite>$RECIPE</cite> is the path to the recipe directory for which this test
+linting tests on a commit by using special text in the commit message, <code class="docutils literal"><span class="pre">[lint</span>
+<span class="pre">skip</span> <span class="pre">$FUNCTION</span> <span class="pre">for</span> <span class="pre">$RECIPE]</span></code> where <code class="docutils literal"><span class="pre">$FUNCTION</span></code> is the name of the function to
+skip and <code class="docutils literal"><span class="pre">$RECIPE</span></code> is the path to the recipe directory for which this test
 should be skipped.</p>
-<p>For example, if the linter reports a <cite>uses_setuptools</cite> issue for
-<cite>recipes/mypackage/0.1</cite>, but you are certain the package really needs
-setuptools, you can add <cite>[lint skip uses_setuptools for recipes/mypackage/0.1]</cite>
+<p>For example, if the linter reports a <code class="docutils literal"><span class="pre">uses_setuptools</span></code> issue for
+<code class="docutils literal"><span class="pre">recipes/mypackage</span></code>, but you are certain the package really needs
+setuptools, you can add <code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/mypackage]</span></code>
 to the commit message and this linting test will be skipped on Travis-CI.
 Multiple tests can be skipped by adding additional special text. For example,
-<cite>[lint skip uses_setuptools for recipes/pkg1] [lint skip in_other_channels for
-recipes/pkg2]</cite>.</p>
-<p>Technically we check for the regular expression <cite>[s*lint skip (?P&lt;func&gt;w+)
-for (?P&lt;recipe&gt;.*?)s*]</cite> in the commit message of the HEAD commit. However,
+<code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/pkg1]</span> <span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">in_other_channels</span> <span class="pre">for</span>
+<span class="pre">recipes/pkg2/0.3.5]</span></code>. Note in the latter case that the second recipe has
+a subdirectory for an older version.</p>
+<p>Technically we check for the regular expression <code class="docutils literal"><span class="pre">\[\s*lint</span> <span class="pre">skip</span> <span class="pre">(?P&lt;func&gt;\w+)</span>
+<span class="pre">for</span> <span class="pre">(?P&lt;recipe&gt;.*?)\s*\]</span></code> in the commit message of the HEAD commit. However,
 often we want to test changes locally without committing.  When running
-<cite>simulate-travis.py</cite> locally for testing, you can add the same special text to
-a temporary environment variable <cite>LINT_SKIP</cite>. The same example above could be
+<code class="docutils literal"><span class="pre">simulate-travis.py</span></code> locally for testing, you can add the same special text to
+a temporary environment variable <code class="docutils literal"><span class="pre">LINT_SKIP</span></code>. The same example above could be
 tested locally like this without having to make a commit:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage/0.1]&quot;</span> <span class="o">./</span><span class="n">simulate</span><span class="o">-</span><span class="n">travis</span><span class="o">.</span><span class="n">py</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="o">./</span><span class="n">simulate</span><span class="o">-</span><span class="n">travis</span><span class="o">.</span><span class="n">py</span>
 </pre></div>
 </div>
 </div>
@@ -89,72 +90,118 @@ tested locally like this without having to make a commit:</p>
 <h2>Linting functions<a class="headerlink" href="#linting-functions" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="in-other-channels">
 <h3><cite>in_other_channels</cite><a class="headerlink" href="#in-other-channels" title="Permalink to this headline">¶</a></h3>
-<p>The package exists in another dependent channel (currently conda-forge, r, and
-defaults). In special cases this can be overridden, for example if
+<p>Reason for failing: The package exists in another dependent channel (currently
+conda-forge, r, and defaults). This often happens when a general-use package
+was added to bioconda first but was subsequently added to one of the more
+general channels. In this case we&#8217;d prefer it to be in the general channel.</p>
+<p>Rationale: We want to minimize duplicated work. If a package already exists in
+another dependent channel, it doesn&#8217;t need to be maintained in the bioconda
+channel.</p>
+<p>How to resolve: In special cases this can be overridden, for example if
 a bioconda-specific patch is required. However it is almost always better to
-fix the original package in the other channel.</p>
+fix or update the recipe in the other channel. Note that the package in the
+bioconda channel will remain in order to maintain reproducibility.</p>
 </div>
 <div class="section" id="already-in-bioconda">
 <h3><cite>already_in_bioconda</cite><a class="headerlink" href="#already-in-bioconda" title="Permalink to this headline">¶</a></h3>
-<p>The current package version, build, and platform (linux/osx) already exists in
-the bioconda chennel. Increase the version number or <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#build-number-and-string">build number</a> as
+<p>Reason for failing: The current package version, build, and platform
+(linux/osx) already exists in the bioconda channel.</p>
+<p>Rationale: This acts as an early warning to bump version or build numbers.</p>
+<p>How to resolve: Increase the version number or <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#build-number-and-string">build number</a> as
 appropriate.</p>
 </div>
 <div class="section" id="missing-home">
 <h3><cite>missing_home</cite><a class="headerlink" href="#missing-home" title="Permalink to this headline">¶</a></h3>
-<p>No homepage URL. Add the url in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>.</p>
+<p>Reason for failing: No homepage URL.</p>
+<p>Rationale: We want to make sure users can get additional information about
+a package, and it saves a separate search for the tool. Furthermore some tools
+with name collisions have to be renamed to fit into the conda channel and the
+homepage is an unambiguous original source.</p>
+<p>How to resolve: Add the url in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>.</p>
 </div>
 <div class="section" id="missing-summary">
 <h3><cite>missing_summary</cite><a class="headerlink" href="#missing-summary" title="Permalink to this headline">¶</a></h3>
-<p>Missing a summary; add a descriptive summary in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about
+<p>Reason for failing: Missing a summary.</p>
+<p>Rationale: We want to provide a minimal amount of information about the
+package.</p>
+<p>How to resolve: add a short descriptive summary in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about
 section</a>.</p>
 </div>
 <div class="section" id="missing-license">
 <h3><cite>missing_license</cite><a class="headerlink" href="#missing-license" title="Permalink to this headline">¶</a></h3>
-<p>No license provided. Add the license in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>.</p>
+<p>Reason for failing: No license provided.</p>
+<p>Rationale: We need to ensure that adding the package to bioconda does not
+violate the license</p>
+<p>How to resolve: Add the license in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#about-section">about section</a>. There are some
+ways of accommodating some licenses; see the GATK package for one method.</p>
 </div>
 <div class="section" id="missing-tests">
 <h3><cite>missing_tests</cite><a class="headerlink" href="#missing-tests" title="Permalink to this headline">¶</a></h3>
-<p>No tests provided. Add basic tests to ensure the software gets installed; see
+<p>Reason for failing: No tests provided.</p>
+<p>Rationale: We need at least minimal tests to ensure the programs can be found
+on the path to catch basic installation errors.</p>
+<p>How to resolve: Add basic tests to ensure the software gets installed; see
 <a class="reference internal" href="guidelines.html#tests"><span class="std std-ref">Tests</span></a> for more info.</p>
 </div>
 <div class="section" id="missing-hash">
 <h3><cite>missing_hash</cite><a class="headerlink" href="#missing-hash" title="Permalink to this headline">¶</a></h3>
-<p>A hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a> is required.
-aSee <a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
+<p>Reason for failing: Missing a hash in the source section.</p>
+<p>Rationale: Hashes ensure that the source is downloaded correctly without being
+corrupted.</p>
+<p>How to resolve: Add a hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a>. See
+<a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
 </div>
 <div class="section" id="uses-git-url">
 <h3><cite>uses_git_url</cite><a class="headerlink" href="#uses-git-url" title="Permalink to this headline">¶</a></h3>
-<p>The source section uses a git URL. While this is supported by conda, we prefer
-to not use this method since it is not always reproducible.  See
-<a class="reference internal" href="guidelines.html#stable-url"><span class="std std-ref">Stable urls</span></a> for more info.</p>
+<p>Reason for failing: The source section uses a git URL.</p>
+<p>Rationale: While this is supported by conda, we prefer
+to not use this method since it is not always reproducible. Furthermore, the
+Galaxy team mirrors each successfully built bioconda recipe. Mirroring git_urls
+is problematic.</p>
+<p>How to resolve: Use a direct URL. Ideally a github repo should have tagged
+releases that are accessible as tarballs from the &#8220;releases&#8221; section of the
+github repo.</p>
 </div>
 <div class="section" id="uses-perl-threaded">
 <h3><cite>uses_perl_threaded</cite><a class="headerlink" href="#uses-perl-threaded" title="Permalink to this headline">¶</a></h3>
-<p>Previously bioconda used <cite>perl-threaded</cite> as a dependency for Perl packages, but
-now we are using <cite>perl</cite> instead.</p>
+<p>Reason for failing: The recipe has a dependency of <code class="docutils literal"><span class="pre">perl-threaded</span></code>.</p>
+<p>Rationale: Previously bioconda used <code class="docutils literal"><span class="pre">perl-threaded</span></code> as a dependency for Perl
+packages, but now we are using <code class="docutils literal"><span class="pre">perl</span></code> instead. When one of these older recipes
+is updated, it will fail this check.</p>
+<p>How to resolve: Change <code class="docutils literal"><span class="pre">perl-threaded</span></code> to <code class="docutils literal"><span class="pre">perl</span></code>.</p>
 </div>
 <div class="section" id="uses-javajdk">
 <h3><cite>uses_javajdk</cite><a class="headerlink" href="#uses-javajdk" title="Permalink to this headline">¶</a></h3>
-<p>Previously bioconda used <cite>java-jdk</cite> as a dependency for Java packages, but now
-we are using <cite>openjdk</cite> instead.</p>
+<p>Reason for failing: The recipe has a dependency of <code class="docutils literal"><span class="pre">java-jdk</span></code>.</p>
+<p>Rationale: Previously bioconda used <code class="docutils literal"><span class="pre">java-jdk</span></code> as a dependency for Java
+packages, but now we are using <code class="docutils literal"><span class="pre">openjdk</span></code> instead. When one of those older
+recipes is updated, it will fail this check.</p>
+<p>How to resolve: Change <code class="docutils literal"><span class="pre">java-jdk</span></code> to <code class="docutils literal"><span class="pre">openjdk</span></code>.</p>
 </div>
 <div class="section" id="uses-setuptools">
 <h3><cite>uses_setuptools</cite><a class="headerlink" href="#uses-setuptools" title="Permalink to this headline">¶</a></h3>
-<p><cite>setuptools</cite> is typically used to install dependencies for Python packages but
-most of the time this is not needed within a conda package; rather, all
-dependencies should be explicitly defined. Some packages do need setuptools, in
-which case this can be overridden.</p>
+<p>Reason for failing: The recipe has <code class="docutils literal"><span class="pre">setuptools</span></code> as a run dependency.</p>
+<p>Rationale: <code class="docutils literal"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
+packages but most of the time this is not needed within a conda package as
+a run dependency.</p>
+<p>How to resolve: Ensure that all dependencies are explicitly defined. Some
+packages do need setuptools, in which case this can be overridden.</p>
 </div>
 <div class="section" id="has-windows-bat-file">
 <h3><cite>has_windows_bat_file</cite><a class="headerlink" href="#has-windows-bat-file" title="Permalink to this headline">¶</a></h3>
-<p>Since bioconda does not support Windows, any <cite>*.bat</cite> files should be removed
-from the recipe.</p>
+<p>Reason for failing: The recipe includes a <code class="docutils literal"><span class="pre">.bat</span></code> file.</p>
+<p>Rationale: Often when using one of the skeleton commands (<code class="docutils literal"><span class="pre">conda</span> <span class="pre">skeleton</span>
+<span class="pre">{cran,pypi,cpan}</span></code>), the command will include a Windows <code class="docutils literal"><span class="pre">.bat</span></code> file. Since
+bioconda does not support Windows, any <code class="docutils literal"><span class="pre">*.bat</span></code> files are unused and to reduce
+clutter we try to remove them.</p>
+<p>How to resolve: Remove the <code class="docutils literal"><span class="pre">.bat</span></code> file from the recipe.</p>
 </div>
 </div>
 <div class="section" id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this headline">¶</a></h2>
-<p>Lint functions are defined in <cite>bioconda_utils.lint_functions</cite>. Each function accepts three arguments:</p>
+<p>For developers adding new linting functions:</p>
+<p>Lint functions are defined in <code class="docutils literal"><span class="pre">bioconda_utils.lint_functions</span></code>. Each function
+accepts three arguments:</p>
 <ul class="simple">
 <li><cite>recipe</cite>, the path to the recipe</li>
 <li><cite>meta</cite>, the meta.yaml file parsed into a dictionary</li>
@@ -173,7 +220,8 @@ should return a dictionary. The keys in the dict will be propagated to columns
 of a pandas DataFrame for downstream processing and so can be somewhat
 arbitrary.</p>
 <p>After adding a new linting function, add it to the
-<cite>bioconda_utils.lint_functions.registry</cite> tuple so that it gets used by default.</p>
+<code class="docutils literal"><span class="pre">bioconda_utils.lint_functions.registry</span></code> tuple so that it gets used by
+default.</p>
 </div>
 </div>
 

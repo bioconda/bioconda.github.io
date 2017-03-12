@@ -543,6 +543,42 @@ edited. See the <cite>samtools</cite> recipe for an example of this. It may take
 tinkering to get the recipe to build; if it doesn&#8217;t seem to work then please
 submit an issue or notify <cite>&#64;bioconda/core</cite> for advice.</p>
 </div>
+<div class="section" id="usr-bin-perl-or-usr-bin-python-not-found">
+<h2><code class="docutils literal"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal"><span class="pre">/usr/bin/python</span></code> not found<a class="headerlink" href="#usr-bin-perl-or-usr-bin-python-not-found" title="Permalink to this headline">¶</a></h2>
+<p>Often a tool hard-codes the shebang line as, e.g., <code class="docutils literal"><span class="pre">/usr/bin/perl</span></code> rather
+than the more portable <code class="docutils literal"><span class="pre">/usr/bin/env</span> <span class="pre">perl</span></code>. To fix this, use <code class="docutils literal"><span class="pre">sed</span></code> in the
+build script to edit the lines.</p>
+<p>Here is an example that will replace the first line of a file
+<code class="docutils literal"><span class="pre">$PREFIX/bin/alocal</span></code> with the proper shebang line</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>sed -i.bak &#39;1 s|^.*$|#!/usr/bin/env perl|g&#39; $PREFIX/bin/aclocal
+</pre></div>
+</div>
+<p>(note the <code class="docutils literal"><span class="pre">-i.bak</span></code>, which is needed to support both Linux and OSX versions of
+<code class="docutils literal"><span class="pre">sed</span></code>).</p>
+<p>It turns out that the version of <cite>autoconf</cite> that is packaged in the defaults
+channel still uses the hard-coded Perl. So if a tool uses <cite>autoconf</cite> for
+building, it is likely you will see this error and it will need some <code class="docutils literal"><span class="pre">sed</span></code>
+commands. See <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/4bc02d7b4d784c923481d8808ed83e048c01d3bb/recipes/exparna/build.sh">here</a>
+for an example to work from.</p>
+</div>
+<div class="section" id="troubleshooting-failed-mulled-build-tests">
+<h2>Troubleshooting failed <code class="docutils literal"><span class="pre">mulled-build</span></code> tests<a class="headerlink" href="#troubleshooting-failed-mulled-build-tests" title="Permalink to this headline">¶</a></h2>
+<p>After conda sucessfully builds and tests a package, we then perform a more
+stringent test in a minimal Docker container using <code class="docutils literal"><span class="pre">mulled-build</span></code>. Notably,
+this container does not have conda and has very few libraries. So this test can
+catch issues that the default conda test cannot. However the extra layer of
+abstraction makes it difficult to troubleshoot problems with the recipe. If the
+conda-build test works but the mulled-build test fails try these steps:</p>
+<ul class="simple">
+<li>Run <code class="docutils literal"><span class="pre">simulate-travis.py</span></code> locally with <code class="docutils literal"><span class="pre">--loglevel=debug</span></code></li>
+<li>Look carefully at the output from <code class="docutils literal"><span class="pre">mulled-build</span></code> to look for Docker hashes,
+and cross-reference with the output of <code class="docutils literal"><span class="pre">docker</span> <span class="pre">images</span> <span class="pre">|</span> <span class="pre">head</span></code> to figure out
+the hash of the container used.</li>
+<li>Start up an interactive docker container, <code class="docutils literal"><span class="pre">docker</span> <span class="pre">run</span> <span class="pre">-it</span> <span class="pre">$hash</span></code>. You can
+now try running the tests in the recipe that failed, or otherwise poke around
+in the running container to see what the problem was.</li>
+</ul>
+</div>
 </div>
 
 
@@ -576,6 +612,8 @@ submit an issue or notify <cite>&#64;bioconda/core</cite> for advice.</p>
 <li class="toctree-l3"><a class="reference internal" href="#http-500-errors">HTTP 500 errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#http-404-errors">HTTP 404 errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#zlib-errors">ZLIB errors</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#usr-bin-perl-or-usr-bin-python-not-found"><code class="docutils literal"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal"><span class="pre">/usr/bin/python</span></code> not found</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#troubleshooting-failed-mulled-build-tests">Troubleshooting failed <code class="docutils literal"><span class="pre">mulled-build</span></code> tests</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
