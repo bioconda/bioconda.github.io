@@ -11372,6 +11372,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-test-simple/README.html">perl-test-simple</a></td>
+        
+        <td>1.302075</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gprofiler-official/README.html">gprofiler-official</a></td>
         
         <td>0.2.3</td>
@@ -16594,6 +16608,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-list-compare/README.html">perl-list-compare</a></td>
+        
+        <td>0.53</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/opsin/README.html">opsin</a></td>
         
         <td>1.4.0</td>
@@ -20251,6 +20279,20 @@ Available packages
         <td><a href="recipes/addrg/README.html">addrg</a></td>
         
         <td>0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/addrg/README.html">addrg</a></td>
+        
+        <td>0.2.1</td>
         
         <td></td>
         
@@ -30944,6 +30986,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-datetime-format-strptime/README.html">perl-datetime-format-strptime</a></td>
+        
+        <td>1.73</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-pslpartition/README.html">ucsc-pslpartition</a></td>
         
         <td>324</td>
@@ -32557,6 +32613,20 @@ Available packages
         <td><a href="recipes/bedops/README.html">bedops</a></td>
         
         <td>2.4.25</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bedops/README.html">bedops</a></td>
+        
+        <td>2.4.26</td>
         
         <td></td>
         
@@ -38028,6 +38098,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/beast2/README.html">beast2</a></td>
+        
+        <td>2.4.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/beagle/README.html">beagle</a></td>
         
         <td>4.1_03May16.862.jar</td>
@@ -38980,6 +39064,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bpipe/README.html">bpipe</a></td>
+        
+        <td>0.9.9.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/vnl/README.html">vnl</a></td>
         
         <td>1.17.0</td>
@@ -39787,6 +39885,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-sub-name/README.html">perl-sub-name</a></td>
+        
+        <td>0.21</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -48775,6 +48887,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-text-template/README.html">perl-text-template</a></td>
+        
+        <td>1.46</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
