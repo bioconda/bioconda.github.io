@@ -9,7 +9,7 @@ Implements various mainstream and specialised changepoint methods for finding si
 
 ======== ===========
 Home     https://github.com/rkillick/changepoint/
-Versions 2.2.1
+Versions 2.2.1, 2.2.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-changepoint
 ======== ===========

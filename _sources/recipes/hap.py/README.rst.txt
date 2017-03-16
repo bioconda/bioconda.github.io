@@ -5,11 +5,11 @@ hap.py
 
 |downloads|
 
-
+Haplotype VCF comparison tools
 
 ======== ===========
 Home     https://github.com/sequencing/hap.py
-Versions 0.2.9
+Versions 0.2.9, 0.3.7
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hap.py
 ======== ===========
