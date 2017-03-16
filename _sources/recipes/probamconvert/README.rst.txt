@@ -9,7 +9,7 @@ proBAMconvert is a conversion tool to convert common peptide identification file
 
 ======== ===========
 Home     https://github.com/Biobix/proBAMconvert
-Versions 
+Versions 1.0.0
 License  Apache License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/probamconvert
 ======== ===========

@@ -9,7 +9,7 @@ Set of functions for sparse matrix algebra. Differences with SparseM/Matrix are:
 
 ======== ===========
 Home     http://www.math.uzh.ch/furrer/software/spam/
-Versions 1.3_0
+Versions 1.3_0, 1.4_0
 License  LGPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spam
 ======== ===========
