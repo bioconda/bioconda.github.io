@@ -9,9 +9,9 @@ This tool provides a preliminary annotation of your DNA sequence(s) based upon t
 
 ======== ===========
 Home     https://card.mcmaster.ca
-Versions 3.1.0, 3.1.1
+Versions 3.1.0, 3.1.1, 3.1.2
 License  https://card.mcmaster.ca/about
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgi
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgi/3.1.1
 ======== ===========
 
 Installation

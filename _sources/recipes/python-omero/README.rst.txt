@@ -1,0 +1,50 @@
+.. _`python-omero`:
+
+python-omero
+============
+
+|downloads|
+
+OME (Open Microscopy Environment) develops open-source software and data format standards for the storage and manipulation of biological light microscopy data.
+
+======== ===========
+Home     http://www.openmicroscopy.org/
+Versions 5.2.7
+License  GPL 2
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-omero
+======== ===========
+
+Installation
+------------
+
+.. highlight: bash
+
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+   conda install python-omero
+
+and update with::
+
+   conda update python-omero
+
+
+
+|docker|
+
+A Docker container is available at https://quay.io/repository/biocontainers/python-omero.
+
+Link to this page
+-----------------
+
+Render an |badge| badge with the following Markdown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/python-omero/README.html)
+
+.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
+           :target: http://bioconda.github.io/recipes/python-omero/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/python-omero/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/python-omero
+.. |docker| image:: https://quay.io/repository/biocontainers/python-omero/status
+                :target: https://quay.io/repository/biocontainers/python-omero
+
+
