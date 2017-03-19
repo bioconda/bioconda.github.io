@@ -32708,6 +32708,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ddrage/README.html">ddrage</a></td>
+        
+        <td>1.1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-compquadform/README.html">r-compquadform</a></td>
         
         <td>1.4.1</td>
@@ -39619,6 +39633,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/salmon/README.html">salmon</a></td>
+        
+        <td>0.8.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
