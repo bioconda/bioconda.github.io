@@ -9,7 +9,7 @@ ddocent
 
 ======== ===========
 Home     http://ddocent.wordpress.com/
-Versions 2.1, 2.2.4, 2.2.7, 2.2.8
+Versions 2.1, 2.2.13, 2.2.15, 2.2.4, 2.2.7, 2.2.8
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddocent
 ======== ===========
