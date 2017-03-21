@@ -9,9 +9,9 @@ BCFtools is a set of utilities that manipulate variant calls in the Variant Call
 
 ======== ===========
 Home     https://github.com/samtools/bcftools
-Versions 1.2, 1.3, 1.3.1
+Versions 1.2, 1.3, 1.3.1, 1.4
 License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools/1.3
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools
 ======== ===========
 
 Installation
