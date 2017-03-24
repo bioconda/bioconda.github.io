@@ -8,7 +8,7 @@ hcluster_sg
 A tool for hierarchically clustering on a sparse graph
 
 ======== ===========
-Home     
+Home     https://github.com/douglasgscofield/hcluster
 Versions 0.5.1
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hcluster_sg
