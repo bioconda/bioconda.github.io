@@ -23258,6 +23258,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-file-listing/README.html">perl-file-listing</a></td>
         
         <td>6.04</td>
@@ -34195,6 +34209,20 @@ Available packages
         <td><a href="recipes/ucsc-splitfilebycolumn/README.html">ucsc-splitfilebycolumn</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/riboplot/README.html">riboplot</a></td>
+        
+        <td>0.3.1</td>
         
         <td></td>
         
