@@ -8,9 +8,9 @@ r-ggplot2
 A system for 'declaratively' creating graphics, based on "The Grammar of Graphics". You provide the data, tell 'ggplot2' how to map variables to aesthetics, what graphical primitives to use, and it takes care of the details.
 
 ======== ===========
-Home     http://ggplot2.tidyverse.org, https://github.com/tidyverse/ggplot2
-Versions 2.0.0, 2.1.0, 2.2.0
-License  GPL-2 | file LICENSE
+Home     https://cran.r-project.org/package=ggplot2
+Versions 2.0.0, 2.1.0, 2.2.0, 2.2.1
+License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggplot2
 ======== ===========
 

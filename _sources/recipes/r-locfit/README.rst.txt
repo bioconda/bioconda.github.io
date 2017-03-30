@@ -8,7 +8,7 @@ r-locfit
 Local regression, likelihood and density estimation.
 
 ======== ===========
-Home     
+Home     https://cran.rstudio.com/web/packages/locfit/index.html
 Versions 1.5_9.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-locfit

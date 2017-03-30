@@ -8,7 +8,7 @@ rsem
 RSEM (RNA-Seq by Expectation-Maximization)
 
 ======== ===========
-Home     http://deweylab.biostat.wisc.edu/rsem/
+Home     https://deweylab.github.io/RSEM/
 Versions 1.2.22, 1.2.28, 1.3.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem

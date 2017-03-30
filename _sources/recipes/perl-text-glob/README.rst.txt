@@ -8,8 +8,8 @@ perl-text-glob
 match globbing patterns against text
 
 ======== ===========
-Home     http://metacpan.org/pod/Text-Glob
-Versions 0.09
+Home     https://metacpan.org/pod/Text::Glob
+Versions 0.09, 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-glob
 ======== ===========

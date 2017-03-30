@@ -8,10 +8,10 @@ r-biasedurn
 Statistical models of biased sampling in the form of  univariate and multivariate noncentral hypergeometric distributions,  including Wallenius' noncentral hypergeometric distribution and Fisher's noncentral hypergeometric distribution  (also called extended hypergeometric distribution).   See vignette("UrnTheory") for explanation of these distributions.
 
 ======== ===========
-Home     http://www.agner.org/random/ http://www.r-project.org
+Home     https://cran.r-project.org/web/packages/BiasedUrn/index.html
 Versions 1.07
 License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biasedurn/1.07
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biasedurn
 ======== ===========
 
 Installation

@@ -8,7 +8,7 @@ r-blockmodeling
 The package is primarly ment as an implementation of Generalized blockmodeling for valued networks. In addition, measurese of similarity or dissimilarity based on structural equivalence and regular equivalence (REGE algorithem) can be computed and partitioned matrices can be ploted.
 
 ======== ===========
-Home     
+Home     https://cran.r-project.org/web/packages/blockmodeling/index.html
 Versions 0.1.8
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockmodeling

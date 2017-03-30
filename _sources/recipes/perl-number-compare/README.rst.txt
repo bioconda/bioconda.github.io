@@ -5,12 +5,12 @@ perl-number-compare
 
 |downloads|
 
-numeric comparisons
+Numeric comparisons
 
 ======== ===========
-Home     http://metacpan.org/pod/Number-Compare
+Home     https://metacpan.org/pod/Number::Compare
 Versions 0.03
-License  unknown
+License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-compare
 ======== ===========
 

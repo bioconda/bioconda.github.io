@@ -8,8 +8,8 @@ bioconductor-biobase
 Functions that are needed by many other packages or which replace R functions.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/Biobase.html
-Versions 2.30.0, 2.32.0
+Home     https://bioconductor.org/packages/release/bioc/html/Biobase.html
+Versions 2.30.0, 2.32.0, 2.34.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase
 ======== ===========
