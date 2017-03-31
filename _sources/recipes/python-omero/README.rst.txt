@@ -9,7 +9,7 @@ OME (Open Microscopy Environment) develops open-source software and data format 
 
 ======== ===========
 Home     http://www.openmicroscopy.org/
-Versions 5.2.7, 5.2.8
+Versions 5.2.7, 5.2.8, 5.3.0
 License  GPL 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-omero
 ======== ===========

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>r-digest &#8212; Bioconda  documentation</title>
+    <title>mobster &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-discriminer" href="../r-discriminer/README.html" />
-    <link rel="prev" title="r-diagram" href="../r-diagram/README.html" />
+    <link rel="next" title="moca" href="../moca/README.html" />
+    <link rel="prev" title="mmtf-python" href="../mmtf-python/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,10 +54,10 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-digest">
-<span id="id1"></span><h1>r-digest<a class="headerlink" href="#r-digest" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-digest"><img alt="downloads" src="https://anaconda.org/bioconda/r-digest/badges/downloads.svg" /></a></p>
-<p>Implementation of a function &#8216;digest()&#8217; for the creation  of hash digests of arbitrary R objects (using the md5, sha-1, sha-256,  crc32, xxhash and murmurhash algorithms) permitting easy comparison of R language objects, as well as a function &#8216;hmac()&#8217; to create hash-based message authentication code. . The md5 algorithm by Ron Rivest is specified in RFC 1321, the sha-1  and sha-256 algorithms are specified in FIPS-180-1 and FIPS-180-2,  and the crc32 algorithm is described in  <a class="reference external" href="ftp://ftp.rocksoft.com/cliens/rocksoft/papers/crc_v3.txt">ftp://ftp.rocksoft.com/cliens/rocksoft/papers/crc_v3.txt</a>. . For md5, sha-1, sha-256 and aes, this package uses small standalone implementations that were provided by Christophe Devine. For crc32, code from the zlib library is used. For sha-512, an implementation by Aaron D. Gifford is used. For xxhash, the implementation by Yann Collet is used. For murmurhash, an implementation by Shane Day is used. . Please note that this package is not meant to be deployed for  cryptographic purposes for which more comprehensive (and widely  tested) libraries such as OpenSSL should be used.</p>
+  <div class="section" id="mobster">
+<span id="id1"></span><h1>mobster<a class="headerlink" href="#mobster" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/mobster"><img alt="downloads" src="https://anaconda.org/bioconda/mobster/badges/downloads.svg" /></a></p>
+<p>NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data, see Thung et al. Genome Biol. 2014 for more information.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="10%" />
@@ -65,36 +65,40 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://dirk.eddelbuettel.com/code/digest.html">http://dirk.eddelbuettel.com/code/digest.html</a></td>
+<td><a class="reference external" href="https://github.com/jyhehir/mobster">https://github.com/jyhehir/mobster</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.6.12, 0.6.9</td>
+<td>0.2.1</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL (&gt;= 2)</td>
+<td>GPL3</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-digest">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-digest</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mobster">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mobster</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">digest</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mobster</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">digest</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">mobster</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-digest"><img alt="docker" src="https://quay.io/repository/biocontainers/r-digest/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-digest">https://quay.io/repository/biocontainers/r-digest</a>.</p>
+</div>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>After installation, mobster is available as command <cite>mobster</cite>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/mobster"><img alt="docker" src="https://quay.io/repository/biocontainers/mobster/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/mobster">https://quay.io/repository/biocontainers/mobster</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-digest/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-digest/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mobster/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mobster/README.html)
 </pre></div>
 </div>
 </div>
@@ -141,7 +145,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/r-digest/README.rst.txt"
+      <a href="../../_sources/recipes/mobster/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

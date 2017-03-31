@@ -9,8 +9,8 @@ Implementation of a function 'digest()' for the creation  of hash digests of arb
 
 ======== ===========
 Home     http://dirk.eddelbuettel.com/code/digest.html
-Versions 0.6.9
-License  GPL-2
+Versions 0.6.12, 0.6.9
+License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-digest
 ======== ===========
 

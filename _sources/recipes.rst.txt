@@ -1672,6 +1672,20 @@ Available packages
         
         <td><a href="recipes/ddocent/README.html">ddocent</a></td>
         
+        <td>2.2.16</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ddocent/README.html">ddocent</a></td>
+        
         <td>2.2.4</td>
         
         <td></td>
@@ -2667,6 +2681,20 @@ Available packages
         <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
         
         <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
+        
+        <td>0.2.3</td>
         
         <td></td>
         
@@ -5075,20 +5103,6 @@ Available packages
         <td><a href="recipes/pytest-mpl/README.html">pytest-mpl</a></td>
         
         <td>0.5</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/r-magrittr/README.html">r-magrittr</a></td>
-        
-        <td>1.5</td>
         
         <td></td>
         
@@ -8057,6 +8071,20 @@ Available packages
         <td><a href="recipes/soapsplice/README.html">soapsplice</a></td>
         
         <td>1.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-pcaexplorer/README.html">bioconductor-pcaexplorer</a></td>
+        
+        <td>2.0.0</td>
         
         <td></td>
         
@@ -12156,6 +12184,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vardict-java/README.html">vardict-java</a></td>
+        
+        <td>1.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-bioperl-core/README.html">perl-bioperl-core</a></td>
         
         <td>1.6.924</td>
@@ -14945,6 +14987,20 @@ Available packages
         <td><a href="recipes/r-corrplot/README.html">r-corrplot</a></td>
         
         <td>0.77</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-digest/README.html">r-digest</a></td>
+        
+        <td>0.6.12</td>
         
         <td></td>
         
@@ -18092,6 +18148,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mobster/README.html">mobster</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-rtracklayer/README.html">bioconductor-rtracklayer</a></td>
         
         <td>1.30.0</td>
@@ -19025,6 +19095,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-d3heatmap/README.html">r-d3heatmap</a></td>
+        
+        <td>0.6.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -21956,6 +22040,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-shinyace/README.html">r-shinyace</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-genabel.data/README.html">r-genabel.data</a></td>
         
         <td>1.0.0</td>
@@ -22617,6 +22715,20 @@ Available packages
         <td><a href="recipes/picopore/README.html">picopore</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picopore/README.html">picopore</a></td>
+        
+        <td>1.1.2</td>
         
         <td></td>
         
@@ -44989,6 +45101,20 @@ Available packages
         <td><a href="recipes/python-omero/README.html">python-omero</a></td>
         
         <td>5.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/python-omero/README.html">python-omero</a></td>
+        
+        <td>5.3.0</td>
         
         <td></td>
         
