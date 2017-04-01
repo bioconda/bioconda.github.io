@@ -1460,6 +1460,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/deeptools/README.html">deeptools</a></td>
+        
+        <td>2.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/plastid/README.html">plastid</a></td>
         
         <td>0.4.7</td>
@@ -30695,6 +30709,20 @@ Available packages
         <td><a href="recipes/expansionhunter/README.html">expansionhunter</a></td>
         
         <td>2.0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/expansionhunter/README.html">expansionhunter</a></td>
+        
+        <td>2.0.8</td>
         
         <td></td>
         

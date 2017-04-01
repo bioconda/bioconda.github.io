@@ -9,7 +9,7 @@ a tool for estimating repeat sizes
 
 ======== ===========
 Home     https://github.com/Illumina/ExpansionHunter
-Versions 2.0.6
+Versions 2.0.6, 2.0.8
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/expansionhunter
 ======== ===========
