@@ -19058,6 +19058,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/intervaltree_bio/README.html">intervaltree_bio</a></td>
+        
+        <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pauda/README.html">pauda</a></td>
         
         <td>1.0.1</td>
@@ -20013,6 +20027,20 @@ Available packages
         <td><a href="recipes/fastx_toolkit/README.html">fastx_toolkit</a></td>
         
         <td>0.0.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/shorah/README.html">shorah</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -22826,6 +22854,20 @@ Available packages
         
         <td><a href="recipes/nanopolish/README.html">nanopolish</a></td>
         
+        <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanopolish/README.html">nanopolish</a></td>
+        
         <td>0.6.0.dev</td>
         
         <td></td>
@@ -23611,6 +23653,20 @@ Available packages
         <td><a href="recipes/seqkit/README.html">seqkit</a></td>
         
         <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.5.3</td>
         
         <td></td>
         
@@ -34657,6 +34713,20 @@ Available packages
         <td><a href="recipes/ucsc-splitfilebycolumn/README.html">ucsc-splitfilebycolumn</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/minepy/README.html">minepy</a></td>
+        
+        <td>1.2.0</td>
         
         <td></td>
         
