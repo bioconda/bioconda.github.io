@@ -68,7 +68,7 @@ $(document).ready(function() {
 <td><a class="reference external" href="http://www.ensembl.org/info/docs/tools/vep/index.html">http://www.ensembl.org/info/docs/tools/vep/index.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>&nbsp;</td>
+<td>88</td>
 </tr>
 <tr class="row-odd"><td>License</td>
 <td>Apache 2.0</td>
@@ -92,19 +92,17 @@ $(document).ready(function() {
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
 <p>This package installs only the variant effect predictor (VEP) library
-code. To install data libraries, you can use the &#8216;ensembl_vep_install.pl&#8217; command
+code. To install data libraries, you can use the &#8216;vep_install&#8217; command
 installed along with it. For example, to install the VEP library for human
-hg19/GRCh37 to a directory</p>
-<p>ensembl_vep_install.pl -a cf -s homo_sapiens -y GRCh37 -c /output/path/to/hg19/vep
-ensembl_vep_convert_cache.pl -species homo_sapiens -version 86_GRCh37 -d /output/path/to/hg19/vep</p>
+GRCh38 to a directory</p>
+<p>vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep &#8211;CONVERT</p>
 <dl class="docutils">
-<dt>(note that ensembl_vep_install.pl is renamed from INSTALL.pl</dt>
-<dd>and ensembl_vep_convert_cache.pl from covert_cache.pl
-to avoid having generic script names in the PATH)</dd>
+<dt>(note that vep_install is renamed from INSTALL.pl</dt>
+<dd>to avoid having generic script names in the PATH)</dd>
 </dl>
-<p>The convert cache step is not required but improves lookup speeds during
+<p>The &#8211;CONVERT flag is not required but improves lookup speeds during
 runs. See the VEP documentation for more details</p>
-<p><a class="reference external" href="http://useast.ensembl.org/info/docs/tools/vep/script/vep_cache.html">http://useast.ensembl.org/info/docs/tools/vep/script/vep_cache.html</a></p>
+<p><a class="reference external" href="http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html">http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html</a></p>
 <p><a class="reference external" href="https://quay.io/repository/biocontainers/ensembl-vep"><img alt="docker" src="https://quay.io/repository/biocontainers/ensembl-vep/status" /></a></p>
 <p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/ensembl-vep">https://quay.io/repository/biocontainers/ensembl-vep</a>.</p>
 </div>
@@ -154,7 +152,7 @@ runs. See the VEP documentation for more details</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.1</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |

@@ -4302,6 +4302,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>88</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-scalar-list-utils/README.html">perl-scalar-list-utils</a></td>
         
         <td>1.42</td>
@@ -5985,6 +5999,20 @@ Available packages
         <td><a href="recipes/cgat-report/README.html">cgat-report</a></td>
         
         <td>0.3.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cgat-report/README.html">cgat-report</a></td>
+        
+        <td>0.7.6.1</td>
         
         <td></td>
         
@@ -16524,6 +16552,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hicexplorer/README.html">hicexplorer</a></td>
+        
+        <td>1.7.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-sort-versions/README.html">perl-sort-versions</a></td>
         
         <td>1.62</td>
@@ -17023,6 +17065,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-statmod/README.html">r-statmod</a></td>
+        
+        <td>1.4.29</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -20304,6 +20360,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/fastahack/README.html">fastahack</a></td>
+        
+        <td>2016.07.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/m4/README.html">m4</a></td>
         
         <td>1.4.17</td>
@@ -22379,6 +22449,20 @@ Available packages
         <td><a href="recipes/multigps/README.html">multigps</a></td>
         
         <td>0.73</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/multigps/README.html">multigps</a></td>
+        
+        <td>0.74</td>
         
         <td></td>
         
@@ -35802,6 +35886,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/circlator/README.html">circlator</a></td>
+        
+        <td>1.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/libmagic/README.html">libmagic</a></td>
         
         <td>5.25</td>
@@ -42581,6 +42679,20 @@ Available packages
         <td><a href="recipes/r-plotly/README.html">r-plotly</a></td>
         
         <td>4.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-plotly/README.html">r-plotly</a></td>
+        
+        <td>4.5.6</td>
         
         <td></td>
         
