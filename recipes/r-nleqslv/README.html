@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>bioconductor-systempiper &#8212; Bioconda  documentation</title>
+    <title>r-nleqslv &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-topgo" href="../bioconductor-topgo/README.html" />
-    <link rel="prev" title="bioconductor-synergyfinder" href="../bioconductor-synergyfinder/README.html" />
+    <link rel="next" title="r-nor1mix" href="../r-nor1mix/README.html" />
+    <link rel="prev" title="r-nastiseq" href="../r-nastiseq/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,47 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-systempiper">
-<span id="id1"></span><h1>bioconductor-systempiper<a class="headerlink" href="#bioconductor-systempiper" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-systempiper"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-systempiper/badges/downloads.svg" /></a></p>
-<p>R package for building and running automated end-to-end analysis workflows for a wide range of next generation sequence (NGS) applications such as RNA-Seq, ChIP-Seq, VAR-Seq and Ribo-Seq. Important features include a uniform workflow interface across different NGS applications, automated report generation, and support for running both R and command-line software, such as NGS aligners or peak/variant callers, on local computers or compute clusters. Efficient handling of complex sample sets and experimental designs is facilitated by a consistently implemented sample annotation infrastructure. Instructions for using systemPipeR are given in the Overview Vignette (HTML). The remaining Vignettes, linked below, are workflow templates for common NGS use cases.</p>
+  <div class="section" id="r-nleqslv">
+<span id="id1"></span><h1>r-nleqslv<a class="headerlink" href="#r-nleqslv" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-nleqslv"><img alt="downloads" src="https://anaconda.org/bioconda/r-nleqslv/badges/downloads.svg" /></a></p>
+<p>Solve a system of nonlinear equations using a Broyden or a Newton method with a choice of global strategies such as line search and trust region. There are options for using a numerical or user supplied Jacobian, for specifying a banded numerical Jacobian and for allowing a singular or ill-conditioned Jacobian.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="8%" />
-<col width="92%" />
+<col width="10%" />
+<col width="90%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/release/bioc/html/systemPipeR.html">http://bioconductor.org/packages/release/bioc/html/systemPipeR.html</a></td>
+<td><a class="reference external" href="https://CRAN.R-project.org/package=nleqslv">https://CRAN.R-project.org/package=nleqslv</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.4.7, 1.4.8</td>
+<td>3.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Artistic-2.0</td>
+<td>GPL (&gt;= 2)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiper">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-systempiper</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nleqslv">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nleqslv</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">systempiper</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">nleqslv</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">systempiper</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">nleqslv</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-systempiper"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-systempiper/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-systempiper">https://quay.io/repository/biocontainers/bioconductor-systempiper</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-nleqslv"><img alt="docker" src="https://quay.io/repository/biocontainers/r-nleqslv/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-nleqslv">https://quay.io/repository/biocontainers/r-nleqslv</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-systempiper/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-systempiper/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-nleqslv/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-nleqslv/README.html)
 </pre></div>
 </div>
 </div>
@@ -141,7 +141,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-systempiper/README.rst.txt"
+      <a href="../../_sources/recipes/r-nleqslv/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

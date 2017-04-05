@@ -8,8 +8,8 @@ r-plotrix
 Lots of plots, various labeling, axis and color scaling functions.
 
 ======== ===========
-Home     
-Versions 3.6_1
+Home     https://CRAN.R-project.org/package=plotrix
+Versions 3.6_1, 3.6_4
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-plotrix
 ======== ===========
