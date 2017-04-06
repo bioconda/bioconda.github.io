@@ -42088,6 +42088,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
+        
+        <td>0.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-postscript/README.html">perl-postscript</a></td>
         
         <td>0.06</td>

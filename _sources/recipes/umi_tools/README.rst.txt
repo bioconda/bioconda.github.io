@@ -9,7 +9,7 @@ Tools for dealing with Unique Molecular Identifiers
 
 ======== ===========
 Home     https://github.com/CGATOxford/UMI-tools
-Versions 0.2.3
+Versions 0.2.3, 0.4.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi_tools
 ======== ===========
