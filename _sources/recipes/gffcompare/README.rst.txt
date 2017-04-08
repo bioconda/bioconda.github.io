@@ -1,0 +1,50 @@
+.. _`gffcompare`:
+
+gffcompare
+==========
+
+|downloads|
+
+GffCompare by Geo Pertea
+
+======== ===========
+Home     https://github.com/gpertea/gffcompare
+Versions 0.9.8
+License  Artistic License 2.0
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare
+======== ===========
+
+Installation
+------------
+
+.. highlight: bash
+
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+   conda install gffcompare
+
+and update with::
+
+   conda update gffcompare
+
+
+
+|docker|
+
+A Docker container is available at https://quay.io/repository/biocontainers/gffcompare.
+
+Link to this page
+-----------------
+
+Render an |badge| badge with the following Markdown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/gffcompare/README.html)
+
+.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
+           :target: http://bioconda.github.io/recipes/gffcompare/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/gffcompare/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/gffcompare
+.. |docker| image:: https://quay.io/repository/biocontainers/gffcompare/status
+                :target: https://quay.io/repository/biocontainers/gffcompare
+
+

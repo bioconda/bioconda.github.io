@@ -9,7 +9,7 @@ A DSL for data-driven computational pipelines http://nextflow.io
 
 ======== ===========
 Home     https://github.com/nextflow-io/nextflow
-Versions 0.19.3, 0.21.3, 0.23.4, 0.24.1
+Versions 0.19.3, 0.21.3, 0.23.4, 0.24.1, 0.24.2
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextflow
 ======== ===========

@@ -5268,6 +5268,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nextflow/README.html">nextflow</a></td>
+        
+        <td>0.24.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gclib/README.html">gclib</a></td>
         
         <td>0.0.1</td>
@@ -20276,6 +20290,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/lefse/README.html">lefse</a></td>
+        
+        <td>1.0.8.post1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rnabob/README.html">rnabob</a></td>
         
         <td>2.2.1</td>
@@ -31546,6 +31574,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/seqmagick/README.html">seqmagick</a></td>
+        
+        <td>0.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/nextgenmap/README.html">nextgenmap</a></td>
         
         <td>0.5.3</td>
@@ -36701,6 +36743,20 @@ Available packages
         <td><a href="recipes/bamhash/README.html">bamhash</a></td>
         
         <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/graftm/README.html">graftm</a></td>
+        
+        <td>0.10.1</td>
         
         <td></td>
         
@@ -44286,6 +44342,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gffcompare/README.html">gffcompare</a></td>
+        
+        <td>0.9.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sprinkles/README.html">sprinkles</a></td>
         
         <td>0.4.6</td>
@@ -49231,6 +49301,20 @@ Available packages
         <td><a href="recipes/r-ggally/README.html">r-ggally</a></td>
         
         <td>1.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/extern/README.html">extern</a></td>
+        
+        <td>0.2.1</td>
         
         <td></td>
         
