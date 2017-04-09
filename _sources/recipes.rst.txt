@@ -51524,6 +51524,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ghmm/README.html">ghmm</a></td>
+        
+        <td>0.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/urllib3/README.html">urllib3</a></td>
         
         <td>1.12</td>
