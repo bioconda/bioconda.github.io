@@ -48164,6 +48164,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
+        <td>4.3k</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/soapdenovo2-errorcorrection/README.html">soapdenovo2-errorcorrection</a></td>
         
         <td>2.0</td>
@@ -51569,6 +51583,20 @@ Available packages
         <td><a href="recipes/urllib3/README.html">urllib3</a></td>
         
         <td>1.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fwdpy11/README.html">fwdpy11</a></td>
+        
+        <td>0.1.post2</td>
         
         <td></td>
         
