@@ -24378,6 +24378,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/csvtk/README.html">csvtk</a></td>
+        
+        <td>0.7.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/roary/README.html">roary</a></td>
         
         <td>3.7.0</td>
@@ -38812,6 +38826,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-wasabi/README.html">r-wasabi</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-biocgenerics/README.html">bioconductor-biocgenerics</a></td>
         
         <td>0.14.0</td>
@@ -40299,6 +40327,20 @@ Available packages
         <td><a href="recipes/fwdpp/README.html">fwdpp</a></td>
         
         <td>0.5.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fwdpp/README.html">fwdpp</a></td>
+        
+        <td>0.5.5</td>
         
         <td></td>
         
@@ -46918,6 +46960,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mgs-canopy/README.html">mgs-canopy</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rpkmforgenes/README.html">rpkmforgenes</a></td>
         
         <td>1.0.1</td>
@@ -51625,6 +51681,34 @@ Available packages
         <td><a href="recipes/perl-io-all/README.html">perl-io-all</a></td>
         
         <td>0.86</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-speaq/README.html">r-speaq</a></td>
+        
+        <td>1.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-speaq/README.html">r-speaq</a></td>
+        
+        <td>1.2.3</td>
         
         <td></td>
         
