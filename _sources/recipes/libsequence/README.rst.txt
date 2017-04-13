@@ -5,12 +5,12 @@ libsequence
 
 |downloads|
 
-A C++ class library for evolutionary genetics (doi: 10.1093/bioinformatics/btg316)
+A C++ class library for evolutionary genetics.
 
 ======== ===========
-Home     https://www.github.com/molpopgen/libsequence
+Home     http://http://molpopgen.github.io/libsequence/
 Versions 1.9.0
-License  https://raw.githubusercontent.com/molpopgen/libsequence/master/LICENSE
+License  GNU Lesser General Public License v2 or later (LGPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsequence
 ======== ===========
 

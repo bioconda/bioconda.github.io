@@ -8,7 +8,7 @@ r-ash
 David Scott's ASH routines ported from S-PLUS to R.
 
 ======== ===========
-Home     
+Home     https://cran.r-project.org/web/packages/ash/index.html
 Versions 1.0_15
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ash

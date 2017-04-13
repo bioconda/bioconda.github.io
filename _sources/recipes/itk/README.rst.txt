@@ -9,7 +9,7 @@ ITK is an open-source, cross-platform system that provides developers with an ex
 
 ======== ===========
 Home     http://www.itk.org/
-Versions 4.10.1
+Versions 4.10.1, 4.6.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itk
 ======== ===========

@@ -5,7 +5,7 @@ r-ks
 
 |downloads|
 
-Kernel smoothers for univariate and multivariate data.
+Kernel smoothers for univariate and multivariate data, including density functions, density derivatives, cumulative distributions, modal clustering, discriminant analysis, and two-sample hypothesis testing.   
 
 ======== ===========
 Home     http://www.mvstat.net/tduong

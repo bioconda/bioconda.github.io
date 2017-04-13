@@ -9,8 +9,8 @@ Freely available tools for computational molecular biology.
 
 ======== ===========
 Home     http://www.biopython.org/
-Versions 1.68
-License  MIT
+Versions 1.68, 1.69
+License  Biopython License Agreement
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopython
 ======== ===========
 

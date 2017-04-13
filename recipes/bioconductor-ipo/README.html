@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>r-ash &#8212; Bioconda  documentation</title>
+    <title>bioconductor-ipo &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-base64" href="../r-base64/README.html" />
-    <link rel="prev" title="r-aroma.core" href="../r-aroma.core/README.html" />
+    <link rel="next" title="bioconductor-iranges" href="../bioconductor-iranges/README.html" />
+    <link rel="prev" title="bioconductor-interactivedisplaybase" href="../bioconductor-interactivedisplaybase/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,47 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-ash">
-<span id="id1"></span><h1>r-ash<a class="headerlink" href="#r-ash" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-ash"><img alt="downloads" src="https://anaconda.org/bioconda/r-ash/badges/downloads.svg" /></a></p>
-<p>David Scott&#8217;s ASH routines ported from S-PLUS to R.</p>
+  <div class="section" id="bioconductor-ipo">
+<span id="id1"></span><h1>bioconductor-ipo<a class="headerlink" href="#bioconductor-ipo" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-ipo"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-ipo/badges/downloads.svg" /></a></p>
+<p>The outcome of XCMS data processing strongly depends on the parameter settings. IPO (<cite>Isotopologue Parameter Optimization</cite>) is a parameter optimization tool that is applicable for different kinds of samples and liquid chromatography coupled to high resolution mass spectrometry devices, fast and free of labeling steps. IPO uses natural, stable 13C isotopes to calculate a peak picking score. Retention time correction is optimized by minimizing the relative retention time differences within features and grouping parameters are optimized by maximizing the number of features showing exactly one peak from each injection of a pooled sample. The different parameter settings are achieved by design of experiment. The resulting scores are evaluated using response surface models.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col width="9%" />
+<col width="91%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://cran.r-project.org/web/packages/ash/index.html">https://cran.r-project.org/web/packages/ash/index.html</a></td>
+<td><a class="reference external" href="http://bioconductor.org/packages/release/bioc/html/IPO.html">http://bioconductor.org/packages/release/bioc/html/IPO.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.0_15</td>
+<td>1.0.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL (&gt;= 2)</td>
+<td>GPL (&gt;= 2) + file LICENSE</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ash">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ash</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ash</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">ipo</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ash</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">ipo</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-ash"><img alt="docker" src="https://quay.io/repository/biocontainers/r-ash/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-ash">https://quay.io/repository/biocontainers/r-ash</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-ipo"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-ipo/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-ipo">https://quay.io/repository/biocontainers/bioconductor-ipo</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ash/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ash/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-ipo/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-ipo/README.html)
 </pre></div>
 </div>
 </div>
@@ -141,7 +141,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/r-ash/README.rst.txt"
+      <a href="../../_sources/recipes/bioconductor-ipo/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

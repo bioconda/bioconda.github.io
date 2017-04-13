@@ -10058,6 +10058,20 @@ Available packages
         
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
+        <td>0.11.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
         <td>0.8.3</td>
         
         <td></td>
@@ -10619,6 +10633,20 @@ Available packages
         <td><a href="recipes/java-jdk/README.html">java-jdk</a></td>
         
         <td>8.0.92</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-fnn/README.html">r-fnn</a></td>
+        
+        <td>1.1</td>
         
         <td></td>
         
@@ -19660,6 +19688,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/wgsim/README.html">wgsim</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chainfilter/README.html">ucsc-chainfilter</a></td>
         
         <td>324</td>
@@ -21615,6 +21657,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ipo/README.html">bioconductor-ipo</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -31280,6 +31336,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/itk/README.html">itk</a></td>
+        
+        <td>4.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-getopt-argvfile/README.html">perl-getopt-argvfile</a></td>
         
         <td>1.11</td>
@@ -32151,6 +32221,20 @@ Available packages
         <td><a href="recipes/biopython/README.html">biopython</a></td>
         
         <td>1.68</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/biopython/README.html">biopython</a></td>
+        
+        <td>1.69</td>
         
         <td></td>
         
@@ -36519,6 +36603,20 @@ Available packages
         <td><a href="recipes/r-gsubfn/README.html">r-gsubfn</a></td>
         
         <td>0.6_6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.1.0.29</td>
         
         <td></td>
         
@@ -51715,20 +51813,6 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/r-ipo-meta/README.html">r-ipo-meta</a></td>
-        
-        <td>1.7.5</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
         
     </tr>
     
