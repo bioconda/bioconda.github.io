@@ -23944,6 +23944,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.5.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-file-listing/README.html">perl-file-listing</a></td>
         
         <td>6.04</td>
