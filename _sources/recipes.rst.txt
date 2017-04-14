@@ -5178,7 +5178,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -34458,6 +34458,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pyani/README.html">pyani</a></td>
+        
+        <td>0.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/google-sparsehash/README.html">google-sparsehash</a></td>
         
         <td>2.0.3</td>
@@ -36245,6 +36259,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/spingo/README.html">spingo</a></td>
+        
+        <td>1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -46246,6 +46274,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gffread/README.html">gffread</a></td>
+        
+        <td>0.9.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-test-most/README.html">perl-test-most</a></td>
         
         <td>0.34</td>
@@ -47873,6 +47915,20 @@ Available packages
         <td><a href="recipes/sistr_cmd/README.html">sistr_cmd</a></td>
         
         <td>0.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sistr_cmd/README.html">sistr_cmd</a></td>
+        
+        <td>0.3.6</td>
         
         <td></td>
         

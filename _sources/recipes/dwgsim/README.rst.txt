@@ -10,7 +10,7 @@ Whole Genome Simulator for Next-Generation Sequencing
 ======== ===========
 Home     https://github.com/nh13/DWGSIM
 Versions 1.1.11
-License  
+License  GNU General Public License v2 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim
 ======== ===========
 
