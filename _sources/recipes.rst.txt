@@ -11106,6 +11106,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rnftools/README.html">rnftools</a></td>
+        
+        <td>0.3.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-wigcorrelate/README.html">ucsc-wigcorrelate</a></td>
         
         <td>324</td>
@@ -12005,6 +12019,20 @@ Available packages
         <td><a href="recipes/pynast/README.html">pynast</a></td>
         
         <td>1.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pymix/README.html">pymix</a></td>
+        
+        <td>0.8</td>
         
         <td></td>
         
@@ -15995,6 +16023,20 @@ Available packages
         <td><a href="recipes/askocli/README.html">askocli</a></td>
         
         <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/askocli/README.html">askocli</a></td>
+        
+        <td>0.3.2</td>
         
         <td></td>
         
@@ -38437,6 +38479,20 @@ Available packages
         <td><a href="recipes/perl-hpc-runner-pbs/README.html">perl-hpc-runner-pbs</a></td>
         
         <td>0.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pydna/README.html">pydna</a></td>
+        
+        <td>2.0.0a3</td>
         
         <td></td>
         
