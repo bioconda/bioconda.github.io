@@ -5688,6 +5688,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vcfanno/README.html">vcfanno</a></td>
+        
+        <td>0.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/meryl/README.html">meryl</a></td>
         
         <td>2013</td>
@@ -9499,6 +9513,20 @@ Available packages
         <td><a href="recipes/suds-jurko/README.html">suds-jurko</a></td>
         
         <td>0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-gdtools/README.html">r-gdtools</a></td>
+        
+        <td>0.1.4</td>
         
         <td></td>
         
@@ -15712,6 +15740,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-rubic/README.html">r-rubic</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/flask-potion/README.html">flask-potion</a></td>
         
         <td>0.12.1</td>
@@ -17675,6 +17717,20 @@ Available packages
         <td><a href="recipes/last/README.html">last</a></td>
         
         <td>719</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/last/README.html">last</a></td>
+        
+        <td>847</td>
         
         <td></td>
         

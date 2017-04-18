@@ -9,7 +9,7 @@ RUBIC detects recurrent copy number aberrations using copy number breaks, rather
 
 ======== ===========
 Home     http://ccb.nki.nl/software/
-Versions 
+Versions 1.0.2
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rubic
 ======== ===========

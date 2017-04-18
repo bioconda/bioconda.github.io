@@ -9,7 +9,7 @@ Useful tools for writing vector graphics devices.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=gdtools
-Versions 
+Versions 0.1.4
 License  GPL-3 | file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gdtools
 ======== ===========
