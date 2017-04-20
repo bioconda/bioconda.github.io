@@ -8572,6 +8572,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-rtsne/README.html">r-rtsne</a></td>
+        
+        <td>0.13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-sanger-cgp-allelecount/README.html">perl-sanger-cgp-allelecount</a></td>
         
         <td>2.1.2</td>
@@ -11403,6 +11417,20 @@ Available packages
         <td><a href="recipes/libsequence/README.html">libsequence</a></td>
         
         <td>1.9.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/libsequence/README.html">libsequence</a></td>
+        
+        <td>1.9.1</td>
         
         <td></td>
         
@@ -23678,6 +23706,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sourmash/README.html">sourmash</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/scrm/README.html">scrm</a></td>
         
         <td>1.6.1</td>
@@ -31588,6 +31630,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/dsk/README.html">dsk</a></td>
+        
+        <td>2.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pdf-api2/README.html">perl-pdf-api2</a></td>
         
         <td>2.025</td>
@@ -32487,6 +32543,20 @@ Available packages
         <td><a href="recipes/perl-number-compare/README.html">perl-number-compare</a></td>
         
         <td>0.03</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/biopython/README.html">biopython</a></td>
+        
+        <td>1.67</td>
         
         <td></td>
         
@@ -39277,6 +39347,20 @@ Available packages
         <td><a href="recipes/r-wasabi/README.html">r-wasabi</a></td>
         
         <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-wasabi/README.html">r-wasabi</a></td>
+        
+        <td>0.2</td>
         
         <td></td>
         
