@@ -18512,20 +18512,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/toposort/README.html">toposort</a></td>
-        
-        <td>1.4</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/perl-moosex-types-path-class/README.html">perl-moosex-types-path-class</a></td>
         
         <td>0.09</td>
@@ -18571,6 +18557,20 @@ Available packages
         <td><a href="recipes/mobster/README.html">mobster</a></td>
         
         <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mobster/README.html">mobster</a></td>
+        
+        <td>0.2.2</td>
         
         <td></td>
         
@@ -32025,6 +32025,20 @@ Available packages
         <td><a href="recipes/damidseq_pipeline/README.html">damidseq_pipeline</a></td>
         
         <td>1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/edena/README.html">edena</a></td>
+        
+        <td>3.131028</td>
         
         <td></td>
         
@@ -48475,6 +48489,20 @@ Available packages
         <td><a href="recipes/clever-toolkit/README.html">clever-toolkit</a></td>
         
         <td>2.0rc4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/clever-toolkit/README.html">clever-toolkit</a></td>
+        
+        <td>2.1</td>
         
         <td></td>
         
