@@ -9,7 +9,7 @@ Homology- and composition-based classifiers for assigning a taxonomic attributio
 
 ======== ===========
 Home     https://github.com/dparks1134/FragmentClassificationPackage
-Versions 
+Versions 1.0.7
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fcp
 ======== ===========

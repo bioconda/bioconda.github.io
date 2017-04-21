@@ -8,7 +8,7 @@ r-pracma
  Functions from numerical analysis and linear algebra, numerical optimization, differential equations, plus some special functions. Uses Matlab function names where appropriate to simplify porting.
 
 ======== ===========
-Home     
+Home     https://cran.r-project.org/web/packages/pracma/index.html
 Versions 1.8.8
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pracma

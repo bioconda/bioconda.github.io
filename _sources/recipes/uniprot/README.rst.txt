@@ -9,7 +9,7 @@ Retrieve protein sequence identifiers and metadata from http://uniprot.org
 
 ======== ===========
 Home     http://github.com/boscoh/uniprot
-Versions 
+Versions 1.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uniprot
 ======== ===========
