@@ -22348,6 +22348,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/xxmotif/README.html">xxmotif</a></td>
+        
+        <td>1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/graphicsmagick/README.html">graphicsmagick</a></td>
         
         <td>1.3.20</td>
@@ -40870,6 +40884,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cwltool/README.html">cwltool</a></td>
+        
+        <td>1.0.20170413194156</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-text-glob/README.html">perl-text-glob</a></td>
         
         <td>0.09</td>
@@ -44356,6 +44384,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/arvados-cwl-runner/README.html">arvados-cwl-runner</a></td>
+        
+        <td>1.0.20170414202629</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-statistics-distributions/README.html">perl-statistics-distributions</a></td>
         
         <td>1.02</td>
@@ -44849,6 +44891,20 @@ Available packages
         <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
         
         <td>2.2.20170216125639</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
+        
+        <td>2.5.20170328195758</td>
         
         <td></td>
         
@@ -46473,6 +46529,20 @@ Available packages
         <td><a href="recipes/python-omero/README.html">python-omero</a></td>
         
         <td>5.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/python-omero/README.html">python-omero</a></td>
+        
+        <td>5.3.1</td>
         
         <td></td>
         
