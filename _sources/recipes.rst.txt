@@ -4372,6 +4372,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>88.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-scalar-list-utils/README.html">perl-scalar-list-utils</a></td>
         
         <td>1.42</td>
@@ -10227,6 +10241,20 @@ Available packages
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
         <td>0.11.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
+        <td>0.11.1</td>
         
         <td></td>
         
@@ -28216,6 +28244,20 @@ Available packages
         
         <td><a href="recipes/searchgui/README.html">searchgui</a></td>
         
+        <td>3.2.13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/searchgui/README.html">searchgui</a></td>
+        
         <td>3.2.3</td>
         
         <td></td>
@@ -31482,7 +31524,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -46168,7 +46210,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
