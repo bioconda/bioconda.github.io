@@ -5296,6 +5296,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cgat-scripts-devel/README.html">cgat-scripts-devel</a></td>
+        
+        <td>0.2.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-io-interactive/README.html">perl-io-interactive</a></td>
         
         <td>1.021</td>
@@ -38031,6 +38045,20 @@ Available packages
         <td><a href="recipes/bioconductor-metagenomeseq/README.html">bioconductor-metagenomeseq</a></td>
         
         <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/targqc/README.html">targqc</a></td>
+        
+        <td>1.4.4</td>
         
         <td></td>
         
