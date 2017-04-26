@@ -1586,6 +1586,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/berokka/README.html">berokka</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/dextractor/README.html">dextractor</a></td>
         
         <td>1.0p1</td>
@@ -18890,6 +18904,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pymvpa/README.html">pymvpa</a></td>
+        
+        <td>2.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rainbow/README.html">rainbow</a></td>
         
         <td>2.0.4</td>
@@ -23720,6 +23748,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/delly/README.html">delly</a></td>
+        
+        <td>0.7.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chainsort/README.html">ucsc-chainsort</a></td>
         
         <td>324</td>
@@ -26593,6 +26635,20 @@ Available packages
         <td><a href="recipes/flaimapper/README.html">flaimapper</a></td>
         
         <td>2.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/flaimapper/README.html">flaimapper</a></td>
+        
+        <td>2.4.0</td>
         
         <td></td>
         
@@ -34992,6 +35048,20 @@ Available packages
         
         <td><a href="recipes/gmap/README.html">gmap</a></td>
         
+        <td>2014.12.23</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gmap/README.html">gmap</a></td>
+        
         <td>2015.09.10</td>
         
         <td></td>
@@ -36726,6 +36796,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/circlator/README.html">circlator</a></td>
+        
+        <td>1.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/libmagic/README.html">libmagic</a></td>
         
         <td>5.25</td>
@@ -37513,6 +37597,20 @@ Available packages
         <td><a href="recipes/bamhash/README.html">bamhash</a></td>
         
         <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/virmet/README.html">virmet</a></td>
+        
+        <td>v1.0</td>
         
         <td></td>
         

@@ -9,7 +9,7 @@ circlator: a tool to circularise genome assemblies
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/circlator
-Versions 1.1.2, 1.3.0, 1.3.1, 1.4.0, 1.5.0
+Versions 1.1.2, 1.3.0, 1.3.1, 1.4.0, 1.5.0, 1.5.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circlator
 ======== ===========
