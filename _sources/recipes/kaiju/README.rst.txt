@@ -9,7 +9,7 @@ Fast and sensitive taxonomic classification for metagenomics
 
 ======== ===========
 Home     http://kaiju.binf.ku.dk/
-Versions 1.0, 1.4.4, 1.4.5
+Versions 1.0, 1.4.4, 1.4.5, 1.5.0
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaiju
 ======== ===========

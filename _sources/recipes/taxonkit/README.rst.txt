@@ -9,7 +9,7 @@ A Cross-platform and Efficient NCBI Taxonomy Toolkit
 
 ======== ===========
 Home     https://github.com/shenwei356/taxonkit
-Versions 0.1.7
+Versions 0.1.7, 0.1.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonkit
 ======== ===========
