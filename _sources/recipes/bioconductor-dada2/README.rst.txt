@@ -9,7 +9,7 @@ The dada2 package provides "OTU picking" functionality, but instead of picking O
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/dada2.html
-Versions 0.10.0, 0.10.1, 0.10.3, 0.10.4, 0.99.10, 1.0.3, 1.2, 1.4
+Versions 0.10.0, 0.10.1, 0.10.3, 0.10.4, 0.99.10, 1.0.3, 1.2, 1.4, 1.4.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2
 ======== ===========
