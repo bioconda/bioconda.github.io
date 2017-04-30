@@ -49186,6 +49186,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mintmap/README.html">mintmap</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-graph/README.html">perl-graph</a></td>
         
         <td>0.9704</td>
