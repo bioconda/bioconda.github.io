@@ -9,7 +9,7 @@ High-performance read alignment, quantification, and mutation discovery
 
 ======== ===========
 Home     http://subread.sourceforge.net/
-Versions 1.4.6p5, 1.5.0, 1.5.0.post3, 1.5.0p3
+Versions 1.4.6p5, 1.5.0, 1.5.0.post3, 1.5.0p3, 1.5.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/subread
 ======== ===========

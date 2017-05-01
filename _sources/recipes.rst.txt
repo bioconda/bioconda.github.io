@@ -2286,6 +2286,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-knitr/README.html">r-knitr</a></td>
         
         <td>1.12.3</td>
@@ -30720,6 +30734,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command-plugin-logger-sqlite/README.html">perl-hpc-runner-command-plugin-logger-sqlite</a></td>
+        
+        <td>0.0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-kegg.db/README.html">bioconductor-kegg.db</a></td>
         
         <td>3.2.2</td>
@@ -47733,6 +47761,20 @@ Available packages
         <td><a href="recipes/subread/README.html">subread</a></td>
         
         <td>1.5.0p3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/subread/README.html">subread</a></td>
+        
+        <td>1.5.2</td>
         
         <td></td>
         
