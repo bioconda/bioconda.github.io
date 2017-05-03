@@ -9,7 +9,7 @@ Neptune: Genomic Signature Discovery
 
 ======== ===========
 Home     https://github.com/phac-nml/neptune
-Versions 1.2.3
+Versions 1.2.3, 1.2.5
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune
 ======== ===========

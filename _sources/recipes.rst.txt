@@ -30608,6 +30608,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/neptune/README.html">neptune</a></td>
+        
+        <td>1.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-yaml/README.html">r-yaml</a></td>
         
         <td>2.1.13</td>
@@ -43600,6 +43614,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-variantannotation/README.html">bioconductor-variantannotation</a></td>
+        
+        <td>1.20.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-category/README.html">bioconductor-category</a></td>
         
         <td>2.36.0</td>
@@ -46792,6 +46820,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/htseq/README.html">htseq</a></td>
+        
+        <td>0.7.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/aragorn/README.html">aragorn</a></td>
         
         <td>1.2.36</td>
@@ -49763,6 +49805,20 @@ Available packages
         <td><a href="recipes/manta/README.html">manta</a></td>
         
         <td>1.0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/manta/README.html">manta</a></td>
+        
+        <td>1.1.0</td>
         
         <td></td>
         
