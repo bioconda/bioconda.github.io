@@ -9,7 +9,7 @@ trim adapters from high-throughput sequencing reads
 
 ======== ===========
 Home     https://atropos.readthedocs.io/
-Versions 1.0.23, 1.1.2
+Versions 1.0.23, 1.1.2, 1.1.4
 License  CC0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atropos
 ======== ===========

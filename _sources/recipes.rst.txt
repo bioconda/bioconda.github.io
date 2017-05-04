@@ -24812,6 +24812,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/atropos/README.html">atropos</a></td>
+        
+        <td>1.1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-medips/README.html">bioconductor-medips</a></td>
         
         <td>1.24.0</td>
@@ -50244,7 +50258,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
