@@ -9,7 +9,7 @@ Parsing, validation, and analysis of BEL graphs
 
 ======== ===========
 Home     https://github.com/pybel/pybel
-Versions 0.4.0
+Versions 0.4.0, 0.5.4
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel
 ======== ===========
