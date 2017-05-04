@@ -9,7 +9,7 @@ Genome wide annotation for Rat, primarily based on mapping using Entrez Gene ide
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/annotation/html/org.Rn.eg.db.html
-Versions 
+Versions 3.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.rn.eg.db
 ======== ===========

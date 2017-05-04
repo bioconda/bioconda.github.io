@@ -9,7 +9,7 @@ Genome wide annotation for Canine, primarily based on mapping using Entrez Gene 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/annotation/html/org.Cf.eg.db.html
-Versions 
+Versions 3.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.cf.eg.db
 ======== ===========
