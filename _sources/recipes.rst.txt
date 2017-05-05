@@ -8026,20 +8026,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/w4mclassfilter/README.html">w4mclassfilter</a></td>
-        
-        <td>0.98.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/plant_tribes_assembly_post_processor/README.html">plant_tribes_assembly_post_processor</a></td>
         
         <td>0.1</td>
@@ -12030,6 +12016,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/parallel/README.html">parallel</a></td>
+        
+        <td>20170422</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/appdirs/README.html">appdirs</a></td>
         
         <td>1.4.0</td>
@@ -12089,6 +12089,20 @@ Available packages
         <td><a href="recipes/fsnviz/README.html">fsnviz</a></td>
         
         <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fsnviz/README.html">fsnviz</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         
@@ -13131,6 +13145,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/obitools/README.html">obitools</a></td>
+        
+        <td>1.2.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -17014,6 +17042,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/w4mclassfilter/README.html">w4mclassfilter</a></td>
+        
+        <td>0.98.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-sort-versions/README.html">perl-sort-versions</a></td>
         
         <td>1.62</td>
@@ -17423,6 +17465,20 @@ Available packages
         <td><a href="recipes/igdiscover/README.html">igdiscover</a></td>
         
         <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/igdiscover/README.html">igdiscover</a></td>
+        
+        <td>0.7.0</td>
         
         <td></td>
         
@@ -21637,6 +21693,20 @@ Available packages
         <td><a href="recipes/busco/README.html">busco</a></td>
         
         <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/busco/README.html">busco</a></td>
+        
+        <td>2.0.1</td>
         
         <td></td>
         
@@ -32248,6 +32318,20 @@ Available packages
         
         <td><a href="recipes/gfapy/README.html">gfapy</a></td>
         
+        <td>1.0.0rc10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gfapy/README.html">gfapy</a></td>
+        
         <td>1.0.0rc9</td>
         
         <td></td>
@@ -37625,6 +37709,20 @@ Available packages
         <td><a href="recipes/prophyle/README.html">prophyle</a></td>
         
         <td>0.1.0.35</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.1.0.38</td>
         
         <td></td>
         
@@ -47842,20 +47940,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/awscli/README.html">awscli</a></td>
-        
-        <td>1.8.3</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/perl-graphviz/README.html">perl-graphviz</a></td>
         
         <td>2.20</td>
@@ -50286,7 +50370,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     

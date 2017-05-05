@@ -8,8 +8,8 @@ igdiscover
 Analyze antibody repertoires and discover new V genes
 
 ======== ===========
-Home     https://igdiscover.readthedocs.io/
-Versions 0.3, 0.4, 0.5, 0.6.0
+Home     https://igdiscover.se/
+Versions 0.3, 0.4, 0.5, 0.6.0, 0.7.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igdiscover
 ======== ===========
