@@ -9,7 +9,7 @@ Sniffles is a structural variation caller using third generation sequencing (Pac
 
 ======== ===========
 Home     https://github.com/fritzsedlazeck/Sniffles
-Versions 1.0.3
+Versions 1.0.3, 1.0.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sniffles
 ======== ===========

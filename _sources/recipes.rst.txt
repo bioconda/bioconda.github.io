@@ -1054,6 +1054,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-hsmmsinglecell/README.html">bioconductor-hsmmsinglecell</a></td>
+        
+        <td>0.110.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-gdtextutil/README.html">perl-gdtextutil</a></td>
         
         <td>0.86</td>
@@ -9188,6 +9202,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/crossmap/README.html">crossmap</a></td>
+        
+        <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-pslselect/README.html">ucsc-pslselect</a></td>
         
         <td>324</td>
@@ -15978,6 +16006,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/imfusion/README.html">imfusion</a></td>
+        
+        <td>0.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-string-approx/README.html">perl-string-approx</a></td>
         
         <td>3.27</td>
@@ -16051,6 +16093,20 @@ Available packages
         <td><a href="recipes/r-rubic/README.html">r-rubic</a></td>
         
         <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-rubic/README.html">r-rubic</a></td>
+        
+        <td>1.0.3</td>
         
         <td></td>
         
@@ -33122,7 +33178,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -36628,6 +36684,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rgi/README.html">rgi</a></td>
+        
+        <td>3.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gimmemotifs/README.html">gimmemotifs</a></td>
         
         <td>0.10.0</td>
@@ -36847,6 +36917,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sniffles/README.html">sniffles</a></td>
+        
+        <td>1.0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -50356,7 +50440,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
