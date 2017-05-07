@@ -15474,7 +15474,7 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/r-monocle/README.html">r-monocle</a></td>
+        <td><a href="recipes/bioconductor-monocle/README.html">bioconductor-monocle</a></td>
         
         <td>2.4.0</td>
         
@@ -39487,6 +39487,20 @@ Available packages
         <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
         
         <td>1.0.2a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
+        
+        <td>1.0.3</td>
         
         <td></td>
         
