@@ -10098,6 +10098,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/eqtlbma/README.html">eqtlbma</a></td>
+        
+        <td>1.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ete3/README.html">ete3</a></td>
         
         <td>3.0.0b35</td>
@@ -12506,6 +12520,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-affxparser/README.html">bioconductor-affxparser</a></td>
+        
+        <td>1.48.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/soapdenovo2-prepare/README.html">soapdenovo2-prepare</a></td>
         
         <td>2.0</td>
@@ -13892,6 +13920,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
+        <td>2.9.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chainsplit/README.html">ucsc-chainsplit</a></td>
         
         <td>324</td>
@@ -14951,6 +14993,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/shapeit/README.html">shapeit</a></td>
+        
+        <td>2.r837</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -17232,7 +17288,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td><i class="fa fa-apple"></i></td>
+        <td></td>
         
     </tr>
     
@@ -35706,6 +35762,34 @@ Available packages
         
         <td><a href="recipes/ghostscript/README.html">ghostscript</a></td>
         
+        <td>9.07</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ghostscript/README.html">ghostscript</a></td>
+        
+        <td>9.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ghostscript/README.html">ghostscript</a></td>
+        
         <td>9.18</td>
         
         <td></td>
@@ -40131,6 +40215,20 @@ Available packages
         <td><a href="recipes/anvio/README.html">anvio</a></td>
         
         <td>2.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-checkpoint/README.html">r-checkpoint</a></td>
+        
+        <td>0.4.0</td>
         
         <td></td>
         
@@ -46571,6 +46669,20 @@ Available packages
         <td><a href="recipes/snakemake/README.html">snakemake</a></td>
         
         <td>3.11.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>3.12.0</td>
         
         <td></td>
         

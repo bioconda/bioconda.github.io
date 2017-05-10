@@ -9,7 +9,7 @@ An interpreter for the PostScript language and for PDF.
 
 ======== ===========
 Home     http://ghostscript.com/
-Versions 9.18
+Versions 9.07, 9.10, 9.18
 License  Affero GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostscript
 ======== ===========
