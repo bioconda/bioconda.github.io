@@ -17288,7 +17288,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -20601,6 +20601,20 @@ Available packages
         <td><a href="recipes/editdistance/README.html">editdistance</a></td>
         
         <td>0.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanosim-h/README.html">nanosim-h</a></td>
+        
+        <td>1.1.0.2</td>
         
         <td></td>
         
@@ -24840,6 +24854,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.5.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-file-listing/README.html">perl-file-listing</a></td>
         
         <td>6.04</td>
@@ -25423,20 +25451,6 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/nanosimh/README.html">nanosimh</a></td>
-        
-        <td>v1.0.1.8</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -28231,6 +28245,20 @@ Available packages
         <td><a href="recipes/r-spp/README.html">r-spp</a></td>
         
         <td>1.13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-spp/README.html">r-spp</a></td>
+        
+        <td>1.14</td>
         
         <td></td>
         
