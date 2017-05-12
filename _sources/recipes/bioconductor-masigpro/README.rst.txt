@@ -9,7 +9,7 @@ maSigPro is a regression based approach to find genes for which there are signif
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/maSigPro.html
-Versions 1.46.0
+Versions 1.46.0, 1.49.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-masigpro
 ======== ===========
