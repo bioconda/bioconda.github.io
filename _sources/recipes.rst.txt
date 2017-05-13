@@ -858,6 +858,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bellmans-gapc/README.html">bellmans-gapc</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-getrna/README.html">ucsc-getrna</a></td>
         
         <td>332</td>
@@ -1491,6 +1505,20 @@ Available packages
         <td><a href="recipes/deeptools/README.html">deeptools</a></td>
         
         <td>2.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/deeptools/README.html">deeptools</a></td>
+        
+        <td>2.5.1</td>
         
         <td></td>
         
@@ -5509,6 +5537,20 @@ Available packages
         <td><a href="recipes/nudup/README.html">nudup</a></td>
         
         <td>2.3.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-rmysql/README.html">r-rmysql</a></td>
+        
+        <td>0.10.11</td>
         
         <td></td>
         
@@ -16191,6 +16233,34 @@ Available packages
         <td><a href="recipes/imfusion/README.html">imfusion</a></td>
         
         <td>0.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/imfusion/README.html">imfusion</a></td>
+        
+        <td>0.3.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-algorithm-cluster/README.html">perl-algorithm-cluster</a></td>
+        
+        <td>1.52</td>
         
         <td></td>
         
@@ -47425,6 +47495,20 @@ Available packages
         <td><a href="recipes/rnashapes/README.html">rnashapes</a></td>
         
         <td>2.1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/rnashapes/README.html">rnashapes</a></td>
+        
+        <td>3.3.0</td>
         
         <td></td>
         

@@ -9,9 +9,9 @@ IM-Fusion - Tool for identifying transposon insertions and their effects from RN
 
 ======== ===========
 Home     https://github.com/jrderuiter/imfusion
-Versions 0.3.0
+Versions 0.3.0, 0.3.2
 License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.2
 ======== ===========
 
 Installation
