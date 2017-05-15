@@ -32274,6 +32274,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/expansionhunter/README.html">expansionhunter</a></td>
         
         <td>2.0.6</td>
