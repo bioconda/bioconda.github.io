@@ -9,7 +9,7 @@ Tests and assertions to perform frequent argument checks. A substantial part of 
 
 ======== ===========
 Home     https://github.com/mllg/checkmate
-Versions 1.6.3
+Versions 1.6.3, 1.8.2
 License  BSD_3_clause + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-checkmate
 ======== ===========

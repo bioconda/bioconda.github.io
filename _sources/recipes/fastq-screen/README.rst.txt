@@ -9,7 +9,7 @@ FastQ Screen allows you to screen a library of sequences in FastQ format against
 
 ======== ===========
 Home     http://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
-Versions 0.5.2
+Versions 0.11.1, 0.5.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-screen
 ======== ===========
