@@ -9,7 +9,7 @@ Toolbox that allows you to filter and manipulate annotated files
 
 ======== ===========
 Home     http://snpeff.sourceforge.net/SnpSift.html
-Versions 4.1l, 4.2, 4.3
+Versions 4.1l, 4.2, 4.3, 4.3.1m
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift
 ======== ===========
@@ -27,7 +27,10 @@ and update with::
 
    conda update snpsift
 
+Notes
+-----
 
+Note that the package version is slightly different from upstream, this is to make sure conda will order the package versions correctly.
 
 |docker|
 

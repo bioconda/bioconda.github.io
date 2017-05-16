@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>sed &#8212; Bioconda  documentation</title>
+    <title>r-fastmatch &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -25,11 +25,11 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="seedme" href="../seedme/README.html" />
-    <link rel="prev" title="searchgui" href="../searchgui/README.html" />
+    <link rel="next" title="r-fda" href="../r-fda/README.html" />
+    <link rel="prev" title="r-fastica" href="../r-fastica/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,47 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="sed">
-<span id="id1"></span><h1>sed<a class="headerlink" href="#sed" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/sed"><img alt="downloads" src="https://anaconda.org/bioconda/sed/badges/downloads.svg" /></a></p>
-<p>sed (stream editor)</p>
+  <div class="section" id="r-fastmatch">
+<span id="id1"></span><h1>r-fastmatch<a class="headerlink" href="#r-fastmatch" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-fastmatch"><img alt="downloads" src="https://anaconda.org/bioconda/r-fastmatch/badges/downloads.svg" /></a></p>
+<p>Package providing a fast match() replacement for cases that require repeated look-ups. It is slightly faster that R&#8217;s built-in match() function on first match against a table, but extremely fast on any subsequent lookup as it keeps the hash table in memory.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="11%" />
-<col width="89%" />
+<col width="10%" />
+<col width="90%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://www.gnu.org/software/sed/">http://www.gnu.org/software/sed/</a></td>
+<td><a class="reference external" href="http://www.rforge.net/fastmatch">http://www.rforge.net/fastmatch</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>4.2.2, 4.2.3.dev0</td>
+<td>1.1_0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL</td>
+<td>GPL-2</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sed">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sed</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fastmatch">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fastmatch</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">sed</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">fastmatch</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">sed</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">fastmatch</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/sed"><img alt="docker" src="https://quay.io/repository/biocontainers/sed/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/sed">https://quay.io/repository/biocontainers/sed</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-fastmatch"><img alt="docker" src="https://quay.io/repository/biocontainers/r-fastmatch/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-fastmatch">https://quay.io/repository/biocontainers/r-fastmatch</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/sed/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sed/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-fastmatch/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-fastmatch/README.html)
 </pre></div>
 </div>
 </div>
@@ -137,11 +137,11 @@ $(document).ready(function() {
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.4</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/sed/README.rst.txt"
+      <a href="../../_sources/recipes/r-fastmatch/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

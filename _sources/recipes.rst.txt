@@ -5114,6 +5114,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vsearch/README.html">vsearch</a></td>
+        
+        <td>2.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-perlio-utf8_strict/README.html">perl-perlio-utf8_strict</a></td>
         
         <td>0.006</td>
@@ -10479,6 +10493,20 @@ Available packages
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
         <td>0.11.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
+        <td>0.11.2.1</td>
         
         <td></td>
         
@@ -19422,6 +19450,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-fastmatch/README.html">r-fastmatch</a></td>
+        
+        <td>1.1_0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/limix/README.html">limix</a></td>
         
         <td>0.7.12</td>
@@ -20943,6 +20985,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gap2seq/README.html">gap2seq</a></td>
+        
+        <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -23555,34 +23611,6 @@ Available packages
         <td><a href="recipes/perl-spiffy/README.html">perl-spiffy</a></td>
         
         <td>0.46</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/sed/README.html">sed</a></td>
-        
-        <td>4.2.2</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/sed/README.html">sed</a></td>
-        
-        <td>4.2.3.dev0</td>
         
         <td></td>
         
@@ -41346,6 +41374,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-sqldf/README.html">r-sqldf</a></td>
+        
+        <td>0.4_10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-biovizbase/README.html">bioconductor-biovizbase</a></td>
         
         <td>1.18.0</td>
@@ -48850,6 +48892,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snpsift/README.html">snpsift</a></td>
+        
+        <td>4.3.1m</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-mime-lite/README.html">perl-mime-lite</a></td>
         
         <td>3.030</td>
@@ -50421,6 +50477,34 @@ Available packages
         <td><a href="recipes/snpeff/README.html">snpeff</a></td>
         
         <td>4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
+        <td>4.3.1k</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
+        <td>4.3.1m</td>
         
         <td></td>
         
