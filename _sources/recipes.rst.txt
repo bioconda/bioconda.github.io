@@ -1140,6 +1140,20 @@ Available packages
         
         <td><a href="recipes/pymummer/README.html">pymummer</a></td>
         
+        <td>0.10.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pymummer/README.html">pymummer</a></td>
+        
         <td>0.6.1</td>
         
         <td></td>
@@ -5789,20 +5803,6 @@ Available packages
         <td><a href="recipes/r-nor1mix/README.html">r-nor1mix</a></td>
         
         <td>1.2_1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/botocore/README.html">botocore</a></td>
-        
-        <td>1.3.6</td>
         
         <td></td>
         
@@ -17409,6 +17409,20 @@ Available packages
         <td><a href="recipes/w4mclassfilter/README.html">w4mclassfilter</a></td>
         
         <td>0.98.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/w4mclassfilter/README.html">w4mclassfilter</a></td>
+        
+        <td>0.98.2</td>
         
         <td></td>
         
@@ -51608,6 +51622,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/galaxy-lib/README.html">galaxy-lib</a></td>
+        
+        <td>17.5.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/fasta3/README.html">fasta3</a></td>
         
         <td>36.3.8</td>
@@ -52275,6 +52303,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-bbmisc/README.html">r-bbmisc</a></td>
+        
+        <td>1.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     

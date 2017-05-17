@@ -5,13 +5,13 @@ screed
 
 |downloads|
 
-a simple read-only sequence database, designed for short reads
+Screed is a biological sequence parsing and storage/retrieval library for DNA and protein sequences.
 
 ======== ===========
-Home     https://github.com/dib-lab/screed
+Home     http://github.com/dib-lab/screed/
 Versions 0.9
 License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screed/0.9
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screed
 ======== ===========
 
 Installation

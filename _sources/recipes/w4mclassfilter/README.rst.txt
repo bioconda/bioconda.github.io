@@ -9,7 +9,7 @@ Filter Workflow4Metabolomics dataMatrix, sampleMetadata, and variableMetadata fi
 
 ======== ===========
 Home     https://github.com/HegemanLab/w4mclassfilter
-Versions 0.98.0, 0.98.1
+Versions 0.98.0, 0.98.1, 0.98.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclassfilter
 ======== ===========

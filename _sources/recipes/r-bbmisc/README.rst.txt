@@ -9,7 +9,7 @@ Miscellaneous helper functions for and from B. Bischl and some other guys at TU 
 
 ======== ===========
 Home     https://github.com/berndbischl/BBmisc
-Versions 1.9
+Versions 1.11, 1.9
 License  BSD_3_clause + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bbmisc
 ======== ===========
