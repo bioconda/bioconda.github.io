@@ -5,13 +5,13 @@ khmer
 
 |downloads|
 
-khmer is a library and suite of command line tools for working with DNA sequence. It is primarily aimed at short-read sequencing data such as that produced by the Illumina platform. khmer takes a k-mer-centric approach to sequence analysis, hence the name.
+khmer k-mer counting library
 
 ======== ===========
-Home     https://khmer.readthedocs.org/
-Versions 2.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer/2.0
+Home     https://khmer.readthedocs.io/
+Versions 2.0, 2.1rc1
+License  BSD License
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer
 ======== ===========
 
 Installation

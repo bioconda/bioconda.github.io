@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>r-ff &#8212; Bioconda  documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="r-fftwtools" href="../r-fftwtools/README.html" />
+    <link rel="prev" title="r-fdrtool" href="../r-fdrtool/README.html" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="_static/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">  
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.js"></script>
+
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+    $('#recipestable').DataTable( {
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
+} );
+</script>
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="r-ff">
+<span id="id1"></span><h1>r-ff<a class="headerlink" href="#r-ff" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-ff"><img alt="downloads" src="https://anaconda.org/bioconda/r-ff/badges/downloads.svg" /></a></p>
+<p>The ff package provides data structures that are stored on disk but behave (almost)
+as if they were in RAM by transparently  mapping only a section (pagesize) in main
+memory - the effective  virtual memory consumption per ff object. ff supports R&#8217;&#8217;s
+standard  atomic data types &#8216;&#8217;double&#8217;&#8216;, &#8216;&#8217;logical&#8217;&#8216;, &#8216;&#8217;raw&#8217;&#8217; and &#8216;&#8217;integer&#8217;&#8217; and  non-standard
+atomic types boolean (1 bit), quad (2 bit unsigned),  nibble (4 bit unsigned), byte
+(1 byte signed with NAs), ubyte (1 byte  unsigned), short (2 byte signed with NAs),
+ushort (2 byte unsigned),  single (4 byte float with NAs). For example &#8216;&#8217;quad&#8217;&#8217;
+allows efficient  storage of genomic data as an &#8216;&#8217;A&#8217;&#8216;,&#8217;&#8216;T&#8217;&#8216;,&#8217;&#8216;G&#8217;&#8216;,&#8217;&#8216;C&#8217;&#8217; factor.
+The unsigned  types support &#8216;&#8217;circular&#8217;&#8217; arithmetic. There is also support for  close-to-atomic
+types &#8216;&#8217;factor&#8217;&#8216;, &#8216;&#8217;ordered&#8217;&#8216;, &#8216;&#8217;POSIXct&#8217;&#8216;, &#8216;&#8217;Date&#8217;&#8217; and  custom close-to-atomic
+types.  ff not only has native C-support for vectors, matrices and arrays  with
+flexible dimorder (major column-order, major row-order and  generalizations for
+arrays). There is also a ffdf class not unlike  data.frames and import/export filters
+for csv files. ff objects store raw data in binary flat files in native encoding,
+and complement this with metadata stored in R as physical and virtual attributes.
+ff objects have well-defined hybrid copying semantics,  which gives rise to certain
+performance improvements through  virtualization. ff objects can be stored and reopened
+across R  sessions. ff files can be shared by multiple ff R objects  (using different
+data en/de-coding schemes) in the same process  or from multiple R processes to
+exploit parallelism. A wide choice of  finalizer options allows to work with &#8216;&#8217;permanent&#8217;&#8217;
+files as well as  creating/removing &#8216;&#8217;temporary&#8217;&#8217; ff files completely transparent
+to the  user. On certain OS/Filesystem combinations, creating the ff files works
+without notable delay thanks to using sparse file allocation. Several access optimization
+techniques such as Hybrid Index  Preprocessing and Virtualization are implemented
+to achieve good  performance even with large datasets, for example virtual matrix  transpose
+without touching a single byte on disk. Further, to reduce  disk I/O, &#8216;&#8217;logicals&#8217;&#8217;
+and non-standard data types get stored native and  compact on binary flat files
+i.e. logicals take up exactly 2 bits to  represent TRUE, FALSE and NA.  Beyond basic
+access functions, the ff package also provides  compatibility functions that facilitate
+writing code for ff and ram  objects and support for batch processing on ff objects
+(e.g. as.ram,  as.ff, ffapply). ff interfaces closely with functionality from package  &#8216;&#8217;bit&#8217;&#8216;:
+chunked looping, fast bit operations and coercions between  different objects that
+can store subscript information (&#8216;&#8217;bit&#8217;&#8216;,  &#8216;&#8217;bitwhich&#8217;&#8216;, ff &#8216;&#8217;boolean&#8217;&#8216;, ri range
+index, hi hybrid index). This allows to work interactively with selections of large
+datasets and quickly  modify selection criteria.  Further high-performance enhancements
+can be made available upon request.</p>
+<table border="1" class="docutils">
+<colgroup>
+<col width="10%" />
+<col width="90%" />
+</colgroup>
+<tbody valign="top">
+<tr class="row-odd"><td>Home</td>
+<td><a class="reference external" href="http://ff.r-forge.r-project.org/">http://ff.r-forge.r-project.org/</a></td>
+</tr>
+<tr class="row-even"><td>Versions</td>
+<td>2.2_13</td>
+</tr>
+<tr class="row-odd"><td>License</td>
+<td>GPL-2 | file LICENSE</td>
+</tr>
+<tr class="row-even"><td>Recipe</td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ff">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ff</a></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="installation">
+<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">ff</span>
+</pre></div>
+</div>
+<p>and update with:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">ff</span>
+</pre></div>
+</div>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-ff"><img alt="docker" src="https://quay.io/repository/biocontainers/r-ff/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-ff">https://quay.io/repository/biocontainers/r-ff</a>.</p>
+</div>
+<div class="section" id="link-to-this-page">
+<h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-ff/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-ff/README.html)
+</pre></div>
+</div>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="../../index.html">
+    <img class="logo" src="../../_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../recipes.html">Available packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../contributing.html">Contributing</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="../../_sources/recipes/r-ff/README.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

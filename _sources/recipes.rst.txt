@@ -452,6 +452,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-ff/README.html">r-ff</a></td>
+        
+        <td>2.2_13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-psltopslx/README.html">ucsc-psltopslx</a></td>
         
         <td>324</td>
@@ -8771,6 +8785,20 @@ Available packages
         <td><a href="recipes/pasta/README.html">pasta</a></td>
         
         <td>0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pasta/README.html">pasta</a></td>
+        
+        <td>1.7.8</td>
         
         <td></td>
         
@@ -20500,6 +20528,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/khmer/README.html">khmer</a></td>
+        
+        <td>2.1rc1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-genepredsinglecover/README.html">ucsc-genepredsinglecover</a></td>
         
         <td>332</td>
@@ -26509,6 +26551,20 @@ Available packages
         <td><a href="recipes/screed/README.html">screed</a></td>
         
         <td>0.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/screed/README.html">screed</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -34355,6 +34411,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-biglm/README.html">r-biglm</a></td>
+        
+        <td>0.9_1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -44020,6 +44090,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-som/README.html">r-som</a></td>
+        
+        <td>0.3_5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-seqpattern/README.html">bioconductor-seqpattern</a></td>
         
         <td>1.2.0</td>
@@ -47380,6 +47464,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nlstradamus/README.html">nlstradamus</a></td>
+        
+        <td>1.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/plink2/README.html">plink2</a></td>
         
         <td>1.90b3.35</td>
@@ -48293,6 +48391,20 @@ Available packages
         <td><a href="recipes/mageck/README.html">mageck</a></td>
         
         <td>0.5.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mageck/README.html">mageck</a></td>
+        
+        <td>0.5.6</td>
         
         <td></td>
         
