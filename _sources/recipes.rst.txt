@@ -20430,6 +20430,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/dendropy/README.html">dendropy</a></td>
+        
+        <td>4.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/autodock-vina/README.html">autodock-vina</a></td>
         
         <td>1.1.2</td>
@@ -48041,6 +48055,20 @@ Available packages
         <td><a href="recipes/python-omero/README.html">python-omero</a></td>
         
         <td>5.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/python-omero/README.html">python-omero</a></td>
+        
+        <td>5.3.2</td>
         
         <td></td>
         
