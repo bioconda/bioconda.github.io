@@ -5,11 +5,11 @@ ngmlr
 
 |downloads|
 
-ngmlr is a long-read mapper desigend to align PacBilo or Oxford Nanopore to a reference genome optimized for structural variation detection
+ngmlr is a long-read mapper designed to align PacBio or Oxford Nanopore reads to a reference genome and optimized for structural variation detection
 
 ======== ===========
 Home     https://github.com/philres/ngmlr
-Versions 0.2.2, 0.2.3
+Versions 0.2.2, 0.2.3, 0.2.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmlr
 ======== ===========
