@@ -10196,6 +10196,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mafft/README.html">mafft</a></td>
+        
+        <td>7.310</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-findpython/README.html">r-findpython</a></td>
         
         <td>1.0.1</td>
@@ -24731,6 +24745,20 @@ Available packages
         <td><a href="recipes/planemo/README.html">planemo</a></td>
         
         <td>0.38.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/planemo/README.html">planemo</a></td>
+        
+        <td>0.40.1</td>
         
         <td></td>
         
@@ -49847,6 +49875,20 @@ Available packages
         <td><a href="recipes/stringmlst/README.html">stringmlst</a></td>
         
         <td>0.3.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/stringmlst/README.html">stringmlst</a></td>
+        
+        <td>0.4</td>
         
         <td></td>
         
