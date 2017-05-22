@@ -6080,6 +6080,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-yaml-tiny/README.html">perl-yaml-tiny</a></td>
+        
+        <td>1.70</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/yaha/README.html">yaha</a></td>
         
         <td>0.1.83</td>
@@ -6867,6 +6881,20 @@ Available packages
         <td><a href="recipes/ucsc-gtftogenepred/README.html">ucsc-gtftogenepred</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/saffrontree/README.html">saffrontree</a></td>
+        
+        <td>0.1.2</td>
         
         <td></td>
         
@@ -25708,6 +25736,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/roary/README.html">roary</a></td>
+        
+        <td>3.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cansam/README.html">cansam</a></td>
         
         <td>21d64bb</td>
@@ -31784,6 +31826,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/abricate/README.html">abricate</a></td>
+        
+        <td>0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-hggcpercent/README.html">ucsc-hggcpercent</a></td>
         
         <td>332</td>
@@ -36497,6 +36553,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-data-dumper/README.html">perl-data-dumper</a></td>
+        
+        <td>2.161</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -47758,6 +47828,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mlst/README.html">mlst</a></td>
+        
+        <td>2.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/uniprot/README.html">uniprot</a></td>
         
         <td>1.3</td>
@@ -49928,6 +50012,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/stringmlst/README.html">stringmlst</a></td>
+        
+        <td>0.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-json-maybexs/README.html">perl-json-maybexs</a></td>
         
         <td>1.003008</td>
@@ -50407,6 +50505,20 @@ Available packages
         <td><a href="recipes/bioconductor-pchicdata/README.html">bioconductor-pchicdata</a></td>
         
         <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plasmidtron/README.html">plasmidtron</a></td>
+        
+        <td>0.3.3</td>
         
         <td></td>
         
@@ -54117,6 +54229,20 @@ Available packages
         <td><a href="recipes/r-dendextend/README.html">r-dendextend</a></td>
         
         <td>1.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/np-likeness-scorer/README.html">np-likeness-scorer</a></td>
+        
+        <td>2.1</td>
         
         <td></td>
         
