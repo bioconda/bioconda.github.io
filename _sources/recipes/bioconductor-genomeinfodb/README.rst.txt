@@ -8,8 +8,8 @@ bioconductor-genomeinfodb
 Contains data and functions that define and allow translation between different chromosome sequence naming conventions (e.g., "chr1" versus "1"), including a function that attempts to place sequence names in their natural, rather than lexicographic, order.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/GenomeInfoDb.html
-Versions 1.4.3, 1.6.0, 1.6.1, 1.6.3, 1.8.7
+Home     http://bioconductor.org/packages/3.4/bioc/html/GenomeInfoDb.html
+Versions 1.10.3, 1.4.3, 1.6.0, 1.6.1, 1.6.3, 1.8.7
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb
 ======== ===========
