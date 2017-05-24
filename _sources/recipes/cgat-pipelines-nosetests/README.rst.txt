@@ -9,7 +9,7 @@ Metapackage to test CGAT Pipelines
 
 ======== ===========
 Home     https://www.cgat.org/downloads/public/cgatpipelines/documentation
-Versions 0.0.1, 0.0.2, 0.0.3
+Versions 0.0.1, 0.0.2, 0.0.3, 0.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-pipelines-nosetests
 ======== ===========
