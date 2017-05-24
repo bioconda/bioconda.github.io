@@ -9,7 +9,7 @@ tools for comparing DNA sequences with MinHash sketches
 
 ======== ===========
 Home     https://github.com/dib-lab/sourmash
-Versions 1.0
+Versions 1.0, 2.0.0a1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash
 ======== ===========

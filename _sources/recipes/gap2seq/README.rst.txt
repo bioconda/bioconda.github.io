@@ -27,7 +27,10 @@ and update with::
 
    conda update gap2seq
 
+Notes
+-----
 
+Gap2Seq is only tested on Linux x86_64 by its author.
 
 |docker|
 
