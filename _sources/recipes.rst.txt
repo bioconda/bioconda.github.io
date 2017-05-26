@@ -24336,6 +24336,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bam-readcount/README.html">bam-readcount</a></td>
+        
+        <td>0.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cramtools/README.html">cramtools</a></td>
         
         <td>3.0.b127</td>
@@ -28662,6 +28676,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gatk4/README.html">gatk4</a></td>
+        
+        <td>4.0a1.2.7.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-leaps/README.html">r-leaps</a></td>
         
         <td>2.9</td>
@@ -30387,6 +30415,20 @@ Available packages
         <td><a href="recipes/quast/README.html">quast</a></td>
         
         <td>4.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/quast/README.html">quast</a></td>
+        
+        <td>4.5</td>
         
         <td></td>
         
@@ -52871,6 +52913,20 @@ Available packages
         <td><a href="recipes/bismark/README.html">bismark</a></td>
         
         <td>0.17.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bismark/README.html">bismark</a></td>
+        
+        <td>0.18.1</td>
         
         <td></td>
         
