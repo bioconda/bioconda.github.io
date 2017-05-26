@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>viral-ngs &#8212; Bioconda  documentation</title>
+    <title>r-locfdr &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="virmet" href="../virmet/README.html" />
-    <link rel="prev" title="viennarna" href="../viennarna/README.html" />
+    <link rel="next" title="r-locfit" href="../r-locfit/README.html" />
+    <link rel="prev" title="r-listenv" href="../r-listenv/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,51 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="viral-ngs">
-<span id="id1"></span><h1>viral-ngs<a class="headerlink" href="#viral-ngs" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/viral-ngs"><img alt="downloads" src="https://anaconda.org/bioconda/viral-ngs/badges/downloads.svg" /></a></p>
-<p>A set of scripts and tools for the analysis of viral NGS data</p>
+  <div class="section" id="r-locfdr">
+<span id="id1"></span><h1>r-locfdr<a class="headerlink" href="#r-locfdr" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-locfdr"><img alt="downloads" src="https://anaconda.org/bioconda/r-locfdr/badges/downloads.svg" /></a></p>
+<p>Computation of local false discovery rates.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="6%" />
-<col width="94%" />
+<col width="10%" />
+<col width="90%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/broadinstitute/viral-ngs">https://github.com/broadinstitute/viral-ngs</a></td>
+<td><a class="reference external" href="https://CRAN.R-project.org/package=locfdr">https://CRAN.R-project.org/package=locfdr</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.10.1, 1.11.0, 1.12.0, 1.12.1, 1.12.2, 1.13.2, 1.13.3, 1.13.4, 1.5.4, 1.5.5, 1.6.0, 1.6.1, 1.7.0, 1.7.1, 1.8.0, 1.9.0, 1.9.1, 1.9.2</td>
+<td>1.1_8</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td><a class="reference external" href="https://raw.githubusercontent.com/broadinstitute/viral-ngs/master/LICENSE">https://raw.githubusercontent.com/broadinstitute/viral-ngs/master/LICENSE</a></td>
+<td>GPL-2</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral-ngs">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/viral-ngs</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-locfdr">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-locfdr</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">viral</span><span class="o">-</span><span class="n">ngs</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">locfdr</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">viral</span><span class="o">-</span><span class="n">ngs</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">locfdr</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>This package makes use of GATK. Due to license restrictions, this recipe cannot distribute and install GATK directly as a dependency. To fully install GATK, you must download a licensed copy of GATK from the Broad Institute ( <a class="reference external" href="https://www.broadinstitute.org/gatk/download/">https://www.broadinstitute.org/gatk/download/</a> ), install this package (which will install the GATK wrapper package), and call “gatk-register /path/to/GenomeAnalysisTK[-$PKG_VERSION.tar.bz2|.jar]”, which will copy GATK into your conda environment. This package also makes use of Novoalign, which can be installed successfully as a conda package, however the unlicensed version of Novoalign runs in single-threaded mode. To enable multithreaded operation, it is necessary to supply a &#8220;novoalign.lic&#8221; license file and call &#8220;novoalign-license-register&#8221; to copy the license file into the conda environment.</p>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/viral-ngs"><img alt="docker" src="https://quay.io/repository/biocontainers/viral-ngs/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/viral-ngs">https://quay.io/repository/biocontainers/viral-ngs</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-locfdr"><img alt="docker" src="https://quay.io/repository/biocontainers/r-locfdr/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-locfdr">https://quay.io/repository/biocontainers/r-locfdr</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/viral-ngs/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/viral-ngs/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-locfdr/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-locfdr/README.html)
 </pre></div>
 </div>
 </div>
@@ -145,7 +141,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/viral-ngs/README.rst.txt"
+      <a href="../../_sources/recipes/r-locfdr/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

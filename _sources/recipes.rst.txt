@@ -2398,6 +2398,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-knitr/README.html">r-knitr</a></td>
         
         <td>1.12.3</td>
@@ -4204,6 +4218,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/star-fusion/README.html">star-fusion</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-chipseeker/README.html">bioconductor-chipseeker</a></td>
         
         <td>1.10.0</td>
@@ -4515,6 +4543,20 @@ Available packages
         <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
         
         <td>88</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>88.10</td>
         
         <td></td>
         
@@ -8264,6 +8306,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-locfdr/README.html">r-locfdr</a></td>
+        
+        <td>1.1_8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-par-packer/README.html">perl-par-packer</a></td>
         
         <td>1.036</td>
@@ -8399,6 +8455,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pplacer/README.html">pplacer</a></td>
+        
+        <td>1.1.alpha17</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -13984,7 +14054,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -16533,6 +16603,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-factominer/README.html">r-factominer</a></td>
+        
+        <td>1.35</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -20741,6 +20825,20 @@ Available packages
         <td><a href="recipes/khmer/README.html">khmer</a></td>
         
         <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/khmer/README.html">khmer</a></td>
+        
+        <td>2.1</td>
         
         <td></td>
         
@@ -27153,258 +27251,6 @@ Available packages
         <td><a href="recipes/perl-module-load-conditional/README.html">perl-module-load-conditional</a></td>
         
         <td>0.62</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.10.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.11.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.12.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.12.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.12.2</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.13.2</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.13.3</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.13.4</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.5.4</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.5.5</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.6.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.6.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.7.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.7.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.8.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.9.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.9.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/viral-ngs/README.html">viral-ngs</a></td>
-        
-        <td>1.9.2</td>
         
         <td></td>
         
@@ -33982,6 +33828,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/garnet/README.html">garnet</a></td>
+        
+        <td>0.2.20</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-number-compare/README.html">perl-number-compare</a></td>
         
         <td>0.03</td>
@@ -34472,6 +34332,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cooler/README.html">cooler</a></td>
+        
+        <td>0.7.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-gage/README.html">bioconductor-gage</a></td>
         
         <td>2.21.1</td>
@@ -34537,6 +34411,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-biganalytics/README.html">r-biganalytics</a></td>
+        
+        <td>1.1.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -38275,6 +38163,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-nhmmfdr/README.html">r-nhmmfdr</a></td>
+        
+        <td>1.0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     

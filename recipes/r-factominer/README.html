@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>r-listenv &#8212; Bioconda  documentation</title>
+    <title>r-factominer &#8212; Bioconda  documentation</title>
     
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
@@ -28,8 +28,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-locfdr" href="../r-locfdr/README.html" />
-    <link rel="prev" title="r-learnbayes" href="../r-learnbayes/README.html" />
+    <link rel="next" title="r-fail" href="../r-fail/README.html" />
+    <link rel="prev" title="r-exomedepth" href="../r-exomedepth/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -54,47 +54,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-listenv">
-<span id="id1"></span><h1>r-listenv<a class="headerlink" href="#r-listenv" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-listenv"><img alt="downloads" src="https://anaconda.org/bioconda/r-listenv/badges/downloads.svg" /></a></p>
-<p>List environments are environments that have list-like properties.  For instance, the elements of a list environment are ordered and can be accessed and iterated over using index subsetting, e.g. &#8216;x &lt;- listenv(a=1, b=2); for (i in seq_along(x)) x[[i]] &lt;- x[[i]]^2; y &lt;- as.list(x)&#8217;.</p>
+  <div class="section" id="r-factominer">
+<span id="id1"></span><h1>r-factominer<a class="headerlink" href="#r-factominer" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-factominer"><img alt="downloads" src="https://anaconda.org/bioconda/r-factominer/badges/downloads.svg" /></a></p>
+<p>Exploratory data analysis methods to summarize, visualize and describe datasets. The main principal component methods are available, those with the largest potential in terms of applications: principal component analysis (PCA) when variables are quantitative, correspondence analysis (CA) and multiple correspondence analysis (MCA) when variables are categorical, Multiple Factor Analysis when variables are structured in groups, etc. and hierarchical cluster analysis.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col width="9%" />
+<col width="91%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/HenrikBengtsson/listenv">https://github.com/HenrikBengtsson/listenv</a></td>
+<td><a class="reference external" href="http://factominer.free.fr">http://factominer.free.fr</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.5.0, 0.6.0</td>
+<td>1.35</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>LGPL (&gt;= 2.1)</td>
+<td>GPL (&gt;= 2)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-listenv">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-listenv</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-factominer">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-factominer</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">listenv</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">factominer</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">listenv</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">factominer</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-listenv"><img alt="docker" src="https://quay.io/repository/biocontainers/r-listenv/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-listenv">https://quay.io/repository/biocontainers/r-listenv</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-factominer"><img alt="docker" src="https://quay.io/repository/biocontainers/r-factominer/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-factominer">https://quay.io/repository/biocontainers/r-factominer</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-listenv/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-listenv/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-factominer/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-factominer/README.html)
 </pre></div>
 </div>
 </div>
@@ -141,7 +141,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/r-listenv/README.rst.txt"
+      <a href="../../_sources/recipes/r-factominer/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
