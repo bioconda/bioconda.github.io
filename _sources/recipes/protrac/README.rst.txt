@@ -9,7 +9,7 @@ piRNA detection
 
 ======== ===========
 Home     http://www.smallrnagroup.uni-mainz.de/software.html
-Versions 2.1
+Versions 2.1, 2.3.1
 License  CC BY-NC 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protrac
 ======== ===========

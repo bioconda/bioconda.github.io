@@ -9,7 +9,7 @@ AStalavista is a computer program to extract alternative splicing (AS) events fr
 
 ======== ===========
 Home     http://sammeth.net/confluence/display/ASTA/Home
-Versions 3.2
+Versions 3.2, 4.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/astalavista
 ======== ===========

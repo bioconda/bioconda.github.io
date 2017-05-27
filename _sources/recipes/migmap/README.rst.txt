@@ -10,7 +10,7 @@ A wrapper for IgBlast V-(D)-J mapping tool designed to facilitate analysis immun
 
 ======== ===========
 Home     https://github.com/mikessh/migmap
-Versions 0.9.7
+Versions 0.9.7, 1.0.2
 License  https://github.com/mikessh/migmap/blob/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/migmap
 ======== ===========
