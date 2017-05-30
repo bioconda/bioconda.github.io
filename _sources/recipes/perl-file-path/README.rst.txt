@@ -9,7 +9,7 @@ Create or remove directory trees
 
 ======== ===========
 Home     http://metacpan.org/pod/File::Path
-Versions 2.09
+Versions 2.09, 2.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-path
 ======== ===========
