@@ -9,7 +9,7 @@ A Python library for interacting with EBI Search's API
 
 ======== ===========
 Home     https://github.com/bebatut/ebisearch
-Versions 0.0.2
+Versions 0.0.2, 0.0.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebisearch
 ======== ===========

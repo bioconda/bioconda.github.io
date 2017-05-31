@@ -424,6 +424,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-iwtomics/README.html">bioconductor-iwtomics</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-cpan-meta-check/README.html">perl-cpan-meta-check</a></td>
         
         <td>0.012</td>
@@ -5719,6 +5733,20 @@ Available packages
         <td><a href="recipes/ebisearch/README.html">ebisearch</a></td>
         
         <td>0.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ebisearch/README.html">ebisearch</a></td>
+        
+        <td>0.0.3</td>
         
         <td></td>
         
