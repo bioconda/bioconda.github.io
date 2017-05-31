@@ -10,7 +10,7 @@ The GdkPixbuf Structure — Information that describes an image.
 ======== ===========
 Home     https://developer.gnome.org/gdk-pixbuf/
 Versions 2.32.2
-License  
+License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdk-pixbuf
 ======== ===========
 

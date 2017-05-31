@@ -9,7 +9,7 @@ Filtering and profiling of next-generational sequencing data using region-specif
 
 ======== ===========
 Home     https://github.com/jwalabroad/VariantBam
-Versions 1.2.1_2015.01.08, 1.3.0
+Versions 1.2.1_2015.01.08, 1.3.0, 1.4.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variantbam
 ======== ===========

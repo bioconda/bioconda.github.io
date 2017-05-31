@@ -9,7 +9,7 @@ Copy number variant detection from targeted DNA sequencing
 
 ======== ===========
 Home     https://github.com/etal/cnvkit
-Versions 0.7.10, 0.7.11, 0.7.3, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9, 0.8.0, 0.8.1, 0.8.2, 0.8.3a0, 0.8.4, 0.8.5, 0.8.5dev0
+Versions 0.7.10, 0.7.11, 0.7.3, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9, 0.8.0, 0.8.1, 0.8.2, 0.8.3a0, 0.8.4, 0.8.5, 0.8.5dev0, 0.8.6a0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvkit
 ======== ===========
