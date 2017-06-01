@@ -9,7 +9,7 @@ Wraps BEDTools for use in Python and adds many additional features.
 
 ======== ===========
 Home     https://github.com/daler/pybedtools
-Versions 0.7.0, 0.7.2, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9
+Versions 0.7.0, 0.7.10, 0.7.2, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedtools
 ======== ===========
