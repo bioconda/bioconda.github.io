@@ -4008,6 +4008,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/phylotoast/README.html">phylotoast</a></td>
+        
+        <td>1.4.0rc2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-regexp-common/README.html">perl-regexp-common</a></td>
         
         <td>2016060801</td>
@@ -5383,6 +5397,20 @@ Available packages
         <td><a href="recipes/pycluster/README.html">pycluster</a></td>
         
         <td>1.52</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-pack/README.html">r-pack</a></td>
+        
+        <td>0.1_1</td>
         
         <td></td>
         
@@ -14956,6 +14984,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-oligo/README.html">bioconductor-oligo</a></td>
+        
+        <td>1.40.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/savage/README.html">savage</a></td>
         
         <td>0.2.1</td>
@@ -17423,6 +17465,20 @@ Available packages
         <td><a href="recipes/humann2/README.html">humann2</a></td>
         
         <td>0.9.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/tadarida-d/README.html">tadarida-d</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -21811,6 +21867,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/shorah/README.html">shorah</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -26327,6 +26397,20 @@ Available packages
         <td><a href="recipes/roary/README.html">roary</a></td>
         
         <td>3.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/roary/README.html">roary</a></td>
+        
+        <td>3.8.2</td>
         
         <td></td>
         
@@ -35167,6 +35251,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snns/README.html">snns</a></td>
+        
+        <td>4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -44370,6 +44468,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-scan.upc/README.html">bioconductor-scan.upc</a></td>
+        
+        <td>2.18.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-hdrcde/README.html">r-hdrcde</a></td>
         
         <td>3.1</td>
@@ -47585,6 +47697,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-oligoclasses/README.html">bioconductor-oligoclasses</a></td>
+        
+        <td>1.38.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -55629,6 +55755,20 @@ Available packages
         <td><a href="recipes/urllib3/README.html">urllib3</a></td>
         
         <td>1.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fwdpy11/README.html">fwdpy11</a></td>
+        
+        <td>0.1.1</td>
         
         <td></td>
         
