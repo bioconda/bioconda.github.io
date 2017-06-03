@@ -578,6 +578,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/clinod/README.html">clinod</a></td>
+        
+        <td>1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-ratolines/README.html">ucsc-ratolines</a></td>
         
         <td>324</td>
@@ -10854,6 +10868,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/glimmerhmm/README.html">glimmerhmm</a></td>
+        
+        <td>3.0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-json-xs/README.html">perl-json-xs</a></td>
         
         <td>2.34</td>
@@ -19075,6 +19103,20 @@ Available packages
         <td><a href="recipes/igblast/README.html">igblast</a></td>
         
         <td>1.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/igblast/README.html">igblast</a></td>
+        
+        <td>1.7.0</td>
         
         <td></td>
         
