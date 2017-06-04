@@ -4834,6 +4834,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/genologics/README.html">genologics</a></td>
+        
+        <td>0.3.12.post0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-exporter/README.html">perl-exporter</a></td>
         
         <td>5.72</td>
@@ -5901,48 +5915,6 @@ Available packages
         <td><a href="recipes/r-multicool/README.html">r-multicool</a></td>
         
         <td>0.1_9</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/python-magic/README.html">python-magic</a></td>
-        
-        <td>0.4.10</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/python-magic/README.html">python-magic</a></td>
-        
-        <td>0.4.12</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/python-magic/README.html">python-magic</a></td>
-        
-        <td>0.4.6</td>
         
         <td></td>
         
@@ -21922,7 +21894,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -38000,6 +37972,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/smallgenomeutilities/README.html">smallgenomeutilities</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/daligner/README.html">daligner</a></td>
         
         <td>1.0</td>
@@ -51896,7 +51882,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -55447,20 +55433,6 @@ Available packages
         <td><a href="recipes/r-r.devices/README.html">r-r.devices</a></td>
         
         <td>2.15.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/phonenumbers/README.html">phonenumbers</a></td>
-        
-        <td>7.2.4</td>
         
         <td></td>
         
