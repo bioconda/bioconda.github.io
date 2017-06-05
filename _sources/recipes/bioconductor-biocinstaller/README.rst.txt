@@ -9,7 +9,7 @@ This package is used to install and update Bioconductor, CRAN, and (some) github
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/BiocInstaller.html
-Versions 1.20.0, 1.20.1, 1.21.0, 1.22.3
+Versions 1.20.0, 1.20.1, 1.21.0, 1.22.3, 1.24.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocinstaller
 ======== ===========
