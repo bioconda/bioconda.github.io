@@ -11344,6 +11344,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-genefilter/README.html">bioconductor-genefilter</a></td>
+        
+        <td>1.58.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/qiimetomaaslin/README.html">qiimetomaaslin</a></td>
         
         <td>1.1.0</td>
@@ -50418,6 +50432,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snpsift/README.html">snpsift</a></td>
+        
+        <td>4.3.1o</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-mime-lite/README.html">perl-mime-lite</a></td>
         
         <td>3.030</td>
@@ -50967,6 +50995,20 @@ Available packages
         <td><a href="recipes/bioconductor-ropls/README.html">bioconductor-ropls</a></td>
         
         <td>1.4.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ropls/README.html">bioconductor-ropls</a></td>
+        
+        <td>1.6.0</td>
         
         <td></td>
         
@@ -52115,6 +52157,20 @@ Available packages
         <td><a href="recipes/snpeff/README.html">snpeff</a></td>
         
         <td>4.3.1m</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
+        <td>4.3.1o</td>
         
         <td></td>
         
