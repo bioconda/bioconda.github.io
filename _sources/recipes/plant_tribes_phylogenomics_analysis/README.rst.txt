@@ -9,7 +9,7 @@ Phylogenomics Analysis pipeline
 
 ======== ===========
 Home     https://github.com/dePamphilis/PlantTribes
-Versions 0.4
+Versions 
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_phylogenomics_analysis
 ======== ===========
