@@ -9,7 +9,7 @@ A Portable Foreign Function Interface Library
 
 ======== ===========
 Home     https://sourceware.org/libffi/
-Versions 
+Versions 3.0.13, 3.2.1
 License  https://raw.githubusercontent.com/atgreen/libffi/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libffi
 ======== ===========

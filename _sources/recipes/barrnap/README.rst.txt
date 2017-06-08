@@ -5,13 +5,13 @@ barrnap
 
 |downloads|
 
-Find 5S, 16S and 23S ribosomal RNA genes in bacterial contigs
+Barrnap predicts the location of 5S, 16S and 23S ribosomal RNA genes in Bacterial genome sequ It takes FASTA DNA sequence as input, and write GFF3 as output.
 
 ======== ===========
 Home     https://github.com/tseemann/barrnap
 Versions 0.2, 0.3, 0.7
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/0.7
+License  GPL3
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/0.3
 ======== ===========
 
 Installation

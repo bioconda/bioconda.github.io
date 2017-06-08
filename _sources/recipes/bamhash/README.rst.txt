@@ -11,7 +11,7 @@ bamhash
 Home     https://github.com/joerick/pyinstrument
 Versions 1.0, 1.1
 License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0
 ======== ===========
 
 Installation

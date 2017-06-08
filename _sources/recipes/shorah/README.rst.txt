@@ -11,7 +11,7 @@ The Short Reads Assembly into Haplotypes (ShoRAH) program for inferring viral ha
 Home     https://github.com/cbg-ethz/shorah
 Versions 1.0.0, 1.1.0
 License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.0.0
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0
 ======== ===========
 
 Installation
