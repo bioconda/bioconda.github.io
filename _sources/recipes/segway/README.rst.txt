@@ -9,7 +9,7 @@ a tool for easy pattern discovery and identification in functional genomics data
 
 ======== ===========
 Home     http://segway.hoffmanlab.org/
-Versions 1.4, 1.4.4
+Versions 1.4, 1.4.4, 2.0
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segway
 ======== ===========

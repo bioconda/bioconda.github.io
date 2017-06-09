@@ -202,6 +202,20 @@ Available packages
         
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
+        <td>0.11.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
         <td>0.8.3</td>
         
         <td></td>
@@ -4148,6 +4162,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/crisper_recognition_tool/README.html">crisper_recognition_tool</a></td>
+        
+        <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/py2bit/README.html">py2bit</a></td>
         
         <td>0.1.0</td>
@@ -6892,6 +6920,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>89.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/clustalo/README.html">clustalo</a></td>
         
         <td>1.2.3</td>
@@ -8911,6 +8953,20 @@ Available packages
         <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
         
         <td>3.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.2.4</td>
         
         <td></td>
         
@@ -15572,6 +15628,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/segway/README.html">segway</a></td>
+        
+        <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rmats/README.html">rmats</a></td>
         
         <td>3.2.2beta</td>
@@ -16429,6 +16499,20 @@ Available packages
         <td><a href="recipes/shape_it/README.html">shape_it</a></td>
         
         <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_kaks_analysis/README.html">plant_tribes_kaks_analysis</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -19254,6 +19338,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/plant_tribes_gene_family_phylogeny_builder/README.html">plant_tribes_gene_family_phylogeny_builder</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-bedsort/README.html">ucsc-bedsort</a></td>
         
         <td>324</td>
@@ -19543,6 +19641,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/singularity/README.html">singularity</a></td>
+        
+        <td>2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -25557,6 +25669,20 @@ Available packages
         <td><a href="recipes/r-r.cache/README.html">r-r.cache</a></td>
         
         <td>0.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_gene_family_integrator/README.html">plant_tribes_gene_family_integrator</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -32568,6 +32694,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/transrate-tools/README.html">transrate-tools</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-algorithm-cluster/README.html">perl-algorithm-cluster</a></td>
         
         <td>1.52</td>
@@ -33243,6 +33383,20 @@ Available packages
         <td><a href="recipes/genomedata/README.html">genomedata</a></td>
         
         <td>1.3.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/genomedata/README.html">genomedata</a></td>
+        
+        <td>1.3.6</td>
         
         <td></td>
         
@@ -37513,6 +37667,20 @@ Available packages
         <td><a href="recipes/plant_tribes_gene_family_classifier/README.html">plant_tribes_gene_family_classifier</a></td>
         
         <td>0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_gene_family_classifier/README.html">plant_tribes_gene_family_classifier</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -44384,6 +44552,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/biofluff/README.html">biofluff</a></td>
+        
+        <td>2.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/joblib/README.html">joblib</a></td>
         
         <td>0.9.3</td>
@@ -45689,6 +45871,20 @@ Available packages
         <td><a href="recipes/edlib/README.html">edlib</a></td>
         
         <td>1.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_gene_family_aligner/README.html">plant_tribes_gene_family_aligner</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
