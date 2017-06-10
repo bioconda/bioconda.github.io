@@ -10000,6 +10000,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-minpack.lm/README.html">r-minpack.lm</a></td>
+        
+        <td>1.2_1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/expansionhunter/README.html">expansionhunter</a></td>
         
         <td>2.0.6</td>
@@ -29889,6 +29903,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-misctools/README.html">r-misctools</a></td>
+        
+        <td>0.6_22</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
