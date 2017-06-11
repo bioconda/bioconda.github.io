@@ -5,10 +5,10 @@ ruby
 
 |downloads|
 
-
+Ruby is a dynamic, reflective, object-oriented, general-purpose programming language.
 
 ======== ===========
-Home     https://www.ruby-lang.org/
+Home     https://www.ruby-lang.org
 Versions 1.9.3, 2.0.0, 2.1.7, 2.2.2, 2.2.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruby

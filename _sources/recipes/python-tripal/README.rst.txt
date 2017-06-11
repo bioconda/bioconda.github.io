@@ -9,7 +9,7 @@ Tripal API library
 
 ======== ===========
 Home     https://github.com/abretaud/python-tripal
-Versions 1.5
+Versions 1.5, 1.7
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-tripal
 ======== ===========
