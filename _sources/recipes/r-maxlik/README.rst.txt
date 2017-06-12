@@ -9,7 +9,7 @@ Functions for Maximum Likelihood (ML) estimation and non-linear optimization, an
 
 ======== ===========
 Home     http://www.maxLik.org
-Versions 
+Versions 1.3_4
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maxlik
 ======== ===========
