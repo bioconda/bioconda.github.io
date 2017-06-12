@@ -9,7 +9,7 @@ A set of standalone application and pipelines dedicated to NGS (new generation s
 
 ======== ===========
 Home     
-Versions 0.2.0, 0.2.1
+Versions 0.2.0, 0.2.1, 0.3.0
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana
 ======== ===========

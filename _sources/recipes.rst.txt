@@ -9006,6 +9006,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/samsifter/README.html">samsifter</a></td>
         
         <td>1.0.0</td>
@@ -29306,6 +29320,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gdsctools/README.html">gdsctools</a></td>
+        
+        <td>0.19.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/genometools-genometools/README.html">genometools-genometools</a></td>
         
         <td>1.5.9</td>
@@ -37471,6 +37499,20 @@ Available packages
         <td><a href="recipes/snakemake/README.html">snakemake</a></td>
         
         <td>3.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>3.13.0</td>
         
         <td></td>
         
@@ -48489,6 +48531,20 @@ Available packages
         <td><a href="recipes/sequana/README.html">sequana</a></td>
         
         <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.3.0</td>
         
         <td></td>
         
