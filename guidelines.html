@@ -69,9 +69,12 @@ $(document).ready(function() {
 <li>License allows redistribution and license is indicated in <code class="docutils literal"><span class="pre">meta.yaml</span></code></li>
 <li>Package does not already exist in the <cite>defaults</cite>, <cite>r</cite>, or <cite>conda-forge</cite>
 channels with some exceptions (<a class="reference internal" href="#channel-exceptions"><span class="std std-ref">details</span></a>)</li>
-<li>Package is appropriate for bioconda (<a class="reference internal" href="#appropriate-for-bioconda"><span class="std std-ref">details</span></a>)```</li>
+<li>Package is appropriate for bioconda (<a class="reference internal" href="#appropriate-for-bioconda"><span class="std std-ref">details</span></a>)</li>
 <li>If the recipe installs custom wrapper scripts, usage notes should be added to
 <code class="docutils literal"><span class="pre">extra</span> <span class="pre">-&gt;</span> <span class="pre">notes</span></code> in the <code class="docutils literal"><span class="pre">meta.yaml</span></code>.</li>
+<li><strong>Update 12 Jun 2017</strong>: If the recipe is a pure Python package, it is marked
+as a <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">&#8220;noarch&#8221;</a>
+package (<a class="reference internal" href="#id3"><span class="std std-ref">details</span></a>).</li>
 </ul>
 <div class="section" id="stable-urls">
 <span id="stable-url"></span><h3>Stable urls<a class="headerlink" href="#stable-urls" title="Permalink to this headline">¶</a></h3>
@@ -135,6 +138,18 @@ aren&#8217;t already in the <cite>r</cite> channel can be added to bioconda.</p>
 <p>If uploading of an unreleased version is necessary, please follow the
 versioning scheme of conda for pre- and post-releases (e.g. using a, b, rc, and
 dev suffixes, see <a class="reference external" href="https://github.com/conda/conda/blob/d1348cf3eca0f78093c7c46157989509572e9c25/conda/version.py#L30">here</a>).</p>
+</div>
+<div class="section" id="noarch-packages">
+<span id="id3"></span><h3>&#8220;Noarch&#8221; packages<a class="headerlink" href="#noarch-packages" title="Permalink to this headline">¶</a></h3>
+<p>A <code class="docutils literal"><span class="pre">noarch</span></code> package can be created for pure Python packages, data packages, or
+packages that do not require compilation. This single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
+used across multiple platforms, which saves on build time and saves on storage
+space on the bioconda channel.</p>
+<p>For pure Python packages, add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.</p>
+<p>For other generic packages (like a data package), add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to
+the <code class="docutils literal"><span class="pre">build</span></code> section.</p>
+<p>See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
+more details.</p>
 </div>
 <div class="section" id="dependencies">
 <h3>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h3>
@@ -391,7 +406,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id9"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An &#8220;adequate&#8221; test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
