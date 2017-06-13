@@ -151,6 +151,18 @@ corrupted.</p>
 <p>How to resolve: Add a hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a>. See
 <a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
 </div>
+<div class="section" id="should-be-noarch">
+<h3><cite>should_be_noarch</cite><a class="headerlink" href="#should-be-noarch" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The package should be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
+<p>Rationale: A <code class="docutils literal"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
+packages that do not require compilation. With this a single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
+used across multiple platforms, which saves on build time and saves on storage
+space on the bioconda channel.</p>
+<p>How to resolve: For pure Python packages, add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
+For other generic packages (like a data package), add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
+See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
+more details.</p>
+</div>
 <div class="section" id="uses-git-url">
 <h3><cite>uses_git_url</cite><a class="headerlink" href="#uses-git-url" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The source section uses a git URL.</p>
@@ -259,6 +271,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#missing-license"><cite>missing_license</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-tests"><cite>missing_tests</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-hash"><cite>missing_hash</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch"><cite>should_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-git-url"><cite>uses_git_url</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-perl-threaded"><cite>uses_perl_threaded</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-javajdk"><cite>uses_javajdk</cite></a></li>
