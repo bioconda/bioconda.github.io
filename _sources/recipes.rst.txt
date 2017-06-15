@@ -1362,6 +1362,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/dxpy/README.html">dxpy</a></td>
+        
+        <td>0.223.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/beast/README.html">beast</a></td>
         
         <td>1.8.2</td>
@@ -11176,6 +11190,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/fusepy/README.html">fusepy</a></td>
+        
+        <td>2.0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gap2seq/README.html">gap2seq</a></td>
         
         <td>2.0</td>
@@ -19487,6 +19515,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dxua/README.html">dxua</a></td>
+        
+        <td>1.5.26</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     

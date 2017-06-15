@@ -134,7 +134,7 @@ consider opening a pull request with <a class="reference external" href="https:/
 <p>The exception to this is with R packages. We are still coordinating with
 anaconda and conda-forge about the best place to keep general R packages. In
 the meantime, R packages that are not specific to bioinformatics and that
-aren&#8217;t already in the <cite>r</cite> channel can be added to bioconda.</p>
+aren&#8217;t already in the <cite>conda-forge</cite> channel can be added to bioconda.</p>
 <p>If uploading of an unreleased version is necessary, please follow the
 versioning scheme of conda for pre- and post-releases (e.g. using a, b, rc, and
 dev suffixes, see <a class="reference external" href="https://github.com/conda/conda/blob/d1348cf3eca0f78093c7c46157989509572e9c25/conda/version.py#L30">here</a>).</p>
@@ -160,7 +160,6 @@ a recipe must have its dependencies in one of the following:</p>
 <li>as-yet-unbuilt recipes in the repo but that will be included in the PR</li>
 <li><cite>bioconda</cite> channel</li>
 <li><cite>conda-forge</cite> channel</li>
-<li><cite>r</cite> channel</li>
 <li>default Anaconda channel</li>
 </ul>
 <p>Otherwise, you will have to write the recipes for those dependencies and

@@ -100,11 +100,11 @@ other channels bioconda depends on. <strong>It is important to add them in this
 order</strong> so that the priority is set correctly (that is, bioconda is highest
 priority).</p>
 <p>The <cite>conda-forge</cite> channel contains many general-purpose packages not already
-found in the <cite>defaults</cite> channel. The <cite>r</cite> channel contains common R packages
-used as dependencies for bioconda packages.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+found in the <cite>defaults</cite> channel. The <cite>r</cite> channel is only included due to backward compatibility.
+It is not mandatory, but without <cite>r</cite>-packages compiled against R 3.3.1 might not work.</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">r</span><span class="p">)</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
-<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">r</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 </pre></div>
 </div>

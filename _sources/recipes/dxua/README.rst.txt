@@ -9,7 +9,7 @@ command-line tool for uploading files to the DNAnexus Platform
 
 ======== ===========
 Home     https://wiki.dnanexus.com/Downloads#Upload-Agent
-Versions 1.5.11
+Versions 1.5.11, 1.5.26
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxua
 ======== ===========
