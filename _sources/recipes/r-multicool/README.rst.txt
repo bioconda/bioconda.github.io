@@ -9,7 +9,7 @@ A set of tools to permute multisets without loops or hash tables and to generate
 
 ======== ===========
 Home     
-Versions 0.1_9
+Versions 0.1_10, 0.1_9
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-multicool
 ======== ===========
