@@ -8,7 +8,7 @@ bioconductor-biomformat
 This is an R package for interfacing with the BIOM format. This package includes basic tools for reading biom-format files, accessing and subsetting data tables from a biom object (which is more complex than a single table), as well as limited support for writing a biom-object back to a biom-format file. The design of this API is intended to match the python API and other tools included with the biom-format project, but with a decidedly "R flavor" that should be familiar to R users. This includes S4 classes and methods, as well as extensions of common core functions/methods.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/biomformat.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/biomformat.html
 Versions 1.0.2, 1.2.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomformat

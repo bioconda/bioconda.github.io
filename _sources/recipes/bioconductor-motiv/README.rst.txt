@@ -8,7 +8,7 @@ bioconductor-motiv
 This package makes use of STAMP for comparing a set of motifs to a given database (e.g. JASPAR). It can also be used to visualize motifs, motif distributions, modules and filter motifs.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/MotIV.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/MotIV.html
 Versions 1.30.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv

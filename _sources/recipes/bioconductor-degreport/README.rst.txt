@@ -8,7 +8,7 @@ bioconductor-degreport
 Creation of a HTML report of differential expression analyses of count data. It integrates some of the code mentioned in DESeq2 and edgeR vignettes, and report a ranked list of genes according to the fold changes mean and variability for each selected gene.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/DEGreport.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/DEGreport.html
 Versions 1.7.2, 1.8.2
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degreport

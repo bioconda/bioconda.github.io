@@ -5,7 +5,9 @@ r-rniftyreg
 
 |downloads|
 
-Provides an R interface to the NiftyReg image registration tools <http://sourceforge.net/projects/niftyreg/>. Linear and nonlinear registration are supported, in two and three dimensions.
+Provides an R interface to the NiftyReg image registration tools <http://sourceforge.net/projects/niftyreg/>.
+Linear and nonlinear registration are supported, in two and three dimensions.
+
 
 ======== ===========
 Home     https://github.com/jonclayden/RNiftyReg

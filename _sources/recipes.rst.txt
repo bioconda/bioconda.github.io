@@ -7256,20 +7256,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/r-ipo/README.html">r-ipo</a></td>
-        
-        <td>1.7.5</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/r-calibrate/README.html">r-calibrate</a></td>
         
         <td>1.7.2</td>
@@ -52966,34 +52952,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/libffi/README.html">libffi</a></td>
-        
-        <td>3.0.13</td>
-        
-        <td></td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/libffi/README.html">libffi</a></td>
-        
-        <td>3.2.1</td>
-        
-        <td></td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/perl-tap-harness-env/README.html">perl-tap-harness-env</a></td>
         
         <td>3.30</td>
@@ -53045,6 +53003,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-microseq/README.html">r-microseq</a></td>
+        
+        <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -54579,34 +54551,6 @@ Available packages
         <td><a href="recipes/perl-task-weaken/README.html">perl-task-weaken</a></td>
         
         <td>1.04</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rpy2/README.html">rpy2</a></td>
-        
-        <td>2.7.6</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rpy2/README.html">rpy2</a></td>
-        
-        <td>2.7.8</td>
         
         <td></td>
         
