@@ -9,7 +9,7 @@ Simple data validation library
 
 ======== ===========
 Home     https://github.com/keleshev/schema
-Versions 0.4.0
+Versions 0.4.0, 0.6.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schema
 ======== ===========

@@ -9,7 +9,7 @@ Analysis of nanopore sequencing data.
 
 ======== ===========
 Home     https://github.com/marcus1487/nanoraw
-Versions 0.2, 0.3.1, 0.4.1
+Versions 0.2, 0.3.1, 0.4.1, 0.4.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoraw
 ======== ===========

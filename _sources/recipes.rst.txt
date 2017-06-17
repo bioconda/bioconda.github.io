@@ -10560,6 +10560,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/schema/README.html">schema</a></td>
+        
+        <td>0.6.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gottcha/README.html">gottcha</a></td>
         
         <td>1.0</td>
@@ -11571,6 +11585,20 @@ Available packages
         <td><a href="recipes/nanoraw/README.html">nanoraw</a></td>
         
         <td>0.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanoraw/README.html">nanoraw</a></td>
+        
+        <td>0.4.2</td>
         
         <td></td>
         
@@ -13335,6 +13363,20 @@ Available packages
         <td><a href="recipes/wham/README.html">wham</a></td>
         
         <td>1.7.0.307</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/wham/README.html">wham</a></td>
+        
+        <td>1.7.0.311</td>
         
         <td></td>
         
@@ -18940,7 +18982,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
