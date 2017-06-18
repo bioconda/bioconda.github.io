@@ -45534,6 +45534,20 @@ Available packages
         
         <td><a href="recipes/raxml/README.html">raxml</a></td>
         
+        <td>8.2.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/raxml/README.html">raxml</a></td>
+        
         <td>8.2.4</td>
         
         <td></td>
