@@ -3154,6 +3154,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/julia/README.html">julia</a></td>
+        
+        <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-perlio-utf8_strict/README.html">perl-perlio-utf8_strict</a></td>
         
         <td>0.006</td>
@@ -18960,6 +18974,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/w4mclstrpeakpics/README.html">w4mclstrpeakpics</a></td>
+        
+        <td>0.98.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-statmod/README.html">r-statmod</a></td>
         
         <td>1.4.22</td>
@@ -21707,6 +21735,20 @@ Available packages
         <td><a href="recipes/bio_assembly_refinement/README.html">bio_assembly_refinement</a></td>
         
         <td>0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-biocviews/README.html">bioconductor-biocviews</a></td>
+        
+        <td>1.44.0</td>
         
         <td></td>
         
@@ -28900,6 +28942,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hisat2/README.html">hisat2</a></td>
+        
+        <td>2.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-test-classapi/README.html">perl-test-classapi</a></td>
         
         <td>1.06</td>
@@ -29687,6 +29743,20 @@ Available packages
         <td><a href="recipes/plant_tribes_assembly_post_processor/README.html">plant_tribes_assembly_post_processor</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_assembly_post_processor/README.html">plant_tribes_assembly_post_processor</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -48760,7 +48830,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     

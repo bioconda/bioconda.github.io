@@ -9,7 +9,7 @@ A high-performance dynamic programming language for data science
 
 ======== ===========
 Home     http://julialang.org/
-Versions 0.3.11, 0.4.5
+Versions 0.3.11, 0.4.5, 0.5.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/julia
 ======== ===========
