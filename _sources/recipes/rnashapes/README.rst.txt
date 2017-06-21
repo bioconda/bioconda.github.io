@@ -10,8 +10,8 @@ RNAshape abstraction maps structures to a tree-like domain of shapes, retaining 
 ======== ===========
 Home     http://bibiserv.techfak.uni-bielefeld.de/rnashapes
 Versions 2.1.6, 3.3.0
-License  Uknown - Please refer to the tool homepage
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnashapes/3.3.0
+License  
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnashapes/2.1.6
 ======== ===========
 
 Installation

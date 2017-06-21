@@ -20,7 +20,7 @@ The C++ code and Python code are distributed without conditions.
 
 
 ======== ===========
-Home     
+Home     https://cran.r-project.org/package=multicool
 Versions 0.1_10, 0.1_9
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-multicool
