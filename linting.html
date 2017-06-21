@@ -156,12 +156,24 @@ corrupted.</p>
 <p>Reason for failing: The package should be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
 <p>Rationale: A <code class="docutils literal"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
 packages that do not require compilation. With this a single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
-used across multiple platforms, which saves on build time and saves on storage
-space on the bioconda channel.</p>
+used across multiple platforms and (in case of Python) Python versions, which saves
+on build time and saves on storage space on the bioconda channel.</p>
 <p>How to resolve: For pure Python packages, add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
+<strong>Don&#8217;t do this if your Python package has a command line interface</strong>, as these are not
+independent of the Python version!
 For other generic packages (like a data package), add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
 See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
 more details.</p>
+</div>
+<div class="section" id="should-not-be-noarch">
+<h3><cite>should_not_be_noarch</cite><a class="headerlink" href="#should-not-be-noarch" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The package should <strong>not</strong> be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
+<p>Rationale: The package defines gcc as a dependency, or it contains a build/skip
+section. In both cases, this means that there should be platform specific
+versions of this package. This also holds for skipping Python versions, because
+<code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> also implies that the resulting package will work with <strong>all</strong>
+Python versions. This is typically not the case if you skip a Python version.</p>
+<p>How to resolve: Remove the <code class="docutils literal"><span class="pre">noarch</span></code> statement.</p>
 </div>
 <div class="section" id="uses-git-url">
 <h3><cite>uses_git_url</cite><a class="headerlink" href="#uses-git-url" title="Permalink to this headline">¶</a></h3>
@@ -272,6 +284,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#missing-tests"><cite>missing_tests</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-hash"><cite>missing_hash</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#should-be-noarch"><cite>should_be_noarch</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-not-be-noarch"><cite>should_not_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-git-url"><cite>uses_git_url</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-perl-threaded"><cite>uses_perl_threaded</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-javajdk"><cite>uses_javajdk</cite></a></li>
