@@ -9,7 +9,7 @@ CNV analysis in groups of tumor samples (Publication Pending).
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/BubbleTree.html
-Versions 2.1.5
+Versions 2.1.5, 2.4.0
 License  LGPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bubbletree
 ======== ===========

@@ -8,7 +8,7 @@ r-rainbow
 Functions and data sets for functional data display and outlier detection.
 
 ======== ===========
-Home     https://sites.google.com/site/hanlinshangswebsite/
+Home     https://cran.r-project.org/package=rainbow
 Versions 3.3
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rainbow

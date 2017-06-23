@@ -13668,6 +13668,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/crispresso/README.html">crispresso</a></td>
+        
+        <td>1.0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ped_parser/README.html">ped_parser</a></td>
         
         <td>1.6.5</td>
@@ -14105,6 +14119,20 @@ Available packages
         <td><a href="recipes/json_collect_data_source/README.html">json_collect_data_source</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/json_collect_data_source/README.html">json_collect_data_source</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -19473,6 +19501,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-bubbletree/README.html">bioconductor-bubbletree</a></td>
+        
+        <td>2.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -26886,6 +26928,20 @@ Available packages
         
         <td><a href="recipes/gmap/README.html">gmap</a></td>
         
+        <td>2015.12.31</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gmap/README.html">gmap</a></td>
+        
         <td>2016.09.23</td>
         
         <td></td>
@@ -27607,6 +27663,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cmv/README.html">cmv</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
