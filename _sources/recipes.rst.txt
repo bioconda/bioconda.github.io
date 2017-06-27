@@ -5914,6 +5914,20 @@ Available packages
         
         <td><a href="recipes/snakemake/README.html">snakemake</a></td>
         
+        <td>3.13.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
         <td>3.4.2</td>
         
         <td></td>
@@ -20430,6 +20444,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
+        
+        <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/meryl/README.html">meryl</a></td>
         
         <td>2013</td>
@@ -30244,6 +30272,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/fgbio/README.html">fgbio</a></td>
+        
+        <td>0.2.1a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pathtools/README.html">perl-pathtools</a></td>
         
         <td>3.40</td>
@@ -33061,6 +33103,20 @@ Available packages
         <td><a href="recipes/mothur/README.html">mothur</a></td>
         
         <td>1.38.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mothur/README.html">mothur</a></td>
+        
+        <td>1.39.5</td>
         
         <td></td>
         

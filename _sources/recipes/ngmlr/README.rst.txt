@@ -9,7 +9,7 @@ ngmlr is a long-read mapper designed to align PacBio or Oxford Nanopore reads to
 
 ======== ===========
 Home     https://github.com/philres/ngmlr
-Versions 0.2.2, 0.2.3, 0.2.4
+Versions 0.2.2, 0.2.3, 0.2.4, 0.2.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmlr
 ======== ===========
