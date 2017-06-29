@@ -15670,6 +15670,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/askocli/README.html">askocli</a></td>
+        
+        <td>0.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-bio-asn1-entrezgene/README.html">perl-bio-asn1-entrezgene</a></td>
         
         <td>1.70</td>
@@ -19534,6 +19548,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/netreg/README.html">netreg</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pywdl/README.html">pywdl</a></td>
         
         <td>1.0.22</td>
@@ -20825,6 +20853,20 @@ Available packages
         <td><a href="recipes/epic/README.html">epic</a></td>
         
         <td>0.1.25</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/epic/README.html">epic</a></td>
+        
+        <td>0.1.26</td>
         
         <td></td>
         
@@ -31745,6 +31787,20 @@ Available packages
         <td><a href="recipes/variantbam/README.html">variantbam</a></td>
         
         <td>1.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/variantbam/README.html">variantbam</a></td>
+        
+        <td>1.4.4a</td>
         
         <td></td>
         
@@ -48066,6 +48122,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hifive/README.html">hifive</a></td>
+        
+        <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-fail/README.html">r-fail</a></td>
         
         <td>1.3</td>
@@ -53361,6 +53431,20 @@ Available packages
         <td><a href="recipes/nextflow/README.html">nextflow</a></td>
         
         <td>0.24.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nextflow/README.html">nextflow</a></td>
+        
+        <td>0.25.1</td>
         
         <td></td>
         
