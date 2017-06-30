@@ -30636,6 +30636,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/toil/README.html">toil</a></td>
+        
+        <td>3.9.0a1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/hisat2/README.html">hisat2</a></td>
         
         <td>2.0.0beta</td>
@@ -49077,6 +49091,20 @@ Available packages
         <td><a href="recipes/biofluff/README.html">biofluff</a></td>
         
         <td>2.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/biofluff/README.html">biofluff</a></td>
+        
+        <td>2.1.3</td>
         
         <td></td>
         
