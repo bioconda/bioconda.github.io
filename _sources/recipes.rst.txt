@@ -1320,6 +1320,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/kraken-ea/README.html">kraken-ea</a></td>
+        
+        <td>0.10.5ea.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-spp/README.html">r-spp</a></td>
         
         <td>1.11</td>
@@ -4809,6 +4823,20 @@ Available packages
         <td><a href="recipes/pymzml/README.html">pymzml</a></td>
         
         <td>0.7.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pymzml/README.html">pymzml</a></td>
+        
+        <td>0.7.8</td>
         
         <td></td>
         
@@ -22040,6 +22068,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanoraw/README.html">nanoraw</a></td>
+        
+        <td>0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-dbd-mysql/README.html">perl-dbd-mysql</a></td>
         
         <td>4.033</td>
@@ -25949,6 +25991,20 @@ Available packages
         <td><a href="recipes/ucsc-fatofastq/README.html">ucsc-fatofastq</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/xxhash/README.html">xxhash</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -54095,6 +54151,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/xdg/README.html">xdg</a></td>
+        
+        <td>1.0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
