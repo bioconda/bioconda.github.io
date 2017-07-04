@@ -1328,7 +1328,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -36726,6 +36726,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rnftools/README.html">rnftools</a></td>
+        
+        <td>0.3.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-rubic/README.html">r-rubic</a></td>
         
         <td>1.0.2</td>
@@ -44205,6 +44219,20 @@ Available packages
         <td><a href="recipes/r-nanostringnorm/README.html">r-nanostringnorm</a></td>
         
         <td>1.1.21</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/hlaprofiler/README.html">hlaprofiler</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
