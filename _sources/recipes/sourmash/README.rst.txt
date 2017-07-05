@@ -5,7 +5,7 @@ sourmash
 
 |downloads|
 
-tools for comparing DNA sequences with MinHash sketches
+Compute and compare MinHash signatures for DNA data sets.
 
 ======== ===========
 Home     https://github.com/dib-lab/sourmash
