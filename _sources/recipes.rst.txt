@@ -15504,6 +15504,20 @@ Available packages
         
         <td><a href="recipes/perl-vcftools-vcf/README.html">perl-vcftools-vcf</a></td>
         
+        <td>0.840</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-vcftools-vcf/README.html">perl-vcftools-vcf</a></td>
+        
         <td>0.953</td>
         
         <td></td>
@@ -18823,6 +18837,20 @@ Available packages
         <td><a href="recipes/perl-statistics-basic/README.html">perl-statistics-basic</a></td>
         
         <td>1.6611</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/apoc/README.html">apoc</a></td>
+        
+        <td>1b16</td>
         
         <td></td>
         
@@ -36785,6 +36813,20 @@ Available packages
         <td><a href="recipes/rnftools/README.html">rnftools</a></td>
         
         <td>0.3.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/rnftools/README.html">rnftools</a></td>
+        
+        <td>0.3.1.2</td>
         
         <td></td>
         
