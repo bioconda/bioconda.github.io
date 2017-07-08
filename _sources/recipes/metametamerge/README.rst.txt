@@ -9,7 +9,7 @@ Merging module of the MetaMeta Pipeline
 
 ======== ===========
 Home     https://github.com/pirovc/metametamerge/
-Versions 1.0
+Versions 1.0, 1.1
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metametamerge
 ======== ===========

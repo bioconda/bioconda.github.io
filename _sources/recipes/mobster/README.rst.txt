@@ -31,6 +31,8 @@ Notes
 -----
 
 After installation, mobster is available as command `mobster`.
+Further, you can convert mobster output to vcf with the command `mobster-to-vcf`.
+
 
 |docker|
 

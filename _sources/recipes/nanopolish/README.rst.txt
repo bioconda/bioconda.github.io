@@ -9,7 +9,7 @@ Signal-level algorithms for MinION data.
 
 ======== ===========
 Home     https://github.com/jts/nanopolish
-Versions 0.4.0, 0.6.0, 0.6.0.dev, 0.7.0
+Versions 0.4.0, 0.6.0, 0.6.0.dev, 0.7.0, 0.7.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopolish
 ======== ===========

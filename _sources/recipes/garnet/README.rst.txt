@@ -9,8 +9,8 @@ UNKNOWN
 
 ======== ===========
 Home     https://github.com/fraenkel-lab/GarNet
-Versions 0.2.17, 0.2.20
-License  GNU General Public License
+Versions 0.2.17, 0.2.20, 0.4.0
+License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnet
 ======== ===========
 

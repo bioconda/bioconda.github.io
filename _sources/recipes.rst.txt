@@ -1096,6 +1096,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-gpseq/README.html">r-gpseq</a></td>
+        
+        <td>0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-gdtextutil/README.html">perl-gdtextutil</a></td>
         
         <td>0.86</td>
@@ -3297,6 +3311,20 @@ Available packages
         <td><a href="recipes/metametamerge/README.html">metametamerge</a></td>
         
         <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/metametamerge/README.html">metametamerge</a></td>
+        
+        <td>1.1</td>
         
         <td></td>
         
@@ -12816,6 +12844,20 @@ Available packages
         
         <td><a href="recipes/whatshap/README.html">whatshap</a></td>
         
+        <td>0.14.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/whatshap/README.html">whatshap</a></td>
+        
         <td>0.9</td>
         
         <td></td>
@@ -18067,6 +18109,20 @@ Available packages
         <td><a href="recipes/nanopolish/README.html">nanopolish</a></td>
         
         <td>0.7.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanopolish/README.html">nanopolish</a></td>
+        
+        <td>0.7.1</td>
         
         <td></td>
         
@@ -44848,20 +44904,6 @@ Available packages
         
         <td><a href="recipes/pindel/README.html">pindel</a></td>
         
-        <td>0.2.5a7</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/pindel/README.html">pindel</a></td>
-        
         <td>0.2.5b8</td>
         
         <td></td>
@@ -55993,6 +56035,20 @@ Available packages
         <td><a href="recipes/garnet/README.html">garnet</a></td>
         
         <td>0.2.20</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/garnet/README.html">garnet</a></td>
+        
+        <td>0.4.0</td>
         
         <td></td>
         
