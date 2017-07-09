@@ -238,6 +238,25 @@ bioconda does not support Windows, any <code class="docutils literal"><span clas
 clutter we try to remove them.</p>
 <p>How to resolve: Remove the <code class="docutils literal"><span class="pre">.bat</span></code> file from the recipe.</p>
 </div>
+<div class="section" id="setup-py-install-args">
+<h3><cite>setup_py_install_args</cite><a class="headerlink" href="#setup-py-install-args" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The recipe has <code class="docutils literal"><span class="pre">setuptools</span></code> as a build dependency, but
+<code class="docutils literal"><span class="pre">build.sh</span></code> needs to use certain arguments when running <code class="docutils literal"><span class="pre">setup.py</span></code>.</p>
+<p>Rationale: When a package depends on setuptools, we have to disable some parts
+of setuptools during installation to make it work correctly with conda. In
+particular, it seems that packages depend on other packages that specify entry
+points (e.g., <code class="docutils literal"><span class="pre">pyfaidx</span></code>) will cause errors about how <code class="docutils literal"><span class="pre">setuptools</span></code> is not
+allowed to install <code class="docutils literal"><span class="pre">certifi</span></code> in a conda package.</p>
+<p>How to resolve: Change the line in either in <code class="docutils literal"><span class="pre">build.sh</span></code> or the
+<code class="docutils literal"><span class="pre">build:script</span></code> key in <code class="docutils literal"><span class="pre">meta.yaml</span></code> from:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$PYTHON setup.py install
+</pre></div>
+</div>
+<p>to:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this headline">¶</a></h2>
@@ -308,6 +327,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#uses-javajdk"><cite>uses_javajdk</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-setuptools"><cite>uses_setuptools</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#developer-docs">Developer docs</a></li>

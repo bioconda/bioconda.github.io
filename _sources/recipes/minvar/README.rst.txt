@@ -9,7 +9,7 @@ A tool to detect minority variants in HIV-1 populations
 
 ======== ===========
 Home     https://git.io/minvar
-Versions 1.2a3
+Versions 1.2a3, 1.2b
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minvar
 ======== ===========
