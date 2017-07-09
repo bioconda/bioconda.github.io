@@ -9,7 +9,7 @@ Genome Analysis Toolkit (GATK4), currently in alpha
 
 ======== ===========
 Home     https://www.broadinstitute.org/gatk/
-Versions 4.0a1.2.7.2
+Versions 4.0a1.2.7.2, 4.0b1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk4
 ======== ===========
