@@ -9,7 +9,7 @@ An R package to enable organisation and visualisation of nanopore sequencing dat
 
 ======== ===========
 Home     http://sourceforge.net/projects/rpore/
-Versions 0.16
+Versions 0.16, 0.24
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pore
 ======== ===========
