@@ -9,7 +9,7 @@ Clusters and compares protein or nucleotide sequences
 
 ======== ===========
 Home     https://github.com/weizhongli/cdhit
-Versions 4.6.4, 4.6.6
+Versions 4.6.4, 4.6.6, 4.6.8
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit
 ======== ===========

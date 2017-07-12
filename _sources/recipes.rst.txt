@@ -35550,6 +35550,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/csb/README.html">csb</a></td>
+        
+        <td>1.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/google-api-python-client/README.html">google-api-python-client</a></td>
         
         <td>1.3.2</td>
@@ -38504,6 +38518,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/biopython/README.html">biopython</a></td>
+        
+        <td>1.70</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/trinity/README.html">trinity</a></td>
         
         <td>2.1.1</td>
@@ -41363,6 +41391,20 @@ Available packages
         <td><a href="recipes/gseapy/README.html">gseapy</a></td>
         
         <td>0.8.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gseapy/README.html">gseapy</a></td>
+        
+        <td>0.8.3</td>
         
         <td></td>
         
@@ -51863,6 +51905,20 @@ Available packages
         <td><a href="recipes/cd-hit/README.html">cd-hit</a></td>
         
         <td>4.6.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cd-hit/README.html">cd-hit</a></td>
+        
+        <td>4.6.8</td>
         
         <td></td>
         
