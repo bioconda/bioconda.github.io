@@ -10518,6 +10518,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/scg/README.html">scg</a></td>
+        
+        <td>0.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-genepredtobed/README.html">ucsc-genepredtobed</a></td>
         
         <td>324</td>
@@ -20514,6 +20528,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/entrez-direct/README.html">entrez-direct</a></td>
+        
+        <td>7.00</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/transtermhp/README.html">transtermhp</a></td>
         
         <td>2.09</td>
@@ -24919,6 +24947,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/taxmapper/README.html">taxmapper</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -37471,20 +37513,6 @@ Available packages
         <td><a href="recipes/r-bbmisc/README.html">r-bbmisc</a></td>
         
         <td>1.9</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/colormap/README.html">colormap</a></td>
-        
-        <td>0.9.8</td>
         
         <td></td>
         
