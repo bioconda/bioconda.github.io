@@ -5,12 +5,16 @@ sina
 
 |downloads|
 
-SINA is a tool for aligning sequences with an existing multiple sequence alignment (MSA) at high accuracy. It can also execute a homology search based on the computed alignment and generate a per sequence classifications from the search results.
+SINA is a tool for aligning sequences with an existing multiple sequence
+alignment (MSA) at high accuracy. It can also execute a homology search based
+on the computed alignment and generate a per sequence classifications from the
+search results.
+
 
 ======== ===========
-Home     https://www.arb-silva.de/aligner/sina-download/
-Versions 1.3.0
-License  Personal  Use  and Evaluation License (PUEL) for SINA Stand‐Alone Software
+Home     https://github.com/epruesse/SINA
+Versions 1.3.0, 1.3.1
+License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina
 ======== ===========
 
