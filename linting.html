@@ -81,6 +81,8 @@ branch. The travis-ci build will fail if any of the linting checks fail. Below
 is a list of the checks performed and how to fix them if they fail.</p>
 <div class="section" id="skipping-a-linting-test">
 <h2>Skipping a linting test<a class="headerlink" href="#skipping-a-linting-test" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="skipping-on-a-per-commit-basis">
+<h3>Skipping on a per-commit basis<a class="headerlink" href="#skipping-on-a-per-commit-basis" title="Permalink to this headline">¶</a></h3>
 <p>While only recommended in special cases, it is possible to skip specific
 linting tests on a commit by using special text in the commit message, <code class="docutils literal"><span class="pre">[lint</span>
 <span class="pre">skip</span> <span class="pre">$FUNCTION</span> <span class="pre">for</span> <span class="pre">$RECIPE]</span></code> where <code class="docutils literal"><span class="pre">$FUNCTION</span></code> is the name of the function to
@@ -102,6 +104,21 @@ a temporary environment variable <code class="docutils literal"><span class="pre
 tested locally like this without having to make a commit:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="o">./</span><span class="n">simulate</span><span class="o">-</span><span class="n">travis</span><span class="o">.</span><span class="n">py</span>
 </pre></div>
+</div>
+</div>
+<div class="section" id="skipping-persistently-on-a-per-recipe-basis">
+<h3>Skipping persistently on a per-recipe basis<a class="headerlink" href="#skipping-persistently-on-a-per-recipe-basis" title="Permalink to this headline">¶</a></h3>
+<p>Sometimes a recipe will always fail linting. For example, in rare cases the
+source for a recipe may only be available as a <cite>git_url</cite> or may require
+<cite>setuptools</cite> as a runtime dependency. In these cases, add an <cite>extra:
+skip-lints</cite> list to the <code class="docutils literal"><span class="pre">meta.yaml</span></code> indicating which lints should be
+skipped, for example:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+  <span class="n">skip</span><span class="o">-</span><span class="n">lints</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">uses_git_url</span>
+    <span class="o">-</span> <span class="n">uses_setuptools</span>
+</pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="linting-functions">
@@ -311,7 +328,11 @@ default.</p>
 <li class="toctree-l1"><a class="reference internal" href="recipes.html">Available packages</a></li>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Linting</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#skipping-a-linting-test">Skipping a linting test</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#skipping-a-linting-test">Skipping a linting test</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#skipping-on-a-per-commit-basis">Skipping on a per-commit basis</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#skipping-persistently-on-a-per-recipe-basis">Skipping persistently on a per-recipe basis</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#linting-functions">Linting functions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#in-other-channels"><cite>in_other_channels</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda"><cite>already_in_bioconda</cite></a></li>
