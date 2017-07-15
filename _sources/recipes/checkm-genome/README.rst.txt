@@ -9,7 +9,7 @@ Assess the quality of putative genome bins.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/checkm/
-Versions 1.0.5
+Versions 1.0.5, 1.0.7
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome
 ======== ===========

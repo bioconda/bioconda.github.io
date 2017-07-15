@@ -9,7 +9,7 @@ Command-line genome browser running from terminal window and solely based on ASC
 
 ======== ===========
 Home     https://github.com/dariober/ASCIIGenome
-Versions 0.2.0, 0.6.4, 1.0.0, 1.1.0, 1.2.0
+Versions 0.2.0, 0.6.4, 1.0.0, 1.1.0, 1.2.0, 1.8.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asciigenome
 ======== ===========
