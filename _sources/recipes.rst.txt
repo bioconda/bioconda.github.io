@@ -12262,7 +12262,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -24400,7 +24400,21 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/exonerate/README.html">exonerate</a></td>
+        
+        <td>2.4.0</td>
+        
         <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -27584,6 +27598,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/arem/README.html">arem</a></td>
+        
+        <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/circexplorer/README.html">circexplorer</a></td>
         
         <td>0.1</td>
@@ -30127,6 +30155,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19/README.html">bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19</a></td>
+        
+        <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -36432,6 +36474,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-rentrez/README.html">r-rentrez</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-pchicdata/README.html">bioconductor-pchicdata</a></td>
         
         <td>1.2.0</td>
@@ -39106,6 +39162,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-affydata/README.html">bioconductor-affydata</a></td>
+        
+        <td>1.24.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-misctools/README.html">r-misctools</a></td>
         
         <td>0.6_22</td>
@@ -39809,6 +39879,20 @@ Available packages
         <td><a href="recipes/ariba/README.html">ariba</a></td>
         
         <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ariba/README.html">ariba</a></td>
+        
+        <td>2.10.0</td>
         
         <td></td>
         
@@ -44944,6 +45028,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hlaprofiler/README.html">hlaprofiler</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/hubward-all/README.html">hubward-all</a></td>
         
         <td>0.2.1</td>
@@ -49676,6 +49774,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-r2html/README.html">r-r2html</a></td>
+        
+        <td>2.3.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-snow/README.html">r-snow</a></td>
         
         <td>0.3_13</td>
@@ -53669,6 +53781,20 @@ Available packages
         <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
         
         <td>0.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
+        
+        <td>0.8.2</td>
         
         <td></td>
         
