@@ -11582,6 +11582,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/multiqc/README.html">multiqc</a></td>
+        
+        <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/svviz/README.html">svviz</a></td>
         
         <td>1.4.0</td>
@@ -21116,6 +21130,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rnabob/README.html">rnabob</a></td>
         
         <td>2.2.1</td>
@@ -24829,6 +24857,34 @@ Available packages
         <td><a href="recipes/graphclust-wrappers/README.html">graphclust-wrappers</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/graphclust-wrappers/README.html">graphclust-wrappers</a></td>
+        
+        <td>0.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/graphclust-wrappers/README.html">graphclust-wrappers</a></td>
+        
+        <td>0.3.1</td>
         
         <td></td>
         
@@ -37723,6 +37779,20 @@ Available packages
         <td><a href="recipes/rtg-tools/README.html">rtg-tools</a></td>
         
         <td>3.7.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/rtg-tools/README.html">rtg-tools</a></td>
+        
+        <td>3.8.2</td>
         
         <td></td>
         
@@ -56847,6 +56917,20 @@ Available packages
         <td><a href="recipes/garnet/README.html">garnet</a></td>
         
         <td>0.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/garnet/README.html">garnet</a></td>
+        
+        <td>0.4.3</td>
         
         <td></td>
         
