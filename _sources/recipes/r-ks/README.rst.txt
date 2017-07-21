@@ -9,7 +9,7 @@ Kernel smoothers for univariate and multivariate data, including density functio
 
 ======== ===========
 Home     http://www.mvstat.net/tduong
-Versions 1.10.0, 1.10.6
+Versions 1.10.0, 1.10.5, 1.10.6
 License  GPL-2 | GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ks
 ======== ===========

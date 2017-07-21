@@ -9,7 +9,7 @@ Efficient target prediction incorporating seeding and accessibility of interacti
 
 ======== ===========
 Home     http://www.bioinf.uni-freiburg.de/Software
-Versions 1.2.5, 2.0.0, 2.0.1, 2.0.2, 2.0.3
+Versions 1.2.5, 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intarna
 ======== ===========

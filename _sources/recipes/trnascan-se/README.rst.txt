@@ -9,8 +9,8 @@ tRNA detection in large-scale genome sequence
 
 ======== ===========
 Home     http://eddylab.org/software.html
-Versions 1.23
-License  
+Versions 1.23, 1.3.1
+License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trnascan-se
 ======== ===========
 

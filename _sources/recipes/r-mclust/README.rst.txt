@@ -9,7 +9,7 @@ Normal Mixture Modelling fitted via EM algorithm for Model-Based Clustering, Cla
 
 ======== ===========
 Home     http://www.stat.washington.edu/mclust/
-Versions 5.1
+Versions 5.1, 5.2
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mclust
 ======== ===========
