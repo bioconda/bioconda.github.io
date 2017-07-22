@@ -1110,6 +1110,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanosim/README.html">nanosim</a></td>
+        
+        <td>v1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-gpseq/README.html">r-gpseq</a></td>
         
         <td>0.5</td>
@@ -7301,6 +7315,20 @@ Available packages
         <td><a href="recipes/mashtree/README.html">mashtree</a></td>
         
         <td>0.20</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mashtree/README.html">mashtree</a></td>
+        
+        <td>0.21</td>
         
         <td></td>
         
@@ -21648,6 +21676,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/epic/README.html">epic</a></td>
+        
+        <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-cqn/README.html">bioconductor-cqn</a></td>
         
         <td>1.22.0</td>
@@ -23099,6 +23141,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pyquery/README.html">pyquery</a></td>
+        
+        <td>1.2.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -30846,6 +30902,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/adam/README.html">adam</a></td>
+        
+        <td>0.22.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/discovar/README.html">discovar</a></td>
         
         <td>52488</td>
@@ -34223,6 +34293,20 @@ Available packages
         <td><a href="recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/README.html">bioconductor-txdb.mmusculus.ucsc.mm10.ensgene</a></td>
         
         <td>3.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/helperlibs/README.html">helperlibs</a></td>
+        
+        <td>0.1.8</td>
         
         <td></td>
         
@@ -40564,6 +40648,20 @@ Available packages
         
         <td><a href="recipes/domclust/README.html">domclust</a></td>
         
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/domclust/README.html">domclust</a></td>
+        
         <td>1.2.8</td>
         
         <td></td>
@@ -40817,6 +40915,20 @@ Available packages
         <td><a href="recipes/avro-python3/README.html">avro-python3</a></td>
         
         <td>1.8.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/avro-python3/README.html">avro-python3</a></td>
+        
+        <td>1.8.2</td>
         
         <td></td>
         

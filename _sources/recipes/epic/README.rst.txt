@@ -9,7 +9,7 @@ Chip-Seq broad peak/domain finder.
 
 ======== ===========
 Home     http://github.com/endrebak/epic
-Versions 0.1.17, 0.1.20, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.2.0, 0.2.1
+Versions 0.1.17, 0.1.20, 0.1.24, 0.1.25, 0.1.26, 0.1.27, 0.1.28, 0.2.0, 0.2.1, 0.2.2
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epic
 ======== ===========
