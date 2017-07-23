@@ -1810,6 +1810,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/minimap2/README.html">minimap2</a></td>
+        
+        <td>2.0.r191</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-cimpl/README.html">r-cimpl</a></td>
         
         <td>1.1</td>
@@ -3087,6 +3101,20 @@ Available packages
         <td><a href="recipes/gatk4/README.html">gatk4</a></td>
         
         <td>4.0b1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gatk4/README.html">gatk4</a></td>
+        
+        <td>4.0b2</td>
         
         <td></td>
         
@@ -17840,6 +17868,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/moods/README.html">moods</a></td>
+        
+        <td>1.9.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-mzr/README.html">bioconductor-mzr</a></td>
         
         <td>2.4.1</td>
@@ -25977,6 +26019,20 @@ Available packages
         <td><a href="recipes/mhap/README.html">mhap</a></td>
         
         <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mhap/README.html">mhap</a></td>
+        
+        <td>2.1.1</td>
         
         <td></td>
         
@@ -42718,6 +42774,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/miniasm/README.html">miniasm</a></td>
+        
+        <td>0.2_r168</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sixgill/README.html">sixgill</a></td>
         
         <td>0.2.3</td>
@@ -49592,6 +49662,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanosv/README.html">nanosv</a></td>
+        
+        <td>0.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-flowr/README.html">r-flowr</a></td>
         
         <td>0.9.10</td>
@@ -53409,6 +53493,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/maxentpy/README.html">maxentpy</a></td>
+        
+        <td>0.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -57757,6 +57855,20 @@ Available packages
         <td><a href="recipes/prophyle/README.html">prophyle</a></td>
         
         <td>0.1.0.38</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         

@@ -9,7 +9,7 @@ ProPhyle is a metagenomic classifier based on BWT-index and phylogenetic trees. 
 
 ======== ===========
 Home     https://github.com/karel-brinda/prophyle
-Versions 0.1.0.29, 0.1.0.35, 0.1.0.38
+Versions 0.1.0.29, 0.1.0.35, 0.1.0.38, 0.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophyle
 ======== ===========
