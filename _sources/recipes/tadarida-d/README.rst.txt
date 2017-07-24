@@ -9,7 +9,7 @@ Tadarida-D (Toolbox for Animal Detection on Acoustic Recordings - Detection and 
 
 ======== ===========
 Home     https://github.com/YvesBas/Tadarida-D
-Versions 1.0, 1.01
+Versions 1.0, 1.01, 1.02
 License  GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-d
 ======== ===========

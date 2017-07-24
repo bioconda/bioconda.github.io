@@ -11288,6 +11288,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/tadarida-d/README.html">tadarida-d</a></td>
+        
+        <td>1.02</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bats/README.html">bats</a></td>
         
         <td>0.4.0</td>
@@ -25540,6 +25554,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vdjer/README.html">vdjer</a></td>
+        
+        <td>0.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/dunovo/README.html">dunovo</a></td>
         
         <td>0.7</td>
@@ -29631,6 +29659,20 @@ Available packages
         <td><a href="recipes/tadarida-c/README.html">tadarida-c</a></td>
         
         <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/tadarida-c/README.html">tadarida-c</a></td>
+        
+        <td>1.1</td>
         
         <td></td>
         
@@ -45294,6 +45336,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/imseq/README.html">imseq</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-waveslim/README.html">r-waveslim</a></td>
         
         <td>1.7.5</td>
@@ -57869,6 +57925,34 @@ Available packages
         <td><a href="recipes/prophyle/README.html">prophyle</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.2.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.2.0.3</td>
         
         <td></td>
         

@@ -9,7 +9,7 @@ Tadarida-C (Toolbox for Animal Detection on Acoustic Recordings - Classification
 
 ======== ===========
 Home     https://github.com/YvesBas/Tadarida-C
-Versions 1.0
+Versions 1.0, 1.1
 License  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-c
 ======== ===========
