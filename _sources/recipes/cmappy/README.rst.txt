@@ -9,7 +9,7 @@ Assorted tools for interacting with .gct, .gctx files and other Connectivity Map
 
 ======== ===========
 Home     https://github.com/cmap/cmapPy
-Versions 1.0.9
+Versions 1.0.9, 1.1.1
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmappy
 ======== ===========

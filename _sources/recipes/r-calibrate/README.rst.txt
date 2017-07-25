@@ -8,7 +8,7 @@ r-calibrate
 Package for drawing calibrated scales with tick marks on (non-orthogonal)  variable vectors in scatterplots and biplots. 
 
 ======== ===========
-Home     
+Home     https://CRAN.R-project.org/package=calibrate
 Versions 1.7.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-calibrate

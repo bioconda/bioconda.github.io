@@ -5,11 +5,11 @@ r-ggalt
 
 |downloads|
 
-A compendium of 'geoms', 'coords' and 'stats' for 'ggplot2', including splines, 1d and 2d densities, univariate average shifted histograms and a new map coordinate system based on the 'PROJ.4'-library.
+A compendium of new geometries, coordinate systems, statistical  transformations, scales and fonts for 'ggplot2', including splines, 1d and 2d densities,  univariate average shifted histograms, a new map coordinate system based on the  'PROJ.4'-library along with geom_cartogram() that mimics the original functionality of  geom_map(), formatters for "bytes", a stat_stepribbon() function, increased 'plotly' compatibility and the 'StateFace' open source font 'ProPublica'. Further new  functionality includes lollipop charts, dumbbell charts, the ability to encircle points and coordinate-system-based text annotations.
 
 ======== ===========
-Home     http://github.com/hrbrmstr/ggalt
-Versions 0.1.1
+Home     https://github.com/hrbrmstr/ggalt
+Versions 0.1.1, 0.4.0
 License  AGPL + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggalt
 ======== ===========

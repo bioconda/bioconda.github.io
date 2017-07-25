@@ -2356,6 +2356,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/spine/README.html">spine</a></td>
+        
+        <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-summarizedexperiment/README.html">bioconductor-summarizedexperiment</a></td>
         
         <td>1.0.0</td>
@@ -6265,6 +6279,20 @@ Available packages
         <td><a href="recipes/snakemake/README.html">snakemake</a></td>
         
         <td>3.9.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>4.0.0</td>
         
         <td></td>
         
@@ -11025,6 +11053,20 @@ Available packages
         <td><a href="recipes/ucsc-pslpairs/README.html">ucsc-pslpairs</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-extrafontdb/README.html">r-extrafontdb</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -20024,6 +20066,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cmappy/README.html">cmappy</a></td>
+        
+        <td>1.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/damidseq_pipeline/README.html">damidseq_pipeline</a></td>
         
         <td>1.4</td>
@@ -23482,6 +23538,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/clark/README.html">clark</a></td>
+        
+        <td>1.2.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-upsetr/README.html">r-upsetr</a></td>
         
         <td>1.0.3</td>
@@ -24854,6 +24924,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-rttf2pt1/README.html">r-rttf2pt1</a></td>
+        
+        <td>1.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/exonerate/README.html">exonerate</a></td>
         
         <td>2.2.0</td>
@@ -24931,6 +25015,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/secimtools/README.html">secimtools</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -26817,6 +26915,20 @@ Available packages
         <td><a href="recipes/r-ggalt/README.html">r-ggalt</a></td>
         
         <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-ggalt/README.html">r-ggalt</a></td>
+        
+        <td>0.4.0</td>
         
         <td></td>
         
@@ -32879,6 +32991,20 @@ Available packages
         <td><a href="recipes/deeptools/README.html">deeptools</a></td>
         
         <td>2.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/deeptools/README.html">deeptools</a></td>
+        
+        <td>2.5.3</td>
         
         <td></td>
         
@@ -40772,6 +40898,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/domclust/README.html">domclust</a></td>
+        
+        <td>1.2.8a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pylibseq/README.html">pylibseq</a></td>
         
         <td>0.1.8</td>
@@ -45017,6 +45157,20 @@ Available packages
         <td><a href="recipes/ucsc-autodtd/README.html">ucsc-autodtd</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/behst/README.html">behst</a></td>
+        
+        <td>0.8</td>
         
         <td></td>
         
@@ -49469,6 +49623,20 @@ Available packages
         <td><a href="recipes/fastuniq/README.html">fastuniq</a></td>
         
         <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-extrafont/README.html">r-extrafont</a></td>
+        
+        <td>0.17</td>
         
         <td></td>
         
