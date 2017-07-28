@@ -438,6 +438,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rscape/README.html">rscape</a></td>
+        
+        <td>0.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/mintmap/README.html">mintmap</a></td>
         
         <td>1.0</td>
@@ -3154,6 +3168,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gatk4/README.html">gatk4</a></td>
+        
+        <td>4.0b3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/transabyss/README.html">transabyss</a></td>
         
         <td>1.5.4</td>
@@ -4417,6 +4445,20 @@ Available packages
         <td><a href="recipes/primer3-py/README.html">primer3-py</a></td>
         
         <td>0.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/primer3-py/README.html">primer3-py</a></td>
+        
+        <td>0.5.4</td>
         
         <td></td>
         
@@ -12859,6 +12901,20 @@ Available packages
         <td><a href="recipes/r-phonr/README.html">r-phonr</a></td>
         
         <td>1.0_3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/libmuscle/README.html">libmuscle</a></td>
+        
+        <td>3.7</td>
         
         <td></td>
         
@@ -21858,6 +21914,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/epic/README.html">epic</a></td>
+        
+        <td>0.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-cqn/README.html">bioconductor-cqn</a></td>
         
         <td>1.22.0</td>
@@ -22673,6 +22743,20 @@ Available packages
         <td><a href="recipes/pysamstats/README.html">pysamstats</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysamstats/README.html">pysamstats</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -25641,6 +25725,34 @@ Available packages
         <td><a href="recipes/fsnviz/README.html">fsnviz</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ushuffle/README.html">ushuffle</a></td>
+        
+        <td>1.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ushuffle/README.html">ushuffle</a></td>
+        
+        <td>1.2.2</td>
         
         <td></td>
         
@@ -29967,6 +30079,20 @@ Available packages
         <td><a href="recipes/trinotate/README.html">trinotate</a></td>
         
         <td>3.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/trinotate/README.html">trinotate</a></td>
+        
+        <td>3.0.2</td>
         
         <td></td>
         
@@ -40942,20 +41068,6 @@ Available packages
         
         <td><a href="recipes/domclust/README.html">domclust</a></td>
         
-        <td>1.2.8</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/domclust/README.html">domclust</a></td>
-        
         <td>1.2.8a</td>
         
         <td></td>
@@ -41657,6 +41769,20 @@ Available packages
         <td><a href="recipes/bioconductor-dexseq/README.html">bioconductor-dexseq</a></td>
         
         <td>1.20.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-dexseq/README.html">bioconductor-dexseq</a></td>
+        
+        <td>1.22.0</td>
         
         <td></td>
         
@@ -48405,6 +48531,20 @@ Available packages
         <td><a href="recipes/bioconductor-regioner/README.html">bioconductor-regioner</a></td>
         
         <td>1.6.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/odose/README.html">odose</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         

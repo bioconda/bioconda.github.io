@@ -77,7 +77,7 @@ bioinformatics software. Bioconda consists of:</p>
 <ul class="simple">
 <li>a <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">repository of recipes</a> hosted on GitHub</li>
 <li>a <a class="reference external" href="https://github.com/bioconda/bioconda-utils">build system</a> that turns these recipes into conda packages</li>
-<li>a <a class="reference external" href="https://anaconda.org/bioconda/">repository of &gt;2400 bioinformatics packages</a> ready to use with <code class="docutils literal"><span class="pre">conda</span> <span class="pre">install</span></code></li>
+<li>a <a class="reference external" href="https://anaconda.org/bioconda/">repository of &gt;2700 bioinformatics packages</a> ready to use with <code class="docutils literal"><span class="pre">conda</span> <span class="pre">install</span></code></li>
 <li>Over 250 contributors that add, modify, update and maintain the recipes</li>
 </ul>
 <p>Each package added to Bioconda also has a corresponding Docker  <a class="reference external" href="https://biocontainers.pro">BioContainer</a> automatically created and uploaded to Quay.io.</p>
@@ -118,8 +118,9 @@ other channels bioconda depends on. <strong>It is important to add them in this
 order</strong> so that the priority is set correctly (that is, bioconda is highest
 priority).</p>
 <p>The <cite>conda-forge</cite> channel contains many general-purpose packages not already
-found in the <cite>defaults</cite> channel. The <cite>r</cite> channel is only included due to backward compatibility.
-It is not mandatory, but without <cite>r</cite>-packages compiled against R 3.3.1 might not work.</p>
+found in the <cite>defaults</cite> channel. The <cite>r</cite> channel is only included due to
+backward compatibility.  It is not mandatory, but without the <cite>r</cite> channel
+packages compiled against R 3.3.1 might not work.</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="p">(</span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">r</span><span class="p">)</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
@@ -171,7 +172,7 @@ that a tool can be easily installed from bioconda.</p>
 </div>
 <div class="section" id="others">
 <h2>Others<a class="headerlink" href="#others" title="Permalink to this headline">¶</a></h2>
-<p>Bioconda has over 120 contributors, see <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">here</a>.</p>
+<p>Bioconda has over 250 contributors, see <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/graphs/contributors">here</a>.</p>
 <hr class="docutils" />
 <p>Bioconda is a derivative mark of Anaconda <sup>®</sup>, a trademark of Continuum Analytics, Inc registered in the U.S. and other countries.
 Continuum Analytics, Inc. grants permission of the derivative use but is not associated with Bioconda.</p>
@@ -189,12 +190,13 @@ channel.</p>
 <li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="contrib-setup.html#git-and-github-one-time-setup">Git and GitHub (one-time setup)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contrib-setup.html#install-conda-and-docker-one-time-setup">Install conda and Docker (one-time setup)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="contrib-setup.html#request-to-be-added-to-the-bioconda-team">Request to be added to the bioconda team</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contrib-setup.html#install-docker-optional">Install Docker (optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contrib-setup.html#request-to-be-added-to-the-bioconda-team-optional">Request to be added to the bioconda team (optional)</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#update-repo-and-requirements">Update repo and requirements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#update-repo">Update repo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#build-an-isolated-conda-installation-with-dependencies">Build an isolated conda installation with dependencies</a></li>
 <li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#write-a-recipe">Write a recipe</a></li>
 <li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#test-locally">Test locally</a></li>
 <li class="toctree-l3"><a class="reference internal" href="contribute-a-recipe.html#push-changes-wait-for-tests-to-pass-submit-pull-request">Push changes, wait for tests to pass, submit pull request</a></li>

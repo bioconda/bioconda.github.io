@@ -9,7 +9,7 @@ The package is focused on finding differential exon usage using RNA-seq exon cou
 
 ======== ===========
 Home     https://bioconductor.org/packages/release/bioc/html/DEXSeq.html
-Versions 1.16.6, 1.18.4, 1.20.1
+Versions 1.16.6, 1.18.4, 1.20.1, 1.22.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexseq
 ======== ===========

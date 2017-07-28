@@ -76,49 +76,55 @@ $(document).ready(function() {
 <h1>One-time setup<a class="headerlink" href="#one-time-setup" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="git-and-github-one-time-setup">
 <span id="github-setup"></span><h2>Git and GitHub (one-time setup)<a class="headerlink" href="#git-and-github-one-time-setup" title="Permalink to this headline">¶</a></h2>
-<ul>
-<li><p class="first">Create a <a class="reference external" href="https://help.github.com/articles/fork-a-repo/">fork</a> of
-<a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes on GitHub</a>
-and clone it locally. Even if you are a member of the bioconda team with push
-access, using your own fork will allow testing of your recipes on travis-ci
-using your own account&#8217;s free resources without consuming resources allocated
-by travis-ci to the <cite>bioconda</cite> group. This makes the tests go faster for
-everyone:</p>
+<p>If you are a bioconda team member (having been added by posting in issue #1),
+then you have push access to the repo. In this case you can clone the
+bioconda-recipes repo:</p>
+<p>Decide whether you&#8217;ll work on a clone or a fork.</p>
+<p>Choose a clone if:</p>
+<ul class="simple">
+<li>You are a bioconda team member (post on <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/issues/1">issue #1</a> if you&#8217;d like to
+join). Team members have write access to branches other than the master
+branch.</li>
+<li>You want to have other team members make changes directly to your branch</li>
+</ul>
+<p>Choose a fork if:</p>
+<ul class="simple">
+<li>you are not yet a member of the bioconda team</li>
+<li>you expect to do lots of testing or lots of troubleshooting. This will allow
+you to use your own quota on travis-ci, so your builds will likely happen
+faster and you won&#8217;t be consuming limited bioconda quota.</li>
+</ul>
+<div class="section" id="using-a-clone">
+<h3>Using a clone<a class="headerlink" href="#using-a-clone" title="Permalink to this headline">¶</a></h3>
+<p>Clone the main repo:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="using-a-fork">
+<h3>Using a fork<a class="headerlink" href="#using-a-fork" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div>git clone</div></blockquote>
+<p>You can now move on to installing requirements (next section).</p>
+<p>If you do not yet have push access, then create a <a class="reference external" href="https://help.github.com/articles/fork-a-repo/">fork</a> of <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">bioconda-recipes on
+GitHub</a> and clone it locally:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/&lt;</span><span class="n">USERNAME</span><span class="o">&gt;/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span><span class="o">.</span><span class="n">git</span>
 </pre></div>
 </div>
-</li>
-<li><p class="first">Connect the fork to travis-ci, following steps 1 and 2 from the <a class="reference external" href="https://docs.travis-ci.com/user/getting-started/#To-get-started-with-Travis-CI%3A">travis-ci
-docs</a></p>
-</li>
-<li><p class="first">Add the main bioconda-recipes repo as an upstream remote to more easily
+<p>Then add the main bioconda-recipes repo as an upstream remote to more easily
 update your branch with the upstream master branch:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">remote</span> <span class="n">add</span> <span class="n">upstream</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">bioconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">recipes</span><span class="o">.</span><span class="n">git</span>
 </pre></div>
 </div>
-</li>
-</ul>
 </div>
-<div class="section" id="install-conda-and-docker-one-time-setup">
-<h2>Install conda and Docker (one-time setup)<a class="headerlink" href="#install-conda-and-docker-one-time-setup" title="Permalink to this headline">¶</a></h2>
-<p>Currently, you need to install the requirements (see below) into the root
-conda environment which must be a Python 3 environment.</p>
-<ol class="arabic simple">
-<li>Install <a class="reference external" href="http://conda.pydata.org/miniconda.html">conda</a>. The Python
-3 version is required.</li>
-<li>Install <a class="reference external" href="https://conda.io/docs/building/recipe.html">conda-build</a>. Note
-that the installation must be done from the root <cite>conda</cite> environment, so you
-will need to <cite>source deactivate</cite> your current environment. If you&#8217;d like to
-read an extensive discussion about <cite>conda</cite> and root vs default environments,
-check out <a class="reference external" href="https://github.com/conda/conda/issues/1145">this discussion</a></li>
-<li>Install <a class="reference external" href="https://www.docker.com/">Docker</a>. (optional, but allows you to
-simulate most closely the Travis-CI tests).</li>
-</ol>
-<p>Please note that it is also required to build <em>any</em> recipe prior to using the
-<cite>simulate-travis.py</cite> command as explained <a class="reference internal" href="contribute-a-recipe.html#test-locally"><span class="std std-ref">here</span></a>.</p>
 </div>
-<div class="section" id="request-to-be-added-to-the-bioconda-team">
-<h2>Request to be added to the bioconda team<a class="headerlink" href="#request-to-be-added-to-the-bioconda-team" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="install-docker-optional">
+<h2>Install Docker (optional)<a class="headerlink" href="#install-docker-optional" title="Permalink to this headline">¶</a></h2>
+<p>Installing <a class="reference external" href="https://www.docker.com/">Docker</a> is optional, but allows you to
+simulate most closely the Travis-CI tests.</p>
+</div>
+<div class="section" id="request-to-be-added-to-the-bioconda-team-optional">
+<h2>Request to be added to the bioconda team (optional)<a class="headerlink" href="#request-to-be-added-to-the-bioconda-team-optional" title="Permalink to this headline">¶</a></h2>
 <p>While not required, you can be added to the bioconda by posting in <a class="reference external" href="https://github.com/bioconda/recipes/issues/1">Issue #1</a>. Members of the bioconda team
 can merge their own recipes once tests pass, though we ask that first-time
 contributions and anything out of the ordinary be reviewed by the
@@ -152,8 +158,8 @@ contributions and anything out of the ordinary be reviewed by the
 <li class="toctree-l1 current"><a class="reference internal" href="contributing.html">Contributing</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">One-time setup</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#git-and-github-one-time-setup">Git and GitHub (one-time setup)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#install-conda-and-docker-one-time-setup">Install conda and Docker (one-time setup)</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#request-to-be-added-to-the-bioconda-team">Request to be added to the bioconda team</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#install-docker-optional">Install Docker (optional)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#request-to-be-added-to-the-bioconda-team-optional">Request to be added to the bioconda team (optional)</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a></li>
