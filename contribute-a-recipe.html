@@ -77,14 +77,9 @@ $(document).ready(function() {
 <p>The following steps are done for each recipe or batch of recipes you&#8217;d like to
 contribute.</p>
 <div class="section" id="update-repo">
-<h2>Update repo<a class="headerlink" href="#update-repo" title="Permalink to this headline">¶</a></h2>
+<h2>1. Update repo<a class="headerlink" href="#update-repo" title="Permalink to this headline">¶</a></h2>
 <p>If you&#8217;re using a fork (set up as <a class="reference internal" href="contrib-setup.html#github-setup"><span class="std std-ref">above</span></a>):</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
-
-<span class="c1"># if you cloned the original repo</span>
-git pull origin master
-
-<span class="c1"># if you&#39;re on a fork</span>
 git pull upstream master
 </pre></div>
 </div>
@@ -95,31 +90,34 @@ git pull origin master
 </div>
 </div>
 <div class="section" id="build-an-isolated-conda-installation-with-dependencies">
-<h2>Build an isolated conda installation with dependencies<a class="headerlink" href="#build-an-isolated-conda-installation-with-dependencies" title="Permalink to this headline">¶</a></h2>
+<h2>2. Build an isolated conda installation with dependencies<a class="headerlink" href="#build-an-isolated-conda-installation-with-dependencies" title="Permalink to this headline">¶</a></h2>
 <p>In the top level of the bioconda-recipes repo, run:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>./simulate-travis.py --bootstrap /tmp/miniconda --overwrite
 </pre></div>
 </div>
-<p>This does not need root access. It will create a conda installation in
-<code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> that is separate from any Python or conda you might already
-have on your system. It w`ill overwrite any existing installation there. It
-will set up the proper channel order and install <code class="docutils literal"><span class="pre">bioconda-utils</span></code> and its
-dependencies into that installation. Finally, it will write a config file at
-<code class="docutils literal"><span class="pre">~/.config/bioconda/config.yml</span></code> to persistently store the location of this
-new installation so that subsequent calls to <code class="docutils literal"><span class="pre">simulate-travis.py</span></code> will use it
-with no further configuration.</p>
+<p>This will:</p>
+<ul class="simple">
+<li>create a conda installation in <code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> that is separate from any
+Python or conda you might already have on your system. No root privileges are
+needed.</li>
+<li>set up the proper channel order</li>
+<li>install <code class="docutils literal"><span class="pre">bioconda-utils</span></code> and its dependencies into that installation</li>
+<li>write a config file at <code class="docutils literal"><span class="pre">~/.config/bioconda/config.yml</span></code> to persistently
+store the location of this new installation so that subsequent calls to
+<code class="docutils literal"><span class="pre">simulate-travis.py</span></code> will use it with no further configuration.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
 <p>This operation runs relatively quickly, so you might consider running it every
 time you build and test a new recipe to ensure tests on travis-ci go as
 smoothly as possible.</p>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
 <p class="last">If you are running into particularly difficult-to-troubleshoot issues, try
 removing the installation directory completely and then re-installing using
 the <code class="docutils literal"><span class="pre">--bootstrap</span></code> argument.</p>
 </div>
 </div>
 <div class="section" id="write-a-recipe">
-<h2>Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
+<h2>3. Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
 <p>Check out a new branch (here the branch is arbitrarily named &#8220;my-recipe&#8221;):</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout -b my-recipe
 </pre></div>
@@ -130,7 +128,7 @@ source for information on building a recipe.</p>
 bioconda-specific policies.</p>
 </div>
 <div class="section" id="test-locally">
-<span id="id1"></span><h2>Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>4. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
 <p>To test the recipe in a way more representative of the travis-ci environment,
 use the <code class="docutils literal"><span class="pre">simulate-travis.py</span></code> script in the top-level directory of the repo.</p>
 <p><code class="docutils literal"><span class="pre">simulate-travis.py</span></code> reads the config files in the repo and sets things up as
@@ -199,7 +197,7 @@ log files.</p>
 </div>
 </div>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
-<h2>Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
+<h2>5. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
 <p>Push your changes to your fork or to the main repo (if using a clone) to GitHub:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
 </pre></div>
@@ -218,12 +216,12 @@ feel free to merge your recipe once the tests pass.</p>
 <p>At this point, Travis-CI will test your contribution in full.</p>
 </div>
 <div class="section" id="use-your-new-recipe">
-<h2>Use your new recipe<a class="headerlink" href="#use-your-new-recipe" title="Permalink to this headline">¶</a></h2>
+<h2>6. Use your new recipe<a class="headerlink" href="#use-your-new-recipe" title="Permalink to this headline">¶</a></h2>
 <p>When the PR is merged with the master branch, travis-ci will again do the
 builds but at the end will upload the packages to anaconda.org. Once this
 completes, and as long as the channels are set up as described in
 <a class="reference internal" href="index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>, your new package is installable by anyone using:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="o">-</span><span class="n">c</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span> <span class="o">-</span><span class="n">c</span> <span class="n">bioconda</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
 </pre></div>
 </div>
 <p>It is recommended that users set up channels as described in
@@ -259,12 +257,12 @@ correctly, and that they create an isolated environment when installing using
 <li class="toctree-l1 current"><a class="reference internal" href="contributing.html">Contributing</a><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Contributing a recipe</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#update-repo">Update repo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#build-an-isolated-conda-installation-with-dependencies">Build an isolated conda installation with dependencies</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#write-a-recipe">Write a recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#test-locally">Test locally</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#push-changes-wait-for-tests-to-pass-submit-pull-request">Push changes, wait for tests to pass, submit pull request</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#use-your-new-recipe">Use your new recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#update-repo">1. Update repo</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#build-an-isolated-conda-installation-with-dependencies">2. Build an isolated conda installation with dependencies</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#write-a-recipe">3. Write a recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-locally">4. Test locally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#push-changes-wait-for-tests-to-pass-submit-pull-request">5. Push changes, wait for tests to pass, submit pull request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#use-your-new-recipe">6. Use your new recipe</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting failed recipes</a></li>
