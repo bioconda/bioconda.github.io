@@ -3196,6 +3196,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-matlab/README.html">r-matlab</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ipython-cluster-helper/README.html">ipython-cluster-helper</a></td>
         
         <td>0.5.0</td>
@@ -4585,6 +4599,20 @@ Available packages
         <td><a href="recipes/ucsc-rowstocols/README.html">ucsc-rowstocols</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanomath/README.html">nanomath</a></td>
+        
+        <td>0.12.5</td>
         
         <td></td>
         
@@ -10815,6 +10843,20 @@ Available packages
         <td><a href="recipes/krona/README.html">krona</a></td>
         
         <td>2.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-km.ci/README.html">r-km.ci</a></td>
+        
+        <td>0.5_2</td>
         
         <td></td>
         
@@ -18932,6 +18974,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hera/README.html">hera</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/find_differential_primers/README.html">find_differential_primers</a></td>
         
         <td>0.1.3</td>
@@ -24255,6 +24311,20 @@ Available packages
         <td><a href="recipes/pronto/README.html">pronto</a></td>
         
         <td>0.3.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-kmsurv/README.html">r-kmsurv</a></td>
+        
+        <td>0.1_5</td>
         
         <td></td>
         
@@ -34640,6 +34710,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanostat/README.html">nanostat</a></td>
+        
+        <td>0.1.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-pack/README.html">r-pack</a></td>
         
         <td>0.1_1</td>
@@ -37793,6 +37877,20 @@ Available packages
         <td><a href="recipes/r-batch/README.html">r-batch</a></td>
         
         <td>1.1_4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanoget/README.html">nanoget</a></td>
+        
+        <td>0.11.5</td>
         
         <td></td>
         
@@ -45112,6 +45210,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-exactranktests/README.html">r-exactranktests</a></td>
+        
+        <td>0.8_29</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-term-detect-software/README.html">perl-term-detect-software</a></td>
         
         <td>0.21</td>
@@ -46806,6 +46918,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-all/README.html">bioconductor-all</a></td>
+        
+        <td>1.18.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-genepredtobiggenepred/README.html">ucsc-genepredtobiggenepred</a></td>
         
         <td>332</td>
@@ -46935,6 +47061,20 @@ Available packages
         <td><a href="recipes/r-readr/README.html">r-readr</a></td>
         
         <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-ggthemes/README.html">r-ggthemes</a></td>
+        
+        <td>3.4.0</td>
         
         <td></td>
         
@@ -54425,6 +54565,20 @@ Available packages
         <td><a href="recipes/goleft/README.html">goleft</a></td>
         
         <td>0.1.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-downloader/README.html">r-downloader</a></td>
+        
+        <td>0.0.4</td>
         
         <td></td>
         
