@@ -9,7 +9,7 @@ PICRUSt: Phylogenetic Investigation of Communities by Reconstruction of Unobserv
 
 ======== ===========
 Home     http://picrust.github.com
-Versions 1.0.1, 1.1.0
+Versions 1.0.1, 1.1.0, 1.1.1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust
 ======== ===========
