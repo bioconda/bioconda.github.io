@@ -13,7 +13,7 @@ to the wrappers as you would to the bpipe JAFFA_{method} call in the manual.
 
 ======== ===========
 Home     https://github.com/Oshlack/JAFFA
-Versions 1.08
+Versions 1.08, 1.09
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa
 ======== ===========
