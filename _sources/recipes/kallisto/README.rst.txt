@@ -9,8 +9,8 @@ Quantifying abundances of transcripts from RNA-Seq data, or more generally of ta
 
 ======== ===========
 Home     http://pachterlab.github.io/kallisto
-Versions 0.42.3, 0.42.4, 0.43.0
-License  Custom
+Versions 0.42.3, 0.42.4, 0.43.0, 0.43.1
+License  BSD_2_Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kallisto
 ======== ===========
 
