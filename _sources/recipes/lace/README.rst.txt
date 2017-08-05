@@ -9,7 +9,7 @@ Building SuperTranscripts: A linear representation of transcriptome data
 
 ======== ===========
 Home     https://github.com/Oshlack/Lace
-Versions 0.80, 0.99
+Versions 0.80, 0.99, 1.00
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace
 ======== ===========

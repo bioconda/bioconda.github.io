@@ -16308,7 +16308,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -19100,6 +19100,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hera/README.html">hera</a></td>
+        
+        <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/find_differential_primers/README.html">find_differential_primers</a></td>
         
         <td>0.1.3</td>
@@ -21581,6 +21595,20 @@ Available packages
         <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
         
         <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ngmlr/README.html">ngmlr</a></td>
+        
+        <td>0.2.6</td>
         
         <td></td>
         
@@ -38266,6 +38294,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/lace/README.html">lace</a></td>
+        
+        <td>1.00</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-biobase/README.html">bioconductor-biobase</a></td>
         
         <td>2.30.0</td>
@@ -41755,6 +41797,20 @@ Available packages
         <td><a href="recipes/r-gprofiler/README.html">r-gprofiler</a></td>
         
         <td>0.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pizzly/README.html">pizzly</a></td>
+        
+        <td>0.37.3</td>
         
         <td></td>
         
@@ -52409,6 +52465,20 @@ Available packages
         <td><a href="recipes/vardict-java/README.html">vardict-java</a></td>
         
         <td>1.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/vardict-java/README.html">vardict-java</a></td>
+        
+        <td>1.5.1</td>
         
         <td></td>
         

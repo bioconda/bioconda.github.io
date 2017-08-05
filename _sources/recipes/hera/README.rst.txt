@@ -9,7 +9,7 @@ hera is a bioinformatics tool that helps analyze RNA-seq data, providing base-to
 
 ======== ===========
 Home     https://github.com/bioturing/hera
-Versions 1.0
+Versions 1.0, 1.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hera
 ======== ===========
