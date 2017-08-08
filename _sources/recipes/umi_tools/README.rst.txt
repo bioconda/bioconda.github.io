@@ -5,11 +5,11 @@ umi_tools
 
 |downloads|
 
-Tools for dealing with Unique Molecular Identifiers
+Tools for dealing with Unique Molecular Identifiers (UMIs) / Random Molecular Tags (RMTs)
 
 ======== ===========
 Home     https://github.com/CGATOxford/UMI-tools
-Versions 0.2.3, 0.4.3
+Versions 0.2.3, 0.4.3, 0.4.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi_tools
 ======== ===========

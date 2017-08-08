@@ -9,7 +9,7 @@ MIRA is a whole genome shotgun and EST sequence assembler for Sanger, 454, Solex
 
 ======== ===========
 Home     https://sourceforge.net/p/mira-assembler/wiki/Home/
-Versions 4.0.2
+Versions 3.4.1.1, 4.0.2
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira
 ======== ===========

@@ -5170,6 +5170,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanofilt/README.html">nanofilt</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-biovizbase/README.html">bioconductor-biovizbase</a></td>
         
         <td>1.18.0</td>
@@ -11442,6 +11456,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/daisysuite/README.html">daisysuite</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-constant/README.html">perl-constant</a></td>
         
         <td>1.33</td>
@@ -16499,6 +16527,20 @@ Available packages
         <td><a href="recipes/askocli/README.html">askocli</a></td>
         
         <td>0.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/askocli/README.html">askocli</a></td>
+        
+        <td>0.4.1</td>
         
         <td></td>
         
@@ -30678,34 +30720,6 @@ Available packages
     
     <tr>
         
-        <td><a href="recipes/dropbox/README.html">dropbox</a></td>
-        
-        <td>3.38</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/dropbox/README.html">dropbox</a></td>
-        
-        <td>5.2.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
         <td><a href="recipes/perl-sanger-cgp-vagrent/README.html">perl-sanger-cgp-vagrent</a></td>
         
         <td>3.2.0</td>
@@ -31079,6 +31093,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mira/README.html">mira</a></td>
+        
+        <td>3.4.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -41710,6 +41738,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/singlecell-barcodes/README.html">singlecell-barcodes</a></td>
+        
+        <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pyvcf/README.html">pyvcf</a></td>
         
         <td>0.6.8</td>
@@ -48265,6 +48307,20 @@ Available packages
         <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
         
         <td>0.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
+        
+        <td>0.4.4</td>
         
         <td></td>
         
