@@ -9,7 +9,7 @@ Accurate inference of orthogroups, orthologues, gene trees and rooted species tr
 
 ======== ===========
 Home     https://github.com/davidemms/OrthoFinder
-Versions 1.1.2, 1.1.4
+Versions 1.1.2, 1.1.4, 1.1.8
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthofinder
 ======== ===========

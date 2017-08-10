@@ -3056,6 +3056,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/irfinder/README.html">irfinder</a></td>
+        
+        <td>1.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-module-build-tiny/README.html">perl-module-build-tiny</a></td>
         
         <td>0.039</td>
@@ -13167,6 +13181,20 @@ Available packages
         <td><a href="recipes/orthofinder/README.html">orthofinder</a></td>
         
         <td>1.1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/orthofinder/README.html">orthofinder</a></td>
+        
+        <td>1.1.8</td>
         
         <td></td>
         
@@ -23748,6 +23776,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gffutils/README.html">gffutils</a></td>
+        
+        <td>0.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sonlib/README.html">sonlib</a></td>
         
         <td>1.1.0</td>
@@ -28116,6 +28158,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/busco/README.html">busco</a></td>
+        
+        <td>3.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-math-spline/README.html">perl-math-spline</a></td>
         
         <td>0.02</td>
@@ -31115,6 +31171,34 @@ Available packages
         <td><a href="recipes/mira/README.html">mira</a></td>
         
         <td>4.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mira/README.html">mira</a></td>
+        
+        <td>4.9.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mira/README.html">mira</a></td>
+        
+        <td>4.9.6</td>
         
         <td></td>
         
@@ -36245,6 +36329,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/galaxy_sequence_utils/README.html">galaxy_sequence_utils</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -55853,6 +55951,20 @@ Available packages
         <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
         
         <td>0.8.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
+        
+        <td>0.9.0</td>
         
         <td></td>
         
