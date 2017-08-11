@@ -48094,6 +48094,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/haystack_bio/README.html">haystack_bio</a></td>
+        
+        <td>v0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-org.ce.eg.db/README.html">bioconductor-org.ce.eg.db</a></td>
         
         <td>3.2.3</td>
@@ -50421,6 +50435,20 @@ Available packages
         <td><a href="recipes/ucsc-bigbedtobed/README.html">ucsc-bigbedtobed</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-pathview/README.html">bioconductor-pathview</a></td>
+        
+        <td>1.16.5</td>
         
         <td></td>
         

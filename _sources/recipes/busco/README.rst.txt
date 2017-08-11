@@ -27,10 +27,7 @@ and update with::
 
    conda update busco
 
-Notes
------
 
-An additional script, generate-busco-config.py, is installed with the package to generate a config file that has the correct paths to the dependencies used by busco that are also installed via conda.
 
 |docker|
 
