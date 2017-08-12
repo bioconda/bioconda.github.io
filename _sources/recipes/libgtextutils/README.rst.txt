@@ -5,7 +5,7 @@ libgtextutils
 
 |downloads|
 
-
+Gordon Text utils Library
 
 ======== ===========
 Home     https://github.com/agordon/libgtextutils

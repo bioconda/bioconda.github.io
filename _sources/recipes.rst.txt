@@ -16580,6 +16580,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/askocli/README.html">askocli</a></td>
+        
+        <td>0.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-bio-asn1-entrezgene/README.html">perl-bio-asn1-entrezgene</a></td>
         
         <td>1.70</td>
@@ -20489,6 +20503,20 @@ Available packages
         <td><a href="recipes/google-cloud-sdk/README.html">google-cloud-sdk</a></td>
         
         <td>120.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/google-cloud-sdk/README.html">google-cloud-sdk</a></td>
+        
+        <td>166.0.0</td>
         
         <td></td>
         
@@ -27808,6 +27836,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/secapr/README.html">secapr</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-matrixstats/README.html">r-matrixstats</a></td>
         
         <td>0.50.1</td>
@@ -30597,6 +30639,20 @@ Available packages
         <td><a href="recipes/enasearch/README.html">enasearch</a></td>
         
         <td>0.0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/enasearch/README.html">enasearch</a></td>
+        
+        <td>0.0.5</td>
         
         <td></td>
         
@@ -41867,6 +41923,20 @@ Available packages
         <td><a href="recipes/singlecell-barcodes/README.html">singlecell-barcodes</a></td>
         
         <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/singlecell-barcodes/README.html">singlecell-barcodes</a></td>
+        
+        <td>0.2</td>
         
         <td></td>
         
