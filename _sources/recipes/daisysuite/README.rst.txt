@@ -5,11 +5,11 @@ daisysuite
 
 |downloads|
 
-DaisySuite - pipeline for horizontal gene transfer (HGT) detection using sequencing data
+DaisySuite - mapping-based pipeline for horizontal gene transfer (HGT) detection using sequencing data
 
 ======== ===========
 Home     https://gitlab.com/eseiler/DaisySuite
-Versions 1.0.0, 1.1.0
+Versions 1.0.0, 1.1.0, 1.2.0
 License  GNU GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daisysuite
 ======== ===========
