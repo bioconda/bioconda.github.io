@@ -10,7 +10,7 @@ A graphical software package for analyzing taxonomic and functional profiles.
 ======== ===========
 Home     http://pypi.python.org/pypi/stamp/
 Versions 2.1.3
-License  Custom
+License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stamp
 ======== ===========
 
