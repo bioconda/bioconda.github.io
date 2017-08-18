@@ -9,9 +9,9 @@ A Python library for interacting with ENA's API
 
 ======== ===========
 Home     https://github.com/bebatut/enasearch
-Versions 0.0.4, 0.0.5
+Versions 0.0.4, 0.0.5, 0.0.6
 License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/0.0.5
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/0.0.6
 ======== ===========
 
 Installation

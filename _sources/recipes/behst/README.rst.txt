@@ -9,7 +9,7 @@ BEHST reads an input dataset of chromosome regions, and intersects them with the
 
 ======== ===========
 Home     https://bitbucket.org/hoffmanlab/behst/overview
-Versions 0.8, 0.9
+Versions 0.8, 0.9, 1.4
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/behst
 ======== ===========
