@@ -8,8 +8,8 @@ python-chado
 Chado library
 
 ======== ===========
-Home     https://github.com/abretaud/python-chado
-Versions 1.2
+Home     https://github.com/galaxy-genome-annotation/python-chado
+Versions 1.2, 2.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado
 ======== ===========

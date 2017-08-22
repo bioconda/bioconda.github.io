@@ -9,7 +9,7 @@ An integrated pipeline for estimating strain-level genomic variation from metage
 
 ======== ===========
 Home     https://github.com/snayfach/MIDAS
-Versions 1.3.0
+Versions 1.3.0, 1.3.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/midas
 ======== ===========

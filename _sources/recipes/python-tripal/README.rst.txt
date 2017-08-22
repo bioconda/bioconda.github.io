@@ -8,8 +8,8 @@ python-tripal
 Tripal API library
 
 ======== ===========
-Home     https://github.com/abretaud/python-tripal
-Versions 1.5, 1.7, 1.8
+Home     https://github.com/galaxy-genome-annotation/python-tripal
+Versions 1.5, 1.7, 1.8, 2.0.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-tripal
 ======== ===========
