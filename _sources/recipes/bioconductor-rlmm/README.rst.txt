@@ -9,7 +9,7 @@ A classification algorithm, based on a multi-chip, multi-SNP approach for Affyme
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/RLMM.html
-Versions 
+Versions 1.38.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlmm
 ======== ===========
