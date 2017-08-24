@@ -9,7 +9,7 @@ We developed a novel algorithm, XBSeq, where a statistical model was established
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/XBSeq.html
-Versions 
+Versions 1.6.0
 License  GPL (>=3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq
 ======== ===========

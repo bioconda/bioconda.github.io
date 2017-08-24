@@ -9,7 +9,7 @@ In a typical microarray setting with gene expression data observed under two con
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/twilight.html
-Versions 
+Versions 1.52.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-twilight
 ======== ===========

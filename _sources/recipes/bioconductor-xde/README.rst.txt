@@ -9,7 +9,7 @@ Multi-level model for cross-study detection of differential gene expression.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/XDE.html
-Versions 
+Versions 2.22.0
 License  LGPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xde
 ======== ===========

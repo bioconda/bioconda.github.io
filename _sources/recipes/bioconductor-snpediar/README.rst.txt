@@ -9,7 +9,7 @@ SNPediaR provides some tools for downloading and parsing data from the SNPedia w
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/SNPediaR.html
-Versions 
+Versions 1.2.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar
 ======== ===========

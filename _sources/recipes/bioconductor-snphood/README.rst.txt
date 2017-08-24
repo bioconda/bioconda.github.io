@@ -9,7 +9,7 @@ To date, thousands of single nucleotide polymorphisms (SNPs) have been found to 
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/SNPhood.html
-Versions 
+Versions 1.6.1
 License  LGPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood
 ======== ===========

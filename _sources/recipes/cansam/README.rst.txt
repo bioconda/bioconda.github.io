@@ -5,12 +5,12 @@ cansam
 
 |downloads|
 
-
+C++ binding for SAM/BAM files
 
 ======== ===========
-Home     
+Home     https://github.com/jmarshall/cansam/
 Versions 21d64bb
-License  
+License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cansam
 ======== ===========
 

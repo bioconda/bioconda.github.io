@@ -9,7 +9,7 @@ This package contains several tools for analyzing Sanger Sequencing data files i
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/sangerseqR.html
-Versions 
+Versions 1.12.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sangerseqr
 ======== ===========

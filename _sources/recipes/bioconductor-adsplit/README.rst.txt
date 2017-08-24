@@ -9,7 +9,7 @@ This package implements clustering of microarray gene expression profiles accord
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/adSplit.html
-Versions 
+Versions 1.46.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adsplit
 ======== ===========

@@ -9,7 +9,7 @@ An R package for classification of alternative splicing and prediction of coding
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/spliceR.html
-Versions 
+Versions 1.18.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicer
 ======== ===========

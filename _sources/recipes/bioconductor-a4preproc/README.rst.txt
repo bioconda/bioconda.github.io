@@ -9,7 +9,7 @@ Automated Affymetrix Array Analysis Preprocessing Package
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/a4Preproc.html
-Versions 
+Versions 1.24.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4preproc
 ======== ===========
