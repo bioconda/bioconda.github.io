@@ -5,12 +5,12 @@ weblogo
 
 |downloads|
 
-Web based application designed to generate sequence logos
+WebLogo3 : Sequence Logos Redrawn
 
 ======== ===========
-Home     http://weblogo.berkeley.edu/
-Versions 2.8.2
-License  MIT
+Home     https://github.com/WebLogo/weblogo
+Versions 2.8.2, 3.5.0
+License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo
 ======== ===========
 
