@@ -17294,6 +17294,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/w4mclassfilter/README.html">w4mclassfilter</a></td>
+        
+        <td>0.98.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ms/README.html">ms</a></td>
         
         <td>2014_03_04</td>
@@ -23513,6 +23527,20 @@ Available packages
         <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
         
         <td>3.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
+        <td>3.2.9</td>
         
         <td></td>
         
@@ -39157,6 +39185,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-biox-workflow-command/README.html">perl-biox-workflow-command</a></td>
+        
+        <td>2.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
