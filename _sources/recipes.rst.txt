@@ -5142,6 +5142,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/README.html">bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene</a></td>
+        
+        <td>3.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-aroma.core/README.html">r-aroma.core</a></td>
         
         <td>3.0.0</td>
@@ -5523,6 +5537,20 @@ Available packages
         <td><a href="recipes/pymzml/README.html">pymzml</a></td>
         
         <td>0.7.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-txdb.drerio.ucsc.danrer10.refgene/README.html">bioconductor-txdb.drerio.ucsc.danrer10.refgene</a></td>
+        
+        <td>3.4.0</td>
         
         <td></td>
         
@@ -9547,6 +9575,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene/README.html">bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene</a></td>
+        
+        <td>3.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -15964,6 +16006,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts/README.html">bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts</a></td>
+        
+        <td>3.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-border-style/README.html">perl-border-style</a></td>
         
         <td>0.01</td>
@@ -16499,6 +16555,20 @@ Available packages
         <td><a href="recipes/bioconductor-org.gg.eg.db/README.html">bioconductor-org.gg.eg.db</a></td>
         
         <td>3.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-txdb.celegans.ucsc.ce11.refgene/README.html">bioconductor-txdb.celegans.ucsc.ce11.refgene</a></td>
+        
+        <td>3.4.0</td>
         
         <td></td>
         
@@ -17703,6 +17773,20 @@ Available packages
         <td><a href="recipes/r-r.devices/README.html">r-r.devices</a></td>
         
         <td>2.15.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene/README.html">bioconductor-txdb.scerevisiae.ucsc.saccer3.sgdgene</a></td>
+        
+        <td>3.2.2</td>
         
         <td></td>
         
@@ -22608,7 +22692,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -46484,6 +46568,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/README.html">bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene</a></td>
+        
+        <td>3.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-recoup/README.html">bioconductor-recoup</a></td>
         
         <td>1.4.0</td>
@@ -49049,6 +49147,20 @@ Available packages
         <td><a href="recipes/r-exactranktests/README.html">r-exactranktests</a></td>
         
         <td>0.8_29</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/README.html">bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene</a></td>
+        
+        <td>3.3.0</td>
         
         <td></td>
         
