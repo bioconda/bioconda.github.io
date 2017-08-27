@@ -9,9 +9,9 @@ Compute differentially bound sites from multiple ChIP-seq experiments using affi
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/DiffBind.html
-Versions 1.16.3, 2.0.9
+Versions 1.16.3, 2.0.9, 2.2.12
 License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffbind/2.0.9
 ======== ===========
 
 Installation
