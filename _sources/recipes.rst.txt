@@ -10070,6 +10070,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/antismash/README.html">antismash</a></td>
+        
+        <td>4.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-pslreps/README.html">ucsc-pslreps</a></td>
         
         <td>324</td>
@@ -23624,6 +23638,20 @@ Available packages
         
         <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
         
+        <td>3.2.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-hpc-runner-command/README.html">perl-hpc-runner-command</a></td>
+        
         <td>3.2.2</td>
         
         <td></td>
@@ -33086,6 +33114,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/enasearch/README.html">enasearch</a></td>
+        
+        <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/scalpel/README.html">scalpel</a></td>
         
         <td>0.5.1</td>
@@ -34033,48 +34075,6 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/julia/README.html">julia</a></td>
-        
-        <td>0.3.11</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/julia/README.html">julia</a></td>
-        
-        <td>0.4.5</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/julia/README.html">julia</a></td>
-        
-        <td>0.5.2</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
         
     </tr>
     
@@ -43138,6 +43138,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>90.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/csvtk/README.html">csvtk</a></td>
         
         <td>0.4.4</td>
@@ -50692,7 +50706,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -51751,6 +51765,20 @@ Available packages
         <td><a href="recipes/perl-pod-escapes/README.html">perl-pod-escapes</a></td>
         
         <td>1.07</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-json-parse/README.html">perl-json-parse</a></td>
+        
+        <td>0.49</td>
         
         <td></td>
         
