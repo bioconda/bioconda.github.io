@@ -886,6 +886,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/maker/README.html">maker</a></td>
+        
+        <td>2.31.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/simplejson/README.html">simplejson</a></td>
         
         <td>3.8.1</td>
@@ -10073,6 +10087,20 @@ Available packages
         <td><a href="recipes/antismash/README.html">antismash</a></td>
         
         <td>4.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/antismash/README.html">antismash</a></td>
+        
+        <td>4.0.2</td>
         
         <td></td>
         
@@ -21041,6 +21069,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/semeta/README.html">semeta</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -52322,6 +52364,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
+        
+        <td>0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-rmarkdown/README.html">r-rmarkdown</a></td>
         
         <td>0.9.5</td>
@@ -60330,6 +60386,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/freebayes/README.html">freebayes</a></td>
+        
+        <td>1.1.0.46</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sailfish/README.html">sailfish</a></td>
         
         <td>0.10.1</td>
@@ -62405,6 +62475,20 @@ Available packages
         <td><a href="recipes/perl-tie-log4perl/README.html">perl-tie-log4perl</a></td>
         
         <td>0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cd-hit-auxtools/README.html">cd-hit-auxtools</a></td>
+        
+        <td>4.6.8</td>
         
         <td></td>
         

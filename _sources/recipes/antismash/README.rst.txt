@@ -9,7 +9,7 @@ antiSMASH allows the rapid genome-wide identification, annotation and analysis o
 
 ======== ===========
 Home     http://antismash.secondarymetabolites.org/
-Versions 4.0.1
+Versions 4.0.1, 4.0.2
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash
 ======== ===========
