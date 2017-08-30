@@ -36,7 +36,7 @@ This will:
   Python or conda you might already have on your system. No root privileges are
   needed.
 - set up the proper channel order
-- install ``bioconda-utils`` and its dependencies into that installation
+- install ``bioconda-utils`` and its dependencies into that installation.
 - write a config file at ``~/.config/bioconda/config.yml`` to persistently
   store the location of this new installation so that subsequent calls to
   ``simulate-travis.py`` will use it with no further configuration.
