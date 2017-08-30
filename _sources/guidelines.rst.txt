@@ -217,13 +217,15 @@ performed for R packages.
 R (Bioconductor)
 ----------------
 
-Use ``bioconda-utils bioconductor-skeleton <packagename>``
+Use ``bioconda-utils bioconductor-skeleton <recipe_folder> <config.yml> <packagename>``
 where ``packagename`` is a case-sensitive package available on
 Bioconductor. The recipe name will have a ``bioconductor-`` prefix and
 will be converted to lowercase. Typically can be used without
 modification, though dependencies may also need recipes. Recipes for
 dependencies with an ``r-`` prefix should be created using
 ``conda skeleton cran``; see above.
+
+Please note that you need to use ``/tmp/miniconda/bin/bioconda-utils`` to run the command.
 
 - typical bioconductor recipe: `bioconductor-limma/meta.yaml
   <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma>`_
