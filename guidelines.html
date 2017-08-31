@@ -240,13 +240,23 @@ performed for R packages.</p>
 </div>
 <div class="section" id="r-bioconductor">
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
-<p>Use <code class="docutils literal"><span class="pre">scripts/bioconductor/bioconductor_skeleton.py</span> <span class="pre">&lt;packagename&gt;</span></code>
-where <code class="docutils literal"><span class="pre">packagename</span></code> is a case-sensitive package available on
-Bioconductor. The recipe name will have a <code class="docutils literal"><span class="pre">bioconductor-</span></code> prefix and
-will be converted to lowercase. Typically can be used without
-modification, though dependencies may also need recipes. Recipes for
-dependencies with an <code class="docutils literal"><span class="pre">r-</span></code> prefix should be created using
-<code class="docutils literal"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>; see above.</p>
+<p>Use the <code class="docutils literal"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
+skeleton. Note that if you set up your development environment using
+<code class="docutils literal"><span class="pre">simulate-travis-py</span> <span class="pre">--bootstrap</span> <span class="pre">/tmp/miniconda</span></code> then <code class="docutils literal"><span class="pre">bioconda-utils</span></code> is
+installed but by design is not added to your path in order to maintain
+separation from any of your existing environments. So you will need to call
+<code class="docutils literal"><span class="pre">/tmp/minoconda/bioconda-utils</span> <span class="pre">bioconductor-skeleton</span> <span class="pre">-h</span></code> to view the help.</p>
+<p>For example, in the bioconda-recipes directory:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">skeleton</span> <span class="n">recipes</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="n">DESeq2</span>
+</pre></div>
+</div>
+<p>Note that the provided package name is a case-sensitive package available on
+Bioconductor. The output recipe name will have a <code class="docutils literal"><span class="pre">bioconductor-</span></code> prefix and
+will be converted to lowercase.  Data packages will be detected automatically,
+and a post-link script (see <a class="reference external" href="https://github.com/bioconda/bioconda-utils/pull/169">https://github.com/bioconda/bioconda-utils/pull/169</a>
+for details). Typically the resulting recipe can be used without modification,
+though dependencies may also need recipes. Recipes for dependencies with an
+<code class="docutils literal"><span class="pre">r-</span></code> prefix should be created using <code class="docutils literal"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code>; see above.</p>
 <ul class="simple">
 <li>typical bioconductor recipe: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma">bioconductor-limma/meta.yaml</a></li>
 </ul>

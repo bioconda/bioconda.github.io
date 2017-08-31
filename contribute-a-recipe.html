@@ -108,9 +108,21 @@ store the location of this new installation so that subsequent calls to
 </ul>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>This operation runs relatively quickly, so you might consider running it every
-time you build and test a new recipe to ensure tests on travis-ci go as
-smoothly as possible.</p>
+<p>If you plan on running <cite>bioconda-utils</cite> outside the context of
+<cite>simulate-travis.py</cite> &#8211; for example to build recipe skeletons, inspect the
+DAG of recipes, or other maintenance and development work &#8211; you need to
+call it using its full path. If you used <code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> as the
+bootstrap path in the command above, then use
+<code class="docutils literal"><span class="pre">/tmp/miniconda/bin/bioconda-utils</span></code>.</p>
+<p class="last">This is by design: we want to keep all bioconda-related tools, which may
+have specific dependencies that must exist in the root environment,
+isolated from any environments you may have on your system.</p>
+</div>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>The bootstrap operation runs relatively quickly, so you might consider
+running it every time you build and test a new recipe to ensure tests on
+travis-ci go as smoothly as possible.</p>
 <p class="last">If you are running into particularly difficult-to-troubleshoot issues, try
 removing the installation directory completely and then re-installing using
 the <code class="docutils literal"><span class="pre">--bootstrap</span></code> argument.</p>
