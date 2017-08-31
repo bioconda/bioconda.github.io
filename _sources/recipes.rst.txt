@@ -956,6 +956,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
+        
+        <td>0.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gdk-pixbuf/README.html">gdk-pixbuf</a></td>
         
         <td>2.32.2</td>
@@ -3521,6 +3535,20 @@ Available packages
         <td><a href="recipes/gatk4/README.html">gatk4</a></td>
         
         <td>4.0b3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gatk4/README.html">gatk4</a></td>
+        
+        <td>4.0b4</td>
         
         <td></td>
         
@@ -12509,6 +12537,20 @@ Available packages
         <td><a href="recipes/graphlan/README.html">graphlan</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/irida-linker/README.html">irida-linker</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -35018,6 +35060,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/python-tripal/README.html">python-tripal</a></td>
+        
+        <td>2.0.3</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pepr/README.html">pepr</a></td>
         
         <td>1.0.9</td>
@@ -38874,7 +38930,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -39585,6 +39641,20 @@ Available packages
         <td><a href="recipes/merfishtools/README.html">merfishtools</a></td>
         
         <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/merfishtools/README.html">merfishtools</a></td>
+        
+        <td>1.3.0</td>
         
         <td></td>
         
@@ -48500,6 +48570,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sentieon/README.html">sentieon</a></td>
+        
+        <td>201704.02</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-rpa/README.html">bioconductor-rpa</a></td>
         
         <td>1.32.0</td>
@@ -49108,7 +49192,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -51597,6 +51681,20 @@ Available packages
         <td><a href="recipes/abricate/README.html">abricate</a></td>
         
         <td>0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/abricate/README.html">abricate</a></td>
+        
+        <td>0.7</td>
         
         <td></td>
         
@@ -55699,6 +55797,20 @@ Available packages
         <td><a href="recipes/circexplorer2/README.html">circexplorer2</a></td>
         
         <td>2.2.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/circexplorer2/README.html">circexplorer2</a></td>
+        
+        <td>2.2.7</td>
         
         <td></td>
         
@@ -60430,6 +60542,20 @@ Available packages
         
         <td><a href="recipes/snpeff/README.html">snpeff</a></td>
         
+        <td>4.3.1q</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
         <td>4.3b</td>
         
         <td></td>
@@ -62814,7 +62940,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
