@@ -2118,6 +2118,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/minimap2/README.html">minimap2</a></td>
+        
+        <td>2.1.r311</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-cimpl/README.html">r-cimpl</a></td>
         
         <td>1.1</td>
@@ -21018,6 +21032,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hera/README.html">hera</a></td>
+        
+        <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/find_differential_primers/README.html">find_differential_primers</a></td>
         
         <td>0.1.3</td>
@@ -28581,6 +28609,20 @@ Available packages
         <td><a href="recipes/taxmapper/README.html">taxmapper</a></td>
         
         <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/taxmapper/README.html">taxmapper</a></td>
+        
+        <td>1.0.2</td>
         
         <td></td>
         
@@ -46546,7 +46588,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -55041,6 +55083,20 @@ Available packages
         <td><a href="recipes/chemfp/README.html">chemfp</a></td>
         
         <td>1.1p1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/chemfp/README.html">chemfp</a></td>
+        
+        <td>1.3a1</td>
         
         <td></td>
         

@@ -9,7 +9,7 @@ A fast sequence mapping and alignment program
 
 ======== ===========
 Home     https://github.com/lh3/minimap2
-Versions 2.0.r191
+Versions 2.0.r191, 2.1.r311
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap2
 ======== ===========
