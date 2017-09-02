@@ -9,8 +9,8 @@ PICRUSt: Phylogenetic Investigation of Communities by Reconstruction of Unobserv
 
 ======== ===========
 Home     http://picrust.github.com
-Versions 1.0.1, 1.1.0, 1.1.1
-License  GPL
+Versions 1.0.1, 1.1.0, 1.1.1, 1.1.2
+License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust
 ======== ===========
 
@@ -27,7 +27,10 @@ and update with::
 
    conda update picrust
 
+Notes
+-----
 
+PICRUST requires a set of large pre-calculated data files. PICRUST contains a script, "download_picrust_files.py", which downloads the data in the proper location, and which can be run after PICRUST has been installed.
 
 |docker|
 

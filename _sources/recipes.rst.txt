@@ -18680,6 +18680,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/translatorx/README.html">translatorx</a></td>
+        
+        <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chromgraphfrombin/README.html">ucsc-chromgraphfrombin</a></td>
         
         <td>332</td>
@@ -23205,6 +23219,20 @@ Available packages
         <td><a href="recipes/perl-xml-writer/README.html">perl-xml-writer</a></td>
         
         <td>0.625</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/phipack/README.html">phipack</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -36950,6 +36978,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/disty/README.html">disty</a></td>
+        
+        <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chainstitchid/README.html">ucsc-chainstitchid</a></td>
         
         <td>324</td>
@@ -39305,6 +39347,20 @@ Available packages
         <td><a href="recipes/picrust/README.html">picrust</a></td>
         
         <td>1.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picrust/README.html">picrust</a></td>
+        
+        <td>1.1.2</td>
         
         <td></td>
         
@@ -48727,6 +48783,20 @@ Available packages
         <td><a href="recipes/r-klar/README.html">r-klar</a></td>
         
         <td>0.6_12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samsift/README.html">samsift</a></td>
+        
+        <td>0.1.0</td>
         
         <td></td>
         
