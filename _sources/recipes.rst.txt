@@ -984,6 +984,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
+        
+        <td>0.1.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/gdk-pixbuf/README.html">gdk-pixbuf</a></td>
         
         <td>2.32.2</td>
@@ -30317,6 +30331,20 @@ Available packages
         <td><a href="recipes/ucsc-chromgraphtobin/README.html">ucsc-chromgraphtobin</a></td>
         
         <td>332</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/riboseed/README.html">riboseed</a></td>
+        
+        <td>0.4.16</td>
         
         <td></td>
         
