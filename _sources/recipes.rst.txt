@@ -50306,6 +50306,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/behst/README.html">behst</a></td>
+        
+        <td>1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-xmlrpc/README.html">r-xmlrpc</a></td>
         
         <td>0.2_4</td>
@@ -55576,7 +55590,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -62391,6 +62405,20 @@ Available packages
         <td><a href="recipes/bioconductor-switchbox/README.html">bioconductor-switchbox</a></td>
         
         <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/qtip/README.html">qtip</a></td>
+        
+        <td>1.6.2</td>
         
         <td></td>
         
