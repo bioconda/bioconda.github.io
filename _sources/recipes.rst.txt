@@ -326,6 +326,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bowtie/README.html">bowtie</a></td>
+        
+        <td>1.2.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-aims/README.html">bioconductor-aims</a></td>
         
         <td>1.8.0</td>
@@ -987,6 +1001,20 @@ Available packages
         <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
         
         <td>0.1.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
+        
+        <td>0.1.6</td>
         
         <td></td>
         
@@ -42340,6 +42368,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pairix/README.html">pairix</a></td>
+        
+        <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-mosaics/README.html">bioconductor-mosaics</a></td>
         
         <td>2.10.0</td>
@@ -42497,6 +42539,20 @@ Available packages
         <td><a href="recipes/perl-image-size/README.html">perl-image-size</a></td>
         
         <td>3.300</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/hclust2/README.html">hclust2</a></td>
+        
+        <td>0.98.3d589ab</td>
         
         <td></td>
         
@@ -43757,6 +43813,20 @@ Available packages
         <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
         
         <td>90.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>90.3</td>
         
         <td></td>
         
