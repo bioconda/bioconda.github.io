@@ -9,7 +9,7 @@ Advanced filtering and tagging of SAM/BAM alignments using Python expressions.
 
 ======== ===========
 Home     https://github.com/karel-brinda/samsift
-Versions 0.1.0
+Versions 0.1.0, 0.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsift
 ======== ===========
