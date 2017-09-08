@@ -9,7 +9,7 @@ Tripal API library
 
 ======== ===========
 Home     https://github.com/galaxy-genome-annotation/python-tripal
-Versions 1.5, 1.7, 1.8, 2.0.1, 2.0.2, 2.0.3
+Versions 1.5, 1.7, 1.8, 2.0.1, 2.0.2, 2.0.3, 2.0.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-tripal
 ======== ===========

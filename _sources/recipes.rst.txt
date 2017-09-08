@@ -4402,6 +4402,20 @@ Available packages
         
         <td><a href="recipes/bwa/README.html">bwa</a></td>
         
+        <td>0.7.3a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bwa/README.html">bwa</a></td>
+        
         <td>0.7.8</td>
         
         <td></td>
@@ -7741,6 +7755,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cgat-scripts/README.html">cgat-scripts</a></td>
+        
+        <td>0.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -17874,7 +17902,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -35228,6 +35256,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/python-tripal/README.html">python-tripal</a></td>
+        
+        <td>2.0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pepr/README.html">pepr</a></td>
         
         <td>1.0.9</td>
@@ -40061,6 +40103,20 @@ Available packages
         <td><a href="recipes/perl-biox-workflow-command/README.html">perl-biox-workflow-command</a></td>
         
         <td>2.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-biox-workflow-command/README.html">perl-biox-workflow-command</a></td>
+        
+        <td>2.2.3</td>
         
         <td></td>
         
@@ -57686,6 +57742,20 @@ Available packages
         
         <td><a href="recipes/picard/README.html">picard</a></td>
         
+        <td>2.11.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
         <td>2.3.0</td>
         
         <td></td>
@@ -60249,6 +60319,20 @@ Available packages
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
         <td>0.11.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
+        <td>0.12.0.1</td>
         
         <td></td>
         
