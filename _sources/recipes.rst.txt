@@ -65468,6 +65468,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/uropa/README.html">uropa</a></td>
+        
+        <td>1.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-beanplot/README.html">r-beanplot</a></td>
         
         <td>1.2</td>
