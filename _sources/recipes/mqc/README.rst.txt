@@ -9,7 +9,7 @@ qualtiy control tool to assess the mapping quality of a ribosome profiling exper
 
 ======== ===========
 Home     https://github.com/Biobix/mQC
-Versions 1.2, 1.3, 1.4, 1.5, 1.6
+Versions 1.2, 1.3, 1.4, 1.5, 1.6, 1.7
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mqc
 ======== ===========
