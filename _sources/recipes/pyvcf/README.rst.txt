@@ -9,7 +9,7 @@ A Variant Call Format reader for Python
 
 ======== ===========
 Home     https://github.com/jamescasbon/PyVCF
-Versions 0.6.8, 0.6.8.dev0
+Versions 0.6.7, 0.6.8, 0.6.8.dev0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvcf
 ======== ===========

@@ -9,8 +9,8 @@ MS-GF+ is a new MS/MS database search tool that is sensitive (it identifies more
 
 ======== ===========
 Home     https://omics.pnl.gov/software/ms-gf
-Versions 1.0.0, 2016.10.26
-License  
+Versions 1.0.0, 2016.10.26, 2017.07.21
+License  https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus
 ======== ===========
 

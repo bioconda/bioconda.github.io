@@ -5,11 +5,11 @@ bbmap
 
 |downloads|
 
-BBMap is a short read aligner, as well as various other bioinformatic tools
+BBMap is a short read aligner, as well as various other bioinformatic tools.
 
 ======== ===========
 Home     https://sourceforge.net/projects/bbmap
-Versions 35.85, 36.32, 36.84, 37.02, 37.10, 37.17
+Versions 35.85, 36.32, 36.84, 37.02, 37.10, 37.17, 37.52
 License  UC-LBL license (see package)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbmap
 ======== ===========

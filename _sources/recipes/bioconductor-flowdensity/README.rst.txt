@@ -9,7 +9,7 @@ This package provides tools for automated sequential gating analogous to the man
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/flowDensity.html
-Versions 1.6.0
+Versions 1.10.0, 1.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowdensity
 ======== ===========

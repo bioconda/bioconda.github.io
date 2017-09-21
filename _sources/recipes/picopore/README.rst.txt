@@ -9,7 +9,7 @@ A tool for reducing the size of Oxford Nanopore Technologies' datasets without l
 
 ======== ===========
 Home     https://github.com/scottgigante/picopore
-Versions 0.2.1, 0.2.2, 1.0.0, 1.1.2, 1.1.4, 1.1.5
+Versions 0.2.1, 0.2.2, 1.0.0, 1.1.2, 1.1.4, 1.1.5, 1.2.0
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picopore
 ======== ===========

@@ -12,7 +12,7 @@ paired and tumor-only analyses are supported.
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/PSCBS
-Versions 0.60.0, 0.61.0
+Versions 0.60.0, 0.60.3, 0.61.0, 0.63.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pscbs
 ======== ===========
