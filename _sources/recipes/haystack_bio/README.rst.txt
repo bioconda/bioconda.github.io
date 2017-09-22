@@ -8,7 +8,7 @@ haystack_bio
 Epigenetic Variability and Transcription Factor Motifs Analysis Pipeline
 
 ======== ===========
-Home     https://github.com/rfarouni/haystack_bio
+Home     https://github.com/pinellolab/haystack_bio
 Versions v0.5.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystack_bio

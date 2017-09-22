@@ -9,7 +9,7 @@ chemfp is a set of command-lines tools for generating cheminformatics\nfingerpri
 
 ======== ===========
 Home     http://code.google.com/p/chem-fingerprints/
-Versions 1.1p1, 1.3a1
+Versions 1.1p1, 1.3, 1.3a1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp
 ======== ===========
