@@ -3210,6 +3210,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/seqkit/README.html">seqkit</a></td>
+        
+        <td>0.7.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/htslib/README.html">htslib</a></td>
         
         <td>1.2.1</td>
@@ -35326,6 +35340,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-george/README.html">r-george</a></td>
+        
+        <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-test-more/README.html">perl-test-more</a></td>
         
         <td>1.001002</td>
@@ -36281,6 +36309,20 @@ Available packages
         <td><a href="recipes/fgbio/README.html">fgbio</a></td>
         
         <td>0.2.1a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ascat/README.html">ascat</a></td>
+        
+        <td>2.5</td>
         
         <td></td>
         
