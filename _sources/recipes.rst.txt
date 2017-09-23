@@ -51482,6 +51482,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/behst/README.html">behst</a></td>
+        
+        <td>1.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-xmlrpc/README.html">r-xmlrpc</a></td>
         
         <td>0.2_4</td>
@@ -54985,6 +54999,20 @@ Available packages
         <td><a href="recipes/prosic/README.html">prosic</a></td>
         
         <td>2.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/virema/README.html">virema</a></td>
+        
+        <td>0.6</td>
         
         <td></td>
         
