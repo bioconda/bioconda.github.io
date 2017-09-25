@@ -9,7 +9,7 @@ Core methods and classes used by higher-level aroma.* packages part of the Aroma
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/
-Versions 3.0.0
+Versions 3.0.0, 3.1.1
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.core
 ======== ===========
