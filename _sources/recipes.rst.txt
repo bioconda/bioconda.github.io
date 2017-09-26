@@ -42788,6 +42788,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-jaspar2014/README.html">bioconductor-jaspar2014</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-sanger-cgp-battenberg/README.html">perl-sanger-cgp-battenberg</a></td>
         
         <td>1.4.1</td>
@@ -51350,7 +51364,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -59913,6 +59927,20 @@ Available packages
         <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
         
         <td>0.10.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dr-disco/README.html">dr-disco</a></td>
+        
+        <td>0.11.0</td>
         
         <td></td>
         
