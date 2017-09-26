@@ -21760,6 +21760,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cmappy/README.html">cmappy</a></td>
+        
+        <td>2.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/damidseq_pipeline/README.html">damidseq_pipeline</a></td>
         
         <td>1.4</td>
@@ -34220,6 +34234,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bamm/README.html">bamm</a></td>
+        
+        <td>1.7.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/hcluster_sg/README.html">hcluster_sg</a></td>
         
         <td>0.5.1</td>
@@ -38815,6 +38843,20 @@ Available packages
         <td><a href="recipes/galaxy_sequence_utils/README.html">galaxy_sequence_utils</a></td>
         
         <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/galaxy_sequence_utils/README.html">galaxy_sequence_utils</a></td>
+        
+        <td>1.1.1</td>
         
         <td></td>
         
@@ -51289,6 +51331,20 @@ Available packages
         <td><a href="recipes/perl-hpc-runner-slurm/README.html">perl-hpc-runner-slurm</a></td>
         
         <td>2.58</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/haystack_bio/README.html">haystack_bio</a></td>
+        
+        <td>0.5.2</td>
         
         <td></td>
         
