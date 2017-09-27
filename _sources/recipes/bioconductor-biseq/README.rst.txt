@@ -9,7 +9,7 @@ The BiSeq package provides useful classes and functions to handle and analyze ta
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/BiSeq.html
-Versions 
+Versions 1.16.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biseq
 ======== ===========

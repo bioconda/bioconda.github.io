@@ -1,6 +1,6 @@
-.. _`bio-hansel`:
+.. _`bio_hansel`:
 
-bio-hansel
+bio_hansel
 ==========
 
 |downloads|
@@ -21,30 +21,30 @@ Installation
 
 With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-   conda install bio-hansel
+   conda install bio_hansel
 
 and update with::
 
-   conda update bio-hansel
+   conda update bio_hansel
 
 
 
 |docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/bio-hansel.
+A Docker container is available at https://quay.io/repository/biocontainers/bio_hansel.
 
 Link to this page
 -----------------
 
 Render an |badge| badge with the following Markdown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bio-hansel/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bio_hansel/README.html)
 
 .. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/bio-hansel/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/bio-hansel/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/bio-hansel
-.. |docker| image:: https://quay.io/repository/biocontainers/bio-hansel/status
-                :target: https://quay.io/repository/biocontainers/bio-hansel
+           :target: http://bioconda.github.io/recipes/bio_hansel/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/bio_hansel/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/bio_hansel
+.. |docker| image:: https://quay.io/repository/biocontainers/bio_hansel/status
+                :target: https://quay.io/repository/biocontainers/bio_hansel
 
 

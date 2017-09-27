@@ -9,7 +9,7 @@ LAST finds similar regions between sequences, and aligns them. It is designed fo
 
 ======== ===========
 Home     http://last.cbrc.jp/
-Versions 490, 638, 719, 847
+Versions 490, 638, 719, 847, 874
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last
 ======== ===========
