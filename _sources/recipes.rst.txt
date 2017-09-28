@@ -13556,6 +13556,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/discosnp/README.html">discosnp</a></td>
+        
+        <td>2.2.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-text-format/README.html">perl-text-format</a></td>
         
         <td>0.59</td>
@@ -27111,6 +27125,20 @@ Available packages
         <td><a href="recipes/intarna/README.html">intarna</a></td>
         
         <td>2.0.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/intarna/README.html">intarna</a></td>
+        
+        <td>2.0.5</td>
         
         <td></td>
         
@@ -44804,6 +44832,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sis/README.html">sis</a></td>
+        
+        <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pod-parser/README.html">perl-pod-parser</a></td>
         
         <td>1.63</td>
@@ -51776,6 +51818,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/shovill/README.html">shovill</a></td>
+        
+        <td>0.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/latentstrainanalysis/README.html">latentstrainanalysis</a></td>
         
         <td>0.0.1</td>
@@ -53232,6 +53288,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mentalist/README.html">mentalist</a></td>
+        
+        <td>0.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bitstring/README.html">bitstring</a></td>
         
         <td>3.1.5</td>
@@ -53997,6 +54067,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/kissplice/README.html">kissplice</a></td>
+        
+        <td>2.4.0p1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -62475,6 +62559,20 @@ Available packages
         <td><a href="recipes/tabview/README.html">tabview</a></td>
         
         <td>1.4.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mapsembler2/README.html">mapsembler2</a></td>
+        
+        <td>2.2.4</td>
         
         <td></td>
         
