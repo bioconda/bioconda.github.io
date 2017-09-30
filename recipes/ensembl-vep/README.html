@@ -1,17 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>ensembl-vep &#8212; Bioconda  documentation</title>
-    
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../../',
@@ -25,7 +22,7 @@
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="entrez-direct" href="../entrez-direct/README.html" />
@@ -64,7 +61,7 @@ $(document).ready(function() {
 </script>
 
   </head>
-  <body role="document">
+  <body>
   
 
     <div class="document">
@@ -110,15 +107,15 @@ $(document).ready(function() {
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
 <p>This package installs only the variant effect predictor (VEP) library
-code. To install data libraries, you can use the &#8216;vep_install&#8217; command
+code. To install data libraries, you can use the ‘vep_install’ command
 installed along with it. For example, to install the VEP library for human
 GRCh38 to a directory</p>
-<p>vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep &#8211;CONVERT</p>
+<p>vep_install -a cf -s homo_sapiens -y GRCh38 -c /output/path/to/GRCh38/vep –CONVERT</p>
 <dl class="docutils">
 <dt>(note that vep_install is renamed from INSTALL.pl</dt>
 <dd>to avoid having generic script names in the PATH)</dd>
 </dl>
-<p>The &#8211;CONVERT flag is not required but improves lookup speeds during
+<p>The –CONVERT flag is not required but improves lookup speeds during
 runs. See the VEP documentation for more details</p>
 <p><a class="reference external" href="http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html">http://www.ensembl.org/info/docs/tools/vep/script/vep_cache.html</a></p>
 <p><a class="reference external" href="https://quay.io/repository/biocontainers/ensembl-vep"><img alt="docker" src="https://quay.io/repository/biocontainers/ensembl-vep/status" /></a></p>
@@ -170,7 +167,7 @@ runs. See the VEP documentation for more details</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |

@@ -1,17 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Guidelines for bioconda recipes &#8212; Bioconda  documentation</title>
-    
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,7 +22,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Linting" href="linting.html" />
@@ -64,7 +61,7 @@ $(document).ready(function() {
 </script>
 
   </head>
-  <body role="document">
+  <body>
   
 
     <div class="document">
@@ -91,14 +88,14 @@ channels with some exceptions (<a class="reference internal" href="#channel-exce
 <li>If the recipe installs custom wrapper scripts, usage notes should be added to
 <code class="docutils literal"><span class="pre">extra</span> <span class="pre">-&gt;</span> <span class="pre">notes</span></code> in the <code class="docutils literal"><span class="pre">meta.yaml</span></code>.</li>
 <li><strong>Update 12 Jun 2017</strong>: If the recipe is a pure Python package, it is marked
-as a <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">&#8220;noarch&#8221;</a>
+as a <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">“noarch”</a>
 package (<a class="reference internal" href="#id3"><span class="std std-ref">details</span></a>).</li>
 </ul>
 <div class="section" id="stable-urls">
 <span id="stable-url"></span><h3>Stable urls<a class="headerlink" href="#stable-urls" title="Permalink to this headline">¶</a></h3>
 <p>While supported by conda, <cite>git_url</cite> and <cite>git_rev</cite> are not as stable as a git
 tarball. Ideally a github repo should have tagged releases that are accessible
-as tarballs from the &#8220;releases&#8221; section of the github repo.</p>
+as tarballs from the “releases” section of the github repo.</p>
 <p>TODO: additional info on the various R and bioconductor URLs</p>
 </div>
 <div class="section" id="hashes">
@@ -128,7 +125,7 @@ to reduce clutter, please remove these files</p>
 comments are included, for example, to point out sections that can be
 uncommented and used. Please delete all auto-generated comments in
 <code class="docutils literal"><span class="pre">meta.yaml</span></code> and <code class="docutils literal"><span class="pre">build.sh</span></code>. But please add any comments that you feel could
-help future maintainers of the recipe, especially if there&#8217;s something
+help future maintainers of the recipe, especially if there’s something
 non-standard.</p>
 </div>
 <div class="section" id="filesystem-hierarchy-standard">
@@ -152,13 +149,13 @@ consider opening a pull request with <a class="reference external" href="https:/
 <p>The exception to this is with R packages. We are still coordinating with
 anaconda and conda-forge about the best place to keep general R packages. In
 the meantime, R packages that are not specific to bioinformatics and that
-aren&#8217;t already in the <cite>conda-forge</cite> channel can be added to bioconda.</p>
+aren’t already in the <cite>conda-forge</cite> channel can be added to bioconda.</p>
 <p>If uploading of an unreleased version is necessary, please follow the
 versioning scheme of conda for pre- and post-releases (e.g. using a, b, rc, and
 dev suffixes, see <a class="reference external" href="https://github.com/conda/conda/blob/d1348cf3eca0f78093c7c46157989509572e9c25/conda/version.py#L30">here</a>).</p>
 </div>
 <div class="section" id="noarch-packages">
-<span id="id3"></span><h3>&#8220;Noarch&#8221; packages<a class="headerlink" href="#noarch-packages" title="Permalink to this headline">¶</a></h3>
+<span id="id3"></span><h3>“Noarch” packages<a class="headerlink" href="#noarch-packages" title="Permalink to this headline">¶</a></h3>
 <p>A <code class="docutils literal"><span class="pre">noarch</span></code> package can be created for pure Python packages, data packages, or
 packages that do not require compilation. This single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
 used across multiple platforms, which saves on build time and saves on storage
@@ -326,7 +323,7 @@ dependency against that version. An example is the <a class="reference external"
 You find the libraries you can currently pin in <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/scripts/env_matrix.yml">scripts/env_matrix.yml</a>.
 If you need to pin another library, please notify &#64;bioconda/core, and we will
 set up a corresponding environment variable.</p>
-<p>It&#8217;s not uncommon to have difficulty compiling package into a portable
+<p>It’s not uncommon to have difficulty compiling package into a portable
 conda package. Since there is no single solution, here are some examples
 of how bioconda contributors have solved compiling issues to give you
 some ideas on what to try:</p>
@@ -334,17 +331,17 @@ some ideas on what to try:</p>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ococo">ococo</a>
 edits the source in <code class="docutils literal"><span class="pre">build.sh</span></code> to accommodate the C++ compiler on OSX</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle">muscle</a>
-patches the makefile on OSX so it doesn&#8217;t use static libs</li>
+patches the makefile on OSX so it doesn’t use static libs</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet">metavelvet</a>,
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eautils">eautils</a>,
 <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/preseq">preseq</a>
 have several patches to their makefiles to fix <code class="docutils literal"><span class="pre">LIBS</span></code> and <code class="docutils literal"><span class="pre">INCLUDES</span></code>,
 <code class="docutils literal"><span class="pre">INCLUDEARGS</span></code>, and <code class="docutils literal"><span class="pre">CFLAGS</span></code></li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsplice">mapsplice</a>
-includes an older version of samtools; the included samtools&#8217; makefile is
+includes an older version of samtools; the included samtools’ makefile is
 patched to work in conda envs.</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaik">mosaik</a>
-has platform-specific patches &#8211; one removes <code class="docutils literal"><span class="pre">-static</span></code> on linux, and the
+has platform-specific patches – one removes <code class="docutils literal"><span class="pre">-static</span></code> on linux, and the
 other sets <code class="docutils literal"><span class="pre">BLD_PLATFORM</span></code> correctly on OSX</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur">mothur</a>
 and <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo">soapdenovo</a>
@@ -392,7 +389,7 @@ starting at 1.0.0 for metapackages.</p>
 contributors have solved various problems:</p>
 <ul class="simple">
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast">blast</a>
-has an OS-specific installation &#8211; OSX copies binaries while on Linux it is
+has an OS-specific installation – OSX copies binaries while on Linux it is
 compiled.</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphviz">graphviz</a>
 has an OS-specific option to <code class="docutils literal"><span class="pre">configure</span></code></li>
@@ -434,7 +431,7 @@ issue.</p>
 </div>
 <div class="section" id="tests">
 <span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
-<p>An adequate test must be included in the recipe. An &#8220;adequate&#8221; test
+<p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
 tests or otherwise), including these in the recipe is not recommended
@@ -548,7 +545,7 @@ and others.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |

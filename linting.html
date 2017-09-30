@@ -1,17 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Linting &#8212; Bioconda  documentation</title>
-    
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,7 +22,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="FAQs" href="faqs.html" />
@@ -64,7 +61,7 @@ $(document).ready(function() {
 </script>
 
   </head>
-  <body role="document">
+  <body>
   
 
     <div class="document">
@@ -128,9 +125,9 @@ skipped, for example:</p>
 <p>Reason for failing: The package exists in another dependent channel (currently
 conda-forge and defaults). This often happens when a general-use package
 was added to bioconda first but was subsequently added to one of the more
-general channels. In this case we&#8217;d prefer it to be in the general channel.</p>
+general channels. In this case we’d prefer it to be in the general channel.</p>
 <p>Rationale: We want to minimize duplicated work. If a package already exists in
-another dependent channel, it doesn&#8217;t need to be maintained in the bioconda
+another dependent channel, it doesn’t need to be maintained in the bioconda
 channel.</p>
 <p>How to resolve: In special cases this can be overridden, for example if
 a bioconda-specific patch is required. However it is almost always better to
@@ -194,7 +191,7 @@ packages that do not require compilation. With this a single <code class="docuti
 used across multiple platforms and (in case of Python) Python versions, which saves
 on build time and saves on storage space on the bioconda channel.</p>
 <p>How to resolve: For pure Python packages, add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
-<strong>Don&#8217;t do this if your Python package has a command line interface</strong>, as these are not
+<strong>Don’t do this if your Python package has a command line interface</strong>, as these are not
 independent of the Python version!
 For other generic packages (like a data package), add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
 See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
@@ -218,7 +215,7 @@ to not use this method since it is not always reproducible. Furthermore, the
 Galaxy team mirrors each successfully built bioconda recipe. Mirroring git_urls
 is problematic.</p>
 <p>How to resolve: Use a direct URL. Ideally a github repo should have tagged
-releases that are accessible as tarballs from the &#8220;releases&#8221; section of the
+releases that are accessible as tarballs from the “releases” section of the
 github repo.</p>
 </div>
 <div class="section" id="uses-perl-threaded">
@@ -289,10 +286,10 @@ accepts three arguments:</p>
 </ul>
 <p>We need <cite>recipe</cite> because some lint functions check files (e.g.,
 <cite>has_windows_bat_file</cite>). We need <cite>meta</cite> because even though we can parse it
-from <cite>recipe</cite> within each lint function, it&#8217;s faster if we parse the meta.yaml
+from <cite>recipe</cite> within each lint function, it’s faster if we parse the meta.yaml
 once and pass it to many lint functions. We need <cite>df</cite> because we need channel
 info to figure out if a version or build number needs to be bumped relative to
-what&#8217;s already in the channel.</p>
+what’s already in the channel.</p>
 <p>If the linting test passes, the function should return None. Otherwise it
 should return a dictionary. The keys in the dict will be propagated to columns
 of a pandas DataFrame for downstream processing and so can be somewhat
@@ -366,7 +363,7 @@ default.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |

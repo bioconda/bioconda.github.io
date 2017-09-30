@@ -13556,6 +13556,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/discosnp/README.html">discosnp</a></td>
+        
+        <td>2.2.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-text-format/README.html">perl-text-format</a></td>
         
         <td>0.59</td>
@@ -29054,6 +29068,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/unicycler/README.html">unicycler</a></td>
+        
+        <td>0.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/chromhmm/README.html">chromhmm</a></td>
         
         <td>1.11</td>
@@ -33999,6 +34027,20 @@ Available packages
         <td><a href="recipes/bioconductor-marray/README.html">bioconductor-marray</a></td>
         
         <td>1.50.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/tantan/README.html">tantan</a></td>
+        
+        <td>13</td>
         
         <td></td>
         
@@ -43880,6 +43922,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/graphprot/README.html">graphprot</a></td>
+        
+        <td>1.1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/graphprot/README.html">graphprot</a></td>
+        
+        <td>1.1.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/survivor/README.html">survivor</a></td>
         
         <td>1.0.0</td>
@@ -50376,6 +50446,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/shiver/README.html">shiver</a></td>
+        
+        <td>1.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bleach/README.html">bleach</a></td>
         
         <td>1.4.2</td>
@@ -55125,6 +55209,20 @@ Available packages
         <td><a href="recipes/msstitch/README.html">msstitch</a></td>
         
         <td>2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/msstitch/README.html">msstitch</a></td>
+        
+        <td>2.5</td>
         
         <td></td>
         

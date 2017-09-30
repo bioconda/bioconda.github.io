@@ -1,17 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Troubleshooting failed recipes &#8212; Bioconda  documentation</title>
-    
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,7 +22,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Build system" href="build-system.html" />
@@ -64,7 +61,7 @@ $(document).ready(function() {
 </script>
 
   </head>
-  <body role="document">
+  <body>
   
 
     <div class="document">
@@ -88,7 +85,7 @@ will end with the next <cite>BIOCONDA</cite> log line, likely a <cite>BIOCONDA B
 <p>At the end of the log are <cite>BIOCONDA BUILD SUMMARY</cite> lines which indicate how
 many recipes were built successfully, how many failed, and how many were
 skipped because one of their dependencies failed to build in this run.</p>
-<p>Here&#8217;s an annotated example build log to help familiarize yourself with log output:</p>
+<p>Here’s an annotated example build log to help familiarize yourself with log output:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span>=============================================================================
 ## This is the command sent to bioconda-build for reproducing locally if
 ## needed
@@ -501,7 +498,7 @@ Done. Your build exited with 1.
 <h2>HTTP 500 errors<a class="headerlink" href="#http-500-errors" title="Permalink to this headline">¶</a></h2>
 <p>Sometimes recipes fail for reasons outside our control. For example, if
 anaconda.org returns an HTTP 500 error, that has nothing to do with the recipe
-but with anaconda.org&#8217;s servers. In this case, you can either restart the build
+but with anaconda.org’s servers. In this case, you can either restart the build
 for that sub-DAG on travis-ci, or close the PR and then immediately re-open it
 to trigger a re-build.</p>
 </div>
@@ -519,10 +516,10 @@ tarballs permanently available in Cargo Port. If you try rebuilding a recipe
 and the source seems to have disappeared, do the following:</p>
 <ul class="simple">
 <li>search for the package and version at <a class="reference external" href="https://depot.galaxyproject.org/software/">https://depot.galaxyproject.org/software/</a></li>
-<li>add the URL listed in the &#8220;Package Version&#8221; column to your <code class="docutils literal"><span class="pre">meta.yaml</span></code>
+<li>add the URL listed in the “Package Version” column to your <code class="docutils literal"><span class="pre">meta.yaml</span></code>
 file as another entry in the <code class="docutils literal"><span class="pre">source:</span> <span class="pre">url</span></code> section.</li>
 <li>add the corresponding sha256 checksum displayed upon clicking the Info icon
-in the &#8220;Help&#8221; column to the <code class="docutils literal"><span class="pre">source:</span></code> section.</li>
+in the “Help” column to the <code class="docutils literal"><span class="pre">source:</span></code> section.</li>
 </ul>
 <p>For example, if this stopped working:</p>
 <div class="code yaml highlight-default"><div class="highlight"><pre><span></span><span class="n">source</span><span class="p">:</span>
@@ -544,8 +541,8 @@ in the &#8220;Help&#8221; column to the <code class="docutils literal"><span cla
 </div>
 <div class="section" id="zlib-errors">
 <span id="zlib"></span><h2>ZLIB errors<a class="headerlink" href="#zlib-errors" title="Permalink to this headline">¶</a></h2>
-<p>When building the package, you may get an error saying that zlib.h can&#8217;t be
-found &#8211; despite having zlib listed in the dependencies. The reason is that the
+<p>When building the package, you may get an error saying that zlib.h can’t be
+found – despite having zlib listed in the dependencies. The reason is that the
 location of <cite>zlib</cite> often has to be specified in the <cite>build.sh</cite> script, which
 can be done like this:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span><span class="nb">export</span> <span class="nv">CFLAGS</span><span class="o">=</span><span class="s2">&quot;-I</span><span class="nv">$PREFIX</span><span class="s2">/include&quot;</span>
@@ -558,7 +555,7 @@ can be done like this:</p>
 </div>
 <p>Sometimes Makefiles may specify these locations, in which case they need to be
 edited. See the <cite>samtools</cite> recipe for an example of this. It may take some
-tinkering to get the recipe to build; if it doesn&#8217;t seem to work then please
+tinkering to get the recipe to build; if it doesn’t seem to work then please
 submit an issue or notify <cite>&#64;bioconda/core</cite> for advice.</p>
 </div>
 <div class="section" id="usr-bin-perl-or-usr-bin-python-not-found">
@@ -651,7 +648,7 @@ in the running container to see what the problem was.</li>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |

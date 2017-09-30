@@ -1,17 +1,14 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    
     <title>Contributing a recipe &#8212; Bioconda  documentation</title>
-    
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    './',
@@ -25,7 +22,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
-    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Troubleshooting failed recipes" href="troubleshooting.html" />
@@ -64,7 +61,7 @@ $(document).ready(function() {
 </script>
 
   </head>
-  <body role="document">
+  <body>
   
 
     <div class="document">
@@ -74,16 +71,16 @@ $(document).ready(function() {
             
   <div class="section" id="contributing-a-recipe">
 <h1>Contributing a recipe<a class="headerlink" href="#contributing-a-recipe" title="Permalink to this headline">¶</a></h1>
-<p>The following steps are done for each recipe or batch of recipes you&#8217;d like to
+<p>The following steps are done for each recipe or batch of recipes you’d like to
 contribute.</p>
 <div class="section" id="update-repo">
 <h2>1. Update repo<a class="headerlink" href="#update-repo" title="Permalink to this headline">¶</a></h2>
-<p>If you&#8217;re using a fork (set up as <a class="reference internal" href="contrib-setup.html#github-setup"><span class="std std-ref">above</span></a>):</p>
+<p>If you’re using a fork (set up as <a class="reference internal" href="contrib-setup.html#github-setup"><span class="std std-ref">above</span></a>):</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
 git pull upstream master
 </pre></div>
 </div>
-<p>If you&#8217;re using a clone:</p>
+<p>If you’re using a clone:</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
 git pull origin master
 </pre></div>
@@ -109,8 +106,8 @@ store the location of this new installation so that subsequent calls to
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p>If you plan on running <cite>bioconda-utils</cite> outside the context of
-<cite>simulate-travis.py</cite> &#8211; for example to build recipe skeletons, inspect the
-DAG of recipes, or other maintenance and development work &#8211; you need to
+<cite>simulate-travis.py</cite> – for example to build recipe skeletons, inspect the
+DAG of recipes, or other maintenance and development work – you need to
 call it using its full path. If you used <code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> as the
 bootstrap path in the command above, then use
 <code class="docutils literal"><span class="pre">/tmp/miniconda/bin/bioconda-utils</span></code>.</p>
@@ -130,7 +127,7 @@ the <code class="docutils literal"><span class="pre">--bootstrap</span></code> a
 </div>
 <div class="section" id="write-a-recipe">
 <h2>3. Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
-<p>Check out a new branch (here the branch is arbitrarily named &#8220;my-recipe&#8221;):</p>
+<p>Check out a new branch (here the branch is arbitrarily named “my-recipe”):</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout -b my-recipe
 </pre></div>
 </div>
@@ -184,7 +181,7 @@ unavailable:</p>
 <p>By default, packages whose version and build number match an existing package
 in the bioconda channel will not be built.</p>
 <p>To specify exactly which packages you want to try building, use the
-<cite>&#8211;packages</cite> argument. Note that the arguments to <cite>&#8211;packages</cite> can be globs and
+<cite>–packages</cite> argument. Note that the arguments to <cite>–packages</cite> can be globs and
 are of package <em>names</em> rather than <em>paths</em> to recipe directories. For example,
 to consider all R and Bioconductor packages:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">./</span><span class="n">simulate</span><span class="o">-</span><span class="n">travis</span><span class="o">.</span><span class="n">py</span> <span class="o">--</span><span class="n">packages</span> <span class="n">r</span><span class="o">-*</span> <span class="n">bioconductor</span><span class="o">-*</span>
@@ -221,7 +218,7 @@ repo for your changes.</p>
 <p>If using a clone, you will have to open a pull request to get the tests to run.
 The travis-ci tests intentionally short-circuit when not on a pull request to
 save on resources.</p>
-<p>Make and push changes as needed to get the tests to pass. If it&#8217;s your first
+<p>Make and push changes as needed to get the tests to pass. If it’s your first
 recipe or the recipe is doing something non-standard, please
 ask <cite>&#64;bioconda/core</cite> for a review. If you are a member of the bioconda team,
 feel free to merge your recipe once the tests pass.</p>
@@ -295,7 +292,7 @@ correctly, and that they create an isolated environment when installing using
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.4</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
