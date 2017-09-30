@@ -10,7 +10,7 @@ SPAdes (St. Petersburg genome assembler) is intended for both standard isolates 
 
 ======== ===========
 Home     http://cab.spbu.ru/software/spades/
-Versions 3.10.0, 3.10.1, 3.11.0, 3.6.2, 3.7.0, 3.8.0, 3.8.1, 3.9.0
+Versions 3.10.0, 3.10.1, 3.11.0, 3.11.1, 3.6.2, 3.7.0, 3.8.0, 3.8.1, 3.9.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spades
 ======== ===========
