@@ -318,8 +318,8 @@ version in the recipe, we use jinja templates to achieve this. This helps
 ensure that all bioconda packages are binary-compatible with each other. For
 example, bioconda provides an environnmnet variable ``CONDA_BOOST`` that
 contains the current major version of Boost. You should pin your boost
-dependency against that version. An example is the `salmon recipe
-<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon>`_.
+dependency against that version. An example is the `abyss recipe
+<https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss>`_.
 You find the libraries you can currently pin in `scripts/env\_matrix.yml
 <https://github.com/bioconda/bioconda-recipes/blob/master/scripts/env_matrix.yml>`_.
 If you need to pin another library, please notify @bioconda/core, and we will
