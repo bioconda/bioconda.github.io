@@ -43054,6 +43054,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanolyse/README.html">nanolyse</a></td>
+        
+        <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-sanger-cgp-battenberg/README.html">perl-sanger-cgp-battenberg</a></td>
         
         <td>1.4.1</td>
@@ -46893,6 +46907,20 @@ Available packages
         <td><a href="recipes/sixgill/README.html">sixgill</a></td>
         
         <td>0.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mappy/README.html">mappy</a></td>
+        
+        <td>2.2</td>
         
         <td></td>
         
@@ -63091,6 +63119,20 @@ Available packages
         <td><a href="recipes/vcf2db/README.html">vcf2db</a></td>
         
         <td>2017.04.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/vcf2db/README.html">vcf2db</a></td>
+        
+        <td>2017.09.14</td>
         
         <td></td>
         

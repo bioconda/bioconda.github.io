@@ -5,10 +5,22 @@ chemfp
 
 |downloads|
 
-chemfp is a set of command-lines tools for generating cheminformatics\nfingerprints and searching those fingerprints by Tanimoto similarity,\nas well as a Python library which can be used to build new tools.\n\nThese algorithms are designed for the dense, 100-10,000 bit\nfingerprints which occur in small-molecule/pharmaceutical\nchemisty. The Tanimoto search algorithms are implemented in C for\nperformance and support both threshold and k-nearest searches.\n\nFingerprint generation can be done either by extracting existing\nfingerprint data from an SD file or by using an existing chemistry\ntoolkit. chemfp supports the Python libraries from Open Babel,\nOpenEye, and RDKit toolkits.\n
+chemfp is a set of command-lines tools for generating cheminformatics fingerprints and searching those
+fingerprints by Tanimoto similarity, as well as a Python library which can be used to build new tools.
+
+These algorithms are designed for the dense, 100-10,000 bit
+fingerprints which occur in small-molecule/pharmaceutical
+chemisty. The Tanimoto search algorithms are implemented in C for
+performance and support both threshold and k-nearest searches.
+
+Fingerprint generation can be done either by extracting existing
+fingerprint data from an SD file or by using an existing chemistry
+toolkit. chemfp supports the Python libraries from Open Babel,
+OpenEye, and RDKit toolkits.
+
 
 ======== ===========
-Home     http://code.google.com/p/chem-fingerprints/
+Home     https://chemfp.com
 Versions 1.1p1, 1.3, 1.3a1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp
