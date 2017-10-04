@@ -5,13 +5,13 @@ htseq
 
 |downloads|
 
-A framework to process and analyze data from high-throughput sequencing (HTS) assays
+HTSeq is a Python library to facilitate processing and analysis of data from high-throughput sequencing (HTS) experiments.
 
 ======== ===========
-Home     http://www-huber.embl.de/users/anders/HTSeq/
-Versions 0.6.1, 0.6.1.post1, 0.6.1p1, 0.7.2
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq/0.6.1.post1
+Home     https://github.com/simon-anders/htseq
+Versions 0.6.1, 0.6.1.post1, 0.6.1p1, 0.7.2, 0.9.1
+License  GPL-3.0
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq
 ======== ===========
 
 Installation

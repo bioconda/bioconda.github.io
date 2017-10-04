@@ -10,7 +10,7 @@ STELLAR is a tool for finding pairwise local alignments between long genomic or 
 ======== ===========
 Home     https://github.com/seqan/seqan/tree/master/apps/stellar/README
 Versions 1.4.9
-License  https://github.com/seqan/seqan/tree/master/apps/stellar/LICENSE
+License  LGPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stellar
 ======== ===========
 
