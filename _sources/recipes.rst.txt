@@ -15768,6 +15768,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ped_parser/README.html">ped_parser</a></td>
+        
+        <td>1.6.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-makecdfenv/README.html">bioconductor-makecdfenv</a></td>
         
         <td>1.52.0</td>
@@ -17042,6 +17056,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bcftools/README.html">bcftools</a></td>
+        
+        <td>1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/kronik/README.html">kronik</a></td>
         
         <td>2.20</td>
@@ -17885,6 +17913,20 @@ Available packages
         <td><a href="recipes/perl-bio-asn1-entrezgene/README.html">perl-bio-asn1-entrezgene</a></td>
         
         <td>1.72</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/commet/README.html">commet</a></td>
+        
+        <td>24.7.14</td>
         
         <td></td>
         
@@ -31826,6 +31868,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rad_haplotyper/README.html">rad_haplotyper</a></td>
+        
+        <td>1.1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pdf-api2/README.html">perl-pdf-api2</a></td>
         
         <td>2.025</td>
@@ -38644,6 +38700,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pyquant-ms/README.html">pyquant-ms</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-list-uniq/README.html">perl-list-uniq</a></td>
         
         <td>0.20</td>
@@ -41559,6 +41629,20 @@ Available packages
         <td><a href="recipes/pairix/README.html">pairix</a></td>
         
         <td>0.2.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pairix/README.html">pairix</a></td>
+        
+        <td>0.3.0</td>
         
         <td></td>
         
@@ -49970,6 +50054,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/simple_sv_annotation/README.html">simple_sv_annotation</a></td>
         
         <td>2015.10.23</td>
@@ -50911,6 +51009,20 @@ Available packages
         <td><a href="recipes/snpsift/README.html">snpsift</a></td>
         
         <td>4.3.1p</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpsift/README.html">snpsift</a></td>
+        
+        <td>4.3.1r</td>
         
         <td></td>
         
@@ -59940,6 +60052,20 @@ Available packages
         
         <td><a href="recipes/snpeff/README.html">snpeff</a></td>
         
+        <td>4.3.1r</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpeff/README.html">snpeff</a></td>
+        
         <td>4.3b</td>
         
         <td></td>
@@ -62055,6 +62181,20 @@ Available packages
         <td><a href="recipes/chainmap/README.html">chainmap</a></td>
         
         <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/yanagiba/README.html">yanagiba</a></td>
+        
+        <td>0.1.0</td>
         
         <td></td>
         

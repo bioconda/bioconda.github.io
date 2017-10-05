@@ -10,7 +10,7 @@ V-Phaser 2 is a tool to call variants in genetically heterogeneous populations f
 ======== ===========
 Home     https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/v-phaser-2
 Versions 2.0
-License  https://www.broadinstitute.org/node/4962
+License  single user license for academic non-commercial research purposes only
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vphaser2
 ======== ===========
 

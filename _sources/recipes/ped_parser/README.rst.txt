@@ -9,7 +9,7 @@ A ped file parser.
 
 ======== ===========
 Home     https://github.com/moonso/ped_parser
-Versions 1.6.5
+Versions 1.6.5, 1.6.6
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ped_parser
 ======== ===========
