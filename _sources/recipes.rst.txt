@@ -3770,6 +3770,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sift4g/README.html">sift4g</a></td>
+        
+        <td>2.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-bigwigtobedgraph/README.html">ucsc-bigwigtobedgraph</a></td>
         
         <td>324</td>
@@ -6433,6 +6447,20 @@ Available packages
         <td><a href="recipes/bio_hansel/README.html">bio_hansel</a></td>
         
         <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bio_hansel/README.html">bio_hansel</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         
@@ -11711,6 +11739,20 @@ Available packages
         <td><a href="recipes/htsbox/README.html">htsbox</a></td>
         
         <td>r327</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/htsbox/README.html">htsbox</a></td>
+        
+        <td>r340</td>
         
         <td></td>
         
@@ -26170,6 +26212,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/viennarna/README.html">viennarna</a></td>
+        
+        <td>2.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/export2graphlan/README.html">export2graphlan</a></td>
         
         <td>0.19</td>
@@ -26319,6 +26375,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/canu/README.html">canu</a></td>
+        
+        <td>1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -32400,6 +32470,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/prestor/README.html">prestor</a></td>
+        
+        <td>07f9c7caeb60</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-unicode-map/README.html">perl-unicode-map</a></td>
         
         <td>0.112</td>
@@ -32767,6 +32851,20 @@ Available packages
         <td><a href="recipes/anvio/README.html">anvio</a></td>
         
         <td>2.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/anvio/README.html">anvio</a></td>
+        
+        <td>3.0.0</td>
         
         <td></td>
         
@@ -39246,6 +39344,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/galaxy_sequence_utils/README.html">galaxy_sequence_utils</a></td>
+        
+        <td>1.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-prada/README.html">bioconductor-prada</a></td>
         
         <td>1.52.0</td>
@@ -40369,6 +40481,20 @@ Available packages
         <td><a href="recipes/perl-html-formatter/README.html">perl-html-formatter</a></td>
         
         <td>2.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cassiopee/README.html">cassiopee</a></td>
+        
+        <td>1.0.5</td>
         
         <td></td>
         
@@ -44093,6 +44219,20 @@ Available packages
         <td><a href="recipes/curesim/README.html">curesim</a></td>
         
         <td>1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-alakazam/README.html">r-alakazam</a></td>
+        
+        <td>0.2.7</td>
         
         <td></td>
         
@@ -49105,6 +49245,20 @@ Available packages
         <td><a href="recipes/biobambam/README.html">biobambam</a></td>
         
         <td>2.0.72</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/biobambam/README.html">biobambam</a></td>
+        
+        <td>2.0.78</td>
         
         <td></td>
         
@@ -55066,6 +55220,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nucleoatac/README.html">nucleoatac</a></td>
+        
+        <td>0.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/macs2/README.html">macs2</a></td>
         
         <td>2.1.0</td>
@@ -59913,6 +60081,20 @@ Available packages
         <td><a href="recipes/vcf2maf/README.html">vcf2maf</a></td>
         
         <td>1.6.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/vcf2maf/README.html">vcf2maf</a></td>
+        
+        <td>1.6.14</td>
         
         <td></td>
         

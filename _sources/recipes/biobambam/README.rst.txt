@@ -9,7 +9,7 @@ Tools for early stage alignment file processing
 
 ======== ===========
 Home     https://github.com/gt1/biobambam2
-Versions 2.0.25, 2.0.39, 2.0.42, 2.0.44, 2.0.57, 2.0.58, 2.0.62, 2.0.72
+Versions 2.0.25, 2.0.39, 2.0.42, 2.0.44, 2.0.57, 2.0.58, 2.0.62, 2.0.72, 2.0.78
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobambam
 ======== ===========
