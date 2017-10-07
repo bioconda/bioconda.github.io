@@ -6516,6 +6516,62 @@ Available packages
         
         <td><a href="recipes/samtools/README.html">samtools</a></td>
         
+        <td>0.1.12</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samtools/README.html">samtools</a></td>
+        
+        <td>0.1.13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samtools/README.html">samtools</a></td>
+        
+        <td>0.1.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samtools/README.html">samtools</a></td>
+        
+        <td>0.1.15</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samtools/README.html">samtools</a></td>
+        
         <td>0.1.16</td>
         
         <td></td>
@@ -10672,6 +10728,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/kneaddata/README.html">kneaddata</a></td>
+        
+        <td>0.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/seqbuster/README.html">seqbuster</a></td>
         
         <td>2.3</td>
@@ -14146,6 +14216,20 @@ Available packages
         
         <td><a href="recipes/gffcompare/README.html">gffcompare</a></td>
         
+        <td>0.10.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gffcompare/README.html">gffcompare</a></td>
+        
         <td>0.9.8</td>
         
         <td></td>
@@ -14531,6 +14615,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/lordec/README.html">lordec</a></td>
+        
+        <td>0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -31238,6 +31336,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/peddy/README.html">peddy</a></td>
+        
+        <td>0.3.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ccat/README.html">ccat</a></td>
         
         <td>3.0</td>
@@ -32613,6 +32725,20 @@ Available packages
         <td><a href="recipes/bcftools-snvphyl-plugin/README.html">bcftools-snvphyl-plugin</a></td>
         
         <td>1.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bcftools-snvphyl-plugin/README.html">bcftools-snvphyl-plugin</a></td>
+        
+        <td>1.6</td>
         
         <td></td>
         
@@ -47506,6 +47632,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vsearch/README.html">vsearch</a></td>
+        
+        <td>2.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-rgsea/README.html">bioconductor-rgsea</a></td>
         
         <td>1.10.0</td>
@@ -58527,6 +58667,20 @@ Available packages
         <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
         
         <td>2.3.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
+        
+        <td>2.3.3.1</td>
         
         <td></td>
         
