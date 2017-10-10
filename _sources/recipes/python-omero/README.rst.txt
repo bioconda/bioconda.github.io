@@ -8,8 +8,8 @@ python-omero
 OME (Open Microscopy Environment) develops open-source software and data format standards for the storage and manipulation of biological light microscopy data.
 
 ======== ===========
-Home     http://www.openmicroscopy.org/
-Versions 5.2.7, 5.2.8, 5.3.0, 5.3.1, 5.3.2, 5.3.3
+Home     https://www.openmicroscopy.org/
+Versions 5.2.7, 5.2.8, 5.3.0, 5.3.1, 5.3.2, 5.3.3, 5.4.0
 License  GPL 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-omero
 ======== ===========

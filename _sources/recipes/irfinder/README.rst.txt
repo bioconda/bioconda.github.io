@@ -9,7 +9,7 @@ Intron Retention Finder
 
 ======== ===========
 Home     https://github.com/williamritchie/IRFinder
-Versions 1.2.2
+Versions 1.2.2, 1.2.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irfinder
 ======== ===========
