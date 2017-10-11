@@ -5,7 +5,7 @@ garnet
 
 |downloads|
 
-UNKNOWN
+GarNet uses gene expression and epigenetic data to impute transcription factors (TFs) that played an important role in a biological system.
 
 ======== ===========
 Home     https://github.com/fraenkel-lab/GarNet

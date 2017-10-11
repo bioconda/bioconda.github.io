@@ -3896,6 +3896,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pyasp/README.html">pyasp</a></td>
+        
+        <td>1.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-scope-guard/README.html">perl-scope-guard</a></td>
         
         <td>0.21</td>
@@ -7284,6 +7298,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>4.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chainprenet/README.html">ucsc-chainprenet</a></td>
         
         <td>324</td>
@@ -9345,6 +9373,20 @@ Available packages
         <td><a href="recipes/seqprep/README.html">seqprep</a></td>
         
         <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/seqprep/README.html">seqprep</a></td>
+        
+        <td>1.2</td>
         
         <td></td>
         
@@ -29054,6 +29096,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/simwalk2/README.html">simwalk2</a></td>
+        
+        <td>2.91</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-xnomial/README.html">r-xnomial</a></td>
         
         <td>1.0.4</td>
@@ -41696,6 +41752,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/tqdist/README.html">tqdist</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/saffrontree/README.html">saffrontree</a></td>
         
         <td>0.1.2</td>
@@ -48321,6 +48391,20 @@ Available packages
         <td><a href="recipes/samsift/README.html">samsift</a></td>
         
         <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/samsift/README.html">samsift</a></td>
+        
+        <td>0.2.2</td>
         
         <td></td>
         

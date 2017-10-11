@@ -5,7 +5,7 @@ libbambamc
 
 |downloads|
 
-
+lightweight C implementation of name collating BAM file input and BAM file output
 
 ======== ===========
 Home     https://github.com/gt1/bambamc

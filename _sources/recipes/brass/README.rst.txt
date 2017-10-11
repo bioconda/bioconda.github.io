@@ -5,12 +5,12 @@ brass
 
 |downloads|
 
-
+BRASS analyses one or more related BAM files of paired-end sequencing to determine potential rearrangement breakpoints.
 
 ======== ===========
-Home     
+Home     https://github.com/cancerit/BRASS
 Versions 5.1.6
-License  
+License  AGPL-3-0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/brass
 ======== ===========
 

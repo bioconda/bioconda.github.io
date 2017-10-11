@@ -5,7 +5,7 @@ nudup
 
 |downloads|
 
-
+Marks/removes duplicate molecules based on the molecular tagging technology used in NuGEN products.
 
 ======== ===========
 Home     http://nugentechnologies.github.io/nudup/

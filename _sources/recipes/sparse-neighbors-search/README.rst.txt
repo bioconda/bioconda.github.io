@@ -5,7 +5,7 @@ sparse-neighbors-search
 
 |downloads|
 
-
+Approximate k-nearest neighbors search on sparse datasets
 
 ======== ===========
 Home     https://github.com/joachimwolff/minHashNearestNeighbors
