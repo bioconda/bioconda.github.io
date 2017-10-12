@@ -9,7 +9,7 @@ Exploratory data analysis and data visualization for biological sequence (DNA an
 
 ======== ===========
 Home     http://seqinr.r-forge.r-project.org/, Mailing list: http://r-forge.r-project.org/mail/?group_id=220
-Versions 3.1_3
+Versions 3.1_3, 3.4_5
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqinr
 ======== ===========

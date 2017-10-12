@@ -9,7 +9,7 @@ This package was derived from Rsymphony_0.1-17 from CRAN. These packages provide
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/lpsymphony.html
-Versions 1.2.0
+Versions 1.2.0, 1.4.1
 License  EPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpsymphony
 ======== ===========

@@ -9,7 +9,7 @@ Multivariate data analysis and graphical display of microarray data. Functions i
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/made4.html
-Versions 1.44.0
+Versions 1.44.0, 1.50.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-made4
 ======== ===========

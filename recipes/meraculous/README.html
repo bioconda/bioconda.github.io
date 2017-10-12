@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>r-qqman &#8212; Bioconda  documentation</title>
+    <title>meraculous &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-rblast" href="../r-rBLAST/README.html" />
-    <link rel="prev" title="r-qiimer" href="../r-qiimer/README.html" />
+    <link rel="next" title="mercat" href="../mercat/README.html" />
+    <link rel="prev" title="mentalist" href="../mentalist/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,10 +69,10 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-qqman">
-<span id="id1"></span><h1>r-qqman<a class="headerlink" href="#r-qqman" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-qqman"><img alt="downloads" src="https://anaconda.org/bioconda/r-qqman/badges/downloads.svg" /></a></p>
-<p>Q-Q and manhattan plots for GWAS data</p>
+  <div class="section" id="meraculous">
+<span id="id1"></span><h1>meraculous<a class="headerlink" href="#meraculous" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/meraculous"><img alt="downloads" src="https://anaconda.org/bioconda/meraculous/badges/downloads.svg" /></a></p>
+<p>Meraculous is a whole genome assembler for Next Generation Sequencing data, geared for large genomes. It’s hybrid k-mer/read-based approach capitalizes on the high accuracy of Illumina sequence by eschewing an explicit error correction step which we argue to be redundant with the assembly process. Meraculous achieves high performance with large datasets by utilizing lightweight data structures and multi-threaded parallelization, allowing to assemble human-sized genomes on a high-cpu cluster in under a day. The process pipeline implements a highly transparent and portable model of job control and monitoring where different assembly stages can be executed and re-executed separately or in unison on a wide variety of architectures.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="10%" />
@@ -80,36 +80,36 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td>&#160;</td>
+<td><a class="reference external" href="https://jgi.doe.gov/data-and-tools/meraculous/">https://jgi.doe.gov/data-and-tools/meraculous/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.1.2, 0.1.4</td>
+<td>2.2.4</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-3</td>
+<td>GPLv3</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meraculous">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meraculous</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">qqman</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">meraculous</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">qqman</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">meraculous</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-qqman"><img alt="docker" src="https://quay.io/repository/biocontainers/r-qqman/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-qqman">https://quay.io/repository/biocontainers/r-qqman</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/meraculous"><img alt="docker" src="https://quay.io/repository/biocontainers/meraculous/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/meraculous">https://quay.io/repository/biocontainers/meraculous</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-qqman/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-qqman/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/meraculous/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/meraculous/README.html)
 </pre></div>
 </div>
 </div>
@@ -156,7 +156,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/r-qqman/README.rst.txt"
+      <a href="../../_sources/recipes/meraculous/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

@@ -9,7 +9,7 @@ A general purpose toolbox for personality, psychometrics and experimental psycho
 
 ======== ===========
 Home     http://personality-project.org/r/psych http://personality-project.org/r/psych-manual.pdf
-Versions 1.5.8
+Versions 1.5.8, 1.7.8
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-psych
 ======== ===========

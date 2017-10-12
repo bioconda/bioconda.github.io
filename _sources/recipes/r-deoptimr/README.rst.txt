@@ -9,7 +9,7 @@ An implementation of a bespoke jDE variant of the Differential Evolution stochas
 
 ======== ===========
 Home     
-Versions 1.0_6
+Versions 1.0_6, 1.0_8
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deoptimr
 ======== ===========

@@ -9,7 +9,7 @@ Q-Q and manhattan plots for GWAS data
 
 ======== ===========
 Home     
-Versions 0.1.2
+Versions 0.1.2, 0.1.4
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman
 ======== ===========

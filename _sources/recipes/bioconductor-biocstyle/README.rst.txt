@@ -9,7 +9,7 @@ Provides standard formatting styles for Bioconductor PDF and HTML documents. Pac
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/BiocStyle.html
-Versions 1.8.0, 2.0.2, 2.0.3
+Versions 1.8.0, 2.0.2, 2.0.3, 2.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle
 ======== ===========
