@@ -9,7 +9,7 @@ The interactiveDisplayBase package contains the the basic methods needed to gene
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/interactiveDisplayBase.html
-Versions 1.12.0
+Versions 1.12.0, 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivedisplaybase
 ======== ===========

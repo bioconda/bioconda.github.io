@@ -271,6 +271,45 @@ allowed to install <code class="docutils literal"><span class="pre">certifi</spa
 </pre></div>
 </div>
 </div>
+<div class="section" id="not-pinned">
+<h3><cite>*_not_pinned</cite><a class="headerlink" href="#not-pinned" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The recipe has dependencies that need to be pinned to
+a specific version all across bioconda.</p>
+<p>Rationale: Sometimes when a core dependency (like <code class="docutils literal"><span class="pre">zlib</span></code>, which is used across
+many recipes) is updated it breaks backwards compatibility. In order to avoid
+this, for known-to-be-problematic dependencies we pin to a specific version
+across all recipes.</p>
+<p>How to resolve: Change the dependency line as follows. For each dependency
+failing the linting, specify a jinja-templated version by converting it to
+uppercase, prefixing it with <code class="docutils literal"><span class="pre">CONDA_</span></code>, adding double braces, and adding a <code class="docutils literal"><span class="pre">*</span></code>.</p>
+<p>Examples are much easier to understand:</p>
+<ul class="simple">
+<li><code class="docutils literal"><span class="pre">zlib</span></code> should become <code class="docutils literal"><span class="pre">zlib</span> <span class="pre">{{</span> <span class="pre">CONDA_ZLIB</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal"><span class="pre">ncurses</span></code> should become <code class="docutils literal"><span class="pre">ncurses</span> <span class="pre">{{</span> <span class="pre">CONDA_NCURSES</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal"><span class="pre">htslib</span></code> should become <code class="docutils literal"><span class="pre">htslib</span> <span class="pre">{{</span> <span class="pre">CONDA_HTSLIB</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal"><span class="pre">boost</span></code> should become <code class="docutils literal"><span class="pre">boost</span> <span class="pre">{{</span> <span class="pre">CONDA_BOOST</span> <span class="pre">}}*</span></code></li>
+<li>… and so on.</li>
+</ul>
+<p>Here is an example in the context of a <code class="docutils literal"><span class="pre">meta.yaml</span></code> file where <code class="docutils literal"><span class="pre">zlib</span></code> needs to be
+pinned:</p>
+<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="c1"># this will give a linting error because zlib is not pinned</span>
+<span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
+<span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">bedtools</span>
+</pre></div>
+</div>
+<p>And here is the fixed version:</p>
+<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="c1"># fixed:</span>
+<span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib {{ CONDA_ZLIB }}*</span>
+<span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib {{ CONDA_ZLIB }}*</span>
+  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">bedtools</span>
+</pre></div>
+</div>
+</div>
 </div>
 <div class="section" id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this headline">¶</a></h2>
@@ -346,6 +385,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#uses-setuptools"><cite>uses_setuptools</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#not-pinned"><cite>*_not_pinned</cite></a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#developer-docs">Developer docs</a></li>
