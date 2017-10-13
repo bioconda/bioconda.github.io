@@ -9,7 +9,7 @@ Provides immunoglobulin (Ig) sequence lineage reconstruction, diversity profilin
 
 ======== ===========
 Home     http://alakazam.readthedocs.org
-Versions 0.2.7
+Versions 0.2.7, 0.2.8
 License  CC BY-SA 4.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-alakazam
 ======== ===========

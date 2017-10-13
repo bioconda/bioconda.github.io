@@ -9,7 +9,7 @@ Routines for parsing Affymetrix data files based upon file format information. P
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/affyio.html
-Versions 1.40.0, 1.42.0
+Versions 1.40.0, 1.42.0, 1.46.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyio
 ======== ===========

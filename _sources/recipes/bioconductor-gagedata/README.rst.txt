@@ -17,7 +17,7 @@ between common gene IDs for budding yeast are also included.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/data/experiment/html/gageData.html
-Versions 2.10.0, 2.8.0
+Versions 2.10.0, 2.14.0, 2.8.0
 License  GPL (>=2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gagedata
 ======== ===========

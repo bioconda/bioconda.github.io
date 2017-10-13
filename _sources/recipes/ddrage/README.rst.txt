@@ -9,7 +9,7 @@ Simulator for ddRADseq (double digest restriction site associdated DNA squencing
 
 ======== ===========
 Home     https://bitbucket.org/genomeinformatics/rage
-Versions 1.1.4, 1.2.2
+Versions 1.1.4, 1.2.2, 1.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddrage
 ======== ===========

@@ -9,7 +9,7 @@ Feature selection is critical in omics data analysis to extract restricted and m
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/biosigner.html
-Versions 1.0.6, 1.1.10
+Versions 1.0.6, 1.1.10, 1.4.0
 License  CeCILL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosigner
 ======== ===========

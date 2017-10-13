@@ -9,7 +9,7 @@ Exploratory data analysis methods to summarize, visualize and describe datasets.
 
 ======== ===========
 Home     http://factominer.free.fr
-Versions 1.35
+Versions 1.35, 1.38
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-factominer
 ======== ===========

@@ -9,7 +9,7 @@ Reads data files acquired by MALDI-TOF MS on Bruker Daltonics machines of the \*
 
 ======== ===========
 Home     http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
-Versions 1.8.2
+Versions 1.8.2, 1.8.5
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readbrukerflexdata
 ======== ===========

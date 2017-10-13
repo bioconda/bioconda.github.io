@@ -9,7 +9,7 @@ Functions for fitting and working with generalized additive models, as described
 
 ======== ===========
 Home     https://cran.r-project.org/web/packages/gam/index.html
-Versions 1.14
+Versions 1.14, 1.14_4
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gam
 ======== ===========

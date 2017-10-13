@@ -9,7 +9,7 @@ Functions for reading (tab, csv, Bruker fid, Ciphergen XML, mzXML, mzML, imzML, 
 
 ======== ===========
 Home     http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/
-Versions 0.10
+Versions 0.10, 0.11
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquantforeign
 ======== ===========
