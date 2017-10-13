@@ -9,7 +9,7 @@ Library for handling data in the GFA1 and GFA2 formats
 
 ======== ===========
 Home     https://github.com/ggonnella/gfapy
-Versions 1.0.0rc10, 1.0.0rc9
+Versions 1.0.0, 1.0.0rc10, 1.0.0rc9
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfapy
 ======== ===========

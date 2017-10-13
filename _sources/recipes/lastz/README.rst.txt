@@ -5,11 +5,11 @@ lastz
 
 |downloads|
 
-LASTZ is a program for aligning DNA sequences, a pairwise aligne
+LASTZ is a program for aligning DNA sequences, a pairwise aligner.
 
 ======== ===========
 Home     http://www.bx.psu.edu/~rsharris/lastz/
-Versions 1.0.2
+Versions 1.0.2, 1.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lastz
 ======== ===========

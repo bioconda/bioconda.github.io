@@ -8,7 +8,7 @@ kpal
 Analysis toolkit and programming library for k-mer profiles
 
 ======== ===========
-Home     https://cutadapt.readthedocs.io/
+Home     https://kpal.readthedocs.org
 Versions 2.1.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kpal
