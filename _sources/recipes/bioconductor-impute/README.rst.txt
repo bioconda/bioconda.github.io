@@ -9,7 +9,7 @@ Imputation for microarray data (currently KNN only)
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/impute.html
-Versions 1.44.0, 1.46.0
+Versions 1.44.0, 1.46.0, 1.50.1
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute
 ======== ===========
