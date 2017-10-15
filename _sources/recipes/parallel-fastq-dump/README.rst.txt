@@ -9,7 +9,7 @@ parallel fastq-dump wrapper
 
 ======== ===========
 Home     https://github.com/rvalieris/parallel-fastq-dump
-Versions 0.5.4
+Versions 0.5.4, 0.6.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-fastq-dump
 ======== ===========

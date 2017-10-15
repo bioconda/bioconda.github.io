@@ -9,7 +9,7 @@ Interactvive viewing and exploration of graphs, connecting R to Cytoscape.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/RCytoscape.html
-Versions 1.21.1
+Versions 1.21.1, 1.26.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcytoscape
 ======== ===========

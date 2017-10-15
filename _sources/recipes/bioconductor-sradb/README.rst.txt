@@ -9,7 +9,7 @@ The Sequence Read Archive (SRA) is the largest public repository of sequencing d
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/SRAdb.html
-Versions 1.28.0, 1.32.0
+Versions 1.28.0, 1.32.0, 1.36.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sradb
 ======== ===========

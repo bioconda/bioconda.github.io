@@ -9,7 +9,7 @@ cosi2 is an efficient coalescent simulator with support for selection, populatio
 
 ======== ===========
 Home     https://www.broadinstitute.org/mpg/cosi2/
-Versions 2.0, 2.02
+Versions 2.0, 2.02, 2.3.0rc1, 2.3.0rc2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosi2
 ======== ===========
