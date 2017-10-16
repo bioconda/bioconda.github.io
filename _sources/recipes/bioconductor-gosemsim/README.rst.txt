@@ -9,7 +9,7 @@ Implemented five methods proposed by Resnik, Schlicker, Jiang, Lin and Wang resp
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GOSemSim.html
-Versions 1.28.2, 1.29.0, 1.30.3
+Versions 1.28.2, 1.29.0, 1.30.3, 2.2.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim
 ======== ===========

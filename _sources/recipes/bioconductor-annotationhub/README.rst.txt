@@ -9,7 +9,7 @@ This package provides a client for the Bioconductor AnnotationHub web resource. 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/AnnotationHub.html
-Versions 2.6.0
+Versions 2.6.0, 2.8.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationhub
 ======== ===========

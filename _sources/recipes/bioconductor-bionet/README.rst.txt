@@ -9,7 +9,7 @@ This package provides functions for the integrated analysis of protein-protein i
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/BioNet.html
-Versions 1.34.0
+Versions 1.34.0, 1.36.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet
 ======== ===========

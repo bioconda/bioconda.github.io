@@ -9,7 +9,7 @@ This package implements five methods proposed by Resnik, Schlicker, Jiang, Lin a
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/DOSE.html
-Versions 2.10.6, 2.10.7, 2.8.2, 2.8.3
+Versions 2.10.6, 2.10.7, 2.8.2, 2.8.3, 3.2.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose
 ======== ===========

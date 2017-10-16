@@ -9,7 +9,7 @@ mzR provides a unified API to the common file formats and parsers available for 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/mzR.html
-Versions 2.4.1, 2.6.3
+Versions 2.10.0, 2.4.1, 2.6.3
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr
 ======== ===========

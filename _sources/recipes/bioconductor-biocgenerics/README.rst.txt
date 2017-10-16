@@ -9,7 +9,7 @@ S4 generic functions needed by many Bioconductor packages.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/BiocGenerics.html
-Versions 0.14.0, 0.16.0, 0.16.1, 0.18.0, 0.20.0, 0.22.0
+Versions 0.14.0, 0.16.0, 0.16.1, 0.18.0, 0.20.0, 0.22.0, 0.22.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics
 ======== ===========

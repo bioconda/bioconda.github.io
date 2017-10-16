@@ -9,7 +9,7 @@ EBImage provides general purpose functionality for image processing and analysis
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/EBImage.html
-Versions 4.12.2, 4.13.0
+Versions 4.12.2, 4.13.0, 4.18.3
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage
 ======== ===========
