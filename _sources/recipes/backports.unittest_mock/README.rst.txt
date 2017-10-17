@@ -9,7 +9,7 @@ backports.unittest_mock
 
 ======== ===========
 Home     https://github.com/jaraco/backports.unittest_mock
-Versions 1.1.1
+Versions 1.1.1, 1.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/backports.unittest_mock
 ======== ===========
