@@ -29,7 +29,7 @@ integration with multi-group Partial Least Squares.
 
 ======== ===========
 Home     http://www.mixOmics.org
-Versions 5.2.0, 6.1.1
+Versions 5.2.0, 6.1.1, 6.2.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mixomics
 ======== ===========

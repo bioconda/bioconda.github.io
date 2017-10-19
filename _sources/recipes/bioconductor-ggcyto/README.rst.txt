@@ -9,7 +9,7 @@ With the dedicated fority method implemented for flowSet, ncdfFlowSet and Gating
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ggcyto.html
-Versions 1.4.0
+Versions 1.4.0, 1.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto
 ======== ===========

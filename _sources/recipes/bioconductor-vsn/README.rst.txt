@@ -9,7 +9,7 @@ Data analysis, linear models and differential expression for microarray data.
 
 ======== ===========
 Home     http://www.bioconductor.org/packages/release/bioc/html/vsn.html
-Versions 3.38.0
+Versions 3.38.0, 3.44.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsn
 ======== ===========

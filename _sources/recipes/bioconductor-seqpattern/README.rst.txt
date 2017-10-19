@@ -9,7 +9,7 @@ Visualising oligonucleotide patterns and sequence motifs occurrences across a la
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/seqPattern.html
-Versions 1.2.0, 1.4.0, 1.6.0
+Versions 1.2.0, 1.4.0, 1.6.0, 1.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqpattern
 ======== ===========

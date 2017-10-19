@@ -9,7 +9,7 @@ The outcome of XCMS data processing strongly depends on the parameter settings. 
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/IPO.html
-Versions 1.0.0
+Versions 1.0.0, 1.2.2
 License  GPL (>= 2) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipo
 ======== ===========

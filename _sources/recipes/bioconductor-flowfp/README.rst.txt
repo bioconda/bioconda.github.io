@@ -9,7 +9,7 @@ Fingerprint generation of flow cytometry data, used to facilitate the applicatio
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/flowFP.html
-Versions 1.32.0
+Versions 1.32.0, 1.34.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp
 ======== ===========

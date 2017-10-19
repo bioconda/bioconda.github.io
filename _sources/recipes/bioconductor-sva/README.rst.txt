@@ -24,7 +24,7 @@ or Leek et al. 2011 Nat. Reviews Genetics).
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/sva.html
-Versions 3.15.0, 3.18.0, 3.20.0
+Versions 3.15.0, 3.18.0, 3.20.0, 3.24.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva
 ======== ===========

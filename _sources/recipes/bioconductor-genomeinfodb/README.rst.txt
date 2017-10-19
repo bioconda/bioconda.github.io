@@ -9,7 +9,7 @@ Contains data and functions that define and allow translation between different 
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.4/bioc/html/GenomeInfoDb.html
-Versions 1.10.3, 1.4.3, 1.6.0, 1.6.1, 1.6.3, 1.8.7
+Versions 1.10.3, 1.12.3, 1.4.3, 1.6.0, 1.6.1, 1.6.3, 1.8.7
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeinfodb
 ======== ===========

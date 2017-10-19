@@ -9,7 +9,7 @@ Tool to easily start up an IPython cluster on different schedulers
 
 ======== ===========
 Home     https://github.com/roryk/ipython-cluster-helper
-Versions 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7
+Versions 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7, 0.5.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipython-cluster-helper
 ======== ===========

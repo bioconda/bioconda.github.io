@@ -9,7 +9,7 @@ The package Ringo facilitates the primary analysis of ChIP-chip data. The main f
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/Ringo.html
-Versions 1.38.0
+Versions 1.38.0, 1.40.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo
 ======== ===========
