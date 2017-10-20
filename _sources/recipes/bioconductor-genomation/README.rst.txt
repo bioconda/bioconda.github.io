@@ -9,7 +9,7 @@ A package for summary and annotation of genomic intervals. Users can visualize a
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/genomation.html
-Versions 1.2.2, 1.4.2, 1.6.0
+Versions 1.2.2, 1.4.2, 1.6.0, 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation
 ======== ===========

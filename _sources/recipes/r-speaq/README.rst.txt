@@ -9,7 +9,7 @@ We introduce a novel suite of informatics tools for the quantitative analysis of
 
 ======== ===========
 Home     https://github.com/nghiavtr/speaq
-Versions 1.2.1, 1.2.3
+Versions 1.2.1, 1.2.3, 2.1.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-speaq
 ======== ===========

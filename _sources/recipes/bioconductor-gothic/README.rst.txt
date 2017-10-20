@@ -9,7 +9,7 @@ This is a Hi-C analysis package using a cumulative binomial test to detect inter
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/GOTHiC.html
-Versions 1.10.0
+Versions 1.10.0, 1.12.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gothic
 ======== ===========

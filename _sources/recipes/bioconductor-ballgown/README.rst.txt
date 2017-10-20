@@ -9,7 +9,7 @@ Tools for statistical analysis of assembled transcriptomes, including flexible d
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ballgown.html
-Versions 2.2.0
+Versions 2.2.0, 2.8.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ballgown
 ======== ===========

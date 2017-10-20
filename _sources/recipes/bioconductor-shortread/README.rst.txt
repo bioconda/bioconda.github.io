@@ -9,7 +9,7 @@ This package implements sampling, iteration, and input of FASTQ files. The packa
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ShortRead.html
-Versions 1.28.0, 1.32.0
+Versions 1.28.0, 1.32.0, 1.34.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shortread
 ======== ===========

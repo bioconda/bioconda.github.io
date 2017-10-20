@@ -9,7 +9,7 @@ This package provides functionality for interactive visualization of RNA-seq dat
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/pcaExplorer.html
-Versions 2.0.0
+Versions 2.0.0, 2.2.1
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcaexplorer
 ======== ===========

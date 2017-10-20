@@ -9,7 +9,7 @@ MEDIPS was developed for analyzing data derived from methylated DNA immunoprecip
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/MEDIPS.html
-Versions 1.24.0
+Versions 1.24.0, 1.28.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medips
 ======== ===========

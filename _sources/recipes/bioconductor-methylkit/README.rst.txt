@@ -9,7 +9,7 @@ methylKit is an R package for DNA methylation analysis and annotation from high-
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/methylKit.html
-Versions 0.99.2, 1.0.0
+Versions 0.99.2, 1.0.0, 1.2.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylkit
 ======== ===========

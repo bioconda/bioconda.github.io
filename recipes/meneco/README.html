@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-motifstack &#8212; Bioconda  documentation</title>
+    <title>meneco &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-motiv" href="../bioconductor-motiv/README.html" />
-    <link rel="prev" title="bioconductor-motifrg" href="../bioconductor-motifrg/README.html" />
+    <link rel="next" title="menetools" href="../menetools/README.html" />
+    <link rel="prev" title="mendelscan" href="../mendelscan/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,47 +69,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-motifstack">
-<span id="id1"></span><h1>bioconductor-motifstack<a class="headerlink" href="#bioconductor-motifstack" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-motifstack"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-motifstack/badges/downloads.svg" /></a></p>
-<p>The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA/RNA sequence motif and amino acid sequence motif. In addition, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.</p>
+  <div class="section" id="meneco">
+<span id="id1"></span><h1>meneco<a class="headerlink" href="#meneco" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/meneco"><img alt="downloads" src="https://anaconda.org/bioconda/meneco/badges/downloads.svg" /></a></p>
+<p>Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="8%" />
-<col width="92%" />
+<col width="9%" />
+<col width="91%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/release/bioc/html/motifStack.html">http://bioconductor.org/packages/release/bioc/html/motifStack.html</a></td>
+<td><a class="reference external" href="http://bioasp.github.io/meneco/">http://bioasp.github.io/meneco/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.18.0, 1.20.1</td>
+<td>1.5.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL (&gt;= 2)</td>
+<td>GPLv3+</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">motifstack</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">meneco</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">motifstack</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">meneco</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-motifstack"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-motifstack/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-motifstack">https://quay.io/repository/biocontainers/bioconductor-motifstack</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/meneco"><img alt="docker" src="https://quay.io/repository/biocontainers/meneco/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/meneco">https://quay.io/repository/biocontainers/meneco</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-motifstack/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-motifstack/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/meneco/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/meneco/README.html)
 </pre></div>
 </div>
 </div>
@@ -156,7 +156,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-motifstack/README.rst.txt"
+      <a href="../../_sources/recipes/meneco/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
