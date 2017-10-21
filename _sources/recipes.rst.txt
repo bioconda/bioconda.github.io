@@ -19150,7 +19150,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -25263,6 +25263,20 @@ Available packages
         <td><a href="recipes/rnastructure/README.html">rnastructure</a></td>
         
         <td>5.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/rnastructure/README.html">rnastructure</a></td>
+        
+        <td>6.0</td>
         
         <td></td>
         
@@ -41411,6 +41425,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-jaspar2016/README.html">bioconductor-jaspar2016</a></td>
+        
+        <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -65132,6 +65160,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/eggnog-mapper/README.html">eggnog-mapper</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-fnn/README.html">r-fnn</a></td>
         
         <td>1.1</td>
@@ -65723,6 +65765,20 @@ Available packages
         <td><a href="recipes/stacks/README.html">stacks</a></td>
         
         <td>1.46</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/stacks/README.html">stacks</a></td>
+        
+        <td>1.47</td>
         
         <td></td>
         

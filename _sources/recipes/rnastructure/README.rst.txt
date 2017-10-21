@@ -9,7 +9,7 @@ RNAstructure is a complete package for RNA and DNA secondary structure  predicti
 
 ======== ===========
 Home     http://rna.urmc.rochester.edu/RNAstructure.html
-Versions 5.7
+Versions 5.7, 6.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnastructure/5.7
 ======== ===========
