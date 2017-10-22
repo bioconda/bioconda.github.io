@@ -9,7 +9,7 @@ ggtree extends the ggplot2 plotting system which implemented the grammar of grap
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ggtree.html
-Versions 1.2.12, 1.4.20
+Versions 1.2.12, 1.4.20, 1.8.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree
 ======== ===========
