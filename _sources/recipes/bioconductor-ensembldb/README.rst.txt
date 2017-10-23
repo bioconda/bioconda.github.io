@@ -9,7 +9,7 @@ The package provides functions to create and use transcript centric annotation d
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/ensembldb.html
-Versions 1.6.0, 1.6.2
+Versions 1.6.0, 1.6.2, 2.0.4
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensembldb
 ======== ===========

@@ -9,7 +9,7 @@ This package provides provides quantitative variant callers for detecting subclo
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/deepSNV.html
-Versions 1.20.0
+Versions 1.20.0, 1.22.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepsnv
 ======== ===========

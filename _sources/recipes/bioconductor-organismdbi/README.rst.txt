@@ -9,7 +9,7 @@ The package enables a simple unified interface to several annotation packages ea
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/OrganismDbi.html
-Versions 1.12.0, 1.12.1, 1.14.1
+Versions 1.12.0, 1.12.1, 1.14.1, 1.18.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi
 ======== ===========

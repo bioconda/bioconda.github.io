@@ -9,7 +9,7 @@ Numerical and graphical summaries of RNA-Seq read data. Within-lane normalizatio
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/EDASeq.html
-Versions 2.8.0
+Versions 2.10.0, 2.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edaseq
 ======== ===========

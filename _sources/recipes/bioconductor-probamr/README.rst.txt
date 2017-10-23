@@ -9,7 +9,7 @@ Mapping PSMs back to genome. The package builds SAM file from shotgun proteomics
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/proBAMr.html
-Versions 1.8.0
+Versions 1.10.0, 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probamr
 ======== ===========

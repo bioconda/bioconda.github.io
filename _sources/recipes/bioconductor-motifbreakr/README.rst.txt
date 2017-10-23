@@ -9,7 +9,7 @@ We introduce motifbreakR, which allows the biologist to judge in the first place
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/motifbreakR.html
-Versions 1.4.0
+Versions 1.4.0, 1.6.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifbreakr
 ======== ===========

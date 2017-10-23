@@ -9,7 +9,7 @@ Quality metrics for ChIPseq data.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.4/bioc/html/ChIPQC.html
-Versions 1.10.3
+Versions 1.10.3, 1.12.3
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipqc
 ======== ===========
