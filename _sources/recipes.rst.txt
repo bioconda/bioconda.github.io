@@ -14998,6 +14998,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-signer/README.html">bioconductor-signer</a></td>
+        
+        <td>1.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/genomepy/README.html">genomepy</a></td>
         
         <td>0.3.1</td>
@@ -21832,20 +21846,6 @@ Available packages
         
         <td><a href="recipes/trnascan-se/README.html">trnascan-se</a></td>
         
-        <td>1.23</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/trnascan-se/README.html">trnascan-se</a></td>
-        
         <td>1.3.1</td>
         
         <td></td>
@@ -26501,6 +26501,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/afplot/README.html">afplot</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
