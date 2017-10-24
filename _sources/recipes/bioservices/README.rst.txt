@@ -8,9 +8,9 @@ bioservices
 Access to Biological Web Services from Python
 
 ======== ===========
-Home     
+Home     http://pypi.python.org/pypi/bioservices
 Versions 1.4.10, 1.4.16, 1.4.5, 1.4.7
-License  GNU Library or Lesser General Public License (LGPL)
+License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioservices
 ======== ===========
 

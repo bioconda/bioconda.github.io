@@ -9,7 +9,7 @@ Fast ISO8601 date time parser for Python written in C
 
 ======== ===========
 Home     https://github.com/elasticsales/ciso8601
-Versions 1.0.1
+Versions 1.0.1, 1.0.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ciso8601
 ======== ===========

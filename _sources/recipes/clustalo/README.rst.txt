@@ -9,7 +9,7 @@ Latest version of Clustal: a multiple sequence alignment program for DNA or prot
 
 ======== ===========
 Home     http://www.clustal.org/omega/
-Versions 1.2.3
+Versions 1.2.3, 1.2.4
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalo
 ======== ===========

@@ -9,7 +9,7 @@ Statistical functions, goodness-of-fit tests and special and special distributio
 
 ======== ===========
 Home     https://github.com/ksahlin/mathstats
-Versions 0.2.4
+Versions 0.2.4, 0.2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mathstats
 ======== ===========

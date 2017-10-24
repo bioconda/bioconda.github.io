@@ -8,8 +8,8 @@ biokit
 Set of visualisation and analysis tools for biological data sets
 
 ======== ===========
-Home     
-Versions 0.1.3, 0.1.4, 0.2.1, 0.4.1
+Home     http://pypi.python.org/pypi/biokit
+Versions 0.1.3, 0.1.4, 0.2.1, 0.4.1, 0.4.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biokit
 ======== ===========
