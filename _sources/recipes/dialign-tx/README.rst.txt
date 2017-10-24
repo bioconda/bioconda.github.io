@@ -9,7 +9,7 @@ DIALIGN-TX is a greedy and progressive approaches for segment-based multiple seq
 
 ======== ===========
 Home     https://dialign-tx.gobics.de
-Versions 
+Versions 1.0.2
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx
 ======== ===========
