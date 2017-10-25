@@ -9,7 +9,7 @@ sort genomic files according to a genomefile
 
 ======== ===========
 Home     https://github.com/brentp/gsort
-Versions 0.0.1, 0.0.2
+Versions 0.0.1, 0.0.2, 0.0.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort
 ======== ===========
