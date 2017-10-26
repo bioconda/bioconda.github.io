@@ -9,7 +9,7 @@ trackhub
 
 ======== ===========
 Home     http://github.com/daler/trackhub
-Versions 0.1.2
+Versions 0.1.2, 0.1.3
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub
 ======== ===========

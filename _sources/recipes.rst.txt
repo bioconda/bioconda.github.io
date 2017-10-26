@@ -8782,6 +8782,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/trackhub/README.html">trackhub</a></td>
+        
+        <td>0.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ebisearch/README.html">ebisearch</a></td>
         
         <td>0.0.2</td>
@@ -10022,7 +10036,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -16924,7 +16938,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -17199,6 +17213,20 @@ Available packages
         <td><a href="recipes/pyani/README.html">pyani</a></td>
         
         <td>0.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pyani/README.html">pyani</a></td>
+        
+        <td>0.2.7</td>
         
         <td></td>
         
@@ -21987,6 +22015,20 @@ Available packages
         <td><a href="recipes/maxbin2/README.html">maxbin2</a></td>
         
         <td>2.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/maxbin2/README.html">maxbin2</a></td>
+        
+        <td>2.2.4</td>
         
         <td></td>
         
@@ -30798,7 +30840,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -33439,6 +33481,20 @@ Available packages
         <td><a href="recipes/starseqr/README.html">starseqr</a></td>
         
         <td>0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/starseqr/README.html">starseqr</a></td>
+        
+        <td>0.6.3</td>
         
         <td></td>
         
@@ -42074,6 +42130,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hicexplorer/README.html">hicexplorer</a></td>
+        
+        <td>1.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/lsc/README.html">lsc</a></td>
         
         <td>2.0</td>
@@ -44496,6 +44566,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/multiqc-bcbio/README.html">multiqc-bcbio</a></td>
+        
+        <td>0.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/libgtextutils/README.html">libgtextutils</a></td>
         
         <td>0.7</td>
@@ -44574,7 +44658,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -48212,7 +48296,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -49222,7 +49306,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -52406,6 +52490,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/binsanity/README.html">binsanity</a></td>
+        
+        <td>0.2.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/neptune/README.html">neptune</a></td>
         
         <td>1.2.3</td>
@@ -54033,6 +54131,34 @@ Available packages
         <td><a href="recipes/sequana/README.html">sequana</a></td>
         
         <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.6.1</td>
         
         <td></td>
         
@@ -58378,7 +58504,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -60305,6 +60431,20 @@ Available packages
         <td><a href="recipes/bbmap/README.html">bbmap</a></td>
         
         <td>37.52</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bbmap/README.html">bbmap</a></td>
+        
+        <td>37.62</td>
         
         <td></td>
         
@@ -63102,6 +63242,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/curlywhirly/README.html">curlywhirly</a></td>
+        
+        <td>1.17.08.31</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-www-robotrules/README.html">perl-www-robotrules</a></td>
         
         <td>6.02</td>
@@ -65807,6 +65961,20 @@ Available packages
         <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
         
         <td>0.3.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
+        
+        <td>0.3.6</td>
         
         <td></td>
         
@@ -69769,6 +69937,20 @@ Available packages
         <td><a href="recipes/segway/README.html">segway</a></td>
         
         <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/segway/README.html">segway</a></td>
+        
+        <td>2.0.1</td>
         
         <td></td>
         
