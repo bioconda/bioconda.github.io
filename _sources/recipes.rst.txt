@@ -26772,6 +26772,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bamtools/README.html">bamtools</a></td>
+        
+        <td>2.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-xml-xpath/README.html">perl-xml-xpath</a></td>
         
         <td>1.33</td>
@@ -27181,6 +27195,20 @@ Available packages
         <td><a href="recipes/perl-perl-osnames/README.html">perl-perl-osnames</a></td>
         
         <td>0.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ssu-align/README.html">ssu-align</a></td>
+        
+        <td>0.1.1</td>
         
         <td></td>
         
@@ -31143,6 +31171,20 @@ Available packages
         <td><a href="recipes/feht/README.html">feht</a></td>
         
         <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/feht/README.html">feht</a></td>
+        
+        <td>1.1.0</td>
         
         <td></td>
         
@@ -44580,6 +44622,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/multiqc-bcbio/README.html">multiqc-bcbio</a></td>
+        
+        <td>0.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/libgtextutils/README.html">libgtextutils</a></td>
         
         <td>0.7</td>
@@ -46904,6 +46960,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bismark/README.html">bismark</a></td>
+        
+        <td>0.19.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/tadtool/README.html">tadtool</a></td>
         
         <td>0.75</td>
@@ -48489,6 +48559,20 @@ Available packages
         <td><a href="recipes/pylibseq/README.html">pylibseq</a></td>
         
         <td>0.1.9.post0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pylibseq/README.html">pylibseq</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         
@@ -55290,6 +55374,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pindel/README.html">pindel</a></td>
+        
+        <td>0.2.5b9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pyrad/README.html">pyrad</a></td>
         
         <td>3.0.64</td>
@@ -61354,6 +61452,20 @@ Available packages
         
         <td><a href="recipes/picard/README.html">picard</a></td>
         
+        <td>2.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
         <td>2.3.0</td>
         
         <td></td>
@@ -62699,6 +62811,20 @@ Available packages
         <td><a href="recipes/mqc/README.html">mqc</a></td>
         
         <td>1.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mqc/README.html">mqc</a></td>
+        
+        <td>1.8</td>
         
         <td></td>
         
@@ -68366,6 +68492,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vcf2db/README.html">vcf2db</a></td>
+        
+        <td>2017.10.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/braker/README.html">braker</a></td>
         
         <td>1.9</td>
@@ -69223,6 +69363,20 @@ Available packages
         <td><a href="recipes/prophyle/README.html">prophyle</a></td>
         
         <td>0.2.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.3.0.0</td>
         
         <td></td>
         

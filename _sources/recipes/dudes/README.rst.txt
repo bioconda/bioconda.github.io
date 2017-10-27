@@ -5,10 +5,10 @@ dudes
 
 |downloads|
 
-DUDes is a taxonomic profiler for NGS metagenomic samples
+DUDes: a top-down taxonomic profiler for metagenomics
 
 ======== ===========
-Home     https://sourceforge.net/projects/dudes/
+Home     https://github.com/pirovc/dudes/
 Versions 0.06, 0.07
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes

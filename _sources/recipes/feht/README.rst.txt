@@ -9,7 +9,7 @@ A commandline program to automatically identify markers predictive of groups. Ca
 
 ======== ===========
 Home     https://github.com/chadlaing/feht/
-Versions 1.0.1
+Versions 1.0.1, 1.1.0
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feht
 ======== ===========

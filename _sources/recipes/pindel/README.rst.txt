@@ -9,7 +9,7 @@ Pindel can detect breakpoints of large deletions, medium sized insertions, inver
 
 ======== ===========
 Home     http://gmt.genome.wustl.edu/packages/pindel/index.html
-Versions 0.2.5b8
+Versions 0.2.5b8, 0.2.5b9
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pindel
 ======== ===========
