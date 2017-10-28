@@ -8,7 +8,7 @@ bioconductor-ebseq
 Differential Expression analysis at both gene and isoform level using RNA-seq data
 
 ======== ===========
-Home     https://bioconductor.org/packages/release/bioc/html/EBSeq.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/EBSeq.html
 Versions 1.12.0, 1.14.0, 1.16.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq

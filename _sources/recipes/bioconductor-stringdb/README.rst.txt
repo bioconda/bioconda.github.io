@@ -5,10 +5,10 @@ bioconductor-stringdb
 
 |downloads|
 
-The STRINGdb package provides a R interface to the STRING protein-protein interactions database (http://www.string-db.org)
+The STRINGdb package provides a R interface to the STRING protein-protein interactions database (http://www.string-db.org).
 
 ======== ===========
-Home     https://bioconductor.org/packages/release/bioc/html/STRINGdb.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/STRINGdb.html
 Versions 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stringdb

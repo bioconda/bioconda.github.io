@@ -5,7 +5,7 @@ r-scrm
 
 |downloads|
 
-A coalescent simulator that allows the rapid simulation of biological sequences under neutral models of evolution. Different to other coalescent based simulations, it has an optional approximation parameter that allows for high accuracy while maintaining a linear run time cost for long sequences. It is optimized for simulating massive data sets as produced by Next-Generation Sequencing technologies for up to several thousand sequences.
+A coalescent simulator that allows the rapid simulation of biological sequences under neutral models of evolution. Different to other coalescent based simulations, it has an optional approximation parameter that allows for high accuracy while maintaining a linear run time cost for long sequences. It is optimized for simulating massive data sets as produced by Next- Generation Sequencing technologies for up to several thousand sequences.
 
 ======== ===========
 Home     https://github.com/scrm/scrm-r

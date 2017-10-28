@@ -5,10 +5,10 @@ bioconductor-dada2
 
 |downloads|
 
-The dada2 package provides "OTU picking" functionality, but instead of picking OTUs the DADA2 algorithm exactly infers samples sequences. The dada2 pipeline starts from demultiplexed fastq files, and outputs inferred sample sequences and associated abundances after removing substitution and chimeric errors. Taxonomic classification is also available via a native implementation of the RDP classifier method.
+The dada2 package infers exact sequence variants (SVs) from amplicon data, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files, and outputs the sequence variants and their sample-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/dada2.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/dada2.html
 Versions 0.10.0, 0.10.1, 0.10.3, 0.10.4, 0.99.10, 1.0.3, 1.2, 1.4, 1.4.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2

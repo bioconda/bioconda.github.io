@@ -5,10 +5,7 @@ r-rentrez
 
 |downloads|
 
-Provides an R interface to the NCBI's EUtils API allowing users to search databases
-like GenBank and PubMed, process the results of those searches and pull data into
-their R sessions.
-
+Provides an R interface to the NCBI's EUtils API allowing users to search databases like GenBank and PubMed, process the results of those searches and pull data into their R sessions.
 
 ======== ===========
 Home     http://github.com/ropensci/rentrez

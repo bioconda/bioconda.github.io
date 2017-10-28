@@ -5,7 +5,7 @@ r-readbrukerflexdata
 
 |downloads|
 
-Reads data files acquired by MALDI-TOF MS on Bruker Daltonics machines of the \*flex series.
+Reads data files acquired by Bruker Daltonics' matrix-assisted laser desorption/ionization-time-of-flight mass spectrometer of the *flex series.
 
 ======== ===========
 Home     http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/

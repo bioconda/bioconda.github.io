@@ -5,10 +5,10 @@ r-deoptimr
 
 |downloads|
 
-An implementation of a bespoke jDE variant of the Differential Evolution stochastic algorithm for global optimization of nonlinear programming problems.
+Differential Evolution (DE) stochastic algorithms for global optimization of problems with and without constraints. The aim is to curate a collection of its state-of-the-art variants that (1) do not sacrifice simplicity of design, (2) are essentially tuning-free, and (3) can be efficiently implemented directly in the R language. Currently, it only provides an implementation of the 'jDE' algorithm by Brest et al. (2006) <doi:10.1109/TEVC.2006.872133>.
 
 ======== ===========
-Home     
+Home     https://CRAN.R-project.org/package=DEoptimR
 Versions 1.0_6, 1.0_8
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deoptimr

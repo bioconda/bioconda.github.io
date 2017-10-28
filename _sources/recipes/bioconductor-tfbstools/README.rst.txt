@@ -8,7 +8,7 @@ bioconductor-tfbstools
 TFBSTools is a package for the analysis and manipulation of transcription factor binding sites. It includes matrices conversion between Position Frequency Matirx (PFM), Position Weight Matirx (PWM) and Information Content Matrix (ICM). It can also scan putative TFBS from sequence/alignment, query JASPAR database and provides a wrapper of de novo motif discovery software.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.4/bioc/html/TFBSTools.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/TFBSTools.html
 Versions 1.12.2, 1.14.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools

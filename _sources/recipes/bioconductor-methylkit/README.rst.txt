@@ -8,7 +8,7 @@ bioconductor-methylkit
 methylKit is an R package for DNA methylation analysis and annotation from high-throughput bisulfite sequencing. The package is designed to deal with sequencing data from RRBS and its variants, but also target-capture methods and whole genome bisulfite sequencing. It also has functions to analyze base-pair resolution 5hmC data from experimental protocols such as oxBS-Seq and TAB-Seq. Perl is needed to read SAM files only.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/methylKit.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/methylKit.html
 Versions 0.99.2, 1.0.0, 1.2.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylkit

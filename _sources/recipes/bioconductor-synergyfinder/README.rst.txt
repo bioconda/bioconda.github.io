@@ -8,7 +8,7 @@ bioconductor-synergyfinder
 Efficient implementations for all the popular synergy scoring models for drug combinations, including HSA, Loewe, Bliss and ZIP and visualization of the synergy scores as either a two-dimensional or a three-dimensional interaction surface over the dose matrix.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/synergyfinder.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/synergyfinder.html
 Versions 1.0.0, 1.2.0
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synergyfinder

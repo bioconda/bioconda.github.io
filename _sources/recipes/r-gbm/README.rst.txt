@@ -10,7 +10,7 @@ An implementation of extensions to Freund and Schapire's AdaBoost algorithm and 
 ======== ===========
 Home     http://code.google.com/p/gradientboostedmodels/
 Versions 2.1.1, 2.1.3
-License  GPL (>= 2) | file LICENSE
+License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gbm
 ======== ===========
 

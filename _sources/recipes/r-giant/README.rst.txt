@@ -8,7 +8,7 @@ r-giant
 Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
 
 ======== ===========
-Home     https://cran.r-project.org/web/packages/GiANT/index.html
+Home     https://CRAN.R-project.org/package=GiANT
 Versions 1.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-giant

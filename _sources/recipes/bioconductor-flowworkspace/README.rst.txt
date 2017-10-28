@@ -5,10 +5,10 @@ bioconductor-flowworkspace
 
 |downloads|
 
-This package is designed to facilitate comparison of automated gating methods against manual gating done in flowJo. This package allows you to import basic flowJo workspaces into BioConductor and replicate the gating from flowJo using the flowCore functionality. Gating hierarchies, groups of samples, compensation, and transformation are performed so that the output matches the flowJo analysis
+This package is designed to facilitate comparison of automated gating methods against manual gating done in flowJo. This package allows you to import basic flowJo workspaces into BioConductor and replicate the gating from flowJo using the flowCore functionality. Gating hierarchies, groups of samples, compensation, and transformation are performed so that the output matches the flowJo analysis.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/flowWorkspace.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/flowWorkspace.html
 Versions 3.24.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspace

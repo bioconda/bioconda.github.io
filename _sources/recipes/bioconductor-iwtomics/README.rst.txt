@@ -8,7 +8,7 @@ bioconductor-iwtomics
 Implementation of the Interval-Wise Testing (IWT) for omics data. This inferential procedure tests for differences in "Omics" data between two groups of genomic regions (or between a group of genomic regions and a reference center of symmetry), and does not require fixing location and scale at the outset.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/IWTomics.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/IWTomics.html
 Versions 1.0.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics

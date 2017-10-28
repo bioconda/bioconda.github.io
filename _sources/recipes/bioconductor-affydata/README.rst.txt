@@ -5,12 +5,12 @@ bioconductor-affydata
 
 |downloads|
 
-Example datasets of a slightly large size. They represent real world examples, unlike the artificial examples included in the package affy
+Example datasets of a slightly large size. They represent 'real world examples', unlike the artificial examples included in the package affy.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/data/experiment/html/affydata.html
+Home     http://bioconductor.org/packages/3.5/data/experiment/html/affydata.html
 Versions 1.24.0
-License  GPL-2
+License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata
 ======== ===========
 

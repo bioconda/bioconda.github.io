@@ -8,7 +8,7 @@ bioconductor-dexseq
 The package is focused on finding differential exon usage using RNA-seq exon counts between samples with different experimental designs. It provides functions that allows the user to make the necessary statistical tests based on a model that uses the negative binomial distribution to estimate the variance between biological replicates and generalized linear models for testing. The package also provides functions for the visualization and exploration of the results.
 
 ======== ===========
-Home     https://bioconductor.org/packages/release/bioc/html/DEXSeq.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/DEXSeq.html
 Versions 1.16.6, 1.18.4, 1.20.1, 1.22.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexseq

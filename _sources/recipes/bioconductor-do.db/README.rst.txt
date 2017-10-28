@@ -8,7 +8,7 @@ bioconductor-do.db
 A set of annotation maps describing the entire Disease Ontology assembled using data from DO
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/data/annotation/html/DO.db.html
+Home     http://bioconductor.org/packages/3.5/data/annotation/html/DO.db.html
 Versions 2.9
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-do.db

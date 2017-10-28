@@ -8,7 +8,7 @@ bioconductor-flowutils
 Provides utilities for flow cytometry data.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/flowUtils.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/flowUtils.html
 Versions 1.40.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowutils

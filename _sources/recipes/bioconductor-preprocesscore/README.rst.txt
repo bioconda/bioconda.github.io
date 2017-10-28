@@ -8,7 +8,7 @@ bioconductor-preprocesscore
 A library of core preprocessing routines
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/preprocessCore.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/preprocessCore.html
 Versions 1.32.0, 1.34.0, 1.38.1
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preprocesscore

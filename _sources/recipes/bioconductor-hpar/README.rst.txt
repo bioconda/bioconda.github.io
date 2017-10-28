@@ -8,7 +8,7 @@ bioconductor-hpar
 A simple interface to and data from the Human Protein Atlas project.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/hpar.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/hpar.html
 Versions 1.14.1, 1.15.0, 1.18.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpar

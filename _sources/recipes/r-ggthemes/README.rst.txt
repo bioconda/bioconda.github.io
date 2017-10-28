@@ -5,10 +5,10 @@ r-ggthemes
 
 |downloads|
 
-Some extra themes, geoms, and scales for ggplot2. Provides ggplot2 themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, Fivethirtyeight, The Economist, Stata, Excel, and The Wall Street Journal, among others. Provides geoms for Tufte s box plot and range frame.
+Some extra themes, geoms, and scales for 'ggplot2'. Provides 'ggplot2' themes and scales that replicate the look of plots by Edward Tufte, Stephen Few, 'Fivethirtyeight', 'The Economist', 'Stata', 'Excel', and 'The Wall Street Journal', among others. Provides 'geoms' for Tufte's box plot and range frame.
 
 ======== ===========
-Home     https://cran.rstudio.com/web/packages/ggthemes/index.html
+Home     http://github.com/jrnold/ggthemes
 Versions 3.4.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ggthemes

@@ -5,12 +5,12 @@ bioconductor-consensusclusterplus
 
 |downloads|
 
-Algorithm for determining cluster count and membership by stability evidence in unsupervised analysis.
+algorithm for determining cluster count and membership by stability evidence in unsupervised analysis
 
 ======== ===========
-Home     https://bioconductor.org/packages/release/bioc/html/ConsensusClusterPlus.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/ConsensusClusterPlus.html
 Versions 1.40.0
-License  GPL-2
+License  GPL version 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus
 ======== ===========
 

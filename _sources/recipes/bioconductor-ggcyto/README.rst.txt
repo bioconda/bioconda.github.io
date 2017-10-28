@@ -8,7 +8,7 @@ bioconductor-ggcyto
 With the dedicated fority method implemented for flowSet, ncdfFlowSet and GatingSet classes, both raw and gated flow cytometry data can be plotted directly with ggplot. ggcyto wrapper and some customed layers also make it easy to add gates and population statistics to the plot.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/ggcyto.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/ggcyto.html
 Versions 1.4.0, 1.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggcyto

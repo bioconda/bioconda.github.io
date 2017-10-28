@@ -5,12 +5,12 @@ r-km.ci
 
 |downloads|
 
-Computes various confidence intervals for the Kaplan-Meier estimator, namely Petos CI, Rothman CI, CI's based on Greenwoods variance, Thomas and Grunkemeier CI and the simultaneous confidence bands by Nair and Hall and Wellner.
+Computes various confidence intervals for the Kaplan-Meier estimator, namely: Petos CI, Rothman CI, CI's based on Greenwoods variance, Thomas and Grunkemeier CI and the simultaneous confidence bands by Nair and Hall and Wellner.
 
 ======== ===========
-Home     https://cran.rstudio.com/web/packages/km.ci/index.html
+Home     https://CRAN.R-project.org/package=km.ci
 Versions 0.5_2
-License  GPL-2|GPL-3
+License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-km.ci
 ======== ===========
 

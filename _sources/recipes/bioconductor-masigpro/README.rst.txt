@@ -8,7 +8,7 @@ bioconductor-masigpro
 maSigPro is a regression based approach to find genes for which there are significant gene expression profile differences between experimental groups in time course microarray and RNA-Seq experiments.
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/maSigPro.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/maSigPro.html
 Versions 1.46.0, 1.48.0, 1.49.0, 1.49.3, 1.49.4
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-masigpro

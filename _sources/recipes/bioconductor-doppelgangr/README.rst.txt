@@ -8,7 +8,7 @@ bioconductor-doppelgangr
 The main function is doppelgangR(), which takes as minimal input a list of ExpressionSet object, and searches all list pairs for duplicated samples.  The search is based on the genomic data (exprs(eset)), phenotype/clinical data (pData(eset)), and "smoking guns" - supposedly unique identifiers found in pData(eset).
 
 ======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/doppelgangR.html
+Home     http://bioconductor.org/packages/3.5/bioc/html/doppelgangR.html
 Versions 1.4.1
 License  GPL (>=2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-doppelgangr

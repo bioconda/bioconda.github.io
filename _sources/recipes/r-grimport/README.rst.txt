@@ -8,7 +8,7 @@ r-grimport
 Functions for converting, importing, and drawing PostScript  pictures in R plots.
 
 ======== ===========
-Home     
+Home     https://CRAN.R-project.org/package=grImport
 Versions 0.9_0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grimport

@@ -5,13 +5,13 @@ r-diptest
 
 |downloads|
 
-Compute Hartigan's dip test statistic for unimodality / multimodality and provide a test with simulation based p-values, where the original public code has been corrected.
+Compute Hartigan's dip test statistic for unimodality / multimodality and provide a test with simulation based p-values,  where the original public code has been corrected.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=diptest
 Versions 0.75_7
-License  GPL (>=2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diptest/0.75_7
+License  GPL (>= 2)
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-diptest
 ======== ===========
 
 Installation

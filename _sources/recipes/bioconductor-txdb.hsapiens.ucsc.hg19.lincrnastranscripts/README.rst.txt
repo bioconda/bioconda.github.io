@@ -8,7 +8,7 @@ bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts
 Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.4/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.html
+Home     http://bioconductor.org/packages/3.5/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.lincRNAsTranscripts.html
 Versions 3.2.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.lincrnastranscripts

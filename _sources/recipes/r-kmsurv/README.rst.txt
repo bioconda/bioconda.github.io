@@ -8,7 +8,7 @@ r-kmsurv
 Data sets and functions for Klein and Moeschberger (1997), "Survival Analysis, Techniques for Censored and Truncated Data", Springer.
 
 ======== ===========
-Home     https://cran.rstudio.com/web/packages/KMsurv/index.html
+Home     https://CRAN.R-project.org/package=KMsurv
 Versions 0.1_5
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-kmsurv

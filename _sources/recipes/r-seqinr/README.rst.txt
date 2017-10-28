@@ -5,10 +5,10 @@ r-seqinr
 
 |downloads|
 
-Exploratory data analysis and data visualization for biological sequence (DNA and protein) data.  Includes also utilities for sequence data management under the ACNUC system.
+Exploratory data analysis and data visualization for biological sequence (DNA and protein) data. Seqinr includes  utilities for sequence data management under the ACNUC system described in Gouy, M. et al. (1984) Nucleic Acids Res. 12:121-127 <doi:10.1093/nar/12.1Part1.121>.
 
 ======== ===========
-Home     http://seqinr.r-forge.r-project.org/, Mailing list: http://r-forge.r-project.org/mail/?group_id=220
+Home     http://seqinr.r-forge.r-project.org/
 Versions 3.1_3, 3.4_5
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqinr

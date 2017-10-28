@@ -8,7 +8,7 @@ r-idpmisc
 The IDPmisc package contains different high-level graphics functions for displaying large datasets, displaying circular data in a very flexible way, finding local maxima, brewing color ramps, drawing nice arrows, zooming 2D-plots, creating figures with differently colored margin and plot region.  In addition, the package contains auxiliary functions for data manipulation like omitting observations with irregular values or selecting data by logical vectors, which include NAs. Other functions are especially useful in spectroscopy and analyses of environmental data: robust baseline fitting, finding peaks in spectra.
 
 ======== ===========
-Home     
+Home     https://CRAN.R-project.org/package=IDPmisc
 Versions 1.1.17
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-idpmisc
