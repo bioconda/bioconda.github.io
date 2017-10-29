@@ -13612,6 +13612,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ndex-python/README.html">ndex-python</a></td>
+        
+        <td>3.0.11.23</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-encode/README.html">perl-encode</a></td>
         
         <td>2.88</td>
@@ -14567,6 +14581,20 @@ Available packages
         <td><a href="recipes/bioconductor-gcrma/README.html">bioconductor-gcrma</a></td>
         
         <td>2.48.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-codex/README.html">bioconductor-codex</a></td>
+        
+        <td>1.8.0</td>
         
         <td></td>
         
@@ -24115,6 +24143,20 @@ Available packages
         <td><a href="recipes/cmappy/README.html">cmappy</a></td>
         
         <td>2.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cmappy/README.html">cmappy</a></td>
+        
+        <td>2.1.0</td>
         
         <td></td>
         
@@ -43096,6 +43138,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-genabel/README.html">r-genabel</a></td>
+        
+        <td>1.8_0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ecopcr/README.html">ecopcr</a></td>
         
         <td>0.5.0</td>
@@ -43953,6 +44009,20 @@ Available packages
         <td><a href="recipes/plant_tribes_gene_family_aligner/README.html">plant_tribes_gene_family_aligner</a></td>
         
         <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/plant_tribes_gene_family_aligner/README.html">plant_tribes_gene_family_aligner</a></td>
+        
+        <td>1.0.3</td>
         
         <td></td>
         
@@ -54086,6 +54156,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pybel/README.html">pybel</a></td>
+        
+        <td>0.9.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-farc/README.html">ucsc-farc</a></td>
         
         <td>332</td>
@@ -55293,6 +55377,20 @@ Available packages
         <td><a href="recipes/yanc/README.html">yanc</a></td>
         
         <td>0.3.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/hicbrowser/README.html">hicbrowser</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -58317,6 +58415,20 @@ Available packages
         <td><a href="recipes/mentalist/README.html">mentalist</a></td>
         
         <td>0.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mentalist/README.html">mentalist</a></td>
+        
+        <td>0.1.3</td>
         
         <td></td>
         
