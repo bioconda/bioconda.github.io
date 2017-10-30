@@ -9,7 +9,7 @@ a tool for mapping millions of short genomic reads onto a reference genome
 
 ======== ===========
 Home     http://www.seqan.de/projects/razers/
-Versions 3.5.0
+Versions 3.5.0, 3.5.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/razers3
 ======== ===========
