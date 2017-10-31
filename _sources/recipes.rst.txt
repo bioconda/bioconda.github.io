@@ -634,6 +634,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/coprarna/README.html">coprarna</a></td>
+        
+        <td>2.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/qiimetomaaslin/README.html">qiimetomaaslin</a></td>
         
         <td>1.1.0</td>
@@ -1351,6 +1365,20 @@ Available packages
         <td><a href="recipes/cmfinder/README.html">cmfinder</a></td>
         
         <td>0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cmfinder/README.html">cmfinder</a></td>
+        
+        <td>0.4.1.9</td>
         
         <td></td>
         
@@ -13746,7 +13774,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -15015,6 +15043,20 @@ Available packages
         <td><a href="recipes/arb-bio/README.html">arb-bio</a></td>
         
         <td>6.0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-jaspar2018/README.html">bioconductor-jaspar2018</a></td>
+        
+        <td>0.99.2</td>
         
         <td></td>
         
@@ -45644,6 +45686,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pairix/README.html">pairix</a></td>
+        
+        <td>0.3.2</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-mosaics/README.html">bioconductor-mosaics</a></td>
         
         <td>2.10.0</td>
@@ -46193,6 +46249,20 @@ Available packages
         <td><a href="recipes/textinput/README.html">textinput</a></td>
         
         <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
+        
+        <td>0.1.0a20171029</td>
         
         <td></td>
         
@@ -63054,7 +63124,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -69564,7 +69634,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     

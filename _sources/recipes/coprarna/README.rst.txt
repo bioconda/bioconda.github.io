@@ -9,7 +9,7 @@ Target prediction for prokaryotic trans-acting small RNAs
 
 ======== ===========
 Home     https://github.com/PatrickRWright/CopraRNA
-Versions 2.1.0
+Versions 2.1.0, 2.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coprarna
 ======== ===========

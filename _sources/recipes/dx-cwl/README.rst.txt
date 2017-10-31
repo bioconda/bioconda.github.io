@@ -9,7 +9,7 @@ Import and run CWL workflows on DNAnexus
 
 ======== ===========
 Home     https://github.com/dnanexus/dx-cwl
-Versions 
+Versions 0.1.0a20171029
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dx-cwl
 ======== ===========

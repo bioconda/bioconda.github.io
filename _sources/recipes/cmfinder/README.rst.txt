@@ -8,9 +8,9 @@ cmfinder
 CMfinder - A Covariance Model Based RNA Motif Finding Algorithm
 
 ======== ===========
-Home     http://bio.cs.washington.edu/yzizhen/CMfinder/
-Versions 0.2
-License  GPL2
+Home     https://sourceforge.net/projects/weinberg-cmfinder/
+Versions 0.2, 0.4.1.9
+License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmfinder
 ======== ===========
 
