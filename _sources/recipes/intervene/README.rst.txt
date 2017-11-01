@@ -5,7 +5,7 @@ intervene
 
 |downloads|
 
-A tool for intersection and visualization of multiple gene or genomic region sets
+A tool for intersection of multiple gene or genomic region sets and visualization as venn diagrams, UpSet plots or pariwaise heatmaps
 
 ======== ===========
 Home     https://github.com/asntech/intervene
