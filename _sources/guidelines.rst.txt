@@ -214,11 +214,6 @@ performed for R packages.
 - recipe for R package not on CRAN, also with patch: `spp
   <https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp>`_
 
-Please reconsider if the R recipe is directly relevant to the biological sciences.
-Else you should contribute it to `conda-forge <https://conda-forge.org/#add_recipe>`_.
-In such case, `this unofficial helper script <https://github.com/bgruening/conda_r_skeleton_helper>`_
-might be useful.
-
 R (Bioconductor)
 ----------------
 
