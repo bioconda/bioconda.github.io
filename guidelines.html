@@ -75,7 +75,7 @@ $(document).ready(function() {
 <h2>bioconda recipe checklist<a class="headerlink" href="#bioconda-recipe-checklist" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li>Source URL is stable (<a class="reference internal" href="#stable-url"><span class="std std-ref">details</span></a>)</li>
-<li>md5 or sha256 hash included for source download (<a class="reference internal" href="#hashes"><span class="std std-ref">details</span></a>)</li>
+<li>sha256 or md5 hash included for source download (<a class="reference internal" href="#hashes"><span class="std std-ref">details</span></a>)</li>
 <li>Appropriate build number (<a class="reference internal" href="#buildnum"><span class="std std-ref">details</span></a>)</li>
 <li><cite>.bat</cite> file for Windows removed (<a class="reference internal" href="#bat-files"><span class="std std-ref">details</span></a>)</li>
 <li>Remove unnecessary comments (<a class="reference internal" href="#comments-in-meta"><span class="std std-ref">details</span></a>)</li>
@@ -100,11 +100,16 @@ as tarballs from the “releases” section of the github repo.</p>
 </div>
 <div class="section" id="hashes">
 <span id="id1"></span><h3>Hashes<a class="headerlink" href="#hashes" title="Permalink to this headline">¶</a></h3>
-<p>Use <cite>md5sum</cite> (Linux) or <cite>md5</cite> (OSX) on a file to compute its md5 hash, and copy
-this into the recipe. A quick way of doing this is:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>wget -O- <span class="nv">$URL</span> <span class="p">|</span> md5sum
+<p>We support either sha256 or md5 checksums to verify the integrity of the source
+package. If a checksum is provided alongside the source package, then use that.
+Otherwise we prefer sha256 over md5.</p>
+<p>Use <code class="docutils literal"><span class="pre">shasum</span> <span class="pre">-a</span> <span class="pre">256</span> <span class="pre">...</span></code> (or <code class="docutils literal"><span class="pre">sha256sum</span></code>  or <code class="docutils literal"><span class="pre">openssl</span> <span class="pre">sha256</span></code> etc) on a
+file to compute its sha256 hash, and copy this into the recipe, for example:</p>
+<div class="highlight-bash"><div class="highlight"><pre><span></span>wget -O- <span class="nv">$URL</span> <span class="p">|</span> shasum -a <span class="m">256</span>
 </pre></div>
 </div>
+<p>Likewise use <cite>md5sum</cite> (Linux) or <cite>md5</cite> (OSX) on a file to compute its md5 hash,
+and copy this into the recipe.</p>
 </div>
 <div class="section" id="build-numbers">
 <span id="buildnum"></span><h3>Build numbers<a class="headerlink" href="#build-numbers" title="Permalink to this headline">¶</a></h3>
