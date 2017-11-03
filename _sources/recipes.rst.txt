@@ -10938,6 +10938,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/shortstack/README.html">shortstack</a></td>
+        
+        <td>3.8.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-parasync/README.html">ucsc-parasync</a></td>
         
         <td>324</td>
@@ -14301,6 +14315,20 @@ Available packages
         <td><a href="recipes/clustalo/README.html">clustalo</a></td>
         
         <td>1.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-ic10trainingdata/README.html">r-ic10trainingdata</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -36110,6 +36138,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ngless/README.html">ngless</a></td>
+        
+        <td>0.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-pslpartition/README.html">ucsc-pslpartition</a></td>
         
         <td>324</td>
@@ -40016,6 +40058,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/deeptools/README.html">deeptools</a></td>
+        
+        <td>2.5.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/plant_tribes_gene_family_phylogeny_builder/README.html">plant_tribes_gene_family_phylogeny_builder</a></td>
         
         <td>1.0.0</td>
@@ -40215,6 +40271,20 @@ Available packages
         <td><a href="recipes/emperor/README.html">emperor</a></td>
         
         <td>0.9.51</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpomatic/README.html">snpomatic</a></td>
+        
+        <td>1.0</td>
         
         <td></td>
         
@@ -43264,6 +43334,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-ic10/README.html">r-ic10</a></td>
+        
+        <td>1.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/visitor/README.html">visitor</a></td>
         
         <td>0.1.2</td>
@@ -44386,7 +44470,35 @@ Available packages
         
         <td><a href="recipes/nonpareil/README.html">nonpareil</a></td>
         
+        <td>2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nonpareil/README.html">nonpareil</a></td>
+        
         <td>2.4.01</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nonpareil/README.html">nonpareil</a></td>
+        
+        <td>3.1.1</td>
         
         <td></td>
         
@@ -47579,6 +47691,20 @@ Available packages
         <td><a href="recipes/nanolyse/README.html">nanolyse</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-pamr/README.html">r-pamr</a></td>
+        
+        <td>1.55</td>
         
         <td></td>
         
@@ -60778,6 +60904,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-file-copy-link/README.html">perl-file-copy-link</a></td>
+        
+        <td>0.140</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-tie-hash/README.html">perl-tie-hash</a></td>
         
         <td>1.05</td>
@@ -70329,6 +70469,20 @@ Available packages
         <td><a href="recipes/prophyle/README.html">prophyle</a></td>
         
         <td>0.3.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/prophyle/README.html">prophyle</a></td>
+        
+        <td>0.3.0.2</td>
         
         <td></td>
         
