@@ -5,12 +5,12 @@ kobas
 
 |downloads|
 
-
+KEGG Orthology Based Annotation System
 
 ======== ===========
-Home     http://http://kobas.cbi.pku.edu.cn/index.php
+Home     http://kobas.cbi.pku.edu.cn
 Versions 2.1.1
-License  
+License  Biopython License Agreement
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kobas
 ======== ===========
 

@@ -9,7 +9,7 @@ A package for accessing 2bit files using lib2bit
 
 ======== ===========
 Home     https://github.com/dpryan79/py2bit
-Versions 0.1.0, 0.2.0, 0.2.1
+Versions 0.1.0, 0.2.0, 0.2.1, 0.2.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py2bit
 ======== ===========

@@ -9,7 +9,7 @@ Data package for JASPAR 2018. To search this databases, please use the package T
 
 ======== ===========
 Home     http://bioconductor.org/packages/JASPAR2018/
-Versions 0.99.2
+Versions 0.99.2, 1.0.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018
 ======== ===========
