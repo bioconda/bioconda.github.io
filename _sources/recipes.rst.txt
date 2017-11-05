@@ -47116,6 +47116,20 @@ Available packages
         
         <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
         
+        <td>1.0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
+        
         <td>1.0.6a0</td>
         
         <td></td>
