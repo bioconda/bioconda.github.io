@@ -14606,6 +14606,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/multiqc/README.html">multiqc</a></td>
+        
+        <td>1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/svviz/README.html">svviz</a></td>
         
         <td>1.4.0</td>
@@ -65359,6 +65373,20 @@ Available packages
         <td><a href="recipes/pysam/README.html">pysam</a></td>
         
         <td>0.12.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysam/README.html">pysam</a></td>
+        
+        <td>0.13.0</td>
         
         <td></td>
         
