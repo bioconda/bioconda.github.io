@@ -9,7 +9,7 @@ Hi-C is a powerful technology for studying genome-wide chromatin interactions. H
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/hicrep.html
-Versions 1.0.0
+Versions 1.0.0, 1.2.0
 License  GPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicrep
 ======== ===========

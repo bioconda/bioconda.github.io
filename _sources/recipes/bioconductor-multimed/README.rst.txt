@@ -9,7 +9,7 @@ Implements permutation method with joint correction for testing multiple mediato
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MultiMed.html
-Versions 1.10.0
+Versions 1.10.0, 1.12.0
 License  GPL (>= 2) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multimed
 ======== ===========

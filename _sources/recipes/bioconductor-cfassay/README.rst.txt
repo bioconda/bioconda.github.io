@@ -9,7 +9,7 @@ The package provides functions for calculation of linear-quadratic cell survival
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/CFAssay.html
-Versions 1.10.0
+Versions 1.10.0, 1.12.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cfassay
 ======== ===========

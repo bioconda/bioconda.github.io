@@ -9,7 +9,7 @@ Query the Gene Expression Atlas RDF data at the European Bioinformatics Institut
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/AtlasRDF.html
-Versions 1.12.0
+Versions 1.11.0, 1.12.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atlasrdf
 ======== ===========

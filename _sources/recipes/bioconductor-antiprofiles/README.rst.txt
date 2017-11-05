@@ -9,7 +9,7 @@ Implements gene expression anti-profiles as described in Corrada Bravo et al., B
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/antiProfiles.html
-Versions 1.16.0
+Versions 1.16.0, 1.18.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofiles
 ======== ===========

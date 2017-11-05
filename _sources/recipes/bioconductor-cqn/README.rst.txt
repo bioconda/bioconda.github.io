@@ -9,7 +9,7 @@ A normalization tool for RNA-Seq data, implementing the conditional quantile nor
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/cqn.html
-Versions 1.22.0
+Versions 1.22.0, 1.24.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cqn
 ======== ===========
