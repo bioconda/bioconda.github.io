@@ -9,7 +9,7 @@ The method performs bottom-up hierarchical clustering, using a Dirichlet Process
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/BHC.html
-Versions 1.28.0
+Versions 1.28.0, 1.30.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bhc
 ======== ===========

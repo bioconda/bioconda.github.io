@@ -9,7 +9,7 @@ The package is the R-version of the C-based software \bold{CASPAR} (Kaderali,200
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/RCASPAR.html
-Versions 1.22.0
+Versions 1.22.0, 1.24.0
 License  GPL (>=3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar
 ======== ===========

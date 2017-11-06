@@ -9,7 +9,7 @@ A fairly extensive and comprehensive interface to the graph algorithms contained
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/RBGL.html
-Versions 1.46.0, 1.48.1, 1.52.0
+Versions 1.46.0, 1.48.1, 1.52.0, 1.54.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl
 ======== ===========

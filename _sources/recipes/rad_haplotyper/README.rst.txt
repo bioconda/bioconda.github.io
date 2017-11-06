@@ -9,7 +9,7 @@ A program for building SNP haplotypes from RAD sequencing data
 
 ======== ===========
 Home     https://github.com/chollenbeck/rad_haplotyper
-Versions 1.1.6
+Versions 1.1.6, 1.1.7
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rad_haplotyper
 ======== ===========

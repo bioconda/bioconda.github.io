@@ -9,7 +9,7 @@ This package contains functions for normalizing spotted microarray data, based o
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/CALIB.html
-Versions 1.42.0
+Versions 1.42.0, 1.44.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-calib
 ======== ===========

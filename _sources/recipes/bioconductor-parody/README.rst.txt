@@ -9,7 +9,7 @@ routines for univariate and multivariate outlier detection with a focus on param
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/parody.html
-Versions 1.34.0
+Versions 1.34.0, 1.36.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-parody
 ======== ===========

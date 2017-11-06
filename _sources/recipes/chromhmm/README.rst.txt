@@ -9,7 +9,7 @@ ChromHMM is software for learning and characterizing chromatin states. ChromHMM 
 
 ======== ===========
 Home     http://compbio.mit.edu/ChromHMM/
-Versions 1.11, 1.12
+Versions 1.11, 1.12, 1.14
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm
 ======== ===========

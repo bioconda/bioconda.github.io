@@ -9,7 +9,7 @@ Display a rectangular heatmap (intensity plot) of a data matrix. By default, bot
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/Heatplus.html
-Versions 2.20.0, 2.22.0
+Versions 2.20.0, 2.22.0, 2.24.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-heatplus
 ======== ===========

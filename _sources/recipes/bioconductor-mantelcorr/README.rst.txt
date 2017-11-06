@@ -9,7 +9,7 @@ Computes Mantel cluster correlations from a (p x n) numeric data matrix (e.g. mi
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MantelCorr.html
-Versions 1.46.0
+Versions 1.46.0, 1.48.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mantelcorr
 ======== ===========

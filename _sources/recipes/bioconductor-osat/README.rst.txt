@@ -9,7 +9,7 @@ A sizable genomics study such as microarray often involves the use of multiple b
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/OSAT.html
-Versions 1.24.0
+Versions 1.24.0, 1.26.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-osat
 ======== ===========

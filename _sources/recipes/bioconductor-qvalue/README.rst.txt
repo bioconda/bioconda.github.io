@@ -9,7 +9,7 @@ This package takes a list of p-values resulting from the simultaneous testing of
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/qvalue.html
-Versions 2.2.2, 2.4.2, 2.6.0, 2.8.0
+Versions 2.10.0, 2.2.2, 2.4.2, 2.6.0, 2.8.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue
 ======== ===========

@@ -9,7 +9,7 @@ Functions for computing and displaying sample size information for gene expressi
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/ssize.html
-Versions 1.50.0
+Versions 1.50.0, 1.52.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize
 ======== ===========

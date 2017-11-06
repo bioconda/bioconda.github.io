@@ -9,7 +9,7 @@ Provides powerful and easy-to-use tools for analyzing next-gen sequencing read d
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/Rsubread.html
-Versions 1.22.1, 1.23.0, 1.25.2, 1.26.1
+Versions 1.22.1, 1.23.0, 1.25.2, 1.26.1, 1.28.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread
 ======== ===========

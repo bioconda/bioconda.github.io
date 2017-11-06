@@ -9,7 +9,7 @@ Several quantitative and visualized benchmarks for RNA-seq quantification pipeli
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/rnaseqcomp.html
-Versions 1.6.0
+Versions 1.6.0, 1.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp
 ======== ===========

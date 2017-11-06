@@ -9,7 +9,7 @@ A pure data-driven gene network, weighted gene co-expression network (WGCN) coul
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/AMOUNTAIN.html
-Versions 1.2.0
+Versions 1.2.0, 1.4.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain
 ======== ===========

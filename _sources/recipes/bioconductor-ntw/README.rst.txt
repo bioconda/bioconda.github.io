@@ -9,7 +9,7 @@ This package predicts the gene-gene interaction network and identifies the direc
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/NTW.html
-Versions 1.26.0
+Versions 1.26.0, 1.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ntw
 ======== ===========
