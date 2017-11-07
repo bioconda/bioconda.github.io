@@ -9,7 +9,7 @@ This package has two functions. One reads a Affymetrix chip description file (CD
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/makecdfenv.html
-Versions 1.52.0
+Versions 1.52.0, 1.54.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-makecdfenv
 ======== ===========

@@ -9,7 +9,7 @@ The ability to efficiently represent and manipulate genomic annotations and alig
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/GenomicRanges.html
-Versions 1.20.8, 1.22.0, 1.22.1, 1.22.2, 1.22.3, 1.22.4, 1.24.3, 1.26.1, 1.26.4, 1.28.6
+Versions 1.20.8, 1.22.0, 1.22.1, 1.22.2, 1.22.3, 1.22.4, 1.24.3, 1.26.1, 1.26.4, 1.28.6, 1.30.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicranges
 ======== ===========

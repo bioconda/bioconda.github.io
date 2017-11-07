@@ -9,7 +9,7 @@ EBarrays provides tools for the analysis of replicated/unreplicated microarray d
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/EBarrays.html
-Versions 2.40.0
+Versions 2.40.0, 2.42.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays
 ======== ===========

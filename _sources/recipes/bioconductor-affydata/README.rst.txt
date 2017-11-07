@@ -9,7 +9,7 @@ Example datasets of a slightly large size. They represent 'real world examples',
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/data/experiment/html/affydata.html
-Versions 1.24.0
+Versions 1.24.0, 1.26.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affydata
 ======== ===========

@@ -9,7 +9,7 @@ Provides Bayesian PCA, Probabilistic PCA, Nipals PCA, Inverse Non-Linear PCA and
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/pcaMethods.html
-Versions 1.64.0, 1.68.0
+Versions 1.64.0, 1.68.0, 1.70.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods
 ======== ===========

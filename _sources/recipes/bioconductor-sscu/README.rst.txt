@@ -9,7 +9,7 @@ The package calculates the indexes for selective stength in codon usage in bacte
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/sscu.html
-Versions 2.6.0
+Versions 2.6.0, 2.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscu
 ======== ===========

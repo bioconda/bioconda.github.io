@@ -9,7 +9,7 @@ This package performs a gene expression data analysis to detect condition-specif
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/SpeCond.html
-Versions 1.30.0
+Versions 1.30.0, 1.32.0
 License  LGPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specond
 ======== ===========

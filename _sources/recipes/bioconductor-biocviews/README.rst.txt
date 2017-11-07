@@ -9,7 +9,7 @@ Infrastructure to support Bioconductor 'views' used to classify software package
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/biocViews.html
-Versions 1.44.0
+Versions 1.44.0, 1.46.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocviews
 ======== ===========

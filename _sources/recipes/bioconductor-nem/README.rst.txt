@@ -9,7 +9,7 @@ The package 'nem' allows to reconstruct features of pathways from the nested str
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/nem.html
-Versions 2.50.0
+Versions 2.50.0, 2.52.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nem
 ======== ===========

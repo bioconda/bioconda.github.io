@@ -9,7 +9,7 @@ Subsampling of high throughput sequencing count data for use in experiment desig
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/subSeq.html
-Versions 1.6.0
+Versions 1.6.0, 1.8.0
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subseq
 ======== ===========

@@ -9,7 +9,7 @@ Non-parametric bootstrap and permutation resampling-based multiple testing proce
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/multtest.html
-Versions 2.26.0, 2.28.0, 2.32.0
+Versions 2.26.0, 2.28.0, 2.32.0, 2.34.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multtest
 ======== ===========

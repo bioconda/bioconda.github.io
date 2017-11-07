@@ -9,7 +9,7 @@ This package takes the MiChip miRNA microarray .grp scanner output files and par
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MiChip.html
-Versions 1.30.0
+Versions 1.30.0, 1.32.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-michip
 ======== ===========

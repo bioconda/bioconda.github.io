@@ -9,7 +9,7 @@ Wrapping an array-like object (typically an on-disk object) in a DelayedArray ob
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/DelayedArray.html
-Versions 0.2.7
+Versions 0.2.7, 0.4.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray
 ======== ===========
