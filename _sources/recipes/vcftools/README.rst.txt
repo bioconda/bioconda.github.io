@@ -5,11 +5,11 @@ vcftools
 
 |downloads|
 
-A set of tools written in Perl and C++ for working with VCF files.
+A set of tools written in Perl and C++ for working with VCF files. This package only contains the C++ libraries whereas the package perl-vcftools-vcf contains the perl libraries
 
 ======== ===========
 Home     https://vcftools.github.io/
-Versions 0.1.10, 0.1.11, 0.1.14
+Versions 0.1.10, 0.1.11, 0.1.14, 0.1.15
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools
 ======== ===========

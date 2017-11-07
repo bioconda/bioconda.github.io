@@ -8,7 +8,7 @@ pauvre
 Tools for plotting Oxford Nanopore and other long-read data.
 
 ======== ===========
-Home     https://github.com/conchoecia/gloTK
+Home     https://github.com/conchoecia/pauvre
 Versions 0.1.3
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre
