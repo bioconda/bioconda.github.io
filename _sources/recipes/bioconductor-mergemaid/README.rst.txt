@@ -9,7 +9,7 @@ The functions in this R extension are intended for cross-study comparison of gen
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MergeMaid.html
-Versions 2.48.0
+Versions 2.48.0, 2.50.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergemaid
 ======== ===========

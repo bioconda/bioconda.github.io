@@ -9,7 +9,7 @@ Beagle is a software package that performs genotype calling, genotype phasing, i
 
 ======== ===========
 Home     http://faculty.washington.edu/browning/beagle/beagle.html
-Versions 4.0_06Jun17, 4.1_03May16.862.jar, 4.1_21Jan17.6cc.jar, beagle_4.0_06Jun17
+Versions 4.0_06Jun17, 4.1_03May16.862.jar, 4.1_21Jan17.6cc.jar
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle
 ======== ===========

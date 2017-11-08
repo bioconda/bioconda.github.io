@@ -9,7 +9,7 @@ Corrects GC and mappability biases for readcounts (i.e. coverage) in non-overlap
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/HMMcopy.html
-Versions 1.18.0
+Versions 1.18.0, 1.20.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmmcopy
 ======== ===========

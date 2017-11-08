@@ -9,7 +9,7 @@ Calculate the spearman correlation between the source omics data and other targe
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/multiOmicsViz.html
-Versions 1.0.0
+Versions 1.0.0, 1.2.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiomicsviz
 ======== ===========
