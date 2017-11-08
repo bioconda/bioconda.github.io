@@ -9,7 +9,7 @@ A set of tools to work with alternative splicing
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/splicegear.html
-Versions 1.48.0
+Versions 1.48.0, 1.50.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicegear
 ======== ===========

@@ -9,7 +9,7 @@ The NCBI Gene Expression Omnibus (GEO) is a public repository of microarray data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/GEOquery.html
-Versions 2.36.0, 2.38.4, 2.42.0
+Versions 2.36.0, 2.38.4, 2.42.0, 2.46.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geoquery
 ======== ===========

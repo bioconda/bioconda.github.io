@@ -9,7 +9,7 @@ SimBindProfiles identifies common and unique binding regions in genome tiling ar
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/SimBindProfiles.html
-Versions 1.14.0
+Versions 1.14.0, 1.16.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbindprofiles
 ======== ===========

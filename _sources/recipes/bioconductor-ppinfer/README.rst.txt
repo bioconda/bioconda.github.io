@@ -9,7 +9,7 @@ Interactions between proteins occur in many, if not most, biological processes. 
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/PPInfer.html
-Versions 1.2.4
+Versions 1.2.4, 1.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppinfer
 ======== ===========

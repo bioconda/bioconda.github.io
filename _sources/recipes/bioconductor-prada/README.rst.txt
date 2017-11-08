@@ -9,7 +9,7 @@ Tools for analysing and navigating data from high-throughput phenotyping experim
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/prada.html
-Versions 1.52.0
+Versions 1.52.0, 1.54.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada
 ======== ===========

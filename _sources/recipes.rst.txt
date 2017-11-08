@@ -342,6 +342,20 @@ Available packages
         
         <td><a href="recipes/bioconductor-aims/README.html">bioconductor-aims</a></td>
         
+        <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-aims/README.html">bioconductor-aims</a></td>
+        
         <td>1.8.0</td>
         
         <td></td>
@@ -458,7 +472,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -1242,7 +1256,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -1411,6 +1425,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-mlp/README.html">bioconductor-mlp</a></td>
+        
+        <td>1.26.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -1628,6 +1656,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-cancermutationanalysis/README.html">bioconductor-cancermutationanalysis</a></td>
+        
+        <td>1.20.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-gdtextutil/README.html">perl-gdtextutil</a></td>
         
         <td>0.86</td>
@@ -1824,6 +1866,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-fastseg/README.html">bioconductor-fastseg</a></td>
+        
+        <td>1.24.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/openbabel/README.html">openbabel</a></td>
         
         <td>2.3.2</td>
@@ -1995,6 +2051,20 @@ Available packages
         <td><a href="recipes/bioconductor-viper/README.html">bioconductor-viper</a></td>
         
         <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-viper/README.html">bioconductor-viper</a></td>
+        
+        <td>1.12.0</td>
         
         <td></td>
         
@@ -2236,7 +2306,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -2583,6 +2653,20 @@ Available packages
         <td><a href="recipes/minimap2/README.html">minimap2</a></td>
         
         <td>2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/minimap2/README.html">minimap2</a></td>
+        
+        <td>2.4</td>
         
         <td></td>
         
@@ -3126,6 +3210,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-anota/README.html">bioconductor-anota</a></td>
+        
+        <td>1.26.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/vcfkit/README.html">vcfkit</a></td>
         
         <td>0.0.4</td>
@@ -3175,6 +3273,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-mirnatap/README.html">bioconductor-mirnatap</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -4120,6 +4232,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-org.hs.eg.db/README.html">bioconductor-org.hs.eg.db</a></td>
+        
+        <td>3.4.2</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-netclass/README.html">ucsc-netclass</a></td>
         
         <td>332</td>
@@ -4834,6 +4960,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-plw/README.html">bioconductor-plw</a></td>
+        
+        <td>1.38.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-fgsea/README.html">bioconductor-fgsea</a></td>
         
         <td>1.2.1</td>
@@ -4854,7 +4994,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -4893,6 +5033,20 @@ Available packages
         <td><a href="recipes/bioconductor-matter/README.html">bioconductor-matter</a></td>
         
         <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-matter/README.html">bioconductor-matter</a></td>
+        
+        <td>1.4.1</td>
         
         <td></td>
         
@@ -5206,7 +5360,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -5478,6 +5632,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-affycomp/README.html">bioconductor-affycomp</a></td>
+        
+        <td>1.54.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sickle/README.html">sickle</a></td>
         
         <td>0.5</td>
@@ -5568,7 +5736,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -5940,6 +6108,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-annmap/README.html">bioconductor-annmap</a></td>
+        
+        <td>1.20.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/openslide/README.html">openslide</a></td>
         
         <td>3.4.1</td>
@@ -6002,7 +6184,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -6052,6 +6234,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-teqc/README.html">bioconductor-teqc</a></td>
+        
+        <td>3.18.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-rowstocols/README.html">ucsc-rowstocols</a></td>
         
         <td>324</td>
@@ -6083,6 +6279,20 @@ Available packages
         <td><a href="recipes/nanomath/README.html">nanomath</a></td>
         
         <td>0.12.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanomath/README.html">nanomath</a></td>
+        
+        <td>0.14.2</td>
         
         <td></td>
         
@@ -6184,7 +6394,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -6228,7 +6438,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -6682,6 +6892,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-annotationfilter/README.html">bioconductor-annotationfilter</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-estscan2/README.html">perl-estscan2</a></td>
         
         <td>2.1</td>
@@ -6839,6 +7063,20 @@ Available packages
         <td><a href="recipes/nanofilt/README.html">nanofilt</a></td>
         
         <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanofilt/README.html">nanofilt</a></td>
+        
+        <td>1.7.0</td>
         
         <td></td>
         
@@ -7333,6 +7571,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ringo/README.html">bioconductor-ringo</a></td>
+        
+        <td>1.42.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -8866,6 +9118,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-arrayexpress/README.html">bioconductor-arrayexpress</a></td>
+        
+        <td>1.36.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bumbershoot/README.html">bumbershoot</a></td>
         
         <td>3_0_10158</td>
@@ -9174,6 +9440,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/phylopandas/README.html">phylopandas</a></td>
+        
+        <td>0.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-casper/README.html">bioconductor-casper</a></td>
         
         <td>2.10.0</td>
@@ -9391,6 +9671,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-pannbuilder/README.html">bioconductor-pannbuilder</a></td>
+        
+        <td>1.42.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -9639,6 +9933,20 @@ Available packages
         <td><a href="recipes/bioconductor-ogsa/README.html">bioconductor-ogsa</a></td>
         
         <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ogsa/README.html">bioconductor-ogsa</a></td>
+        
+        <td>1.8.0</td>
         
         <td></td>
         
@@ -10490,6 +10798,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-geoquery/README.html">bioconductor-geoquery</a></td>
+        
+        <td>2.46.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-medips/README.html">bioconductor-medips</a></td>
         
         <td>1.24.0</td>
@@ -10972,7 +11294,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -11170,7 +11492,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -11470,6 +11792,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-ppinfer/README.html">bioconductor-ppinfer</a></td>
+        
+        <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-integer/README.html">perl-integer</a></td>
         
         <td>1.01</td>
@@ -11588,7 +11924,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -11632,7 +11968,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -11911,6 +12247,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-roleswitch/README.html">bioconductor-roleswitch</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -12282,6 +12632,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td>
+        
+        <td>1.36.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/shape_it/README.html">shape_it</a></td>
         
         <td>1.0.1</td>
@@ -12401,6 +12765,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-gage/README.html">bioconductor-gage</a></td>
+        
+        <td>2.28.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -12669,6 +13047,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-plethy/README.html">bioconductor-plethy</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -13283,6 +13675,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-splicegear/README.html">bioconductor-splicegear</a></td>
+        
+        <td>1.50.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -15082,6 +15488,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-mops/README.html">bioconductor-mops</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-pviz/README.html">bioconductor-pviz</a></td>
         
         <td>1.10.0</td>
@@ -15200,7 +15620,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -15658,6 +16078,20 @@ Available packages
         
         <td><a href="recipes/bioconductor-codex/README.html">bioconductor-codex</a></td>
         
+        <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-codex/README.html">bioconductor-codex</a></td>
+        
         <td>1.8.0</td>
         
         <td></td>
@@ -15922,6 +16356,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-bayseq/README.html">bioconductor-bayseq</a></td>
+        
+        <td>2.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rdflib-jsonld/README.html">rdflib-jsonld</a></td>
         
         <td>0.3</td>
@@ -16140,7 +16588,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -16650,6 +17098,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-gosemsim/README.html">bioconductor-gosemsim</a></td>
+        
+        <td>2.4.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/maxentscan/README.html">maxentscan</a></td>
         
         <td>0_2004.04.21</td>
@@ -16810,7 +17272,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -17286,7 +17748,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -17343,6 +17805,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-affypdnn/README.html">bioconductor-affypdnn</a></td>
+        
+        <td>1.52.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -17734,7 +18210,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -18492,7 +18968,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -18591,6 +19067,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-riboseqr/README.html">bioconductor-riboseqr</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -19051,6 +19541,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-npgsea/README.html">bioconductor-npgsea</a></td>
+        
+        <td>1.14.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -19912,6 +20416,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-cntools/README.html">bioconductor-cntools</a></td>
+        
+        <td>1.34.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/python-bioext/README.html">python-bioext</a></td>
         
         <td>0.17.4</td>
@@ -20044,7 +20562,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -20212,7 +20730,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -20534,7 +21052,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -20682,6 +21200,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-microrna/README.html">bioconductor-microrna</a></td>
+        
+        <td>1.36.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-rnaprobr/README.html">bioconductor-rnaprobr</a></td>
         
         <td>1.8.0</td>
@@ -20744,7 +21276,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -20772,7 +21304,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -21584,7 +22116,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -23804,6 +24336,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-mgfr/README.html">bioconductor-mgfr</a></td>
+        
+        <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-pickgene/README.html">bioconductor-pickgene</a></td>
         
         <td>1.48.0</td>
@@ -23911,6 +24457,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-pcot2/README.html">bioconductor-pcot2</a></td>
+        
+        <td>1.46.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -24171,6 +24731,20 @@ Available packages
         <td><a href="recipes/fastx_toolkit/README.html">fastx_toolkit</a></td>
         
         <td>0.0.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ioniser/README.html">bioconductor-ioniser</a></td>
+        
+        <td>2.2.0</td>
         
         <td></td>
         
@@ -24832,7 +25406,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -25106,6 +25680,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-annaffy/README.html">bioconductor-annaffy</a></td>
+        
+        <td>1.50.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/apoc/README.html">apoc</a></td>
         
         <td>1b16</td>
@@ -25182,7 +25770,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -25358,6 +25946,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-cghmcr/README.html">bioconductor-cghmcr</a></td>
+        
+        <td>1.36.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-wasabi/README.html">r-wasabi</a></td>
         
         <td>0.0.1</td>
@@ -25504,7 +26106,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -25806,6 +26408,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-pvac/README.html">bioconductor-pvac</a></td>
+        
+        <td>1.26.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sure/README.html">sure</a></td>
         
         <td>1.2.24</td>
@@ -26025,6 +26641,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rfpred/README.html">bioconductor-rfpred</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -26373,6 +27003,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-consensusclusterplus/README.html">bioconductor-consensusclusterplus</a></td>
+        
+        <td>1.42.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -26736,7 +27380,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -27128,7 +27772,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -27256,7 +27900,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -27492,7 +28136,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -28192,7 +28836,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -28872,6 +29516,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-gaga/README.html">bioconductor-gaga</a></td>
+        
+        <td>2.24.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-checkhgfindspec/README.html">ucsc-checkhgfindspec</a></td>
         
         <td>332</td>
@@ -29376,6 +30034,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-qpcrnorm/README.html">bioconductor-qpcrnorm</a></td>
+        
+        <td>1.36.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-amountain/README.html">bioconductor-amountain</a></td>
         
         <td>1.2.0</td>
@@ -29439,6 +30111,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-tigre/README.html">bioconductor-tigre</a></td>
+        
+        <td>1.32.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -29676,7 +30362,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -30335,6 +31021,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-maanova/README.html">bioconductor-maanova</a></td>
+        
+        <td>1.48.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -31742,6 +32442,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-org.dm.eg.db/README.html">bioconductor-org.dm.eg.db</a></td>
+        
+        <td>3.4.2</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-bigwiginfo/README.html">ucsc-bigwiginfo</a></td>
         
         <td>324</td>
@@ -32729,6 +33443,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-uniprot.ws/README.html">bioconductor-uniprot.ws</a></td>
+        
+        <td>2.18.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -34892,6 +35620,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-gseabase/README.html">bioconductor-gseabase</a></td>
+        
+        <td>1.40.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/hicup/README.html">hicup</a></td>
         
         <td>0.5.10</td>
@@ -35081,6 +35823,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-org.ss.eg.db/README.html">bioconductor-org.ss.eg.db</a></td>
+        
+        <td>3.4.2</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -35287,6 +36043,20 @@ Available packages
         <td><a href="recipes/nanoplot/README.html">nanoplot</a></td>
         
         <td>0.16.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanoplot/README.html">nanoplot</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -35531,6 +36301,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-transview/README.html">bioconductor-transview</a></td>
+        
+        <td>1.22.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -35930,6 +36714,20 @@ Available packages
         
         <td><a href="recipes/fishtaco/README.html">fishtaco</a></td>
         
+        <td>1.0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fishtaco/README.html">fishtaco</a></td>
+        
         <td>1.1.1</td>
         
         <td></td>
@@ -35991,6 +36789,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-semdist/README.html">bioconductor-semdist</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -36102,7 +36914,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -36818,7 +37630,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -38280,6 +39092,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-adsplit/README.html">bioconductor-adsplit</a></td>
+        
+        <td>1.48.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-mergeomics/README.html">bioconductor-mergeomics</a></td>
         
         <td>1.4.0</td>
@@ -38300,7 +39126,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -38415,6 +39241,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-seqpattern/README.html">bioconductor-seqpattern</a></td>
+        
+        <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -39512,6 +40352,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pauvre/README.html">pauvre</a></td>
+        
+        <td>0.1.85</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-config-autoconf/README.html">perl-config-autoconf</a></td>
         
         <td>0.311</td>
@@ -39715,6 +40569,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-simpleaffy/README.html">bioconductor-simpleaffy</a></td>
+        
+        <td>2.54.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -40526,7 +41394,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -40772,6 +41640,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-simbindprofiles/README.html">bioconductor-simbindprofiles</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bgt/README.html">bgt</a></td>
         
         <td>r277</td>
@@ -40970,6 +41852,20 @@ Available packages
         
         <td><a href="recipes/bioconductor-mdgsa/README.html">bioconductor-mdgsa</a></td>
         
+        <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-mdgsa/README.html">bioconductor-mdgsa</a></td>
+        
         <td>1.8.0</td>
         
         <td></td>
@@ -41046,7 +41942,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -41506,7 +42402,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -41591,6 +42487,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-annotationfuncs/README.html">bioconductor-annotationfuncs</a></td>
+        
+        <td>1.28.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -41885,6 +42795,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-org.bt.eg.db/README.html">bioconductor-org.bt.eg.db</a></td>
+        
+        <td>3.4.2</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -42718,6 +43642,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanocomp/README.html">nanocomp</a></td>
+        
+        <td>0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/variantbam/README.html">variantbam</a></td>
         
         <td>1.2.1_2015.01.08</td>
@@ -42909,6 +43847,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rontotools/README.html">bioconductor-rontotools</a></td>
+        
+        <td>2.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -43145,6 +44097,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-mgfm/README.html">bioconductor-mgfm</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -44286,6 +45252,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanostat/README.html">nanostat</a></td>
+        
+        <td>0.7.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cogent/README.html">cogent</a></td>
         
         <td>1.5.3</td>
@@ -44460,7 +45440,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -44880,7 +45860,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -45552,7 +46532,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -45745,6 +46725,20 @@ Available packages
         <td><a href="recipes/bioconductor-prada/README.html">bioconductor-prada</a></td>
         
         <td>1.52.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-prada/README.html">bioconductor-prada</a></td>
+        
+        <td>1.54.0</td>
         
         <td></td>
         
@@ -46120,6 +47114,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cpat/README.html">cpat</a></td>
+        
+        <td>1.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/igblast/README.html">igblast</a></td>
         
         <td>1.4.0</td>
@@ -46151,6 +47159,20 @@ Available packages
         <td><a href="recipes/igblast/README.html">igblast</a></td>
         
         <td>1.7.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fastqmetrics/README.html">fastqmetrics</a></td>
+        
+        <td>0.1.0</td>
         
         <td></td>
         
@@ -46512,6 +47534,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-category/README.html">bioconductor-category</a></td>
+        
+        <td>2.44.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-xsloader/README.html">perl-xsloader</a></td>
         
         <td>0.16</td>
@@ -46758,7 +47794,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -47548,6 +48584,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-cghcall/README.html">bioconductor-cghcall</a></td>
+        
+        <td>2.40.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-biocinstaller/README.html">bioconductor-biocinstaller</a></td>
         
         <td>1.20.0</td>
@@ -47638,7 +48688,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -47751,6 +48801,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-panp/README.html">bioconductor-panp</a></td>
+        
+        <td>1.48.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -48150,6 +49214,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanoget/README.html">nanoget</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-bedgraphpack/README.html">ucsc-bedgraphpack</a></td>
         
         <td>324</td>
@@ -48352,7 +49430,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -48892,6 +49970,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-metagenomeseq/README.html">bioconductor-metagenomeseq</a></td>
+        
+        <td>1.20.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rnftools/README.html">rnftools</a></td>
         
         <td>0.3.0.2</td>
@@ -49276,7 +50368,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -49318,7 +50410,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -50012,6 +51104,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-pgsea/README.html">bioconductor-pgsea</a></td>
+        
+        <td>1.51.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ribodiff/README.html">ribodiff</a></td>
         
         <td>0.2.2</td>
@@ -50376,9 +51482,37 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-jaspar2014/README.html">bioconductor-jaspar2014</a></td>
+        
+        <td>1.14.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/nanolyse/README.html">nanolyse</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanolyse/README.html">nanolyse</a></td>
+        
+        <td>0.4.0</td>
         
         <td></td>
         
@@ -50746,7 +51880,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -50799,6 +51933,20 @@ Available packages
         <td><a href="recipes/bioconductor-ncigraph/README.html">bioconductor-ncigraph</a></td>
         
         <td>1.24.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ncigraph/README.html">bioconductor-ncigraph</a></td>
+        
+        <td>1.26.0</td>
         
         <td></td>
         
@@ -51097,6 +52245,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-metaseq/README.html">bioconductor-metaseq</a></td>
+        
+        <td>1.18.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -51608,6 +52770,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-sradb/README.html">bioconductor-sradb</a></td>
+        
+        <td>1.37.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/dinopy/README.html">dinopy</a></td>
         
         <td>1.2.0</td>
@@ -52042,6 +53218,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-genefilter/README.html">bioconductor-genefilter</a></td>
+        
+        <td>1.60.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene/README.html">bioconductor-txdb.hsapiens.ucsc.hg38.knowngene</a></td>
         
         <td>3.4.0</td>
@@ -52258,7 +53448,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -53050,6 +54240,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-dose/README.html">bioconductor-dose</a></td>
+        
+        <td>3.4.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/weblogo/README.html">weblogo</a></td>
         
         <td>2.8.2</td>
@@ -53478,7 +54682,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -53546,7 +54750,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -54204,7 +55408,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -54299,6 +55503,20 @@ Available packages
         <td><a href="recipes/bioconductor-copynumber/README.html">bioconductor-copynumber</a></td>
         
         <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-copynumber/README.html">bioconductor-copynumber</a></td>
+        
+        <td>1.18.0</td>
         
         <td></td>
         
@@ -54744,6 +55962,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/mappy/README.html">mappy</a></td>
+        
+        <td>2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-text-balanced/README.html">perl-text-balanced</a></td>
         
         <td>2.03</td>
@@ -54807,6 +56039,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-org.dr.eg.db/README.html">bioconductor-org.dr.eg.db</a></td>
+        
+        <td>3.4.2</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -55058,7 +56304,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -55290,6 +56536,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-omiccircos/README.html">bioconductor-omiccircos</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/tabix/README.html">tabix</a></td>
         
         <td>0.2.5</td>
@@ -55381,6 +56641,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-psea/README.html">bioconductor-psea</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -55871,6 +57145,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rtrm/README.html">bioconductor-rtrm</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -56669,6 +57957,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-globaltest/README.html">bioconductor-globaltest</a></td>
+        
+        <td>5.32.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -57748,7 +59050,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -58426,6 +59728,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-biomart/README.html">bioconductor-biomart</a></td>
+        
+        <td>2.34.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/segemehl/README.html">segemehl</a></td>
         
         <td>0.2.0</td>
@@ -58958,6 +60274,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-safe/README.html">bioconductor-safe</a></td>
+        
+        <td>3.18.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-want/README.html">perl-want</a></td>
         
         <td>0.29</td>
@@ -59070,9 +60400,37 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-traser/README.html">bioconductor-traser</a></td>
+        
+        <td>1.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/musicc/README.html">musicc</a></td>
         
         <td>1.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/musicc/README.html">musicc</a></td>
+        
+        <td>1.0.2</td>
         
         <td></td>
         
@@ -59412,7 +60770,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -59651,6 +61009,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-macat/README.html">bioconductor-macat</a></td>
+        
+        <td>1.52.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -59940,6 +61312,20 @@ Available packages
         
         <td><a href="recipes/bioconductor-cardinal/README.html">bioconductor-cardinal</a></td>
         
+        <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-cardinal/README.html">bioconductor-cardinal</a></td>
+        
         <td>1.7.0</td>
         
         <td></td>
@@ -59969,6 +61355,20 @@ Available packages
         <td><a href="recipes/bioconductor-pepstat/README.html">bioconductor-pepstat</a></td>
         
         <td>1.10.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-pepstat/README.html">bioconductor-pepstat</a></td>
+        
+        <td>1.12.0</td>
         
         <td></td>
         
@@ -60190,6 +61590,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-plier/README.html">bioconductor-plier</a></td>
+        
+        <td>1.48.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-twilight/README.html">bioconductor-twilight</a></td>
         
         <td>1.52.0</td>
@@ -60210,7 +61624,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -60318,6 +61732,20 @@ Available packages
         
         <td><a href="recipes/bioconductor-rgreat/README.html">bioconductor-rgreat</a></td>
         
+        <td>1.11.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rgreat/README.html">bioconductor-rgreat</a></td>
+        
         <td>1.8.0</td>
         
         <td></td>
@@ -60337,6 +61765,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-doppelgangr/README.html">bioconductor-doppelgangr</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -60673,6 +62115,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-sushi/README.html">bioconductor-sushi</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -61352,6 +62808,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-cghregions/README.html">bioconductor-cghregions</a></td>
+        
+        <td>1.36.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-http-negotiate/README.html">perl-http-negotiate</a></td>
         
         <td>6.01</td>
@@ -61737,6 +63207,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-promise/README.html">bioconductor-promise</a></td>
+        
+        <td>1.30.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -62528,6 +64012,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-triplex/README.html">bioconductor-triplex</a></td>
+        
+        <td>1.18.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-affyio/README.html">bioconductor-affyio</a></td>
         
         <td>1.40.0</td>
@@ -62744,7 +64242,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -62836,6 +64334,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-clusterprofiler/README.html">bioconductor-clusterprofiler</a></td>
+        
+        <td>3.6.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-clone-pp/README.html">perl-clone-pp</a></td>
         
         <td>1.06</td>
@@ -62856,7 +64368,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -63136,7 +64648,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -63550,6 +65062,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-chronos/README.html">bioconductor-chronos</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-chopfalines/README.html">ucsc-chopfalines</a></td>
         
         <td>332</td>
@@ -63683,6 +65209,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-qdnaseq/README.html">bioconductor-qdnaseq</a></td>
+        
+        <td>1.14.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -64508,7 +66048,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -65440,6 +66980,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-bionet/README.html">bioconductor-bionet</a></td>
+        
+        <td>1.38.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/recycler/README.html">recycler</a></td>
         
         <td>0.6</td>
@@ -65489,6 +67043,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-mirage/README.html">bioconductor-mirage</a></td>
+        
+        <td>1.20.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -65807,6 +67375,20 @@ Available packages
         <td><a href="recipes/picard/README.html">picard</a></td>
         
         <td>2.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
+        <td>2.14.1</td>
         
         <td></td>
         
@@ -66714,6 +68296,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nanoplotter/README.html">nanoplotter</a></td>
+        
+        <td>0.22.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-acgh/README.html">bioconductor-acgh</a></td>
         
         <td>1.54.0</td>
@@ -66734,7 +68330,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -66759,6 +68355,20 @@ Available packages
         <td><a href="recipes/nanoqc/README.html">nanoqc</a></td>
         
         <td>0.3.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nanoqc/README.html">nanoqc</a></td>
+        
+        <td>0.4.3</td>
         
         <td></td>
         
@@ -67015,6 +68625,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-annotationhub/README.html">bioconductor-annotationhub</a></td>
+        
+        <td>2.10.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -67490,7 +69114,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -67988,6 +69612,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-dnashaper/README.html">bioconductor-dnashaper</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-banocc/README.html">bioconductor-banocc</a></td>
         
         <td>1.0.0</td>
@@ -68005,6 +69643,20 @@ Available packages
         <td><a href="recipes/bioconductor-heatmaps/README.html">bioconductor-heatmaps</a></td>
         
         <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-heatmaps/README.html">bioconductor-heatmaps</a></td>
+        
+        <td>1.2.0</td>
         
         <td></td>
         
@@ -68416,7 +70068,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -68584,7 +70236,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -68730,6 +70382,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-iwtomics/README.html">bioconductor-iwtomics</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pod-coverage-trustpod/README.html">perl-pod-coverage-trustpod</a></td>
         
         <td>0.100003</td>
@@ -68766,7 +70432,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -69318,6 +70984,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-sangerseqr/README.html">bioconductor-sangerseqr</a></td>
+        
+        <td>1.14.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bpp-seq/README.html">bpp-seq</a></td>
         
         <td>2.2.0</td>
@@ -69380,7 +71060,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -71060,7 +72740,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -71348,6 +73028,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-chromplot/README.html">bioconductor-chromplot</a></td>
+        
+        <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/wkhtmltopdf/README.html">wkhtmltopdf</a></td>
         
         <td>0.12.3</td>
@@ -71396,7 +73090,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -71886,7 +73580,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -72093,6 +73787,20 @@ Available packages
         <td><a href="recipes/yanagiba/README.html">yanagiba</a></td>
         
         <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/yanagiba/README.html">yanagiba</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -72804,6 +74512,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-sva/README.html">bioconductor-sva</a></td>
+        
+        <td>3.26.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-time-local/README.html">perl-time-local</a></td>
         
         <td>1.2300</td>
@@ -72869,6 +74591,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-ssviz/README.html">bioconductor-ssviz</a></td>
+        
+        <td>1.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -73202,7 +74938,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -74820,6 +76556,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-genomicdatacommons/README.html">bioconductor-genomicdatacommons</a></td>
+        
+        <td>1.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-qtl/README.html">r-qtl</a></td>
         
         <td>1.41_6</td>
@@ -75093,6 +76843,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rtopper/README.html">bioconductor-rtopper</a></td>
+        
+        <td>1.24.0</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         

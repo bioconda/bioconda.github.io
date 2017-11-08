@@ -9,7 +9,7 @@ metagenomeSeq is designed to determine features (be it Operational Taxanomic Uni
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/metagenomeSeq.html
-Versions 1.16.0, 1.18.0
+Versions 1.16.0, 1.18.0, 1.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metagenomeseq
 ======== ===========

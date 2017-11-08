@@ -9,7 +9,7 @@ PCOT2 is a permutation-based method for investigating changes in the activity of
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/pcot2.html
-Versions 1.44.0
+Versions 1.44.0, 1.46.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcot2
 ======== ===========

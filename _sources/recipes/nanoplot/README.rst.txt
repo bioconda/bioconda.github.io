@@ -9,7 +9,7 @@ Plotting suite for Oxford Nanopore sequencing data and alignments
 
 ======== ===========
 Home     https://github.com/wdecoster/NanoPlot
-Versions 0.16.2, 0.16.4
+Versions 0.16.2, 0.16.4, 1.0.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplot
 ======== ===========

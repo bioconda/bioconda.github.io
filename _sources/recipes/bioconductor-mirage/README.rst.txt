@@ -9,7 +9,7 @@ The package contains functions for inferece of target gene regulation by miRNA, 
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MiRaGE.html
-Versions 1.18.0
+Versions 1.18.0, 1.20.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirage
 ======== ===========

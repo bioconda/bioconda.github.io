@@ -9,7 +9,7 @@ This package implements gene and gene-set level analysis methods for somatic mut
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/CancerMutationAnalysis.html
-Versions 1.18.0
+Versions 1.18.0, 1.20.0
 License  GPL (>= 2) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancermutationanalysis
 ======== ===========

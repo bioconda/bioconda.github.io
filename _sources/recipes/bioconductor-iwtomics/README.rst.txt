@@ -9,7 +9,7 @@ Implementation of the Interval-Wise Testing (IWT) for omics data. This inferenti
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/IWTomics.html
-Versions 1.0.0
+Versions 1.0.0, 1.2.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iwtomics
 ======== ===========

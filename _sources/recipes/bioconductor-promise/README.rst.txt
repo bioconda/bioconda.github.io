@@ -9,7 +9,7 @@ A general tool to identify genomic features with a specific biologically interes
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/PROMISE.html
-Versions 1.28.0
+Versions 1.28.0, 1.30.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise
 ======== ===========

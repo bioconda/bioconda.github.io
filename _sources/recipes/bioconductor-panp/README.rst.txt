@@ -9,7 +9,7 @@ A function to make gene presence/absence calls based on distance from negative s
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/panp.html
-Versions 1.46.0
+Versions 1.46.0, 1.48.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp
 ======== ===========

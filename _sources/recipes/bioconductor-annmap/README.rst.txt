@@ -9,7 +9,7 @@ annmap provides annotation mappings for Affymetrix exon arrays and coordinate ba
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/annmap.html
-Versions 1.18.0
+Versions 1.18.0, 1.20.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annmap
 ======== ===========

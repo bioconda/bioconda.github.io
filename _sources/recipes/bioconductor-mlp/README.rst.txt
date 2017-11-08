@@ -9,7 +9,7 @@ Mean Log P Analysis
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/MLP.html
-Versions 1.24.0
+Versions 1.24.0, 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlp
 ======== ===========

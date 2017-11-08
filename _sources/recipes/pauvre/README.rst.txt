@@ -9,7 +9,7 @@ Tools for plotting Oxford Nanopore and other long-read data.
 
 ======== ===========
 Home     https://github.com/conchoecia/pauvre
-Versions 0.1.3
+Versions 0.1.3, 0.1.85
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre
 ======== ===========

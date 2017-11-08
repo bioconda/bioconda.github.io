@@ -9,7 +9,7 @@ Calculate statistics for Oxford Nanopore sequencing data and alignments
 
 ======== ===========
 Home     https://github.com/wdecoster/nanostat
-Versions 0.1.5, 0.2.0
+Versions 0.1.5, 0.2.0, 0.7.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanostat
 ======== ===========

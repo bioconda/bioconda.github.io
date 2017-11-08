@@ -9,7 +9,7 @@ Genome wide annotation for Fly, primarily based on mapping using Entrez Gene ide
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/data/annotation/html/org.Dm.eg.db.html
-Versions 3.2.3, 3.3.0, 3.4.0, 3.4.1
+Versions 3.2.3, 3.3.0, 3.4.0, 3.4.1, 3.4.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dm.eg.db
 ======== ===========

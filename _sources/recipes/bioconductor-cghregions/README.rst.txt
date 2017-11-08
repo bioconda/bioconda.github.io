@@ -9,7 +9,7 @@ Dimension Reduction for Array CGH Data with Minimal Information Loss
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/CGHregions.html
-Versions 1.34.0
+Versions 1.34.0, 1.36.0
 License  GPL (http://www.gnu.org/copyleft/gpl.html)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghregions
 ======== ===========
