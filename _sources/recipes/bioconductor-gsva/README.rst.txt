@@ -9,7 +9,7 @@ Gene Set Variation Analysis (GSVA) is a non-parametric, unsupervised method for 
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/GSVA.html
-Versions 1.24.1, 1.24.2
+Versions 1.24.1, 1.24.2, 1.26.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsva
 ======== ===========

@@ -9,7 +9,7 @@ Biclustering Analysis and Results Exploration
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.5/bioc/html/BicARE.html
-Versions 1.34.0
+Versions 1.34.0, 1.36.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare
 ======== ===========

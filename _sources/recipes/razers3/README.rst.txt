@@ -5,7 +5,7 @@ razers3
 
 |downloads|
 
-a tool for mapping millions of short genomic reads onto a reference genome
+RazerS 3 - Faster, fully sensitive read mapping
 
 ======== ===========
 Home     http://www.seqan.de/projects/razers/
