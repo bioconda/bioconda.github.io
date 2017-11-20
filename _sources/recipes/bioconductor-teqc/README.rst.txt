@@ -8,7 +8,7 @@ bioconductor-teqc
 Target capture experiments combine hybridization-based (in solution or on microarrays) capture and enrichment of genomic regions of interest (e.g. the exome) with high throughput sequencing of the captured DNA fragments. This package provides functionalities for assessing and visualizing the quality of the target enrichment process, like specificity and sensitivity of the capture, per-target read coverage and so on.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/TEQC.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/TEQC.html
 Versions 3.16.0, 3.18.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc

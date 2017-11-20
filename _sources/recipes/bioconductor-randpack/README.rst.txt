@@ -8,7 +8,7 @@ bioconductor-randpack
 A suite of classes and functions for randomizing patients in clinical trials.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/randPack.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/randPack.html
 Versions 1.22.0, 1.24.0
 License  Artistic 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randpack

@@ -8,8 +8,8 @@ bioconductor-cummerbund
 Allows for persistent storage, access, exploration, and manipulation of Cufflinks high-throughput sequencing data.  In addition, provides numerous plotting functions for commonly used visualizations.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/cummeRbund.html
-Versions 2.12.1, 2.16.0, 2.18.0, 2.8.2
+Home     http://bioconductor.org/packages/3.6/bioc/html/cummeRbund.html
+Versions 2.12.1, 2.16.0, 2.18.0, 2.20.0, 2.8.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cummerbund
 ======== ===========

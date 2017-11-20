@@ -8,7 +8,7 @@ bioconductor-dirichletmultinomial
 Dirichlet-multinomial mixture models can be used to describe variability in microbial metagenomic data. This package is an interface to code originally made available by Holmes, Harris, and Quince, 2012, PLoS ONE 7(2): 1-15, as discussed further in the man page for this package, ?DirichletMultinomial.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/DirichletMultinomial.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/DirichletMultinomial.html
 Versions 1.16.0, 1.18.0, 1.20.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dirichletmultinomial

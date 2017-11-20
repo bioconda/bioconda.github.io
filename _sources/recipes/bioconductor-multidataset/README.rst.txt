@@ -5,11 +5,11 @@ bioconductor-multidataset
 
 |downloads|
 
-Implementation of the BRGE's (Bioinformatic Research Group in Epidemiology from Center for Research in Environmental Epidemiology) MultiDataSet and MethylationSet. MultiDataSet is designed for integrating multi omics data sets and MethylationSet to contain normalized methylation data. These package contains base classes for MEAL and rexposome packages.
+Implementation of the BRGE's (Bioinformatic Research Group in Epidemiology from Center for Research in Environmental Epidemiology) MultiDataSet and ResultSet. MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results. This package contains base classes for MEAL and rexposome packages.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/MultiDataSet.html
-Versions 1.4.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/MultiDataSet.html
+Versions 1.4.0, 1.6.0
 License  file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multidataset
 ======== ===========

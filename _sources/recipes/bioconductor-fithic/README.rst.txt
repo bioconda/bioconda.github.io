@@ -8,8 +8,8 @@ bioconductor-fithic
 Fit-Hi-C is a tool for assigning statistical confidence estimates to intra-chromosomal contact maps produced by genome-wide genome architecture assays such as Hi-C.
 
 ======== ===========
-Home     https://www.bioconductor.org/packages/release/bioc/html/FitHiC.html
-Versions 1.2.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/FitHiC.html
+Versions 1.2.0, 1.4.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fithic
 ======== ===========

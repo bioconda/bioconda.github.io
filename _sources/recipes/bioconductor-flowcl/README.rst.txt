@@ -8,7 +8,7 @@ bioconductor-flowcl
 Semantic labelling of flow cytometric cell populations.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/flowCL.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/flowCL.html
 Versions 1.10.0, 1.12.0, 1.14.0, 1.16.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcl

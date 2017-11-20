@@ -8,8 +8,8 @@ bioconductor-rnaprobr
 This package facilitates analysis of Next Generation Sequencing data for which positional information with a single nucleotide resolution is a key. It allows for applying different types of relevant normalizations, data visualization and export in a table or UCSC compatible bedgraph file.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/RNAprobR.html
-Versions 1.8.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/RNAprobR.html
+Versions 1.8.0, 1.9.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaprobr
 ======== ===========

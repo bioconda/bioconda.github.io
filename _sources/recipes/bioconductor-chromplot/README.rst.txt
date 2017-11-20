@@ -8,8 +8,8 @@ bioconductor-chromplot
 Package designed to visualize genomic data along the chromosomes, where the vertical chromosomes are sorted by number, with sex chromosomes at the end.
 
 ======== ===========
-Home     https://bioconductor.org/packages/release/bioc/html/chromPlot.html
-Versions 1.4.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/chromPlot.html
+Versions 1.4.0, 1.6.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromplot
 ======== ===========

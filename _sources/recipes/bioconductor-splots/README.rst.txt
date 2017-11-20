@@ -8,7 +8,7 @@ bioconductor-splots
 The splots package provides the plotScreen function for visualising data in microtitre plate or slide format.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/splots.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/splots.html
 Versions 1.42.0, 1.44.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots

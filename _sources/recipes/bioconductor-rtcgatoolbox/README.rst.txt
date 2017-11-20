@@ -8,8 +8,8 @@ bioconductor-rtcgatoolbox
 Managing data from large scale projects such as The Cancer Genome Atlas (TCGA) for further analysis is an important and time consuming step for research projects. Several efforts, such as Firehose project, make TCGA pre-processed data publicly available via web services and data portals but it requires managing, downloading and preparing the data for following steps. We developed an open source and extensible R based data client for Firehose pre-processed data and demonstrated its use with sample case studies. Results showed that RTCGAToolbox could improve data management for researchers who are interested with TCGA data. In addition, it can be integrated with other analysis pipelines for following data analysis.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/RTCGAToolbox.html
-Versions 2.6.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/RTCGAToolbox.html
+Versions 2.6.0, 2.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcgatoolbox
 ======== ===========

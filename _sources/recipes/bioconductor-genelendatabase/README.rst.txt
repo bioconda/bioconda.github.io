@@ -8,8 +8,8 @@ bioconductor-genelendatabase
 Length of mRNA transcripts for a number of genomes and gene ID formats, largely based on UCSC table browser
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/data/experiment/html/geneLenDataBase.html
-Versions 1.10.0, 1.12.0, 1.6.0
+Home     http://bioconductor.org/packages/3.6/data/experiment/html/geneLenDataBase.html
+Versions 1.10.0, 1.12.0, 1.14.0, 1.6.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genelendatabase
 ======== ===========

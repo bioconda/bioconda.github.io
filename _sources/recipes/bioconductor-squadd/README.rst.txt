@@ -8,7 +8,7 @@ bioconductor-squadd
 This package SQUADD is a SQUAD add-on. It permits to generate SQUAD simulation matrix, prediction Heat-Map and Correlation Circle from PCA analysis.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/SQUADD.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/SQUADD.html
 Versions 1.26.0, 1.28.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-squadd

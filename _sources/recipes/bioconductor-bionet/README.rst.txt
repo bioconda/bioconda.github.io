@@ -8,7 +8,7 @@ bioconductor-bionet
 This package provides functions for the integrated analysis of protein-protein interaction networks and the detection of functional modules. Different datasets can be integrated into the network by assigning p-values of statistical tests to the nodes of the network. E.g. p-values obtained from the differential expression of the genes from an Affymetrix array are assigned to the nodes of the network. By fitting a beta-uniform mixture model and calculating scores from the p-values, overall scores of network regions can be calculated and an integer linear programming algorithm identifies the maximum scoring subnetwork.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/BioNet.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/BioNet.html
 Versions 1.34.0, 1.36.0, 1.38.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bionet

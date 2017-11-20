@@ -8,7 +8,7 @@ bioconductor-biocstyle
 Provides standard formatting styles for Bioconductor PDF and HTML documents. Package vignettes illustrate use and functionality.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/BiocStyle.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/BiocStyle.html
 Versions 1.8.0, 2.0.2, 2.0.3, 2.4.1, 2.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocstyle

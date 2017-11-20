@@ -9,7 +9,7 @@ Assess the contribution of the targeted precursor in fragmentation acquired or a
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/msPurity.html
-Versions 1.3.9
+Versions 1.3.9, 1.4.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity
 ======== ===========

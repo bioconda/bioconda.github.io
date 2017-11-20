@@ -9,7 +9,7 @@ A computational pipeline for finding mutations relative to a reference sequence 
 
 ======== ===========
 Home     https://github.com/barricklab/breseq
-Versions 0.29.0
+Versions 0.29.0, 0.31.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq
 ======== ===========

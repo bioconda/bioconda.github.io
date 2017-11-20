@@ -9,7 +9,7 @@ Plotting functions of Oxford Nanopore sequencing data
 
 ======== ===========
 Home     https://github.com/wdecoster/nanoplotter
-Versions 0.13.2, 0.13.3, 0.22.1
+Versions 0.13.2, 0.13.3, 0.22.1, 0.24.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplotter
 ======== ===========

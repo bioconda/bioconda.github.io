@@ -8,7 +8,7 @@ bioconductor-amountain
 A pure data-driven gene network, weighted gene co-expression network (WGCN) could be constructed only from expression profile. Different layers in such networks may represent different time points, multiple conditions or various species. AMOUNTAIN aims to search active modules in multi-layer WGCN using a continuous optimization approach.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/AMOUNTAIN.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/AMOUNTAIN.html
 Versions 1.2.0, 1.4.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amountain

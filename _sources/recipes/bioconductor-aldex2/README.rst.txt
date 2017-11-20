@@ -5,10 +5,10 @@ bioconductor-aldex2
 
 |downloads|
 
-A differential abundance analysis for the comparison of two or more conditions. For example, single-organism and meta-RNA-seq high-throughput sequencing assays, or of selected and unselected values from in-vitro sequence selections. Uses a Dirichlet-multinomial model to infer abundance from counts, that has been optimized for three or more experimental replicates. Infers sampling variation and calculates the expected false discovery rate given the biological and sampling variation using the Wilcox rank test or Welches t-test (aldex.ttest) or the glm and Kruskal Wallis tests (aldex.glm). Reports both P and fdr values calculated by the Benjamini Hochberg correction.
+A differential abundance analysis for the comparison of two or more conditions. Useful for analyzing data from standard RNA-seq or meta-RNA-seq assays as well as selected and unselected values from in-vitro sequence selections. Uses a Dirichlet-multinomial model to infer abundance from counts, optimized for three or more experimental replicates. The method infers biological and sampling variation to calculate the expected false discovery rate, given the variation, based on a Wilcox rank test or Welch t-test (via aldex.ttest), or a glm and Kruskal-Wallis test (via aldex.glm). Reports p-values and Benjamini-Hochberg corrected p-values.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/ALDEx2.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/ALDEx2.html
 Versions 1.10.0, 1.8.0
 License  file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2

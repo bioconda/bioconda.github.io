@@ -8,8 +8,8 @@ bioconductor-segmentseq
 High-throughput sequencing technologies allow the production of large volumes of short sequences, which can be aligned to the genome to create a set of matches to the genome. By looking for regions of the genome which to which there are high densities of matches, we can infer a segmentation of the genome into regions of biological significance. The methods in this package allow the simultaneous segmentation of data from multiple samples, taking into account replicate data, in order to create a consensus segmentation. This has obvious applications in a number of classes of sequencing experiments, particularly in the discovery of small RNA loci and novel mRNA transcriptome discovery.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/segmentSeq.html
-Versions 2.10.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/segmentSeq.html
+Versions 2.10.0, 2.12.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq
 ======== ===========

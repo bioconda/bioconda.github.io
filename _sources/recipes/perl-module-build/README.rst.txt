@@ -9,7 +9,7 @@ Build and install Perl modules
 
 ======== ===========
 Home     http://metacpan.org/pod/Module-Build
-Versions 0.4214
+Versions 0.4214, 0.4224
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build
 ======== ===========

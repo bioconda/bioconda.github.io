@@ -8,8 +8,8 @@ bioconductor-methylseekr
 This is a package for the discovery of regulatory regions from Bis-seq data
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/MethylSeekR.html
-Versions 1.16.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/MethylSeekR.html
+Versions 1.16.0, 1.18.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylseekr
 ======== ===========

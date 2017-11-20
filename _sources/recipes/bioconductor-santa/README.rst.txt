@@ -8,7 +8,7 @@ bioconductor-santa
 This package provides methods for measuring the strength of association between a network and a phenotype. It does this by measuring clustering of the phenotype across the network (Knet). Vertices can also be individually ranked by their strength of association with high-weight vertices (Knode).
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/SANTA.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/SANTA.html
 Versions 2.14.0, 2.16.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-santa

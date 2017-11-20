@@ -12,7 +12,7 @@ components analysis (PCA) plots and explore molecular structures and annotation.
 
 ======== ===========
 Home     http://www.jalview.org/
-Versions 2.10.2b2
+Versions 2.10.2b2, 2.10.3
 License  GNU GENERAL PUBLIC LICENSE, Version 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview
 ======== ===========

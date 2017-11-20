@@ -8,8 +8,8 @@ bioconductor-cnanorm
 Performs ratio, GC content correction and normalization of data obtained using low coverage (one read every 100-10,000 bp) high troughput sequencing. It performs a "discrete" normalization looking for the ploidy of the genome. It will also provide tumour content if at least two ploidy states can be found.
 
 ======== ===========
-Home     https://www.bioconductor.org/packages/release/bioc/html/CNAnorm.html
-Versions 1.22.1
+Home     http://bioconductor.org/packages/3.6/bioc/html/CNAnorm.html
+Versions 1.22.1, 1.24.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnanorm
 ======== ===========

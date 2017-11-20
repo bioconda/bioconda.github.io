@@ -8,7 +8,7 @@ bioconductor-mgfm
 The package is designed to detect marker genes from Microarray gene expression data sets
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/MGFM.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/MGFM.html
 Versions 1.10.0, 1.12.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfm

@@ -8,8 +8,8 @@ bioconductor-beat
 Model-based analysis of single-cell methylation data
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/BEAT.html
-Versions 1.14.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/BEAT.html
+Versions 1.14.0, 1.16.0
 License  LGPL (>= 3.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beat
 ======== ===========

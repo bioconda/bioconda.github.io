@@ -244,7 +244,7 @@ performed for R packages.</p>
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
 <p>Use the <code class="docutils literal"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
 skeleton. Note that if you set up your development environment using
-<code class="docutils literal"><span class="pre">simulate-travis-py</span> <span class="pre">--bootstrap</span> <span class="pre">/tmp/miniconda</span></code> then <code class="docutils literal"><span class="pre">bioconda-utils</span></code> is
+<code class="docutils literal"><span class="pre">simulate-travis.py</span> <span class="pre">--bootstrap</span> <span class="pre">/tmp/miniconda</span></code> then <code class="docutils literal"><span class="pre">bioconda-utils</span></code> is
 installed but by design is not added to your path in order to maintain
 separation from any of your existing environments. So you will need to call
 <code class="docutils literal"><span class="pre">/tmp/miniconda/bin/bioconda-utils</span> <span class="pre">bioconductor-skeleton</span> <span class="pre">-h</span></code> to view the help.</p>
@@ -393,9 +393,6 @@ starting at 1.0.0 for metapackages.</p>
 <p>Packaging is hard. Here are some examples, in no particular order, of how
 contributors have solved various problems:</p>
 <ul class="simple">
-<li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast">blast</a>
-has an OS-specific installation – OSX copies binaries while on Linux it is
-compiled.</li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphviz">graphviz</a>
 has an OS-specific option to <code class="docutils literal"><span class="pre">configure</span></code></li>
 <li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossmap">crossmap</a>

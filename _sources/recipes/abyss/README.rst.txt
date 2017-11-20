@@ -9,7 +9,7 @@ Assembly By Short Sequences - a de novo, parallel, paired-end sequence assembler
 
 ======== ===========
 Home     http://www.bcgsc.ca/platform/bioinfo/software/abyss
-Versions 1.5.2, 1.9.0, 2.0.1
+Versions 1.5.2, 1.9.0, 2.0.1, 2.0.2
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss
 ======== ===========

@@ -9,7 +9,7 @@ check invariants on genomic coords in table(s).
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332
+Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checktablecoords
 ======== ===========

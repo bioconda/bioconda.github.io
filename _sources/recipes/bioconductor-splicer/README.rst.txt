@@ -8,8 +8,8 @@ bioconductor-splicer
 An R package for classification of alternative splicing and prediction of coding potential from RNA-seq data.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/spliceR.html
-Versions 1.18.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/spliceR.html
+Versions 1.18.0, 1.20.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splicer
 ======== ===========

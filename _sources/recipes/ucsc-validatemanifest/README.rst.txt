@@ -9,7 +9,7 @@ Validates the ENCODE3 manifest.txt file.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332
+Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-validatemanifest
 ======== ===========

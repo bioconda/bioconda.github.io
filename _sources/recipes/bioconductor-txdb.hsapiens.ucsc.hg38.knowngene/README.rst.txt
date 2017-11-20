@@ -8,7 +8,7 @@ bioconductor-txdb.hsapiens.ucsc.hg38.knowngene
 Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/data/annotation/html/TxDb.Hsapiens.UCSC.hg38.knownGene.html
+Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Hsapiens.UCSC.hg38.knownGene.html
 Versions 3.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg38.knowngene

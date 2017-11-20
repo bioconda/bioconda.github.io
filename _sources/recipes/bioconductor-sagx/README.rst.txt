@@ -8,7 +8,7 @@ bioconductor-sagx
 A package for retrieval, preparation and analysis of data from the Affymetrix GeneChip. In particular the issue of identifying differentially expressed genes is addressed.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/SAGx.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/SAGx.html
 Versions 1.50.0, 1.52.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagx

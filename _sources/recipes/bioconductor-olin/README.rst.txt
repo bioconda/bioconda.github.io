@@ -8,7 +8,7 @@ bioconductor-olin
 Functions for normalisation of two-color microarrays by optimised local regression and for detection of artefacts in microarray data
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/OLIN.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/OLIN.html
 Versions 1.54.0, 1.56.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin

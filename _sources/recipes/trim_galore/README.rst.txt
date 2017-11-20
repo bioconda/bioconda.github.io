@@ -9,7 +9,7 @@ Trim Galore! is a wrapper script to automate quality and adapter trimming as wel
 
 ======== ===========
 Home     http://www.bioinformatics.babraham.ac.uk/projects/trim_galore/
-Versions 0.4.1, 0.4.3, 0.4.4
+Versions 0.4.1, 0.4.3, 0.4.4, 0.4.5
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trim_galore
 ======== ===========

@@ -8,7 +8,7 @@ bioconductor-biomart
 In recent years a wealth of biological data has become available in public data repositories. Easy access to these valuable data resources and firm integration with data analysis is needed for comprehensive bioinformatics data analysis.  biomaRt provides an interface to a growing collection of databases implementing the BioMart software suite (http://www.biomart.org). The package enables retrieval of large amounts of data in a uniform way without the need to know the underlying database schemas or write complex SQL queries. Examples of BioMart databases are Ensembl, COSMIC, Uniprot, HGNC, Gramene, Wormbase and dbSNP mapped to Ensembl. These major databases give biomaRt users direct access to a diverse set of data and enable a wide range of powerful online queries from gene annotation to database mining.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/biomaRt.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/biomaRt.html
 Versions 2.26.0, 2.26.1, 2.27.0, 2.28.0, 2.30.0, 2.32.1, 2.34.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart

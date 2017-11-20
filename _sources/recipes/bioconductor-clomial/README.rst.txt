@@ -8,8 +8,8 @@ bioconductor-clomial
 Clomial fits binomial distributions to counts obtained from Next Gen Sequencing data of multiple samples of the same tumor. The trained parameters can be interpreted to infer the clonal structure of the tumor.
 
 ======== ===========
-Home     https://www.bioconductor.org/packages/release/bioc/html/Clomial.html
-Versions 1.12.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/Clomial.html
+Versions 1.12.0, 1.14.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clomial
 ======== ===========

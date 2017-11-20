@@ -8,7 +8,7 @@ bioconductor-rbioinf
 Functions and datasets and examples to accompany the monograph R For Bioinformatics.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/RBioinf.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/RBioinf.html
 Versions 1.36.0, 1.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbioinf

@@ -8,8 +8,8 @@ bioconductor-splinter
 SPLINTER provides tools to analyze alternative splicing sites, interpret outcomes based on sequence information, select and design primers for site validiation and give visual representation of the event to guide downstream experiments.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/SPLINTER.html
-Versions 1.2.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/SPLINTER.html
+Versions 1.2.0, 1.4.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splinter
 ======== ===========

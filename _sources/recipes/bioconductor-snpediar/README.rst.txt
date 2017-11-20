@@ -8,7 +8,7 @@ bioconductor-snpediar
 SNPediaR provides some tools for downloading and parsing data from the SNPedia web site <http://www.snpedia.com>. The implemented functions allow users to import the wiki text available in SNPedia pages and to extract the most relevant information out of them. If some information in the downloaded pages is not automatically processed by the library functions, users can easily implement their own parsers to access it in an efficient way.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/SNPediaR.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/SNPediaR.html
 Versions 1.2.0, 1.4.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpediar

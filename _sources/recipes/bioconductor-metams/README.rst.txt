@@ -8,8 +8,8 @@ bioconductor-metams
 MS-based metabolomics data processing and compound annotation pipeline.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/metaMS.html
-Versions 1.12.0, 1.8.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/metaMS.html
+Versions 1.12.0, 1.14.0, 1.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metams
 ======== ===========

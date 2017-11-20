@@ -9,9 +9,9 @@ A MOD-score analysis in which parametric LOD scores are maximized over the param
 
 ======== ===========
 Home     https://www.helmholtz-muenchen.de/en/ige/service/software-download/genehunter-modscore/index.html
-Versions 3.1
+Versions 3.0, 3.1
 License  INDIVIDUAL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter/3.1
 ======== ===========
 
 Installation

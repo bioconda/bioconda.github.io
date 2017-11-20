@@ -594,6 +594,32 @@ now try running the tests in the recipe that failed, or otherwise poke around
 in the running container to see what the problem was.</li>
 </ul>
 </div>
+<div class="section" id="using-the-extended-image">
+<h2>Using the extended image<a class="headerlink" href="#using-the-extended-image" title="Permalink to this headline">¶</a></h2>
+<p>For the vast majority of recipes, we use a minimal BusyBox container for
+testing and to upload to quay.io. This allows us to greatly reduce the size of
+images, but there are some packages that are not compatible with the minimal
+container. To support these cases, we offer the ability to in special cases use
+an “extended base” container. This container is maintained at
+<a class="reference external" href="https://github.com/bioconda/bioconda-extended-base-image">https://github.com/bioconda/bioconda-extended-base-image</a> and is automatically
+built by DockerHub when Dockerfile is updated in the GitHub repo.</p>
+<p>Please note that <strong>this is not a general solution to packaging issues</strong>, and
+should only be used as a last resort. Cases where the extended base has been
+needed are:</p>
+<ul class="simple">
+<li>Unicode support is required (especially if a package uses the <code class="docutils literal"><span class="pre">click</span></code>
+Python package under Python 3; see for example comments <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/pull/5541#issuecomment-323755800">here</a>
+and <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/pull/6094#issuecomment-332272936">here</a>).</li>
+<li><code class="docutils literal"><span class="pre">libGL.so.1</span></code> dependency</li>
+<li><code class="docutils literal"><span class="pre">openssl</span></code> dependency, e.g., through <code class="docutils literal"><span class="pre">openmpi</span></code></li>
+</ul>
+<p>To use the extended container, add the following to a recipe’s <code class="docutils literal"><span class="pre">meta.yaml</span></code>:</p>
+<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">extra</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">container</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">extended-base</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 
@@ -629,6 +655,7 @@ in the running container to see what the problem was.</li>
 <li class="toctree-l3"><a class="reference internal" href="#zlib-errors">ZLIB errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#usr-bin-perl-or-usr-bin-python-not-found"><code class="docutils literal"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal"><span class="pre">/usr/bin/python</span></code> not found</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#troubleshooting-failed-mulled-build-tests">Troubleshooting failed <code class="docutils literal"><span class="pre">mulled-build</span></code> tests</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#using-the-extended-image">Using the extended image</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>

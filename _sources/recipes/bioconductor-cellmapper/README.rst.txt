@@ -8,7 +8,7 @@ bioconductor-cellmapper
 Infers cell type-specific expression based on co-expression similarity with known cell type marker genes. Can make accurate predictions using publicly available expression data, even when a cell type has not been isolated before.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/CellMapper.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/CellMapper.html
 Versions 1.2.0, 1.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellmapper

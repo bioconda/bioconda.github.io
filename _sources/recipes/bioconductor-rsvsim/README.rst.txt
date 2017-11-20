@@ -8,8 +8,8 @@ bioconductor-rsvsim
 RSVSim is a package for the simulation of deletions, insertions, inversion, tandem-duplications and translocations of various sizes in any genome available as FASTA-file or BSgenome data package. SV breakpoints can be placed uniformly accross the whole genome, with a bias towards repeat regions and regions of high homology (for hg19) or at user-supplied coordinates.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/RSVSim.html
-Versions 1.16.0
+Home     http://bioconductor.org/packages/3.6/bioc/html/RSVSim.html
+Versions 1.16.0, 1.18.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsvsim
 ======== ===========

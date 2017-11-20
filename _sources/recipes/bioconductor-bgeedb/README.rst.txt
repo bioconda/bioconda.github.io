@@ -8,7 +8,7 @@ bioconductor-bgeedb
 A package for the annotation and gene expression data download from Bgee database, and TopAnat analysis: GO-like enrichment of anatomical terms, mapped to genes by expression patterns.
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/BgeeDB.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/BgeeDB.html
 Versions 2.2.0, 2.4.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb

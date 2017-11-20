@@ -9,7 +9,7 @@ Remove overlapping records from a (sorted) bed file.  Gets rid of
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332
+Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap
 ======== ===========

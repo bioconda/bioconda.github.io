@@ -9,7 +9,7 @@ Convert all or part of .2bit file to fasta
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332
+Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobittofa
 ======== ===========

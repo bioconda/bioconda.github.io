@@ -8,7 +8,7 @@ bioconductor-seqlogo
 seqLogo takes the position weight matrix of a DNA sequence motif and plots the corresponding sequence logo as introduced by Schneider and Stephens (1990).
 
 ======== ===========
-Home     http://bioconductor.org/packages/3.5/bioc/html/seqLogo.html
+Home     http://bioconductor.org/packages/3.6/bioc/html/seqLogo.html
 Versions 1.36.0, 1.38.0, 1.42.0, 1.44.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqlogo
