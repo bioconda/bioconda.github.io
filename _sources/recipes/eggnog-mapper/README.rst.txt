@@ -9,7 +9,7 @@ Fast genome-wide functional annotation through orthology assignment
 
 ======== ===========
 Home     https://github.com/jhcepas/eggnog-mapper
-Versions 1.0.0, 1.0.1, 1.0.2
+Versions 1.0.0, 1.0.1, 1.0.2, 1.0.3
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eggnog-mapper
 ======== ===========
