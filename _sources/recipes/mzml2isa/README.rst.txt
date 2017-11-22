@@ -8,8 +8,8 @@ mzml2isa
 mzml2isa - mzML to ISA-tab parsing tool
 
 ======== ===========
-Home     http://www.biosciences.bham.ac.uk/labs/viant/
-Versions 0.4.24
+Home     https://github.com/ISA-tools/mzml2isa
+Versions 0.4.24, 0.5.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzml2isa
 ======== ===========

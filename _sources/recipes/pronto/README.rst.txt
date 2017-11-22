@@ -5,12 +5,12 @@ pronto
 
 |downloads|
 
-Python frontend to ontologies - a library to parse, create, browse and export ontologies.
+Python frontend to ontologies
 
 ======== ===========
 Home     http://github.com/althonos/pronto
-Versions 0.3.3
-License  GNU General Public License v3 (GPLv3)
+Versions 0.10.2, 0.3.3
+License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pronto
 ======== ===========
 
