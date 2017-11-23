@@ -5,7 +5,7 @@ ucsc-bigpsltopsl
 
 |downloads|
 
-convert bigPsl file to psle
+convert bigPsl file to psl
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/

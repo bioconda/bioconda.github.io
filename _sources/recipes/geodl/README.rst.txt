@@ -5,12 +5,12 @@ geodl
 
 |downloads|
 
-Dowload FASTQ files from GEO-NCBI with ease
+Download FASTQ files from GEO-NCBI and ENA with ease
 
 ======== ===========
 Home     https://github.com/jduc/geoDL
-Versions 1.0b1
-License  GPL
+Versions 1.0b1, 1.0b5.1
+License  GPL-3-0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geodl
 ======== ===========
 

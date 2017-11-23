@@ -5,7 +5,7 @@ ucsc-bedclip
 
 |downloads|
 
-Remove lines from bed file that refer to off-chromosome places.
+Remove lines from bed file that refer to off-chromosome locations.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/

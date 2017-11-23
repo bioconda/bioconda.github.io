@@ -522,6 +522,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-localtime/README.html">ucsc-localtime</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-xml-sax-writer/README.html">perl-xml-sax-writer</a></td>
         
         <td>0.56</td>
@@ -553,6 +567,34 @@ Available packages
         <td><a href="recipes/metaseq-all/README.html">metaseq-all</a></td>
         
         <td>0.5.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-gff3topsl/README.html">ucsc-gff3topsl</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-gff3topsl/README.html">ucsc-gff3topsl</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -1572,6 +1614,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-hgu133plus2.db/README.html">bioconductor-hgu133plus2.db</a></td>
+        
+        <td>3.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-io-prompt/README.html">perl-io-prompt</a></td>
         
         <td>0.997004</td>
@@ -1757,6 +1813,34 @@ Available packages
         <td><a href="recipes/bioconductor-cancermutationanalysis/README.html">bioconductor-cancermutationanalysis</a></td>
         
         <td>1.20.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafaddqrows/README.html">ucsc-mafaddqrows</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafaddqrows/README.html">ucsc-mafaddqrows</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -2527,6 +2611,20 @@ Available packages
         <td><a href="recipes/oncofuse/README.html">oncofuse</a></td>
         
         <td>1.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgfindspec/README.html">ucsc-hgfindspec</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -3392,6 +3490,48 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vcfkit/README.html">vcfkit</a></td>
+        
+        <td>0.1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadchain/README.html">ucsc-hgloadchain</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadchain/README.html">ucsc-hgloadchain</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/jbrowse/README.html">jbrowse</a></td>
         
         <td>1.12.1</td>
@@ -3661,6 +3801,20 @@ Available packages
         <td><a href="recipes/fastq-and-furious/README.html">fastq-and-furious</a></td>
         
         <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fastq-and-furious/README.html">fastq-and-furious</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         
@@ -4347,6 +4501,20 @@ Available packages
         <td><a href="recipes/irfinder/README.html">irfinder</a></td>
         
         <td>1.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-blat/README.html">ucsc-blat</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -5114,6 +5282,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/geodl/README.html">geodl</a></td>
+        
+        <td>1.0b5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/wgsim/README.html">wgsim</a></td>
         
         <td>1.0</td>
@@ -5319,6 +5501,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgfakeagp/README.html">ucsc-hgfakeagp</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -7021,6 +7217,20 @@ Available packages
         <td><a href="recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/README.html">bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene</a></td>
         
         <td>3.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hubcheck/README.html">ucsc-hubcheck</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -11067,6 +11277,34 @@ Available packages
         <td><a href="recipes/ant/README.html">ant</a></td>
         
         <td>1.9.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafcoverage/README.html">ucsc-mafcoverage</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafcoverage/README.html">ucsc-mafcoverage</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -15180,6 +15418,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgspeciesrna/README.html">ucsc-hgspeciesrna</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/impute2/README.html">impute2</a></td>
         
         <td>2.3.2</td>
@@ -16552,6 +16804,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-maftosnpbed/README.html">ucsc-maftosnpbed</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maftosnpbed/README.html">ucsc-maftosnpbed</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ndex-python/README.html">ndex-python</a></td>
         
         <td>3.0.11.23</td>
@@ -17490,6 +17770,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-pslrc/README.html">ucsc-pslrc</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/xsv/README.html">xsv</a></td>
         
         <td>0.10.3</td>
@@ -17854,6 +18148,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgloadout/README.html">ucsc-hgloadout</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-nibfrag/README.html">ucsc-nibfrag</a></td>
         
         <td>324</td>
@@ -17883,6 +18191,34 @@ Available packages
     <tr>
         
         <td><a href="recipes/ucsc-nibfrag/README.html">ucsc-nibfrag</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maftopsl/README.html">ucsc-maftopsl</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maftopsl/README.html">ucsc-maftopsl</a></td>
         
         <td>357</td>
         
@@ -20780,6 +21116,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-mktime/README.html">ucsc-mktime</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-a4preproc/README.html">bioconductor-a4preproc</a></td>
         
         <td>1.24.0</td>
@@ -23426,6 +23776,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-mafsinregion/README.html">ucsc-mafsinregion</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafsinregion/README.html">ucsc-mafsinregion</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-tweedeseq/README.html">bioconductor-tweedeseq</a></td>
         
         <td>1.22.0</td>
@@ -24756,6 +25134,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-transmappsltogenepred/README.html">ucsc-transmappsltogenepred</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/inheritance/README.html">inheritance</a></td>
         
         <td>0.0.3</td>
@@ -24955,6 +25347,20 @@ Available packages
         <td><a href="recipes/r-phangorn/README.html">r-phangorn</a></td>
         
         <td>2.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-ixixx/README.html">ucsc-ixixx</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -26884,6 +27290,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgbbidblink/README.html">ucsc-hgbbidblink</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/maxbin2/README.html">maxbin2</a></td>
         
         <td>2.2.1</td>
@@ -26915,6 +27335,20 @@ Available packages
         <td><a href="recipes/perl-test-files/README.html">perl-test-files</a></td>
         
         <td>0.14</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-lavtoaxt/README.html">ucsc-lavtoaxt</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -27444,6 +27878,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-htmlcheck/README.html">ucsc-htmlcheck</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-pslstats/README.html">ucsc-pslstats</a></td>
         
         <td>324</td>
@@ -27495,6 +27943,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-fastqstatsandsubsample/README.html">ucsc-fastqstatsandsubsample</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -28103,6 +28565,20 @@ Available packages
     <tr>
         
         <td><a href="recipes/ucsc-taillines/README.html">ucsc-taillines</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mrnatogene/README.html">ucsc-mrnatogene</a></td>
         
         <td>357</td>
         
@@ -29194,6 +29670,48 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-mafranges/README.html">ucsc-mafranges</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafranges/README.html">ucsc-mafranges</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-expmatrixtobarchartbed/README.html">ucsc-expmatrixtobarchartbed</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-beadarray/README.html">bioconductor-beadarray</a></td>
         
         <td>2.26.1</td>
@@ -29810,6 +30328,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-newprog/README.html">ucsc-newprog</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-bubbletree/README.html">bioconductor-bubbletree</a></td>
         
         <td>2.1.5</td>
@@ -30303,6 +30835,34 @@ Available packages
         <td><a href="recipes/bioconductor-rtrmui/README.html">bioconductor-rtrmui</a></td>
         
         <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafgene/README.html">ucsc-mafgene</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafgene/README.html">ucsc-mafgene</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -37118,6 +37678,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-mafmefirst/README.html">ucsc-mafmefirst</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafmefirst/README.html">ucsc-mafmefirst</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-genominator/README.html">bioconductor-genominator</a></td>
         
         <td>1.30.0</td>
@@ -37706,6 +38294,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgloadwiggle/README.html">ucsc-hgloadwiggle</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadwiggle/README.html">ucsc-hgloadwiggle</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-safe/README.html">perl-safe</a></td>
         
         <td>2.37</td>
@@ -38028,6 +38644,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pgsa/README.html">pgsa</a></td>
+        
+        <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/carna/README.html">carna</a></td>
         
         <td>1.3.1</td>
@@ -38101,6 +38731,34 @@ Available packages
         <td><a href="recipes/verifybamid/README.html">verifybamid</a></td>
         
         <td>1.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafaddirows/README.html">ucsc-mafaddirows</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafaddirows/README.html">ucsc-mafaddirows</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -42662,6 +43320,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-mafsplit/README.html">ucsc-mafsplit</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafsplit/README.html">ucsc-mafsplit</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/smhasher/README.html">smhasher</a></td>
         
         <td>0.150.1</td>
@@ -44933,6 +45619,20 @@ Available packages
         <td><a href="recipes/bioconductor-rama/README.html">bioconductor-rama</a></td>
         
         <td>1.52.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-pslmappostchain/README.html">ucsc-pslmappostchain</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -47296,6 +47996,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgsqldump/README.html">ucsc-hgsqldump</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/abyss/README.html">abyss</a></td>
         
         <td>1.5.2</td>
@@ -47346,7 +48060,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -47647,6 +48361,20 @@ Available packages
     <tr>
         
         <td><a href="recipes/ucsc-chainmergesort/README.html">ucsc-chainmergesort</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-netsplit/README.html">ucsc-netsplit</a></td>
         
         <td>357</td>
         
@@ -48052,6 +48780,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgtrackdb/README.html">ucsc-hgtrackdb</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/plant_tribes_gene_family_phylogeny_builder/README.html">plant_tribes_gene_family_phylogeny_builder</a></td>
         
         <td>1.0.0</td>
@@ -48111,6 +48853,20 @@ Available packages
         <td><a href="recipes/shortreadsconnector/README.html">shortreadsconnector</a></td>
         
         <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/shortreadsconnector/README.html">shortreadsconnector</a></td>
+        
+        <td>1.1.3</td>
         
         <td></td>
         
@@ -48948,6 +49704,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hubpubliccheck/README.html">ucsc-hubpubliccheck</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ucsc-ratolines/README.html">ucsc-ratolines</a></td>
         
         <td>324</td>
@@ -48977,6 +49747,20 @@ Available packages
     <tr>
         
         <td><a href="recipes/ucsc-ratolines/README.html">ucsc-ratolines</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-gmtime/README.html">ucsc-gmtime</a></td>
         
         <td>357</td>
         
@@ -49259,6 +50043,20 @@ Available packages
         <td><a href="recipes/bioconductor-fourcseq/README.html">bioconductor-fourcseq</a></td>
         
         <td>1.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-glimma/README.html">bioconductor-glimma</a></td>
+        
+        <td>1.6.0</td>
         
         <td></td>
         
@@ -49914,6 +50712,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-egsea/README.html">bioconductor-egsea</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/varscan/README.html">varscan</a></td>
         
         <td>2.3.7</td>
@@ -50259,6 +51071,34 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafsplitpos/README.html">ucsc-mafsplitpos</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafsplitpos/README.html">ucsc-mafsplitpos</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -52462,6 +53302,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-overlapselect/README.html">ucsc-overlapselect</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-wiggleplotr/README.html">bioconductor-wiggleplotr</a></td>
         
         <td>1.0.0</td>
@@ -52686,6 +53540,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-maforder/README.html">ucsc-maforder</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maforder/README.html">ucsc-maforder</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-category/README.html">bioconductor-category</a></td>
         
         <td>2.36.0</td>
@@ -52731,6 +53613,34 @@ Available packages
         <td><a href="recipes/bioconductor-category/README.html">bioconductor-category</a></td>
         
         <td>2.44.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffrags/README.html">ucsc-maffrags</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffrags/README.html">ucsc-maffrags</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -54467,6 +55377,20 @@ Available packages
         <td><a href="recipes/perl-lwp-protocol-https/README.html">perl-lwp-protocol-https</a></td>
         
         <td>6.06</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-bigmaftomaf/README.html">ucsc-bigmaftomaf</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -56858,6 +57782,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>90.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/csvtk/README.html">csvtk</a></td>
         
         <td>0.4.4</td>
@@ -58132,6 +59070,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-liftup/README.html">ucsc-liftup</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-liftup/README.html">ucsc-liftup</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/curesim/README.html">curesim</a></td>
         
         <td>1.3</td>
@@ -58933,6 +59899,34 @@ Available packages
         <td><a href="recipes/domclust/README.html">domclust</a></td>
         
         <td>1.2.8a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffilter/README.html">ucsc-maffilter</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffilter/README.html">ucsc-maffilter</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -60078,6 +61072,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-hgloadnet/README.html">ucsc-hgloadnet</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/voluptuous/README.html">voluptuous</a></td>
         
         <td>0.8.8</td>
@@ -60619,6 +61627,62 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffetch/README.html">ucsc-maffetch</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffetch/README.html">ucsc-maffetch</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-lavtopsl/README.html">ucsc-lavtopsl</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-lavtopsl/README.html">ucsc-lavtopsl</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -61548,9 +62612,51 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-maftobigmaf/README.html">ucsc-maftobigmaf</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/check-sort-order/README.html">check-sort-order</a></td>
         
         <td>0.0.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafspeciessubset/README.html">ucsc-mafspeciessubset</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafspeciessubset/README.html">ucsc-mafspeciessubset</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -62853,6 +63959,20 @@ Available packages
         <td><a href="recipes/bioconductor-mpfe/README.html">bioconductor-mpfe</a></td>
         
         <td>1.14.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-linestora/README.html">ucsc-linestora</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -64519,6 +65639,20 @@ Available packages
         <td><a href="recipes/combined-pvalues/README.html">combined-pvalues</a></td>
         
         <td>0.46</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maketablelist/README.html">ucsc-maketablelist</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -66728,6 +67862,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-hgu133a.db/README.html">bioconductor-hgu133a.db</a></td>
+        
+        <td>3.2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-traser/README.html">bioconductor-traser</a></td>
         
         <td>1.6.0</td>
@@ -66773,6 +67921,20 @@ Available packages
         <td><a href="recipes/musicc/README.html">musicc</a></td>
         
         <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/vcfpy/README.html">vcfpy</a></td>
+        
+        <td>0.11.0</td>
         
         <td></td>
         
@@ -67095,6 +68257,34 @@ Available packages
         <td><a href="recipes/abricate/README.html">abricate</a></td>
         
         <td>0.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffrag/README.html">ucsc-maffrag</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maffrag/README.html">ucsc-maffrag</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -68002,6 +69192,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-egseadata/README.html">bioconductor-egseadata</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-pod-escapes/README.html">perl-pod-escapes</a></td>
         
         <td>1.07</td>
@@ -68702,6 +69906,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-genepredtoprot/README.html">ucsc-genepredtoprot</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-sushi/README.html">bioconductor-sushi</a></td>
         
         <td>1.14.0</td>
@@ -69027,6 +70245,20 @@ Available packages
         <td><a href="recipes/cooler/README.html">cooler</a></td>
         
         <td>0.7.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-ldhggene/README.html">ucsc-ldhggene</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -69657,6 +70889,20 @@ Available packages
         <td><a href="recipes/bioconductor-omicade4/README.html">bioconductor-omicade4</a></td>
         
         <td>1.18.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-padog/README.html">bioconductor-padog</a></td>
+        
+        <td>1.20.0</td>
         
         <td></td>
         
@@ -72356,6 +73602,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-keggdzpathwaysgeo/README.html">bioconductor-keggdzpathwaysgeo</a></td>
+        
+        <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/nucleoatac/README.html">nucleoatac</a></td>
         
         <td>0.3.1</td>
@@ -73630,6 +74890,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-headrest/README.html">ucsc-headrest</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/abundancebin/README.html">abundancebin</a></td>
         
         <td>1.0.1</td>
@@ -74003,6 +75277,34 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadoutjoined/README.html">ucsc-hgloadoutjoined</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-bamtopsl/README.html">ucsc-bamtopsl</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -77592,6 +78894,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-maftoaxt/README.html">ucsc-maftoaxt</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-maftoaxt/README.html">ucsc-maftoaxt</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/novoalign/README.html">novoalign</a></td>
         
         <td>3.03.02</td>
@@ -78992,6 +80322,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ucsc-netchainsubset/README.html">ucsc-netchainsubset</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-netchainsubset/README.html">ucsc-netchainsubset</a></td>
+        
+        <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-annotationforge/README.html">bioconductor-annotationforge</a></td>
         
         <td>1.12.2</td>
@@ -79205,6 +80563,34 @@ Available packages
         <td><a href="recipes/blastbesties/README.html">blastbesties</a></td>
         
         <td>1.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafspecieslist/README.html">ucsc-mafspecieslist</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-mafspecieslist/README.html">ucsc-mafspecieslist</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -80115,6 +81501,20 @@ Available packages
         <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
         
         <td>0.3.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-scpipe/README.html">bioconductor-scpipe</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -81333,6 +82733,34 @@ Available packages
         <td><a href="recipes/bioconductor-methylmnm/README.html">bioconductor-methylmnm</a></td>
         
         <td>1.16.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadbed/README.html">ucsc-hgloadbed</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadbed/README.html">ucsc-hgloadbed</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
@@ -82845,6 +84273,34 @@ Available packages
         <td><a href="recipes/regex/README.html">regex</a></td>
         
         <td>2016.06.24</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadmaf/README.html">ucsc-hgloadmaf</a></td>
+        
+        <td>324</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ucsc-hgloadmaf/README.html">ucsc-hgloadmaf</a></td>
+        
+        <td>357</td>
         
         <td></td>
         
