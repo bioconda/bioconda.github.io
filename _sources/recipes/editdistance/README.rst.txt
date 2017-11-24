@@ -9,7 +9,7 @@ Fast implementation of the edit distance (Levenshtein distance)
 
 ======== ===========
 Home     https://www.github.com/aflc/editdistance
-Versions 0.3.1
+Versions 0.3.1, 0.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/editdistance
 ======== ===========

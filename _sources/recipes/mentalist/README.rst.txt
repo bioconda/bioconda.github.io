@@ -9,7 +9,7 @@ The MLST pipeline developed by the PathOGiST research group.
 
 ======== ===========
 Home     https://github.com/WGS-TB/MentaLiST
-Versions 0.1.2, 0.1.3
+Versions 0.1.2, 0.1.3, 0.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mentalist
 ======== ===========

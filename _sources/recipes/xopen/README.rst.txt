@@ -9,7 +9,7 @@ Open compressed files transparently in Python
 
 ======== ===========
 Home     https://github.com/marcelm/xopen
-Versions 0.1.0, 0.1.1
+Versions 0.1.0, 0.1.1, 0.3.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen
 ======== ===========
