@@ -1,0 +1,50 @@
+.. _`sibelia`:
+
+sibelia
+=======
+
+|downloads|
+
+Genome comparison via de Bruijn graph.
+
+======== ===========
+Home     https://github.com/bioinf/Sibelia
+Versions 3.0.6
+License  GPLv2
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sibelia
+======== ===========
+
+Installation
+------------
+
+.. highlight: bash
+
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+   conda install sibelia
+
+and update with::
+
+   conda update sibelia
+
+
+
+|docker|
+
+A Docker container is available at https://quay.io/repository/biocontainers/sibelia.
+
+Link to this page
+-----------------
+
+Render an |badge| badge with the following Markdown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/sibelia/README.html)
+
+.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
+           :target: http://bioconda.github.io/recipes/sibelia/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/sibelia/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/sibelia
+.. |docker| image:: https://quay.io/repository/biocontainers/sibelia/status
+                :target: https://quay.io/repository/biocontainers/sibelia
+
+
