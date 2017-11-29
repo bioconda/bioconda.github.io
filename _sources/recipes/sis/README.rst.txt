@@ -9,8 +9,8 @@ A tool that uses mummer to scaffold small genomes.
 
 ======== ===========
 Home     http://marte.ic.unicamp.br:8747/
-Versions 0.1.0
-License  This software is experimental in nature and is supplied "AS IS", without obligation by the authors to provide  accompanying services or support.  The entire risk as to the quality  and performance of the Software is with you. The authors EXPRESSLY DISCLAIM ANY AND ALL WARRANTIES REGARDING THE SOFTWARE,  WHETHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO WARRANTIES  PERTAINING TO MERCHANTABILITY OR FITNESS FOR A PARTICULAR PURPOSE.
+Versions 0.1.0, 0.1.2
+License  GPLv2+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sis
 ======== ===========
 

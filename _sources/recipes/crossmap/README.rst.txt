@@ -9,8 +9,8 @@ Convert genomic coordiates between assemblies
 
 ======== ===========
 Home     http://crossmap.sourceforge.net
-Versions 0.2.1, 0.2.2, 0.2.5
-License  GPL
+Versions 0.2.1, 0.2.2, 0.2.5, 0.2.7
+License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossmap
 ======== ===========
 
