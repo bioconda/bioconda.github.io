@@ -24280,6 +24280,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/deepmedic/README.html">deepmedic</a></td>
+        
+        <td>0.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/umis/README.html">umis</a></td>
         
         <td>0.2.2a0</td>
@@ -25879,6 +25893,20 @@ Available packages
         <td><a href="recipes/embl-api-validator/README.html">embl-api-validator</a></td>
         
         <td>1.1.173</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/embl-api-validator/README.html">embl-api-validator</a></td>
+        
+        <td>1.1.180</td>
         
         <td></td>
         
@@ -53134,6 +53162,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-biox-workflow-command/README.html">perl-biox-workflow-command</a></td>
+        
+        <td>2.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/roary2fripan.py/README.html">roary2fripan.py</a></td>
         
         <td>0.1</td>
@@ -62895,6 +62937,20 @@ Available packages
         <td><a href="recipes/salmon/README.html">salmon</a></td>
         
         <td>0.9.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/salmon/README.html">salmon</a></td>
+        
+        <td>0.9.1</td>
         
         <td></td>
         
@@ -76264,6 +76320,20 @@ Available packages
         
         <td><a href="recipes/picard/README.html">picard</a></td>
         
+        <td>2.15.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
         <td>2.3.0</td>
         
         <td></td>
@@ -82047,62 +82117,6 @@ Available packages
         <td><a href="recipes/ntcard/README.html">ntcard</a></td>
         
         <td>1.0.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rust/README.html">rust</a></td>
-        
-        <td>1.12.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rust/README.html">rust</a></td>
-        
-        <td>1.14.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rust/README.html">rust</a></td>
-        
-        <td>1.6.0</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/rust/README.html">rust</a></td>
-        
-        <td>1.8.0</td>
         
         <td></td>
         
