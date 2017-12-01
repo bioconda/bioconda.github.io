@@ -2140,7 +2140,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -41710,6 +41710,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-snplocs.hsapiens.dbsnp144.grch38/README.html">bioconductor-snplocs.hsapiens.dbsnp144.grch38</a></td>
+        
+        <td>0.99.20</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-math-derivative/README.html">perl-math-derivative</a></td>
         
         <td>0.04</td>
@@ -44275,6 +44289,20 @@ Available packages
         <td><a href="recipes/ngless/README.html">ngless</a></td>
         
         <td>0.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ngless/README.html">ngless</a></td>
+        
+        <td>0.6.0</td>
         
         <td></td>
         
@@ -53310,7 +53338,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -53661,6 +53689,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/progressivemauve/README.html">progressivemauve</a></td>
+        
+        <td>snapshot_2015_02_13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -62531,6 +62573,20 @@ Available packages
         <td><a href="recipes/gseapy/README.html">gseapy</a></td>
         
         <td>0.7.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gseapy/README.html">gseapy</a></td>
+        
+        <td>0.8.11</td>
         
         <td></td>
         
@@ -80420,6 +80476,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/toulligqc/README.html">toulligqc</a></td>
+        
+        <td>0.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bpp-seq/README.html">bpp-seq</a></td>
         
         <td>2.2.0</td>
@@ -85015,6 +85085,20 @@ Available packages
         <td><a href="recipes/vcf2db/README.html">vcf2db</a></td>
         
         <td>2017.11.15</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/fcsparser/README.html">fcsparser</a></td>
+        
+        <td>0.1.4</td>
         
         <td></td>
         
