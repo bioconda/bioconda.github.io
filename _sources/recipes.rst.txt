@@ -8390,6 +8390,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/phyloflash/README.html">phyloflash</a></td>
+        
+        <td>3.0b1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/igdiscover/README.html">igdiscover</a></td>
         
         <td>0.3</td>
@@ -11927,6 +11941,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/tombo/README.html">tombo</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -24065,6 +24093,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mykrobe/README.html">mykrobe</a></td>
+        
+        <td>0.5.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -41080,6 +41122,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-flagme/README.html">bioconductor-flagme</a></td>
+        
+        <td>1.34.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-roar/README.html">bioconductor-roar</a></td>
         
         <td>1.10.0</td>
@@ -49312,6 +49368,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/rambo-k/README.html">rambo-k</a></td>
+        
+        <td>1.21</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rnasnp/README.html">rnasnp</a></td>
         
         <td>1.2</td>
@@ -51821,6 +51891,20 @@ Available packages
         <td><a href="recipes/pureclip/README.html">pureclip</a></td>
         
         <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pureclip/README.html">pureclip</a></td>
+        
+        <td>1.0.3</td>
         
         <td></td>
         
@@ -68996,6 +69080,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ga4ghmongo/README.html">ga4ghmongo</a></td>
+        
+        <td>0.0.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/genepender/README.html">genepender</a></td>
         
         <td>v2.6</td>
@@ -81134,6 +81232,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-try-tiny-retry/README.html">perl-try-tiny-retry</a></td>
+        
+        <td>0.002</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ficus/README.html">ficus</a></td>
         
         <td>0.3</td>
@@ -83481,6 +83593,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mykatlas/README.html">mykatlas</a></td>
+        
+        <td>0.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
