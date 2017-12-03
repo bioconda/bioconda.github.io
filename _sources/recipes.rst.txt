@@ -66798,6 +66798,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/treetime/README.html">treetime</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-bbcanalyzer/README.html">bioconductor-bbcanalyzer</a></td>
         
         <td>1.6.0</td>

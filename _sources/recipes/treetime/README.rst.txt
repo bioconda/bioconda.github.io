@@ -9,9 +9,9 @@ Maximum-Likelihood dating and ancestral inference for phylogenetic trees
 
 ======== ===========
 Home     https://github.com/neherlab/treetime
-Versions 0.1
+Versions 0.1, 0.2.1
 License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treetime
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treetime/0.1
 ======== ===========
 
 Installation
