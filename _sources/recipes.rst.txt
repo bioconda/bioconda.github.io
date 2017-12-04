@@ -16356,6 +16356,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cpinsim/README.html">cpinsim</a></td>
+        
+        <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/krona/README.html">krona</a></td>
         
         <td>2.5</td>
