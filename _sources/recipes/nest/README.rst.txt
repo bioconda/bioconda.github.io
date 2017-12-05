@@ -9,7 +9,7 @@ NEST is a simulator for spiking neural network models.
 
 ======== ===========
 Home     http://www.nest-simulator.org/
-Versions 2.14.0
+Versions 2.12.0, 2.14.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nest
 ======== ===========

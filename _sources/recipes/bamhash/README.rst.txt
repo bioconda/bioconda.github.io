@@ -11,7 +11,7 @@ Hash BAM and FASTQ files to verify data integrity
 Home     https://github.com/DecodeGenetics/BamHash
 Versions 1.0, 1.1
 License  GPL-3-0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.0
 ======== ===========
 
 Installation

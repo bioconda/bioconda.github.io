@@ -5,13 +5,13 @@ mirdeep2
 
 |downloads|
 
-miRNA prediction
+A completely overhauled tool which discovers microRNA genes by analyzing sequenced RNAs
 
 ======== ===========
-Home     https://github.com/lpantano/mirdeep2_core.git
+Home     https://www.mdc-berlin.de/8551903/en/research/research_teams/systems_biology_of_gene_regulatory_elements/projects/miRDeep
 Versions 2.0.0.7, 2.0.0.8
 License  academic
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.7
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.8
 ======== ===========
 
 Installation

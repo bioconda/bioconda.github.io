@@ -11,7 +11,7 @@ Eigen is a C++ template library for linear algebra: matrices, vectors, numerical
 Home     http://eigen.tuxfamily.org
 Versions 2.0.17, 3.1.3, 3.2
 License  MPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigen/3.2
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigen/3.1.3
 ======== ===========
 
 Installation
