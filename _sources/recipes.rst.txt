@@ -20248,6 +20248,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/squizz/README.html">squizz</a></td>
+        
+        <td>0.99d</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-gsalib/README.html">r-gsalib</a></td>
         
         <td>2.1</td>

@@ -9,7 +9,7 @@ Squizz is a sequence/alignment format checker, but it has some conversion capabi
 
 ======== ===========
 Home     http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
-Versions 
+Versions 0.99d
 License  GPL 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz
 ======== ===========
