@@ -14088,6 +14088,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-metarnaseq/README.html">r-metarnaseq</a></td>
+        
+        <td>1.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/pureclip/README.html">pureclip</a></td>
         
         <td>1.0.2</td>
@@ -38190,7 +38204,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td><i class="fa fa-apple"></i></td>
+        <td></td>
         
     </tr>
     
@@ -46675,6 +46689,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pneumocat/README.html">pneumocat</a></td>
+        
+        <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -67218,6 +67246,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/watchdog-wms/README.html">watchdog-wms</a></td>
+        
+        <td>1.2.4b</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-degseq/README.html">bioconductor-degseq</a></td>
         
         <td>1.30.0</td>
@@ -70441,20 +70483,6 @@ Available packages
         <td><a href="recipes/ssu-align/README.html">ssu-align</a></td>
         
         <td>0.1.1</td>
-        
-        <td></td>
-        
-        <td><i class="fa fa-linux"></i></td>
-        
-        <td><i class="fa fa-apple"></i></td>
-        
-    </tr>
-    
-    <tr>
-        
-        <td><a href="recipes/tombo/README.html">tombo</a></td>
-        
-        <td>1.0</td>
         
         <td></td>
         
@@ -75417,6 +75445,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-smvar/README.html">r-smvar</a></td>
+        
+        <td>1.3.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     

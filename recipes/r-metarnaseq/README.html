@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>r-micropan &#8212; Bioconda  documentation</title>
+    <title>r-metarnaseq &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-microseq" href="../r-microseq/README.html" />
-    <link rel="prev" title="r-metarnaseq" href="../r-metarnaseq/README.html" />
+    <link rel="next" title="r-micropan" href="../r-micropan/README.html" />
+    <link rel="prev" title="r-matrixeqtl" href="../r-matrixeqtl/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,47 +69,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-micropan">
-<span id="id1"></span><h1>r-micropan<a class="headerlink" href="#r-micropan" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-micropan"><img alt="downloads" src="https://anaconda.org/bioconda/r-micropan/badges/downloads.svg" /></a></p>
-<p>A collection of functions for computations and visualizations of microbial pan-genomes.</p>
+  <div class="section" id="r-metarnaseq">
+<span id="id1"></span><h1>r-metarnaseq<a class="headerlink" href="#r-metarnaseq" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-metarnaseq"><img alt="downloads" src="https://anaconda.org/bioconda/r-metarnaseq/badges/downloads.svg" /></a></p>
+<p>Implementation of two p-value combination techniques (inverse normal and Fisher methods). A vignette is provided to explain how to perform a meta-analysis from two independent RNA-seq experiments.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="10%" />
-<col width="90%" />
+<col width="9%" />
+<col width="91%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://CRAN.R-project.org/package=micropan">https://CRAN.R-project.org/package=micropan</a></td>
+<td><a class="reference external" href="https://CRAN.R-project.org/package=metaRNASeq">https://CRAN.R-project.org/package=metaRNASeq</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.1.2</td>
+<td>1.0.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-2</td>
+<td>GPL</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">micropan</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">metarnaseq</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">micropan</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">metarnaseq</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-micropan"><img alt="docker" src="https://quay.io/repository/biocontainers/r-micropan/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-micropan">https://quay.io/repository/biocontainers/r-micropan</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-metarnaseq"><img alt="docker" src="https://quay.io/repository/biocontainers/r-metarnaseq/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-metarnaseq">https://quay.io/repository/biocontainers/r-metarnaseq</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-micropan/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-micropan/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-metarnaseq/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-metarnaseq/README.html)
 </pre></div>
 </div>
 </div>
@@ -157,7 +157,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/r-micropan/README.rst.txt"
+      <a href="../../_sources/recipes/r-metarnaseq/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
