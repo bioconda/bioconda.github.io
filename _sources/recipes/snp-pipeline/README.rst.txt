@@ -9,7 +9,7 @@ Script and functions for SNP matrix construction
 
 ======== ===========
 Home     https://github.com/CFSAN-Biostatistics/snp-pipeline
-Versions 0.5.0, 0.7.0
+Versions 0.5.0, 0.7.0, 1.0.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-pipeline
 ======== ===========
