@@ -10,7 +10,7 @@ perl modules for GO and other OBO ontologies
 ======== ===========
 Home     http://metacpan.org/pod/go-perl
 Versions 0.15
-License  unknown
+License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-go-perl
 ======== ===========
 
