@@ -5,11 +5,11 @@ minvar
 
 |downloads|
 
-A tool to detect minority variants in HIV-1 populations
+A tool to detect minority variants in HIV-1 and HCV populations
 
 ======== ===========
 Home     https://git.io/minvar
-Versions 1.2a3, 1.2b
+Versions 1.2a3, 1.2b, 2.0
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minvar
 ======== ===========
