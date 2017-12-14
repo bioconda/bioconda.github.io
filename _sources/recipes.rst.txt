@@ -16216,6 +16216,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
+        
+        <td>0.1.0a20171213</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-rcaspar/README.html">bioconductor-rcaspar</a></td>
         
         <td>1.22.0</td>
@@ -76265,6 +76279,20 @@ Available packages
         <td><a href="recipes/ipython-cluster-helper/README.html">ipython-cluster-helper</a></td>
         
         <td>0.5.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ipython-cluster-helper/README.html">ipython-cluster-helper</a></td>
+        
+        <td>0.6.0</td>
         
         <td></td>
         
