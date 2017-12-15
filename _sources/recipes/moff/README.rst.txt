@@ -9,7 +9,7 @@ moFF is an OS independent tool designed to extract apex MS1 intensity using a se
 
 ======== ===========
 Home     https://github.com/compomics/moFF
-Versions 1.1
+Versions 1.1, 1.2
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff
 ======== ===========
