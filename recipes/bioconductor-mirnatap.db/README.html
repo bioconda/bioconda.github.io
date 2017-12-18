@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-atlasrdf &#8212; Bioconda  documentation</title>
+    <title>bioconductor-mirnatap.db &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-baalchip" href="../bioconductor-baalchip/README.html" />
-    <link rel="prev" title="bioconductor-atacseqqc" href="../bioconductor-atacseqqc/README.html" />
+    <link rel="next" title="bioconductor-mirnatap" href="../bioconductor-mirnatap/README.html" />
+    <link rel="prev" title="bioconductor-mirnapath" href="../bioconductor-mirnapath/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,47 +69,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-atlasrdf">
-<span id="id1"></span><h1>bioconductor-atlasrdf<a class="headerlink" href="#bioconductor-atlasrdf" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-atlasrdf"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-atlasrdf/badges/downloads.svg" /></a></p>
-<p>Query the Gene Expression Atlas RDF data at the European Bioinformatics Institute using genes, experimental factors (such as disease, cell type, compound treatments), pathways and proteins. Also contains a function to perform an enrichment of your gene list across Experimental Factor Ontology (EFO) using the Atlas background set.</p>
+  <div class="section" id="bioconductor-mirnatap-db">
+<span id="id1"></span><h1>bioconductor-mirnatap.db<a class="headerlink" href="#bioconductor-mirnatap-db" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-mirnatap.db"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-mirnatap.db/badges/downloads.svg" /></a></p>
+<p>This package holds the database for miRNAtap.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="9%" />
-<col width="91%" />
+<col width="8%" />
+<col width="92%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/AtlasRDF.html">http://bioconductor.org/packages/3.6/bioc/html/AtlasRDF.html</a></td>
+<td><a class="reference external" href="http://bioconductor.org/packages/3.6/data/annotation/html/miRNAtap.db.html">http://bioconductor.org/packages/3.6/data/annotation/html/miRNAtap.db.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.11.0, 1.12.0</td>
+<td>0.99.10</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Apache License 2.0</td>
+<td>GPL-2</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atlasrdf">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atlasrdf</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">atlasrdf</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mirnatap</span><span class="o">.</span><span class="n">db</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">atlasrdf</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">mirnatap</span><span class="o">.</span><span class="n">db</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-atlasrdf"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-atlasrdf/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-atlasrdf">https://quay.io/repository/biocontainers/bioconductor-atlasrdf</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mirnatap.db"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-mirnatap.db/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-mirnatap.db">https://quay.io/repository/biocontainers/bioconductor-mirnatap.db</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-atlasrdf/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-atlasrdf/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-mirnatap.db/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-mirnatap.db/README.html)
 </pre></div>
 </div>
 </div>
@@ -157,7 +157,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.9</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-atlasrdf/README.rst.txt"
+      <a href="../../_sources/recipes/bioconductor-mirnatap.db/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
