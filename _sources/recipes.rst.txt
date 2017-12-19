@@ -5926,6 +5926,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/cgat-scripts/README.html">cgat-scripts</a></td>
+        
+        <td>0.3.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/ngseqbasic/README.html">ngseqbasic</a></td>
         
         <td>2.0.1</td>
@@ -8351,6 +8365,20 @@ Available packages
         <td><a href="recipes/r-sartools/README.html">r-sartools</a></td>
         
         <td>1.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-sartools/README.html">r-sartools</a></td>
+        
+        <td>1.6.0</td>
         
         <td></td>
         
@@ -13649,6 +13677,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/repeatmodeler/README.html">repeatmodeler</a></td>
+        
+        <td>1.0.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -35158,6 +35200,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-survcomp/README.html">bioconductor-survcomp</a></td>
+        
+        <td>1.28.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-mulcom/README.html">bioconductor-mulcom</a></td>
         
         <td>1.26.0</td>
@@ -40495,6 +40551,20 @@ Available packages
         <td><a href="recipes/bioconductor-calib/README.html">bioconductor-calib</a></td>
         
         <td>1.44.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-cancersubtypes/README.html">bioconductor-cancersubtypes</a></td>
+        
+        <td>1.4.0</td>
         
         <td></td>
         
@@ -48447,6 +48517,20 @@ Available packages
         <td><a href="recipes/perl-data-dumper/README.html">perl-data-dumper</a></td>
         
         <td>2.161</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-genefu/README.html">bioconductor-genefu</a></td>
+        
+        <td>2.10.0</td>
         
         <td></td>
         
@@ -64768,6 +64852,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/minvar/README.html">minvar</a></td>
+        
+        <td>2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/kpal/README.html">kpal</a></td>
         
         <td>2.1.1</td>
@@ -71351,6 +71449,20 @@ Available packages
         <td><a href="recipes/perl-proc-fork/README.html">perl-proc-fork</a></td>
         
         <td>0.804</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-srap/README.html">bioconductor-srap</a></td>
+        
+        <td>1.18.0</td>
         
         <td></td>
         
@@ -81011,6 +81123,20 @@ Available packages
         <td><a href="recipes/perl-gdgraph/README.html">perl-gdgraph</a></td>
         
         <td>1.49</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/novobreak/README.html">novobreak</a></td>
+        
+        <td>1.1.3rc</td>
         
         <td></td>
         
