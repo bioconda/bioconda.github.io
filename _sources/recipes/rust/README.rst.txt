@@ -9,7 +9,7 @@ Rust is a systems programming language that runs blazingly fast, prevents segfau
 
 ======== ===========
 Home     https://www.rust-lang.org
-Versions 
+Versions 1.14.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust
 ======== ===========
