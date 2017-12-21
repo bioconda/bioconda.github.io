@@ -9,7 +9,7 @@ Subtype Salmonella enterica genomes using 33bp k-mer typing schemes.\nIncludes s
 
 ======== ===========
 Home     https://github.com/phac-nml/bio_hansel
-Versions 0.1.0, 0.2.0
+Versions 0.1.0, 0.2.0, 1.1.0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_hansel
 ======== ===========

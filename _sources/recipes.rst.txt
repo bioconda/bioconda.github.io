@@ -5324,6 +5324,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ensembl-vep/README.html">ensembl-vep</a></td>
+        
+        <td>91.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/afterqc/README.html">afterqc</a></td>
         
         <td>0.9.6</td>
@@ -6265,6 +6279,20 @@ Available packages
         <td><a href="recipes/bio_hansel/README.html">bio_hansel</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bio_hansel/README.html">bio_hansel</a></td>
+        
+        <td>1.1.0</td>
         
         <td></td>
         
@@ -20069,6 +20097,20 @@ Available packages
         <td><a href="recipes/perl-go-perl/README.html">perl-go-perl</a></td>
         
         <td>0.15</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/starcode/README.html">starcode</a></td>
+        
+        <td>1.1</td>
         
         <td></td>
         
@@ -42060,6 +42102,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-http-server-simple/README.html">perl-http-server-simple</a></td>
+        
+        <td>0.52</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-agilp/README.html">bioconductor-agilp</a></td>
         
         <td>3.10.0</td>
@@ -59885,6 +59941,20 @@ Available packages
         <td><a href="recipes/perl-test-requires/README.html">perl-test-requires</a></td>
         
         <td>0.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-indirect/README.html">perl-indirect</a></td>
+        
+        <td>0.38</td>
         
         <td></td>
         
