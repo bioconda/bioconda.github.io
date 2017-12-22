@@ -6878,6 +6878,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>4.4.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-bayseq/README.html">bioconductor-bayseq</a></td>
         
         <td>2.10.0</td>
@@ -11095,6 +11109,20 @@ Available packages
         <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
         
         <td>0.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/flashlfq/README.html">flashlfq</a></td>
+        
+        <td>0.1.100</td>
         
         <td></td>
         
@@ -16303,6 +16331,20 @@ Available packages
         <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
         
         <td>0.1.0a20171213</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
+        
+        <td>0.1.0a20171221</td>
         
         <td></td>
         
@@ -29572,6 +29614,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/hicexplorer/README.html">hicexplorer</a></td>
+        
+        <td>2.0.rc</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-splots/README.html">bioconductor-splots</a></td>
         
         <td>1.42.0</td>
@@ -29981,6 +30037,20 @@ Available packages
         <td><a href="recipes/trackhub/README.html">trackhub</a></td>
         
         <td>0.1.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/trackhub/README.html">trackhub</a></td>
+        
+        <td>0.2.4</td>
         
         <td></td>
         
@@ -45532,6 +45602,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/trnascan-se/README.html">trnascan-se</a></td>
+        
+        <td>2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-git-wrapper-plus/README.html">perl-git-wrapper-plus</a></td>
         
         <td>0.004010</td>
@@ -48937,6 +49021,20 @@ Available packages
         <td><a href="recipes/diamond/README.html">diamond</a></td>
         
         <td>0.9.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/diamond/README.html">diamond</a></td>
+        
+        <td>0.9.14</td>
         
         <td></td>
         
@@ -52504,6 +52602,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-rtcga.mrna/README.html">bioconductor-rtcga.mrna</a></td>
+        
+        <td>1.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-affyio/README.html">bioconductor-affyio</a></td>
         
         <td>1.40.0</td>
@@ -56049,6 +56161,20 @@ Available packages
         <td><a href="recipes/r-dpeak/README.html">r-dpeak</a></td>
         
         <td>2.0.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-rtcga/README.html">bioconductor-rtcga</a></td>
+        
+        <td>1.8.0</td>
         
         <td></td>
         
@@ -67722,6 +67848,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/orthofinder/README.html">orthofinder</a></td>
+        
+        <td>2.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/lastz/README.html">lastz</a></td>
         
         <td>1.0.2</td>
@@ -77651,6 +77791,20 @@ Available packages
         <td><a href="recipes/intervene/README.html">intervene</a></td>
         
         <td>0.5.9</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/intervene/README.html">intervene</a></td>
+        
+        <td>0.6.2</td>
         
         <td></td>
         
