@@ -8,8 +8,8 @@ kmc
 K-mer Counter is a utility designed for counting k-mers (sequences of consecutive k symbols) in a set of reads from genome sequencing projects.
 
 ======== ===========
-Home     http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=kmc&subpage=about
-Versions 2.3.0
+Home     http://sun.aei.polsl.pl/kmc/
+Versions 2.3.0, 3.0.1
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc
 ======== ===========
