@@ -15600,6 +15600,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gseapy/README.html">gseapy</a></td>
+        
+        <td>0.9.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bambamc/README.html">bambamc</a></td>
         
         <td>0.0.50</td>
@@ -16359,6 +16373,20 @@ Available packages
         <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
         
         <td>0.1.0a20171221</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
+        
+        <td>0.1.0a20171222</td>
         
         <td></td>
         
@@ -27108,6 +27136,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/arvados-cwl-runner/README.html">arvados-cwl-runner</a></td>
+        
+        <td>1.0.20171211211613</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/rmats/README.html">rmats</a></td>
         
         <td>3.2.2beta</td>
@@ -29644,7 +29686,7 @@ Available packages
         
         <td><a href="recipes/hicexplorer/README.html">hicexplorer</a></td>
         
-        <td>2.0.rc</td>
+        <td>2.0</td>
         
         <td></td>
         
@@ -75688,6 +75730,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/goatools/README.html">goatools</a></td>
+        
+        <td>0.7.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-dbchip/README.html">r-dbchip</a></td>
         
         <td>1.1.6</td>
@@ -81333,6 +81389,20 @@ Available packages
         <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
         
         <td>2.6.20170927145003</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/schema-salad/README.html">schema-salad</a></td>
+        
+        <td>2.6.20171116190026</td>
         
         <td></td>
         
@@ -87157,6 +87227,20 @@ Available packages
         <td><a href="recipes/arvados-python-client/README.html">arvados-python-client</a></td>
         
         <td>0.1.20171010180436</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/arvados-python-client/README.html">arvados-python-client</a></td>
+        
+        <td>0.1.20171211211613</td>
         
         <td></td>
         
