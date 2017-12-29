@@ -14732,6 +14732,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/multiqc-bcbio/README.html">multiqc-bcbio</a></td>
+        
+        <td>0.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sts-smctc/README.html">sts-smctc</a></td>
         
         <td>1.0</td>
@@ -62747,6 +62761,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/sga/README.html">sga</a></td>
+        
+        <td>0.10.15</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
