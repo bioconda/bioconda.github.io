@@ -15628,6 +15628,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gseapy/README.html">gseapy</a></td>
+        
+        <td>0.9.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bambamc/README.html">bambamc</a></td>
         
         <td>0.0.50</td>
@@ -80857,6 +80871,20 @@ Available packages
         <td><a href="recipes/circos/README.html">circos</a></td>
         
         <td>0.69.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/circos/README.html">circos</a></td>
+        
+        <td>0.69.6</td>
         
         <td></td>
         
