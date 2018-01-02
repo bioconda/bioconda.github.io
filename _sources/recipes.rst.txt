@@ -11134,6 +11134,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/umi_tools/README.html">umi_tools</a></td>
+        
+        <td>0.5.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/flashlfq/README.html">flashlfq</a></td>
         
         <td>0.1.100</td>
@@ -44323,6 +44337,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/deepvariant/README.html">deepvariant</a></td>
+        
+        <td>0.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
