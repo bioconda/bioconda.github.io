@@ -5,11 +5,11 @@ csvtk
 
 |downloads|
 
-A cross-platform, efficient, practical and pretty CSV/TSV toolkit
+A cross-platform, efficient, practical CSV/TSV toolkit
 
 ======== ===========
 Home     https://github.com/shenwei356/csvtk
-Versions 0.4.4, 0.4.5, 0.4.6, 0.5.0, 0.6.0, 0.6.1, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1
+Versions 0.10.0, 0.4.4, 0.4.5, 0.4.6, 0.5.0, 0.6.0, 0.6.1, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csvtk
 ======== ===========
