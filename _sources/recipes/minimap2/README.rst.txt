@@ -5,11 +5,11 @@ minimap2
 
 |downloads|
 
-A fast sequence mapping and alignment program
+A fast sequence mapping and alignment program.
 
 ======== ===========
 Home     https://github.com/lh3/minimap2
-Versions 2.0.r191, 2.1.1, 2.1.r311, 2.3, 2.4, 2.5, 2.6
+Versions 2.0.r191, 2.1.1, 2.1.r311, 2.3, 2.4, 2.5, 2.6, 2.6.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap2
 ======== ===========
