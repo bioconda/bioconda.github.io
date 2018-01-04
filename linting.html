@@ -134,8 +134,8 @@ a bioconda-specific patch is required. However it is almost always better to
 fix or update the recipe in the other channel. Note that the package in the
 bioconda channel will remain in order to maintain reproducibility.</p>
 </div>
-<div class="section" id="already-in-bioconda">
-<h3><cite>already_in_bioconda</cite><a class="headerlink" href="#already-in-bioconda" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="already-in-bioconda-currently-disabled">
+<h3><cite>already_in_bioconda</cite> (currently disabled)<a class="headerlink" href="#already-in-bioconda-currently-disabled" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The current package version, build, and platform
 (linux/osx) already exists in the bioconda channel.</p>
 <p>Rationale: This acts as an early warning to bump version or build numbers.</p>
@@ -183,8 +183,8 @@ corrupted.</p>
 <p>How to resolve: Add a hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a>. See
 <a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
 </div>
-<div class="section" id="should-be-noarch">
-<h3><cite>should_be_noarch</cite><a class="headerlink" href="#should-be-noarch" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="should-be-noarch-currently-disabled">
+<h3><cite>should_be_noarch</cite> (currently disabled)<a class="headerlink" href="#should-be-noarch-currently-disabled" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The package should be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
 <p>Rationale: A <code class="docutils literal"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
 packages that do not require compilation. With this a single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
@@ -234,14 +234,20 @@ packages, but now we are using <code class="docutils literal"><span class="pre">
 recipes is updated, it will fail this check.</p>
 <p>How to resolve: Change <code class="docutils literal"><span class="pre">java-jdk</span></code> to <code class="docutils literal"><span class="pre">openjdk</span></code>.</p>
 </div>
-<div class="section" id="uses-setuptools">
-<h3><cite>uses_setuptools</cite><a class="headerlink" href="#uses-setuptools" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="uses-setuptools-currently-disabled">
+<h3><cite>uses_setuptools</cite> (currently disabled)<a class="headerlink" href="#uses-setuptools-currently-disabled" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The recipe has <code class="docutils literal"><span class="pre">setuptools</span></code> as a run dependency.</p>
 <p>Rationale: <code class="docutils literal"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
 packages but most of the time this is not needed within a conda package as
 a run dependency.</p>
 <p>How to resolve: Ensure that all dependencies are explicitly defined. Some
-packages do need setuptools, in which case this can be overridden.</p>
+packages do need <code class="docutils literal"><span class="pre">setuptools</span></code>, in which case this can be overridden.
+<code class="docutils literal"><span class="pre">setuptools</span></code> may be required, e.g., if a package loads resources via
+<code class="docutils literal"><span class="pre">pkg_resources</span></code> which is part of <code class="docutils literal"><span class="pre">setuptools</span></code>. That dependency can also be
+introduced implicitly when <code class="docutils literal"><span class="pre">setuptools</span></code>-created console scripts are used.
+To avoid this, make sure to carry <code class="docutils literal"><span class="pre">console_scripts</span></code> entry points from
+<code class="docutils literal"><span class="pre">setup.py</span></code> over to <code class="docutils literal"><span class="pre">meta.yaml</span></code> to replace them with scripts created by
+<code class="docutils literal"><span class="pre">conda</span></code>/<code class="docutils literal"><span class="pre">conda-build</span></code> which don’t require <code class="docutils literal"><span class="pre">pkg_resources</span></code>.</p>
 </div>
 <div class="section" id="has-windows-bat-file">
 <h3><cite>has_windows_bat_file</cite><a class="headerlink" href="#has-windows-bat-file" title="Permalink to this headline">¶</a></h3>
@@ -371,18 +377,18 @@ default.</p>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#linting-functions">Linting functions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#in-other-channels"><cite>in_other_channels</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda"><cite>already_in_bioconda</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda-currently-disabled"><cite>already_in_bioconda</cite> (currently disabled)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-home"><cite>missing_home</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-summary"><cite>missing_summary</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-license"><cite>missing_license</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-tests"><cite>missing_tests</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-hash"><cite>missing_hash</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch"><cite>should_be_noarch</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch-currently-disabled"><cite>should_be_noarch</cite> (currently disabled)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#should-not-be-noarch"><cite>should_not_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-git-url"><cite>uses_git_url</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-perl-threaded"><cite>uses_perl_threaded</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-javajdk"><cite>uses_javajdk</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#uses-setuptools"><cite>uses_setuptools</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#uses-setuptools-currently-disabled"><cite>uses_setuptools</cite> (currently disabled)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#not-pinned"><cite>*_not_pinned</cite></a></li>
