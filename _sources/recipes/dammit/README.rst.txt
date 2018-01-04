@@ -9,7 +9,7 @@ simple de novo transcriptome annotation
 
 ======== ===========
 Home     http://www.camillescott.org/dammit/
-Versions 0.3
+Versions 0.3, 0.3.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammit
 ======== ===========
