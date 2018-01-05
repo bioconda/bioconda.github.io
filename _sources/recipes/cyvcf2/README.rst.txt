@@ -9,7 +9,7 @@ A cython wrapper around htslib built for fast parsing of Variant Call Format (VC
 
 ======== ===========
 Home     https://github.com/brentp/cyvcf2
-Versions 0.2.0, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.8, 0.3.0, 0.3.2, 0.4.0, 0.4.1, 0.4.2, 0.5.0, 0.5.1, 0.5.3, 0.5.5, 0.6.5, 0.6.6a, 0.7.2, 0.8.0
+Versions 0.2.0, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.8, 0.3.0, 0.3.2, 0.4.0, 0.4.1, 0.4.2, 0.5.0, 0.5.1, 0.5.3, 0.5.5, 0.6.5, 0.6.6a, 0.7.2, 0.8.0, 0.8.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyvcf2
 ======== ===========

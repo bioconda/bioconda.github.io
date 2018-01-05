@@ -24030,6 +24030,20 @@ Available packages
         
         <td><a href="recipes/pysnptools/README.html">pysnptools</a></td>
         
+        <td>0.3.13</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pysnptools/README.html">pysnptools</a></td>
+        
         <td>0.3.9</td>
         
         <td></td>
@@ -52871,6 +52885,20 @@ Available packages
         <td><a href="recipes/cyvcf2/README.html">cyvcf2</a></td>
         
         <td>0.8.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cyvcf2/README.html">cyvcf2</a></td>
+        
+        <td>0.8.4</td>
         
         <td></td>
         
