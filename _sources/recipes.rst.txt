@@ -15726,6 +15726,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/gseapy/README.html">gseapy</a></td>
+        
+        <td>0.9.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bambamc/README.html">bambamc</a></td>
         
         <td>0.0.50</td>
@@ -31359,6 +31373,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/flye/README.html">flye</a></td>
+        
+        <td>2.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -48923,6 +48951,20 @@ Available packages
         <td><a href="recipes/mageck/README.html">mageck</a></td>
         
         <td>0.5.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mageck/README.html">mageck</a></td>
+        
+        <td>0.5.7</td>
         
         <td></td>
         
@@ -67498,6 +67540,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/fastlmm/README.html">fastlmm</a></td>
+        
+        <td>0.2.32</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/emmix/README.html">emmix</a></td>
         
         <td>1.3</td>
@@ -72849,6 +72905,20 @@ Available packages
         <td><a href="recipes/stringmlst/README.html">stringmlst</a></td>
         
         <td>0.4.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/stringmlst/README.html">stringmlst</a></td>
+        
+        <td>0.5.1a</td>
         
         <td></td>
         

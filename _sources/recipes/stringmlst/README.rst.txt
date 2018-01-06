@@ -9,7 +9,7 @@ Fast k-mer based tool for multi locus sequence typing (MLST) directly from genom
 
 ======== ===========
 Home     https://github.com/jordanlab/stringMLST
-Versions 0.3.6.1, 0.3.7, 0.4, 0.4.1, 0.4.2
+Versions 0.3.6.1, 0.3.7, 0.4, 0.4.1, 0.4.2, 0.5.1a
 License  CC BY-NC-SA 4.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringmlst
 ======== ===========
