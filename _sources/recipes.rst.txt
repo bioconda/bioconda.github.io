@@ -11372,6 +11372,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/fastp/README.html">fastp</a></td>
+        
+        <td>0.12.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/elasticluster/README.html">elasticluster</a></td>
         
         <td>0.1.3bcbio</td>
@@ -33705,6 +33719,20 @@ Available packages
         <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
         
         <td>1.0.6a0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
+        
+        <td>1.0.7</td>
         
         <td></td>
         
@@ -62671,6 +62699,20 @@ Available packages
         <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
         
         <td>0.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pybigwig/README.html">pybigwig</a></td>
+        
+        <td>0.3.10</td>
         
         <td></td>
         
