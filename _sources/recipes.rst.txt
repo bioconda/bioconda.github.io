@@ -28466,6 +28466,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/vcf2db/README.html">vcf2db</a></td>
+        
+        <td>2017.12.11</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/nanosplit/README.html">nanosplit</a></td>
         
         <td>0.1.4</td>
@@ -33809,6 +33823,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bcbio-nextgen/README.html">bcbio-nextgen</a></td>
+        
+        <td>1.0.8a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
