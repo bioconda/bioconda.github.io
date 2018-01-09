@@ -718,6 +718,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/biolite/README.html">biolite</a></td>
+        
+        <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-genbankr/README.html">bioconductor-genbankr</a></td>
         
         <td>1.6.0</td>
@@ -1189,6 +1203,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/hts-nim-tools/README.html">hts-nim-tools</a></td>
+        
+        <td>0.1.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -5649,6 +5677,20 @@ Available packages
         <td><a href="recipes/perl-statistics-lite/README.html">perl-statistics-lite</a></td>
         
         <td>3.62</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/biolite-tools/README.html">biolite-tools</a></td>
+        
+        <td>0.4.0</td>
         
         <td></td>
         
@@ -37344,6 +37386,20 @@ Available packages
         
         <td><a href="recipes/picard/README.html">picard</a></td>
         
+        <td>2.17.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
         <td>2.3.0</td>
         
         <td></td>
@@ -42833,6 +42889,20 @@ Available packages
         <td><a href="recipes/alfred/README.html">alfred</a></td>
         
         <td>0.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/alfred/README.html">alfred</a></td>
+        
+        <td>0.1.3</td>
         
         <td></td>
         
@@ -55248,6 +55318,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/clove/README.html">clove</a></td>
+        
+        <td>0.17</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/trinculo/README.html">trinculo</a></td>
         
         <td>0.96</td>
@@ -57561,6 +57645,20 @@ Available packages
         <td><a href="recipes/dunovo/README.html">dunovo</a></td>
         
         <td>0.8.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/dunovo/README.html">dunovo</a></td>
+        
+        <td>2.0.12</td>
         
         <td></td>
         
@@ -75884,6 +75982,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sequana/README.html">sequana</a></td>
+        
+        <td>0.6.3.post1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-isomirs/README.html">bioconductor-isomirs</a></td>
         
         <td>1.0.1</td>
@@ -77581,6 +77693,20 @@ Available packages
         <td><a href="recipes/mageck-vispr/README.html">mageck-vispr</a></td>
         
         <td>0.5.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mageck-vispr/README.html">mageck-vispr</a></td>
+        
+        <td>0.5.4</td>
         
         <td></td>
         
@@ -85656,6 +85782,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/adam/README.html">adam</a></td>
+        
+        <td>0.23.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/expansionhunter/README.html">expansionhunter</a></td>
         
         <td>2.0.6</td>
@@ -87535,6 +87675,20 @@ Available packages
         <td><a href="recipes/bbmap/README.html">bbmap</a></td>
         
         <td>37.77</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bbmap/README.html">bbmap</a></td>
+        
+        <td>37.78</td>
         
         <td></td>
         

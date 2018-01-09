@@ -9,7 +9,7 @@ MAGeCK-VISPR is a comprehensive quality control, analysis and visualization work
 
 ======== ===========
 Home     https://bitbucket.org/liulab/mageck-vispr
-Versions 0.4.5, 0.4.6, 0.4.7, 0.5.2, 0.5.3
+Versions 0.4.5, 0.4.6, 0.4.7, 0.5.2, 0.5.3, 0.5.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck-vispr
 ======== ===========
