@@ -5,7 +5,7 @@ mageck
 
 |downloads|
 
-MAGeCK (Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout), a computational tool to process and analyze CRISPR screening data.
+MAGeCK (Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout), an algorithm to process, QC, analyze and visualize CRISPR screening data.
 
 ======== ===========
 Home     http://mageck.sourceforge.net
