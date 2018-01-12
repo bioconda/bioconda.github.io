@@ -9,8 +9,8 @@ A robust model for quantitative comparison of ChIP-Seq data sets.
 
 ======== ===========
 Home     https://github.com/shao-lab/MAnorm
-Versions 1.1
-License  BSD-3-Clause
+Versions 1.1, 1.1.1
+License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manorm
 ======== ===========
 
