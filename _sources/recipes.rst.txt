@@ -4148,6 +4148,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/dsh-bio/README.html">dsh-bio</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bpipe/README.html">bpipe</a></td>
         
         <td>0.9.9.2</td>
@@ -12571,6 +12585,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-diffbind/README.html">bioconductor-diffbind</a></td>
+        
+        <td>2.6.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -22603,6 +22631,20 @@ Available packages
         <td><a href="recipes/snpsift/README.html">snpsift</a></td>
         
         <td>4.3.1r</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snpsift/README.html">snpsift</a></td>
+        
+        <td>4.3.1t</td>
         
         <td></td>
         
@@ -47901,6 +47943,20 @@ Available packages
         <td><a href="recipes/perl-tap-harness-env/README.html">perl-tap-harness-env</a></td>
         
         <td>3.30</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/xtail/README.html">xtail</a></td>
+        
+        <td>1.1.5</td>
         
         <td></td>
         
@@ -75775,6 +75831,20 @@ Available packages
         <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
         
         <td>0.2.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mosdepth/README.html">mosdepth</a></td>
+        
+        <td>0.2.1</td>
         
         <td></td>
         
