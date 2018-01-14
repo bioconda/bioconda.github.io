@@ -12598,7 +12598,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -25137,6 +25137,20 @@ Available packages
         <td><a href="recipes/metilene/README.html">metilene</a></td>
         
         <td>0.2.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snmf/README.html">snmf</a></td>
+        
+        <td>1.2</td>
         
         <td></td>
         
@@ -47187,6 +47201,20 @@ Available packages
         <td><a href="recipes/cmappy/README.html">cmappy</a></td>
         
         <td>2.2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cmappy/README.html">cmappy</a></td>
+        
+        <td>3.0.0</td>
         
         <td></td>
         
@@ -81319,6 +81347,20 @@ Available packages
         <td><a href="recipes/starseqr/README.html">starseqr</a></td>
         
         <td>0.6.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/starseqr/README.html">starseqr</a></td>
+        
+        <td>0.6.6</td>
         
         <td></td>
         
