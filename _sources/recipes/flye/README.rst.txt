@@ -9,7 +9,7 @@ Fast and accurate de novo assembler for single molecule sequencing reads
 
 ======== ===========
 Home     https://github.com/fenderglass/Flye/
-Versions 2.3
+Versions 2.3, 2.3.1
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flye
 ======== ===========
