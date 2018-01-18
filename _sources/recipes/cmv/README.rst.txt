@@ -9,7 +9,7 @@ A collection of tools for the visualisation of Hidden Markov Models (HMMV) and R
 
 ======== ===========
 Home     https://github.com/eggzilla/cmv
-Versions 1.0.2, 1.0.5, 1.0.6
+Versions 1.0.2, 1.0.5, 1.0.6, 1.0.7
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmv
 ======== ===========
