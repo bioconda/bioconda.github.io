@@ -10,7 +10,7 @@ Quality Assessment Tool for Genome Assemblies
 ======== ===========
 Home     https://sourceforge.net/projects/quast/
 Versions 3.2, 4.1, 4.3, 4.4, 4.5
-License  GPL2
+License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast
 ======== ===========
 
@@ -27,6 +27,11 @@ and update with::
 
    conda update quast
 
+Notes
+-----
+
+- drawing MUMmer plots is disabled due to issues with gnuplot
+- GeneMark gene prediction software is disabled due to licensing issues
 
 
 |docker|

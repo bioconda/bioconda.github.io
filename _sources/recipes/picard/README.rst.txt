@@ -9,7 +9,7 @@ Java tools for working with NGS data in the BAM format
 
 ======== ===========
 Home     http://broadinstitute.github.io/picard/
-Versions 1.126, 1.139, 1.141, 1.56, 1.97, 2.0.1, 2.10.6, 2.11.0, 2.13, 2.14, 2.14.1, 2.15.0, 2.16.0, 2.17.0, 2.17.2, 2.3.0, 2.5.0, 2.7.1, 2.9.0, 2.9.2
+Versions 1.126, 1.139, 1.141, 1.56, 1.97, 2.0.1, 2.10.6, 2.11.0, 2.13, 2.14, 2.14.1, 2.15.0, 2.16.0, 2.17.0, 2.17.2, 2.17.3, 2.3.0, 2.5.0, 2.7.1, 2.9.0, 2.9.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard
 ======== ===========

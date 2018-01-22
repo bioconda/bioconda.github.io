@@ -9,7 +9,7 @@ Create aggregate bioinformatics analysis reports across many samples and tools
 
 ======== ===========
 Home     http://multiqc.info
-Versions 0.4, 0.5, 0.6, 0.7, 0.7.1dev0, 0.8, 0.8dev0, 0.9, 0.9.1a0, 0.9a, 1.0, 1.1, 1.2, 1.3
+Versions 0.4, 0.5, 0.6, 0.7, 0.7.1dev0, 0.8, 0.8dev0, 0.9, 0.9.1a0, 0.9a, 1.0, 1.1, 1.2, 1.3, 1.4
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc
 ======== ===========
