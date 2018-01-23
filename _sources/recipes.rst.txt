@@ -15992,6 +15992,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/isatools/README.html">isatools</a></td>
+        
+        <td>0.9.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/nanolyse/README.html">nanolyse</a></td>
         
         <td>0.2.0</td>
@@ -16770,7 +16784,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -21433,6 +21447,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/epic/README.html">epic</a></td>
+        
+        <td>0.2.8</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
         
     </tr>
     
@@ -49698,7 +49726,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -69696,6 +69724,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/quast/README.html">quast</a></td>
+        
+        <td>4.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-digest-crc32/README.html">perl-digest-crc32</a></td>
         
         <td>0.01</td>
@@ -72532,7 +72574,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
