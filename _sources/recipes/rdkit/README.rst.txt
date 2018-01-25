@@ -11,7 +11,7 @@ Open-Source Cheminformatics Software
 Home     http://rdkit.org
 Versions 2015.09.2, 2016.03.3
 License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdkit/2016.03.3
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdkit/2015.09.2
 ======== ===========
 
 Installation

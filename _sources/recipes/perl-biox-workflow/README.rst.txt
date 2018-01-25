@@ -5,13 +5,13 @@ perl-biox-workflow
 
 |downloads|
 
-A very opinionated template based workflow writer.
+Template away your bioinformatics workflows.
 
 ======== ===========
-Home     https://bitbucket.org/jerowe/biox-workflow
+Home     https://github.com/jerowe/BioX-Workflow
 Versions 0.27, 1.10
 License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow/0.27
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow/1.10
 ======== ===========
 
 Installation

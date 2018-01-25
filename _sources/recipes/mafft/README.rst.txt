@@ -11,7 +11,7 @@ Multiple alignment program for amino acid or nucleotide sequences based on fast 
 Home     http://mafft.cbrc.jp/alignment/software/
 Versions 7.221, 7.305, 7.310
 License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/7.305
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/7.310
 ======== ===========
 
 Installation
