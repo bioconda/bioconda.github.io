@@ -35522,6 +35522,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/sierrapy/README.html">sierrapy</a></td>
+        
+        <td>0.2.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/sickle/README.html">sickle</a></td>
         
         <td>0.5</td>
@@ -41172,7 +41186,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -42670,7 +42684,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -48962,6 +48976,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-scnorm/README.html">bioconductor-scnorm</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/potrace/README.html">potrace</a></td>
         
         <td>1.11</td>
@@ -54555,6 +54583,20 @@ Available packages
         <td></td>
         
         <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/picard/README.html">picard</a></td>
+        
+        <td>2.17.4</td>
+        
+        <td></td>
+        
+        <td></td>
         
         <td><i class="fa fa-apple"></i></td>
         
