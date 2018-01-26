@@ -9,7 +9,7 @@ Integrative Genomics Viewer. Fast, efficient, scalable visualization tool for ge
 
 ======== ===========
 Home     http://www.broadinstitute.org/software/igv/home
-Versions 2.3.98
+Versions 2.3.98, 2.4.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igv
 ======== ===========
