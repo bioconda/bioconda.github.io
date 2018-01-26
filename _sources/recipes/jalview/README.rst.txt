@@ -33,7 +33,7 @@ and update with::
 Notes
 -----
 
-This wrapper and installation was only tested for commandline-only usage.
+This wrapper and installation is primarily for commandline-only use.
 
 
 |docker|
