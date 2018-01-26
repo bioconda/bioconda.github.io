@@ -9,8 +9,8 @@ An ultrafast memory-efficient short read aligner
 
 ======== ===========
 Home     https://github.com/BenLangmead/bowtie
-Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1.1
-License  Artistic
+Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1.1, 1.2.2
+License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie
 ======== ===========
 
