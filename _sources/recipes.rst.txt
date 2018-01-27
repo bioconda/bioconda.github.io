@@ -26338,6 +26338,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/star/README.html">star</a></td>
+        
+        <td>2.5.4a</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/spectral_hk/README.html">spectral_hk</a></td>
         
         <td>0.1</td>
@@ -62822,6 +62836,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconda-utils/README.html">bioconda-utils</a></td>
+        
+        <td>0.11.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-try-tiny-retry/README.html">perl-try-tiny-retry</a></td>
         
         <td>0.002</td>
@@ -63189,6 +63217,20 @@ Available packages
         <td><a href="recipes/secapr/README.html">secapr</a></td>
         
         <td>1.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/secapr/README.html">secapr</a></td>
+        
+        <td>1.1.4</td>
         
         <td></td>
         
@@ -85953,6 +85995,20 @@ Available packages
         <td><a href="recipes/minvar/README.html">minvar</a></td>
         
         <td>2.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/minvar/README.html">minvar</a></td>
+        
+        <td>2.1.2</td>
         
         <td></td>
         
