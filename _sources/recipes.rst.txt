@@ -45238,6 +45238,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/unicycler/README.html">unicycler</a></td>
+        
+        <td>0.4.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-simpleaffy/README.html">bioconductor-simpleaffy</a></td>
         
         <td>2.52.0</td>
@@ -48416,6 +48430,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/htslib/README.html">htslib</a></td>
+        
+        <td>1.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-annmap/README.html">bioconductor-annmap</a></td>
         
         <td>1.18.0</td>
@@ -48996,7 +49024,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -54610,7 +54638,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -61705,6 +61733,20 @@ Available packages
         <td><a href="recipes/jalview/README.html">jalview</a></td>
         
         <td>2.10.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/jalview/README.html">jalview</a></td>
+        
+        <td>2.10.3b1</td>
         
         <td></td>
         
@@ -76668,6 +76710,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/samtools/README.html">samtools</a></td>
+        
+        <td>1.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-test-pod-coverage/README.html">perl-test-pod-coverage</a></td>
         
         <td>1.10</td>
@@ -85314,7 +85370,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
