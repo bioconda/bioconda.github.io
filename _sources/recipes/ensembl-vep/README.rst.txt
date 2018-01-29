@@ -9,7 +9,7 @@ The VEP determines the effect of your variants (SNPs, insertions, deletions, CNV
 
 ======== ===========
 Home     http://www.ensembl.org/info/docs/tools/vep/index.html
-Versions 88, 88.10, 88.8, 88.9, 89.1, 89.4, 89.7, 90.1, 90.10, 90.3, 90.5, 90.6, 90.7, 90.9, 91.0, 91.1
+Versions 88, 88.10, 88.8, 88.9, 89.1, 89.4, 89.7, 90.1, 90.10, 90.3, 90.5, 90.6, 90.7, 90.9, 91.0, 91.1, 91.2
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ensembl-vep
 ======== ===========
