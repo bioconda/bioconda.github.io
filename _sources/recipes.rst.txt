@@ -13066,6 +13066,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/pyloh/README.html">pyloh</a></td>
+        
+        <td>1.4.3</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-cnanorm/README.html">bioconductor-cnanorm</a></td>
         
         <td>1.22.1</td>
@@ -15841,6 +15855,20 @@ Available packages
         <td><a href="recipes/ipython-cluster-helper/README.html">ipython-cluster-helper</a></td>
         
         <td>0.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ipython-cluster-helper/README.html">ipython-cluster-helper</a></td>
+        
+        <td>0.6.1</td>
         
         <td></td>
         
@@ -28755,6 +28783,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-variancepartition/README.html">bioconductor-variancepartition</a></td>
+        
+        <td>1.8.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -59840,6 +59882,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/riboseq-rust/README.html">riboseq-rust</a></td>
+        
+        <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-netpathminer/README.html">bioconductor-netpathminer</a></td>
         
         <td>1.12.1</td>
@@ -65975,6 +66031,20 @@ Available packages
         <td><a href="recipes/pyrad/README.html">pyrad</a></td>
         
         <td>3.0.64</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/pyrad/README.html">pyrad</a></td>
+        
+        <td>3.0.66</td>
         
         <td></td>
         
@@ -87031,6 +87101,20 @@ Available packages
         <td><a href="recipes/filtlong/README.html">filtlong</a></td>
         
         <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/filtlong/README.html">filtlong</a></td>
+        
+        <td>0.2.0</td>
         
         <td></td>
         

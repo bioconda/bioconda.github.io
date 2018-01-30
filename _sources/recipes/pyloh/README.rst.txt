@@ -9,8 +9,8 @@ Deconvolving tumor purity and ploidy by integrating copy number alterations and 
 
 ======== ===========
 Home     https://github.com/uci-cbcl/PyLOH
-Versions 1.4.1
-License  GPL
+Versions 1.4.1, 1.4.3
+License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyloh
 ======== ===========
 

@@ -8,8 +8,8 @@ pyrad
 Assembly and analysis of RADseq data sets
 
 ======== ===========
-Home     https://github.com/wichert/pyrad
-Versions 3.0.64
+Home     https://github.com/dereneaton/pyrad
+Versions 3.0.64, 3.0.66
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrad
 ======== ===========
