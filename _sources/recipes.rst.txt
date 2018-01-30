@@ -13074,7 +13074,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -82845,6 +82845,20 @@ Available packages
         <td><a href="recipes/bioconductor-cqn/README.html">bioconductor-cqn</a></td>
         
         <td>1.24.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/clonalframeml/README.html">clonalframeml</a></td>
+        
+        <td>1.11</td>
         
         <td></td>
         
