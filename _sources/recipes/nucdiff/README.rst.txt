@@ -9,8 +9,8 @@ NucDiff locates and categorizes differences between two closely related nucleoti
 
 ======== ===========
 Home     https://github.com/uio-cels/NucDiff
-Versions 0.1.1
-License  Mozilla Public License 2.0 (MPL 2.0)
+Versions 0.1.1, 2.0.2
+License  MPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucdiff
 ======== ===========
 

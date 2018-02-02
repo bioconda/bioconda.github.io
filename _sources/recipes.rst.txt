@@ -5228,6 +5228,20 @@ Available packages
         
         <td><a href="recipes/csvtk/README.html">csvtk</a></td>
         
+        <td>0.12.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/csvtk/README.html">csvtk</a></td>
+        
         <td>0.4.4</td>
         
         <td></td>
@@ -5929,6 +5943,20 @@ Available packages
         <td><a href="recipes/minimap2/README.html">minimap2</a></td>
         
         <td>2.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/minimap2/README.html">minimap2</a></td>
+        
+        <td>2.8</td>
         
         <td></td>
         
@@ -12327,6 +12355,20 @@ Available packages
         <td><a href="recipes/nucdiff/README.html">nucdiff</a></td>
         
         <td>0.1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/nucdiff/README.html">nucdiff</a></td>
+        
+        <td>2.0.2</td>
         
         <td></td>
         
@@ -19103,6 +19145,20 @@ Available packages
         <td><a href="recipes/python-bioext/README.html">python-bioext</a></td>
         
         <td>0.17.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/python-bioext/README.html">python-bioext</a></td>
+        
+        <td>0.18.6</td>
         
         <td></td>
         
@@ -38224,6 +38280,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/treemaker/README.html">treemaker</a></td>
+        
+        <td>1.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-xmlrpc/README.html">r-xmlrpc</a></td>
         
         <td>0.2_4</td>
@@ -48502,6 +48572,20 @@ Available packages
         
         <td><a href="recipes/gatk4/README.html">gatk4</a></td>
         
+        <td>4.0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/gatk4/README.html">gatk4</a></td>
+        
         <td>4.0a1.2.7.2</td>
         
         <td></td>
@@ -57516,6 +57600,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>4.5.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/dx-cwl/README.html">dx-cwl</a></td>
         
         <td>0.1.0a20171029</td>
@@ -63623,6 +63721,20 @@ Available packages
         <td><a href="recipes/bioconda-utils/README.html">bioconda-utils</a></td>
         
         <td>0.11.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconda-utils/README.html">bioconda-utils</a></td>
+        
+        <td>0.12.0</td>
         
         <td></td>
         
@@ -73577,6 +73689,20 @@ Available packages
         <td><a href="recipes/mappy/README.html">mappy</a></td>
         
         <td>2.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mappy/README.html">mappy</a></td>
+        
+        <td>2.8</td>
         
         <td></td>
         
