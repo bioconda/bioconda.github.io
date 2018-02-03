@@ -9,8 +9,8 @@ NextGenMap is a flexible highly sensitive short read mapping tool that handles m
 
 ======== ===========
 Home     https://github.com/philres/NextGenMap
-Versions 0.5.3
-License  Artistic License (Perl) 1.0
+Versions 0.5.3, 0.5.5
+License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nextgenmap
 ======== ===========
 

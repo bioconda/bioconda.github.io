@@ -62318,6 +62318,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/nextgenmap/README.html">nextgenmap</a></td>
+        
+        <td>0.5.5</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/fastlmm/README.html">fastlmm</a></td>
         
         <td>0.2.24</td>
