@@ -9,7 +9,7 @@ TransDecoder identifies candidate coding regions within transcript sequences, su
 
 ======== ===========
 Home     https://transdecoder.github.io/
-Versions 2.1.0, 3.0.1
+Versions 2.1.0, 3.0.1, 5.0.2
 License  Broad Institute
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transdecoder
 ======== ===========
