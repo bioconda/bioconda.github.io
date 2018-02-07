@@ -4708,6 +4708,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-reactomepa/README.html">bioconductor-reactomepa</a></td>
+        
+        <td>1.22.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/cansam/README.html">cansam</a></td>
         
         <td>21d64bb</td>
@@ -5753,6 +5767,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-sigar/README.html">bioconductor-sigar</a></td>
+        
+        <td>1.26.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -14354,6 +14382,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-histonehmm/README.html">r-histonehmm</a></td>
+        
+        <td>1.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/tophat/README.html">tophat</a></td>
         
         <td>2.1.0</td>
@@ -16429,6 +16471,20 @@ Available packages
         <td><a href="recipes/bioconductor-annotationfuncs/README.html">bioconductor-annotationfuncs</a></td>
         
         <td>1.28.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ghostx/README.html">ghostx</a></td>
+        
+        <td>1.3.7</td>
         
         <td></td>
         
@@ -55248,6 +55304,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/tinysink/README.html">tinysink</a></td>
+        
+        <td>1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/clever-toolkit/README.html">clever-toolkit</a></td>
         
         <td>2.0rc3</td>
@@ -87714,6 +87784,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/minvar/README.html">minvar</a></td>
+        
+        <td>2.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/httpretty/README.html">httpretty</a></td>
         
         <td>0.8.10</td>
@@ -89453,6 +89537,20 @@ Available packages
         <td><a href="recipes/pomegranate/README.html">pomegranate</a></td>
         
         <td>0.3.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-reactome.db/README.html">bioconductor-reactome.db</a></td>
+        
+        <td>1.62.0</td>
         
         <td></td>
         
