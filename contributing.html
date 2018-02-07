@@ -74,6 +74,29 @@ $(document).ready(function() {
 <p>Bioconda is completely dependent on contributors to add, update, and maintain
 recipes. Every little bit helps! Below are instructions for one-time setup as
 well as a general procedure to follow for each recipe you’d like to add.</p>
+<p>The basic workflow is:</p>
+<ul>
+<li><p class="first">Follow the setup instructions to get a local copy of the recipes repository</p>
+</li>
+<li><p class="first">Write a recipe or modify an existing one. A recipe consists of a metadata
+file and a shell script to install it. Here is an example Python package:</p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/pyfaidx/meta.yaml">meta.yaml</a></li>
+<li><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/pyfaidx/build.sh">build.sh</a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Push your changes to github. This triggers automatic building and testing of
+the recipe.</p>
+</li>
+<li><p class="first">Once the tests pass, the recipe is merged into the master branch. The
+resulting conda packages and containers that are built on the master branch
+are uploaded to public repositories for worldwide use.</p>
+</li>
+</ul>
+<p>There are some details to be aware of, and some software can be challenging to
+package. The topics below provide more details.</p>
 <div class="toctree-wrapper compound">
 <ul>
 <li class="toctree-l1"><a class="reference internal" href="contrib-setup.html">One-time setup</a><ul>

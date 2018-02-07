@@ -116,9 +116,19 @@ update your branch with the upstream master branch:</p>
 </div>
 <div class="section" id="install-the-circle-ci-client-optional">
 <span id="circleci-client"></span><h2>Install the Circle CI client (optional)<a class="headerlink" href="#install-the-circle-ci-client-optional" title="Permalink to this headline">¶</a></h2>
-<p>This is optional, but allows you to
-simulate most closely the online Circle CI tests.
-Instructions can be found <a class="reference external" href="https://circleci.com/docs/2.0/local-jobs/#installing-the-cli-locally">here</a>.</p>
+<p>This is optional in the sense that you can still contribute without it, but
+installing the Circle CI client allows you to test your recipes before pushing
+them by simulating the online Circle CI tests locally. Resolving problems
+locally before pushing changes will conserve online build time and quota.</p>
+<p>Installation instructions can be found <a class="reference external" href="https://circleci.com/docs/2.0/local-jobs/#installing-the-cli-locally">here</a>.</p>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>For contributors who have used <code class="docutils literal"><span class="pre">simulate-travis.py</span></code> for local testing:
+our move from Travis-CI to Circle CI means that <code class="docutils literal"><span class="pre">simulate-travis.py</span></code> is
+now deprecated.</p>
+<p class="last">Instead of <code class="docutils literal"><span class="pre">simulate-travis.py</span></code>, please install the Circle CI client and
+run <code class="docutils literal"><span class="pre">circleci</span> <span class="pre">build</span></code>.</p>
+</div>
 </div>
 <div class="section" id="request-to-be-added-to-the-bioconda-team-optional">
 <h2>Request to be added to the bioconda team (optional)<a class="headerlink" href="#request-to-be-added-to-the-bioconda-team-optional" title="Permalink to this headline">¶</a></h2>
