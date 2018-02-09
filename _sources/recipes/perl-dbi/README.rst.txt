@@ -9,7 +9,7 @@ Database independent interface for Perl
 
 ======== ===========
 Home     https://metacpan.org/pod/DBI
-Versions 1.634, 1.636
+Versions 1.634, 1.636, 1.640
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbi
 ======== ===========

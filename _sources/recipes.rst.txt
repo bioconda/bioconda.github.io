@@ -5086,6 +5086,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/svdb/README.html">svdb</a></td>
+        
+        <td>1.0.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/riboplot/README.html">riboplot</a></td>
         
         <td>0.3.1</td>
@@ -12830,6 +12844,20 @@ Available packages
         
         <td><a href="recipes/mlst/README.html">mlst</a></td>
         
+        <td>2.10</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mlst/README.html">mlst</a></td>
+        
         <td>2.6</td>
         
         <td></td>
@@ -18484,6 +18512,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-dbi/README.html">perl-dbi</a></td>
+        
+        <td>1.640</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-class-inspector/README.html">perl-class-inspector</a></td>
         
         <td>1.28</td>
@@ -18669,6 +18711,20 @@ Available packages
         <td><a href="recipes/stacks/README.html">stacks</a></td>
         
         <td>2.0Beta7c</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/stacks/README.html">stacks</a></td>
+        
+        <td>2.0Beta8</td>
         
         <td></td>
         
@@ -22043,6 +22099,20 @@ Available packages
         <td><a href="recipes/mashtree/README.html">mashtree</a></td>
         
         <td>0.28</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/mashtree/README.html">mashtree</a></td>
+        
+        <td>0.30</td>
         
         <td></td>
         
@@ -33397,6 +33467,20 @@ Available packages
         <td><a href="recipes/ariba/README.html">ariba</a></td>
         
         <td>2.10.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ariba/README.html">ariba</a></td>
+        
+        <td>2.11.0</td>
         
         <td></td>
         
@@ -53319,6 +53403,20 @@ Available packages
         <td><a href="recipes/quast/README.html">quast</a></td>
         
         <td>4.6.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/quast/README.html">quast</a></td>
+        
+        <td>4.6.3</td>
         
         <td></td>
         
@@ -90089,6 +90187,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/ghostz/README.html">ghostz</a></td>
+        
+        <td>1.0.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
