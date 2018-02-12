@@ -9,7 +9,7 @@ Efficient Estimation of Evolutionary Distances
 
 ======== ===========
 Home     https://github.com/evolbioinf/andi/
-Versions 0.10
+Versions 0.10, 0.11
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/andi
 ======== ===========
