@@ -9,7 +9,7 @@ Representing double stranded DNA and simulating cloning, homologous recombinatio
 
 ======== ===========
 Home     https://github.com/BjornFJohansson/pydna
-Versions 2.0.0a3
+Versions 2.0.0a3, 2.0.1
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydna
 ======== ===========
