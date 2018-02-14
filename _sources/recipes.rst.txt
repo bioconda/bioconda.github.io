@@ -956,6 +956,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/msaboot/README.html">msaboot</a></td>
+        
+        <td>0.1.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/fastuniq/README.html">fastuniq</a></td>
         
         <td>1.1</td>
@@ -5159,6 +5173,20 @@ Available packages
         <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
         
         <td>2.3.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bowtie2/README.html">bowtie2</a></td>
+        
+        <td>2.3.4.1</td>
         
         <td></td>
         
@@ -17588,6 +17616,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/r-bcbiornaseq/README.html">r-bcbiornaseq</a></td>
+        
+        <td>0.1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-file-compare/README.html">perl-file-compare</a></td>
         
         <td>1.1006</td>
@@ -20279,6 +20321,20 @@ Available packages
         <td><a href="recipes/multiqc/README.html">multiqc</a></td>
         
         <td>1.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/multiqc/README.html">multiqc</a></td>
+        
+        <td>1.5a</td>
         
         <td></td>
         
@@ -24420,6 +24476,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/ont-tombo/README.html">ont-tombo</a></td>
+        
+        <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/eagle/README.html">eagle</a></td>
         
         <td>0.9.0</td>
@@ -24843,6 +24913,20 @@ Available packages
         <td><a href="recipes/multiqc-bcbio/README.html">multiqc-bcbio</a></td>
         
         <td>0.2.4</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/multiqc-bcbio/README.html">multiqc-bcbio</a></td>
+        
+        <td>0.2.5</td>
         
         <td></td>
         
@@ -29953,6 +30037,20 @@ Available packages
         <td><a href="recipes/crisper_recognition_tool/README.html">crisper_recognition_tool</a></td>
         
         <td>1.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-bcbiobase/README.html">r-bcbiobase</a></td>
+        
+        <td>0.0.3</td>
         
         <td></td>
         
@@ -35838,7 +35936,7 @@ Available packages
         
         <td><i class="fa fa-linux"></i></td>
         
-        <td></td>
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -45482,7 +45580,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -47747,6 +47845,20 @@ Available packages
         <td><a href="recipes/perl-statistics-basic/README.html">perl-statistics-basic</a></td>
         
         <td>1.6611</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bloomfiltertrie/README.html">bloomfiltertrie</a></td>
+        
+        <td>0.8.1</td>
         
         <td></td>
         
@@ -61814,6 +61926,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/netcdf-metadata-info/README.html">netcdf-metadata-info</a></td>
+        
+        <td>1.1.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-aseb/README.html">bioconductor-aseb</a></td>
         
         <td>1.20.0</td>
@@ -62811,6 +62937,20 @@ Available packages
         <td><a href="recipes/vsearch/README.html">vsearch</a></td>
         
         <td>2.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/vsearch/README.html">vsearch</a></td>
+        
+        <td>2.7.0</td>
         
         <td></td>
         
@@ -86426,6 +86566,34 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bioconductor-org.ce.eg.db/README.html">bioconductor-org.ce.eg.db</a></td>
+        
+        <td>3.4.1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/bioconductor-org.ce.eg.db/README.html">bioconductor-org.ce.eg.db</a></td>
+        
+        <td>3.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/virema/README.html">virema</a></td>
         
         <td>0.6</td>
@@ -89030,6 +89198,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/py2bit/README.html">py2bit</a></td>
+        
+        <td>0.3.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/r-seurat/README.html">r-seurat</a></td>
         
         <td>1.4.0.16</td>
@@ -90643,6 +90825,20 @@ Available packages
         <td><a href="recipes/ucsc-subcolumn/README.html">ucsc-subcolumn</a></td>
         
         <td>357</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-basejump/README.html">r-basejump</a></td>
+        
+        <td>0.1.1</td>
         
         <td></td>
         
