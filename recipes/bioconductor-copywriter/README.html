@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-copynumber &#8212; Bioconda  documentation</title>
+    <title>bioconductor-copywriter &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-copywriter" href="../bioconductor-copywriter/README.html" />
-    <link rel="prev" title="bioconductor-copyhelper" href="../bioconductor-copyhelper/README.html" />
+    <link rel="next" title="bioconductor-cqn" href="../bioconductor-cqn/README.html" />
+    <link rel="prev" title="bioconductor-copynumber" href="../bioconductor-copynumber/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,10 +69,10 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-copynumber">
-<span id="id1"></span><h1>bioconductor-copynumber<a class="headerlink" href="#bioconductor-copynumber" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-copynumber"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-copynumber/badges/downloads.svg" /></a></p>
-<p>Penalized least squares regression is applied to fit piecewise constant curves to copy number data to locate genomic regions of constant copy number. Procedures are available for individual segmentation of each sample, joint segmentation of several samples and joint segmentation of the two data tracks from SNP-arrays. Several plotting functions are available for visualization of the data and the segmentation results.</p>
+  <div class="section" id="bioconductor-copywriter">
+<span id="id1"></span><h1>bioconductor-copywriter<a class="headerlink" href="#bioconductor-copywriter" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-copywriter"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-copywriter/badges/downloads.svg" /></a></p>
+<p>CopywriteR extracts DNA copy number information from targeted sequencing by utiizing off-target reads. It allows for extracting uniformly distributed copy number information, can be used without reference, and can be applied to sequencing data obtained from various techniques including chromatin immunoprecipitation and target enrichment on small gene panels. Thereby, CopywriteR constitutes a widely applicable alternative to available copy number detection tools.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="8%" />
@@ -80,36 +80,36 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/copynumber.html">http://bioconductor.org/packages/3.6/bioc/html/copynumber.html</a></td>
+<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/CopywriteR.html">http://bioconductor.org/packages/3.6/bioc/html/CopywriteR.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.16.0, 1.18.0</td>
+<td>2.10.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Artistic-2.0</td>
+<td>GPL-2</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copywriter</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">copynumber</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">copywriter</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">copynumber</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">copywriter</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-copynumber"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-copynumber/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-copynumber">https://quay.io/repository/biocontainers/bioconductor-copynumber</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-copywriter"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-copywriter/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-copywriter">https://quay.io/repository/biocontainers/bioconductor-copywriter</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-copynumber/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-copynumber/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-copywriter/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-copywriter/README.html)
 </pre></div>
 </div>
 </div>
@@ -157,7 +157,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-copynumber/README.rst.txt"
+      <a href="../../_sources/recipes/bioconductor-copywriter/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
