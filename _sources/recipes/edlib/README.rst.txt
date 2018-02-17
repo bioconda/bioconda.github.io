@@ -9,7 +9,7 @@ C/C++ library and program for sequence alignment using edit (Levenshtein) distan
 
 ======== ===========
 Home     https://github.com/Martinsos/edlib/
-Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1
+Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1, 1.2.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib
 ======== ===========
@@ -27,7 +27,10 @@ and update with::
 
    conda update edlib
 
+Notes
+-----
 
+From version 1.1.0 onward, the `aligner` executable has been renamed to `edlib-aligner`.
 
 |docker|
 
