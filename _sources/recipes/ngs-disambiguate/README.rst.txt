@@ -9,7 +9,7 @@ Disambiguation algorithm for reads aligned to human and mouse genomes using Toph
 
 ======== ===========
 Home     https://github.com/AstraZeneca-NGS/disambiguate
-Versions 2016.11.10
+Versions 1.0.0, 2016.11.10
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate
 ======== ===========

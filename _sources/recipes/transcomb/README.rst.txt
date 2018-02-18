@@ -10,7 +10,7 @@ A sparse k-mer graph based, memory-efficient genome assembler
 ======== ===========
 Home     https://github.com/yechengxi/SparseAssembler
 Versions 1.0
-License  
+License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transcomb
 ======== ===========
 
