@@ -7,11 +7,12 @@ metaphlan2
 
 MetaPhlAn is a computational tool for profiling the composition of microbial communities (Bacteria, Archaea, Eukaryotes and Viruses) from metagenomic shotgun sequencing data with species level resolution. From version 2.0 MetaPhlAn is also able to identify specific strains (in the not-so-frequent cases in which the sample contains a previously sequenced strains) and to track strains across samples for all species.
 
+
 ======== ===========
 Home     https://bitbucket.org/biobakery/metaphlan2
-Versions 2.2.0, 2.5.0, 2.6.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.5.0
+Versions 2.2.0, 2.5.0, 2.6.0, 2.7.5
+License  MIT
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.5
 ======== ===========
 
 Installation
