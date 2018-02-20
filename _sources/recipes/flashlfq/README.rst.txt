@@ -9,7 +9,7 @@ ultrafast label-free quantification algorithm for mass-spectrometry proteomics
 
 ======== ===========
 Home     https://github.com/smith-chem-wisc/FlashLFQ
-Versions 0.1.100
+Versions 0.1.100, 0.1.101
 License  GLPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq
 ======== ===========

@@ -5,13 +5,13 @@ perl-pathtools
 
 |downloads|
 
-get pathname of current working directory
+Tools for working with directory and file names
 
 ======== ===========
-Home     http://metacpan.org/pod/PathTools
-Versions 3.40
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools
+Home     http://dev.perl.org/
+Versions 3.40, 3.73
+License  perl_5
+Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools/3.73
 ======== ===========
 
 Installation
