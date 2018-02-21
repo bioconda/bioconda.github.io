@@ -9,7 +9,7 @@ Handle genomic data within data frames just as you would with 'GRanges'. This pa
 
 ======== ===========
 Home     https://github.com/const-ae/tidygenomics
-Versions 
+Versions 0.1.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tidygenomics
 ======== ===========

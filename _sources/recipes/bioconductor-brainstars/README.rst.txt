@@ -9,7 +9,7 @@ This package can search and get gene expression data and plots from BrainStars (
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BrainStars.html
-Versions 
+Versions 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainstars
 ======== ===========
