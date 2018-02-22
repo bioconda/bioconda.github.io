@@ -42738,7 +42738,7 @@ Available packages
         
         <td></td>
         
-        <td></td>
+        <td><i class="fa fa-linux"></i></td>
         
         <td><i class="fa fa-apple"></i></td>
         
@@ -59840,6 +59840,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/bis-snp/README.html">bis-snp</a></td>
+        
+        <td>0.82.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/perl-extutils-pkgconfig/README.html">perl-extutils-pkgconfig</a></td>
         
         <td>1.16</td>
@@ -59975,6 +59989,20 @@ Available packages
         <td><i class="fa fa-linux"></i></td>
         
         <td></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/perl-bio-viennangs/README.html">perl-bio-viennangs</a></td>
+        
+        <td>v0.18</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
         
     </tr>
     
@@ -61453,6 +61481,20 @@ Available packages
         <td><a href="recipes/snakemake/README.html">snakemake</a></td>
         
         <td>4.6.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/snakemake/README.html">snakemake</a></td>
+        
+        <td>4.7.0</td>
         
         <td></td>
         
@@ -80784,6 +80826,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/perl-file-share/README.html">perl-file-share</a></td>
+        
+        <td>0.25</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/srst2/README.html">srst2</a></td>
         
         <td>0.1.4.6</td>
@@ -88263,6 +88319,20 @@ Available packages
         <td><a href="recipes/cutadapt/README.html">cutadapt</a></td>
         
         <td>1.15</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/cutadapt/README.html">cutadapt</a></td>
+        
+        <td>1.16</td>
         
         <td></td>
         
