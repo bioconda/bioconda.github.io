@@ -9,7 +9,7 @@ Watchdog, a WMS for the automated and distributed analysis of large-scale experi
 
 ======== ===========
 Home     https://www.bio.ifi.lmu.de/watchdog
-Versions 1.2.3b, 1.2.4b, 1.2.5
+Versions 1.2.3b, 1.2.4b, 1.2.5, 1.2.6
 License  GNU General Public License, Version 3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/watchdog-wms
 ======== ===========

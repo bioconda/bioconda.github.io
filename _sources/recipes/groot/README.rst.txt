@@ -5,7 +5,7 @@ groot
 
 |downloads|
 
-A tool for resistome profiling of metagenomic samples. It combines variation graph representation of gene sets with an LSH indexing scheme to allow for fast classification of metagenomic reads.
+A tool for resistome profiling of metagenomic samples.
 
 ======== ===========
 Home     https://github.com/will-rowe/groot

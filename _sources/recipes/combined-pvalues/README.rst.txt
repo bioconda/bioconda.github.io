@@ -12,7 +12,7 @@ This is useful for ChIP-Seq probes and Tiling arrays, or any data with spatial c
 
 ======== ===========
 Home     https://github.com/brentp/combined-pvalues
-Versions 0.46
+Versions 0.46, 0.48
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/combined-pvalues
 ======== ===========

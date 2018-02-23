@@ -5550,6 +5550,20 @@ Available packages
         
         <td><a href="recipes/csvtk/README.html">csvtk</a></td>
         
+        <td>0.13.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/csvtk/README.html">csvtk</a></td>
+        
         <td>0.4.4</td>
         
         <td></td>
@@ -16149,6 +16163,34 @@ Available packages
         <td><a href="recipes/behst/README.html">behst</a></td>
         
         <td>2.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/behst/README.html">behst</a></td>
+        
+        <td>2.7</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/behst/README.html">behst</a></td>
+        
+        <td>2.8</td>
         
         <td></td>
         
@@ -41374,6 +41416,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/watchdog-wms/README.html">watchdog-wms</a></td>
+        
+        <td>1.2.6</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-delayedarray/README.html">bioconductor-delayedarray</a></td>
         
         <td>0.2.7</td>
@@ -42553,6 +42609,20 @@ Available packages
         <td><a href="recipes/racon/README.html">racon</a></td>
         
         <td>0.5.0</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/racon/README.html">racon</a></td>
+        
+        <td>1.0.0</td>
         
         <td></td>
         
@@ -54425,6 +54495,20 @@ Available packages
         <td><a href="recipes/swga/README.html">swga</a></td>
         
         <td>0.4.3.p1</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/swga/README.html">swga</a></td>
+        
+        <td>0.4.4</td>
         
         <td></td>
         
@@ -67302,6 +67386,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/downpore/README.html">downpore</a></td>
+        
+        <td>0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/breseq/README.html">breseq</a></td>
         
         <td>0.29.0</td>
@@ -72205,6 +72303,20 @@ Available packages
         <td><a href="recipes/kodoja/README.html">kodoja</a></td>
         
         <td>0.0.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/kodoja/README.html">kodoja</a></td>
+        
+        <td>0.0.3</td>
         
         <td></td>
         
@@ -79317,6 +79429,20 @@ Available packages
         <td><a href="recipes/r-maldiquant/README.html">r-maldiquant</a></td>
         
         <td>1.17</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/r-asics/README.html">r-asics</a></td>
+        
+        <td>1.0.1</td>
         
         <td></td>
         
@@ -88134,6 +88260,20 @@ Available packages
     
     <tr>
         
+        <td><a href="recipes/treekin/README.html">treekin</a></td>
+        
+        <td>0.4.2</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
         <td><a href="recipes/bioconductor-dupradar/README.html">bioconductor-dupradar</a></td>
         
         <td>1.2.2</td>
@@ -88879,6 +89019,20 @@ Available packages
         <td><a href="recipes/combined-pvalues/README.html">combined-pvalues</a></td>
         
         <td>0.46</td>
+        
+        <td></td>
+        
+        <td><i class="fa fa-linux"></i></td>
+        
+        <td><i class="fa fa-apple"></i></td>
+        
+    </tr>
+    
+    <tr>
+        
+        <td><a href="recipes/combined-pvalues/README.html">combined-pvalues</a></td>
+        
+        <td>0.48</td>
         
         <td></td>
         
