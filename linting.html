@@ -74,7 +74,7 @@ $(document).ready(function() {
 <p>In order to ensure high-quality packages, we now perform routine checks on each
 recipe (called <a class="reference external" href="http://stackoverflow.com/questions/8503559/what-is-linting">linting</a>). By default,
 linting is performed on any recipes that have changed relative to the master
-branch. The travis-ci build will fail if any of the linting checks fail. Below
+branch. The CircleCI build will fail if any of the linting checks fail. Below
 is a list of the checks performed and how to fix them if they fail.</p>
 <div class="section" id="skipping-a-linting-test">
 <h2>Skipping a linting test<a class="headerlink" href="#skipping-a-linting-test" title="Permalink to this headline">¶</a></h2>
@@ -88,7 +88,7 @@ should be skipped.</p>
 <p>For example, if the linter reports a <code class="docutils literal"><span class="pre">uses_setuptools</span></code> issue for
 <code class="docutils literal"><span class="pre">recipes/mypackage</span></code>, but you are certain the package really needs
 setuptools, you can add <code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/mypackage]</span></code>
-to the commit message and this linting test will be skipped on Travis-CI.
+to the commit message and this linting test will be skipped on CircleCI.
 Multiple tests can be skipped by adding additional special text. For example,
 <code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/pkg1]</span> <span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">in_other_channels</span> <span class="pre">for</span>
 <span class="pre">recipes/pkg2/0.3.5]</span></code>. Note in the latter case that the second recipe has
@@ -96,10 +96,10 @@ a subdirectory for an older version.</p>
 <p>Technically we check for the regular expression <code class="docutils literal"><span class="pre">\[\s*lint</span> <span class="pre">skip</span> <span class="pre">(?P&lt;func&gt;\w+)</span>
 <span class="pre">for</span> <span class="pre">(?P&lt;recipe&gt;.*?)\s*\]</span></code> in the commit message of the HEAD commit. However,
 often we want to test changes locally without committing.  When running
-<code class="docutils literal"><span class="pre">simulate-travis.py</span></code> locally for testing, you can add the same special text to
-a temporary environment variable <code class="docutils literal"><span class="pre">LINT_SKIP</span></code>. The same example above could be
-tested locally like this without having to make a commit:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="o">./</span><span class="n">simulate</span><span class="o">-</span><span class="n">travis</span><span class="o">.</span><span class="n">py</span>
+locally for testing, you can add the same special text to a temporary
+environment variable <code class="docutils literal"><span class="pre">LINT_SKIP</span></code>. The same example above could be tested
+locally like this without having to make a commit:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="n">circleci</span> <span class="n">build</span>
 </pre></div>
 </div>
 </div>

@@ -80,47 +80,56 @@ are also with the <code class="docutils literal"><span class="pre">bioconda-reci
 a high-level overview; the code remains the authoritative source on exactly
 what happens during a build.</p>
 <p>Why so complicated? We have to work within the constraints of conda-build,
-Docker, and Travis-CI, while simultaneously supporting the same build system on
+Docker, and CircleCI, while simultaneously supporting the same build system on
 a local machine so contributors can test. We also have isolated bioconda-utils
 from bioconda-recipes to better facilitate testing of the infrastructure, and
 to (one day!) make it general enough that others can use the framework for
 their own specific channels. So there are a lot of moving parts that have to be
 coordinated, resulting in a complex system. That said, we do have some room to
 simplify, and do so where we can.</p>
+<div class="section" id="stages-of-a-bioconda-build">
+<h2>Stages of a bioconda build<a class="headerlink" href="#stages-of-a-bioconda-build" title="Permalink to this headline">¶</a></h2>
 <p>A GitHub pull request, or any pushed changes to a GitHub pull request, triggers
-a new build on Travis-CI. Each build on Travis-CI starts with a fresh VM, so we
+a new build on CircleCI. One build can contain mulitple recipes, limited only
+by the time limit imposed by CircleCI (they have generously given us an
+extended build time).  Each build on CircleCI starts with a fresh VM, so we
 need to create the entire bioconda-build system environment from scratch for
 each build.</p>
-<p>One build can contain mulitple recipes, limited only by the time limit imposed
-by Travis-CI (they have generously given us an extended build time). Each build
-has the following stages; the relevant files in the relevant repos are
-indicated.</p>
+<p>When testing locally with <code class="docutils literal"><span class="pre">circleci</span> <span class="pre">build</span></code>, we use the
+<cite>bioconda/bioconda-utils-build-env</cite> Docker container to avoid changing the
+local system. This container is defined by <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/Dockerfile">this Dockerfile</a>.</p>
+<p>Otherwise, when running on CircleCI, a new Linux or MacOS VM is created for
+each build.</p>
+<p>The steps are orchestrated by the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/.circleci/config.yml">circleci config file</a>.</p>
+<div class="section" id="configure-the-environment">
+<h3>Configure the environment<a class="headerlink" href="#configure-the-environment" title="Permalink to this headline">¶</a></h3>
 <ul>
 <li><dl class="first docutils">
-<dt>Install necessary packages on the VM</dt>
+<dt>Configure the CI environment:</dt>
 <dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.travis.yml</span></code>: configures setup script and env vars</li>
-<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">scripts/travis-setup.sh</span></code>: the actual setup script;
-ends with adding local channel so that subsequent packages can use
-previously built packages as dependencies</li>
-<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">simulate-travis.py</span></code>: called by the setup script;
-this installs miniconda and configures bioconda and conda-forge channels</li>
+<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> is the primary configuration
+file for the steps that are run. See <a class="reference external" href="https://circleci.com/docs/2.0/">https://circleci.com/docs/2.0/</a> for
+the configuration documentation.</li>
+<li><code class="docutils literal"><span class="pre">bioconda-common:</span> <span class="pre">common.sh</span></code> defines the versions of Miniconda and
+bioconda-utils to use.</li>
+<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/setup.sh</span></code> installs Miniconda and
+bioconda-utils, sets the correct channel order</li>
 </ul>
 </dd>
 </dl>
 </li>
-<li><dl class="first docutils">
-<dt>Start a build</dt>
-<dd><ul class="first last simple">
-<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">scripts/travis-run.sh</span></code>: handles different ways
-a build could be triggered on travis-ci and handles them appropriately</li>
-<li><code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.travis.yml</span></code>: env vars defined here</li>
-</ul>
-</dd>
-</dl>
+<li><p class="first">Run linting on changed recipes
+- This is triggered by the <code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> “lint”</p>
+<blockquote>
+<div><p>job, which runs <code class="docutils literal"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/cli.py</span></code> and
+<code class="docutils literal"><span class="pre">bioconda_utils/linting.py</span></code></p>
+</div></blockquote>
 </li>
-<li><p class="first">Run linting on those changed recipes
-- <code class="docutils literal"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/cli.py</span></code>, <code class="docutils literal"><span class="pre">bioconda_utils/linting.py</span></code></p>
+<li><p class="first">Build recipes
+- Triggered by the <code class="docutils literal"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yaml</span></code> “test-linux”</p>
+<blockquote>
+<div><p>job, which runs <code class="docutils literal"><span class="pre">bioconda-utils</span> <span class="pre">build</span></code>. This performs the next steps.</p>
+</div></blockquote>
 </li>
 <li><dl class="first docutils">
 <dt>Filter recipes to only focus on recipes that satisfy the following criteria:</dt>
@@ -210,6 +219,8 @@ can be merged into the master branch</li>
 <p>As soon as the package is uploaded to anaconda.org, it is available for
 installing via <code class="docutils literal"><span class="pre">conda</span></code>. As soon as the BusyBox container is uploaded to
 quay.io, it is available for use via <code class="docutils literal"><span class="pre">docker</span> <span class="pre">pull</span></code>.</p>
+</div>
+</div>
 <div class="section" id="the-bulk-branch">
 <h2>The <code class="docutils literal"><span class="pre">bulk</span></code> branch<a class="headerlink" href="#the-bulk-branch" title="Permalink to this headline">¶</a></h2>
 <p>Periodically, large-scale maintenance needs to be done on the channel. For
@@ -270,6 +281,10 @@ fully successful, a PR is opened to merge the changes into master.</p>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Build system</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#stages-of-a-bioconda-build">Stages of a bioconda build</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configure-the-environment">Configure the environment</a></li>
+</ul>
+</li>
 <li class="toctree-l2"><a class="reference internal" href="#the-bulk-branch">The <code class="docutils literal"><span class="pre">bulk</span></code> branch</a></li>
 </ul>
 </li>

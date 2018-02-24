@@ -237,13 +237,8 @@ performed for R packages.</p>
 <div class="section" id="r-bioconductor">
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
 <p>Use the <code class="docutils literal"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
-skeleton. Note that if you set up your development environment using
-<code class="docutils literal"><span class="pre">simulate-travis.py</span> <span class="pre">--bootstrap</span> <span class="pre">/tmp/miniconda</span></code> then <code class="docutils literal"><span class="pre">bioconda-utils</span></code> is
-installed but by design is not added to your path in order to maintain
-separation from any of your existing environments. So you will need to call
-<code class="docutils literal"><span class="pre">/tmp/miniconda/bin/bioconda-utils</span> <span class="pre">bioconductor-skeleton</span> <span class="pre">-h</span></code> to view the help.</p>
-<p>For example, in the bioconda-recipes directory:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="o">/</span><span class="n">tmp</span><span class="o">/</span><span class="n">miniconda</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">skeleton</span> <span class="n">recipes</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="n">DESeq2</span>
+skeleton:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">skeleton</span> <span class="n">recipes</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="n">DESeq2</span>
 </pre></div>
 </div>
 <p>Note that the provided package name is a case-sensitive package available on
@@ -431,14 +426,14 @@ issue.</p>
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
 tests or otherwise), including these in the recipe is not recommended
-since it may timeout the build system on Travis-CI. We especially want to avoid
+since it may timeout the build system on CircleCI. We especially want to avoid
 including any kind of test data in the repository.</p>
 <p>Note that a test must return an exit code of 0. The test can be in the <code class="docutils literal"><span class="pre">test</span></code>
 field of <code class="docutils literal"><span class="pre">meta.yaml</span></code>, or can be a separate script (see the <a class="reference external" href="http://conda.pydata.org/docs/building/meta-yaml.html#test-section">relevant conda
 docs</a> for
 testing).</p>
 <p>It is recommended to pipe unneeded stdout/stderr to /dev/null to avoid
-cluttering the output in the Travis-CI build environment.</p>
+cluttering the output in the CircleCI build environment.</p>
 </div>
 <div class="section" id="link-and-unlink-scripts-pre-and-post-install-hooks">
 <h2>Link and unlink scripts (pre- and post- install hooks)<a class="headerlink" href="#link-and-unlink-scripts-pre-and-post-install-hooks" title="Permalink to this headline">¶</a></h2>

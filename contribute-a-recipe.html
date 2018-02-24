@@ -87,47 +87,8 @@ git pull origin master
 </pre></div>
 </div>
 </div>
-<div class="section" id="build-an-isolated-conda-installation-with-dependencies">
-<h2>2. Build an isolated conda installation with dependencies<a class="headerlink" href="#build-an-isolated-conda-installation-with-dependencies" title="Permalink to this headline">¶</a></h2>
-<p>In the top level of the bioconda-recipes repo, run:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>./simulate-travis.py --bootstrap /tmp/miniconda --overwrite
-</pre></div>
-</div>
-<p>This will:</p>
-<ul class="simple">
-<li>create a conda installation in <code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> that is separate from any
-Python or conda you might already have on your system. No root privileges are
-needed.</li>
-<li>set up the proper channel order</li>
-<li>install <code class="docutils literal"><span class="pre">bioconda-utils</span></code> and its dependencies into that installation</li>
-<li>write a config file at <code class="docutils literal"><span class="pre">~/.config/bioconda/config.yml</span></code> to persistently
-store the location of this new installation so that subsequent calls to
-<code class="docutils literal"><span class="pre">simulate-travis.py</span></code> will use it with no further configuration.</li>
-</ul>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p>If you plan on running <cite>bioconda-utils</cite> outside the context of
-<cite>simulate-travis.py</cite> – for example to build recipe skeletons, inspect the
-DAG of recipes, or other maintenance and development work – you need to
-call it using its full path. If you used <code class="docutils literal"><span class="pre">/tmp/miniconda</span></code> as the
-bootstrap path in the command above, then use
-<code class="docutils literal"><span class="pre">/tmp/miniconda/bin/bioconda-utils</span></code>.</p>
-<p class="last">This is by design: we want to keep all bioconda-related tools, which may
-have specific dependencies that must exist in the root environment,
-isolated from any environments you may have on your system.</p>
-</div>
-<div class="admonition note">
-<p class="first admonition-title">Note</p>
-<p>The bootstrap operation runs relatively quickly, so you might consider
-running it every time you build and test a new recipe to ensure tests on
-travis-ci go as smoothly as possible.</p>
-<p class="last">If you are running into particularly difficult-to-troubleshoot issues, try
-removing the installation directory completely and then re-installing using
-the <code class="docutils literal"><span class="pre">--bootstrap</span></code> argument.</p>
-</div>
-</div>
 <div class="section" id="write-a-recipe">
-<h2>3. Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
+<h2>2. Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
 <p>Check out a new branch (here the branch is arbitrarily named “my-recipe”):</p>
 <div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout -b my-recipe
 </pre></div>
@@ -138,10 +99,14 @@ source for information on building a recipe.</p>
 bioconda-specific policies.</p>
 </div>
 <div class="section" id="test-locally">
-<span id="id1"></span><h2>4. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
+<span id="id1"></span><h2>3. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
 <p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>.
 Then, all that needs to be done is to execute</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>circleci build
+<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
+docker pull bioconda/bioconda-utils-build-env
+
+<span class="c1"># Run the build locally</span>
+circleci build
 </pre></div>
 </div>
 <p>in the root of your repository clone.</p>
@@ -155,7 +120,7 @@ uses, e.g., <cite>CONDA_BOOST</cite>. You can look up the proper values for thos
 under <cite>scripts/env_matrix.yml</cite> in the repository.</p>
 </div>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
-<h2>5. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
+<h2>4. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
 <p>Push your changes to your fork or to the main repo (if using a clone) to GitHub:</p>
 <div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
 </pre></div>
@@ -218,10 +183,9 @@ correctly, and that they create an isolated environment when installing using
 <li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Contributing a recipe</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#update-repo">1. Update repo</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#build-an-isolated-conda-installation-with-dependencies">2. Build an isolated conda installation with dependencies</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#write-a-recipe">3. Write a recipe</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#test-locally">4. Test locally</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#push-changes-wait-for-tests-to-pass-submit-pull-request">5. Push changes, wait for tests to pass, submit pull request</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#write-a-recipe">2. Write a recipe</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#test-locally">3. Test locally</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#push-changes-wait-for-tests-to-pass-submit-pull-request">4. Push changes, wait for tests to pass, submit pull request</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#use-your-new-recipe">6. Use your new recipe</a></li>
 </ul>
 </li>
