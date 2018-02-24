@@ -5,11 +5,11 @@ chewbbaca
 
 |downloads|
 
-Whole genome and core genome MultiLocus Sequence Typing.
+A complete suite for gene-by-gene schema creation and strain identification
 
 ======== ===========
 Home     https://github.com/B-UMMI/chewBBACA
-Versions 1.0
+Versions 1.0, 2.0.6
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca
 ======== ===========

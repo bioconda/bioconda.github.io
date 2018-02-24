@@ -9,7 +9,7 @@ A highly sensitive and accurate Bayesian caller for variants in single cell sequ
 
 ======== ===========
 Home     https://github.com/PROSIC/prosolo/tree/v0.4.0
-Versions 0.2.0, 0.3.1
+Versions 0.2.0, 0.3.1, 0.4.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosolo
 ======== ===========
