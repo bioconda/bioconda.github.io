@@ -5,14 +5,17 @@ cdbtools
 
 |downloads|
 
-CDB (Constant DataBase) indexing and retrieval tools for FASTA files
+CDB \(Constant DataBase\) indexing and retrieval tools for FASTA files
 
 ======== ===========
 Home     http://compbio.dfci.harvard.edu/tgi
 Versions 0.99
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdbtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cdbtools
 .. |docker| image:: https://quay.io/repository/biocontainers/cdbtools/status
                 :target: https://quay.io/repository/biocontainers/cdbtools
-
 

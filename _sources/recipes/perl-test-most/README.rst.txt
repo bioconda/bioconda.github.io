@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test-Most
 Versions 0.34
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-most
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-most
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-most/status
                 :target: https://quay.io/repository/biocontainers/perl-test-most
-
 

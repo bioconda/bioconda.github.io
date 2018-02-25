@@ -5,14 +5,17 @@ bwameth
 
 |downloads|
 
-A fast and accurate aligner of BS-seq reads
+A fast and accurate aligner of BS\-seq reads
 
 ======== ===========
 Home     https://github.com/brentp/bwa-meth
 Versions 0.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bwameth
 .. |docker| image:: https://quay.io/repository/biocontainers/bwameth/status
                 :target: https://quay.io/repository/biocontainers/bwameth
-
 

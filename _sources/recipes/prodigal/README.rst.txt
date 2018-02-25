@@ -5,14 +5,17 @@ prodigal
 
 |downloads|
 
-Prodigal (Prokaryotic Dynamic Programming Genefinding Algorithm) is a microbial (bacterial and archaeal) gene finding program
+Prodigal \(Prokaryotic Dynamic Programming Genefinding Algorithm\) is a microbial \(bacterial and archaeal\) gene finding program
 
 ======== ===========
 Home     http://prodigal.ornl.gov/
 Versions 2.6.2, 2.6.3
 License  GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prodigal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prodigal
 .. |docker| image:: https://quay.io/repository/biocontainers/prodigal/status
                 :target: https://quay.io/repository/biocontainers/prodigal
-
 

@@ -12,7 +12,10 @@ Home     https://www.gnu.org/software/libidn/
 Versions 7.45.0
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libidn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libidn
 .. |docker| image:: https://quay.io/repository/biocontainers/libidn/status
                 :target: https://quay.io/repository/biocontainers/libidn
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/marbl/MashMap
 Versions 1.0, 2.0
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mashmap
 .. |docker| image:: https://quay.io/repository/biocontainers/mashmap/status
                 :target: https://quay.io/repository/biocontainers/mashmap
-
 

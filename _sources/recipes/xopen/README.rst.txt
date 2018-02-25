@@ -12,7 +12,10 @@ Home     https://github.com/marcelm/xopen
 Versions 0.1.0, 0.1.1, 0.3.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xopen
 .. |docker| image:: https://quay.io/repository/biocontainers/xopen/status
                 :target: https://quay.io/repository/biocontainers/xopen
-
 

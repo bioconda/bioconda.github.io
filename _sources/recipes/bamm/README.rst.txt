@@ -5,14 +5,17 @@ bamm
 
 |downloads|
 
-Metagenomics-focused BAM file manipulation
+Metagenomics\-focused BAM file manipulation
 
 ======== ===========
 Home     https://github.com/Ecogenomics/BamM
 Versions 1.7.3
 License  LGPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bamm
 .. |docker| image:: https://quay.io/repository/biocontainers/bamm/status
                 :target: https://quay.io/repository/biocontainers/bamm
-
 

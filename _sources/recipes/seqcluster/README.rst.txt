@@ -12,7 +12,10 @@ Home     https://github.com/lpantano/seqclsuter
 Versions 1.1.13, 1.1.14, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4a
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqcluster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqcluster
 .. |docker| image:: https://quay.io/repository/biocontainers/seqcluster/status
                 :target: https://quay.io/repository/biocontainers/seqcluster
-
 

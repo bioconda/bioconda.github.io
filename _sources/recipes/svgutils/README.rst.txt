@@ -5,14 +5,17 @@ svgutils
 
 |downloads|
 
-Python SVG editor that allows to automatically create publication ready composite SVG figures.
+Python SVG editor that allows to automatically create publication ready composite SVG figures\.
 
 ======== ===========
 Home     http://neuroscience.telenczuk.pl
 Versions 0.1.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svgutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svgutils
 .. |docker| image:: https://quay.io/repository/biocontainers/svgutils/status
                 :target: https://quay.io/repository/biocontainers/svgutils
-
 

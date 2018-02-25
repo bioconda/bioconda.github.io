@@ -5,14 +5,17 @@ bioconductor-process
 
 |downloads|
 
-A package for processing protein mass spectrometry data.
+A package for processing protein mass spectrometry data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PROcess.html
 Versions 1.54.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-process
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-process
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-process/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-process
-
 

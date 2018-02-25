@@ -12,7 +12,10 @@ Home     https://github.com/mhoopmann/kronik
 Versions 2.20
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kronik
 .. |docker| image:: https://quay.io/repository/biocontainers/kronik/status
                 :target: https://quay.io/repository/biocontainers/kronik
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/ruhulsbu/NanoBLASTer
 Versions 0.16
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoblaster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoblaster
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoblaster/status
                 :target: https://quay.io/repository/biocontainers/nanoblaster
-
 

@@ -5,14 +5,17 @@ fermikit
 
 |downloads|
 
-FermiKit is a de novo assembly based variant calling pipeline for deep Illumina resequencing data.
+FermiKit is a de novo assembly based variant calling pipeline for deep Illumina resequencing data\.
 
 ======== ===========
 Home     https://github.com/lh3/fermikit
 Versions 0.14.dev1
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermikit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fermikit
 .. |docker| image:: https://quay.io/repository/biocontainers/fermikit/status
                 :target: https://quay.io/repository/biocontainers/fermikit
-
 

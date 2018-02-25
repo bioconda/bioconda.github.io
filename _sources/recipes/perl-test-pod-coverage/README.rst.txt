@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test::Pod::Coverage
 Versions 1.10
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage/1.10
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-pod-coverage
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-pod-coverage/status
                 :target: https://quay.io/repository/biocontainers/perl-test-pod-coverage
-
 

@@ -5,14 +5,17 @@ shiver
 
 |downloads|
 
-SHIVER - Sequences from HIV Easily Reconstructed
+SHIVER \- Sequences from HIV Easily Reconstructed
 
 ======== ===========
 Home     https://github.com/ChrisHIV/shiver
 Versions 1.0.0, 1.1.0, 1.2.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shiver
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shiver
 .. |docker| image:: https://quay.io/repository/biocontainers/shiver/status
                 :target: https://quay.io/repository/biocontainers/shiver
-
 

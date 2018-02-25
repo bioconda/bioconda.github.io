@@ -12,7 +12,10 @@ Home     https://github.com/linnarsson-lab/BackSPIN
 Versions 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/backspinpy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/backspinpy
 .. |docker| image:: https://quay.io/repository/biocontainers/backspinpy/status
                 :target: https://quay.io/repository/biocontainers/backspinpy
-
 

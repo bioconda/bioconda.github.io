@@ -5,14 +5,17 @@ exparna
 
 |downloads|
 
-The program finds the longest common subsequence of exact pattern matches (LCS-EPM)
+The program finds the longest common subsequence of exact pattern matches \(LCS\-EPM\)
 
 ======== ===========
 Home     https://github.com/BackofenLab/ExpaRNA
 Versions 1.0.1
 License  GPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/exparna
 .. |docker| image:: https://quay.io/repository/biocontainers/exparna/status
                 :target: https://quay.io/repository/biocontainers/exparna
-
 

@@ -5,14 +5,17 @@ fasta3
 
 |downloads|
 
-The FASTA package - protein and DNA sequence similarity searching and alignment programs
+The FASTA package \- protein and DNA sequence similarity searching and alignment programs
 
 ======== ===========
 Home     http://faculty.virginia.edu/wrpearson/fasta
 Versions 36.3.8
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fasta3
 .. |docker| image:: https://quay.io/repository/biocontainers/fasta3/status
                 :target: https://quay.io/repository/biocontainers/fasta3
-
 

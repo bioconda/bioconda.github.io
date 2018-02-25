@@ -5,14 +5,17 @@ perl-perlio-utf8_strict
 
 |downloads|
 
-Fast and correct UTF-8 IO
+Fast and correct UTF\-8 IO
 
 ======== ===========
 Home     http://metacpan.org/pod/PerlIO::utf8_strict
 Versions 0.006
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-utf8_strict
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perlio-utf8_strict
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict/status
                 :target: https://quay.io/repository/biocontainers/perl-perlio-utf8_strict
-
 

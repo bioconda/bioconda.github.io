@@ -5,14 +5,17 @@ rsem
 
 |downloads|
 
-RSEM (RNA-Seq by Expectation-Maximization)
+RSEM \(RNA\-Seq by Expectation\-Maximization\)
 
 ======== ===========
 Home     https://deweylab.github.io/RSEM/
 Versions 1.2.22, 1.2.28, 1.3.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rsem
 .. |docker| image:: https://quay.io/repository/biocontainers/rsem/status
                 :target: https://quay.io/repository/biocontainers/rsem
-
 

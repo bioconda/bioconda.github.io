@@ -12,7 +12,10 @@ Home     https://bitbucket.org/hamimzafar/monovar
 Versions v0.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monovar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/monovar
 .. |docker| image:: https://quay.io/repository/biocontainers/monovar/status
                 :target: https://quay.io/repository/biocontainers/monovar
-
 

@@ -5,14 +5,17 @@ yaggo
 
 |downloads|
 
-Yaggo is a tool to generate command line parsers for C++. Yaggo stands for "Yet Another GenGetOpt" and is inspired by GNU Gengetopt.
+Yaggo is a tool to generate command line parsers for C\+\+\. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt\.
 
 ======== ===========
 Home     https://github.com/gmarcais/yaggo
 Versions 1.5.8, 1.5.9
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yaggo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/yaggo
 .. |docker| image:: https://quay.io/repository/biocontainers/yaggo/status
                 :target: https://quay.io/repository/biocontainers/yaggo
-
 

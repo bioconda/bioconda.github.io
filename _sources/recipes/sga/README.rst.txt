@@ -5,14 +5,17 @@ sga
 
 |downloads|
 
-SGA - String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM-index/Burrows-Wheeler transform to efficiently find overlaps between sequence reads.
+SGA \- String Graph Assembler\. SGA is a de novo assembler for DNA sequence reads\. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads\.
 
 ======== ===========
 Home     https://github.com/jts/sga
 Versions 0.10.13, 0.10.15
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sga
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sga
 .. |docker| image:: https://quay.io/repository/biocontainers/sga/status
                 :target: https://quay.io/repository/biocontainers/sga
-
 

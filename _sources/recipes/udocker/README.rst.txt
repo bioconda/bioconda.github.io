@@ -5,14 +5,17 @@ udocker
 
 |downloads|
 
-Freely available tools for computational molecular biology.
+Freely available tools for computational molecular biology\.
 
 ======== ===========
 Home     https://github.com/indigo-dc/udocker
 Versions 1.0.3
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/udocker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/udocker
 .. |docker| image:: https://quay.io/repository/biocontainers/udocker/status
                 :target: https://quay.io/repository/biocontainers/udocker
-
 

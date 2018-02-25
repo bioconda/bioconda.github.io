@@ -5,14 +5,17 @@ r-metama
 
 |downloads|
 
-Combines either p-values or modified effect sizes from different studies to find differentially expressed genes
+Combines either p\-values or modified effect sizes from different studies to find differentially expressed genes
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=metaMA
 Versions 3.1.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metama
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-metama
 .. |docker| image:: https://quay.io/repository/biocontainers/r-metama/status
                 :target: https://quay.io/repository/biocontainers/r-metama
-
 

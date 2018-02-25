@@ -5,14 +5,17 @@ bioconductor-msnbase
 
 |downloads|
 
-MSnbase provides infrastructure to manipulation, processing and visualisation mass spectrometry and proteomics data, ranging from raw to quantitative and annotated data.
+MSnbase provides infrastructure to manipulation\, processing and visualisation mass spectrometry and proteomics data\, ranging from raw to quantitative and annotated data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MSnbase.html
 Versions 2.2.0, 2.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-msnbase
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-msnbase/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-msnbase
-
 

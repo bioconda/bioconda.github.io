@@ -5,14 +5,17 @@ bpipe
 
 |downloads|
 
-Bpipe - a tool for running and managing bioinformatics pipelines
+Bpipe \- a tool for running and managing bioinformatics pipelines
 
 ======== ===========
 Home     http://docs.bpipe.org/
 Versions 0.9.9.2
 License  BSD-3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bpipe
 .. |docker| image:: https://quay.io/repository/biocontainers/bpipe/status
                 :target: https://quay.io/repository/biocontainers/bpipe
-
 

@@ -12,7 +12,10 @@ Home     http://joeyh.name/code/moreutils/
 Versions 0.5.7
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moreutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/moreutils
 .. |docker| image:: https://quay.io/repository/biocontainers/moreutils/status
                 :target: https://quay.io/repository/biocontainers/moreutils
-
 

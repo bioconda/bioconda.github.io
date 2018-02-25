@@ -5,14 +5,17 @@ perl-lwp-protocol-https
 
 |downloads|
 
-Provide https support for LWP::UserAgent
+Provide https support for LWP\:\:UserAgent
 
 ======== ===========
 Home     https://metacpan.org/pod/LWP::Protocol::https
 Versions 6.06
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-protocol-https
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-lwp-protocol-https
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-lwp-protocol-https/status
                 :target: https://quay.io/repository/biocontainers/perl-lwp-protocol-https
-
 

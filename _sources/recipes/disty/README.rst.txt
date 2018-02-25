@@ -5,14 +5,17 @@ disty
 
 |downloads|
 
-Disty McMatrixface - compute a distance matrix from a core genome alignment file.
+Disty McMatrixface \- compute a distance matrix from a core genome alignment file\.
 
 ======== ===========
 Home     https://github.com/c2-d2/disty
 Versions 0.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disty
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/disty
 .. |docker| image:: https://quay.io/repository/biocontainers/disty/status
                 :target: https://quay.io/repository/biocontainers/disty
-
 

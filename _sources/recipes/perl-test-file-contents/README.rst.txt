@@ -12,7 +12,10 @@ Home     http://search.cpan.org/dist/Test-File-Contents/
 Versions 0.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-file-contents/0.23
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-file-contents
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-file-contents/status
                 :target: https://quay.io/repository/biocontainers/perl-test-file-contents
-
 

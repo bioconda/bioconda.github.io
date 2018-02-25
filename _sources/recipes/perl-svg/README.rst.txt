@@ -5,14 +5,17 @@ perl-svg
 
 |downloads|
 
-Perl extension for generating Scalable Vector Graphics (SVG) documents
+Perl extension for generating Scalable Vector Graphics \(SVG\) documents
 
 ======== ===========
 Home     http://metacpan.org/pod/SVG
 Versions 2.64
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-svg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-svg
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-svg/status
                 :target: https://quay.io/repository/biocontainers/perl-svg
-
 

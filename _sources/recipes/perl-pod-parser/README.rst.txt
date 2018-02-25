@@ -5,14 +5,17 @@ perl-pod-parser
 
 |downloads|
 
-Modules for parsing/translating POD format documents
+Modules for parsing\/translating POD format documents
 
 ======== ===========
 Home     http://metacpan.org/pod/Pod::Parser
 Versions 1.63
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-parser/1.63
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-parser
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-parser/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-parser
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/galaxy-genome-annotation/python-tripal
 Versions 1.5, 1.7, 1.8, 2.0.1, 2.0.2, 2.0.3, 2.0.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-tripal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-tripal
 .. |docker| image:: https://quay.io/repository/biocontainers/python-tripal/status
                 :target: https://quay.io/repository/biocontainers/python-tripal
-
 

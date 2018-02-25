@@ -5,14 +5,17 @@ perl-text-csv
 
 |downloads|
 
-comma-separated values manipulator (using XS or PurePerl)
+comma\-separated values manipulator \(using XS or PurePerl\)
 
 ======== ===========
 Home     https://metacpan.org/pod/Text::CSV
 Versions 1.33
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-csv
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-csv/status
                 :target: https://quay.io/repository/biocontainers/perl-text-csv
-
 

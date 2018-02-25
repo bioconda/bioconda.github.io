@@ -5,14 +5,17 @@ fermi
 
 |downloads|
 
-A WGS de novo assembler based on the FMD-index for large genomes
+A WGS de novo assembler based on the FMD\-index for large genomes
 
 ======== ===========
 Home     https://github.com/lh3/fermi
 Versions 1.1_r751_beta
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fermi
 .. |docker| image:: https://quay.io/repository/biocontainers/fermi/status
                 :target: https://quay.io/repository/biocontainers/fermi
-
 

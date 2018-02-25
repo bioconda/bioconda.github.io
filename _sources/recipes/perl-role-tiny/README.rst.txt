@@ -5,14 +5,17 @@ perl-role-tiny
 
 |downloads|
 
-Roles. Like a nouvelle cuisine portion size slice of Moose.
+Roles\. Like a nouvelle cuisine portion size slice of Moose\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Role-Tiny
 Versions 2.000001
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-role-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-role-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-role-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-role-tiny
-
 

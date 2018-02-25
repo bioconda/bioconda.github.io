@@ -5,14 +5,17 @@
 
 |downloads|
 
-2pg cartesian is a framework of optimization algorithms for protein structure prediction.
+2pg cartesian is a framework of optimization algorithms for protein structure prediction\.
 
 ======== ===========
 Home     https://github.com/rodrigofaccioli/2pg_cartesian
 Versions 1.0.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/2pg_cartesian
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/2pg_cartesian
 .. |docker| image:: https://quay.io/repository/biocontainers/2pg_cartesian/status
                 :target: https://quay.io/repository/biocontainers/2pg_cartesian
-
 

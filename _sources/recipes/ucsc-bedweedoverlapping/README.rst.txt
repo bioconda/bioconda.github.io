@@ -5,14 +5,17 @@ ucsc-bedweedoverlapping
 
 |downloads|
 
-Filter out beds that overlap a 'weed.bed' file.
+Filter out beds that overlap a \'weed\.bed\' file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedweedoverlapping
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bedweedoverlapping
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bedweedoverlapping
-
 

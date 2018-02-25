@@ -5,14 +5,17 @@ bioconductor-rhtslib
 
 |downloads|
 
-This package provides version 1.1 of the 'HTSlib' C library for high-throughput sequence analysis. The package is primarily useful to developers of other R packages who wish to make use of HTSlib. Motivation and instructions for use of this package are in the vignette, vignette(package="Rhtslib", "Rhtslib").
+This package provides version 1\.1 of the \'HTSlib\' C library for high\-throughput sequence analysis\. The package is primarily useful to developers of other R packages who wish to make use of HTSlib\. Motivation and instructions for use of this package are in the vignette\, vignette\(package\=\"Rhtslib\"\, \"Rhtslib\"\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Rhtslib.html
 Versions 1.10.0, 1.6.0, 1.8.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhtslib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rhtslib
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rhtslib/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rhtslib
-
 

@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Text::Glob
 Versions 0.09, 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-glob
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-glob
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-glob/status
                 :target: https://quay.io/repository/biocontainers/perl-text-glob
-
 

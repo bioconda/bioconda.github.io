@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Exporter
 Versions 5.72
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter/5.72
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-exporter
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-exporter/status
                 :target: https://quay.io/repository/biocontainers/perl-exporter
-
 

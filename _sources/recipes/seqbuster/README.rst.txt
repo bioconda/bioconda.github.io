@@ -12,7 +12,10 @@ Home     https://github.com/lpantano/seqbuster
 Versions 2.3, 3.0, 3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqbuster
 .. |docker| image:: https://quay.io/repository/biocontainers/seqbuster/status
                 :target: https://quay.io/repository/biocontainers/seqbuster
-
 

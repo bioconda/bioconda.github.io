@@ -5,14 +5,17 @@ theta2
 
 |downloads|
 
-Estimate tumor purity and clonal/subclonal copy number aberrations directly from high-throughput DNA sequencing data
+Estimate tumor purity and clonal\/subclonal copy number aberrations directly from high\-throughput DNA sequencing data
 
 ======== ===========
 Home     https://github.com/raphael-group/THetA
 Versions 0.7
 License  Modified MIT (no inclusion in commercial tools)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/theta2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/theta2
 .. |docker| image:: https://quay.io/repository/biocontainers/theta2/status
                 :target: https://quay.io/repository/biocontainers/theta2
-
 

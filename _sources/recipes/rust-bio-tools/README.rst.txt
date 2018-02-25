@@ -6,7 +6,7 @@ rust-bio-tools
 |downloads|
 
 A growing collection of fast and secure command line utililities for dealing with NGS data
-implemented on top of Rust-Bio.
+implemented on top of Rust\-Bio\.
 
 
 ======== ===========
@@ -14,7 +14,10 @@ Home     https://github.com/rust-bio/rust-bio-tools
 Versions 0.1.1, 0.1.2, 0.1.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -48,5 +51,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rust-bio-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/rust-bio-tools/status
                 :target: https://quay.io/repository/biocontainers/rust-bio-tools
-
 

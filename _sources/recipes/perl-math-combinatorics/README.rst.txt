@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Math-Combinatorics
 Versions 0.09
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-combinatorics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-math-combinatorics
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-math-combinatorics/status
                 :target: https://quay.io/repository/biocontainers/perl-math-combinatorics
-
 

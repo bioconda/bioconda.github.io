@@ -5,14 +5,17 @@ bioconductor-splatter
 
 |downloads|
 
-Splatter is a package for the simulation of single-cell RNA sequencing count data. It provides a simple interface for creating complex simulations that are reproducible and well-documented. Parameters can be estimated from real data and functions are provided for comparing real and simulated datasets.
+Splatter is a package for the simulation of single\-cell RNA sequencing count data\. It provides a simple interface for creating complex simulations that are reproducible and well\-documented\. Parameters can be estimated from real data and functions are provided for comparing real and simulated datasets\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/splatter.html
 Versions 1.2.1
 License  GPL-3 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splatter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-splatter
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-splatter/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-splatter
-
 

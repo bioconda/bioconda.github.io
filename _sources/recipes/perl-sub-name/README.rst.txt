@@ -5,14 +5,17 @@ perl-sub-name
 
 |downloads|
 
-(Re)name a sub
+\(Re\)name a sub
 
 ======== ===========
 Home     https://github.com/p5sagit/Sub-Name
 Versions 0.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name/0.21
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sub-name
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-name/status
                 :target: https://quay.io/repository/biocontainers/perl-sub-name
-
 

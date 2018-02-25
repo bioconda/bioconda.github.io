@@ -5,14 +5,17 @@ r-rblast
 
 |downloads|
 
-Seamlessly interfaces the Basic Local Alignment Search Tool (BLAST) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
+Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases\. This work was partially supported by grant no\. R21HG005912 from the National Human Genome Research Institute\.
 
 ======== ===========
 Home     https://github.com/mhahsler/rBLAST
 Versions 0.99.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rBLAST
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-rblast
 .. |docker| image:: https://quay.io/repository/biocontainers/r-rblast/status
                 :target: https://quay.io/repository/biocontainers/r-rblast
-
 

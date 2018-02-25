@@ -5,14 +5,17 @@ bioconductor-fccac
 
 |downloads|
 
-An application of functional canonical correlation analysis to assess covariance of nucleic acid sequencing datasets such as chromatin immunoprecipitation followed by deep sequencing (ChIP-seq).
+An application of functional canonical correlation analysis to assess covariance of nucleic acid sequencing datasets such as chromatin immunoprecipitation followed by deep sequencing \(ChIP\-seq\)\.
 
 ======== ===========
 Home     https://www.bioconductor.org/packages/release/bioc/html/fCCAC.html
 Versions 1.2.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-fccac
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fccac/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-fccac
-
 

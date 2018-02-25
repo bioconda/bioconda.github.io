@@ -12,7 +12,10 @@ Home     http://github.com/terencehonles/fusepy
 Versions 2.0.4
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusepy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fusepy
 .. |docker| image:: https://quay.io/repository/biocontainers/fusepy/status
                 :target: https://quay.io/repository/biocontainers/fusepy
-
 

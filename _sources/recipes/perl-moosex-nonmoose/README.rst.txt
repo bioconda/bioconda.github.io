@@ -5,14 +5,17 @@ perl-moosex-nonmoose
 
 |downloads|
 
-MooseX::NonMoose - easy subclassing of non-Moose classes
+MooseX\:\:NonMoose \- easy subclassing of non\-Moose classes
 
 ======== ===========
 Home     https://github.com/moose/MooseX-NonMoose
 Versions 0.26
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-nonmoose
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-nonmoose
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-nonmoose/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-nonmoose
-
 

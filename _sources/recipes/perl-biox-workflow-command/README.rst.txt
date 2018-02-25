@@ -12,7 +12,10 @@ Home     https://github.com/biosails/BioX-Workflow-Command
 Versions 2.2.1, 2.2.3, 2.3.0, 2.3.2
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-command/2.3.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-biox-workflow-command
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-biox-workflow-command/status
                 :target: https://quay.io/repository/biocontainers/perl-biox-workflow-command
-
 

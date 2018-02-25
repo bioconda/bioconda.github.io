@@ -5,14 +5,17 @@ perl-params-validationcompiler
 
 |downloads|
 
-Build an optimized subroutine parameter validator once, use it forever
+Build an optimized subroutine parameter validator once\, use it forever
 
 ======== ===========
 Home     http://metacpan.org/release/Params-ValidationCompiler
 Versions 0.23
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validationcompiler/0.23
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-params-validationcompiler
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-params-validationcompiler/status
                 :target: https://quay.io/repository/biocontainers/perl-params-validationcompiler
-
 

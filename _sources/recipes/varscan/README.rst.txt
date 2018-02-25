@@ -12,7 +12,10 @@ Home     http://dkoboldt.github.io/varscan/
 Versions 2.3.7, 2.4.0, 2.4.1, 2.4.2, 2.4.3
 License  The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/varscan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/varscan
 .. |docker| image:: https://quay.io/repository/biocontainers/varscan/status
                 :target: https://quay.io/repository/biocontainers/varscan
-
 

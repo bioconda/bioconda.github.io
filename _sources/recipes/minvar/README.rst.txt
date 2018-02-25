@@ -5,14 +5,17 @@ minvar
 
 |downloads|
 
-A tool to detect minority variants in HIV-1 and HCV populations
+A tool to detect minority variants in HIV\-1 and HCV populations
 
 ======== ===========
 Home     https://git.io/minvar
 Versions 1.2a3, 1.2b, 2.0, 2.1, 2.1.1, 2.1.2, 2.1.3, 2.2
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minvar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/minvar
 .. |docker| image:: https://quay.io/repository/biocontainers/minvar/status
                 :target: https://quay.io/repository/biocontainers/minvar
-
 

@@ -5,14 +5,17 @@ bioconductor-bsgenome
 
 |downloads|
 
-Infrastructure shared by all the Biostrings-based genome data packages.
+Infrastructure shared by all the Biostrings\-based genome data packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BSgenome.html
 Versions 1.38.0, 1.40.1, 1.42.0, 1.44.2, 1.46.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bsgenome
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome
-
 

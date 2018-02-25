@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/bumphunter.html
 Versions 1.10.0, 1.12.0, 1.16.0, 1.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bumphunter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bumphunter
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bumphunter/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bumphunter
-
 

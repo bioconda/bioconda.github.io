@@ -12,7 +12,10 @@ Home     http://bitbucket.org/techtonik/python-wget/
 Versions 3.2
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-wget
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-wget
 .. |docker| image:: https://quay.io/repository/biocontainers/python-wget/status
                 :target: https://quay.io/repository/biocontainers/python-wget
-
 

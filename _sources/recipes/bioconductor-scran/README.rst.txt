@@ -5,14 +5,17 @@ bioconductor-scran
 
 |downloads|
 
-Implements a variety of low-level analyses of single-cell RNA-seq data. Methods are provided for normalization of cell-specific biases, assignment of cell cycle phase, and detection of highly variable and significantly correlated genes.
+Implements a variety of low\-level analyses of single\-cell RNA\-seq data\. Methods are provided for normalization of cell\-specific biases\, assignment of cell cycle phase\, and detection of highly variable and significantly correlated genes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/scran.html
 Versions 1.4.5, 1.6.2
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-scran
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scran/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-scran
-
 

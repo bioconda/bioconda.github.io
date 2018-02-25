@@ -5,14 +5,17 @@ singlecell-barcodes
 
 |downloads|
 
-whitelisted singlecell barcodes and information regarding where molecular/sample/cellular barcodes are in each read, for various singlecell protocols
+whitelisted singlecell barcodes and information regarding where molecular\/sample\/cellular barcodes are in each read\, for various singlecell protocols
 
 ======== ===========
 Home     https://github.com/roryk/singlecell-barcodes
 Versions 0.1, 0.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlecell-barcodes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/singlecell-barcodes
 .. |docker| image:: https://quay.io/repository/biocontainers/singlecell-barcodes/status
                 :target: https://quay.io/repository/biocontainers/singlecell-barcodes
-
 

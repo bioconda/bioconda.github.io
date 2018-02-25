@@ -5,14 +5,17 @@ bioconductor-yeastexpdata
 
 |downloads|
 
-A collection of different sets of experimental data from yeast.
+A collection of different sets of experimental data from yeast\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/yeastExpData.html
 Versions 0.22.0, 0.24.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastexpdata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-yeastexpdata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-yeastexpdata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-yeastexpdata
-
 

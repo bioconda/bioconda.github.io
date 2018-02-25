@@ -5,14 +5,17 @@ geneimpacts
 
 |downloads|
 
-prioritize effects of variant annotations from VEP, SnpEff, et al.
+prioritize effects of variant annotations from VEP\, SnpEff\, et al\.
 
 ======== ===========
 Home     https://github.com/brentp/geneimpacts
 Versions 0.0.4, 0.0.5, 0.0.7, 0.0.8, 0.0.9, 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.2.0, 0.3.0a0, 0.3.1, 0.3.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geneimpacts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/geneimpacts
 .. |docker| image:: https://quay.io/repository/biocontainers/geneimpacts/status
                 :target: https://quay.io/repository/biocontainers/geneimpacts
-
 

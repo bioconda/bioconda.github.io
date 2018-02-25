@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Graph::Writer::Dot
 Versions 2.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph-readwrite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-graph-readwrite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-graph-readwrite/status
                 :target: https://quay.io/repository/biocontainers/perl-graph-readwrite
-
 

@@ -12,7 +12,10 @@ Home     http://github.com/biocore/emperor
 Versions 0.9.51
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emperor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/emperor
 .. |docker| image:: https://quay.io/repository/biocontainers/emperor/status
                 :target: https://quay.io/repository/biocontainers/emperor
-
 

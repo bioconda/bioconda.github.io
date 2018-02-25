@@ -5,14 +5,17 @@ ucsc-mafmefirst
 
 |downloads|
 
-Move component to top if it is one of the named ones.  
+Move component to top if it is one of the named ones\.  
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafmefirst
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-mafmefirst
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-mafmefirst/status
                 :target: https://quay.io/repository/biocontainers/ucsc-mafmefirst
-
 

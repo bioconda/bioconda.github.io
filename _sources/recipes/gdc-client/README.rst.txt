@@ -12,7 +12,10 @@ Home     https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
 Versions 1.3.0
 License  Apache v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdc-client
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gdc-client
 .. |docker| image:: https://quay.io/repository/biocontainers/gdc-client/status
                 :target: https://quay.io/repository/biocontainers/gdc-client
-
 

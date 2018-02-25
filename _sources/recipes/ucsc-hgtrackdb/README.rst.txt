@@ -5,14 +5,17 @@ ucsc-hgtrackdb
 
 |downloads|
 
-Create trackDb table from text files.
+Create trackDb table from text files\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgtrackdb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-hgtrackdb
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgtrackdb/status
                 :target: https://quay.io/repository/biocontainers/ucsc-hgtrackdb
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/cancerit/alleleCount
 Versions 2.1.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cancerit-allelecount
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cancerit-allelecount
 .. |docker| image:: https://quay.io/repository/biocontainers/cancerit-allelecount/status
                 :target: https://quay.io/repository/biocontainers/cancerit-allelecount
-
 

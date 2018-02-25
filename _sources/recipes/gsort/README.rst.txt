@@ -12,7 +12,10 @@ Home     https://github.com/brentp/gsort
 Versions 0.0.1, 0.0.2, 0.0.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gsort
 .. |docker| image:: https://quay.io/repository/biocontainers/gsort/status
                 :target: https://quay.io/repository/biocontainers/gsort
-
 

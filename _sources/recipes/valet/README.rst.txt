@@ -5,14 +5,17 @@ valet
 
 |downloads|
 
-Pipeline for detecting mis-assemblies in metagenomic assemblies
+Pipeline for detecting mis\-assemblies in metagenomic assemblies
 
 ======== ===========
 Home     https://github.com/marbl/VALET
 Versions 1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/valet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/valet
 .. |docker| image:: https://quay.io/repository/biocontainers/valet/status
                 :target: https://quay.io/repository/biocontainers/valet
-
 

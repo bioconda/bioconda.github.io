@@ -5,14 +5,17 @@ perl-uri
 
 |downloads|
 
-Uniform Resource Identifiers (absolute and relative)
+Uniform Resource Identifiers \(absolute and relative\)
 
 ======== ===========
 Home     http://metacpan.org/pod/URI
 Versions 1.69, 1.71
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-uri
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-uri
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-uri/status
                 :target: https://quay.io/repository/biocontainers/perl-uri
-
 

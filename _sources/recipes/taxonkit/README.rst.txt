@@ -5,14 +5,17 @@ taxonkit
 
 |downloads|
 
-A Cross-platform and Efficient NCBI Taxonomy Toolkit
+A Cross\-platform and Efficient NCBI Taxonomy Toolkit
 
 ======== ===========
 Home     https://github.com/shenwei356/taxonkit
 Versions 0.1.7, 0.1.8, 0.2.0, 0.2.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxonkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/taxonkit
 .. |docker| image:: https://quay.io/repository/biocontainers/taxonkit/status
                 :target: https://quay.io/repository/biocontainers/taxonkit
-
 

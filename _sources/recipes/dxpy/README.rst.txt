@@ -12,7 +12,10 @@ Home     https://github.com/dnanexus/dx-toolkit
 Versions 0.223.0, 0.225.0
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxpy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dxpy
 .. |docker| image:: https://quay.io/repository/biocontainers/dxpy/status
                 :target: https://quay.io/repository/biocontainers/dxpy
-
 

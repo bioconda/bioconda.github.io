@@ -5,14 +5,17 @@ perl-bio-eutilities
 
 |downloads|
 
-Webagent which interacts with and retrieves data from NCBI eUtils.
+Webagent which interacts with and retrieves data from NCBI eUtils\.
 
 ======== ===========
 Home     https://metacpan.org/release/Bio-EUtilities
 Versions 1.75
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-eutilities
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-eutilities
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-eutilities/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-eutilities
-
 

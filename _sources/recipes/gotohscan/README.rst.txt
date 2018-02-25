@@ -5,14 +5,17 @@ gotohscan
 
 |downloads|
 
-a search tool that finds shorter sequences (usually genes) in large database sequences (chromosomes, genomes, ..) by computing all semi-global alignments.
+a search tool that finds shorter sequences \(usually genes\) in large database sequences \(chromosomes\, genomes\, \.\.\) by computing all semi\-global alignments\.
 
 ======== ===========
 Home     http://www.bioinf.uni-leipzig.de/
 Versions 1.3
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gotohscan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gotohscan
 .. |docker| image:: https://quay.io/repository/biocontainers/gotohscan/status
                 :target: https://quay.io/repository/biocontainers/gotohscan
-
 

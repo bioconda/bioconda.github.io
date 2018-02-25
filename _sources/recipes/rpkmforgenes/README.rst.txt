@@ -12,7 +12,10 @@ Home     https://github.com/danielramskold/S3_species-specific_sequencing
 Versions 1.0.1
 License  Creative Commons Attribution License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpkmforgenes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rpkmforgenes
 .. |docker| image:: https://quay.io/repository/biocontainers/rpkmforgenes/status
                 :target: https://quay.io/repository/biocontainers/rpkmforgenes
-
 

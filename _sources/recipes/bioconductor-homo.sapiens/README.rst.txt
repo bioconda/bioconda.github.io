@@ -5,14 +5,17 @@ bioconductor-homo.sapiens
 
 |downloads|
 
-Contains the Homo.sapiens object to access data from several related annotation packages.
+Contains the Homo\.sapiens object to access data from several related annotation packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/Homo.sapiens.html
 Versions 1.3.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-homo.sapiens
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-homo.sapiens
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-homo.sapiens/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-homo.sapiens
-
 

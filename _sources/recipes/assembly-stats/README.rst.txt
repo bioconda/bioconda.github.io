@@ -12,7 +12,10 @@ Home     https://github.com/sanger-pathogens/assembly-stats
 Versions 1.0.0, 1.0.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/assembly-stats
 .. |docker| image:: https://quay.io/repository/biocontainers/assembly-stats/status
                 :target: https://quay.io/repository/biocontainers/assembly-stats
-
 

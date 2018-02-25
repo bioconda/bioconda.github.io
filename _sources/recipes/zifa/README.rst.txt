@@ -5,14 +5,17 @@ zifa
 
 |downloads|
 
-Dimensionality reduction for zero-inflated single-cell gene expression analysis
+Dimensionality reduction for zero\-inflated single\-cell gene expression analysis
 
 ======== ===========
 Home     https://github.com/epierson9/ZIFA
 Versions 0.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zifa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/zifa
 .. |docker| image:: https://quay.io/repository/biocontainers/zifa/status
                 :target: https://quay.io/repository/biocontainers/zifa
-
 

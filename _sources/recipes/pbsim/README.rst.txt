@@ -12,7 +12,10 @@ Home     https://code.google.com/archive/p/pbsim/
 Versions 1.0.3
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pbsim
 .. |docker| image:: https://quay.io/repository/biocontainers/pbsim/status
                 :target: https://quay.io/repository/biocontainers/pbsim
-
 

@@ -5,14 +5,17 @@ linkage2allegro
 
 |downloads|
 
-Converts between the output linkage formats of Merlin, Simwalk, Genehunter, and Swiftlink into Allegro.
+Converts between the output linkage formats of Merlin\, Simwalk\, Genehunter\, and Swiftlink into Allegro\.
 
 ======== ===========
 Home     https://github.com/BioTools-Tek/linkage-converter
 Versions 2017.1, 2017.2, 2017.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/linkage2allegro
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/linkage2allegro
 .. |docker| image:: https://quay.io/repository/biocontainers/linkage2allegro/status
                 :target: https://quay.io/repository/biocontainers/linkage2allegro
-
 

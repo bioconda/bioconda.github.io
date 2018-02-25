@@ -5,14 +5,17 @@ perl-datetime-locale
 
 |downloads|
 
-Localization support for DateTime.pm
+Localization support for DateTime\.pm
 
 ======== ===========
 Home     http://metacpan.org/release/DateTime-Locale
 Versions 1.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-locale/1.12
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-datetime-locale
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-datetime-locale/status
                 :target: https://quay.io/repository/biocontainers/perl-datetime-locale
-
 

@@ -5,14 +5,17 @@ perl-test-cpan-meta
 
 |downloads|
 
-Validate your CPAN META.json files
+Validate your CPAN META\.json files
 
 ======== ===========
 Home     http://metacpan.org/pod/Test-CPAN-Meta
 Versions 0.25
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cpan-meta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-cpan-meta
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-cpan-meta/status
                 :target: https://quay.io/repository/biocontainers/perl-test-cpan-meta
-
 

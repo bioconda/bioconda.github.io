@@ -5,14 +5,17 @@ blast
 
 |downloads|
 
-BLAST+ is a new suite of BLAST tools that utilizes the NCBI C++ Toolkit.
+BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit\.
 
 ======== ===========
 Home     http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs
 Versions 2.2.21, 2.2.31, 2.5.0, 2.6.0, 2.7.1
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blast
 .. |docker| image:: https://quay.io/repository/biocontainers/blast/status
                 :target: https://quay.io/repository/biocontainers/blast
-
 

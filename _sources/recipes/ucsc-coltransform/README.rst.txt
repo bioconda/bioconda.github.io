@@ -5,14 +5,17 @@ ucsc-coltransform
 
 |downloads|
 
-Add and/or multiply column by constant.
+Add and\/or multiply column by constant\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-coltransform
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-coltransform
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-coltransform/status
                 :target: https://quay.io/repository/biocontainers/ucsc-coltransform
-
 

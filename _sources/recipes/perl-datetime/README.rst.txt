@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/DateTime
 Versions 1.42
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime/1.42
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-datetime
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-datetime/status
                 :target: https://quay.io/repository/biocontainers/perl-datetime
-
 

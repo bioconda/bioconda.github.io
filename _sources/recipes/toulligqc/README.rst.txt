@@ -12,7 +12,10 @@ Home     https://github.com/GenomicParisCentre/toulligQC
 Versions 0.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/toulligqc
 .. |docker| image:: https://quay.io/repository/biocontainers/toulligqc/status
                 :target: https://quay.io/repository/biocontainers/toulligqc
-
 

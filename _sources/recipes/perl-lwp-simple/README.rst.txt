@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/LWP::Simple
 Versions 6.15
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-lwp-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-lwp-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-lwp-simple
-
 

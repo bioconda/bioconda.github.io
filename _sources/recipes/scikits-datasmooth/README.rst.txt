@@ -12,7 +12,10 @@ Home     https://github.com/jjstickel/scikit-datasmooth/
 Versions 0.7.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scikits-datasmooth
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scikits-datasmooth
 .. |docker| image:: https://quay.io/repository/biocontainers/scikits-datasmooth/status
                 :target: https://quay.io/repository/biocontainers/scikits-datasmooth
-
 

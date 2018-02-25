@@ -5,14 +5,17 @@ nest
 
 |downloads|
 
-NEST is a simulator for spiking neural network models.
+NEST is a simulator for spiking neural network models\.
 
 ======== ===========
 Home     http://www.nest-simulator.org/
 Versions 2.12.0, 2.14.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nest
 .. |docker| image:: https://quay.io/repository/biocontainers/nest/status
                 :target: https://quay.io/repository/biocontainers/nest
-
 

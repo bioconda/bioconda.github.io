@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File-HomeDir
 Versions 1.00
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-homedir
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-homedir
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-homedir/status
                 :target: https://quay.io/repository/biocontainers/perl-file-homedir
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/ImmPortDB/ig-flowtools
 Versions 1.0.0, 1.3.0, 1.4.0, 1.4.1, 2.0.0, 2.0.1, 2.0.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-flowtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ig-flowtools
 .. |docker| image:: https://quay.io/repository/biocontainers/ig-flowtools/status
                 :target: https://quay.io/repository/biocontainers/ig-flowtools
-
 

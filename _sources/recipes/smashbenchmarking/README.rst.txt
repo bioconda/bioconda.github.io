@@ -12,7 +12,10 @@ Home     http://github.com/amplab/smash/
 Versions 1.0.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashbenchmarking
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/smashbenchmarking
 .. |docker| image:: https://quay.io/repository/biocontainers/smashbenchmarking/status
                 :target: https://quay.io/repository/biocontainers/smashbenchmarking
-
 

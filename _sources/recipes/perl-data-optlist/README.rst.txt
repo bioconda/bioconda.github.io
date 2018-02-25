@@ -5,14 +5,17 @@ perl-data-optlist
 
 |downloads|
 
-parse and validate simple name/value option pairs
+parse and validate simple name\/value option pairs
 
 ======== ===========
 Home     https://github.com/rjbs/Data-OptList
 Versions 0.110
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-optlist
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-optlist/status
                 :target: https://quay.io/repository/biocontainers/perl-data-optlist
-
 

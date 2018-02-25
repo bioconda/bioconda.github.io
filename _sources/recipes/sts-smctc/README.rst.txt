@@ -5,14 +5,17 @@ sts-smctc
 
 |downloads|
 
-A C++ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms.
+A C\+\+ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms\.
 
 ======== ===========
 Home     https://github.com/matsengrp/smctc
 Versions 1.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sts-smctc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update sts-smctc
 
+
 Notes
 -----
+This fork of smctc is maintained by the \[Matsen research group at the Fred Hutchinson Cancer Research Centre\]\(http\:\/\/matsen\.fredhutch\.org\/\) for use in the \[Sequential Tree Sampler online phylogenetics package\]\(https\:\/\/github\.com\/OnlinePhylo\/sts\)
 
-This fork of smctc is maintained by the [Matsen research group at the Fred Hutchinson Cancer Research Centre](http://matsen.fredhutch.org/) for use in the [Sequential Tree Sampler online phylogenetics package](https://github.com/OnlinePhylo/sts)
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sts-smctc
 .. |docker| image:: https://quay.io/repository/biocontainers/sts-smctc/status
                 :target: https://quay.io/repository/biocontainers/sts-smctc
-
 

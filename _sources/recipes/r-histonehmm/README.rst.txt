@@ -5,14 +5,17 @@ r-histonehmm
 
 |downloads|
 
-histoneHMM is a software to analyse ChIP-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
+histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3\. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
 
 ======== ===========
 Home     http://histonehmm.molgen.mpg.de/
 Versions 1.6, 1.7
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-histonehmm
 .. |docker| image:: https://quay.io/repository/biocontainers/r-histonehmm/status
                 :target: https://quay.io/repository/biocontainers/r-histonehmm
-
 

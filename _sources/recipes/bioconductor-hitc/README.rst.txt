@@ -5,14 +5,17 @@ bioconductor-hitc
 
 |downloads|
 
-The HiTC package was developed to explore high-throughput 'C' data such as 5C or Hi-C. Dedicated R classes as well as standard methods for quality controls, normalization, visualization, and further analysis are also provided.
+The HiTC package was developed to explore high\-throughput \'C\' data such as 5C or Hi\-C\. Dedicated R classes as well as standard methods for quality controls\, normalization\, visualization\, and further analysis are also provided\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/HiTC.html
 Versions 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hitc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hitc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hitc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hitc
-
 

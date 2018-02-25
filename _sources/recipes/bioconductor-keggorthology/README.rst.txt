@@ -5,14 +5,17 @@ bioconductor-keggorthology
 
 |downloads|
 
-graphical representation of the Feb 2010 KEGG Orthology. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs.
+graphical representation of the Feb 2010 KEGG Orthology\. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/keggorthology.html
 Versions 2.30.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggorthology
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-keggorthology
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-keggorthology/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-keggorthology
-
 

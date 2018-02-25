@@ -5,14 +5,17 @@ perl-test-nowarnings
 
 |downloads|
 
-Make sure you didn't emit any warnings while testing
+Make sure you didn\'t emit any warnings while testing
 
 ======== ===========
 Home     https://metacpan.org/pod/Test::NoWarnings
 Versions 1.04
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-nowarnings
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-nowarnings
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-nowarnings/status
                 :target: https://quay.io/repository/biocontainers/perl-test-nowarnings
-
 

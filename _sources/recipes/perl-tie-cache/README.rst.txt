@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Tie-Cache
 Versions 0.21
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-cache
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tie-cache
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-cache/status
                 :target: https://quay.io/repository/biocontainers/perl-tie-cache
-
 

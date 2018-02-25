@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Devel::CheckBin
 Versions 0.04
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-checkbin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-devel-checkbin
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-checkbin/status
                 :target: https://quay.io/repository/biocontainers/perl-devel-checkbin
-
 

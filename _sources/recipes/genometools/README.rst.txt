@@ -5,14 +5,17 @@ genometools
 
 |downloads|
 
-GenomeTools: Scripts and Classes For Working With Genomic Data.
+GenomeTools\: Scripts and Classes For Working With Genomic Data\.
 
 ======== ===========
 Home     https://github.com/flo-compbio/genometools
 Versions 1.2.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genometools
 .. |docker| image:: https://quay.io/repository/biocontainers/genometools/status
                 :target: https://quay.io/repository/biocontainers/genometools
-
 

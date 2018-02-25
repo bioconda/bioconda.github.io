@@ -5,14 +5,17 @@ bioconductor-kegglincs
 
 |downloads|
 
-See what is going on 'under the hood' of KEGG pathways by explicitly re-creating the pathway maps from information obtained from KGML files.
+See what is going on \'under the hood\' of KEGG pathways by explicitly re\-creating the pathway maps from information obtained from KGML files\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/KEGGlincs.html
 Versions 1.4.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegglincs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-kegglincs
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-kegglincs/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-kegglincs
-
 

@@ -5,14 +5,17 @@ circexplorer
 
 |downloads|
 
-A combined strategy to identify circular RNAs (circRNAs and ciRNAs)
+A combined strategy to identify circular RNAs \(circRNAs and ciRNAs\)
 
 ======== ===========
 Home     https://github.com/YangLab/CIRCexplorer
 Versions 0.1, 1.1.10, 1.1.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circexplorer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/circexplorer
 .. |docker| image:: https://quay.io/repository/biocontainers/circexplorer/status
                 :target: https://quay.io/repository/biocontainers/circexplorer
-
 

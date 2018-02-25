@@ -12,7 +12,10 @@ Home     https://github.com/seqan/flexbar
 Versions 2.5.0
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flexbar
 .. |docker| image:: https://quay.io/repository/biocontainers/flexbar/status
                 :target: https://quay.io/repository/biocontainers/flexbar
-
 

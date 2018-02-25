@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Spreadsheet-WriteExcel
 Versions 2.40
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-writeexcel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-spreadsheet-writeexcel
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel/status
                 :target: https://quay.io/repository/biocontainers/perl-spreadsheet-writeexcel
-
 

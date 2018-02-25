@@ -5,14 +5,17 @@ nanoget
 
 |downloads|
 
-Functions to extract information from Oxford Nanopore sequencing data and alignments.
+Functions to extract information from Oxford Nanopore sequencing data and alignments\.
 
 ======== ===========
 Home     https://github.com/wdecoster/nanoget
 Versions 0.11.5, 0.11.7, 1.0.0, 1.0.2, 1.2.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoget
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoget
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoget/status
                 :target: https://quay.io/repository/biocontainers/nanoget
-
 

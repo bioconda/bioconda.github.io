@@ -5,14 +5,17 @@ edd
 
 |downloads|
 
-Enriched domain detector for ChIP-seq data
+Enriched domain detector for ChIP\-seq data
 
 ======== ===========
 Home     http://github.com/CollasLab/edd
 Versions 1.1.18
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/edd
 .. |docker| image:: https://quay.io/repository/biocontainers/edd/status
                 :target: https://quay.io/repository/biocontainers/edd
-
 

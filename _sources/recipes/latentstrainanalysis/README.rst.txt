@@ -5,14 +5,22 @@ latentstrainanalysis
 
 |downloads|
 
-Partitioning and analysis methods for large, complex sequence datasets
+Partitioning and analysis methods for large\, complex sequence datasets
 
 ======== ===========
 Home     https://github.com/brian-cleary/LatentStrainAnalysis
 Versions 0.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latentstrainanalysis
+
 ======== ===========
+
+LSA was developed as a pre\-assembly tool for partitioning metagenomic reads\.
+It uses a hyperplane hashing function and streaming SVD in order to find
+covariance relations between k\-mers\. The code\, and the process outline in
+LSFScripts in particular\, have been optimized to scale to massive data
+sets in fixed memory with a highly distributed computing environment\.
+
 
 Installation
 ------------
@@ -46,5 +54,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/latentstrainanalysis
 .. |docker| image:: https://quay.io/repository/biocontainers/latentstrainanalysis/status
                 :target: https://quay.io/repository/biocontainers/latentstrainanalysis
-
 

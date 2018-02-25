@@ -5,14 +5,17 @@ ucsc-mafspeciessubset
 
 |downloads|
 
-Extract a maf that just has a subset of species.
+Extract a maf that just has a subset of species\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafspeciessubset
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-mafspeciessubset
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset/status
                 :target: https://quay.io/repository/biocontainers/ucsc-mafspeciessubset
-
 

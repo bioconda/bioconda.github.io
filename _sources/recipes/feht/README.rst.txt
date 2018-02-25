@@ -5,14 +5,17 @@ feht
 
 |downloads|
 
-A commandline program to automatically identify markers predictive of groups. Can be used with binary data, genomic (single nucleotide variant) data, or arbitrary character data.
+A commandline program to automatically identify markers predictive of groups\. Can be used with binary data\, genomic \(single nucleotide variant\) data\, or arbitrary character data\.
 
 ======== ===========
 Home     https://github.com/chadlaing/feht/
 Versions 1.0.1, 1.1.0
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feht
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/feht
 .. |docker| image:: https://quay.io/repository/biocontainers/feht/status
                 :target: https://quay.io/repository/biocontainers/feht
-
 

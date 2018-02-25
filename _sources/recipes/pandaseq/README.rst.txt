@@ -5,14 +5,17 @@ pandaseq
 
 |downloads|
 
-PANDASEQ is a program to align Illumina reads, optionally with PCR primers embedded in the sequence, and reconstruct an overlapping sequence.
+PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence\.
 
 ======== ===========
 Home     https://github.com/neufeld/pandaseq
 Versions 2.10, 2.11
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pandaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pandaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/pandaseq/status
                 :target: https://quay.io/repository/biocontainers/pandaseq
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/pegase745/sqlalchemy-datatables
 Versions 0.2.1, 0.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-datatables
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sqlalchemy-datatables
 .. |docker| image:: https://quay.io/repository/biocontainers/sqlalchemy-datatables/status
                 :target: https://quay.io/repository/biocontainers/sqlalchemy-datatables
-
 

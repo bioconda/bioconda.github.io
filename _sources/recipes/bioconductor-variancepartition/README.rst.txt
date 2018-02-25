@@ -5,14 +5,17 @@ bioconductor-variancepartition
 
 |downloads|
 
-Quantify and interpret multiple sources of biological and technical variation in gene expression experiments. Uses linear mixed model to quantify variation in gene expression attributable to individual, tissue, time point, or technical variables.
+Quantify and interpret multiple sources of biological and technical variation in gene expression experiments\. Uses linear mixed model to quantify variation in gene expression attributable to individual\, tissue\, time point\, or technical variables\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/variancePartition.html
 Versions 1.8.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variancepartition
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-variancepartition
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-variancepartition/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-variancepartition
-
 

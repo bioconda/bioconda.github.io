@@ -5,14 +5,17 @@ bioconductor-chromstardata
 
 |downloads|
 
-ChIP-seq data for demonstration purposes in the chromstaR package.
+ChIP\-seq data for demonstration purposes in the chromstaR package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/chromstaRData.html
 Versions 1.4.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstardata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-chromstardata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-chromstardata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-chromstardata
-
 

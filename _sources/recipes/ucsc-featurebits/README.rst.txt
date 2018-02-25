@@ -5,14 +5,17 @@ ucsc-featurebits
 
 |downloads|
 
-Correlate tables via bitmap projections. 
+Correlate tables via bitmap projections\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-featurebits
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-featurebits
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-featurebits/status
                 :target: https://quay.io/repository/biocontainers/ucsc-featurebits
-
 

@@ -5,14 +5,17 @@ bioconductor-regioner
 
 |downloads|
 
-regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features.
+regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/regioneR.html
 Versions 1.10.0, 1.2.0, 1.6.2, 1.8.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-regioner
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-regioner/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-regioner
-
 

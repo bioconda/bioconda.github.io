@@ -5,14 +5,17 @@ nanopore_simulation
 
 |downloads|
 
-Nanopore SimulatION is a tool for simulating an Oxfornd Nanopore Technologies MinION device for bioinformatic development.
+Nanopore SimulatION is a tool for simulating an Oxfornd Nanopore Technologies MinION device for bioinformatic development\.
 
 ======== ===========
 Home     https://github.com/crohrandt/nanopore_simulation
 Versions 0.3
 License  MPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopore_simulation
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanopore_simulation
 .. |docker| image:: https://quay.io/repository/biocontainers/nanopore_simulation/status
                 :target: https://quay.io/repository/biocontainers/nanopore_simulation
-
 

@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/gcrma.html
 Versions 2.48.0, 2.50.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gcrma
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gcrma/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gcrma
-
 

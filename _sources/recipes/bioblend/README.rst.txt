@@ -12,7 +12,10 @@ Home     http://bioblend.readthedocs.org/
 Versions 0.10.0, 0.7.0, 0.8.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioblend
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioblend
 .. |docker| image:: https://quay.io/repository/biocontainers/bioblend/status
                 :target: https://quay.io/repository/biocontainers/bioblend
-
 

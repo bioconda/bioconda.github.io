@@ -5,14 +5,17 @@ perl-file-share
 
 |downloads|
 
-Extend File::ShareDir to Local Libraries
+Extend File\:\:ShareDir to Local Libraries
 
 ======== ===========
 Home     https://github.com/ingydotnet/file-share-pm
 Versions 0.25
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-share/0.25
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-share
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-share/status
                 :target: https://quay.io/repository/biocontainers/perl-file-share
-
 

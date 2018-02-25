@@ -5,14 +5,17 @@ singularity
 
 |downloads|
 
-Singularity - Enabling users to have full control of their environment
+Singularity \- Enabling users to have full control of their environment
 
 ======== ===========
 Home     http://singularity.lbl.gov
 Versions 2.3, 2.4, 2.4.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singularity
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/singularity
 .. |docker| image:: https://quay.io/repository/biocontainers/singularity/status
                 :target: https://quay.io/repository/biocontainers/singularity
-
 

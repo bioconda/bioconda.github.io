@@ -5,14 +5,17 @@ mercat
 
 |downloads|
 
-Mercat: a versatile counter and diversity estimator for data base independent property analysis obtained from whole community sequencing data.
+Mercat\: a versatile counter and diversity estimator for data base independent property analysis obtained from whole community sequencing data\.
 
 ======== ===========
 Home     https://github.com/pnnl/mercat
 Versions 0.1, 0.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mercat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mercat
 .. |docker| image:: https://quay.io/repository/biocontainers/mercat/status
                 :target: https://quay.io/repository/biocontainers/mercat
-
 

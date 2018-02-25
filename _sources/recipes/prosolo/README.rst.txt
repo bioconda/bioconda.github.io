@@ -5,14 +5,17 @@ prosolo
 
 |downloads|
 
-A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data.
+A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data\.
 
 ======== ===========
 Home     https://github.com/PROSIC/prosolo/tree/v0.4.0
 Versions 0.2.0, 0.3.1, 0.4.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosolo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prosolo
 .. |docker| image:: https://quay.io/repository/biocontainers/prosolo/status
                 :target: https://quay.io/repository/biocontainers/prosolo
-
 

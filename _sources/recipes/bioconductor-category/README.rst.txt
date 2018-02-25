@@ -5,14 +5,17 @@ bioconductor-category
 
 |downloads|
 
-A collection of tools for performing category (gene set enrichment) analysis.
+A collection of tools for performing category \(gene set enrichment\) analysis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Category.html
 Versions 2.36.0, 2.38.0, 2.42.1, 2.44.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-category
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-category
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-category/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-category
-
 

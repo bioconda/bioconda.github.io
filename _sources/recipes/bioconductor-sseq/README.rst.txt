@@ -5,14 +5,17 @@ bioconductor-sseq
 
 |downloads|
 
-The purpose of this package is to discover the genes that are differentially expressed between two conditions in RNA-seq experiments. Gene expression is measured in counts of transcripts and modeled with the Negative Binomial (NB) distribution using a shrinkage approach for dispersion estimation. The method of moment (MM) estimates for dispersion are shrunk towards an estimated target, which minimizes the average squared difference between the shrinkage estimates and the initial estimates. The exact per-gene probability under the NB model is calculated, and used to test the hypothesis that the expected expression of a gene in two conditions identically follow a NB distribution.
+The purpose of this package is to discover the genes that are differentially expressed between two conditions in RNA\-seq experiments\. Gene expression is measured in counts of transcripts and modeled with the Negative Binomial \(NB\) distribution using a shrinkage approach for dispersion estimation\. The method of moment \(MM\) estimates for dispersion are shrunk towards an estimated target\, which minimizes the average squared difference between the shrinkage estimates and the initial estimates\. The exact per\-gene probability under the NB model is calculated\, and used to test the hypothesis that the expected expression of a gene in two conditions identically follow a NB distribution\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/sSeq.html
 Versions 1.14.0, 1.16.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-sseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-sseq
-
 

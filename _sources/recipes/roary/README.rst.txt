@@ -5,14 +5,17 @@ roary
 
 |downloads|
 
-Rapid large-scale prokaryote pan genome analysis
+Rapid large\-scale prokaryote pan genome analysis
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/Roary
 Versions 3.10.2, 3.12.0, 3.7.0, 3.8.0, 3.8.2, 3.9.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/roary
 .. |docker| image:: https://quay.io/repository/biocontainers/roary/status
                 :target: https://quay.io/repository/biocontainers/roary
-
 

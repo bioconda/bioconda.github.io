@@ -5,14 +5,17 @@ irida-linker
 
 |downloads|
 
-The NGS Archive Linker is a Perl script used to generate a structure of links for files stored in the IRIDA platform.
+The NGS Archive Linker is a Perl script used to generate a structure of links for files stored in the IRIDA platform\.
 
 ======== ===========
 Home     
 Versions 1.0.1
 License  apache_2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-linker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/irida-linker
 .. |docker| image:: https://quay.io/repository/biocontainers/irida-linker/status
                 :target: https://quay.io/repository/biocontainers/irida-linker
-
 

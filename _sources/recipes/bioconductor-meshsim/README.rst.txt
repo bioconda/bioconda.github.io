@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.5/bioc/html/MeSHSim.html
 Versions 1.7.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshsim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-meshsim
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-meshsim/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-meshsim
-
 

@@ -12,7 +12,10 @@ Home     http://github.com/csb-toolbox
 Versions 1.2.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/csb
 .. |docker| image:: https://quay.io/repository/biocontainers/csb/status
                 :target: https://quay.io/repository/biocontainers/csb
-
 

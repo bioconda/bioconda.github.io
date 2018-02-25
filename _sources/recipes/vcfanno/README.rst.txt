@@ -5,14 +5,17 @@ vcfanno
 
 |downloads|
 
-annotate a VCF with other VCFs/BEDs/tabixed files
+annotate a VCF with other VCFs\/BEDs\/tabixed files
 
 ======== ===========
 Home     https://github.com/brentp/vcfanno
 Versions 0.0.10, 0.0.11, 0.1.0, 0.1.1, 0.2.0, 0.2.1, 0.2.2, 0.2.4, 0.2.6, 0.2.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfanno
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcfanno
 .. |docker| image:: https://quay.io/repository/biocontainers/vcfanno/status
                 :target: https://quay.io/repository/biocontainers/vcfanno
-
 

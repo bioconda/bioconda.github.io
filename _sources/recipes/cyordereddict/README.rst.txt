@@ -5,14 +5,17 @@ cyordereddict
 
 |downloads|
 
-Cython implementation of Python's collections.OrderedDict
+Cython implementation of Python\'s collections\.OrderedDict
 
 ======== ===========
 Home     https://github.com/shoyer/cyordereddict
 Versions 0.2.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyordereddict
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cyordereddict
 .. |docker| image:: https://quay.io/repository/biocontainers/cyordereddict/status
                 :target: https://quay.io/repository/biocontainers/cyordereddict
-
 

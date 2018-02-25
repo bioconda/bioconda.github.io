@@ -5,14 +5,17 @@ takeabreak
 
 |downloads|
 
-tool that can detect inversion breakpoints directly from raw NGS reads, without the need of any reference genome and without de novo assembling the genomes
+tool that can detect inversion breakpoints directly from raw NGS reads\, without the need of any reference genome and without de novo assembling the genomes
 
 ======== ===========
 Home     https://colibread.inria.fr/software/takeabreak/
 Versions 1.1.2
 License  GNU Affero General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/takeabreak
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/takeabreak
 .. |docker| image:: https://quay.io/repository/biocontainers/takeabreak/status
                 :target: https://quay.io/repository/biocontainers/takeabreak
-
 

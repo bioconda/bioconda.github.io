@@ -5,14 +5,17 @@ extern
 
 |downloads|
 
-Extern is an opinionated version of Pythons subprocess, making it just that little bit more convenient to run shell commands from within Python code.
+Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code\.
 
 ======== ===========
 Home     https://pypi.python.org/pypi/extern/
 Versions 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/extern
 .. |docker| image:: https://quay.io/repository/biocontainers/extern/status
                 :target: https://quay.io/repository/biocontainers/extern
-
 

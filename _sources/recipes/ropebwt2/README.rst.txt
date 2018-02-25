@@ -5,14 +5,17 @@ ropebwt2
 
 |downloads|
 
-Incremental construction of FM-index for DNA sequences
+Incremental construction of FM\-index for DNA sequences
 
 ======== ===========
 Home     https://github.com/lh3/ropebwt2
 Versions r187
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ropebwt2
 .. |docker| image:: https://quay.io/repository/biocontainers/ropebwt2/status
                 :target: https://quay.io/repository/biocontainers/ropebwt2
-
 

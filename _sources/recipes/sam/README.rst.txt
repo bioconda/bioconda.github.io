@@ -5,14 +5,17 @@ sam
 
 |downloads|
 
-SAM - Sequence Alignment and Modeling System
+SAM \- Sequence Alignment and Modeling System
 
 ======== ===========
 Home     https://compbio.soe.ucsc.edu/sam2src/
 Versions 3.5
 License  academic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sam
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sam
 .. |docker| image:: https://quay.io/repository/biocontainers/sam/status
                 :target: https://quay.io/repository/biocontainers/sam
-
 

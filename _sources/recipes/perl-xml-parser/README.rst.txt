@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/XML::Parser
 Versions 2.44
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-parser
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-parser/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-parser
-
 

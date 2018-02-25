@@ -5,14 +5,17 @@ kmergenie
 
 |downloads|
 
-KmerGenie estimates the best k-mer length for genome de novo assembly
+KmerGenie estimates the best k\-mer length for genome de novo assembly
 
 ======== ===========
 Home     http://kmergenie.bx.psu.edu/
 Versions 1.7016
 License  free software license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kmergenie
 .. |docker| image:: https://quay.io/repository/biocontainers/kmergenie/status
                 :target: https://quay.io/repository/biocontainers/kmergenie
-
 

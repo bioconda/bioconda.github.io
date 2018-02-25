@@ -12,7 +12,10 @@ Home     https://github.com/PacificBiosciences/pbcore
 Versions 1.2.10
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pbcore
 .. |docker| image:: https://quay.io/repository/biocontainers/pbcore/status
                 :target: https://quay.io/repository/biocontainers/pbcore
-
 

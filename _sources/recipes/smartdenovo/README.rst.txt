@@ -5,14 +5,17 @@ smartdenovo
 
 |downloads|
 
-Ultra-fast de novo assembler using long noisy reads
+Ultra\-fast de novo assembler using long noisy reads
 
 ======== ===========
 Home     https://github.com/ruanjue/smartdenovo
 Versions 1.0.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smartdenovo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/smartdenovo
 .. |docker| image:: https://quay.io/repository/biocontainers/smartdenovo/status
                 :target: https://quay.io/repository/biocontainers/smartdenovo
-
 

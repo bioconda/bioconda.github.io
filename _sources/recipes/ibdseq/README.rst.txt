@@ -5,14 +5,17 @@ ibdseq
 
 |downloads|
 
-IBDseq is a software program for detecting segments of identity-by-descent (IBD) and homozygosity-by-descent (HBD) in unphased genetic sequence data.
+IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data\.
 
 ======== ===========
 Home     http://faculty.washington.edu/browning/ibdseq.html
 Versions r1206
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ibdseq
 .. |docker| image:: https://quay.io/repository/biocontainers/ibdseq/status
                 :target: https://quay.io/repository/biocontainers/ibdseq
-
 

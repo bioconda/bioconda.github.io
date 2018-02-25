@@ -12,7 +12,10 @@ Home     http://etetoolkit.org/
 Versions 2.2.1072, 2.3.10
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ete2
 .. |docker| image:: https://quay.io/repository/biocontainers/ete2/status
                 :target: https://quay.io/repository/biocontainers/ete2
-
 

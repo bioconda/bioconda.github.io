@@ -5,14 +5,17 @@ tadarida-c
 
 |downloads|
 
-Tadarida-C (Toolbox for Animal Detection on Acoustic Recordings - Classification part) for Galaxy use.
+Tadarida\-C \(Toolbox for Animal Detection on Acoustic Recordings \- Classification part\) for Galaxy use\.
 
 ======== ===========
 Home     https://github.com/YvesBas/Tadarida-C
 Versions 1.0, 1.1, 1.2
 License  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-c
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tadarida-c
 .. |docker| image:: https://quay.io/repository/biocontainers/tadarida-c/status
                 :target: https://quay.io/repository/biocontainers/tadarida-c
-
 

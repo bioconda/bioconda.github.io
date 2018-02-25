@@ -5,14 +5,17 @@ fastuniq
 
 |downloads|
 
-FastUniq, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
+FastUniq\, A Fast De Novo Duplicates Removal Tool for Paired Short Reads
 
 ======== ===========
 Home     https://sourceforge.net/projects/fastuniq/
 Versions 1.1
 License  Creative Commons Attribution License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastuniq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastuniq
 .. |docker| image:: https://quay.io/repository/biocontainers/fastuniq/status
                 :target: https://quay.io/repository/biocontainers/fastuniq
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/preaction/Log-Any
 Versions 1.045
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-any
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-log-any
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-log-any/status
                 :target: https://quay.io/repository/biocontainers/perl-log-any
-
 

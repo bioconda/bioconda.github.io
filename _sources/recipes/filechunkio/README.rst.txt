@@ -5,14 +5,17 @@ filechunkio
 
 |downloads|
 
-FileChunkIO represents a chunk of an OS-level file containing bytes data
+FileChunkIO represents a chunk of an OS\-level file containing bytes data
 
 ======== ===========
 Home     http://bitbucket.org/fabian/filechunkio
 Versions 1.6
 License  MIT license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filechunkio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/filechunkio
 .. |docker| image:: https://quay.io/repository/biocontainers/filechunkio/status
                 :target: https://quay.io/repository/biocontainers/filechunkio
-
 

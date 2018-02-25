@@ -5,14 +5,17 @@ gcs-oauth2-boto-plugin
 
 |downloads|
 
-Auth plugin allowing use the use of OAuth 2.0 credentials for Google Cloud Storage in the Boto library.
+Auth plugin allowing use the use of OAuth 2\.0 credentials for Google Cloud Storage in the Boto library\.
 
 ======== ===========
 Home     https://developers.google.com/storage/docs/gspythonlibrary
 Versions 1.9
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gcs_oauth2_boto_plugin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gcs-oauth2-boto-plugin
 .. |docker| image:: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin/status
                 :target: https://quay.io/repository/biocontainers/gcs-oauth2-boto-plugin
-
 

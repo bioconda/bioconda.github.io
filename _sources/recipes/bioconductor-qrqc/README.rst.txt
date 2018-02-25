@@ -5,14 +5,17 @@ bioconductor-qrqc
 
 |downloads|
 
-Quickly scans reads and gathers statistics on base and quality frequencies, read length, k-mers by position, and frequent sequences. Produces graphical output of statistics for use in quality control pipelines, and an optional HTML quality report. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected.
+Quickly scans reads and gathers statistics on base and quality frequencies\, read length\, k\-mers by position\, and frequent sequences\. Produces graphical output of statistics for use in quality control pipelines\, and an optional HTML quality report\. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/qrqc.html
 Versions 1.30.0, 1.32.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qrqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-qrqc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-qrqc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-qrqc
-
 

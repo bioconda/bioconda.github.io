@@ -5,14 +5,17 @@ bioconductor-quasr
 
 |downloads|
 
-This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads, over creation of alignments and quality control plots, to the quantification of genomic regions of interest.
+This package provides a framework for the quantification and analysis of Short Reads\. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/QuasR.html
 Versions 1.18.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quasr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-quasr
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-quasr/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-quasr
-
 

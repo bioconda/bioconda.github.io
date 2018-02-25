@@ -5,14 +5,17 @@ bioconductor-interactivedisplay
 
 |downloads|
 
-The interactiveDisplay package contains the methods needed to generate interactive Shiny based display methods for Bioconductor objects.
+The interactiveDisplay package contains the methods needed to generate interactive Shiny based display methods for Bioconductor objects\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/interactiveDisplay.html
 Versions 1.16.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivedisplay
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-interactivedisplay
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-interactivedisplay
-
 

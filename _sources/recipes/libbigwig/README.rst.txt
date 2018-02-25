@@ -12,7 +12,10 @@ Home     https://github.com/dpryan79/libBigWig
 Versions 0.3.0, 0.4.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbigwig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libbigwig
 .. |docker| image:: https://quay.io/repository/biocontainers/libbigwig/status
                 :target: https://quay.io/repository/biocontainers/libbigwig
-
 

@@ -5,14 +5,17 @@ bioconductor-cexor
 
 |downloads|
 
-Strand specific peak-pair calling in ChIP-exo replicates. The cumulative Skellam distribution function (package 'skellam') is used to detect significant normalised count differences of opposed sign at each DNA strand (peak-pairs). Irreproducible discovery rate for overlapping peak-pairs across biological replicates is estimated using the package 'idr'.
+Strand specific peak\-pair calling in ChIP\-exo replicates\. The cumulative Skellam distribution function \(package \'skellam\'\) is used to detect significant normalised count differences of opposed sign at each DNA strand \(peak\-pairs\)\. Irreproducible discovery rate for overlapping peak\-pairs across biological replicates is estimated using the package \'idr\'\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/CexoR.html
 Versions 1.14.0, 1.16.0, 1.8.0
 License  Artistic-2.0 | GPL-2 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cexor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cexor
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cexor/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cexor
-
 

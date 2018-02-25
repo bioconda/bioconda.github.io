@@ -5,14 +5,17 @@ bioconductor-riboprofiling
 
 |downloads|
 
-Starting with a BAM file, this package provides the necessary functions for quality assessment, read start position recalibration, the counting of reads on CDS, 3'UTR, and 5'UTR, plotting of count data: pairs, log fold-change, codon frequency and coverage assessment, principal component analysis on codon coverage.
+Starting with a BAM file\, this package provides the necessary functions for quality assessment\, read start position recalibration\, the counting of reads on CDS\, 3\'UTR\, and 5\'UTR\, plotting of count data\: pairs\, log fold\-change\, codon frequency and coverage assessment\, principal component analysis on codon coverage\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RiboProfiling.html
 Versions 1.6.0, 1.7.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-riboprofiling
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-riboprofiling/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-riboprofiling
-
 

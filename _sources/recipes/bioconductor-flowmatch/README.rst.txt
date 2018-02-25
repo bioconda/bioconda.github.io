@@ -5,14 +5,17 @@ bioconductor-flowmatch
 
 |downloads|
 
-Matching cell populations and building meta-clusters and templates from a collection of FC samples.
+Matching cell populations and building meta\-clusters and templates from a collection of FC samples\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flowMatch.html
 Versions 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowmatch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flowmatch
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowmatch/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flowmatch
-
 

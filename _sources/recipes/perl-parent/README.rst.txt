@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/parent
 Versions 0.236
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parent/0.236
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-parent
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-parent/status
                 :target: https://quay.io/repository/biocontainers/perl-parent
-
 

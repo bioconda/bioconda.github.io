@@ -5,14 +5,17 @@ deltabs
 
 |downloads|
 
-Quantifying the significance of genetic variation using probabilistic profile-based methods.
+Quantifying the significance of genetic variation using probabilistic profile\-based methods\.
 
 ======== ===========
 Home     https://github.com/UCanCompBio/deltaBS/wiki
 Versions 0.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deltabs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/deltabs
 .. |docker| image:: https://quay.io/repository/biocontainers/deltabs/status
                 :target: https://quay.io/repository/biocontainers/deltabs
-
 

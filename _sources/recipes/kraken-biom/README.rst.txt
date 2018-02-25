@@ -5,14 +5,17 @@ kraken-biom
 
 |downloads|
 
-Create BIOM-format tables from Kraken output.
+Create BIOM\-format tables from Kraken output\.
 
 ======== ===========
 Home     https://github.com/smdabdoub/kraken-biom
 Versions 1.0.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kraken-biom
 .. |docker| image:: https://quay.io/repository/biocontainers/kraken-biom/status
                 :target: https://quay.io/repository/biocontainers/kraken-biom
-
 

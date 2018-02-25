@@ -5,14 +5,17 @@ sparse-neighbors-search
 
 |downloads|
 
-Approximate k-nearest neighbors search on sparse datasets
+Approximate k\-nearest neighbors search on sparse datasets
 
 ======== ===========
 Home     https://github.com/joachimwolff/minHashNearestNeighbors
 Versions 0.2.3, 0.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sparse-neighbors-search
 .. |docker| image:: https://quay.io/repository/biocontainers/sparse-neighbors-search/status
                 :target: https://quay.io/repository/biocontainers/sparse-neighbors-search
-
 

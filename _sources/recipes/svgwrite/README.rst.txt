@@ -5,14 +5,17 @@ svgwrite
 
 |downloads|
 
-A Python library to create SVG drawings.
+A Python library to create SVG drawings\.
 
 ======== ===========
 Home     http://bitbucket.org/mozman/svgwrite
 Versions 1.1.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svgwrite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svgwrite
 .. |docker| image:: https://quay.io/repository/biocontainers/svgwrite/status
                 :target: https://quay.io/repository/biocontainers/svgwrite
-
 

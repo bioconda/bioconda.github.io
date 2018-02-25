@@ -5,14 +5,17 @@ idba
 
 |downloads|
 
-IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
+IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics\.
 
 ======== ===========
 Home     http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
 Versions 1.1.1, 1.1.3
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/idba
 .. |docker| image:: https://quay.io/repository/biocontainers/idba/status
                 :target: https://quay.io/repository/biocontainers/idba
-
 

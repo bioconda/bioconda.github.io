@@ -12,7 +12,10 @@ Home     http://bioinformatics.psb.ugent.be/software/details/Randfold
 Versions 2.0.1
 License  GNU GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/randfold
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/randfold
 .. |docker| image:: https://quay.io/repository/biocontainers/randfold/status
                 :target: https://quay.io/repository/biocontainers/randfold
-
 

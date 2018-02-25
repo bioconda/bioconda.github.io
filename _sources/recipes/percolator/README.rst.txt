@@ -5,14 +5,17 @@ percolator
 
 |downloads|
 
-Semi-supervised learning for peptide identification from shotgun proteomics datasets
+Semi\-supervised learning for peptide identification from shotgun proteomics datasets
 
 ======== ===========
 Home     https://github.com/percolator/percolator
 Versions 3.0, 3.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/percolator
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/percolator
 .. |docker| image:: https://quay.io/repository/biocontainers/percolator/status
                 :target: https://quay.io/repository/biocontainers/percolator
-
 

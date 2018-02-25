@@ -5,14 +5,17 @@ perl-try-tiny
 
 |downloads|
 
-minimal try/catch with proper preservation of $@
+minimal try\/catch with proper preservation of \$\@
 
 ======== ===========
 Home     https://github.com/karenetheridge/Try-Tiny
 Versions 0.24
 License  mit
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-try-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-try-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-try-tiny
-
 

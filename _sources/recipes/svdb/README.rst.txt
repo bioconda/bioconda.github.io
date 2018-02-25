@@ -12,7 +12,10 @@ Home     https://github.com/J35P312/SVDB
 Versions 1.0.7
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svdb
 .. |docker| image:: https://quay.io/repository/biocontainers/svdb/status
                 :target: https://quay.io/repository/biocontainers/svdb
-
 

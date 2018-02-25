@@ -5,14 +5,17 @@ r-cnogpro
 
 |downloads|
 
-Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms.
+Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=CNOGpro
 Versions 1.1
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-cnogpro
 .. |docker| image:: https://quay.io/repository/biocontainers/r-cnogpro/status
                 :target: https://quay.io/repository/biocontainers/r-cnogpro
-
 

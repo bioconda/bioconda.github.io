@@ -12,7 +12,10 @@ Home     https://github.com/pletzer/pytriangle
 Versions 1.0.0, 1.0.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytriangle
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pytriangle
 .. |docker| image:: https://quay.io/repository/biocontainers/pytriangle/status
                 :target: https://quay.io/repository/biocontainers/pytriangle
-
 

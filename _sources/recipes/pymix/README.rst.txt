@@ -12,7 +12,10 @@ Home     http://www.pymix.org/pymix
 Versions 0.8
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pymix
 .. |docker| image:: https://quay.io/repository/biocontainers/pymix/status
                 :target: https://quay.io/repository/biocontainers/pymix
-
 

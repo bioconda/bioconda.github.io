@@ -5,14 +5,17 @@ perl-sort-versions
 
 |downloads|
 
-a perl 5 module for sorting of revision-like numbers
+a perl 5 module for sorting of revision\-like numbers
 
 ======== ===========
 Home     https://github.com/neilb/Sort-Versions
 Versions 1.62
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-versions
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sort-versions
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sort-versions/status
                 :target: https://quay.io/repository/biocontainers/perl-sort-versions
-
 

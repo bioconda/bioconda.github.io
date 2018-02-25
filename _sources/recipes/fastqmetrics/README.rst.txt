@@ -5,14 +5,17 @@ fastqmetrics
 
 |downloads|
 
-Extract metrics from a fastq file, streaming
+Extract metrics from a fastq file\, streaming
 
 ======== ===========
 Home     https://github.com/wdecoster/fastqmetrics
 Versions 0.1.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqmetrics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastqmetrics
 .. |docker| image:: https://quay.io/repository/biocontainers/fastqmetrics/status
                 :target: https://quay.io/repository/biocontainers/fastqmetrics
-
 

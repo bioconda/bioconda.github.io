@@ -12,7 +12,10 @@ Home     http://denovoassembler.sourceforge.net/index.html
 Versions 2.3.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ray
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ray
 .. |docker| image:: https://quay.io/repository/biocontainers/ray/status
                 :target: https://quay.io/repository/biocontainers/ray
-
 

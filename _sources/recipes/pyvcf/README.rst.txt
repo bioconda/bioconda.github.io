@@ -12,7 +12,10 @@ Home     https://github.com/jamescasbon/PyVCF
 Versions 0.6.7, 0.6.8, 0.6.8.dev0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvcf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyvcf
 .. |docker| image:: https://quay.io/repository/biocontainers/pyvcf/status
                 :target: https://quay.io/repository/biocontainers/pyvcf
-
 

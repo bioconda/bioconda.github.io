@@ -12,7 +12,10 @@ Home     https://github.com/tesseract-ocr/tesseract
 Versions 3.04.01
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract/3.04.01
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tesseract
 .. |docker| image:: https://quay.io/repository/biocontainers/tesseract/status
                 :target: https://quay.io/repository/biocontainers/tesseract
-
 

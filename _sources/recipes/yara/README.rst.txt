@@ -5,14 +5,17 @@ yara
 
 |downloads|
 
-Yara is an exact tool for aligning DNA sequencing reads to reference genomes.
+Yara is an exact tool for aligning DNA sequencing reads to reference genomes\.
 
 ======== ===========
 Home     https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
 Versions 0.9.10, 0.9.6, 0.9.9
 License  https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/yara
 .. |docker| image:: https://quay.io/repository/biocontainers/yara/status
                 :target: https://quay.io/repository/biocontainers/yara
-
 

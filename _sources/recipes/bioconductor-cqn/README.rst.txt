@@ -5,14 +5,17 @@ bioconductor-cqn
 
 |downloads|
 
-A normalization tool for RNA-Seq data, implementing the conditional quantile normalization method.
+A normalization tool for RNA\-Seq data\, implementing the conditional quantile normalization method\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/cqn.html
 Versions 1.22.0, 1.24.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cqn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cqn
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cqn/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cqn
-
 

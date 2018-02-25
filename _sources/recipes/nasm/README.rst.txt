@@ -5,14 +5,17 @@ nasm
 
 |downloads|
 
-NASM, the Netwide Assembler.
+NASM\, the Netwide Assembler\.
 
 ======== ===========
 Home     http://www.nasm.us
 Versions 2.11.08
 License  Simplified BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nasm
 .. |docker| image:: https://quay.io/repository/biocontainers/nasm/status
                 :target: https://quay.io/repository/biocontainers/nasm
-
 

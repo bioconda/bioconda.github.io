@@ -5,14 +5,17 @@ bioconductor-pcamethods
 
 |downloads|
 
-Provides Bayesian PCA, Probabilistic PCA, Nipals PCA, Inverse Non-Linear PCA and the conventional SVD PCA. A cluster based method for missing value estimation is included for comparison. BPCA, PPCA and NipalsPCA may be used to perform PCA on incomplete data as well as for accurate missing value estimation. A set of methods for printing and plotting the results is also provided. All PCA methods make use of the same data structure (pcaRes) to provide a common interface to the PCA results. Initiated at the Max-Planck Institute for Molecular Plant Physiology, Golm, Germany.
+Provides Bayesian PCA\, Probabilistic PCA\, Nipals PCA\, Inverse Non\-Linear PCA and the conventional SVD PCA\. A cluster based method for missing value estimation is included for comparison\. BPCA\, PPCA and NipalsPCA may be used to perform PCA on incomplete data as well as for accurate missing value estimation\. A set of methods for printing and plotting the results is also provided\. All PCA methods make use of the same data structure \(pcaRes\) to provide a common interface to the PCA results\. Initiated at the Max\-Planck Institute for Molecular Plant Physiology\, Golm\, Germany\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/pcaMethods.html
 Versions 1.64.0, 1.68.0, 1.70.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcamethods
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pcamethods
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pcamethods/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pcamethods
-
 

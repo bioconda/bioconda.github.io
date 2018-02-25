@@ -12,7 +12,10 @@ Home     https://github.com/moose/namespace-autoclean
 Versions 0.28
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/0.28
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-namespace-autoclean
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-namespace-autoclean/status
                 :target: https://quay.io/repository/biocontainers/perl-namespace-autoclean
-
 

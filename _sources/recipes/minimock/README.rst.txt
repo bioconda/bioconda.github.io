@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/MiniMock
 Versions 1.2.8
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimock
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/minimock
 .. |docker| image:: https://quay.io/repository/biocontainers/minimock/status
                 :target: https://quay.io/repository/biocontainers/minimock
-
 

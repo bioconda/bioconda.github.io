@@ -5,14 +5,17 @@ discovar
 
 |downloads|
 
-Suitable for variant calling with reference and de novo assembly of small genomes.
+Suitable for variant calling with reference and de novo assembly of small genomes\.
 
 ======== ===========
 Home     https://www.broadinstitute.org/software/discovar
 Versions 52488
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/discovar
 .. |docker| image:: https://quay.io/repository/biocontainers/discovar/status
                 :target: https://quay.io/repository/biocontainers/discovar
-
 

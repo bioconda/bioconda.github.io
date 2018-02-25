@@ -5,14 +5,17 @@ ucsc-ldhggene
 
 |downloads|
 
-load database with gene predictions from a gff file.
+load database with gene predictions from a gff file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ldhggene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-ldhggene
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-ldhggene/status
                 :target: https://quay.io/repository/biocontainers/ucsc-ldhggene
-
 

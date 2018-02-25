@@ -5,14 +5,17 @@ mathstats
 
 |downloads|
 
-Statistical functions, goodness-of-fit tests and special and special distributions not implemented in scipy/numpy .
+Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy \.
 
 ======== ===========
 Home     https://github.com/ksahlin/mathstats
 Versions 0.2.4, 0.2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mathstats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mathstats
 .. |docker| image:: https://quay.io/repository/biocontainers/mathstats/status
                 :target: https://quay.io/repository/biocontainers/mathstats
-
 

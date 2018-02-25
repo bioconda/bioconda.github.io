@@ -12,7 +12,10 @@ Home     http://compbio.dfci.harvard.edu/tgi/
 Versions 2006.10.17
 License  The Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mdust
 .. |docker| image:: https://quay.io/repository/biocontainers/mdust/status
                 :target: https://quay.io/repository/biocontainers/mdust
-
 

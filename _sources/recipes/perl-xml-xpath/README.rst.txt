@@ -5,14 +5,17 @@ perl-xml-xpath
 
 |downloads|
 
-Parse and evaluate XPath statements.
+Parse and evaluate XPath statements\.
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-XPath
 Versions 1.33
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-xpath
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-xpath
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-xpath/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-xpath
-
 

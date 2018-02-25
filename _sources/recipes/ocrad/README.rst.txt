@@ -5,14 +5,17 @@ ocrad
 
 |downloads|
 
-Ocrad is an optical character recognition program.
+Ocrad is an optical character recognition program\.
 
 ======== ===========
 Home     https://www.gnu.org/software/ocrad/
 Versions 0.21
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ocrad/0.21
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ocrad
 .. |docker| image:: https://quay.io/repository/biocontainers/ocrad/status
                 :target: https://quay.io/repository/biocontainers/ocrad
-
 

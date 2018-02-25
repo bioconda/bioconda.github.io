@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Date::Format
 Versions 2.30
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-format/2.30
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-date-format
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-date-format/status
                 :target: https://quay.io/repository/biocontainers/perl-date-format
-
 

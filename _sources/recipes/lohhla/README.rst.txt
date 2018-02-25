@@ -5,14 +5,17 @@ lohhla
 
 |downloads|
 
-A computational tool to evaluate HLA loss using next-generation sequencing data.
+A computational tool to evaluate HLA loss using next\-generation sequencing data\.
 
 ======== ===========
 Home     https://bitbucket.org/mcgranahanlab/lohhla
 Versions 20171108
 License  UNKNOWN
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lohhla
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update lohhla
 
+
 Notes
 -----
+The tool is available as command \`lohhla\`\.
 
-The tool is available as command `lohhla`.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lohhla
 .. |docker| image:: https://quay.io/repository/biocontainers/lohhla/status
                 :target: https://quay.io/repository/biocontainers/lohhla
-
 

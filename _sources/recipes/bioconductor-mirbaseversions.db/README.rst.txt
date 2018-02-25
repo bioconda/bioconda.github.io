@@ -5,14 +5,17 @@ bioconductor-mirbaseversions.db
 
 |downloads|
 
-Annotation package containing all available miRNA names from all versions (data from http://www.mirbase.org/).
+Annotation package containing all available miRNA names from all versions \(data from http\:\/\/www\.mirbase\.org\/\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/miRBaseVersions.db.html
 Versions 0.99.5
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mirbaseversions.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mirbaseversions.db
-
 

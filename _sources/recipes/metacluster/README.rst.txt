@@ -5,14 +5,21 @@ metacluster
 
 |downloads|
 
-MetaCluster5.1 is a new software for binning short pair-end reads
+MetaCluster5\.1 is a new software for binning short pair\-end reads
 
 ======== ===========
 Home     http://i.cs.hku.hk/~alse/MetaCluster/
 Versions 5.1
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacluster
+
 ======== ===========
+
+MetaCluster5\.1 is an unsupervised binning method that can \(1\) samples with
+low\-abundance species\, or \(2\) samples \(even with high\-abundance\) with many
+extremely\-low\-abundance species\. The input file should be in fasta format\.
+Every odd\-number read and its next read are supposed to be pair\-end reads\.
+
 
 Installation
 ------------
@@ -46,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metacluster
 .. |docker| image:: https://quay.io/repository/biocontainers/metacluster/status
                 :target: https://quay.io/repository/biocontainers/metacluster
-
 

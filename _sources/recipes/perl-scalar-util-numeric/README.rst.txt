@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Scalar-Util-Numeric
 Versions 0.40
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-util-numeric
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-scalar-util-numeric
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-scalar-util-numeric/status
                 :target: https://quay.io/repository/biocontainers/perl-scalar-util-numeric
-
 

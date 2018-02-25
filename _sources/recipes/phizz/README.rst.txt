@@ -12,7 +12,10 @@ Home     https://github.com/moonso/query_hpo
 Versions 0.0.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/phizz
 .. |docker| image:: https://quay.io/repository/biocontainers/phizz/status
                 :target: https://quay.io/repository/biocontainers/phizz
-
 

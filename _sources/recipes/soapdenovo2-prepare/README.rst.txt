@@ -12,7 +12,10 @@ Home     http://soap.genomics.org.cn/soapdenovo.html
 Versions 2.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-prepare
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/soapdenovo2-prepare
 .. |docker| image:: https://quay.io/repository/biocontainers/soapdenovo2-prepare/status
                 :target: https://quay.io/repository/biocontainers/soapdenovo2-prepare
-
 

@@ -5,14 +5,17 @@ wtforms-alchemy
 
 |downloads|
 
-Generates WTForms forms from SQLAlchemy models.
+Generates WTForms forms from SQLAlchemy models\.
 
 ======== ===========
 Home     https://github.com/kvesteri/wtforms-alchemy
 Versions 0.15.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtforms-alchemy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wtforms-alchemy
 .. |docker| image:: https://quay.io/repository/biocontainers/wtforms-alchemy/status
                 :target: https://quay.io/repository/biocontainers/wtforms-alchemy
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/tseemann/abricate
 Versions 0.2, 0.3, 0.4, 0.5, 0.7
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abricate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/abricate
 .. |docker| image:: https://quay.io/repository/biocontainers/abricate/status
                 :target: https://quay.io/repository/biocontainers/abricate
-
 

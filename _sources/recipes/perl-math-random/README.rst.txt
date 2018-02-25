@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Math-Random
 Versions 0.72
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-random
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-math-random
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-math-random/status
                 :target: https://quay.io/repository/biocontainers/perl-math-random
-
 

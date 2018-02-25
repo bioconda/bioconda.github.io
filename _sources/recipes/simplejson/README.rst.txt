@@ -5,14 +5,17 @@ simplejson
 
 |downloads|
 
-Simple, fast, extensible JSON encoder/decoder for Python
+Simple\, fast\, extensible JSON encoder\/decoder for Python
 
 ======== ===========
 Home     http://github.com/simplejson/simplejson
 Versions 3.8.1
 License  MIT License or Academic Free License (AFL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simplejson
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/simplejson
 .. |docker| image:: https://quay.io/repository/biocontainers/simplejson/status
                 :target: https://quay.io/repository/biocontainers/simplejson
-
 

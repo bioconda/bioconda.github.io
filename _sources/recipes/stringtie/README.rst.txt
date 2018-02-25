@@ -5,14 +5,17 @@ stringtie
 
 |downloads|
 
-Transcriptome assembly and quantification for RNA-seq
+Transcriptome assembly and quantification for RNA\-seq
 
 ======== ===========
 Home     http://ccb.jhu.edu/software/stringtie/
 Versions 0.97, 1.0.1, 1.0.3, 1.0.4, 1.1.0, 1.1.1, 1.1.2, 1.2.0, 1.2.2, 1.2.3, 1.2.4, 1.3.0, 1.3.3
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stringtie
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/stringtie
 .. |docker| image:: https://quay.io/repository/biocontainers/stringtie/status
                 :target: https://quay.io/repository/biocontainers/stringtie
-
 

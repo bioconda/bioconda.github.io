@@ -5,14 +5,17 @@ presto
 
 |downloads|
 
-A bioinformatics toolkit for processing high-throughput lymphocyte receptor sequencing data.
+A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data\.
 
 ======== ===========
 Home     http://presto.readthedocs.io
 Versions 0.5.4
 License  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/presto
 .. |docker| image:: https://quay.io/repository/biocontainers/presto/status
                 :target: https://quay.io/repository/biocontainers/presto
-
 

@@ -5,14 +5,17 @@ splitmem
 
 |downloads|
 
-Graphical pan-genome analysis with suffix skips
+Graphical pan\-genome analysis with suffix skips
 
 ======== ===========
 Home     https://sourceforge.net/projects/splitmem/
 Versions 1.0
 License  Apache License V2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/splitmem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/splitmem
 .. |docker| image:: https://quay.io/repository/biocontainers/splitmem/status
                 :target: https://quay.io/repository/biocontainers/splitmem
-
 

@@ -5,14 +5,17 @@ ucsc-pslmrnacover
 
 |downloads|
 
-Make histogram of coverage percentage of mRNA in psl.
+Make histogram of coverage percentage of mRNA in psl\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-pslmrnacover
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslmrnacover/status
                 :target: https://quay.io/repository/biocontainers/ucsc-pslmrnacover
-
 

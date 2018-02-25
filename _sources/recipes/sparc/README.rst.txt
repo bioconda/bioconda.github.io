@@ -5,14 +5,17 @@ sparc
 
 |downloads|
 
-A sparsity-based consensus algorithm for long erroneous sequencing reads.
+A sparsity\-based consensus algorithm for long erroneous sequencing reads\.
 
 ======== ===========
 Home     https://github.com/yechengxi/Sparc
 Versions 20160205
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sparc
 .. |docker| image:: https://quay.io/repository/biocontainers/sparc/status
                 :target: https://quay.io/repository/biocontainers/sparc
-
 

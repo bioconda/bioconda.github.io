@@ -5,14 +5,17 @@ perl-params-util
 
 |downloads|
 
-Simple, compact and correct param-checking functions
+Simple\, compact and correct param\-checking functions
 
 ======== ===========
 Home     http://metacpan.org/pod/Params-Util
 Versions 1.07
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-util
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-params-util
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-params-util/status
                 :target: https://quay.io/repository/biocontainers/perl-params-util
-
 

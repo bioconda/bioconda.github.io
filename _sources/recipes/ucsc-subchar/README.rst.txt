@@ -5,14 +5,17 @@ ucsc-subchar
 
 |downloads|
 
-Substitute one character for another throughout a file.
+Substitute one character for another throughout a file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-subchar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-subchar
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-subchar/status
                 :target: https://quay.io/repository/biocontainers/ucsc-subchar
-
 

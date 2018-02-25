@@ -5,14 +5,17 @@ scrm
 
 |downloads|
 
-A coalescent simulator for genome-scale sequences
+A coalescent simulator for genome\-scale sequences
 
 ======== ===========
 Home     https://scrm.github.io/
 Versions 1.6.1, 1.7.1, 1.7.2
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scrm
 .. |docker| image:: https://quay.io/repository/biocontainers/scrm/status
                 :target: https://quay.io/repository/biocontainers/scrm
-
 

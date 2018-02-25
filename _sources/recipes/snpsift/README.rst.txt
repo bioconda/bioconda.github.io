@@ -12,7 +12,10 @@ Home     http://snpeff.sourceforge.net/SnpSift.html
 Versions 4.1l, 4.2, 4.3, 4.3.1m, 4.3.1o, 4.3.1p, 4.3.1r, 4.3.1t
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update snpsift
 
+
 Notes
 -----
+Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly\.
 
-Note that the package version is slightly different from upstream, this is to make sure conda will order the package versions correctly.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snpsift
 .. |docker| image:: https://quay.io/repository/biocontainers/snpsift/status
                 :target: https://quay.io/repository/biocontainers/snpsift
-
 

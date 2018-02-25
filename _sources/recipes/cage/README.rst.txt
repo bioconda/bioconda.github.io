@@ -12,7 +12,10 @@ Home     https://github.com/adambloniarz/CAGe
 Versions 2016.01.24, 2016.05.13
 License  Apache v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cage
 .. |docker| image:: https://quay.io/repository/biocontainers/cage/status
                 :target: https://quay.io/repository/biocontainers/cage
-
 

@@ -5,14 +5,17 @@ r-microseq
 
 |downloads|
 
-Basic functions for microbial sequence data analysis.
+Basic functions for microbial sequence data analysis\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=microseq
 Versions 1.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-microseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-microseq
 .. |docker| image:: https://quay.io/repository/biocontainers/r-microseq/status
                 :target: https://quay.io/repository/biocontainers/r-microseq
-
 

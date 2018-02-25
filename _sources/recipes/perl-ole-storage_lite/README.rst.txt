@@ -5,14 +5,17 @@ perl-ole-storage_lite
 
 |downloads|
 
-Read and write OLE storage files.
+Read and write OLE storage files\.
 
 ======== ===========
 Home     http://metacpan.org/pod/OLE-Storage_Lite
 Versions 0.19
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ole-storage_lite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-ole-storage_lite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-ole-storage_lite/status
                 :target: https://quay.io/repository/biocontainers/perl-ole-storage_lite
-
 

@@ -5,14 +5,17 @@ perl-config-any
 
 |downloads|
 
-Load configuration from different file formats, transparently
+Load configuration from different file formats\, transparently
 
 ======== ===========
 Home     http://metacpan.org/pod/Config-Any
 Versions 0.27
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-any
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-config-any
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-config-any/status
                 :target: https://quay.io/repository/biocontainers/perl-config-any
-
 

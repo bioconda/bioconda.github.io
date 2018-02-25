@@ -12,7 +12,10 @@ Home     http://jbrowse.org/
 Versions 1.12.1, 1.12.3
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jbrowse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jbrowse
 .. |docker| image:: https://quay.io/repository/biocontainers/jbrowse/status
                 :target: https://quay.io/repository/biocontainers/jbrowse
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Pod::Coverage
 Versions 0.23
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage/0.23
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-coverage
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-coverage/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-coverage
-
 

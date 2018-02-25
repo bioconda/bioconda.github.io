@@ -5,14 +5,17 @@ kpal
 
 |downloads|
 
-Analysis toolkit and programming library for k-mer profiles
+Analysis toolkit and programming library for k\-mer profiles
 
 ======== ===========
 Home     https://kpal.readthedocs.org
 Versions 2.1.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kpal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kpal
 .. |docker| image:: https://quay.io/repository/biocontainers/kpal/status
                 :target: https://quay.io/repository/biocontainers/kpal
-
 

@@ -5,14 +5,17 @@ gevent
 
 |downloads|
 
-Coroutine-based network library
+Coroutine\-based network library
 
 ======== ===========
 Home     http://www.gevent.org/
 Versions 1.0.2, 1.1rc4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gevent
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gevent
 .. |docker| image:: https://quay.io/repository/biocontainers/gevent/status
                 :target: https://quay.io/repository/biocontainers/gevent
-
 

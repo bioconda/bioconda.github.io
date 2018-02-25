@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/BicARE.html
 Versions 1.34.0, 1.36.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bicare
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bicare
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bicare/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bicare
-
 

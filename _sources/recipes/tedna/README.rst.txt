@@ -12,7 +12,10 @@ Home     https://urgi.versailles.inra.fr/Tools/Tedna
 Versions 1.2.2
 License  GNU Affero General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tedna
 .. |docker| image:: https://quay.io/repository/biocontainers/tedna/status
                 :target: https://quay.io/repository/biocontainers/tedna
-
 

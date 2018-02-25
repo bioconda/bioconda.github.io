@@ -12,7 +12,10 @@ Home     https://www.tbi.univie.ac.at/~wash/RNAz/
 Versions 2.1
 License  MIT-like
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rnaz
 .. |docker| image:: https://quay.io/repository/biocontainers/rnaz/status
                 :target: https://quay.io/repository/biocontainers/rnaz
-
 

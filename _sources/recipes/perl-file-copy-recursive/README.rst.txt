@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/File::Copy::Recursive
 Versions 0.38
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-copy-recursive
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-copy-recursive/status
                 :target: https://quay.io/repository/biocontainers/perl-file-copy-recursive
-
 

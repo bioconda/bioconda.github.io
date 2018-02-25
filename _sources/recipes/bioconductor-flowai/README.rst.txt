@@ -5,14 +5,17 @@ bioconductor-flowai
 
 |downloads|
 
-The package is able to perform an automatic or interactive quality control on FCS data acquired using flow cytometry instruments. By evaluating three different properties: 1) flow rate, 2) signal acquisition, 3) dynamic range, the quality control enables the detection and removal of anomalies.
+The package is able to perform an automatic or interactive quality control on FCS data acquired using flow cytometry instruments\. By evaluating three different properties\: 1\) flow rate\, 2\) signal acquisition\, 3\) dynamic range\, the quality control enables the detection and removal of anomalies\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flowAI.html
 Versions 1.2.8, 1.2.9, 1.4.4, 1.6.2
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowai
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flowai
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowai/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flowai
-
 

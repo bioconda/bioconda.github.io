@@ -5,14 +5,17 @@ perl-xml-filter-buffertext
 
 |downloads|
 
-Filter to put all characters() in one event
+Filter to put all characters\(\) in one event
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-Filter-BufferText
 Versions 1.01
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-filter-buffertext
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-filter-buffertext
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-filter-buffertext
-
 

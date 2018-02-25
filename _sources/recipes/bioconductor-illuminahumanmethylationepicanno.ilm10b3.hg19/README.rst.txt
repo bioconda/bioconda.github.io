@@ -5,14 +5,17 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19
 
 |downloads|
 
-An annotation package for Illumina's EPIC methylation arrays.
+An annotation package for Illumina\'s EPIC methylation arrays\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylationEPICanno.ilm10b3.hg19.html
 Versions 0.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/rrwick/Porechop
 Versions 0.2.3_seqan2.1.1
 License  GPL-3.0-only AND BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/porechop
 .. |docker| image:: https://quay.io/repository/biocontainers/porechop/status
                 :target: https://quay.io/repository/biocontainers/porechop
-
 

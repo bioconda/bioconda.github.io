@@ -12,7 +12,10 @@ Home     http://sonorus.princeton.edu/IntervalStats/
 Versions 1.01
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervalstats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intervalstats
 .. |docker| image:: https://quay.io/repository/biocontainers/intervalstats/status
                 :target: https://quay.io/repository/biocontainers/intervalstats
-
 

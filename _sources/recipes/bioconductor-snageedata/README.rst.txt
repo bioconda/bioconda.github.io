@@ -5,14 +5,17 @@ bioconductor-snageedata
 
 |downloads|
 
-SNAGEE data - gene list and correlation matrix
+SNAGEE data \- gene list and correlation matrix
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/SNAGEEdata.html
 Versions 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snageedata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-snageedata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snageedata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-snageedata
-
 

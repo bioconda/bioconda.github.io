@@ -5,14 +5,17 @@ pycsg
 
 |downloads|
 
-Python port of csg.js from Evan Wallace
+Python port of csg\.js from Evan Wallace
 
 ======== ===========
 Home     https://github.com/pletzer/pycsg
 Versions 0.3.12
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycsg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pycsg
 .. |docker| image:: https://quay.io/repository/biocontainers/pycsg/status
                 :target: https://quay.io/repository/biocontainers/pycsg
-
 

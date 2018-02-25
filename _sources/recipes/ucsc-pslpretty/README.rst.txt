@@ -5,14 +5,17 @@ ucsc-pslpretty
 
 |downloads|
 
-Convert PSL to human-readable output
+Convert PSL to human\-readable output
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslpretty
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-pslpretty
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslpretty/status
                 :target: https://quay.io/repository/biocontainers/ucsc-pslpretty
-
 

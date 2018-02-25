@@ -5,14 +5,17 @@ bioconductor-metaseq
 
 |downloads|
 
-The probabilities by one-sided NOISeq are combined by Fisher's method or Stouffer's method
+The probabilities by one\-sided NOISeq are combined by Fisher\'s method or Stouffer\'s method
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/metaSeq.html
 Versions 1.16.0, 1.18.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-metaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metaseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-metaseq
-
 

@@ -5,14 +5,17 @@ bioconductor-cleanupdtseq
 
 |downloads|
 
-This package uses the Naive Bayes classifier (from e1071) to assign probability values to putative polyadenylation sites (pA sites) based on training data from zebrafish. This will allow the user to separate true, biologically relevant pA sites from false, oligodT primed pA sites.
+This package uses the Naive Bayes classifier \(from e1071\) to assign probability values to putative polyadenylation sites \(pA sites\) based on training data from zebrafish\. This will allow the user to separate true\, biologically relevant pA sites from false\, oligodT primed pA sites\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/cleanUpdTSeq.html
 Versions 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleanupdtseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cleanupdtseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cleanupdtseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cleanupdtseq
-
 

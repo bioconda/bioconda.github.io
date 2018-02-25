@@ -5,14 +5,17 @@ ucsc-maketablelist
 
 |downloads|
 
-create/recreate tableList tables (cache of SHOW TABLES and DESCRIBE)
+create\/recreate tableList tables \(cache of SHOW TABLES and DESCRIBE\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maketablelist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-maketablelist
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-maketablelist/status
                 :target: https://quay.io/repository/biocontainers/ucsc-maketablelist
-
 

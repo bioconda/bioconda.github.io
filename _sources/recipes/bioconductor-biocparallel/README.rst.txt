@@ -5,14 +5,17 @@ bioconductor-biocparallel
 
 |downloads|
 
-This package provides modified versions and novel implementation of functions for parallel evaluation, tailored to use with Bioconductor objects.
+This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BiocParallel.html
 Versions 1.10.1, 1.12.0, 1.2.22, 1.4.0, 1.4.3, 1.5.0, 1.6.6
 License  GPL-2 | GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-biocparallel
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocparallel/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-biocparallel
-
 

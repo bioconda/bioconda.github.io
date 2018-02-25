@@ -5,14 +5,17 @@ ucsc-xmlcat
 
 |downloads|
 
-Concatenate xml files together, stuffing all records inside a single outer tag. 
+Concatenate xml files together\, stuffing all records inside a single outer tag\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-xmlcat
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-xmlcat/status
                 :target: https://quay.io/repository/biocontainers/ucsc-xmlcat
-
 

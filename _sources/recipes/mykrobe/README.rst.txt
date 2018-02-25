@@ -5,14 +5,17 @@ mykrobe
 
 |downloads|
 
-Rapid antibiotic-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
+Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis\.
 
 ======== ===========
 Home     https://github.com/iqbal-lab/Mykrobe-predictor
 Versions 0.5.6
 License  Custom non-commercial license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykrobe
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mykrobe
 .. |docker| image:: https://quay.io/repository/biocontainers/mykrobe/status
                 :target: https://quay.io/repository/biocontainers/mykrobe
-
 

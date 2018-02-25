@@ -5,14 +5,17 @@ bioconductor-help
 
 |downloads|
 
-The package contains a modular pipeline for analysis of HELP microarray data, and includes graphical and mathematical tools with more general applications.
+The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/HELP.html
 Versions 1.36.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-help
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-help
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-help/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-help
-
 

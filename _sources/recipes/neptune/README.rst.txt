@@ -5,14 +5,17 @@ neptune
 
 |downloads|
 
-Neptune: Genomic Signature Discovery
+Neptune\: Genomic Signature Discovery
 
 ======== ===========
 Home     https://github.com/phac-nml/neptune
 Versions 1.2.3, 1.2.5
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/neptune
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/neptune
 .. |docker| image:: https://quay.io/repository/biocontainers/neptune/status
                 :target: https://quay.io/repository/biocontainers/neptune
-
 

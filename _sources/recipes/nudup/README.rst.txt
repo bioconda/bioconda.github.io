@@ -5,14 +5,17 @@ nudup
 
 |downloads|
 
-Marks/removes duplicate molecules based on the molecular tagging technology used in NuGEN products.
+Marks\/removes duplicate molecules based on the molecular tagging technology used in NuGEN products\.
 
 ======== ===========
 Home     http://nugentechnologies.github.io/nudup/
 Versions 2.2_post2016104, 2.3.1, 2.3.2, 2.3.3
 License  GNU Lesser General Public License 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nudup
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nudup
 .. |docker| image:: https://quay.io/repository/biocontainers/nudup/status
                 :target: https://quay.io/repository/biocontainers/nudup
-
 

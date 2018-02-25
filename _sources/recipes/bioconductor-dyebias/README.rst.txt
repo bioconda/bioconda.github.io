@@ -5,14 +5,17 @@ bioconductor-dyebias
 
 |downloads|
 
-Many two-colour hybridizations suffer from a dye bias that is both gene-specific and slide-specific. The former depends on the content of the nucleotide used for labeling; the latter depends on the labeling percentage. The slide-dependency was hitherto not recognized, and made addressing the artefact impossible.  Given a reasonable number of dye-swapped pairs of hybridizations, or of same vs. same hybridizations, both the gene- and slide-biases can be estimated and corrected using the GASSCO method (Margaritis et al., Mol. Sys. Biol. 5:266 (2009), doi:10.1038/msb.2009.21)
+Many two\-colour hybridizations suffer from a dye bias that is both gene\-specific and slide\-specific\. The former depends on the content of the nucleotide used for labeling\; the latter depends on the labeling percentage\. The slide\-dependency was hitherto not recognized\, and made addressing the artefact impossible\.  Given a reasonable number of dye\-swapped pairs of hybridizations\, or of same vs\. same hybridizations\, both the gene\- and slide\-biases can be estimated and corrected using the GASSCO method \(Margaritis et al\.\, Mol\. Sys\. Biol\. 5\:266 \(2009\)\, doi\:10\.1038\/msb\.2009\.21\)
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/dyebias.html
 Versions 1.38.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-dyebias
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dyebias/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-dyebias
-
 

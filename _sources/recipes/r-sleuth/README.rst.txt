@@ -5,14 +5,17 @@ r-sleuth
 
 |downloads|
 
-Sleuth is an R library for analysis of RNA-Seq experiments for which transcript abundances have been quantified with kallisto.
+Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript abundances have been quantified with kallisto\.
 
 ======== ===========
 Home     http://pachterlab.github.io/sleuth
 Versions 0.0.1, 0.28.0, 0.29.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-sleuth
 .. |docker| image:: https://quay.io/repository/biocontainers/r-sleuth/status
                 :target: https://quay.io/repository/biocontainers/r-sleuth
-
 

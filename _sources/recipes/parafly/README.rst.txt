@@ -5,14 +5,17 @@ parafly
 
 |downloads|
 
-Given a file containing a list of unix commands, multithreading is used to process the commands in parallel on a single server. Success/failure is captured, and failed commands are retained and reported.
+Given a file containing a list of unix commands\, multithreading is used to process the commands in parallel on a single server\. Success\/failure is captured\, and failed commands are retained and reported\.
 
 ======== ===========
 Home     http://parafly.sourceforge.net/
 Versions r2013_01_21
 License  The Broad Institute (own license thingy)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parafly
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/parafly
 .. |docker| image:: https://quay.io/repository/biocontainers/parafly/status
                 :target: https://quay.io/repository/biocontainers/parafly
-
 

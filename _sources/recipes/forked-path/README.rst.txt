@@ -12,7 +12,10 @@ Home     http://github.com/Singletoned/forked-path
 Versions 0.2.3
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forked-path
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/forked-path
 .. |docker| image:: https://quay.io/repository/biocontainers/forked-path/status
                 :target: https://quay.io/repository/biocontainers/forked-path
-
 

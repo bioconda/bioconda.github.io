@@ -5,14 +5,17 @@ mglex
 
 |downloads|
 
-MGLEX - MetaGenome Likelihood EXtractor
+MGLEX \- MetaGenome Likelihood EXtractor
 
 ======== ===========
 Home     https://github.com/fungs/mglex
 Versions 0.2.0
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mglex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mglex
 .. |docker| image:: https://quay.io/repository/biocontainers/mglex/status
                 :target: https://quay.io/repository/biocontainers/mglex
-
 

@@ -5,14 +5,17 @@ openslide
 
 |downloads|
 
-OpenSlide is a C library that provides a simple interface to read whole-slide images (also known as virtual slides).
+OpenSlide is a C library that provides a simple interface to read whole\-slide images \(also known as virtual slides\)\.
 
 ======== ===========
 Home     http://openslide.org/
 Versions 3.4.1
 License  GNU LGPL 2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openslide
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/openslide
 .. |docker| image:: https://quay.io/repository/biocontainers/openslide/status
                 :target: https://quay.io/repository/biocontainers/openslide
-
 

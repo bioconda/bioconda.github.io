@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/a4Base.html
 Versions 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-a4base
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-a4base/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-a4base
-
 

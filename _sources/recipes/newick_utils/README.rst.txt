@@ -5,14 +5,17 @@ newick_utils
 
 |downloads|
 
-The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees. We distribute the package under the BSD License. Functions include re-rooting, extracting subtrees, trimming, pruning, condensing, drawing (ASCII graphics or SVG).
+The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees\. We distribute the package under the BSD License\. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\)\.
 
 ======== ===========
 Home     http://cegg.unige.ch/newick_utils
 Versions 1.6
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/newick_utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/newick_utils
 .. |docker| image:: https://quay.io/repository/biocontainers/newick_utils/status
                 :target: https://quay.io/repository/biocontainers/newick_utils
-
 

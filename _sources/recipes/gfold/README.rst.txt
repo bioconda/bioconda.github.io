@@ -5,14 +5,17 @@ gfold
 
 |downloads|
 
-Find differentially expressed genes from RNA-seq data with few replicates using generalized fold changes.
+Find differentially expressed genes from RNA\-seq data with few replicates using generalized fold changes\.
 
 ======== ===========
 Home     http://compbio.tongji.edu.cn/~fengjx/GFOLD/gfold.html
 Versions 1.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfold
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gfold
 .. |docker| image:: https://quay.io/repository/biocontainers/gfold/status
                 :target: https://quay.io/repository/biocontainers/gfold
-
 

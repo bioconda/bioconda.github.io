@@ -5,14 +5,17 @@ racon
 
 |downloads|
 
-Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
+Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads\.
 
 ======== ===========
 Home     https://github.com/isovic/racon
 Versions 0.5.0, 1.0.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/racon
 .. |docker| image:: https://quay.io/repository/biocontainers/racon/status
                 :target: https://quay.io/repository/biocontainers/racon
-
 

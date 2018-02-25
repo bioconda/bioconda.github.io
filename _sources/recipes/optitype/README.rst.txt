@@ -5,14 +5,17 @@ optitype
 
 |downloads|
 
-Precision HLA typing from next-generation sequencing data
+Precision HLA typing from next\-generation sequencing data
 
 ======== ===========
 Home     https://github.com/FRED-2/OptiType
 Versions 1.2, 1.2.1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optitype
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/optitype
 .. |docker| image:: https://quay.io/repository/biocontainers/optitype/status
                 :target: https://quay.io/repository/biocontainers/optitype
-
 

@@ -12,7 +12,10 @@ Home     http://mafft.cbrc.jp/alignment/software/
 Versions 7.221, 7.305, 7.310, 7.313
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mafft/7.310
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mafft
 .. |docker| image:: https://quay.io/repository/biocontainers/mafft/status
                 :target: https://quay.io/repository/biocontainers/mafft
-
 

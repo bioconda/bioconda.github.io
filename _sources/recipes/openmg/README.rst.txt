@@ -12,7 +12,10 @@ Home     https://sourceforge.net/projects/openmg
 Versions 0.1
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/openmg
 .. |docker| image:: https://quay.io/repository/biocontainers/openmg/status
                 :target: https://quay.io/repository/biocontainers/openmg
-
 

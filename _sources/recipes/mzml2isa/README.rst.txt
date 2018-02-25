@@ -5,14 +5,17 @@ mzml2isa
 
 |downloads|
 
-mzml2isa - mzML to ISA-tab parsing tool
+mzml2isa \- mzML to ISA\-tab parsing tool
 
 ======== ===========
 Home     https://github.com/ISA-tools/mzml2isa
 Versions 0.4.24, 0.5.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzml2isa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mzml2isa
 .. |docker| image:: https://quay.io/repository/biocontainers/mzml2isa/status
                 :target: https://quay.io/repository/biocontainers/mzml2isa
-
 

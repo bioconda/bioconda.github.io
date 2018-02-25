@@ -5,14 +5,17 @@ blasr
 
 |downloads|
 
-BLASR - The PacBio long read aligner
+BLASR \- The PacBio long read aligner
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/blasr
 Versions 5.2p1, 5.3.9c6f0a5, 5.3.f8bfa9c
 License  BSD-3-Clause-Clear
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blasr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blasr
 .. |docker| image:: https://quay.io/repository/biocontainers/blasr/status
                 :target: https://quay.io/repository/biocontainers/blasr
-
 

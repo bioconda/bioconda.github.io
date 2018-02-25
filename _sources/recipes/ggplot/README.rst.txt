@@ -5,14 +5,17 @@ ggplot
 
 |downloads|
 
-An extremely un-pythonic package for doing exactly what ggplot2 does
+An extremely un\-pythonic package for doing exactly what ggplot2 does
 
 ======== ===========
 Home     https://github.com/yhat/ggplot/
 Versions 0.6.8
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ggplot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ggplot
 .. |docker| image:: https://quay.io/repository/biocontainers/ggplot/status
                 :target: https://quay.io/repository/biocontainers/ggplot
-
 

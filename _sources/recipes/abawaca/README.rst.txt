@@ -12,7 +12,10 @@ Home     https://github.com/CK7/abawaca
 Versions 1.00
 License  open source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abawaca
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/abawaca
 .. |docker| image:: https://quay.io/repository/biocontainers/abawaca/status
                 :target: https://quay.io/repository/biocontainers/abawaca
-
 

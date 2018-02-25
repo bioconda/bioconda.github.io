@@ -5,14 +5,17 @@ r-gkmsvm
 
 |downloads|
 
-Imports the 'gkmSVM' v2.0 functionalities into R (www.beerlab.org/gkmsvm). It also uses the 'kernlab' library (separate R package by different authors) for various SVM algorithms.   
+Imports the \'gkmSVM\' v2\.0 functionalities into R \(www\.beerlab\.org\/gkmsvm\)\. It also uses the \'kernlab\' library \(separate R package by different authors\) for various SVM algorithms\.   
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=gkmSVM
 Versions 0.71.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gkmsvm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-gkmsvm
 .. |docker| image:: https://quay.io/repository/biocontainers/r-gkmsvm/status
                 :target: https://quay.io/repository/biocontainers/r-gkmsvm
-
 

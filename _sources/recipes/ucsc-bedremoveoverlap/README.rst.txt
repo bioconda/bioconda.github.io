@@ -5,14 +5,17 @@ ucsc-bedremoveoverlap
 
 |downloads|
 
-Remove overlapping records from a (sorted) bed file.  Gets rid of
+Remove overlapping records from a \(sorted\) bed file\.  Gets rid of
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bedremoveoverlap
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bedremoveoverlap
-
 

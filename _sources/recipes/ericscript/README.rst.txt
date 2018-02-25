@@ -5,14 +5,17 @@ ericscript
 
 |downloads|
 
-EricScript is a computational framework for the discovery of gene fusions in paired end RNA-seq data. It is able to generate synthetic gene fusions by using the EricScript simulator and calculate a number of statistical measures for evaluating gene fusion detection methods performance with EricScript CalcStats.
+EricScript is a computational framework for the discovery of gene fusions in paired end RNA\-seq data\. It is able to generate synthetic gene fusions by using the EricScript simulator and calculate a number of statistical measures for evaluating gene fusion detection methods performance with EricScript CalcStats\.
 
 ======== ===========
 Home     https://sites.google.com/site/bioericscript
 Versions 0.5.5
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ericscript
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ericscript
 .. |docker| image:: https://quay.io/repository/biocontainers/ericscript/status
                 :target: https://quay.io/repository/biocontainers/ericscript
-
 

@@ -5,14 +5,17 @@ snpomatic
 
 |downloads|
 
-SNP-o-matic is a fast, stringent short-read mapping software.
+SNP\-o\-matic is a fast\, stringent short\-read mapping software\.
 
 ======== ===========
 Home     https://github.com/magnusmanske/snpomatic
 Versions 1.0
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpomatic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snpomatic
 .. |docker| image:: https://quay.io/repository/biocontainers/snpomatic/status
                 :target: https://quay.io/repository/biocontainers/snpomatic
-
 

@@ -5,14 +5,17 @@ sailfish
 
 |downloads|
 
-Rapid Mapping-based Isoform Quantification from RNA-Seq Reads
+Rapid Mapping\-based Isoform Quantification from RNA\-Seq Reads
 
 ======== ===========
 Home     http://www.cs.cmu.edu/~ckingsf/software/sailfish/
 Versions 0.10.1, 0.7.6, 0.9.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sailfish
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sailfish
 .. |docker| image:: https://quay.io/repository/biocontainers/sailfish/status
                 :target: https://quay.io/repository/biocontainers/sailfish
-
 

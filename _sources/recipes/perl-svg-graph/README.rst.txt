@@ -5,14 +5,17 @@ perl-svg-graph
 
 |downloads|
 
-Visualize your data in Scalable Vector Graphics (SVG) format.
+Visualize your data in Scalable Vector Graphics \(SVG\) format\.
 
 ======== ===========
 Home     http://metacpan.org/pod/SVG-Graph
 Versions 0.02
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-svg-graph
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-svg-graph
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-svg-graph/status
                 :target: https://quay.io/repository/biocontainers/perl-svg-graph
-
 

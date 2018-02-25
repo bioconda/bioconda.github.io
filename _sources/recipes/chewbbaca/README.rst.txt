@@ -5,14 +5,17 @@ chewbbaca
 
 |downloads|
 
-A complete suite for gene-by-gene schema creation and strain identification
+A complete suite for gene\-by\-gene schema creation and strain identification
 
 ======== ===========
 Home     https://github.com/B-UMMI/chewBBACA
 Versions 1.0, 2.0.6
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca
+
 ======== ===========
+
+chewBBACA is a comprehensive pipeline including a set of functions for the creation and validation of whole genome and core genome MultiLocus Sequence Typing \(wg\/cgMLST\) schemas\, providing an allele calling algorithm based on Blast Score Ratio that can be run in multiprocessor settings and a set of functions to visualize and validate allele variation in the loci\.
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/chewbbaca
 .. |docker| image:: https://quay.io/repository/biocontainers/chewbbaca/status
                 :target: https://quay.io/repository/biocontainers/chewbbaca
-
 

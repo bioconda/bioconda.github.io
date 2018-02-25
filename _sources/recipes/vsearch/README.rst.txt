@@ -5,14 +5,17 @@ vsearch
 
 |downloads|
 
-a versatile open source tool for metagenomics (USEARCH alternative)
+a versatile open source tool for metagenomics \(USEARCH alternative\)
 
 ======== ===========
 Home     https://github.com/torognes/vsearch
 Versions 1.10.2, 1.11.1, 1.9.5, 1.9.7, 2.0.0, 2.0.2, 2.0.3, 2.3.2, 2.3.4, 2.4.0, 2.4.3, 2.4.4, 2.5.0, 2.6.0, 2.7.0
 License  dual-licensed under GPLv3+ or BSD 2-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vsearch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vsearch
 .. |docker| image:: https://quay.io/repository/biocontainers/vsearch/status
                 :target: https://quay.io/repository/biocontainers/vsearch
-
 

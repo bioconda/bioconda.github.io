@@ -12,7 +12,10 @@ Home     https://github.com/mhoopmann/hardklor
 Versions 2.3.0
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hardklor
 .. |docker| image:: https://quay.io/repository/biocontainers/hardklor/status
                 :target: https://quay.io/repository/biocontainers/hardklor
-
 

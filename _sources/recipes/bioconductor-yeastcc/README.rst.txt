@@ -5,14 +5,17 @@ bioconductor-yeastcc
 
 |downloads|
 
-ExpressionSet for Spellman et al. (1998) yeast cell cycle microarray experiment
+ExpressionSet for Spellman et al\. \(1998\) yeast cell cycle microarray experiment
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/yeastCC.html
 Versions 1.18.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-yeastcc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-yeastcc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-yeastcc
-
 

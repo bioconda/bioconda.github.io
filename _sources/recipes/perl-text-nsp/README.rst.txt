@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Text-NSP
 Versions 1.31
 License  open_source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-nsp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-nsp
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-nsp/status
                 :target: https://quay.io/repository/biocontainers/perl-text-nsp
-
 

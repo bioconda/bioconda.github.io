@@ -5,14 +5,17 @@ bioconductor-rdgidb
 
 |downloads|
 
-The rDGIdb package provides a wrapper for the Drug Gene Interaction Database (DGIdb). For simplicity, the wrapper query function and output resembles the user interface and results format provided on the DGIdb website (http://dgidb.genome.wustl.edu/).
+The rDGIdb package provides a wrapper for the Drug Gene Interaction Database \(DGIdb\)\. For simplicity\, the wrapper query function and output resembles the user interface and results format provided on the DGIdb website \(http\:\/\/dgidb\.genome\.wustl\.edu\/\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rDGIdb.html
 Versions 1.2.1, 1.4.1
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdgidb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rdgidb
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rdgidb/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rdgidb
-
 

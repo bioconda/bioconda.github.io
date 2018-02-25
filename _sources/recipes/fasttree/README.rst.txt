@@ -5,14 +5,17 @@ fasttree
 
 |downloads|
 
-FastTree infers approximately-maximum-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
+FastTree infers approximately\-maximum\-likelihood phylogenetic trees from alignments of nucleotide or protein sequences
 
 ======== ===========
 Home     http://www.microbesonline.org/fasttree/
 Versions 2.1.10, 2.1.8, 2.1.9
 License  GPL v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fasttree
 .. |docker| image:: https://quay.io/repository/biocontainers/fasttree/status
                 :target: https://quay.io/repository/biocontainers/fasttree
-
 

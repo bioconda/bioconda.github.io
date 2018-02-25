@@ -5,14 +5,17 @@ ngseqbasic
 
 |downloads|
 
-Basic ChIP/DNaseI/ATAC analysis - from FASTQ to visualisation of tracks, in one command.
+Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command\.
 
 ======== ===========
 Home     http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/outHouseUsers/instructionsBioconda.html
 Versions 2.0.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ngseqbasic
 .. |docker| image:: https://quay.io/repository/biocontainers/ngseqbasic/status
                 :target: https://quay.io/repository/biocontainers/ngseqbasic
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/Phelimb/ga4gh-mongo
 Versions 0.0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ga4ghmongo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ga4ghmongo
 .. |docker| image:: https://quay.io/repository/biocontainers/ga4ghmongo/status
                 :target: https://quay.io/repository/biocontainers/ga4ghmongo
-
 

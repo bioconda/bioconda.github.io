@@ -5,14 +5,17 @@ sicer
 
 |downloads|
 
-A clustering approach for identification of enriched domains from histone modification ChIP-Seq data
+A clustering approach for identification of enriched domains from histone modification ChIP\-Seq data
 
 ======== ===========
 Home     http://home.gwu.edu/~wpeng/Software.htm
 Versions 1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sicer
 .. |docker| image:: https://quay.io/repository/biocontainers/sicer/status
                 :target: https://quay.io/repository/biocontainers/sicer
-
 

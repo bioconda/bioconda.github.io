@@ -5,14 +5,17 @@ bioconductor-encodexplorer
 
 |downloads|
 
-This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api, download ENCODE datasets and save the database in SQLite format.
+This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api\, download ENCODE datasets and save the database in SQLite format\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ENCODExplorer.html
 Versions 2.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-encodexplorer
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-encodexplorer/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-encodexplorer
-
 

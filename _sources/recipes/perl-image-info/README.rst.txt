@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Image-Info
 Versions 1.38
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-image-info
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-image-info/status
                 :target: https://quay.io/repository/biocontainers/perl-image-info
-
 

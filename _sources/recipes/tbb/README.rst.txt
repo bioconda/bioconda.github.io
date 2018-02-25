@@ -12,7 +12,10 @@ Home     https://www.threadingbuildingblocks.org/
 Versions 4.4_20150728
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tbb
 .. |docker| image:: https://quay.io/repository/biocontainers/tbb/status
                 :target: https://quay.io/repository/biocontainers/tbb
-
 

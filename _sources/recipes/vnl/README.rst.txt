@@ -5,14 +5,17 @@ vnl
 
 |downloads|
 
-A multi-platform collection of C++ software libraries for Computer Vision and Image Understanding.
+A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding\.
 
 ======== ===========
 Home     https://sf.net/projects/vxl/
 Versions 1.17.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vnl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vnl
 .. |docker| image:: https://quay.io/repository/biocontainers/vnl/status
                 :target: https://quay.io/repository/biocontainers/vnl
-
 

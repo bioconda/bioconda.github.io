@@ -12,7 +12,10 @@ Home     https://github.com/pnpnpn/retry-decorator
 Versions 1.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/retry_decorator
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/retry_decorator
 .. |docker| image:: https://quay.io/repository/biocontainers/retry_decorator/status
                 :target: https://quay.io/repository/biocontainers/retry_decorator
-
 

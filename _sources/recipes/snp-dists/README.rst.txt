@@ -12,7 +12,10 @@ Home     https://github.com/tseemann/snp-dists
 Versions 0.2
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-dists
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snp-dists
 .. |docker| image:: https://quay.io/repository/biocontainers/snp-dists/status
                 :target: https://quay.io/repository/biocontainers/snp-dists
-
 

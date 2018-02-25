@@ -5,14 +5,17 @@ perl-extutils-pkgconfig
 
 |downloads|
 
-simplistic interface to pkg-config
+simplistic interface to pkg\-config
 
 ======== ===========
 Home     http://gtk2-perl.sourceforge.net
 Versions 1.16
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-pkgconfig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-pkgconfig
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-pkgconfig
-
 

@@ -5,14 +5,17 @@ bioconda-utils
 
 |downloads|
 
-Utilities for building and managing bioconda recipes.
+Utilities for building and managing bioconda recipes\.
 
 ======== ===========
 Home     http://bioconda.github.io/build-system.html
 Versions 0.11.1, 0.11.2, 0.11.3, 0.11.4, 0.12.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconda-utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconda-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconda-utils/status
                 :target: https://quay.io/repository/biocontainers/bioconda-utils
-
 

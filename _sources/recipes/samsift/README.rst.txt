@@ -5,14 +5,17 @@ samsift
 
 |downloads|
 
-Advanced filtering and tagging of SAM/BAM alignments using Python expressions.
+Advanced filtering and tagging of SAM\/BAM alignments using Python expressions\.
 
 ======== ===========
 Home     https://github.com/karel-brinda/samsift
 Versions 0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.2.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsift
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/samsift
 .. |docker| image:: https://quay.io/repository/biocontainers/samsift/status
                 :target: https://quay.io/repository/biocontainers/samsift
-
 

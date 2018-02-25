@@ -5,14 +5,17 @@ ucsc-chainfilter
 
 |downloads|
 
-Filter chain files.  Output goes to standard out.
+Filter chain files\.  Output goes to standard out\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chainfilter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-chainfilter
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-chainfilter/status
                 :target: https://quay.io/repository/biocontainers/ucsc-chainfilter
-
 

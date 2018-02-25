@@ -5,14 +5,17 @@ fadapa
 
 |downloads|
 
-FAstqc DAta PArser - A minimal parser to parse FastQC output data
+FAstqc DAta PArser \- A minimal parser to parse FastQC output data
 
 ======== ===========
 Home     https://github.com/fadapa/fadapa
 Versions 0.3.1
 License  uncopyrighted
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fadapa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fadapa
 .. |docker| image:: https://quay.io/repository/biocontainers/fadapa/status
                 :target: https://quay.io/repository/biocontainers/fadapa
-
 

@@ -12,7 +12,10 @@ Home     http://hmmer.org/
 Versions 2.3.2
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hmmer2
 .. |docker| image:: https://quay.io/repository/biocontainers/hmmer2/status
                 :target: https://quay.io/repository/biocontainers/hmmer2
-
 

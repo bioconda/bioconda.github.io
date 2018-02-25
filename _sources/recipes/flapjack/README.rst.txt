@@ -5,14 +5,17 @@ flapjack
 
 |downloads|
 
-Flapjack provides interactive visualizations of high-throughput genotyping data.
+Flapjack provides interactive visualizations of high\-throughput genotyping data\.
 
 ======== ===========
 Home     https://ics.hutton.ac.uk/flapjack
 Versions 1.16.10.31
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flapjack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flapjack
 .. |docker| image:: https://quay.io/repository/biocontainers/flapjack/status
                 :target: https://quay.io/repository/biocontainers/flapjack
-
 

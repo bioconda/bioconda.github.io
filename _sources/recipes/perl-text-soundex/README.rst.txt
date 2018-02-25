@@ -5,14 +5,17 @@ perl-text-soundex
 
 |downloads|
 
-Implementation of the soundex algorithm.
+Implementation of the soundex algorithm\.
 
 ======== ===========
 Home     http://search.cpan.org/~rjbs/Text-Soundex-3.05/Soundex.pm
 Versions 3.05
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-soundex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-soundex
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-soundex/status
                 :target: https://quay.io/repository/biocontainers/perl-text-soundex
-
 

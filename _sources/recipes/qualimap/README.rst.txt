@@ -12,7 +12,10 @@ Home     http://qualimap.bioinfo.cipf.es/
 Versions 2.1.3, 2.2, 2.2.2a
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qualimap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qualimap
 .. |docker| image:: https://quay.io/repository/biocontainers/qualimap/status
                 :target: https://quay.io/repository/biocontainers/qualimap
-
 

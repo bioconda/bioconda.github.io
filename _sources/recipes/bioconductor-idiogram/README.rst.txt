@@ -12,7 +12,10 @@ Home     https://bioconductor.org/packages/release/bioc/html/idiogram.html
 Versions 1.52.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idiogram
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-idiogram
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-idiogram/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-idiogram
-
 

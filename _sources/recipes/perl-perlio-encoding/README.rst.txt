@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/PerlIO::encoding
 Versions 0.18
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding/0.18
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perlio-encoding
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio-encoding/status
                 :target: https://quay.io/repository/biocontainers/perl-perlio-encoding
-
 

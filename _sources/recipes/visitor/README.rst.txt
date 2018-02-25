@@ -5,14 +5,17 @@ visitor
 
 |downloads|
 
-A tiny pythonic visitor implementation.
+A tiny pythonic visitor implementation\.
 
 ======== ===========
 Home     http://github.com/mbr/visitor
 Versions 0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visitor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/visitor
 .. |docker| image:: https://quay.io/repository/biocontainers/visitor/status
                 :target: https://quay.io/repository/biocontainers/visitor
-
 

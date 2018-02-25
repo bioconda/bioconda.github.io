@@ -5,14 +5,17 @@ genomicconsensus
 
 |downloads|
 
-PacBio variant and consensus caller.
+PacBio variant and consensus caller\.
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/GenomicConsensus
 Versions 3.0.2
 License  Redistribution and use in source and binary forms, with or without modification
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicconsensus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genomicconsensus
 .. |docker| image:: https://quay.io/repository/biocontainers/genomicconsensus/status
                 :target: https://quay.io/repository/biocontainers/genomicconsensus
-
 

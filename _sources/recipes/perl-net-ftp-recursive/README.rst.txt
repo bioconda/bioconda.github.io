@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Net::FTP::Recursive
 Versions 2.04
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ftp-recursive/2.04
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-net-ftp-recursive
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-net-ftp-recursive/status
                 :target: https://quay.io/repository/biocontainers/perl-net-ftp-recursive
-
 

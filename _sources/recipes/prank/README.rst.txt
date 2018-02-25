@@ -5,14 +5,17 @@ prank
 
 |downloads|
 
-PRANK is a probabilistic multiple alignment program for DNA, codon and amino-acid sequences.
+PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences\.
 
 ======== ===========
 Home     http://wasabiapp.org/software/prank/
 Versions v.150803, v.170427
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prank
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prank
 .. |docker| image:: https://quay.io/repository/biocontainers/prank/status
                 :target: https://quay.io/repository/biocontainers/prank
-
 

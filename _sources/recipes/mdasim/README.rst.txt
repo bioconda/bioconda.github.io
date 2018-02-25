@@ -5,14 +5,17 @@ mdasim
 
 |downloads|
 
-Tagliavi Z, Draghici S. MDAsim: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine (BIBM). 2012. pp. 1–4. doi:10.1109/BIBM.2012.6392622
+Tagliavi Z\, Draghici S\. MDAsim\: A multiple displacement amplification simulator\. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\)\. 2012\. pp\. 1–4\. doi\:10\.1109\/BIBM\.2012\.6392622
 
 ======== ===========
 Home     https://sourceforge.net/projects/mdasim/
 Versions 1.2
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdasim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mdasim
 .. |docker| image:: https://quay.io/repository/biocontainers/mdasim/status
                 :target: https://quay.io/repository/biocontainers/mdasim
-
 

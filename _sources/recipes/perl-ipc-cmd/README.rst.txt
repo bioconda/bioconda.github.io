@@ -5,14 +5,17 @@ perl-ipc-cmd
 
 |downloads|
 
-A cross platform way of running (interactive) commandline programs.
+A cross platform way of running \(interactive\) commandline programs\.
 
 ======== ===========
 Home     http://metacpan.org/pod/IPC::Cmd
 Versions 1.00
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-cmd/1.00
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-ipc-cmd
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-ipc-cmd/status
                 :target: https://quay.io/repository/biocontainers/perl-ipc-cmd
-
 

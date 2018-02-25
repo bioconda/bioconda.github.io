@@ -5,14 +5,17 @@ bioconductor-medme
 
 |downloads|
 
-Description: MEDME allows the prediction of absolute and relative methylation levels based on measures obtained by MeDIP-microarray experiments
+Description\: MEDME allows the prediction of absolute and relative methylation levels based on measures obtained by MeDIP\-microarray experiments
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MEDME.html
 Versions 1.38.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-medme
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-medme/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-medme
-
 

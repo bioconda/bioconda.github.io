@@ -5,14 +5,17 @@ bioconductor-rtca
 
 |downloads|
 
-Import, analyze and visualize data from Roche(R) xCELLigence RTCA systems. The package imports real-time cell electrical impedance data into R. As an alternative to commercial software shipped along the system, the Bioconductor package RTCA provides several unique transformation (normalization) strategies and various visualization tools.
+Import\, analyze and visualize data from Roche\(R\) xCELLigence RTCA systems\. The package imports real\-time cell electrical impedance data into R\. As an alternative to commercial software shipped along the system\, the Bioconductor package RTCA provides several unique transformation \(normalization\) strategies and various visualization tools\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RTCA.html
 Versions 1.28.0, 1.30.0
 License  LGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtca
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rtca
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtca/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rtca
-
 

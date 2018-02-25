@@ -12,7 +12,10 @@ Home     https://github.com/lh3/minimap
 Versions 0.2, 0.2_r124
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/minimap
 .. |docker| image:: https://quay.io/repository/biocontainers/minimap/status
                 :target: https://quay.io/repository/biocontainers/minimap
-
 

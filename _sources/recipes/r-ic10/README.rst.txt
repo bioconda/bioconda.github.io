@@ -5,14 +5,17 @@ r-ic10
 
 |downloads|
 
-Implementation of the classifier described in the paper 'Genome-driven integrated classification of breast cancer validated in over 7,500 samples' (Ali HR et al., Genome Biology 2014). It uses copy number and/or expression from breast cancer data, trains a pamr classifier (Tibshirani et al.) with the features available and predicts the iC10 group.
+Implementation of the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al\.\, Genome Biology 2014\)\. It uses copy number and\/or expression from breast cancer data\, trains a pamr classifier \(Tibshirani et al\.\) with the features available and predicts the iC10 group\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=iC10
 Versions 1.1.3
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-ic10
 .. |docker| image:: https://quay.io/repository/biocontainers/r-ic10/status
                 :target: https://quay.io/repository/biocontainers/r-ic10
-
 

@@ -5,14 +5,17 @@ bioconductor-graphpac
 
 |downloads|
 
-Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model.
+Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GraphPAC.html
 Versions 1.20.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-graphpac
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-graphpac/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-graphpac
-
 

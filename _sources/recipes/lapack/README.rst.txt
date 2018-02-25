@@ -12,7 +12,10 @@ Home     http://www.netlib.org/lapack
 Versions 3.6.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lapack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lapack
 .. |docker| image:: https://quay.io/repository/biocontainers/lapack/status
                 :target: https://quay.io/repository/biocontainers/lapack
-
 

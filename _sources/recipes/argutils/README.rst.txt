@@ -12,7 +12,10 @@ Home     https://github.com/eclarke/argutils
 Versions 0.3.2
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/argutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/argutils
 .. |docker| image:: https://quay.io/repository/biocontainers/argutils/status
                 :target: https://quay.io/repository/biocontainers/argutils
-
 

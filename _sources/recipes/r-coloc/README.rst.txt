@@ -5,14 +5,17 @@ r-coloc
 
 |downloads|
 
-Performs the colocalisation tests described in Plagnol et al (2009), Wallace et al (2013) and Giambartolomei et al (2013).
+Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace et al \(2013\) and Giambartolomei et al \(2013\)\.
 
 ======== ===========
 Home     https://github.com/chr1swallace/coloc
 Versions 2.3_1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-coloc
 .. |docker| image:: https://quay.io/repository/biocontainers/r-coloc/status
                 :target: https://quay.io/repository/biocontainers/r-coloc
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/mroosmalen/nanosv
 Versions 0.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanosv
 .. |docker| image:: https://quay.io/repository/biocontainers/nanosv/status
                 :target: https://quay.io/repository/biocontainers/nanosv
-
 

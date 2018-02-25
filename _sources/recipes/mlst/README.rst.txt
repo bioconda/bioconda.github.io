@@ -12,7 +12,10 @@ Home     https://github.com/tseemann/mlst
 Versions 2.10, 2.6, 2.9
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mlst
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mlst
 .. |docker| image:: https://quay.io/repository/biocontainers/mlst/status
                 :target: https://quay.io/repository/biocontainers/mlst
-
 

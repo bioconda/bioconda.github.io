@@ -12,7 +12,10 @@ Home
 Versions 1.0.0
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/requests-mock
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/requests-mock
 .. |docker| image:: https://quay.io/repository/biocontainers/requests-mock/status
                 :target: https://quay.io/repository/biocontainers/requests-mock
-
 

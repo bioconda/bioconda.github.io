@@ -12,7 +12,10 @@ Home     https://github.com/BD2KGenomics/bd2k-python-lib
 Versions 1.13.dev14, 1.14a1.dev28, 1.14a1.dev29, 1.14a1.dev33, 1.14a1.dev37
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bd2k-python-lib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bd2k-python-lib
 .. |docker| image:: https://quay.io/repository/biocontainers/bd2k-python-lib/status
                 :target: https://quay.io/repository/biocontainers/bd2k-python-lib
-
 

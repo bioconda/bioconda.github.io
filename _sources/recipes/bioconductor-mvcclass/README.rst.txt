@@ -5,14 +5,17 @@ bioconductor-mvcclass
 
 |downloads|
 
-Creates classes used in model-view-controller (MVC) design
+Creates classes used in model\-view\-controller \(MVC\) design
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MVCClass.html
 Versions 1.50.0, 1.52.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mvcclass
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mvcclass
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mvcclass/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mvcclass
-
 

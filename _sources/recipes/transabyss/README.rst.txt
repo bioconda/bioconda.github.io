@@ -5,14 +5,17 @@ transabyss
 
 |downloads|
 
-de novo assembly of RNA-Seq data using ABySS
+de novo assembly of RNA\-Seq data using ABySS
 
 ======== ===========
 Home     http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss
 Versions 1.5.4, 1.5.5
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/transabyss
 .. |docker| image:: https://quay.io/repository/biocontainers/transabyss/status
                 :target: https://quay.io/repository/biocontainers/transabyss
-
 

@@ -5,14 +5,17 @@ skewer
 
 |downloads|
 
-A fast and accurate adapter trimmer for paired-end reads.
+A fast and accurate adapter trimmer for paired\-end reads\.
 
 ======== ===========
 Home     https://github.com/relipmoc/skewer.git
 Versions 0.1.126, 0.2.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/skewer
 .. |docker| image:: https://quay.io/repository/biocontainers/skewer/status
                 :target: https://quay.io/repository/biocontainers/skewer
-
 

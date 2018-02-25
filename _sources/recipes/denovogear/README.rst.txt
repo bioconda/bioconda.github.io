@@ -5,14 +5,17 @@ denovogear
 
 |downloads|
 
-A program to detect denovo-variants using next-generation sequencing data.
+A program to detect denovo\-variants using next\-generation sequencing data\.
 
 ======== ===========
 Home     https://github.com/denovogear/denovogear
 Versions 1.1.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/denovogear
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/denovogear
 .. |docker| image:: https://quay.io/repository/biocontainers/denovogear/status
                 :target: https://quay.io/repository/biocontainers/denovogear
-
 

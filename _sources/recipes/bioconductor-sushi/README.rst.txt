@@ -5,14 +5,17 @@ bioconductor-sushi
 
 |downloads|
 
-Flexible, quantitative, and integrative genomic visualizations for publication-quality multi-panel figures
+Flexible\, quantitative\, and integrative genomic visualizations for publication\-quality multi\-panel figures
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Sushi.html
 Versions 1.14.0, 1.16.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sushi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-sushi
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sushi/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-sushi
-
 

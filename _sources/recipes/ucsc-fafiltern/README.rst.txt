@@ -5,14 +5,17 @@ ucsc-fafiltern
 
 |downloads|
 
-Get rid of sequences with too many N's
+Get rid of sequences with too many N\'s
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafiltern
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-fafiltern
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fafiltern/status
                 :target: https://quay.io/repository/biocontainers/ucsc-fafiltern
-
 

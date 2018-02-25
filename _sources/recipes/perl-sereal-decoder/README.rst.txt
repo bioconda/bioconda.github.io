@@ -5,14 +5,17 @@ perl-sereal-decoder
 
 |downloads|
 
-Fast, compact, powerful binary deserialization
+Fast\, compact\, powerful binary deserialization
 
 ======== ===========
 Home     http://metacpan.org/pod/Sereal::Decoder
 Versions 3.015
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-decoder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sereal-decoder
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sereal-decoder/status
                 :target: https://quay.io/repository/biocontainers/perl-sereal-decoder
-
 

@@ -12,7 +12,10 @@ Home     https://metacpan.org/release/HTML-Formatter
 Versions 2.14
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-formatter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-formatter
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-formatter/status
                 :target: https://quay.io/repository/biocontainers/perl-html-formatter
-
 

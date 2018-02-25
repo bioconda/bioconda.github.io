@@ -12,7 +12,10 @@ Home     ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
 Versions 3.101
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmtagger
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update bmtagger
 
+
 Notes
 -----
+You may find it necessary to create a bmtagger\.conf file to specify paired or single\-end searching\. The file should contain the line \'srprismopts\=\"\-b 100000000 \-n 5 \-R 0 \-r 1 \-M 7168\"\' along with \'\-p true\' or \'\-p false\' for paired\, and single\, respectively\. This config file can be passed to bmtagger\.sh via the \'\-C\' option\.
 
-You may find it necessary to create a bmtagger.conf file to specify paired or single-end searching. The file should contain the line 'srprismopts="-b 100000000 -n 5 -R 0 -r 1 -M 7168"' along with '-p true' or '-p false' for paired, and single, respectively. This config file can be passed to bmtagger.sh via the '-C' option.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bmtagger
 .. |docker| image:: https://quay.io/repository/biocontainers/bmtagger/status
                 :target: https://quay.io/repository/biocontainers/bmtagger
-
 

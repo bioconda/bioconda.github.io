@@ -5,14 +5,17 @@ genesplicer
 
 |downloads|
 
-GeneSplicer : A computational method for splice site prediction
+GeneSplicer \: A computational method for splice site prediction
 
 ======== ===========
 Home     http://www.cs.jhu.edu/~genomics/GeneSplicer
 Versions 0_2003.04.03, 1.0
 License  OSI
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genesplicer
 .. |docker| image:: https://quay.io/repository/biocontainers/genesplicer/status
                 :target: https://quay.io/repository/biocontainers/genesplicer
-
 

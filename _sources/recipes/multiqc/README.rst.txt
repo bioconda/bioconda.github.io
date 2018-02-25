@@ -12,7 +12,10 @@ Home     http://multiqc.info
 Versions 0.4, 0.5, 0.6, 0.7, 0.7.1dev0, 0.8, 0.8dev0, 0.9, 0.9.1a0, 0.9a, 1.0, 1.1, 1.2, 1.3, 1.4, 1.5a
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/multiqc
 .. |docker| image:: https://quay.io/repository/biocontainers/multiqc/status
                 :target: https://quay.io/repository/biocontainers/multiqc
-
 

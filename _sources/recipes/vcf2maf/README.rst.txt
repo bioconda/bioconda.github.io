@@ -12,7 +12,10 @@ Home     https://github.com/mskcc/vcf2maf
 Versions 1.6.12, 1.6.14, 1.6.15, 1.6.8
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,11 +30,12 @@ and update with::
 
    conda update vcf2maf
 
+
 Notes
 -----
+This package installs only vcf2maf and does not integrate with the variant\-effect\-predictor \(VEP\)\. To
+do so\, please follow the instructions at https\:\/\/github\.com\/mskcc\/vcf2maf\/blob\/master\/README\.md\.
 
-This package installs only vcf2maf and does not integrate with the variant-effect-predictor (VEP). To
-do so, please follow the instructions at https://github.com/mskcc/vcf2maf/blob/master/README.md.
 
 
 |docker|
@@ -51,5 +55,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcf2maf
 .. |docker| image:: https://quay.io/repository/biocontainers/vcf2maf/status
                 :target: https://quay.io/repository/biocontainers/vcf2maf
-
 

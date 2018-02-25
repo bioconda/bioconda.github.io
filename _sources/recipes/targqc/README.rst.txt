@@ -12,7 +12,10 @@ Home     https://github.com/vladsaveliev/TargQC
 Versions 1.4.4
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/targqc
 .. |docker| image:: https://quay.io/repository/biocontainers/targqc/status
                 :target: https://quay.io/repository/biocontainers/targqc
-
 

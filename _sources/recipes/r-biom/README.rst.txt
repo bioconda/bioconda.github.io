@@ -5,14 +5,17 @@ r-biom
 
 |downloads|
 
-This is an R package for interfacing with the BIOM format.
+This is an R package for interfacing with the BIOM format\.
 
 ======== ===========
 Home     https://github.com/joey711/biom/, http://biom-format.org/
 Versions 0.3.12
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biom
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-biom
 .. |docker| image:: https://quay.io/repository/biocontainers/r-biom/status
                 :target: https://quay.io/repository/biocontainers/r-biom
-
 

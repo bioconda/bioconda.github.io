@@ -5,14 +5,17 @@ sqlalchemy-utils
 
 |downloads|
 
-Various utility functions for SQLAlchemy.
+Various utility functions for SQLAlchemy\.
 
 ======== ===========
 Home     https://github.com/kvesteri/sqlalchemy-utils
 Versions 0.31.6
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sqlalchemy-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/sqlalchemy-utils/status
                 :target: https://quay.io/repository/biocontainers/sqlalchemy-utils
-
 

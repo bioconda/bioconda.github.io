@@ -5,14 +5,17 @@ bioconductor-dbchip
 
 |downloads|
 
-DBChIP detects differentially bound sharp binding sites across multiple conditions, with or without matching control samples.
+DBChIP detects differentially bound sharp binding sites across multiple conditions\, with or without matching control samples\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/DBChIP.html
 Versions 1.22.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dbchip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-dbchip
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dbchip/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-dbchip
-
 

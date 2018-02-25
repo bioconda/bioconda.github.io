@@ -12,7 +12,10 @@ Home     https://github.com/hbc/CHBUtils
 Versions 0.1_2015_12_21
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chbutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-chbutils
 .. |docker| image:: https://quay.io/repository/biocontainers/r-chbutils/status
                 :target: https://quay.io/repository/biocontainers/r-chbutils
-
 

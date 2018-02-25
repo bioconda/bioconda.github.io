@@ -5,14 +5,17 @@ aragorn
 
 |downloads|
 
-ARAGORN, tRNA (and tmRNA) detection
+ARAGORN\, tRNA \(and tmRNA\) detection
 
 ======== ===========
 Home     http://mbio-serv2.mbioekol.lu.se/ARAGORN/
 Versions 1.2.36, 1.2.38
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aragorn/1.2.38
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/aragorn
 .. |docker| image:: https://quay.io/repository/biocontainers/aragorn/status
                 :target: https://quay.io/repository/biocontainers/aragorn
-
 

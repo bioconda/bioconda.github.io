@@ -5,14 +5,17 @@ canvas
 
 |downloads|
 
-Copy number variant (CNV) calling from DNA sequencing data
+Copy number variant \(CNV\) calling from DNA sequencing data
 
 ======== ===========
 Home     https://github.com/Illumina/canvas
 Versions 1.25.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canvas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/canvas
 .. |docker| image:: https://quay.io/repository/biocontainers/canvas/status
                 :target: https://quay.io/repository/biocontainers/canvas
-
 

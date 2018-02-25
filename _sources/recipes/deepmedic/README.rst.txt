@@ -5,14 +5,17 @@ deepmedic
 
 |downloads|
 
-Efficient Multi-Scale 3D Convolutional Neural Network for Brain Lesion Segmentation.
+Efficient Multi\-Scale 3D Convolutional Neural Network for Brain Lesion Segmentation\.
 
 ======== ===========
 Home     https://github.com/Kamnitsask/deepmedic
 Versions 0.5.4, 0.6
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmedic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/deepmedic
 .. |docker| image:: https://quay.io/repository/biocontainers/deepmedic/status
                 :target: https://quay.io/repository/biocontainers/deepmedic
-
 

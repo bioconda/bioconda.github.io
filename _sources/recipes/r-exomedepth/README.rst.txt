@@ -5,14 +5,17 @@ r-exomedepth
 
 |downloads|
 
-Calls copy number variants (CNVs) from targeted sequence data, typically exome sequencing experiments designed to identify the genetic basis of Mendelian disorders.
+Calls copy number variants \(CNVs\) from targeted sequence data\, typically exome sequencing experiments designed to identify the genetic basis of Mendelian disorders\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=ExomeDepth
 Versions 1.1.10
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-exomedepth
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-exomedepth
 .. |docker| image:: https://quay.io/repository/biocontainers/r-exomedepth/status
                 :target: https://quay.io/repository/biocontainers/r-exomedepth
-
 

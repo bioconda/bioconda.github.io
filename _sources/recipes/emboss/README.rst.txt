@@ -12,7 +12,10 @@ Home     http://emboss.open-bio.org/
 Versions 6.5.7
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/emboss
 .. |docker| image:: https://quay.io/repository/biocontainers/emboss/status
                 :target: https://quay.io/repository/biocontainers/emboss
-
 

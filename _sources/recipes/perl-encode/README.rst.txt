@@ -5,14 +5,17 @@ perl-encode
 
 |downloads|
 
-allows you to write your script in non-ASCII and non-UTF-8
+allows you to write your script in non\-ASCII and non\-UTF\-8
 
 ======== ===========
 Home     http://metacpan.org/pod/Encode
 Versions 2.88
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-encode
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-encode/status
                 :target: https://quay.io/repository/biocontainers/perl-encode
-
 

@@ -5,14 +5,17 @@ bioconductor-basespacer
 
 |downloads|
 
-A rich R interface to Illumina's BaseSpace cloud computing environment, enabling the fast development of data analysis and visualisation tools.
+A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabling the fast development of data analysis and visualisation tools\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BaseSpaceR.html
 Versions 1.20.0, 1.22.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basespacer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-basespacer
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-basespacer/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-basespacer
-
 

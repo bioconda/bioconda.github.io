@@ -12,7 +12,10 @@ Home     https://github.com/svviz/svviz
 Versions 1.4.0, 1.5.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svviz
 .. |docker| image:: https://quay.io/repository/biocontainers/svviz/status
                 :target: https://quay.io/repository/biocontainers/svviz
-
 

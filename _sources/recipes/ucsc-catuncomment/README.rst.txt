@@ -5,14 +5,17 @@ ucsc-catuncomment
 
 |downloads|
 
-Concatenate input removing lines that start with '#'
+Concatenate input removing lines that start with \'\#\'
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-catuncomment
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-catuncomment
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-catuncomment/status
                 :target: https://quay.io/repository/biocontainers/ucsc-catuncomment
-
 

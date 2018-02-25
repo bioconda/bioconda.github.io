@@ -5,14 +5,17 @@ ucsc-lavtoaxt
 
 |downloads|
 
-Convert blastz lav file to an axt file (which includes sequence)
+Convert blastz lav file to an axt file \(which includes sequence\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-lavtoaxt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-lavtoaxt
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-lavtoaxt/status
                 :target: https://quay.io/repository/biocontainers/ucsc-lavtoaxt
-
 

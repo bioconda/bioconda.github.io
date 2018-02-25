@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/MooseX-FileAttribute
 Versions 0.02
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-fileattribute
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-fileattribute
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-fileattribute/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-fileattribute
-
 

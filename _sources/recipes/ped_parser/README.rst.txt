@@ -5,14 +5,17 @@ ped_parser
 
 |downloads|
 
-A ped file parser.
+A ped file parser\.
 
 ======== ===========
 Home     https://github.com/moonso/ped_parser
 Versions 1.6.5, 1.6.6
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ped_parser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ped_parser
 .. |docker| image:: https://quay.io/repository/biocontainers/ped_parser/status
                 :target: https://quay.io/repository/biocontainers/ped_parser
-
 

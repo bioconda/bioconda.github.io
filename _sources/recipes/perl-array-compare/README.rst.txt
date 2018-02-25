@@ -5,14 +5,17 @@ perl-array-compare
 
 |downloads|
 
-Perl extension for comparing arrays.
+Perl extension for comparing arrays\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Array-Compare
 Versions 2.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-compare
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-array-compare
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-array-compare/status
                 :target: https://quay.io/repository/biocontainers/perl-array-compare
-
 

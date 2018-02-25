@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/HilbertVis.html
 Versions 1.32.0, 1.34.0, 1.36.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hilbertvis
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hilbertvis/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hilbertvis
-
 

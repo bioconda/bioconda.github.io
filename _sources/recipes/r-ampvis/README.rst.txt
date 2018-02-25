@@ -12,7 +12,10 @@ Home     https://github.com/MadsAlbertsen/ampvis
 Versions 1.27.0
 License  AGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampvis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-ampvis
 .. |docker| image:: https://quay.io/repository/biocontainers/r-ampvis/status
                 :target: https://quay.io/repository/biocontainers/r-ampvis
-
 

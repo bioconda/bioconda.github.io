@@ -5,14 +5,17 @@ bioconductor-semdist
 
 |downloads|
 
-This package implements methods to calculate information accretion for a given version of the gene ontology and uses this data to calculate remaining uncertainty, misinformation, and semantic similarity for given sets of predicted annotations and true annotations from a protein function predictor.
+This package implements methods to calculate information accretion for a given version of the gene ontology and uses this data to calculate remaining uncertainty\, misinformation\, and semantic similarity for given sets of predicted annotations and true annotations from a protein function predictor\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SemDist.html
 Versions 1.10.0, 1.12.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semdist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-semdist
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-semdist/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-semdist
-
 

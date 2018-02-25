@@ -5,14 +5,17 @@ bioconductor-organismdbi
 
 |downloads|
 
-The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.
+The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/OrganismDbi.html
 Versions 1.12.0, 1.12.1, 1.14.1, 1.18.1, 1.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-organismdbi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-organismdbi
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-organismdbi/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-organismdbi
-
 

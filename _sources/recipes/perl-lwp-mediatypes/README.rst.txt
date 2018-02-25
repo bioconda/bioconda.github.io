@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/LWP-MediaTypes
 Versions 6.02
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-mediatypes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-lwp-mediatypes
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-lwp-mediatypes/status
                 :target: https://quay.io/repository/biocontainers/perl-lwp-mediatypes
-
 

@@ -5,14 +5,17 @@ bioconductor-biocviews
 
 |downloads|
 
-Infrastructure to support Bioconductor 'views' used to classify software packages. 'biocViews' are directed acyclic graphs of terms from a controlled vocabulary. There are three major classifications, corresponding to 'software', 'annotation', and 'experiment data' packages.
+Infrastructure to support Bioconductor \'views\' used to classify software packages\. \'biocViews\' are directed acyclic graphs of terms from a controlled vocabulary\. There are three major classifications\, corresponding to \'software\'\, \'annotation\'\, and \'experiment data\' packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/biocViews.html
 Versions 1.44.0, 1.46.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocviews
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-biocviews
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocviews/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-biocviews
-
 

@@ -5,14 +5,17 @@ fuma
 
 |downloads|
 
-FuMa: reporting overlap in RNA-seq detected fusion genes
+FuMa\: reporting overlap in RNA\-seq detected fusion genes
 
 ======== ===========
 Home     https://github.com/yhoogstrate/fuma/
 Versions 3.0.3, 3.0.5
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fuma
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fuma
 .. |docker| image:: https://quay.io/repository/biocontainers/fuma/status
                 :target: https://quay.io/repository/biocontainers/fuma
-
 

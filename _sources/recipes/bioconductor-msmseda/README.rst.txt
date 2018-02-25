@@ -5,14 +5,17 @@ bioconductor-msmseda
 
 |downloads|
 
-Exploratory data analysis to assess the quality of a set of LC-MS/MS experiments, and visualize de influence of the involved factors.
+Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/msmsEDA.html
 Versions 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmseda
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-msmseda
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-msmseda/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-msmseda
-
 

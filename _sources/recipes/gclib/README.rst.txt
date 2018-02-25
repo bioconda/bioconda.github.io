@@ -12,7 +12,10 @@ Home     https://github.com/gpertea/gclib
 Versions 0.0.1
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gclib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gclib
 .. |docker| image:: https://quay.io/repository/biocontainers/gclib/status
                 :target: https://quay.io/repository/biocontainers/gclib
-
 

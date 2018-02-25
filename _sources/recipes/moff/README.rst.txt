@@ -5,14 +5,17 @@ moff
 
 |downloads|
 
-moFF is an OS independent tool designed to extract apex MS1 intensity using a set of identified MS2 peptides.
+moFF is an OS independent tool designed to extract apex MS1 intensity using a set of identified MS2 peptides\.
 
 ======== ===========
 Home     https://github.com/compomics/moFF
 Versions 1.1, 1.2, 1.2.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/moff
 .. |docker| image:: https://quay.io/repository/biocontainers/moff/status
                 :target: https://quay.io/repository/biocontainers/moff
-
 

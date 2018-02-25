@@ -5,14 +5,17 @@ genepender
 
 |downloads|
 
-Annotates overlapping BED-defined regions to variants in a VCF file. Used primarily for providing a gene/exon context to variants (see:bedtarget).
+Annotates overlapping BED\-defined regions to variants in a VCF file\. Used primarily for providing a gene\/exon context to variants \(see\:bedtarget\)\.
 
 ======== ===========
 Home     https://github.com/BioTools-Tek/genepender
 Versions v2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepender
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genepender
 .. |docker| image:: https://quay.io/repository/biocontainers/genepender/status
                 :target: https://quay.io/repository/biocontainers/genepender
-
 

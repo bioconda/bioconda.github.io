@@ -5,14 +5,17 @@ bioconductor-bsgenome.hsapiens.ucsc.hg18
 
 |downloads|
 
-Full genome sequences for Homo sapiens (Human) as provided by UCSC (hg18, Mar. 2006) and stored in Biostrings objects.
+Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg18\, Mar\. 2006\) and stored in Biostrings objects\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Hsapiens.UCSC.hg18.html
 Versions 1.3.1000
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg18
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bsgenome.hsapiens.ucsc.hg18
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg18/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bsgenome.hsapiens.ucsc.hg18
-
 

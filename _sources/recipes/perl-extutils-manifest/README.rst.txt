@@ -12,7 +12,10 @@ Home     https://metacpan.org/release/ExtUtils-Manifest
 Versions 1.70
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-manifest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-manifest
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-manifest/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-manifest
-
 

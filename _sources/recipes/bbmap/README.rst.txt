@@ -5,14 +5,17 @@ bbmap
 
 |downloads|
 
-BBMap is a short read aligner, as well as various other bioinformatic tools.
+BBMap is a short read aligner\, as well as various other bioinformatic tools\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/bbmap
 Versions 35.85, 36.32, 36.84, 37.02, 37.10, 37.17, 37.52, 37.62, 37.66, 37.75, 37.77, 37.78
 License  UC-LBL license (see package)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,12 +30,13 @@ and update with::
 
    conda update bbmap
 
+
 Notes
 -----
+BBMap is a series of Java programs\, but they come with a number of custom
+wrapper shell scripts\. Each of these is symlinked to the conda bin directory
+during install\.
 
-BBMap is a series of Java programs, but they come with a number of custom
-wrapper shell scripts. Each of these is symlinked to the conda bin directory
-during install.
 
 
 |docker|
@@ -52,5 +56,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bbmap
 .. |docker| image:: https://quay.io/repository/biocontainers/bbmap/status
                 :target: https://quay.io/repository/biocontainers/bbmap
-
 

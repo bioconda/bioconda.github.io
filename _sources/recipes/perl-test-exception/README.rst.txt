@@ -5,14 +5,17 @@ perl-test-exception
 
 |downloads|
 
-Test exception-based code
+Test exception\-based code
 
 ======== ===========
 Home     https://github.com/Test-More/test-exception
 Versions 0.43
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-exception
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-exception
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-exception/status
                 :target: https://quay.io/repository/biocontainers/perl-test-exception
-
 

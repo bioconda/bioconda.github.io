@@ -5,14 +5,17 @@ scanindel
 
 |downloads|
 
-ScanIndel is a python program to detect indels (insertions and deletions) from NGS data by re-align and de novo assemble soft clipped reads.
+ScanIndel is a python program to detect indels \(insertions and deletions\) from NGS data by re\-align and de novo assemble soft clipped reads\.
 
 ======== ===========
 Home     https://github.com/cauyrd/ScanIndel
 Versions 1.3
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanindel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scanindel
 .. |docker| image:: https://quay.io/repository/biocontainers/scanindel/status
                 :target: https://quay.io/repository/biocontainers/scanindel
-
 

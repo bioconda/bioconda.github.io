@@ -5,14 +5,17 @@ backports.unittest_mock
 
 |downloads|
 
-backports.unittest_mock
+backports\.unittest\_mock
 
 ======== ===========
 Home     https://github.com/jaraco/backports.unittest_mock
 Versions 1.1.1, 1.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/backports.unittest_mock
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/backports.unittest_mock
 .. |docker| image:: https://quay.io/repository/biocontainers/backports.unittest_mock/status
                 :target: https://quay.io/repository/biocontainers/backports.unittest_mock
-
 

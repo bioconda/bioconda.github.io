@@ -12,7 +12,10 @@ Home     https://ccb.jhu.edu/software/glimmer/index.shtml
 Versions 3.02
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/glimmer
 .. |docker| image:: https://quay.io/repository/biocontainers/glimmer/status
                 :target: https://quay.io/repository/biocontainers/glimmer
-
 

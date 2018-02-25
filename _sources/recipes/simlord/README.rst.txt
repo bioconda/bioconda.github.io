@@ -5,14 +5,17 @@ simlord
 
 |downloads|
 
-SimLoRD is a read simulator for long reads from third generation sequencing. Currently, it supports the Pacific Biosciences SMRT error model.
+SimLoRD is a read simulator for long reads from third generation sequencing\. Currently\, it supports the Pacific Biosciences SMRT error model\.
 
 ======== ===========
 Home     https://bitbucket.org/genomeinformatics/simlord/
 Versions 0.7.3, 1.0.1, 1.0.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simlord
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/simlord
 .. |docker| image:: https://quay.io/repository/biocontainers/simlord/status
                 :target: https://quay.io/repository/biocontainers/simlord
-
 

@@ -5,14 +5,17 @@ secapr
 
 |downloads|
 
-Process sequence-capture FASTQ files into alignments for phylogenetic analyses. Integrates allele phasing, producing haplotype alignments.
+Process sequence\-capture FASTQ files into alignments for phylogenetic analyses\. Integrates allele phasing\, producing haplotype alignments\.
 
 ======== ===========
 Home     https://github.com/AntonelliLab/seqcap_processor
 Versions 1.0.1, 1.0.2, 1.1.0, 1.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secapr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/secapr
 .. |docker| image:: https://quay.io/repository/biocontainers/secapr/status
                 :target: https://quay.io/repository/biocontainers/secapr
-
 

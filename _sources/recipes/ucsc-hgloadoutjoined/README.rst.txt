@@ -5,14 +5,17 @@ ucsc-hgloadoutjoined
 
 |downloads|
 
-load new style (2014) RepeatMasker .out files into database
+load new style \(2014\) RepeatMasker \.out files into database
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadoutjoined
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-hgloadoutjoined
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgloadoutjoined/status
                 :target: https://quay.io/repository/biocontainers/ucsc-hgloadoutjoined
-
 

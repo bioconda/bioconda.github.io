@@ -12,7 +12,10 @@ Home     https://github.com/nh13/pbgzip
 Versions 2015.10.28
 License  MIT/Expat
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbgzip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pbgzip
 .. |docker| image:: https://quay.io/repository/biocontainers/pbgzip/status
                 :target: https://quay.io/repository/biocontainers/pbgzip
-
 

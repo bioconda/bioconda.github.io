@@ -5,14 +5,17 @@ cofold
 
 |downloads|
 
-An RNA secondary structure prediction method that takes co-transcriptional folding into account.
+An RNA secondary structure prediction method that takes co\-transcriptional folding into account\.
 
 ======== ===========
 Home     http://www.e-rna.org/cofold/
 Versions 2.0.4
 License  MIT-like
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cofold
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cofold
 .. |docker| image:: https://quay.io/repository/biocontainers/cofold/status
                 :target: https://quay.io/repository/biocontainers/cofold
-
 

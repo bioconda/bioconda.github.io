@@ -5,14 +5,17 @@ bioconductor-beadarray
 
 |downloads|
 
-The package is able to read bead-level data (raw TIFFs and text files) output by BeadScan as well as bead-summary data from BeadStudio.  Methods for quality assessment and low-level analysis are provided.
+The package is able to read bead\-level data \(raw TIFFs and text files\) output by BeadScan as well as bead\-summary data from BeadStudio\.  Methods for quality assessment and low\-level analysis are provided\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/beadarray.html
 Versions 2.26.1, 2.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarray
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-beadarray
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-beadarray/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-beadarray
-
 

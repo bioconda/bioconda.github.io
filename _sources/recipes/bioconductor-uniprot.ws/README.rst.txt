@@ -5,14 +5,17 @@ bioconductor-uniprot.ws
 
 |downloads|
 
-A collection of functions for retrieving, processing and repackaging the UniProt web services.
+A collection of functions for retrieving\, processing and repackaging the UniProt web services\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/UniProt.ws.html
 Versions 2.16.0, 2.18.0
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-uniprot.ws
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-uniprot.ws/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-uniprot.ws
-
 

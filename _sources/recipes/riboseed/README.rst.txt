@@ -5,14 +5,17 @@ riboseed
 
 |downloads|
 
-riboSeed: assemble across rDNA regions
+riboSeed\: assemble across rDNA regions
 
 ======== ===========
 Home     https://github.com/nickp60/riboSeed
 Versions 0.4.16, 0.4.47
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseed
+
 ======== ===========
+
+Genome assembly polisher to bridge rDNA gaps
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/riboseed
 .. |docker| image:: https://quay.io/repository/biocontainers/riboseed/status
                 :target: https://quay.io/repository/biocontainers/riboseed
-
 

@@ -5,14 +5,17 @@ r-genabel
 
 |downloads|
 
-A package for genome-wide association analysis between quantitative or binary traits and single-nucleotide polymorphisms (SNPs). 
+A package for genome\-wide association analysis between quantitative or binary traits and single\-nucleotide polymorphisms \(SNPs\)\. 
 
 ======== ===========
 Home     http://www.genabel.org
 Versions 1.8_0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-genabel
 .. |docker| image:: https://quay.io/repository/biocontainers/r-genabel/status
                 :target: https://quay.io/repository/biocontainers/r-genabel
-
 

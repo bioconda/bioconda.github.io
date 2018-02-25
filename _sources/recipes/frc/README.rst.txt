@@ -5,14 +5,17 @@ frc
 
 |downloads|
 
-Computes FRC from SAM/BAM file and not from afg files
+Computes FRC from SAM\/BAM file and not from afg files
 
 ======== ===========
 Home     https://github.com/vezzi/FRC_align
 Versions 5b3f53e
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/frc
 .. |docker| image:: https://quay.io/repository/biocontainers/frc/status
                 :target: https://quay.io/repository/biocontainers/frc
-
 

@@ -5,14 +5,17 @@ dr-disco
 
 |downloads|
 
-Dr. Disco: fusion gene and genomic breakpoint detection in random hexamer RNA-seq data
+Dr\. Disco\: fusion gene and genomic breakpoint detection in random hexamer RNA\-seq data
 
 ======== ===========
 Home     https://github.com/yhoogstrate/dr-disco/
 Versions 0.10.0, 0.11.0, 0.14.0, 0.2.0, 0.3.3, 0.3.4, 0.6.0, 0.8.0, 0.8.2, 0.9.0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dr-disco
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dr-disco
 .. |docker| image:: https://quay.io/repository/biocontainers/dr-disco/status
                 :target: https://quay.io/repository/biocontainers/dr-disco
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/veg/BioExt.git
 Versions 0.17.4, 0.18.6
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-bioext
 .. |docker| image:: https://quay.io/repository/biocontainers/python-bioext/status
                 :target: https://quay.io/repository/biocontainers/python-bioext
-
 

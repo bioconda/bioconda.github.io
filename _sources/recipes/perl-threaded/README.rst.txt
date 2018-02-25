@@ -5,14 +5,17 @@ perl-threaded
 
 |downloads|
 
-The Perl language.
+The Perl language\.
 
 ======== ===========
 Home     http://www.perl.org/
 Versions 5.22.0
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-threaded
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-threaded
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-threaded/status
                 :target: https://quay.io/repository/biocontainers/perl-threaded
-
 

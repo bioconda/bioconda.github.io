@@ -5,14 +5,17 @@ perl-params-validate
 
 |downloads|
 
-Validate method/function parameters
+Validate method\/function parameters
 
 ======== ===========
 Home     http://metacpan.org/pod/Params-Validate
 Versions 1.08, 1.26
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-validate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-params-validate
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-params-validate/status
                 :target: https://quay.io/repository/biocontainers/perl-params-validate
-
 

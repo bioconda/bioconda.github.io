@@ -5,14 +5,17 @@ e-pcr
 
 |downloads|
 
-e-PCR identifies sequence tagged sites(STSs)within DNA sequences..
+e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences\.\.
 
 ======== ===========
 Home     http://www.ncbi.nlm.nih.gov/tools/epcr/
 Versions 2.3.12
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e-pcr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/e-pcr
 .. |docker| image:: https://quay.io/repository/biocontainers/e-pcr/status
                 :target: https://quay.io/repository/biocontainers/e-pcr
-
 

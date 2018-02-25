@@ -5,14 +5,17 @@ multiqc-bcbio
 
 |downloads|
 
-MultiQC plugin for bcbio report visualization.
+MultiQC plugin for bcbio report visualization\.
 
 ======== ===========
 Home     http://multiqc.info
 Versions 0.1.0, 0.1.1, 0.1.2, 0.1.3, 0.1.4, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9, 0.2.0, 0.2.0dev, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multiqc-bcbio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/multiqc-bcbio
 .. |docker| image:: https://quay.io/repository/biocontainers/multiqc-bcbio/status
                 :target: https://quay.io/repository/biocontainers/multiqc-bcbio
-
 

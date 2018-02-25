@@ -5,14 +5,17 @@ gridss
 
 |downloads|
 
-GRIDSS: a Genomic Rearrangement IDentification Software Suite
+GRIDSS\: a Genomic Rearrangement IDentification Software Suite
 
 ======== ===========
 Home     https://github.com/PapenfussLab/gridss
 Versions 1.2.4, 1.3.0, 1.3.2, 1.3.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gridss
 .. |docker| image:: https://quay.io/repository/biocontainers/gridss/status
                 :target: https://quay.io/repository/biocontainers/gridss
-
 

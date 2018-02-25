@@ -5,14 +5,17 @@ bioconductor-scater
 
 |downloads|
 
-A collection of tools for doing various analyses of single-cell RNA-seq gene expression data, with a focus on quality control.
+A collection of tools for doing various analyses of single\-cell RNA\-seq gene expression data\, with a focus on quality control\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/scater.html
 Versions 1.4.0, 1.6.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scater
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-scater
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-scater/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-scater
-
 

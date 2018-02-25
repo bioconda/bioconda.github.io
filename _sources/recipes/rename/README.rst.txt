@@ -5,14 +5,17 @@ rename
 
 |downloads|
 
-Perl-powered file rename script with many helpful built-ins
+Perl\-powered file rename script with many helpful built\-ins
 
 ======== ===========
 Home     http://plasmasturm.org/code/rename
 Versions 1.600
 License  GNU GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rename
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rename
 .. |docker| image:: https://quay.io/repository/biocontainers/rename/status
                 :target: https://quay.io/repository/biocontainers/rename
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test-LeakTrace
 Versions 0.15, 0.16
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-leaktrace
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-leaktrace
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-leaktrace/status
                 :target: https://quay.io/repository/biocontainers/perl-test-leaktrace
-
 

@@ -12,7 +12,10 @@ Home     http://www.maier-komor.de/mbuffer.html
 Versions 20160228
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mbuffer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mbuffer
 .. |docker| image:: https://quay.io/repository/biocontainers/mbuffer/status
                 :target: https://quay.io/repository/biocontainers/mbuffer
-
 

@@ -5,14 +5,17 @@ perl-mldbm
 
 |downloads|
 
-store multi-level Perl hash structure in single level tied hash
+store multi\-level Perl hash structure in single level tied hash
 
 ======== ===========
 Home     http://metacpan.org/pod/MLDBM
 Versions 2.05
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mldbm
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mldbm/status
                 :target: https://quay.io/repository/biocontainers/perl-mldbm
-
 

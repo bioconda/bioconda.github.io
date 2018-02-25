@@ -5,14 +5,17 @@ hichipper
 
 |downloads|
 
-Processing HiChIP data into loops.
+Processing HiChIP data into loops\.
 
 ======== ===========
 Home     https://github.com/aryeelab/hichipper
 Versions 0.7.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hichipper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hichipper
 .. |docker| image:: https://quay.io/repository/biocontainers/hichipper/status
                 :target: https://quay.io/repository/biocontainers/hichipper
-
 

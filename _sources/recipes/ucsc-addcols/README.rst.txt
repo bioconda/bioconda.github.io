@@ -5,14 +5,17 @@ ucsc-addcols
 
 |downloads|
 
-Sum columns in a text file.
+Sum columns in a text file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-addcols
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-addcols
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-addcols/status
                 :target: https://quay.io/repository/biocontainers/ucsc-addcols
-
 

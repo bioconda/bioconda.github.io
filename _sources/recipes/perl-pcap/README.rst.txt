@@ -5,14 +5,17 @@ perl-pcap
 
 |downloads|
 
-NGS reference implementations and helper code for the IGCG/TCGA Pan-Cancer Analysis Project
+NGS reference implementations and helper code for the IGCG\/TCGA Pan\-Cancer Analysis Project
 
 ======== ===========
 Home     https://github.com/ICGC-TCGA-PanCancer/PCAP-core
 Versions 1.11.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pcap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pcap
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pcap/status
                 :target: https://quay.io/repository/biocontainers/perl-pcap
-
 

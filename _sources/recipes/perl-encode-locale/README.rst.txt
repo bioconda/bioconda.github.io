@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Encode::Locale
 Versions 1.05
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-encode-locale
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-encode-locale/status
                 :target: https://quay.io/repository/biocontainers/perl-encode-locale
-
 

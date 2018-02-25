@@ -12,7 +12,10 @@ Home     http://cyan4973.github.io/lz4
 Versions 131
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lz4-bin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update lz4-bin
 
+
 Notes
 -----
+This package is for the lz4 C binary\, while the package in the default channel is \(as of 9\/9\/16\) for the lz4 Python bindings \(hence the \'\-bin\' suffix of this package\)
 
-This package is for the lz4 C binary, while the package in the default channel is (as of 9/9/16) for the lz4 Python bindings (hence the '-bin' suffix of this package)
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lz4-bin
 .. |docker| image:: https://quay.io/repository/biocontainers/lz4-bin/status
                 :target: https://quay.io/repository/biocontainers/lz4-bin
-
 

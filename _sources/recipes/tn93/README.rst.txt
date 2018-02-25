@@ -5,14 +5,17 @@ tn93
 
 |downloads|
 
-This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance.
+This is a simple program meant to compute pairwise distances between aligned nucleotide sequences in sequential FASTA format using the Tamura Nei 93 distance\.
 
 ======== ===========
 Home     https://github.com/veg/tn93
 Versions 1.0.2, 1.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tn93
 .. |docker| image:: https://quay.io/repository/biocontainers/tn93/status
                 :target: https://quay.io/repository/biocontainers/tn93
-
 

@@ -5,14 +5,17 @@ perl-dbm-deep
 
 |downloads|
 
-A pure perl multi-level hash/array DBM that supports transactions
+A pure perl multi\-level hash\/array DBM that supports transactions
 
 ======== ===========
 Home     http://metacpan.org/pod/DBM::Deep
 Versions 2.0013
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbm-deep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dbm-deep
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dbm-deep/status
                 :target: https://quay.io/repository/biocontainers/perl-dbm-deep
-
 

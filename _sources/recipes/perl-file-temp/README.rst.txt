@@ -12,7 +12,10 @@ Home     https://github.com/Perl-Toolchain-Gang/File-Temp
 Versions 0.2304
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-temp/0.2304
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-temp
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-temp/status
                 :target: https://quay.io/repository/biocontainers/perl-file-temp
-
 

@@ -5,14 +5,17 @@ quicktree
 
 |downloads|
 
-Fast implementation of the neighbour-joining phylogenetic inference method
+Fast implementation of the neighbour\-joining phylogenetic inference method
 
 ======== ===========
 Home     https://github.com/khowe/quicktree
 Versions 2.2
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/quicktree
 .. |docker| image:: https://quay.io/repository/biocontainers/quicktree/status
                 :target: https://quay.io/repository/biocontainers/quicktree
-
 

@@ -5,14 +5,17 @@ perl-class-load-xs
 
 |downloads|
 
-XS implementation of parts of Class::Load
+XS implementation of parts of Class\:\:Load
 
 ======== ===========
 Home     https://github.com/moose/Class-Load-XS
 Versions 0.09
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-load-xs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-load-xs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-load-xs/status
                 :target: https://quay.io/repository/biocontainers/perl-class-load-xs
-
 

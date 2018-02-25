@@ -12,7 +12,10 @@ Home     http://logbook.pocoo.org/
 Versions 0.12.2, 1.0.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logbook
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/logbook
 .. |docker| image:: https://quay.io/repository/biocontainers/logbook/status
                 :target: https://quay.io/repository/biocontainers/logbook
-
 

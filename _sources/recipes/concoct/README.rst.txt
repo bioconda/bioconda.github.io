@@ -12,7 +12,10 @@ Home     https://github.com/BinPro/CONCOCT
 Versions 0.4.0
 License  FreeBSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/concoct
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/concoct
 .. |docker| image:: https://quay.io/repository/biocontainers/concoct/status
                 :target: https://quay.io/repository/biocontainers/concoct
-
 

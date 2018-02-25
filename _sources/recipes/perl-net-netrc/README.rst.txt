@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Net::Netrc
 Versions 2.14
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc/2.14
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-net-netrc
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-net-netrc/status
                 :target: https://quay.io/repository/biocontainers/perl-net-netrc
-
 

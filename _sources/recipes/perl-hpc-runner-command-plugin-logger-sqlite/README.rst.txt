@@ -5,14 +5,17 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
 |downloads|
 
-Log HPC::Runner workflows to a sqlite DB.
+Log HPC\:\:Runner workflows to a sqlite DB\.
 
 ======== ===========
 Home     https://github.com/biosails/HPC-Runner-Command-Plugin-Logger-Sqlite
 Versions 0.0.3
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-command-plugin-logger-sqlite/0.0.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hpc-runner-command-plugin-logger-sqlite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite/status
                 :target: https://quay.io/repository/biocontainers/perl-hpc-runner-command-plugin-logger-sqlite
-
 

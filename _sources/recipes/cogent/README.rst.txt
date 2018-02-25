@@ -12,7 +12,10 @@ Home     http://www.pycogent.org
 Versions 1.5.3
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cogent
 .. |docker| image:: https://quay.io/repository/biocontainers/cogent/status
                 :target: https://quay.io/repository/biocontainers/cogent
-
 

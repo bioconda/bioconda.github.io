@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/HTTP::Server::Simple
 Versions 0.52
 License  Perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-server-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-http-server-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-http-server-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-http-server-simple
-
 

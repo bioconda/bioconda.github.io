@@ -12,7 +12,10 @@ Home     https://github.com/ingydotnet/spiffy-pm
 Versions 0.46
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spiffy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-spiffy
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-spiffy/status
                 :target: https://quay.io/repository/biocontainers/perl-spiffy
-
 

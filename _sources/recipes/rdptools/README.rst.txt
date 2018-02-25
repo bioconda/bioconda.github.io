@@ -12,7 +12,10 @@ Home     http://rdp.cme.msu.edu/misc/resources.jsp
 Versions 2.0.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdptools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdptools
 .. |docker| image:: https://quay.io/repository/biocontainers/rdptools/status
                 :target: https://quay.io/repository/biocontainers/rdptools
-
 

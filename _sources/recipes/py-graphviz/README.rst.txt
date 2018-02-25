@@ -12,7 +12,10 @@ Home     http://github.com/xflr6/graphviz
 Versions 0.4.10, 0.4.8
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py-graphviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/py-graphviz
 .. |docker| image:: https://quay.io/repository/biocontainers/py-graphviz/status
                 :target: https://quay.io/repository/biocontainers/py-graphviz
-
 

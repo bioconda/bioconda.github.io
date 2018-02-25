@@ -5,14 +5,17 @@ web.py
 
 |downloads|
 
-web.py makes web apps
+web\.py makes web apps
 
 ======== ===========
 Home     http://webpy.org/
 Versions 0.37
 License  Public domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/web.py
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/web.py
 .. |docker| image:: https://quay.io/repository/biocontainers/web.py/status
                 :target: https://quay.io/repository/biocontainers/web.py
-
 

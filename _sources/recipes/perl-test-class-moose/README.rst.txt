@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Test-Class-Moose/
 Versions 0.80
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-class-moose/0.80
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-class-moose
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-class-moose/status
                 :target: https://quay.io/repository/biocontainers/perl-test-class-moose
-
 

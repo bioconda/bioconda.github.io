@@ -5,14 +5,17 @@ perl-html-template
 
 |downloads|
 
-Perl module to use HTML-like templating language
+Perl module to use HTML\-like templating language
 
 ======== ===========
 Home     http://metacpan.org/pod/HTML-Template
 Versions 2.95
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-template
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-template
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-template/status
                 :target: https://quay.io/repository/biocontainers/perl-html-template
-
 

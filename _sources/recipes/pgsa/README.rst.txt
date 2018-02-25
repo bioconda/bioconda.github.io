@@ -5,14 +5,17 @@ pgsa
 
 |downloads|
 
-Pseudogenome Suffix Array is a compact index for collections of reads from sequencing.
+Pseudogenome Suffix Array is a compact index for collections of reads from sequencing\.
 
 ======== ===========
 Home     http://sun.aei.polsl.pl/pgsa/
 Versions 1.2
 License  Creative Commons Attribution License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgsa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pgsa
 .. |docker| image:: https://quay.io/repository/biocontainers/pgsa/status
                 :target: https://quay.io/repository/biocontainers/pgsa
-
 

@@ -5,14 +5,17 @@ bioconductor-smap
 
 |downloads|
 
-Functions and classes for DNA copy number profiling of array-CGH data
+Functions and classes for DNA copy number profiling of array\-CGH data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SMAP.html
 Versions 1.40.0, 1.42.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-smap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-smap
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-smap/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-smap
-
 

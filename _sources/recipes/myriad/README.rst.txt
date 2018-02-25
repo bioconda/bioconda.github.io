@@ -5,14 +5,17 @@ myriad
 
 |downloads|
 
-Simple distributed computing.
+Simple distributed computing\.
 
 ======== ===========
 Home     https://github.com/cjw85/myriad
 Versions 0.1.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myriad
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/myriad
 .. |docker| image:: https://quay.io/repository/biocontainers/myriad/status
                 :target: https://quay.io/repository/biocontainers/myriad
-
 

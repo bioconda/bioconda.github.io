@@ -5,14 +5,17 @@ tophat-recondition
 
 |downloads|
 
-Post-processor for TopHat unmapped reads
+Post\-processor for TopHat unmapped reads
 
 ======== ===========
 Home     https://github.com/cbrueffer/tophat-recondition
 Versions 1.1, 1.2, 1.3, 1.4
 License  BSD_2_clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tophat-recondition
 .. |docker| image:: https://quay.io/repository/biocontainers/tophat-recondition/status
                 :target: https://quay.io/repository/biocontainers/tophat-recondition
-
 

@@ -5,14 +5,17 @@ bioconductor-ramigo
 
 |downloads|
 
-R interface sending requests to AmiGO visualize, retrieving DAG GO trees, parsing GraphViz DOT format files and exporting GML files for Cytoscape. Also uses RCytoscape to interactively display AmiGO trees in Cytoscape.
+R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, parsing GraphViz DOT format files and exporting GML files for Cytoscape\. Also uses RCytoscape to interactively display AmiGO trees in Cytoscape\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RamiGO.html
 Versions 1.22.0, 1.23.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramigo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ramigo
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ramigo/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ramigo
-
 

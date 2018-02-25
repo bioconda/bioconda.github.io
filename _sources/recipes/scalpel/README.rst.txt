@@ -5,14 +5,17 @@ scalpel
 
 |downloads|
 
-Sensitive detection of INDELs (INsertions and DELetions)
+Sensitive detection of INDELs \(INsertions and DELetions\)
 
 ======== ===========
 Home     http://scalpel.sourceforge.net/
 Versions 0.5.1, 0.5.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scalpel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scalpel
 .. |docker| image:: https://quay.io/repository/biocontainers/scalpel/status
                 :target: https://quay.io/repository/biocontainers/scalpel
-
 

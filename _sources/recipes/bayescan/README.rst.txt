@@ -5,14 +5,17 @@ bayescan
 
 |downloads|
 
-Phylogenetics - Randomized Axelerated Maximum Likelihood.
+Phylogenetics \- Randomized Axelerated Maximum Likelihood\.
 
 ======== ===========
 Home     http://cmpg.unibe.ch/software/BayeScan/
 Versions 2.0.1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bayescan
 .. |docker| image:: https://quay.io/repository/biocontainers/bayescan/status
                 :target: https://quay.io/repository/biocontainers/bayescan
-
 

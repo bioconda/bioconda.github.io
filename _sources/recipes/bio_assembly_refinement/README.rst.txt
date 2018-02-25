@@ -5,14 +5,17 @@ bio_assembly_refinement
 
 |downloads|
 
-Assembly refinement tools, mostly useful for (but not limited to) pacbio bacterial assemblies
+Assembly refinement tools\, mostly useful for \(but not limited to\) pacbio bacterial assemblies
 
 ======== ===========
 Home     https://github.com/nds/bio_assembly_refinement
 Versions 0.5.0, 0.5.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_assembly_refinement
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bio_assembly_refinement
 .. |docker| image:: https://quay.io/repository/biocontainers/bio_assembly_refinement/status
                 :target: https://quay.io/repository/biocontainers/bio_assembly_refinement
-
 

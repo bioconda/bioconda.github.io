@@ -5,14 +5,17 @@ lace
 
 |downloads|
 
-Building SuperTranscripts: A linear representation of transcriptome data
+Building SuperTranscripts\: A linear representation of transcriptome data
 
 ======== ===========
 Home     https://github.com/Oshlack/Lace
 Versions 0.80, 0.99, 1.00
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lace
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update lace
 
+
 Notes
 -----
+Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker\.py\'\.
 
-Prefix with 'Lace_' for the script name that is rather generic: 'Checker.py'.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lace
 .. |docker| image:: https://quay.io/repository/biocontainers/lace/status
                 :target: https://quay.io/repository/biocontainers/lace
-
 

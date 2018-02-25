@@ -5,14 +5,17 @@ centrifuge
 
 |downloads|
 
-Classifier for metagenomic sequences.
+Classifier for metagenomic sequences\.
 
 ======== ===========
 Home     https://github.com/infphilo/centrifuge
 Versions 1.0.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/centrifuge
 .. |docker| image:: https://quay.io/repository/biocontainers/centrifuge/status
                 :target: https://quay.io/repository/biocontainers/centrifuge
-
 

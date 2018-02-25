@@ -5,14 +5,17 @@ bracken
 
 |downloads|
 
-Bracken (Bayesian Reestimation of Abundance with KrakEN) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample.
+Bracken \(Bayesian Reestimation of Abundance with KrakEN\) is a highly accurate statistical method that computes the abundance of species in DNA sequences from a metagenomics sample\.
 
 ======== ===========
 Home     https://github.com/jenniferlu717/Bracken
 Versions 1.0.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bracken
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bracken
 .. |docker| image:: https://quay.io/repository/biocontainers/bracken/status
                 :target: https://quay.io/repository/biocontainers/bracken
-
 

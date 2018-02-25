@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Archive::Zip
 Versions 1.55
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-zip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-archive-zip
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-archive-zip/status
                 :target: https://quay.io/repository/biocontainers/perl-archive-zip
-
 

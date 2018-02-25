@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Attribute::Handlers
 Versions 0.96
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-attribute-handlers/0.96
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-attribute-handlers
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-attribute-handlers/status
                 :target: https://quay.io/repository/biocontainers/perl-attribute-handlers
-
 

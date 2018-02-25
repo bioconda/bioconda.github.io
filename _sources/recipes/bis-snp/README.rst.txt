@@ -5,14 +5,17 @@ bis-snp
 
 |downloads|
 
-Bisulfite-seq/NOMe-seq SNPs & cytosine methylation caller
+Bisulfite\-seq\/NOMe\-seq SNPs \& cytosine methylation caller
 
 ======== ===========
 Home     http://people.csail.mit.edu/dnaase/bissnp2011/
 Versions 0.82.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bis-snp
 .. |docker| image:: https://quay.io/repository/biocontainers/bis-snp/status
                 :target: https://quay.io/repository/biocontainers/bis-snp
-
 

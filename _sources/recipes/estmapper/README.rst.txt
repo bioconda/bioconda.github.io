@@ -5,14 +5,17 @@ estmapper
 
 |downloads|
 
-software package for the high-throughput alignment of large cDNA (EST, mRNA) sequence sets to a large eukaryotic genome of the same species
+software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species
 
 ======== ===========
 Home     http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
 Versions 2008
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estmapper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/estmapper
 .. |docker| image:: https://quay.io/repository/biocontainers/estmapper/status
                 :target: https://quay.io/repository/biocontainers/estmapper
-
 

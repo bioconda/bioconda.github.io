@@ -5,14 +5,17 @@ gqt
 
 |downloads|
 
-GQT is a genotype query interface.
+GQT is a genotype query interface\.
 
 ======== ===========
 Home     https://github.com/ryanlayer/gqt
 Versions 1.1.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gqt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gqt
 .. |docker| image:: https://quay.io/repository/biocontainers/gqt/status
                 :target: https://quay.io/repository/biocontainers/gqt
-
 

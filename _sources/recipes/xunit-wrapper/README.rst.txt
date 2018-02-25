@@ -12,7 +12,10 @@ Home     https://github.com/TAMU-CPT/xunit-python-decorator
 Versions 0.12
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xunit-wrapper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xunit-wrapper
 .. |docker| image:: https://quay.io/repository/biocontainers/xunit-wrapper/status
                 :target: https://quay.io/repository/biocontainers/xunit-wrapper
-
 

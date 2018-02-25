@@ -5,14 +5,17 @@ perl-sereal
 
 |downloads|
 
-Fast, compact, powerful binary (de-)serialization
+Fast\, compact\, powerful binary \(de\-\)serialization
 
 ======== ===========
 Home     http://metacpan.org/pod/Sereal
 Versions 3.015
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sereal
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sereal/status
                 :target: https://quay.io/repository/biocontainers/perl-sereal
-
 

@@ -5,14 +5,17 @@ rebaler
 
 |downloads|
 
-Reference-based long read assemblies of bacterial genomes
+Reference\-based long read assemblies of bacterial genomes
 
 ======== ===========
 Home     https://github.com/rrwick/Rebaler
 Versions 0.1.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rebaler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rebaler
 .. |docker| image:: https://quay.io/repository/biocontainers/rebaler/status
                 :target: https://quay.io/repository/biocontainers/rebaler
-
 

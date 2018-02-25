@@ -5,14 +5,17 @@ pyseer
 
 |downloads|
 
-Sequence Elements Enrichment Analysis (SEER), python implementation
+Sequence Elements Enrichment Analysis \(SEER\)\, python implementation
 
 ======== ===========
 Home     https://github.com/mgalardini/pyseer
 Versions 0.3.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyseer
 .. |docker| image:: https://quay.io/repository/biocontainers/pyseer/status
                 :target: https://quay.io/repository/biocontainers/pyseer
-
 

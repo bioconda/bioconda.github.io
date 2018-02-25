@@ -5,14 +5,17 @@ dunovo
 
 |downloads|
 
-Du Novo: A pipeline for processing duplex sequencing data.
+Du Novo\: A pipeline for processing duplex sequencing data\.
 
 ======== ===========
 Home     https://github.com/galaxyproject/dunovo
 Versions 0.7, 0.7.1, 0.7.4, 0.7.5, 0.7.6, 0.8.1, 2.0.12, 2.0.6, 2.0.8, 2.0.9
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dunovo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dunovo
 .. |docker| image:: https://quay.io/repository/biocontainers/dunovo/status
                 :target: https://quay.io/repository/biocontainers/dunovo
-
 

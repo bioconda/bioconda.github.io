@@ -5,14 +5,17 @@ regex
 
 |downloads|
 
-Alternative regular expression module, to replace re.
+Alternative regular expression module\, to replace re\.
 
 ======== ===========
 Home     https://bitbucket.org/mrabarnett/mrab-regex
 Versions 2016.06.24
 License  Python software foundation license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/regex
 .. |docker| image:: https://quay.io/repository/biocontainers/regex/status
                 :target: https://quay.io/repository/biocontainers/regex
-
 

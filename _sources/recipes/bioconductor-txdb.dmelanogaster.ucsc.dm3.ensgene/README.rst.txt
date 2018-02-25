@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Dmelanog
 Versions 3.2.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-txdb.dmelanogaster.ucsc.dm3.ensgene
-
 

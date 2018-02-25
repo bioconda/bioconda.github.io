@@ -5,14 +5,17 @@ ucsc-ixixx
 
 |downloads|
 
-Create indices for simple line-oriented file of format 
+Create indices for simple line\-oriented file of format 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ixixx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-ixixx
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-ixixx/status
                 :target: https://quay.io/repository/biocontainers/ucsc-ixixx
-
 

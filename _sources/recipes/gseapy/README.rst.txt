@@ -12,7 +12,10 @@ Home     https://github.com/BioNinja/gseapy
 Versions 0.4.2, 0.5.2a0, 0.5.3, 0.6.0, 0.6.2, 0.7.2, 0.7.3, 0.7.4, 0.8.11, 0.8.2, 0.8.3, 0.8.6, 0.9.0, 0.9.1, 0.9.2, 0.9.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gseapy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gseapy
 .. |docker| image:: https://quay.io/repository/biocontainers/gseapy/status
                 :target: https://quay.io/repository/biocontainers/gseapy
-
 

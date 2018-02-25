@@ -5,14 +5,17 @@ bioconductor-gcatest
 
 |downloads|
 
-GCAT is an association test for genome wide association studies that controls for population structure under a general class of trait. models.
+GCAT is an association test for genome wide association studies that controls for population structure under a general class of trait\. models\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/gcatest.html
 Versions 1.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcatest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gcatest
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gcatest/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gcatest
-
 

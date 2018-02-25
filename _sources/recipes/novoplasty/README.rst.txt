@@ -12,7 +12,10 @@ Home     https://github.com/ndierckx/NOVOPlasty
 Versions 2.2.2
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty
+
 ======== ===========
+
+NOVOPlasty is a de novo assembler for short circular genomes\.
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/novoplasty
 .. |docker| image:: https://quay.io/repository/biocontainers/novoplasty/status
                 :target: https://quay.io/repository/biocontainers/novoplasty
-
 

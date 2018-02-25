@@ -5,14 +5,17 @@ pancake
 
 |downloads|
 
-A Data Structure for Pangenomes -- Identification of Singletons and Core Regions Dependent on Pairwise Sequence Similarities
+A Data Structure for Pangenomes \-\- Identification of Singletons and Core Regions Dependent on Pairwise Sequence Similarities
 
 ======== ===========
 Home     https://bitbucket.org/CorinnaErnst/pancake
 Versions 1.1.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pancake
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pancake
 .. |docker| image:: https://quay.io/repository/biocontainers/pancake/status
                 :target: https://quay.io/repository/biocontainers/pancake
-
 

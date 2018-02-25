@@ -5,14 +5,17 @@ r-haplo.stats
 
 |downloads|
 
-Routines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous (due to unknown linkage phase of the genetic markers). The main functions are: haplo.em(), haplo.glm(), haplo.score(), and haplo.power(); all of which have detailed examples in the vignette.
+Routines for the analysis of indirectly measured haplotypes\. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous \(due to unknown linkage phase of the genetic markers\)\. The main functions are\: haplo\.em\(\)\, haplo\.glm\(\)\, haplo\.score\(\)\, and haplo\.power\(\)\; all of which have detailed examples in the vignette\.
 
 ======== ===========
 Home     http://www.mayo.edu/research/labs/statistical-genetics-genetic-epidemiology/software
 Versions 1.7.7
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-haplo.stats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-haplo.stats
 .. |docker| image:: https://quay.io/repository/biocontainers/r-haplo.stats/status
                 :target: https://quay.io/repository/biocontainers/r-haplo.stats
-
 

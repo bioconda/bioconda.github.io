@@ -5,14 +5,17 @@ perl-moosex-types-path-tiny
 
 |downloads|
 
-MooseX::Types::Path::Tiny - Path::Tiny types and coercions for Moose
+MooseX\:\:Types\:\:Path\:\:Tiny \- Path\:\:Tiny types and coercions for Moose
 
 ======== ===========
 Home     https://github.com/moose/MooseX-Types-Path-Tiny
 Versions 0.012
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-types-path-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-types-path-tiny
-
 

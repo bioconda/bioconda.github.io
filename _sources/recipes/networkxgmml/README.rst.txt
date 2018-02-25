@@ -12,7 +12,10 @@ Home     https://github.com/informationsea/networkxxgmml
 Versions 0.1.6
 License  UNKNOWN
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/networkxgmml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/networkxgmml
 .. |docker| image:: https://quay.io/repository/biocontainers/networkxgmml/status
                 :target: https://quay.io/repository/biocontainers/networkxgmml
-
 

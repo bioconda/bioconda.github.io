@@ -5,14 +5,17 @@ validators
 
 |downloads|
 
-Python Data Validation for Humans.
+Python Data Validation for Humans\.
 
 ======== ===========
 Home     https://github.com/kvesteri/validators
 Versions 0.10
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validators
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/validators
 .. |docker| image:: https://quay.io/repository/biocontainers/validators/status
                 :target: https://quay.io/repository/biocontainers/validators
-
 

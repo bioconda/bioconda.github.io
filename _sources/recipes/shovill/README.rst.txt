@@ -12,7 +12,10 @@ Home     https://github.com/tseemann/shovill
 Versions 0.7.1, 0.8.0
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shovill
 .. |docker| image:: https://quay.io/repository/biocontainers/shovill/status
                 :target: https://quay.io/repository/biocontainers/shovill
-
 

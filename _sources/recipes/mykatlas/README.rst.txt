@@ -5,14 +5,17 @@ mykatlas
 
 |downloads|
 
-Assists in discoveries of antibiotic-resistance with mykrobe
+Assists in discoveries of antibiotic\-resistance with mykrobe
 
 ======== ===========
 Home     http://github.com/phelimb/atlas
 Versions 0.6.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykatlas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mykatlas
 .. |docker| image:: https://quay.io/repository/biocontainers/mykatlas/status
                 :target: https://quay.io/repository/biocontainers/mykatlas
-
 

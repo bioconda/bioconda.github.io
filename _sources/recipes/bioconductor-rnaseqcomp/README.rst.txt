@@ -5,14 +5,17 @@ bioconductor-rnaseqcomp
 
 |downloads|
 
-Several quantitative and visualized benchmarks for RNA-seq quantification pipelines. Two-condition quantifications for genes, transcripts, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation.
+Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines\. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rnaseqcomp.html
 Versions 1.6.0, 1.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqcomp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rnaseqcomp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rnaseqcomp
-
 

@@ -5,14 +5,17 @@ perl-onto-perl
 
 |downloads|
 
-PERL modules for manipulating OBO-formatted ontologies, such as the Gene Ontology (GO)
+PERL modules for manipulating OBO\-formatted ontologies\, such as the Gene Ontology \(GO\)
 
 ======== ===========
 Home     http://metacpan.org/pod/ONTO-PERL
 Versions 1.45
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-onto-perl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-onto-perl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-onto-perl/status
                 :target: https://quay.io/repository/biocontainers/perl-onto-perl
-
 

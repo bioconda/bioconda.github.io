@@ -12,7 +12,10 @@ Home     https://github.com/bihealth/vcfpy
 Versions 0.11.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfpy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcfpy
 .. |docker| image:: https://quay.io/repository/biocontainers/vcfpy/status
                 :target: https://quay.io/repository/biocontainers/vcfpy
-
 

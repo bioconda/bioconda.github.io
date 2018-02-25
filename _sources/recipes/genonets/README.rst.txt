@@ -5,14 +5,17 @@ genonets
 
 |downloads|
 
-Framework for creating and analyzing genotype networks from data.
+Framework for creating and analyzing genotype networks from data\.
 
 ======== ===========
 Home     https://github.com/fkhalid/genonets
 Versions 1.1.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genonets
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genonets
 .. |docker| image:: https://quay.io/repository/biocontainers/genonets/status
                 :target: https://quay.io/repository/biocontainers/genonets
-
 

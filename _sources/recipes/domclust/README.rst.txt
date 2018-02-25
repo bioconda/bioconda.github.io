@@ -12,7 +12,10 @@ Home     http://mbgd.genome.ad.jp/domclust/
 Versions 1.0, 1.2.8a
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/domclust
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/domclust
 .. |docker| image:: https://quay.io/repository/biocontainers/domclust/status
                 :target: https://quay.io/repository/biocontainers/domclust
-
 

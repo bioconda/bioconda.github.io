@@ -12,7 +12,10 @@ Home     https://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source/doc/asn2gb.tx
 Versions 18.2
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asn2gb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/asn2gb
 .. |docker| image:: https://quay.io/repository/biocontainers/asn2gb/status
                 :target: https://quay.io/repository/biocontainers/asn2gb
-
 

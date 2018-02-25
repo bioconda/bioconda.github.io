@@ -5,14 +5,17 @@ bioconductor-sim
 
 |downloads|
 
-Finds associations between two human genomic datasets.
+Finds associations between two human genomic datasets\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SIM.html
 Versions 1.48.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-sim
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sim/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-sim
-
 

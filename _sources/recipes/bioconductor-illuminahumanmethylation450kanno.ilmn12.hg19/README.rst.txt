@@ -5,14 +5,17 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
 |downloads|
 
-Manifests and annotation for Illumina's 450k array data.
+Manifests and annotation for Illumina\'s 450k array data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylation450kanno.ilmn12.hg19.html
 Versions 0.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
-
 

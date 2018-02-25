@@ -12,7 +12,10 @@ Home     http://github.com/daler/trackhub
 Versions 0.1.2, 0.1.3, 0.2.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trackhub
 .. |docker| image:: https://quay.io/repository/biocontainers/trackhub/status
                 :target: https://quay.io/repository/biocontainers/trackhub
-
 

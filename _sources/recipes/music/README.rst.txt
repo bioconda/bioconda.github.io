@@ -5,14 +5,17 @@ music
 
 |downloads|
 
-MUltiScale enrIchment Calling for ChIP-Seq Datasets
+MUltiScale enrIchment Calling for ChIP\-Seq Datasets
 
 ======== ===========
 Home     http://music.gersteinlab.org
 Versions 1.0.0
 License  academic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/music
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/music
 .. |docker| image:: https://quay.io/repository/biocontainers/music/status
                 :target: https://quay.io/repository/biocontainers/music
-
 

@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~mlehmann/Types-Serialiser-1.0/Serialiser.pm
 Versions 1.0
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-serialiser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-types-serialiser
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-types-serialiser/status
                 :target: https://quay.io/repository/biocontainers/perl-types-serialiser
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/kyrus/python-junit-xml
 Versions 1.7
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/junit-xml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/junit-xml
 .. |docker| image:: https://quay.io/repository/biocontainers/junit-xml/status
                 :target: https://quay.io/repository/biocontainers/junit-xml
-
 

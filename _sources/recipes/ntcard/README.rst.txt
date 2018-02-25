@@ -5,14 +5,17 @@ ntcard
 
 |downloads|
 
-Estimating k-mer coverage histogram of genomics data
+Estimating k\-mer coverage histogram of genomics data
 
 ======== ===========
 Home     https://github.com/bcgsc/ntCard
 Versions 1.0.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ntcard
 .. |docker| image:: https://quay.io/repository/biocontainers/ntcard/status
                 :target: https://quay.io/repository/biocontainers/ntcard
-
 

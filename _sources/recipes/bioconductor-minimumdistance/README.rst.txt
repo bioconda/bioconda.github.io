@@ -5,14 +5,17 @@ bioconductor-minimumdistance
 
 |downloads|
 
-Analysis of de novo copy number variants in trios from high-dimensional genotyping platforms.
+Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MinimumDistance.html
 Versions 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-minimumdistance
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-minimumdistance/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-minimumdistance
-
 

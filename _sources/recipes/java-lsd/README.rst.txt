@@ -5,14 +5,17 @@ lsd
 
 |downloads|
 
-The LAPPS Grid Services DSL (LSD). Used to invoke LAPPS web services from the command line.
+The LAPPS Grid Services DSL \(LSD\)\. Used to invoke LAPPS web services from the command line\.
 
 ======== ===========
 Home     http://github.com/lappsgrid-incubator/org.anc.lapps.dsl
 Versions 2.2.3
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/java-lsd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lsd
 .. |docker| image:: https://quay.io/repository/biocontainers/lsd/status
                 :target: https://quay.io/repository/biocontainers/lsd
-
 

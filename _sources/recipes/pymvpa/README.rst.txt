@@ -5,14 +5,17 @@ pymvpa
 
 |downloads|
 
-PyMVPA -- Multivariate Pattern Analysis in Python
+PyMVPA \-\- Multivariate Pattern Analysis in Python
 
 ======== ===========
 Home     http://www.pymvpa.org/
 Versions 2.6.0
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymvpa/2.6.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pymvpa
 .. |docker| image:: https://quay.io/repository/biocontainers/pymvpa/status
                 :target: https://quay.io/repository/biocontainers/pymvpa
-
 

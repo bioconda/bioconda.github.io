@@ -12,7 +12,10 @@ Home     https://github.com/AndreasHeger/CGATReport
 Versions 0.3.7, 0.7.6.1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-report
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cgat-report
 .. |docker| image:: https://quay.io/repository/biocontainers/cgat-report/status
                 :target: https://quay.io/repository/biocontainers/cgat-report
-
 

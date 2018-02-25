@@ -5,14 +5,17 @@ ceas
 
 |downloads|
 
-CEAS: Cis-regulatory Element Annotation System
+CEAS\: Cis\-regulatory Element Annotation System
 
 ======== ===========
 Home     http://liulab.dfci.harvard.edu/CEAS
 Versions 1.0.2
 License  Artistic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ceas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ceas
 .. |docker| image:: https://quay.io/repository/biocontainers/ceas/status
                 :target: https://quay.io/repository/biocontainers/ceas
-
 

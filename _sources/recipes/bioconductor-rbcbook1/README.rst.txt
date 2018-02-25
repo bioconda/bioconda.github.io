@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/RbcBook1.html
 Versions 1.44.0, 1.46.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rbcbook1
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rbcbook1/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rbcbook1
-
 

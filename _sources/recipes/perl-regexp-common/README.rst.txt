@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Regexp-Common
 Versions 2016060801
 License  mit
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-regexp-common
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-regexp-common
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-regexp-common/status
                 :target: https://quay.io/repository/biocontainers/perl-regexp-common
-
 

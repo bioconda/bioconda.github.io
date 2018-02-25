@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/DBI
 Versions 1.634, 1.636, 1.640
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dbi
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dbi/status
                 :target: https://quay.io/repository/biocontainers/perl-dbi
-
 

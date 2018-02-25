@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/B
 Versions 1.48
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-b
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-b/status
                 :target: https://quay.io/repository/biocontainers/perl-b
-
 

@@ -5,14 +5,17 @@ mockinbird
 
 |downloads|
 
-A fully automatic and reproducible PAR-CLIP analysis pipeline
+A fully automatic and reproducible PAR\-CLIP analysis pipeline
 
 ======== ===========
 Home     https://github.com/soedinglab/mockinbird
 Versions 1.0.0a1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mockinbird
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mockinbird
 .. |docker| image:: https://quay.io/repository/biocontainers/mockinbird/status
                 :target: https://quay.io/repository/biocontainers/mockinbird
-
 

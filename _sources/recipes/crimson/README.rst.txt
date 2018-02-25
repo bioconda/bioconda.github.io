@@ -5,14 +5,17 @@ crimson
 
 |downloads|
 
-Bioinformatics tool outputs converter to JSON or YAML.
+Bioinformatics tool outputs converter to JSON or YAML\.
 
 ======== ===========
 Home     https://github.com/bow/crimson
 Versions 0.3.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crimson
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/crimson
 .. |docker| image:: https://quay.io/repository/biocontainers/crimson/status
                 :target: https://quay.io/repository/biocontainers/crimson
-
 

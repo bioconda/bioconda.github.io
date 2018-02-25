@@ -5,14 +5,17 @@ ideas
 
 |downloads|
 
-A method for jointly and quantitatively characterizing multivariate epigenetic landscapes in many cell types, tissues or conditions.
+A method for jointly and quantitatively characterizing multivariate epigenetic landscapes in many cell types\, tissues or conditions\.
 
 ======== ===========
 Home     https://github.com/yuzhang123/IDEAS
 Versions 1.20
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ideas/1.20
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ideas
 .. |docker| image:: https://quay.io/repository/biocontainers/ideas/status
                 :target: https://quay.io/repository/biocontainers/ideas
-
 

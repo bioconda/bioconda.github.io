@@ -5,14 +5,17 @@ perl-bioperl-core
 
 |downloads|
 
-"Core" packages for the BioPerl toolkit; you really should install perl-bioperl.
+\"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl\.
 
 ======== ===========
 Home     http://metacpan.org/pod/BioPerl
 Versions 1.6.924
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bioperl-core
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bioperl-core/status
                 :target: https://quay.io/repository/biocontainers/perl-bioperl-core
-
 

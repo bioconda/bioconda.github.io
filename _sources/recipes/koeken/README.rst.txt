@@ -5,14 +5,17 @@ koeken
 
 |downloads|
 
-A Linear Discriminant Analysis (LEfSe) wrapper.
+A Linear Discriminant Analysis \(LEfSe\) wrapper\.
 
 ======== ===========
 Home     https://github.com/twbattaglia/koeken
 Versions 0.2.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/koeken
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/koeken
 .. |docker| image:: https://quay.io/repository/biocontainers/koeken/status
                 :target: https://quay.io/repository/biocontainers/koeken
-
 

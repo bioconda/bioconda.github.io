@@ -5,14 +5,17 @@ hicup
 
 |downloads|
 
-A tool for mapping and performing quality control on Hi-C data
+A tool for mapping and performing quality control on Hi\-C data
 
 ======== ===========
 Home     http://www.bioinformatics.babraham.ac.uk/projects/hicup/
 Versions 0.5.10, 0.5.9
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicup
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hicup
 .. |docker| image:: https://quay.io/repository/biocontainers/hicup/status
                 :target: https://quay.io/repository/biocontainers/hicup
-
 

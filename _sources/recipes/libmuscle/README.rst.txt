@@ -5,14 +5,17 @@ libmuscle
 
 |downloads|
 
-libMuscle header files.
+libMuscle header files\.
 
 ======== ===========
 Home     http://darlinglab.org/mauve/
 Versions 3.7
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmuscle
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libmuscle
 .. |docker| image:: https://quay.io/repository/biocontainers/libmuscle/status
                 :target: https://quay.io/repository/biocontainers/libmuscle
-
 

@@ -5,14 +5,17 @@ perl-sereal-encoder
 
 |downloads|
 
-Fast, compact, powerful binary serialization
+Fast\, compact\, powerful binary serialization
 
 ======== ===========
 Home     http://metacpan.org/pod/Sereal::Encoder
 Versions 3.015
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sereal-encoder
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sereal-encoder/status
                 :target: https://quay.io/repository/biocontainers/perl-sereal-encoder
-
 

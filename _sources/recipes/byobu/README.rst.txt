@@ -5,14 +5,17 @@ byobu
 
 |downloads|
 
-Byobu is a GPLv3 open source text-based window manager and terminal multiplexer.
+Byobu is a GPLv3 open source text\-based window manager and terminal multiplexer\.
 
 ======== ===========
 Home     http://byobu.co/
 Versions 5.92, 5.98
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/byobu
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/byobu
 .. |docker| image:: https://quay.io/repository/biocontainers/byobu/status
                 :target: https://quay.io/repository/biocontainers/byobu
-
 

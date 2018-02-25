@@ -12,7 +12,10 @@ Home     https://github.com/uci-cbcl/PyLOH
 Versions 1.4.1, 1.4.3
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyloh
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyloh
 .. |docker| image:: https://quay.io/repository/biocontainers/pyloh/status
                 :target: https://quay.io/repository/biocontainers/pyloh
-
 

@@ -5,14 +5,17 @@ r-rematch2
 
 |downloads|
 
-Wrappers on 'regexpr' and 'gregexpr' to return the match results in tidy data frames.
+Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames\.
 
 ======== ===========
 Home     https://github.com/r-lib/rematch2#readme
 Versions 2.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-rematch2
 .. |docker| image:: https://quay.io/repository/biocontainers/r-rematch2/status
                 :target: https://quay.io/repository/biocontainers/r-rematch2
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/nlhepler/fakemp
 Versions 0.9.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-fakemp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-fakemp
 .. |docker| image:: https://quay.io/repository/biocontainers/python-fakemp/status
                 :target: https://quay.io/repository/biocontainers/python-fakemp
-
 

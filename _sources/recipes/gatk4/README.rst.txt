@@ -5,14 +5,17 @@ gatk4
 
 |downloads|
 
-Genome Analysis Toolkit (GATK4)
+Genome Analysis Toolkit \(GATK4\)
 
 ======== ===========
 Home     https://www.broadinstitute.org/gatk/
 Versions 4.0.0.0, 4.0.1.0, 4.0.1.1, 4.0.1.2, 4.0a1.2.7.2, 4.0b1, 4.0b2, 4.0b3, 4.0b4, 4.0b5, 4.0b6
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gatk4
 .. |docker| image:: https://quay.io/repository/biocontainers/gatk4/status
                 :target: https://quay.io/repository/biocontainers/gatk4
-
 

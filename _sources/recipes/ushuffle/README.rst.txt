@@ -5,14 +5,17 @@ ushuffle
 
 |downloads|
 
-uShuffle---a useful tool for shuffling biological sequences while preserving the k-let counts
+uShuffle\-\-\-a useful tool for shuffling biological sequences while preserving the k\-let counts
 
 ======== ===========
 Home     http://digital.cs.usu.edu/~mjiang/ushuffle/
 Versions 1.2.1, 1.2.2
 License  custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ushuffle
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ushuffle
 .. |docker| image:: https://quay.io/repository/biocontainers/ushuffle/status
                 :target: https://quay.io/repository/biocontainers/ushuffle
-
 

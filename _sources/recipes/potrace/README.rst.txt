@@ -5,14 +5,17 @@ potrace
 
 |downloads|
 
-A tool for tracing a bitmap, which means, transforming a bitmap into a smooth, scalable image
+A tool for tracing a bitmap\, which means\, transforming a bitmap into a smooth\, scalable image
 
 ======== ===========
 Home     http://potrace.sourceforge.net
 Versions 1.11
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/potrace/1.11
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/potrace
 .. |docker| image:: https://quay.io/repository/biocontainers/potrace/status
                 :target: https://quay.io/repository/biocontainers/potrace
-
 

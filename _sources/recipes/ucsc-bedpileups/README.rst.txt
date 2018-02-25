@@ -5,14 +5,17 @@ ucsc-bedpileups
 
 |downloads|
 
-Find (exact) overlaps if any in bed input
+Find \(exact\) overlaps if any in bed input
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedpileups
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bedpileups
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedpileups/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bedpileups
-
 

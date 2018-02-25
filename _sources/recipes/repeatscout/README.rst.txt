@@ -5,14 +5,17 @@ repeatscout
 
 |downloads|
 
-De novo identification of repeat families in large genomes.
+De novo identification of repeat families in large genomes\.
 
 ======== ===========
 Home     http://repeatscout.bioprojects.org
 Versions 1.0.5
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/repeatscout
 .. |docker| image:: https://quay.io/repository/biocontainers/repeatscout/status
                 :target: https://quay.io/repository/biocontainers/repeatscout
-
 

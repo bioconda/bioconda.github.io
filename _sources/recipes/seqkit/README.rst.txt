@@ -5,14 +5,17 @@ seqkit
 
 |downloads|
 
-Cross-platform and ultrafast toolkit for FASTA/Q file manipulation
+Cross\-platform and ultrafast toolkit for FASTA\/Q file manipulation
 
 ======== ===========
 Home     https://github.com/shenwei356/seqkit
 Versions 0.3.4.1, 0.4.3, 0.4.4, 0.4.5, 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.6.0, 0.7.0, 0.7.1, 0.7.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqkit
 .. |docker| image:: https://quay.io/repository/biocontainers/seqkit/status
                 :target: https://quay.io/repository/biocontainers/seqkit
-
 

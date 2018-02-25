@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Filter::Simple
 Versions 0.91
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filter-simple/0.91
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-filter-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-filter-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-filter-simple
-
 

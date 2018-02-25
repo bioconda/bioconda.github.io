@@ -5,14 +5,17 @@ gatk
 
 |downloads|
 
-The full Genome Analysis Toolkit (GATK) framework, license restricted.
+The full Genome Analysis Toolkit \(GATK\) framework\, license restricted\.
 
 ======== ===========
 Home     https://www.broadinstitute.org/gatk/
 Versions 3.5, 3.6, 3.7, 3.8
 License  https://www.broadinstitute.org/gatk/about/#licensing
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update gatk
 
+
 Notes
 -----
+Due to license restrictions\, this recipe cannot distribute and install GATK directly\. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/www\.broadinstitute\.org\/gatk\/download\/\)\, install this package\, and call \"gatk\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION\.tar\.bz2\|\.jar\]\"\, which will copy GATK into your conda environment\.
 
-Due to license restrictions, this recipe cannot distribute and install GATK directly. To fully install GATK, you must download a licensed copy of GATK from the Broad Institute (https://www.broadinstitute.org/gatk/download/), install this package, and call "gatk-register /path/to/GenomeAnalysisTK[-$PKG_VERSION.tar.bz2|.jar]", which will copy GATK into your conda environment.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gatk
 .. |docker| image:: https://quay.io/repository/biocontainers/gatk/status
                 :target: https://quay.io/repository/biocontainers/gatk
-
 

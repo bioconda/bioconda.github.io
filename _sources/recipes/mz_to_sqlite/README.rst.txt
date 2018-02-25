@@ -5,9 +5,9 @@ mztosqlite
 
 |downloads|
 
-mzToSQLite extracts data from proteomics mzIdentML and mass spec scan files: mzML, MGF, etc and
-stores in a SQLite database.The intended purpose is to provide a
-Galaxy dataset that can support an interactive Galaxy visualization plugin.
+mzToSQLite extracts data from proteomics mzIdentML and mass spec scan files\: mzML\, MGF\, etc and
+stores in a SQLite database\.The intended purpose is to provide a
+Galaxy dataset that can support an interactive Galaxy visualization plugin\.
 
 
 ======== ===========
@@ -15,7 +15,10 @@ Home     https://github.com/jj-umn/mztosqlite
 Versions 1.2.0
 License  GNU-GPL, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mz_to_sqlite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -30,12 +33,13 @@ and update with::
 
    conda update mztosqlite
 
+
 Notes
 -----
+mzToSQLite extracts data from proteomics mzIdentML and mass spec scan files\: mzML\, MGF\, etc and
+stores in a SQLite database\.The intended purpose is to provide a
+Galaxy dataset that can support an interactive Galaxy visualization plugin\.
 
-mzToSQLite extracts data from proteomics mzIdentML and mass spec scan files: mzML, MGF, etc and
-stores in a SQLite database.The intended purpose is to provide a
-Galaxy dataset that can support an interactive Galaxy visualization plugin.
 
 
 |docker|
@@ -55,5 +59,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mztosqlite
 .. |docker| image:: https://quay.io/repository/biocontainers/mztosqlite/status
                 :target: https://quay.io/repository/biocontainers/mztosqlite
-
 

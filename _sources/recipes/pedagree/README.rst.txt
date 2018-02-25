@@ -12,7 +12,10 @@ Home     https://github.com/brentp/pedagree
 Versions 0.0.11, 0.0.8
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pedagree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pedagree
 .. |docker| image:: https://quay.io/repository/biocontainers/pedagree/status
                 :target: https://quay.io/repository/biocontainers/pedagree
-
 

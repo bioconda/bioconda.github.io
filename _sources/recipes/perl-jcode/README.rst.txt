@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Jcode
 Versions 2.07
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-jcode
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-jcode
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-jcode/status
                 :target: https://quay.io/repository/biocontainers/perl-jcode
-
 

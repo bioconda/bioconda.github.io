@@ -5,14 +5,17 @@ perl-set-intspan
 
 |downloads|
 
-Manages sets of integers, newsrc style
+Manages sets of integers\, newsrc style
 
 ======== ===========
 Home     http://metacpan.org/pod/Set-IntSpan
 Versions 1.19
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intspan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-set-intspan
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-set-intspan/status
                 :target: https://quay.io/repository/biocontainers/perl-set-intspan
-
 

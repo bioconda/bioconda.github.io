@@ -12,7 +12,10 @@ Home     https://github.com/fhcrc/taxtastic
 Versions 0.5.4
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxtastic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/taxtastic
 .. |docker| image:: https://quay.io/repository/biocontainers/taxtastic/status
                 :target: https://quay.io/repository/biocontainers/taxtastic
-
 

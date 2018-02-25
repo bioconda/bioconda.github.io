@@ -12,7 +12,10 @@ Home     https://github.com/roryk/ipython-cluster-helper
 Versions 0.5.0, 0.5.1, 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7, 0.5.8, 0.5.9, 0.6.0, 0.6.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ipython-cluster-helper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ipython-cluster-helper
 .. |docker| image:: https://quay.io/repository/biocontainers/ipython-cluster-helper/status
                 :target: https://quay.io/repository/biocontainers/ipython-cluster-helper
-
 

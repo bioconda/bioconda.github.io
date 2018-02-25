@@ -5,14 +5,17 @@ bioconductor-spacepac
 
 |downloads|
 
-Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein's tertiary structure.
+Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SpacePAC.html
 Versions 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-spacepac
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spacepac/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-spacepac
-
 

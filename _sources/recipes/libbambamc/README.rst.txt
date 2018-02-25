@@ -12,7 +12,10 @@ Home     https://github.com/gt1/bambamc
 Versions 0.0.50
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc/0.5.00
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libbambamc
 .. |docker| image:: https://quay.io/repository/biocontainers/libbambamc/status
                 :target: https://quay.io/repository/biocontainers/libbambamc
-
 

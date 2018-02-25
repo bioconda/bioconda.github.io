@@ -5,14 +5,17 @@ lcfit
 
 |downloads|
 
-Likelihood curve fitting by nonlinear least squares.
+Likelihood curve fitting by nonlinear least squares\.
 
 ======== ===========
 Home     https://github.com/matsengrp/lcfit
 Versions 0.4
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lcfit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lcfit
 .. |docker| image:: https://quay.io/repository/biocontainers/lcfit/status
                 :target: https://quay.io/repository/biocontainers/lcfit
-
 

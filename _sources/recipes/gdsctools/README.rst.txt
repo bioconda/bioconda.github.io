@@ -5,14 +5,17 @@ gdsctools
 
 |downloads|
 
-Set of tools and pipelines to analyse GDSC data (cancerrxgene.org)
+Set of tools and pipelines to analyse GDSC data \(cancerrxgene\.org\)
 
 ======== ===========
 Home     
 Versions 0.19.0, 0.20.1
 License  BSD 3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdsctools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gdsctools
 .. |docker| image:: https://quay.io/repository/biocontainers/gdsctools/status
                 :target: https://quay.io/repository/biocontainers/gdsctools
-
 

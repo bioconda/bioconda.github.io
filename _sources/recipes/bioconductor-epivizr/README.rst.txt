@@ -5,14 +5,17 @@ bioconductor-epivizr
 
 |downloads|
 
-This package provides connections to the epiviz web app (http://epiviz.cbcb.umd.edu) for interactive visualization of genomic data. Objects in R/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions. Fundamental Bioconductor data structures are supported (e.g., GenomicRanges and RangedSummarizedExperiment objects), while providing an easy mechanism to support other data structures (through package epivizrData). Visualizations (using d3.js) can be easily added to the web app as well.
+This package provides connections to the epiviz web app \(http\:\/\/epiviz\.cbcb\.umd\.edu\) for interactive visualization of genomic data\. Objects in R\/bioc interactive sessions can be displayed in genome browser tracks or plots to be explored by navigation through genomic regions\. Fundamental Bioconductor data structures are supported \(e\.g\.\, GenomicRanges and RangedSummarizedExperiment objects\)\, while providing an easy mechanism to support other data structures \(through package epivizrData\)\. Visualizations \(using d3\.js\) can be easily added to the web app as well\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/epivizr.html
 Versions 2.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-epivizr
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-epivizr/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-epivizr
-
 

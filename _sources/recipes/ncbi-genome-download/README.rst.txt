@@ -5,14 +5,17 @@ ncbi-genome-download
 
 |downloads|
 
-Download genome files from the NCBI FTP server.
+Download genome files from the NCBI FTP server\.
 
 ======== ===========
 Home     https://github.com/kblin/ncbi-genome-download/
 Versions 0.1.8, 0.2.0, 0.2.2, 0.2.4, 0.2.5
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ncbi-genome-download
 .. |docker| image:: https://quay.io/repository/biocontainers/ncbi-genome-download/status
                 :target: https://quay.io/repository/biocontainers/ncbi-genome-download
-
 

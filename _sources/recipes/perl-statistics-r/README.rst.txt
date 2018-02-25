@@ -5,14 +5,17 @@ perl-statistics-r
 
 |downloads|
 
-Statistics::R - Perl interface with the R statistical program
+Statistics\:\:R \- Perl interface with the R statistical program
 
 ======== ===========
 Home     http://search.cpan.org/dist/Statistics-R/
 Versions 0.34
 License  Perl5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-r
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-statistics-r
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-statistics-r/status
                 :target: https://quay.io/repository/biocontainers/perl-statistics-r
-
 

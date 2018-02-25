@@ -12,7 +12,10 @@ Home     http://pc16141.mncn.csic.es/
 Versions 1.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/translatorx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/translatorx
 .. |docker| image:: https://quay.io/repository/biocontainers/translatorx/status
                 :target: https://quay.io/repository/biocontainers/translatorx
-
 

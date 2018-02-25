@@ -12,7 +12,17 @@ Home     https://sourceforge.net/projects/metawatt/
 Versions 3.5.3
 License  AFL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt
+
 ======== ===========
+
+The Metawatt binner is a graphical binning tool that makes use of
+multivariate statistics of tetranucleotide frequencies and differential
+coverage based binning\. It also performs taxonomic assessment of binning
+quality \(via diamond BLASTx\)\. Created bins can be edited and exported as
+fasta\. The Metawatt is implemented in Java SWING and minimally depends on
+Diamond\, HMMer3\.1\, BBMap\, Prodigal and the Batik library for the export of
+SVG graphics\.
+
 
 Installation
 ------------
@@ -27,10 +37,11 @@ and update with::
 
    conda update metawatt
 
+
 Notes
 -----
+metawatt \-\-help
 
-metawatt --help
 
 |docker|
 
@@ -49,5 +60,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metawatt
 .. |docker| image:: https://quay.io/repository/biocontainers/metawatt/status
                 :target: https://quay.io/repository/biocontainers/metawatt
-
 

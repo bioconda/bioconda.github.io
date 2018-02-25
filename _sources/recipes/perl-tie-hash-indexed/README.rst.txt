@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Tie::Hash::Indexed
 Versions 0.05
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-hash-indexed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tie-hash-indexed
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-hash-indexed/status
                 :target: https://quay.io/repository/biocontainers/perl-tie-hash-indexed
-
 

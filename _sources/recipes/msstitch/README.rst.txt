@@ -12,7 +12,10 @@ Home     https://github.com/glormph/msstitch
 Versions 1.0, 2.2, 2.3, 2.4, 2.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msstitch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/msstitch
 .. |docker| image:: https://quay.io/repository/biocontainers/msstitch/status
                 :target: https://quay.io/repository/biocontainers/msstitch
-
 

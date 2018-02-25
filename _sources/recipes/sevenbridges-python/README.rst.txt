@@ -12,7 +12,10 @@ Home     https://github.com/sbg/sevenbridges-python
 Versions 0.7.2
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sevenbridges-python
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sevenbridges-python
 .. |docker| image:: https://quay.io/repository/biocontainers/sevenbridges-python/status
                 :target: https://quay.io/repository/biocontainers/sevenbridges-python
-
 

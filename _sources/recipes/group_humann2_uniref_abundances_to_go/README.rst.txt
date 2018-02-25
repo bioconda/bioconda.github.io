@@ -5,14 +5,17 @@ group_humann2_uniref_abundances_to_go
 
 |downloads|
 
-Group abundances of UniRef50 gene families obtained with HUMAnN2 to Gene Ontology (GO) slim terms with relative abundances
+Group abundances of UniRef50 gene families obtained with HUMAnN2 to Gene Ontology \(GO\) slim terms with relative abundances
 
 ======== ===========
 Home     https://github.com/ASaiM/group_humann2_uniref_abundances_to_GO
 Versions 1.2.0
 License  Apache 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/group_humann2_uniref_abundances_to_go
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/group_humann2_uniref_abundances_to_go
 .. |docker| image:: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go/status
                 :target: https://quay.io/repository/biocontainers/group_humann2_uniref_abundances_to_go
-
 

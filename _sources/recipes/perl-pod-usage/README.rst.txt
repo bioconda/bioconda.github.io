@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~marekr/Pod-Usage-1.69/
 Versions 1.69
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-usage
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-usage
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-usage/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-usage
-
 

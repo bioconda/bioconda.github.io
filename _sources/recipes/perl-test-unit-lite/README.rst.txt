@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test::Unit::Lite
 Versions 0.1202
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-unit-lite/0.1202
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-unit-lite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-unit-lite/status
                 :target: https://quay.io/repository/biocontainers/perl-test-unit-lite
-
 

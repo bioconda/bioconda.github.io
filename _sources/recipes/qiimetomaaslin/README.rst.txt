@@ -5,14 +5,17 @@ qiimetomaaslin
 
 |downloads|
 
-Data munging script to change text Qiime OTU tables to pcl-formatted, maaslin-compatible text files
+Data munging script to change text Qiime OTU tables to pcl\-formatted\, maaslin\-compatible text files
 
 ======== ===========
 Home     https://huttenhower.sph.harvard.edu/maaslin
 Versions 1.1.0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiimetomaaslin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qiimetomaaslin
 .. |docker| image:: https://quay.io/repository/biocontainers/qiimetomaaslin/status
                 :target: https://quay.io/repository/biocontainers/qiimetomaaslin
-
 

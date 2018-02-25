@@ -5,14 +5,17 @@ r-tcga2stat
 
 |downloads|
 
-Automatically downloads and processes TCGA genomics and clinical data into a format convenient for statistical analyses in the R environment.
+Automatically downloads and processes TCGA genomics and clinical data into a format convenient for statistical analyses in the R environment\.
 
 ======== ===========
 Home     http://www.liuzlab.org/TCGA2STAT/
 Versions 1.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tcga2stat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-tcga2stat
 .. |docker| image:: https://quay.io/repository/biocontainers/r-tcga2stat/status
                 :target: https://quay.io/repository/biocontainers/r-tcga2stat
-
 

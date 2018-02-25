@@ -5,14 +5,17 @@ tepid
 
 |downloads|
 
-TEPID uses paired-end illumina sequencing reads to identify novel TE variants.
+TEPID uses paired\-end illumina sequencing reads to identify novel TE variants\.
 
 ======== ===========
 Home     https://github.com/ListerLab/TEPID
 Versions 0.7, 0.8
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tepid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tepid
 .. |docker| image:: https://quay.io/repository/biocontainers/tepid/status
                 :target: https://quay.io/repository/biocontainers/tepid
-
 

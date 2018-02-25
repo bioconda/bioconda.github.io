@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/File::ShareDir::Install
 Versions 0.10
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir-install
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-sharedir-install
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-sharedir-install/status
                 :target: https://quay.io/repository/biocontainers/perl-file-sharedir-install
-
 

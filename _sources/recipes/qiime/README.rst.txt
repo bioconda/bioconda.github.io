@@ -12,7 +12,10 @@ Home     http://www.qiime.org
 Versions 1.9.1
 License  GNU General Public License v2 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime/1.9.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qiime
 .. |docker| image:: https://quay.io/repository/biocontainers/qiime/status
                 :target: https://quay.io/repository/biocontainers/qiime
-
 

@@ -5,14 +5,17 @@ bioconductor-golubesets
 
 |downloads|
 
-representation of public golub data with some covariate data of provenance unknown to the maintainer at present; now employs ExpressionSet format
+representation of public golub data with some covariate data of provenance unknown to the maintainer at present\; now employs ExpressionSet format
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/golubEsets.html
 Versions 1.20.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-golubesets
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-golubesets/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-golubesets
-
 

@@ -12,7 +12,10 @@ Home     http://evolution.genetics.washington.edu/phylip/
 Versions 3.696
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/phylip
 .. |docker| image:: https://quay.io/repository/biocontainers/phylip/status
                 :target: https://quay.io/repository/biocontainers/phylip
-
 

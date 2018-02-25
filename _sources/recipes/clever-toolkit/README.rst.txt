@@ -5,14 +5,17 @@ clever-toolkit
 
 |downloads|
 
-The clever toolkit (CTK) is a suite of tools to analyze next-generation sequencing data and, in particular, to discover and genotype insertions and deletions from paired-end reads.
+The clever toolkit \(CTK\) is a suite of tools to analyze next\-generation sequencing data and\, in particular\, to discover and genotype insertions and deletions from paired\-end reads\.
 
 ======== ===========
 Home     https://bitbucket.org/tobiasmarschall/clever-toolkit
 Versions 2.0rc3, 2.0rc4, 2.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clever-toolkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clever-toolkit
 .. |docker| image:: https://quay.io/repository/biocontainers/clever-toolkit/status
                 :target: https://quay.io/repository/biocontainers/clever-toolkit
-
 

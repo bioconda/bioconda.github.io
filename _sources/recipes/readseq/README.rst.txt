@@ -5,14 +5,17 @@ readseq
 
 |downloads|
 
-Read & reformat biosequences, Java command-line version
+Read \& reformat biosequences\, Java command\-line version
 
 ======== ===========
 Home     http://iubio.bio.indiana.edu/soft/molbio/readseq/java/
 Versions 2.1.30
 License  PUBLIC DOMAIN
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/readseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/readseq
 .. |docker| image:: https://quay.io/repository/biocontainers/readseq/status
                 :target: https://quay.io/repository/biocontainers/readseq
-
 

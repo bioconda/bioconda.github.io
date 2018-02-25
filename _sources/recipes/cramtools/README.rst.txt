@@ -12,7 +12,10 @@ Home     http://www.ebi.ac.uk/ena/software/cram-toolkit
 Versions 3.0.b127, 3.0.b47
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cramtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cramtools
 .. |docker| image:: https://quay.io/repository/biocontainers/cramtools/status
                 :target: https://quay.io/repository/biocontainers/cramtools
-
 

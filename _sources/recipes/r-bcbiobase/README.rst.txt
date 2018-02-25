@@ -5,14 +5,17 @@ r-bcbiobase
 
 |downloads|
 
-Base functions and generics for bcbio R packages.
+Base functions and generics for bcbio R packages\.
 
 ======== ===========
 Home     http://bioinformatics.sph.harvard.edu/bcbioBase/
 Versions 0.0.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-bcbiobase
 .. |docker| image:: https://quay.io/repository/biocontainers/r-bcbiobase/status
                 :target: https://quay.io/repository/biocontainers/r-bcbiobase
-
 

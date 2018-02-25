@@ -12,7 +12,10 @@ Home     https://github.com/marbl/Mash
 Versions 1.0.2, 1.1, 2.0
 License  https://raw.githubusercontent.com/marbl/Mash/master/LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mash
 .. |docker| image:: https://quay.io/repository/biocontainers/mash/status
                 :target: https://quay.io/repository/biocontainers/mash
-
 

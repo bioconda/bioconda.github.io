@@ -12,7 +12,10 @@ Home     https://github.com/Illumina/agg
 Versions 0.3.5
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/agg
 .. |docker| image:: https://quay.io/repository/biocontainers/agg/status
                 :target: https://quay.io/repository/biocontainers/agg
-
 

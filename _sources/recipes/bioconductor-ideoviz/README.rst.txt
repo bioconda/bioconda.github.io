@@ -5,14 +5,17 @@ bioconductor-ideoviz
 
 |downloads|
 
-Plots data associated with arbitrary genomic intervals along chromosomal ideogram.
+Plots data associated with arbitrary genomic intervals along chromosomal ideogram\.
 
 ======== ===========
 Home     https://bioconductor.org/packages/release/bioc/html/IdeoViz.html
 Versions 1.10.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ideoviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ideoviz
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ideoviz/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ideoviz
-
 

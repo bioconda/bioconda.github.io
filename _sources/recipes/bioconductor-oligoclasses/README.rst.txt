@@ -5,14 +5,17 @@ bioconductor-oligoclasses
 
 |downloads|
 
-This package contains class definitions, validity checks, and initialization methods for classes used by the oligo and crlmm packages.
+This package contains class definitions\, validity checks\, and initialization methods for classes used by the oligo and crlmm packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/oligoClasses.html
 Versions 1.38.0, 1.40.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligoclasses
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-oligoclasses
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-oligoclasses/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-oligoclasses
-
 

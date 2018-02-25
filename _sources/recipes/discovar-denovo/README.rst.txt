@@ -5,14 +5,17 @@ discovardenovo
 
 |downloads|
 
-Suitable for de novo assembly of large and small genomes.
+Suitable for de novo assembly of large and small genomes\.
 
 ======== ===========
 Home     https://www.broadinstitute.org/software/discovar/
 Versions 52488
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar-denovo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/discovardenovo
 .. |docker| image:: https://quay.io/repository/biocontainers/discovardenovo/status
                 :target: https://quay.io/repository/biocontainers/discovardenovo
-
 

@@ -5,14 +5,17 @@ bioconductor-r4rna
 
 |downloads|
 
-A package for RNA basepair analysis, including the visualization of basepairs as arc diagrams for easy comparison and annotation of sequence and structure.  Arc diagrams can additionally be projected onto multiple sequence alignments to assess basepair conservation and covariation, with numerical methods for computing statistics for each.
+A package for RNA basepair analysis\, including the visualization of basepairs as arc diagrams for easy comparison and annotation of sequence and structure\.  Arc diagrams can additionally be projected onto multiple sequence alignments to assess basepair conservation and covariation\, with numerical methods for computing statistics for each\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/R4RNA.html
 Versions 1.4.0, 1.6.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-r4rna
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-r4rna/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-r4rna
-
 

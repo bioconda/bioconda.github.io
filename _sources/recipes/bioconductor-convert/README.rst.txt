@@ -5,14 +5,17 @@ bioconductor-convert
 
 |downloads|
 
-Define coerce methods for microarray data objects.
+Define coerce methods for microarray data objects\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/convert.html
 Versions 1.54.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-convert
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-convert/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-convert
-
 

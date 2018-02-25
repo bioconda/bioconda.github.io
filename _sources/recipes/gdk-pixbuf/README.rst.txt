@@ -5,14 +5,17 @@ gdk-pixbuf
 
 |downloads|
 
-The GdkPixbuf Structure — Information that describes an image.
+The GdkPixbuf Structure — Information that describes an image\.
 
 ======== ===========
 Home     https://developer.gnome.org/gdk-pixbuf/
 Versions 2.32.2
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdk-pixbuf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gdk-pixbuf
 .. |docker| image:: https://quay.io/repository/biocontainers/gdk-pixbuf/status
                 :target: https://quay.io/repository/biocontainers/gdk-pixbuf
-
 

@@ -5,14 +5,17 @@ perl-class-data-inheritable
 
 |downloads|
 
-Inheritable, overridable class data
+Inheritable\, overridable class data
 
 ======== ===========
 Home     http://metacpan.org/pod/Class-Data-Inheritable
 Versions 0.08
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-data-inheritable
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-data-inheritable
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-data-inheritable/status
                 :target: https://quay.io/repository/biocontainers/perl-class-data-inheritable
-
 

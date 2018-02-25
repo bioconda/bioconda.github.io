@@ -5,14 +5,17 @@ bs-seeker2
 
 |downloads|
 
-BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping the bisulfite-treated short reads.
+BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping the bisulfite\-treated short reads\.
 
 ======== ===========
 Home     http://pellegrini.mcdb.ucla.edu/BS_Seeker2/
 Versions 2.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bs-seeker2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bs-seeker2
 .. |docker| image:: https://quay.io/repository/biocontainers/bs-seeker2/status
                 :target: https://quay.io/repository/biocontainers/bs-seeker2
-
 

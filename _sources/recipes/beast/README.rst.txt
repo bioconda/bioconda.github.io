@@ -5,14 +5,17 @@ beast
 
 |downloads|
 
-BEAST is a cross-platform program for Bayesian analysis of molecular sequences using MCMC
+BEAST is a cross\-platform program for Bayesian analysis of molecular sequences using MCMC
 
 ======== ===========
 Home     http://beast.bio.ed.ac.uk
 Versions 1.8.2, 1.8.4
 License  GPLv2+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/beast
 .. |docker| image:: https://quay.io/repository/biocontainers/beast/status
                 :target: https://quay.io/repository/biocontainers/beast
-
 

@@ -5,14 +5,17 @@ bioconductor-varianttools
 
 |downloads|
 
-Explore, diagnose, and compare variant calls using filters.
+Explore\, diagnose\, and compare variant calls using filters\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/VariantTools.html
 Versions 1.18.1, 1.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-varianttools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-varianttools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-varianttools
-
 

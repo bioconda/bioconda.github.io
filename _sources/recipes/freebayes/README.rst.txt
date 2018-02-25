@@ -5,14 +5,17 @@ freebayes
 
 |downloads|
 
-Bayesian haplotype-based polymorphism discovery and genotyping
+Bayesian haplotype\-based polymorphism discovery and genotyping
 
 ======== ===========
 Home     https://github.com/ekg/freebayes
 Versions 0.9.21.26, 0.9.21.7, 1.0.1, 1.0.2, 1.0.2.29, 1.1.0, 1.1.0.46
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freebayes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/freebayes
 .. |docker| image:: https://quay.io/repository/biocontainers/freebayes/status
                 :target: https://quay.io/repository/biocontainers/freebayes
-
 

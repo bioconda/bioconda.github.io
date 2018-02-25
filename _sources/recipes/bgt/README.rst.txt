@@ -5,14 +5,17 @@ bgt
 
 |downloads|
 
-Flexible genotype query among 30,000+ samples whole-genome.
+Flexible genotype query among 30\,000\+ samples whole\-genome\.
 
 ======== ===========
 Home     https://github.com/lh3/bgt
 Versions r277, r283
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bgt
 .. |docker| image:: https://quay.io/repository/biocontainers/bgt/status
                 :target: https://quay.io/repository/biocontainers/bgt
-
 

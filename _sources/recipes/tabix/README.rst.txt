@@ -5,14 +5,17 @@ tabix
 
 |downloads|
 
-A set of tools written in Perl and C++ for working with VCF files.
+A set of tools written in Perl and C\+\+ for working with VCF files\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/samtools
 Versions 0.2.5
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tabix
 .. |docker| image:: https://quay.io/repository/biocontainers/tabix/status
                 :target: https://quay.io/repository/biocontainers/tabix
-
 

@@ -12,7 +12,10 @@ Home     http://metabarcoding.org/sumatra
 Versions 1.0.00
 License  CeCILL FSLA
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suma_package
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/suma_package
 .. |docker| image:: https://quay.io/repository/biocontainers/suma_package/status
                 :target: https://quay.io/repository/biocontainers/suma_package
-
 

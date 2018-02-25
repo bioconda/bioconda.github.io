@@ -5,14 +5,17 @@ maxentpy
 
 |downloads|
 
-maxentpy is a python wrapper for MaxEntScan to calculate splice site strength.
+maxentpy is a python wrapper for MaxEntScan to calculate splice site strength\.
 
 ======== ===========
 Home     https://github.com/kepbod/maxentpy
 Versions 0.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentpy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/maxentpy
 .. |docker| image:: https://quay.io/repository/biocontainers/maxentpy/status
                 :target: https://quay.io/repository/biocontainers/maxentpy
-
 

@@ -5,14 +5,17 @@ spectrassembler
 
 |downloads|
 
-Tool (experimental) to compute layout from overlaps with spectral algorithm
+Tool \(experimental\) to compute layout from overlaps with spectral algorithm
 
 ======== ===========
 Home     https://github.com/antrec/spectrassembler
 Versions 0.0.1a1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectrassembler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/spectrassembler
 .. |docker| image:: https://quay.io/repository/biocontainers/spectrassembler/status
                 :target: https://quay.io/repository/biocontainers/spectrassembler
-
 

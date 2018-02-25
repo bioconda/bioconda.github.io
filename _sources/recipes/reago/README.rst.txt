@@ -12,7 +12,10 @@ Home     https://github.com/chengyuan/reago-1.1
 Versions 1.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reago
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/reago
 .. |docker| image:: https://quay.io/repository/biocontainers/reago/status
                 :target: https://quay.io/repository/biocontainers/reago
-
 

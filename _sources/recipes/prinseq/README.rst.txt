@@ -5,14 +5,17 @@ prinseq
 
 |downloads|
 
-PRINSEQ can be used to filter, reformat, or trim your genomic and metagenomic sequence data
+PRINSEQ can be used to filter\, reformat\, or trim your genomic and metagenomic sequence data
 
 ======== ===========
 Home     http://prinseq.sourceforge.net/
 Versions 0.20.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prinseq
 .. |docker| image:: https://quay.io/repository/biocontainers/prinseq/status
                 :target: https://quay.io/repository/biocontainers/prinseq
-
 

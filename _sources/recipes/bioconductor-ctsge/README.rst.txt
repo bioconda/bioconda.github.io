@@ -5,14 +5,17 @@ bioconductor-ctsge
 
 |downloads|
 
-Methodology for supervised clustering of potentially many predictor variables, such as genes etc., in time series datasets Provides functions that help the user assigning genes to predefined set of model profiles.
+Methodology for supervised clustering of potentially many predictor variables\, such as genes etc\.\, in time series datasets Provides functions that help the user assigning genes to predefined set of model profiles\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ctsGE.html
 Versions 1.4.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ctsge
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ctsge/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ctsge
-
 

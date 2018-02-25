@@ -5,14 +5,17 @@ burrito-fillings
 
 |downloads|
 
-burrito-fillings: burrito application controllers for bioinformatics
+burrito\-fillings\: burrito application controllers for bioinformatics
 
 ======== ===========
 Home     https://github.com/biocore/burrito-fillings
 Versions 0.1.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings/0.1.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/burrito-fillings
 .. |docker| image:: https://quay.io/repository/biocontainers/burrito-fillings/status
                 :target: https://quay.io/repository/biocontainers/burrito-fillings
-
 

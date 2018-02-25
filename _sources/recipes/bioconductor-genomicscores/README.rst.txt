@@ -5,14 +5,17 @@ bioconductor-genomicscores
 
 |downloads|
 
-Provide infrastructure to store and access genomewide position-specific scores within R and Bioconductor.
+Provide infrastructure to store and access genomewide position\-specific scores within R and Bioconductor\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GenomicScores.html
 Versions 1.0.2, 1.2.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicscores
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genomicscores
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomicscores/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genomicscores
-
 

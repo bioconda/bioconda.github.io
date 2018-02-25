@@ -5,14 +5,17 @@ metavelvet-sl-feature-extraction
 
 |downloads|
 
-Perl libraries that do feature extraction for metavelvet-sl
+Perl libraries that do feature extraction for metavelvet\-sl
 
 ======== ===========
 Home     http://metavelvet.dna.bio.keio.ac.jp/MSL.html
 Versions 1.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-feature-extraction
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metavelvet-sl-feature-extraction
 .. |docker| image:: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction/status
                 :target: https://quay.io/repository/biocontainers/metavelvet-sl-feature-extraction
-
 

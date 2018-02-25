@@ -12,7 +12,10 @@ Home     http://ab.inf.uni-tuebingen.de/software/diamond/
 Versions 0.7.10, 0.7.12, 0.8.22, 0.8.24, 0.8.26, 0.8.27, 0.8.28, 0.8.29, 0.8.30, 0.8.31, 0.8.36, 0.8.9, 0.9.10, 0.9.14
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/diamond
 .. |docker| image:: https://quay.io/repository/biocontainers/diamond/status
                 :target: https://quay.io/repository/biocontainers/diamond
-
 

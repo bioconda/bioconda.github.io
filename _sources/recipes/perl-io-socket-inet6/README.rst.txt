@@ -5,14 +5,17 @@ perl-io-socket-inet6
 
 |downloads|
 
-Object interface for AF_INET/AF_INET6 domain sockets
+Object interface for AF\_INET\/AF\_INET6 domain sockets
 
 ======== ===========
 Home     http://metacpan.org/pod/IO-Socket-INET6
 Versions 2.72
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-inet6
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-socket-inet6
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-socket-inet6/status
                 :target: https://quay.io/repository/biocontainers/perl-io-socket-inet6
-
 

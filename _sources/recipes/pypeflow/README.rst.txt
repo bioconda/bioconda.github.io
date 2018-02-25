@@ -5,14 +5,17 @@ pypeflow
 
 |downloads|
 
-Light weight and reusable make / flow data process library written in Python
+Light weight and reusable make \/ flow data process library written in Python
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/pypeFLOW
 Versions 0.1.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypeflow
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pypeflow
 .. |docker| image:: https://quay.io/repository/biocontainers/pypeflow/status
                 :target: https://quay.io/repository/biocontainers/pypeflow
-
 

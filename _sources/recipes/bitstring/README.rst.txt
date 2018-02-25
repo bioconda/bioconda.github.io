@@ -5,14 +5,17 @@ bitstring
 
 |downloads|
 
-Simple construction, analysis and modification of binary data.
+Simple construction\, analysis and modification of binary data\.
 
 ======== ===========
 Home     https://github.com/scott-griffiths/bitstring
 Versions 3.1.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bitstring
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bitstring
 .. |docker| image:: https://quay.io/repository/biocontainers/bitstring/status
                 :target: https://quay.io/repository/biocontainers/bitstring
-
 

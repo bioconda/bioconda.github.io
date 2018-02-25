@@ -5,14 +5,17 @@ rdfextras
 
 |downloads|
 
-RDFExtras provide tools, extra stores and such for RDFLib.
+RDFExtras provide tools\, extra stores and such for RDFLib\.
 
 ======== ===========
 Home     http://github.com/RDFLib/rdfextras
 Versions 0.4
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdfextras
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdfextras
 .. |docker| image:: https://quay.io/repository/biocontainers/rdfextras/status
                 :target: https://quay.io/repository/biocontainers/rdfextras
-
 

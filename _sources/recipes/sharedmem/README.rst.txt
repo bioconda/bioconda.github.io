@@ -5,14 +5,17 @@ sharedmem
 
 |downloads|
 
-Dispatch your trivially parallizable jobs with sharedmem. 
+Dispatch your trivially parallizable jobs with sharedmem\. 
 
 ======== ===========
 Home     http://github.com/rainwoodman/sharedmem
 Versions 0.3.5
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharedmem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sharedmem
 .. |docker| image:: https://quay.io/repository/biocontainers/sharedmem/status
                 :target: https://quay.io/repository/biocontainers/sharedmem
-
 

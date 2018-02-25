@@ -5,14 +5,17 @@ perl-xml-twig
 
 |downloads|
 
-XML, The Perl Way
+XML\, The Perl Way
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-Twig
 Versions 3.49
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-twig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-twig
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-twig/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-twig
-
 

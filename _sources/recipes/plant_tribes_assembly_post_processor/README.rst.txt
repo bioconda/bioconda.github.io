@@ -12,7 +12,10 @@ Home     https://github.com/dePamphilis/PlantTribes
 Versions 1.0.0, 1.0.1, 1.0.2, 1.0.3
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_assembly_post_processor/1.0.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/plant_tribes_assembly_post_processor
 .. |docker| image:: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor/status
                 :target: https://quay.io/repository/biocontainers/plant_tribes_assembly_post_processor
-
 

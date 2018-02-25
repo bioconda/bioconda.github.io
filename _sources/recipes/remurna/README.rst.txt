@@ -5,14 +5,17 @@ remurna
 
 |downloads|
 
-Measurement of Single-Nucleotide Polymorphism-induced Changes of RNA Conformation
+Measurement of Single\-Nucleotide Polymorphism\-induced Changes of RNA Conformation
 
 ======== ===========
 Home     https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna
 Versions 1.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/remurna
 .. |docker| image:: https://quay.io/repository/biocontainers/remurna/status
                 :target: https://quay.io/repository/biocontainers/remurna
-
 

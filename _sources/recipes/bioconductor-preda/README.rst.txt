@@ -5,14 +5,17 @@ bioconductor-preda
 
 |downloads|
 
-Package for the position related analysis of quantitative functional genomics data.
+Package for the position related analysis of quantitative functional genomics data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PREDA.html
 Versions 1.24.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-preda
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-preda
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-preda/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-preda
-
 

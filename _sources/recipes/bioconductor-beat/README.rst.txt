@@ -5,14 +5,17 @@ bioconductor-beat
 
 |downloads|
 
-Model-based analysis of single-cell methylation data
+Model\-based analysis of single\-cell methylation data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BEAT.html
 Versions 1.14.0, 1.16.0
 License  LGPL (>= 3.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-beat
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-beat/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-beat
-
 

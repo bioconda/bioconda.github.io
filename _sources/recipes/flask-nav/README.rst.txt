@@ -5,14 +5,17 @@ flask-nav
 
 |downloads|
 
-Easily create navigation for Flask applications.
+Easily create navigation for Flask applications\.
 
 ======== ===========
 Home     http://github.com/mbr/flask-nav
 Versions 0.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-nav
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flask-nav
 .. |docker| image:: https://quay.io/repository/biocontainers/flask-nav/status
                 :target: https://quay.io/repository/biocontainers/flask-nav
-
 

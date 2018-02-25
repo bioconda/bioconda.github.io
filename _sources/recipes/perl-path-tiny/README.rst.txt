@@ -12,7 +12,10 @@ Home     https://github.com/dagolden/Path-Tiny
 Versions 0.076, 0.082
 License  apache_2_0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-path-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-path-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-path-tiny
-
 

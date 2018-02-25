@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/a4Reporting.html
 Versions 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4reporting
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-a4reporting
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-a4reporting/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-a4reporting
-
 

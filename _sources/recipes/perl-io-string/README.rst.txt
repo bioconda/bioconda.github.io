@@ -5,14 +5,17 @@ perl-io-string
 
 |downloads|
 
-Emulate file interface for in-core strings
+Emulate file interface for in\-core strings
 
 ======== ===========
 Home     http://metacpan.org/pod/IO-String
 Versions 1.08
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-string
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-string
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-string/status
                 :target: https://quay.io/repository/biocontainers/perl-io-string
-
 

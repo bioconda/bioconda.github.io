@@ -5,14 +5,17 @@ perl-sub-exporter
 
 |downloads|
 
-a sophisticated exporter for custom-built routines
+a sophisticated exporter for custom\-built routines
 
 ======== ===========
 Home     https://github.com/rjbs/Sub-Exporter
 Versions 0.987
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-exporter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sub-exporter
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-exporter/status
                 :target: https://quay.io/repository/biocontainers/perl-sub-exporter
-
 

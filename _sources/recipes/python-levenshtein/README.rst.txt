@@ -5,14 +5,17 @@ python-levenshtein
 
 |downloads|
 
-Python extension for computing string edit distances and similarities.
+Python extension for computing string edit distances and similarities\.
 
 ======== ===========
 Home     https://pypi.python.org/pypi/python-Levenshtein/
 Versions 0.12.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-levenshtein
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-levenshtein
 .. |docker| image:: https://quay.io/repository/biocontainers/python-levenshtein/status
                 :target: https://quay.io/repository/biocontainers/python-levenshtein
-
 

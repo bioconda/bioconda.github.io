@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Specio::Exporter
 Versions 0.36
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter/0.36
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-specio-exporter
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-specio-exporter/status
                 :target: https://quay.io/repository/biocontainers/perl-specio-exporter
-
 

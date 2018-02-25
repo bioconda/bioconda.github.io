@@ -5,14 +5,17 @@ bioconductor-rpa
 
 |downloads|
 
-Probabilistic analysis of probe reliability and differential gene expression on short oligonucleotide arrays. Lahti et al. "Probabilistic Analysis of Probe Reliability in Differential Gene Expression Studies with Short Oligonucleotide Arrays", TCBB/IEEE, 2011. http://doi.ieeecomputersociety.org/10.1109/TCBB.2009.38
+Probabilistic analysis of probe reliability and differential gene expression on short oligonucleotide arrays\. Lahti et al\. \"Probabilistic Analysis of Probe Reliability in Differential Gene Expression Studies with Short Oligonucleotide Arrays\"\, TCBB\/IEEE\, 2011\. http\:\/\/doi\.ieeecomputersociety\.org\/10\.1109\/TCBB\.2009\.38
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RPA.html
 Versions 1.32.0, 1.34.0
 License  BSD_2_clause + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rpa
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rpa/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rpa
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/cfrioux/MeneTools
 Versions 1.0.4_1
 License  GPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/menetools/1.0.4_1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/menetools
 .. |docker| image:: https://quay.io/repository/biocontainers/menetools/status
                 :target: https://quay.io/repository/biocontainers/menetools
-
 

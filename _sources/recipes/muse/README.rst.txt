@@ -12,7 +12,10 @@ Home     http://bioinformatics.mdanderson.org/main/MuSE
 Versions 1.0.rc
 License  https://github.com/danielfan/MuSE/blob/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/muse
 .. |docker| image:: https://quay.io/repository/biocontainers/muse/status
                 :target: https://quay.io/repository/biocontainers/muse
-
 

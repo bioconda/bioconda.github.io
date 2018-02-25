@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Archive::Tar
 Versions 2.18
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-tar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-archive-tar
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-archive-tar/status
                 :target: https://quay.io/repository/biocontainers/perl-archive-tar
-
 

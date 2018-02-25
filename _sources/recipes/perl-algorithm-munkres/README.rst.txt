@@ -5,14 +5,17 @@ perl-algorithm-munkres
 
 |downloads|
 
-Munkres.pm
+Munkres\.pm
 
 ======== ===========
 Home     http://metacpan.org/pod/Algorithm-Munkres
 Versions 0.08
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-munkres
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-algorithm-munkres
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-algorithm-munkres/status
                 :target: https://quay.io/repository/biocontainers/perl-algorithm-munkres
-
 

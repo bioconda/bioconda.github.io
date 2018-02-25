@@ -5,14 +5,17 @@ swga
 
 |downloads|
 
-Select primer sets for selective whole genome amplification (SWGA)
+Select primer sets for selective whole genome amplification \(SWGA\)
 
 ======== ===========
 Home     https://github.com/eclarke/swga
 Versions 0.4.2, 0.4.3.p1, 0.4.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swga
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/swga
 .. |docker| image:: https://quay.io/repository/biocontainers/swga/status
                 :target: https://quay.io/repository/biocontainers/swga
-
 

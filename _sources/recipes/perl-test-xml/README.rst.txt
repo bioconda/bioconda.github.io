@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test-XML
 Versions 0.08
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-xml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-xml
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-xml/status
                 :target: https://quay.io/repository/biocontainers/perl-test-xml
-
 

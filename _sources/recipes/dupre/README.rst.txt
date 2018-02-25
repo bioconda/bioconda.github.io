@@ -12,7 +12,10 @@ Home     https://bitbucket.org/genomeinformatics/dupre/
 Versions 0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupre
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dupre
 .. |docker| image:: https://quay.io/repository/biocontainers/dupre/status
                 :target: https://quay.io/repository/biocontainers/dupre
-
 

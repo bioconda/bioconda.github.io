@@ -5,14 +5,17 @@ verse
 
 |downloads|
 
-VERSE: a versatile and efficient RNA-Seq read counting tool
+VERSE\: a versatile and efficient RNA\-Seq read counting tool
 
 ======== ===========
 Home     https://github.com/qinzhu/VERSE
 Versions 0.1.5
 License  GNU GENERAL PUBLIC LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/verse
 .. |docker| image:: https://quay.io/repository/biocontainers/verse/status
                 :target: https://quay.io/repository/biocontainers/verse
-
 

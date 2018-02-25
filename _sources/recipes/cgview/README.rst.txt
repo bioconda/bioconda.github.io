@@ -5,9 +5,9 @@ cgview
 
 |downloads|
 
-CGView is a Java package for generating high quality, zoomable maps of circular genomes.
-Its primary purpose is to serve as a component of sequence annotation pipelines, as a
-means of generating visual output suitable for the web.
+CGView is a Java package for generating high quality\, zoomable maps of circular genomes\.
+Its primary purpose is to serve as a component of sequence annotation pipelines\, as a
+means of generating visual output suitable for the web\.
 
 
 ======== ===========
@@ -15,7 +15,10 @@ Home     http://wishart.biology.ualberta.ca/cgview/
 Versions 1.0
 License  GNU General Public License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgview
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -49,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cgview
 .. |docker| image:: https://quay.io/repository/biocontainers/cgview/status
                 :target: https://quay.io/repository/biocontainers/cgview
-
 

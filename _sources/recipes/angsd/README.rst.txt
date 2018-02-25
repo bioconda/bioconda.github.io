@@ -5,14 +5,17 @@ angsd
 
 |downloads|
 
-ANGSD: Analysis of next generation Sequencing Data
+ANGSD\: Analysis of next generation Sequencing Data
 
 ======== ===========
 Home     http://www.popgen.dk/angsd/index.php/ANGSD
 Versions 0.910
 License  GPLv3, MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/angsd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/angsd
 .. |docker| image:: https://quay.io/repository/biocontainers/angsd/status
                 :target: https://quay.io/repository/biocontainers/angsd
-
 

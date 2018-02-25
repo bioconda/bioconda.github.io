@@ -5,14 +5,17 @@ bloomfiltertrie
 
 |downloads|
 
-An alignment-free, reference-free and incremental data structure for colored de Bruijn graph with application to pan-genome indexing.
+An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing\.
 
 ======== ===========
 Home     https://github.com/GuillaumeHolley/BloomFilterTrie
 Versions 0.8.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloomfiltertrie
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bloomfiltertrie
 .. |docker| image:: https://quay.io/repository/biocontainers/bloomfiltertrie/status
                 :target: https://quay.io/repository/biocontainers/bloomfiltertrie
-
 

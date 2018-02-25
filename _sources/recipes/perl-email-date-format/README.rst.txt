@@ -12,7 +12,10 @@ Home     https://github.com/rjbs/Email-Date-Format
 Versions 1.005
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-email-date-format
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-email-date-format
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-email-date-format/status
                 :target: https://quay.io/repository/biocontainers/perl-email-date-format
-
 

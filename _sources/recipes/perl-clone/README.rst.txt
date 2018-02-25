@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Clone
 Versions 0.38
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-clone
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-clone/status
                 :target: https://quay.io/repository/biocontainers/perl-clone
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Module-Implementation
 Versions 0.09
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-implementation
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-implementation
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-implementation/status
                 :target: https://quay.io/repository/biocontainers/perl-module-implementation
-
 

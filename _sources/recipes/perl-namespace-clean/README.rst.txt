@@ -12,7 +12,10 @@ Home     http://search.cpan.org/dist/namespace-clean
 Versions 0.27
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/0.27
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-namespace-clean
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-namespace-clean/status
                 :target: https://quay.io/repository/biocontainers/perl-namespace-clean
-
 

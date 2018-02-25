@@ -12,7 +12,10 @@ Home     https://github.com/sstephenson/bats
 Versions 0.4.0
 License  Open Source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bats
 .. |docker| image:: https://quay.io/repository/biocontainers/bats/status
                 :target: https://quay.io/repository/biocontainers/bats
-
 

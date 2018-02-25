@@ -12,7 +12,10 @@ Home     http://geronimp.github.io/graftM
 Versions 0.10.1
 License  GPL3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graftm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graftm
 .. |docker| image:: https://quay.io/repository/biocontainers/graftm/status
                 :target: https://quay.io/repository/biocontainers/graftm
-
 

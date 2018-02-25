@@ -5,14 +5,17 @@ molpopgen-analysis
 
 |downloads|
 
-Programs for the (pre-NGS-era) analysis of population-genetic data
+Programs for the \(pre\-NGS\-era\) analysis of population\-genetic data
 
 ======== ===========
 Home     https://github.com/molpopgen/analysis
 Versions 0.8.8
 License  GNU General Public License v2 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molpopgen-analysis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/molpopgen-analysis
 .. |docker| image:: https://quay.io/repository/biocontainers/molpopgen-analysis/status
                 :target: https://quay.io/repository/biocontainers/molpopgen-analysis
-
 

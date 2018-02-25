@@ -12,7 +12,10 @@ Home     https://github.com/egonozer/Spine
 Versions 0.2.2
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spine
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/spine
 .. |docker| image:: https://quay.io/repository/biocontainers/spine/status
                 :target: https://quay.io/repository/biocontainers/spine
-
 

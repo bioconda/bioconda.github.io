@@ -5,14 +5,17 @@ amos
 
 |downloads|
 
-A Modular, Open-Source whole genome assembler
+A Modular\, Open\-Source whole genome assembler
 
 ======== ===========
 Home     http://amos.sourceforge.net/wiki/index.php/AMOS
 Versions 3.1.0
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amos
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/amos
 .. |docker| image:: https://quay.io/repository/biocontainers/amos/status
                 :target: https://quay.io/repository/biocontainers/amos
-
 

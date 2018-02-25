@@ -12,7 +12,10 @@ Home     http://www.daimi.au.dk/~mailund/newick.html
 Versions 1.3
 License  GNU General Public License v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-mailund-newick
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-mailund-newick
 .. |docker| image:: https://quay.io/repository/biocontainers/python-mailund-newick/status
                 :target: https://quay.io/repository/biocontainers/python-mailund-newick
-
 

@@ -12,7 +12,10 @@ Home     https://www.cgat.org/downloads/public/cgat/documentation
 Versions 0.2.6, 0.2.7, 0.3.0, 0.3.1, 0.3.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-scripts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cgat-scripts
 .. |docker| image:: https://quay.io/repository/biocontainers/cgat-scripts/status
                 :target: https://quay.io/repository/biocontainers/cgat-scripts
-
 

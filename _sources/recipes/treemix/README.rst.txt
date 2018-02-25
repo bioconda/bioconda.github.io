@@ -12,7 +12,10 @@ Home     http://pritchardlab.stanford.edu/software.html
 Versions 1.12
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/treemix
 .. |docker| image:: https://quay.io/repository/biocontainers/treemix/status
                 :target: https://quay.io/repository/biocontainers/treemix
-
 

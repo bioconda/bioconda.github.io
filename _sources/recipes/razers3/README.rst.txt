@@ -5,14 +5,17 @@ razers3
 
 |downloads|
 
-RazerS 3 - Faster, fully sensitive read mapping
+RazerS 3 \- Faster\, fully sensitive read mapping
 
 ======== ===========
 Home     http://www.seqan.de/projects/razers/
 Versions 3.5.0, 3.5.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/razers3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/razers3
 .. |docker| image:: https://quay.io/repository/biocontainers/razers3/status
                 :target: https://quay.io/repository/biocontainers/razers3
-
 

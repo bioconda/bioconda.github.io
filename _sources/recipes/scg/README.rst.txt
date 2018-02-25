@@ -5,14 +5,17 @@ scg
 
 |downloads|
 
-The single cell genotyper (SCG): "Roth A, McPherson A, Laks E, Biele J, Yap D, Wan A, et al. Clonal genotype and population structure inference from single-cell tumor sequencing. Nat Meth. 2016;13: 573–576. doi:10.1038/nmeth.3867"
+The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al\. Clonal genotype and population structure inference from single\-cell tumor sequencing\. Nat Meth\. 2016\;13\: 573–576\. doi\:10\.1038\/nmeth\.3867\"
 
 ======== ===========
 Home     https://bitbucket.org/aroth85/scg/wiki/Home
 Versions 0.3.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scg
 .. |docker| image:: https://quay.io/repository/biocontainers/scg/status
                 :target: https://quay.io/repository/biocontainers/scg
-
 

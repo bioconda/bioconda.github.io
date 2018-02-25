@@ -5,14 +5,17 @@ nucdiff
 
 |downloads|
 
-NucDiff locates and categorizes differences between two closely related nucleotide sequences.
+NucDiff locates and categorizes differences between two closely related nucleotide sequences\.
 
 ======== ===========
 Home     https://github.com/uio-cels/NucDiff
 Versions 0.1.1, 2.0.2
 License  MPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucdiff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nucdiff
 .. |docker| image:: https://quay.io/repository/biocontainers/nucdiff/status
                 :target: https://quay.io/repository/biocontainers/nucdiff
-
 

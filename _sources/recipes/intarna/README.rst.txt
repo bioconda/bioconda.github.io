@@ -12,7 +12,10 @@ Home     http://www.bioinf.uni-freiburg.de/Software
 Versions 1.2.5, 2.0.0, 2.0.1, 2.0.2, 2.0.3, 2.0.4, 2.0.5, 2.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intarna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intarna
 .. |docker| image:: https://quay.io/repository/biocontainers/intarna/status
                 :target: https://quay.io/repository/biocontainers/intarna
-
 

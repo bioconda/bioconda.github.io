@@ -12,7 +12,10 @@ Home     http://www.usadellab.org/cms/?page=trimmomatic
 Versions 0.33, 0.35, 0.36
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trimmomatic
 .. |docker| image:: https://quay.io/repository/biocontainers/trimmomatic/status
                 :target: https://quay.io/repository/biocontainers/trimmomatic
-
 

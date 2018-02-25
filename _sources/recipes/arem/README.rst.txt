@@ -5,14 +5,17 @@ arem
 
 |downloads|
 
-Aligning Reads by Expectation-Maximization.\nBased on MACS (Model Based Analysis for ChIP-Seq data)
+Aligning Reads by Expectation\-Maximization\.\\nBased on MACS \(Model Based Analysis for ChIP\-Seq data\)
 
 ======== ===========
 Home     http://cbcl.ics.uci.edu/AREM
 Versions 1.0.1
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/arem
 .. |docker| image:: https://quay.io/repository/biocontainers/arem/status
                 :target: https://quay.io/repository/biocontainers/arem
-
 

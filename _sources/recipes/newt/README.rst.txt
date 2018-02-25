@@ -12,7 +12,10 @@ Home     https://fedorahosted.org/newt/
 Versions 0.52.18
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/newt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/newt
 .. |docker| image:: https://quay.io/repository/biocontainers/newt/status
                 :target: https://quay.io/repository/biocontainers/newt
-
 

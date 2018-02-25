@@ -12,7 +12,10 @@ Home     https://gatb.inria.fr/software/discosnp/
 Versions 2.2.10, 2.3.0
 License  GNU Affero General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discosnp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/discosnp
 .. |docker| image:: https://quay.io/repository/biocontainers/discosnp/status
                 :target: https://quay.io/repository/biocontainers/discosnp
-
 

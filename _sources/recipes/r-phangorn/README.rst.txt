@@ -5,14 +5,17 @@ r-phangorn
 
 |downloads|
 
-Phylogenetic analysis in R: Estimation of phylogenetic trees and networks using Maximum Likelihood, Maximum Parsimony, distance methods and Hadamard conjugation.
+Phylogenetic analysis in R\: Estimation of phylogenetic trees and networks using Maximum Likelihood\, Maximum Parsimony\, distance methods and Hadamard conjugation\.
 
 ======== ===========
 Home     https://github.com/KlausVigo/phangorn
 Versions 2.2.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phangorn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-phangorn
 .. |docker| image:: https://quay.io/repository/biocontainers/r-phangorn/status
                 :target: https://quay.io/repository/biocontainers/r-phangorn
-
 

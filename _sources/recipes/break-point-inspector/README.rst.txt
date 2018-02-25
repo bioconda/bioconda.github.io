@@ -5,14 +5,17 @@ break-point-inspector
 
 |downloads|
 
-BPI uses Manta’s variant calls to re-analyse BAM files and precisely determine the location of the breaks, and applies a set of filters to remove false positives, thereby increasing the accuracy of Manta’s calls.
+BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls\.
 
 ======== ===========
 Home     https://github.com/hartwigmedical/hmftools/tree/master/break-point-inspector
 Versions 1.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/break-point-inspector
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/break-point-inspector
 .. |docker| image:: https://quay.io/repository/biocontainers/break-point-inspector/status
                 :target: https://quay.io/repository/biocontainers/break-point-inspector
-
 

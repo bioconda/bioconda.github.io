@@ -5,14 +5,17 @@ sistr_cmd
 
 |downloads|
 
-Salmonella In Silico Typing Resource (SISTR) commandline tool for serovar prediction
+Salmonella In Silico Typing Resource \(SISTR\) commandline tool for serovar prediction
 
 ======== ===========
 Home     https://github.com/peterk87/sistr_cmd/
 Versions 0.3.1, 0.3.3, 0.3.4, 0.3.6, 1.0.2
 License  Apache
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sistr_cmd
 .. |docker| image:: https://quay.io/repository/biocontainers/sistr_cmd/status
                 :target: https://quay.io/repository/biocontainers/sistr_cmd
-
 

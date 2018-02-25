@@ -5,14 +5,17 @@ bioconductor-birta
 
 |downloads|
 
-Expression levels of mRNA molecules are regulated by different processes, comprising inhibition or activation by transcription factors and post-transcriptional degradation by microRNAs. birta (Bayesian Inference of Regulation of Transcriptional Activity) uses the regulatory networks of TFs and miRNAs together with mRNA and miRNA expression data to predict switches in regulatory activity between two conditions. A Bayesian network is used to model the regulatory structure and Markov-Chain-Monte-Carlo is applied to sample the activity states.
+Expression levels of mRNA molecules are regulated by different processes\, comprising inhibition or activation by transcription factors and post\-transcriptional degradation by microRNAs\. birta \(Bayesian Inference of Regulation of Transcriptional Activity\) uses the regulatory networks of TFs and miRNAs together with mRNA and miRNA expression data to predict switches in regulatory activity between two conditions\. A Bayesian network is used to model the regulatory structure and Markov\-Chain\-Monte\-Carlo is applied to sample the activity states\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/birta.html
 Versions 1.20.0, 1.22.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-birta
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-birta/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-birta
-
 

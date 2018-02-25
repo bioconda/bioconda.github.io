@@ -12,7 +12,10 @@ Home     http://www.bork.embl.de/software/mOTU
 Versions 1.0
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/motus
 .. |docker| image:: https://quay.io/repository/biocontainers/motus/status
                 :target: https://quay.io/repository/biocontainers/motus
-
 

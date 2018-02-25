@@ -5,14 +5,17 @@ fermi2
 
 |downloads|
 
-Fermi2 focuses on the exploration of FMD-index as a graph.
+Fermi2 focuses on the exploration of FMD\-index as a graph\.
 
 ======== ===========
 Home     https://github.com/lh3/fermi2
 Versions r188, r193
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fermi2
 .. |docker| image:: https://quay.io/repository/biocontainers/fermi2/status
                 :target: https://quay.io/repository/biocontainers/fermi2
-
 

@@ -5,14 +5,17 @@ perl-test-classapi
 
 |downloads|
 
-Provides basic first-pass API testing for large class trees
+Provides basic first\-pass API testing for large class trees
 
 ======== ===========
 Home     http://metacpan.org/pod/Test::ClassAPI
 Versions 1.06
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-classapi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-classapi
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-classapi/status
                 :target: https://quay.io/repository/biocontainers/perl-test-classapi
-
 

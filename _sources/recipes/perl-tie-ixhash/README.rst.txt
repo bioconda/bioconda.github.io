@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Tie-IxHash
 Versions 1.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-ixhash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tie-ixhash
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-ixhash/status
                 :target: https://quay.io/repository/biocontainers/perl-tie-ixhash
-
 

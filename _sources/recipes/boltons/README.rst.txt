@@ -12,7 +12,10 @@ Home
 Versions 16.4.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/boltons
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/boltons
 .. |docker| image:: https://quay.io/repository/biocontainers/boltons/status
                 :target: https://quay.io/repository/biocontainers/boltons
-
 

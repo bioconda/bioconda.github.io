@@ -5,14 +5,17 @@ perl-git-wrapper
 
 |downloads|
 
-Wrap git(7) command-line interface
+Wrap git\(7\) command\-line interface
 
 ======== ===========
 Home     http://genehack.github.com/Git-Wrapper/
 Versions 0.047
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-git-wrapper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-git-wrapper
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-git-wrapper/status
                 :target: https://quay.io/repository/biocontainers/perl-git-wrapper
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/PathoScope/PathoScope
 Versions 2.0.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathoscope
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pathoscope
 .. |docker| image:: https://quay.io/repository/biocontainers/pathoscope/status
                 :target: https://quay.io/repository/biocontainers/pathoscope
-
 

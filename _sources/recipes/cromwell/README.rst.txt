@@ -12,7 +12,10 @@ Home     https://github.com/broadinstitute/cromwell
 Versions 0.19.4, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.29, 0.30
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cromwell
 .. |docker| image:: https://quay.io/repository/biocontainers/cromwell/status
                 :target: https://quay.io/repository/biocontainers/cromwell
-
 

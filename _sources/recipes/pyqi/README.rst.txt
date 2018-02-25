@@ -5,14 +5,17 @@ pyqi
 
 |downloads|
 
-pyqi: expose your interface
+pyqi\: expose your interface
 
 ======== ===========
 Home     http://bipy.github.io/pyqi
 Versions 0.3.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyqi/0.3.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyqi
 .. |docker| image:: https://quay.io/repository/biocontainers/pyqi/status
                 :target: https://quay.io/repository/biocontainers/pyqi
-
 

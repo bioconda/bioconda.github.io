@@ -5,14 +5,17 @@ bioconductor-hgu133a.db
 
 |downloads|
 
-Affymetrix Human Genome U133 Set annotation data (chip hgu133a) assembled using data from public repositories
+Affymetrix Human Genome U133 Set annotation data \(chip hgu133a\) assembled using data from public repositories
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/hgu133a.db.html
 Versions 3.2.3
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hgu133a.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hgu133a.db
-
 

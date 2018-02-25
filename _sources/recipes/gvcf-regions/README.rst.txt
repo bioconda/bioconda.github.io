@@ -12,7 +12,10 @@ Home     https://github.com/lijiayong/gvcf_regions
 Versions 2016.05.20, 2016.05.24, 2016.06.21, 2016.06.23
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcf-regions
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gvcf-regions
 .. |docker| image:: https://quay.io/repository/biocontainers/gvcf-regions/status
                 :target: https://quay.io/repository/biocontainers/gvcf-regions
-
 

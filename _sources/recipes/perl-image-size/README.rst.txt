@@ -5,14 +5,17 @@ perl-image-size
 
 |downloads|
 
-A library to extract height/width from images
+A library to extract height\/width from images
 
 ======== ===========
 Home     http://search.cpan.org/dist/Image-Size
 Versions 3.300
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-size
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-image-size
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-image-size/status
                 :target: https://quay.io/repository/biocontainers/perl-image-size
-
 

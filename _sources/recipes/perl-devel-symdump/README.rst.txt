@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Devel::Symdump
 Versions 2.18
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-symdump/2.18
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-devel-symdump
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-symdump/status
                 :target: https://quay.io/repository/biocontainers/perl-devel-symdump
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Time::Piece
 Versions 1.27
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-piece/1.27
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-time-piece
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-time-piece/status
                 :target: https://quay.io/repository/biocontainers/perl-time-piece
-
 

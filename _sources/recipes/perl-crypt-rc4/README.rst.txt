@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Crypt-RC4
 Versions 2.02
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-rc4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-crypt-rc4
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-crypt-rc4/status
                 :target: https://quay.io/repository/biocontainers/perl-crypt-rc4
-
 

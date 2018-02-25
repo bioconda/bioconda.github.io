@@ -5,14 +5,17 @@ bioconductor-roc
 
 |downloads|
 
-utilities for ROC, with uarray focus
+utilities for ROC\, with uarray focus
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ROC.html
 Versions 1.52.0, 1.54.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-roc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-roc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-roc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-roc
-
 

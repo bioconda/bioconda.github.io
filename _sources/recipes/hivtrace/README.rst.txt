@@ -5,14 +5,17 @@ hivtrace
 
 |downloads|
 
-HIV TRACE is an application that identifies potential transmission clusters within a supplied FASTA file with an option to find potential links against the Los Alamos HIV Sequence Database.
+HIV TRACE is an application that identifies potential transmission clusters within a supplied FASTA file with an option to find potential links against the Los Alamos HIV Sequence Database\.
 
 ======== ===========
 Home     https://github.com/veg/hivtrace
 Versions 0.1.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hivtrace
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hivtrace
 .. |docker| image:: https://quay.io/repository/biocontainers/hivtrace/status
                 :target: https://quay.io/repository/biocontainers/hivtrace
-
 

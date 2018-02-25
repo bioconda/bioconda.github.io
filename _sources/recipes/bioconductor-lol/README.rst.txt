@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/lol.html
 Versions 1.26.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lol
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-lol
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lol/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-lol
-
 

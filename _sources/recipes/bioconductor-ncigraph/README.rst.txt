@@ -5,14 +5,17 @@ bioconductor-ncigraph
 
 |downloads|
 
-Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re-format them.
+Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/NCIgraph.html
 Versions 1.24.0, 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraph
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ncigraph
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ncigraph/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ncigraph
-
 

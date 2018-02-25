@@ -5,14 +5,17 @@ bioconductor-genomation
 
 |downloads|
 
-A package for summary and annotation of genomic intervals. Users can visualize and quantify genomic intervals over pre-defined functional regions, such as promoters, exons, introns, etc. The genomic intervals represent regions with a defined chromosome position, which may be associated with a score, such as aligned reads from HT-seq experiments, TF binding sites, methylation scores, etc. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals. In addition, It can use BAM or BigWig files as input.
+A package for summary and annotation of genomic intervals\. Users can visualize and quantify genomic intervals over pre\-defined functional regions\, such as promoters\, exons\, introns\, etc\. The genomic intervals represent regions with a defined chromosome position\, which may be associated with a score\, such as aligned reads from HT\-seq experiments\, TF binding sites\, methylation scores\, etc\. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals\. In addition\, It can use BAM or BigWig files as input\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/genomation.html
 Versions 1.10.0, 1.2.2, 1.4.2, 1.6.0, 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomation
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genomation
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomation/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genomation
-
 

@@ -5,14 +5,17 @@ bioconductor-flipflop
 
 |downloads|
 
-Flipflop discovers which isoforms of a gene are expressed in a given sample together with their abundances, based on RNA-Seq read data. It takes an alignment file in SAM format as input. It can also discover transcripts from several samples simultaneously, increasing statistical power.
+Flipflop discovers which isoforms of a gene are expressed in a given sample together with their abundances\, based on RNA\-Seq read data\. It takes an alignment file in SAM format as input\. It can also discover transcripts from several samples simultaneously\, increasing statistical power\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flipflop.html
 Versions 1.14.1, 1.16.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flipflop
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flipflop
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flipflop/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flipflop
-
 

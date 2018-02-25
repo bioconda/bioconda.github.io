@@ -5,14 +5,17 @@ dimspy
 
 |downloads|
 
-Python package for data processing of direct-infusion mass spectrometry-based metabolomics and lipidomics data
+Python package for data processing of direct\-infusion mass spectrometry\-based metabolomics and lipidomics data
 
 ======== ===========
 Home     https://github.com/computational-metabolomics/dimspy
 Versions 1.0.0, 1.1.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dimspy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dimspy
 .. |docker| image:: https://quay.io/repository/biocontainers/dimspy/status
                 :target: https://quay.io/repository/biocontainers/dimspy
-
 

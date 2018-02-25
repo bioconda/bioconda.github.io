@@ -5,14 +5,17 @@ gottcha
 
 |downloads|
 
-Genomic Origin Through Taxonomic CHAllenge (GOTTCHA)
+Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\)
 
 ======== ===========
 Home     https://github.com/LANL-Bioinformatics/GOTTCHA
 Versions 1.0
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gottcha
 .. |docker| image:: https://quay.io/repository/biocontainers/gottcha/status
                 :target: https://quay.io/repository/biocontainers/gottcha
-
 

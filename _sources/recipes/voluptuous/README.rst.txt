@@ -12,7 +12,10 @@ Home     https://github.com/alecthomas/voluptuous
 Versions 0.8.8
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/voluptuous
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/voluptuous
 .. |docker| image:: https://quay.io/repository/biocontainers/voluptuous/status
                 :target: https://quay.io/repository/biocontainers/voluptuous
-
 

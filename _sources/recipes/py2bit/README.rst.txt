@@ -12,7 +12,10 @@ Home     https://github.com/deeptools/py2bit
 Versions 0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.3.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py2bit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/py2bit
 .. |docker| image:: https://quay.io/repository/biocontainers/py2bit/status
                 :target: https://quay.io/repository/biocontainers/py2bit
-
 

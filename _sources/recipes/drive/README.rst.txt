@@ -12,7 +12,10 @@ Home     https://github.com/odeke-em/drive
 Versions 0.3.8, 0.3.9
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drive
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/drive
 .. |docker| image:: https://quay.io/repository/biocontainers/drive/status
                 :target: https://quay.io/repository/biocontainers/drive
-
 

@@ -5,14 +5,17 @@ bioconductor-plpe
 
 |downloads|
 
-This package performs tests for paired high-throughput data.
+This package performs tests for paired high\-throughput data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PLPE.html
 Versions 1.38.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plpe
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-plpe
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-plpe/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-plpe
-
 

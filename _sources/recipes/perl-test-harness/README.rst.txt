@@ -12,7 +12,10 @@ Home     http://testanything.org/
 Versions 3.30, 3.36
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-harness
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-harness
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-harness/status
                 :target: https://quay.io/repository/biocontainers/perl-test-harness
-
 

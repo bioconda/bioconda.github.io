@@ -5,14 +5,17 @@ perl-git-wrapper-plus
 
 |downloads|
 
-A Toolkit for working with Git::Wrapper in an Object Oriented Way.
+A Toolkit for working with Git\:\:Wrapper in an Object Oriented Way\.
 
 ======== ===========
 Home     https://github.com/kentfredric/Git-Wrapper-Plus
 Versions 0.004010
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-git-wrapper-plus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-git-wrapper-plus
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-git-wrapper-plus/status
                 :target: https://quay.io/repository/biocontainers/perl-git-wrapper-plus
-
 

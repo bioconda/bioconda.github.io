@@ -5,14 +5,17 @@ ucsc-gaptolift
 
 |downloads|
 
-create lift file from gap table(s)
+create lift file from gap table\(s\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gaptolift
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-gaptolift
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-gaptolift/status
                 :target: https://quay.io/repository/biocontainers/ucsc-gaptolift
-
 

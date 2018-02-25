@@ -12,7 +12,10 @@ Home     https://github.com/ggonnella/gfapy
 Versions 1.0.0, 1.0.0rc10, 1.0.0rc9
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfapy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gfapy
 .. |docker| image:: https://quay.io/repository/biocontainers/gfapy/status
                 :target: https://quay.io/repository/biocontainers/gfapy
-
 

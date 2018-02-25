@@ -5,14 +5,17 @@ perl-lib
 
 |downloads|
 
-manipulate @INC at compile time
+manipulate \@INC at compile time
 
 ======== ===========
 Home     http://metacpan.org/pod/lib
 Versions 0.63
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lib/0.63
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-lib
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-lib/status
                 :target: https://quay.io/repository/biocontainers/perl-lib
-
 

@@ -5,14 +5,17 @@ r-xmlrpc
 
 |downloads|
 
-A simple implementation of XML-RPC for R.
+A simple implementation of XML\-RPC for R\.
 
 ======== ===========
 Home     https://r-forge.r-project.org
 Versions 0.2_4
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xmlrpc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-xmlrpc
 .. |docker| image:: https://quay.io/repository/biocontainers/r-xmlrpc/status
                 :target: https://quay.io/repository/biocontainers/r-xmlrpc
-
 

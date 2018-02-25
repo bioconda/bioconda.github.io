@@ -5,14 +5,17 @@ perl-bit-vector
 
 |downloads|
 
-Efficient bit vector, set of integers and "big int" math library
+Efficient bit vector\, set of integers and \"big int\" math library
 
 ======== ===========
 Home     https://metacpan.org/pod/distribution/Bit-Vector/Vector.pod
 Versions 7.4
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bit-vector
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bit-vector
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bit-vector/status
                 :target: https://quay.io/repository/biocontainers/perl-bit-vector
-
 

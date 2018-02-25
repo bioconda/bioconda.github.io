@@ -5,14 +5,17 @@ ucsc-fasize
 
 |downloads|
 
-print total base count in fa files.
+print total base count in fa files\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fasize
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-fasize
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fasize/status
                 :target: https://quay.io/repository/biocontainers/ucsc-fasize
-
 

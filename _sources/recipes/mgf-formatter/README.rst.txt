@@ -12,7 +12,10 @@ Home     https://bitbucket.org/galaxyp-applications/mgf-formatter
 Versions 1.0.0
 License  Eclipse Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgf-formatter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mgf-formatter
 .. |docker| image:: https://quay.io/repository/biocontainers/mgf-formatter/status
                 :target: https://quay.io/repository/biocontainers/mgf-formatter
-
 

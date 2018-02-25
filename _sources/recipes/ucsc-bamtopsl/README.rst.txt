@@ -5,14 +5,17 @@ ucsc-bamtopsl
 
 |downloads|
 
-Convert a bam file to a psl and optionally also a fasta file that contains the reads.
+Convert a bam file to a psl and optionally also a fasta file that contains the reads\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bamtopsl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bamtopsl
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bamtopsl/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bamtopsl
-
 

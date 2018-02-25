@@ -5,14 +5,17 @@ ghc
 
 |downloads|
 
-GHC is a state-of-the-art, open source, compiler and interactive environment for the functional language Haskell.
+GHC is a state\-of\-the\-art\, open source\, compiler and interactive environment for the functional language Haskell\.
 
 ======== ===========
 Home     https://www.haskell.org/ghc/
 Versions 6.8.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghc/6.8.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ghc
 .. |docker| image:: https://quay.io/repository/biocontainers/ghc/status
                 :target: https://quay.io/repository/biocontainers/ghc
-
 

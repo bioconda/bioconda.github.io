@@ -12,7 +12,10 @@ Home     https://github.com/dereneaton/pyrad
 Versions 3.0.64, 3.0.66
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrad
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyrad
 .. |docker| image:: https://quay.io/repository/biocontainers/pyrad/status
                 :target: https://quay.io/repository/biocontainers/pyrad
-
 

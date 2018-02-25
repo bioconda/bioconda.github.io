@@ -5,14 +5,17 @@ bioconductor-cn.farms
 
 |downloads|
 
-This package implements the cn.FARMS algorithm for copy number variation (CNV) analysis. cn.FARMS allows to analyze the most common Affymetrix (250K-SNP6.0) array types, supports high-performance computing using snow and ff.
+This package implements the cn\.FARMS algorithm for copy number variation \(CNV\) analysis\. cn\.FARMS allows to analyze the most common Affymetrix \(250K\-SNP6\.0\) array types\, supports high\-performance computing using snow and ff\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/cn.farms.html
 Versions 1.26.0
 License  LGPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cn.farms
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cn.farms
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cn.farms/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cn.farms
-
 

@@ -5,14 +5,17 @@ bioconductor-anota
 
 |downloads|
 
-Genome wide studies of translational control is emerging as a tool to study verious biological conditions. The output from such analysis is both the mRNA level (e.g. cytosolic mRNA level) and the levl of mRNA actively involved in translation (the actively translating mRNA level) for each mRNA. The standard analysis of such data strives towards identifying differential translational between two or more sample classes - i.e. differences in actively translated mRNA levels that are independent of underlying differences in cytosolic mRNA levels. This package allows for such analysis using partial variances and the random variance model. As 10s of thousands of mRNAs are analyzed in parallell the library performs a number of tests to assure that the data set is suitable for such analysis.
+Genome wide studies of translational control is emerging as a tool to study verious biological conditions\. The output from such analysis is both the mRNA level \(e\.g\. cytosolic mRNA level\) and the levl of mRNA actively involved in translation \(the actively translating mRNA level\) for each mRNA\. The standard analysis of such data strives towards identifying differential translational between two or more sample classes \- i\.e\. differences in actively translated mRNA levels that are independent of underlying differences in cytosolic mRNA levels\. This package allows for such analysis using partial variances and the random variance model\. As 10s of thousands of mRNAs are analyzed in parallell the library performs a number of tests to assure that the data set is suitable for such analysis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/anota.html
 Versions 1.24.0, 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-anota
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-anota/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-anota
-
 

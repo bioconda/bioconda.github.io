@@ -5,14 +5,17 @@ r-aroma.core
 
 |downloads|
 
-Core methods and classes used by higher-level aroma.* packages part of the Aroma Project, e.g. aroma.affymetrix and aroma.cn.
+Core methods and classes used by higher\-level aroma\.\* packages part of the Aroma Project\, e\.g\. aroma\.affymetrix and aroma\.cn\.
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/
 Versions 3.0.0, 3.1.1
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.core
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-aroma.core
 .. |docker| image:: https://quay.io/repository/biocontainers/r-aroma.core/status
                 :target: https://quay.io/repository/biocontainers/r-aroma.core
-
 

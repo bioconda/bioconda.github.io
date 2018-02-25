@@ -5,14 +5,17 @@ perl-io-uncompress-gunzip
 
 |downloads|
 
-Read RFC 1952 files/buffers
+Read RFC 1952 files\/buffers
 
 ======== ===========
 Home     http://metacpan.org/pod/IO::Uncompress::Gunzip
 Versions 2.064
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip/2.064
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-uncompress-gunzip
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip/status
                 :target: https://quay.io/repository/biocontainers/perl-io-uncompress-gunzip
-
 

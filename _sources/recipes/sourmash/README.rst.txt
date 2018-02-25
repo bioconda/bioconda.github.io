@@ -5,14 +5,17 @@ sourmash
 
 |downloads|
 
-Compute and compare MinHash signatures for DNA data sets.
+Compute and compare MinHash signatures for DNA data sets\.
 
 ======== ===========
 Home     https://github.com/dib-lab/sourmash
 Versions 1.0, 2.0.0a1, 2.0.0a2, 2.0.0a3
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sourmash
 .. |docker| image:: https://quay.io/repository/biocontainers/sourmash/status
                 :target: https://quay.io/repository/biocontainers/sourmash
-
 

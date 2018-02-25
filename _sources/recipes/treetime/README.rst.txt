@@ -5,14 +5,17 @@ treetime
 
 |downloads|
 
-Maximum-Likelihood dating and ancestral inference for phylogenetic trees
+Maximum\-Likelihood dating and ancestral inference for phylogenetic trees
 
 ======== ===========
 Home     https://github.com/neherlab/treetime
 Versions 0.1, 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treetime/0.2.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/treetime
 .. |docker| image:: https://quay.io/repository/biocontainers/treetime/status
                 :target: https://quay.io/repository/biocontainers/treetime
-
 

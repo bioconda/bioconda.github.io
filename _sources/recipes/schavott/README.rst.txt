@@ -5,14 +5,17 @@ schavott
 
 |downloads|
 
-Assembly and scaffolding of bacterial genomes in real time using MinION-sequencing.
+Assembly and scaffolding of bacterial genomes in real time using MinION\-sequencing\.
 
 ======== ===========
 Home     http://github.com/emilhaegglund/schavott
 Versions 0.2, 0.3, 0.4.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schavott
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/schavott
 .. |docker| image:: https://quay.io/repository/biocontainers/schavott/status
                 :target: https://quay.io/repository/biocontainers/schavott
-
 

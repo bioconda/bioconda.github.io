@@ -5,14 +5,17 @@ selscan
 
 |downloads|
 
-a program to calculate EHH-based scans for positive selection in genomes
+a program to calculate EHH\-based scans for positive selection in genomes
 
 ======== ===========
 Home     https://github.com/szpiech/selscan
 Versions 1.1.0b
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selscan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/selscan
 .. |docker| image:: https://quay.io/repository/biocontainers/selscan/status
                 :target: https://quay.io/repository/biocontainers/selscan
-
 

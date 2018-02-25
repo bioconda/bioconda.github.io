@@ -12,7 +12,10 @@ Home     https://github.com/hall-lab/svtools
 Versions 0.1.1, 0.2.0, 0.3.0, 0.3.1, 0.3.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svtools
 .. |docker| image:: https://quay.io/repository/biocontainers/svtools/status
                 :target: https://quay.io/repository/biocontainers/svtools
-
 

@@ -5,14 +5,17 @@ xmlbuilder
 
 |downloads|
 
-pythonic way to crate xml/(x)html files
+pythonic way to crate xml\/\(x\)html files
 
 ======== ===========
 Home     https://pypi.python.org/pypi/xmlbuilder/1.0
 Versions 1.0
 License  LGPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xmlbuilder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xmlbuilder
 .. |docker| image:: https://quay.io/repository/biocontainers/xmlbuilder/status
                 :target: https://quay.io/repository/biocontainers/xmlbuilder
-
 

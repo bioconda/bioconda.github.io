@@ -12,7 +12,10 @@ Home     http://www.scala-sbt.org/
 Versions 0.13.12
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sbt
 .. |docker| image:: https://quay.io/repository/biocontainers/sbt/status
                 :target: https://quay.io/repository/biocontainers/sbt
-
 

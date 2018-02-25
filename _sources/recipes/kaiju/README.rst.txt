@@ -12,7 +12,10 @@ Home     http://kaiju.binf.ku.dk/
 Versions 1.0, 1.4.4, 1.4.5, 1.5.0, 1.6.1
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kaiju
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kaiju
 .. |docker| image:: https://quay.io/repository/biocontainers/kaiju/status
                 :target: https://quay.io/repository/biocontainers/kaiju
-
 

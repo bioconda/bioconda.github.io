@@ -5,14 +5,17 @@ tadarida-d
 
 |downloads|
 
-Tadarida-D (Toolbox for Animal Detection on Acoustic Recordings - Detection and Feature extraction part) for Galaxy use.
+Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use\.
 
 ======== ===========
 Home     https://github.com/YvesBas/Tadarida-D
 Versions 1.0, 1.01, 1.02, 1.03
 License  GNU LESSER GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadarida-d
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tadarida-d
 .. |docker| image:: https://quay.io/repository/biocontainers/tadarida-d/status
                 :target: https://quay.io/repository/biocontainers/tadarida-d
-
 

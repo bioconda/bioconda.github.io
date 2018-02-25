@@ -5,14 +5,17 @@ guidescan
 
 |downloads|
 
-Tools to create and interface genome-wide CRISPR guideRNA databases
+Tools to create and interface genome\-wide CRISPR guideRNA databases
 
 ======== ===========
 Home     https://bitbucket.org/arp2012/guidescan_public
 Versions 1.0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidescan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/guidescan
 .. |docker| image:: https://quay.io/repository/biocontainers/guidescan/status
                 :target: https://quay.io/repository/biocontainers/guidescan
-
 

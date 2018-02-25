@@ -12,7 +12,10 @@ Home     http://merenlab.org/software/anvio/index.html
 Versions 2.1.0, 2.3.2, 2.4.0, 3.0.0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/anvio
 .. |docker| image:: https://quay.io/repository/biocontainers/anvio/status
                 :target: https://quay.io/repository/biocontainers/anvio
-
 

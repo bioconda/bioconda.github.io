@@ -5,14 +5,17 @@ perl-spreadsheet-parseexcel
 
 |downloads|
 
-Read information from an Excel file.
+Read information from an Excel file\.
 
 ======== ===========
 Home     http://github.com/runrig/spreadsheet-parseexcel/
 Versions 0.65
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-parseexcel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-spreadsheet-parseexcel
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel/status
                 :target: https://quay.io/repository/biocontainers/perl-spreadsheet-parseexcel
-
 

@@ -5,14 +5,17 @@ fastdtw
 
 |downloads|
 
-Dynamic Time Warping (DTW) algorithm with an O(N) time and memory complexity
+Dynamic Time Warping \(DTW\) algorithm with an O\(N\) time and memory complexity
 
 ======== ===========
 Home     https://github.com/slaypni/fastdtw
 Versions 0.2.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastdtw
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastdtw
 .. |docker| image:: https://quay.io/repository/biocontainers/fastdtw/status
                 :target: https://quay.io/repository/biocontainers/fastdtw
-
 

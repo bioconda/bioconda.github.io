@@ -5,14 +5,17 @@ ucsc-maskoutfa
 
 |downloads|
 
-Produce a masked .fa file given an unmasked .fa and
+Produce a masked \.fa file given an unmasked \.fa and
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maskoutfa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-maskoutfa
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-maskoutfa/status
                 :target: https://quay.io/repository/biocontainers/ucsc-maskoutfa
-
 

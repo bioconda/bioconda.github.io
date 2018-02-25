@@ -5,14 +5,17 @@ trimadap
 
 |downloads|
 
-Fast but inaccurate adapter trimmer for Illumina reads.
+Fast but inaccurate adapter trimmer for Illumina reads\.
 
 ======== ===========
 Home     https://github.com/lh3/trimadap
 Versions r10, r9
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimadap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trimadap
 .. |docker| image:: https://quay.io/repository/biocontainers/trimadap/status
                 :target: https://quay.io/repository/biocontainers/trimadap
-
 

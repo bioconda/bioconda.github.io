@@ -5,14 +5,17 @@ bfc
 
 |downloads|
 
-BFC is a standalone high-performance tool for correcting sequencing errors from Illumina sequencing data.
+BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data\.
 
 ======== ===========
 Home     https://github.com/lh3/bfc
 Versions r181
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bfc
 .. |docker| image:: https://quay.io/repository/biocontainers/bfc/status
                 :target: https://quay.io/repository/biocontainers/bfc
-
 

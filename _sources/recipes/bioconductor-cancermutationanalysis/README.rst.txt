@@ -5,14 +5,17 @@ bioconductor-cancermutationanalysis
 
 |downloads|
 
-This package implements gene and gene-set level analysis methods for somatic mutation studies of cancer.  The gene-level methods distinguish between driver genes (which play an active role in tumorigenesis) and passenger genes (which are mutated in tumor samples, but have no role in tumorigenesis) and incorporate a two-stage study design.  The gene-set methods implement a patient-oriented approach, which calculates gene-set scores for each sample, then combines them across samples; a gene-oriented approach which uses the Wilcoxon test is also provided for comparison.
+This package implements gene and gene\-set level analysis methods for somatic mutation studies of cancer\.  The gene\-level methods distinguish between driver genes \(which play an active role in tumorigenesis\) and passenger genes \(which are mutated in tumor samples\, but have no role in tumorigenesis\) and incorporate a two\-stage study design\.  The gene\-set methods implement a patient\-oriented approach\, which calculates gene\-set scores for each sample\, then combines them across samples\; a gene\-oriented approach which uses the Wilcoxon test is also provided for comparison\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/CancerMutationAnalysis.html
 Versions 1.18.0, 1.20.0
 License  GPL (>= 2) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancermutationanalysis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cancermutationanalysis
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cancermutationanalysis/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cancermutationanalysis
-
 

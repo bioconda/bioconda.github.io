@@ -5,14 +5,17 @@ oauth2client
 
 |downloads|
 
-client library for OAuth 2.0
+client library for OAuth 2\.0
 
 ======== ===========
 Home     https://github.com/google/oauth2client/
 Versions 1.5.2
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oauth2client
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/oauth2client
 .. |docker| image:: https://quay.io/repository/biocontainers/oauth2client/status
                 :target: https://quay.io/repository/biocontainers/oauth2client
-
 

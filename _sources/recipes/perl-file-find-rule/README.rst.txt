@@ -5,14 +5,17 @@ perl-file-find-rule
 
 |downloads|
 
-Alternative interface to File::Find
+Alternative interface to File\:\:Find
 
 ======== ===========
 Home     https://metacpan.org/pod/File::Find::Rule
 Versions 0.34
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-find-rule
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-find-rule/status
                 :target: https://quay.io/repository/biocontainers/perl-file-find-rule
-
 

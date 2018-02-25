@@ -5,14 +5,17 @@ fwdpy11
 
 |downloads|
 
-Forward-time population genetic simulation in Python.
+Forward\-time population genetic simulation in Python\.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/fwdpy11
 Versions 0.1.1, 0.1.2, 0.1.3.post1, 0.1.3.post3, 0.1.3a0, 0.1.3a1, 0.1.post2, 0.1.post4
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpy11
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fwdpy11
 .. |docker| image:: https://quay.io/repository/biocontainers/fwdpy11/status
                 :target: https://quay.io/repository/biocontainers/fwdpy11
-
 

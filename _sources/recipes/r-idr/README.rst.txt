@@ -5,14 +5,17 @@ r-idr
 
 |downloads|
 
-This is a package for estimating the copula mixture model and plotting correspondence curves in "Measuring reproducibility of high-throughput experiments" (2011), Annals of Applied Statistics, Vol. 5, No. 3, 1752-1779, by Li, Brown, Huang, and Bickel 
+This is a package for estimating the copula mixture model and plotting correspondence curves in \"Measuring reproducibility of high\-throughput experiments\" \(2011\)\, Annals of Applied Statistics\, Vol\. 5\, No\. 3\, 1752\-1779\, by Li\, Brown\, Huang\, and Bickel 
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=idr
 Versions 1.2
 License  GPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-idr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-idr
 .. |docker| image:: https://quay.io/repository/biocontainers/r-idr/status
                 :target: https://quay.io/repository/biocontainers/r-idr
-
 

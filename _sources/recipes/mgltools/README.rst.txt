@@ -5,14 +5,17 @@ mgltools
 
 |downloads|
 
-MGLTools is an program for visualization and analisys of molecular structures.
+MGLTools is an program for visualization and analisys of molecular structures\.
 
 ======== ===========
 Home     http://mgltools.scripps.edu/
 Versions 1.5.6
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgltools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mgltools
 .. |docker| image:: https://quay.io/repository/biocontainers/mgltools/status
                 :target: https://quay.io/repository/biocontainers/mgltools
-
 

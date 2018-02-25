@@ -12,7 +12,10 @@ Home
 Versions 2.2.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabob
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rnabob
 .. |docker| image:: https://quay.io/repository/biocontainers/rnabob/status
                 :target: https://quay.io/repository/biocontainers/rnabob
-
 

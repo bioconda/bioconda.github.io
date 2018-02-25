@@ -5,14 +5,17 @@ khmer
 
 |downloads|
 
-khmer k-mer counting library
+khmer k\-mer counting library
 
 ======== ===========
 Home     https://khmer.readthedocs.io/
 Versions 2.0, 2.1, 2.1.2, 2.1rc1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/khmer
 .. |docker| image:: https://quay.io/repository/biocontainers/khmer/status
                 :target: https://quay.io/repository/biocontainers/khmer
-
 

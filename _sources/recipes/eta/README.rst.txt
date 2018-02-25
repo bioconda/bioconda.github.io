@@ -5,14 +5,17 @@ eta
 
 |downloads|
 
-ETA Progress bar for command-line utilities
+ETA Progress bar for command\-line utilities
 
 ======== ===========
 Home     http://github.com/mbreese/eta/
 Versions 0.9.7
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/eta
 .. |docker| image:: https://quay.io/repository/biocontainers/eta/status
                 :target: https://quay.io/repository/biocontainers/eta
-
 

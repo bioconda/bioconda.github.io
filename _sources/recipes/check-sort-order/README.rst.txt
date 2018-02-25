@@ -5,14 +5,17 @@ check-sort-order
 
 |downloads|
 
-check sort-order of genomic files according to a genomefile
+check sort\-order of genomic files according to a genomefile
 
 ======== ===========
 Home     https://github.com/gogetdata/ggd-utils
 Versions 0.0.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/check-sort-order
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/check-sort-order
 .. |docker| image:: https://quay.io/repository/biocontainers/check-sort-order/status
                 :target: https://quay.io/repository/biocontainers/check-sort-order
-
 

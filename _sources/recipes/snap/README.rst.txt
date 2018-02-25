@@ -5,14 +5,17 @@ snap
 
 |downloads|
 
-Semi-HMM-based Nucleic Acid Parser -- gene prediction tool
+Semi\-HMM\-based Nucleic Acid Parser \-\- gene prediction tool
 
 ======== ===========
 Home     http://korflab.ucdavis.edu/software.html
 Versions 2013_11_29
 License  GNU General Public License version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snap
 .. |docker| image:: https://quay.io/repository/biocontainers/snap/status
                 :target: https://quay.io/repository/biocontainers/snap
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/lh3/minimap2
 Versions 2.2, 2.4, 2.5, 2.6, 2.7, 2.8
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mappy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mappy
 .. |docker| image:: https://quay.io/repository/biocontainers/mappy/status
                 :target: https://quay.io/repository/biocontainers/mappy
-
 

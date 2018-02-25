@@ -5,14 +5,17 @@ perl-yaml-tiny
 
 |downloads|
 
-Read/Write YAML files with as little code as possible
+Read\/Write YAML files with as little code as possible
 
 ======== ===========
 Home     http://search.cpan.org/dist/YAML-Tiny/lib/YAML/Tiny.pm
 Versions 1.70
 License  perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-yaml-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-yaml-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-yaml-tiny
-
 

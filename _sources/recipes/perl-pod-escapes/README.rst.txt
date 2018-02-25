@@ -5,14 +5,17 @@ perl-pod-escapes
 
 |downloads|
 
-for resolving Pod Elt...gt sequences
+for resolving Pod Elt\.\.\.gt sequences
 
 ======== ===========
 Home     http://metacpan.org/pod/Pod::Escapes
 Versions 1.07
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-escapes/1.07
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-escapes
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-escapes/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-escapes
-
 

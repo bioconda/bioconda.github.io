@@ -5,14 +5,17 @@ elasticluster
 
 |downloads|
 
-Create, manage and setup computing clusters hosted on a public or private cloud infrastructure.
+Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure\.
 
 ======== ===========
 Home     https://github.com/gc3-uzh-ch/elasticluster
 Versions 0.1.3bcbio
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elasticluster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/elasticluster
 .. |docker| image:: https://quay.io/repository/biocontainers/elasticluster/status
                 :target: https://quay.io/repository/biocontainers/elasticluster
-
 

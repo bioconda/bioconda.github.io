@@ -5,14 +5,17 @@ popt
 
 |downloads|
 
-Popt is a C library for parsing command line parameters.
+Popt is a C library for parsing command line parameters\.
 
 ======== ===========
 Home     http://rpm5.org/
 Versions 1.16
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/popt
 .. |docker| image:: https://quay.io/repository/biocontainers/popt/status
                 :target: https://quay.io/repository/biocontainers/popt
-
 

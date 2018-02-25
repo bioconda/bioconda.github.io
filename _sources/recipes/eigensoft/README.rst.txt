@@ -5,14 +5,17 @@ eigensoft
 
 |downloads|
 
-Population Genetics - Principal Components Analysis (PCA)
+Population Genetics \- Principal Components Analysis \(PCA\)
 
 ======== ===========
 Home     http://www.hsph.harvard.edu/alkes-price/software/
 Versions 6.0.1
 License  Custom OSS
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/eigensoft
 .. |docker| image:: https://quay.io/repository/biocontainers/eigensoft/status
                 :target: https://quay.io/repository/biocontainers/eigensoft
-
 

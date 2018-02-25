@@ -12,7 +12,10 @@ Home     https://www.github.com/moonso/query_phenomizer
 Versions 0.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/query_phenomizer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/query_phenomizer
 .. |docker| image:: https://quay.io/repository/biocontainers/query_phenomizer/status
                 :target: https://quay.io/repository/biocontainers/query_phenomizer
-
 

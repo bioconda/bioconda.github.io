@@ -5,14 +5,17 @@ bioconductor-tweedeseq
 
 |downloads|
 
-Differential expression analysis of RNA-seq using the Poisson-Tweedie family of distributions.
+Differential expression analysis of RNA\-seq using the Poisson\-Tweedie family of distributions\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/tweeDEseq.html
 Versions 1.22.0, 1.24.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-tweedeseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tweedeseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-tweedeseq
-
 

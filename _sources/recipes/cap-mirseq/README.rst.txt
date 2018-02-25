@@ -12,7 +12,10 @@ Home     http://bioinformaticstools.mayo.edu/research/cap-mirseq/
 Versions version
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap-mirseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cap-mirseq
 .. |docker| image:: https://quay.io/repository/biocontainers/cap-mirseq/status
                 :target: https://quay.io/repository/biocontainers/cap-mirseq
-
 

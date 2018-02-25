@@ -5,14 +5,17 @@ perl-string-util
 
 |downloads|
 
-String::Util -- String processing utilities
+String\:\:Util \-\- String processing utilities
 
 ======== ===========
 Home     http://metacpan.org/pod/String::Util
 Versions 1.26
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-util/1.26
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-string-util
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-string-util/status
                 :target: https://quay.io/repository/biocontainers/perl-string-util
-
 

@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Number::Compare
 Versions 0.03
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-compare
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-number-compare
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-number-compare/status
                 :target: https://quay.io/repository/biocontainers/perl-number-compare
-
 

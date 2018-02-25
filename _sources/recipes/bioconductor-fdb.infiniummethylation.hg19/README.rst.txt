@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/FDb.InfiniumM
 Versions 2.2.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg19
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-fdb.infiniummethylation.hg19
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fdb.infiniummethylation.hg19/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-fdb.infiniummethylation.hg19
-
 

@@ -5,14 +5,17 @@ perl-error
 
 |downloads|
 
-Error/exception handling in an OO-ish way
+Error\/exception handling in an OO\-ish way
 
 ======== ===========
 Home     http://metacpan.org/pod/Error
 Versions 0.17024
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-error
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-error
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-error/status
                 :target: https://quay.io/repository/biocontainers/perl-error
-
 

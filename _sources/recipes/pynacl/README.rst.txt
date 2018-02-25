@@ -5,14 +5,17 @@ pynacl
 
 |downloads|
 
-Python binding to the Networking and Cryptography (NaCl) library
+Python binding to the Networking and Cryptography \(NaCl\) library
 
 ======== ===========
 Home     https://github.com/pyca/pynacl/
 Versions 0.3.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynacl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pynacl
 .. |docker| image:: https://quay.io/repository/biocontainers/pynacl/status
                 :target: https://quay.io/repository/biocontainers/pynacl
-
 

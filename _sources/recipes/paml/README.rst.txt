@@ -5,14 +5,17 @@ paml
 
 |downloads|
 
-A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood.
+A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood\.
 
 ======== ===========
 Home     http://abacus.gene.ucl.ac.uk/software/paml.html
 Versions 4.9
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paml/4.9
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/paml
 .. |docker| image:: https://quay.io/repository/biocontainers/paml/status
                 :target: https://quay.io/repository/biocontainers/paml
-
 

@@ -12,7 +12,10 @@ Home     https://CRAN.R-project.org/package=gsmoothr
 Versions 0.1.7
 License  LGPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsmoothr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-gsmoothr
 .. |docker| image:: https://quay.io/repository/biocontainers/r-gsmoothr/status
                 :target: https://quay.io/repository/biocontainers/r-gsmoothr
-
 

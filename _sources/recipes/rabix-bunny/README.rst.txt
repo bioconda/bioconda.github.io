@@ -5,14 +5,17 @@ rabix-bunny
 
 |downloads|
 
-Open-source development kit for the Common Workflow Language from Seven Bridges. The Rabix executor Bunny, which can be used to execute apps locally from the command line.
+Open\-source development kit for the Common Workflow Language from Seven Bridges\. The Rabix executor Bunny\, which can be used to execute apps locally from the command line\.
 
 ======== ===========
 Home     https://github.com/rabix/bunny
 Versions 1.0.0rc4, 1.0.0rc5, 1.0.1, 1.0.2, 1.0.3, 1.0.4
 License  Apache v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rabix-bunny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rabix-bunny
 .. |docker| image:: https://quay.io/repository/biocontainers/rabix-bunny/status
                 :target: https://quay.io/repository/biocontainers/rabix-bunny
-
 

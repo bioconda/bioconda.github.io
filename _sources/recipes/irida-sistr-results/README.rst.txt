@@ -12,7 +12,13 @@ Home     http://github.com/phac-nml/irida-sistr-results
 Versions 0.3.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-sistr-results
+
 ======== ===========
+
+The IRIDA SISTR Results application enables the export of SISTR
+results that were run through IRIDA \(via the sistr\-cmd application\)
+to a spreadsheet
+
 
 Installation
 ------------
@@ -46,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/irida-sistr-results
 .. |docker| image:: https://quay.io/repository/biocontainers/irida-sistr-results/status
                 :target: https://quay.io/repository/biocontainers/irida-sistr-results
-
 

@@ -5,14 +5,17 @@ perl-biox-workflow-plugin-filedetails
 
 |downloads|
 
-Get metadata for files in directories processed by BioX::Workflow
+Get metadata for files in directories processed by BioX\:\:Workflow
 
 ======== ===========
 Home     https://github.com/jerowe/BioX-Workflow-Plugin-FileDetails
 Versions 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-plugin-filedetails
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-biox-workflow-plugin-filedetails
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-biox-workflow-plugin-filedetails/status
                 :target: https://quay.io/repository/biocontainers/perl-biox-workflow-plugin-filedetails
-
 

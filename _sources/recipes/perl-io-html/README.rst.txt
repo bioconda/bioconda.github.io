@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/IO-HTML
 Versions 1.001
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-html
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-html/status
                 :target: https://quay.io/repository/biocontainers/perl-io-html
-
 

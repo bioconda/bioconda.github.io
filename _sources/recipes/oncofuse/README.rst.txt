@@ -12,7 +12,10 @@ Home     https://github.com/mikessh/oncofuse
 Versions 1.1.0, 1.1.1
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oncofuse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/oncofuse
 .. |docker| image:: https://quay.io/repository/biocontainers/oncofuse/status
                 :target: https://quay.io/repository/biocontainers/oncofuse
-
 

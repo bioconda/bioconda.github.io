@@ -12,7 +12,10 @@ Home     http://nonpareil.readthedocs.io/
 Versions 2.4, 2.4.01, 3.1.1, 3.2
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil/2.4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nonpareil
 .. |docker| image:: https://quay.io/repository/biocontainers/nonpareil/status
                 :target: https://quay.io/repository/biocontainers/nonpareil
-
 

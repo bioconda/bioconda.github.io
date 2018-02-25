@@ -5,14 +5,17 @@ kodoja
 
 |downloads|
 
-Kodoja: identifying viruses from plant RNA sequencing data
+Kodoja\: identifying viruses from plant RNA sequencing data
 
 ======== ===========
 Home     https://github.com/abaizan/kodoja/
 Versions 0.0.2, 0.0.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kodoja
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kodoja
 .. |docker| image:: https://quay.io/repository/biocontainers/kodoja/status
                 :target: https://quay.io/repository/biocontainers/kodoja
-
 

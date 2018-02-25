@@ -12,7 +12,10 @@ Home     http://www.npcole.com/npyscreen/
 Versions 4.10.5
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npyscreen
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/npyscreen
 .. |docker| image:: https://quay.io/repository/biocontainers/npyscreen/status
                 :target: https://quay.io/repository/biocontainers/npyscreen
-
 

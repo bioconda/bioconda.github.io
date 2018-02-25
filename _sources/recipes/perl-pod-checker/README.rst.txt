@@ -5,14 +5,17 @@ perl-pod-checker
 
 |downloads|
 
-Pod::Checker verifies POD documentation contents for compliance with the POD format specifications
+Pod\:\:Checker verifies POD documentation contents for compliance with the POD format specifications
 
 ======== ===========
 Home     http://metacpan.org/pod/Pod::Checker
 Versions 1.60
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-checker/1.60
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-checker
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-checker/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-checker
-
 

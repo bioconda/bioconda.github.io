@@ -5,14 +5,17 @@ perl-file-next
 
 |downloads|
 
-File-finding iterator
+File\-finding iterator
 
 ======== ===========
 Home     http://metacpan.org/pod/File::Next
 Versions 1.16
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-next
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-next
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-next/status
                 :target: https://quay.io/repository/biocontainers/perl-file-next
-
 

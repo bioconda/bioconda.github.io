@@ -5,14 +5,17 @@ bioconductor-frmatools
 
 |downloads|
 
-Tools for advanced use of the frma microarray package.
+Tools for advanced use of the frma microarray package\.
 
 ======== ===========
 Home     https://www.bioconductor.org/packages/release/bioc/html/frmaTools.html
 Versions 1.28.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frmatools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-frmatools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-frmatools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-frmatools
-
 

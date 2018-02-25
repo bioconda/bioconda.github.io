@@ -5,14 +5,17 @@ perl-data-dumper
 
 |downloads|
 
-stringified perl data structures, suitable for both printing and eval
+stringified perl data structures\, suitable for both printing and eval
 
 ======== ===========
 Home     http://search.cpan.org/~smueller/Data-Dumper-2.161/Dumper.pm
 Versions 2.161
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-dumper
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-dumper/status
                 :target: https://quay.io/repository/biocontainers/perl-data-dumper
-
 

@@ -5,14 +5,17 @@ hurry.filesize
 
 |downloads|
 
-A simple Python library for human readable file sizes (or anything sized in bytes).
+A simple Python library for human readable file sizes \(or anything sized in bytes\)\.
 
 ======== ===========
 Home     
 Versions 0.9
 License  ZPL 2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hurry.filesize
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hurry.filesize
 .. |docker| image:: https://quay.io/repository/biocontainers/hurry.filesize/status
                 :target: https://quay.io/repository/biocontainers/hurry.filesize
-
 

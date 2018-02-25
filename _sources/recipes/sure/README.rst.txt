@@ -12,7 +12,10 @@ Home     http://github.com/gabrielfalcao/sure
 Versions 1.2.24
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sure
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sure
 .. |docker| image:: https://quay.io/repository/biocontainers/sure/status
                 :target: https://quay.io/repository/biocontainers/sure
-
 

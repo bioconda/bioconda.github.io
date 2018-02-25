@@ -12,7 +12,10 @@ Home     https://github.com/cbg-ethz/ngshmmalign
 Versions 0.1.1
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngshmmalign/0.1.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ngshmmalign
 .. |docker| image:: https://quay.io/repository/biocontainers/ngshmmalign/status
                 :target: https://quay.io/repository/biocontainers/ngshmmalign
-
 

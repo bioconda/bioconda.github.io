@@ -5,14 +5,17 @@ ecmwfapi
 
 |downloads|
 
-ECMWF API is a set of services developed by ECMWF http://www.ecmwf.int to allow users from the outside to access some internal features and data of the centre.
+ECMWF API is a set of services developed by ECMWF http\:\/\/www\.ecmwf\.int to allow users from the outside to access some internal features and data of the centre\.
 
 ======== ===========
 Home     https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets#AccessECMWFPublicDatasets-clientlibraries
 Versions 1.4.1
 License  Apache Licence Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecmwfapi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ecmwfapi
 .. |docker| image:: https://quay.io/repository/biocontainers/ecmwfapi/status
                 :target: https://quay.io/repository/biocontainers/ecmwfapi
-
 

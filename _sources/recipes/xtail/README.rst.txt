@@ -5,14 +5,17 @@ xtail
 
 |downloads|
 
-Genome-wide assessment of differential translations with ribosome profiling data
+Genome\-wide assessment of differential translations with ribosome profiling data
 
 ======== ===========
 Home     https://github.com/xryanglab/xtail
 Versions 1.1.5
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtail
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xtail
 .. |docker| image:: https://quay.io/repository/biocontainers/xtail/status
                 :target: https://quay.io/repository/biocontainers/xtail
-
 

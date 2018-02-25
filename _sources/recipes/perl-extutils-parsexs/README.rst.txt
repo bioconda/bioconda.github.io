@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/ExtUtils::ParseXS
 Versions 3.28
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-parsexs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-parsexs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-parsexs/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-parsexs
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Array::Utils
 Versions 0.5
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-array-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-array-utils/status
                 :target: https://quay.io/repository/biocontainers/perl-array-utils
-
 

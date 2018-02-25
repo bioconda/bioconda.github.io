@@ -5,14 +5,17 @@ ucsc-linestora
 
 |downloads|
 
-generate .ra format from lines with pipe-separated fields
+generate \.ra format from lines with pipe\-separated fields
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-linestora
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-linestora
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-linestora/status
                 :target: https://quay.io/repository/biocontainers/ucsc-linestora
-
 

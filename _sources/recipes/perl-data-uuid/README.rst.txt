@@ -5,14 +5,17 @@ perl-data-uuid
 
 |downloads|
 
-Globally/Universally Unique Identifiers (GUIDs/UUIDs)
+Globally\/Universally Unique Identifiers \(GUIDs\/UUIDs\)
 
 ======== ===========
 Home     https://metacpan.org/pod/Data::UUID
 Versions 1.221
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-uuid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-uuid
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-uuid/status
                 :target: https://quay.io/repository/biocontainers/perl-data-uuid
-
 

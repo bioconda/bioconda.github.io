@@ -5,14 +5,17 @@ compalignp
 
 |downloads|
 
-Compute fractional "identity" between trusted alignment and test alignment.
+Compute fractional \"identity\" between trusted alignment and test alignment\.
 
 ======== ===========
 Home     http://www.biophys.uni-duesseldorf.de/bralibase/
 Versions 1.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/compalignp
 .. |docker| image:: https://quay.io/repository/biocontainers/compalignp/status
                 :target: https://quay.io/repository/biocontainers/compalignp
-
 

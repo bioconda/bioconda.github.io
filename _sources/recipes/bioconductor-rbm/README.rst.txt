@@ -5,14 +5,17 @@ bioconductor-rbm
 
 |downloads|
 
-Use A Resampling-Based Empirical Bayes Approach to Assess Differential Expression in Two-Color Microarrays and RNA-Seq data sets.
+Use A Resampling\-Based Empirical Bayes Approach to Assess Differential Expression in Two\-Color Microarrays and RNA\-Seq data sets\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RBM.html
 Versions 1.10.0, 1.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rbm
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rbm/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rbm
-
 

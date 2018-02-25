@@ -5,14 +5,17 @@ bioconductor-minet
 
 |downloads|
 
-This package implements various algorithms for inferring mutual information networks from data.
+This package implements various algorithms for inferring mutual information networks from data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/minet.html
 Versions 3.36.0
 License  file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-minet
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-minet/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-minet
-
 

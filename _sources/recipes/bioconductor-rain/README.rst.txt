@@ -5,14 +5,17 @@ bioconductor-rain
 
 |downloads|
 
-This package uses non-parametric methods to detect rhythms in time series. It deals with outliers, missing values and is optimized for time series comprising 10-100 measurements. As it does not assume expect any distinct waveform it is optimal or detecting oscillating behavior (e.g. circadian or cell cycle) in e.g. genome- or proteome-wide biological measurements such as: micro arrays, proteome mass spectrometry, or metabolome measurements.
+This package uses non\-parametric methods to detect rhythms in time series\. It deals with outliers\, missing values and is optimized for time series comprising 10\-100 measurements\. As it does not assume expect any distinct waveform it is optimal or detecting oscillating behavior \(e\.g\. circadian or cell cycle\) in e\.g\. genome\- or proteome\-wide biological measurements such as\: micro arrays\, proteome mass spectrometry\, or metabolome measurements\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rain.html
 Versions 1.10.0, 1.12.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rain
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rain
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rain/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rain
-
 

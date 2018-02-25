@@ -12,7 +12,10 @@ Home     https://bitbucket.org/setsuna80/mgkit/
 Versions 0.2.2, 0.3.0
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mgkit
 .. |docker| image:: https://quay.io/repository/biocontainers/mgkit/status
                 :target: https://quay.io/repository/biocontainers/mgkit
-
 

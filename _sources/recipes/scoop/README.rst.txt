@@ -12,7 +12,10 @@ Home     http://github.com/soravux/scoop
 Versions 0.7.1.1
 License  GNU Library or Lesser General Public License (LGPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scoop
 .. |docker| image:: https://quay.io/repository/biocontainers/scoop/status
                 :target: https://quay.io/repository/biocontainers/scoop
-
 

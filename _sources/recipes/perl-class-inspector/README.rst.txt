@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Class-Inspector
 Versions 1.28
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-inspector
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-inspector
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-inspector/status
                 :target: https://quay.io/repository/biocontainers/perl-class-inspector
-
 

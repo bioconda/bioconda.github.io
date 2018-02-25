@@ -5,14 +5,17 @@ ucsc-bedtobigbed
 
 |downloads|
 
-Convert bed file to bigBed. (BigBed version: 4)
+Convert bed file to bigBed\. \(BigBed version\: 4\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 323, 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedtobigbed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bedtobigbed
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedtobigbed/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bedtobigbed
-
 

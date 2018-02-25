@@ -5,14 +5,17 @@ bioconductor-cogps
 
 |downloads|
 
-Gene Set Enrichment Analysis of P-value based statistics for outlier gene detection in dataset merged from multiple studies
+Gene Set Enrichment Analysis of P\-value based statistics for outlier gene detection in dataset merged from multiple studies
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/coGPS.html
 Versions 1.22.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogps
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cogps
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cogps/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cogps
-
 

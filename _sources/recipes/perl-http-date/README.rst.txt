@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/HTTP-Date
 Versions 6.02
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-date
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-http-date
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-http-date/status
                 :target: https://quay.io/repository/biocontainers/perl-http-date
-
 

@@ -5,14 +5,17 @@ perl-bio-db-hts
 
 |downloads|
 
-Read files using HTSlib including BAM/CRAM, Tabix and BCF database files
+Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
 
 ======== ===========
 Home     https://metacpan.org/pod/Bio::DB::HTS
 Versions 2.4, 2.7
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-db-hts
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-db-hts/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-db-hts
-
 

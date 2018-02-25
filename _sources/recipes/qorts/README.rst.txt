@@ -5,14 +5,17 @@ qorts
 
 |downloads|
 
-The QoRTs software package is a fast, efficient, and portable multifunction toolkit designed to assist in the analysis, quality control, and data management of RNA-Seq datasets.
+The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets\.
 
 ======== ===========
 Home     http://hartleys.github.io/QoRTs/
 Versions 1.1.8
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,15 +30,16 @@ and update with::
 
    conda update qorts
 
+
 Notes
 -----
+QoRTs is Java program that comes with a custom wrapper shell script\.
+This shell wrapper is called \"qorts\" and is on \$PATH by default\. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
+specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
+set globally this will take precedence\.
+For example run it with \"qorts \-Xms512m \-Xmx1g\"
 
-QoRTs is Java program that comes with a custom wrapper shell script.
-This shell wrapper is called "qorts" and is on $PATH by default. By default
-"-Xms512m -Xmx1g" is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have _JAVA_OPTIONS
-set globally this will take precedence.
-For example run it with "qorts -Xms512m -Xmx1g"
 
 
 |docker|
@@ -55,5 +59,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qorts
 .. |docker| image:: https://quay.io/repository/biocontainers/qorts/status
                 :target: https://quay.io/repository/biocontainers/qorts
-
 

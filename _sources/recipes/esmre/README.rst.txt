@@ -12,7 +12,10 @@ Home     http://code.google.com/p/esmre/
 Versions 0.3.1
 License  GNU Library or Lesser General Public License (LGPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esmre
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/esmre
 .. |docker| image:: https://quay.io/repository/biocontainers/esmre/status
                 :target: https://quay.io/repository/biocontainers/esmre
-
 

@@ -12,7 +12,10 @@ Home     https://pypi.python.org/pypi/pdfkit
 Versions 0.5.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdfkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pdfkit
 .. |docker| image:: https://quay.io/repository/biocontainers/pdfkit/status
                 :target: https://quay.io/repository/biocontainers/pdfkit
-
 

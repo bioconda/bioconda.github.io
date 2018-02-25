@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Symbol
 Versions 1.07
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol/1.07
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-symbol
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-symbol/status
                 :target: https://quay.io/repository/biocontainers/perl-symbol
-
 

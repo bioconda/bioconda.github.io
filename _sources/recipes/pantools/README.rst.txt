@@ -5,14 +5,17 @@ pantools
 
 |downloads|
 
-PanTools is a disk-based java application for computational pan-genomics
+PanTools is a disk\-based java application for computational pan\-genomics
 
 ======== ===========
 Home     https://github.com/Sheikhizadeh/pantools
 Versions 1.0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pantools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pantools
 .. |docker| image:: https://quay.io/repository/biocontainers/pantools/status
                 :target: https://quay.io/repository/biocontainers/pantools
-
 

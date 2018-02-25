@@ -5,14 +5,17 @@ r-micropan
 
 |downloads|
 
-A collection of functions for computations and visualizations of microbial pan-genomes.
+A collection of functions for computations and visualizations of microbial pan\-genomes\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=micropan
 Versions 1.1.2
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-micropan
 .. |docker| image:: https://quay.io/repository/biocontainers/r-micropan/status
                 :target: https://quay.io/repository/biocontainers/r-micropan
-
 

@@ -5,14 +5,17 @@ cityhash
 
 |downloads|
 
-Python-bindings for CityHash, a fast non-cryptographic hash algorithm
+Python\-bindings for CityHash\, a fast non\-cryptographic hash algorithm
 
 ======== ===========
 Home     https://github.com/escherba/python-cityhash
 Versions 0.1.5, 0.1.7
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cityhash
 .. |docker| image:: https://quay.io/repository/biocontainers/cityhash/status
                 :target: https://quay.io/repository/biocontainers/cityhash
-
 

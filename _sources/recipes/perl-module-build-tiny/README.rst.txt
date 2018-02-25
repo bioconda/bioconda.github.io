@@ -5,14 +5,17 @@ perl-module-build-tiny
 
 |downloads|
 
-A tiny replacement for Module::Build
+A tiny replacement for Module\:\:Build
 
 ======== ===========
 Home     http://metacpan.org/pod/Module-Build-Tiny
 Versions 0.039
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-build-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-build-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-module-build-tiny
-
 

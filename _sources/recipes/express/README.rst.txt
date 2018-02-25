@@ -5,14 +5,17 @@ express
 
 |downloads|
 
-eXpress is a streaming DNA/RNA sequence quantification tool.
+eXpress is a streaming DNA\/RNA sequence quantification tool\.
 
 ======== ===========
 Home     http://bio.math.berkeley.edu/eXpress/
 Versions 1.5.1
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/express
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/express
 .. |docker| image:: https://quay.io/repository/biocontainers/express/status
                 :target: https://quay.io/repository/biocontainers/express
-
 

@@ -5,14 +5,17 @@ misopy
 
 |downloads|
 
-Mixture of Isoforms model (MISO) for isoform quantitation using RNA-Seq
+Mixture of Isoforms model \(MISO\) for isoform quantitation using RNA\-Seq
 
 ======== ===========
 Home     http://genes.mit.edu/burgelab/miso/
 Versions 0.5.4
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/misopy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/misopy
 .. |docker| image:: https://quay.io/repository/biocontainers/misopy/status
                 :target: https://quay.io/repository/biocontainers/misopy
-
 

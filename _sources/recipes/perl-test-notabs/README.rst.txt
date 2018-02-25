@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test-NoTabs
 Versions 1.4
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-notabs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-notabs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-notabs/status
                 :target: https://quay.io/repository/biocontainers/perl-test-notabs
-
 

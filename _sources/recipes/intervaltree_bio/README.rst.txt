@@ -12,7 +12,10 @@ Home     https://github.com/konstantint/intervaltree-bio
 Versions 1.0.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervaltree_bio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intervaltree_bio
 .. |docker| image:: https://quay.io/repository/biocontainers/intervaltree_bio/status
                 :target: https://quay.io/repository/biocontainers/intervaltree_bio
-
 

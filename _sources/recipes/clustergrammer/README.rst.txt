@@ -12,7 +12,10 @@ Home     https://github.com/MaayanLab/clustergrammer-py
 Versions 1.13.5
 License  MIT license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustergrammer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clustergrammer
 .. |docker| image:: https://quay.io/repository/biocontainers/clustergrammer/status
                 :target: https://quay.io/repository/biocontainers/clustergrammer
-
 

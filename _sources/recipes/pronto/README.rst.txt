@@ -12,7 +12,10 @@ Home     http://github.com/althonos/pronto
 Versions 0.10.2, 0.3.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pronto
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pronto
 .. |docker| image:: https://quay.io/repository/biocontainers/pronto/status
                 :target: https://quay.io/repository/biocontainers/pronto
-
 

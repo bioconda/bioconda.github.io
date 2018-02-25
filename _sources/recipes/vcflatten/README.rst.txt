@@ -5,14 +5,17 @@ vcflatten
 
 |downloads|
 
-A command line tool for flattening VCF files down to simpler TSV files.
+A command line tool for flattening VCF files down to simpler TSV files\.
 
 ======== ===========
 Home     http://innovativemedicine.ca/tools/vcflatten
 Versions 0.5.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflatten
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcflatten
 .. |docker| image:: https://quay.io/repository/biocontainers/vcflatten/status
                 :target: https://quay.io/repository/biocontainers/vcflatten
-
 

@@ -5,14 +5,17 @@ ghostz
 
 |downloads|
 
-GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering. GHOSTZ outputs search results in the format similar to BLAST-tabular format.
+GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering\. GHOSTZ outputs search results in the format similar to BLAST\-tabular format\.
 
 ======== ===========
 Home     http://www.bi.cs.titech.ac.jp/ghostz/
 Versions 1.0.0
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ghostz
 .. |docker| image:: https://quay.io/repository/biocontainers/ghostz/status
                 :target: https://quay.io/repository/biocontainers/ghostz
-
 

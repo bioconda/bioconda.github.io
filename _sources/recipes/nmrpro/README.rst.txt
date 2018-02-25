@@ -5,14 +5,17 @@ nmrpro
 
 |downloads|
 
-NMRPro reads and processes different types of NMR spectra.
+NMRPro reads and processes different types of NMR spectra\.
 
 ======== ===========
 Home     https://github.com/ahmohamed/nmrpro
 Versions 20161019
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrpro
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nmrpro
 .. |docker| image:: https://quay.io/repository/biocontainers/nmrpro/status
                 :target: https://quay.io/repository/biocontainers/nmrpro
-
 

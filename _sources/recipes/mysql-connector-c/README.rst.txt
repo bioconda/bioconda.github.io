@@ -5,14 +5,17 @@ mysql-connector-c
 
 |downloads|
 
-MySQL Connector/C, the C interface for communicating with MySQL servers.
+MySQL Connector\/C\, the C interface for communicating with MySQL servers\.
 
 ======== ===========
 Home     https://dev.mysql.com/downloads/connector/c/
 Versions 6.1.6
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysql-connector-c
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mysql-connector-c
 .. |docker| image:: https://quay.io/repository/biocontainers/mysql-connector-c/status
                 :target: https://quay.io/repository/biocontainers/mysql-connector-c
-
 

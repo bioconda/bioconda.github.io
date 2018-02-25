@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Log-Log4perl
 Versions 1.47
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-log4perl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-log-log4perl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-log-log4perl/status
                 :target: https://quay.io/repository/biocontainers/perl-log-log4perl
-
 

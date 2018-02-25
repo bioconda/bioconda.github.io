@@ -12,7 +12,10 @@ Home     https://github.com/admiralobvious/justbackoff
 Versions 0.4.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/justbackoff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/justbackoff
 .. |docker| image:: https://quay.io/repository/biocontainers/justbackoff/status
                 :target: https://quay.io/repository/biocontainers/justbackoff
-
 

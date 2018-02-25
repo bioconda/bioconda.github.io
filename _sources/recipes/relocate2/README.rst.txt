@@ -12,7 +12,10 @@ Home     https://github.com/stajichlab/RelocaTE2
 Versions 2.0.0, 2.0.1
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relocate2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/relocate2
 .. |docker| image:: https://quay.io/repository/biocontainers/relocate2/status
                 :target: https://quay.io/repository/biocontainers/relocate2
-
 

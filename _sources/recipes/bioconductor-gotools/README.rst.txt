@@ -5,14 +5,17 @@ bioconductor-gotools
 
 |downloads|
 
-Wraper functions for description/comparison of oligo ID list using Gene Ontology database
+Wraper functions for description\/comparison of oligo ID list using Gene Ontology database
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/goTools.html
 Versions 1.52.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gotools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gotools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gotools
-
 

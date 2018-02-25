@@ -5,14 +5,17 @@ python-libsbml
 
 |downloads|
 
-LibSBML Python API. LibSBML is a library for reading, writing and manipulating the Systems Biology Markup Language (SBML).
+LibSBML Python API\. LibSBML is a library for reading\, writing and manipulating the Systems Biology Markup Language \(SBML\)\.
 
 ======== ===========
 Home     http://sbml.org
 Versions 5.12.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsbml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-libsbml
 .. |docker| image:: https://quay.io/repository/biocontainers/python-libsbml/status
                 :target: https://quay.io/repository/biocontainers/python-libsbml
-
 

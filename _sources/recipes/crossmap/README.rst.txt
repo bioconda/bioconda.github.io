@@ -12,7 +12,10 @@ Home     http://crossmap.sourceforge.net
 Versions 0.2.1, 0.2.2, 0.2.5, 0.2.7
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/crossmap
 .. |docker| image:: https://quay.io/repository/biocontainers/crossmap/status
                 :target: https://quay.io/repository/biocontainers/crossmap
-
 

@@ -5,14 +5,17 @@ bioconductor-htsfilter
 
 |downloads|
 
-This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low, constant levels of expression across one or more experimental conditions.
+This package implements a filtering procedure for replicated transcriptome sequencing data based on a global Jaccard similarity index in order to identify genes with low\, constant levels of expression across one or more experimental conditions\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/HTSFilter.html
 Versions 1.18.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-htsfilter
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-htsfilter/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-htsfilter
-
 

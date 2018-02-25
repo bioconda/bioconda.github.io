@@ -12,7 +12,10 @@ Home     http://soap.genomics.org.cn/soapdenovo.html
 Versions 2.03
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapec
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/soapec
 .. |docker| image:: https://quay.io/repository/biocontainers/soapec/status
                 :target: https://quay.io/repository/biocontainers/soapec
-
 

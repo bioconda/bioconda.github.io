@@ -5,14 +5,17 @@ perl-test-simple
 
 |downloads|
 
-Basic utilities for writing tests.
+Basic utilities for writing tests\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Test-Simple
 Versions 1.302052, 1.302075
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-test-simple
-
 

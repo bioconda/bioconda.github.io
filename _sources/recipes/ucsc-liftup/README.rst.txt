@@ -5,14 +5,17 @@ ucsc-liftup
 
 |downloads|
 
-change coordinates of .psl, .agp, .gap, .gl, .out, .align, .gff, .gtf
+change coordinates of \.psl\, \.agp\, \.gap\, \.gl\, \.out\, \.align\, \.gff\, \.gtf
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-liftup
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-liftup
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-liftup/status
                 :target: https://quay.io/repository/biocontainers/ucsc-liftup
-
 

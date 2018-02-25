@@ -5,14 +5,17 @@ star
 
 |downloads|
 
-An RNA-seq read aligner.
+An RNA\-seq read aligner\.
 
 ======== ===========
 Home     https://github.com/alexdobin/STAR
 Versions 2.4.2a, 2.5.0a, 2.5.0b, 2.5.0c, 2.5.1b, 2.5.2a, 2.5.2b, 2.5.3a, 2.5.4a
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/star
 .. |docker| image:: https://quay.io/repository/biocontainers/star/status
                 :target: https://quay.io/repository/biocontainers/star
-
 

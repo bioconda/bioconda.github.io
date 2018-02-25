@@ -5,14 +5,17 @@ ucsc-checkagpandfa
 
 |downloads|
 
-takes a .agp file and .fa file and ensures that they are in synch
+takes a \.agp file and \.fa file and ensures that they are in synch
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checkagpandfa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-checkagpandfa
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-checkagpandfa/status
                 :target: https://quay.io/repository/biocontainers/ucsc-checkagpandfa
-
 

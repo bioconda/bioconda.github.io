@@ -5,14 +5,17 @@ ucsc-twobitmask
 
 |downloads|
 
-apply masking to a .2bit file, creating a new .2bit file
+apply masking to a \.2bit file\, creating a new \.2bit file
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-twobitmask
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-twobitmask
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-twobitmask/status
                 :target: https://quay.io/repository/biocontainers/ucsc-twobitmask
-
 

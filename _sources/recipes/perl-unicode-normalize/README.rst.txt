@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Unicode::Normalize
 Versions 1.18
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-normalize/1.17
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-unicode-normalize
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-unicode-normalize/status
                 :target: https://quay.io/repository/biocontainers/perl-unicode-normalize
-
 

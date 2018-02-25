@@ -5,14 +5,17 @@ perl-text-asciitable
 
 |downloads|
 
-Create a nice formatted table using ASCII characters.
+Create a nice formatted table using ASCII characters\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Text::ASCIITable
 Versions 0.22
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-asciitable/0.22
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-asciitable
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-asciitable/status
                 :target: https://quay.io/repository/biocontainers/perl-text-asciitable
-
 

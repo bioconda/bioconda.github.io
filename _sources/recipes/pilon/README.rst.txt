@@ -5,14 +5,17 @@ pilon
 
 |downloads|
 
-Pilon is an automated genome assembly improvement and variant detection tool.
+Pilon is an automated genome assembly improvement and variant detection tool\.
 
 ======== ===========
 Home     https://github.com/broadinstitute/pilon/
 Versions 1.16, 1.17, 1.18, 1.19, 1.20, 1.22
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pilon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pilon
 .. |docker| image:: https://quay.io/repository/biocontainers/pilon/status
                 :target: https://quay.io/repository/biocontainers/pilon
-
 

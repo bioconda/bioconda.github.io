@@ -5,14 +5,17 @@ itk
 
 |downloads|
 
-ITK is an open-source, cross-platform system that provides developers with an extensive suite of software tools for image analysis.
+ITK is an open\-source\, cross\-platform system that provides developers with an extensive suite of software tools for image analysis\.
 
 ======== ===========
 Home     http://www.itk.org/
 Versions 4.10.1, 4.6.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/itk
 .. |docker| image:: https://quay.io/repository/biocontainers/itk/status
                 :target: https://quay.io/repository/biocontainers/itk
-
 

@@ -5,14 +5,17 @@ perl-io-interactive
 
 |downloads|
 
-Utilities for interactive I/O
+Utilities for interactive I\/O
 
 ======== ===========
 Home     https://github.com/briandfoy/io-interactive
 Versions 1.021
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-interactive
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-interactive/status
                 :target: https://quay.io/repository/biocontainers/perl-io-interactive
-
 

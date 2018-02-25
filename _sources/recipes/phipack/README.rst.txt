@@ -5,14 +5,17 @@ phipack
 
 |downloads|
 
-Simple, rapid, and statistically efficient test for recombination.
+Simple\, rapid\, and statistically efficient test for recombination\.
 
 ======== ===========
 Home     http://www.maths.otago.ac.nz/~dbryant/software.html
 Versions 1.0
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/phipack
 .. |docker| image:: https://quay.io/repository/biocontainers/phipack/status
                 :target: https://quay.io/repository/biocontainers/phipack
-
 

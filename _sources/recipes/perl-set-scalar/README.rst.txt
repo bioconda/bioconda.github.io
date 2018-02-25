@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Set-Scalar
 Versions 1.29
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-scalar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-set-scalar
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-set-scalar/status
                 :target: https://quay.io/repository/biocontainers/perl-set-scalar
-
 

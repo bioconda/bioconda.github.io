@@ -5,14 +5,17 @@ bioconductor-psygenet2r
 
 |downloads|
 
-Package to retrieve data from PsyGeNET database (www.psygenet.org) and to perform comorbidity studies with PsyGeNET's and user's data.
+Package to retrieve data from PsyGeNET database \(www\.psygenet\.org\) and to perform comorbidity studies with PsyGeNET\'s and user\'s data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/psygenet2r.html
 Versions 1.10.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psygenet2r
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-psygenet2r
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-psygenet2r/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-psygenet2r
-
 

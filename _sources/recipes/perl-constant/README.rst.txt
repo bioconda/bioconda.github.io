@@ -12,7 +12,10 @@ Home     https://metacpan.org/module/constant
 Versions 1.33
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-constant/1.33
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-constant
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-constant/status
                 :target: https://quay.io/repository/biocontainers/perl-constant
-
 

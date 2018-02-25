@@ -6,7 +6,7 @@ qtip
 |downloads|
 
 A tandem simulation approach for accurately predicting read alignment
-mapping qualities.
+mapping qualities\.
 
 
 ======== ===========
@@ -14,7 +14,10 @@ Home     https://github.com/BenLangmead/qtip
 Versions 1.6.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -29,11 +32,12 @@ and update with::
 
    conda update qtip
 
+
 Notes
 -----
+For running qtip\, you will need to install any of the supported read mappers\,
+\(e\.g\.\, bowtie2\)\, in the minimum required version\. See homepage for details\.
 
-For running qtip, you will need to install any of the supported read mappers,
-(e.g., bowtie2), in the minimum required version. See homepage for details.
 
 
 |docker|
@@ -53,5 +57,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qtip
 .. |docker| image:: https://quay.io/repository/biocontainers/qtip/status
                 :target: https://quay.io/repository/biocontainers/qtip
-
 

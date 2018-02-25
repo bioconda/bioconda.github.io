@@ -5,14 +5,17 @@ bioconductor-aims
 
 |downloads|
 
-This package contains the AIMS implementation. It contains necessary functions to assign the five intrinsic molecular subtypes (Luminal A, Luminal B, Her2-enriched, Basal-like, Normal-like). Assignments could be done on individual samples as well as on dataset of gene expression data.
+This package contains the AIMS implementation\. It contains necessary functions to assign the five intrinsic molecular subtypes \(Luminal A\, Luminal B\, Her2\-enriched\, Basal\-like\, Normal\-like\)\. Assignments could be done on individual samples as well as on dataset of gene expression data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/AIMS.html
 Versions 1.10.0, 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aims
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-aims
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-aims/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-aims
-
 

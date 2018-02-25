@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/pylibseq
 Versions 0.1.8, 0.1.9.post0, 0.2.0
 License  GNU Lesser General Public License v2 or later (LGPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pylibseq
 .. |docker| image:: https://quay.io/repository/biocontainers/pylibseq/status
                 :target: https://quay.io/repository/biocontainers/pylibseq
-
 

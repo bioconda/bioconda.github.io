@@ -5,14 +5,17 @@ perl-statistics-lite
 
 |downloads|
 
-Small stats stuff.
+Small stats stuff\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Statistics-Lite
 Versions 3.62
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-lite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-statistics-lite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-statistics-lite/status
                 :target: https://quay.io/repository/biocontainers/perl-statistics-lite
-
 

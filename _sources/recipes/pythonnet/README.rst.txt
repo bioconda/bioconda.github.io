@@ -5,14 +5,17 @@ pythonnet
 
 |downloads|
 
-.Net and Mono integration for Python
+\.Net and Mono integration for Python
 
 ======== ===========
 Home     https://pythonnet.github.io/
 Versions 2.3.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonnet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pythonnet
 .. |docker| image:: https://quay.io/repository/biocontainers/pythonnet/status
                 :target: https://quay.io/repository/biocontainers/pythonnet
-
 

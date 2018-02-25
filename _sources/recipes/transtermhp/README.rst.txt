@@ -5,14 +5,17 @@ transtermhp
 
 |downloads|
 
-TransTermHP finds rho-independent transcription terminators in bacterial genomes
+TransTermHP finds rho\-independent transcription terminators in bacterial genomes
 
 ======== ===========
 Home     http://transterm.cbcb.umd.edu/index.php
 Versions 2.09
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/transtermhp
 .. |docker| image:: https://quay.io/repository/biocontainers/transtermhp/status
                 :target: https://quay.io/repository/biocontainers/transtermhp
-
 

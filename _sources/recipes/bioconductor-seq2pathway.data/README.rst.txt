@@ -5,14 +5,17 @@ bioconductor-seq2pathway.data
 
 |downloads|
 
-Supporting data for the seq2patheway package. Includes modified gene sets from MsigDB and org.Hs.eg.db; gene locus definitions from GENCODE project.
+Supporting data for the seq2patheway package\. Includes modified gene sets from MsigDB and org\.Hs\.eg\.db\; gene locus definitions from GENCODE project\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/seq2pathway.data.html
 Versions 1.10.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seq2pathway.data
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-seq2pathway.data
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-seq2pathway.data
-
 

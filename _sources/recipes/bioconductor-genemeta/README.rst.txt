@@ -5,14 +5,17 @@ bioconductor-genemeta
 
 |downloads|
 
-A collection of meta-analysis tools for analysing high throughput experimental data
+A collection of meta\-analysis tools for analysing high throughput experimental data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GeneMeta.html
 Versions 1.50.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genemeta
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genemeta/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genemeta
-
 

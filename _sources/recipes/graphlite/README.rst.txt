@@ -12,7 +12,10 @@ Home     https://github.com/eugene-eeo/graphlite
 Versions 1.0.5
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graphlite
 .. |docker| image:: https://quay.io/repository/biocontainers/graphlite/status
                 :target: https://quay.io/repository/biocontainers/graphlite
-
 

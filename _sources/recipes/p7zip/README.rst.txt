@@ -5,14 +5,17 @@ p7zip
 
 |downloads|
 
-p7zip is a quick port of 7z.exe and 7za.exe (command line version of 7zip, see www.7-zip.org ) for Unix.
+p7zip is a quick port of 7z\.exe and 7za\.exe \(command line version of 7zip\, see www\.7\-zip\.org \) for Unix\.
 
 ======== ===========
 Home     http://sourceforge.net/projects/p7zip/
 Versions 15.09
 License  LGPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p7zip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/p7zip
 .. |docker| image:: https://quay.io/repository/biocontainers/p7zip/status
                 :target: https://quay.io/repository/biocontainers/p7zip
-
 

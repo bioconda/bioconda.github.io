@@ -12,7 +12,10 @@ Home     http://www.vicbioinformatics.com/software.prokka.shtml
 Versions 1.11, 1.12
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prokka
 .. |docker| image:: https://quay.io/repository/biocontainers/prokka/status
                 :target: https://quay.io/repository/biocontainers/prokka
-
 

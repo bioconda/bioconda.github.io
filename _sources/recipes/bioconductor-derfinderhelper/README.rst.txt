@@ -5,14 +5,17 @@ bioconductor-derfinderhelper
 
 |downloads|
 
-Helper package for speeding up the derfinder package when using multiple cores.
+Helper package for speeding up the derfinder package when using multiple cores\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/derfinderHelper.html
 Versions 1.10.0, 1.12.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderhelper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-derfinderhelper
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-derfinderhelper/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-derfinderhelper
-
 

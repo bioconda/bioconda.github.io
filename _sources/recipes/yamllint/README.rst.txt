@@ -5,14 +5,17 @@ yamllint
 
 |downloads|
 
-A linter for YAML files.
+A linter for YAML files\.
 
 ======== ===========
 Home     https://github.com/adrienverge/yamllint
 Versions 1.2.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yamllint
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/yamllint
 .. |docker| image:: https://quay.io/repository/biocontainers/yamllint/status
                 :target: https://quay.io/repository/biocontainers/yamllint
-
 

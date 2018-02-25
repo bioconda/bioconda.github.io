@@ -5,14 +5,17 @@ yass
 
 |downloads|
 
-YASS is a genomic similarity search tool, for nucleic (DNA/RNA) sequences in fasta or plain text format.
+YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format\.
 
 ======== ===========
 Home     http://bioinfo.lifl.fr/yass/
 Versions 1.14
 License  CeCILL Free Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yass
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/yass
 .. |docker| image:: https://quay.io/repository/biocontainers/yass/status
                 :target: https://quay.io/repository/biocontainers/yass
-
 

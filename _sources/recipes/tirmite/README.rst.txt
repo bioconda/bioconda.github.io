@@ -5,14 +5,17 @@ tirmite
 
 |downloads|
 
-Map TIR-pHMM models to genomic sequences for annotation of MITES and complete DNA-Transposons.
+Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete DNA\-Transposons\.
 
 ======== ===========
 Home     https://github.com/Adamtaranto/TIRmite
 Versions 1.1.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tirmite
 .. |docker| image:: https://quay.io/repository/biocontainers/tirmite/status
                 :target: https://quay.io/repository/biocontainers/tirmite
-
 

@@ -5,14 +5,17 @@ hubward-all
 
 |downloads|
 
-Meta-package for hubward including bedtools and UCSC tools
+Meta\-package for hubward including bedtools and UCSC tools
 
 ======== ===========
 Home     
 Versions 0.2.1
 License  The license for this meta-package is MIT; individual tools vary
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hubward-all
 .. |docker| image:: https://quay.io/repository/biocontainers/hubward-all/status
                 :target: https://quay.io/repository/biocontainers/hubward-all
-
 

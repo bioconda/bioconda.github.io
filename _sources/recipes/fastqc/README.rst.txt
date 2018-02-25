@@ -5,14 +5,17 @@ fastqc
 
 |downloads|
 
-A quality control tool for high throughput sequence data.
+A quality control tool for high throughput sequence data\.
 
 ======== ===========
 Home     http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 Versions 0.10.1, 0.11.2, 0.11.3, 0.11.4, 0.11.5, 0.11.6, 0.11.7
 License  GPL >=3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastqc
 .. |docker| image:: https://quay.io/repository/biocontainers/fastqc/status
                 :target: https://quay.io/repository/biocontainers/fastqc
-
 

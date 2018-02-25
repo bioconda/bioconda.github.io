@@ -5,14 +5,17 @@ bioconductor-lvsmirna
 
 |downloads|
 
-Normalization of Agilent miRNA arrays.
+Normalization of Agilent miRNA arrays\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/LVSmiRNA.html
 Versions 1.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lvsmirna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-lvsmirna
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lvsmirna/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-lvsmirna
-
 

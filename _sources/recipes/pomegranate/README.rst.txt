@@ -5,14 +5,17 @@ pomegranate
 
 |downloads|
 
-Pomegranate is a graphical models library for Python, implemented in Cython for speed.
+Pomegranate is a graphical models library for Python\, implemented in Cython for speed\.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/pomegranate/
 Versions 0.3.7
 License  LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pomegranate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pomegranate
 .. |docker| image:: https://quay.io/repository/biocontainers/pomegranate/status
                 :target: https://quay.io/repository/biocontainers/pomegranate
-
 

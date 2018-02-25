@@ -5,14 +5,17 @@ cmph
 
 |downloads|
 
-CMPH - C Minimal Perfect Hashing Library
+CMPH \- C Minimal Perfect Hashing Library
 
 ======== ===========
 Home     http://cmph.sourceforge.net/
 Versions 2.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmph
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cmph
 .. |docker| image:: https://quay.io/repository/biocontainers/cmph/status
                 :target: https://quay.io/repository/biocontainers/cmph
-
 

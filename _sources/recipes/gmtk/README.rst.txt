@@ -5,14 +5,17 @@ gmtk
 
 |downloads|
 
-A publicly available toolkit for rapidly prototyping statistical models using dynamic graphical models (DGMs) and dynamic Bayesian networks (DBNs)
+A publicly available toolkit for rapidly prototyping statistical models using dynamic graphical models \(DGMs\) and dynamic Bayesian networks \(DBNs\)
 
 ======== ===========
 Home     http://melodi.ee.washington.edu/gmtk/
 Versions 1.4.4
 License  OSL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmtk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gmtk
 .. |docker| image:: https://quay.io/repository/biocontainers/gmtk/status
                 :target: https://quay.io/repository/biocontainers/gmtk
-
 

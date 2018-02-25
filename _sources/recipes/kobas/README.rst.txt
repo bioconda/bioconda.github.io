@@ -12,7 +12,10 @@ Home     http://kobas.cbi.pku.edu.cn
 Versions 2.1.1, 3.0.3
 License  Biopython License Agreement
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kobas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kobas
 .. |docker| image:: https://quay.io/repository/biocontainers/kobas/status
                 :target: https://quay.io/repository/biocontainers/kobas
-
 

@@ -12,7 +12,10 @@ Home     https://igdiscover.se/
 Versions 0.3, 0.4, 0.5, 0.6.0, 0.7.0, 0.8.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igdiscover
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/igdiscover
 .. |docker| image:: https://quay.io/repository/biocontainers/igdiscover/status
                 :target: https://quay.io/repository/biocontainers/igdiscover
-
 

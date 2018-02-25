@@ -5,14 +5,17 @@ snvphyl-tools
 
 |downloads|
 
-The SNVPhyl (Single Nucleotide Variant PHYLogenomics) pipeline is a pipeline for identifying Single Nucleotide Variants (SNV) within a collection of microbial genomes and constructing a phylogenetic tree
+The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline for identifying Single Nucleotide Variants \(SNV\) within a collection of microbial genomes and constructing a phylogenetic tree
 
 ======== ===========
 Home     https://github.com/phac-nml/snvphyl-tools
 Versions 1.8.1
 License  apache_2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snvphyl-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snvphyl-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/snvphyl-tools/status
                 :target: https://quay.io/repository/biocontainers/snvphyl-tools
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Template-Toolkit
 Versions 2.26
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-template-toolkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-template-toolkit
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-template-toolkit/status
                 :target: https://quay.io/repository/biocontainers/perl-template-toolkit
-
 

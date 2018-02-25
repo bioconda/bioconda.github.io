@@ -5,14 +5,17 @@ ucsc-bigwigcorrelate
 
 |downloads|
 
-Correlate bigWig files, optionally only on target regions.
+Correlate bigWig files\, optionally only on target regions\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigcorrelate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bigwigcorrelate
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bigwigcorrelate/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bigwigcorrelate
-
 

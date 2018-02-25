@@ -5,14 +5,17 @@ perl-number-misc
 
 |downloads|
 
-Number::Misc - handy utilities for numbers
+Number\:\:Misc \- handy utilities for numbers
 
 ======== ===========
 Home     http://metacpan.org/pod/Number::Misc
 Versions 1.2
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc/1.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-number-misc
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-number-misc/status
                 :target: https://quay.io/repository/biocontainers/perl-number-misc
-
 

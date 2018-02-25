@@ -5,14 +5,17 @@ hisat2
 
 |downloads|
 
-graph-based alignment of next generation sequencing reads to a population of genomes
+graph\-based alignment of next generation sequencing reads to a population of genomes
 
 ======== ===========
 Home     https://ccb.jhu.edu/software/hisat2/index.shtml
 Versions 2.0.0beta, 2.0.1beta, 2.0.2beta, 2.0.3beta, 2.0.4, 2.0.5, 2.1.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hisat2
 .. |docker| image:: https://quay.io/repository/biocontainers/hisat2/status
                 :target: https://quay.io/repository/biocontainers/hisat2
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/BioPerl
 Versions 1.6.924
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bioperl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bioperl/status
                 :target: https://quay.io/repository/biocontainers/perl-bioperl
-
 

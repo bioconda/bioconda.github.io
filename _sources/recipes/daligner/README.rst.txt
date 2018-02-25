@@ -5,14 +5,17 @@ daligner
 
 |downloads|
 
-DALIGNER: Find all significant local alignments between reads
+DALIGNER\: Find all significant local alignments between reads
 
 ======== ===========
 Home     https://github.com/thegenemyers/DALIGNER
 Versions 1.0, 1.0p1, 1.0p2
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daligner
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/daligner
 .. |docker| image:: https://quay.io/repository/biocontainers/daligner/status
                 :target: https://quay.io/repository/biocontainers/daligner
-
 

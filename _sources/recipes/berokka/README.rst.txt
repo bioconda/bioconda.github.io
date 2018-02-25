@@ -5,14 +5,17 @@ berokka
 
 |downloads|
 
-Trim, circularise and orient long read bacterial genome assemblies.
+Trim\, circularise and orient long read bacterial genome assemblies\.
 
 ======== ===========
 Home     https://github.com/tseemann/berokka
 Versions 0.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/berokka
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/berokka
 .. |docker| image:: https://quay.io/repository/biocontainers/berokka/status
                 :target: https://quay.io/repository/biocontainers/berokka
-
 

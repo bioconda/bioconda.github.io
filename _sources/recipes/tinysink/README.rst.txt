@@ -5,14 +5,17 @@ tinysink
 
 |downloads|
 
-Synchronise Nanopore reads with a server.
+Synchronise Nanopore reads with a server\.
 
 ======== ===========
 Home     https://github.com/mbhall88/tinysink
 Versions 1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinysink
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tinysink
 .. |docker| image:: https://quay.io/repository/biocontainers/tinysink/status
                 :target: https://quay.io/repository/biocontainers/tinysink
-
 

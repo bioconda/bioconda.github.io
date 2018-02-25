@@ -12,7 +12,10 @@ Home     https://github.com/beagle-dev/beagle-lib
 Versions 2.1.2
 License  GPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle-lib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/beagle-lib
 .. |docker| image:: https://quay.io/repository/biocontainers/beagle-lib/status
                 :target: https://quay.io/repository/biocontainers/beagle-lib
-
 

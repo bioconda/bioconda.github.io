@@ -5,14 +5,17 @@ dxua
 
 |downloads|
 
-command-line tool for uploading files to the DNAnexus Platform
+command\-line tool for uploading files to the DNAnexus Platform
 
 ======== ===========
 Home     https://wiki.dnanexus.com/Downloads#Upload-Agent
 Versions 1.5.11, 1.5.26
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxua
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dxua
 .. |docker| image:: https://quay.io/repository/biocontainers/dxua/status
                 :target: https://quay.io/repository/biocontainers/dxua
-
 

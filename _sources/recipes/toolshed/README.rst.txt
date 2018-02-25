@@ -12,7 +12,10 @@ Home     https://github.com/brentp/toolshed
 Versions 0.4.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toolshed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/toolshed
 .. |docker| image:: https://quay.io/repository/biocontainers/toolshed/status
                 :target: https://quay.io/repository/biocontainers/toolshed
-
 

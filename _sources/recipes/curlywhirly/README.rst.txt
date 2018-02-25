@@ -5,14 +5,17 @@ curlywhirly
 
 |downloads|
 
-CurlyWhirly is an application for viewing multi-dimensional data, with a particular focus on the outputs of Principle Coordinate Analysis and Principal Components Analysis
+CurlyWhirly is an application for viewing multi\-dimensional data\, with a particular focus on the outputs of Principle Coordinate Analysis and Principal Components Analysis
 
 ======== ===========
 Home     https://ics.hutton.ac.uk/curlywhirly
 Versions 1.17.08.31
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curlywhirly
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/curlywhirly
 .. |docker| image:: https://quay.io/repository/biocontainers/curlywhirly/status
                 :target: https://quay.io/repository/biocontainers/curlywhirly
-
 

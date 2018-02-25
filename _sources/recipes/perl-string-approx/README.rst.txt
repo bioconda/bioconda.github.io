@@ -5,14 +5,17 @@ perl-string-approx
 
 |downloads|
 
-Perl extension for approximate matching (fuzzy matching)
+Perl extension for approximate matching \(fuzzy matching\)
 
 ======== ===========
 Home     http://metacpan.org/pod/String::Approx
 Versions 3.27
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-approx/3.27
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-string-approx
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-string-approx/status
                 :target: https://quay.io/repository/biocontainers/perl-string-approx
-
 

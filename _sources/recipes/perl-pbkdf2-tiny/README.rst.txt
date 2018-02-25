@@ -5,14 +5,17 @@ perl-pbkdf2-tiny
 
 |downloads|
 
-Minimalist PBKDF2 (RFC 2898) with HMAC-SHA1 or HMAC-SHA2
+Minimalist PBKDF2 \(RFC 2898\) with HMAC\-SHA1 or HMAC\-SHA2
 
 ======== ===========
 Home     https://github.com/dagolden/PBKDF2-Tiny
 Versions 0.005
 License  apache_2_0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pbkdf2-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pbkdf2-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-pbkdf2-tiny
-
 

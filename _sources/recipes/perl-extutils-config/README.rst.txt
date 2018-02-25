@@ -5,14 +5,17 @@ perl-extutils-config
 
 |downloads|
 
-A wrapper for perl's configuration
+A wrapper for perl\'s configuration
 
 ======== ===========
 Home     http://metacpan.org/pod/ExtUtils-Config
 Versions 0.008
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-config
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-config
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-config/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-config
-
 

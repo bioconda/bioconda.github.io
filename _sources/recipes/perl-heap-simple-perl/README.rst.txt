@@ -5,14 +5,17 @@ perl-heap-simple-perl
 
 |downloads|
 
-A pure perl implementation of the Heap::Simple interface
+A pure perl implementation of the Heap\:\:Simple interface
 
 ======== ===========
 Home     http://metacpan.org/pod/Heap::Simple::Perl
 Versions 0.14
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple-perl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-heap-simple-perl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-heap-simple-perl/status
                 :target: https://quay.io/repository/biocontainers/perl-heap-simple-perl
-
 

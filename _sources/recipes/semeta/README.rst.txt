@@ -5,9 +5,9 @@ semeta
 
 |downloads|
 
-SeMeta is a new software for taxonomic assignment of metagenomic reads. It
-supports both single-end and paired-end reads. The software is implemented
-in C++
+SeMeta is a new software for taxonomic assignment of metagenomic reads\. It
+supports both single\-end and paired\-end reads\. The software is implemented
+in C\+\+
 
 
 ======== ===========
@@ -15,7 +15,10 @@ Home     http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
 Versions 1.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -30,10 +33,11 @@ and update with::
 
    conda update semeta
 
+
 Notes
 -----
+Databases are required\. Please see the project homepage\.
 
-Databases are required. Please see the project homepage.
 
 |docker|
 
@@ -52,5 +56,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/semeta
 .. |docker| image:: https://quay.io/repository/biocontainers/semeta/status
                 :target: https://quay.io/repository/biocontainers/semeta
-
 

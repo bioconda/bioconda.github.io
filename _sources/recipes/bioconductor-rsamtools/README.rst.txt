@@ -5,14 +5,17 @@ bioconductor-rsamtools
 
 |downloads|
 
-This package provides an interface to the 'samtools', 'bcftools', and 'tabix' utilities (see 'LICENCE') for manipulating SAM (Sequence Alignment / Map), FASTA, binary variant call (BCF) and compressed indexed tab-delimited (tabix) files.
+This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'tabix\' utilities \(see \'LICENCE\'\) for manipulating SAM \(Sequence Alignment \/ Map\)\, FASTA\, binary variant call \(BCF\) and compressed indexed tab\-delimited \(tabix\) files\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Rsamtools.html
 Versions 1.22.0, 1.24.0, 1.26.1, 1.28.0, 1.30.0
 License  Artistic-2.0 | file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rsamtools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rsamtools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rsamtools
-
 

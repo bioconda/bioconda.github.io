@@ -12,7 +12,10 @@ Home     https://github.com/wwood/OrfM
 Versions 0.6.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/orfm
 .. |docker| image:: https://quay.io/repository/biocontainers/orfm/status
                 :target: https://quay.io/repository/biocontainers/orfm
-
 

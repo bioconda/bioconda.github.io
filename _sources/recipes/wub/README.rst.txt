@@ -12,7 +12,10 @@ Home     https://github.com/nanoporetech/wub
 Versions 0.1.0, 0.2.0
 License  MPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wub
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wub
 .. |docker| image:: https://quay.io/repository/biocontainers/wub/status
                 :target: https://quay.io/repository/biocontainers/wub
-
 

@@ -12,7 +12,10 @@ Home     http://github.com/uweschmitt/pyprophet
 Versions 0.22.0, 0.24.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyprophet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyprophet
 .. |docker| image:: https://quay.io/repository/biocontainers/pyprophet/status
                 :target: https://quay.io/repository/biocontainers/pyprophet
-
 

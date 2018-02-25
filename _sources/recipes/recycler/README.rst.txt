@@ -12,7 +12,10 @@ Home     https://github.com/Shamir-Lab/Recycler
 Versions 0.6, 0.6.2, 0.6p1
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recycler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/recycler
 .. |docker| image:: https://quay.io/repository/biocontainers/recycler/status
                 :target: https://quay.io/repository/biocontainers/recycler
-
 

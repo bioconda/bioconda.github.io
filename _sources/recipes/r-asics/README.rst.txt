@@ -5,14 +5,17 @@ r-asics
 
 |downloads|
 
-With a set of pure metabolite spectra, ASICS quantifies  metabolites concentration in a complex spectrum. The identification of  metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty. The method and its statistical properties are  described in Tardivel et al. (2017) <doi:10.1007/s11306-017-1244-5>. 
+With a set of pure metabolite spectra\, ASICS quantifies  metabolites concentration in a complex spectrum\. The identification of  metabolites is performed by fitting a mixture model to the spectra of the library with a sparse penalty\. The method and its statistical properties are  described in Tardivel et al\. \(2017\) \<doi\:10\.1007\/s11306\-017\-1244\-5\>\. 
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=ASICS
 Versions 1.0.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-asics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-asics
 .. |docker| image:: https://quay.io/repository/biocontainers/r-asics/status
                 :target: https://quay.io/repository/biocontainers/r-asics
-
 

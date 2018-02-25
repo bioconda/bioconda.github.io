@@ -5,14 +5,17 @@ perl-importer
 
 |downloads|
 
-Alternative but compatible interface to modules that export symbols.
+Alternative but compatible interface to modules that export symbols\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Importer
 Versions 0.024
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-importer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-importer
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-importer/status
                 :target: https://quay.io/repository/biocontainers/perl-importer
-
 

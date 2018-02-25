@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/GDTextUtil
 Versions 0.86
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdtextutil
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-gdtextutil
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-gdtextutil/status
                 :target: https://quay.io/repository/biocontainers/perl-gdtextutil
-
 

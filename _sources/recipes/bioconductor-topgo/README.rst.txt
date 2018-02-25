@@ -5,14 +5,17 @@ bioconductor-topgo
 
 |downloads|
 
-topGO package provides tools for testing GO terms while accounting for the topology of the GO graph. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied.
+topGO package provides tools for testing GO terms while accounting for the topology of the GO graph\. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/topGO.html
 Versions 2.22.0, 2.24.0, 2.28.0, 2.30.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topgo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-topgo
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-topgo/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-topgo
-
 

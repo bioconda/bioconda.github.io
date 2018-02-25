@@ -5,14 +5,17 @@ perl-config-tiny
 
 |downloads|
 
-Read/Write .ini style files with as little code as possible
+Read\/Write \.ini style files with as little code as possible
 
 ======== ===========
 Home     http://metacpan.org/pod/Config::Tiny
 Versions 2.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-config-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-config-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-config-tiny
-
 

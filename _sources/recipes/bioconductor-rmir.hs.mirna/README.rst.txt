@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/RmiR.Hs.miRNA
 Versions 1.0.7
 License  The Artistic License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir.hs.mirna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rmir.hs.mirna
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rmir.hs.mirna
-
 

@@ -5,14 +5,17 @@ mageck-vispr
 
 |downloads|
 
-MAGeCK-VISPR is a comprehensive quality control, analysis and visualization workflow for CRISPR/Cas9 screens based on MAGeCK, VISPR, Snakemake, FastQC and cutadapt.
+MAGeCK\-VISPR is a comprehensive quality control\, analysis and visualization workflow for CRISPR\/Cas9 screens based on MAGeCK\, VISPR\, Snakemake\, FastQC and cutadapt\.
 
 ======== ===========
 Home     https://bitbucket.org/liulab/mageck-vispr
 Versions 0.4.5, 0.4.6, 0.4.7, 0.5.2, 0.5.3, 0.5.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck-vispr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mageck-vispr
 .. |docker| image:: https://quay.io/repository/biocontainers/mageck-vispr/status
                 :target: https://quay.io/repository/biocontainers/mageck-vispr
-
 

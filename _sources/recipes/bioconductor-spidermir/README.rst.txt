@@ -5,14 +5,17 @@ bioconductor-spidermir
 
 |downloads|
 
-The aims of SpidermiR are : i) facilitate the network open-access data retrieval from GeneMania data, ii) prepare the data using the appropriate gene nomenclature, iii) integration of miRNA data in a specific network, iv) provide different standard analyses and v) allow the user to visualize the results. In more detail, the package provides multiple methods for query, prepare and download network data (GeneMania), and the integration with  validated and predicted miRNA data (mirWalk, miR2Disease,miRTar, miRTarBase, miRandola,Pharmaco-miR,DIANA, Miranda, PicTar and TargetScan) and the use of standard analysis (igraph) and visualization methods (networkD3).
+The aims of SpidermiR are \: i\) facilitate the network open\-access data retrieval from GeneMania data\, ii\) prepare the data using the appropriate gene nomenclature\, iii\) integration of miRNA data in a specific network\, iv\) provide different standard analyses and v\) allow the user to visualize the results\. In more detail\, the package provides multiple methods for query\, prepare and download network data \(GeneMania\)\, and the integration with  validated and predicted miRNA data \(mirWalk\, miR2Disease\,miRTar\, miRTarBase\, miRandola\,Pharmaco\-miR\,DIANA\, Miranda\, PicTar and TargetScan\) and the use of standard analysis \(igraph\) and visualization methods \(networkD3\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SpidermiR.html
 Versions 1.8.2
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spidermir
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-spidermir
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spidermir/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-spidermir
-
 

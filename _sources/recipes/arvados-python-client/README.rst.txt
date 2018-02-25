@@ -5,14 +5,17 @@ arvados-python-client
 
 |downloads|
 
-Python API for Arvados, an open source platform for managing and analyzing biomedical big data
+Python API for Arvados\, an open source platform for managing and analyzing biomedical big data
 
 ======== ===========
 Home     https://github.com/curoverse/arvados/tree/master/sdk/python
 Versions 0.1.20160301181511, 0.1.20160318153100, 0.1.20160331153549, 0.1.20160412193510, 0.1.20160517202250, 0.1.20161031135838, 0.1.20161123074954, 0.1.20170818194607, 0.1.20171010180436, 0.1.20171211211613
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arvados-python-client
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/arvados-python-client
 .. |docker| image:: https://quay.io/repository/biocontainers/arvados-python-client/status
                 :target: https://quay.io/repository/biocontainers/arvados-python-client
-
 

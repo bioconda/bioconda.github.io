@@ -5,14 +5,17 @@ r-rubic
 
 |downloads|
 
-RUBIC detects recurrent copy number aberrations using copy number breaks, rather than recurrently amplified or deleted regions. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re-estimation of the background model are avoided. Furthermore, the false discovery rate is controlled on the level of called regions, rather than at the probe level.
+RUBIC detects recurrent copy number aberrations using copy number breaks\, rather than recurrently amplified or deleted regions\. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re\-estimation of the background model are avoided\. Furthermore\, the false discovery rate is controlled on the level of called regions\, rather than at the probe level\.
 
 ======== ===========
 Home     http://ccb.nki.nl/software/
 Versions 1.0.2, 1.0.3
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rubic/1.0.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-rubic
 .. |docker| image:: https://quay.io/repository/biocontainers/r-rubic/status
                 :target: https://quay.io/repository/biocontainers/r-rubic
-
 

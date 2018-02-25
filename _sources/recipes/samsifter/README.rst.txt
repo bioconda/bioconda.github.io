@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/SamSifter/
 Versions 1.0.0
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsifter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/samsifter
 .. |docker| image:: https://quay.io/repository/biocontainers/samsifter/status
                 :target: https://quay.io/repository/biocontainers/samsifter
-
 

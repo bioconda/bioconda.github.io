@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/NanoPlot
 Versions 0.16.2, 0.16.4, 1.0.0, 1.1.0, 1.2.2, 1.8.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoplot
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoplot/status
                 :target: https://quay.io/repository/biocontainers/nanoplot
-
 

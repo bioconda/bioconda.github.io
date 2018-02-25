@@ -5,14 +5,17 @@ bioconductor-spktools
 
 |downloads|
 
-The package contains functions that can be used to compare expression measures on different array platforms.
+The package contains functions that can be used to compare expression measures on different array platforms\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/spkTools.html
 Versions 1.32.0, 1.34.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spktools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-spktools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spktools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-spktools
-
 

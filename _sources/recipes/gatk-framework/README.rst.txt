@@ -5,14 +5,17 @@ gatk-framework
 
 |downloads|
 
-The core MIT-licensed Genome Analysis Toolkit (GATK) framework, free for all uses
+The core MIT\-licensed Genome Analysis Toolkit \(GATK\) framework\, free for all uses
 
 ======== ===========
 Home     https://github.com/chapmanb/gatk
 Versions 3.4.46, 3.5.21, 3.6.24
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk-framework
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gatk-framework
 .. |docker| image:: https://quay.io/repository/biocontainers/gatk-framework/status
                 :target: https://quay.io/repository/biocontainers/gatk-framework
-
 

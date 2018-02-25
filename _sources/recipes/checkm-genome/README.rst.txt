@@ -5,14 +5,17 @@ checkm-genome
 
 |downloads|
 
-Assess the quality of putative genome bins.
+Assess the quality of putative genome bins\.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/checkm/
 Versions 1.0.5, 1.0.7
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/checkm-genome
 .. |docker| image:: https://quay.io/repository/biocontainers/checkm-genome/status
                 :target: https://quay.io/repository/biocontainers/checkm-genome
-
 

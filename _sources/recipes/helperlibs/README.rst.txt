@@ -5,14 +5,17 @@ helperlibs
 
 |downloads|
 
-A collection of bioinformatics-related helper functions
+A collection of bioinformatics\-related helper functions
 
 ======== ===========
 Home     https://github.com/kblin/bioinf-helperlibs/wiki
 Versions 0.1.8
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/helperlibs
 .. |docker| image:: https://quay.io/repository/biocontainers/helperlibs/status
                 :target: https://quay.io/repository/biocontainers/helperlibs
-
 

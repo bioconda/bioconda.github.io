@@ -12,7 +12,10 @@ Home     https://github.com/cancerit/cgpBattenberg
 Versions 1.4.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-battenberg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sanger-cgp-battenberg
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg/status
                 :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-battenberg
-
 

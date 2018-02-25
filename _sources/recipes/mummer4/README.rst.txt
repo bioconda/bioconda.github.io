@@ -12,7 +12,10 @@ Home     https://mummer4.github.io/
 Versions 4.0.0beta2
 License  The Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mummer4
 .. |docker| image:: https://quay.io/repository/biocontainers/mummer4/status
                 :target: https://quay.io/repository/biocontainers/mummer4
-
 

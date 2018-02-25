@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-RegExp
 Versions 0.04
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-regexp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-regexp
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-regexp/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-regexp
-
 

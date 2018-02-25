@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/hom.Hs.inp.db
 Versions 3.1.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.hs.inp.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hom.hs.inp.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hom.hs.inp.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hom.hs.inp.db
-
 

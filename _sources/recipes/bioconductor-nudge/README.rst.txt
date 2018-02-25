@@ -5,14 +5,17 @@ bioconductor-nudge
 
 |downloads|
 
-Package for normalizing microarray data in single and multiple replicate experiments and fitting a normal-uniform mixture to detect differentially expressed genes in the cases where the two samples are being compared directly or indirectly (via a common reference sample)
+Package for normalizing microarray data in single and multiple replicate experiments and fitting a normal\-uniform mixture to detect differentially expressed genes in the cases where the two samples are being compared directly or indirectly \(via a common reference sample\)
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/nudge.html
 Versions 1.42.0, 1.44.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nudge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-nudge
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nudge/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-nudge
-
 

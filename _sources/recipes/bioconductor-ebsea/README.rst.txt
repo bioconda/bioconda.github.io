@@ -5,14 +5,17 @@ bioconductor-ebsea
 
 |downloads|
 
-Calculates differential expression of genes based on exon counts of genes obtained from RNA-seq sequencing data.
+Calculates differential expression of genes based on exon counts of genes obtained from RNA\-seq sequencing data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/EBSEA.html
 Versions 1.6.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ebsea
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ebsea/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ebsea
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/gpertea/gffcompare
 Versions 0.10.1, 0.9.8
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gffcompare
 .. |docker| image:: https://quay.io/repository/biocontainers/gffcompare/status
                 :target: https://quay.io/repository/biocontainers/gffcompare
-
 

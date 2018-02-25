@@ -5,14 +5,17 @@ bioconductor-customprodb
 
 |downloads|
 
-Generate customized protein sequence database from RNA-Seq data for proteomics search
+Generate customized protein sequence database from RNA\-Seq data for proteomics search
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/customProDB.html
 Versions 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/customprodb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-customprodb
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-customprodb/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-customprodb
-
 

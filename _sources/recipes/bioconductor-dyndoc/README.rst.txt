@@ -5,14 +5,17 @@ bioconductor-dyndoc
 
 |downloads|
 
-A set of functions to create and interact with dynamic documents and vignettes.
+A set of functions to create and interact with dynamic documents and vignettes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/DynDoc.html
 Versions 1.56.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyndoc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-dyndoc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-dyndoc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-dyndoc
-
 

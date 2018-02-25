@@ -5,14 +5,17 @@ r-adegenet
 
 |downloads|
 
-Toolset for the exploration of genetic and genomic data. Adegenet provides formal (S4) classes for storing and handling various genetic data, including genetic markers with varying ploidy and hierarchical population structure ('genind' class), alleles counts by populations ('genpop'), and genome-wide SNP data ('genlight'). It also implements original multivariate methods (DAPC, sPCA), graphics, statistical tests, simulation tools, distance and similarity measures, and several spatial methods. A range of both empirical and simulated datasets is also provided to illustrate various methods.
+Toolset for the exploration of genetic and genomic data\. Adegenet provides formal \(S4\) classes for storing and handling various genetic data\, including genetic markers with varying ploidy and hierarchical population structure \(\'genind\' class\)\, alleles counts by populations \(\'genpop\'\)\, and genome\-wide SNP data \(\'genlight\'\)\. It also implements original multivariate methods \(DAPC\, sPCA\)\, graphics\, statistical tests\, simulation tools\, distance and similarity measures\, and several spatial methods\. A range of both empirical and simulated datasets is also provided to illustrate various methods\.
 
 ======== ===========
 Home     https://github.com/thibautjombart/adegenet
 Versions 2.1.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-adegenet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-adegenet
 .. |docker| image:: https://quay.io/repository/biocontainers/r-adegenet/status
                 :target: https://quay.io/repository/biocontainers/r-adegenet
-
 

@@ -12,7 +12,10 @@ Home     http://www.ebi.ac.uk/~hoffman/software/textinput/
 Versions 0.1.1
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/textinput
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/textinput
 .. |docker| image:: https://quay.io/repository/biocontainers/textinput/status
                 :target: https://quay.io/repository/biocontainers/textinput
-
 

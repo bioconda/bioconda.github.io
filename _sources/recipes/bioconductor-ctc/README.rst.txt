@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/ctc.html
 Versions 1.52.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ctc
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ctc/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ctc
-
 

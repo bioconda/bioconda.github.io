@@ -5,14 +5,17 @@ bioconductor-qdnaseq
 
 |downloads|
 
-Quantitative DNA sequencing for chromosomal aberrations. The genome is divided into non-overlapping fixed-sized bins, number of sequence reads in each counted, adjusted with a simultaneous two-dimensional loess correction for sequence mappability and GC content, and filtered to remove spurious regions in the genome. Downstream steps of segmentation and calling are also implemented via packages DNAcopy and CGHcall, respectively.
+Quantitative DNA sequencing for chromosomal aberrations\. The genome is divided into non\-overlapping fixed\-sized bins\, number of sequence reads in each counted\, adjusted with a simultaneous two\-dimensional loess correction for sequence mappability and GC content\, and filtered to remove spurious regions in the genome\. Downstream steps of segmentation and calling are also implemented via packages DNAcopy and CGHcall\, respectively\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/QDNAseq.html
 Versions 1.10.0, 1.12.0, 1.14.0, 1.8.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-qdnaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-qdnaseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-qdnaseq
-
 

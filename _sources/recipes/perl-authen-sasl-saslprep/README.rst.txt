@@ -5,14 +5,17 @@ perl-authen-sasl-saslprep
 
 |downloads|
 
-A Stringprep Profile for User Names and Passwords (RFC 4013)
+A Stringprep Profile for User Names and Passwords \(RFC 4013\)
 
 ======== ===========
 Home     http://metacpan.org/pod/Authen-SASL-SASLprep
 Versions 1.011
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-authen-sasl-saslprep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-authen-sasl-saslprep
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-authen-sasl-saslprep/status
                 :target: https://quay.io/repository/biocontainers/perl-authen-sasl-saslprep
-
 

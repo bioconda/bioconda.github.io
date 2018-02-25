@@ -5,14 +5,17 @@ openms
 
 |downloads|
 
-OpenMS is an open-source software C++ library for LC-MS data management and analyses
+OpenMS is an open\-source software C\+\+ library for LC\-MS data management and analyses
 
 ======== ===========
 Home     https://github.com/OpenMS/OpenMS
 Versions 2.1.0, 2.2.0, 2.3.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openms/2.2.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,12 +30,13 @@ and update with::
 
    conda update openms
 
+
 Notes
 -----
+This package can exceed the travis build time\. If so\, this package will be build by \@bioconda\/core locally via
+simulate\-travis\.py and pushed directly\. If you need an update for this package please make your changes\,
+create a PR and contact \@bioconda\/core\.
 
-This package can exceed the travis build time. If so, this package will be build by @bioconda/core locally via
-simulate-travis.py and pushed directly. If you need an update for this package please make your changes,
-create a PR and contact @bioconda/core.
 
 
 |docker|
@@ -52,5 +56,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/openms
 .. |docker| image:: https://quay.io/repository/biocontainers/openms/status
                 :target: https://quay.io/repository/biocontainers/openms
-
 

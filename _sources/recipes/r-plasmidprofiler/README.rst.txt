@@ -5,14 +5,17 @@ r-plasmidprofiler
 
 |downloads|
 
-Contains functions developed to combine the results of querying a plasmid database using short-read sequence typing with the results of a blast analysis against the query results.
+Contains functions developed to combine the results of querying a plasmid database using short\-read sequence typing with the results of a blast analysis against the query results\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=Plasmidprofiler
 Versions 0.1.4, 0.1.6
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-plasmidprofiler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-plasmidprofiler
 .. |docker| image:: https://quay.io/repository/biocontainers/r-plasmidprofiler/status
                 :target: https://quay.io/repository/biocontainers/r-plasmidprofiler
-
 

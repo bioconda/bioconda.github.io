@@ -5,14 +5,17 @@ r-drc
 
 |downloads|
 
-Analysis of dose-response data is made available through a suite of flexible and versatile model fitting and after-fitting functions.
+Analysis of dose\-response data is made available through a suite of flexible and versatile model fitting and after\-fitting functions\.
 
 ======== ===========
 Home     http://www.r-project.org, http://www.bioassay.dk
 Versions 3.0_1
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-drc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-drc
 .. |docker| image:: https://quay.io/repository/biocontainers/r-drc/status
                 :target: https://quay.io/repository/biocontainers/r-drc
-
 

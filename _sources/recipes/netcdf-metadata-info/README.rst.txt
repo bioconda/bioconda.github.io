@@ -5,14 +5,17 @@ netcdf-metadata-info
 
 |downloads|
 
-Metadata information from netcdf file for Galaxy use.
+Metadata information from netcdf file for Galaxy use\.
 
 ======== ===========
 Home     https://github.com/Alanamosse/Netcdf-Metadata-Info/
 Versions 1.1.6
 License  GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netcdf-metadata-info
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/netcdf-metadata-info
 .. |docker| image:: https://quay.io/repository/biocontainers/netcdf-metadata-info/status
                 :target: https://quay.io/repository/biocontainers/netcdf-metadata-info
-
 

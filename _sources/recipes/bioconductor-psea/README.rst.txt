@@ -5,14 +5,17 @@ bioconductor-psea
 
 |downloads|
 
-Deconvolution of gene expression data by Population-Specific Expression Analysis (PSEA).
+Deconvolution of gene expression data by Population\-Specific Expression Analysis \(PSEA\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PSEA.html
 Versions 1.10.0, 1.12.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psea
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-psea
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-psea/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-psea
-
 

@@ -5,14 +5,17 @@ ribocode
 
 |downloads|
 
-A package for identifying the translated ORFs using ribosome-profiling data
+A package for identifying the translated ORFs using ribosome\-profiling data
 
 ======== ===========
 Home     https://github.com/xzt41/RiboCode
 Versions 1.2.6, 1.2.7
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribocode
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ribocode
 .. |docker| image:: https://quay.io/repository/biocontainers/ribocode/status
                 :target: https://quay.io/repository/biocontainers/ribocode
-
 

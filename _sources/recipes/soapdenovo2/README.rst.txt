@@ -5,14 +5,17 @@ soapdenovo2
 
 |downloads|
 
-SOAPdenovo is a novel short-read assembly method that can build a de novo draft assembly for the human-sized genomes.
+SOAPdenovo is a novel short\-read assembly method that can build a de novo draft assembly for the human\-sized genomes\.
 
 ======== ===========
 Home     http://soap.genomics.org.cn/soapdenovo.html
 Versions 2.40
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/soapdenovo2
 .. |docker| image:: https://quay.io/repository/biocontainers/soapdenovo2/status
                 :target: https://quay.io/repository/biocontainers/soapdenovo2
-
 

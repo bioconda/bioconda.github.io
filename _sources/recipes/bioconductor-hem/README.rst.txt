@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/HEM.html
 Versions 1.50.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hem
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hem/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hem
-
 

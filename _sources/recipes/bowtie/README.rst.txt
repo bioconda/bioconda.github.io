@@ -5,14 +5,17 @@ bowtie
 
 |downloads|
 
-An ultrafast memory-efficient short read aligner
+An ultrafast memory\-efficient short read aligner
 
 ======== ===========
 Home     https://github.com/BenLangmead/bowtie
 Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1.1, 1.2.2
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bowtie
 .. |docker| image:: https://quay.io/repository/biocontainers/bowtie/status
                 :target: https://quay.io/repository/biocontainers/bowtie
-
 

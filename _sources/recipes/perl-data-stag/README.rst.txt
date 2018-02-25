@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Data-Stag
 Versions 0.14
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-stag
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-stag
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-stag/status
                 :target: https://quay.io/repository/biocontainers/perl-data-stag
-
 

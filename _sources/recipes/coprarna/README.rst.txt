@@ -5,14 +5,17 @@ coprarna
 
 |downloads|
 
-Target prediction for prokaryotic trans-acting small RNAs
+Target prediction for prokaryotic trans\-acting small RNAs
 
 ======== ===========
 Home     https://github.com/PatrickRWright/CopraRNA
 Versions 2.1.0, 2.1.1, 2.1.2, 2.1.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/coprarna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/coprarna
 .. |docker| image:: https://quay.io/repository/biocontainers/coprarna/status
                 :target: https://quay.io/repository/biocontainers/coprarna
-
 

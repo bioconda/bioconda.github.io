@@ -5,14 +5,17 @@ msms
 
 |downloads|
 
-MSMS is a program written in the C programming language to compute molecular surfaces.
+MSMS is a program written in the C programming language to compute molecular surfaces\.
 
 ======== ===========
 Home     http://mgltools.scripps.edu/packages/MSMS/
 Versions 2.6.1
 License  Free for academic use.
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msms
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/msms
 .. |docker| image:: https://quay.io/repository/biocontainers/msms/status
                 :target: https://quay.io/repository/biocontainers/msms
-
 

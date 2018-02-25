@@ -5,14 +5,17 @@ bioconductor-atlasrdf
 
 |downloads|
 
-Query the Gene Expression Atlas RDF data at the European Bioinformatics Institute using genes, experimental factors (such as disease, cell type, compound treatments), pathways and proteins. Also contains a function to perform an enrichment of your gene list across Experimental Factor Ontology (EFO) using the Atlas background set.
+Query the Gene Expression Atlas RDF data at the European Bioinformatics Institute using genes\, experimental factors \(such as disease\, cell type\, compound treatments\)\, pathways and proteins\. Also contains a function to perform an enrichment of your gene list across Experimental Factor Ontology \(EFO\) using the Atlas background set\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/AtlasRDF.html
 Versions 1.11.0, 1.12.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-atlasrdf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-atlasrdf
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-atlasrdf/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-atlasrdf
-
 

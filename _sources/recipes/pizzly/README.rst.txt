@@ -12,7 +12,10 @@ Home     https://github.com/pmelsted/pizzly
 Versions 0.37.3
 License  BSD-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pizzly
 .. |docker| image:: https://quay.io/repository/biocontainers/pizzly/status
                 :target: https://quay.io/repository/biocontainers/pizzly
-
 

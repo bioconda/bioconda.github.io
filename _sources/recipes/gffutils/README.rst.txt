@@ -12,7 +12,10 @@ Home     https://github.com/daler/gffutils
 Versions 0.8.6.1, 0.8.7, 0.8.7.1, 0.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gffutils
 .. |docker| image:: https://quay.io/repository/biocontainers/gffutils/status
                 :target: https://quay.io/repository/biocontainers/gffutils
-
 

@@ -5,14 +5,17 @@ bioconductor-marray
 
 |downloads|
 
-Class definitions for two-color spotted microarray data. Fuctions for data input, diagnostic plots, normalization and quality checking.
+Class definitions for two\-color spotted microarray data\. Fuctions for data input\, diagnostic plots\, normalization and quality checking\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/marray.html
 Versions 1.50.0, 1.54.0, 1.56.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-marray
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-marray/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-marray
-
 

@@ -12,7 +12,10 @@ Home     http://noble.gs.washington.edu/~mmh1/software/optbuild/
 Versions 0.1.11
 License  GNU GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optbuild
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/optbuild
 .. |docker| image:: https://quay.io/repository/biocontainers/optbuild/status
                 :target: https://quay.io/repository/biocontainers/optbuild
-
 

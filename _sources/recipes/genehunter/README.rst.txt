@@ -5,14 +5,17 @@ ghm
 
 |downloads|
 
-A MOD-score analysis in which parametric LOD scores are maximized over the parameters of the trait model
+A MOD\-score analysis in which parametric LOD scores are maximized over the parameters of the trait model
 
 ======== ===========
 Home     https://www.helmholtz-muenchen.de/en/ige/service/software-download/genehunter-modscore/index.html
 Versions 3.0, 3.1
 License  INDIVIDUAL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genehunter/3.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ghm
 .. |docker| image:: https://quay.io/repository/biocontainers/ghm/status
                 :target: https://quay.io/repository/biocontainers/ghm
-
 

@@ -5,14 +5,17 @@ perl-io-uncompress-rawinflate
 
 |downloads|
 
-Read RFC 1951 files/buffers
+Read RFC 1951 files\/buffers
 
 ======== ===========
 Home     http://metacpan.org/pod/IO::Uncompress::RawInflate
 Versions 2.064
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-rawinflate/2.064
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-uncompress-rawinflate
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-uncompress-rawinflate/status
                 :target: https://quay.io/repository/biocontainers/perl-io-uncompress-rawinflate
-
 

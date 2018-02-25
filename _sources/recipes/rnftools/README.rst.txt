@@ -5,14 +5,17 @@ rnftools
 
 |downloads|
 
-RNF framework for NGS: simulation of reads, evaluation of mappers, conversion of RNF-compliant data.
+RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data\.
 
 ======== ===========
 Home     http://karel-brinda.github.io/rnftools
 Versions 0.3.0.2, 0.3.1.0, 0.3.1.1, 0.3.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnftools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rnftools
 .. |docker| image:: https://quay.io/repository/biocontainers/rnftools/status
                 :target: https://quay.io/repository/biocontainers/rnftools
-
 

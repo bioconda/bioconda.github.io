@@ -5,14 +5,17 @@ perl-perlio
 
 |downloads|
 
-On demand loader for PerlIO layers and root of PerlIO::* name space
+On demand loader for PerlIO layers and root of PerlIO\:\:\* name space
 
 ======== ===========
 Home     http://metacpan.org/pod/PerlIO
 Versions 1.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio/1.09
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perlio
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio/status
                 :target: https://quay.io/repository/biocontainers/perl-perlio
-
 

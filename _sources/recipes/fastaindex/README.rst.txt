@@ -5,14 +5,17 @@ fastaindex
 
 |downloads|
 
-FastA indexing and sequence retrival.
+FastA indexing and sequence retrival\.
 
 ======== ===========
 Home     https://github.com/lpryszcz/FastaIndex
 Versions 0.11c
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastaindex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastaindex
 .. |docker| image:: https://quay.io/repository/biocontainers/fastaindex/status
                 :target: https://quay.io/repository/biocontainers/fastaindex
-
 

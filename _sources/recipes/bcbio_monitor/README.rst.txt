@@ -5,14 +5,17 @@ bcbio_monitor
 
 |downloads|
 
-bcbio-monitor is an extension of bcbio-nextgen to visualize its progress
+bcbio\-monitor is an extension of bcbio\-nextgen to visualize its progress
 
 ======== ===========
 Home     https://github.com/guillermo-carrasco/bcbio-nextgen-monitor
 Versions 1.0.2, 1.0.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio_monitor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcbio_monitor
 .. |docker| image:: https://quay.io/repository/biocontainers/bcbio_monitor/status
                 :target: https://quay.io/repository/biocontainers/bcbio_monitor
-
 

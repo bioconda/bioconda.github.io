@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/netbiov.html
 Versions 1.10.0, 1.12.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netbiov
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-netbiov
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-netbiov/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-netbiov
-
 

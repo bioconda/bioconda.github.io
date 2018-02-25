@@ -5,14 +5,17 @@ bioconductor-bac
 
 |downloads|
 
-This package uses a Bayesian hierarchical model to detect enriched regions from ChIP-chip experiments
+This package uses a Bayesian hierarchical model to detect enriched regions from ChIP\-chip experiments
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BAC.html
 Versions 1.36.0, 1.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bac
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bac/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bac
-
 

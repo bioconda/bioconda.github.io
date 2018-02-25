@@ -5,14 +5,17 @@ bioconductor-pmm
 
 |downloads|
 
-The Parallel Mixed Model (PMM) approach is suitable for hit selection and cross-comparison of RNAi screens generated in experiments that are performed in parallel under several conditions. For example, we could think of the measurements or readouts from cells under RNAi knock-down, which are infected with several pathogens or which are grown from different cell lines.
+The Parallel Mixed Model \(PMM\) approach is suitable for hit selection and cross\-comparison of RNAi screens generated in experiments that are performed in parallel under several conditions\. For example\, we could think of the measurements or readouts from cells under RNAi knock\-down\, which are infected with several pathogens or which are grown from different cell lines\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/pmm.html
 Versions 1.10.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pmm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pmm
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pmm/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pmm
-
 

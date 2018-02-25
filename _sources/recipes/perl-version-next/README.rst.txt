@@ -12,7 +12,10 @@ Home     https://github.com/dagolden/Version-Next
 Versions 1.000
 License  apache_2_0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-version-next
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-version-next
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-version-next/status
                 :target: https://quay.io/repository/biocontainers/perl-version-next
-
 

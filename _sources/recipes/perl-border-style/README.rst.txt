@@ -12,7 +12,10 @@ Home     https://metacpan.org/release/Border-Style
 Versions 0.01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-border-style
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-border-style
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-border-style/status
                 :target: https://quay.io/repository/biocontainers/perl-border-style
-
 

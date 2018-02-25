@@ -5,14 +5,17 @@ gap2seq
 
 |downloads|
 
-Gap2Seq is a tool for filling gaps between contigs in genome assemblies.
+Gap2Seq is a tool for filling gaps between contigs in genome assemblies\.
 
 ======== ===========
 Home     https://www.cs.helsinki.fi/u/lmsalmel/Gap2Seq/
 Versions 2.0, 2.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gap2seq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update gap2seq
 
+
 Notes
 -----
+Gap2Seq is only tested on Linux x86\_64 by its author\.
 
-Gap2Seq is only tested on Linux x86_64 by its author.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gap2seq
 .. |docker| image:: https://quay.io/repository/biocontainers/gap2seq/status
                 :target: https://quay.io/repository/biocontainers/gap2seq
-
 

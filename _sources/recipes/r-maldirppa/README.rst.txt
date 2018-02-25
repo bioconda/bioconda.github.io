@@ -5,14 +5,17 @@ r-maldirppa
 
 |downloads|
 
-Provides methods for quality control and robust pre-processing and analysis of MALDI mass spectrometry data.
+Provides methods for quality control and robust pre\-processing and analysis of MALDI mass spectrometry data\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=MALDIrppa
 Versions 1.0.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldirppa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-maldirppa
 .. |docker| image:: https://quay.io/repository/biocontainers/r-maldirppa/status
                 :target: https://quay.io/repository/biocontainers/r-maldirppa
-
 

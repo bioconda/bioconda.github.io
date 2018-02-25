@@ -5,14 +5,17 @@ r-xnomial
 
 |downloads|
 
-Tests whether a set of counts fit a given expected ratio. For example, a genetic cross might be expected to produce four types in the relative frequencies of 9:3:3:1. To see whether a set of observed counts fits this expectation, one can examine all possible outcomes with xmulti() or a random sample of them with xmonte() and find the probability of an observation deviating from the expectation by at least as much as the observed. As a measure of deviation from the expected, one can use the log-likelihood ratio, the multinomial probability, or the classic chi-square statistic. A histogram of the test statistic can also be plotted and compared with the asymptotic curve.
+Tests whether a set of counts fit a given expected ratio\. For example\, a genetic cross might be expected to produce four types in the relative frequencies of 9\:3\:3\:1\. To see whether a set of observed counts fits this expectation\, one can examine all possible outcomes with xmulti\(\) or a random sample of them with xmonte\(\) and find the probability of an observation deviating from the expectation by at least as much as the observed\. As a measure of deviation from the expected\, one can use the log\-likelihood ratio\, the multinomial probability\, or the classic chi\-square statistic\. A histogram of the test statistic can also be plotted and compared with the asymptotic curve\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=XNomial
 Versions 1.0.4
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xnomial
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-xnomial
 .. |docker| image:: https://quay.io/repository/biocontainers/r-xnomial/status
                 :target: https://quay.io/repository/biocontainers/r-xnomial
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/jemalloc/jemalloc
 Versions 3.6.0, 4.5.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jemalloc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jemalloc
 .. |docker| image:: https://quay.io/repository/biocontainers/jemalloc/status
                 :target: https://quay.io/repository/biocontainers/jemalloc
-
 

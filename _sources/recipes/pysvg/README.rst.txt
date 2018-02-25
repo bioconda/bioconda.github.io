@@ -12,7 +12,10 @@ Home     http://codeboje.de/pysvg/
 Versions 0.2.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysvg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pysvg
 .. |docker| image:: https://quay.io/repository/biocontainers/pysvg/status
                 :target: https://quay.io/repository/biocontainers/pysvg
-
 

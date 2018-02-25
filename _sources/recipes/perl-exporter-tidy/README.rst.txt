@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Exporter-Tidy
 Versions 0.08
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter-tidy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-exporter-tidy
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-exporter-tidy/status
                 :target: https://quay.io/repository/biocontainers/perl-exporter-tidy
-
 

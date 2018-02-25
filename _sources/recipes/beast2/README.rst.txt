@@ -5,14 +5,17 @@ beast2
 
 |downloads|
 
-BEAST 2 is a cross-platform program for Bayesian phylogenetic analysis of molecular sequences.
+BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences\.
 
 ======== ===========
 Home     http://www.beast2.org
 Versions 2.4.5
 License  LGPLv2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/beast2
 .. |docker| image:: https://quay.io/repository/biocontainers/beast2/status
                 :target: https://quay.io/repository/biocontainers/beast2
-
 

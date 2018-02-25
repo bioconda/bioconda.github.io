@@ -5,14 +5,17 @@ rascaf
 
 |downloads|
 
-Scaffolding with RNA-seq read alignment
+Scaffolding with RNA\-seq read alignment
 
 ======== ===========
 Home     https://github.com/mourisl/Rascaf/commits/master
 Versions 20161129
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rascaf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rascaf
 .. |docker| image:: https://quay.io/repository/biocontainers/rascaf/status
                 :target: https://quay.io/repository/biocontainers/rascaf
-
 

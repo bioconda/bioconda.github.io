@@ -5,14 +5,17 @@ bioconductor-biocworkflowtools
 
 |downloads|
 
-Provides functions to ease the transition between Rmarkdown and LaTeX documents when authoring a Bioconductor Workflow.
+Provides functions to ease the transition between Rmarkdown and LaTeX documents when authoring a Bioconductor Workflow\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BiocWorkflowTools.html
 Versions 1.2.0, 1.4.0
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocworkflowtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-biocworkflowtools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-biocworkflowtools
-
 

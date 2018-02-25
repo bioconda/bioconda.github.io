@@ -12,7 +12,10 @@ Home     http://assembly-eval.sourceforge.net/
 Versions 1.1.r186
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lap
 .. |docker| image:: https://quay.io/repository/biocontainers/lap/status
                 :target: https://quay.io/repository/biocontainers/lap
-
 

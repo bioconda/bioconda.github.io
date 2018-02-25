@@ -5,14 +5,17 @@ perl-class-std
 
 |downloads|
 
-Support for creating standard "inside-out" classes
+Support for creating standard \"inside\-out\" classes
 
 ======== ===========
 Home     http://metacpan.org/pod/Class-Std
 Versions 0.013
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-std
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-std/status
                 :target: https://quay.io/repository/biocontainers/perl-class-std
-
 

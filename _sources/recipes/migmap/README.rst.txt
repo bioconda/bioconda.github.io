@@ -5,7 +5,7 @@ migmap
 
 |downloads|
 
-A wrapper for IgBlast V-(D)-J mapping tool designed to facilitate analysis immune receptor libraries profiled using high-throughput sequencing.
+A wrapper for IgBlast V\-\(D\)\-J mapping tool designed to facilitate analysis immune receptor libraries profiled using high\-throughput sequencing\.
 
 
 ======== ===========
@@ -13,7 +13,10 @@ Home     https://github.com/mikessh/migmap
 Versions 0.9.7, 1.0.2
 License  https://github.com/mikessh/migmap/blob/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/migmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -47,5 +50,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/migmap
 .. |docker| image:: https://quay.io/repository/biocontainers/migmap/status
                 :target: https://quay.io/repository/biocontainers/migmap
-
 

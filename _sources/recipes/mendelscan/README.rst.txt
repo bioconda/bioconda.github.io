@@ -5,14 +5,17 @@ mendelscan
 
 |downloads|
 
-Analyze exome data for Mendelian disorders.
+Analyze exome data for Mendelian disorders\.
 
 ======== ===========
 Home     https://github.com/genome/mendelscan
 Versions v1.2.2
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mendelscan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mendelscan
 .. |docker| image:: https://quay.io/repository/biocontainers/mendelscan/status
                 :target: https://quay.io/repository/biocontainers/mendelscan
-
 

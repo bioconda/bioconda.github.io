@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/TimeDate
 Versions 2.30
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-timedate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-timedate
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-timedate/status
                 :target: https://quay.io/repository/biocontainers/perl-timedate
-
 

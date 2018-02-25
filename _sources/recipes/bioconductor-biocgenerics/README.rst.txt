@@ -5,14 +5,17 @@ bioconductor-biocgenerics
 
 |downloads|
 
-S4 generic functions needed by many Bioconductor packages.
+S4 generic functions needed by many Bioconductor packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BiocGenerics.html
 Versions 0.14.0, 0.16.0, 0.16.1, 0.18.0, 0.20.0, 0.22.0, 0.22.1, 0.24.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgenerics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-biocgenerics
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biocgenerics/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-biocgenerics
-
 

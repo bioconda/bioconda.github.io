@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/massiR.html
 Versions 1.12.0, 1.14.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-massir
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-massir
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-massir/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-massir
-
 

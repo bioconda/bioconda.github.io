@@ -5,14 +5,17 @@ zeroc-ice
 
 |downloads|
 
-Ice is a comprehensive RPC framework that helps you network your software with minimal effort.
+Ice is a comprehensive RPC framework that helps you network your software with minimal effort\.
 
 ======== ===========
 Home     https://github.com/zeroc-ice
 Versions 3.6.3
 License  GPL v2 with exceptions
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zeroc-ice
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/zeroc-ice
 .. |docker| image:: https://quay.io/repository/biocontainers/zeroc-ice/status
                 :target: https://quay.io/repository/biocontainers/zeroc-ice
-
 

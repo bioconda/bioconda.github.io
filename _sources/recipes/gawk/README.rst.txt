@@ -5,14 +5,17 @@ gawk
 
 |downloads|
 
-The awk utility interprets a special-purpose programming language that makes it possible to handle simple data-reformatting jobs with just a few lines of code.
+The awk utility interprets a special\-purpose programming language that makes it possible to handle simple data\-reformatting jobs with just a few lines of code\.
 
 ======== ===========
 Home     https://www.gnu.org/software/gawk/
 Versions 4.1.0, 4.1.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gawk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gawk
 .. |docker| image:: https://quay.io/repository/biocontainers/gawk/status
                 :target: https://quay.io/repository/biocontainers/gawk
-
 

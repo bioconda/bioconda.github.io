@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File::Spec
 Versions 3.48_01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec/3.48_01
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-spec
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-spec/status
                 :target: https://quay.io/repository/biocontainers/perl-file-spec
-
 

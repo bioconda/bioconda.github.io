@@ -6,9 +6,9 @@ trinculo
 |downloads|
 
 A toolkit for carrying out genetic association for
-multi-category phenotypes. Implements multinomial and ordinal
-association incorporating covariates, conditional analysis,
-empirical and non-emperical priors and fine-mapping.
+multi\-category phenotypes\. Implements multinomial and ordinal
+association incorporating covariates\, conditional analysis\,
+empirical and non\-emperical priors and fine\-mapping\.
 
 
 ======== ===========
@@ -16,7 +16,10 @@ Home     https://sourceforge.net/projects/trinculo/
 Versions 0.96
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinculo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -50,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trinculo
 .. |docker| image:: https://quay.io/repository/biocontainers/trinculo/status
                 :target: https://quay.io/repository/biocontainers/trinculo
-
 

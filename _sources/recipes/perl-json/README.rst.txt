@@ -5,14 +5,17 @@ perl-json
 
 |downloads|
 
-JSON (JavaScript Object Notation) encoder/decoder
+JSON \(JavaScript Object Notation\) encoder\/decoder
 
 ======== ===========
 Home     http://metacpan.org/pod/JSON
 Versions 2.90
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-json
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-json/status
                 :target: https://quay.io/repository/biocontainers/perl-json
-
 

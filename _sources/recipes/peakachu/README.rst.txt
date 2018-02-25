@@ -5,14 +5,17 @@ peakachu
 
 |downloads|
 
-Peak calling tool for CLIP-seq data.
+Peak calling tool for CLIP\-seq data\.
 
 ======== ===========
 Home     https://github.com/tbischler/PEAKachu
 Versions 0.1.0
 License  ISCL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakachu
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/peakachu
 .. |docker| image:: https://quay.io/repository/biocontainers/peakachu/status
                 :target: https://quay.io/repository/biocontainers/peakachu
-
 

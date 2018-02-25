@@ -5,14 +5,17 @@ dwgsim
 
 |downloads|
 
-Whole Genome Simulator for Next-Generation Sequencing
+Whole Genome Simulator for Next\-Generation Sequencing
 
 ======== ===========
 Home     https://github.com/nh13/DWGSIM
 Versions 1.1.11
 License  GNU General Public License v2 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dwgsim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dwgsim
 .. |docker| image:: https://quay.io/repository/biocontainers/dwgsim/status
                 :target: https://quay.io/repository/biocontainers/dwgsim
-
 

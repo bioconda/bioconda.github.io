@@ -5,14 +5,17 @@ taco
 
 |downloads|
 
-A tool for multi-sample transcriptome assembly from RNA-Seq
+A tool for multi\-sample transcriptome assembly from RNA\-Seq
 
 ======== ===========
 Home     https://github.com/tacorna/taco
 Versions v0.7.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taco
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/taco
 .. |docker| image:: https://quay.io/repository/biocontainers/taco/status
                 :target: https://quay.io/repository/biocontainers/taco
-
 

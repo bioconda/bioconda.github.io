@@ -5,14 +5,17 @@ ribotaper
 
 |downloads|
 
-RiboTaper is a new analysis pipeline for Ribosome Profiling (Ribo-seq) experiments, which exploits the triplet periodicity of ribosomal footprints to call translated regions.
+RiboTaper is a new analysis pipeline for Ribosome Profiling \(Ribo\-seq\) experiments\, which exploits the triplet periodicity of ribosomal footprints to call translated regions\.
 
 ======== ===========
 Home     https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/
 Versions 1.3.1, 1.3.1a
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotaper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ribotaper
 .. |docker| image:: https://quay.io/repository/biocontainers/ribotaper/status
                 :target: https://quay.io/repository/biocontainers/ribotaper
-
 

@@ -5,14 +5,17 @@ ucsc-rowstocols
 
 |downloads|
 
-Convert rows to columns and vice versa in a text file.
+Convert rows to columns and vice versa in a text file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-rowstocols
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-rowstocols
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-rowstocols/status
                 :target: https://quay.io/repository/biocontainers/ucsc-rowstocols
-
 

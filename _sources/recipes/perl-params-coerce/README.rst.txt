@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Params::Coerce
 Versions 0.14
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce/0.14
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-params-coerce
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-params-coerce/status
                 :target: https://quay.io/repository/biocontainers/perl-params-coerce
-
 

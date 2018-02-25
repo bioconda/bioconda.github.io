@@ -5,14 +5,17 @@ ppanini
 
 |downloads|
 
-PPANINI: Prioritization and Prediction of functional Annotations for Novel and Important genes via automated data Network Integration.
+PPANINI\: Prioritization and Prediction of functional Annotations for Novel and Important genes via automated data Network Integration\.
 
 ======== ===========
 Home     http://huttenhower.sph.harvard.edu/ppanini
 Versions 0.6.2, 0.6.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ppanini
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ppanini
 .. |docker| image:: https://quay.io/repository/biocontainers/ppanini/status
                 :target: https://quay.io/repository/biocontainers/ppanini
-
 

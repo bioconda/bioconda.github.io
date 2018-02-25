@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Class::XSAccessor
 Versions 1.19
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-xsaccessor
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-xsaccessor/status
                 :target: https://quay.io/repository/biocontainers/perl-class-xsaccessor
-
 

@@ -5,14 +5,17 @@ perl-io-compress
 
 |downloads|
 
-IO Interface to compressed data files/buffers
+IO Interface to compressed data files\/buffers
 
 ======== ===========
 Home     http://metacpan.org/pod/IO-Compress
 Versions 2.069
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-compress
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-compress
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-compress/status
                 :target: https://quay.io/repository/biocontainers/perl-io-compress
-
 

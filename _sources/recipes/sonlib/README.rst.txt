@@ -5,14 +5,17 @@ sonlib
 
 |downloads|
 
-Small general purpose library for C and Python with focus on bioinformatics.
+Small general purpose library for C and Python with focus on bioinformatics\.
 
 ======== ===========
 Home     https://github.com/benedictpaten/sonLib
 Versions 1.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonlib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sonlib
 .. |docker| image:: https://quay.io/repository/biocontainers/sonlib/status
                 :target: https://quay.io/repository/biocontainers/sonlib
-
 

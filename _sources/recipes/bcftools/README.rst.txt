@@ -5,14 +5,17 @@ bcftools
 
 |downloads|
 
-BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format (VCF) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs, both uncompressed and BGZF-compressed.  Most commands accept VCF, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in all situations. Un-indexed VCF and BCF and streams will work in most, but not all situations.
+BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format \(VCF\) and its binary counterpart BCF\. All commands work transparently with both VCFs and BCFs\, both uncompressed and BGZF\-compressed\.  Most commands accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe\. Indexed VCF and BCF will work in all situations\. Un\-indexed VCF and BCF and streams will work in most\, but not all situations\.
 
 ======== ===========
 Home     https://github.com/samtools/bcftools
 Versions 1.2, 1.3, 1.3.1, 1.4, 1.4.1, 1.5, 1.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcftools
 .. |docker| image:: https://quay.io/repository/biocontainers/bcftools/status
                 :target: https://quay.io/repository/biocontainers/bcftools
-
 

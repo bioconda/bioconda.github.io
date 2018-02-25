@@ -5,14 +5,17 @@ biom-format
 
 |downloads|
 
-Biological Observation Matrix (BIOM) format
+Biological Observation Matrix \(BIOM\) format
 
 ======== ===========
 Home     http://www.biom-format.org
 Versions 2.1.4, 2.1.5, 2.1.6
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biom-format
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biom-format
 .. |docker| image:: https://quay.io/repository/biocontainers/biom-format/status
                 :target: https://quay.io/repository/biocontainers/biom-format
-
 

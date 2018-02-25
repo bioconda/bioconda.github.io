@@ -5,14 +5,17 @@ taxmapper
 
 |downloads|
 
-Analysis pipeline for metagenomic, microeukaryotic sequencing data.
+Analysis pipeline for metagenomic\, microeukaryotic sequencing data\.
 
 ======== ===========
 Home     https://bitbucket.org/dbeisser/taxmapper
 Versions 1.0.0, 1.0.1, 1.0.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxmapper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/taxmapper
 .. |docker| image:: https://quay.io/repository/biocontainers/taxmapper/status
                 :target: https://quay.io/repository/biocontainers/taxmapper
-
 

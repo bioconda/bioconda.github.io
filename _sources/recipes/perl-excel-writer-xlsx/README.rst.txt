@@ -5,14 +5,17 @@ perl-excel-writer-xlsx
 
 |downloads|
 
-Create a new file in the Excel 2007+ XLSX format.
+Create a new file in the Excel 2007\+ XLSX format\.
 
 ======== ===========
 Home     http://jmcnamara.github.com/excel-writer-xlsx/
 Versions 0.95
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-excel-writer-xlsx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-excel-writer-xlsx
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx/status
                 :target: https://quay.io/repository/biocontainers/perl-excel-writer-xlsx
-
 

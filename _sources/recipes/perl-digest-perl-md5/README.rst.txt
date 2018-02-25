@@ -5,14 +5,17 @@ perl-digest-perl-md5
 
 |downloads|
 
-Perl Implementation of Rivest's MD5 algorithm
+Perl Implementation of Rivest\'s MD5 algorithm
 
 ======== ===========
 Home     http://metacpan.org/pod/Digest-Perl-MD5
 Versions 1.9
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-perl-md5
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-digest-perl-md5
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-digest-perl-md5/status
                 :target: https://quay.io/repository/biocontainers/perl-digest-perl-md5
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/pinellolab/haystack_bio
 Versions 0.5.2, 0.5.3, v0.5.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/haystack_bio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/haystack_bio
 .. |docker| image:: https://quay.io/repository/biocontainers/haystack_bio/status
                 :target: https://quay.io/repository/biocontainers/haystack_bio
-
 

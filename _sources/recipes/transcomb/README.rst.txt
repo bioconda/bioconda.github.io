@@ -5,14 +5,17 @@ transcomb
 
 |downloads|
 
-A sparse k-mer graph based, memory-efficient genome assembler
+A sparse k\-mer graph based\, memory\-efficient genome assembler
 
 ======== ===========
 Home     https://github.com/yechengxi/SparseAssembler
 Versions 1.0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transcomb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/transcomb
 .. |docker| image:: https://quay.io/repository/biocontainers/transcomb/status
                 :target: https://quay.io/repository/biocontainers/transcomb
-
 

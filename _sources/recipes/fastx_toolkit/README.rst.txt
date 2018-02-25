@@ -5,18 +5,21 @@ fastx_toolkit
 
 |downloads|
 
-The FASTX-Toolkit is a collection of command line tools for Short-Reads FASTA/FASTQ files preprocessing.
-Next-Generation sequencing machines usually produce FASTA or FASTQ files, containing multiple short-reads sequences (possibly with quality information).
-The main processing of such FASTA/FASTQ files is mapping (aka aligning) the sequences to reference genomes or other databases using specialized programs. Example of such mapping programs are: Blat, SHRiMP, LastZ, MAQ and many many others.
-However, it is sometimes more productive to preprocess the FASTA/FASTQ files before mapping the sequences to the genome - manipulating the sequences to produce better mapping results.
-The FASTX-Toolkit tools perform some of these preprocessing tasks.
+The FASTX\-Toolkit is a collection of command line tools for Short\-Reads FASTA\/FASTQ files preprocessing\.
+Next\-Generation sequencing machines usually produce FASTA or FASTQ files\, containing multiple short\-reads sequences \(possibly with quality information\)\.
+The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the sequences to reference genomes or other databases using specialized programs\. Example of such mapping programs are\: Blat\, SHRiMP\, LastZ\, MAQ and many many others\.
+However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files before mapping the sequences to the genome \- manipulating the sequences to produce better mapping results\.
+The FASTX\-Toolkit tools perform some of these preprocessing tasks\.
 
 ======== ===========
 Home     https://github.com/agordon/fastx_toolkit
 Versions 0.0.14
 License  AGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastx_toolkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -50,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastx_toolkit
 .. |docker| image:: https://quay.io/repository/biocontainers/fastx_toolkit/status
                 :target: https://quay.io/repository/biocontainers/fastx_toolkit
-
 

@@ -5,14 +5,17 @@ nanopolish
 
 |downloads|
 
-Signal-level algorithms for MinION data.
+Signal\-level algorithms for MinION data\.
 
 ======== ===========
 Home     https://github.com/jts/nanopolish
 Versions 0.4.0, 0.6.0, 0.6.0.dev, 0.7.0, 0.7.1, 0.8.1, 0.8.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopolish
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanopolish
 .. |docker| image:: https://quay.io/repository/biocontainers/nanopolish/status
                 :target: https://quay.io/repository/biocontainers/nanopolish
-
 

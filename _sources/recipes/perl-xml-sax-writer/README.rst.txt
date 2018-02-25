@@ -12,7 +12,10 @@ Home     https://github.com/perigrin/xml-sax-writer
 Versions 0.56
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-writer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-sax-writer
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-sax-writer/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-sax-writer
-
 

@@ -12,7 +12,10 @@ Home     https://bitbucket.org/al45tair/netifaces
 Versions 0.10.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netifaces
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/netifaces
 .. |docker| image:: https://quay.io/repository/biocontainers/netifaces/status
                 :target: https://quay.io/repository/biocontainers/netifaces
-
 

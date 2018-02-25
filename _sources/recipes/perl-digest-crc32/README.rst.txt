@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Digest::Crc32
 Versions 0.01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-crc32
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-digest-crc32
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-digest-crc32/status
                 :target: https://quay.io/repository/biocontainers/perl-digest-crc32
-
 

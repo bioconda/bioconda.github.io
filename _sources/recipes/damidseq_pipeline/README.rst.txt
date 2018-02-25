@@ -12,7 +12,10 @@ Home     https://github.com/owenjm/damidseq_pipeline
 Versions 1.4
 License  GPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damidseq_pipeline
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/damidseq_pipeline
 .. |docker| image:: https://quay.io/repository/biocontainers/damidseq_pipeline/status
                 :target: https://quay.io/repository/biocontainers/damidseq_pipeline
-
 

@@ -5,14 +5,17 @@ strudel
 
 |downloads|
 
-Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes.
+Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes\.
 
 ======== ===========
 Home     https://ics.hutton.ac.uk/strudel
 Versions 1.15.08.25
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strudel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/strudel
 .. |docker| image:: https://quay.io/repository/biocontainers/strudel/status
                 :target: https://quay.io/repository/biocontainers/strudel
-
 

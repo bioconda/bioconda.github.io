@@ -5,14 +5,17 @@ srprism
 
 |downloads|
 
-SRPRISM - Short Read Alignment Tool
+SRPRISM \- Short Read Alignment Tool
 
 ======== ===========
 Home     ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/srprism/
 Versions 2.4.24
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srprism
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/srprism
 .. |docker| image:: https://quay.io/repository/biocontainers/srprism/status
                 :target: https://quay.io/repository/biocontainers/srprism
-
 

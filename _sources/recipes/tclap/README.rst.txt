@@ -5,14 +5,17 @@ tclap
 
 |downloads|
 
-TCLAP is a small, flexible library that provides a simple interface for defining and accessing command line arguments.
+TCLAP is a small\, flexible library that provides a simple interface for defining and accessing command line arguments\.
 
 ======== ===========
 Home     http://tclap.sourceforge.net/
 Versions 1.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tclap/1.2.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tclap
 .. |docker| image:: https://quay.io/repository/biocontainers/tclap/status
                 :target: https://quay.io/repository/biocontainers/tclap
-
 

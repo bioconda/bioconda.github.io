@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Module::Metadata
 Versions 1.000019
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata/1.000019
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-metadata
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-metadata/status
                 :target: https://quay.io/repository/biocontainers/perl-module-metadata
-
 

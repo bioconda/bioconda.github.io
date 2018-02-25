@@ -12,7 +12,10 @@ Home     https://ccb.jhu.edu/software/FLASH/
 Versions 1.2.11
 License  GPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flash
 .. |docker| image:: https://quay.io/repository/biocontainers/flash/status
                 :target: https://quay.io/repository/biocontainers/flash
-
 

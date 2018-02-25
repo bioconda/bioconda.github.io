@@ -5,14 +5,17 @@ nanonet
 
 |downloads|
 
-Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION data.
+Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION data\.
 
 ======== ===========
 Home     https://github.com/nanoporetech/nanonet
 Versions 2.0.0
 License  MPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanonet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanonet
 .. |docker| image:: https://quay.io/repository/biocontainers/nanonet/status
                 :target: https://quay.io/repository/biocontainers/nanonet
-
 

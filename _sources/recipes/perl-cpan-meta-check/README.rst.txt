@@ -5,14 +5,17 @@ perl-cpan-meta-check
 
 |downloads|
 
-Verify requirements in a CPAN::Meta object
+Verify requirements in a CPAN\:\:Meta object
 
 ======== ===========
 Home     http://metacpan.org/pod/CPAN-Meta-Check
 Versions 0.012
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-check
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-cpan-meta-check
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-check/status
                 :target: https://quay.io/repository/biocontainers/perl-cpan-meta-check
-
 

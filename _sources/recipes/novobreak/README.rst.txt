@@ -12,7 +12,10 @@ Home     https://github.com/czc/nb_distribution
 Versions 1.1.3rc
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novobreak
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/novobreak
 .. |docker| image:: https://quay.io/repository/biocontainers/novobreak/status
                 :target: https://quay.io/repository/biocontainers/novobreak
-
 

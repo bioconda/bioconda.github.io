@@ -5,14 +5,17 @@ bioconductor-genomegraphs
 
 |downloads|
 
-Genomic data analyses requires integrated visualization of known genomic information and new experimental data.  GenomeGraphs uses the biomaRt package to perform live annotation queries to Ensembl and translates this to e.g. gene/transcript structures in viewports of the grid graphics package. This results in genomic information plotted together with your data.  Another strength of GenomeGraphs is to plot different data types such as array CGH, gene expression, sequencing and other data, together in one plot using the same genome coordinate system.
+Genomic data analyses requires integrated visualization of known genomic information and new experimental data\.  GenomeGraphs uses the biomaRt package to perform live annotation queries to Ensembl and translates this to e\.g\. gene\/transcript structures in viewports of the grid graphics package\. This results in genomic information plotted together with your data\.  Another strength of GenomeGraphs is to plot different data types such as array CGH\, gene expression\, sequencing and other data\, together in one plot using the same genome coordinate system\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GenomeGraphs.html
 Versions 1.36.0, 1.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomegraphs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genomegraphs
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomegraphs/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genomegraphs
-
 

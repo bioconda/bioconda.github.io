@@ -12,7 +12,10 @@ Home     https://github.com/sndrtj/afplot
 Versions 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/afplot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/afplot
 .. |docker| image:: https://quay.io/repository/biocontainers/afplot/status
                 :target: https://quay.io/repository/biocontainers/afplot
-
 

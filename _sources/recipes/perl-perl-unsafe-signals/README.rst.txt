@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Perl::Unsafe::Signals
 Versions 0.03
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-unsafe-signals
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perl-unsafe-signals
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals/status
                 :target: https://quay.io/repository/biocontainers/perl-perl-unsafe-signals
-
 

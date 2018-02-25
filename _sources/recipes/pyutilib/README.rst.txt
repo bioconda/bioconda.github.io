@@ -5,14 +5,17 @@ pyutilib
 
 |downloads|
 
-PyUtilib: A collection of Python utilities
+PyUtilib\: A collection of Python utilities
 
 ======== ===========
 Home     https://software.sandia.gov/trac/pyutilib
 Versions 5.1.3556
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyutilib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyutilib
 .. |docker| image:: https://quay.io/repository/biocontainers/pyutilib/status
                 :target: https://quay.io/repository/biocontainers/pyutilib
-
 

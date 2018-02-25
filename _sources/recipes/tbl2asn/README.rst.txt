@@ -12,7 +12,10 @@ Home     https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2
 Versions 25.0, 25.3, 25.6
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tbl2asn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tbl2asn
 .. |docker| image:: https://quay.io/repository/biocontainers/tbl2asn/status
                 :target: https://quay.io/repository/biocontainers/tbl2asn
-
 

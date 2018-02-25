@@ -5,14 +5,17 @@ perl-bio-cigar
 
 |downloads|
 
-Parse CIGAR strings and translate coordinates to/from reference/query
+Parse CIGAR strings and translate coordinates to\/from reference\/query
 
 ======== ===========
 Home     http://search.cpan.org/~tsibley/Bio-Cigar-1.01
 Versions 1.01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-cigar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-cigar
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-cigar/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-cigar
-
 

@@ -5,14 +5,17 @@ knot
 
 |downloads|
 
-Detection of knots in protein folds.
+Detection of knots in protein folds\.
 
 ======== ===========
 Home     http://mathbio.nimr.mrc.ac.uk/wiki/Software#KNOT
 Versions 1.0.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/knot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/knot
 .. |docker| image:: https://quay.io/repository/biocontainers/knot/status
                 :target: https://quay.io/repository/biocontainers/knot
-
 

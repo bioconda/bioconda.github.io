@@ -5,14 +5,17 @@ enasearch
 
 |downloads|
 
-A Python library for interacting with ENA's API
+A Python library for interacting with ENA\'s API
 
 ======== ===========
 Home     https://github.com/bebatut/enasearch
 Versions 0.0.4, 0.0.5, 0.0.6, 0.1.1, 0.2.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enasearch/0.0.6
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/enasearch
 .. |docker| image:: https://quay.io/repository/biocontainers/enasearch/status
                 :target: https://quay.io/repository/biocontainers/enasearch
-
 

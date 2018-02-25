@@ -12,7 +12,10 @@ Home     https://github.com/bihealth/hlama
 Versions 0.3, 0.3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hlama
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hlama
 .. |docker| image:: https://quay.io/repository/biocontainers/hlama/status
                 :target: https://quay.io/repository/biocontainers/hlama
-
 

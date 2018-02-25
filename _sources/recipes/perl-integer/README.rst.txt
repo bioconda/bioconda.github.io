@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/integer
 Versions 1.01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer/1.01
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-integer
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-integer/status
                 :target: https://quay.io/repository/biocontainers/perl-integer
-
 

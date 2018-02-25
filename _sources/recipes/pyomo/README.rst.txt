@@ -5,14 +5,17 @@ pyomo
 
 |downloads|
 
-Pyomo: Python Optimization Modeling Objects
+Pyomo\: Python Optimization Modeling Objects
 
 ======== ===========
 Home     http://pyomo.org
 Versions 4.1.10527
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyomo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyomo
 .. |docker| image:: https://quay.io/repository/biocontainers/pyomo/status
                 :target: https://quay.io/repository/biocontainers/pyomo
-
 

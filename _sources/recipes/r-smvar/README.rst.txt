@@ -12,7 +12,10 @@ Home     https://CRAN.R-project.org/package=SMVar
 Versions 1.3.3
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-smvar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-smvar
 .. |docker| image:: https://quay.io/repository/biocontainers/r-smvar/status
                 :target: https://quay.io/repository/biocontainers/r-smvar
-
 

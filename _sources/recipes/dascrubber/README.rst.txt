@@ -5,14 +5,17 @@ dascrubber
 
 |downloads|
 
-Alignment-based Scrubbing pipeline
+Alignment\-based Scrubbing pipeline
 
 ======== ===========
 Home     https://github.com/thegenemyers/DASCRUBBER
 Versions 0.0.1a1, 0.0.1a2
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dascrubber
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dascrubber
 .. |docker| image:: https://quay.io/repository/biocontainers/dascrubber/status
                 :target: https://quay.io/repository/biocontainers/dascrubber
-
 

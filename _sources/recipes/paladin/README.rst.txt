@@ -12,7 +12,12 @@ Home     http://genomebio.org/paladin/
 Versions 1.3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin
+
 ======== ===========
+
+PALADIN is a protein sequence alignment tool designed for the accurate
+functional characterization of metagenomes\.
+
 
 Installation
 ------------
@@ -46,5 +51,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/paladin
 .. |docker| image:: https://quay.io/repository/biocontainers/paladin/status
                 :target: https://quay.io/repository/biocontainers/paladin
-
 

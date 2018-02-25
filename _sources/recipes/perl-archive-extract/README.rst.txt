@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Archive::Extract
 Versions 0.76
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-extract
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-archive-extract
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-archive-extract/status
                 :target: https://quay.io/repository/biocontainers/perl-archive-extract
-
 

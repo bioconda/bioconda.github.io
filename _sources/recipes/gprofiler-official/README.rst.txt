@@ -5,14 +5,17 @@ gprofiler-official
 
 |downloads|
 
-Functional enrichment analysis and more via the g:Profiler toolkit
+Functional enrichment analysis and more via the g\:Profiler toolkit
 
 ======== ===========
 Home     http://biit.cs.ut.ee/gprofiler
 Versions 0.2.3
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gprofiler-official
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gprofiler-official
 .. |docker| image:: https://quay.io/repository/biocontainers/gprofiler-official/status
                 :target: https://quay.io/repository/biocontainers/gprofiler-official
-
 

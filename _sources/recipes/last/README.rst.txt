@@ -5,14 +5,17 @@ last
 
 |downloads|
 
-LAST finds similar regions between sequences, and aligns them. It is designed for comparing large datasets to each other (e.g. vertebrate genomes and/or large numbers of DNA reads).
+LAST finds similar regions between sequences\, and aligns them\. It is designed for comparing large datasets to each other \(e\.g\. vertebrate genomes and\/or large numbers of DNA reads\)\.
 
 ======== ===========
 Home     http://last.cbrc.jp/
 Versions 490, 638, 719, 847, 874, 876
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/last
 .. |docker| image:: https://quay.io/repository/biocontainers/last/status
                 :target: https://quay.io/repository/biocontainers/last
-
 

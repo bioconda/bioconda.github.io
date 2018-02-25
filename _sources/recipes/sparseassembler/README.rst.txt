@@ -5,14 +5,17 @@ sparseassembler
 
 |downloads|
 
-A sparse k-mer graph based, memory-efficient genome assembler
+A sparse k\-mer graph based\, memory\-efficient genome assembler
 
 ======== ===========
 Home     https://github.com/yechengxi/SparseAssembler
 Versions 20160205
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparseassembler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sparseassembler
 .. |docker| image:: https://quay.io/repository/biocontainers/sparseassembler/status
                 :target: https://quay.io/repository/biocontainers/sparseassembler
-
 

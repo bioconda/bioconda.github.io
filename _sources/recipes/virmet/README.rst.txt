@@ -12,7 +12,10 @@ Home     http://virmet.readthedocs.io
 Versions v1.0, v1.1, v1.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virmet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/virmet
 .. |docker| image:: https://quay.io/repository/biocontainers/virmet/status
                 :target: https://quay.io/repository/biocontainers/virmet
-
 

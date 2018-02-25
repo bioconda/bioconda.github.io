@@ -5,14 +5,17 @@ bioconductor-chipcomp
 
 |downloads|
 
-ChIPComp detects differentially bound sharp binding sites across multiple conditions considering matching control.
+ChIPComp detects differentially bound sharp binding sites across multiple conditions considering matching control\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ChIPComp.html
 Versions 1.0.0, 1.6.0, 1.8.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipcomp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-chipcomp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-chipcomp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-chipcomp
-
 

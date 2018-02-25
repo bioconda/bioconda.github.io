@@ -5,14 +5,17 @@ bioconductor-ntw
 
 |downloads|
 
-This package predicts the gene-gene interaction network and identifies the direct transcriptional targets of the perturbation using an ODE (Ordinary Differential Equation) based method.
+This package predicts the gene\-gene interaction network and identifies the direct transcriptional targets of the perturbation using an ODE \(Ordinary Differential Equation\) based method\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/NTW.html
 Versions 1.26.0, 1.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ntw
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ntw
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ntw/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ntw
-
 

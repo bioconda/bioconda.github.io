@@ -5,14 +5,17 @@ ibdne
 
 |downloads|
 
-The IBDNe program estimates the historical effective population size of a homogenous population (from the output of IDBseq).
+The IBDNe program estimates the historical effective population size of a homogenous population \(from the output of IDBseq\)\.
 
 ======== ===========
 Home     http://faculty.washington.edu/browning/ibdne.html
 Versions 04Sep15.e78
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ibdne
 .. |docker| image:: https://quay.io/repository/biocontainers/ibdne/status
                 :target: https://quay.io/repository/biocontainers/ibdne
-
 

@@ -5,14 +5,17 @@ methyldackel
 
 |downloads|
 
-A (mostly) universal methylation extractor for BS-seq experiments. Formerly named PileOMeth.
+A \(mostly\) universal methylation extractor for BS\-seq experiments\. Formerly named PileOMeth\.
 
 ======== ===========
 Home     https://github.com/dpryan79/MethylDackel
 Versions 0.2.0, 0.2.1, 0.3.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methyldackel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/methyldackel
 .. |docker| image:: https://quay.io/repository/biocontainers/methyldackel/status
                 :target: https://quay.io/repository/biocontainers/methyldackel
-
 

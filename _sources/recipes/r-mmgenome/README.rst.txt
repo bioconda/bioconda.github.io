@@ -12,7 +12,10 @@ Home     https://github.com/MadsAlbertsen/mmgenome
 Versions 0.6.3, 0.7.1
 License  AGPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mmgenome
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-mmgenome
 .. |docker| image:: https://quay.io/repository/biocontainers/r-mmgenome/status
                 :target: https://quay.io/repository/biocontainers/r-mmgenome
-
 

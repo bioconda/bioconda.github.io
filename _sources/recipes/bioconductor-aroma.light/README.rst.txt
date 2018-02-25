@@ -5,14 +5,17 @@ bioconductor-aroma.light
 
 |downloads|
 
-Methods for microarray analysis that take basic data types such as matrices and lists of vectors.  These methods can be used standalone, be utilized in other packages, or be wrapped up in higher-level classes.
+Methods for microarray analysis that take basic data types such as matrices and lists of vectors\.  These methods can be used standalone\, be utilized in other packages\, or be wrapped up in higher\-level classes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/aroma.light.html
 Versions 3.4.0, 3.6.0, 3.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aroma.light
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-aroma.light
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-aroma.light/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-aroma.light
-
 

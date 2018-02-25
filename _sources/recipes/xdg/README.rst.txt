@@ -12,7 +12,10 @@ Home     https://github.com/srstevenson/xdg
 Versions 1.0.5
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xdg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xdg
 .. |docker| image:: https://quay.io/repository/biocontainers/xdg/status
                 :target: https://quay.io/repository/biocontainers/xdg
-
 

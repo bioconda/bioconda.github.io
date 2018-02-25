@@ -12,7 +12,10 @@ Home     https://proteowizard.sourceforge.net
 Versions 3_0_10158, 3_0_10246, 3_0_11369, 3_0_11391, 3_0_11392, 3_0_11579
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bumbershoot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bumbershoot
 .. |docker| image:: https://quay.io/repository/biocontainers/bumbershoot/status
                 :target: https://quay.io/repository/biocontainers/bumbershoot
-
 

@@ -5,14 +5,17 @@ perl-xml-semanticdiff
 
 |downloads|
 
-Perl extension for comparing XML documents.
+Perl extension for comparing XML documents\.
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-SemanticDiff
 Versions 1.0004
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-semanticdiff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-semanticdiff
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-semanticdiff/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-semanticdiff
-
 

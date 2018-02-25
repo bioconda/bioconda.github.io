@@ -5,14 +5,17 @@ perl-mailtools
 
 |downloads|
 
-Various e-mail related modules
+Various e\-mail related modules
 
 ======== ===========
 Home     http://metacpan.org/pod/MailTools
 Versions 2.14
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mailtools
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mailtools/status
                 :target: https://quay.io/repository/biocontainers/perl-mailtools
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/katholt/srst2
 Versions 0.1.4.6, 0.1.6, 0.2.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srst2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/srst2
 .. |docker| image:: https://quay.io/repository/biocontainers/srst2/status
                 :target: https://quay.io/repository/biocontainers/srst2
-
 

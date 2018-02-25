@@ -5,14 +5,17 @@ edlib
 
 |downloads|
 
-C/C++ library and program for sequence alignment using edit (Levenshtein) distance
+C\/C\+\+ library and program for sequence alignment using edit \(Levenshtein\) distance
 
 ======== ===========
 Home     https://github.com/Martinsos/edlib/
 Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1, 1.2.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update edlib
 
+
 Notes
 -----
+From version 1\.1\.0 onward\, the \`aligner\` executable has been renamed to \`edlib\-aligner\`\.
 
-From version 1.1.0 onward, the `aligner` executable has been renamed to `edlib-aligner`.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/edlib
 .. |docker| image:: https://quay.io/repository/biocontainers/edlib/status
                 :target: https://quay.io/repository/biocontainers/edlib
-
 

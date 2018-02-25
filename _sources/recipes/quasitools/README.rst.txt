@@ -12,7 +12,10 @@ Home     https://github.com/phac-nml/quasitools/
 Versions 0.1.0, 0.2.0, 0.2.1, 0.2.2
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quasitools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/quasitools
 .. |docker| image:: https://quay.io/repository/biocontainers/quasitools/status
                 :target: https://quay.io/repository/biocontainers/quasitools
-
 

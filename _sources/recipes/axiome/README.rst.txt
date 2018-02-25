@@ -5,14 +5,17 @@ axiome
 
 |downloads|
 
-AXIOME2: Automation Extension and Integration of Microbial Ecology
+AXIOME2\: Automation Extension and Integration of Microbial Ecology
 
 ======== ===========
 Home     https://github.com/neufeld/AXIOME2
 Versions 2.0.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/axiome
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/axiome
 .. |docker| image:: https://quay.io/repository/biocontainers/axiome/status
                 :target: https://quay.io/repository/biocontainers/axiome
-
 

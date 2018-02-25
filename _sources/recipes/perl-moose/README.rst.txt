@@ -12,7 +12,10 @@ Home     http://moose.perl.org/
 Versions 2.1804, 2.2009
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moose
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moose
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moose/status
                 :target: https://quay.io/repository/biocontainers/perl-moose
-
 

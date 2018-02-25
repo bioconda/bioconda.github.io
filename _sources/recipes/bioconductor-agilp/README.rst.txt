@@ -5,14 +5,17 @@ bioconductor-agilp
 
 |downloads|
 
-More about what it does (maybe more than one line)
+More about what it does \(maybe more than one line\)
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/agilp.html
 Versions 3.10.0, 3.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-agilp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-agilp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-agilp
-
 

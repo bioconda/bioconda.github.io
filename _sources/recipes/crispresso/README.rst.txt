@@ -5,14 +5,17 @@ crispresso
 
 |downloads|
 
-A software pipeline for the analysis of targeted CRISPR-Cas9 sequencing data
+A software pipeline for the analysis of targeted CRISPR\-Cas9 sequencing data
 
 ======== ===========
 Home     https://github.com/lucapinello/CRISPResso
 Versions 1.0, 1.0.6, 1.0.7, 1.0.8
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispresso
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/crispresso
 .. |docker| image:: https://quay.io/repository/biocontainers/crispresso/status
                 :target: https://quay.io/repository/biocontainers/crispresso
-
 

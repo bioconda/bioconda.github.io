@@ -12,7 +12,10 @@ Home     https://github.com/karenetheridge/Hook-LexWrap
 Versions 0.26
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hook-lexwrap/0.26
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hook-lexwrap
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hook-lexwrap/status
                 :target: https://quay.io/repository/biocontainers/perl-hook-lexwrap
-
 

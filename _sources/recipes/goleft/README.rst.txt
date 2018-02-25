@@ -12,7 +12,10 @@ Home     https://github.com/brentp/goleft
 Versions 0.1.0, 0.1.1, 0.1.10, 0.1.11, 0.1.12, 0.1.13, 0.1.14, 0.1.16, 0.1.17, 0.1.2, 0.1.3, 0.1.4, 0.1.6, 0.1.8, 0.1.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goleft
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/goleft
 .. |docker| image:: https://quay.io/repository/biocontainers/goleft/status
                 :target: https://quay.io/repository/biocontainers/goleft
-
 

@@ -12,7 +12,10 @@ Home     http://www.smallrnagroup.uni-mainz.de/software.html
 Versions 2.1, 2.3.1
 License  CC BY-NC 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/protrac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/protrac
 .. |docker| image:: https://quay.io/repository/biocontainers/protrac/status
                 :target: https://quay.io/repository/biocontainers/protrac
-
 

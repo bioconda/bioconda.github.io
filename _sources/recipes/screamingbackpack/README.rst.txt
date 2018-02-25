@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/ScreamingBackpack/
 Versions 0.2.333
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screamingbackpack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/screamingbackpack
 .. |docker| image:: https://quay.io/repository/biocontainers/screamingbackpack/status
                 :target: https://quay.io/repository/biocontainers/screamingbackpack
-
 

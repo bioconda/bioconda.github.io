@@ -5,14 +5,17 @@ proot
 
 |downloads|
 
-chroot, mount --bind, and binfmt_misc without privilege/setup
+chroot\, mount \-\-bind\, and binfmt\_misc without privilege\/setup
 
 ======== ===========
 Home     https://github.com/proot-me/PRoot
 Versions 5.1.0
 License  GPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/proot
 .. |docker| image:: https://quay.io/repository/biocontainers/proot/status
                 :target: https://quay.io/repository/biocontainers/proot
-
 

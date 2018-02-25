@@ -5,14 +5,17 @@ perl-tree-dag_node
 
 |downloads|
 
-An N-ary tree
+An N\-ary tree
 
 ======== ===========
 Home     http://metacpan.org/pod/Tree-DAG_Node
 Versions 1.29
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tree-dag_node
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tree-dag_node
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tree-dag_node/status
                 :target: https://quay.io/repository/biocontainers/perl-tree-dag_node
-
 

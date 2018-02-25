@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/NanoLyse
 Versions 0.2.0, 0.4.0, 0.5.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanolyse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanolyse
 .. |docker| image:: https://quay.io/repository/biocontainers/nanolyse/status
                 :target: https://quay.io/repository/biocontainers/nanolyse
-
 

@@ -12,7 +12,10 @@ Home     http://www.nmrglue.com
 Versions 0.5
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrglue
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nmrglue
 .. |docker| image:: https://quay.io/repository/biocontainers/nmrglue/status
                 :target: https://quay.io/repository/biocontainers/nmrglue
-
 

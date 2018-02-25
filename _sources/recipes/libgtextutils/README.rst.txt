@@ -12,7 +12,10 @@ Home     https://github.com/agordon/libgtextutils
 Versions 0.7
 License  AGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgtextutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libgtextutils
 .. |docker| image:: https://quay.io/repository/biocontainers/libgtextutils/status
                 :target: https://quay.io/repository/biocontainers/libgtextutils
-
 

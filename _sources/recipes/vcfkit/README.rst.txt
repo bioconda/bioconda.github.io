@@ -12,7 +12,10 @@ Home     https://github.com/AndersenLab/VCF-kit
 Versions 0.0.4, 0.1.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcfkit
 .. |docker| image:: https://quay.io/repository/biocontainers/vcfkit/status
                 :target: https://quay.io/repository/biocontainers/vcfkit
-
 

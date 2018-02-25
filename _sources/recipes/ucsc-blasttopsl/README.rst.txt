@@ -5,14 +5,17 @@ ucsc-blasttopsl
 
 |downloads|
 
-Convert blast alignments to PSLs.
+Convert blast alignments to PSLs\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-blasttopsl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-blasttopsl
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-blasttopsl/status
                 :target: https://quay.io/repository/biocontainers/ucsc-blasttopsl
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/lgautier/fastq-and-furious
 Versions 0.1.0, 0.2.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-and-furious
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastq-and-furious
 .. |docker| image:: https://quay.io/repository/biocontainers/fastq-and-furious/status
                 :target: https://quay.io/repository/biocontainers/fastq-and-furious
-
 

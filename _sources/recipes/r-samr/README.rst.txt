@@ -12,7 +12,10 @@ Home     http://www-stat.stanford.edu/~tibs/SAM
 Versions 2.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-samr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-samr
 .. |docker| image:: https://quay.io/repository/biocontainers/r-samr/status
                 :target: https://quay.io/repository/biocontainers/r-samr
-
 

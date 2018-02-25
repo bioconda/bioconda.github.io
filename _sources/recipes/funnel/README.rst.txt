@@ -5,14 +5,17 @@ funnel
 
 |downloads|
 
-Funnel is a toolkit for distributed task execution via a simple, standard API
+Funnel is a toolkit for distributed task execution via a simple\, standard API
 
 ======== ===========
 Home     https://ohsu-comp-bio.github.io/funnel/
 Versions 0.5.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funnel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/funnel
 .. |docker| image:: https://quay.io/repository/biocontainers/funnel/status
                 :target: https://quay.io/repository/biocontainers/funnel
-
 

@@ -5,14 +5,17 @@ ucsc-estorient
 
 |downloads|
 
- Read ESTs from a database and determine orientation based on estOrientInfo table or direction in gbCdnaInfo table.  Update PSLs so that the strand reflects the direction of transcription. By default, PSLs where the direction can't be determined are dropped. 
+ Read ESTs from a database and determine orientation based on estOrientInfo table or direction in gbCdnaInfo table\.  Update PSLs so that the strand reflects the direction of transcription\. By default\, PSLs where the direction can\'t be determined are dropped\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-estorient
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-estorient
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-estorient/status
                 :target: https://quay.io/repository/biocontainers/ucsc-estorient
-
 

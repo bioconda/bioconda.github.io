@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File::Path
 Versions 2.09, 2.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-path
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-path
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-path/status
                 :target: https://quay.io/repository/biocontainers/perl-file-path
-
 

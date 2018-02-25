@@ -5,14 +5,17 @@ poa
 
 |downloads|
 
-POA is Partial Order Alignment, a fast program for multiple sequence alignment in bioinformatics. Its advantages are speed, scalability, sensitivity, and the superior ability to handle branching / indels in the alignment.
+POA is Partial Order Alignment\, a fast program for multiple sequence alignment in bioinformatics\. Its advantages are speed\, scalability\, sensitivity\, and the superior ability to handle branching \/ indels in the alignment\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/poamsa
 Versions 2.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/poa
 .. |docker| image:: https://quay.io/repository/biocontainers/poa/status
                 :target: https://quay.io/repository/biocontainers/poa
-
 

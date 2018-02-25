@@ -5,14 +5,17 @@ slncky
 
 |downloads|
 
-slncky is a tool for lncRNA discovery from RNA-Seq data. slncky filters a high-quality set of noncoding transcripts, discovers lncRNA orthologs, and characterizes conserved lncRNA evolution. slncky was developed as a collaboration between the Garber Lab at UMass Medical and the Regev Lab at the Broad Institute.
+slncky is a tool for lncRNA discovery from RNA\-Seq data\. slncky filters a high\-quality set of noncoding transcripts\, discovers lncRNA orthologs\, and characterizes conserved lncRNA evolution\. slncky was developed as a collaboration between the Garber Lab at UMass Medical and the Regev Lab at the Broad Institute\.
 
 ======== ===========
 Home     https://github.com/slncky/slncky
 Versions 1.0.3
 License  MIT - https://github.com/slncky/slncky/blob/1.0.3/license.txt - Copyright (c) 2015 Jennifer Chen
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slncky
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/slncky
 .. |docker| image:: https://quay.io/repository/biocontainers/slncky/status
                 :target: https://quay.io/repository/biocontainers/slncky
-
 

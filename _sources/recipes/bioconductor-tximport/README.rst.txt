@@ -5,14 +5,17 @@ bioconductor-tximport
 
 |downloads|
 
-Imports transcript-level abundance, estimated counts and transcript lengths, and summarizes into matrices for use with downstream gene-level analysis packages. Average transcript length, weighted by sample-specific transcript abundance estimates, is provided as a matrix which can be used as an offset for different expression of gene-level counts.
+Imports transcript\-level abundance\, estimated counts and transcript lengths\, and summarizes into matrices for use with downstream gene\-level analysis packages\. Average transcript length\, weighted by sample\-specific transcript abundance estimates\, is provided as a matrix which can be used as an offset for different expression of gene\-level counts\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/tximport.html
 Versions 1.0.3, 1.4.0, 1.6.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-tximport
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tximport/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-tximport
-
 

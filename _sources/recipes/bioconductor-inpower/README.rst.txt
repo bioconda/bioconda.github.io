@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/INPower.html
 Versions 1.14.0
 License  GPL-2 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpower
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-inpower
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-inpower/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-inpower
-
 

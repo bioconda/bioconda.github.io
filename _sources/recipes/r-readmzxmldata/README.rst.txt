@@ -5,14 +5,17 @@ r-readmzxmldata
 
 |downloads|
 
-Functions for reading mass spectrometry data in mzXML format.
+Functions for reading mass spectrometry data in mzXML format\.
 
 ======== ===========
 Home     http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readMzXmlData/
 Versions 2.8.1
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-readmzxmldata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-readmzxmldata
 .. |docker| image:: https://quay.io/repository/biocontainers/r-readmzxmldata/status
                 :target: https://quay.io/repository/biocontainers/r-readmzxmldata
-
 

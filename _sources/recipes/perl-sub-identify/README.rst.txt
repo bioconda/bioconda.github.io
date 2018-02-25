@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Sub::Identify
 Versions 0.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-identify/0.12
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sub-identify
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-identify/status
                 :target: https://quay.io/repository/biocontainers/perl-sub-identify
-
 

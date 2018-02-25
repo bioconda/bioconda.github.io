@@ -5,14 +5,17 @@ pycoqc
 
 |downloads|
 
-Python 3 package for Jupyter Notebook, computing metrics and generating plots from Oxford Nanopore Albacore report
+Python 3 package for Jupyter Notebook\, computing metrics and generating plots from Oxford Nanopore Albacore report
 
 ======== ===========
 Home     https://github.com/EnrightLab/pycoQC
 Versions 1.0.alpha1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pycoqc
 .. |docker| image:: https://quay.io/repository/biocontainers/pycoqc/status
                 :target: https://quay.io/repository/biocontainers/pycoqc
-
 

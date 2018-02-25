@@ -12,7 +12,10 @@ Home     http://socksipy.sourceforge.net/
 Versions 1.01
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/socksipy-branch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/socksipy-branch
 .. |docker| image:: https://quay.io/repository/biocontainers/socksipy-branch/status
                 :target: https://quay.io/repository/biocontainers/socksipy-branch
-
 

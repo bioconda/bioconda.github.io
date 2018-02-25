@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-SAX-Base
 Versions 1.08
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-base
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-sax-base
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-sax-base/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-sax-base
-
 

@@ -5,14 +5,17 @@ r-giant
 
 |downloads|
 
-Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
+Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=GiANT
 Versions 1.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-giant
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-giant
 .. |docker| image:: https://quay.io/repository/biocontainers/r-giant/status
                 :target: https://quay.io/repository/biocontainers/r-giant
-
 

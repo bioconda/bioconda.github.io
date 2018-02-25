@@ -5,14 +5,17 @@ gnuplot-py
 
 |downloads|
 
-A Python interface to the gnuplot plotting program.
+A Python interface to the gnuplot plotting program\.
 
 ======== ===========
 Home     http://gnuplot-py.sourceforge.net
 Versions 1.8
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnuplot-py
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gnuplot-py
 .. |docker| image:: https://quay.io/repository/biocontainers/gnuplot-py/status
                 :target: https://quay.io/repository/biocontainers/gnuplot-py
-
 

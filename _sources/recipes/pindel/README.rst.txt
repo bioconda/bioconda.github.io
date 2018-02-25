@@ -5,14 +5,17 @@ pindel
 
 |downloads|
 
-Pindel can detect breakpoints of large deletions, medium sized insertions, inversions, tandem duplications and other structural variants at single-based resolution from next-gen sequence data
+Pindel can detect breakpoints of large deletions\, medium sized insertions\, inversions\, tandem duplications and other structural variants at single\-based resolution from next\-gen sequence data
 
 ======== ===========
 Home     http://gmt.genome.wustl.edu/packages/pindel/index.html
 Versions 0.2.5b8, 0.2.5b9
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pindel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pindel
 .. |docker| image:: https://quay.io/repository/biocontainers/pindel/status
                 :target: https://quay.io/repository/biocontainers/pindel
-
 

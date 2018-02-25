@@ -12,7 +12,10 @@ Home     http://www.ebi.ac.uk/~zerbino/oases/
 Versions 0.2.09
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/oases
 .. |docker| image:: https://quay.io/repository/biocontainers/oases/status
                 :target: https://quay.io/repository/biocontainers/oases
-
 

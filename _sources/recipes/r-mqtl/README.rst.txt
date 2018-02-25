@@ -5,14 +5,17 @@ r-mqtl
 
 |downloads|
 
-mQTL provides a complete QTL analysis pipeline for metabolomic data.  Distinctive features include normalisation using PQN approach, peak alignment   using RSPA approach, dimensionality reduction using SRV approach and finally  QTL mapping using R/qtl package.
+mQTL provides a complete QTL analysis pipeline for metabolomic data\.  Distinctive features include normalisation using PQN approach\, peak alignment   using RSPA approach\, dimensionality reduction using SRV approach and finally  QTL mapping using R\/qtl package\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=mQTL
 Versions 1.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mqtl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-mqtl
 .. |docker| image:: https://quay.io/repository/biocontainers/r-mqtl/status
                 :target: https://quay.io/repository/biocontainers/r-mqtl
-
 

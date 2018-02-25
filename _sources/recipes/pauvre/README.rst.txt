@@ -5,14 +5,17 @@ pauvre
 
 |downloads|
 
-Tools for plotting Oxford Nanopore and other long-read data.
+Tools for plotting Oxford Nanopore and other long\-read data\.
 
 ======== ===========
 Home     https://github.com/conchoecia/pauvre
 Versions 0.1.3, 0.1.85, 0.1.86
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauvre
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pauvre
 .. |docker| image:: https://quay.io/repository/biocontainers/pauvre/status
                 :target: https://quay.io/repository/biocontainers/pauvre
-
 

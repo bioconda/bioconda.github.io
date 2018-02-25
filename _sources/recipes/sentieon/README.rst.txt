@@ -12,7 +12,10 @@ Home     http://sentieon.com
 Versions 201603.02, 201606, 201611, 201611.03, 201704, 201704.02, 201704.03, 201711, 201711.01
 License  Commercial (requires license for use)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sentieon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sentieon
 .. |docker| image:: https://quay.io/repository/biocontainers/sentieon/status
                 :target: https://quay.io/repository/biocontainers/sentieon
-
 

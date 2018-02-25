@@ -12,7 +12,10 @@ Home     http://www.ebi.ac.uk/ena/software/flat-file-validator
 Versions 1.1.173, 1.1.180
 License  Apache-2-0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embl-validator
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/embl-api-validator
 .. |docker| image:: https://quay.io/repository/biocontainers/embl-api-validator/status
                 :target: https://quay.io/repository/biocontainers/embl-api-validator
-
 

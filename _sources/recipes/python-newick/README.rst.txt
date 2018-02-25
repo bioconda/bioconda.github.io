@@ -12,7 +12,10 @@ Home     https://github.com/glottobank/python-newick
 Versions 0.8.0
 License  Apache License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-newick
 .. |docker| image:: https://quay.io/repository/biocontainers/python-newick/status
                 :target: https://quay.io/repository/biocontainers/python-newick
-
 

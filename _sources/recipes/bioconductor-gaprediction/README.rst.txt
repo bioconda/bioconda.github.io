@@ -5,14 +5,17 @@ bioconductor-gaprediction
 
 |downloads|
 
-[GAprediction] predicts gestational age using Illumina HumanMethylation450 CpG data.
+\[GAprediction\] predicts gestational age using Illumina HumanMethylation450 CpG data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GAprediction.html
 Versions 1.4.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaprediction
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gaprediction
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gaprediction/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gaprediction
-
 

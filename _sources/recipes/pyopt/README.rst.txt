@@ -12,7 +12,10 @@ Home     http://www.pyopt.org/index.html
 Versions 1.2.0
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyopt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyopt
 .. |docker| image:: https://quay.io/repository/biocontainers/pyopt/status
                 :target: https://quay.io/repository/biocontainers/pyopt
-
 

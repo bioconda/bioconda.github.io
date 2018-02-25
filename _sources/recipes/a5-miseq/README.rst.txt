@@ -5,14 +5,17 @@ a5-miseq
 
 |downloads|
 
-A5-miseq is a pipeline for assembling DNA sequence data generated on the Illumina sequencing platform. This README will take you through the steps necessary for running _A5-miseq_
+A5\-miseq is a pipeline for assembling DNA sequence data generated on the Illumina sequencing platform\. This README will take you through the steps necessary for running \_A5\-miseq\_
 
 ======== ===========
 Home     https://sourceforge.net/projects/ngop
 Versions 20160825
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a5-miseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/a5-miseq
 .. |docker| image:: https://quay.io/repository/biocontainers/a5-miseq/status
                 :target: https://quay.io/repository/biocontainers/a5-miseq
-
 

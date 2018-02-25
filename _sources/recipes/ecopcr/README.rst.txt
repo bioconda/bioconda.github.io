@@ -5,14 +5,17 @@ ecopcr
 
 |downloads|
 
-ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality.
+ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality\.
 
 ======== ===========
 Home     https://git.metabarcoding.org/obitools/ecopcr/wikis/home
 Versions 0.5.0
 License  CeCill v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecopcr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ecopcr
 .. |docker| image:: https://quay.io/repository/biocontainers/ecopcr/status
                 :target: https://quay.io/repository/biocontainers/ecopcr
-
 

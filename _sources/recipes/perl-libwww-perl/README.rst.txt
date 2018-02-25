@@ -5,14 +5,17 @@ perl-libwww-perl
 
 |downloads|
 
-The World-Wide Web library for Perl
+The World\-Wide Web library for Perl
 
 ======== ===========
 Home     http://metacpan.org/pod/libwww-perl
 Versions 6.15
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-libwww-perl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-libwww-perl/status
                 :target: https://quay.io/repository/biocontainers/perl-libwww-perl
-
 

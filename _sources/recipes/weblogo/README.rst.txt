@@ -5,14 +5,17 @@ weblogo
 
 |downloads|
 
-WebLogo3 : Sequence Logos Redrawn
+WebLogo3 \: Sequence Logos Redrawn
 
 ======== ===========
 Home     https://github.com/WebLogo/weblogo
 Versions 2.8.2, 3.5.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/weblogo
 .. |docker| image:: https://quay.io/repository/biocontainers/weblogo/status
                 :target: https://quay.io/repository/biocontainers/weblogo
-
 

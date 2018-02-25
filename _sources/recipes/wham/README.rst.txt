@@ -12,7 +12,10 @@ Home     https://github.com/jewmanchue/wham
 Versions 1.7.0.162, 1.7.0.307, 1.7.0.311
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wham
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wham
 .. |docker| image:: https://quay.io/repository/biocontainers/wham/status
                 :target: https://quay.io/repository/biocontainers/wham
-
 

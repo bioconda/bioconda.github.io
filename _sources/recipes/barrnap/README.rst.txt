@@ -5,14 +5,17 @@ barrnap
 
 |downloads|
 
-Find 5S, 16S and 23S ribosomal RNA genes in bacterial contigs
+Find 5S\, 16S and 23S ribosomal RNA genes in bacterial contigs
 
 ======== ===========
 Home     https://github.com/tseemann/barrnap
 Versions 0.2, 0.3, 0.7, 0.8
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/0.8
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/barrnap
 .. |docker| image:: https://quay.io/repository/biocontainers/barrnap/status
                 :target: https://quay.io/repository/biocontainers/barrnap
-
 

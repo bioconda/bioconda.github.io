@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Pod::PlainText
 Versions 2.07
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext/2.07
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-plaintext
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-plaintext/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-plaintext
-
 

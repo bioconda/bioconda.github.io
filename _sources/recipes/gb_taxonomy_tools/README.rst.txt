@@ -5,14 +5,17 @@ gb_taxonomy_tools
 
 |downloads|
 
-These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information.
+These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information\.
 
 ======== ===========
 Home     https://github.com/spond/gb_taxonomy_tools
 Versions 1.0.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gb_taxonomy_tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gb_taxonomy_tools
 .. |docker| image:: https://quay.io/repository/biocontainers/gb_taxonomy_tools/status
                 :target: https://quay.io/repository/biocontainers/gb_taxonomy_tools
-
 

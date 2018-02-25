@@ -5,14 +5,17 @@ snp-sites
 
 |downloads|
 
-Finds SNP sites from a multi-FASTA alignment file.
+Finds SNP sites from a multi\-FASTA alignment file\.
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/snp-sites
 Versions 2.3.2, 2.3.3
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snp-sites
 .. |docker| image:: https://quay.io/repository/biocontainers/snp-sites/status
                 :target: https://quay.io/repository/biocontainers/snp-sites
-
 

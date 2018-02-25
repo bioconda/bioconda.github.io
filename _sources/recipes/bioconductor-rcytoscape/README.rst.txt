@@ -5,14 +5,17 @@ bioconductor-rcytoscape
 
 |downloads|
 
-Interactvive viewing and exploration of graphs, connecting R to Cytoscape.
+Interactvive viewing and exploration of graphs\, connecting R to Cytoscape\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RCytoscape.html
 Versions 1.21.1, 1.26.0, 1.27.1
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcytoscape
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rcytoscape
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rcytoscape/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rcytoscape
-
 

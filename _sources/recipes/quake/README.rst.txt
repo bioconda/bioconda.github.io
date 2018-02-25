@@ -5,14 +5,17 @@ quake
 
 |downloads|
 
-Quake is a package to correct substitution sequencing errors in experiments with deep coverage (e.g. >15X), specifically intended for Illumina sequencing reads
+Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e\.g\. \>15X\)\, specifically intended for Illumina sequencing reads
 
 ======== ===========
 Home     http://www.cbcb.umd.edu/software/quake/
 Versions 0.3.5
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/quake
 .. |docker| image:: https://quay.io/repository/biocontainers/quake/status
                 :target: https://quay.io/repository/biocontainers/quake
-
 

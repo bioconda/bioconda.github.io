@@ -5,14 +5,17 @@ bpp-core
 
 |downloads|
 
-Bio++ is a set of C++ libraries for Bioinformatics.
+Bio\+\+ is a set of C\+\+ libraries for Bioinformatics\.
 
 ======== ===========
 Home     https://github.com/BioPP/bpp-core
 Versions 2.2.0
 License  CeCILL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-core
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bpp-core
 .. |docker| image:: https://quay.io/repository/biocontainers/bpp-core/status
                 :target: https://quay.io/repository/biocontainers/bpp-core
-
 

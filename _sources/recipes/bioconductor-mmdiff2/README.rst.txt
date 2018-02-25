@@ -5,14 +5,17 @@ bioconductor-mmdiff2
 
 |downloads|
 
-This package detects statistically significant differences between read enrichment profiles in different ChIP-Seq samples. To take advantage of shape differences it uses Kernel methods (Maximum Mean Discrepancy, MMD).
+This package detects statistically significant differences between read enrichment profiles in different ChIP\-Seq samples\. To take advantage of shape differences it uses Kernel methods \(Maximum Mean Discrepancy\, MMD\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MMDiff2.html
 Versions 1.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mmdiff2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mmdiff2
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mmdiff2/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mmdiff2
-
 

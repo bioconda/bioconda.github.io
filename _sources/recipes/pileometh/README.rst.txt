@@ -5,14 +5,17 @@ pileometh
 
 |downloads|
 
-A (mostly) universal methylation extractor for BS-seq experiments.
+A \(mostly\) universal methylation extractor for BS\-seq experiments\.
 
 ======== ===========
 Home     https://github.com/dpryan79/PileOMeth
 Versions 0.1.13
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pileometh
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pileometh
 .. |docker| image:: https://quay.io/repository/biocontainers/pileometh/status
                 :target: https://quay.io/repository/biocontainers/pileometh
-
 

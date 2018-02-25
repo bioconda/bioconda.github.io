@@ -5,14 +5,17 @@ pybedtools
 
 |downloads|
 
-Wraps BEDTools for use in Python and adds many additional features.
+Wraps BEDTools for use in Python and adds many additional features\.
 
 ======== ===========
 Home     https://github.com/daler/pybedtools
 Versions 0.6.9, 0.7.0, 0.7.10, 0.7.2, 0.7.4, 0.7.5, 0.7.6, 0.7.7, 0.7.8, 0.7.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybedtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pybedtools
 .. |docker| image:: https://quay.io/repository/biocontainers/pybedtools/status
                 :target: https://quay.io/repository/biocontainers/pybedtools
-
 

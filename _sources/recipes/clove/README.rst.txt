@@ -5,14 +5,17 @@ clove
 
 |downloads|
 
-CLOVE: Classification of genomic fusions into structural variation events.
+CLOVE\: Classification of genomic fusions into structural variation events\.
 
 ======== ===========
 Home     https://github.com/PapenfussLab/clove
 Versions 0.17
 License  GPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clove
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,15 +30,16 @@ and update with::
 
    conda update clove
 
+
 Notes
 -----
+Clove is a Java program that comes with a custom wrapper shell script\.
+This shell wrapper is called \"clove\" and is on \$PATH by default\. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
+specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
+set globally this will take precedence\.
+For example run it with \"clove \-Xms512m \-Xmx1g\"
 
-Clove is a Java program that comes with a custom wrapper shell script.
-This shell wrapper is called "clove" and is on $PATH by default. By default
-"-Xms512m -Xmx1g" is set in the wrapper. If you want to overwrite it you can
-specify these values directly after your binaries. If you have _JAVA_OPTIONS
-set globally this will take precedence.
-For example run it with "clove -Xms512m -Xmx1g"
 
 
 |docker|
@@ -55,5 +59,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clove
 .. |docker| image:: https://quay.io/repository/biocontainers/clove/status
                 :target: https://quay.io/repository/biocontainers/clove
-
 

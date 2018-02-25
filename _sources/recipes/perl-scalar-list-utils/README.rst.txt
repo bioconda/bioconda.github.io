@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Scalar-List-Utils
 Versions 1.42, 1.45
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-list-utils/1.42
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-scalar-list-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-scalar-list-utils/status
                 :target: https://quay.io/repository/biocontainers/perl-scalar-list-utils
-
 

@@ -5,14 +5,17 @@ lefse
 
 |downloads|
 
-LDA Effect Size (LEfSe) (Segata et. al 2010) is an algorithm for high-dimensional biomarker discovery and explanation that identifies genomic features (genes, pathways, or taxa) characterizing the differences between two or more biological conditions.
+LDA Effect Size \(LEfSe\) \(Segata et\. al 2010\) is an algorithm for high\-dimensional biomarker discovery and explanation that identifies genomic features \(genes\, pathways\, or taxa\) characterizing the differences between two or more biological conditions\.
 
 ======== ===========
 Home     https://bitbucket.org/nsegata/lefse
 Versions 1.0.7, 1.0.7.post1, 1.0.8.post1
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update lefse
 
+
 Notes
 -----
+Prefix with \'lefse\-\'\' some script names that are rather generic\: \'format\_input\.py\'\, \'plot\_cladogram\.py\'\, \'plot\_features\.py\'\, \'plot\_res\.py\'\.
 
-Prefix with 'lefse-'' some script names that are rather generic: 'format_input.py', 'plot_cladogram.py', 'plot_features.py', 'plot_res.py'.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lefse
 .. |docker| image:: https://quay.io/repository/biocontainers/lefse/status
                 :target: https://quay.io/repository/biocontainers/lefse
-
 

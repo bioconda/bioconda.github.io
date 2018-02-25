@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/List::Uniq
 Versions 0.20
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-uniq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-list-uniq
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-list-uniq/status
                 :target: https://quay.io/repository/biocontainers/perl-list-uniq
-
 

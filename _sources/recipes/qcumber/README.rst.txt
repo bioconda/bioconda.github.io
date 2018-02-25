@@ -5,14 +5,17 @@ qcumber
 
 |downloads|
 
-Quality control, quality trimming, adapter removal and sequence content check of NGS data.
+Quality control\, quality trimming\, adapter removal and sequence content check of NGS data\.
 
 ======== ===========
 Home     https://gitlab.com/RKIBioinformaticsPipelines/QCumber
 Versions 2.0.4
 License  LGPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcumber
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qcumber
 .. |docker| image:: https://quay.io/repository/biocontainers/qcumber/status
                 :target: https://quay.io/repository/biocontainers/qcumber
-
 

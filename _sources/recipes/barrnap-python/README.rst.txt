@@ -5,14 +5,17 @@ barrnap-python
 
 |downloads|
 
-python package for Torsten Seemann's barrnap package for annotating rRNAs
+python package for Torsten Seemann\'s barrnap package for annotating rRNAs
 
 ======== ===========
 Home     https://github.com/nickp60/barrnap-python
 Versions 0.0.5
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap-python
+
 ======== ===========
+
+Original Perl code can be found at the projects homepage here\: https\:\/\/github\.com\/tseemann\/barrnap
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/barrnap-python
 .. |docker| image:: https://quay.io/repository/biocontainers/barrnap-python/status
                 :target: https://quay.io/repository/biocontainers/barrnap-python
-
 

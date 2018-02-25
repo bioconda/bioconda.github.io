@@ -5,14 +5,17 @@ bioconductor-gcspikelite
 
 |downloads|
 
-Spike-in data for GC/MS data and methods within flagme
+Spike\-in data for GC\/MS data and methods within flagme
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/gcspikelite.html
 Versions 1.14.0, 1.16.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcspikelite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gcspikelite
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gcspikelite/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gcspikelite
-
 

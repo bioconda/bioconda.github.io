@@ -5,14 +5,17 @@ perl-file-readbackwards
 
 |downloads|
 
-Read a file backwards by lines.
+Read a file backwards by lines\.
 
 ======== ===========
 Home     http://metacpan.org/pod/File::ReadBackwards
 Versions 1.05
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-readbackwards
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-readbackwards
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-readbackwards/status
                 :target: https://quay.io/repository/biocontainers/perl-file-readbackwards
-
 

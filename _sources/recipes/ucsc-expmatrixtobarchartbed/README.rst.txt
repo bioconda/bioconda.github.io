@@ -5,14 +5,17 @@ ucsc-expmatrixtobarchartbed
 
 |downloads|
 
- Generate a barChart bed6+5 file from a matrix, meta data, and coordinates. 
+ Generate a barChart bed6\+5 file from a matrix\, meta data\, and coordinates\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-expmatrixtobarchartbed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-expmatrixtobarchartbed
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-expmatrixtobarchartbed/status
                 :target: https://quay.io/repository/biocontainers/ucsc-expmatrixtobarchartbed
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/IO-stringy
 Versions 2.111
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-stringy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-stringy
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-stringy/status
                 :target: https://quay.io/repository/biocontainers/perl-io-stringy
-
 

@@ -5,14 +5,17 @@ ea-utils
 
 |downloads|
 
-Command-line tools for processing biological sequencing data.
+Command\-line tools for processing biological sequencing data\.
 
 ======== ===========
 Home     https://code.google.com/p/ea-utils/
 Versions 1.1.2.537
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ea-utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ea-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/ea-utils/status
                 :target: https://quay.io/repository/biocontainers/ea-utils
-
 

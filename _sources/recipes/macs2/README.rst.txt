@@ -5,14 +5,17 @@ macs2
 
 |downloads|
 
-MACS -- Model-based Analysis of ChIP-Seq
+MACS \-\- Model\-based Analysis of ChIP\-Seq
 
 ======== ===========
 Home     https://github.com/taoliu/MACS/
 Versions 2.1.0, 2.1.1, 2.1.1.20160309
 License  BSD New
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/macs2
 .. |docker| image:: https://quay.io/repository/biocontainers/macs2/status
                 :target: https://quay.io/repository/biocontainers/macs2
-
 

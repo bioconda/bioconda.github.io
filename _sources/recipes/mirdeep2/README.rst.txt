@@ -12,7 +12,10 @@ Home     https://www.mdc-berlin.de/8551903/en/research/research_teams/systems_bi
 Versions 2.0.0.7, 2.0.0.8
 License  academic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirdeep2/2.0.0.8
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mirdeep2
 .. |docker| image:: https://quay.io/repository/biocontainers/mirdeep2/status
                 :target: https://quay.io/repository/biocontainers/mirdeep2
-
 

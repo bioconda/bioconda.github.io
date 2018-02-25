@@ -12,7 +12,10 @@ Home     https://github.com/AstraZeneca-NGS/disambiguate
 Versions 1.0.0, 2016.11.10
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ngs-disambiguate
 .. |docker| image:: https://quay.io/repository/biocontainers/ngs-disambiguate/status
                 :target: https://quay.io/repository/biocontainers/ngs-disambiguate
-
 

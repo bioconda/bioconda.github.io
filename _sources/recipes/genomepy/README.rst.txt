@@ -5,14 +5,17 @@ genomepy
 
 |downloads|
 
-Download genomes the easy way.
+Download genomes the easy way\.
 
 ======== ===========
 Home     https://github.com/simonvh/genomepy
 Versions 0.3.1, 0.4.0, 0.5.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomepy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genomepy
 .. |docker| image:: https://quay.io/repository/biocontainers/genomepy/status
                 :target: https://quay.io/repository/biocontainers/genomepy
-
 

@@ -5,14 +5,17 @@ jamm
 
 |downloads|
 
-JAMM is a peak finder for NGS datasets (ChIP-Seq, ATAC-Seq, DNase-Seq..etc.) that can integrate replicates and assign peak boundaries accurately.
+JAMM is a peak finder for NGS datasets \(ChIP\-Seq\, ATAC\-Seq\, DNase\-Seq\.\.etc\.\) that can integrate replicates and assign peak boundaries accurately\.
 
 ======== ===========
 Home     https://github.com/mahmoudibrahim/JAMM
 Versions 1.0.7.2, 1.0.7.4, 1.0.7.5
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jamm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jamm
 .. |docker| image:: https://quay.io/repository/biocontainers/jamm/status
                 :target: https://quay.io/repository/biocontainers/jamm
-
 

@@ -5,14 +5,17 @@ proteowizard
 
 |downloads|
 
-Tools for dealing with mass spectrometry files (e.g., mzML, mzXML, mzIdentML, MGF)
+Tools for dealing with mass spectrometry files \(e\.g\.\, mzML\, mzXML\, mzIdentML\, MGF\)
 
 ======== ===========
 Home     https://proteowizard.sourceforge.net
 Versions 3_0_9992
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proteowizard
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/proteowizard
 .. |docker| image:: https://quay.io/repository/biocontainers/proteowizard/status
                 :target: https://quay.io/repository/biocontainers/proteowizard
-
 

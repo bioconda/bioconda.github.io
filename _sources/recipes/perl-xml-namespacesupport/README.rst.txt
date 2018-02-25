@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-NamespaceSupport
 Versions 1.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-namespacesupport
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-namespacesupport
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-namespacesupport/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-namespacesupport
-
 

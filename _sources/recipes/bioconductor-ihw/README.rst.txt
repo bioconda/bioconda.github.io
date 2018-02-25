@@ -5,14 +5,17 @@ bioconductor-ihw
 
 |downloads|
 
-Independent hypothesis weighting (IHW) is a multiple testing procedure that increases power compared to the method of Benjamini and Hochberg by assigning data-driven weights to each hypothesis. The input to IHW is a two-column table of p-values and covariates. The covariate can be any continuous-valued or categorical variable that is thought to be informative on the statistical properties of each hypothesis test, while it is independent of the p-value under the null hypothesis.
+Independent hypothesis weighting \(IHW\) is a multiple testing procedure that increases power compared to the method of Benjamini and Hochberg by assigning data\-driven weights to each hypothesis\. The input to IHW is a two\-column table of p\-values and covariates\. The covariate can be any continuous\-valued or categorical variable that is thought to be informative on the statistical properties of each hypothesis test\, while it is independent of the p\-value under the null hypothesis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/IHW.html
 Versions 1.2.0, 1.4.0, 1.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ihw
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ihw
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ihw/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ihw
-
 

@@ -12,7 +12,10 @@ Home     http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
 Versions 3.0.6.2
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pash
 .. |docker| image:: https://quay.io/repository/biocontainers/pash/status
                 :target: https://quay.io/repository/biocontainers/pash
-
 

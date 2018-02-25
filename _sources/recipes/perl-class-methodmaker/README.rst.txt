@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~schwigon/Class-MethodMaker-2.24/
 Versions 2.24
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-methodmaker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-methodmaker
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-methodmaker/status
                 :target: https://quay.io/repository/biocontainers/perl-class-methodmaker
-
 

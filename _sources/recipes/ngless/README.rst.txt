@@ -12,7 +12,10 @@ Home     http://ngless.embl.de
 Versions 0.5.1, 0.6.0, 0.6.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ngless
 .. |docker| image:: https://quay.io/repository/biocontainers/ngless/status
                 :target: https://quay.io/repository/biocontainers/ngless
-
 

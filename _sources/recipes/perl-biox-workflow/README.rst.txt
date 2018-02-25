@@ -5,14 +5,17 @@ perl-biox-workflow
 
 |downloads|
 
-Template away your bioinformatics workflows.
+Template away your bioinformatics workflows\.
 
 ======== ===========
 Home     https://github.com/jerowe/BioX-Workflow
 Versions 0.27, 1.10
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow/1.10
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-biox-workflow
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-biox-workflow/status
                 :target: https://quay.io/repository/biocontainers/perl-biox-workflow
-
 

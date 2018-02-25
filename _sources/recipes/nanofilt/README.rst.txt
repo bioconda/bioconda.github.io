@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/nanofilt
 Versions 1.1.3, 1.1.4, 1.2.0, 1.7.0, 1.8.0, 1.9.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanofilt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanofilt
 .. |docker| image:: https://quay.io/repository/biocontainers/nanofilt/status
                 :target: https://quay.io/repository/biocontainers/nanofilt
-
 

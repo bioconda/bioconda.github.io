@@ -12,7 +12,10 @@ Home     http://alternate.meme-suite.org/
 Versions 4.11.1, 4.11.2, 4.12.0
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/meme
 .. |docker| image:: https://quay.io/repository/biocontainers/meme/status
                 :target: https://quay.io/repository/biocontainers/meme
-
 

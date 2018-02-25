@@ -5,14 +5,17 @@ perl-list-moreutils
 
 |downloads|
 
-Provide the stuff missing in List::Util
+Provide the stuff missing in List\:\:Util
 
 ======== ===========
 Home     https://metacpan.org/release/List-MoreUtils
 Versions 0.413, 0.428
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-list-moreutils
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-list-moreutils/status
                 :target: https://quay.io/repository/biocontainers/perl-list-moreutils
-
 

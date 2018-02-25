@@ -5,14 +5,17 @@ perl-bio-db-sam
 
 |downloads|
 
-Read SAM/BAM database files
+Read SAM\/BAM database files
 
 ======== ===========
 Home     https://metacpan.org/pod/Bio::DB::Sam
 Versions 1.41
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-sam
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-db-sam
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-db-sam/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-db-sam
-
 

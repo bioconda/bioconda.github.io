@@ -5,14 +5,17 @@ cgcloud-lib
 
 |downloads|
 
-Components shared between cgcloud-core and cgcloud-agent
+Components shared between cgcloud\-core and cgcloud\-agent
 
 ======== ===========
 Home     https://github.com/BD2KGenomics/cgcloud
 Versions 1.4a1.dev195, 1.6.0
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgcloud-lib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cgcloud-lib
 .. |docker| image:: https://quay.io/repository/biocontainers/cgcloud-lib/status
                 :target: https://quay.io/repository/biocontainers/cgcloud-lib
-
 

@@ -5,14 +5,17 @@ intervals
 
 |downloads|
 
-Python tools for handling intervals (ranges of comparable objects).
+Python tools for handling intervals \(ranges of comparable objects\)\.
 
 ======== ===========
 Home     https://github.com/kvesteri/intervals
 Versions 0.6.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervals
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intervals
 .. |docker| image:: https://quay.io/repository/biocontainers/intervals/status
                 :target: https://quay.io/repository/biocontainers/intervals
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Module::ScanDeps
 Versions 1.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-scandeps/1.23
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-scandeps
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-scandeps/status
                 :target: https://quay.io/repository/biocontainers/perl-module-scandeps
-
 

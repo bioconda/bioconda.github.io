@@ -12,7 +12,10 @@ Home     https://github.com/genome/breakdancer
 Versions 1.4.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakdancer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/breakdancer
 .. |docker| image:: https://quay.io/repository/biocontainers/breakdancer/status
                 :target: https://quay.io/repository/biocontainers/breakdancer
-
 

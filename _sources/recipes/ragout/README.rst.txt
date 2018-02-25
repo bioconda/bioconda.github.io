@@ -5,14 +5,17 @@ ragout
 
 |downloads|
 
-Ragout (Reference-Assisted Genome Ordering UTility) is a tool for chromosome assembly using multiple references
+Ragout \(Reference\-Assisted Genome Ordering UTility\) is a tool for chromosome assembly using multiple references
 
 ======== ===========
 Home     https://github.com/fenderglass/Ragout
 Versions 2.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragout
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ragout
 .. |docker| image:: https://quay.io/repository/biocontainers/ragout/status
                 :target: https://quay.io/repository/biocontainers/ragout
-
 

@@ -5,14 +5,17 @@ bioconductor-prot2d
 
 |downloads|
 
-The purpose of this package is to analyze (i.e. Normalize and select significant spots) data issued from 2D GEl experiments
+The purpose of this package is to analyze \(i\.e\. Normalize and select significant spots\) data issued from 2D GEl experiments
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/prot2D.html
 Versions 1.16.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prot2d
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-prot2d
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-prot2d/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-prot2d
-
 

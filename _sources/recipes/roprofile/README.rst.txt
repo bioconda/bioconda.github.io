@@ -5,14 +5,17 @@ roprofile
 
 |downloads|
 
-Generation of pan-genome profile files using Roary output.
+Generation of pan\-genome profile files using Roary output\.
 
 ======== ===========
 Home     https://github.com/cimendes/roProfile
 Versions 1.4.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roprofile
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/roprofile
 .. |docker| image:: https://quay.io/repository/biocontainers/roprofile/status
                 :target: https://quay.io/repository/biocontainers/roprofile
-
 

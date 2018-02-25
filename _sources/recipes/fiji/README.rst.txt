@@ -5,14 +5,17 @@ fiji
 
 |downloads|
 
-Fiji is an image processing package—a "batteries-included" distribution of ImageJ, bundling a lot of plugins which facilitate scientific image analysis.
+Fiji is an image processing package—a \"batteries\-included\" distribution of ImageJ\, bundling a lot of plugins which facilitate scientific image analysis\.
 
 ======== ===========
 Home     http://fiji.sc/
 Versions 20141125, 20151222
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20141125
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fiji
 .. |docker| image:: https://quay.io/repository/biocontainers/fiji/status
                 :target: https://quay.io/repository/biocontainers/fiji
-
 

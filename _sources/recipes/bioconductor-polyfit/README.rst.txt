@@ -5,14 +5,17 @@ bioconductor-polyfit
 
 |downloads|
 
-Polyfit is an add-on to the packages DESeq which ensures the p-value distribution is uniform over the interval [0, 1] for data satisfying the null hypothesis of no differential expression, and uses an adpated Storey-Tibshiran method to calculate q-values.
+Polyfit is an add\-on to the packages DESeq which ensures the p\-value distribution is uniform over the interval \[0\, 1\] for data satisfying the null hypothesis of no differential expression\, and uses an adpated Storey\-Tibshiran method to calculate q\-values\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Polyfit.html
 Versions 1.10.0, 1.12.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-polyfit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-polyfit
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-polyfit/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-polyfit
-
 

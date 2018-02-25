@@ -5,14 +5,17 @@ rambo-k
 
 |downloads|
 
-a reference-based tool for rapid and sensitive extraction of one organism´s reads from a mixed NGS dataset
+a reference\-based tool for rapid and sensitive extraction of one organism´s reads from a mixed NGS dataset
 
 ======== ===========
 Home     https://gitlab.com/SimonHTausch/RAMBO-K
 Versions 1.21
 License  GNU Lesser General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rambo-k
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rambo-k
 .. |docker| image:: https://quay.io/repository/biocontainers/rambo-k/status
                 :target: https://quay.io/repository/biocontainers/rambo-k
-
 

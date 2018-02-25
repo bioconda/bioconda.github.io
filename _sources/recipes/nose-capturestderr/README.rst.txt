@@ -5,14 +5,17 @@ nose-capturestderr
 
 |downloads|
 
-Nose plugin for capturing stderr.
+Nose plugin for capturing stderr\.
 
 ======== ===========
 Home     http://github.com/sio2project/nose-capturestderr
 Versions 1.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nose-capturestderr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nose-capturestderr
 .. |docker| image:: https://quay.io/repository/biocontainers/nose-capturestderr/status
                 :target: https://quay.io/repository/biocontainers/nose-capturestderr
-
 

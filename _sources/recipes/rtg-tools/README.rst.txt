@@ -5,14 +5,17 @@ rtg-tools
 
 |downloads|
 
-RealTimeGenomics Tools -- Utilities for accurate VCF comparison and manipulation
+RealTimeGenomics Tools \-\- Utilities for accurate VCF comparison and manipulation
 
 ======== ===========
 Home     https://github.com/RealTimeGenomics/rtg-tools
 Versions 3.6, 3.7.1, 3.8.2, 3.8.4
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtg-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rtg-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/rtg-tools/status
                 :target: https://quay.io/repository/biocontainers/rtg-tools
-
 

@@ -5,14 +5,17 @@ fcp
 
 |downloads|
 
-Homology- and composition-based classifiers for assigning a taxonomic attribution to metagenomic fragments.
+Homology\- and composition\-based classifiers for assigning a taxonomic attribution to metagenomic fragments\.
 
 ======== ===========
 Home     https://github.com/dparks1134/FragmentClassificationPackage
 Versions 1.0.7
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fcp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fcp
 .. |docker| image:: https://quay.io/repository/biocontainers/fcp/status
                 :target: https://quay.io/repository/biocontainers/fcp
-
 

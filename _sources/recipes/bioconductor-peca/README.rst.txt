@@ -5,14 +5,17 @@ bioconductor-peca
 
 |downloads|
 
-Calculates Probe-level Expression Change Averages (PECA) to identify differential expression in Affymetrix gene expression microarray studies or in proteomic studies using peptide-level mesurements respectively.
+Calculates Probe\-level Expression Change Averages \(PECA\) to identify differential expression in Affymetrix gene expression microarray studies or in proteomic studies using peptide\-level mesurements respectively\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PECA.html
 Versions 1.12.0, 1.14.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-peca
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-peca
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-peca/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-peca
-
 

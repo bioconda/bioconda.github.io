@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/motifRG.html
 Versions 1.14.0, 1.18.0, 1.20.0, 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifrg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-motifrg
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-motifrg/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-motifrg
-
 

@@ -5,14 +5,17 @@ perl-appconfig
 
 |downloads|
 
-AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.
+AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments\.
 
 ======== ===========
 Home     http://metacpan.org/pod/AppConfig
 Versions 1.71
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-appconfig
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-appconfig/status
                 :target: https://quay.io/repository/biocontainers/perl-appconfig
-
 

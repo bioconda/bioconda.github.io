@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/NanoComp
 Versions 0.12.4, 0.5.0, 0.7.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocomp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanocomp
 .. |docker| image:: https://quay.io/repository/biocontainers/nanocomp/status
                 :target: https://quay.io/repository/biocontainers/nanocomp
-
 

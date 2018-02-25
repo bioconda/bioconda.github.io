@@ -5,14 +5,17 @@ perl-moo
 
 |downloads|
 
-Minimalist Object Orientation (with Moose compatibility)
+Minimalist Object Orientation \(with Moose compatibility\)
 
 ======== ===========
 Home     http://metacpan.org/pod/Moo
 Versions 2.000002, 2.001000
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moo
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moo/status
                 :target: https://quay.io/repository/biocontainers/perl-moo
-
 

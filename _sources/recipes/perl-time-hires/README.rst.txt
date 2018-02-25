@@ -5,14 +5,17 @@ perl-time-hires
 
 |downloads|
 
-High resolution alarm, sleep, gettimeofday, interval timers
+High resolution alarm\, sleep\, gettimeofday\, interval timers
 
 ======== ===========
 Home     https://metacpan.org/pod/Time::HiRes
 Versions 1.9726, 1.9728
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-hires
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-time-hires
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-time-hires/status
                 :target: https://quay.io/repository/biocontainers/perl-time-hires
-
 

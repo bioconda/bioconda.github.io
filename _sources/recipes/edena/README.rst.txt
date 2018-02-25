@@ -12,7 +12,10 @@ Home     http://www.genomic.ch/edena.php
 Versions 3.131028
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edena
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/edena
 .. |docker| image:: https://quay.io/repository/biocontainers/edena/status
                 :target: https://quay.io/repository/biocontainers/edena
-
 

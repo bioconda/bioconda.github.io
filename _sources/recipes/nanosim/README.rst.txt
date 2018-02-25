@@ -5,14 +5,17 @@ nanosim
 
 |downloads|
 
-NanoSim is a fast and scalable read simulator that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of nanopore sequencing technology.
+NanoSim is a fast and scalable read simulator that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of nanopore sequencing technology\.
 
 ======== ===========
 Home     https://github.com/bcgsc/NanoSim
 Versions v1.0.1, v1.2.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanosim
 .. |docker| image:: https://quay.io/repository/biocontainers/nanosim/status
                 :target: https://quay.io/repository/biocontainers/nanosim
-
 

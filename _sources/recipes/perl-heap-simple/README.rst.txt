@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Heap::Simple
 Versions 0.13
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-heap-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-heap-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-heap-simple
-
 

@@ -5,14 +5,17 @@ netreg
 
 |downloads|
 
-netReg fits linear regression models using network-penalization.
+netReg fits linear regression models using network\-penalization\.
 
 ======== ===========
 Home     https://github.com/dirmeier/netReg
 Versions 1.0.0, 1.2.0
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netreg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/netreg
 .. |docker| image:: https://quay.io/repository/biocontainers/netreg/status
                 :target: https://quay.io/repository/biocontainers/netreg
-
 

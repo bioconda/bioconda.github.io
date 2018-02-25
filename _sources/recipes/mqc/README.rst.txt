@@ -12,7 +12,10 @@ Home     https://github.com/Biobix/mQC
 Versions 1.2, 1.3, 1.4, 1.5, 1.6, 1.7, 1.8, 1.9
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mqc
 .. |docker| image:: https://quay.io/repository/biocontainers/mqc/status
                 :target: https://quay.io/repository/biocontainers/mqc
-
 

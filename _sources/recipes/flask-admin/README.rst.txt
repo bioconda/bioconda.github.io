@@ -12,7 +12,10 @@ Home     https://github.com/flask-admin/flask-admin/
 Versions 1.4.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-admin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flask-admin
 .. |docker| image:: https://quay.io/repository/biocontainers/flask-admin/status
                 :target: https://quay.io/repository/biocontainers/flask-admin
-
 

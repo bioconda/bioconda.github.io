@@ -5,14 +5,17 @@ snmf
 
 |downloads|
 
-Fast and efficient program for estimating individual admixture coefficients based on sparse non-negative matrix factorization and population genetics
+Fast and efficient program for estimating individual admixture coefficients based on sparse non\-negative matrix factorization and population genetics
 
 ======== ===========
 Home     http://membres-timc.imag.fr/Olivier.Francois/snmf/index.htm
 Versions 1.2
 License  GNU GPL v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snmf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snmf
 .. |docker| image:: https://quay.io/repository/biocontainers/snmf/status
                 :target: https://quay.io/repository/biocontainers/snmf
-
 

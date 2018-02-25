@@ -12,7 +12,10 @@ Home     https://github.com/mateidavid/nanocall
 Versions v0.6.13, v0.6.14, v0.6.5, v0.7.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocall
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanocall
 .. |docker| image:: https://quay.io/repository/biocontainers/nanocall/status
                 :target: https://quay.io/repository/biocontainers/nanocall
-
 

@@ -5,14 +5,17 @@ r-qiimer
 
 |downloads|
 
-Open QIIME output files in R, compute statistics, and create plots from the data.
+Open QIIME output files in R\, compute statistics\, and create plots from the data\.
 
 ======== ===========
 Home     http://www.r-project.org
 Versions 0.9.4
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-qiimer
 .. |docker| image:: https://quay.io/repository/biocontainers/r-qiimer/status
                 :target: https://quay.io/repository/biocontainers/r-qiimer
-
 

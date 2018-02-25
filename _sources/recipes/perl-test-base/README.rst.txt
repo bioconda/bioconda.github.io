@@ -12,7 +12,10 @@ Home     https://github.com/ingydotnet/test-base-pm
 Versions 0.88
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-base
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-base
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-base/status
                 :target: https://quay.io/repository/biocontainers/perl-test-base
-
 

@@ -12,7 +12,10 @@ Home     http://www.genetics.ucla.edu/software/
 Versions 2.91
 License  INDIVIDUAL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simwalk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/simwalk2
 .. |docker| image:: https://quay.io/repository/biocontainers/simwalk2/status
                 :target: https://quay.io/repository/biocontainers/simwalk2
-
 

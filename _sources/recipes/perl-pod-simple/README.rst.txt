@@ -12,7 +12,10 @@ Home     http://search.cpan.org/dist/Pod-Simple/
 Versions 3.35
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-simple/3.35
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-simple
-
 

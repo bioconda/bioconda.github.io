@@ -5,14 +5,17 @@ r-tfmpvalue
 
 |downloads|
 
-In putative Transcription Factor Binding Sites (TFBSs)  identification from sequence/alignments, we are interested in the significance of certain match score. TFMPvalue provides the accurate calculation of P-value with  score threshold for Position Weight Matrices,  or the score with given P-value.  This package is an interface to code originally made available by  Helene Touzet and Jean-Stephane Varre, 2007,  Algorithms Mol Biol:2, 15.
+In putative Transcription Factor Binding Sites \(TFBSs\)  identification from sequence\/alignments\, we are interested in the significance of certain match score\. TFMPvalue provides the accurate calculation of P\-value with  score threshold for Position Weight Matrices\,  or the score with given P\-value\.  This package is an interface to code originally made available by  Helene Touzet and Jean\-Stephane Varre\, 2007\,  Algorithms Mol Biol\:2\, 15\.
 
 ======== ===========
 Home     https://github.com/ge11232002/TFMPvalue
 Versions 0.0.6
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tfmpvalue
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-tfmpvalue
 .. |docker| image:: https://quay.io/repository/biocontainers/r-tfmpvalue/status
                 :target: https://quay.io/repository/biocontainers/r-tfmpvalue
-
 

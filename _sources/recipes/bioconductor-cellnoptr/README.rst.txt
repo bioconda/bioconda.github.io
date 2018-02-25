@@ -5,14 +5,17 @@ bioconductor-cellnoptr
 
 |downloads|
 
-This package does optimisation of boolean logic networks of signalling pathways based on a previous knowledge network and a set of data upon perturbation of the nodes in the network.
+This package does optimisation of boolean logic networks of signalling pathways based on a previous knowledge network and a set of data upon perturbation of the nodes in the network\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/CellNOptR.html
 Versions 1.22.0, 1.23.0, 1.24.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cellnoptr
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cellnoptr/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cellnoptr
-
 

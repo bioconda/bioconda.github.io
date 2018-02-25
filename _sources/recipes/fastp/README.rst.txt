@@ -5,14 +5,17 @@ fastp
 
 |downloads|
 
-A FASTQ preprocessor with full features (QC/adapters/trimming/filtering/splitting...)
+A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting\.\.\.\)
 
 ======== ===========
 Home     https://github.com/OpenGene/fastp
 Versions 0.12.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastp
 .. |docker| image:: https://quay.io/repository/biocontainers/fastp/status
                 :target: https://quay.io/repository/biocontainers/fastp
-
 

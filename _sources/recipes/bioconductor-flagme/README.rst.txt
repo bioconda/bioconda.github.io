@@ -5,14 +5,17 @@ bioconductor-flagme
 
 |downloads|
 
-Fragment-level analysis of gas chromatography - mass spectrometry metabolomics data
+Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flagme.html
 Versions 1.34.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flagme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flagme
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flagme/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flagme
-
 

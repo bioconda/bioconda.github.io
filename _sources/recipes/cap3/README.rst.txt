@@ -5,14 +5,17 @@ cap3
 
 |downloads|
 
-DNA sequence assembly program.
+DNA sequence assembly program\.
 
 ======== ===========
 Home     http://seq.cs.iastate.edu/
 Versions 10.2011
 License  Michigan Tech.
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cap3
 .. |docker| image:: https://quay.io/repository/biocontainers/cap3/status
                 :target: https://quay.io/repository/biocontainers/cap3
-
 

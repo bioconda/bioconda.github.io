@@ -5,14 +5,17 @@ seq2hla
 
 |downloads|
 
-Precision HLA typing and expression from next-generation RNA sequencing data
+Precision HLA typing and expression from next\-generation RNA sequencing data
 
 ======== ===========
 Home     https://bitbucket.org/sebastian_boegel/seq2hla
 Versions 2.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2hla
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seq2hla
 .. |docker| image:: https://quay.io/repository/biocontainers/seq2hla/status
                 :target: https://quay.io/repository/biocontainers/seq2hla
-
 

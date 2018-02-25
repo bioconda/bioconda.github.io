@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/setuptools_cython/
 Versions 0.2.1
 License  http://www.gnu.org/licenses/gpl-2.0.html
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/setuptools_cython
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/setuptools_cython
 .. |docker| image:: https://quay.io/repository/biocontainers/setuptools_cython/status
                 :target: https://quay.io/repository/biocontainers/setuptools_cython
-
 

@@ -5,14 +5,17 @@ tablet
 
 |downloads|
 
-Tablet is a lightweight, high-performance graphical viewer for next generation sequence assemblies and alignments.
+Tablet is a lightweight\, high\-performance graphical viewer for next generation sequence assemblies and alignments\.
 
 ======== ===========
 Home     https://ics.hutton.ac.uk/tablet
 Versions 1.17.08.17
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tablet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tablet
 .. |docker| image:: https://quay.io/repository/biocontainers/tablet/status
                 :target: https://quay.io/repository/biocontainers/tablet
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/secimTools/SECIMTools
 Versions 1.0.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secimtools
+
 ======== ===========
+
+SECIMTools project aims to develop a suite of tools for processing of metabolomics data\, which can be run in a standalone mode or via Galaxy Genomics Framework\.
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/secimtools
 .. |docker| image:: https://quay.io/repository/biocontainers/secimtools/status
                 :target: https://quay.io/repository/biocontainers/secimtools
-
 

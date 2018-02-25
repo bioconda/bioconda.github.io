@@ -5,14 +5,17 @@ talloc
 
 |downloads|
 
-talloc is a hierarchical, reference counted memory pool system with destructors.
+talloc is a hierarchical\, reference counted memory pool system with destructors\.
 
 ======== ===========
 Home     https://talloc.samba.org/talloc/doc/html/index.html`
 Versions 2.1.9
 License  LGPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talloc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/talloc
 .. |docker| image:: https://quay.io/repository/biocontainers/talloc/status
                 :target: https://quay.io/repository/biocontainers/talloc
-
 

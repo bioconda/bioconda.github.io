@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/HTML-Parser
 Versions 3.72
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-parser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-parser
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-parser/status
                 :target: https://quay.io/repository/biocontainers/perl-html-parser
-
 

@@ -5,14 +5,17 @@ perl-test-prereq
 
 |downloads|
 
-check if Makefile.PL has the right pre-requisites
+check if Makefile\.PL has the right pre\-requisites
 
 ======== ===========
 Home     https://github.com/briandfoy/test-prereq
 Versions 2.002
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-prereq/2.002
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-prereq
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-prereq/status
                 :target: https://quay.io/repository/biocontainers/perl-test-prereq
-
 

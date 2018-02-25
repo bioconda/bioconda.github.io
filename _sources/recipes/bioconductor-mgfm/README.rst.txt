@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/MGFM.html
 Versions 1.10.0, 1.12.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mgfm
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mgfm/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mgfm
-
 

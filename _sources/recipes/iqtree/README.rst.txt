@@ -12,7 +12,10 @@ Home     http://www.iqtree.org/
 Versions 1.5.3, 1.5.5
 License  GPL-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/iqtree
 .. |docker| image:: https://quay.io/repository/biocontainers/iqtree/status
                 :target: https://quay.io/repository/biocontainers/iqtree
-
 

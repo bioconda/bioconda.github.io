@@ -5,14 +5,17 @@ saffrontree
 
 |downloads|
 
-SaffronTree: Reference free rapid phylogenetic tree construction from raw read data
+SaffronTree\: Reference free rapid phylogenetic tree construction from raw read data
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/saffrontree
 Versions 0.1.2
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/saffrontree
 .. |docker| image:: https://quay.io/repository/biocontainers/saffrontree/status
                 :target: https://quay.io/repository/biocontainers/saffrontree
-
 

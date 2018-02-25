@@ -5,14 +5,17 @@ perl-www-robotrules
 
 |downloads|
 
-database of robots.txt-derived permissions
+database of robots\.txt\-derived permissions
 
 ======== ===========
 Home     http://metacpan.org/pod/WWW-RobotRules
 Versions 6.02
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-www-robotrules
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-www-robotrules
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-www-robotrules/status
                 :target: https://quay.io/repository/biocontainers/perl-www-robotrules
-
 

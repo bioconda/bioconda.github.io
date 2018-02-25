@@ -5,14 +5,17 @@ pasta
 
 |downloads|
 
-An implementation of the PASTA (Practical Alignment using Sate and TrAnsitivity) algorithm
+An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity\) algorithm
 
 ======== ===========
 Home     https://github.com/smirarab/pasta
 Versions 0.2, 1.7.8
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta/0.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pasta
 .. |docker| image:: https://quay.io/repository/biocontainers/pasta/status
                 :target: https://quay.io/repository/biocontainers/pasta
-
 

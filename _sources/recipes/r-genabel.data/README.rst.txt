@@ -5,14 +5,17 @@ r-genabel.data
 
 |downloads|
 
-GenABEL.data package consists of a data set used by GenABEL functions
+GenABEL\.data package consists of a data set used by GenABEL functions
 
 ======== ===========
 Home     http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
 Versions 1.0.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel.data
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-genabel.data
 .. |docker| image:: https://quay.io/repository/biocontainers/r-genabel.data/status
                 :target: https://quay.io/repository/biocontainers/r-genabel.data
-
 

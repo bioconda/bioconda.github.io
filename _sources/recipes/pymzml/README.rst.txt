@@ -5,14 +5,17 @@ pymzml
 
 |downloads|
 
-high-throughput mzML parsing
+high\-throughput mzML parsing
 
 ======== ===========
 Home     http://pymzml.github.com
 Versions 0.7.5, 0.7.7, 0.7.8
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymzml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pymzml
 .. |docker| image:: https://quay.io/repository/biocontainers/pymzml/status
                 :target: https://quay.io/repository/biocontainers/pymzml
-
 

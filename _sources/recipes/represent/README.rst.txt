@@ -5,14 +5,17 @@ represent
 
 |downloads|
 
-Create __repr__ automatically or declaratively.
+Create \_\_repr\_\_ automatically or declaratively\.
 
 ======== ===========
 Home     https://github.com/RazerM/represent
 Versions 1.5.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/represent
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/represent
 .. |docker| image:: https://quay.io/repository/biocontainers/represent/status
                 :target: https://quay.io/repository/biocontainers/represent
-
 

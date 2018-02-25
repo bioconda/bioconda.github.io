@@ -12,7 +12,10 @@ Home     http://sourceforge.net/projects/mimodd
 Versions 0.1.7.3, 0.1.8
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimodd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mimodd
 .. |docker| image:: https://quay.io/repository/biocontainers/mimodd/status
                 :target: https://quay.io/repository/biocontainers/mimodd
-
 

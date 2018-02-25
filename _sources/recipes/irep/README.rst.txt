@@ -12,7 +12,10 @@ Home     https://github.com/christophertbrown/iRep
 Versions 1.1.7
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/irep
 .. |docker| image:: https://quay.io/repository/biocontainers/irep/status
                 :target: https://quay.io/repository/biocontainers/irep
-
 

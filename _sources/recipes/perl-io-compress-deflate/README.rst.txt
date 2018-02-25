@@ -5,14 +5,17 @@ perl-io-compress-deflate
 
 |downloads|
 
-Write RFC 1950 files/buffers
+Write RFC 1950 files\/buffers
 
 ======== ===========
 Home     http://metacpan.org/pod/IO::Compress::Deflate
 Versions 2.064
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-compress-deflate/2.064
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-compress-deflate
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-compress-deflate/status
                 :target: https://quay.io/repository/biocontainers/perl-io-compress-deflate
-
 

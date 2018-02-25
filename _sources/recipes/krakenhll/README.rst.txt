@@ -5,14 +5,17 @@ krakenhll
 
 |downloads|
 
-KrakenHLL metagenomics classification method with unique k-mer counting for more specific results
+KrakenHLL metagenomics classification method with unique k\-mer counting for more specific results
 
 ======== ===========
 Home     https://github.com/fbreitwieser/krakenhll
 Versions 0.3.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krakenhll
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/krakenhll
 .. |docker| image:: https://quay.io/repository/biocontainers/krakenhll/status
                 :target: https://quay.io/repository/biocontainers/krakenhll
-
 

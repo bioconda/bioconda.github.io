@@ -5,14 +5,17 @@ lordec
 
 |downloads|
 
-A hybrid error correction program for long, PacBio reads
+A hybrid error correction program for long\, PacBio reads
 
 ======== ===========
 Home     http://www.atgc-montpellier.fr/lordec/
 Versions 0.6
 License  CeCILL A license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lordec
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lordec
 .. |docker| image:: https://quay.io/repository/biocontainers/lordec/status
                 :target: https://quay.io/repository/biocontainers/lordec
-
 

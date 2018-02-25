@@ -5,14 +5,17 @@ bioconductor-refnet
 
 |downloads|
 
-Molecular interactions with metadata, some archived, some dynamically obtained
+Molecular interactions with metadata\, some archived\, some dynamically obtained
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RefNet.html
 Versions 1.12.0, 1.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-refnet
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-refnet/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-refnet
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/nanoporetech/ont_fast5_api
 Versions 0.4.1
 License  Mozilla Public License 2.0 (MPL 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ont-fast5-api
 .. |docker| image:: https://quay.io/repository/biocontainers/ont-fast5-api/status
                 :target: https://quay.io/repository/biocontainers/ont-fast5-api
-
 

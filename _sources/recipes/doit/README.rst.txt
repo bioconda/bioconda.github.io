@@ -5,14 +5,17 @@ doit
 
 |downloads|
 
-doit - Automation Tool
+doit \- Automation Tool
 
 ======== ===========
 Home     http://pydoit.org
 Versions 0.29.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/doit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/doit
 .. |docker| image:: https://quay.io/repository/biocontainers/doit/status
                 :target: https://quay.io/repository/biocontainers/doit
-
 

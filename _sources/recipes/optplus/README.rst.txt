@@ -12,7 +12,10 @@ Home     http://noble.gs.washington.edu/~mmh1/software/optplus/
 Versions 0.1.1
 License  UNKNOWN
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/optplus
 .. |docker| image:: https://quay.io/repository/biocontainers/optplus/status
                 :target: https://quay.io/repository/biocontainers/optplus
-
 

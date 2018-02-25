@@ -5,14 +5,17 @@ graphlan
 
 |downloads|
 
-GraPhlAn is a software tool for producing high-quality circular representations of taxonomic and phylogenetic trees. It focuses on concise, integrative, informative, and publication-ready representations of phylogenetically- and taxonomically-driven investigation.
+GraPhlAn is a software tool for producing high\-quality circular representations of taxonomic and phylogenetic trees\. It focuses on concise\, integrative\, informative\, and publication\-ready representations of phylogenetically\- and taxonomically\-driven investigation\.
 
 ======== ===========
 Home     https://bitbucket.org/nsegata/graphlan/wiki/Home
 Versions 1.0.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graphlan
 .. |docker| image:: https://quay.io/repository/biocontainers/graphlan/status
                 :target: https://quay.io/repository/biocontainers/graphlan
-
 

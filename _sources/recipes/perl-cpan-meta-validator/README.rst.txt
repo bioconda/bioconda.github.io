@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/CPAN::Meta::Validator
 Versions 2.140640
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-validator/2.140640
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-cpan-meta-validator
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-cpan-meta-validator/status
                 :target: https://quay.io/repository/biocontainers/perl-cpan-meta-validator
-
 

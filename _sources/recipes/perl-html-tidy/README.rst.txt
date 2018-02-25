@@ -5,14 +5,17 @@ perl-html-tidy
 
 |downloads|
 
-(X)HTML validation in a Perl object
+\(X\)HTML validation in a Perl object
 
 ======== ===========
 Home     http://github.com/petdance/html-tidy
 Versions 1.56
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-tidy
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-tidy/status
                 :target: https://quay.io/repository/biocontainers/perl-html-tidy
-
 

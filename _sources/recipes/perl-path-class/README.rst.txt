@@ -5,14 +5,17 @@ perl-path-class
 
 |downloads|
 
-Cross-platform path specification manipulation
+Cross\-platform path specification manipulation
 
 ======== ===========
 Home     http://metacpan.org/pod/Path-Class
 Versions 0.36
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-path-class
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-path-class/status
                 :target: https://quay.io/repository/biocontainers/perl-path-class
-
 

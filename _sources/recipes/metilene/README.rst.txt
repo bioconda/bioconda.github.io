@@ -12,7 +12,10 @@ Home     http://www.bioinf.uni-leipzig.de/Software/metilene/
 Versions 0.2.6
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metilene
 .. |docker| image:: https://quay.io/repository/biocontainers/metilene/status
                 :target: https://quay.io/repository/biocontainers/metilene
-
 

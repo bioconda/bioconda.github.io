@@ -12,7 +12,10 @@ Home     https://github.com/arq5x/lumpy-sv
 Versions 0.2.11, 0.2.12, 0.2.13
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lumpy-sv
 .. |docker| image:: https://quay.io/repository/biocontainers/lumpy-sv/status
                 :target: https://quay.io/repository/biocontainers/lumpy-sv
-
 

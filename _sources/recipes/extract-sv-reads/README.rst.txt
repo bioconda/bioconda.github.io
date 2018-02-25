@@ -5,14 +5,17 @@ extract-sv-reads
 
 |downloads|
 
-Tool for extracting splitter or discordant reads from a BAM or CRAM file.
+Tool for extracting splitter or discordant reads from a BAM or CRAM file\.
 
 ======== ===========
 Home     https://github.com/hall-lab/extract_sv_reads
 Versions 1.1.0, 1.1.2, 1.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extract-sv-reads
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/extract-sv-reads
 .. |docker| image:: https://quay.io/repository/biocontainers/extract-sv-reads/status
                 :target: https://quay.io/repository/biocontainers/extract-sv-reads
-
 

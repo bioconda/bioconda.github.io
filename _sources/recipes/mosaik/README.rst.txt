@@ -5,14 +5,17 @@ mosaik
 
 |downloads|
 
-MOSAIK is a stable, sensitive and open-source program for mapping second and third-generation sequencing reads to a reference genome.
+MOSAIK is a stable\, sensitive and open\-source program for mapping second and third\-generation sequencing reads to a reference genome\.
 
 ======== ===========
 Home     https://github.com/wanpinglee/MOSAIK
 Versions 2.2.26
 License  GPL 2.0+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosaik
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mosaik
 .. |docker| image:: https://quay.io/repository/biocontainers/mosaik/status
                 :target: https://quay.io/repository/biocontainers/mosaik
-
 

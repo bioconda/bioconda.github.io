@@ -5,14 +5,17 @@ bioconductor-simpintlists
 
 |downloads|
 
-The package contains BioGRID interactions for arabidopsis(thale cress), c.elegans, fruit fly, human, mouse, yeast( budding yeast ) and S.pombe (fission yeast) . Entrez ids, official names and unique ids can be used to find proteins. The format of interactions are lists. For each gene/protein, there is an entry in the list with "name" containing name of the gene/protein and "interactors" containing the list of genes/proteins interacting with it.
+The package contains BioGRID interactions for arabidopsis\(thale cress\)\, c\.elegans\, fruit fly\, human\, mouse\, yeast\( budding yeast \) and S\.pombe \(fission yeast\) \. Entrez ids\, official names and unique ids can be used to find proteins\. The format of interactions are lists\. For each gene\/protein\, there is an entry in the list with \"name\" containing name of the gene\/protein and \"interactors\" containing the list of genes\/proteins interacting with it\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/simpIntLists.html
 Versions 1.14.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-simpintlists
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-simpintlists/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-simpintlists
-
 

@@ -5,14 +5,17 @@ bioconductor-beachmat
 
 |downloads|
 
-Provides a consistent C++ class interface for a variety of commonly used matrix types, including sparse and HDF5-backed matrices.
+Provides a consistent C\+\+ class interface for a variety of commonly used matrix types\, including sparse and HDF5\-backed matrices\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/beachmat.html
 Versions 1.0.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beachmat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-beachmat
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-beachmat/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-beachmat
-
 

@@ -5,14 +5,17 @@ bioconductor-rgalaxy
 
 |downloads|
 
-Given an R function and its manual page, make the documented function available in Galaxy.
+Given an R function and its manual page\, make the documented function available in Galaxy\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RGalaxy.html
 Versions 1.18.0, 1.20.1, 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgalaxy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rgalaxy
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rgalaxy/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rgalaxy
-
 

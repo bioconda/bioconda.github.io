@@ -5,14 +5,17 @@ metavelvet-sl
 
 |downloads|
 
-MetaVelvet-SL : An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
+MetaVelvet\-SL \: An extension of Velvet assembler to de novo metagenomic assembler utilizing supervised learning
 
 ======== ===========
 Home     http://metavelvet.dna.bio.keio.ac.jp/MSL.html
 Versions 1.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metavelvet-sl
 .. |docker| image:: https://quay.io/repository/biocontainers/metavelvet-sl/status
                 :target: https://quay.io/repository/biocontainers/metavelvet-sl
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Algorithm-Dependency
 Versions 1.110
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-dependency
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-algorithm-dependency
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-algorithm-dependency/status
                 :target: https://quay.io/repository/biocontainers/perl-algorithm-dependency
-
 

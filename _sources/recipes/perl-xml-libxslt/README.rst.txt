@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-LibXSLT
 Versions 1.94
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxslt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-libxslt
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-libxslt/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-libxslt
-
 

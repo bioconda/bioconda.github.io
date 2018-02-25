@@ -5,14 +5,17 @@ bioconductor-mirnameconverter
 
 |downloads|
 
-Package containing an S4 class for translating mature miRNA names to different miRBase versions, sequence retrieval, checking names for validity and detecting miRBase version of a given set of names (data from http://www.mirbase.org/).
+Package containing an S4 class for translating mature miRNA names to different miRBase versions\, sequence retrieval\, checking names for validity and detecting miRBase version of a given set of names \(data from http\:\/\/www\.mirbase\.org\/\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/miRNAmeConverter.html
 Versions 1.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnameconverter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mirnameconverter
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mirnameconverter
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/lh3/seqtk
 Versions 1.2, r75, r82, r93
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqtk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqtk
 .. |docker| image:: https://quay.io/repository/biocontainers/seqtk/status
                 :target: https://quay.io/repository/biocontainers/seqtk
-
 

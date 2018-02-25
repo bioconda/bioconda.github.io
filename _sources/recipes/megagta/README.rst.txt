@@ -5,14 +5,17 @@ megagta
 
 |downloads|
 
-HMM-guided metagenomic gene-targeted assembler using iterative de Bruijn graphs
+HMM\-guided metagenomic gene\-targeted assembler using iterative de Bruijn graphs
 
 ======== ===========
 Home     https://github.com/HKU-BAL/megagta
 Versions 0.1_alpha
 License  GNU General Public License v3 (GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megagta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/megagta
 .. |docker| image:: https://quay.io/repository/biocontainers/megagta/status
                 :target: https://quay.io/repository/biocontainers/megagta
-
 

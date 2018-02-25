@@ -5,14 +5,17 @@ ucsc-hgsqldump
 
 |downloads|
 
-Execute mysqldump using passwords from .hg.conf
+Execute mysqldump using passwords from \.hg\.conf
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgsqldump
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-hgsqldump
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-hgsqldump/status
                 :target: https://quay.io/repository/biocontainers/ucsc-hgsqldump
-
 

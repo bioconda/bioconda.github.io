@@ -5,14 +5,17 @@ ogdf
 
 |downloads|
 
-The Open Graph Drawing Framework is a self-contained C++ class library for the automatic layout of diagrams.
+The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams\.
 
 ======== ===========
 Home     http://http://ogdf.net/doku.php
 Versions 201207
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ogdf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ogdf
 .. |docker| image:: https://quay.io/repository/biocontainers/ogdf/status
                 :target: https://quay.io/repository/biocontainers/ogdf
-
 

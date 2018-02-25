@@ -5,14 +5,17 @@ bioconductor-bader
 
 |downloads|
 
-For RNA sequencing count data, BADER fits a Bayesian hierarchical model. The algorithm returns the posterior probability of differential expression for each gene between two groups A and B. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples, which can be used for further down-stream analyses such as gene set enrichment.
+For RNA sequencing count data\, BADER fits a Bayesian hierarchical model\. The algorithm returns the posterior probability of differential expression for each gene between two groups A and B\. The joint posterior distribution of the variables in the model can be returned in the form of posterior samples\, which can be used for further down\-stream analyses such as gene set enrichment\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BADER.html
 Versions 1.14.0, 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bader
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-bader
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-bader/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-bader
-
 

@@ -12,7 +12,10 @@ Home     http://github.com/lobeck/flask-bower
 Versions 1.2.1
 License  GNU General Public License v2 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-bower
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flask-bower
 .. |docker| image:: https://quay.io/repository/biocontainers/flask-bower/status
                 :target: https://quay.io/repository/biocontainers/flask-bower
-
 

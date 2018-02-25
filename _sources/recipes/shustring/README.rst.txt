@@ -12,7 +12,10 @@ Home     http://guanine.evolbio.mpg.de/cgi-bin/shustring/shustring.cgi.pl
 Versions 2.6
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shustring
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shustring
 .. |docker| image:: https://quay.io/repository/biocontainers/shustring/status
                 :target: https://quay.io/repository/biocontainers/shustring
-
 

@@ -5,14 +5,17 @@ xxmotif
 
 |downloads|
 
-eXhaustive, weight matriX-based motif discovery in nucleotide sequences
+eXhaustive\, weight matriX\-based motif discovery in nucleotide sequences
 
 ======== ===========
 Home     https://github.com/soedinglab/xxmotif
 Versions 1.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xxmotif
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xxmotif
 .. |docker| image:: https://quay.io/repository/biocontainers/xxmotif/status
                 :target: https://quay.io/repository/biocontainers/xxmotif
-
 

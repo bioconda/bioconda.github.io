@@ -12,7 +12,13 @@ Home     https://github.com/indraniel/sff2fastq
 Versions 0.9.2
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sff2fastq
+
 ======== ===========
+
+The program sff2fastq extracts read information from a SFF file\, produced by
+the 454 genome sequencer\, and outputs the sequences and quality scores in a
+FASTQ format\.
+
 
 Installation
 ------------
@@ -46,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sff2fastq
 .. |docker| image:: https://quay.io/repository/biocontainers/sff2fastq/status
                 :target: https://quay.io/repository/biocontainers/sff2fastq
-
 

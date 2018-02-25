@@ -12,7 +12,10 @@ Home     https://pypi.python.org/pypi/kid
 Versions 0.9.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kid
 .. |docker| image:: https://quay.io/repository/biocontainers/kid/status
                 :target: https://quay.io/repository/biocontainers/kid
-
 

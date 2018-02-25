@@ -5,14 +5,17 @@ ucsc-checkcoveragegaps
 
 |downloads|
 
-Check for biggest gap in coverage for a list of tracks.
+Check for biggest gap in coverage for a list of tracks\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checkcoveragegaps
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-checkcoveragegaps
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps/status
                 :target: https://quay.io/repository/biocontainers/ucsc-checkcoveragegaps
-
 

@@ -5,14 +5,17 @@ perl-tie-cacher
 
 |downloads|
 
-Cache a (sub)set of key/value pairs. Tie and OO interface.
+Cache a \(sub\)set of key\/value pairs\. Tie and OO interface\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Tie::Cacher
 Versions 0.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-cacher
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tie-cacher
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-cacher/status
                 :target: https://quay.io/repository/biocontainers/perl-tie-cacher
-
 

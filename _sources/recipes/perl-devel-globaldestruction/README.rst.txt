@@ -5,14 +5,17 @@ perl-devel-globaldestruction
 
 |downloads|
 
-Provides function returning the equivalent of ${^GLOBAL_PHASE} eq 'DESTRUCT' for older perls.
+Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUCT\' for older perls\.
 
 ======== ===========
 Home     https://metacpan.org/release/Devel-GlobalDestruction
 Versions 0.13
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-globaldestruction
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-devel-globaldestruction
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-globaldestruction/status
                 :target: https://quay.io/repository/biocontainers/perl-devel-globaldestruction
-
 

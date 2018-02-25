@@ -5,14 +5,17 @@ ra-integrate
 
 |downloads|
 
-Integration of the Ra assembler - a de novo DNA assembler for third generation sequencing data.
+Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data\.
 
 ======== ===========
 Home     https://github.com/mariokostelac/ra-integrate
 Versions 0.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra-integrate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ra-integrate
 .. |docker| image:: https://quay.io/repository/biocontainers/ra-integrate/status
                 :target: https://quay.io/repository/biocontainers/ra-integrate
-
 

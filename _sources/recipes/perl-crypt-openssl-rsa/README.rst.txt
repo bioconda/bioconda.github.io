@@ -5,14 +5,17 @@ perl-crypt-openssl-rsa
 
 |downloads|
 
-RSA encoding and decoding, using the openSSL libraries
+RSA encoding and decoding\, using the openSSL libraries
 
 ======== ===========
 Home     https://metacpan.org/release/Crypt-OpenSSL-RSA
 Versions 0.28
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/0.28
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-crypt-openssl-rsa
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa/status
                 :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-rsa
-
 

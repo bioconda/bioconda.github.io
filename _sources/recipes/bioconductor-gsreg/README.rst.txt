@@ -5,14 +5,17 @@ bioconductor-gsreg
 
 |downloads|
 
-A package for gene set analysis based on the variability of expressions as well as a method to detect Alternative Splicing Events . It implements DIfferential RAnk Conservation (DIRAC) and gene set Expression Variation Analysis (EVA) methods. For detecting Differentially Spliced genes, it provides an implementation of the Spliced-EVA (SEVA).
+A package for gene set analysis based on the variability of expressions as well as a method to detect Alternative Splicing Events \. It implements DIfferential RAnk Conservation \(DIRAC\) and gene set Expression Variation Analysis \(EVA\) methods\. For detecting Differentially Spliced genes\, it provides an implementation of the Spliced\-EVA \(SEVA\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GSReg.html
 Versions 1.12.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsreg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gsreg
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gsreg/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gsreg
-
 

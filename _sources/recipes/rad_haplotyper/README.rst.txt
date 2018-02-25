@@ -12,7 +12,10 @@ Home     https://github.com/chollenbeck/rad_haplotyper
 Versions 1.1.6, 1.1.7
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rad_haplotyper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rad_haplotyper
 .. |docker| image:: https://quay.io/repository/biocontainers/rad_haplotyper/status
                 :target: https://quay.io/repository/biocontainers/rad_haplotyper
-
 

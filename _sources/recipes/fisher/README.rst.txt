@@ -5,14 +5,17 @@ fisher
 
 |downloads|
 
-Fast Fisher's Exact Test
+Fast Fisher\'s Exact Test
 
 ======== ===========
 Home     http://github.com/brentp/fishers_exact_test
 Versions 0.1.4
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fisher
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fisher
 .. |docker| image:: https://quay.io/repository/biocontainers/fisher/status
                 :target: https://quay.io/repository/biocontainers/fisher
-
 

@@ -5,14 +5,17 @@ bioconductor-subseq
 
 |downloads|
 
-Subsampling of high throughput sequencing count data for use in experiment design and analysis.
+Subsampling of high throughput sequencing count data for use in experiment design and analysis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/subSeq.html
 Versions 1.6.0, 1.8.0
 License  MIT + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-subseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-subseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-subseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-subseq
-
 

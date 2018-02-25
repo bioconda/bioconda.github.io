@@ -5,14 +5,17 @@ stamp
 
 |downloads|
 
-A graphical software package for analyzing taxonomic and functional profiles.
+A graphical software package for analyzing taxonomic and functional profiles\.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/stamp/
 Versions 2.1.3
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stamp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/stamp
 .. |docker| image:: https://quay.io/repository/biocontainers/stamp/status
                 :target: https://quay.io/repository/biocontainers/stamp
-
 

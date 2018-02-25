@@ -12,7 +12,10 @@ Home     http://www.arb-home.de
 Versions 6.0.6
 License  ARB
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arb-bio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/arb-bio
 .. |docker| image:: https://quay.io/repository/biocontainers/arb-bio/status
                 :target: https://quay.io/repository/biocontainers/arb-bio
-
 

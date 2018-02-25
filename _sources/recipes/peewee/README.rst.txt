@@ -12,7 +12,10 @@ Home     http://github.com/coleifer/peewee/
 Versions 2.8.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peewee
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/peewee
 .. |docker| image:: https://quay.io/repository/biocontainers/peewee/status
                 :target: https://quay.io/repository/biocontainers/peewee
-
 

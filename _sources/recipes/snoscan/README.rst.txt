@@ -5,14 +5,17 @@ snoscan
 
 |downloads|
 
-Search for C/D box methylation guide snoRNA genes in a genomic sequence
+Search for C\/D box methylation guide snoRNA genes in a genomic sequence
 
 ======== ===========
 Home     http://lowelab.ucsc.edu/snoscan
 Versions 0.9b
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snoscan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snoscan
 .. |docker| image:: https://quay.io/repository/biocontainers/snoscan/status
                 :target: https://quay.io/repository/biocontainers/snoscan
-
 

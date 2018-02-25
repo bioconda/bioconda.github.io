@@ -12,7 +12,10 @@ Home     http://metaphyler.cbcb.umd.edu/
 Versions 1.25
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphyler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metaphyler
 .. |docker| image:: https://quay.io/repository/biocontainers/metaphyler/status
                 :target: https://quay.io/repository/biocontainers/metaphyler
-
 

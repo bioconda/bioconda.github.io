@@ -5,14 +5,17 @@ bioconductor-pbase
 
 |downloads|
 
-A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment.
+A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Pbase.html
 Versions 0.18.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pbase
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pbase/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pbase
-
 

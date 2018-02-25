@@ -5,14 +5,17 @@ perl-text-tabs
 
 |downloads|
 
-expand and unexpand tabs like unix expand(1) and unexpand(1)
+expand and unexpand tabs like unix expand\(1\) and unexpand\(1\)
 
 ======== ===========
 Home     http://metacpan.org/pod/Text::Tabs
 Versions 2013.0523
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs/2013.0523
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-tabs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-tabs/status
                 :target: https://quay.io/repository/biocontainers/perl-text-tabs
-
 

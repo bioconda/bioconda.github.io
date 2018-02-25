@@ -5,7 +5,7 @@ mpa-portable
 
 |downloads|
 
-MPA Portable is a light-weight and stand-alone software for the identification of proteins and in-depth analysis of metaproteomics.
+MPA Portable is a light\-weight and stand\-alone software for the identification of proteins and in\-depth analysis of metaproteomics\.
 
 
 ======== ===========
@@ -13,7 +13,10 @@ Home     https://github.com/compomics/meta-proteome-analyzer
 Versions 1.4.1
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mpa-portable
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -28,10 +31,11 @@ and update with::
 
    conda update mpa-portable
 
+
 Notes
 -----
+mpa\-protable is Java program that comes with a custom wrapper shell script\.
 
-mpa-protable is Java program that comes with a custom wrapper shell script.
 
 
 |docker|
@@ -51,5 +55,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mpa-portable
 .. |docker| image:: https://quay.io/repository/biocontainers/mpa-portable/status
                 :target: https://quay.io/repository/biocontainers/mpa-portable
-
 

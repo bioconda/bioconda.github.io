@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Env::Path
 Versions 0.19
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-env-path
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-env-path
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-env-path/status
                 :target: https://quay.io/repository/biocontainers/perl-env-path
-
 

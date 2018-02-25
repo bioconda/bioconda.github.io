@@ -5,14 +5,17 @@ soapdenovo2-errorcorrection
 
 |downloads|
 
-Error correction for soapdenovo2.
+Error correction for soapdenovo2\.
 
 ======== ===========
 Home     http://soap.genomics.org.cn/soapdenovo.html
 Versions 2.0
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-errorcorrection
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/soapdenovo2-errorcorrection
 .. |docker| image:: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection/status
                 :target: https://quay.io/repository/biocontainers/soapdenovo2-errorcorrection
-
 

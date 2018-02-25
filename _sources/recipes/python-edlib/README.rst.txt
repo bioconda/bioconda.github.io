@@ -5,14 +5,17 @@ python-edlib
 
 |downloads|
 
-Lightweight, super fast C/C++ (& Python) library for sequence alignment using edit (Levenshtein) distance.
+Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance\.
 
 ======== ===========
 Home     https://github.com/Martinsos/edlib
 Versions 1.2.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-edlib
 .. |docker| image:: https://quay.io/repository/biocontainers/python-edlib/status
                 :target: https://quay.io/repository/biocontainers/python-edlib
-
 

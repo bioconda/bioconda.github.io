@@ -5,14 +5,17 @@ perl-blib
 
 |downloads|
 
-Use MakeMaker's uninstalled version of a package
+Use MakeMaker\'s uninstalled version of a package
 
 ======== ===========
 Home     http://metacpan.org/pod/blib
 Versions 1.06
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-blib/1.06
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-blib
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-blib/status
                 :target: https://quay.io/repository/biocontainers/perl-blib
-
 

@@ -12,7 +12,10 @@ Home     http://www.jedsoft.org/slang/index.html
 Versions 2.3.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slang
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/slang
 .. |docker| image:: https://quay.io/repository/biocontainers/slang/status
                 :target: https://quay.io/repository/biocontainers/slang
-
 

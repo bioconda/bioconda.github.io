@@ -5,14 +5,17 @@ tgt
 
 |downloads|
 
-TextGridTools -- Read, write, and manipulate Praat TextGrid files
+TextGridTools \-\- Read\, write\, and manipulate Praat TextGrid files
 
 ======== ===========
 Home     https://github.com/hbuschme/TextGridTools/
 Versions 1.4.2
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tgt
 .. |docker| image:: https://quay.io/repository/biocontainers/tgt/status
                 :target: https://quay.io/repository/biocontainers/tgt
-
 

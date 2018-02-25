@@ -5,14 +5,17 @@ bctools
 
 |downloads|
 
-Tools for handling barcodes in NGS data.
+Tools for handling barcodes in NGS data\.
 
 ======== ===========
 Home     https://github.com/dmaticzka/bctools
 Versions 0.2.1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bctools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bctools
 .. |docker| image:: https://quay.io/repository/biocontainers/bctools/status
                 :target: https://quay.io/repository/biocontainers/bctools
-
 

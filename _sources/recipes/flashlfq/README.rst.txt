@@ -5,14 +5,17 @@ flashlfq
 
 |downloads|
 
-ultrafast label-free quantification algorithm for mass-spectrometry proteomics
+ultrafast label\-free quantification algorithm for mass\-spectrometry proteomics
 
 ======== ===========
 Home     https://github.com/smith-chem-wisc/FlashLFQ
 Versions 0.1.100, 0.1.101
 License  GLPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flashlfq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flashlfq
 .. |docker| image:: https://quay.io/repository/biocontainers/flashlfq/status
                 :target: https://quay.io/repository/biocontainers/flashlfq
-
 

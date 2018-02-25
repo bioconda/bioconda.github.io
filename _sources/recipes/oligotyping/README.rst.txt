@@ -5,14 +5,17 @@ oligotyping
 
 |downloads|
 
-The oligotyping and minimum entropy decomposition (MED) pipeline for the analysis of marker gene amplicons
+The oligotyping and minimum entropy decomposition \(MED\) pipeline for the analysis of marker gene amplicons
 
 ======== ===========
 Home     http://oligotyping.org
 Versions 2.0, 2.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oligotyping
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/oligotyping
 .. |docker| image:: https://quay.io/repository/biocontainers/oligotyping/status
                 :target: https://quay.io/repository/biocontainers/oligotyping
-
 

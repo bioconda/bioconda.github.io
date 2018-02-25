@@ -5,14 +5,17 @@ seqmagick
 
 |downloads|
 
-Tools for converting and modifying sequence files from the command-line
+Tools for converting and modifying sequence files from the command\-line
 
 ======== ===========
 Home     http://github.com/fhcrc/seqmagick
 Versions 0.6.1
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqmagick
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqmagick
 .. |docker| image:: https://quay.io/repository/biocontainers/seqmagick/status
                 :target: https://quay.io/repository/biocontainers/seqmagick
-
 

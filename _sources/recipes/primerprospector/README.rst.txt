@@ -5,14 +5,17 @@ primerprospector
 
 |downloads|
 
-Primer Prospector is a pipeline of programs to design and analyze PCR primers.
+Primer Prospector is a pipeline of programs to design and analyze PCR primers\.
 
 ======== ===========
 Home     http://pprospector.sourceforge.net/
 Versions 1.0.1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primerprospector
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/primerprospector
 .. |docker| image:: https://quay.io/repository/biocontainers/primerprospector/status
                 :target: https://quay.io/repository/biocontainers/primerprospector
-
 

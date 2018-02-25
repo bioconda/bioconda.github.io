@@ -5,14 +5,17 @@ bioconductor-ivas
 
 |downloads|
 
-Identification of genetic variants affecting alternative splicing.
+Identification of genetic variants affecting alternative splicing\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/IVAS.html
 Versions 1.98.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ivas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ivas
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ivas/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ivas
-
 

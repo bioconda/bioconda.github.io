@@ -5,14 +5,17 @@ perl-hpc-runner-scheduler
 
 |downloads|
 
-Base Library for HPC::Runner::Slurm and HPC::Runner::PBS
+Base Library for HPC\:\:Runner\:\:Slurm and HPC\:\:Runner\:\:PBS
 
 ======== ===========
 Home     https://github.com/jerowe/HPC-Runner-Scheduler
 Versions 0.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-scheduler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hpc-runner-scheduler
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-scheduler/status
                 :target: https://quay.io/repository/biocontainers/perl-hpc-runner-scheduler
-
 

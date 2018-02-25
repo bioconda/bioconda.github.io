@@ -5,14 +5,17 @@ bioconductor-phosphonormalizer
 
 |downloads|
 
-It uses the overlap between enriched and non-enriched datasets to compensate for the bias introduced in global phosphorylation after applying median normalization.
+It uses the overlap between enriched and non\-enriched datasets to compensate for the bias introduced in global phosphorylation after applying median normalization\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/phosphonormalizer.html
 Versions 1.2.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phosphonormalizer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-phosphonormalizer
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-phosphonormalizer/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-phosphonormalizer
-
 

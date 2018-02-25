@@ -12,7 +12,10 @@ Home     http://genomedata.hoffmanlab.org/
 Versions 1.3.5, 1.3.6
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomedata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genomedata
 .. |docker| image:: https://quay.io/repository/biocontainers/genomedata/status
                 :target: https://quay.io/repository/biocontainers/genomedata
-
 

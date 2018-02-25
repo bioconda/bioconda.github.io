@@ -5,14 +5,17 @@ perl-mime-quotedprint
 
 |downloads|
 
-Encoding and decoding of quoted-printable strings
+Encoding and decoding of quoted\-printable strings
 
 ======== ===========
 Home     http://metacpan.org/pod/MIME::QuotedPrint
 Versions 3.13
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-quotedprint/3.13
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mime-quotedprint
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mime-quotedprint/status
                 :target: https://quay.io/repository/biocontainers/perl-mime-quotedprint
-
 

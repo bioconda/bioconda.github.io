@@ -12,7 +12,10 @@ Home     https://github.com/arvkevi/biogridpy
 Versions 0.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biogridpy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biogridpy
 .. |docker| image:: https://quay.io/repository/biocontainers/biogridpy/status
                 :target: https://quay.io/repository/biocontainers/biogridpy
-
 

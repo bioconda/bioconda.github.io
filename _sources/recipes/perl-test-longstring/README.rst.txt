@@ -5,14 +5,17 @@ perl-test-longstring
 
 |downloads|
 
-tests strings for equality, with more helpful failures
+tests strings for equality\, with more helpful failures
 
 ======== ===========
 Home     http://metacpan.org/pod/Test::LongString
 Versions 0.17
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-longstring
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-longstring
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-longstring/status
                 :target: https://quay.io/repository/biocontainers/perl-test-longstring
-
 

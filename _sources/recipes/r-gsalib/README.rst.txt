@@ -5,14 +5,17 @@ r-gsalib
 
 |downloads|
 
-This package contains utility functions used by the Genome Analysis Toolkit (GATK) to load tables and plot data. The GATK is a toolkit for variant discovery in high-throughput sequencing data.
+This package contains utility functions used by the Genome Analysis Toolkit \(GATK\) to load tables and plot data\. The GATK is a toolkit for variant discovery in high\-throughput sequencing data\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=gsalib
 Versions 2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsalib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-gsalib
 .. |docker| image:: https://quay.io/repository/biocontainers/r-gsalib/status
                 :target: https://quay.io/repository/biocontainers/r-gsalib
-
 

@@ -5,14 +5,17 @@ nanoqc
 
 |downloads|
 
-Create fastQC-like plots for Oxford Nanopore sequencing data
+Create fastQC\-like plots for Oxford Nanopore sequencing data
 
 ======== ===========
 Home     https://github.com/wdecoster/nanoQC
 Versions 0.3.3, 0.4.3, 0.5.0, 0.6.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoqc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoqc
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoqc/status
                 :target: https://quay.io/repository/biocontainers/nanoqc
-
 

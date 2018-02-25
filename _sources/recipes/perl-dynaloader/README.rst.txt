@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/DynaLoader
 Versions 1.25
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dynaloader/1.25
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dynaloader
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dynaloader/status
                 :target: https://quay.io/repository/biocontainers/perl-dynaloader
-
 

@@ -5,14 +5,17 @@ bioconductor-cardinal
 
 |downloads|
 
-Implements statistical & computational tools for analyzing mass spectrometry imaging datasets, including methods for efficient pre-processing, spatial segmentation, and classification.
+Implements statistical \& computational tools for analyzing mass spectrometry imaging datasets\, including methods for efficient pre\-processing\, spatial segmentation\, and classification\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Cardinal.html
 Versions 1.10.0, 1.7.0, 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cardinal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cardinal
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cardinal/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cardinal
-
 

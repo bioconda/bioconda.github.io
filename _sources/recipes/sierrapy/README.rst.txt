@@ -5,14 +5,17 @@ sierrapy
 
 |downloads|
 
-A Client of HIVdb Sierra GraphQL Webservice.
+A Client of HIVdb Sierra GraphQL Webservice\.
 
 ======== ===========
 Home     https://github.com/hivdb/sierra-client/tree/master/python
 Versions 0.2.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sierrapy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sierrapy
 .. |docker| image:: https://quay.io/repository/biocontainers/sierrapy/status
                 :target: https://quay.io/repository/biocontainers/sierrapy
-
 

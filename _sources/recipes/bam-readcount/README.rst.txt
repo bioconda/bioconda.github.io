@@ -5,14 +5,17 @@ bam-readcount
 
 |downloads|
 
-bam-readcount generates metrics at single nucleotide positions.
+bam\-readcount generates metrics at single nucleotide positions\.
 
 ======== ===========
 Home     https://github.com/genome/bam-readcount
 Versions 0.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam-readcount
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bam-readcount
 .. |docker| image:: https://quay.io/repository/biocontainers/bam-readcount/status
                 :target: https://quay.io/repository/biocontainers/bam-readcount
-
 

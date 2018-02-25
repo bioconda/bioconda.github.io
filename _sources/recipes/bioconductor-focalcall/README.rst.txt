@@ -5,14 +5,17 @@ bioconductor-focalcall
 
 |downloads|
 
-Detection of genomic focal aberrations in high-resolution DNA copy number data
+Detection of genomic focal aberrations in high\-resolution DNA copy number data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/focalCall.html
 Versions 1.12.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-focalcall
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-focalcall
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-focalcall/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-focalcall
-
 

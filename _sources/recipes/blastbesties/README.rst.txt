@@ -5,14 +5,17 @@ blastbesties
 
 |downloads|
 
-Rapid discovery of reciprocal best blast pairs from BLAST output files.
+Rapid discovery of reciprocal best blast pairs from BLAST output files\.
 
 ======== ===========
 Home     https://github.com/Adamtaranto/blast-besties
 Versions 1.1.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastbesties
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blastbesties
 .. |docker| image:: https://quay.io/repository/biocontainers/blastbesties/status
                 :target: https://quay.io/repository/biocontainers/blastbesties
-
 

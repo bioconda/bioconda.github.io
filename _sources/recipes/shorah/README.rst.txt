@@ -5,14 +5,17 @@ shorah
 
 |downloads|
 
-The Short Reads Assembly into Haplotypes (ShoRAH) program for inferring viral haplotypes from NGS data
+The Short Reads Assembly into Haplotypes \(ShoRAH\) program for inferring viral haplotypes from NGS data
 
 ======== ===========
 Home     https://github.com/cbg-ethz/shorah
 Versions 1.0.0, 1.1.0, 1.1.1, 1.1.2, 1.1.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shorah/1.1.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shorah
 .. |docker| image:: https://quay.io/repository/biocontainers/shorah/status
                 :target: https://quay.io/repository/biocontainers/shorah
-
 

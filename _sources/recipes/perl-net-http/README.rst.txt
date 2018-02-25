@@ -5,14 +5,17 @@ perl-net-http
 
 |downloads|
 
-Low-level HTTP connection (client)
+Low\-level HTTP connection \(client\)
 
 ======== ===========
 Home     http://metacpan.org/pod/Net-HTTP
 Versions 6.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-http
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-net-http
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-net-http/status
                 :target: https://quay.io/repository/biocontainers/perl-net-http
-
 

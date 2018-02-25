@@ -5,14 +5,17 @@ metavelvet
 
 |downloads|
 
-MetaVelvet : An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
+MetaVelvet \: An extension of Velvet assembler to de novo metagenome assembly from short sequence reads
 
 ======== ===========
 Home     http://metavelvet.dna.bio.keio.ac.jp
 Versions 1.1.01, 1.2.02
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metavelvet
 .. |docker| image:: https://quay.io/repository/biocontainers/metavelvet/status
                 :target: https://quay.io/repository/biocontainers/metavelvet
-
 

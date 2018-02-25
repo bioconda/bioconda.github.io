@@ -5,14 +5,17 @@ damasker
 
 |downloads|
 
-DAMASKER: Module to determine where repeats are and make soft-masks of said
+DAMASKER\: Module to determine where repeats are and make soft\-masks of said
 
 ======== ===========
 Home     https://github.com/thegenemyers/DAMASKER
 Versions 1.0p1
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damasker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/damasker
 .. |docker| image:: https://quay.io/repository/biocontainers/damasker/status
                 :target: https://quay.io/repository/biocontainers/damasker
-
 

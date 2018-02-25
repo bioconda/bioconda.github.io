@@ -5,14 +5,17 @@ pythomics
 
 |downloads|
 
-A multi-omic python package
+A multi\-omic python package
 
 ======== ===========
 Home     https://github.com/pandeylab/pythomics
 Versions 0.3.40, 0.3.42
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythomics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pythomics
 .. |docker| image:: https://quay.io/repository/biocontainers/pythomics/status
                 :target: https://quay.io/repository/biocontainers/pythomics
-
 

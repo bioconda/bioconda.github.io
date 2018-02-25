@@ -5,14 +5,17 @@ msaboot
 
 |downloads|
 
-Generate bootstrapping replicates for multiple sequence alignment data.
+Generate bootstrapping replicates for multiple sequence alignment data\.
 
 ======== ===========
 Home     https://github.com/phac-nml/msaboot
 Versions 0.1.0
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaboot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/msaboot
 .. |docker| image:: https://quay.io/repository/biocontainers/msaboot/status
                 :target: https://quay.io/repository/biocontainers/msaboot
-
 

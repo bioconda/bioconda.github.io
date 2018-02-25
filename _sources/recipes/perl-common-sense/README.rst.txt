@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~mlehmann/common-sense-3.74/
 Versions 3.74
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-common-sense
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-common-sense
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-common-sense/status
                 :target: https://quay.io/repository/biocontainers/perl-common-sense
-
 

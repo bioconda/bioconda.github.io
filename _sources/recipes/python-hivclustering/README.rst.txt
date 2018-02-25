@@ -5,14 +5,17 @@ python-hivclustering
 
 |downloads|
 
-A Python 3 library that makes inferences on HIV-1 transmission networks.
+A Python 3 library that makes inferences on HIV\-1 transmission networks\.
 
 ======== ===========
 Home     https://github.com/veg/hivclustering
 Versions 1.2.3, 1.3.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hivclustering
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-hivclustering
 .. |docker| image:: https://quay.io/repository/biocontainers/python-hivclustering/status
                 :target: https://quay.io/repository/biocontainers/python-hivclustering
-
 

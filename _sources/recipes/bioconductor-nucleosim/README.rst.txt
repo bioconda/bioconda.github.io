@@ -5,14 +5,17 @@ bioconductor-nucleosim
 
 |downloads|
 
-This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next-generation sequencing. The user has choice between three different distributions for the read positioning: Normal, Student and Uniform.
+This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next\-generation sequencing\. The user has choice between three different distributions for the read positioning\: Normal\, Student and Uniform\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/nucleoSim.html
 Versions 1.4.0, 1.6.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-nucleosim
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-nucleosim/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-nucleosim
-
 

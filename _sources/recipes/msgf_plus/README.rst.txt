@@ -5,14 +5,17 @@ msgf_plus
 
 |downloads|
 
-MS-GF+ is a new MS/MS database search tool that is sensitive (it identifies more peptides than other database search tools and as many peptides as spectral library search tools) and universal (works well for diverse types of spectra, different configurations of MS instruments and different experimental protocols).
+MS\-GF\+ is a new MS\/MS database search tool that is sensitive \(it identifies more peptides than other database search tools and as many peptides as spectral library search tools\) and universal \(works well for diverse types of spectra\, different configurations of MS instruments and different experimental protocols\)\.
 
 ======== ===========
 Home     https://omics.pnl.gov/software/ms-gf
 Versions 1.0.0, 2016.10.26, 2017.07.21
 License  https://github.com/sangtaekim/msgfplus/blob/master/LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msgf_plus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/msgf_plus
 .. |docker| image:: https://quay.io/repository/biocontainers/msgf_plus/status
                 :target: https://quay.io/repository/biocontainers/msgf_plus
-
 

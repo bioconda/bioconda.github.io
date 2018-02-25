@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Number-Format
 Versions 1.75
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-format
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-number-format
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-number-format/status
                 :target: https://quay.io/repository/biocontainers/perl-number-format
-
 

@@ -5,14 +5,17 @@ r-nanostringnorm
 
 |downloads|
 
-A set of tools for normalizing, diagnostics and visualization of NanoString nCounter data.
+A set of tools for normalizing\, diagnostics and visualization of NanoString nCounter data\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=NanoStringNorm
 Versions 1.1.21
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nanostringnorm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-nanostringnorm
 .. |docker| image:: https://quay.io/repository/biocontainers/r-nanostringnorm/status
                 :target: https://quay.io/repository/biocontainers/r-nanostringnorm
-
 

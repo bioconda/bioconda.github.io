@@ -12,7 +12,10 @@ Home     https://github.com/google/google-api-python-client/
 Versions 1.3.2, 1.4.2
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/google-api-python-client
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/google-api-python-client
 .. |docker| image:: https://quay.io/repository/biocontainers/google-api-python-client/status
                 :target: https://quay.io/repository/biocontainers/google-api-python-client
-
 

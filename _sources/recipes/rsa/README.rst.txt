@@ -5,14 +5,17 @@ rsa
 
 |downloads|
 
-Pure-Python RSA implementation
+Pure\-Python RSA implementation
 
 ======== ===========
 Home     http://stuvel.eu/rsa
 Versions 3.1.4
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rsa
 .. |docker| image:: https://quay.io/repository/biocontainers/rsa/status
                 :target: https://quay.io/repository/biocontainers/rsa
-
 

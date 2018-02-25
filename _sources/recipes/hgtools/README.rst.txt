@@ -12,7 +12,10 @@ Home     https://github.com/jaraco/hgtools
 Versions 6.5.1
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hgtools
 .. |docker| image:: https://quay.io/repository/biocontainers/hgtools/status
                 :target: https://quay.io/repository/biocontainers/hgtools
-
 

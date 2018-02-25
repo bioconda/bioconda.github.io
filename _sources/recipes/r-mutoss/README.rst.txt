@@ -5,14 +5,17 @@ r-mutoss
 
 |downloads|
 
-The Mutoss package and accompanying mutossGUI package are designed to ease the application and comparison of multiple hypothesis testing procedures.
+The Mutoss package and accompanying mutossGUI package are designed to ease the application and comparison of multiple hypothesis testing procedures\.
 
 ======== ===========
 Home     http://mutoss.r-forge.r-project.org/
 Versions 0.1_10
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mutoss
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-mutoss
 .. |docker| image:: https://quay.io/repository/biocontainers/r-mutoss/status
                 :target: https://quay.io/repository/biocontainers/r-mutoss
-
 

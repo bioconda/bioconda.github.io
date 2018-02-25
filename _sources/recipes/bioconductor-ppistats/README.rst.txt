@@ -5,14 +5,17 @@ bioconductor-ppistats
 
 |downloads|
 
-Tools for the analysis of protein interaction data.
+Tools for the analysis of protein interaction data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ppiStats.html
 Versions 1.44.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppistats
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ppistats
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ppistats/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ppistats
-
 

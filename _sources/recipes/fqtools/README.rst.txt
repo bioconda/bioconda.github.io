@@ -5,14 +5,17 @@ fqtools
 
 |downloads|
 
-An efficient FASTQ manipulation suite.
+An efficient FASTQ manipulation suite\.
 
 ======== ===========
 Home     https://github.com/alastair-droop/fqtools
 Versions 2.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fqtools
 .. |docker| image:: https://quay.io/repository/biocontainers/fqtools/status
                 :target: https://quay.io/repository/biocontainers/fqtools
-
 

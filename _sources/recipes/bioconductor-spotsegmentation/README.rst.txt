@@ -5,14 +5,17 @@ bioconductor-spotsegmentation
 
 |downloads|
 
-Spot segmentation via model-based clustering and gridding for blocks within microarray slides, as described in Li et al, Robust Model-Based  Segmentation of Microarray Images, Technical Report no. 473, Department of Statistics, University of Washington.
+Spot segmentation via model\-based clustering and gridding for blocks within microarray slides\, as described in Li et al\, Robust Model\-Based  Segmentation of Microarray Images\, Technical Report no\. 473\, Department of Statistics\, University of Washington\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/spotSegmentation.html
 Versions 1.52.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spotsegmentation
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-spotsegmentation
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-spotsegmentation/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-spotsegmentation
-
 

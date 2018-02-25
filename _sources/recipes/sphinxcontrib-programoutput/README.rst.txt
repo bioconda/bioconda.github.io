@@ -12,7 +12,10 @@ Home     http://sphinxcontrib-programoutput.readthedocs.org/
 Versions 0.8
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sphinxcontrib-programoutput
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sphinxcontrib-programoutput
 .. |docker| image:: https://quay.io/repository/biocontainers/sphinxcontrib-programoutput/status
                 :target: https://quay.io/repository/biocontainers/sphinxcontrib-programoutput
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/JSON::Parse
 Versions 0.49
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-parse/0.49
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-json-parse
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-json-parse/status
                 :target: https://quay.io/repository/biocontainers/perl-json-parse
-
 

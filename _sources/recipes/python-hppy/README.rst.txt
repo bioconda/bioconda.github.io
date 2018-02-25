@@ -12,7 +12,10 @@ Home     https://github.com/veg/hppy
 Versions 0.9.6
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-hppy
 .. |docker| image:: https://quay.io/repository/biocontainers/python-hppy/status
                 :target: https://quay.io/repository/biocontainers/python-hppy
-
 

@@ -5,14 +5,17 @@ bioconductor-illuminahumanmethylationepicmanifest
 
 |downloads|
 
-A manifest package for Illumina's EPIC methylation arrays.
+A manifest package for Illumina\'s EPIC methylation arrays\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html
 Versions 0.3.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicmanifest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylationepicmanifest
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicmanifest/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylationepicmanifest
-
 

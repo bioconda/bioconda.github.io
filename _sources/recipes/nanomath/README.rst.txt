@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/nanomath
 Versions 0.12.5, 0.14.2, 0.16.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomath
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanomath
 .. |docker| image:: https://quay.io/repository/biocontainers/nanomath/status
                 :target: https://quay.io/repository/biocontainers/nanomath
-
 

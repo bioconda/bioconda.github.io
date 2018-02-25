@@ -5,14 +5,17 @@ perl-bio-gff3
 
 |downloads|
 
-fast, low-level GFF3 manipulation
+fast\, low\-level GFF3 manipulation
 
 ======== ===========
 Home     http://metacpan.org/release/Bio-GFF3
 Versions 2.0
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-gff3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-gff3
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-gff3/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-gff3
-
 

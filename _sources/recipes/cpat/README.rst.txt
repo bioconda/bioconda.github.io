@@ -12,7 +12,10 @@ Home     http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/cpat/_build/html/index.ht
 Versions 1.2.2, 1.2.3
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cpat
 .. |docker| image:: https://quay.io/repository/biocontainers/cpat/status
                 :target: https://quay.io/repository/biocontainers/cpat
-
 

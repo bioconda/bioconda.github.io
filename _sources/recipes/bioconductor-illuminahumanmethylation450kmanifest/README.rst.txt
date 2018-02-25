@@ -5,14 +5,17 @@ bioconductor-illuminahumanmethylation450kmanifest
 
 |downloads|
 
-Manifest for Illumina's 450k array data
+Manifest for Illumina\'s 450k array data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylation450kmanifest.html
 Versions 0.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation450kmanifest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-illuminahumanmethylation450kmanifest
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kmanifest/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-illuminahumanmethylation450kmanifest
-
 

@@ -5,14 +5,17 @@ bioconductor-pwomics
 
 |downloads|
 
-pwOmics performs pathway-based level-specific data comparison of matching omics data sets based on pre-analysed user-specified lists of differential genes/transcripts and phosphoproteins. A separate downstream analysis of phosphoproteomic data including pathway identification, transcription factor identification and target gene identification is opposed to the upstream analysis starting with gene or transcript information as basis for identification of upstream transcription factors and potential proteomic regulators. The cross-platform comparative analysis allows for comprehensive analysis of single time point experiments and time-series experiments by providing static and dynamic analysis tools for data integration. In addition, it provides functions to identify individual signaling axes based on data integration.
+pwOmics performs pathway\-based level\-specific data comparison of matching omics data sets based on pre\-analysed user\-specified lists of differential genes\/transcripts and phosphoproteins\. A separate downstream analysis of phosphoproteomic data including pathway identification\, transcription factor identification and target gene identification is opposed to the upstream analysis starting with gene or transcript information as basis for identification of upstream transcription factors and potential proteomic regulators\. The cross\-platform comparative analysis allows for comprehensive analysis of single time point experiments and time\-series experiments by providing static and dynamic analysis tools for data integration\. In addition\, it provides functions to identify individual signaling axes based on data integration\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/pwOmics.html
 Versions 1.10.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pwomics
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pwomics/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pwomics
-
 

@@ -5,14 +5,17 @@ cansam
 
 |downloads|
 
-C++ binding for SAM/BAM files
+C\+\+ binding for SAM\/BAM files
 
 ======== ===========
 Home     https://github.com/jmarshall/cansam/
 Versions 21d64bb
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cansam
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cansam
 .. |docker| image:: https://quay.io/repository/biocontainers/cansam/status
                 :target: https://quay.io/repository/biocontainers/cansam
-
 

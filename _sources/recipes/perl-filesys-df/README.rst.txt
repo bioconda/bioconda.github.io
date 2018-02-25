@@ -5,14 +5,17 @@ perl-filesys-df
 
 |downloads|
 
-Perl extension for filesystem disk space information.
+Perl extension for filesystem disk space information\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Filesys-Df
 Versions 0.92
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filesys-df
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-filesys-df
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-filesys-df/status
                 :target: https://quay.io/repository/biocontainers/perl-filesys-df
-
 

@@ -5,14 +5,17 @@ bioconductor-curatedovariandata
 
 |downloads|
 
-The curatedOvarianData package provides data for gene expression analysis in patients with ovarian cancer.
+The curatedOvarianData package provides data for gene expression analysis in patients with ovarian cancer\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/curatedOvarianData.html
 Versions 1.14.0, 1.16.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-curatedovariandata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-curatedovariandata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-curatedovariandata
-
 

@@ -5,14 +5,17 @@ fido
 
 |downloads|
 
-A method for protein identification in MS/MS proteomics. Think of it like a protein delivery dog. You bring it the scored matches between peptides and spectra, and it fetches a list of proteins ranked by posterior probability by doing clever tricks.
+A method for protein identification in MS\/MS proteomics\. Think of it like a protein delivery dog\. You bring it the scored matches between peptides and spectra\, and it fetches a list of proteins ranked by posterior probability by doing clever tricks\.
 
 ======== ===========
 Home     https://noble.gs.washington.edu/proj/fido/
 Versions 1.0
 License  MIT license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fido
 .. |docker| image:: https://quay.io/repository/biocontainers/fido/status
                 :target: https://quay.io/repository/biocontainers/fido
-
 

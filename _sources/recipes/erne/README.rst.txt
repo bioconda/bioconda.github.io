@@ -5,14 +5,17 @@ erne
 
 |downloads|
 
-ERNE - Extended Randomized Numerical alignEr
+ERNE \- Extended Randomized Numerical alignEr
 
 ======== ===========
 Home     http://erne.sourceforge.net
 Versions 2.1.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/erne
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/erne
 .. |docker| image:: https://quay.io/repository/biocontainers/erne/status
                 :target: https://quay.io/repository/biocontainers/erne
-
 

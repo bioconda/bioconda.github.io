@@ -5,14 +5,17 @@ graphprot
 
 |downloads|
 
-GraphProt is a tool for modelling binding preferences of RNA-binding proteins from high-throughput experiments such as CLIP-seq and RNAcompete.
+GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete\.
 
 ======== ===========
 Home     https://github.com/dmaticzka/graphprot
 Versions 1.1.6, 1.1.7
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphprot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graphprot
 .. |docker| image:: https://quay.io/repository/biocontainers/graphprot/status
                 :target: https://quay.io/repository/biocontainers/graphprot
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/CPAN::Shell
 Versions 5.5004
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-shell/5.5004
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-cpan-shell
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-cpan-shell/status
                 :target: https://quay.io/repository/biocontainers/perl-cpan-shell
-
 

@@ -12,7 +12,10 @@ Home     http://www.tidyp.com/
 Versions 1.04
 License  BSD-like
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidyp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tidyp
 .. |docker| image:: https://quay.io/repository/biocontainers/tidyp/status
                 :target: https://quay.io/repository/biocontainers/tidyp
-
 

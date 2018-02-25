@@ -5,14 +5,17 @@ perl-image-exiftool
 
 |downloads|
 
-ExifTool is a platform-independent Perl library plus a command-line application for reading, writing and editing meta information in a wide variety of files.
+ExifTool is a platform\-independent Perl library plus a command\-line application for reading\, writing and editing meta information in a wide variety of files\.
 
 ======== ===========
 Home     http://www.sno.phy.queensu.ca/~phil/exiftool
 Versions 10.40
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-exiftool
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-image-exiftool
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-image-exiftool/status
                 :target: https://quay.io/repository/biocontainers/perl-image-exiftool
-
 

@@ -5,14 +5,17 @@ dudes
 
 |downloads|
 
-DUDes: a top-down taxonomic profiler for metagenomics
+DUDes\: a top\-down taxonomic profiler for metagenomics
 
 ======== ===========
 Home     https://github.com/pirovc/dudes/
 Versions 0.06, 0.07, 0.08
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dudes
 .. |docker| image:: https://quay.io/repository/biocontainers/dudes/status
                 :target: https://quay.io/repository/biocontainers/dudes
-
 

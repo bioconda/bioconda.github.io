@@ -5,14 +5,17 @@ toil
 
 |downloads|
 
-A scalable, efficient, cross-platform and easy-to-use workflow engine in pure Python
+A scalable\, efficient\, cross\-platform and easy\-to\-use workflow engine in pure Python
 
 ======== ===========
 Home     https://github.com/BD2KGenomics/toil
 Versions 3.10.0, 3.10.0a1, 3.11.0, 3.11.0a1, 3.13.0a1, 3.14.0, 3.2.0a2, 3.3.0a1, 3.4.0a1, 3.5.0a1, 3.6.0, 3.7.0a, 3.8.0a1, 3.9.0a1
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toil
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/toil
 .. |docker| image:: https://quay.io/repository/biocontainers/toil/status
                 :target: https://quay.io/repository/biocontainers/toil
-
 

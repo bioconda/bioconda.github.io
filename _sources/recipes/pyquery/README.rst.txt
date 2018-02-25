@@ -5,14 +5,17 @@ pyquery
 
 |downloads|
 
-A jquery-like library for python
+A jquery\-like library for python
 
 ======== ===========
 Home     https://github.com/gawel/pyquery
 Versions 1.2.9
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquery
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyquery
 .. |docker| image:: https://quay.io/repository/biocontainers/pyquery/status
                 :target: https://quay.io/repository/biocontainers/pyquery
-
 

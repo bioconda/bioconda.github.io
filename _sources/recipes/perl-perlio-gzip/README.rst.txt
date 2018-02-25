@@ -5,14 +5,17 @@ perl-perlio-gzip
 
 |downloads|
 
-PerlIO interface to gzip/gunzip
+PerlIO interface to gzip\/gunzip
 
 ======== ===========
 Home     http://metacpan.org/pod/PerlIO-gzip
 Versions 0.19
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-gzip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perlio-gzip
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perlio-gzip/status
                 :target: https://quay.io/repository/biocontainers/perl-perlio-gzip
-
 

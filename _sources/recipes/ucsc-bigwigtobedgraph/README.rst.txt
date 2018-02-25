@@ -5,14 +5,17 @@ ucsc-bigwigtobedgraph
 
 |downloads|
 
-Convert from bigWig to bedGraph format.
+Convert from bigWig to bedGraph format\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigtobedgraph
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bigwigtobedgraph
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bigwigtobedgraph/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bigwigtobedgraph
-
 

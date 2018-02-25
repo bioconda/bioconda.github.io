@@ -12,7 +12,10 @@ Home     https://github.com/atks/vt
 Versions 2015.11.10
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vt
 .. |docker| image:: https://quay.io/repository/biocontainers/vt/status
                 :target: https://quay.io/repository/biocontainers/vt
-
 

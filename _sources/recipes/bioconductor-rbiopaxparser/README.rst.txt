@@ -5,14 +5,17 @@ bioconductor-rbiopaxparser
 
 |downloads|
 
-Parses BioPAX files and represents them in R, at the moment BioPAX level 2 and level 3 are supported.
+Parses BioPAX files and represents them in R\, at the moment BioPAX level 2 and level 3 are supported\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rBiopaxParser.html
 Versions 2.16.0, 2.18.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbiopaxparser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rbiopaxparser
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rbiopaxparser/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rbiopaxparser
-
 

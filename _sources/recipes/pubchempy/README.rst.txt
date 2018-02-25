@@ -5,14 +5,17 @@ pubchempy
 
 |downloads|
 
-A simple Python wrapper around the PubChem PUG REST API.
+A simple Python wrapper around the PubChem PUG REST API\.
 
 ======== ===========
 Home     https://github.com/mcs07/PubChemPy
 Versions 1.0.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubchempy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pubchempy
 .. |docker| image:: https://quay.io/repository/biocontainers/pubchempy/status
                 :target: https://quay.io/repository/biocontainers/pubchempy
-
 

@@ -5,14 +5,17 @@ geodl
 
 |downloads|
 
-Download FASTQ files from GEO-NCBI and ENA with ease
+Download FASTQ files from GEO\-NCBI and ENA with ease
 
 ======== ===========
 Home     https://github.com/jduc/geoDL
 Versions 1.0b1, 1.0b5.1
 License  GPL-3-0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/geodl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/geodl
 .. |docker| image:: https://quay.io/repository/biocontainers/geodl/status
                 :target: https://quay.io/repository/biocontainers/geodl
-
 

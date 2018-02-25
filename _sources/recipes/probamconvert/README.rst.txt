@@ -5,14 +5,17 @@ probamconvert
 
 |downloads|
 
-proBAMconvert is a conversion tool to convert common peptide identification files (mzIdentML, pepXML, mzTAB) to the proBAM or proBED format
+proBAMconvert is a conversion tool to convert common peptide identification files \(mzIdentML\, pepXML\, mzTAB\) to the proBAM or proBED format
 
 ======== ===========
 Home     https://github.com/Biobix/proBAMconvert
 Versions 1.0.0, 1.0.1, 1.0.2
 License  Apache License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/probamconvert
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/probamconvert
 .. |docker| image:: https://quay.io/repository/biocontainers/probamconvert/status
                 :target: https://quay.io/repository/biocontainers/probamconvert
-
 

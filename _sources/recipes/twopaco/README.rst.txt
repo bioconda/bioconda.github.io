@@ -12,7 +12,10 @@ Home     https://github.com/medvedevgroup/TwoPaCo
 Versions 0.9.2
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twopaco
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/twopaco
 .. |docker| image:: https://quay.io/repository/biocontainers/twopaco/status
                 :target: https://quay.io/repository/biocontainers/twopaco
-
 

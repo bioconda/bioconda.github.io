@@ -5,14 +5,17 @@ bioconductor-rgadem
 
 |downloads|
 
-rGADEM is an efficient de novo motif discovery tool for large-scale genomic sequence data. It is an open-source R package, which is based on the GADEM software.
+rGADEM is an efficient de novo motif discovery tool for large\-scale genomic sequence data\. It is an open\-source R package\, which is based on the GADEM software\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rGADEM.html
 Versions 2.22.0, 2.24.0, 2.26.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgadem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rgadem
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rgadem/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rgadem
-
 

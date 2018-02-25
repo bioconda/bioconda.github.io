@@ -5,14 +5,17 @@ pfam_scan
 
 |downloads|
 
-pfam_scan.pl is a Perl script calling HMMER v3 to search a FASTA file against a library of Pfam HMMs.
+pfam\_scan\.pl is a Perl script calling HMMER v3 to search a FASTA file against a library of Pfam HMMs\.
 
 ======== ===========
 Home     http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
 Versions 1.6
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfam_scan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pfam_scan
 .. |docker| image:: https://quay.io/repository/biocontainers/pfam_scan/status
                 :target: https://quay.io/repository/biocontainers/pfam_scan
-
 

@@ -5,14 +5,17 @@ besst
 
 |downloads|
 
-Scaffolder for genomic assemblies.
+Scaffolder for genomic assemblies\.
 
 ======== ===========
 Home     https://github.com/ksahlin/BESST
 Versions 2.2.3, 2.2.7
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/besst
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/besst
 .. |docker| image:: https://quay.io/repository/biocontainers/besst/status
                 :target: https://quay.io/repository/biocontainers/besst
-
 

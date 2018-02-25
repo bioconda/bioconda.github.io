@@ -12,7 +12,10 @@ Home     http://www.shlomifish.org/open-source/projects/Text-Format/
 Versions 0.59
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-format
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-format
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-format/status
                 :target: https://quay.io/repository/biocontainers/perl-text-format
-
 

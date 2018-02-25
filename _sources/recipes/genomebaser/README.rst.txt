@@ -5,14 +5,17 @@ genomebaser
 
 |downloads|
 
-GenomeBaser manages complete (bacterial) genomes from NCBI
+GenomeBaser manages complete \(bacterial\) genomes from NCBI
 
 ======== ===========
 Home     http://github.com/mscook/GenomeBaser
 Versions 0.1.2
 License  ECL 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomebaser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genomebaser
 .. |docker| image:: https://quay.io/repository/biocontainers/genomebaser/status
                 :target: https://quay.io/repository/biocontainers/genomebaser
-
 

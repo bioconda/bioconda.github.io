@@ -5,14 +5,17 @@ perl-list-someutils
 
 |downloads|
 
-Provide the stuff missing in List::Util
+Provide the stuff missing in List\:\:Util
 
 ======== ===========
 Home     http://metacpan.org/release/List-SomeUtils
 Versions 0.53
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-someutils/0.53
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-list-someutils
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-list-someutils/status
                 :target: https://quay.io/repository/biocontainers/perl-list-someutils
-
 

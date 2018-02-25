@@ -12,7 +12,10 @@ Home     https://github.com/yechengxi/AssemblyUtility
 Versions 20160209
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/assemblyutility
 .. |docker| image:: https://quay.io/repository/biocontainers/assemblyutility/status
                 :target: https://quay.io/repository/biocontainers/assemblyutility
-
 

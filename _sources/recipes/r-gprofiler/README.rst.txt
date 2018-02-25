@@ -5,14 +5,17 @@ r-gprofiler
 
 |downloads|
 
-Functional enrichment analysis, gene identifier conversion and mapping homologous genes across related organisms via the 'g:Profiler' toolkit (http://biit.cs.ut.ee/gprofiler/).
+Functional enrichment analysis\, gene identifier conversion and mapping homologous genes across related organisms via the \'g\:Profiler\' toolkit \(http\:\/\/biit\.cs\.ut\.ee\/gprofiler\/\)\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=gProfileR
 Versions 0.6.1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gprofiler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-gprofiler
 .. |docker| image:: https://quay.io/repository/biocontainers/r-gprofiler/status
                 :target: https://quay.io/repository/biocontainers/r-gprofiler
-
 

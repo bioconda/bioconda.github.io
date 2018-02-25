@@ -12,7 +12,10 @@ Home     http://www.bioinf.uni-freiburg.de/Software/LocARNA/
 Versions 1.8.10, 1.8.11, 1.8.12, 1.8.7, 1.8.9, 1.9.0, 1.9.1, 1.9.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/locarna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/locarna
 .. |docker| image:: https://quay.io/repository/biocontainers/locarna/status
                 :target: https://quay.io/repository/biocontainers/locarna
-
 

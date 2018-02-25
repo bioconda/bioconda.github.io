@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/reactome.db.h
 Versions 1.62.0
 License  CC BY 4.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactome.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-reactome.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-reactome.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-reactome.db
-
 

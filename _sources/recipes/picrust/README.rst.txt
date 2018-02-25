@@ -5,14 +5,17 @@ picrust
 
 |downloads|
 
-PICRUSt: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
+PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobserved States
 
 ======== ===========
 Home     http://picrust.github.com
 Versions 1.0.1, 1.1.0, 1.1.1, 1.1.2, 1.1.3
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picrust
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update picrust
 
+
 Notes
 -----
+PICRUST requires a set of large pre\-calculated data files\. PICRUST contains a script\, \"download\_picrust\_files\.py\"\, which downloads the data in the proper location\, and which can be run after PICRUST has been installed\.
 
-PICRUST requires a set of large pre-calculated data files. PICRUST contains a script, "download_picrust_files.py", which downloads the data in the proper location, and which can be run after PICRUST has been installed.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/picrust
 .. |docker| image:: https://quay.io/repository/biocontainers/picrust/status
                 :target: https://quay.io/repository/biocontainers/picrust
-
 

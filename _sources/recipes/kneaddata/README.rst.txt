@@ -5,14 +5,17 @@ kneaddata
 
 |downloads|
 
-KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data, especially data from microbiome experiments.
+KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data\, especially data from microbiome experiments\.
 
 ======== ===========
 Home     http://huttenhower.sph.harvard.edu/kneaddata
 Versions 0.5.2, 0.6.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kneaddata
 .. |docker| image:: https://quay.io/repository/biocontainers/kneaddata/status
                 :target: https://quay.io/repository/biocontainers/kneaddata
-
 

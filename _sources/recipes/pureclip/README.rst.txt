@@ -5,14 +5,17 @@ pureclip
 
 |downloads|
 
-PureCLIP is a tool to detect protein-RNA interaction footprints from single-nucleotide CLIP-seq data, such as iCLIP and eCLIP.
+PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nucleotide CLIP\-seq data\, such as iCLIP and eCLIP\.
 
 ======== ===========
 Home     https://github.com/skrakau/PureCLIP
 Versions 1.0.2, 1.0.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pureclip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pureclip
 .. |docker| image:: https://quay.io/repository/biocontainers/pureclip/status
                 :target: https://quay.io/repository/biocontainers/pureclip
-
 

@@ -5,14 +5,17 @@ jq
 
 |downloads|
 
-jq is a lightweight and flexible command-line JSON processor.
+jq is a lightweight and flexible command\-line JSON processor\.
 
 ======== ===========
 Home     https://stedolan.github.io/jq
 Versions 1.5
 License  MIT (code), CC-BY-3.0 (docs)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jq
 .. |docker| image:: https://quay.io/repository/biocontainers/jq/status
                 :target: https://quay.io/repository/biocontainers/jq
-
 

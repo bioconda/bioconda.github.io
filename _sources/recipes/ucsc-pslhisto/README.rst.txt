@@ -5,14 +5,17 @@ ucsc-pslhisto
 
 |downloads|
 
- Collect counts on PSL alignments for making histograms. These then be analyzed with R, textHistogram, etc. 
+ Collect counts on PSL alignments for making histograms\. These then be analyzed with R\, textHistogram\, etc\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslhisto
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-pslhisto
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslhisto/status
                 :target: https://quay.io/repository/biocontainers/ucsc-pslhisto
-
 

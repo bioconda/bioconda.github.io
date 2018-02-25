@@ -12,7 +12,10 @@ Home     https://github.com/caleb-easterly/validate_fasta_database
 Versions 1.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validate-fasta-database
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/validate-fasta-database
 .. |docker| image:: https://quay.io/repository/biocontainers/validate-fasta-database/status
                 :target: https://quay.io/repository/biocontainers/validate-fasta-database
-
 

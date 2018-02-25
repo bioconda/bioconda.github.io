@@ -5,14 +5,17 @@ pymot
 
 |downloads|
 
-This is a python implementation which determines the MOTP and MOTA metrics from a set of ground truth tracks and a set of hypothesis tracks given by the tracker to be evaluated.
+This is a python implementation which determines the MOTP and MOTA metrics from a set of ground truth tracks and a set of hypothesis tracks given by the tracker to be evaluated\.
 
 ======== ===========
 Home     https://github.com/Videmo/pymot
 Versions 13.09.2016
 License  All Rights Reserved
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pymot
 .. |docker| image:: https://quay.io/repository/biocontainers/pymot/status
                 :target: https://quay.io/repository/biocontainers/pymot
-
 

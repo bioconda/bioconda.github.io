@@ -12,7 +12,10 @@ Home     https://github.com/Zsailer/phylopandas
 Versions 0.1.3, 0.1.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylopandas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/phylopandas
 .. |docker| image:: https://quay.io/repository/biocontainers/phylopandas/status
                 :target: https://quay.io/repository/biocontainers/phylopandas
-
 

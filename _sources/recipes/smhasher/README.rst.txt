@@ -12,7 +12,10 @@ Home     http://github.com/phensley/python-smhasher
 Versions 0.150.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smhasher
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/smhasher
 .. |docker| image:: https://quay.io/repository/biocontainers/smhasher/status
                 :target: https://quay.io/repository/biocontainers/smhasher
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/cancerit/VAGrENT
 Versions 3.2.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-vagrent
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sanger-cgp-vagrent
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent/status
                 :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-vagrent
-
 

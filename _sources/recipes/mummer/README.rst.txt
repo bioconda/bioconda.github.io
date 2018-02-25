@@ -12,7 +12,10 @@ Home     http://mummer.sourceforge.net/
 Versions 3.23
 License  The Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mummer
 .. |docker| image:: https://quay.io/repository/biocontainers/mummer/status
                 :target: https://quay.io/repository/biocontainers/mummer
-
 

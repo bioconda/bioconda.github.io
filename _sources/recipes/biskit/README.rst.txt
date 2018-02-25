@@ -12,7 +12,10 @@ Home     http://biskit.pasteur.fr
 Versions 2.4.3
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit
+
 ======== ===========
+
+Biskit is a modular\, object\-oriented Python library for structural bioinformatics research\.
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biskit
 .. |docker| image:: https://quay.io/repository/biocontainers/biskit/status
                 :target: https://quay.io/repository/biocontainers/biskit
-
 

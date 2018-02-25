@@ -5,14 +5,17 @@ np-likeness-scorer
 
 |downloads|
 
-Calculates Natural Product(NP)-likeness of a molecule, i.e. the similarity of the molecule to the structure space covered by known natural products. NP-likeness is a useful criterion to screen compound libraries and to design new lead compounds
+Calculates Natural Product\(NP\)\-likeness of a molecule\, i\.e\. the similarity of the molecule to the structure space covered by known natural products\. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
 
 ======== ===========
 Home     https://sourceforge.net/projects/np-likeness/
 Versions 2.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/np-likeness-scorer
 .. |docker| image:: https://quay.io/repository/biocontainers/np-likeness-scorer/status
                 :target: https://quay.io/repository/biocontainers/np-likeness-scorer
-
 

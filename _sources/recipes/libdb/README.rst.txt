@@ -5,14 +5,17 @@ libdb
 
 |downloads|
 
-The Berkeley DB embedded database system.
+The Berkeley DB embedded database system\.
 
 ======== ===========
 Home     http://www.oracle.com/technology/software/products/berkeley-db/index.html
 Versions 6.1.26
 License  AGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdb
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libdb
 .. |docker| image:: https://quay.io/repository/biocontainers/libdb/status
                 :target: https://quay.io/repository/biocontainers/libdb
-
 

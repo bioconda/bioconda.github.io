@@ -5,14 +5,17 @@ ls-gkm
 
 |downloads|
 
-gkm-SVM, a sequence-based method for predicting regulatory DNA elements, is a useful tool for studying gene regulatory mechanisms. In continuous efforts to improve the method, new software, LS-GKM, is introduced. It offers much better scalability and provides further advanced gapped k-mer based kernel functions. As a result, LS-GKM achieves considerably higher accuracy than the original gkm-SVM.
+gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is a useful tool for studying gene regulatory mechanisms\. In continuous efforts to improve the method\, new software\, LS\-GKM\, is introduced\. It offers much better scalability and provides further advanced gapped k\-mer based kernel functions\. As a result\, LS\-GKM achieves considerably higher accuracy than the original gkm\-SVM\.
 
 ======== ===========
 Home     https://github.com/Dongwon-Lee/lsgkm
 Versions 0.0.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ls-gkm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ls-gkm
 .. |docker| image:: https://quay.io/repository/biocontainers/ls-gkm/status
                 :target: https://quay.io/repository/biocontainers/ls-gkm
-
 

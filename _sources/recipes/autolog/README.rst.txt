@@ -12,7 +12,10 @@ Home     http://noble.gs.washington.edu/~mmh1/software/autolog/
 Versions 0.1.3
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autolog
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/autolog
 .. |docker| image:: https://quay.io/repository/biocontainers/autolog/status
                 :target: https://quay.io/repository/biocontainers/autolog
-
 

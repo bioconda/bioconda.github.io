@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/HTML-Entities-Numbered
 Versions 0.04
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-entities-numbered
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-entities-numbered
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-entities-numbered/status
                 :target: https://quay.io/repository/biocontainers/perl-html-entities-numbered
-
 

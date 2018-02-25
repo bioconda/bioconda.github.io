@@ -5,14 +5,17 @@ burrito
 
 |downloads|
 
-Framework for wrapping and controlling command-line applications.
+Framework for wrapping and controlling command\-line applications\.
 
 ======== ===========
 Home     https://github.com/biocore/burrito
 Versions 0.9.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito/0.9.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/burrito
 .. |docker| image:: https://quay.io/repository/biocontainers/burrito/status
                 :target: https://quay.io/repository/biocontainers/burrito
-
 

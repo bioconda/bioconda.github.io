@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Hsapiens
 Versions 3.2.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
-
 

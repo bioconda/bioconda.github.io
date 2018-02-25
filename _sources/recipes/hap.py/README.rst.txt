@@ -12,7 +12,10 @@ Home     https://github.com/sequencing/hap.py
 Versions 0.2.9, 0.3.7
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hap.py
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hap.py
 .. |docker| image:: https://quay.io/repository/biocontainers/hap.py/status
                 :target: https://quay.io/repository/biocontainers/hap.py
-
 

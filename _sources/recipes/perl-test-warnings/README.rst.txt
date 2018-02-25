@@ -12,7 +12,10 @@ Home     https://github.com/karenetheridge/Test-Warnings
 Versions 0.021
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warnings
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-warnings
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-warnings/status
                 :target: https://quay.io/repository/biocontainers/perl-test-warnings
-
 

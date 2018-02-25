@@ -12,7 +12,10 @@ Home     https://github.com/tokuhirom/Test-Requires
 Versions 0.10
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-requires
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-requires
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-requires/status
                 :target: https://quay.io/repository/biocontainers/perl-test-requires
-
 

@@ -5,14 +5,17 @@ genologics
 
 |downloads|
 
-Python interface to the GenoLogics LIMS (Laboratory Information Management System) server via its REST API.
+Python interface to the GenoLogics LIMS \(Laboratory Information Management System\) server via its REST API\.
 
 ======== ===========
 Home     https://github.com/scilifelab/genologics
 Versions 0.3.12.post0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genologics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genologics
 .. |docker| image:: https://quay.io/repository/biocontainers/genologics/status
                 :target: https://quay.io/repository/biocontainers/genologics
-
 

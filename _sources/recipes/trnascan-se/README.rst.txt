@@ -5,14 +5,17 @@ trnascan-se
 
 |downloads|
 
-tRNA detection in large-scale genome sequence
+tRNA detection in large\-scale genome sequence
 
 ======== ===========
 Home     http://lowelab.ucsc.edu/tRNAscan-SE/
 Versions 1.3.1, 2.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trnascan-se
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trnascan-se
 .. |docker| image:: https://quay.io/repository/biocontainers/trnascan-se/status
                 :target: https://quay.io/repository/biocontainers/trnascan-se
-
 

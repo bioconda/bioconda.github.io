@@ -5,14 +5,17 @@ perl-file-copy-link
 
 |downloads|
 
-Perl extension for replacing a link by a copy of the linked file.
+Perl extension for replacing a link by a copy of the linked file\.
 
 ======== ===========
 Home     https://metacpan.org/pod/File::Copy::Link
 Versions 0.140
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-link
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-copy-link
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-copy-link/status
                 :target: https://quay.io/repository/biocontainers/perl-file-copy-link
-
 

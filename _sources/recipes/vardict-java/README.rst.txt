@@ -12,7 +12,10 @@ Home     https://github.com/AstraZeneca-NGS/VarDictJava
 Versions 1.4.10, 1.4.2, 1.4.3, 1.4.5, 1.4.6, 1.4.7, 1.4.8, 1.4.9, 1.5.0, 1.5.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict-java
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vardict-java
 .. |docker| image:: https://quay.io/repository/biocontainers/vardict-java/status
                 :target: https://quay.io/repository/biocontainers/vardict-java
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/ImmPortDB/ig-checkfcs
 Versions 1.0.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-checkfcs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ig-checkfcs
 .. |docker| image:: https://quay.io/repository/biocontainers/ig-checkfcs/status
                 :target: https://quay.io/repository/biocontainers/ig-checkfcs
-
 

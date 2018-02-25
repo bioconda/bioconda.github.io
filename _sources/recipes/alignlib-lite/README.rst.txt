@@ -5,14 +5,17 @@ alignlib-lite
 
 |downloads|
 
-Simple wrapper around alignlib C++ library for sequence alignment
+Simple wrapper around alignlib C\+\+ library for sequence alignment
 
 ======== ===========
 Home     http://sourceforge.net/projects/alignlib/
 Versions 0.2.3, 0.3
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/alignlib-lite
 .. |docker| image:: https://quay.io/repository/biocontainers/alignlib-lite/status
                 :target: https://quay.io/repository/biocontainers/alignlib-lite
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/mirnylab/cooler
 Versions 0.7.0, 0.7.4, 0.7.6
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cooler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cooler
 .. |docker| image:: https://quay.io/repository/biocontainers/cooler/status
                 :target: https://quay.io/repository/biocontainers/cooler
-
 

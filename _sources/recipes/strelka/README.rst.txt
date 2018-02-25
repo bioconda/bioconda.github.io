@@ -12,7 +12,10 @@ Home     https://github.com/Illumina/strelka
 Versions 2.7.1, 2.8.2, 2.8.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strelka
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/strelka
 .. |docker| image:: https://quay.io/repository/biocontainers/strelka/status
                 :target: https://quay.io/repository/biocontainers/strelka
-
 

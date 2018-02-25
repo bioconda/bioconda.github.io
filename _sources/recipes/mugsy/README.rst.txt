@@ -5,14 +5,17 @@ mugsy
 
 |downloads|
 
-Mugsy is a multiple whole genome aligner.
+Mugsy is a multiple whole genome aligner\.
 
 ======== ===========
 Home     http://mugsy.sourceforge.net
 Versions 1.2.3
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mugsy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mugsy
 .. |docker| image:: https://quay.io/repository/biocontainers/mugsy/status
                 :target: https://quay.io/repository/biocontainers/mugsy
-
 

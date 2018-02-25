@@ -5,14 +5,17 @@ trawler
 
 |downloads|
 
-Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA.
+Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA\.
 
 ======== ===========
 Home     https://trawler.erc.monash.edu.au/help.html
 Versions 2.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trawler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trawler
 .. |docker| image:: https://quay.io/repository/biocontainers/trawler/status
                 :target: https://quay.io/repository/biocontainers/trawler
-
 

@@ -5,14 +5,17 @@ bioconductor-annotationfuncs
 
 |downloads|
 
-Functions for handling translating between different identifieres using the Biocore Data Team data-packages (e.g. org.Bt.eg.db).
+Functions for handling translating between different identifieres using the Biocore Data Team data\-packages \(e\.g\. org\.Bt\.eg\.db\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/AnnotationFuncs.html
 Versions 1.26.0, 1.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-annotationfuncs
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-annotationfuncs/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-annotationfuncs
-
 

@@ -5,14 +5,17 @@ fastme
 
 |downloads|
 
-a comprehensive, accurate and fast distance-based phylogeny inference program.
+a comprehensive\, accurate and fast distance\-based phylogeny inference program\.
 
 ======== ===========
 Home     http://www.atgc-montpellier.fr/fastme/binaries.php
 Versions 2.1.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastme
 .. |docker| image:: https://quay.io/repository/biocontainers/fastme/status
                 :target: https://quay.io/repository/biocontainers/fastme
-
 

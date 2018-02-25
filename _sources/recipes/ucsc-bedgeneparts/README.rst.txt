@@ -5,14 +5,17 @@ ucsc-bedgeneparts
 
 |downloads|
 
-Given a bed, spit out promoter, first exon, or all introns.
+Given a bed\, spit out promoter\, first exon\, or all introns\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedgeneparts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bedgeneparts
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bedgeneparts/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bedgeneparts
-
 

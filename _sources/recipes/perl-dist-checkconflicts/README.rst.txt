@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Dist-CheckConflicts
 Versions 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dist-checkconflicts
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dist-checkconflicts
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dist-checkconflicts/status
                 :target: https://quay.io/repository/biocontainers/perl-dist-checkconflicts
-
 

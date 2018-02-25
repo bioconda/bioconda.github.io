@@ -5,14 +5,17 @@ perl-xml-writer
 
 |downloads|
 
-Easily generate well-formed, namespace-aware XML.
+Easily generate well\-formed\, namespace\-aware XML\.
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-Writer
 Versions 0.625
 License  unrestricted
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-writer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-writer
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-writer/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-writer
-
 

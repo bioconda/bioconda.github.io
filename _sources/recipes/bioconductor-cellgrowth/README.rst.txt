@@ -5,14 +5,17 @@ bioconductor-cellgrowth
 
 |downloads|
 
-This package provides functionalities for the fitting of cell population growth models on experimental OD curves.
+This package provides functionalities for the fitting of cell population growth models on experimental OD curves\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/cellGrowth.html
 Versions 1.20.0, 1.22.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellgrowth
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cellgrowth
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cellgrowth/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cellgrowth
-
 

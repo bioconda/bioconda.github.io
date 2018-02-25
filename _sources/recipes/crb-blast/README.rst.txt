@@ -5,14 +5,17 @@ crb-blast
 
 |downloads|
 
-Conditional Reciprocal Best BLAST - high confidence ortholog assignment.
+Conditional Reciprocal Best BLAST \- high confidence ortholog assignment\.
 
 ======== ===========
 Home     https://github.com/cboursnell/crb-blast
 Versions 0.6.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crb-blast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/crb-blast
 .. |docker| image:: https://quay.io/repository/biocontainers/crb-blast/status
                 :target: https://quay.io/repository/biocontainers/crb-blast
-
 

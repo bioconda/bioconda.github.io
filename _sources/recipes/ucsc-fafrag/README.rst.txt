@@ -5,14 +5,17 @@ ucsc-fafrag
 
 |downloads|
 
-Extract a piece of DNA from a .fa file.
+Extract a piece of DNA from a \.fa file\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafrag
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-fafrag
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fafrag/status
                 :target: https://quay.io/repository/biocontainers/ucsc-fafrag
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/endrebak/fastindep
 Versions 1.0.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastindep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastindep
 .. |docker| image:: https://quay.io/repository/biocontainers/fastindep/status
                 :target: https://quay.io/repository/biocontainers/fastindep
-
 

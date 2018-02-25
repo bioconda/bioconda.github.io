@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Scerevis
 Versions 3.2.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-txdb.scerevisiae.ucsc.saccer2.sgdgene
-
 

@@ -5,14 +5,17 @@ bioconductor-mulcom
 
 |downloads|
 
-Identification of differentially expressed genes and false discovery rate (FDR) calculation by Multiple Comparison test
+Identification of differentially expressed genes and false discovery rate \(FDR\) calculation by Multiple Comparison test
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Mulcom.html
 Versions 1.26.0, 1.28.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mulcom
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mulcom
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mulcom/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mulcom
-
 

@@ -5,14 +5,17 @@ bioconductor-keggdzpathwaysgeo
 
 |downloads|
 
-This is a collection of 24 data sets for which the phenotype is a disease with a corresponding pathway in the KEGG database.This collection of datasets were used as gold standard in comparing gene set analysis methods by the PADOG package.
+This is a collection of 24 data sets for which the phenotype is a disease with a corresponding pathway in the KEGG database\.This collection of datasets were used as gold standard in comparing gene set analysis methods by the PADOG package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/KEGGdzPathwaysGEO.html
 Versions 1.16.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggdzpathwaysgeo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-keggdzpathwaysgeo
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-keggdzpathwaysgeo/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-keggdzpathwaysgeo
-
 

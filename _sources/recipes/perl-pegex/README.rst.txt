@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~ingy/Pegex-0.61/lib/Pegex.pod
 Versions 0.61
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pegex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pegex
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pegex/status
                 :target: https://quay.io/repository/biocontainers/perl-pegex
-
 

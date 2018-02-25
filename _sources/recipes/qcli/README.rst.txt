@@ -12,7 +12,10 @@ Home
 Versions 0.1.1
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qcli
 .. |docker| image:: https://quay.io/repository/biocontainers/qcli/status
                 :target: https://quay.io/repository/biocontainers/qcli
-
 

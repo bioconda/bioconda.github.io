@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File::Grep
 Versions 0.02
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-grep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-grep
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-grep/status
                 :target: https://quay.io/repository/biocontainers/perl-file-grep
-
 

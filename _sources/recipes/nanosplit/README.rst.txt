@@ -5,14 +5,17 @@ nanosplit
 
 |downloads|
 
-Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset.
+Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset\.
 
 ======== ===========
 Home     https://github.com/wdecoster/nanosplit
 Versions 0.1.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosplit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanosplit
 .. |docker| image:: https://quay.io/repository/biocontainers/nanosplit/status
                 :target: https://quay.io/repository/biocontainers/nanosplit
-
 

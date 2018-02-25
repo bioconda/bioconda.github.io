@@ -5,14 +5,17 @@ chromhmm
 
 |downloads|
 
-ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP-seq data of various histone modifications to discover de novo the major re-occuring combinatorial and spatial patterns of marks.
+ChromHMM is software for learning and characterizing chromatin states\. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks\.
 
 ======== ===========
 Home     http://compbio.mit.edu/ChromHMM/
 Versions 1.11, 1.12, 1.14
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromhmm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update chromhmm
 
+
 Notes
 -----
+ChromHMM comes with about 36MB of example data which is not included in the recipe\. This recipe installs a script\, \"download\_chromhmm\_data\.sh\"\, which downloads the data in the proper location\, and which can be run after ChromHMM has been installed\.
 
-ChromHMM comes with about 36MB of example data which is not included in the recipe. This recipe installs a script, "download_chromhmm_data.sh", which downloads the data in the proper location, and which can be run after ChromHMM has been installed.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/chromhmm
 .. |docker| image:: https://quay.io/repository/biocontainers/chromhmm/status
                 :target: https://quay.io/repository/biocontainers/chromhmm
-
 

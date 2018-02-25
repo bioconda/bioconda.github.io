@@ -12,7 +12,10 @@ Home     http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html
 Versions 1.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intemap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intemap
 .. |docker| image:: https://quay.io/repository/biocontainers/intemap/status
                 :target: https://quay.io/repository/biocontainers/intemap
-
 

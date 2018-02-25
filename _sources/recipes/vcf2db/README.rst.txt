@@ -5,14 +5,17 @@ vcf2db
 
 |downloads|
 
-Create a gemini-compatible database from a VCF
+Create a gemini\-compatible database from a VCF
 
 ======== ===========
 Home     https://github.com/quinlan-lab/vcf2db
 Versions 2016.04.29, 2016.11.08, 2016.12.09, 2017.01.10, 2017.02.24, 2017.02.25, 2017.03.01, 2017.04.12, 2017.09.14, 2017.10.11, 2017.11.15, 2017.12.11
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vcf2db
 .. |docker| image:: https://quay.io/repository/biocontainers/vcf2db/status
                 :target: https://quay.io/repository/biocontainers/vcf2db
-
 

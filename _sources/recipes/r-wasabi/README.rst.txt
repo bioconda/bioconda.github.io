@@ -12,7 +12,10 @@ Home     https://github.com/COMBINE-lab/wasabi
 Versions 0.0.1, 0.1, 0.2
 License  BSD-3-clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wasabi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-wasabi
 .. |docker| image:: https://quay.io/repository/biocontainers/r-wasabi/status
                 :target: https://quay.io/repository/biocontainers/r-wasabi
-
 

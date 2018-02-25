@@ -5,14 +5,17 @@ bioconductor-ebseq
 
 |downloads|
 
-Differential Expression analysis at both gene and isoform level using RNA-seq data
+Differential Expression analysis at both gene and isoform level using RNA\-seq data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/EBSeq.html
 Versions 1.12.0, 1.14.0, 1.16.0, 1.18.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ebseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ebseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ebseq
-
 

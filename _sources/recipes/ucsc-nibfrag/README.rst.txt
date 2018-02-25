@@ -5,14 +5,17 @@ ucsc-nibfrag
 
 |downloads|
 
-Extract part of a nib file as .fa (all bases/gaps lower case by default)
+Extract part of a nib file as \.fa \(all bases\/gaps lower case by default\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-nibfrag
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-nibfrag
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-nibfrag/status
                 :target: https://quay.io/repository/biocontainers/ucsc-nibfrag
-
 

@@ -5,14 +5,17 @@ pullseq
 
 |downloads|
 
-Utility program for extracting sequences from a fasta/fastq file.
+Utility program for extracting sequences from a fasta\/fastq file\.
 
 ======== ===========
 Home     https://github.com/bcthomas/pullseq
 Versions 1.0.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pullseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pullseq
 .. |docker| image:: https://quay.io/repository/biocontainers/pullseq/status
                 :target: https://quay.io/repository/biocontainers/pullseq
-
 

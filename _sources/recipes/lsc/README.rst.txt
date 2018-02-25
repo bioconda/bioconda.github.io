@@ -5,14 +5,17 @@ lsc
 
 |downloads|
 
-LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy.
+LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy\.
 
 ======== ===========
 Home     https://www.healthcare.uiowa.edu/labs/au/LSC/
 Versions 2.0
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lsc
 .. |docker| image:: https://quay.io/repository/biocontainers/lsc/status
                 :target: https://quay.io/repository/biocontainers/lsc
-
 

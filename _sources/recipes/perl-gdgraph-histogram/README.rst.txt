@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/GDGraph-histogram
 Versions 1.1
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdgraph-histogram
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-gdgraph-histogram
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-gdgraph-histogram/status
                 :target: https://quay.io/repository/biocontainers/perl-gdgraph-histogram
-
 

@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/Data::Dump
 Versions 1.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dump
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-dump
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-dump/status
                 :target: https://quay.io/repository/biocontainers/perl-data-dump
-
 

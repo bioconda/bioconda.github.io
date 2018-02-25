@@ -5,14 +5,17 @@ seedme
 
 |downloads|
 
-Python REST like client for SeedMe.org
+Python REST like client for SeedMe\.org
 
 ======== ===========
 Home     https://www.seedme.org/downloads
 Versions 1.2.0, 1.2.4
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seedme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seedme
 .. |docker| image:: https://quay.io/repository/biocontainers/seedme/status
                 :target: https://quay.io/repository/biocontainers/seedme
-
 

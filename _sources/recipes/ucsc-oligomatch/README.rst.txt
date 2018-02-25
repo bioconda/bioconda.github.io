@@ -5,14 +5,17 @@ ucsc-oligomatch
 
 |downloads|
 
-find perfect matches in sequence.
+find perfect matches in sequence\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-oligomatch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-oligomatch
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-oligomatch/status
                 :target: https://quay.io/repository/biocontainers/ucsc-oligomatch
-
 

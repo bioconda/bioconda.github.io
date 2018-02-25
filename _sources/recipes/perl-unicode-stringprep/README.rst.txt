@@ -5,14 +5,17 @@ perl-unicode-stringprep
 
 |downloads|
 
-Preparation of Internationalized Strings (RFC 3454)
+Preparation of Internationalized Strings \(RFC 3454\)
 
 ======== ===========
 Home     http://metacpan.org/pod/Unicode-Stringprep
 Versions 1.105
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-stringprep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-unicode-stringprep
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-unicode-stringprep/status
                 :target: https://quay.io/repository/biocontainers/perl-unicode-stringprep
-
 

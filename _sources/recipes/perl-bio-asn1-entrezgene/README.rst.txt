@@ -5,14 +5,17 @@ perl-bio-asn1-entrezgene
 
 |downloads|
 
-Regular expression-based Perl Parser for NCBI Entrez Gene
+Regular expression\-based Perl Parser for NCBI Entrez Gene
 
 ======== ===========
 Home     http://search.cpan.org/dist/Bio-ASN1-EntrezGene
 Versions 1.70, 1.72
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-asn1-entrezgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-asn1-entrezgene
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-asn1-entrezgene
-
 

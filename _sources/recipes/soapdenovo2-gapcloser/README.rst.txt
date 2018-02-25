@@ -5,14 +5,17 @@ soapdenovo2-gapcloser
 
 |downloads|
 
-a tool named GapCloser for SOAPdenovo.
+a tool named GapCloser for SOAPdenovo\.
 
 ======== ===========
 Home     http://soap.genomics.org.cn/soapdenovo.html
 Versions 1.12
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-gapcloser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/soapdenovo2-gapcloser
 .. |docker| image:: https://quay.io/repository/biocontainers/soapdenovo2-gapcloser/status
                 :target: https://quay.io/repository/biocontainers/soapdenovo2-gapcloser
-
 

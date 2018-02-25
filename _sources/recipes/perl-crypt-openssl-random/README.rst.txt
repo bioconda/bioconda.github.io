@@ -5,14 +5,17 @@ perl-crypt-openssl-random
 
 |downloads|
 
-OpenSSL/LibreSSL pseudo-random number generator access
+OpenSSL\/LibreSSL pseudo\-random number generator access
 
 ======== ===========
 Home     http://sourceforge.net/projects/perl-openssl/
 Versions 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-random/0.11
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-crypt-openssl-random
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-crypt-openssl-random/status
                 :target: https://quay.io/repository/biocontainers/perl-crypt-openssl-random
-
 

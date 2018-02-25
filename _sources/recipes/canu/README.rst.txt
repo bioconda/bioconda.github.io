@@ -5,14 +5,17 @@ canu
 
 |downloads|
 
-Canu is a fork of the Celera Assembler designed for high-noise single-molecule sequencing.
+Canu is a fork of the Celera Assembler designed for high\-noise single\-molecule sequencing\.
 
 ======== ===========
 Home     http://canu.readthedocs.org/
 Versions 1.1, 1.3, 1.4, 1.5, 1.6
 License  GPLv2 and others
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/canu
 .. |docker| image:: https://quay.io/repository/biocontainers/canu/status
                 :target: https://quay.io/repository/biocontainers/canu
-
 

@@ -12,7 +12,10 @@ Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-countchars
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-countchars
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-countchars/status
                 :target: https://quay.io/repository/biocontainers/ucsc-countchars
-
 

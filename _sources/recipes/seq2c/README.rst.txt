@@ -12,7 +12,10 @@ Home     https://github.com/AstraZeneca-NGS/Seq2C
 Versions 2016.03.23
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2c
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seq2c
 .. |docker| image:: https://quay.io/repository/biocontainers/seq2c/status
                 :target: https://quay.io/repository/biocontainers/seq2c
-
 

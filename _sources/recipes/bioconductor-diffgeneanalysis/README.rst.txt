@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/diffGeneAnalysis.html
 Versions 1.60.0
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-diffgeneanalysis
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-diffgeneanalysis/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-diffgeneanalysis
-
 

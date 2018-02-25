@@ -5,14 +5,17 @@ bioconductor-clst
 
 |downloads|
 
-Package for modified nearest-neighbor classification based on calculation of a similarity threshold distinguishing within-group from between-group comparisons.
+Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/clst.html
 Versions 1.26.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clst
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-clst
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clst/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-clst
-
 

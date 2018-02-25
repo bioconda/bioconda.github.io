@@ -5,14 +5,17 @@ shortstack
 
 |downloads|
 
-ShortStack: Comprehensive annotation and quantification of small RNA genes
+ShortStack\: Comprehensive annotation and quantification of small RNA genes
 
 ======== ===========
 Home     https://github.com/MikeAxtell/ShortStack
 Versions 3.8.3, 3.8.5
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shortstack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shortstack
 .. |docker| image:: https://quay.io/repository/biocontainers/shortstack/status
                 :target: https://quay.io/repository/biocontainers/shortstack
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/HTTP-Message
 Versions 6.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-message
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-http-message
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-http-message/status
                 :target: https://quay.io/repository/biocontainers/perl-http-message
-
 

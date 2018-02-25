@@ -12,7 +12,10 @@ Home     https://github.com/cancerit/alleleCount
 Versions 2.1.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-allelecount
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sanger-cgp-allelecount
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-allelecount/status
                 :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-allelecount
-
 

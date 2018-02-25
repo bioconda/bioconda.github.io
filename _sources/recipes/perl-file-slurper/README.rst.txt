@@ -5,14 +5,17 @@ perl-file-slurper
 
 |downloads|
 
-A simple, sane and efficient module to slurp a file
+A simple\, sane and efficient module to slurp a file
 
 ======== ===========
 Home     http://metacpan.org/pod/File-Slurper
 Versions 0.008
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-slurper
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-slurper/status
                 :target: https://quay.io/repository/biocontainers/perl-file-slurper
-
 

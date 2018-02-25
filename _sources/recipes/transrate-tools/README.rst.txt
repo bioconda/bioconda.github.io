@@ -5,14 +5,17 @@ transrate-tools
 
 |downloads|
 
-Command-line tools used by transrate for processing bam files.
+Command\-line tools used by transrate for processing bam files\.
 
 ======== ===========
 Home     https://github.com/blahah/transrate-tools
 Versions 1.0.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transrate-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/transrate-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/transrate-tools/status
                 :target: https://quay.io/repository/biocontainers/transrate-tools
-
 

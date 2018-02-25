@@ -5,14 +5,17 @@ ucsc-qacagplift
 
 |downloads|
 
-Use AGP to combine per-scaffold qac into per-chrom qac.
+Use AGP to combine per\-scaffold qac into per\-chrom qac\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-qacagplift
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-qacagplift
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-qacagplift/status
                 :target: https://quay.io/repository/biocontainers/ucsc-qacagplift
-
 

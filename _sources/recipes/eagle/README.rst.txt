@@ -12,7 +12,10 @@ Home     https://bitbucket.org/christopherschroeder/eagle
 Versions 0.9.0, 0.9.3.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eagle
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/eagle
 .. |docker| image:: https://quay.io/repository/biocontainers/eagle/status
                 :target: https://quay.io/repository/biocontainers/eagle
-
 

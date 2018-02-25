@@ -5,14 +5,17 @@ genomicassertions
 
 |downloads|
 
-A package to test common files in genomics (.vcf.gz, .bam)
+A package to test common files in genomics \(\.vcf\.gz\, \.bam\)
 
 ======== ===========
 Home     https://github.com/dakl/genomicassertions
 Versions 0.2.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicassertions
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genomicassertions
 .. |docker| image:: https://quay.io/repository/biocontainers/genomicassertions/status
                 :target: https://quay.io/repository/biocontainers/genomicassertions
-
 

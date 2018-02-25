@@ -5,14 +5,17 @@ rainbow
 
 |downloads|
 
-Efficient tool for clustering and assembling short reads, especially for RAD
+Efficient tool for clustering and assembling short reads\, especially for RAD
 
 ======== ===========
 Home     https://sourceforge.net/projects/bio-rainbow/
 Versions 2.0.4
 License  GNU General Public License version 2.0 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rainbow
 .. |docker| image:: https://quay.io/repository/biocontainers/rainbow/status
                 :target: https://quay.io/repository/biocontainers/rainbow
-
 

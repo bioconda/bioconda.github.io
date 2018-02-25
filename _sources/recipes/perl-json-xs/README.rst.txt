@@ -5,14 +5,17 @@ perl-json-xs
 
 |downloads|
 
-JSON serialising/deserialising, done correctly and fast
+JSON serialising\/deserialising\, done correctly and fast
 
 ======== ===========
 Home     http://search.cpan.org/~mlehmann/JSON-XS/
 Versions 2.34
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-json-xs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-json-xs/status
                 :target: https://quay.io/repository/biocontainers/perl-json-xs
-
 

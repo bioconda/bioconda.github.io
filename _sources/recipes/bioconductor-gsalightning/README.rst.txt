@@ -5,14 +5,17 @@ bioconductor-gsalightning
 
 |downloads|
 
-GSALightning provides a fast implementation of permutation-based gene set analysis for two-sample problem. This package is particularly useful when testing simultaneously a large number of gene sets, or when a large number of permutations is necessary for more accurate p-values estimation.
+GSALightning provides a fast implementation of permutation\-based gene set analysis for two\-sample problem\. This package is particularly useful when testing simultaneously a large number of gene sets\, or when a large number of permutations is necessary for more accurate p\-values estimation\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GSALightning.html
 Versions 1.6.0
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsalightning
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gsalightning
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gsalightning/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gsalightning
-
 

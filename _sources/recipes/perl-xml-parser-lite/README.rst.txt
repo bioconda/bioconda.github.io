@@ -5,14 +5,17 @@ perl-xml-parser-lite
 
 |downloads|
 
-Lightweight pure-perl XML Parser (based on regexps)
+Lightweight pure\-perl XML Parser \(based on regexps\)
 
 ======== ===========
 Home     http://metacpan.org/pod/XML-Parser-Lite
 Versions 0.721
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser-lite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-parser-lite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-parser-lite/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-parser-lite
-
 

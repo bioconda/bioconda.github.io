@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Config-General
 Versions 2.61
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-general
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-config-general
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-config-general/status
                 :target: https://quay.io/repository/biocontainers/perl-config-general
-
 

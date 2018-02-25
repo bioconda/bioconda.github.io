@@ -5,14 +5,17 @@ ucsc-autoxml
 
 |downloads|
 
-Generate structures code and parser for XML file from DTD-like spec
+Generate structures code and parser for XML file from DTD\-like spec
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-autoxml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-autoxml
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-autoxml/status
                 :target: https://quay.io/repository/biocontainers/ucsc-autoxml
-
 

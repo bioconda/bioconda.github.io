@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/FileDirUtil
 Versions v0.03
 License  agpl_3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filedirutil/0.03
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-filedirutil
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-filedirutil/status
                 :target: https://quay.io/repository/biocontainers/perl-filedirutil
-
 

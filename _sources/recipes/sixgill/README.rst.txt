@@ -5,14 +5,17 @@ sixgill
 
 |downloads|
 
-six-frame genome-inferred libraries for LC-MS/MS
+six\-frame genome\-inferred libraries for LC\-MS\/MS
 
 ======== ===========
 Home     
 Versions 0.2.3, 0.2.4
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sixgill
 .. |docker| image:: https://quay.io/repository/biocontainers/sixgill/status
                 :target: https://quay.io/repository/biocontainers/sixgill
-
 

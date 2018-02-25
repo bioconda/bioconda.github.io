@@ -5,14 +5,17 @@ vawk
 
 |downloads|
 
-An awk-like VCF parser
+An awk\-like VCF parser
 
 ======== ===========
 Home     https://github.com/cc2qe/vawk
 Versions 0.0.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vawk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vawk
 .. |docker| image:: https://quay.io/repository/biocontainers/vawk/status
                 :target: https://quay.io/repository/biocontainers/vawk
-
 

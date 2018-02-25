@@ -5,14 +5,17 @@ reaper
 
 |downloads|
 
-Tool for demultiplexing, trimming and filtering sequencing data.
+Tool for demultiplexing\, trimming and filtering sequencing data\.
 
 ======== ===========
 Home     https://www.ebi.ac.uk/~stijn/reaper/reaper.html
 Versions 16.098
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/reaper
 .. |docker| image:: https://quay.io/repository/biocontainers/reaper/status
                 :target: https://quay.io/repository/biocontainers/reaper
-
 

@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Drerio.U
 Versions 3.4.0, 3.4.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.drerio.ucsc.danrer10.refgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-txdb.drerio.ucsc.danrer10.refgene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.drerio.ucsc.danrer10.refgene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-txdb.drerio.ucsc.danrer10.refgene
-
 

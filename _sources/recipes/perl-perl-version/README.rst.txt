@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Perl::Version
 Versions 1.013
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-version
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perl-version
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perl-version/status
                 :target: https://quay.io/repository/biocontainers/perl-perl-version
-
 

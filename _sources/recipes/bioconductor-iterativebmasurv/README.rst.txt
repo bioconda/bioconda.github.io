@@ -5,14 +5,17 @@ bioconductor-iterativebmasurv
 
 |downloads|
 
-The iterative Bayesian Model Averaging (BMA) algorithm for survival analysis is a variable selection method for applying survival analysis to microarray data.
+The iterative Bayesian Model Averaging \(BMA\) algorithm for survival analysis is a variable selection method for applying survival analysis to microarray data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/iterativeBMAsurv.html
 Versions 1.36.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebmasurv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-iterativebmasurv
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-iterativebmasurv/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-iterativebmasurv
-
 

@@ -12,7 +12,10 @@ Home     http://genome.sph.umich.edu/wiki/VerifyBamID
 Versions 1.1.3
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/verifybamid
 .. |docker| image:: https://quay.io/repository/biocontainers/verifybamid/status
                 :target: https://quay.io/repository/biocontainers/verifybamid
-
 

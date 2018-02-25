@@ -5,14 +5,17 @@ perl-json-maybexs
 
 |downloads|
 
-Use Cpanel::JSON::XS with a fallback to JSON::XS and JSON::PP
+Use Cpanel\:\:JSON\:\:XS with a fallback to JSON\:\:XS and JSON\:\:PP
 
 ======== ===========
 Home     http://metacpan.org/pod/JSON::MaybeXS
 Versions 1.003008
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-maybexs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-json-maybexs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-json-maybexs/status
                 :target: https://quay.io/repository/biocontainers/perl-json-maybexs
-
 

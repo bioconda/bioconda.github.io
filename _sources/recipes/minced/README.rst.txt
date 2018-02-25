@@ -5,14 +5,17 @@ minced
 
 |downloads|
 
-MinCED - Mining CRISPRs in Environmental Datasets
+MinCED \- Mining CRISPRs in Environmental Datasets
 
 ======== ===========
 Home     https://github.com/ctSkennerton/minced
 Versions 0.2.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minced
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/minced
 .. |docker| image:: https://quay.io/repository/biocontainers/minced/status
                 :target: https://quay.io/repository/biocontainers/minced
-
 

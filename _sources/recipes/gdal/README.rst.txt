@@ -12,7 +12,10 @@ Home     http://gdal.org
 Versions 1.9.2
 License  Several OSS
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gdal
 .. |docker| image:: https://quay.io/repository/biocontainers/gdal/status
                 :target: https://quay.io/repository/biocontainers/gdal
-
 

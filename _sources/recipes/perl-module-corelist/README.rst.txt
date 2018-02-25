@@ -12,7 +12,10 @@ Home     http://dev.perl.org/
 Versions 5.20180120
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist/5.20180120
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-corelist
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-corelist/status
                 :target: https://quay.io/repository/biocontainers/perl-module-corelist
-
 

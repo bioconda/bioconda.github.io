@@ -5,14 +5,17 @@ perl-class-load
 
 |downloads|
 
-A working (require "Class::Name") and more
+A working \(require \"Class\:\:Name\"\) and more
 
 ======== ===========
 Home     https://github.com/moose/Class-Load
 Versions 0.23
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-load
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-load
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-load/status
                 :target: https://quay.io/repository/biocontainers/perl-class-load
-
 

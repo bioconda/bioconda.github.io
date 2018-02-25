@@ -5,14 +5,17 @@ xsv
 
 |downloads|
 
-A fast CSV toolkit written in Rust.
+A fast CSV toolkit written in Rust\.
 
 ======== ===========
 Home     https://github.com/BurntSushi/xsv
 Versions 0.10.3, 0.9.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xsv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xsv
 .. |docker| image:: https://quay.io/repository/biocontainers/xsv/status
                 :target: https://quay.io/repository/biocontainers/xsv
-
 

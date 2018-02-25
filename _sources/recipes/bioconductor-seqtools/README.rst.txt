@@ -5,14 +5,17 @@ bioconductor-seqtools
 
 |downloads|
 
-Analyze read length, phred scores and alphabet frequency and DNA k-mers on uncompressed and compressed fastq files.
+Analyze read length\, phred scores and alphabet frequency and DNA k\-mers on uncompressed and compressed fastq files\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/seqTools.html
 Versions 1.10.0, 1.12.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-seqtools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-seqtools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-seqtools
-
 

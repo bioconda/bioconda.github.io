@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/AutoLoader
 Versions 5.74
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-autoloader/5.74
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-autoloader
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-autoloader/status
                 :target: https://quay.io/repository/biocontainers/perl-autoloader
-
 

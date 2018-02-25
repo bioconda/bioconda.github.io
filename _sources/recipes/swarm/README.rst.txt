@@ -5,14 +5,17 @@ swarm
 
 |downloads|
 
-A robust and fast clustering method for amplicon-based studies.
+A robust and fast clustering method for amplicon\-based studies\.
 
 ======== ===========
 Home     https://github.com/torognes/swarm
 Versions 1.2.19, 2.1.10, 2.1.13, 2.1.5, 2.2.2
 License  Affero GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/swarm
 .. |docker| image:: https://quay.io/repository/biocontainers/swarm/status
                 :target: https://quay.io/repository/biocontainers/swarm
-
 

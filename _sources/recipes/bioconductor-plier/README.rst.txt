@@ -5,14 +5,17 @@ bioconductor-plier
 
 |downloads|
 
-The PLIER (Probe Logarithmic Error Intensity Estimate) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values.
+The PLIER \(Probe Logarithmic Error Intensity Estimate\) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/plier.html
 Versions 1.46.0, 1.48.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plier
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-plier
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-plier/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-plier
-
 

@@ -5,14 +5,17 @@ rapclust
 
 |downloads|
 
-Accurate, Fast and Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes
+Accurate\, Fast and Lightweight Clustering of de novo Transcriptomes using Fragment Equivalence Classes
 
 ======== ===========
 Home     https://github.com/COMBINE-lab/RapClust
 Versions 0.1.1, 0.1.2
 License  BSD with attribution
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapclust
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rapclust
 .. |docker| image:: https://quay.io/repository/biocontainers/rapclust/status
                 :target: https://quay.io/repository/biocontainers/rapclust
-
 

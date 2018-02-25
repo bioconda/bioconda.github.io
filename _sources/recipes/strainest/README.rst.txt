@@ -12,7 +12,10 @@ Home     https://github.com/compmetagen/strainest
 Versions 1.2.2
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/strainest
 .. |docker| image:: https://quay.io/repository/biocontainers/strainest/status
                 :target: https://quay.io/repository/biocontainers/strainest
-
 

@@ -5,14 +5,17 @@ perl-parse-yapp
 
 |downloads|
 
-Perl extension for generating and using LALR parsers.
+Perl extension for generating and using LALR parsers\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Parse::Yapp
 Versions 1.05
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-yapp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-parse-yapp
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-parse-yapp/status
                 :target: https://quay.io/repository/biocontainers/perl-parse-yapp
-
 

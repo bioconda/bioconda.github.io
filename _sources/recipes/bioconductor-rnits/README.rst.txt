@@ -5,14 +5,17 @@ bioconductor-rnits
 
 |downloads|
 
-R/Bioconductor package for normalization, curve registration and inference in time course gene expression data
+R\/Bioconductor package for normalization\, curve registration and inference in time course gene expression data
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Rnits.html
 Versions 1.10.0, 1.11.0, 1.12.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rnits
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rnits/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rnits
-
 

@@ -5,14 +5,17 @@ nanosim-h
 
 |downloads|
 
-NanoSim-H is a simulator of Oxford Nanopore reads that captures the technology-specific features of ONT data, and allows for adjustments upon improvement of Nanopore sequencing technology.
+NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology\.
 
 ======== ===========
 Home     https://github.com/karel-brinda/NanoSim-H
 Versions 1.1.0.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim-h
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanosim-h
 .. |docker| image:: https://quay.io/repository/biocontainers/nanosim-h/status
                 :target: https://quay.io/repository/biocontainers/nanosim-h
-
 

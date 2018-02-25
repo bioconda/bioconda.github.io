@@ -5,14 +5,17 @@ perl-sub-exporter-progressive
 
 |downloads|
 
-Only use Sub::Exporter if you need it
+Only use Sub\:\:Exporter if you need it
 
 ======== ===========
 Home     http://search.cpan.org/dist/Sub-Exporter-Progressive/
 Versions 0.001011
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-exporter-progressive
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sub-exporter-progressive
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive/status
                 :target: https://quay.io/repository/biocontainers/perl-sub-exporter-progressive
-
 

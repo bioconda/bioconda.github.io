@@ -5,14 +5,17 @@ emmix
 
 |downloads|
 
-A tool that fits a mixture model of multivariate normal or t-distributed components to a given data set.
+A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set\.
 
 ======== ===========
 Home     https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
 Versions 1.3
 License  Available freely for non-commercial use only
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/emmix
 .. |docker| image:: https://quay.io/repository/biocontainers/emmix/status
                 :target: https://quay.io/repository/biocontainers/emmix
-
 

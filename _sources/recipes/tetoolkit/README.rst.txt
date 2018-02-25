@@ -12,7 +12,10 @@ Home     http://hammelllab.labsites.cshl.edu/software#TEToolkit
 Versions 1.5.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tetoolkit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tetoolkit
 .. |docker| image:: https://quay.io/repository/biocontainers/tetoolkit/status
                 :target: https://quay.io/repository/biocontainers/tetoolkit
-
 

@@ -5,14 +5,17 @@ pybigwig
 
 |downloads|
 
-A python extension written in C for quick access to bigWig files.
+A python extension written in C for quick access to bigWig files\.
 
 ======== ===========
 Home     https://github.com/dpryan79/pyBigWig
 Versions 0.1.11, 0.2.1b, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.2.7, 0.2.8, 0.3.10, 0.3.3, 0.3.4, 0.3.5, 0.3.6, 0.3.7, 0.3.8, 0.3.9
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybigwig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pybigwig
 .. |docker| image:: https://quay.io/repository/biocontainers/pybigwig/status
                 :target: https://quay.io/repository/biocontainers/pybigwig
-
 

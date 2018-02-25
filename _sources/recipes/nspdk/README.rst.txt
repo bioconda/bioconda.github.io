@@ -5,14 +5,17 @@ nspdk
 
 |downloads|
 
-Neighborhood Subgraph Pairwise Distance Kernel (NSPDK).
+Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\)\.
 
 ======== ===========
 Home     http://dtai.cs.kuleuven.be/ml/systems/nspdk
 Versions 9.2
 License  GNUv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nspdk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nspdk
 .. |docker| image:: https://quay.io/repository/biocontainers/nspdk/status
                 :target: https://quay.io/repository/biocontainers/nspdk
-
 

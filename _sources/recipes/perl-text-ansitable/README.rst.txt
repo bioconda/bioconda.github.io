@@ -12,7 +12,10 @@ Home     https://metacpan.org/release/Text-ANSITable
 Versions 0.48
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-ansitable/0.48
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-ansitable
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-ansitable/status
                 :target: https://quay.io/repository/biocontainers/perl-text-ansitable
-
 

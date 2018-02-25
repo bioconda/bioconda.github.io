@@ -5,14 +5,17 @@ prophyle
 
 |downloads|
 
-ProPhyle is an accurate, resource-frugal and deterministic phylogeny-based metagenomic classifier.
+ProPhyle is an accurate\, resource\-frugal and deterministic phylogeny\-based metagenomic classifier\.
 
 ======== ===========
 Home     https://github.com/karel-brinda/prophyle
 Versions 0.1.0.29, 0.1.0.35, 0.1.0.38, 0.2.0, 0.2.0.2, 0.2.0.3, 0.2.1.0, 0.2.1.2, 0.2.1.3, 0.3.0.0, 0.3.0.2, 0.3.0.3, 0.3.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophyle
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prophyle
 .. |docker| image:: https://quay.io/repository/biocontainers/prophyle/status
                 :target: https://quay.io/repository/biocontainers/prophyle
-
 

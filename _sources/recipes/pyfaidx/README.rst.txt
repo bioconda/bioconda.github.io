@@ -5,14 +5,17 @@ pyfaidx
 
 |downloads|
 
-pyfaidx: efficient pythonic random access to fasta subsequences
+pyfaidx\: efficient pythonic random access to fasta subsequences
 
 ======== ===========
 Home     http://mattshirley.com
 Versions 0.4.4, 0.4.7.1, 0.4.8.1, 0.4.9.2, 0.5.0, 0.5.1, 0.5.3
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfaidx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyfaidx
 .. |docker| image:: https://quay.io/repository/biocontainers/pyfaidx/status
                 :target: https://quay.io/repository/biocontainers/pyfaidx
-
 

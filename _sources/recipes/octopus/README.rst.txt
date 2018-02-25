@@ -5,14 +5,17 @@ octopus
 
 |downloads|
 
-Bayesian haplotype-based mutation calling
+Bayesian haplotype\-based mutation calling
 
 ======== ===========
 Home     https://github.com/luntergroup/octopus
 Versions 0.3.3a
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/octopus
 .. |docker| image:: https://quay.io/repository/biocontainers/octopus/status
                 :target: https://quay.io/repository/biocontainers/octopus
-
 

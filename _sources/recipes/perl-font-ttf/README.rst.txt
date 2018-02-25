@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Font-TTF
 Versions 1.05
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-ttf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-font-ttf
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-font-ttf/status
                 :target: https://quay.io/repository/biocontainers/perl-font-ttf
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/TAP::Harness::Env
 Versions 3.30
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tap-harness-env/3.30
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tap-harness-env
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tap-harness-env/status
                 :target: https://quay.io/repository/biocontainers/perl-tap-harness-env
-
 

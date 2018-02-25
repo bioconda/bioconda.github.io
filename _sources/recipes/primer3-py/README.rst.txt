@@ -5,14 +5,17 @@ primer3-py
 
 |downloads|
 
-Primer3-py is a Python-abstracted API for the popular Primer3 library.
+Primer3\-py is a Python\-abstracted API for the popular Primer3 library\.
 
 ======== ===========
 Home     https://libnano.github.io/primer3-py/
 Versions 0.5.1, 0.5.4
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3-py
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/primer3-py
 .. |docker| image:: https://quay.io/repository/biocontainers/primer3-py/status
                 :target: https://quay.io/repository/biocontainers/primer3-py
-
 

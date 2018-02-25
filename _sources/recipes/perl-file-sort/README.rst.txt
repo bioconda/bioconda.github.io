@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File-Sort
 Versions 1.01
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sort
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-sort
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-sort/status
                 :target: https://quay.io/repository/biocontainers/perl-file-sort
-
 

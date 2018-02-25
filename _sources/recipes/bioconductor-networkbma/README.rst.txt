@@ -5,14 +5,17 @@ bioconductor-networkbma
 
 |downloads|
 
-An extension of Bayesian Model Averaging (BMA) for network construction using time series gene expression data. Includes assessment functions and sample test data.
+An extension of Bayesian Model Averaging \(BMA\) for network construction using time series gene expression data\. Includes assessment functions and sample test data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/networkBMA.html
 Versions 2.18.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-networkbma
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-networkbma
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-networkbma/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-networkbma
-
 

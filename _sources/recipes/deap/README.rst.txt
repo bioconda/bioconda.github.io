@@ -12,7 +12,10 @@ Home     https://www.github.com/deap
 Versions 1.0.2
 License  GNU Library or Lesser General Public License (LGPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/deap
 .. |docker| image:: https://quay.io/repository/biocontainers/deap/status
                 :target: https://quay.io/repository/biocontainers/deap
-
 

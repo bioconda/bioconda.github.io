@@ -5,14 +5,17 @@ bioconductor-padog
 
 |downloads|
 
-This package implements a general purpose gene set analysis method called PADOG that downplays the importance of genes that apear often accross the sets of genes to be analyzed. The package provides also a benchmark for gene set analysis methods in terms of sensitivity and ranking using 24 public datasets from KEGGdzPathwaysGEO package.
+This package implements a general purpose gene set analysis method called PADOG that downplays the importance of genes that apear often accross the sets of genes to be analyzed\. The package provides also a benchmark for gene set analysis methods in terms of sensitivity and ranking using 24 public datasets from KEGGdzPathwaysGEO package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/PADOG.html
 Versions 1.20.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-padog
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-padog
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-padog/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-padog
-
 

@@ -5,14 +5,17 @@ r-soap-nmr
 
 |downloads|
 
-R package for 1H-NMR data pre-treatment 
+R package for 1H\-NMR data pre\-treatment 
 
 ======== ===========
 Home     https://github.com/ManonMartin/SOAP-NMR
 Versions 0.1.0.20170207
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-soap-nmr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-soap-nmr
 .. |docker| image:: https://quay.io/repository/biocontainers/r-soap-nmr/status
                 :target: https://quay.io/repository/biocontainers/r-soap-nmr
-
 

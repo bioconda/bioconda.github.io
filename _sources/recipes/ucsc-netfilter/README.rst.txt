@@ -5,14 +5,17 @@ ucsc-netfilter
 
 |downloads|
 
-Filter out parts of net.  What passes
+Filter out parts of net\.  What passes
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-netfilter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-netfilter
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-netfilter/status
                 :target: https://quay.io/repository/biocontainers/ucsc-netfilter
-
 

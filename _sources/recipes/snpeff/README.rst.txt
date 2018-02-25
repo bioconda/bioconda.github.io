@@ -12,7 +12,10 @@ Home     http://snpeff.sourceforge.net/
 Versions 4.1l, 4.2, 4.3, 4.3.1k, 4.3.1m, 4.3.1o, 4.3.1p, 4.3.1q, 4.3.1r, 4.3.1t, 4.3b, 4.3g, 4.3i, 4.3k
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpeff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update snpeff
 
+
 Notes
 -----
+Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly\.
 
-Note that the package version is slightly different from upstream, this is to make sure conda will order the package versions correctly.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snpeff
 .. |docker| image:: https://quay.io/repository/biocontainers/snpeff/status
                 :target: https://quay.io/repository/biocontainers/snpeff
-
 

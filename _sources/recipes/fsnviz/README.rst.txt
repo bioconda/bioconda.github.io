@@ -5,14 +5,17 @@ fsnviz
 
 |downloads|
 
-Tool for plotting gene fusion events detected by various tools using Circos.
+Tool for plotting gene fusion events detected by various tools using Circos\.
 
 ======== ===========
 Home     https://github.com/bow/fsnviz
 Versions 0.1.0, 0.2.0, 0.3.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fsnviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fsnviz
 .. |docker| image:: https://quay.io/repository/biocontainers/fsnviz/status
                 :target: https://quay.io/repository/biocontainers/fsnviz
-
 

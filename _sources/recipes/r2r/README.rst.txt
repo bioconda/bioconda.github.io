@@ -12,7 +12,10 @@ Home     http://breaker.research.yale.edu/R2R/
 Versions 1.0.4
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r2r
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r2r
 .. |docker| image:: https://quay.io/repository/biocontainers/r2r/status
                 :target: https://quay.io/repository/biocontainers/r2r
-
 

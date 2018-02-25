@@ -5,14 +5,17 @@ atropos
 
 |downloads|
 
-trim adapters from high-throughput sequencing reads
+trim adapters from high\-throughput sequencing reads
 
 ======== ===========
 Home     https://atropos.readthedocs.io/
 Versions 1.0.23, 1.1.10, 1.1.16, 1.1.2, 1.1.4, 1.1.5
 License  CC0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atropos
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/atropos
 .. |docker| image:: https://quay.io/repository/biocontainers/atropos/status
                 :target: https://quay.io/repository/biocontainers/atropos
-
 

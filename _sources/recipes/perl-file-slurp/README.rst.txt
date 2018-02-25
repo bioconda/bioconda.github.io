@@ -5,14 +5,17 @@ perl-file-slurp
 
 |downloads|
 
-Simple and Efficient Reading/Writing/Modifying of Complete Files
+Simple and Efficient Reading\/Writing\/Modifying of Complete Files
 
 ======== ===========
 Home     http://metacpan.org/pod/File-Slurp
 Versions 9999.19
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-slurp
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-slurp/status
                 :target: https://quay.io/repository/biocontainers/perl-file-slurp
-
 

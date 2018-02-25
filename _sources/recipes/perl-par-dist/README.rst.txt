@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/PAR::Dist
 Versions 0.49
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-dist/0.49
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-par-dist
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-par-dist/status
                 :target: https://quay.io/repository/biocontainers/perl-par-dist
-
 

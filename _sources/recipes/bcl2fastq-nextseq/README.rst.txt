@@ -5,14 +5,17 @@ bcl2fastq-nextseq
 
 |downloads|
 
-NextSeq .bcl Conversion
+NextSeq \.bcl Conversion
 
 ======== ===========
 Home     https://github.com/brwnj/bcl2fastq
 Versions 0.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcl2fastq-nextseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcl2fastq-nextseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bcl2fastq-nextseq/status
                 :target: https://quay.io/repository/biocontainers/bcl2fastq-nextseq
-
 

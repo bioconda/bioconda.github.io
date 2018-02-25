@@ -5,14 +5,17 @@ swalign
 
 |downloads|
 
-Smith-Waterman local aligner
+Smith\-Waterman local aligner
 
 ======== ===========
 Home     http://github.com/mbreese/swalign/
 Versions 0.3.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/swalign
 .. |docker| image:: https://quay.io/repository/biocontainers/swalign/status
                 :target: https://quay.io/repository/biocontainers/swalign
-
 

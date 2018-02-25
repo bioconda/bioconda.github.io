@@ -5,14 +5,17 @@ fastahack
 
 |downloads|
 
-fastahack --- *fast* FASTA file indexing, subsequence and sequence extraction
+fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
 
 ======== ===========
 Home     https://github.com/ekg/fastahack
 Versions 2016.07.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastahack
 .. |docker| image:: https://quay.io/repository/biocontainers/fastahack/status
                 :target: https://quay.io/repository/biocontainers/fastahack
-
 

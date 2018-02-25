@@ -5,14 +5,17 @@ cansnper
 
 |downloads|
 
-A hierarchical genotype classifier of clonal pathogens.
+A hierarchical genotype classifier of clonal pathogens\.
 
 ======== ===========
 Home     https://github.com/adrlar/CanSNPer/
 Versions 1.0.8
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cansnper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cansnper
 .. |docker| image:: https://quay.io/repository/biocontainers/cansnper/status
                 :target: https://quay.io/repository/biocontainers/cansnper
-
 

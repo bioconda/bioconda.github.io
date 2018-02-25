@@ -5,14 +5,17 @@ perl-graphviz
 
 |downloads|
 
-Interface to AT&T's GraphViz. Deprecated. See GraphViz2
+Interface to AT\&T\'s GraphViz\. Deprecated\. See GraphViz2
 
 ======== ===========
 Home     http://metacpan.org/pod/GraphViz
 Versions 2.20
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-graphviz
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-graphviz/status
                 :target: https://quay.io/repository/biocontainers/perl-graphviz
-
 

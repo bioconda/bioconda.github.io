@@ -5,14 +5,17 @@ bioconductor-flowfp
 
 |downloads|
 
-Fingerprint generation of flow cytometry data, used to facilitate the application of machine learning and datamining tools for flow cytometry.
+Fingerprint generation of flow cytometry data\, used to facilitate the application of machine learning and datamining tools for flow cytometry\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flowFP.html
 Versions 1.32.0, 1.34.0, 1.36.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowfp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flowfp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowfp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flowfp
-
 

@@ -5,14 +5,17 @@ bioconductor-tssi
 
 |downloads|
 
-Identify and normalize transcription start sites in high-throughput sequencing data.
+Identify and normalize transcription start sites in high\-throughput sequencing data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/TSSi.html
 Versions 1.22.0, 1.24.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tssi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-tssi
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-tssi/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-tssi
-
 

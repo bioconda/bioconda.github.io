@@ -5,14 +5,17 @@ pvacseq
 
 |downloads|
 
-Personalized Variant Antigens by Cancer Sequencing (pVAC-Seq)
+Personalized Variant Antigens by Cancer Sequencing \(pVAC\-Seq\)
 
 ======== ===========
 Home     https://github.com/griffithlab/pVAC-Seq
 Versions 4.0.9
 License  NPOSL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pvacseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pvacseq
 .. |docker| image:: https://quay.io/repository/biocontainers/pvacseq/status
                 :target: https://quay.io/repository/biocontainers/pvacseq
-
 

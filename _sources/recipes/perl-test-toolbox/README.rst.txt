@@ -5,14 +5,17 @@ perl-test-toolbox
 
 |downloads|
 
-Test::Toolbox - tools for testing
+Test\:\:Toolbox \- tools for testing
 
 ======== ===========
 Home     http://metacpan.org/pod/Test::Toolbox
 Versions 0.4
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-toolbox/0.4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-toolbox
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-toolbox/status
                 :target: https://quay.io/repository/biocontainers/perl-test-toolbox
-
 

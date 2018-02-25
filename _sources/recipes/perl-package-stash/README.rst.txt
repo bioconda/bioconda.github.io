@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Package-Stash
 Versions 0.37
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-package-stash
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-package-stash/status
                 :target: https://quay.io/repository/biocontainers/perl-package-stash
-
 

@@ -5,14 +5,17 @@ ucsc-checktablecoords
 
 |downloads|
 
-check invariants on genomic coords in table(s).
+check invariants on genomic coords in table\(s\)\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-checktablecoords
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-checktablecoords
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-checktablecoords/status
                 :target: https://quay.io/repository/biocontainers/ucsc-checktablecoords
-
 

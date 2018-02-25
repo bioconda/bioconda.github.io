@@ -12,7 +12,10 @@ Home     https://colibread.inria.fr/software/commet/
 Versions 24.7.14
 License  GNU Affero General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/commet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/commet
 .. |docker| image:: https://quay.io/repository/biocontainers/commet/status
                 :target: https://quay.io/repository/biocontainers/commet
-
 

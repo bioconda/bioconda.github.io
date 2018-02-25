@@ -5,14 +5,17 @@ abruijn
 
 |downloads|
 
-Long read assembly via A-Bruijn graph
+Long read assembly via A\-Bruijn graph
 
 ======== ===========
 Home     https://github.com/fenderglass/ABruijn/
 Versions 2.1b
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abruijn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/abruijn
 .. |docker| image:: https://quay.io/repository/biocontainers/abruijn/status
                 :target: https://quay.io/repository/biocontainers/abruijn
-
 

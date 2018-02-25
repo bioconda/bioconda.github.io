@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/SLGI.html
 Versions 1.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-slgi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-slgi
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-slgi/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-slgi
-
 

@@ -5,14 +5,17 @@ perl-class-std-fast
 
 |downloads|
 
-faster but less secure than Class::Std
+faster but less secure than Class\:\:Std
 
 ======== ===========
 Home     http://metacpan.org/pod/Class-Std-Fast
 Versions 0.0.8
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std-fast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-std-fast
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-std-fast/status
                 :target: https://quay.io/repository/biocontainers/perl-class-std-fast
-
 

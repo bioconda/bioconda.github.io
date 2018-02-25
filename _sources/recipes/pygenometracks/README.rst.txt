@@ -5,14 +5,17 @@ pygenometracks
 
 |downloads|
 
-Standalone program and library to plot beautiful genome browser tracks.
+Standalone program and library to plot beautiful genome browser tracks\.
 
 ======== ===========
 Home     //github.com/maxplanck-ie/pyGenomeTracks
 Versions 0.1, 1.0
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygenometracks
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pygenometracks
 .. |docker| image:: https://quay.io/repository/biocontainers/pygenometracks/status
                 :target: https://quay.io/repository/biocontainers/pygenometracks
-
 

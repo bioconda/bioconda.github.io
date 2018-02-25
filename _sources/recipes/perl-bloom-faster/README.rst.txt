@@ -5,14 +5,17 @@ perl-bloom-faster
 
 |downloads|
 
-Perl extension for the c library libbloom.
+Perl extension for the c library libbloom\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Bloom-Faster
 Versions 1.7
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bloom-faster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bloom-faster
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bloom-faster/status
                 :target: https://quay.io/repository/biocontainers/perl-bloom-faster
-
 

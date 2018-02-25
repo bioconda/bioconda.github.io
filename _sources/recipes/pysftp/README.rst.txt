@@ -12,7 +12,10 @@ Home     https://bitbucket.org/dundeemt/pysftp
 Versions 0.2.8, 0.2.9
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pysftp
 .. |docker| image:: https://quay.io/repository/biocontainers/pysftp/status
                 :target: https://quay.io/repository/biocontainers/pysftp
-
 

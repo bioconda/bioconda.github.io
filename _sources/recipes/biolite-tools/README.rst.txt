@@ -5,14 +5,17 @@ biolite-tools
 
 |downloads|
 
-C++ tools for biolite, a lightweight bioinformatics framework with automated tracking of diagnostics and provenance.
+C\+\+ tools for biolite\, a lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
 
 ======== ===========
 Home     https://bitbucket.org/caseywdunn/biolite
 Versions 0.4.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biolite-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/biolite-tools/status
                 :target: https://quay.io/repository/biocontainers/biolite-tools
-
 

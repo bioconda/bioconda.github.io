@@ -5,7 +5,7 @@ imseq
 
 |downloads|
 
-IMSEQ is a fast, PCR and sequencing error aware tool to analyze high throughput data from recombined T-cell receptor or immunoglobulin gene sequencing experiments
+IMSEQ is a fast\, PCR and sequencing error aware tool to analyze high throughput data from recombined T\-cell receptor or immunoglobulin gene sequencing experiments
 
 
 ======== ===========
@@ -13,7 +13,10 @@ Home     http://www.imtools.org/
 Versions 1.1.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -47,5 +50,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/imseq
 .. |docker| image:: https://quay.io/repository/biocontainers/imseq/status
                 :target: https://quay.io/repository/biocontainers/imseq
-
 

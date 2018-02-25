@@ -5,14 +5,17 @@ xtandem
 
 |downloads|
 
-X! Tandem open source is software that can match tandem mass spectra with peptide sequences, in a process that has come to be known as protein identification
+X\! Tandem open source is software that can match tandem mass spectra with peptide sequences\, in a process that has come to be known as protein identification
 
 ======== ===========
 Home     http://www.thegpm.org/TANDEM/index.html
 Versions 15.12.15.2
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtandem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xtandem
 .. |docker| image:: https://quay.io/repository/biocontainers/xtandem/status
                 :target: https://quay.io/repository/biocontainers/xtandem
-
 

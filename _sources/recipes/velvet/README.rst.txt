@@ -12,7 +12,10 @@ Home     https://www.ebi.ac.uk/~zerbino/velvet/
 Versions 1.2.10
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/velvet
 .. |docker| image:: https://quay.io/repository/biocontainers/velvet/status
                 :target: https://quay.io/repository/biocontainers/velvet
-
 

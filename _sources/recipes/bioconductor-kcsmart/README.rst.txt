@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/KCsmart.html
 Versions 2.32.0, 2.34.0, 2.36.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kcsmart
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-kcsmart
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-kcsmart/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-kcsmart
-
 

@@ -5,14 +5,17 @@ breakseq2
 
 |downloads|
 
-BreakSeq2: Ultrafast and accurate nucleotide-resolution analysis of structural variants.
+BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants\.
 
 ======== ===========
 Home     http://bioinform.github.io/breakseq2
 Versions 2.2
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakseq2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/breakseq2
 .. |docker| image:: https://quay.io/repository/biocontainers/breakseq2/status
                 :target: https://quay.io/repository/biocontainers/breakseq2
-
 

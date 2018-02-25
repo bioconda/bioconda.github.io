@@ -12,7 +12,10 @@ Home     http://an9.org/w/WorkspacePy
 Versions 0.3.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/workspace
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/workspace
 .. |docker| image:: https://quay.io/repository/biocontainers/workspace/status
                 :target: https://quay.io/repository/biocontainers/workspace
-
 

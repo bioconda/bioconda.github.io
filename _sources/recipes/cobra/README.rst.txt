@@ -5,14 +5,17 @@ cobra
 
 |downloads|
 
-COBRApy is a package for constraint-based modeling of biological networks
+COBRApy is a package for constraint\-based modeling of biological networks
 
 ======== ===========
 Home     https://opencobra.github.io/cobrapy
 Versions 0.10.1, 0.4.0, 0.4.0b6
 License  GNU Lesser General Public License v2 or later (LGPLv2+) or GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cobra
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cobra
 .. |docker| image:: https://quay.io/repository/biocontainers/cobra/status
                 :target: https://quay.io/repository/biocontainers/cobra
-
 

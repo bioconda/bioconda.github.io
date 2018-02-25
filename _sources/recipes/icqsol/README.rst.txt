@@ -12,7 +12,10 @@ Home     https://github.com/pletzer/icqsol
 Versions 0.3.20, 0.3.26
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icqsol
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/icqsol
 .. |docker| image:: https://quay.io/repository/biocontainers/icqsol/status
                 :target: https://quay.io/repository/biocontainers/icqsol
-
 

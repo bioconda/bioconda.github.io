@@ -5,14 +5,17 @@ blastalign
 
 |downloads|
 
-BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally.
+BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally\.
 
 ======== ===========
 Home     http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
 Versions 1.4
 License  GNU GENERAL PUBLIC LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastalign
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blastalign
 .. |docker| image:: https://quay.io/repository/biocontainers/blastalign/status
                 :target: https://quay.io/repository/biocontainers/blastalign
-
 

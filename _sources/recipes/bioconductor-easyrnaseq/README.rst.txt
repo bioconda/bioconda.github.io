@@ -5,14 +5,17 @@ bioconductor-easyrnaseq
 
 |downloads|
 
-Calculates the coverage of high-throughput short-reads against a genome of reference and summarizes it per feature of interest (e.g. exon, gene, transcript). The data can be normalized as 'RPKM' or by the 'DESeq' or 'edgeR' package.
+Calculates the coverage of high\-throughput short\-reads against a genome of reference and summarizes it per feature of interest \(e\.g\. exon\, gene\, transcript\)\. The data can be normalized as \'RPKM\' or by the \'DESeq\' or \'edgeR\' package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/easyRNASeq.html
 Versions 2.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-easyrnaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-easyrnaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-easyrnaseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-easyrnaseq
-
 

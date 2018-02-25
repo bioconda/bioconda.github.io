@@ -12,7 +12,10 @@ Home     http://search.cpan.org/dist/IO-Prompt/lib/IO/Prompt.pm
 Versions 0.997004
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-prompt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-prompt
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-prompt/status
                 :target: https://quay.io/repository/biocontainers/perl-io-prompt
-
 

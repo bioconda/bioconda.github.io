@@ -5,14 +5,17 @@ pycli
 
 |downloads|
 
-Simple, object-oriented approach to Python CLI apps
+Simple\, object\-oriented approach to Python CLI apps
 
 ======== ===========
 Home     http://packages.python.org/pyCLI/
 Versions 2.0.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycli
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pycli
 .. |docker| image:: https://quay.io/repository/biocontainers/pycli/status
                 :target: https://quay.io/repository/biocontainers/pycli
-
 

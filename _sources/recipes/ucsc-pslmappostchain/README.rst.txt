@@ -5,14 +5,17 @@ ucsc-pslmappostchain
 
 |downloads|
 
- Post genomic pslMap (TransMap) chaining.  This takes transcripts that have been mapped via genomic chains adds back in blocks that didn't get include in genomic chains due to complex rearrangements or other issues. 
+ Post genomic pslMap \(TransMap\) chaining\.  This takes transcripts that have been mapped via genomic chains adds back in blocks that didn\'t get include in genomic chains due to complex rearrangements or other issues\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmappostchain
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-pslmappostchain
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-pslmappostchain/status
                 :target: https://quay.io/repository/biocontainers/ucsc-pslmappostchain
-
 

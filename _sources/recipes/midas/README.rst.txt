@@ -5,14 +5,17 @@ midas
 
 |downloads|
 
-An integrated pipeline for estimating strain-level genomic variation from metagenomic data
+An integrated pipeline for estimating strain\-level genomic variation from metagenomic data
 
 ======== ===========
 Home     https://github.com/snayfach/MIDAS
 Versions 1.3.0, 1.3.1
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/midas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/midas
 .. |docker| image:: https://quay.io/repository/biocontainers/midas/status
                 :target: https://quay.io/repository/biocontainers/midas
-
 

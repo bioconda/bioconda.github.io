@@ -12,7 +12,10 @@ Home     http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/fastl
 Versions 0.2.24, 0.2.32
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlmm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastlmm
 .. |docker| image:: https://quay.io/repository/biocontainers/fastlmm/status
                 :target: https://quay.io/repository/biocontainers/fastlmm
-
 

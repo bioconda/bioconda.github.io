@@ -5,14 +5,17 @@ r-lsd
 
 |downloads|
 
-Create lots of colorful plots in a plethora of variations (try the LSD demotour() )
+Create lots of colorful plots in a plethora of variations \(try the LSD demotour\(\) \)
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=LSD
 Versions 3.0
 License  Unlimited
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lsd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-lsd
 .. |docker| image:: https://quay.io/repository/biocontainers/r-lsd/status
                 :target: https://quay.io/repository/biocontainers/r-lsd
-
 

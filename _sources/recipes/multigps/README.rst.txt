@@ -5,14 +5,17 @@ multigps
 
 |downloads|
 
-MultiGPS is a framework for analyzing collections of multi-condition ChIP-seq datasets and characterizing differential binding events between conditions.
+MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions\.
 
 ======== ===========
 Home     http://mahonylab.org/software/multigps/
 Versions 0.5, 0.72, 0.73, 0.74
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/multigps/0.74
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/multigps
 .. |docker| image:: https://quay.io/repository/biocontainers/multigps/status
                 :target: https://quay.io/repository/biocontainers/multigps
-
 

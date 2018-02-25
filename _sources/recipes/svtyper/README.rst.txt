@@ -12,7 +12,10 @@ Home     https://github.com/hall-lab/svtyper
 Versions 0.0.2, 0.0.4, 0.1.1, 0.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svtyper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/svtyper
 .. |docker| image:: https://quay.io/repository/biocontainers/svtyper/status
                 :target: https://quay.io/repository/biocontainers/svtyper
-
 

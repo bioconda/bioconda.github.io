@@ -5,14 +5,17 @@ perl-perl-osnames
 
 |downloads|
 
-List possible $^O ($OSNAME) values, with description
+List possible \$\^O \(\$OSNAME\) values\, with description
 
 ======== ===========
 Home     https://metacpan.org/release/Perl-osnames
 Versions 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-osnames
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-perl-osnames
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-perl-osnames/status
                 :target: https://quay.io/repository/biocontainers/perl-perl-osnames
-
 

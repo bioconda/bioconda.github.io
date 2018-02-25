@@ -12,7 +12,10 @@ Home     https://sourceforge.net/projects/estscan/files/BTLib
 Versions 0.19
 License  open source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-btlib/0.19
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-btlib
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-btlib/status
                 :target: https://quay.io/repository/biocontainers/perl-btlib
-
 

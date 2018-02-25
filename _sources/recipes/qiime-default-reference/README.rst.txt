@@ -5,14 +5,17 @@ qiime-default-reference
 
 |downloads|
 
-Default reference data files for use with QIIME.
+Default reference data files for use with QIIME\.
 
 ======== ===========
 Home     http://www.qiime.org
 Versions 0.1.3
 License  CC BY-SA 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qiime-default-reference
 .. |docker| image:: https://quay.io/repository/biocontainers/qiime-default-reference/status
                 :target: https://quay.io/repository/biocontainers/qiime-default-reference
-
 

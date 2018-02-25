@@ -5,14 +5,17 @@ bioconductor-plethy
 
 |downloads|
 
-This package provides the infrastructure and tools to import, query and perform basic analysis of whole body plethysmography and metabolism data.  Currently support is limited to data derived from Buxco respirometry instruments as exported by their FinePointe software.
+This package provides the infrastructure and tools to import\, query and perform basic analysis of whole body plethysmography and metabolism data\.  Currently support is limited to data derived from Buxco respirometry instruments as exported by their FinePointe software\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/plethy.html
 Versions 1.14.0, 1.16.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plethy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-plethy
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-plethy/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-plethy
-
 

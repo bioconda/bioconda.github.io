@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/DBD::SQLite
 Versions 1.50
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-sqlite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dbd-sqlite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dbd-sqlite/status
                 :target: https://quay.io/repository/biocontainers/perl-dbd-sqlite
-
 

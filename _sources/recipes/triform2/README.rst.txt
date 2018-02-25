@@ -5,14 +5,17 @@ triform2
 
 |downloads|
 
-Improved sensitivity, specificity and control of false discovery rates in ChIP-Seq peak finding.
+Improved sensitivity\, specificity and control of false discovery rates in ChIP\-Seq peak finding\.
 
 ======== ===========
 Home     http://github.com/endrebak/epic
 Versions 0.0.5
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/triform2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/triform2
 .. |docker| image:: https://quay.io/repository/biocontainers/triform2/status
                 :target: https://quay.io/repository/biocontainers/triform2
-
 

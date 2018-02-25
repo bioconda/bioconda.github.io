@@ -12,7 +12,10 @@ Home     https://github.com/csmiller/EMIRGE
 Versions 0.61.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emirge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/emirge
 .. |docker| image:: https://quay.io/repository/biocontainers/emirge/status
                 :target: https://quay.io/repository/biocontainers/emirge
-
 

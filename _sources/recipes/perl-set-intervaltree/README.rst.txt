@@ -5,14 +5,17 @@ perl-set-intervaltree
 
 |downloads|
 
-An interval tree implementation in PERL.
+An interval tree implementation in PERL\.
 
 ======== ===========
 Home     https://metacpan.org/pod/Set::IntervalTree
 Versions 0.1, 0.10
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intervaltree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-set-intervaltree
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-set-intervaltree/status
                 :target: https://quay.io/repository/biocontainers/perl-set-intervaltree
-
 

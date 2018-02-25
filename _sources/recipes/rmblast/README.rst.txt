@@ -5,14 +5,17 @@ rmblast
 
 |downloads|
 
-RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
+RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite\.
 
 ======== ===========
 Home     http://www.repeatmasker.org/RMBlast.html
 Versions 2.2.28
 License  OSL-2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rmblast
 .. |docker| image:: https://quay.io/repository/biocontainers/rmblast/status
                 :target: https://quay.io/repository/biocontainers/rmblast
-
 

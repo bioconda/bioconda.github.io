@@ -5,14 +5,17 @@ ruffus
 
 |downloads|
 
-Light-weight Python Computational Pipeline Management
+Light\-weight Python Computational Pipeline Management
 
 ======== ===========
 Home     http://www.ruffus.org.uk/
 Versions 2.6.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruffus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ruffus
 .. |docker| image:: https://quay.io/repository/biocontainers/ruffus/status
                 :target: https://quay.io/repository/biocontainers/ruffus
-
 

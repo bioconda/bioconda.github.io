@@ -5,14 +5,17 @@ parallel-fastq-dump
 
 |downloads|
 
-parallel fastq-dump wrapper
+parallel fastq\-dump wrapper
 
 ======== ===========
 Home     https://github.com/rvalieris/parallel-fastq-dump
 Versions 0.5.4, 0.6.0, 0.6.1, 0.6.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-fastq-dump
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/parallel-fastq-dump
 .. |docker| image:: https://quay.io/repository/biocontainers/parallel-fastq-dump/status
                 :target: https://quay.io/repository/biocontainers/parallel-fastq-dump
-
 

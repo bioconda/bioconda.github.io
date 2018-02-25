@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Devel::Size
 Versions 0.80
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-size
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-devel-size
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-devel-size/status
                 :target: https://quay.io/repository/biocontainers/perl-devel-size
-
 

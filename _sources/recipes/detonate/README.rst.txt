@@ -5,14 +5,17 @@ detonate
 
 |downloads|
 
-DETONATE (DE novo TranscriptOme rNa-seq Assembly with or without the Truth Evaluation) consists of two component packages, RSEM-EVAL and REF-EVAL.
+DETONATE \(DE novo TranscriptOme rNa\-seq Assembly with or without the Truth Evaluation\) consists of two component packages\, RSEM\-EVAL and REF\-EVAL\.
 
 ======== ===========
 Home     http://deweylab.biostat.wisc.edu/detonate/
 Versions 1.11
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/detonate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/detonate
 .. |docker| image:: https://quay.io/repository/biocontainers/detonate/status
                 :target: https://quay.io/repository/biocontainers/detonate
-
 

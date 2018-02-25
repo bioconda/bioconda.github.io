@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/distribution/CGI/lib/CGI.pod
 Versions 4.22
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cgi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-cgi
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-cgi/status
                 :target: https://quay.io/repository/biocontainers/perl-cgi
-
 

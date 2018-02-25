@@ -5,9 +5,9 @@ rust-overlaps
 
 |downloads|
 
-A fast and secure command line utilility for enumerating all suffix-prefix
-overlaps within a set of sequences, satisfying a user-specified minimal
-overlap length and maximal error rate.
+A fast and secure command line utilility for enumerating all suffix\-prefix
+overlaps within a set of sequences\, satisfying a user\-specified minimal
+overlap length and maximal error rate\.
 
 
 ======== ===========
@@ -15,7 +15,10 @@ Home     https://github.com/jbaaijens/rust-overlaps
 Versions 0.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -49,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rust-overlaps
 .. |docker| image:: https://quay.io/repository/biocontainers/rust-overlaps/status
                 :target: https://quay.io/repository/biocontainers/rust-overlaps
-
 

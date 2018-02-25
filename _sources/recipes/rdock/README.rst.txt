@@ -5,14 +5,17 @@ rdock
 
 |downloads|
 
-A Fast, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
+A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
 
 ======== ===========
 Home     http://rdock.sourceforge.net/
 Versions 2013.1
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdock
 .. |docker| image:: https://quay.io/repository/biocontainers/rdock/status
                 :target: https://quay.io/repository/biocontainers/rdock
-
 

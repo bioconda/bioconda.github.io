@@ -12,7 +12,10 @@ Home     https://www.tbi.univie.ac.at/RNA/Barriers/
 Versions 0.4.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin/0.4.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/treekin
 .. |docker| image:: https://quay.io/repository/biocontainers/treekin/status
                 :target: https://quay.io/repository/biocontainers/treekin
-
 

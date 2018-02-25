@@ -5,14 +5,17 @@ bioconductor-rtrm
 
 |downloads|
 
-rTRM identifies transcriptional regulatory modules (TRMs) from protein-protein interaction networks.
+rTRM identifies transcriptional regulatory modules \(TRMs\) from protein\-protein interaction networks\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rTRM.html
 Versions 1.14.0, 1.16.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rtrm
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtrm/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rtrm
-
 

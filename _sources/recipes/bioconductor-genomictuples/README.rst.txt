@@ -5,14 +5,17 @@ bioconductor-genomictuples
 
 |downloads|
 
-GenomicTuples defines general purpose containers for storing genomic tuples. It aims to provide functionality for tuples of genomic co-ordinates that are analogous to those available for genomic ranges in the GenomicRanges Bioconductor package.
+GenomicTuples defines general purpose containers for storing genomic tuples\. It aims to provide functionality for tuples of genomic co\-ordinates that are analogous to those available for genomic ranges in the GenomicRanges Bioconductor package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GenomicTuples.html
 Versions 1.10.0, 1.12.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomictuples
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genomictuples
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomictuples/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genomictuples
-
 

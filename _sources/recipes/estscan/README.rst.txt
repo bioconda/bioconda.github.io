@@ -12,7 +12,10 @@ Home     http://estscan.sourceforge.net
 Versions 3.0
 License  open source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/estscan/3.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/estscan
 .. |docker| image:: https://quay.io/repository/biocontainers/estscan/status
                 :target: https://quay.io/repository/biocontainers/estscan
-
 

@@ -12,7 +12,10 @@ Home
 Versions 1.9.2_ep78
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treebest
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/treebest
 .. |docker| image:: https://quay.io/repository/biocontainers/treebest/status
                 :target: https://quay.io/repository/biocontainers/treebest
-
 

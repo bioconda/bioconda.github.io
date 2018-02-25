@@ -12,7 +12,10 @@ Home     https://www.gnu.org/software/glpk/
 Versions 4.56, 4.57
 License  GNU General Public License v3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glpk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/glpk
 .. |docker| image:: https://quay.io/repository/biocontainers/glpk/status
                 :target: https://quay.io/repository/biocontainers/glpk
-
 

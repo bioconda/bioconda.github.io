@@ -5,14 +5,17 @@ cwl2wdl
 
 |downloads|
 
-Proof of concept converter from Common Workflow Language (CWL) to the Broad Institute's Workflow Definition Language (WDL).
+Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\)\.
 
 ======== ===========
 Home     https://github.com/adamstruck/cwl2wdl
 Versions 0.1dev37, 0.1dev44
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwl2wdl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cwl2wdl
 .. |docker| image:: https://quay.io/repository/biocontainers/cwl2wdl/status
                 :target: https://quay.io/repository/biocontainers/cwl2wdl
-
 

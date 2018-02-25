@@ -12,7 +12,10 @@ Home     https://github.com/GuyAllard/SPINGO
 Versions 1.3
 License  https://github.com/GuyAllard/SPINGO/blob/master/LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spingo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/spingo
 .. |docker| image:: https://quay.io/repository/biocontainers/spingo/status
                 :target: https://quay.io/repository/biocontainers/spingo
-
 

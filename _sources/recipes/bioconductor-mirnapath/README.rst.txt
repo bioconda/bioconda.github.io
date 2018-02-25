@@ -5,14 +5,17 @@ bioconductor-mirnapath
 
 |downloads|
 
-This package provides pathway enrichment techniques for miRNA expression data. Specifically, the set of methods handles the many-to-many relationship between miRNAs and the multiple genes they are predicted to target (and thus affect.)  It also handles the gene-to-pathway relationships separately. Both steps are designed to preserve the additive effects of miRNAs on genes, many miRNAs affecting one gene, one miRNA affecting multiple genes, or many miRNAs affecting many genes.
+This package provides pathway enrichment techniques for miRNA expression data\. Specifically\, the set of methods handles the many\-to\-many relationship between miRNAs and the multiple genes they are predicted to target \(and thus affect\.\)  It also handles the gene\-to\-pathway relationships separately\. Both steps are designed to preserve the additive effects of miRNAs on genes\, many miRNAs affecting one gene\, one miRNA affecting multiple genes\, or many miRNAs affecting many genes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/miRNApath.html
 Versions 1.36.0, 1.38.0
 License  LGPL-2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mirnapath
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirnapath/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mirnapath
-
 

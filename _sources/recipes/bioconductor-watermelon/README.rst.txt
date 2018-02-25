@@ -5,14 +5,17 @@ bioconductor-watermelon
 
 |downloads|
 
-15 flavours of betas and three performance metrics, with methods for objects produced by methylumi and minfi packages.
+15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/wateRmelon.html
 Versions 1.22.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-watermelon
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-watermelon/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-watermelon
-
 

@@ -5,14 +5,17 @@ ucsc-fatrans
 
 |downloads|
 
-Translate DNA .fa file to peptide
+Translate DNA \.fa file to peptide
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatrans
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-fatrans
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fatrans/status
                 :target: https://quay.io/repository/biocontainers/ucsc-fatrans
-
 

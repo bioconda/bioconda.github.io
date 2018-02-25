@@ -5,14 +5,17 @@ panx
 
 |downloads|
 
-Microbial pan-genome analysis and exploration tool
+Microbial pan\-genome analysis and exploration tool
 
 ======== ===========
 Home     http://pangenome.de
 Versions 1.5.0
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/panx
 .. |docker| image:: https://quay.io/repository/biocontainers/panx/status
                 :target: https://quay.io/repository/biocontainers/panx
-
 

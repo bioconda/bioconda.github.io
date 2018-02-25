@@ -5,14 +5,17 @@ flock
 
 |downloads|
 
-FLOCK - Flow Cytometry Clustering without K.
+FLOCK \- Flow Cytometry Clustering without K\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/immportflock/
 Versions 1.0
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flock
 .. |docker| image:: https://quay.io/repository/biocontainers/flock/status
                 :target: https://quay.io/repository/biocontainers/flock
-
 

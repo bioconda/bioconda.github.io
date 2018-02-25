@@ -5,14 +5,17 @@ elprep
 
 |downloads|
 
-elPrep: a high-performance tool for preparing sequence alignment/map files in sequencing pipelines.
+elPrep\: a high\-performance tool for preparing sequence alignment\/map files in sequencing pipelines\.
 
 ======== ===========
 Home     https://github.com/ExaScience/elprep
 Versions 3.04
 License  BSD 3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elprep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/elprep
 .. |docker| image:: https://quay.io/repository/biocontainers/elprep/status
                 :target: https://quay.io/repository/biocontainers/elprep
-
 

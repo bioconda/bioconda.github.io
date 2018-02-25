@@ -5,14 +5,17 @@ bioconductor-gsealm
 
 |downloads|
 
-Models and methods for fitting linear models to gene expression data, together with tools for computing and using various regression diagnostics.
+Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GSEAlm.html
 Versions 1.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsealm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gsealm
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gsealm/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gsealm
-
 

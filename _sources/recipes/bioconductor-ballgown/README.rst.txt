@@ -5,14 +5,17 @@ bioconductor-ballgown
 
 |downloads|
 
-Tools for statistical analysis of assembled transcriptomes, including flexible differential expression analysis, visualization of transcript structures, and matching of assembled transcripts to annotation.
+Tools for statistical analysis of assembled transcriptomes\, including flexible differential expression analysis\, visualization of transcript structures\, and matching of assembled transcripts to annotation\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ballgown.html
 Versions 2.10.0, 2.2.0, 2.8.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ballgown
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ballgown
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ballgown/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ballgown
-
 

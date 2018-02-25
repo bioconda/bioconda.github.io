@@ -5,14 +5,17 @@ rgi
 
 |downloads|
 
-This tool provides a preliminary annotation of your DNA sequence(s) based upon the data available in The Comprehensive Antibiotic Resistance Database (CARD). Hits to genes tagged with Antibiotic Resistance ontology terms will be highlighted. As CARD expands to include more pathogens, genomes, plasmids, and ontology terms this tool will grow increasingly powerful in providing first-pass detection of antibiotic resistance associated genes. See license at CARD website
+This tool provides a preliminary annotation of your DNA sequence\(s\) based upon the data available in The Comprehensive Antibiotic Resistance Database \(CARD\)\. Hits to genes tagged with Antibiotic Resistance ontology terms will be highlighted\. As CARD expands to include more pathogens\, genomes\, plasmids\, and ontology terms this tool will grow increasingly powerful in providing first\-pass detection of antibiotic resistance associated genes\. See license at CARD website
 
 ======== ===========
 Home     https://card.mcmaster.ca
 Versions 3.1.0, 3.1.1, 3.1.2, 3.2.0, 3.2.1
 License  https://card.mcmaster.ca/about
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgi/3.2.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rgi
 .. |docker| image:: https://quay.io/repository/biocontainers/rgi/status
                 :target: https://quay.io/repository/biocontainers/rgi
-
 

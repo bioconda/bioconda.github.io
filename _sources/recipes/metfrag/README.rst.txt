@@ -5,14 +5,17 @@ metfrag
 
 |downloads|
 
-MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment.
+MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure\. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values\. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment\.
 
 ======== ===========
 Home     http://c-ruttkies.github.io/MetFrag/
 Versions 2.3.1
 License  GNU Lesser General Public License version 2.1 or later.
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metfrag
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metfrag
 .. |docker| image:: https://quay.io/repository/biocontainers/metfrag/status
                 :target: https://quay.io/repository/biocontainers/metfrag
-
 

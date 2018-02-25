@@ -5,14 +5,17 @@ metasv
 
 |downloads|
 
-An accurate and integrative structural-variant caller for next generation sequencing
+An accurate and integrative structural\-variant caller for next generation sequencing
 
 ======== ===========
 Home     https://github.com/bioinform/metasv
 Versions 0.4.0, 0.5.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metasv
 .. |docker| image:: https://quay.io/repository/biocontainers/metasv/status
                 :target: https://quay.io/repository/biocontainers/metasv
-
 

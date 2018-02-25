@@ -5,14 +5,17 @@ bioconductor-clustersignificance
 
 |downloads|
 
-The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables, e.g. genes in a specific pathway, alone can separate samples into these established classes. ClusterSignificance accomplishes this by, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
+The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data\. The term class clusters here refers to\, clusters of points representing known classes in the data\. This is particularly useful to determine if a subset of the variables\, e\.g\. genes in a specific pathway\, alone can separate samples into these established classes\. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line\. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ClusterSignificance.html
 Versions 1.6.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-clustersignificance
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-clustersignificance/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-clustersignificance
-
 

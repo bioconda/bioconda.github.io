@@ -5,14 +5,17 @@ perl-parse-recdescent
 
 |downloads|
 
-Generate Recursive-Descent Parsers
+Generate Recursive\-Descent Parsers
 
 ======== ===========
 Home     http://metacpan.org/pod/Parse-RecDescent
 Versions 1.967013
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-recdescent
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-parse-recdescent
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-parse-recdescent/status
                 :target: https://quay.io/repository/biocontainers/perl-parse-recdescent
-
 

@@ -5,14 +5,17 @@ perl-scope-guard
 
 |downloads|
 
-lexically-scoped resource management
+lexically\-scoped resource management
 
 ======== ===========
 Home     http://metacpan.org/pod/Scope::Guard
 Versions 0.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scope-guard
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-scope-guard
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-scope-guard/status
                 :target: https://quay.io/repository/biocontainers/perl-scope-guard
-
 

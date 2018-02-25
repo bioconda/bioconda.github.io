@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/release/bioc/html/MutationalPatterns.h
 Versions 1.4.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mutationalpatterns
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mutationalpatterns/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mutationalpatterns
-
 

@@ -5,14 +5,17 @@ moods
 
 |downloads|
 
-MOODS, Motif Occurrence Detection Suite
+MOODS\, Motif Occurrence Detection Suite
 
 ======== ===========
 Home     https://github.com/jhkorhonen/MOODS
 Versions 1.9.0, 1.9.3
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moods
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/moods
 .. |docker| image:: https://quay.io/repository/biocontainers/moods/status
                 :target: https://quay.io/repository/biocontainers/moods
-
 

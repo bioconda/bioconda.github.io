@@ -5,14 +5,17 @@ ncfp
 
 |downloads|
 
-A program/module to find nt sequences that code for aa sequences
+A program\/module to find nt sequences that code for aa sequences
 
 ======== ===========
 Home     http://widdowquinn.github.io/ncfp/
 Versions 0.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp
+
 ======== ===========
+
+ncfp is a script and module that facilitates recovery of nucleotide sequences from NCBI that encode a set of input protein sequences
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ncfp
 .. |docker| image:: https://quay.io/repository/biocontainers/ncfp/status
                 :target: https://quay.io/repository/biocontainers/ncfp
-
 

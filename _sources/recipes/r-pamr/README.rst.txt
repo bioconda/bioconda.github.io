@@ -12,7 +12,10 @@ Home     https://CRAN.R-project.org/package=pamr
 Versions 1.55
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pamr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-pamr
 .. |docker| image:: https://quay.io/repository/biocontainers/r-pamr/status
                 :target: https://quay.io/repository/biocontainers/r-pamr
-
 

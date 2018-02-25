@@ -5,14 +5,17 @@ star-fusion
 
 |downloads|
 
-A fusion gene caller for STAR. The FusionFilter tools to create needed index data structures are not included.
+A fusion gene caller for STAR\. The FusionFilter tools to create needed index data structures are not included\.
 
 ======== ===========
 Home     https://github.com/STAR-Fusion/STAR-Fusion
 Versions 0.4.0, 0.5.3, 0.5.4, 0.7.0, 1.0.0, 1.1.0, 1.2.0
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/star-fusion
 .. |docker| image:: https://quay.io/repository/biocontainers/star-fusion/status
                 :target: https://quay.io/repository/biocontainers/star-fusion
-
 

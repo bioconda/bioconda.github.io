@@ -12,7 +12,10 @@ Home     http://github.com/miracle2k/python-glob2/
 Versions 0.4.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glob2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/glob2
 .. |docker| image:: https://quay.io/repository/biocontainers/glob2/status
                 :target: https://quay.io/repository/biocontainers/glob2
-
 

@@ -12,7 +12,10 @@ Home     http://www.bioinformatics.babraham.ac.uk/projects/fastq_screen/
 Versions 0.11.1, 0.11.3, 0.5.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-screen
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastq-screen
 .. |docker| image:: https://quay.io/repository/biocontainers/fastq-screen/status
                 :target: https://quay.io/repository/biocontainers/fastq-screen
-
 

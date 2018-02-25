@@ -5,14 +5,17 @@ mapdamage2
 
 |downloads|
 
-mapDamage: tracking and quantifying damage patterns in ancient DNA sequences http://geogenetics.ku.dk/all_literature/mapdamage/
+mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics\.ku\.dk\/all\_literature\/mapdamage\/
 
 ======== ===========
 Home     https://github.com/ginolhac/mapDamage
 Versions 2.0.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdamage2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mapdamage2
 .. |docker| image:: https://quay.io/repository/biocontainers/mapdamage2/status
                 :target: https://quay.io/repository/biocontainers/mapdamage2
-
 

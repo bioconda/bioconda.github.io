@@ -12,7 +12,10 @@ Home     http://leenissen.dk/fann/wp/
 Versions 2.2.0
 License  LGPL-2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fann
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fann
 .. |docker| image:: https://quay.io/repository/biocontainers/fann/status
                 :target: https://quay.io/repository/biocontainers/fann
-
 

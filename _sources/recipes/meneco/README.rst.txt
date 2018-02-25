@@ -5,14 +5,17 @@ meneco
 
 |downloads|
 
-Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.
+Metabolic Network Completion\. Compute minimal completions to your draft network with reactions from a repair network\.
 
 ======== ===========
 Home     http://bioasp.github.io/meneco/
 Versions 1.5.2
 License  GPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/meneco
 .. |docker| image:: https://quay.io/repository/biocontainers/meneco/status
                 :target: https://quay.io/repository/biocontainers/meneco
-
 

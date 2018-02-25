@@ -5,14 +5,17 @@ ucsc-toupper
 
 |downloads|
 
-Convert lower case to upper case in file. Leave other chars alone
+Convert lower case to upper case in file\. Leave other chars alone
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-toupper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-toupper
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-toupper/status
                 :target: https://quay.io/repository/biocontainers/ucsc-toupper
-
 

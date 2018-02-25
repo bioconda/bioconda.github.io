@@ -12,7 +12,14 @@ Home     http://mrbayes.sourceforge.net
 Versions 3.2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrbayes
+
 ======== ===========
+
+MrBayes is a program for Bayesian inference and model choice across a wide
+range of phylogenetic and evolutionary models\. MrBayes uses Markov chain
+Monte Carlo \(MCMC\) methods to estimate the posterior distribution of model
+parameters\.
+
 
 Installation
 ------------
@@ -46,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mrbayes
 .. |docker| image:: https://quay.io/repository/biocontainers/mrbayes/status
                 :target: https://quay.io/repository/biocontainers/mrbayes
-
 

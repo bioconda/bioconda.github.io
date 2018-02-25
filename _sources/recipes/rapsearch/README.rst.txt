@@ -5,14 +5,17 @@ rapsearch
 
 |downloads|
 
-RAPSearch2 is a tool for fast protein similarity searches.
+RAPSearch2 is a tool for fast protein similarity searches\.
 
 ======== ===========
 Home     http://omics.informatics.indiana.edu/mg/RAPSearch2/
 Versions 2.24
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapsearch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rapsearch
 .. |docker| image:: https://quay.io/repository/biocontainers/rapsearch/status
                 :target: https://quay.io/repository/biocontainers/rapsearch
-
 

@@ -5,14 +5,17 @@ bioconductor-genominator
 
 |downloads|
 
-Tools for storing, accessing, analyzing and visualizing genomic data.
+Tools for storing\, accessing\, analyzing and visualizing genomic data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Genominator.html
 Versions 1.30.0, 1.32.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genominator
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genominator
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genominator/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genominator
-
 

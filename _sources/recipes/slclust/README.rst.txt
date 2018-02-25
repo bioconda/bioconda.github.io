@@ -5,14 +5,17 @@ slclust
 
 |downloads|
 
-A utility that performs single-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
+A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/slclust/
 Versions 02022010
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slclust
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/slclust
 .. |docker| image:: https://quay.io/repository/biocontainers/slclust/status
                 :target: https://quay.io/repository/biocontainers/slclust
-
 

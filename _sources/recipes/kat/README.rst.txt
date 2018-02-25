@@ -5,14 +5,17 @@ kat
 
 |downloads|
 
-KAT is a suite of tools that analyse jellyfish hashes or sequence files (fasta or fastq) using kmer counts
+KAT is a suite of tools that analyse jellyfish hashes or sequence files \(fasta or fastq\) using kmer counts
 
 ======== ===========
 Home     https://github.com/TGAC/KAT
 Versions 2.0.8, 2.3.1, 2.3.4
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kat/2.3.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kat
 .. |docker| image:: https://quay.io/repository/biocontainers/kat/status
                 :target: https://quay.io/repository/biocontainers/kat
-
 

@@ -5,14 +5,17 @@ bioconductor-geneoverlap
 
 |downloads|
 
-Test two sets of gene lists and visualize the results.
+Test two sets of gene lists and visualize the results\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GeneOverlap.html
 Versions 1.14.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneoverlap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-geneoverlap
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneoverlap/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-geneoverlap
-
 

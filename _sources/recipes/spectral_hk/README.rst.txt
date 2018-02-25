@@ -12,7 +12,10 @@ Home     https://bitbucket.org/ncgc/spectral_hk
 Versions 0.1
 License  PUBLIC DOMAIN
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectral_hk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/spectral_hk
 .. |docker| image:: https://quay.io/repository/biocontainers/spectral_hk/status
                 :target: https://quay.io/repository/biocontainers/spectral_hk
-
 

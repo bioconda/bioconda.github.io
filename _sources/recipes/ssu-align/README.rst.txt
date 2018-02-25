@@ -5,14 +5,17 @@ ssu-align
 
 |downloads|
 
-SSU-ALIGN: structural alignment of SSU rRNA sequences
+SSU\-ALIGN\: structural alignment of SSU rRNA sequences
 
 ======== ===========
 Home     http://eddylab.org/software/ssu-align/
 Versions 0.1.1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ssu-align
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ssu-align
 .. |docker| image:: https://quay.io/repository/biocontainers/ssu-align/status
                 :target: https://quay.io/repository/biocontainers/ssu-align
-
 

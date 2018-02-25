@@ -12,7 +12,10 @@ Home     https://github.com/kwongj/roary2fripan
 Versions 0.1
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary2fripan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/roary2fripan.py
 .. |docker| image:: https://quay.io/repository/biocontainers/roary2fripan.py/status
                 :target: https://quay.io/repository/biocontainers/roary2fripan.py
-
 

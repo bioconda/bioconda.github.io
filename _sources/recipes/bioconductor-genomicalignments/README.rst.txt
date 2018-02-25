@@ -5,14 +5,17 @@ bioconductor-genomicalignments
 
 |downloads|
 
-Provides efficient containers for storing and manipulating short genomic alignments (typically obtained by aligning short reads to a reference genome). This includes read counting, computing the coverage, junction detection, and working with the nucleotide content of the alignments.
+Provides efficient containers for storing and manipulating short genomic alignments \(typically obtained by aligning short reads to a reference genome\)\. This includes read counting\, computing the coverage\, junction detection\, and working with the nucleotide content of the alignments\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GenomicAlignments.html
 Versions 1.10.0, 1.12.2, 1.14.0, 1.6.0, 1.6.1, 1.6.3, 1.8.4
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicalignments
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genomicalignments
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genomicalignments/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genomicalignments
-
 

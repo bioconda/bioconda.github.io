@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Params::Check
 Versions 0.38
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-check/0.38
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-params-check
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-params-check/status
                 :target: https://quay.io/repository/biocontainers/perl-params-check
-
 

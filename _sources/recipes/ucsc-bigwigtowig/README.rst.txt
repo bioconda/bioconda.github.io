@@ -5,14 +5,17 @@ ucsc-bigwigtowig
 
 |downloads|
 
-Convert bigWig to wig.  This will keep more of the same structure of the
+Convert bigWig to wig\.  This will keep more of the same structure of the
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigtowig
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-bigwigtowig
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-bigwigtowig/status
                 :target: https://quay.io/repository/biocontainers/ucsc-bigwigtowig
-
 

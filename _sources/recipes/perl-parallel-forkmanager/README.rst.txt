@@ -12,7 +12,10 @@ Home     https://github.com/dluxhu/perl-parallel-forkmanager
 Versions 1.17
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-forkmanager
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-parallel-forkmanager
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-parallel-forkmanager/status
                 :target: https://quay.io/repository/biocontainers/perl-parallel-forkmanager
-
 

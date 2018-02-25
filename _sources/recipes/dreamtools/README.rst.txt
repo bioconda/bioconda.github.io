@@ -5,14 +5,17 @@ dreamtools
 
 |downloads|
 
-Scoring functions for the DREAM / SAGE challenges
+Scoring functions for the DREAM \/ SAGE challenges
 
 ======== ===========
 Home     https://github.com/dreamtools/dreamtools
 Versions 1.2.5, 1.3.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dreamtools
 .. |docker| image:: https://quay.io/repository/biocontainers/dreamtools/status
                 :target: https://quay.io/repository/biocontainers/dreamtools
-
 

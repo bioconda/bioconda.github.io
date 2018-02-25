@@ -12,7 +12,10 @@ Home     http://broadinstitute.github.io/picard/
 Versions 1.126, 1.139, 1.141, 1.56, 1.97, 2.0.1, 2.10.6, 2.11.0, 2.13, 2.14, 2.14.1, 2.15.0, 2.16.0, 2.17.0, 2.17.10, 2.17.2, 2.17.3, 2.17.4, 2.17.5, 2.17.6, 2.17.8, 2.3.0, 2.5.0, 2.7.1, 2.9.0, 2.9.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/picard
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/picard
 .. |docker| image:: https://quay.io/repository/biocontainers/picard/status
                 :target: https://quay.io/repository/biocontainers/picard
-
 

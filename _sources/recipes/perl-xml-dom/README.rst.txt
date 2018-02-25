@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-DOM
 Versions 1.45
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-dom
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-dom
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-dom/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-dom
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/dagolden/cpan-meta
 Versions 2.120921
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-cpan-meta
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-cpan-meta/status
                 :target: https://quay.io/repository/biocontainers/perl-cpan-meta
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/File::Compare
 Versions 1.1006
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-compare/1.1006
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-compare
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-compare/status
                 :target: https://quay.io/repository/biocontainers/perl-file-compare
-
 

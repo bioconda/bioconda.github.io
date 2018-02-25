@@ -12,7 +12,10 @@ Home     https://github.com/DecodeGenetics/BamHash
 Versions 1.0, 1.1
 License  GPL-3-0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamhash/1.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bamhash
 .. |docker| image:: https://quay.io/repository/biocontainers/bamhash/status
                 :target: https://quay.io/repository/biocontainers/bamhash
-
 

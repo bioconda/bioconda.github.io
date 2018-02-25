@@ -5,14 +5,17 @@ asciigenome
 
 |downloads|
 
-Command-line genome browser running from terminal window and solely based on ASCII characters
+Command\-line genome browser running from terminal window and solely based on ASCII characters
 
 ======== ===========
 Home     https://github.com/dariober/ASCIIGenome
 Versions 0.2.0, 0.6.4, 1.0.0, 1.1.0, 1.12.0, 1.2.0, 1.8.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asciigenome
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/asciigenome
 .. |docker| image:: https://quay.io/repository/biocontainers/asciigenome/status
                 :target: https://quay.io/repository/biocontainers/asciigenome
-
 

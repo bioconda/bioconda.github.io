@@ -5,14 +5,17 @@ corset
 
 |downloads|
 
-Software for clustering de novo assembled transcripts and counting overlapping reads.
+Software for clustering de novo assembled transcripts and counting overlapping reads\.
 
 ======== ===========
 Home     https://github.com/Oshlack/Corset
 Versions 1.06
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corset
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/corset
 .. |docker| image:: https://quay.io/repository/biocontainers/corset/status
                 :target: https://quay.io/repository/biocontainers/corset
-
 

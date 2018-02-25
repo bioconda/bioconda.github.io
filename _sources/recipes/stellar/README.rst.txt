@@ -5,14 +5,17 @@ stellar
 
 |downloads|
 
-STELLAR is a tool for finding pairwise local alignments between long genomic or very many short sequences.
+STELLAR is a tool for finding pairwise local alignments between long genomic or very many short sequences\.
 
 ======== ===========
 Home     https://github.com/seqan/seqan/tree/master/apps/stellar/README
 Versions 1.4.9
 License  LGPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stellar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/stellar
 .. |docker| image:: https://quay.io/repository/biocontainers/stellar/status
                 :target: https://quay.io/repository/biocontainers/stellar
-
 

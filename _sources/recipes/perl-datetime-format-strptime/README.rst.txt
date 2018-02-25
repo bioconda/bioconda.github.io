@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/DateTime-Format-Strptime
 Versions 1.73
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime/1.73
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-datetime-format-strptime
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-datetime-format-strptime/status
                 :target: https://quay.io/repository/biocontainers/perl-datetime-format-strptime
-
 

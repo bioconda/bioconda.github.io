@@ -5,14 +5,17 @@ umitools
 
 |downloads|
 
-A toolset for handling sequencing data with unique molecular identifiers (UMIs)
+A toolset for handling sequencing data with unique molecular identifiers \(UMIs\)
 
 ======== ===========
 Home     https://github.com/weng-lab/umitools
 Versions 0.3.0
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umitools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/umitools
 .. |docker| image:: https://quay.io/repository/biocontainers/umitools/status
                 :target: https://quay.io/repository/biocontainers/umitools
-
 

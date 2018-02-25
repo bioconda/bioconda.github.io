@@ -5,14 +5,17 @@ smina
 
 |downloads|
 
-A fork of AutoDock Vina that is customized to better support scoring function development and high-performance energy minimization.
+A fork of AutoDock Vina that is customized to better support scoring function development and high\-performance energy minimization\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/smina/
 Versions 2017.11.9
 License  GNU General Public License version 2.0 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smina
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/smina
 .. |docker| image:: https://quay.io/repository/biocontainers/smina/status
                 :target: https://quay.io/repository/biocontainers/smina
-
 

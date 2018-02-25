@@ -5,14 +5,17 @@ perl-file-details
 
 |downloads|
 
-File details in an object, stat, hash, etc..
+File details in an object\, stat\, hash\, etc\.\.
 
 ======== ===========
 Home     http://metacpan.org/pod/File::Details
 Versions 0.003
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-details
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-details
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-details/status
                 :target: https://quay.io/repository/biocontainers/perl-file-details
-
 

@@ -5,14 +5,17 @@ piranha
 
 |downloads|
 
-Piranha is a peak-caller for CLIP- and RIP-Seq data.
+Piranha is a peak\-caller for CLIP\- and RIP\-Seq data\.
 
 ======== ===========
 Home     http://smithlabresearch.org/software/piranha/
 Versions 1.2.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/piranha
 .. |docker| image:: https://quay.io/repository/biocontainers/piranha/status
                 :target: https://quay.io/repository/biocontainers/piranha
-
 

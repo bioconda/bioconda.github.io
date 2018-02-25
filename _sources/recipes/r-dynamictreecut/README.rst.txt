@@ -5,14 +5,17 @@ r-dynamictreecut
 
 |downloads|
 
-Contains methods for detection of clusters in hierarchical clustering dendrograms.
+Contains methods for detection of clusters in hierarchical clustering dendrograms\.
 
 ======== ===========
 Home     http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/
 Versions 1.63_1
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dynamictreecut
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-dynamictreecut
 .. |docker| image:: https://quay.io/repository/biocontainers/r-dynamictreecut/status
                 :target: https://quay.io/repository/biocontainers/r-dynamictreecut
-
 

@@ -12,7 +12,10 @@ Home     http://search.cpan.org/~grantm/XML-SAX-0.99
 Versions 0.99
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-sax
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-sax/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-sax
-
 

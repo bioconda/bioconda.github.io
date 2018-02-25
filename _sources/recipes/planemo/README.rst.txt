@@ -5,14 +5,17 @@ planemo
 
 |downloads|
 
-Command-line utilities to assist in building tools for the Galaxy project (http://galaxyproject.org/).
+Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject\.org\/\)\.
 
 ======== ===========
 Home     https://github.com/galaxyproject/planemo
 Versions 0.23.0, 0.29.1, 0.33.2, 0.34.1, 0.38.1, 0.40.1, 0.46.1
 License  Academic Free License (AFL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/planemo
 .. |docker| image:: https://quay.io/repository/biocontainers/planemo/status
                 :target: https://quay.io/repository/biocontainers/planemo
-
 

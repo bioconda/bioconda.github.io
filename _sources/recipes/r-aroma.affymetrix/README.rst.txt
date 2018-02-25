@@ -5,14 +5,17 @@ r-aroma.affymetrix
 
 |downloads|
 
-A cross-platform R framework that facilitates processing of any number of Affymetrix microarray samples regardless of computer system.  The only parameter that limits the number of chips that can be processed is the amount of available disk space.  The Aroma Framework has successfully been used in studies to process tens of thousands of arrays.  This package has actively been used since 2006.
+A cross\-platform R framework that facilitates processing of any number of Affymetrix microarray samples regardless of computer system\.  The only parameter that limits the number of chips that can be processed is the amount of available disk space\.  The Aroma Framework has successfully been used in studies to process tens of thousands of arrays\.  This package has actively been used since 2006\.
 
 ======== ===========
 Home     http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
 Versions 3.0.0, 3.1.0
 License  LGPL (>= 2.1)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-aroma.affymetrix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-aroma.affymetrix
 .. |docker| image:: https://quay.io/repository/biocontainers/r-aroma.affymetrix/status
                 :target: https://quay.io/repository/biocontainers/r-aroma.affymetrix
-
 

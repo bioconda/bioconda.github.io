@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Celegans
 Versions 3.4.0, 3.4.1, 3.4.2
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.celegans.ucsc.ce11.refgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-txdb.celegans.ucsc.ce11.refgene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-txdb.celegans.ucsc.ce11.refgene
-
 

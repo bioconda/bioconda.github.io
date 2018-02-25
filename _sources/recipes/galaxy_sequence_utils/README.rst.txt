@@ -12,7 +12,10 @@ Home     https://github.com/galaxyproject/sequence_utils
 Versions 1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.1.2
 License  Academic Free License version 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy_sequence_utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/galaxy_sequence_utils
 .. |docker| image:: https://quay.io/repository/biocontainers/galaxy_sequence_utils/status
                 :target: https://quay.io/repository/biocontainers/galaxy_sequence_utils
-
 

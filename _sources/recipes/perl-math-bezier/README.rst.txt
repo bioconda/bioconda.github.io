@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Math-Bezier
 Versions 0.01
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bezier
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-math-bezier
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-math-bezier/status
                 :target: https://quay.io/repository/biocontainers/perl-math-bezier
-
 

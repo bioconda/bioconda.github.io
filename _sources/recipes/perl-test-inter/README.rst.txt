@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test::Inter
 Versions 1.06
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-inter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-inter
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-inter/status
                 :target: https://quay.io/repository/biocontainers/perl-test-inter
-
 

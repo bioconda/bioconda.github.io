@@ -5,14 +5,17 @@ perl-dbd-mysql
 
 |downloads|
 
-MySQL driver for the Perl5 Database Interface (DBI)
+MySQL driver for the Perl5 Database Interface \(DBI\)
 
 ======== ===========
 Home     https://metacpan.org/pod/DBD::mysql
 Versions 4.033
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dbd-mysql
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dbd-mysql/status
                 :target: https://quay.io/repository/biocontainers/perl-dbd-mysql
-
 

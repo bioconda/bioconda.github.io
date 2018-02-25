@@ -5,14 +5,17 @@ ant
 
 |downloads|
 
-Apache Ant is a Java library and command-line tool that help building software.
+Apache Ant is a Java library and command\-line tool that help building software\.
 
 ======== ===========
 Home     http://ant.apache.org
 Versions 1.10.0, 1.9.6
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ant
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ant
 .. |docker| image:: https://quay.io/repository/biocontainers/ant/status
                 :target: https://quay.io/repository/biocontainers/ant
-
 

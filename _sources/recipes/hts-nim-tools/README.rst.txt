@@ -5,14 +5,17 @@ hts-nim-tools
 
 |downloads|
 
-useful command-line tools written to show-case hts-nim
+useful command\-line tools written to show\-case hts\-nim
 
 ======== ===========
 Home     https://github.com/brentp/hts-nim-tools
 Versions 0.1.5
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hts-nim-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/hts-nim-tools/status
                 :target: https://quay.io/repository/biocontainers/hts-nim-tools
-
 

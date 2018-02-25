@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Module-Build
 Versions 0.4214, 0.4224
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-build
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-build/status
                 :target: https://quay.io/repository/biocontainers/perl-module-build
-
 

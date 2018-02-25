@@ -5,11 +5,11 @@ debwt
 
 |downloads|
 
-A efficient method to construct BWT index of a given DNA sequence, especially
-useful for gigantic and high similar genome.
-DeBWT has good scalability to construct BWT in parallel computing.
-It is well-suited to run on multiple core servers or clusters to
-construct the BWT of large collections of genome sequences.
+A efficient method to construct BWT index of a given DNA sequence\, especially
+useful for gigantic and high similar genome\.
+DeBWT has good scalability to construct BWT in parallel computing\.
+It is well\-suited to run on multiple core servers or clusters to
+construct the BWT of large collections of genome sequences\.
 
 
 ======== ===========
@@ -17,7 +17,10 @@ Home     https://github.com/DixianZhu/deBWT
 Versions 1.0.1
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/debwt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -51,5 +54,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/debwt
 .. |docker| image:: https://quay.io/repository/biocontainers/debwt/status
                 :target: https://quay.io/repository/biocontainers/debwt
-
 

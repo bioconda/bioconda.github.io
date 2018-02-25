@@ -5,14 +5,17 @@ perl-term-app-roles
 
 |downloads|
 
-Collection of roles for terminal-based application
+Collection of roles for terminal\-based application
 
 ======== ===========
 Home     https://metacpan.org/release/Term-App-Roles
 Versions 0.01
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-app-roles
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-term-app-roles
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-term-app-roles/status
                 :target: https://quay.io/repository/biocontainers/perl-term-app-roles
-
 

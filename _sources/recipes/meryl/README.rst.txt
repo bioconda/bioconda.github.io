@@ -5,14 +5,17 @@ meryl
 
 |downloads|
 
-meryl is a multi-threaded, multi-process, out-of-core k-mer counter
+meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
 
 ======== ===========
 Home     http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
 Versions 2013
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/meryl
 .. |docker| image:: https://quay.io/repository/biocontainers/meryl/status
                 :target: https://quay.io/repository/biocontainers/meryl
-
 

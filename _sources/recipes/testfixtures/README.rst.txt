@@ -5,14 +5,17 @@ testfixtures
 
 |downloads|
 
-A collection of helpers and mock objects for unit tests and doc tests.
+A collection of helpers and mock objects for unit tests and doc tests\.
 
 ======== ===========
 Home     https://github.com/Simplistix/testfixtures
 Versions 4.8.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/testfixtures
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/testfixtures
 .. |docker| image:: https://quay.io/repository/biocontainers/testfixtures/status
                 :target: https://quay.io/repository/biocontainers/testfixtures
-
 

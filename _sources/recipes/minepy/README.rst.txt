@@ -5,14 +5,17 @@ minepy
 
 |downloads|
 
-minepy - Maximal Information-based Nonparametric Exploration
+minepy \- Maximal Information\-based Nonparametric Exploration
 
 ======== ===========
 Home     http://minepy.readthedocs.io
 Versions 1.2.0
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minepy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/minepy
 .. |docker| image:: https://quay.io/repository/biocontainers/minepy/status
                 :target: https://quay.io/repository/biocontainers/minepy
-
 

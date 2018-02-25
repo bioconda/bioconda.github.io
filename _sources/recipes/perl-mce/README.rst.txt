@@ -5,14 +5,17 @@ perl-mce
 
 |downloads|
 
-Many-Core Engine for Perl providing parallel processing capabilities
+Many\-Core Engine for Perl providing parallel processing capabilities
 
 ======== ===========
 Home     https://github.com/marioroy/mce-perl
 Versions 1.814
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mce/1.814
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mce
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mce/status
                 :target: https://quay.io/repository/biocontainers/perl-mce
-
 

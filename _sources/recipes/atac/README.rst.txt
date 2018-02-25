@@ -5,14 +5,17 @@ atac
 
 |downloads|
 
-ATAC is a computational process for comparative mapping between two genome assemblies, or between two different genomes
+ATAC is a computational process for comparative mapping between two genome assemblies\, or between two different genomes
 
 ======== ===========
 Home     http://kmer.sourceforge.net/wiki/index.php/Overview_of_the_ATAC_process
 Versions 2008
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/atac
 .. |docker| image:: https://quay.io/repository/biocontainers/atac/status
                 :target: https://quay.io/repository/biocontainers/atac
-
 

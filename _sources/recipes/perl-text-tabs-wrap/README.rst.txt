@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Text::Tabs+Wrap
 Versions 2013.0523
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-tabs-wrap
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-tabs-wrap/status
                 :target: https://quay.io/repository/biocontainers/perl-text-tabs-wrap
-
 

@@ -5,14 +5,17 @@ pyteomics
 
 |downloads|
 
-A framework for proteomics data analysis.
+A framework for proteomics data analysis\.
 
 ======== ===========
 Home     https://bitbucket.org/levitsky/pyteomics
 Versions 3.4
 License  Apache License, Version 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyteomics
 .. |docker| image:: https://quay.io/repository/biocontainers/pyteomics/status
                 :target: https://quay.io/repository/biocontainers/pyteomics
-
 

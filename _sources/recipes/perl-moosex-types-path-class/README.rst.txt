@@ -5,14 +5,17 @@ perl-moosex-types-path-class
 
 |downloads|
 
-A Path::Class type library for Moose
+A Path\:\:Class type library for Moose
 
 ======== ===========
 Home     https://github.com/moose/MooseX-Types-Path-Class
 Versions 0.09
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-class
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-types-path-class
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-types-path-class/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-types-path-class
-
 

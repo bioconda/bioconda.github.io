@@ -12,7 +12,10 @@ Home     http://www.microrna.org/
 Versions 3.3a
 License  GPLv2 + RNAlib license (no commercial redistribution)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miranda
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/miranda
 .. |docker| image:: https://quay.io/repository/biocontainers/miranda/status
                 :target: https://quay.io/repository/biocontainers/miranda
-
 

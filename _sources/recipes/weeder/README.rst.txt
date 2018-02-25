@@ -5,14 +5,17 @@ weeder
 
 |downloads|
 
-Motif (transcription factor binding sites) discovery in sequences from coregulated genes of a single species. This is a new Weeder release rewritten to be faster and optimized for large ChIP-Seq data.
+Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species\. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data\.
 
 ======== ===========
 Home     http://159.149.160.51/modtools/
 Versions 2.0
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weeder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update weeder
 
+
 Notes
 -----
+Includes a simple wrapper script to be able to run weeder from any directory\. It passes arguments transparently to the weeder2 executable\.
 
-Includes a simple wrapper script to be able to run weeder from any directory. It passes arguments transparently to the weeder2 executable.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/weeder
 .. |docker| image:: https://quay.io/repository/biocontainers/weeder/status
                 :target: https://quay.io/repository/biocontainers/weeder
-
 

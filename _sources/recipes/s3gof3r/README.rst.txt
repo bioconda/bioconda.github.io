@@ -5,14 +5,17 @@ s3gof3r
 
 |downloads|
 
-Fast, concurrent, streaming access to Amazon S3, including gof3r, a CLI
+Fast\, concurrent\, streaming access to Amazon S3\, including gof3r\, a CLI
 
 ======== ===========
 Home     https://github.com/rlmcpherson/s3gof3r
 Versions 0.5.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s3gof3r
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/s3gof3r
 .. |docker| image:: https://quay.io/repository/biocontainers/s3gof3r/status
                 :target: https://quay.io/repository/biocontainers/s3gof3r
-
 

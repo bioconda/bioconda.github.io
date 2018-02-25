@@ -12,7 +12,10 @@ Home     https://github.com/alexandrovteam/pyImagingMSpec
 Versions 0.1.4
 License  Apache 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimagingmspec
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyimagingmspec
 .. |docker| image:: https://quay.io/repository/biocontainers/pyimagingmspec/status
                 :target: https://quay.io/repository/biocontainers/pyimagingmspec
-
 

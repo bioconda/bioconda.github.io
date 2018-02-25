@@ -5,14 +5,17 @@ bioconductor-plgem
 
 |downloads|
 
-The Power Law Global Error Model (PLGEM) has been shown to faithfully model the variance-versus-mean dependence that exists in a variety of genome-wide datasets, including microarray and proteomics data. The use of PLGEM has been shown to improve the detection of differentially expressed genes or proteins in these datasets.
+The Power Law Global Error Model \(PLGEM\) has been shown to faithfully model the variance\-versus\-mean dependence that exists in a variety of genome\-wide datasets\, including microarray and proteomics data\. The use of PLGEM has been shown to improve the detection of differentially expressed genes or proteins in these datasets\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/plgem.html
 Versions 1.48.0, 1.50.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plgem
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-plgem
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-plgem/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-plgem
-
 

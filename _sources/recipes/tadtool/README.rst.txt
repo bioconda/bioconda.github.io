@@ -5,14 +5,17 @@ tadtool
 
 |downloads|
 
-TADtool is an interactive tool for the identification of meaningful parameters in TAD-calling algorithms for Hi-C data
+TADtool is an interactive tool for the identification of meaningful parameters in TAD\-calling algorithms for Hi\-C data
 
 ======== ===========
 Home     https://github.com/vaquerizaslab/tadtool
 Versions 0.75
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadtool
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tadtool
 .. |docker| image:: https://quay.io/repository/biocontainers/tadtool/status
                 :target: https://quay.io/repository/biocontainers/tadtool
-
 

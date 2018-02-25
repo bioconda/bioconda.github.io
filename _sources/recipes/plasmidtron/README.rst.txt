@@ -5,14 +5,17 @@ plasmidtron
 
 |downloads|
 
-PlasmidTron: assembling the cause of phenotypes from NGS data
+PlasmidTron\: assembling the cause of phenotypes from NGS data
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/plasmidtron
 Versions 0.3.3, 0.3.5, 0.4.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasmidtron
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/plasmidtron
 .. |docker| image:: https://quay.io/repository/biocontainers/plasmidtron/status
                 :target: https://quay.io/repository/biocontainers/plasmidtron
-
 

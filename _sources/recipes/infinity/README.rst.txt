@@ -5,14 +5,17 @@ infinity
 
 |downloads|
 
-All-in-one infinity value for Python. Can be compared to any object.
+All\-in\-one infinity value for Python\. Can be compared to any object\.
 
 ======== ===========
 Home     https://github.com/kvesteri/infinity
 Versions 1.3
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infinity
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/infinity
 .. |docker| image:: https://quay.io/repository/biocontainers/infinity/status
                 :target: https://quay.io/repository/biocontainers/infinity
-
 

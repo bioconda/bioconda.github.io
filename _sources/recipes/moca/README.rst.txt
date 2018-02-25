@@ -12,7 +12,10 @@ Home     https://github.com/saketkc/moca
 Versions 0.2.9, 0.3.3, 0.3.4
 License  ISC License (ISCL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moca
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/moca
 .. |docker| image:: https://quay.io/repository/biocontainers/moca/status
                 :target: https://quay.io/repository/biocontainers/moca
-
 

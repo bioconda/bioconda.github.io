@@ -12,7 +12,10 @@ Home     https://labs.oicr.on.ca/boutros-lab/software/bpg
 Versions 5.3.4
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-boutroslabplottinggeneral
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/boutroslabplottinggeneral
 .. |docker| image:: https://quay.io/repository/biocontainers/boutroslabplottinggeneral/status
                 :target: https://quay.io/repository/biocontainers/boutroslabplottinggeneral
-
 

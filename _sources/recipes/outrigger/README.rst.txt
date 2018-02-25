@@ -5,14 +5,17 @@ outrigger
 
 |downloads|
 
-Outrigger detects *de novo* exons and quantifies their percent spliced-in
+Outrigger detects \*de novo\* exons and quantifies their percent spliced\-in
 
 ======== ===========
 Home     https://yeolab.github.io/outrigger
 Versions 1.1.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/outrigger
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/outrigger
 .. |docker| image:: https://quay.io/repository/biocontainers/outrigger/status
                 :target: https://quay.io/repository/biocontainers/outrigger
-
 

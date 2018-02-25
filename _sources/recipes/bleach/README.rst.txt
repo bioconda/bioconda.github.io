@@ -5,14 +5,17 @@ bleach
 
 |downloads|
 
-An easy whitelist-based HTML-sanitizing tool.
+An easy whitelist\-based HTML\-sanitizing tool\.
 
 ======== ===========
 Home     http://github.com/jsocol/bleach
 Versions 1.4.2
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bleach
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bleach
 .. |docker| image:: https://quay.io/repository/biocontainers/bleach/status
                 :target: https://quay.io/repository/biocontainers/bleach
-
 

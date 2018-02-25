@@ -5,14 +5,17 @@ bioconductor-switchbox
 
 |downloads|
 
-The package offer different classifiers based on comparisons of pair of features (TSP), using various decision rules (e.g., majority wins principle).
+The package offer different classifiers based on comparisons of pair of features \(TSP\)\, using various decision rules \(e\.g\.\, majority wins principle\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/switchBox.html
 Versions 1.12.0, 1.14.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchbox
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-switchbox
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-switchbox/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-switchbox
-
 

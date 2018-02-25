@@ -5,14 +5,17 @@ bioconductor-gewist
 
 |downloads|
 
-This 'GEWIST' package provides statistical tools to efficiently optimize SNP prioritization for gene-gene and gene-environment interactions.
+This \'GEWIST\' package provides statistical tools to efficiently optimize SNP prioritization for gene\-gene and gene\-environment interactions\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GEWIST.html
 Versions 1.22.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gewist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gewist
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gewist/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gewist
-
 

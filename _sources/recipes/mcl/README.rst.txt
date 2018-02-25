@@ -5,14 +5,17 @@ mcl
 
 |downloads|
 
-MCL - a cluster algorithm for graphs
+MCL \- a cluster algorithm for graphs
 
 ======== ===========
 Home     http://micans.org/mcl/
 Versions 14.137
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mcl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mcl
 .. |docker| image:: https://quay.io/repository/biocontainers/mcl/status
                 :target: https://quay.io/repository/biocontainers/mcl
-
 

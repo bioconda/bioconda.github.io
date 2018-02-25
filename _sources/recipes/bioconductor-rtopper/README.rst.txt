@@ -5,14 +5,17 @@ bioconductor-rtopper
 
 |downloads|
 
-the RTopper package is designed to perform and integrate gene set enrichment results across multiple genomic platforms.
+the RTopper package is designed to perform and integrate gene set enrichment results across multiple genomic platforms\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/RTopper.html
 Versions 1.22.0, 1.24.0
 License  GPL (>= 3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtopper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rtopper
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtopper/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rtopper
-
 

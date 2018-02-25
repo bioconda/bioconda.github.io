@@ -12,7 +12,10 @@ Home     https://github.com/pjotrp/bioruby-vcf
 Versions 0.9.0, 0.9.1, 0.9.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bio-vcf
 .. |docker| image:: https://quay.io/repository/biocontainers/bio-vcf/status
                 :target: https://quay.io/repository/biocontainers/bio-vcf
-
 

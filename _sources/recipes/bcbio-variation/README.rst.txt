@@ -5,14 +5,17 @@ bcbio-variation
 
 |downloads|
 
-Toolkit to analyze genomic variation data, built on the GATK with Clojure
+Toolkit to analyze genomic variation data\, built on the GATK with Clojure
 
 ======== ===========
 Home     https://github.com/chapmanb/bcbio.variation
 Versions 0.2.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-variation
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcbio-variation
 .. |docker| image:: https://quay.io/repository/biocontainers/bcbio-variation/status
                 :target: https://quay.io/repository/biocontainers/bcbio-variation
-
 

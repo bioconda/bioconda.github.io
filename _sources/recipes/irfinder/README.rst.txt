@@ -12,7 +12,10 @@ Home     https://github.com/williamritchie/IRFinder
 Versions 1.2.2, 1.2.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irfinder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/irfinder
 .. |docker| image:: https://quay.io/repository/biocontainers/irfinder/status
                 :target: https://quay.io/repository/biocontainers/irfinder
-
 

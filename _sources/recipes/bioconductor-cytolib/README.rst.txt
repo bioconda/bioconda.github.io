@@ -5,14 +5,17 @@ bioconductor-cytolib
 
 |downloads|
 
-This package provides the core data structure and API to represent and interact with the gated cytometry data.
+This package provides the core data structure and API to represent and interact with the gated cytometry data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/cytolib.html
 Versions 1.0.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cytolib
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cytolib/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cytolib
-
 

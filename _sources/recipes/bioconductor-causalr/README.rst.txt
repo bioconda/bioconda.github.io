@@ -5,14 +5,17 @@ bioconductor-causalr
 
 |downloads|
 
-Causal network analysis methods for regulator prediction and network reconstruction from genome scale data.
+Causal network analysis methods for regulator prediction and network reconstruction from genome scale data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/CausalR.html
 Versions 1.10.0, 1.8.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-causalr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-causalr
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-causalr/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-causalr
-
 

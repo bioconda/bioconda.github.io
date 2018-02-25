@@ -5,14 +5,17 @@ metameta
 
 |downloads|
 
-MetaMeta - pipeline for integrating metagenome analysis tools to improve taxonomic profiling
+MetaMeta \- pipeline for integrating metagenome analysis tools to improve taxonomic profiling
 
 ======== ===========
 Home     https://github.com/pirovc/metameta/
 Versions 1.0, 1.1, 1.1.1, 1.2.0
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metameta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metameta
 .. |docker| image:: https://quay.io/repository/biocontainers/metameta/status
                 :target: https://quay.io/repository/biocontainers/metameta
-
 

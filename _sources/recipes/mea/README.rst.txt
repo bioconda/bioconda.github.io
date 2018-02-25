@@ -5,14 +5,17 @@ mea
 
 |downloads|
 
-Mea was developed as part of the lab class "Bioinformatik von RNA- und Proteinstrukturen (Praktikum, Modul 10-202-2208)". The package predicts maximum expected accuracy (MEA) RNA secondary structures from dot plots of RNAs while correcting the score in dependence of base pair span. Furthermore, it provides tools to evaluate predictions and optimize parameters.
+Mea was developed as part of the lab class \"Bioinformatik von RNA\- und Proteinstrukturen \(Praktikum\, Modul 10\-202\-2208\)\"\. The package predicts maximum expected accuracy \(MEA\) RNA secondary structures from dot plots of RNAs while correcting the score in dependence of base pair span\. Furthermore\, it provides tools to evaluate predictions and optimize parameters\.
 
 ======== ===========
 Home     http://www.bioinf.uni-leipzig.de/Software/mea/
 Versions 0.6.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mea
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mea
 .. |docker| image:: https://quay.io/repository/biocontainers/mea/status
                 :target: https://quay.io/repository/biocontainers/mea
-
 

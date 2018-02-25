@@ -5,14 +5,17 @@ perl-pod-coverage-trustpod
 
 |downloads|
 
-allow a module's pod to contain Pod::Coverage hints
+allow a module\'s pod to contain Pod\:\:Coverage hints
 
 ======== ===========
 Home     https://github.com/rjbs/Pod-Coverage-TrustPod
 Versions 0.100003
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-coverage-trustpod
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-coverage-trustpod
-
 

@@ -5,14 +5,17 @@ perl-hash-util-fieldhash-compat
 
 |downloads|
 
-Use Hash::Util::FieldHash or ties, depending on availability
+Use Hash\:\:Util\:\:FieldHash or ties\, depending on availability
 
 ======== ===========
 Home     https://github.com/karenetheridge/Hash-Util-FieldHash-Compat
 Versions 0.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-util-fieldhash-compat/0.11
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hash-util-fieldhash-compat
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hash-util-fieldhash-compat/status
                 :target: https://quay.io/repository/biocontainers/perl-hash-util-fieldhash-compat
-
 

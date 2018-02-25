@@ -12,7 +12,10 @@ Home     https://github.com/evolbioinf/andi/
 Versions 0.10, 0.11
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/andi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/andi
 .. |docker| image:: https://quay.io/repository/biocontainers/andi/status
                 :target: https://quay.io/repository/biocontainers/andi
-
 

@@ -5,14 +5,17 @@ ucsc-transmappsltogenepred
 
 |downloads|
 
-convert PSL alignments of mRNAs to gene annotations.
+convert PSL alignments of mRNAs to gene annotations\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-transmappsltogenepred
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-transmappsltogenepred
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-transmappsltogenepred/status
                 :target: https://quay.io/repository/biocontainers/ucsc-transmappsltogenepred
-
 

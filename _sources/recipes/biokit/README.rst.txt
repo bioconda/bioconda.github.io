@@ -12,7 +12,10 @@ Home     http://pypi.python.org/pypi/biokit
 Versions 0.1.3, 0.1.4, 0.2.1, 0.4.1, 0.4.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biokit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biokit
 .. |docker| image:: https://quay.io/repository/biocontainers/biokit/status
                 :target: https://quay.io/repository/biocontainers/biokit
-
 

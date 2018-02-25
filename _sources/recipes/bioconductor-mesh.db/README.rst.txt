@@ -5,14 +5,17 @@ bioconductor-mesh.db
 
 |downloads|
 
-A set of annotation maps describing the entire MeSH assembled using data from MeSH.
+A set of annotation maps describing the entire MeSH assembled using data from MeSH\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/MeSH.db.html
 Versions 1.9.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mesh.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mesh.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mesh.db
-
 

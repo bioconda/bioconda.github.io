@@ -5,14 +5,17 @@ sweepfinder2
 
 |downloads|
 
-The BWA read mapper.
+The BWA read mapper\.
 
 ======== ===========
 Home     http://www.personal.psu.edu/mxd60/sf2.html
 Versions 1.0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sweepfinder2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sweepfinder2
 .. |docker| image:: https://quay.io/repository/biocontainers/sweepfinder2/status
                 :target: https://quay.io/repository/biocontainers/sweepfinder2
-
 

@@ -5,14 +5,17 @@ qsignature
 
 |downloads|
 
-qsignature is a simple and highly effective method for detecting potential sample mix-ups using distance measurements between SNP
+qsignature is a simple and highly effective method for detecting potential sample mix\-ups using distance measurements between SNP
 
 ======== ===========
 Home     http://sourceforge.net/p/adamajava/wiki/Home/
 Versions 0.1pre
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/qsignature
 .. |docker| image:: https://quay.io/repository/biocontainers/qsignature/status
                 :target: https://quay.io/repository/biocontainers/qsignature
-
 

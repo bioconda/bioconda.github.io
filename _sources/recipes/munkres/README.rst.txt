@@ -12,7 +12,10 @@ Home     http://software.clapper.org/munkres/
 Versions 1.0.7
 License  Apache License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/munkres
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/munkres
 .. |docker| image:: https://quay.io/repository/biocontainers/munkres/status
                 :target: https://quay.io/repository/biocontainers/munkres
-
 

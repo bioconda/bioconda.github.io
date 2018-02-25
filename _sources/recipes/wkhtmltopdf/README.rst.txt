@@ -5,14 +5,17 @@ wkhtmltopdf
 
 |downloads|
 
-wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine
+wkhtmltopdf and wkhtmltoimage are open source \(LGPLv3\) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine
 
 ======== ===========
 Home     http://wkhtmltopdf.org/
 Versions 0.12.3
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wkhtmltopdf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wkhtmltopdf
 .. |docker| image:: https://quay.io/repository/biocontainers/wkhtmltopdf/status
                 :target: https://quay.io/repository/biocontainers/wkhtmltopdf
-
 

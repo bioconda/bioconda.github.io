@@ -5,14 +5,17 @@ ficus
 
 |downloads|
 
-Ficus provides a context manager for matplotlib figures.
+Ficus provides a context manager for matplotlib figures\.
 
 ======== ===========
 Home     https://github.com/camillescott/ficus
 Versions 0.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ficus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ficus
 .. |docker| image:: https://quay.io/repository/biocontainers/ficus/status
                 :target: https://quay.io/repository/biocontainers/ficus
-
 

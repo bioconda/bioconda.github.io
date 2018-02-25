@@ -12,7 +12,10 @@ Home     http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/shape-
 Versions 1.0.1
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shape-it/1.0.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shape_it
 .. |docker| image:: https://quay.io/repository/biocontainers/shape_it/status
                 :target: https://quay.io/repository/biocontainers/shape_it
-
 

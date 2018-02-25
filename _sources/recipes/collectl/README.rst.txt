@@ -12,7 +12,10 @@ Home     http://collectl.sourceforge.net/
 Versions 4.0.4
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/collectl
 .. |docker| image:: https://quay.io/repository/biocontainers/collectl/status
                 :target: https://quay.io/repository/biocontainers/collectl
-
 

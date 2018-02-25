@@ -5,14 +5,17 @@ vdjer
 
 |downloads|
 
-B Cell Receptor Repertoire Reconstruction from short read mRNA-Seq data
+B Cell Receptor Repertoire Reconstruction from short read mRNA\-Seq data
 
 ======== ===========
 Home     https://github.com/mozack/vdjer
 Versions 0.12
 License  https://github.com/mozack/vdjer/blob/master/LICENSE.txt
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vdjer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vdjer
 .. |docker| image:: https://quay.io/repository/biocontainers/vdjer/status
                 :target: https://quay.io/repository/biocontainers/vdjer
-
 

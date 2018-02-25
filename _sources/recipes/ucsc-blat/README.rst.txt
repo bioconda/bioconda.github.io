@@ -5,14 +5,17 @@ ucsc-blat
 
 |downloads|
 
-Standalone BLAT v. 36x2 fast sequence search command line tool
+Standalone BLAT v\. 36x2 fast sequence search command line tool
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-blat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-blat
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-blat/status
                 :target: https://quay.io/repository/biocontainers/ucsc-blat
-
 

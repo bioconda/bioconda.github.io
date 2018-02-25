@@ -12,7 +12,10 @@ Home     http://www.bioinf.uni-freiburg.de/Software/GraphClust/
 Versions 0.1, 0.1.10, 0.1.11, 0.1.12, 0.1.7, 0.1.8, 0.1.9, 0.2.0, 0.3.0, 0.3.1, 0.5.0, 0.5.1, 0.5.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphclust-wrappers
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graphclust-wrappers
 .. |docker| image:: https://quay.io/repository/biocontainers/graphclust-wrappers/status
                 :target: https://quay.io/repository/biocontainers/graphclust-wrappers
-
 

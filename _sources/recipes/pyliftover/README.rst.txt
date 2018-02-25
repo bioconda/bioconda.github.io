@@ -5,14 +5,17 @@ pyliftover
 
 |downloads|
 
-Pure-python implementation of UCSC ``liftOver`` genome coordinate conversion.
+Pure\-python implementation of UCSC \`\`liftOver\`\` genome coordinate conversion\.
 
 ======== ===========
 Home     https://github.com/konstantint/pyliftover
 Versions 0.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyliftover
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyliftover
 .. |docker| image:: https://quay.io/repository/biocontainers/pyliftover/status
                 :target: https://quay.io/repository/biocontainers/pyliftover
-
 

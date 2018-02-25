@@ -5,14 +5,17 @@ dsk
 
 |downloads|
 
-DSK is a k-mer counter for reads or genomes.
+DSK is a k\-mer counter for reads or genomes\.
 
 ======== ===========
 Home     https://github.com/GATB/dsk/
 Versions 2.2.0
 License  AGPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dsk
 .. |docker| image:: https://quay.io/repository/biocontainers/dsk/status
                 :target: https://quay.io/repository/biocontainers/dsk
-
 

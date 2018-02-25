@@ -5,14 +5,17 @@ maker
 
 |downloads|
 
-MAKER is a portable and easily configurable genome annotation pipeline.
+MAKER is a portable and easily configurable genome annotation pipeline\.
 
 ======== ===========
 Home     http://www.yandell-lab.org/software/maker.html
 Versions 2.31.9
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/maker
 .. |docker| image:: https://quay.io/repository/biocontainers/maker/status
                 :target: https://quay.io/repository/biocontainers/maker
-
 

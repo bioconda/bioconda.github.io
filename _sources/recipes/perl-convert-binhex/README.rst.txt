@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Convert-BinHex
 Versions 1.125
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-convert-binhex
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-convert-binhex
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-convert-binhex/status
                 :target: https://quay.io/repository/biocontainers/perl-convert-binhex
-
 

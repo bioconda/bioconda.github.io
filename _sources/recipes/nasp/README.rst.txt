@@ -5,14 +5,17 @@ nasp
 
 |downloads|
 
-The Northern Arizona SNP Pipeline (NASP)
+The Northern Arizona SNP Pipeline \(NASP\)
 
 ======== ===========
 Home     https://github.com/TGenNorth/nasp
 Versions 1.0.1, 1.0.2a1
 License  Academic and Research License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nasp
 .. |docker| image:: https://quay.io/repository/biocontainers/nasp/status
                 :target: https://quay.io/repository/biocontainers/nasp
-
 

@@ -5,14 +5,17 @@ sis
 
 |downloads|
 
-A tool that uses mummer to scaffold small genomes.
+A tool that uses mummer to scaffold small genomes\.
 
 ======== ===========
 Home     http://marte.ic.unicamp.br:8747/
 Versions 0.1.0, 0.1.2
 License  GPLv2+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sis
 .. |docker| image:: https://quay.io/repository/biocontainers/sis/status
                 :target: https://quay.io/repository/biocontainers/sis
-
 

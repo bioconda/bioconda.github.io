@@ -5,14 +5,17 @@ pyscaf
 
 |downloads|
 
-Genome assembly scaffolding using information from paired-end/mate-pair libraries, long reads, and synteny to closely related species.
+Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species\.
 
 ======== ===========
 Home     https://github.com/lpryszcz/pyScaf
 Versions 0.12a4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyscaf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyscaf
 .. |docker| image:: https://quay.io/repository/biocontainers/pyscaf/status
                 :target: https://quay.io/repository/biocontainers/pyscaf
-
 

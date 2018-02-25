@@ -12,7 +12,10 @@ Home     http://www.scala-lang.org/
 Versions 2.11.8
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scala
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scala
 .. |docker| image:: https://quay.io/repository/biocontainers/scala/status
                 :target: https://quay.io/repository/biocontainers/scala
-
 

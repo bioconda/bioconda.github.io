@@ -5,14 +5,17 @@ perl-getopt-argvfile
 
 |downloads|
 
-interpolates script options from files into @ARGV or another array
+interpolates script options from files into \@ARGV or another array
 
 ======== ===========
 Home     http://metacpan.org/pod/Getopt::ArgvFile
 Versions 1.11
 License  artistic_1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-argvfile/1.11
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-getopt-argvfile
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-getopt-argvfile/status
                 :target: https://quay.io/repository/biocontainers/perl-getopt-argvfile
-
 

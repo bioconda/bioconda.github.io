@@ -12,7 +12,13 @@ Home     http://www.intermine.org
 Versions 1.09.05, 1.09.09
 License  GNU Library or Lesser General Public License (LGPL) or BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intermine
+
 ======== ===========
+
+InterMine Webservice Client
+\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
+
+A Python API to access bioinformatics data warehouses powered by the InterMine platform\.
 
 Installation
 ------------
@@ -46,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/intermine
 .. |docker| image:: https://quay.io/repository/biocontainers/intermine/status
                 :target: https://quay.io/repository/biocontainers/intermine
-
 

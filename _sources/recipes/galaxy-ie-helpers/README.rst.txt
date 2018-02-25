@@ -5,14 +5,17 @@ galaxy-ie-helpers
 
 |downloads|
 
-Helper scripts to work with Galaxy's Interactive Environments
+Helper scripts to work with Galaxy\'s Interactive Environments
 
 ======== ===========
 Home     https://github.com/bgruening/galaxy_ie_helpers
 Versions 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ie-helpers
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/galaxy-ie-helpers
 .. |docker| image:: https://quay.io/repository/biocontainers/galaxy-ie-helpers/status
                 :target: https://quay.io/repository/biocontainers/galaxy-ie-helpers
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Statistics-Basic
 Versions 1.6611
 License  open_source
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-basic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-statistics-basic
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-statistics-basic/status
                 :target: https://quay.io/repository/biocontainers/perl-statistics-basic
-
 

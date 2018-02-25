@@ -5,14 +5,17 @@ perl-digest-hmac
 
 |downloads|
 
-Keyed-Hashing for Message Authentication
+Keyed\-Hashing for Message Authentication
 
 ======== ===========
 Home     http://metacpan.org/pod/Digest-HMAC
 Versions 1.03
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-digest-hmac
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-digest-hmac/status
                 :target: https://quay.io/repository/biocontainers/perl-digest-hmac
-
 

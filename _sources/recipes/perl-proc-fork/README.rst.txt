@@ -5,14 +5,17 @@ perl-proc-fork
 
 |downloads|
 
-simple, intuitive interface to the fork() system call
+simple\, intuitive interface to the fork\(\) system call
 
 ======== ===========
 Home     http://github.com/ap/Proc-Fork
 Versions 0.804
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-proc-fork
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-proc-fork
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-proc-fork/status
                 :target: https://quay.io/repository/biocontainers/perl-proc-fork
-
 

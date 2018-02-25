@@ -5,14 +5,17 @@ bioconductor-impute
 
 |downloads|
 
-Imputation for microarray data (currently KNN only)
+Imputation for microarray data \(currently KNN only\)
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/impute.html
 Versions 1.44.0, 1.46.0, 1.50.1, 1.52.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impute
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-impute
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-impute/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-impute
-
 

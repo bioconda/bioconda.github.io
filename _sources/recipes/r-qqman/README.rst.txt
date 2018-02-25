@@ -5,14 +5,17 @@ r-qqman
 
 |downloads|
 
-Create Q-Q and manhattan plots for GWAS data from PLINK results.
+Create Q\-Q and manhattan plots for GWAS data from PLINK results\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=qqman
 Versions 0.1.2, 0.1.4
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-qqman
 .. |docker| image:: https://quay.io/repository/biocontainers/r-qqman/status
                 :target: https://quay.io/repository/biocontainers/r-qqman
-
 

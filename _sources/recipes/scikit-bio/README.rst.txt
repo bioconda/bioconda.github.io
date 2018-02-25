@@ -5,14 +5,17 @@ scikit-bio
 
 |downloads|
 
-Data structures, algorithms and educational resources for bioinformatics.
+Data structures\, algorithms and educational resources for bioinformatics\.
 
 ======== ===========
 Home     http://scikit-bio.org
 Versions 0.2.3, 0.4.2
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scikit-bio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scikit-bio
 .. |docker| image:: https://quay.io/repository/biocontainers/scikit-bio/status
                 :target: https://quay.io/repository/biocontainers/scikit-bio
-
 

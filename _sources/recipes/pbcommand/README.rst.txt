@@ -5,14 +5,17 @@ pbcommand
 
 |downloads|
 
-Library and Tools for interfacing to PacBio pbsmrtpipe workflow engine.
+Library and Tools for interfacing to PacBio pbsmrtpipe workflow engine\.
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/pbcommand
 Versions 0.2.17, 0.3.29
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcommand
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pbcommand
 .. |docker| image:: https://quay.io/repository/biocontainers/pbcommand/status
                 :target: https://quay.io/repository/biocontainers/pbcommand
-
 

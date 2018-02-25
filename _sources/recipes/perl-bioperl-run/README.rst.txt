@@ -5,14 +5,17 @@ perl-bioperl-run
 
 |downloads|
 
-BioPerl-Run - wrapper toolkit
+BioPerl\-Run \- wrapper toolkit
 
 ======== ===========
 Home     http://metacpan.org/pod/BioPerl-Run
 Versions 1.006900
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-run
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bioperl-run
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bioperl-run/status
                 :target: https://quay.io/repository/biocontainers/perl-bioperl-run
-
 

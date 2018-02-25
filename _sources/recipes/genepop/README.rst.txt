@@ -5,14 +5,17 @@ genepop
 
 |downloads|
 
-The Genepop population genetics package.
+The Genepop population genetics package\.
 
 ======== ===========
 Home     http://kimura.univ-montp2.fr/~rousset/Genepop.htm
 Versions 4.5.1, 4.6
 License  CeCILL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genepop
 .. |docker| image:: https://quay.io/repository/biocontainers/genepop/status
                 :target: https://quay.io/repository/biocontainers/genepop
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/wdecoster/nanoplotter
 Versions 0.13.2, 0.13.3, 0.22.1, 0.24.1, 0.29.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplotter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoplotter
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoplotter/status
                 :target: https://quay.io/repository/biocontainers/nanoplotter
-
 

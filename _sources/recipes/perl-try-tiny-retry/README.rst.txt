@@ -5,14 +5,17 @@ perl-try-tiny-retry
 
 |downloads|
 
-Just like Try::Tiny, but with retry instead of try.
+Just like Try\:\:Tiny\, but with retry instead of try\.
 
 ======== ===========
 Home     https://github.com/dagolden/Try-Tiny-Retry
 Versions 0.002
 License  Apache-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny-retry
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-try-tiny-retry
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-try-tiny-retry/status
                 :target: https://quay.io/repository/biocontainers/perl-try-tiny-retry
-
 

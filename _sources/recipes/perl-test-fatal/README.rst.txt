@@ -12,7 +12,10 @@ Home     https://github.com/rjbs/Test-Fatal
 Versions 0.014
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-fatal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-fatal
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-fatal/status
                 :target: https://quay.io/repository/biocontainers/perl-test-fatal
-
 

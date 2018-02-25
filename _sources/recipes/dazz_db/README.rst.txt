@@ -5,14 +5,17 @@ dazz_db
 
 |downloads|
 
-DAZZ_DB: The Dazzler Data Base
+DAZZ\_DB\: The Dazzler Data Base
 
 ======== ===========
 Home     https://github.com/thegenemyers/DAZZ_DB
 Versions 1.0, 1.0p1, 1.0p2
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dazz_db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dazz_db
 .. |docker| image:: https://quay.io/repository/biocontainers/dazz_db/status
                 :target: https://quay.io/repository/biocontainers/dazz_db
-
 

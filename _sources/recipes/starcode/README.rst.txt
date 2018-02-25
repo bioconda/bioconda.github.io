@@ -5,14 +5,17 @@ starcode
 
 |downloads|
 
-Starcode: sequence clustering based on all-pairs search
+Starcode\: sequence clustering based on all\-pairs search
 
 ======== ===========
 Home     https://github.com/gui11aume/starcode
 Versions 1.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/starcode
 .. |docker| image:: https://quay.io/repository/biocontainers/starcode/status
                 :target: https://quay.io/repository/biocontainers/starcode
-
 

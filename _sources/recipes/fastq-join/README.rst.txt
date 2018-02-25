@@ -5,14 +5,17 @@ fastq-join
 
 |downloads|
 
-Similar to audy's stitch program, but in C, more efficient and supports some automatic benchmarking and tuning. It uses the same "squared distance for anchored alignment" as other tools.
+Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning\. It uses the same \"squared distance for anchored alignment\" as other tools\.
 
 ======== ===========
 Home     https://github.com/brwnj/fastq-join
 Versions 1.3.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-join
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastq-join
 .. |docker| image:: https://quay.io/repository/biocontainers/fastq-join/status
                 :target: https://quay.io/repository/biocontainers/fastq-join
-
 

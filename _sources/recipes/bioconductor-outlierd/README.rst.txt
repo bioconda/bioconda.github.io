@@ -5,14 +5,17 @@ bioconductor-outlierd
 
 |downloads|
 
-This package detects outliers using quantile regression on the M-A scatterplots of high-throughput data.
+This package detects outliers using quantile regression on the M\-A scatterplots of high\-throughput data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/OutlierD.html
 Versions 1.40.0, 1.42.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outlierd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-outlierd
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-outlierd/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-outlierd
-
 

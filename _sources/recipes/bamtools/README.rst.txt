@@ -5,14 +5,17 @@ bamtools
 
 |downloads|
 
-C++ API & command-line toolkit for working with BAM data
+C\+\+ API \& command\-line toolkit for working with BAM data
 
 ======== ===========
 Home     https://github.com/pezmaster31/bamtools
 Versions 2.3.0, 2.4.0, 2.4.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bamtools
 .. |docker| image:: https://quay.io/repository/biocontainers/bamtools/status
                 :target: https://quay.io/repository/biocontainers/bamtools
-
 

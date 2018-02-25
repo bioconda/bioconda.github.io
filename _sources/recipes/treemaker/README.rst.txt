@@ -12,7 +12,10 @@ Home     https://github.com/SimonGreenhill/treemaker
 Versions 1.1
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/treemaker
 .. |docker| image:: https://quay.io/repository/biocontainers/treemaker/status
                 :target: https://quay.io/repository/biocontainers/treemaker
-
 

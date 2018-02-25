@@ -12,7 +12,10 @@ Home     http://trimal.cgenomics.org
 Versions 1.4.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal/1.4.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trimal
 .. |docker| image:: https://quay.io/repository/biocontainers/trimal/status
                 :target: https://quay.io/repository/biocontainers/trimal
-
 

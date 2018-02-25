@@ -5,14 +5,17 @@ perl-indirect
 
 |downloads|
 
-Lexically warn about using the indirect method call syntax.
+Lexically warn about using the indirect method call syntax\.
 
 ======== ===========
 Home     http://search.cpan.org/dist/indirect/
 Versions 0.38
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-indirect
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-indirect
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-indirect/status
                 :target: https://quay.io/repository/biocontainers/perl-indirect
-
 

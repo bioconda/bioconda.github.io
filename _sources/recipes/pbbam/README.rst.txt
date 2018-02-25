@@ -5,14 +5,17 @@ pbbam
 
 |downloads|
 
-PacBio BAM C++ library, with SWIG bindings
+PacBio BAM C\+\+ library\, with SWIG bindings
 
 ======== ===========
 Home     https://github.com/PacificBiosciences/pbbam
 Versions 0.1
 License  BSD-3-Clause-Clear
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbbam
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pbbam
 .. |docker| image:: https://quay.io/repository/biocontainers/pbbam/status
                 :target: https://quay.io/repository/biocontainers/pbbam
-
 

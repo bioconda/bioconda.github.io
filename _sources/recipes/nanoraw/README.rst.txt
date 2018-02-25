@@ -5,14 +5,17 @@ nanoraw
 
 |downloads|
 
-Analysis of nanopore sequencing data.
+Analysis of nanopore sequencing data\.
 
 ======== ===========
 Home     https://github.com/marcus1487/nanoraw
 Versions 0.2, 0.3.1, 0.4.1, 0.4.2, 0.5
 License  Other
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoraw
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nanoraw
 .. |docker| image:: https://quay.io/repository/biocontainers/nanoraw/status
                 :target: https://quay.io/repository/biocontainers/nanoraw
-
 

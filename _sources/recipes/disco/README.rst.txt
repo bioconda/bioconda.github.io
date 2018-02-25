@@ -5,14 +5,17 @@ disco
 
 |downloads|
 
-Multi-threaded Distributed Memory Overlap-Layout-Consensus (OLC) Metagenome Assembler
+Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler
 
 ======== ===========
 Home     http://disco.omicsbio.org/
 Versions 1.0, 1.2
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/disco
 .. |docker| image:: https://quay.io/repository/biocontainers/disco/status
                 :target: https://quay.io/repository/biocontainers/disco
-
 

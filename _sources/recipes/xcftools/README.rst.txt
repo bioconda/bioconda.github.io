@@ -5,14 +5,17 @@ xcftools
 
 |downloads|
 
-Provides xcf2pnm, xcf2png, and xcfinfo binaries
+Provides xcf2pnm\, xcf2png\, and xcfinfo binaries
 
 ======== ===========
 Home     https://github.com/j-jorge/xcftools
 Versions 1.0.7
 License  GPL v2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xcftools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xcftools
 .. |docker| image:: https://quay.io/repository/biocontainers/xcftools/status
                 :target: https://quay.io/repository/biocontainers/xcftools
-
 

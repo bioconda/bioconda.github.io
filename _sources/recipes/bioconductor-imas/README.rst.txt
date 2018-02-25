@@ -5,14 +5,17 @@ bioconductor-imas
 
 |downloads|
 
-Integrative analysis of Multi-omics data for Alternative splicing.
+Integrative analysis of Multi\-omics data for Alternative splicing\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/IMAS.html
 Versions 1.2.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imas
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-imas
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-imas/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-imas
-
 

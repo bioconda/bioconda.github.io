@@ -5,14 +5,17 @@ bioconductor-ncdfflow
 
 |downloads|
 
-Provides HDF5 storage based methods and functions for manipulation of flow cytometry data.
+Provides HDF5 storage based methods and functions for manipulation of flow cytometry data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ncdfFlow.html
 Versions 2.22.0, 2.22.2, 2.24.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncdfflow
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ncdfflow
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ncdfflow/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ncdfflow
-
 

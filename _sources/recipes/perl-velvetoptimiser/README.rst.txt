@@ -5,14 +5,17 @@ perl-velvetoptimiser
 
 |downloads|
 
-Automatically optimise three of Velvet's assembly parameters.
+Automatically optimise three of Velvet\'s assembly parameters\.
 
 ======== ===========
 Home     https://github.com/tseemann/VelvetOptimiser
 Versions 2.2.5
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-velvetoptimiser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-velvetoptimiser
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-velvetoptimiser/status
                 :target: https://quay.io/repository/biocontainers/perl-velvetoptimiser
-
 

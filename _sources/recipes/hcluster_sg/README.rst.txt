@@ -12,7 +12,10 @@ Home     https://github.com/douglasgscofield/hcluster
 Versions 0.5.1
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hcluster_sg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hcluster_sg
 .. |docker| image:: https://quay.io/repository/biocontainers/hcluster_sg/status
                 :target: https://quay.io/repository/biocontainers/hcluster_sg
-
 

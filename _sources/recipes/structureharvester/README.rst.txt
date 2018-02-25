@@ -5,14 +5,17 @@ structureharvester
 
 |downloads|
 
-structureHarvester.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
+structureHarvester\.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
 
 ======== ===========
 Home     http://alumni.soe.ucsc.edu/~dearl/software/structureHarvester/
 Versions 0.6.94
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structureharvester
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/structureharvester
 .. |docker| image:: https://quay.io/repository/biocontainers/structureharvester/status
                 :target: https://quay.io/repository/biocontainers/structureharvester
-
 

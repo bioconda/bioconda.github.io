@@ -5,14 +5,17 @@ ucsc-crtreesearchbed
 
 |downloads|
 
-Search a crTree indexed bed file and print all items that overlap query.
+Search a crTree indexed bed file and print all items that overlap query\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-crtreesearchbed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-crtreesearchbed
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed/status
                 :target: https://quay.io/repository/biocontainers/ucsc-crtreesearchbed
-
 

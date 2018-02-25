@@ -5,14 +5,17 @@ pypiper
 
 |downloads|
 
-Pypiper is a lightweight python toolkit that helps you write slick pipelines in python.
+Pypiper is a lightweight python toolkit that helps you write slick pipelines in python\.
 
 ======== ===========
 Home     http://pypiper.readthedocs.io/en/latest/
 Versions 0.6
 License  None
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypiper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pypiper
 .. |docker| image:: https://quay.io/repository/biocontainers/pypiper/status
                 :target: https://quay.io/repository/biocontainers/pypiper
-
 

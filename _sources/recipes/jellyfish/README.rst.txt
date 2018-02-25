@@ -5,14 +5,17 @@ jellyfish
 
 |downloads|
 
-Jellyfish is a tool for fast, memory-efficient counting of k-mers in DNA. A k-mer is a substring of length k, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA\. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
 
 ======== ===========
 Home     http://www.genome.umd.edu/jellyfish.html
 Versions 1.1.11, 2.2.3, 2.2.6
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jellyfish
 .. |docker| image:: https://quay.io/repository/biocontainers/jellyfish/status
                 :target: https://quay.io/repository/biocontainers/jellyfish
-
 

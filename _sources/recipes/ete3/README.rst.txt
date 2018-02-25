@@ -12,7 +12,10 @@ Home     http://etetoolkit.org/
 Versions 3.0.0b35, 3.1.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ete3
 .. |docker| image:: https://quay.io/repository/biocontainers/ete3/status
                 :target: https://quay.io/repository/biocontainers/ete3
-
 

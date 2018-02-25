@@ -12,7 +12,10 @@ Home     https://github.com/tseemann/snippy
 Versions 2.9, 3.0, 3.1, 3.2
 License  GPL2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/snippy
 .. |docker| image:: https://quay.io/repository/biocontainers/snippy/status
                 :target: https://quay.io/repository/biocontainers/snippy
-
 

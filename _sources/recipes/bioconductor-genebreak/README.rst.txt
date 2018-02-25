@@ -5,14 +5,17 @@ bioconductor-genebreak
 
 |downloads|
 
-Recurrent breakpoint gene detection on copy number aberration profiles.
+Recurrent breakpoint gene detection on copy number aberration profiles\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GeneBreak.html
 Versions 1.4.0, 1.6.0, 1.8.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genebreak
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genebreak
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genebreak/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genebreak
-
 

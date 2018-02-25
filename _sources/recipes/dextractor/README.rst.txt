@@ -12,7 +12,10 @@ Home     https://github.com/thegenemyers/DEXTRACTOR
 Versions 1.0p1, 1.0p2
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dextractor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dextractor
 .. |docker| image:: https://quay.io/repository/biocontainers/dextractor/status
                 :target: https://quay.io/repository/biocontainers/dextractor
-
 

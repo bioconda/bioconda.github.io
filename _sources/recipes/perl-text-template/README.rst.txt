@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Text::Template
 Versions 1.46
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template/1.46
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-template
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-template/status
                 :target: https://quay.io/repository/biocontainers/perl-text-template
-
 

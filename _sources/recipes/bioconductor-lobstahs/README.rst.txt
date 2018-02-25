@@ -5,14 +5,17 @@ bioconductor-lobstahs
 
 |downloads|
 
-LOBSTAHS is a multifunction package for screening, annotation, and putative identification of mass spectral features in large, HPLC-MS lipid datasets. In silico data for a wide range of lipids, oxidized lipids, and oxylipins can be generated from user-supplied structural criteria with a database generation function. LOBSTAHS then applies these databases to assign putative compound identities to features in any high-mass accuracy dataset that has been processed using xcms and CAMERA. Users can then apply a series of orthogonal screening criteria based on adduct ion formation patterns, chromatographic retention time, and other properties, to evaluate and assign confidence scores to this list of preliminary assignments. During the screening routine, LOBSTAHS rejects assignments that do not meet the specified criteria, identifies potential isomers and isobars, and assigns a variety of annotation codes to assist the user in evaluating the accuracy of each assignment.
+LOBSTAHS is a multifunction package for screening\, annotation\, and putative identification of mass spectral features in large\, HPLC\-MS lipid datasets\. In silico data for a wide range of lipids\, oxidized lipids\, and oxylipins can be generated from user\-supplied structural criteria with a database generation function\. LOBSTAHS then applies these databases to assign putative compound identities to features in any high\-mass accuracy dataset that has been processed using xcms and CAMERA\. Users can then apply a series of orthogonal screening criteria based on adduct ion formation patterns\, chromatographic retention time\, and other properties\, to evaluate and assign confidence scores to this list of preliminary assignments\. During the screening routine\, LOBSTAHS rejects assignments that do not meet the specified criteria\, identifies potential isomers and isobars\, and assigns a variety of annotation codes to assist the user in evaluating the accuracy of each assignment\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/LOBSTAHS.html
 Versions 1.4.0
 License  GPL (>= 3) + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lobstahs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-lobstahs
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lobstahs/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-lobstahs
-
 

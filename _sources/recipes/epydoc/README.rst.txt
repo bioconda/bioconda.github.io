@@ -5,14 +5,17 @@ epydoc
 
 |downloads|
 
-Edward Loper's API Documentation Generation Tool
+Edward Loper\'s API Documentation Generation Tool
 
 ======== ===========
 Home     http://epydoc.sourceforge.net
 Versions 3.0.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epydoc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/epydoc
 .. |docker| image:: https://quay.io/repository/biocontainers/epydoc/status
                 :target: https://quay.io/repository/biocontainers/epydoc
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Data-Utilities
 Versions 0.04
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-utilities/0.04
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-utilities
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-utilities/status
                 :target: https://quay.io/repository/biocontainers/perl-data-utilities
-
 

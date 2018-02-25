@@ -5,14 +5,17 @@ perl-io-scalar
 
 |downloads|
 
-IO:: interface for reading/writing a scalar
+IO\:\: interface for reading\/writing a scalar
 
 ======== ===========
 Home     http://metacpan.org/pod/IO::Scalar
 Versions 2.111
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar/2.111
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-scalar
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-scalar/status
                 :target: https://quay.io/repository/biocontainers/perl-io-scalar
-
 

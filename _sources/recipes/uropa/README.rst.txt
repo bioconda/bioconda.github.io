@@ -5,9 +5,9 @@ uropa
 
 |downloads|
 
-UROPA (Universal RObust Peak Annotator) is a command line based tool, intended for genomic region annotation from e.g. peak calling.
-It detects the most appropriate annotation by taking parameters such as feature type, anchor, direction and strand into account.
-Furthermore, it allows filtering for GTF attribute values, e.g. protein_coding.
+UROPA \(Universal RObust Peak Annotator\) is a command line based tool\, intended for genomic region annotation from e\.g\. peak calling\.
+It detects the most appropriate annotation by taking parameters such as feature type\, anchor\, direction and strand into account\.
+Furthermore\, it allows filtering for GTF attribute values\, e\.g\. protein\_coding\.
 
 
 ======== ===========
@@ -15,7 +15,10 @@ Home     https://github.molgen.mpg.de/loosolab/UROPA
 Versions 1.2.1, 2.0.0a0, 2.0.2a0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uropa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -49,5 +52,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/uropa
 .. |docker| image:: https://quay.io/repository/biocontainers/uropa/status
                 :target: https://quay.io/repository/biocontainers/uropa
-
 

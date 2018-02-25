@@ -5,14 +5,17 @@ fishtaco
 
 |downloads|
 
-FishTaco: a metagenomic computational framework, aiming to identify the taxa that are driving functional shifts in microbiomes.
+FishTaco\: a metagenomic computational framework\, aiming to identify the taxa that are driving functional shifts in microbiomes\.
 
 ======== ===========
 Home     https://github.com/borenstein-lab/fishtaco/
 Versions 1.0.5, 1.1.1
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fishtaco
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update fishtaco
 
+
 Notes
 -----
+With FishTaco 1\.1\.0 the license has been changed such that 1\.1\.0 and 1\.1\.1 cannot be distributed in the Bioconda channel\. DO NOT update the recipe to those versions\! See https\:\/\/github\.com\/borenstein\-lab\/fishtaco\/issues\/2\.
 
-With FishTaco 1.1.0 the license has been changed such that 1.1.0 and 1.1.1 cannot be distributed in the Bioconda channel. DO NOT update the recipe to those versions! See https://github.com/borenstein-lab/fishtaco/issues/2.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fishtaco
 .. |docker| image:: https://quay.io/repository/biocontainers/fishtaco/status
                 :target: https://quay.io/repository/biocontainers/fishtaco
-
 

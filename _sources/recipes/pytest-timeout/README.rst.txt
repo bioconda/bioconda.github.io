@@ -5,14 +5,17 @@ pytest-timeout
 
 |downloads|
 
-py.test plugin to abort hanging tests
+py\.test plugin to abort hanging tests
 
 ======== ===========
 Home     http://bitbucket.org/pytest-dev/pytest-timeout/
 Versions 1.0.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-timeout
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pytest-timeout
 .. |docker| image:: https://quay.io/repository/biocontainers/pytest-timeout/status
                 :target: https://quay.io/repository/biocontainers/pytest-timeout
-
 

@@ -5,14 +5,17 @@ bioconductor-treeio
 
 |downloads|
 
-Base classes and functions for parsing and exporting phylogenetic trees.
+Base classes and functions for parsing and exporting phylogenetic trees\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/treeio.html
 Versions 1.0.2, 1.2.0, 1.2.1
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-treeio
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-treeio
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-treeio/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-treeio
-
 

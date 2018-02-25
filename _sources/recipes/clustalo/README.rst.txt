@@ -5,14 +5,17 @@ clustalo
 
 |downloads|
 
-Latest version of Clustal: a multiple sequence alignment program for DNA or proteins
+Latest version of Clustal\: a multiple sequence alignment program for DNA or proteins
 
 ======== ===========
 Home     http://www.clustal.org/omega/
 Versions 1.2.3, 1.2.4
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustalo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clustalo
 .. |docker| image:: https://quay.io/repository/biocontainers/clustalo/status
                 :target: https://quay.io/repository/biocontainers/clustalo
-
 

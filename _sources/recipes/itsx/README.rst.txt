@@ -5,14 +5,17 @@ itsx
 
 |downloads|
 
-ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences, which is commonly used as a molecular barcode for e.g. fungi.
+ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e\.g\. fungi\.
 
 ======== ===========
 Home     http://microbiology.se/software/itsx/
 Versions 1.1b
 License  GNU General Public License v3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/itsx
 .. |docker| image:: https://quay.io/repository/biocontainers/itsx/status
                 :target: https://quay.io/repository/biocontainers/itsx
-
 

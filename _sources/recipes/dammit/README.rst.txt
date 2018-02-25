@@ -12,7 +12,10 @@ Home     http://www.camillescott.org/dammit/
 Versions 0.3, 0.3.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dammit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dammit
 .. |docker| image:: https://quay.io/repository/biocontainers/dammit/status
                 :target: https://quay.io/repository/biocontainers/dammit
-
 

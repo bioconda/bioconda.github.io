@@ -12,7 +12,10 @@ Home     https://github.com/rrwick/Unicycler
 Versions 0.2.0, 0.3.0b, 0.4.1, 0.4.4
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/unicycler
 .. |docker| image:: https://quay.io/repository/biocontainers/unicycler/status
                 :target: https://quay.io/repository/biocontainers/unicycler
-
 

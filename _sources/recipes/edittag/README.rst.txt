@@ -5,14 +5,17 @@ edittag
 
 |downloads|
 
-Design and check sets of edit metric sequence tags.
+Design and check sets of edit metric sequence tags\.
 
 ======== ===========
 Home     http://github.com/faircloth-lab/edittag/
 Versions 1.1
 License  http://www.opensource.org/licenses/BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edittag
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/edittag
 .. |docker| image:: https://quay.io/repository/biocontainers/edittag/status
                 :target: https://quay.io/repository/biocontainers/edittag
-
 

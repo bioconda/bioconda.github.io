@@ -12,7 +12,10 @@ Home     https://github.com/AstraZeneca-NGS/VarDict
 Versions 2015.10.30, 2016.01.27, 2016.02.19, 2016.12.02, 2017.01.27, 2017.02.01, 2017.02.10, 2017.02.16, 2017.04.18, 2017.09.24, 2017.11.23
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/vardict
 .. |docker| image:: https://quay.io/repository/biocontainers/vardict/status
                 :target: https://quay.io/repository/biocontainers/vardict
-
 

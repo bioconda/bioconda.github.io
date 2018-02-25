@@ -5,14 +5,17 @@ bcbio-rnaseq
 
 |downloads|
 
-Report generation for bcbio-nextgen RNA-seq runs
+Report generation for bcbio\-nextgen RNA\-seq runs
 
 ======== ===========
 Home     https://github.com/roryk/bcbio.rnaseq
 Versions 1.0.3, 1.0.4, 1.1.1, 1.2.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-rnaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcbio-rnaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bcbio-rnaseq/status
                 :target: https://quay.io/repository/biocontainers/bcbio-rnaseq
-
 

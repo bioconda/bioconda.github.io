@@ -5,14 +5,17 @@ perl-bio-phylo
 
 |downloads|
 
-An object-oriented Perl toolkit for analyzing and manipulating phyloinformatic data.
+An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data\.
 
 ======== ===========
 Home     http://biophylo.blogspot.com/
 Versions 0.58
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-phylo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-bio-phylo
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-bio-phylo/status
                 :target: https://quay.io/repository/biocontainers/perl-bio-phylo
-
 

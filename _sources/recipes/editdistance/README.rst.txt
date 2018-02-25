@@ -5,14 +5,17 @@ editdistance
 
 |downloads|
 
-Fast implementation of the edit distance (Levenshtein distance)
+Fast implementation of the edit distance \(Levenshtein distance\)
 
 ======== ===========
 Home     https://www.github.com/aflc/editdistance
 Versions 0.3.1, 0.4
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/editdistance
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/editdistance
 .. |docker| image:: https://quay.io/repository/biocontainers/editdistance/status
                 :target: https://quay.io/repository/biocontainers/editdistance
-
 

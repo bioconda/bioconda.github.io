@@ -5,14 +5,17 @@ metavelvet-sl-pipeline
 
 |downloads|
 
-Perl libraries that run the full pipeline for metavelvet-sl
+Perl libraries that run the full pipeline for metavelvet\-sl
 
 ======== ===========
 Home     http://metavelvet.dna.bio.keio.ac.jp/MSL.html
 Versions 1.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-pipeline
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metavelvet-sl-pipeline
 .. |docker| image:: https://quay.io/repository/biocontainers/metavelvet-sl-pipeline/status
                 :target: https://quay.io/repository/biocontainers/metavelvet-sl-pipeline
-
 

@@ -5,10 +5,10 @@ jaffa
 
 |downloads|
 
-JAFFA is a multi-step pipeline that takes either raw RNA-Seq reads, or pre-assembled transcripts then searches
-for gene fusions.  This package contains the wrappers jaffa-direct, jaffa-assembly, and jaffa-hybrid.
-You can pass the "refSeq" parameter in the environment variables JAFFA_REF_BASE. Otherwise, pass any paramters
-to the wrappers as you would to the bpipe JAFFA_{method} call in the manual.
+JAFFA is a multi\-step pipeline that takes either raw RNA\-Seq reads\, or pre\-assembled transcripts then searches
+for gene fusions\.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid\.
+You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_BASE\. Otherwise\, pass any paramters
+to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual\.
 
 
 ======== ===========
@@ -16,7 +16,10 @@ Home     https://github.com/Oshlack/JAFFA
 Versions 1.08, 1.09
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -50,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jaffa
 .. |docker| image:: https://quay.io/repository/biocontainers/jaffa/status
                 :target: https://quay.io/repository/biocontainers/jaffa
-
 

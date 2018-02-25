@@ -5,14 +5,17 @@ ndex-python
 
 |downloads|
 
-NDEx Python includes a client and a data model.
+NDEx Python includes a client and a data model\.
 
 ======== ===========
 Home     https://github.com/ndexbio/ndex-python
 Versions 3.0.11.23
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ndex-python
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ndex-python
 .. |docker| image:: https://quay.io/repository/biocontainers/ndex-python/status
                 :target: https://quay.io/repository/biocontainers/ndex-python
-
 

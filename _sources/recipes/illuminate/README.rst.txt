@@ -5,14 +5,17 @@ illuminate
 
 |downloads|
 
-Analytics toolkit for Illumina sequencer metrics.
+Analytics toolkit for Illumina sequencer metrics\.
 
 ======== ===========
 Home     https://bitbucket.org/invitae/illuminate
 Versions 0.6.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illuminate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/illuminate
 .. |docker| image:: https://quay.io/repository/biocontainers/illuminate/status
                 :target: https://quay.io/repository/biocontainers/illuminate
-
 

@@ -5,14 +5,17 @@ downpore
 
 |downloads|
 
-Suite of tools for use in genome assembly and consensus.
+Suite of tools for use in genome assembly and consensus\.
 
 ======== ===========
 Home     https://github.com/jteutenberg/downpore
 Versions 0.1.1, 0.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/downpore
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/downpore
 .. |docker| image:: https://quay.io/repository/biocontainers/downpore/status
                 :target: https://quay.io/repository/biocontainers/downpore
-
 

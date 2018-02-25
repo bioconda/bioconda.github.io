@@ -5,14 +5,17 @@ biofluff
 
 |downloads|
 
-Exploratory analysis and visualization of high-throughput sequencing data
+Exploratory analysis and visualization of high\-throughput sequencing data
 
 ======== ===========
 Home     https://github.com/simonvh/fluff
 Versions 2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.1.2, 2.1.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biofluff
 .. |docker| image:: https://quay.io/repository/biocontainers/biofluff/status
                 :target: https://quay.io/repository/biocontainers/biofluff
-
 

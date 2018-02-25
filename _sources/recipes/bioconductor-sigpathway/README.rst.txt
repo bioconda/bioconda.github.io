@@ -5,14 +5,17 @@ bioconductor-sigpathway
 
 |downloads|
 
-Conducts pathway analysis by calculating the NT_k and NE_k statistics as described in Tian et al. (2005)
+Conducts pathway analysis by calculating the NT\_k and NE\_k statistics as described in Tian et al\. \(2005\)
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/sigPathway.html
 Versions 1.44.1, 1.46.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigpathway
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-sigpathway
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-sigpathway/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-sigpathway
-
 

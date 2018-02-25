@@ -12,7 +12,10 @@ Home     http://orthomcl.org/orthomcl/
 Versions 2.0.9
 License  EuPathDB Bioinformatics Resource Center
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthomcl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/orthomcl
 .. |docker| image:: https://quay.io/repository/biocontainers/orthomcl/status
                 :target: https://quay.io/repository/biocontainers/orthomcl
-
 

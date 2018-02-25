@@ -5,14 +5,17 @@ shellescape
 
 |downloads|
 
-Shell escape a string to safely use it as a token in a shell command (backport of Python shlex.quote for Python versions 2.x & < 3.3)
+Shell escape a string to safely use it as a token in a shell command \(backport of Python shlex\.quote for Python versions 2\.x \& \< 3\.3\)
 
 ======== ===========
 Home     https://github.com/chrissimpkins/shellescape
 Versions 3.4.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shellescape
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/shellescape
 .. |docker| image:: https://quay.io/repository/biocontainers/shellescape/status
                 :target: https://quay.io/repository/biocontainers/shellescape
-
 

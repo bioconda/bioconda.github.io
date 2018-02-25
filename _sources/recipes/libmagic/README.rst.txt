@@ -5,14 +5,17 @@ libmagic
 
 |downloads|
 
-Implementation of the file(1) command
+Implementation of the file\(1\) command
 
 ======== ===========
 Home     http://www.darwinsys.com/file/
 Versions 5.25
 License  https://raw.githubusercontent.com/file/file/master/COPYING
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmagic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/libmagic
 .. |docker| image:: https://quay.io/repository/biocontainers/libmagic/status
                 :target: https://quay.io/repository/biocontainers/libmagic
-
 

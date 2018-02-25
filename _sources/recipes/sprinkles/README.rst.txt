@@ -5,14 +5,17 @@ sprinkles
 
 |downloads|
 
-Plugins! Easy!
+Plugins\! Easy\!
 
 ======== ===========
 Home     http://an9.org/w/SprinklesPy
 Versions 0.4.6
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sprinkles
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sprinkles
 .. |docker| image:: https://quay.io/repository/biocontainers/sprinkles/status
                 :target: https://quay.io/repository/biocontainers/sprinkles
-
 

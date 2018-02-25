@@ -12,7 +12,10 @@ Home     https://github.com/percolator/pout2mzid
 Versions 0.3.03
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pout2mzid
 .. |docker| image:: https://quay.io/repository/biocontainers/pout2mzid/status
                 :target: https://quay.io/repository/biocontainers/pout2mzid
-
 

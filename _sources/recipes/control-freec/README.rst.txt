@@ -6,7 +6,7 @@ control-freec
 |downloads|
 
 Copy number and genotype annotation from whole genome and whole exome
-sequencing data.
+sequencing data\.
 
 
 ======== ===========
@@ -14,7 +14,10 @@ Home     https://github.com/BoevaLab/FREEC
 Versions 10.5, 10.6
 License  GPL (>=2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -29,13 +32,14 @@ and update with::
 
    conda update control-freec
 
+
 Notes
 -----
+The tool will be available as \`freec\` in the command line\.
+See the homepage for example config files\. Auxiliary scripts
+like e\.g\. freec2bed\.pl and freec2circos\.pl \(see homepage\) are available in the
+command line as well\.
 
-The tool will be available as `freec` in the command line.
-See the homepage for example config files. Auxiliary scripts
-like e.g. freec2bed.pl and freec2circos.pl (see homepage) are available in the
-command line as well.
 
 
 |docker|
@@ -55,5 +59,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/control-freec
 .. |docker| image:: https://quay.io/repository/biocontainers/control-freec/status
                 :target: https://quay.io/repository/biocontainers/control-freec
-
 

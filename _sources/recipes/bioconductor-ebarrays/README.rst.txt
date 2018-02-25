@@ -5,14 +5,17 @@ bioconductor-ebarrays
 
 |downloads|
 
-EBarrays provides tools for the analysis of replicated/unreplicated microarray data.
+EBarrays provides tools for the analysis of replicated\/unreplicated microarray data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/EBarrays.html
 Versions 2.40.0, 2.42.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebarrays
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ebarrays
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ebarrays/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ebarrays
-
 

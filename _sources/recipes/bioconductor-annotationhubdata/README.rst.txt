@@ -5,14 +5,17 @@ bioconductor-annotationhubdata
 
 |downloads|
 
-These recipes convert a wide variety and a growing number of public bioinformatic data sets into easily-used standard Bioconductor data structures.
+These recipes convert a wide variety and a growing number of public bioinformatic data sets into easily\-used standard Bioconductor data structures\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/AnnotationHubData.html
 Versions 1.8.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationhubdata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-annotationhubdata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-annotationhubdata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-annotationhubdata
-
 

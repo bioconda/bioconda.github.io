@@ -5,14 +5,17 @@ perl-io-handle
 
 |downloads|
 
-supply object methods for I/O handles
+supply object methods for I\/O handles
 
 ======== ===========
 Home     http://metacpan.org/pod/IO::Handle
 Versions 1.35
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-handle/1.35
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-handle
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-handle/status
                 :target: https://quay.io/repository/biocontainers/perl-io-handle
-
 

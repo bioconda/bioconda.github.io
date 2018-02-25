@@ -5,14 +5,17 @@ python-cluster
 
 |downloads|
 
-python-cluster is a "simple" package that allows to create several groups (clusters) of objects from a list
+python\-cluster is a \"simple\" package that allows to create several groups \(clusters\) of objects from a list
 
 ======== ===========
 Home     https://github.com/exhuma/python-cluster
 Versions 1.3.3
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/python-cluster
 .. |docker| image:: https://quay.io/repository/biocontainers/python-cluster/status
                 :target: https://quay.io/repository/biocontainers/python-cluster
-
 

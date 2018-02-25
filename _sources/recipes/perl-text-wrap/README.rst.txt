@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Text::Wrap
 Versions 2013.0523
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-wrap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-wrap
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-wrap/status
                 :target: https://quay.io/repository/biocontainers/perl-text-wrap
-
 

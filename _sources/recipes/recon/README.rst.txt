@@ -5,14 +5,17 @@ recon
 
 |downloads|
 
-The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
+The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences\.
 
 ======== ===========
 Home     http://eddylab.org/software/recon/
 Versions 1.08
 License  GNU General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/recon
 .. |docker| image:: https://quay.io/repository/biocontainers/recon/status
                 :target: https://quay.io/repository/biocontainers/recon
-
 

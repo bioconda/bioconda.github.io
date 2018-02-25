@@ -5,14 +5,17 @@ lightning
 
 |downloads|
 
-lightning is a library for large-scale linear classification, regression and ranking in Python
+lightning is a library for large\-scale linear classification\, regression and ranking in Python
 
 ======== ===========
 Home     http://contrib.scikit-learn.org/lightning/
 Versions 0.2.dev0
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightning
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/lightning
 .. |docker| image:: https://quay.io/repository/biocontainers/lightning/status
                 :target: https://quay.io/repository/biocontainers/lightning
-
 

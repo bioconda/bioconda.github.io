@@ -12,7 +12,10 @@ Home     https://github.com/xavierdidelot/ClonalFrameML
 Versions 1.11
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clonalframeml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clonalframeml
 .. |docker| image:: https://quay.io/repository/biocontainers/clonalframeml/status
                 :target: https://quay.io/repository/biocontainers/clonalframeml
-
 

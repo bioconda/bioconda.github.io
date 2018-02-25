@@ -5,14 +5,17 @@ bucketcache
 
 |downloads|
 
-Versatile persisent file cache.
+Versatile persisent file cache\.
 
 ======== ===========
 Home     https://github.com/RazerM/bucketcache
 Versions 0.12.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bucketcache
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bucketcache
 .. |docker| image:: https://quay.io/repository/biocontainers/bucketcache/status
                 :target: https://quay.io/repository/biocontainers/bucketcache
-
 

@@ -5,14 +5,17 @@ perl-statistics-descriptive
 
 |downloads|
 
-Module of basic descriptive statistical functions.
+Module of basic descriptive statistical functions\.
 
 ======== ===========
 Home     http://web-cpan.shlomifish.org/modules/Statistics-Descriptive/
 Versions 3.0609, 3.0612
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-descriptive
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-statistics-descriptive
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-statistics-descriptive/status
                 :target: https://quay.io/repository/biocontainers/perl-statistics-descriptive
-
 

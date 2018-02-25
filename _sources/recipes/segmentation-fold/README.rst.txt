@@ -5,14 +5,17 @@ segmentation-fold
 
 |downloads|
 
-RNA-Folding with predefined segments including K-turns and loop-E-motifs
+RNA\-Folding with predefined segments including K\-turns and loop\-E\-motifs
 
 ======== ===========
 Home     https://github.com/yhoogstrate/segmentation-fold
 Versions 1.6.8, 1.7.0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segmentation-fold
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/segmentation-fold
 .. |docker| image:: https://quay.io/repository/biocontainers/segmentation-fold/status
                 :target: https://quay.io/repository/biocontainers/segmentation-fold
-
 

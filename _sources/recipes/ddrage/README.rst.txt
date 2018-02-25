@@ -5,14 +5,17 @@ ddrage
 
 |downloads|
 
-Simulator for ddRADseq (double digest restriction site associdated DNA squencing) datasets. Generates reads (FASTQ format) that can be analyzed and validated using a ground truth file (YAML).
+Simulator for ddRADseq \(double digest restriction site associdated DNA squencing\) datasets\. Generates reads \(FASTQ format\) that can be analyzed and validated using a ground truth file \(YAML\)\.
 
 ======== ===========
 Home     https://bitbucket.org/genomeinformatics/rage
 Versions 1.1.4, 1.2.2, 1.3.0, 1.3.1, 1.4.0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddrage
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ddrage
 .. |docker| image:: https://quay.io/repository/biocontainers/ddrage/status
                 :target: https://quay.io/repository/biocontainers/ddrage
-
 

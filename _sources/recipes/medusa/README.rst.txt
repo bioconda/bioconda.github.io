@@ -5,10 +5,10 @@ medusa-data-fusion
 
 |downloads|
 
-Medusa is an approach to detect size-k modules of objects that, taken together,
-appear most significant to another set of objects. It builds on collective
-matrix factorization to derive different semantics, and it formulates the
-growing of the modules as a submodular optimization program.
+Medusa is an approach to detect size\-k modules of objects that\, taken together\,
+appear most significant to another set of objects\. It builds on collective
+matrix factorization to derive different semantics\, and it formulates the
+growing of the modules as a submodular optimization program\.
 
 
 ======== ===========
@@ -16,7 +16,10 @@ Home     https://github.com/marinkaz/medusa
 Versions 0.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medusa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -50,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/medusa-data-fusion
 .. |docker| image:: https://quay.io/repository/biocontainers/medusa-data-fusion/status
                 :target: https://quay.io/repository/biocontainers/medusa-data-fusion
-
 

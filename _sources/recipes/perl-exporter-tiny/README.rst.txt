@@ -5,14 +5,17 @@ perl-exporter-tiny
 
 |downloads|
 
-Exporter with the features of Sub::Exporter but only core dependencies
+Exporter with the features of Sub\:\:Exporter but only core dependencies
 
 ======== ===========
 Home     https://metacpan.org/release/Exporter-Tiny
 Versions 0.042
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-exporter-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-exporter-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-exporter-tiny
-
 

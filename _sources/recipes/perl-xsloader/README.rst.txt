@@ -12,7 +12,10 @@ Home     https://metacpan.org/module/Math::BigInt
 Versions 0.16, 0.22
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xsloader
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xsloader
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xsloader/status
                 :target: https://quay.io/repository/biocontainers/perl-xsloader
-
 

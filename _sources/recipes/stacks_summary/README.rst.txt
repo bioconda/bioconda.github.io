@@ -12,7 +12,10 @@ Home     https://github.com/mariabernard/galaxy_wrappers
 Versions 1.0, 1.1
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks_summary
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/stacks_summary
 .. |docker| image:: https://quay.io/repository/biocontainers/stacks_summary/status
                 :target: https://quay.io/repository/biocontainers/stacks_summary
-
 

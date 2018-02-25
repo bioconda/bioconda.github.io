@@ -5,14 +5,17 @@ maaslin
 
 |downloads|
 
-MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function.
+MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function\.
 
 ======== ===========
 Home     https://huttenhower.sph.harvard.edu/maaslin
 Versions 0.04
 License  Custom
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maaslin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/maaslin
 .. |docker| image:: https://quay.io/repository/biocontainers/maaslin/status
                 :target: https://quay.io/repository/biocontainers/maaslin
-
 

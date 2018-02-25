@@ -5,14 +5,17 @@ embassy-phylip
 
 |downloads|
 
-embassy/emboss wrappers for phylip functions
+embassy\/emboss wrappers for phylip functions
 
 ======== ===========
 Home     http://emboss.open-bio.org/
 Versions 3.69.650
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/embassy-phylip
 .. |docker| image:: https://quay.io/repository/biocontainers/embassy-phylip/status
                 :target: https://quay.io/repository/biocontainers/embassy-phylip
-
 

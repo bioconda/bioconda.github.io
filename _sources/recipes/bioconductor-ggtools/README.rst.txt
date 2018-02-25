@@ -5,14 +5,17 @@ bioconductor-ggtools
 
 |downloads|
 
-software and data for analyses in genetics of gene expression and/or DNA methylation
+software and data for analyses in genetics of gene expression and\/or DNA methylation
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GGtools.html
 Versions 5.14.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ggtools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ggtools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ggtools
-
 

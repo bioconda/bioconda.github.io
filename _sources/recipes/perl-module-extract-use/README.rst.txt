@@ -12,7 +12,10 @@ Home     https://github.com/briandfoy/module-extract-use
 Versions 1.043
 License  artistic_2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-extract-use/1.043
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-module-extract-use
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-module-extract-use/status
                 :target: https://quay.io/repository/biocontainers/perl-module-extract-use
-
 

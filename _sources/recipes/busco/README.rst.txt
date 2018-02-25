@@ -5,14 +5,17 @@ busco
 
 |downloads|
 
-BUSCO provides measures for quantitative assessment of genome assembly, gene set, and transcriptome completeness based on evolutionarily informed expectations of gene content from near-universal single-copy orthologs selected from OrthoDB.
+BUSCO provides measures for quantitative assessment of genome assembly\, gene set\, and transcriptome completeness based on evolutionarily informed expectations of gene content from near\-universal single\-copy orthologs selected from OrthoDB\.
 
 ======== ===========
 Home     http://busco.ezlab.org/
 Versions 1.2, 2.0, 2.0.1, 3.0.1, 3.0.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/busco
 .. |docker| image:: https://quay.io/repository/biocontainers/busco/status
                 :target: https://quay.io/repository/biocontainers/busco
-
 

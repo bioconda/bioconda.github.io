@@ -5,14 +5,17 @@ perl-ipc-system-simple
 
 |downloads|
 
-Run commands simply, with detailed diagnostics
+Run commands simply\, with detailed diagnostics
 
 ======== ===========
 Home     https://metacpan.org/pod/IPC::System::Simple
 Versions 1.25
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-system-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-ipc-system-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-ipc-system-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-ipc-system-simple
-
 

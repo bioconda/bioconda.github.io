@@ -5,14 +5,17 @@ perl-compress-raw-zlib
 
 |downloads|
 
-Low-Level Interface to zlib compression library
+Low\-Level Interface to zlib compression library
 
 ======== ===========
 Home     https://metacpan.org/pod/Compress::Raw::Zlib
 Versions 2.069
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-compress-raw-zlib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-compress-raw-zlib
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-compress-raw-zlib/status
                 :target: https://quay.io/repository/biocontainers/perl-compress-raw-zlib
-
 

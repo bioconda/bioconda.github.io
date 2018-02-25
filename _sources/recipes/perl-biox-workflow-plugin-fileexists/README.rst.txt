@@ -5,14 +5,17 @@ perl-biox-workflow-plugin-fileexists
 
 |downloads|
 
-a plugin to BioX::Workflow
+a plugin to BioX\:\:Workflow
 
 ======== ===========
 Home     https://github.com/jerowe/BioX-Workflow-Plugin-FileExists
 Versions 0.13
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-plugin-fileexists
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-biox-workflow-plugin-fileexists
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-biox-workflow-plugin-fileexists/status
                 :target: https://quay.io/repository/biocontainers/perl-biox-workflow-plugin-fileexists
-
 

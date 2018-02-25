@@ -5,14 +5,17 @@ crisper_recognition_tool
 
 |downloads|
 
-A tool for automatic detection of clustered regularly interspaced palindromic repeats (CRISPR).
+A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\)\.
 
 ======== ===========
 Home     http://www.room220.com/crt/
 Versions 1.2
 License  Public domain software
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisper_recognition_tool
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/crisper_recognition_tool
 .. |docker| image:: https://quay.io/repository/biocontainers/crisper_recognition_tool/status
                 :target: https://quay.io/repository/biocontainers/crisper_recognition_tool
-
 

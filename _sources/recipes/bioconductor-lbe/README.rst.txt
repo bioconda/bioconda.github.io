@@ -5,14 +5,17 @@ bioconductor-lbe
 
 |downloads|
 
-LBE is an efficient procedure for estimating the proportion of true null hypotheses, the false discovery rate (and so the q-values) in the framework of estimating procedures based on the marginal distribution of the p-values without assumption for the alternative hypothesis.
+LBE is an efficient procedure for estimating the proportion of true null hypotheses\, the false discovery rate \(and so the q\-values\) in the framework of estimating procedures based on the marginal distribution of the p\-values without assumption for the alternative hypothesis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/LBE.html
 Versions 1.46.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lbe
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-lbe
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lbe/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-lbe
-
 

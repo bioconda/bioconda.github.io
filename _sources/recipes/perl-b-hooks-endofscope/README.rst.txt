@@ -12,7 +12,10 @@ Home     https://github.com/karenetheridge/B-Hooks-EndOfScope
 Versions 0.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b-hooks-endofscope/0.21
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-b-hooks-endofscope
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope/status
                 :target: https://quay.io/repository/biocontainers/perl-b-hooks-endofscope
-
 

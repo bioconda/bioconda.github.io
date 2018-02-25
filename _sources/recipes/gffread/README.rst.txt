@@ -5,14 +5,17 @@ gffread
 
 |downloads|
 
-GFF/GTF utility providing format conversions, region filtering, FASTA sequence extraction and more.
+GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more\.
 
 ======== ===========
 Home     http://ccb.jhu.edu/software/stringtie/gff.shtml
 Versions 0.9.8, 0.9.9
 License  Artistic License 2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gffread
 .. |docker| image:: https://quay.io/repository/biocontainers/gffread/status
                 :target: https://quay.io/repository/biocontainers/gffread
-
 

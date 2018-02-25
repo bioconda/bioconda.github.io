@@ -5,14 +5,17 @@ mir-prefer
 
 |downloads|
 
-microRNA PREdiction From small RNA-seq data
+microRNA PREdiction From small RNA\-seq data
 
 ======== ===========
 Home     https://github.com/hangelwen/miR-PREFeR
 Versions 0.24
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mir-prefer
+
 ======== ===========
+
+microRNA PREdiction From small RNA\-seq data
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mir-prefer
 .. |docker| image:: https://quay.io/repository/biocontainers/mir-prefer/status
                 :target: https://quay.io/repository/biocontainers/mir-prefer
-
 

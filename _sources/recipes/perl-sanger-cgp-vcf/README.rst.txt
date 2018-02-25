@@ -12,7 +12,10 @@ Home     https://github.com/cancerit/cgpVcf
 Versions 1.3.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-vcf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sanger-cgp-vcf
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf/status
                 :target: https://quay.io/repository/biocontainers/perl-sanger-cgp-vcf
-
 

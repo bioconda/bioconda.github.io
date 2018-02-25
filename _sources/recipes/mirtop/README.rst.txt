@@ -5,14 +5,17 @@ mirtop
 
 |downloads|
 
-Small RNA-seq annotation
+Small RNA\-seq annotation
 
 ======== ===========
 Home     http://github.com/mirtop/mirtop
 Versions 0.1.8a0
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mirtop
 .. |docker| image:: https://quay.io/repository/biocontainers/mirtop/status
                 :target: https://quay.io/repository/biocontainers/mirtop
-
 

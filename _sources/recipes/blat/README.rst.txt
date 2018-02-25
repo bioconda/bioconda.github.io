@@ -5,14 +5,17 @@ blat
 
 |downloads|
 
-BLAT is a bioinformatics software tool which performs rapid mRNA/DNA and cross-species protein alignments.
+BLAT is a bioinformatics software tool which performs rapid mRNA\/DNA and cross\-species protein alignments\.
 
 ======== ===========
 Home     https://genome.ucsc.edu/FAQ/FAQblat.html
 Versions 35
 License  Free for academic, nonprofit and personal use
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blat
 .. |docker| image:: https://quay.io/repository/biocontainers/blat/status
                 :target: https://quay.io/repository/biocontainers/blat
-
 

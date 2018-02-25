@@ -5,14 +5,17 @@ gocr
 
 |downloads|
 
-GOCR is an OCR (Optical Character Recognition) program
+GOCR is an OCR \(Optical Character Recognition\) program
 
 ======== ===========
 Home     http://jocr.sourceforge.net/
 Versions 0.50
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/0.50
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gocr
 .. |docker| image:: https://quay.io/repository/biocontainers/gocr/status
                 :target: https://quay.io/repository/biocontainers/gocr
-
 

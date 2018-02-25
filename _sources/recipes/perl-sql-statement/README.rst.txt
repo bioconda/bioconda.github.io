@@ -12,7 +12,10 @@ Home     https://metacpan.org/release/SQL-Statement
 Versions 1.407
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sql-statement
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sql-statement
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sql-statement/status
                 :target: https://quay.io/repository/biocontainers/perl-sql-statement
-
 

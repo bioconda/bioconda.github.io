@@ -12,7 +12,10 @@ Home     https://github.com/galaxyproject/gops
 Versions 1.0.0, 1.1.0
 License  Academic Free License version 3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ops
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/galaxy-ops
 .. |docker| image:: https://quay.io/repository/biocontainers/galaxy-ops/status
                 :target: https://quay.io/repository/biocontainers/galaxy-ops
-
 

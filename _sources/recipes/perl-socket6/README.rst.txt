@@ -5,14 +5,17 @@ perl-socket6
 
 |downloads|
 
-IPv6 related part of the C socket.h defines and structure manipulators
+IPv6 related part of the C socket\.h defines and structure manipulators
 
 ======== ===========
 Home     http://metacpan.org/pod/Socket6
 Versions 0.25
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket6
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-socket6
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-socket6/status
                 :target: https://quay.io/repository/biocontainers/perl-socket6
-
 

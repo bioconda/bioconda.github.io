@@ -12,7 +12,10 @@ Home     http://gtk2-perl.sourceforge.net
 Versions 0.405
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-depends
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-depends
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-depends/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-depends
-
 

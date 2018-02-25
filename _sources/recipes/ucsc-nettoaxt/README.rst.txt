@@ -5,14 +5,17 @@ ucsc-nettoaxt
 
 |downloads|
 
-Convert net (and chain) to axt.
+Convert net \(and chain\) to axt\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-nettoaxt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-nettoaxt
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-nettoaxt/status
                 :target: https://quay.io/repository/biocontainers/ucsc-nettoaxt
-
 

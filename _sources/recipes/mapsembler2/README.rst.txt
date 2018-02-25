@@ -12,7 +12,10 @@ Home     https://colibread.inria.fr/software/mapsembler2/
 Versions 2.2.4
 License  GNU Affero General Public License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsembler2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mapsembler2
 .. |docker| image:: https://quay.io/repository/biocontainers/mapsembler2/status
                 :target: https://quay.io/repository/biocontainers/mapsembler2
-
 

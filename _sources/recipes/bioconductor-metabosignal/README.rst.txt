@@ -5,14 +5,17 @@ bioconductor-metabosignal
 
 |downloads|
 
-MetaboSignal is an R package that allows merging, analyzing and customizing metabolic and signaling KEGG pathways. It is a network-based approach designed to explore the topological relationship between genes (signaling- or enzymatic-genes) and metabolites, representing a powerful tool to investigate the genetic landscape and regulatory networks of metabolic phenotypes.
+MetaboSignal is an R package that allows merging\, analyzing and customizing metabolic and signaling KEGG pathways\. It is a network\-based approach designed to explore the topological relationship between genes \(signaling\- or enzymatic\-genes\) and metabolites\, representing a powerful tool to investigate the genetic landscape and regulatory networks of metabolic phenotypes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MetaboSignal.html
 Versions 1.8.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metabosignal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-metabosignal
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-metabosignal/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-metabosignal
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/yechengxi/DBG2OLC
 Versions 20160205
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbg2olc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dbg2olc
 .. |docker| image:: https://quay.io/repository/biocontainers/dbg2olc/status
                 :target: https://quay.io/repository/biocontainers/dbg2olc
-
 

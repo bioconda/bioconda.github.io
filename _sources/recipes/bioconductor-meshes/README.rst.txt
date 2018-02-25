@@ -5,14 +5,17 @@ bioconductor-meshes
 
 |downloads|
 
-MeSH (Medical Subject Headings) is the NLM controlled vocabulary used to manually index articles for MEDLINE/PubMed. MeSH terms were associated by Entrez Gene ID by three methods, gendoo, gene2pubmed and RBBH. This association is fundamental for enrichment and semantic analyses. meshes supports enrichment analysis (over-representation and gene set enrichment analysis) of gene list or whole expression profile. The semantic comparisons of MeSH terms provide quantitative ways to compute similarities between genes and gene groups. meshes implemented five methods proposed by Resnik, Schlicker, Jiang, Lin and Wang respectively and supports more than 70 species.
+MeSH \(Medical Subject Headings\) is the NLM controlled vocabulary used to manually index articles for MEDLINE\/PubMed\. MeSH terms were associated by Entrez Gene ID by three methods\, gendoo\, gene2pubmed and RBBH\. This association is fundamental for enrichment and semantic analyses\. meshes supports enrichment analysis \(over\-representation and gene set enrichment analysis\) of gene list or whole expression profile\. The semantic comparisons of MeSH terms provide quantitative ways to compute similarities between genes and gene groups\. meshes implemented five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively and supports more than 70 species\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/meshes.html
 Versions 1.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-meshes
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-meshes/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-meshes
-
 

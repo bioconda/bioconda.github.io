@@ -5,14 +5,17 @@ perl-mozilla-ca
 
 |downloads|
 
-Mozilla's CA cert bundle in PEM format
+Mozilla\'s CA cert bundle in PEM format
 
 ======== ===========
 Home     http://metacpan.org/pod/Mozilla-CA
 Versions 20160104
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mozilla-ca
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mozilla-ca
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mozilla-ca/status
                 :target: https://quay.io/repository/biocontainers/perl-mozilla-ca
-
 

@@ -5,14 +5,17 @@ xsd
 
 |downloads|
 
-CodeSynthesis XSD is an open-source, cross-platform W3C XML Schema to C++ data binding compiler. Provided with an XML instance specification (XML Schema), it generates C++ classes that represent the given vocabulary as well as XML parsing and serialization code.
+CodeSynthesis XSD is an open\-source\, cross\-platform W3C XML Schema to C\+\+ data binding compiler\. Provided with an XML instance specification \(XML Schema\)\, it generates C\+\+ classes that represent the given vocabulary as well as XML parsing and serialization code\.
 
 ======== ===========
 Home     http://www.codesynthesis.com/products/xsd/
 Versions 4.0.0_dep
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xsd
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xsd
 .. |docker| image:: https://quay.io/repository/biocontainers/xsd/status
                 :target: https://quay.io/repository/biocontainers/xsd
-
 

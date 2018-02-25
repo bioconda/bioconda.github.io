@@ -5,14 +5,17 @@ perl-digest-md5-file
 
 |downloads|
 
-Perl extension for getting MD5 sums for files and urls.
+Perl extension for getting MD5 sums for files and urls\.
 
 ======== ===========
 Home     http://search.cpan.org/dist/Digest-MD5-File/
 Versions 0.08
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-md5-file
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-digest-md5-file
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-digest-md5-file/status
                 :target: https://quay.io/repository/biocontainers/perl-digest-md5-file
-
 

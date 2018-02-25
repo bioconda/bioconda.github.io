@@ -12,7 +12,10 @@ Home     https://github.com/moose/MooseX-Getopt
 Versions 0.71
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-getopt
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-getopt/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-getopt
-
 

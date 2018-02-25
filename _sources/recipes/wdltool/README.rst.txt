@@ -12,7 +12,10 @@ Home     https://github.com/broadinstitute/wdltool
 Versions 0.14, 0.6, 0.9
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wdltool
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wdltool
 .. |docker| image:: https://quay.io/repository/biocontainers/wdltool/status
                 :target: https://quay.io/repository/biocontainers/wdltool
-
 

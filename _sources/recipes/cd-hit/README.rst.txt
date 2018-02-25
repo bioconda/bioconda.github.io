@@ -12,7 +12,10 @@ Home     https://github.com/weizhongli/cdhit
 Versions 4.6.4, 4.6.6, 4.6.8
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cd-hit
 .. |docker| image:: https://quay.io/repository/biocontainers/cd-hit/status
                 :target: https://quay.io/repository/biocontainers/cd-hit
-
 

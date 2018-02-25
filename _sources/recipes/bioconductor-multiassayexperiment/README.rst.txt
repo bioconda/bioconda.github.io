@@ -5,14 +5,17 @@ bioconductor-multiassayexperiment
 
 |downloads|
 
-Multi-assay 'omics experiments on a set of samples are increasingly commonplace in biomedical research. MultiAssayExperiment implements data structures and methods for representing, manipulating, and integrating multi-assay experiments via efficient construction, subsetting, and extraction operations. These methods are implemented matching Bioconductor user experience by straightforward extending concept and design of single-assay classes such as SummarizedExperiment or ExpressionSet.
+Multi\-assay \'omics experiments on a set of samples are increasingly commonplace in biomedical research\. MultiAssayExperiment implements data structures and methods for representing\, manipulating\, and integrating multi\-assay experiments via efficient construction\, subsetting\, and extraction operations\. These methods are implemented matching Bioconductor user experience by straightforward extending concept and design of single\-assay classes such as SummarizedExperiment or ExpressionSet\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MultiAssayExperiment.html
 Versions 1.4.9
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-multiassayexperiment
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-multiassayexperiment/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-multiassayexperiment
-
 

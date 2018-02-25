@@ -5,14 +5,17 @@ r-precrec
 
 |downloads|
 
-Accurate calculations and visualization of precision-recall and ROC (Receiver Operator Characteristics) curves.
+Accurate calculations and visualization of precision\-recall and ROC \(Receiver Operator Characteristics\) curves\.
 
 ======== ===========
 Home     https://github.com/takayasaito/precrec
 Versions 0.9.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-precrec
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-precrec
 .. |docker| image:: https://quay.io/repository/biocontainers/r-precrec/status
                 :target: https://quay.io/repository/biocontainers/r-precrec
-
 

@@ -5,14 +5,17 @@ rdkit
 
 |downloads|
 
-Open-Source Cheminformatics Software
+Open\-Source Cheminformatics Software
 
 ======== ===========
 Home     http://rdkit.org
 Versions 2015.09.2, 2016.03.3
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdkit/2015.09.2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdkit
 .. |docker| image:: https://quay.io/repository/biocontainers/rdkit/status
                 :target: https://quay.io/repository/biocontainers/rdkit
-
 

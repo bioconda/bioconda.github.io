@@ -5,14 +5,17 @@ fgap
 
 |downloads|
 
-FGAP: an automated gap closing tool
+FGAP\: an automated gap closing tool
 
 ======== ===========
 Home     https://github.com/pirovc/fgap
 Versions 1.8.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fgap
 .. |docker| image:: https://quay.io/repository/biocontainers/fgap/status
                 :target: https://quay.io/repository/biocontainers/fgap
-
 

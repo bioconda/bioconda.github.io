@@ -12,7 +12,10 @@ Home     http://pygraphviz.github.io
 Versions 1.3.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygraphviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pygraphviz
 .. |docker| image:: https://quay.io/repository/biocontainers/pygraphviz/status
                 :target: https://quay.io/repository/biocontainers/pygraphviz
-
 

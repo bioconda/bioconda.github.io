@@ -5,14 +5,17 @@ perl-app-cpanminus
 
 |downloads|
 
-get, unpack, build and install modules from CPAN
+get\, unpack\, build and install modules from CPAN
 
 ======== ===========
 Home     https://github.com/miyagawa/cpanminus
 Versions 1.7039
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-app-cpanminus
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-app-cpanminus
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-app-cpanminus/status
                 :target: https://quay.io/repository/biocontainers/perl-app-cpanminus
-
 

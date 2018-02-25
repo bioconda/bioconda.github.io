@@ -5,14 +5,17 @@ ucsc-psltobigpsl
 
 |downloads|
 
-converts psl to bigPsl input (bed format with extra fields)
+converts psl to bigPsl input \(bed format with extra fields\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-psltobigpsl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-psltobigpsl
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-psltobigpsl/status
                 :target: https://quay.io/repository/biocontainers/ucsc-psltobigpsl
-
 

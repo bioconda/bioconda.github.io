@@ -5,14 +5,17 @@ bioconductor-mipp
 
 |downloads|
 
-This package finds optimal sets of genes that seperate samples into two or more classes.
+This package finds optimal sets of genes that seperate samples into two or more classes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/MiPP.html
 Versions 1.48.0, 1.50.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mipp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mipp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mipp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mipp
-
 

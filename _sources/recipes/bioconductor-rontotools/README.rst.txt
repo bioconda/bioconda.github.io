@@ -5,14 +5,17 @@ bioconductor-rontotools
 
 |downloads|
 
-Suite of tools for functional analysis.
+Suite of tools for functional analysis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ROntoTools.html
 Versions 2.4.0, 2.6.0
 License  CC BY-NC-ND 4.0 + file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rontotools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rontotools
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rontotools/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rontotools
-
 

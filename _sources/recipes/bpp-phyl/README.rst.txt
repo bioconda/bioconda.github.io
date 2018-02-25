@@ -5,14 +5,17 @@ bpp-phyl
 
 |downloads|
 
-Bio++ is a set of C++ libraries for Bioinformatics.
+Bio\+\+ is a set of C\+\+ libraries for Bioinformatics\.
 
 ======== ===========
 Home     https://github.com/BioPP/bpp-phyl
 Versions 2.2.0
 License  CeCILL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-phyl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bpp-phyl
 .. |docker| image:: https://quay.io/repository/biocontainers/bpp-phyl/status
                 :target: https://quay.io/repository/biocontainers/bpp-phyl
-
 

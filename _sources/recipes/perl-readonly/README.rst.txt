@@ -5,14 +5,17 @@ perl-readonly
 
 |downloads|
 
-Facility for creating read-only scalars, arrays, hashes
+Facility for creating read\-only scalars\, arrays\, hashes
 
 ======== ===========
 Home     https://github.com/sanko/readonly
 Versions 1.04
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-readonly
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-readonly
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-readonly/status
                 :target: https://quay.io/repository/biocontainers/perl-readonly
-
 

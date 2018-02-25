@@ -5,14 +5,17 @@ umis
 
 |downloads|
 
-Tools for processing UMI RNA-tag data
+Tools for processing UMI RNA\-tag data
 
 ======== ===========
 Home     https://github.com/vals/umis
 Versions 0.2.2a0, 0.3.1a0, 0.4.0a, 0.5.0a, 0.6.0a, 0.7.0, 0.7.0a, 0.9.0a, 0.9.0b
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umis
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/umis
 .. |docker| image:: https://quay.io/repository/biocontainers/umis/status
                 :target: https://quay.io/repository/biocontainers/umis
-
 

@@ -5,14 +5,17 @@ rdp-readseq
 
 |downloads|
 
-Java based common sequence file format reader and sequence file manipulation.
+Java based common sequence file format reader and sequence file manipulation\.
 
 ======== ===========
 Home     https://github.com/rdpstaff/ReadSeq
 Versions 2.0.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdp-readseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdp-readseq
 .. |docker| image:: https://quay.io/repository/biocontainers/rdp-readseq/status
                 :target: https://quay.io/repository/biocontainers/rdp-readseq
-
 

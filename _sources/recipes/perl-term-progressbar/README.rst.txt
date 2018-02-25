@@ -12,7 +12,10 @@ Home     https://github.com/manwar/Term-ProgressBar
 Versions 2.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-term-progressbar
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-term-progressbar/status
                 :target: https://quay.io/repository/biocontainers/perl-term-progressbar
-
 

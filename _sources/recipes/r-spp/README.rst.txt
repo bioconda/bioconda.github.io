@@ -5,14 +5,17 @@ r-spp
 
 |downloads|
 
-ChIP-seq peak caller
+ChIP\-seq peak caller
 
 ======== ===========
 Home     http://compbio.med.harvard.edu/Supplements/ChIP-seq
 Versions 1.11, 1.13, 1.14, 1.14post, 1.15.2
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-spp
 .. |docker| image:: https://quay.io/repository/biocontainers/r-spp/status
                 :target: https://quay.io/repository/biocontainers/r-spp
-
 

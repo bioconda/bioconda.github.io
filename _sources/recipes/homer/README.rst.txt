@@ -12,7 +12,10 @@ Home
 Versions 4.8, 4.8.3, 4.9.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homer
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/homer
 .. |docker| image:: https://quay.io/repository/biocontainers/homer/status
                 :target: https://quay.io/repository/biocontainers/homer
-
 

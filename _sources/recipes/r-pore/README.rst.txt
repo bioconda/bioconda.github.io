@@ -12,7 +12,10 @@ Home     http://sourceforge.net/projects/rpore/
 Versions 0.16, 0.24
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pore
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-pore
 .. |docker| image:: https://quay.io/repository/biocontainers/r-pore/status
                 :target: https://quay.io/repository/biocontainers/r-pore
-
 

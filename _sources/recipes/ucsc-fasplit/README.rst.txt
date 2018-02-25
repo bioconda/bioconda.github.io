@@ -5,14 +5,17 @@ ucsc-fasplit
 
 |downloads|
 
-Split an fa file into several files.
+Split an fa file into several files\.
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fasplit
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-fasplit
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-fasplit/status
                 :target: https://quay.io/repository/biocontainers/ucsc-fasplit
-
 

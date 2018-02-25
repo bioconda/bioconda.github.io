@@ -5,14 +5,17 @@ alfred
 
 |downloads|
 
-Sequence alignment quality control, BAM statistics and feature counting
+Sequence alignment quality control\, BAM statistics and feature counting
 
 ======== ===========
 Home     https://github.com/tobiasrausch/alfred
 Versions 0.1.2, 0.1.3, 0.1.5
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/alfred
 .. |docker| image:: https://quay.io/repository/biocontainers/alfred/status
                 :target: https://quay.io/repository/biocontainers/alfred
-
 

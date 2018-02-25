@@ -5,14 +5,17 @@ pypore
 
 |downloads|
 
-Pythonic/Cythonic Nanopore Translocation Analysis
+Pythonic\/Cythonic Nanopore Translocation Analysis
 
 ======== ===========
 Home     http://parkin.github.io/pypore/
 Versions 0.0.5.dev20160304220337, 0.0.6.dev20161116235131
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypore
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pypore
 .. |docker| image:: https://quay.io/repository/biocontainers/pypore/status
                 :target: https://quay.io/repository/biocontainers/pypore
-
 

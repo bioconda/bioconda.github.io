@@ -5,14 +5,17 @@ dnapi
 
 |downloads|
 
-De novo adapter prediction (iterative) algorithm for small RNA sequencing data.
+De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data\.
 
 ======== ===========
 Home     https://github.com/jnktsj/DNApi
 Versions 1.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnapi
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dnapi
 .. |docker| image:: https://quay.io/repository/biocontainers/dnapi/status
                 :target: https://quay.io/repository/biocontainers/dnapi
-
 

@@ -5,14 +5,17 @@ astalavista
 
 |downloads|
 
-AStalavista is a computer program to extract alternative splicing (AS) events from a given genomic annotation of exon-intron gene coordinates. By comparing all given transcripts, AStalavista detects the variations in their splicing structure and identify all AS events (like exon skipping, alternate donor, etc) by assigning to each of them an AS code.
+AStalavista is a computer program to extract alternative splicing \(AS\) events from a given genomic annotation of exon\-intron gene coordinates\. By comparing all given transcripts\, AStalavista detects the variations in their splicing structure and identify all AS events \(like exon skipping\, alternate donor\, etc\) by assigning to each of them an AS code\.
 
 ======== ===========
 Home     http://sammeth.net/confluence/display/ASTA/Home
 Versions 3.2, 4.0
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/astalavista
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/astalavista
 .. |docker| image:: https://quay.io/repository/biocontainers/astalavista/status
                 :target: https://quay.io/repository/biocontainers/astalavista
-
 

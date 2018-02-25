@@ -5,14 +5,17 @@ smallgenomeutilities
 
 |downloads|
 
-A collection of scripts that are useful for dealing with viral RNA NGS data.
+A collection of scripts that are useful for dealing with viral RNA NGS data\.
 
 ======== ===========
 Home     https://github.com/cbg-ethz/smallgenomeutilities
 Versions 0.1, 0.2.1
 License  GNU General Public License v2 or later (GPLv2+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smallgenomeutilities/0.2.1
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/smallgenomeutilities
 .. |docker| image:: https://quay.io/repository/biocontainers/smallgenomeutilities/status
                 :target: https://quay.io/repository/biocontainers/smallgenomeutilities
-
 

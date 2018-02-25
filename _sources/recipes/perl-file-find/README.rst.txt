@@ -5,14 +5,17 @@ perl-file-find
 
 |downloads|
 
-Traverse a directory tree.
+Traverse a directory tree\.
 
 ======== ===========
 Home     http://metacpan.org/pod/File::Find
 Versions 1.27
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find/1.27
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-find
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-find/status
                 :target: https://quay.io/repository/biocontainers/perl-file-find
-
 

@@ -5,14 +5,17 @@ t_coffee
 
 |downloads|
 
-A collection of tools for Computing, Evaluating and Manipulating Multiple Alignments of DNA, RNA, Protein Sequences and Structures.
+A collection of tools for Computing\, Evaluating and Manipulating Multiple Alignments of DNA\, RNA\, Protein Sequences and Structures\.
 
 ======== ===========
 Home     http://www.tcoffee.org/Projects/tcoffee/
 Versions 11.0.8
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t_coffee
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/t_coffee
 .. |docker| image:: https://quay.io/repository/biocontainers/t_coffee/status
                 :target: https://quay.io/repository/biocontainers/t_coffee
-
 

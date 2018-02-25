@@ -5,14 +5,17 @@ wgsim
 
 |downloads|
 
-Wgsim is a small tool for simulating sequence reads from a reference genome.
+Wgsim is a small tool for simulating sequence reads from a reference genome\.
 
 ======== ===========
 Home     https://github.com/lh3/wgsim
 Versions 1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgsim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wgsim
 .. |docker| image:: https://quay.io/repository/biocontainers/wgsim/status
                 :target: https://quay.io/repository/biocontainers/wgsim
-
 

@@ -5,14 +5,17 @@ ms
 
 |downloads|
 
-Generates random independent samples according to a simple Wright-Fisher neutral model.
+Generates random independent samples according to a simple Wright\-Fisher neutral model\.
 
 ======== ===========
 Home     http://home.uchicago.edu/rhudson1/source/mksamples.html
 Versions 2014_03_04
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ms
 .. |docker| image:: https://quay.io/repository/biocontainers/ms/status
                 :target: https://quay.io/repository/biocontainers/ms
-
 

@@ -5,14 +5,17 @@ allegro
 
 |downloads|
 
-A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
+A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity\.
 
 ======== ===========
 Home     http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true
 Versions 2, 3
 License  INDIVIDUAL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/allegro
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/allegro
 .. |docker| image:: https://quay.io/repository/biocontainers/allegro/status
                 :target: https://quay.io/repository/biocontainers/allegro
-
 

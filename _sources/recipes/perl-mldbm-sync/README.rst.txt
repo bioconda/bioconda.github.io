@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/MLDBM-Sync
 Versions 0.30
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm-sync
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mldbm-sync
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mldbm-sync/status
                 :target: https://quay.io/repository/biocontainers/perl-mldbm-sync
-
 

@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/MIME-tools
 Versions 5.507
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mime-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mime-tools/status
                 :target: https://quay.io/repository/biocontainers/perl-mime-tools
-
 

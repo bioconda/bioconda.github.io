@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/KEGG.db.html
 Versions 3.2.2, 3.2.3
 License  file LICENSE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegg.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-kegg.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-kegg.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-kegg.db
-
 

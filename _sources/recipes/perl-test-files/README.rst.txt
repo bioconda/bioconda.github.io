@@ -5,14 +5,17 @@ perl-test-files
 
 |downloads|
 
-A Test::Builder based module to ease testing with files and dirs
+A Test\:\:Builder based module to ease testing with files and dirs
 
 ======== ===========
 Home     http://metacpan.org/pod/Test::Files
 Versions 0.14
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-files
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-files
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-files/status
                 :target: https://quay.io/repository/biocontainers/perl-test-files
-
 

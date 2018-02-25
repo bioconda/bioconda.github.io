@@ -12,7 +12,10 @@ Home     http://bioconvert.readthedocs.io/
 Versions 0.0.10
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconvert
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconvert
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconvert/status
                 :target: https://quay.io/repository/biocontainers/bioconvert
-
 

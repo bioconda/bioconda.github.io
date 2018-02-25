@@ -5,14 +5,17 @@ bioconductor-fgsea
 
 |downloads|
 
-The package implements an algorithm for fast gene set enrichment analysis. Using the fast algorithm allows to make more permutations and get more fine grained p-values, which allows to use accurate stantard approaches to multiple hypothesis correction.
+The package implements an algorithm for fast gene set enrichment analysis\. Using the fast algorithm allows to make more permutations and get more fine grained p\-values\, which allows to use accurate stantard approaches to multiple hypothesis correction\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/fgsea.html
 Versions 1.2.1, 1.4.0
 License  MIT + file LICENCE
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgsea
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-fgsea
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-fgsea/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-fgsea
-
 

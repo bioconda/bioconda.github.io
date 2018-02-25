@@ -12,7 +12,10 @@ Home     http://csg.sph.umich.edu/abecasis/merlin
 Versions 1.1.2
 License  OpenSource
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merlin
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/merlin
 .. |docker| image:: https://quay.io/repository/biocontainers/merlin/status
                 :target: https://quay.io/repository/biocontainers/merlin
-
 

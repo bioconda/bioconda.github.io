@@ -5,14 +5,17 @@ bioconductor-jaspar2018
 
 |downloads|
 
-Data package for JASPAR 2018. To search this databases, please use the package TFBSTools (>= 1.15.6).
+Data package for JASPAR 2018\. To search this databases\, please use the package TFBSTools \(\>\= 1\.15\.6\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/JASPAR2018.html
 Versions 0.99.2, 1.0.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-jaspar2018
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-jaspar2018/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-jaspar2018
-
 

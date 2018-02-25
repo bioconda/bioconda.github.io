@@ -5,14 +5,17 @@ fastool
 
 |downloads|
 
-A simple and quick tool to read huge FastQ and FastA files (both normal and gzipped) and manipulate them.
+A simple and quick tool to read huge FastQ and FastA files \(both normal and gzipped\) and manipulate them\.
 
 ======== ===========
 Home     https://github.com/fstrozzi/Fastool
 Versions 0.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastool
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastool
 .. |docker| image:: https://quay.io/repository/biocontainers/fastool/status
                 :target: https://quay.io/repository/biocontainers/fastool
-
 

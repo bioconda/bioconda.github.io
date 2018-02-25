@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Sub::Attribute
 Versions 0.05
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-sub-attribute
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-sub-attribute/status
                 :target: https://quay.io/repository/biocontainers/perl-sub-attribute
-
 

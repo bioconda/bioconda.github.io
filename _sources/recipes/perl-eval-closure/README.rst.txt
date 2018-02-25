@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Eval-Closure
 Versions 0.14
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-eval-closure/0.14
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-eval-closure
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-eval-closure/status
                 :target: https://quay.io/repository/biocontainers/perl-eval-closure
-
 

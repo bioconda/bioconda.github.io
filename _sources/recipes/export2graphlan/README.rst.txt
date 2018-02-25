@@ -12,7 +12,10 @@ Home     https://bitbucket.org/CibioCM/export2graphlan/overview
 Versions 0.19
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/export2graphlan
 .. |docker| image:: https://quay.io/repository/biocontainers/export2graphlan/status
                 :target: https://quay.io/repository/biocontainers/export2graphlan
-
 

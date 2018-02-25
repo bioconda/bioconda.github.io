@@ -12,7 +12,10 @@ Home     https://github.com/pirovc/metametamerge/
 Versions 1.0, 1.1
 License  The MIT License (MIT)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metametamerge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/metametamerge
 .. |docker| image:: https://quay.io/repository/biocontainers/metametamerge/status
                 :target: https://quay.io/repository/biocontainers/metametamerge
-
 

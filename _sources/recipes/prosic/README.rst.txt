@@ -5,14 +5,17 @@ prosic
 
 |downloads|
 
-A highly sensitive and accurate Bayesian caller for somatic insertions and deletions.
+A highly sensitive and accurate Bayesian caller for somatic insertions and deletions\.
 
 ======== ===========
 Home     https://prosic.github.io
 Versions 1.0, 2.0.0, 2.1.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosic
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/prosic
 .. |docker| image:: https://quay.io/repository/biocontainers/prosic/status
                 :target: https://quay.io/repository/biocontainers/prosic
-
 

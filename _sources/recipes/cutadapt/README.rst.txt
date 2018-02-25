@@ -5,14 +5,17 @@ cutadapt
 
 |downloads|
 
-trim adapters from high-throughput sequencing reads
+trim adapters from high\-throughput sequencing reads
 
 ======== ===========
 Home     https://cutadapt.readthedocs.io/
 Versions 1.10, 1.11, 1.12, 1.13, 1.14, 1.15, 1.16, 1.8.1, 1.8.3, 1.9.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cutadapt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cutadapt
 .. |docker| image:: https://quay.io/repository/biocontainers/cutadapt/status
                 :target: https://quay.io/repository/biocontainers/cutadapt
-
 

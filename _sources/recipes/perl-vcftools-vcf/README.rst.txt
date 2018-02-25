@@ -12,7 +12,10 @@ Home     https://github.com/vcftools/vcftools
 Versions 0.1.14, 0.797, 0.840, 0.953
 License  LGPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vcftools-vcf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-vcftools-vcf
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-vcftools-vcf/status
                 :target: https://quay.io/repository/biocontainers/perl-vcftools-vcf
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/najoshi/sickle
 Versions 1.33
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sickle-trim
 .. |docker| image:: https://quay.io/repository/biocontainers/sickle-trim/status
                 :target: https://quay.io/repository/biocontainers/sickle-trim
-
 

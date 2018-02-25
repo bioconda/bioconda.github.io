@@ -12,7 +12,10 @@ Home     https://metacpan.org/pod/PDF::API2
 Versions 2.025
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pdf-api2
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pdf-api2/status
                 :target: https://quay.io/repository/biocontainers/perl-pdf-api2
-
 

@@ -5,14 +5,17 @@ sibelia
 
 |downloads|
 
-Genome comparison via de Bruijn graph.
+Genome comparison via de Bruijn graph\.
 
 ======== ===========
 Home     https://github.com/bioinf/Sibelia
 Versions 3.0.6, 3.0.7
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sibelia
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sibelia
 .. |docker| image:: https://quay.io/repository/biocontainers/sibelia/status
                 :target: https://quay.io/repository/biocontainers/sibelia
-
 

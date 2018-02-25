@@ -5,14 +5,17 @@ bx-python
 
 |downloads|
 
-Toolkit to enable rapid implementation of genome scale analyses.
+Toolkit to enable rapid implementation of genome scale analyses\.
 
 ======== ===========
 Home     https://github.com/bxlab/bx-python
 Versions 0.7.1, 0.7.2, 0.7.3, 0.7.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bx-python
 .. |docker| image:: https://quay.io/repository/biocontainers/bx-python/status
                 :target: https://quay.io/repository/biocontainers/bx-python
-
 

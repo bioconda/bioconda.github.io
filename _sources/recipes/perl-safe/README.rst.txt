@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Safe
 Versions 2.37
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-safe/2.37
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-safe
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-safe/status
                 :target: https://quay.io/repository/biocontainers/perl-safe
-
 

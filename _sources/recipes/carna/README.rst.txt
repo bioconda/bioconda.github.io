@@ -5,14 +5,17 @@ carna
 
 |downloads|
 
-Constraint-based Alignment of RNA Ensembles
+Constraint\-based Alignment of RNA Ensembles
 
 ======== ===========
 Home     https://www.bioinf.uni-leipzig.de/~will/Software/CARNA/
 Versions 1.3.1, 1.3.2, 1.3.3
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/carna
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/carna
 .. |docker| image:: https://quay.io/repository/biocontainers/carna/status
                 :target: https://quay.io/repository/biocontainers/carna
-
 

@@ -5,14 +5,17 @@ bioconductor-rbsurv
 
 |downloads|
 
-This package selects genes associated with survival.
+This package selects genes associated with survival\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rbsurv.html
 Versions 2.34.0, 2.36.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbsurv
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rbsurv
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rbsurv/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rbsurv
-
 

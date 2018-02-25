@@ -5,14 +5,17 @@ ucsc-overlapselect
 
 |downloads|
 
- Select records based on overlapping chromosome ranges.  The ranges are specified in the selectFile, with each block specifying a range. Records are copied from the inFile to outFile based on the selection criteria.  Selection is based on blocks or exons rather than entire range. 
+ Select records based on overlapping chromosome ranges\.  The ranges are specified in the selectFile\, with each block specifying a range\. Records are copied from the inFile to outFile based on the selection criteria\.  Selection is based on blocks or exons rather than entire range\. 
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-overlapselect
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-overlapselect
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-overlapselect/status
                 :target: https://quay.io/repository/biocontainers/ucsc-overlapselect
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/PacificBiosciences/FALCON
 Versions 052016
 License  Standard PacBio Open Source License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pacbio_falcon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pacbio_falcon
 .. |docker| image:: https://quay.io/repository/biocontainers/pacbio_falcon/status
                 :target: https://quay.io/repository/biocontainers/pacbio_falcon
-
 

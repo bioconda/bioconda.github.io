@@ -12,7 +12,10 @@ Home     https://github.com/ljdursi/mergevcf
 Versions 1.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mergevcf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mergevcf
 .. |docker| image:: https://quay.io/repository/biocontainers/mergevcf/status
                 :target: https://quay.io/repository/biocontainers/mergevcf
-
 

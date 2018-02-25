@@ -5,14 +5,17 @@ perl-compress-raw-bzip2
 
 |downloads|
 
-Low-Level Interface to bzip2 compression library
+Low\-Level Interface to bzip2 compression library
 
 ======== ===========
 Home     http://metacpan.org/pod/Compress::Raw::Bzip2
 Versions 2.069
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-compress-raw-bzip2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-compress-raw-bzip2
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-compress-raw-bzip2/status
                 :target: https://quay.io/repository/biocontainers/perl-compress-raw-bzip2
-
 

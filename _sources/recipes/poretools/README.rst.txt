@@ -5,14 +5,17 @@ poretools
 
 |downloads|
 
-poretools: a toolkit for working with nanopore sequencing data from Oxford Nanopore
+poretools\: a toolkit for working with nanopore sequencing data from Oxford Nanopore
 
 ======== ===========
 Home     http://poretools.readthedocs.org/en/latest/
 Versions 0.5.0, 0.5.1, 0.6.0, 0.6.1a0, 0.6.1a1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poretools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/poretools
 .. |docker| image:: https://quay.io/repository/biocontainers/poretools/status
                 :target: https://quay.io/repository/biocontainers/poretools
-
 

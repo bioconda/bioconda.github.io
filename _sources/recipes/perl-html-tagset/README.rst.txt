@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/HTML-Tagset
 Versions 3.20
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-html-tagset
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-html-tagset/status
                 :target: https://quay.io/repository/biocontainers/perl-html-tagset
-
 

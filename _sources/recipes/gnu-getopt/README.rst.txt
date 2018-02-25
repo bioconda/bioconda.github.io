@@ -5,14 +5,17 @@ gnu-getopt
 
 |downloads|
 
-Command-line option parsing library
+Command\-line option parsing library
 
 ======== ===========
 Home     http://software.frodo.looijaard.name/getopt/
 Versions 1.1.6
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnu-getopt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -27,10 +30,11 @@ and update with::
 
    conda update gnu-getopt
 
+
 Notes
 -----
+On Linux systems gnu\-getopt is simply called \'getopt\'\, however due to potential collision with the native BSD getopt on OSX\, this binary is renamed \'gnu\-getopt\'\.
 
-On Linux systems gnu-getopt is simply called 'getopt', however due to potential collision with the native BSD getopt on OSX, this binary is renamed 'gnu-getopt'.
 
 |docker|
 
@@ -49,5 +53,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gnu-getopt
 .. |docker| image:: https://quay.io/repository/biocontainers/gnu-getopt/status
                 :target: https://quay.io/repository/biocontainers/gnu-getopt
-
 

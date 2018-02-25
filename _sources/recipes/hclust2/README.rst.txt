@@ -5,14 +5,17 @@ hclust2
 
 |downloads|
 
-Hclust2 is a handy tool for plotting heat-maps with several useful options to produce high quality figures that can be used in publication.
+Hclust2 is a handy tool for plotting heat\-maps with several useful options to produce high quality figures that can be used in publication\.
 
 ======== ===========
 Home     https://bitbucket.org/nsegata/hclust2
 Versions 0.98.3d589ab
 License  License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hclust2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hclust2
 .. |docker| image:: https://quay.io/repository/biocontainers/hclust2/status
                 :target: https://quay.io/repository/biocontainers/hclust2
-
 

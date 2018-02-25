@@ -5,14 +5,17 @@ gemini
 
 |downloads|
 
-a lightweight db framework for disease and population genetics.
+a lightweight db framework for disease and population genetics\.
 
 ======== ===========
 Home     https://github.com/arq5x/gemini
 Versions 0.17.3dev0, 0.17.3dev1, 0.18.0, 0.18.1, 0.18.2, 0.18.3, 0.18a, 0.19.0, 0.19.1, 0.19.2a, 0.20.0, 0.20.0a0, 0.20.1
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gemini
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gemini
 .. |docker| image:: https://quay.io/repository/biocontainers/gemini/status
                 :target: https://quay.io/repository/biocontainers/gemini
-
 

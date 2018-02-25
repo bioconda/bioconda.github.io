@@ -5,14 +5,17 @@ mageck
 
 |downloads|
 
-MAGeCK (Model-based Analysis of Genome-wide CRISPR-Cas9 Knockout), an algorithm to process, QC, analyze and visualize CRISPR screening data.
+MAGeCK \(Model\-based Analysis of Genome\-wide CRISPR\-Cas9 Knockout\)\, an algorithm to process\, QC\, analyze and visualize CRISPR screening data\.
 
 ======== ===========
 Home     http://mageck.sourceforge.net
 Versions 0.5.2, 0.5.3, 0.5.4, 0.5.5, 0.5.6, 0.5.7
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mageck
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mageck
 .. |docker| image:: https://quay.io/repository/biocontainers/mageck/status
                 :target: https://quay.io/repository/biocontainers/mageck
-
 

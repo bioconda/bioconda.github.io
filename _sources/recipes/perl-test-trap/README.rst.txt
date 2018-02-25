@@ -5,14 +5,17 @@ perl-test-trap
 
 |downloads|
 
-Trap exit codes, exceptions, output, etc
+Trap exit codes\, exceptions\, output\, etc
 
 ======== ===========
 Home     https://metacpan.org/pod/Test::Trap
 Versions 0.3.2
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-trap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-trap
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-trap/status
                 :target: https://quay.io/repository/biocontainers/perl-test-trap
-
 

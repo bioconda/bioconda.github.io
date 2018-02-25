@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/PFAM.db.html
 Versions 3.5.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pfam.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pfam.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pfam.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pfam.db
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/tanghaibao/goatools
 Versions 0.5.9, 0.6.10, 0.6.4, 0.7.11
 License  BSD-2-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goatools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/goatools
 .. |docker| image:: https://quay.io/repository/biocontainers/goatools/status
                 :target: https://quay.io/repository/biocontainers/goatools
-
 

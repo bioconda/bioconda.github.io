@@ -5,14 +5,17 @@ r-patpro
 
 |downloads|
 
-Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit (see <http://qiime.org> for more information).
+Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit \(see \<http\:\/\/qiime\.org\> for more information\)\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=patPRO
 Versions 1.1.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-patpro
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-patpro
 .. |docker| image:: https://quay.io/repository/biocontainers/r-patpro/status
                 :target: https://quay.io/repository/biocontainers/r-patpro
-
 

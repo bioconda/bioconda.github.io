@@ -5,14 +5,17 @@ xtermcolor
 
 |downloads|
 
-Python library for terminal color support (including 256-color support
+Python library for terminal color support \(including 256\-color support
 
 ======== ===========
 Home     https://github.com/broadinstitute/xtermcolor
 Versions 1.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtermcolor
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/xtermcolor
 .. |docker| image:: https://quay.io/repository/biocontainers/xtermcolor/status
                 :target: https://quay.io/repository/biocontainers/xtermcolor
-
 

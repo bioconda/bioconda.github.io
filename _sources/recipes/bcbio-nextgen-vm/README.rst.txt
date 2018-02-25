@@ -5,14 +5,17 @@ bcbio-nextgen-vm
 
 |downloads|
 
-Run bcbio-nextgen genomic sequencing analyses using isolated containers and virtual machines
+Run bcbio\-nextgen genomic sequencing analyses using isolated containers and virtual machines
 
 ======== ===========
 Home     https://github.com/chapmanb/bcbio-nextgen-vm
 Versions 0.1.0a
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-nextgen-vm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcbio-nextgen-vm
 .. |docker| image:: https://quay.io/repository/biocontainers/bcbio-nextgen-vm/status
                 :target: https://quay.io/repository/biocontainers/bcbio-nextgen-vm
-
 

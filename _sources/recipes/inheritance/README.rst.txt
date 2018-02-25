@@ -12,7 +12,10 @@ Home     https://github.com/brentp/inheritance
 Versions 0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.9, 0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inheritance
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/inheritance
 .. |docker| image:: https://quay.io/repository/biocontainers/inheritance/status
                 :target: https://quay.io/repository/biocontainers/inheritance
-
 

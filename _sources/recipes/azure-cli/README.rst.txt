@@ -12,7 +12,10 @@ Home     https://github.com/azure/azure-xplat-cli
 Versions 0.10.3
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/azure-cli
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/azure-cli
 .. |docker| image:: https://quay.io/repository/biocontainers/azure-cli/status
                 :target: https://quay.io/repository/biocontainers/azure-cli
-
 

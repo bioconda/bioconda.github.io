@@ -5,14 +5,17 @@ trinotate
 
 |downloads|
 
-Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes, particularly de novo assembled transcriptomes, from model or non-model organisms
+Trinotate is a comprehensive annotation suite designed for automatic functional annotation of transcriptomes\, particularly de novo assembled transcriptomes\, from model or non\-model organisms
 
 ======== ===========
 Home     https://trinotate.github.io/
 Versions 3.0.1, 3.0.2
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinotate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/trinotate
 .. |docker| image:: https://quay.io/repository/biocontainers/trinotate/status
                 :target: https://quay.io/repository/biocontainers/trinotate
-
 

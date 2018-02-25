@@ -5,14 +5,17 @@ flux-simulator
 
 |downloads|
 
-Tool for modeling RNA-Seq experiments in silico
+Tool for modeling RNA\-Seq experiments in silico
 
 ======== ===========
 Home     http://sammeth.net/confluence/display/SIM/Home
 Versions 1.2.1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flux-simulator
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/flux-simulator
 .. |docker| image:: https://quay.io/repository/biocontainers/flux-simulator/status
                 :target: https://quay.io/repository/biocontainers/flux-simulator
-
 

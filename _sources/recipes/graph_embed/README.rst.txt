@@ -5,14 +5,17 @@ graph_embed
 
 |downloads|
 
-Compute a 2D embedding of a data matrix given supervised class information.
+Compute a 2D embedding of a data matrix given supervised class information\.
 
 ======== ===========
 Home     https://github.com/fabriziocosta/GraphEmbed
 Versions 1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graph_embed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graph_embed
 .. |docker| image:: https://quay.io/repository/biocontainers/graph_embed/status
                 :target: https://quay.io/repository/biocontainers/graph_embed
-
 

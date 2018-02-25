@@ -12,7 +12,10 @@ Home     https://github.com/lskatz/mashtree
 Versions 0.12, 0.20, 0.21, 0.25, 0.26, 0.28, 0.30
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mashtree
 .. |docker| image:: https://quay.io/repository/biocontainers/mashtree/status
                 :target: https://quay.io/repository/biocontainers/mashtree
-
 

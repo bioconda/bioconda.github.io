@@ -5,14 +5,17 @@ chipseq-greylist
 
 |downloads|
 
-Python implementation of GreyListChIP Bioconductor package.
+Python implementation of GreyListChIP Bioconductor package\.
 
 ======== ===========
 Home     https://github.com/roryk/chipseq-greylist
 Versions 1.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chipseq-greylist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/chipseq-greylist
 .. |docker| image:: https://quay.io/repository/biocontainers/chipseq-greylist/status
                 :target: https://quay.io/repository/biocontainers/chipseq-greylist
-
 

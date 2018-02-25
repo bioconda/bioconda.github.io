@@ -5,14 +5,17 @@ perl-tie-toobject
 
 |downloads|
 
-Tie to an existing object.
+Tie to an existing object\.
 
 ======== ===========
 Home     http://metacpan.org/pod/Tie::ToObject
 Versions 0.03
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-toobject/0.03
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-tie-toobject
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-tie-toobject/status
                 :target: https://quay.io/repository/biocontainers/perl-tie-toobject
-
 

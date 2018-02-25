@@ -5,14 +5,17 @@ bioconductor-made4
 
 |downloads|
 
-Multivariate data analysis and graphical display of microarray data. Functions include between group analysis and coinertia analysis. It contains functions that require ADE4.
+Multivariate data analysis and graphical display of microarray data\. Functions include between group analysis and coinertia analysis\. It contains functions that require ADE4\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/made4.html
 Versions 1.44.0, 1.50.0, 1.52.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-made4
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-made4
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-made4/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-made4
-
 

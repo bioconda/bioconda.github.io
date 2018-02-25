@@ -5,14 +5,17 @@ peakzilla
 
 |downloads|
 
-Peakzilla identifies sites of enrichment and transcription factor binding sites from transcription factor ChIP-seq and ChIP-exo experiments at hight accuracy and resolution.
+Peakzilla identifies sites of enrichment and transcription factor binding sites from transcription factor ChIP\-seq and ChIP\-exo experiments at hight accuracy and resolution\.
 
 ======== ===========
 Home     http://stark.imp.ac.at/data/peakzilla
 Versions 1.0
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakzilla
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/peakzilla
 .. |docker| image:: https://quay.io/repository/biocontainers/peakzilla/status
                 :target: https://quay.io/repository/biocontainers/peakzilla
-
 

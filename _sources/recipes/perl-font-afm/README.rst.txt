@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Font-AFM
 Versions 1.20
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-afm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-font-afm
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-font-afm/status
                 :target: https://quay.io/repository/biocontainers/perl-font-afm
-
 

@@ -5,14 +5,17 @@ r-basejump
 
 |downloads|
 
-Base functions for bioinformatics and R package development.
+Base functions for bioinformatics and R package development\.
 
 ======== ===========
 Home     https://github.com/steinbaugh/basejump
 Versions 0.1.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-basejump
 .. |docker| image:: https://quay.io/repository/biocontainers/r-basejump/status
                 :target: https://quay.io/repository/biocontainers/r-basejump
-
 

@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/GGBase.html
 Versions 3.40.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ggbase
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ggbase/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ggbase
-
 

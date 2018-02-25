@@ -5,14 +5,17 @@ bioconductor-jmosaics
 
 |downloads|
 
-jmosaics detects enriched regions of ChIP-seq data sets jointly.
+jmosaics detects enriched regions of ChIP\-seq data sets jointly\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/release/bioc/html/jmosaics.html
 Versions 1.10.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jmosaics
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-jmosaics
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-jmosaics/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-jmosaics
-
 

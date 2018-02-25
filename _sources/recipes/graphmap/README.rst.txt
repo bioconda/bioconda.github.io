@@ -5,14 +5,17 @@ graphmap
 
 |downloads|
 
-A highly sensitive and accurate mapper for long, error-prone reads.
+A highly sensitive and accurate mapper for long\, error\-prone reads\.
 
 ======== ===========
 Home     https://github.com/isovic/graphmap
 Versions 0.3.1p1, 0.4.0, 0.5.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/graphmap
 .. |docker| image:: https://quay.io/repository/biocontainers/graphmap/status
                 :target: https://quay.io/repository/biocontainers/graphmap
-
 

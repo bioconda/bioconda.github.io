@@ -5,14 +5,17 @@ perl-term-detect-software
 
 |downloads|
 
-Detect terminal (emulator) software and its capabilities
+Detect terminal \(emulator\) software and its capabilities
 
 ======== ===========
 Home     https://metacpan.org/release/Term-Detect-Software
 Versions 0.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-term-detect-software
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-term-detect-software/status
                 :target: https://quay.io/repository/biocontainers/perl-term-detect-software
-
 

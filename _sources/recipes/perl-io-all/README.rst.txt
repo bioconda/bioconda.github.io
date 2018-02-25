@@ -12,7 +12,10 @@ Home     https://github.com/ingydotnet/io-all-pm
 Versions 0.86
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-all
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-all
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-all/status
                 :target: https://quay.io/repository/biocontainers/perl-io-all
-
 

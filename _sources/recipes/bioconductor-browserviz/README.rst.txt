@@ -5,14 +5,17 @@ bioconductor-browserviz
 
 |downloads|
 
-Interactvive graphics in a web browser from R, using websockets and JSON.
+Interactvive graphics in a web browser from R\, using websockets and JSON\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/BrowserViz.html
 Versions 1.10.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browserviz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-browserviz
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-browserviz/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-browserviz
-
 

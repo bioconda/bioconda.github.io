@@ -5,14 +5,17 @@ perl-locale-maketext-simple
 
 |downloads|
 
-Simple interface to Locale::Maketext::Lexicon
+Simple interface to Locale\:\:Maketext\:\:Lexicon
 
 ======== ===========
 Home     http://metacpan.org/pod/Locale::Maketext::Simple
 Versions 0.21
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale-maketext-simple/0.21
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-locale-maketext-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-locale-maketext-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-locale-maketext-simple
-
 

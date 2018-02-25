@@ -5,14 +5,17 @@ bioconductor-r3cseq
 
 |downloads|
 
-This package is an implementation of data analysis for the long-range interactions from 3C-seq assay.
+This package is an implementation of data analysis for the long\-range interactions from 3C\-seq assay\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/r3Cseq.html
 Versions 1.22.0, 1.24.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-r3cseq
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-r3cseq/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-r3cseq
-
 

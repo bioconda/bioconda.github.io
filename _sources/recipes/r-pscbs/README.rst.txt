@@ -5,14 +5,17 @@ r-pscbs
 
 |downloads|
 
-Segmentation of allele-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor-normal paired and tumor-only analyses are supported.
+Segmentation of allele\-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome\.  Both tumor\-normal paired and tumor\-only analyses are supported\.
 
 ======== ===========
 Home     https://github.com/HenrikBengtsson/PSCBS
 Versions 0.60.0, 0.60.3, 0.61.0, 0.63.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pscbs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-pscbs
 .. |docker| image:: https://quay.io/repository/biocontainers/r-pscbs/status
                 :target: https://quay.io/repository/biocontainers/r-pscbs
-
 

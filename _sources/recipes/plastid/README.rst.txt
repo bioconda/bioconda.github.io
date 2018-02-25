@@ -5,14 +5,17 @@ plastid
 
 |downloads|
 
-plastid is a Python library for genomic analysis -- in particular, high-throughput sequencing data
+plastid is a Python library for genomic analysis \-\- in particular\, high\-throughput sequencing data
 
 ======== ===========
 Home     http://plastid.readthedocs.io/en/latest/
 Versions 0.4.7
 License  BSD 3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plastid
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/plastid
 .. |docker| image:: https://quay.io/repository/biocontainers/plastid/status
                 :target: https://quay.io/repository/biocontainers/plastid
-
 

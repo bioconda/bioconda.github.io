@@ -12,7 +12,10 @@ Home     http://code.google.com/p/gtf-to-genes/
 Versions 1.40
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gtf_to_genes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gtf_to_genes
 .. |docker| image:: https://quay.io/repository/biocontainers/gtf_to_genes/status
                 :target: https://quay.io/repository/biocontainers/gtf_to_genes
-
 

@@ -5,14 +5,17 @@ perl-unicode-map
 
 |downloads|
 
-Map charsets from and to UTF-16 unicode
+Map charsets from and to UTF\-16 unicode
 
 ======== ===========
 Home     http://metacpan.org/pod/Unicode-Map
 Versions 0.112
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-unicode-map
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-unicode-map/status
                 :target: https://quay.io/repository/biocontainers/perl-unicode-map
-
 

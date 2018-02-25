@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Math-VecStat
 Versions 0.08
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-vecstat
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-math-vecstat
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-math-vecstat/status
                 :target: https://quay.io/repository/biocontainers/perl-math-vecstat
-
 

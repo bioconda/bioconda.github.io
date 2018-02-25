@@ -5,14 +5,17 @@ bcbio-prioritize
 
 |downloads|
 
-Prioritize small variants, structural variants and coverage based on biological inputs
+Prioritize small variants\, structural variants and coverage based on biological inputs
 
 ======== ===========
 Home     https://github.com/chapmanb/bcbio.prioritize
 Versions 0.0.2, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-prioritize
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bcbio-prioritize
 .. |docker| image:: https://quay.io/repository/biocontainers/bcbio-prioritize/status
                 :target: https://quay.io/repository/biocontainers/bcbio-prioritize
-
 

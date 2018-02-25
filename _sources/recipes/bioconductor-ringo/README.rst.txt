@@ -5,14 +5,17 @@ bioconductor-ringo
 
 |downloads|
 
-The package Ringo facilitates the primary analysis of ChIP-chip data. The main functionalities of the package are data read-in, quality assessment, data visualisation and identification of genomic regions showing enrichment in ChIP-chip. The package has functions to deal with two-color oligonucleotide microarrays from NimbleGen used in ChIP-chip projects, but also contains more general functions for ChIP-chip data analysis, given that the data is supplied as RGList (raw)  or ExpressionSet (pre- processed). The package employs functions from various other packages of the Bioconductor project and provides additional ChIP-chip-specific and NimbleGen-specific functionalities.
+The package Ringo facilitates the primary analysis of ChIP\-chip data\. The main functionalities of the package are data read\-in\, quality assessment\, data visualisation and identification of genomic regions showing enrichment in ChIP\-chip\. The package has functions to deal with two\-color oligonucleotide microarrays from NimbleGen used in ChIP\-chip projects\, but also contains more general functions for ChIP\-chip data analysis\, given that the data is supplied as RGList \(raw\)  or ExpressionSet \(pre\- processed\)\. The package employs functions from various other packages of the Bioconductor project and provides additional ChIP\-chip\-specific and NimbleGen\-specific functionalities\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Ringo.html
 Versions 1.38.0, 1.40.0, 1.42.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ringo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ringo
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ringo/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ringo
-
 

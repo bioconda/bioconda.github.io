@@ -5,14 +5,17 @@ rmats2sashimiplot
 
 |downloads|
 
-rmats2sashimiplot is a tool that generates sahimi plots from rMATS outputs.
+rmats2sashimiplot is a tool that generates sahimi plots from rMATS outputs\.
 
 ======== ===========
 Home     https://github.com/Xinglab/rmats2sashimiplot
 Versions 2.0.0
 License  GNU GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmats2sashimiplot
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rmats2sashimiplot
 .. |docker| image:: https://quay.io/repository/biocontainers/rmats2sashimiplot/status
                 :target: https://quay.io/repository/biocontainers/rmats2sashimiplot
-
 

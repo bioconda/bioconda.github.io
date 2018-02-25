@@ -5,14 +5,17 @@ pyasp
 
 |downloads|
 
-A convenience wrapper for the ASP tools gringo, gringo4 and clasp.
+A convenience wrapper for the ASP tools gringo\, gringo4 and clasp\.
 
 ======== ===========
 Home     http://pypi.python.org/pypi/pyasp/
 Versions 1.4.3
 License  GPLv3+
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyasp/1.4.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyasp
 .. |docker| image:: https://quay.io/repository/biocontainers/pyasp/status
                 :target: https://quay.io/repository/biocontainers/pyasp
-
 

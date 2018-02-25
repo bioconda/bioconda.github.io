@@ -5,14 +5,17 @@ twobitreader
 
 |downloads|
 
-A fast python package for reading .2bit files (used by the UCSC genome browser)
+A fast python package for reading \.2bit files \(used by the UCSC genome browser\)
 
 ======== ===========
 Home     https://github.com/benjschiller/twobitreader
 Versions 3.1.4
 License  Artistic License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twobitreader
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/twobitreader
 .. |docker| image:: https://quay.io/repository/biocontainers/twobitreader/status
                 :target: https://quay.io/repository/biocontainers/twobitreader
-
 

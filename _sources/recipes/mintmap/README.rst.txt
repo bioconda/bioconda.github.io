@@ -5,14 +5,17 @@ mintmap
 
 |downloads|
 
-Generate tRF profiles from short RNA-Seq datasets
+Generate tRF profiles from short RNA\-Seq datasets
 
 ======== ===========
 Home     https://github.com/TJU-CMC-Org/MINTmap
 Versions 1.0
 License  open source GNU GPL v3.0 license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mintmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mintmap
 .. |docker| image:: https://quay.io/repository/biocontainers/mintmap/status
                 :target: https://quay.io/repository/biocontainers/mintmap
-
 

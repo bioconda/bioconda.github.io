@@ -5,14 +5,17 @@ bioconductor-rama
 
 |downloads|
 
-Robust estimation of cDNA microarray intensities with replicates. The package uses a Bayesian hierarchical model for the robust estimation. Outliers are modeled explicitly using a t-distribution, and the model also addresses classical issues such as design effects, normalization, transformation, and nonconstant variance.
+Robust estimation of cDNA microarray intensities with replicates\. The package uses a Bayesian hierarchical model for the robust estimation\. Outliers are modeled explicitly using a t\-distribution\, and the model also addresses classical issues such as design effects\, normalization\, transformation\, and nonconstant variance\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rama.html
 Versions 1.50.0, 1.52.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rama
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rama
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rama/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rama
-
 

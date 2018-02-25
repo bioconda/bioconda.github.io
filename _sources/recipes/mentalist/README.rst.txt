@@ -5,14 +5,17 @@ mentalist
 
 |downloads|
 
-The MLST pipeline developed by the PathOGiST research group.
+The MLST pipeline developed by the PathOGiST research group\.
 
 ======== ===========
 Home     https://github.com/WGS-TB/MentaLiST
 Versions 0.1.2, 0.1.3, 0.2.0, 0.2.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mentalist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/mentalist
 .. |docker| image:: https://quay.io/repository/biocontainers/mentalist/status
                 :target: https://quay.io/repository/biocontainers/mentalist
-
 

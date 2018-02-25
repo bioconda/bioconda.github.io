@@ -5,14 +5,17 @@ limix
 
 |downloads|
 
-A flexible and fast mixed model toolbox written in C++/python
+A flexible and fast mixed model toolbox written in C\+\+\/python
 
 ======== ===========
 Home     http://pmbio.github.io/limix/
 Versions 0.7.12
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/limix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/limix
 .. |docker| image:: https://quay.io/repository/biocontainers/limix/status
                 :target: https://quay.io/repository/biocontainers/limix
-
 

@@ -5,14 +5,17 @@ bioconductor-gseabase
 
 |downloads|
 
-This package provides classes and methods to support Gene Set Enrichment Analysis (GSEA).
+This package provides classes and methods to support Gene Set Enrichment Analysis \(GSEA\)\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/GSEABase.html
 Versions 1.32.0, 1.34.1, 1.38.2, 1.40.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gseabase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-gseabase
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-gseabase/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-gseabase
-
 

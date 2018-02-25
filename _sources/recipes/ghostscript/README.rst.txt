@@ -5,14 +5,17 @@ ghostscript
 
 |downloads|
 
-An interpreter for the PostScript language and for PDF.
+An interpreter for the PostScript language and for PDF\.
 
 ======== ===========
 Home     http://ghostscript.com/
 Versions 9.07, 9.10, 9.18
 License  Affero GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostscript
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ghostscript
 .. |docker| image:: https://quay.io/repository/biocontainers/ghostscript/status
                 :target: https://quay.io/repository/biocontainers/ghostscript
-
 

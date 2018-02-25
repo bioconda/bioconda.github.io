@@ -5,14 +5,17 @@ polymutt
 
 |downloads|
 
-Li B, Chen W, Zhan X, Busonero F, Sanna S, et al. (2012) A Likelihood-Based Framework for Variant Calling and De Novo Mutation Detection in Families. PLoS Genet 8(10): e1002944. doi:10.1371/journal.pgen.1002944
+Li B\, Chen W\, Zhan X\, Busonero F\, Sanna S\, et al\. \(2012\) A Likelihood\-Based Framework for Variant Calling and De Novo Mutation Detection in Families\. PLoS Genet 8\(10\)\: e1002944\. doi\:10\.1371\/journal\.pgen\.1002944
 
 ======== ===========
 Home     https://genome.sph.umich.edu/wiki/Polymutt
 Versions 0.18
 License  custom (written permission by author to publish on bioconda)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/polymutt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/polymutt
 .. |docker| image:: https://quay.io/repository/biocontainers/polymutt/status
                 :target: https://quay.io/repository/biocontainers/polymutt
-
 

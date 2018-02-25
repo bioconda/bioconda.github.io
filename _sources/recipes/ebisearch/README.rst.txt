@@ -5,14 +5,17 @@ ebisearch
 
 |downloads|
 
-A Python library for interacting with EBI Search's API
+A Python library for interacting with EBI Search\'s API
 
 ======== ===========
 Home     https://github.com/bebatut/ebisearch
 Versions 0.0.2, 0.0.3
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebisearch
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ebisearch
 .. |docker| image:: https://quay.io/repository/biocontainers/ebisearch/status
                 :target: https://quay.io/repository/biocontainers/ebisearch
-
 

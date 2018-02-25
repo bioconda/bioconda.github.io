@@ -12,7 +12,10 @@ Home     http://www.ansible.com/
 Versions 1.9.4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ansible
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ansible
 .. |docker| image:: https://quay.io/repository/biocontainers/ansible/status
                 :target: https://quay.io/repository/biocontainers/ansible
-
 

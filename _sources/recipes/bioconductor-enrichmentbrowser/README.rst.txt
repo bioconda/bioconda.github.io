@@ -5,14 +5,17 @@ bioconductor-enrichmentbrowser
 
 |downloads|
 
-The EnrichmentBrowser package implements essential functionality for the enrichment analysis of gene expression data. The analysis combines the advantages of set-based and network-based enrichment analysis in order to derive high-confidence gene sets and biological pathways that are differentially regulated in the expression data under investigation. Besides, the package facilitates the visualization and exploration of such sets and pathways.
+The EnrichmentBrowser package implements essential functionality for the enrichment analysis of gene expression data\. The analysis combines the advantages of set\-based and network\-based enrichment analysis in order to derive high\-confidence gene sets and biological pathways that are differentially regulated in the expression data under investigation\. Besides\, the package facilitates the visualization and exploration of such sets and pathways\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/EnrichmentBrowser.html
 Versions 
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichmentbrowser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-enrichmentbrowser
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-enrichmentbrowser/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-enrichmentbrowser
-
 

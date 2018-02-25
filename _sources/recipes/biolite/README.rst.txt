@@ -5,14 +5,17 @@ biolite
 
 |downloads|
 
-A lightweight bioinformatics framework with automated tracking of diagnostics and provenance.
+A lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
 
 ======== ===========
 Home     https://bitbucket.org/caseywdunn/biolite
 Versions 1.1.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/biolite
 .. |docker| image:: https://quay.io/repository/biocontainers/biolite/status
                 :target: https://quay.io/repository/biocontainers/biolite
-
 

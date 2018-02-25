@@ -5,14 +5,17 @@ kiwidist
 
 |downloads|
 
-Combining gene-set analysis with network properties
+Combining gene\-set analysis with network properties
 
 ======== ===========
 Home     
 Versions 0.3.4, 0.3.5, 0.3.6
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kiwidist
 .. |docker| image:: https://quay.io/repository/biocontainers/kiwidist/status
                 :target: https://quay.io/repository/biocontainers/kiwidist
-
 

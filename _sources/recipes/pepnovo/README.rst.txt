@@ -12,7 +12,10 @@ Home     http://proteomics.ucsd.edu/Software/PepNovo/
 Versions 20101117
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepnovo
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pepnovo
 .. |docker| image:: https://quay.io/repository/biocontainers/pepnovo/status
                 :target: https://quay.io/repository/biocontainers/pepnovo
-
 

@@ -5,14 +5,17 @@ perl-hpc-runner-pbs
 
 |downloads|
 
-Submit jobs to a PBS job scheduler.
+Submit jobs to a PBS job scheduler\.
 
 ======== ===========
 Home     https://bitbucket.org/jerowe/hpc-runner-pbs
 Versions 0.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-pbs
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hpc-runner-pbs
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hpc-runner-pbs/status
                 :target: https://quay.io/repository/biocontainers/perl-hpc-runner-pbs
-
 

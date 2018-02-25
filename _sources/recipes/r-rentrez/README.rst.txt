@@ -5,14 +5,17 @@ r-rentrez
 
 |downloads|
 
-Provides an R interface to the NCBI's EUtils API allowing users to search databases like GenBank and PubMed, process the results of those searches and pull data into their R sessions.
+Provides an R interface to the NCBI\'s EUtils API allowing users to search databases like GenBank and PubMed\, process the results of those searches and pull data into their R sessions\.
 
 ======== ===========
 Home     http://github.com/ropensci/rentrez
 Versions 1.1.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rentrez
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-rentrez
 .. |docker| image:: https://quay.io/repository/biocontainers/r-rentrez/status
                 :target: https://quay.io/repository/biocontainers/r-rentrez
-
 

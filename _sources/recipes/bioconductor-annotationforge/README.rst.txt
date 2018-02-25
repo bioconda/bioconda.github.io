@@ -5,14 +5,17 @@ bioconductor-annotationforge
 
 |downloads|
 
-Provides code for generating Annotation packages and their databases.  Packages produced are intended to be used with AnnotationDbi.
+Provides code for generating Annotation packages and their databases\.  Packages produced are intended to be used with AnnotationDbi\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/AnnotationForge.html
 Versions 1.12.2, 1.14.0, 1.14.2, 1.18.2, 1.20.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationforge
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-annotationforge
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-annotationforge/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-annotationforge
-
 

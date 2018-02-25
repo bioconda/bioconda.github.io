@@ -5,14 +5,17 @@ perl-file-sharedir
 
 |downloads|
 
-Locate per-dist and per-module shared files
+Locate per\-dist and per\-module shared files
 
 ======== ===========
 Home     https://metacpan.org/pod/File::ShareDir
 Versions 1.102
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-sharedir
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-sharedir/status
                 :target: https://quay.io/repository/biocontainers/perl-file-sharedir
-
 

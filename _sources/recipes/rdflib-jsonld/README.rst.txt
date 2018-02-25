@@ -5,14 +5,17 @@ rdflib-jsonld
 
 |downloads|
 
-rdflib extension adding JSON-LD parser and serializer
+rdflib extension adding JSON\-LD parser and serializer
 
 ======== ===========
 Home     https://github.com/RDFLib/rdflib-jsonld
 Versions 0.3, 0.4
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdflib-jsonld
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rdflib-jsonld
 .. |docker| image:: https://quay.io/repository/biocontainers/rdflib-jsonld/status
                 :target: https://quay.io/repository/biocontainers/rdflib-jsonld
-
 

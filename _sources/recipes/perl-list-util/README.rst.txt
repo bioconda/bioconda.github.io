@@ -5,14 +5,17 @@ perl-list-util
 
 |downloads|
 
-A selection of general-utility list subroutines
+A selection of general\-utility list subroutines
 
 ======== ===========
 Home     http://metacpan.org/pod/List::Util
 Versions 1.38
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-util/1.38
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-list-util
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-list-util/status
                 :target: https://quay.io/repository/biocontainers/perl-list-util
-
 

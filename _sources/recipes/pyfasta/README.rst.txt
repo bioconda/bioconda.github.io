@@ -5,14 +5,17 @@ pyfasta
 
 |downloads|
 
-fast, memory-efficient, pythonic (and command-line) access to fasta sequence files
+fast\, memory\-efficient\, pythonic \(and command\-line\) access to fasta sequence files
 
 ======== ===========
 Home     http://github.com/brentp/pyfasta/
 Versions 0.5.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfasta
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyfasta
 .. |docker| image:: https://quay.io/repository/biocontainers/pyfasta/status
                 :target: https://quay.io/repository/biocontainers/pyfasta
-
 

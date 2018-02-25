@@ -5,14 +5,17 @@ synapseclient
 
 |downloads|
 
-A client for Synapse, a collaborative compute space  that allows scientists to share and analyze data together.
+A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together\.
 
 ======== ===========
 Home     http://synapse.sagebase.org/
 Versions 1.5, 1.6.2, 1.7.1
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/synapseclient
 .. |docker| image:: https://quay.io/repository/biocontainers/synapseclient/status
                 :target: https://quay.io/repository/biocontainers/synapseclient
-
 

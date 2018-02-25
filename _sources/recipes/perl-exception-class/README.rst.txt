@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Exception-Class
 Versions 1.40
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exception-class
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-exception-class
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-exception-class/status
                 :target: https://quay.io/repository/biocontainers/perl-exception-class
-
 

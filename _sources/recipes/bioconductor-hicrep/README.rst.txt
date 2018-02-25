@@ -5,14 +5,17 @@ bioconductor-hicrep
 
 |downloads|
 
-Hi-C is a powerful technology for studying genome-wide chromatin interactions. However, current methods for assessing Hi-C data reproducibility can produce misleading results because they ignore spatial features in Hi-C data, such as domain structure and distance-dependence. We present a novel reproducibility measure that systematically takes these features into consideration. This measure can assess pairwise differences between Hi-C matrices under a wide range of settings, and can be used to determine optimal sequencing depth. Compared to existing approaches, it consistently shows higher accuracy in distinguishing subtle differences in reproducibility and depicting interrelationships of cell lineages than existing approaches. This R package `hicrep` implements our approach.
+Hi\-C is a powerful technology for studying genome\-wide chromatin interactions\. However\, current methods for assessing Hi\-C data reproducibility can produce misleading results because they ignore spatial features in Hi\-C data\, such as domain structure and distance\-dependence\. We present a novel reproducibility measure that systematically takes these features into consideration\. This measure can assess pairwise differences between Hi\-C matrices under a wide range of settings\, and can be used to determine optimal sequencing depth\. Compared to existing approaches\, it consistently shows higher accuracy in distinguishing subtle differences in reproducibility and depicting interrelationships of cell lineages than existing approaches\. This R package \`hicrep\` implements our approach\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/hicrep.html
 Versions 1.0.0, 1.2.0
 License  GPL (>= 2.0)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicrep
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-hicrep
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-hicrep/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-hicrep
-
 

@@ -12,7 +12,10 @@ Home     https://mathgen.stats.ox.ac.uk/impute/impute_v2.html
 Versions 2.3.2
 License  Academic use, commerically restricted (http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/impute2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/impute2
 .. |docker| image:: https://quay.io/repository/biocontainers/impute2/status
                 :target: https://quay.io/repository/biocontainers/impute2
-
 

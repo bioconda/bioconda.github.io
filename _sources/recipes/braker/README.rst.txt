@@ -5,14 +5,17 @@ braker
 
 |downloads|
 
-BRAKER1: Unsupervised RNA-Seq-based genome annotation with GeneMark-ET and AUGUSTUS
+BRAKER1\: Unsupervised RNA\-Seq\-based genome annotation with GeneMark\-ET and AUGUSTUS
 
 ======== ===========
 Home     http://bioinf.uni-greifswald.de/augustus/
 Versions 1.9
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/braker
 .. |docker| image:: https://quay.io/repository/biocontainers/braker/status
                 :target: https://quay.io/repository/biocontainers/braker
-
 

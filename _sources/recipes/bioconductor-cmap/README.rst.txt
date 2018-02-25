@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/data/annotation/html/cMAP.html
 Versions 1.15.1
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cmap
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cmap/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cmap
-
 

@@ -5,14 +5,17 @@ blast-legacy
 
 |downloads|
 
-The Basic Local Alignment Search Tool (BLAST) finds regions of local similarity between sequences.
+The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarity between sequences\.
 
 ======== ===========
 Home     http://blast.ncbi.nlm.nih.gov
 Versions 2.2.22
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.22
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blast-legacy
 .. |docker| image:: https://quay.io/repository/biocontainers/blast-legacy/status
                 :target: https://quay.io/repository/biocontainers/blast-legacy
-
 

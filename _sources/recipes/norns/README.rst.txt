@@ -5,14 +5,17 @@ norns
 
 |downloads|
 
-Simple yaml-based config module
+Simple yaml\-based config module
 
 ======== ===========
 Home     https://github.com/simonvh/norns
 Versions 0.1.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/norns
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/norns
 .. |docker| image:: https://quay.io/repository/biocontainers/norns/status
                 :target: https://quay.io/repository/biocontainers/norns
-
 

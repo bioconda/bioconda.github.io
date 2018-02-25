@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Symbol::Util
 Versions 0.0203
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util/0.0203
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-symbol-util
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-symbol-util/status
                 :target: https://quay.io/repository/biocontainers/perl-symbol-util
-
 

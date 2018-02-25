@@ -5,14 +5,17 @@ whatshap
 
 |downloads|
 
-phase genomic variants using DNA sequencing reads (haplotype assembly)
+phase genomic variants using DNA sequencing reads \(haplotype assembly\)
 
 ======== ===========
 Home     https://whatshap.readthedocs.io/
 Versions 0.11, 0.12, 0.13, 0.14.1, 0.9
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/whatshap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/whatshap
 .. |docker| image:: https://quay.io/repository/biocontainers/whatshap/status
                 :target: https://quay.io/repository/biocontainers/whatshap
-
 

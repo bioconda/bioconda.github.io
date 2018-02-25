@@ -5,14 +5,17 @@ bioconductor-cmap2data
 
 |downloads|
 
-Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
+Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/cMap2data.html
 Versions 1.14.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-cmap2data
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-cmap2data/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-cmap2data
-
 

@@ -5,14 +5,17 @@ bioconductor-switchde
 
 |downloads|
 
-Inference and detection of switch-like differential expression across single-cell RNA-seq trajectories.
+Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/switchde.html
 Versions 1.2.0, 1.4.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-switchde
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-switchde
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-switchde/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-switchde
-
 

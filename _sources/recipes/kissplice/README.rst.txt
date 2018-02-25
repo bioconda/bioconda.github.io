@@ -5,14 +5,17 @@ kissplice
 
 |downloads|
 
-A local transcriptome assembler for SNPs, indels and AS events
+A local transcriptome assembler for SNPs\, indels and AS events
 
 ======== ===========
 Home     http://kissplice.prabi.fr
 Versions 2.4.0p1
 License  CeCILL license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kissplice
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/kissplice
 .. |docker| image:: https://quay.io/repository/biocontainers/kissplice/status
                 :target: https://quay.io/repository/biocontainers/kissplice
-
 

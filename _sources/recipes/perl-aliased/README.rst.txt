@@ -5,14 +5,17 @@ perl-aliased
 
 |downloads|
 
-Use shorter versions of class names.
+Use shorter versions of class names\.
 
 ======== ===========
 Home     https://github.com/karenetheridge/aliased
 Versions 0.34
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-aliased
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-aliased/status
                 :target: https://quay.io/repository/biocontainers/perl-aliased
-
 

@@ -5,14 +5,17 @@ scoary
 
 |downloads|
 
-Microbial pan-GWAS using the output from Roary
+Microbial pan\-GWAS using the output from Roary
 
 ======== ===========
 Home     https://github.com/AdmiralenOla/Scoary
 Versions 1.6.9
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoary
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/scoary
 .. |docker| image:: https://quay.io/repository/biocontainers/scoary/status
                 :target: https://quay.io/repository/biocontainers/scoary
-
 

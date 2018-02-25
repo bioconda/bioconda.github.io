@@ -5,14 +5,17 @@ hmmcopy
 
 |downloads|
 
-C++ based programs for analyzing BAM files and preparing read counts -- used with bioconductor-hmmcopy
+C\+\+ based programs for analyzing BAM files and preparing read counts \-\- used with bioconductor\-hmmcopy
 
 ======== ===========
 Home     http://compbio.bccrc.ca/software/hmmcopy/
 Versions 0.1.1
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmcopy
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hmmcopy
 .. |docker| image:: https://quay.io/repository/biocontainers/hmmcopy/status
                 :target: https://quay.io/repository/biocontainers/hmmcopy
-
 

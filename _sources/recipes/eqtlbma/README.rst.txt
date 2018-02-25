@@ -5,14 +5,17 @@ eqtlbma
 
 |downloads|
 
-Package to detect eQTLs jointly in multiple subgroups (e.g. tissues) via Bayesian Model Averaging.
+Package to detect eQTLs jointly in multiple subgroups \(e\.g\. tissues\) via Bayesian Model Averaging\.
 
 ======== ===========
 Home     https://github.com/timflutre/eqtlbma
 Versions 1.3.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eqtlbma
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/eqtlbma
 .. |docker| image:: https://quay.io/repository/biocontainers/eqtlbma/status
                 :target: https://quay.io/repository/biocontainers/eqtlbma
-
 

@@ -12,7 +12,10 @@ Home     http://bioconductor.org/packages/3.6/bioc/html/LMGene.html
 Versions 2.34.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lmgene
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-lmgene
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-lmgene/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-lmgene
-
 

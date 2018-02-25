@@ -5,14 +5,17 @@ bis-snp-utils
 
 |downloads|
 
-bis-snp-utils are support tools for Bis-SNP
+bis\-snp\-utils are support tools for Bis\-SNP
 
 ======== ===========
 Home     http://people.csail.mit.edu/dnaase/bissnp2011/
 Versions 0.0.1
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp-utils
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bis-snp-utils
 .. |docker| image:: https://quay.io/repository/biocontainers/bis-snp-utils/status
                 :target: https://quay.io/repository/biocontainers/bis-snp-utils
-
 

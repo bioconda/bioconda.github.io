@@ -5,14 +5,17 @@ bioconductor-mirnatap.db
 
 |downloads|
 
-This package holds the database for miRNAtap.
+This package holds the database for miRNAtap\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/annotation/html/miRNAtap.db.html
 Versions 0.99.10
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap.db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-mirnatap.db
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-mirnatap.db
-
 

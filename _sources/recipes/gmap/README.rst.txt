@@ -12,7 +12,10 @@ Home     http://research-pub.gene.com/gmap/
 Versions 2014.12.23, 2015.09.10, 2015.12.31, 2016.09.23, 2017.02.15, 2017.05.08, 2017.09.30, 2017.10.30
 License  Non-commercial
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gmap
 .. |docker| image:: https://quay.io/repository/biocontainers/gmap/status
                 :target: https://quay.io/repository/biocontainers/gmap
-
 

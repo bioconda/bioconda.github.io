@@ -5,14 +5,17 @@ bioconductor-vbmp
 
 |downloads|
 
-Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. This software also incorporates feature weighting by means of Automatic Relevance Determination.
+Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors\. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior\. This software also incorporates feature weighting by means of Automatic Relevance Determination\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/vbmp.html
 Versions 1.44.0, 1.46.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vbmp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-vbmp
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-vbmp/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-vbmp
-
 

@@ -5,14 +5,17 @@ perl-moosex-app
 
 |downloads|
 
-Write user-friendly command line apps with even less suffering
+Write user\-friendly command line apps with even less suffering
 
 ======== ===========
 Home     http://metacpan.org/pod/MooseX::App
 Versions 1.35, 1.39
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-moosex-app
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-moosex-app/status
                 :target: https://quay.io/repository/biocontainers/perl-moosex-app
-
 

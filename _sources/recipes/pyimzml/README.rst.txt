@@ -5,14 +5,17 @@ pyimzml
 
 |downloads|
 
-Parser for conversion of imzML 1.1.0 files
+Parser for conversion of imzML 1\.1\.0 files
 
 ======== ===========
 Home     https://github.com/alexandrovteam/pyimzML
 Versions 1.2.1
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimzml
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyimzml
 .. |docker| image:: https://quay.io/repository/biocontainers/pyimzml/status
                 :target: https://quay.io/repository/biocontainers/pyimzml
-
 

@@ -12,7 +12,10 @@ Home     http://search.cpan.org/dist/DBD-Pg/
 Versions 3.5.3
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-pg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-dbd-pg
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-dbd-pg/status
                 :target: https://quay.io/repository/biocontainers/perl-dbd-pg
-
 

@@ -5,14 +5,17 @@ c-ares
 
 |downloads|
 
-c-ares is a C library for asynchronous DNS requests (including name resolves)
+c\-ares is a C library for asynchronous DNS requests \(including name resolves\)
 
 ======== ===========
 Home     http://c-ares.haxx.se/
 Versions 1.11.0
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c-ares
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/c-ares
 .. |docker| image:: https://quay.io/repository/biocontainers/c-ares/status
                 :target: https://quay.io/repository/biocontainers/c-ares
-
 

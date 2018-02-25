@@ -5,14 +5,17 @@ genblastg
 
 |downloads|
 
-genBlast is a program suite, consisting of two programs: genBlastA and genBlastG. genBlastA parses local alignments, or high-scoring segment pairs (HSPs) produced by local sequence alignment programs such as BLAST and WU-BLAST and identify groups of HSPs.
+genBlast is a program suite\, consisting of two programs\: genBlastA and genBlastG\. genBlastA parses local alignments\, or high\-scoring segment pairs \(HSPs\) produced by local sequence alignment programs such as BLAST and WU\-BLAST and identify groups of HSPs\.
 
 ======== ===========
 Home     http://genome.sfu.ca/genblast/download.html
 Versions 1.38, 1.39
 License  GNU
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genblastg
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/genblastg
 .. |docker| image:: https://quay.io/repository/biocontainers/genblastg/status
                 :target: https://quay.io/repository/biocontainers/genblastg
-
 

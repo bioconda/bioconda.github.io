@@ -12,7 +12,10 @@ Home     https://github.com/0compute/yanc
 Versions 0.3.3
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yanc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/yanc
 .. |docker| image:: https://quay.io/repository/biocontainers/yanc/status
                 :target: https://quay.io/repository/biocontainers/yanc
-
 

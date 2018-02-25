@@ -12,7 +12,10 @@ Home     https://github.com/YangLab/CIRCexplorer2
 Versions 2.0.1, 2.1.0, 2.1.1, 2.1.2, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.2.5, 2.2.6, 2.2.7, 2.3.0, 2.3.1, 2.3.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circexplorer2
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/circexplorer2
 .. |docker| image:: https://quay.io/repository/biocontainers/circexplorer2/status
                 :target: https://quay.io/repository/biocontainers/circexplorer2
-
 

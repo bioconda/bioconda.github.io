@@ -5,14 +5,17 @@ perl-type-tiny
 
 |downloads|
 
-tiny, yet Moo(se)-compatible type constraint
+tiny\, yet Moo\(se\)\-compatible type constraint
 
 ======== ===========
 Home     https://metacpan.org/release/Type-Tiny
 Versions 1.000005
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-type-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-type-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-type-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-type-tiny
-
 

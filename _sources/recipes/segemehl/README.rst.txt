@@ -12,7 +12,10 @@ Home     http://www.bioinf.uni-leipzig.de/Software/segemehl/
 Versions 0.2.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/segemehl
 .. |docker| image:: https://quay.io/repository/biocontainers/segemehl/status
                 :target: https://quay.io/repository/biocontainers/segemehl
-
 

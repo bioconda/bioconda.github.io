@@ -5,14 +5,17 @@ bioconductor-biobase
 
 |downloads|
 
-Functions that are needed by many other packages or which replace R functions.
+Functions that are needed by many other packages or which replace R functions\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/Biobase.html
 Versions 2.30.0, 2.32.0, 2.34.0, 2.36.2, 2.38.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biobase
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-biobase
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-biobase/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-biobase
-
 

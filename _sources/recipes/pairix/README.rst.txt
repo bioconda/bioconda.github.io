@@ -12,7 +12,10 @@ Home     https://github.com/4dn-dcic/pairix
 Versions 0.1.6, 0.2.4, 0.2.5, 0.3.0, 0.3.1, 0.3.2, 0.3.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pairix
 .. |docker| image:: https://quay.io/repository/biocontainers/pairix/status
                 :target: https://quay.io/repository/biocontainers/pairix
-
 

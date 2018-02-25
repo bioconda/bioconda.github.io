@@ -5,14 +5,17 @@ seqan_tcoffee
 
 |downloads|
 
-SeqAn::T-Coffee - Multiple Sequence Alignment
+SeqAn\:\:T\-Coffee \- Multiple Sequence Alignment
 
 ======== ===========
 Home     http://www.seqan.de/apps/seqan-t-coffee/
 Versions 1.13.3
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/seqan_tcoffee
 .. |docker| image:: https://quay.io/repository/biocontainers/seqan_tcoffee/status
                 :target: https://quay.io/repository/biocontainers/seqan_tcoffee
-
 

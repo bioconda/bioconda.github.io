@@ -5,14 +5,17 @@ exonerate
 
 |downloads|
 
-Exonerate - A generic tool for pairwise sequence comparison / alignment
+Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
 
 ======== ===========
 Home     https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
 Versions 2.2.0, 2.4.0
 License  GPL-3.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/exonerate
 .. |docker| image:: https://quay.io/repository/biocontainers/exonerate/status
                 :target: https://quay.io/repository/biocontainers/exonerate
-
 

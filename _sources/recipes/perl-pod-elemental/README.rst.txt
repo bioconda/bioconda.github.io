@@ -12,7 +12,10 @@ Home     https://github.com/rjbs/Pod-Elemental
 Versions 0.103004
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-elemental
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-pod-elemental
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-pod-elemental/status
                 :target: https://quay.io/repository/biocontainers/perl-pod-elemental
-
 

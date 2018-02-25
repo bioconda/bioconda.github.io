@@ -5,14 +5,17 @@ perl-forks
 
 |downloads|
 
-drop-in replacement for Perl threads using fork()
+drop\-in replacement for Perl threads using fork\(\)
 
 ======== ===========
 Home     http://search.cpan.org/~rybskej/forks/lib/forks.pm
 Versions 0.36
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-forks
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-forks/status
                 :target: https://quay.io/repository/biocontainers/perl-forks
-
 

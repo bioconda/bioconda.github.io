@@ -5,14 +5,17 @@ pytabix
 
 |downloads|
 
-Fast random access to sorted files compressed with bgzip and indexed by tabix.
+Fast random access to sorted files compressed with bgzip and indexed by tabix\.
 
 ======== ===========
 Home     https://github.com/slowkow/pytabix
 Versions 0.0.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytabix
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pytabix
 .. |docker| image:: https://quay.io/repository/biocontainers/pytabix/status
                 :target: https://quay.io/repository/biocontainers/pytabix
-
 

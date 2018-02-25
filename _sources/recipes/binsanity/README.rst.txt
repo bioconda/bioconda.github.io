@@ -12,7 +12,10 @@ Home     https://github.com/edgraham/BinSanity
 Versions 0.2.6.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binsanity
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/binsanity
 .. |docker| image:: https://quay.io/repository/biocontainers/binsanity/status
                 :target: https://quay.io/repository/biocontainers/binsanity
-
 

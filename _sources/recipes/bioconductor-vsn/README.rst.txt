@@ -5,14 +5,17 @@ bioconductor-vsn
 
 |downloads|
 
-The package implements a method for normalising microarray intensities, and works for single- and multiple-color arrays. It can also be used for data from other technologies, as long as they have similar format. The method uses a robust variant of the maximum-likelihood estimator for an additive-multiplicative error model and affine calibration. The model incorporates data calibration step (a.k.a. normalization), a model for the dependence of the variance on the mean intensity and a variance stabilizing data transformation. Differences between transformed intensities are analogous to "normalized log-ratios". However, in contrast to the latter, their variance is independent of the mean, and they are usually more sensitive and specific in detecting differential transcription.
+The package implements a method for normalising microarray intensities\, and works for single\- and multiple\-color arrays\. It can also be used for data from other technologies\, as long as they have similar format\. The method uses a robust variant of the maximum\-likelihood estimator for an additive\-multiplicative error model and affine calibration\. The model incorporates data calibration step \(a\.k\.a\. normalization\)\, a model for the dependence of the variance on the mean intensity and a variance stabilizing data transformation\. Differences between transformed intensities are analogous to \"normalized log\-ratios\"\. However\, in contrast to the latter\, their variance is independent of the mean\, and they are usually more sensitive and specific in detecting differential transcription\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/vsn.html
 Versions 3.38.0, 3.44.0, 3.46.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vsn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-vsn
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-vsn/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-vsn
-
 

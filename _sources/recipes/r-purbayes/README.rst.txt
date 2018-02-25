@@ -5,14 +5,17 @@ r-purbayes
 
 |downloads|
 
-PurBayes is an MCMC-based algorithm that uses next-generation sequencing data to estimate tumor purity and clonality for paired tumor-normal data.
+PurBayes is an MCMC\-based algorithm that uses next\-generation sequencing data to estimate tumor purity and clonality for paired tumor\-normal data\.
 
 ======== ===========
 Home     https://CRAN.R-project.org/package=PurBayes
 Versions 1.3
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-purbayes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-purbayes
 .. |docker| image:: https://quay.io/repository/biocontainers/r-purbayes/status
                 :target: https://quay.io/repository/biocontainers/r-purbayes
-
 

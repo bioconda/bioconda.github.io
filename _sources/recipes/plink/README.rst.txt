@@ -5,14 +5,17 @@ plink
 
 |downloads|
 
-Whole genome association analysis toolset, designed to perform a range of basic, large-scale analyses in a computationally efficient manner.
+Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner\.
 
 ======== ===========
 Home     https://www.cog-genomics.org/plink
 Versions 1.90b4
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plink
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/plink
 .. |docker| image:: https://quay.io/repository/biocontainers/plink/status
                 :target: https://quay.io/repository/biocontainers/plink
-
 

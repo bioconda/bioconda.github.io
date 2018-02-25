@@ -5,14 +5,17 @@ gfinisher
 
 |downloads|
 
-GFinisher is an application tools for refinement and finalization of prokaryotic genomes assemblies using the bias of GC Skew to identify assembly errors and organizes the contigs/scaffolds with genomes references.
+GFinisher is an application tools for refinement and finalization of prokaryotic genomes assemblies using the bias of GC Skew to identify assembly errors and organizes the contigs\/scaffolds with genomes references\.
 
 ======== ===========
 Home     https://sourceforge.net/projects/gfinisher/
 Versions 1.4
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gfinisher
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/gfinisher
 .. |docker| image:: https://quay.io/repository/biocontainers/gfinisher/status
                 :target: https://quay.io/repository/biocontainers/gfinisher
-
 

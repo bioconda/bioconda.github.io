@@ -5,14 +5,17 @@ tassel
 
 |downloads|
 
-TASSEL is a software package to evaluate traits associations, evolutionary patterns, and linkage disequilibrium.
+TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium\.
 
 ======== ===========
 Home     http://www.maizegenetics.net/tassel
 Versions 3.0.174, 4.3.15, 5.2.40
 License  LGPL V2.1
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tassel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tassel
 .. |docker| image:: https://quay.io/repository/biocontainers/tassel/status
                 :target: https://quay.io/repository/biocontainers/tassel
-
 

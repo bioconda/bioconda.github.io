@@ -12,7 +12,10 @@ Home     https://github.com/eilslabs/DKFZBiasFilter
 Versions 1.2.3a
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dkfz-bias-filter
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dkfz-bias-filter
 .. |docker| image:: https://quay.io/repository/biocontainers/dkfz-bias-filter/status
                 :target: https://quay.io/repository/biocontainers/dkfz-bias-filter
-
 

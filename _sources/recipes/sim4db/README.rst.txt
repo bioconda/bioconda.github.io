@@ -5,14 +5,17 @@ sim4db
 
 |downloads|
 
-Sim4db and leaff: Utilities for fast batch spliced alignment and sequence indexing
+Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence indexing
 
 ======== ===========
 Home     http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Sim4db
 Versions 2008
 License  GPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sim4db
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/sim4db
 .. |docker| image:: https://quay.io/repository/biocontainers/sim4db/status
                 :target: https://quay.io/repository/biocontainers/sim4db
-
 

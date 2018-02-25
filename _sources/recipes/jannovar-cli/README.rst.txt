@@ -12,7 +12,10 @@ Home     https://github.com/charite/jannovar
 Versions 0.20, 0.21, 0.22, 0.23, 0.24
 License  BSD2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/jannovar-cli
 .. |docker| image:: https://quay.io/repository/biocontainers/jannovar-cli/status
                 :target: https://quay.io/repository/biocontainers/jannovar-cli
-
 

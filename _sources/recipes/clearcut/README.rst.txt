@@ -5,14 +5,17 @@ clearcut
 
 |downloads|
 
-The reference implementation for Relaxed Neighbor Joining (RNJ).
+The reference implementation for Relaxed Neighbor Joining \(RNJ\)\.
 
 ======== ===========
 Home     http://www.mothur.org
 Versions 1.0.9
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clearcut
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clearcut
 .. |docker| image:: https://quay.io/repository/biocontainers/clearcut/status
                 :target: https://quay.io/repository/biocontainers/clearcut
-
 

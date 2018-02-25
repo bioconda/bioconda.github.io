@@ -5,14 +5,17 @@ semidbm
 
 |downloads|
 
-Cross platform (fast) DBM interface in python
+Cross platform \(fast\) DBM interface in python
 
 ======== ===========
 Home     https://github.com/jamesls/semidbm
 Versions 0.5.1
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semidbm
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/semidbm
 .. |docker| image:: https://quay.io/repository/biocontainers/semidbm/status
                 :target: https://quay.io/repository/biocontainers/semidbm
-
 

@@ -5,14 +5,17 @@ progressivemauve
 
 |downloads|
 
-progressiveMauve computes multiple genome alignment with gene gain, loss and rearrangement
+progressiveMauve computes multiple genome alignment with gene gain\, loss and rearrangement
 
 ======== ===========
 Home     http://darlinglab.org/mauve/user-guide/progressivemauve.html
 Versions snapshot_2015_02_13
 License  GNU General Public License version 2.0 (GPLv2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/progressivemauve
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/progressivemauve
 .. |docker| image:: https://quay.io/repository/biocontainers/progressivemauve/status
                 :target: https://quay.io/repository/biocontainers/progressivemauve
-
 

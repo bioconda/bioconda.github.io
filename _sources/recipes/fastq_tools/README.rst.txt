@@ -5,14 +5,17 @@ fastq-tools
 
 |downloads|
 
-A collection of fastq manipulation scripts written in C for speed.
+A collection of fastq manipulation scripts written in C for speed\.
 
 ======== ===========
 Home     http://homes.cs.washington.edu/~dcjones/fastq-tools/
 Versions 0.8
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq_tools
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fastq-tools
 .. |docker| image:: https://quay.io/repository/biocontainers/fastq-tools/status
                 :target: https://quay.io/repository/biocontainers/fastq-tools
-
 

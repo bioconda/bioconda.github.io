@@ -12,7 +12,10 @@ Home     https://github.com/sararselitsky/tDRmapper
 Versions 1.0, 1.1
 License  academic
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tdrmapper
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tdrmapper
 .. |docker| image:: https://quay.io/repository/biocontainers/tdrmapper/status
                 :target: https://quay.io/repository/biocontainers/tdrmapper
-
 

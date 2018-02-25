@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Algorithm::Cluster
 Versions 1.52
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-cluster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-algorithm-cluster
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-algorithm-cluster/status
                 :target: https://quay.io/repository/biocontainers/perl-algorithm-cluster
-
 

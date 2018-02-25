@@ -5,14 +5,17 @@ bioconductor-flowcore
 
 |downloads|
 
-Provides S4 data structures and basic functions to deal with flow cytometry data.
+Provides S4 data structures and basic functions to deal with flow cytometry data\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/flowCore.html
 Versions 1.38.2, 1.42.0, 1.42.3, 1.44.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowcore
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-flowcore
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-flowcore/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-flowcore
-
 

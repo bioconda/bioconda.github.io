@@ -5,14 +5,17 @@ bioconductor-pathrender
 
 |downloads|
 
-build graphs from pathway databases, render them by Rgraphviz.
+build graphs from pathway databases\, render them by Rgraphviz\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/pathRender.html
 Versions 1.46.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathrender
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-pathrender
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-pathrender/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-pathrender
-
 

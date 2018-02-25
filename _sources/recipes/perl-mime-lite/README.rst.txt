@@ -5,14 +5,17 @@ perl-mime-lite
 
 |downloads|
 
-Handy-dandy MIME mailing class
+Handy\-dandy MIME mailing class
 
 ======== ===========
 Home     http://metacpan.org/pod/MIME-Lite
 Versions 3.030
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-lite
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mime-lite
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mime-lite/status
                 :target: https://quay.io/repository/biocontainers/perl-mime-lite
-
 

@@ -5,14 +5,17 @@ perl-base
 
 |downloads|
 
-compile-time class fields
+compile\-time class fields
 
 ======== ===========
 Home     http://metacpan.org/pod/base
 Versions 2.22, 2.23
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-base/2.22
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-base
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-base/status
                 :target: https://quay.io/repository/biocontainers/perl-base
-
 

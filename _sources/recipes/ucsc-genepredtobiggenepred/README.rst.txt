@@ -5,14 +5,17 @@ ucsc-genepredtobiggenepred
 
 |downloads|
 
-converts genePred or genePredExt to bigGenePred input (bed format with extra fields)
+converts genePred or genePredExt to bigGenePred input \(bed format with extra fields\)
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobiggenepred
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-genepredtobiggenepred
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-genepredtobiggenepred/status
                 :target: https://quay.io/repository/biocontainers/ucsc-genepredtobiggenepred
-
 

@@ -12,7 +12,10 @@ Home     https://github.com/cthoyt/onto2nx
 Versions 0.1.0
 License  GNU General Public License v3 or later (GPLv3+)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/onto2nx
 .. |docker| image:: https://quay.io/repository/biocontainers/onto2nx/status
                 :target: https://quay.io/repository/biocontainers/onto2nx
-
 

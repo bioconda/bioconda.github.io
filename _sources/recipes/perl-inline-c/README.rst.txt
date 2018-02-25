@@ -5,14 +5,17 @@ perl-inline-c
 
 |downloads|
 
-A library to extract height/width from images
+A library to extract height\/width from images
 
 ======== ===========
 Home     https://github.com/ingydotnet/inline-c-pm
 Versions 0.76
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-inline-c
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-inline-c/status
                 :target: https://quay.io/repository/biocontainers/perl-inline-c
-
 

@@ -5,14 +5,17 @@ bioconductor-snpchip
 
 |downloads|
 
-Functions for plotting SNP array data; maintained for historical reasons
+Functions for plotting SNP array data\; maintained for historical reasons
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/SNPchip.html
 Versions 2.24.0
 License  LGPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snpchip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-snpchip
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-snpchip/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-snpchip
-
 

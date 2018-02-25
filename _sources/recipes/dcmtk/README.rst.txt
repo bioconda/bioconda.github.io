@@ -12,7 +12,10 @@ Home     http://dicom.offis.de
 Versions 3.6.1
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcmtk
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dcmtk
 .. |docker| image:: https://quay.io/repository/biocontainers/dcmtk/status
                 :target: https://quay.io/repository/biocontainers/dcmtk
-
 

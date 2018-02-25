@@ -5,14 +5,17 @@ ale
 
 |downloads|
 
-ALE: Assembly Likelihood Estimator
+ALE\: Assembly Likelihood Estimator
 
 ======== ===========
 Home     https://github.com/sc932/ALE
 Versions 20160127
 License  NCSA
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ale
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ale
 .. |docker| image:: https://quay.io/repository/biocontainers/ale/status
                 :target: https://quay.io/repository/biocontainers/ale
-
 

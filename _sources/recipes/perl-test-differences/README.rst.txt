@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Test-Differences
 Versions 0.64
 License  Perl
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-differences
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-test-differences
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-test-differences/status
                 :target: https://quay.io/repository/biocontainers/perl-test-differences
-
 

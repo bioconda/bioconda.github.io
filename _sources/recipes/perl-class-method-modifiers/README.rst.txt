@@ -5,14 +5,17 @@ perl-class-method-modifiers
 
 |downloads|
 
-Provides Moose-like method modifiers
+Provides Moose\-like method modifiers
 
 ======== ===========
 Home     https://github.com/moose/Class-Method-Modifiers
 Versions 2.11
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-method-modifiers
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-class-method-modifiers
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-class-method-modifiers/status
                 :target: https://quay.io/repository/biocontainers/perl-class-method-modifiers
-
 

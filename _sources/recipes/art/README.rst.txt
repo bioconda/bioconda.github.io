@@ -5,14 +5,17 @@ art
 
 |downloads|
 
-Illumina, 454 and Solid read simulator
+Illumina\, 454 and Solid read simulator
 
 ======== ===========
 Home     http://www.niehs.nih.gov/research/resources/software/biostatistics/art/
 Versions 2016.06.05, 3.11.14, 3.19.15
 License  GPLv2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/art
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/art
 .. |docker| image:: https://quay.io/repository/biocontainers/art/status
                 :target: https://quay.io/repository/biocontainers/art
-
 

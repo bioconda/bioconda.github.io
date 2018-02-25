@@ -5,14 +5,17 @@ bioconductor-ichip
 
 |downloads|
 
-This package uses hidden Ising models to identify enriched genomic regions in ChIP-chip data.  It can be used to analyze the data from multiple platforms (e.g., Affymetrix, Agilent, and NimbleGen), and the data with single to multiple replicates.
+This package uses hidden Ising models to identify enriched genomic regions in ChIP\-chip data\.  It can be used to analyze the data from multiple platforms \(e\.g\.\, Affymetrix\, Agilent\, and NimbleGen\)\, and the data with single to multiple replicates\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/iChip.html
 Versions 1.32.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ichip
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ichip/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ichip
-
 

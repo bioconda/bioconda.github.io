@@ -5,14 +5,17 @@ squizz
 
 |downloads|
 
-Squizz is a sequence/alignment format checker, but it has some conversion capabilities too.
+Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too\.
 
 ======== ===========
 Home     http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
 Versions 0.99d
 License  GPL 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/squizz
 .. |docker| image:: https://quay.io/repository/biocontainers/squizz/status
                 :target: https://quay.io/repository/biocontainers/squizz
-
 

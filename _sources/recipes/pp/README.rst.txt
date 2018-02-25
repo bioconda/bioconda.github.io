@@ -12,7 +12,10 @@ Home     http://www.parallelpython.com
 Versions 1.6.4, 1.6.5
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pp
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pp
 .. |docker| image:: https://quay.io/repository/biocontainers/pp/status
                 :target: https://quay.io/repository/biocontainers/pp
-
 

@@ -5,14 +5,17 @@ pyx
 
 |downloads|
 
-Python package for the generation of PostScript, PDF, and SVG files
+Python package for the generation of PostScript\, PDF\, and SVG files
 
 ======== ===========
 Home     http://pyx.sourceforge.net/
 Versions 0.12.1
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pyx
 .. |docker| image:: https://quay.io/repository/biocontainers/pyx/status
                 :target: https://quay.io/repository/biocontainers/pyx
-
 

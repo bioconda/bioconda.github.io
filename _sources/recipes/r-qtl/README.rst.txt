@@ -5,14 +5,17 @@ r-qtl
 
 |downloads|
 
-Analysis of experimental crosses to identify genes (called quantitative trait loci, QTLs) contributing to variation in quantitative traits.
+Analysis of experimental crosses to identify genes \(called quantitative trait loci\, QTLs\) contributing to variation in quantitative traits\.
 
 ======== ===========
 Home     http://rqtl.org
 Versions 1.41_6
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-qtl
 .. |docker| image:: https://quay.io/repository/biocontainers/r-qtl/status
                 :target: https://quay.io/repository/biocontainers/r-qtl
-
 

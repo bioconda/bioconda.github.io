@@ -5,14 +5,17 @@ nmrml2isa
 
 |downloads|
 
-nmrml2isa - nmrML to ISA-Tab parsing tool
+nmrml2isa \- nmrML to ISA\-Tab parsing tool
 
 ======== ===========
 Home     http://github.com/althonos/nmrml2isa
 Versions 0.3.0
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/nmrml2isa
 .. |docker| image:: https://quay.io/repository/biocontainers/nmrml2isa/status
                 :target: https://quay.io/repository/biocontainers/nmrml2isa
-
 

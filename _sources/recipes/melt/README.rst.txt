@@ -12,7 +12,10 @@ Home     https://github.com/eclarke/melt
 Versions 1.0.3
 License  GNU General Public License (GPL)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/melt
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/melt
 .. |docker| image:: https://quay.io/repository/biocontainers/melt/status
                 :target: https://quay.io/repository/biocontainers/melt
-
 

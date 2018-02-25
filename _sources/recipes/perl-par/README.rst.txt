@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/PAR
 Versions 1.014
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par/1.014
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-par
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-par/status
                 :target: https://quay.io/repository/biocontainers/perl-par
-
 

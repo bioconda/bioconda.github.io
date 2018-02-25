@@ -5,14 +5,17 @@ perl-mixin-linewise
 
 |downloads|
 
-write your linewise code for handles; this does the rest
+write your linewise code for handles\; this does the rest
 
 ======== ===========
 Home     https://github.com/rjbs/Mixin-Linewise
 Versions 0.108
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mixin-linewise
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-mixin-linewise
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-mixin-linewise/status
                 :target: https://quay.io/repository/biocontainers/perl-mixin-linewise
-
 

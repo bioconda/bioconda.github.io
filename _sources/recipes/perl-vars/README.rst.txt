@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/vars
 Versions 1.03
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vars/1.03
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-vars
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-vars/status
                 :target: https://quay.io/repository/biocontainers/perl-vars
-
 

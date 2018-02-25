@@ -6,7 +6,7 @@ cpinsim
 |downloads|
 
 CPINSim is a package for the simulation of protein complex assembly with constrained
-protein interaction networks.
+protein interaction networks\.
 
 
 ======== ===========
@@ -14,7 +14,10 @@ Home     https://github.com/BiancaStoecker/cpinsim
 Versions 0.5.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpinsim
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -48,5 +51,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/cpinsim
 .. |docker| image:: https://quay.io/repository/biocontainers/cpinsim/status
                 :target: https://quay.io/repository/biocontainers/cpinsim
-
 

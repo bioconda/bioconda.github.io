@@ -5,14 +5,17 @@ tabview
 
 |downloads|
 
-A curses command-line CSV and list (tabular data) viewer
+A curses command\-line CSV and list \(tabular data\) viewer
 
 ======== ===========
 Home     https://github.com/firecat53/tabview
 Versions 1.4.2
 License  MIT License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabview
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/tabview
 .. |docker| image:: https://quay.io/repository/biocontainers/tabview/status
                 :target: https://quay.io/repository/biocontainers/tabview
-
 

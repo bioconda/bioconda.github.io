@@ -5,14 +5,17 @@ reveal
 
 |downloads|
 
-Graph based multi genome aligner.
+Graph based multi genome aligner\.
 
 ======== ===========
 Home     https://github.com/jasperlinthorst/reveal
 Versions 0.1
 License  Unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reveal
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/reveal
 .. |docker| image:: https://quay.io/repository/biocontainers/reveal/status
                 :target: https://quay.io/repository/biocontainers/reveal
-
 

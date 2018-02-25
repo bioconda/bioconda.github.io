@@ -5,14 +5,17 @@ bioconductor-acme
 
 |downloads|
 
-ACME (Algorithms for Calculating Microarray Enrichment) is a set of tools for analysing tiling array ChIP/chip, DNAse hypersensitivity, or other experiments that result in regions of the genome showing "enrichment".  It does not rely on a specific array technology (although the array should be a "tiling" array), is very general (can be applied in experiments resulting in regions of enrichment), and is very insensitive to array noise or normalization methods.  It is also very fast and can be applied on whole-genome tiling array experiments quite easily with enough memory.
+ACME \(Algorithms for Calculating Microarray Enrichment\) is a set of tools for analysing tiling array ChIP\/chip\, DNAse hypersensitivity\, or other experiments that result in regions of the genome showing \"enrichment\"\.  It does not rely on a specific array technology \(although the array should be a \"tiling\" array\)\, is very general \(can be applied in experiments resulting in regions of enrichment\)\, and is very insensitive to array noise or normalization methods\.  It is also very fast and can be applied on whole\-genome tiling array experiments quite easily with enough memory\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/ACME.html
 Versions 2.32.0, 2.34.0
 License  GPL (>= 2)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-acme
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-acme/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-acme
-
 

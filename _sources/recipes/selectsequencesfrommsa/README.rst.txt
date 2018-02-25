@@ -12,7 +12,10 @@ Home     https://github.com/eggzilla/SelectSequencesFromMSA
 Versions 1.0.2
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selectsequencesfrommsa
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/selectsequencesfrommsa
 .. |docker| image:: https://quay.io/repository/biocontainers/selectsequencesfrommsa/status
                 :target: https://quay.io/repository/biocontainers/selectsequencesfrommsa
-
 

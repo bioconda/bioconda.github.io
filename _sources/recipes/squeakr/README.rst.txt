@@ -5,14 +5,17 @@ squeakr
 
 |downloads|
 
-An Exact and Approximate k-mmer Counting System
+An Exact and Approximate k\-mmer Counting System
 
 ======== ===========
 Home     https://github.com/splatlab/squeakr
 Versions 0.5
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squeakr
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/squeakr
 .. |docker| image:: https://quay.io/repository/biocontainers/squeakr/status
                 :target: https://quay.io/repository/biocontainers/squeakr
-
 

@@ -5,14 +5,17 @@ pybel
 
 |downloads|
 
-PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language (BEL)
+PyBEL is a Python package for parsing and handling biological networks encoded in the Biological Expression Language \(BEL\)
 
 ======== ===========
 Home     https://github.com/pybel/pybel
 Versions 0.4.0, 0.5.4, 0.9.3
 License  Apache Software License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybel
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pybel
 .. |docker| image:: https://quay.io/repository/biocontainers/pybel/status
                 :target: https://quay.io/repository/biocontainers/pybel
-
 

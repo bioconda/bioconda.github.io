@@ -5,14 +5,17 @@ bioconductor-stategra
 
 |downloads|
 
-Classes and tools for multi-omics data integration.
+Classes and tools for multi\-omics data integration\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/STATegRa.html
 Versions 1.10.0, 1.12.0
 License  GPL-2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stategra
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-stategra
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-stategra/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-stategra
-
 

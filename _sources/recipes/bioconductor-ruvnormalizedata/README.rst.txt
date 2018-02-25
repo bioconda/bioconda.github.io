@@ -5,14 +5,17 @@ bioconductor-ruvnormalizedata
 
 |downloads|
 
-Microarray gene expression data from the study of Vawter et al., 2004.
+Microarray gene expression data from the study of Vawter et al\.\, 2004\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/data/experiment/html/RUVnormalizeData.html
 Versions 0.112.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalizedata
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-ruvnormalizedata
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-ruvnormalizedata
-
 

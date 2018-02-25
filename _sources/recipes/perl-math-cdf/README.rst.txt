@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Math-CDF
 Versions 0.1
 License  Public Domain
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-cdf
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-math-cdf
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-math-cdf/status
                 :target: https://quay.io/repository/biocontainers/perl-math-cdf
-
 

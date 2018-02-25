@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/IO-Tty
 Versions 1.12
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-tty
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-io-tty
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-io-tty/status
                 :target: https://quay.io/repository/biocontainers/perl-io-tty
-
 

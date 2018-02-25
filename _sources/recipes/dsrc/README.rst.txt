@@ -5,14 +5,17 @@ dsrc
 
 |downloads|
 
-high-performance compression of sequencing reads stored in FASTQ format
+high\-performance compression of sequencing reads stored in FASTQ format
 
 ======== ===========
 Home     https://github.com/lrog/dsrc
 Versions 2014.12.17
 License  GNU GPL 2
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dsrc
 .. |docker| image:: https://quay.io/repository/biocontainers/dsrc/status
                 :target: https://quay.io/repository/biocontainers/dsrc
-
 

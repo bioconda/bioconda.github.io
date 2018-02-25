@@ -12,7 +12,10 @@ Home     https://github.com/eyurtsev/fcsparser
 Versions 0.1.4
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fcsparser
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/fcsparser
 .. |docker| image:: https://quay.io/repository/biocontainers/fcsparser/status
                 :target: https://quay.io/repository/biocontainers/fcsparser
-
 

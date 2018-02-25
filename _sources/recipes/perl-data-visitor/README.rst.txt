@@ -12,7 +12,10 @@ Home     http://metacpan.org/release/Data-Visitor
 Versions 0.30
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-visitor/0.30
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-data-visitor
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-data-visitor/status
                 :target: https://quay.io/repository/biocontainers/perl-data-visitor
-
 

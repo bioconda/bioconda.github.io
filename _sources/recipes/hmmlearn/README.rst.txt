@@ -5,14 +5,17 @@ hmmlearn
 
 |downloads|
 
-Hidden Markov Models in Python, with scikit-learn like API
+Hidden Markov Models in Python\, with scikit\-learn like API
 
 ======== ===========
 Home     https://github.com/hmmlearn/hmmlearn
 Versions 20151031
 License  BSD
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmlearn
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/hmmlearn
 .. |docker| image:: https://quay.io/repository/biocontainers/hmmlearn/status
                 :target: https://quay.io/repository/biocontainers/hmmlearn
-
 

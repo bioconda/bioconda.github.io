@@ -5,14 +5,17 @@ ucsc-genepredtobed
 
 |downloads|
 
-Convert from genePred to bed format. Does not yet handle genePredExt
+Convert from genePred to bed format\. Does not yet handle genePredExt
 
 ======== ===========
 Home     http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions 324, 332, 357
 License  varies; see http://genome.ucsc.edu/license
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobed
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ucsc-genepredtobed
 .. |docker| image:: https://quay.io/repository/biocontainers/ucsc-genepredtobed/status
                 :target: https://quay.io/repository/biocontainers/ucsc-genepredtobed
-
 

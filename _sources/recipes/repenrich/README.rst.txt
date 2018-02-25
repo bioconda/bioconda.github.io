@@ -5,14 +5,17 @@ repenrich
 
 |downloads|
 
-RepEnrich is a method to estimate repetitive element enrichment using high-throughput sequencing data.
+RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data\.
 
 ======== ===========
 Home     https://github.com/nskvir/RepEnrich
 Versions 1.2
 License  Custom OSS
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repenrich
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/repenrich
 .. |docker| image:: https://quay.io/repository/biocontainers/repenrich/status
                 :target: https://quay.io/repository/biocontainers/repenrich
-
 

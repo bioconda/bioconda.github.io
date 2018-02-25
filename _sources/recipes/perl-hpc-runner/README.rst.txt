@@ -5,14 +5,17 @@ perl-hpc-runner
 
 |downloads|
 
-HPC Runner::Slurm, Runner::MCE and Runner::Threads base class
+HPC Runner\:\:Slurm\, Runner\:\:MCE and Runner\:\:Threads base class
 
 ======== ===========
 Home     http://metacpan.org/pod/HPC-Runner
 Versions 2.48
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-hpc-runner
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-hpc-runner/status
                 :target: https://quay.io/repository/biocontainers/perl-hpc-runner
-
 

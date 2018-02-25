@@ -5,14 +5,17 @@ perl-text-balanced
 
 |downloads|
 
-Text::Balanced - Extract delimited text sequences from strings
+Text\:\:Balanced \- Extract delimited text sequences from strings
 
 ======== ===========
 Home     http://search.cpan.org/dist/text/balanced/
 Versions 2.03
 License  Perl5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-balanced
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-text-balanced
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-text-balanced/status
                 :target: https://quay.io/repository/biocontainers/perl-text-balanced
-
 

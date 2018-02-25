@@ -5,14 +5,17 @@ ariba
 
 |downloads|
 
-ARIBA: Antibiotic Resistance Identification By Assembly
+ARIBA\: Antibiotic Resistance Identification By Assembly
 
 ======== ===========
 Home     https://github.com/sanger-pathogens/ariba
 Versions 0.6.0, 2.10.0, 2.10.1, 2.11.0, 2.5.1
 License  GNU General Public License v3 (GPLv3)
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ariba
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ariba
 .. |docker| image:: https://quay.io/repository/biocontainers/ariba/status
                 :target: https://quay.io/repository/biocontainers/ariba
-
 

@@ -5,14 +5,17 @@ bioconductor-genefu
 
 |downloads|
 
-Description: This package contains functions implementing various tasks usually required by gene expression analysis, especially in breast cancer studies: gene mapping between different microarray platforms, identification of molecular subtypes, implementation of published gene signatures, gene selection, and survival analysis.
+Description\: This package contains functions implementing various tasks usually required by gene expression analysis\, especially in breast cancer studies\: gene mapping between different microarray platforms\, identification of molecular subtypes\, implementation of published gene signatures\, gene selection\, and survival analysis\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/genefu.html
 Versions 2.10.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefu
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-genefu
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-genefu/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-genefu
-
 

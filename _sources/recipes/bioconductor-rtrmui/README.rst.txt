@@ -5,14 +5,17 @@ bioconductor-rtrmui
 
 |downloads|
 
-This package provides a web interface to compute transcriptional regulatory modules with rTRM.
+This package provides a web interface to compute transcriptional regulatory modules with rTRM\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/rTRMui.html
 Versions 1.14.0, 1.16.0
 License  GPL-3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-rtrmui
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-rtrmui/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-rtrmui
-
 

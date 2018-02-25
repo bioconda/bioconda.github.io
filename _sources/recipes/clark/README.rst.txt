@@ -5,14 +5,17 @@ clark
 
 |downloads|
 
-Fast, accurate and versatile k-mer based classification system
+Fast\, accurate and versatile k\-mer based classification system
 
 ======== ===========
 Home     http://clark.cs.ucr.edu/
 Versions 1.2.2_b, 1.2.3, 1.2.3.1
 License  GPL3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clark
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/clark
 .. |docker| image:: https://quay.io/repository/biocontainers/clark/status
                 :target: https://quay.io/repository/biocontainers/clark
-
 

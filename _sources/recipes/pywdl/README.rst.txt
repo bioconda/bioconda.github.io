@@ -5,14 +5,17 @@ pywdl
 
 |downloads|
 
-A Python implementation of a WDL parser and language bindings.
+A Python implementation of a WDL parser and language bindings\.
 
 ======== ===========
 Home     https://github.com/broadinstitute/pywdl
 Versions 1.0.22
 License  Apache v2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pywdl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/pywdl
 .. |docker| image:: https://quay.io/repository/biocontainers/pywdl/status
                 :target: https://quay.io/repository/biocontainers/pywdl
-
 

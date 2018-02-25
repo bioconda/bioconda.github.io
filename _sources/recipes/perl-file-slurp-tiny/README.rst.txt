@@ -5,14 +5,17 @@ perl-file-slurp-tiny
 
 |downloads|
 
-A simple, sane and efficient file slurper [DISCOURAGED]
+A simple\, sane and efficient file slurper \[DISCOURAGED\]
 
 ======== ===========
 Home     http://metacpan.org/pod/File-Slurp-Tiny
 Versions 0.004
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurp-tiny
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-file-slurp-tiny
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-file-slurp-tiny/status
                 :target: https://quay.io/repository/biocontainers/perl-file-slurp-tiny
-
 

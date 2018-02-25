@@ -5,14 +5,17 @@ wtforms-components
 
 |downloads|
 
-Additional fields, validators and widgets for WTForms.
+Additional fields\, validators and widgets for WTForms\.
 
 ======== ===========
 Home     https://github.com/kvesteri/wtforms-components
 Versions 0.10.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtforms-components
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wtforms-components
 .. |docker| image:: https://quay.io/repository/biocontainers/wtforms-components/status
                 :target: https://quay.io/repository/biocontainers/wtforms-components
-
 

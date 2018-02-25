@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/XML-Simple
 Versions 2.22
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-simple
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-xml-simple
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-xml-simple/status
                 :target: https://quay.io/repository/biocontainers/perl-xml-simple
-
 

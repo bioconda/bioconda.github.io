@@ -5,14 +5,17 @@ phylotoast
 
 |downloads|
 
-Tools for phylogenetic data analysis including visualization and cluster-computing support. 
+Tools for phylogenetic data analysis including visualization and cluster\-computing support\. 
 
 ======== ===========
 Home     https://github.com/smdabdoub/phylotoast
 Versions 1.3.0, 1.4.0rc2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylotoast
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/phylotoast
 .. |docker| image:: https://quay.io/repository/biocontainers/phylotoast/status
                 :target: https://quay.io/repository/biocontainers/phylotoast
-
 

@@ -5,14 +5,17 @@ rnacode
 
 |downloads|
 
-RNAcode - Analyze the protein coding potential in multiple sequence alignments RNAcode relies on evolutionary signatures including synonymous/conservative mutations and conservation of the reading frame. It does not use any species specific sequence characteristics whatsoever and does not use any machine learning techniques.
+RNAcode \- Analyze the protein coding potential in multiple sequence alignments RNAcode relies on evolutionary signatures including synonymous\/conservative mutations and conservation of the reading frame\. It does not use any species specific sequence characteristics whatsoever and does not use any machine learning techniques\.
 
 ======== ===========
 Home     http://wash.github.io/rnacode/
 Versions 0.3
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/0.3
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rnacode
 .. |docker| image:: https://quay.io/repository/biocontainers/rnacode/status
                 :target: https://quay.io/repository/biocontainers/rnacode
-
 

@@ -5,14 +5,17 @@ bioconductor-calib
 
 |downloads|
 
-This package contains functions for normalizing spotted microarray data, based on a physically motivated calibration model. The model parameters and error distributions are estimated from external control spikes.
+This package contains functions for normalizing spotted microarray data\, based on a physically motivated calibration model\. The model parameters and error distributions are estimated from external control spikes\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/CALIB.html
 Versions 1.42.0, 1.44.0
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-calib
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-calib
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-calib/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-calib
-
 

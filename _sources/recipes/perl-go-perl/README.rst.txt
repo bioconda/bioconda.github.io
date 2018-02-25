@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/go-perl
 Versions 0.15
 License  BSD-3-Clause
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-go-perl
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-go-perl
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-go-perl/status
                 :target: https://quay.io/repository/biocontainers/perl-go-perl
-
 

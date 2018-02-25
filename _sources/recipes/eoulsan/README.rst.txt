@@ -5,14 +5,17 @@ eoulsan
 
 |downloads|
 
-A pipeline and a framework for NGS analysis (RNA-Seq and Chip-Seq)
+A pipeline and a framework for NGS analysis \(RNA\-Seq and Chip\-Seq\)
 
 ======== ===========
 Home     http://www.tools.genomique.biologie.ens.fr/eoulsan/
 Versions 2.0_beta4
 License  LGPL
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eoulsan
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/eoulsan
 .. |docker| image:: https://quay.io/repository/biocontainers/eoulsan/status
                 :target: https://quay.io/repository/biocontainers/eoulsan
-
 

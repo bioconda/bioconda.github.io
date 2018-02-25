@@ -5,14 +5,17 @@ chainmap
 
 |downloads|
 
-Backport/clone of ChainMap for py26, py32, and pypy3.
+Backport\/clone of ChainMap for py26\, py32\, and pypy3\.
 
 ======== ===========
 Home     https://bitbucket.org/jeunice/chainmap
 Versions 1.0.2
 License  Python Software Foundation License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chainmap
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/chainmap
 .. |docker| image:: https://quay.io/repository/biocontainers/chainmap/status
                 :target: https://quay.io/repository/biocontainers/chainmap
-
 

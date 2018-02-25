@@ -5,14 +5,17 @@ perl-types-standard
 
 |downloads|
 
-bundled set of built-in types for Type::Tiny
+bundled set of built\-in types for Type\:\:Tiny
 
 ======== ===========
 Home     http://search.cpan.org/~tobyink/Type-Tiny-1.002001/lib/Types/Standard.pm
 Versions 1.002001
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-standard
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-types-standard
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-types-standard/status
                 :target: https://quay.io/repository/biocontainers/perl-types-standard
-
 

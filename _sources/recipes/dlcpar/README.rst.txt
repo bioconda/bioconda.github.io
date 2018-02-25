@@ -5,14 +5,17 @@ dlcpar
 
 |downloads|
 
-Accurate inference of orthogroups, orthologues, gene trees and rooted species tree made easy!
+Accurate inference of orthogroups\, orthologues\, gene trees and rooted species tree made easy\!
 
 ======== ===========
 Home     https://github.com/davidemms/OrthoFinder
 Versions 1.0
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dlcpar
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/dlcpar
 .. |docker| image:: https://quay.io/repository/biocontainers/dlcpar/status
                 :target: https://quay.io/repository/biocontainers/dlcpar
-
 

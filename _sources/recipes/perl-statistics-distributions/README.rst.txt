@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/Statistics-Distributions
 Versions 1.02
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-distributions
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-statistics-distributions
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-statistics-distributions/status
                 :target: https://quay.io/repository/biocontainers/perl-statistics-distributions
-
 

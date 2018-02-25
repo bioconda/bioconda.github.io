@@ -12,7 +12,10 @@ Home     http://metacpan.org/pod/TermReadKey
 Versions 2.32
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-termreadkey
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-termreadkey/status
                 :target: https://quay.io/repository/biocontainers/perl-termreadkey
-
 

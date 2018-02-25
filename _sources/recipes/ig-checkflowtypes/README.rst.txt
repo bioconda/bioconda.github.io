@@ -5,14 +5,17 @@ ig-checkflowtypes
 
 |downloads|
 
-quick flow-related datatype for galaxy checks
+quick flow\-related datatype for galaxy checks
 
 ======== ===========
 Home     https://github.com/ImmPortDB/ig-checkflowtypes
 Versions 1.0.0
 License  BSD License
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-checkflowtypes
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/ig-checkflowtypes
 .. |docker| image:: https://quay.io/repository/biocontainers/ig-checkflowtypes/status
                 :target: https://quay.io/repository/biocontainers/ig-checkflowtypes
-
 

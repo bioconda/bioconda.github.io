@@ -5,14 +5,17 @@ wgs-assembler
 
 |downloads|
 
-Celera Assembler (wgs-assembler) is a de novo whole-genome shotgun (WGS) DNA sequence assembler
+Celera Assembler \(wgs\-assembler\) is a de novo whole\-genome shotgun \(WGS\) DNA sequence assembler
 
 ======== ===========
 Home     http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page
 Versions 8.3
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wgs-assembler
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/wgs-assembler
 .. |docker| image:: https://quay.io/repository/biocontainers/wgs-assembler/status
                 :target: https://quay.io/repository/biocontainers/wgs-assembler
-
 

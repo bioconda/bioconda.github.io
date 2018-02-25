@@ -5,14 +5,17 @@ perl-postscript
 
 |downloads|
 
-helper module for PostScript::TextBlock
+helper module for PostScript\:\:TextBlock
 
 ======== ===========
 Home     http://metacpan.org/pod/PostScript
 Versions 0.06
 License  unknown
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-postscript
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-postscript
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-postscript/status
                 :target: https://quay.io/repository/biocontainers/perl-postscript
-
 

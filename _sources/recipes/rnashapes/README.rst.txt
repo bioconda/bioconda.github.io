@@ -5,14 +5,17 @@ rnashapes
 
 |downloads|
 
-RNAshape abstraction maps structures to a tree-like domain of shapes, retaining adjacency and nesting of structural features, but disregarding helix lengths. Shape abstraction integrates well with dynamic programming algorithms, and hence it can be applied during structure prediction rather than afterwards. This avoids exponential explosion and can still give us a non-heuristic and complete account of properties of the molecule's folding space.
+RNAshape abstraction maps structures to a tree\-like domain of shapes\, retaining adjacency and nesting of structural features\, but disregarding helix lengths\. Shape abstraction integrates well with dynamic programming algorithms\, and hence it can be applied during structure prediction rather than afterwards\. This avoids exponential explosion and can still give us a non\-heuristic and complete account of properties of the molecule\'s folding space\.
 
 ======== ===========
 Home     http://bibiserv.techfak.uni-bielefeld.de/rnashapes
 Versions 2.1.6, 3.3.0
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnashapes/2.1.6
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/rnashapes
 .. |docker| image:: https://quay.io/repository/biocontainers/rnashapes/status
                 :target: https://quay.io/repository/biocontainers/rnashapes
-
 

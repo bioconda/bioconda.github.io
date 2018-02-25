@@ -5,14 +5,17 @@ blockbuster
 
 |downloads|
 
-Blockbuster detects blocks of overlapping reads using a gaussian-distribution approach.
+Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach\.
 
 ======== ===========
 Home     http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
 Versions 0.0.1.1
 License  
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockbuster
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/blockbuster
 .. |docker| image:: https://quay.io/repository/biocontainers/blockbuster/status
                 :target: https://quay.io/repository/biocontainers/blockbuster
-
 

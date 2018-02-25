@@ -5,14 +5,17 @@ salmon
 
 |downloads|
 
-Highly-accurate & wicked fast transcript-level quantification from RNA-seq reads using lightweight alignments
+Highly\-accurate \& wicked fast transcript\-level quantification from RNA\-seq reads using lightweight alignments
 
 ======== ===========
 Home     https://github.com/COMBINE-lab/salmon
 Versions 0.5.1, 0.6.0, 0.7.2, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/salmon
 .. |docker| image:: https://quay.io/repository/biocontainers/salmon/status
                 :target: https://quay.io/repository/biocontainers/salmon
-
 

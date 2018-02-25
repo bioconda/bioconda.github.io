@@ -5,14 +5,17 @@ bioconductor-geneattribution
 
 |downloads|
 
-Identification of the most likely gene or genes through which variation at a given genomic locus in the human genome acts. The most basic functionality assumes that the closer gene is to the input locus, the more likely the gene is to be causative. Additionally, any empirical data that links genomic regions to genes (e.g. eQTL or genome conformation data) can be used if it is supplied in the UCSC .BED file format.
+Identification of the most likely gene or genes through which variation at a given genomic locus in the human genome acts\. The most basic functionality assumes that the closer gene is to the input locus\, the more likely the gene is to be causative\. Additionally\, any empirical data that links genomic regions to genes \(e\.g\. eQTL or genome conformation data\) can be used if it is supplied in the UCSC \.BED file format\.
 
 ======== ===========
 Home     http://bioconductor.org/packages/3.6/bioc/html/geneAttribution.html
 Versions 1.4.0
 License  Artistic-2.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneattribution
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/bioconductor-geneattribution
 .. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-geneattribution/status
                 :target: https://quay.io/repository/biocontainers/bioconductor-geneattribution
-
 

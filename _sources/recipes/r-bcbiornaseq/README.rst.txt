@@ -5,14 +5,17 @@ r-bcbiornaseq
 
 |downloads|
 
-Quality control and differential expression for bcbio RNA-seq experiments.
+Quality control and differential expression for bcbio RNA\-seq experiments\.
 
 ======== ===========
 Home     https://github.com/hbc/bcbioRNASeq
 Versions 0.1.2
 License  MIT
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-bcbiornaseq
 .. |docker| image:: https://quay.io/repository/biocontainers/r-bcbiornaseq/status
                 :target: https://quay.io/repository/biocontainers/r-bcbiornaseq
-
 

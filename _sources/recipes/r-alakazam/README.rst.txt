@@ -5,14 +5,17 @@ r-alakazam
 
 |downloads|
 
-Provides immunoglobulin (Ig) sequence lineage reconstruction, diversity profiling, and amino acid property analysis.
+Provides immunoglobulin \(Ig\) sequence lineage reconstruction\, diversity profiling\, and amino acid property analysis\.
 
 ======== ===========
 Home     http://alakazam.readthedocs.org
 Versions 0.2.7, 0.2.8
 License  CC BY-SA 4.0
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-alakazam
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/r-alakazam
 .. |docker| image:: https://quay.io/repository/biocontainers/r-alakazam/status
                 :target: https://quay.io/repository/biocontainers/r-alakazam
-
 

@@ -5,14 +5,17 @@ perl-extutils-installpaths
 
 |downloads|
 
-Build.PL install path logic made easy
+Build\.PL install path logic made easy
 
 ======== ===========
 Home     http://metacpan.org/pod/ExtUtils-InstallPaths
 Versions 0.011
 License  perl_5
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-installpaths
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/perl-extutils-installpaths
 .. |docker| image:: https://quay.io/repository/biocontainers/perl-extutils-installpaths/status
                 :target: https://quay.io/repository/biocontainers/perl-extutils-installpaths
-
 

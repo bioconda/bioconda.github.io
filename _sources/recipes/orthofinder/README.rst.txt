@@ -5,14 +5,17 @@ orthofinder
 
 |downloads|
 
-Accurate inference of orthogroups, orthologues, gene trees and rooted species tree made easy!
+Accurate inference of orthogroups\, orthologues\, gene trees and rooted species tree made easy\!
 
 ======== ===========
 Home     https://github.com/davidemms/OrthoFinder
 Versions 1.1.10, 1.1.2, 1.1.4, 1.1.8, 2.1.2
 License  GPLv3
 Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthofinder
+
 ======== ===========
+
+
 
 Installation
 ------------
@@ -46,5 +49,4 @@ Render an |badge| badge with the following Markdown::
                :target: https://anaconda.org/bioconda/orthofinder
 .. |docker| image:: https://quay.io/repository/biocontainers/orthofinder/status
                 :target: https://quay.io/repository/biocontainers/orthofinder
-
 
