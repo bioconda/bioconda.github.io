@@ -7,13 +7,15 @@ perl-b
 
 The Perl Compiler Backend
 
-======== ===========
-Home     http://metacpan.org/pod/B
-Versions 1.48
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48
+============= ===========
+Home          http://metacpan.org/pod/B
+Versions      1.48
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48
 
-======== ===========
+
+
+============= ===========
 
 
 

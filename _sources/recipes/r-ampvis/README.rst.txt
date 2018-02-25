@@ -7,13 +7,15 @@ r-ampvis
 
 A package to visualise amplicon data
 
-======== ===========
-Home     https://github.com/MadsAlbertsen/ampvis
-Versions 1.27.0
-License  AGPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampvis
+============= ===========
+Home          https://github.com/MadsAlbertsen/ampvis
+Versions      1.27.0
+License       AGPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ampvis
 
-======== ===========
+
+
+============= ===========
 
 
 

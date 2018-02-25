@@ -7,13 +7,15 @@ dnapi
 
 De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data\.
 
-======== ===========
-Home     https://github.com/jnktsj/DNApi
-Versions 1.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnapi
+============= ===========
+Home          https://github.com/jnktsj/DNApi
+Versions      1.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnapi
 
-======== ===========
+
+
+============= ===========
 
 
 

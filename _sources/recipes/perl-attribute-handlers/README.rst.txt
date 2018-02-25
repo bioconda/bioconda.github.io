@@ -7,13 +7,15 @@ perl-attribute-handlers
 
 Simpler definition of attribute handlers
 
-======== ===========
-Home     http://metacpan.org/pod/Attribute::Handlers
-Versions 0.96
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-attribute-handlers/0.96
+============= ===========
+Home          http://metacpan.org/pod/Attribute::Handlers
+Versions      0.96
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-attribute-handlers/0.96
 
-======== ===========
+
+
+============= ===========
 
 
 

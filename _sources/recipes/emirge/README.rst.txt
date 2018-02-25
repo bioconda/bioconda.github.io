@@ -7,13 +7,15 @@ emirge
 
 EMIRGE reconstructs full length sequences from short sequencing reads
 
-======== ===========
-Home     https://github.com/csmiller/EMIRGE
-Versions 0.61.1
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emirge
+============= ===========
+Home          https://github.com/csmiller/EMIRGE
+Versions      0.61.1
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emirge
 
-======== ===========
+
+
+============= ===========
 
 
 

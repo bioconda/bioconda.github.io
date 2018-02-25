@@ -7,13 +7,15 @@ zifa
 
 Dimensionality reduction for zero\-inflated single\-cell gene expression analysis
 
-======== ===========
-Home     https://github.com/epierson9/ZIFA
-Versions 0.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zifa
+============= ===========
+Home          https://github.com/epierson9/ZIFA
+Versions      0.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zifa
 
-======== ===========
+
+
+============= ===========
 
 
 

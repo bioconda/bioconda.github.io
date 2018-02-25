@@ -7,13 +7,15 @@ bamutil
 
 Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam\.
 
-======== ===========
-Home     http://genome.sph.umich.edu/wiki/BamUtil
-Versions 1.0.14
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamutil
+============= ===========
+Home          http://genome.sph.umich.edu/wiki/BamUtil
+Versions      1.0.14
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamutil
 
-======== ===========
+
+
+============= ===========
 
 
 

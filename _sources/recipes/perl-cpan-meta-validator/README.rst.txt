@@ -7,13 +7,15 @@ perl-cpan-meta-validator
 
 validate CPAN distribution metadata structures
 
-======== ===========
-Home     http://metacpan.org/pod/CPAN::Meta::Validator
-Versions 2.140640
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-validator/2.140640
+============= ===========
+Home          http://metacpan.org/pod/CPAN::Meta::Validator
+Versions      2.140640
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-validator/2.140640
 
-======== ===========
+
+
+============= ===========
 
 
 

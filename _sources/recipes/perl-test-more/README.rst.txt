@@ -7,13 +7,15 @@ perl-test-more
 
 yet another framework for writing test scripts
 
-======== ===========
-Home     http://metacpan.org/pod/Test::More
-Versions 1.001002
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-more/1.001002
+============= ===========
+Home          http://metacpan.org/pod/Test::More
+Versions      1.001002
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-more/1.001002
 
-======== ===========
+
+
+============= ===========
 
 
 

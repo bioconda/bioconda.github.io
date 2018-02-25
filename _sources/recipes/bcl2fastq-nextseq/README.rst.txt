@@ -7,13 +7,15 @@ bcl2fastq-nextseq
 
 NextSeq \.bcl Conversion
 
-======== ===========
-Home     https://github.com/brwnj/bcl2fastq
-Versions 0.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcl2fastq-nextseq
+============= ===========
+Home          https://github.com/brwnj/bcl2fastq
+Versions      0.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcl2fastq-nextseq
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-bioperl-core
 
 \"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl\.
 
-======== ===========
-Home     http://metacpan.org/pod/BioPerl
-Versions 1.6.924
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core
+============= ===========
+Home          http://metacpan.org/pod/BioPerl
+Versions      1.6.924
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core
 
-======== ===========
+
+
+============= ===========
 
 
 

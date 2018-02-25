@@ -7,13 +7,15 @@ perl-test-simple
 
 Basic utilities for writing tests\.
 
-======== ===========
-Home     http://metacpan.org/pod/Test-Simple
-Versions 1.302052, 1.302075
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-simple
+============= ===========
+Home          http://metacpan.org/pod/Test-Simple
+Versions      1.302052, 1.302075
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-simple
 
-======== ===========
+
+
+============= ===========
 
 
 

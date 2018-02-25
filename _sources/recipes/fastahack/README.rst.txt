@@ -7,13 +7,15 @@ fastahack
 
 fastahack \-\-\- \*fast\* FASTA file indexing\, subsequence and sequence extraction
 
-======== ===========
-Home     https://github.com/ekg/fastahack
-Versions 2016.07.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack
+============= ===========
+Home          https://github.com/ekg/fastahack
+Versions      2016.07.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastahack
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ minialign
 
 Fast and accurate alignment tool for PacBio and Nanopore long reads\.
 
-======== ===========
-Home     https://github.com/ocxtal/minialign
-Versions 0.3.1, 0.4.0, 0.4.2, 0.5.2, 0.5.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minialign
+============= ===========
+Home          https://github.com/ocxtal/minialign
+Versions      0.3.1, 0.4.0, 0.4.2, 0.5.2, 0.5.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minialign
 
-======== ===========
+
+
+============= ===========
 
 Minialign is a little bit fast and moderately accurate nucleotide sequence
 alignment tool designed for PacBio and Nanopore long reads\. It is built on

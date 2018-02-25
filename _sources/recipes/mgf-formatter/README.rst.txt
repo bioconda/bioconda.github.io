@@ -7,13 +7,15 @@ mgf-formatter
 
 Tools for convert peak lists into MGF files formatted for particular downstream applications
 
-======== ===========
-Home     https://bitbucket.org/galaxyp-applications/mgf-formatter
-Versions 1.0.0
-License  Eclipse Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgf-formatter
+============= ===========
+Home          https://bitbucket.org/galaxyp-applications/mgf-formatter
+Versions      1.0.0
+License       Eclipse Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgf-formatter
 
-======== ===========
+
+
+============= ===========
 
 
 

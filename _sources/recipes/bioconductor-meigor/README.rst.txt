@@ -7,13 +7,15 @@ bioconductor-meigor
 
 Global Optimization
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MEIGOR.html
-Versions 1.12.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meigor
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MEIGOR.html
+Versions      1.12.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meigor
 
-======== ===========
+
+
+============= ===========
 
 
 

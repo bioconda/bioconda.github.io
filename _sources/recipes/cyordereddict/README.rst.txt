@@ -7,13 +7,15 @@ cyordereddict
 
 Cython implementation of Python\'s collections\.OrderedDict
 
-======== ===========
-Home     https://github.com/shoyer/cyordereddict
-Versions 0.2.2
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyordereddict
+============= ===========
+Home          https://github.com/shoyer/cyordereddict
+Versions      0.2.2
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cyordereddict
 
-======== ===========
+
+
+============= ===========
 
 
 

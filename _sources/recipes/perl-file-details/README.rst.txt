@@ -7,13 +7,15 @@ perl-file-details
 
 File details in an object\, stat\, hash\, etc\.\.
 
-======== ===========
-Home     http://metacpan.org/pod/File::Details
-Versions 0.003
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-details
+============= ===========
+Home          http://metacpan.org/pod/File::Details
+Versions      0.003
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-details
 
-======== ===========
+
+
+============= ===========
 
 
 

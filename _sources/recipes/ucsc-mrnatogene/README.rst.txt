@@ -7,13 +7,15 @@ ucsc-mrnatogene
 
 convert PSL alignments of mRNAs to gene annotations
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mrnatogene
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mrnatogene
 
-======== ===========
+
+
+============= ===========
 
 
 

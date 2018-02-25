@@ -7,13 +7,15 @@ repeatmasker
 
 RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences\.
 
-======== ===========
-Home     http://www.repeatmasker.org
-Versions 4.0.6
-License  Open Software License v2.1
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmasker
+============= ===========
+Home          http://www.repeatmasker.org
+Versions      4.0.6
+License       Open Software License v2.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmasker
 
-======== ===========
+
+
+============= ===========
 
 
 

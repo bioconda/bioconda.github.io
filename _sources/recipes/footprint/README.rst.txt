@@ -7,13 +7,15 @@ footprint
 
 This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data\.
 
-======== ===========
-Home     https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
-Versions 1.0.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint
+============= ===========
+Home          https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
+Versions      1.0.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint
 
-======== ===========
+
+
+============= ===========
 
 
 

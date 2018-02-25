@@ -7,13 +7,15 @@ nanosplit
 
 Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset\.
 
-======== ===========
-Home     https://github.com/wdecoster/nanosplit
-Versions 0.1.4
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosplit
+============= ===========
+Home          https://github.com/wdecoster/nanosplit
+Versions      0.1.4
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosplit
 
-======== ===========
+
+
+============= ===========
 
 
 

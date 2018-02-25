@@ -7,13 +7,15 @@ udocker
 
 Freely available tools for computational molecular biology\.
 
-======== ===========
-Home     https://github.com/indigo-dc/udocker
-Versions 1.0.3
-License  Apache-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/udocker
+============= ===========
+Home          https://github.com/indigo-dc/udocker
+Versions      1.0.3
+License       Apache-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/udocker
 
-======== ===========
+
+
+============= ===========
 
 
 

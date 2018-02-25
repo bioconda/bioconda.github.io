@@ -7,13 +7,15 @@ discovar
 
 Suitable for variant calling with reference and de novo assembly of small genomes\.
 
-======== ===========
-Home     https://www.broadinstitute.org/software/discovar
-Versions 52488
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar
+============= ===========
+Home          https://www.broadinstitute.org/software/discovar
+Versions      52488
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar
 
-======== ===========
+
+
+============= ===========
 
 
 

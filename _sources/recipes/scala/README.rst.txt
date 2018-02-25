@@ -7,13 +7,15 @@ scala
 
 
 
-======== ===========
-Home     http://www.scala-lang.org/
-Versions 2.11.8
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scala
+============= ===========
+Home          http://www.scala-lang.org/
+Versions      2.11.8
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scala
 
-======== ===========
+
+
+============= ===========
 
 
 

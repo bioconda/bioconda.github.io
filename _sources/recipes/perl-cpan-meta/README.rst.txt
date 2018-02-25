@@ -7,13 +7,15 @@ perl-cpan-meta
 
 the distribution metadata for a CPAN dist
 
-======== ===========
-Home     https://github.com/dagolden/cpan-meta
-Versions 2.120921
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta
+============= ===========
+Home          https://github.com/dagolden/cpan-meta
+Versions      2.120921
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta
 
-======== ===========
+
+
+============= ===========
 
 
 

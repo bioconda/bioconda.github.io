@@ -7,13 +7,15 @@ rsa
 
 Pure\-Python RSA implementation
 
-======== ===========
-Home     http://stuvel.eu/rsa
-Versions 3.1.4
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsa
+============= ===========
+Home          http://stuvel.eu/rsa
+Versions      3.1.4
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rsa
 
-======== ===========
+
+
+============= ===========
 
 
 

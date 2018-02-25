@@ -7,13 +7,15 @@ perl-io-gzip
 
 Perl extension to provide a PerlIO layer to gzip\/gunzip
 
-======== ===========
-Home     https://metacpan.org/pod/PerlIO::gzip
-Versions 0.20
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-gzip
+============= ===========
+Home          https://metacpan.org/pod/PerlIO::gzip
+Versions      0.20
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-gzip
 
-======== ===========
+
+
+============= ===========
 
 
 

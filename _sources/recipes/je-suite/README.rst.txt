@@ -9,13 +9,15 @@ Je is a suite to handle barcoded fastq files with \(or without\) Unique Molecule
 read duplicates using these UMIs
 
 
-======== ===========
-Home     https://gbcs.embl.de/Je
-Versions 1.2
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite
+============= ===========
+Home          https://gbcs.embl.de/Je
+Versions      1.2
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite
 
-======== ===========
+
+
+============= ===========
 
 
 

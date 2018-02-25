@@ -7,13 +7,15 @@ bismark
 
 Bismark is a program to map bisulfite treated sequencing reads to a genome of interest and perform methylation calls in a single step\. The output can be easily imported into a genome viewer\, such as SeqMonk\, and enables a researcher to analyse the methylation levels of their samples straight away\.
 
-======== ===========
-Home     https://www.bioinformatics.babraham.ac.uk/projects/bismark/
-Versions 0.17.0, 0.18.1, 0.19.0
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark
+============= ===========
+Home          https://www.bioinformatics.babraham.ac.uk/projects/bismark/
+Versions      0.17.0, 0.18.1, 0.19.0
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark
 
-======== ===========
+
+
+============= ===========
 
 
 

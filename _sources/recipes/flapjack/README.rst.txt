@@ -7,13 +7,15 @@ flapjack
 
 Flapjack provides interactive visualizations of high\-throughput genotyping data\.
 
-======== ===========
-Home     https://ics.hutton.ac.uk/flapjack
-Versions 1.16.10.31
-License  BSD-2-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flapjack
+============= ===========
+Home          https://ics.hutton.ac.uk/flapjack
+Versions      1.16.10.31
+License       BSD-2-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flapjack
 
-======== ===========
+
+
+============= ===========
 
 
 

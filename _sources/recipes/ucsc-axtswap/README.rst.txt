@@ -7,13 +7,15 @@ ucsc-axtswap
 
 Swap source and query in an axt file
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-axtswap
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-axtswap
 
-======== ===========
+
+
+============= ===========
 
 
 

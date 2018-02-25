@@ -7,13 +7,15 @@ taco
 
 A tool for multi\-sample transcriptome assembly from RNA\-Seq
 
-======== ===========
-Home     https://github.com/tacorna/taco
-Versions v0.7.0
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taco
+============= ===========
+Home          https://github.com/tacorna/taco
+Versions      v0.7.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taco
 
-======== ===========
+
+
+============= ===========
 
 
 

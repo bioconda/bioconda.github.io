@@ -7,13 +7,15 @@ chanjo
 
 Coverage analysis tool for clinical sequencing
 
-======== ===========
-Home     http://www.chanjo.co/
-Versions 3.1.1, 3.3.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chanjo
+============= ===========
+Home          http://www.chanjo.co/
+Versions      3.1.1, 3.3.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chanjo
 
-======== ===========
+
+
+============= ===========
 
 
 

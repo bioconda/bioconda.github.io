@@ -7,13 +7,15 @@ perl-list-util
 
 A selection of general\-utility list subroutines
 
-======== ===========
-Home     http://metacpan.org/pod/List::Util
-Versions 1.38
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-util/1.38
+============= ===========
+Home          http://metacpan.org/pod/List::Util
+Versions      1.38
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-util/1.38
 
-======== ===========
+
+
+============= ===========
 
 
 

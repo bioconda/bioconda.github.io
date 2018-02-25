@@ -7,13 +7,15 @@ infernal
 
 Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities\.
 
-======== ===========
-Home     http://infernal.janelia.org/
-Versions 1.0.2, 1.1.1, 1.1.2
-License  3-Clause BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal
+============= ===========
+Home          http://infernal.janelia.org/
+Versions      1.0.2, 1.1.1, 1.1.2
+License       3-Clause BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal
 
-======== ===========
+
+
+============= ===========
 
 
 

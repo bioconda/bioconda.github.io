@@ -7,13 +7,15 @@ pysftp
 
 A friendly face on SFTP
 
-======== ===========
-Home     https://bitbucket.org/dundeemt/pysftp
-Versions 0.2.8, 0.2.9
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp
+============= ===========
+Home          https://bitbucket.org/dundeemt/pysftp
+Versions      0.2.8, 0.2.9
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp
 
-======== ===========
+
+
+============= ===========
 
 
 

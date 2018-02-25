@@ -7,13 +7,15 @@ perl-io-scalar
 
 IO\:\: interface for reading\/writing a scalar
 
-======== ===========
-Home     http://metacpan.org/pod/IO::Scalar
-Versions 2.111
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar/2.111
+============= ===========
+Home          http://metacpan.org/pod/IO::Scalar
+Versions      2.111
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-scalar/2.111
 
-======== ===========
+
+
+============= ===========
 
 
 

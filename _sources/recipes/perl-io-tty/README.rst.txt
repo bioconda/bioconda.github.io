@@ -7,13 +7,15 @@ perl-io-tty
 
 Pseudo ttys and constants
 
-======== ===========
-Home     http://metacpan.org/pod/IO-Tty
-Versions 1.12
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-tty
+============= ===========
+Home          http://metacpan.org/pod/IO-Tty
+Versions      1.12
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-tty
 
-======== ===========
+
+
+============= ===========
 
 
 

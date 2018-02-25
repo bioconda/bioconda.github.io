@@ -7,13 +7,15 @@ amos
 
 A Modular\, Open\-Source whole genome assembler
 
-======== ===========
-Home     http://amos.sourceforge.net/wiki/index.php/AMOS
-Versions 3.1.0
-License  Artistic License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amos
+============= ===========
+Home          http://amos.sourceforge.net/wiki/index.php/AMOS
+Versions      3.1.0
+License       Artistic License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amos
 
-======== ===========
+
+
+============= ===========
 
 
 

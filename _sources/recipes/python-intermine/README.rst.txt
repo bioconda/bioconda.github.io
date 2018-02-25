@@ -7,13 +7,15 @@ intermine
 
 InterMine WebService client
 
-======== ===========
-Home     http://www.intermine.org
-Versions 1.09.05, 1.09.09
-License  GNU Library or Lesser General Public License (LGPL) or BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intermine
+============= ===========
+Home          http://www.intermine.org
+Versions      1.09.05, 1.09.09
+License       GNU Library or Lesser General Public License (LGPL) or BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intermine
 
-======== ===========
+
+
+============= ===========
 
 InterMine Webservice Client
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-

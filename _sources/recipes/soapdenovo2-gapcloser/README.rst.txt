@@ -7,13 +7,15 @@ soapdenovo2-gapcloser
 
 a tool named GapCloser for SOAPdenovo\.
 
-======== ===========
-Home     http://soap.genomics.org.cn/soapdenovo.html
-Versions 1.12
-License  GNU
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-gapcloser
+============= ===========
+Home          http://soap.genomics.org.cn/soapdenovo.html
+Versions      1.12
+License       GNU
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-gapcloser
 
-======== ===========
+
+
+============= ===========
 
 
 

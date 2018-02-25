@@ -7,13 +7,15 @@ gecode
 
 Generic constraint development environment
 
-======== ===========
-Home     http://www.gecode.org/
-Versions 4.4.0, 5.0.0, 5.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecode
+============= ===========
+Home          http://www.gecode.org/
+Versions      4.4.0, 5.0.0, 5.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gecode
 
-======== ===========
+
+
+============= ===========
 
 
 

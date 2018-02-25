@@ -7,13 +7,15 @@ perl-statistics-ttest
 
 Perl module to perform T\-test on 2 independent samples Statistics\:\:TTest\:\:Sufficient \- Perl module to perfrom T\-Test on 2 indepdent samples using sufficient statistics
 
-======== ===========
-Home     http://metacpan.org/pod/Statistics-TTest
-Versions 1.1
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-ttest
+============= ===========
+Home          http://metacpan.org/pod/Statistics-TTest
+Versions      1.1
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-ttest
 
-======== ===========
+
+
+============= ===========
 
 
 

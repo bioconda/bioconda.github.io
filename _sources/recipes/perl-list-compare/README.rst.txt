@@ -7,13 +7,15 @@ perl-list-compare
 
 Compare elements of two or more lists
 
-======== ===========
-Home     http://thenceforward.net/perl/modules/List-Compare/
-Versions 0.53
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-compare/0.53
+============= ===========
+Home          http://thenceforward.net/perl/modules/List-Compare/
+Versions      0.53
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-compare/0.53
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ kallisto
 
 Quantifying abundances of transcripts from RNA\-Seq data\, or more generally of target sequences using high\-throughput sequencing reads\.
 
-======== ===========
-Home     http://pachterlab.github.io/kallisto
-Versions 0.42.3, 0.42.4, 0.43.0, 0.43.1
-License  BSD_2_Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kallisto
+============= ===========
+Home          http://pachterlab.github.io/kallisto
+Versions      0.42.3, 0.42.4, 0.43.0, 0.43.1
+License       BSD_2_Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kallisto
 
-======== ===========
+
+
+============= ===========
 
 
 

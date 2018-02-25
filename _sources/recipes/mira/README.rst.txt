@@ -7,13 +7,15 @@ mira
 
 MIRA is a whole genome shotgun and EST sequence assembler for Sanger\, 454\, Solexa \(Illumina\)\, IonTorrent data and PacBio \(the later at the moment only CCS and error\-corrected CLR reads\)
 
-======== ===========
-Home     https://sourceforge.net/p/mira-assembler/wiki/Home/
-Versions 3.4.1.1, 4.0.2, 4.9.5, 4.9.6
-License  GNU General Public License v2 or later (GPLv2+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira
+============= ===========
+Home          https://sourceforge.net/p/mira-assembler/wiki/Home/
+Versions      3.4.1.1, 4.0.2, 4.9.5, 4.9.6
+License       GNU General Public License v2 or later (GPLv2+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mira
 
-======== ===========
+
+
+============= ===========
 
 
 

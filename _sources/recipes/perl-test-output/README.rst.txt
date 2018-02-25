@@ -7,13 +7,15 @@ perl-test-output
 
 Utilities to test STDOUT and STDERR messages\.
 
-======== ===========
-Home     http://metacpan.org/pod/Test-Output
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-output
+============= ===========
+Home          http://metacpan.org/pod/Test-Output
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-output
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ theta2
 
 Estimate tumor purity and clonal\/subclonal copy number aberrations directly from high\-throughput DNA sequencing data
 
-======== ===========
-Home     https://github.com/raphael-group/THetA
-Versions 0.7
-License  Modified MIT (no inclusion in commercial tools)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/theta2
+============= ===========
+Home          https://github.com/raphael-group/THetA
+Versions      0.7
+License       Modified MIT (no inclusion in commercial tools)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/theta2
 
-======== ===========
+
+
+============= ===========
 
 
 

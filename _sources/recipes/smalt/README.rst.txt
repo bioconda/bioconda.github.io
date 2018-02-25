@@ -7,13 +7,15 @@ smalt
 
 SMALT aligns DNA sequencing reads with a reference genome\.
 
-======== ===========
-Home     http://www.sanger.ac.uk/science/tools/smalt-0
-Versions 0.7.6
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smalt
+============= ===========
+Home          http://www.sanger.ac.uk/science/tools/smalt-0
+Versions      0.7.6
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smalt
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ spectra-cluster-cli
 
 This is a stand\-alone implementation of the new updated PRIDE Cluster algorithm\. It is based on the spectra\-cluster API and uses a highly similar logic as the Hadoop implementation spectra\-cluster\-hadoop used to build the PRIDE Cluster resource\.
 
-======== ===========
-Home     https://github.com/spectra-cluster/spectra-cluster-cli
-Versions 1.0.1
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectra-cluster-cli
+============= ===========
+Home          https://github.com/spectra-cluster/spectra-cluster-cli
+Versions      1.0.1
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectra-cluster-cli
 
-======== ===========
+
+
+============= ===========
 
 
 

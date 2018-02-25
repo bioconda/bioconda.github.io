@@ -7,13 +7,15 @@ fcp
 
 Homology\- and composition\-based classifiers for assigning a taxonomic attribution to metagenomic fragments\.
 
-======== ===========
-Home     https://github.com/dparks1134/FragmentClassificationPackage
-Versions 1.0.7
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fcp
+============= ===========
+Home          https://github.com/dparks1134/FragmentClassificationPackage
+Versions      1.0.7
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fcp
 
-======== ===========
+
+
+============= ===========
 
 
 

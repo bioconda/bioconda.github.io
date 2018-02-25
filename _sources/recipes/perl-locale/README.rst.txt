@@ -7,13 +7,15 @@ perl-locale
 
 Perl pragma to use or avoid POSIX locales for built\-in operations
 
-======== ===========
-Home     http://metacpan.org/pod/locale
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale/1.03
+============= ===========
+Home          http://metacpan.org/pod/locale
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale/1.03
 
-======== ===========
+
+
+============= ===========
 
 
 

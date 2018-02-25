@@ -7,13 +7,15 @@ funcannot
 
 Annotates cDNA\, protein\, mutation type\, and other funcational changes to variants in a VCF file with pre\-existing gene annotations \(see\:genepender\)\.
 
-======== ===========
-Home     https://github.com/BioTools-Tek/funcannot
-Versions v2.8
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funcannot
+============= ===========
+Home          https://github.com/BioTools-Tek/funcannot
+Versions      v2.8
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funcannot
 
-======== ===========
+
+
+============= ===========
 
 
 

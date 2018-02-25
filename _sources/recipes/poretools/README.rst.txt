@@ -7,13 +7,15 @@ poretools
 
 poretools\: a toolkit for working with nanopore sequencing data from Oxford Nanopore
 
-======== ===========
-Home     http://poretools.readthedocs.org/en/latest/
-Versions 0.5.0, 0.5.1, 0.6.0, 0.6.1a0, 0.6.1a1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poretools
+============= ===========
+Home          http://poretools.readthedocs.org/en/latest/
+Versions      0.5.0, 0.5.1, 0.6.0, 0.6.1a0, 0.6.1a1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poretools
 
-======== ===========
+
+
+============= ===========
 
 
 

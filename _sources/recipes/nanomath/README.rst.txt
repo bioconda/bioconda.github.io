@@ -7,13 +7,15 @@ nanomath
 
 A few simple math function for other Oxford Nanopore processing scripts
 
-======== ===========
-Home     https://github.com/wdecoster/nanomath
-Versions 0.12.5, 0.14.2, 0.16.2
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomath
+============= ===========
+Home          https://github.com/wdecoster/nanomath
+Versions      0.12.5, 0.14.2, 0.16.2
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanomath
 
-======== ===========
+
+
+============= ===========
 
 
 

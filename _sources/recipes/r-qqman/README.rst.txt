@@ -7,13 +7,15 @@ r-qqman
 
 Create Q\-Q and manhattan plots for GWAS data from PLINK results\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=qqman
-Versions 0.1.2, 0.1.4
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman
+============= ===========
+Home          https://CRAN.R-project.org/package=qqman
+Versions      0.1.2, 0.1.4
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qqman
 
-======== ===========
+
+
+============= ===========
 
 
 

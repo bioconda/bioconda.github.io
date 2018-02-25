@@ -7,13 +7,15 @@ filechunkio
 
 FileChunkIO represents a chunk of an OS\-level file containing bytes data
 
-======== ===========
-Home     http://bitbucket.org/fabian/filechunkio
-Versions 1.6
-License  MIT license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filechunkio
+============= ===========
+Home          http://bitbucket.org/fabian/filechunkio
+Versions      1.6
+License       MIT license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filechunkio
 
-======== ===========
+
+
+============= ===========
 
 
 

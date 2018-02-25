@@ -7,13 +7,15 @@ ig-checkflowtypes
 
 quick flow\-related datatype for galaxy checks
 
-======== ===========
-Home     https://github.com/ImmPortDB/ig-checkflowtypes
-Versions 1.0.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-checkflowtypes
+============= ===========
+Home          https://github.com/ImmPortDB/ig-checkflowtypes
+Versions      1.0.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-checkflowtypes
 
-======== ===========
+
+
+============= ===========
 
 
 

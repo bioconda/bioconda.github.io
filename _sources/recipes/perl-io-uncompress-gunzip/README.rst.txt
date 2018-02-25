@@ -7,13 +7,15 @@ perl-io-uncompress-gunzip
 
 Read RFC 1952 files\/buffers
 
-======== ===========
-Home     http://metacpan.org/pod/IO::Uncompress::Gunzip
-Versions 2.064
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip/2.064
+============= ===========
+Home          http://metacpan.org/pod/IO::Uncompress::Gunzip
+Versions      2.064
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-gunzip/2.064
 
-======== ===========
+
+
+============= ===========
 
 
 

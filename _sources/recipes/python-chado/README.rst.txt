@@ -7,13 +7,15 @@ python-chado
 
 Chado library
 
-======== ===========
-Home     https://github.com/galaxy-genome-annotation/python-chado
-Versions 1.2, 2.0, 2.0.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado
+============= ===========
+Home          https://github.com/galaxy-genome-annotation/python-chado
+Versions      1.2, 2.0, 2.0.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado
 
-======== ===========
+
+
+============= ===========
 
 
 

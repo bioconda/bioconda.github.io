@@ -7,13 +7,15 @@ flask-markdown
 
 Small extension to make using markdown easy
 
-======== ===========
-Home     http://github.com/dcolish/flask-markdown
-Versions 0.3
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-markdown
+============= ===========
+Home          http://github.com/dcolish/flask-markdown
+Versions      0.3
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-markdown
 
-======== ===========
+
+
+============= ===========
 
 
 

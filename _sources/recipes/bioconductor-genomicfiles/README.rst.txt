@@ -7,13 +7,15 @@ bioconductor-genomicfiles
 
 This package provides infrastructure for parallel computations distributed \'by file\' or \'by range\'\. User defined MAPPER and REDUCER functions provide added flexibility for data combination and manipulation\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/GenomicFiles.html
-Versions 1.14.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfiles
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicFiles.html
+Versions      1.14.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfiles
 
-======== ===========
+
+
+============= ===========
 
 
 

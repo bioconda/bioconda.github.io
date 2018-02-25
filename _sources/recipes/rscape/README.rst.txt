@@ -7,13 +7,15 @@ rscape
 
 R\-scape \(RNA Structural Covariation Above Phylogenetic Expectation\) looks for evidence of a conserved RNA secondary structure by measuring pairwise covariations observed in an input multiple sequence alignment\.
 
-======== ===========
-Home     http://eddylab.org/R-scape/
-Versions 0.2.1, 0.3.1, 0.6.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rscape
+============= ===========
+Home          http://eddylab.org/R-scape/
+Versions      0.2.1, 0.3.1, 0.6.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rscape
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pedagree
 
 pleasingly pythonic pedigree manipulation
 
-======== ===========
-Home     https://github.com/brentp/pedagree
-Versions 0.0.11, 0.0.8
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pedagree
+============= ===========
+Home          https://github.com/brentp/pedagree
+Versions      0.0.11, 0.0.8
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pedagree
 
-======== ===========
+
+
+============= ===========
 
 
 

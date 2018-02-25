@@ -7,13 +7,15 @@ perl-data-dumper
 
 stringified perl data structures\, suitable for both printing and eval
 
-======== ===========
-Home     http://search.cpan.org/~smueller/Data-Dumper-2.161/Dumper.pm
-Versions 2.161
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper
+============= ===========
+Home          http://search.cpan.org/~smueller/Data-Dumper-2.161/Dumper.pm
+Versions      2.161
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper
 
-======== ===========
+
+
+============= ===========
 
 
 

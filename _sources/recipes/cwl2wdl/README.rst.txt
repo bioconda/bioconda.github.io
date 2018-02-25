@@ -7,13 +7,15 @@ cwl2wdl
 
 Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\)\.
 
-======== ===========
-Home     https://github.com/adamstruck/cwl2wdl
-Versions 0.1dev37, 0.1dev44
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwl2wdl
+============= ===========
+Home          https://github.com/adamstruck/cwl2wdl
+Versions      0.1dev37, 0.1dev44
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cwl2wdl
 
-======== ===========
+
+
+============= ===========
 
 
 

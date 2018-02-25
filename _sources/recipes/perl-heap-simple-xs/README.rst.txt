@@ -7,13 +7,15 @@ perl-heap-simple-xs
 
 An XS implementation of the Heap\:\:Simple interface
 
-======== ===========
-Home     http://metacpan.org/pod/Heap::Simple::XS
-Versions 0.10
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple-xs
+============= ===========
+Home          http://metacpan.org/pod/Heap::Simple::XS
+Versions      0.10
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap-simple-xs
 
-======== ===========
+
+
+============= ===========
 
 
 

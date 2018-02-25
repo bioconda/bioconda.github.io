@@ -7,13 +7,15 @@ ucsc-hgloadnet
 
 Load a generic net file into database
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadnet
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgloadnet
 
-======== ===========
+
+
+============= ===========
 
 
 

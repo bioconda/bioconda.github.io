@@ -7,13 +7,15 @@ bioconductor-cmap2data
 
 Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/cMap2data.html
-Versions 1.14.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/cMap2data.html
+Versions      1.14.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap2data
 
-======== ===========
+
+
+============= ===========
 
 
 

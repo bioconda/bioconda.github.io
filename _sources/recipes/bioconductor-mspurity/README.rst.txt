@@ -7,13 +7,15 @@ bioconductor-mspurity
 
 Assess the contribution of the targeted precursor in fragmentation acquired or anticipated isolation windows using a metric called \"precursor purity\"\. Also provides simple processing steps \(averaging\, filtering\, blank subtraction\, etc\) for DI\-MS data\. Works for both LC\-MS\(\/MS\) and DI\-MS\(\/MS\) data\. Spectral matching of fragmentation spectra can also be run against a SQLite database of library spectra\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/msPurity.html
-Versions 1.3.9, 1.4.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/msPurity.html
+Versions      1.3.9, 1.4.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity
 
-======== ===========
+
+
+============= ===========
 
 
 

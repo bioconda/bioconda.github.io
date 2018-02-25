@@ -7,13 +7,15 @@ ibdne
 
 The IBDNe program estimates the historical effective population size of a homogenous population \(from the output of IDBseq\)\.
 
-======== ===========
-Home     http://faculty.washington.edu/browning/ibdne.html
-Versions 04Sep15.e78
-License  Apache v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne
+============= ===========
+Home          http://faculty.washington.edu/browning/ibdne.html
+Versions      04Sep15.e78
+License       Apache v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne
 
-======== ===========
+
+
+============= ===========
 
 
 

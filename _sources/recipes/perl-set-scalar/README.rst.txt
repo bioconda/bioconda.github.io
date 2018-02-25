@@ -7,13 +7,15 @@ perl-set-scalar
 
 basic set operations
 
-======== ===========
-Home     http://metacpan.org/pod/Set-Scalar
-Versions 1.29
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-scalar
+============= ===========
+Home          http://metacpan.org/pod/Set-Scalar
+Versions      1.29
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-scalar
 
-======== ===========
+
+
+============= ===========
 
 
 

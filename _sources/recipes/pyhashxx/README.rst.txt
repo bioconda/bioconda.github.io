@@ -7,13 +7,15 @@ pyhashxx
 
 Python wrapper for xxHash algorithm
 
-======== ===========
-Home     http://github.com/ewencp/pyhashxx
-Versions 0.1.3
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhashxx
+============= ===========
+Home          http://github.com/ewencp/pyhashxx
+Versions      0.1.3
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyhashxx
 
-======== ===========
+
+
+============= ===========
 
 
 

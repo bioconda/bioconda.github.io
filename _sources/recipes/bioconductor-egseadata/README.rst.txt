@@ -7,13 +7,15 @@ bioconductor-egseadata
 
 This package includes gene set collections that are used for the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing\. It includes Human and Mouse versions of the MSidDB \(Subramanian\, et al\. \(2005\) PNAS\, 102\(43\)\:15545\-15550\) and GeneSetDB \(Araki\, et al\. \(2012\) FEBS Open Bio\, 2\:76\-82\) collections\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/EGSEAdata.html
-Versions 1.6.0
-License  file LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egseadata
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/EGSEAdata.html
+Versions      1.6.0
+License       file LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egseadata
 
-======== ===========
+
+
+============= ===========
 
 
 

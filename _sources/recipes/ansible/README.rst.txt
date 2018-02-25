@@ -7,13 +7,15 @@ ansible
 
 Radically simple IT automation
 
-======== ===========
-Home     http://www.ansible.com/
-Versions 1.9.4
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ansible
+============= ===========
+Home          http://www.ansible.com/
+Versions      1.9.4
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ansible
 
-======== ===========
+
+
+============= ===========
 
 
 

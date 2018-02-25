@@ -7,13 +7,15 @@ last
 
 LAST finds similar regions between sequences\, and aligns them\. It is designed for comparing large datasets to each other \(e\.g\. vertebrate genomes and\/or large numbers of DNA reads\)\.
 
-======== ===========
-Home     http://last.cbrc.jp/
-Versions 490, 638, 719, 847, 874, 876
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last
+============= ===========
+Home          http://last.cbrc.jp/
+Versions      490, 638, 719, 847, 874, 876
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/last
 
-======== ===========
+
+
+============= ===========
 
 
 

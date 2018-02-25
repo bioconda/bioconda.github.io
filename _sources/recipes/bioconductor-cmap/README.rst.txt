@@ -7,13 +7,15 @@ bioconductor-cmap
 
 Annotation data file for cMAP assembled using data from public data repositories
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/cMAP.html
-Versions 1.15.1
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/cMAP.html
+Versions      1.15.1
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cmap
 
-======== ===========
+
+
+============= ===========
 
 
 

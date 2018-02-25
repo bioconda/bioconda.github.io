@@ -7,13 +7,15 @@ perl-bio-featureio
 
 Modules for reading\, writing\, and manipulating sequence features
 
-======== ===========
-Home     https://metacpan.org/release/Bio-FeatureIO
-Versions 1.6.905
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-featureio
+============= ===========
+Home          https://metacpan.org/release/Bio-FeatureIO
+Versions      1.6.905
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-featureio
 
-======== ===========
+
+
+============= ===========
 
 
 

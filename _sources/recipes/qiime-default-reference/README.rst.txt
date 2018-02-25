@@ -7,13 +7,15 @@ qiime-default-reference
 
 Default reference data files for use with QIIME\.
 
-======== ===========
-Home     http://www.qiime.org
-Versions 0.1.3
-License  CC BY-SA 3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3
+============= ===========
+Home          http://www.qiime.org
+Versions      0.1.3
+License       CC BY-SA 3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3
 
-======== ===========
+
+
+============= ===========
 
 
 

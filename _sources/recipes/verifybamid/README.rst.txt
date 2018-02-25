@@ -7,13 +7,15 @@ verifybamid
 
 verifyBamID verifies identity and purity of sequence data
 
-======== ===========
-Home     http://genome.sph.umich.edu/wiki/VerifyBamID
-Versions 1.1.3
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid
+============= ===========
+Home          http://genome.sph.umich.edu/wiki/VerifyBamID
+Versions      1.1.3
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid
 
-======== ===========
+
+
+============= ===========
 
 
 

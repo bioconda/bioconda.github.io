@@ -7,13 +7,15 @@ dimspy
 
 Python package for data processing of direct\-infusion mass spectrometry\-based metabolomics and lipidomics data
 
-======== ===========
-Home     https://github.com/computational-metabolomics/dimspy
-Versions 1.0.0, 1.1.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dimspy
+============= ===========
+Home          https://github.com/computational-metabolomics/dimspy
+Versions      1.0.0, 1.1.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dimspy
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-test-pod-coverage
 
 Check for pod coverage in your distribution
 
-======== ===========
-Home     http://metacpan.org/pod/Test::Pod::Coverage
-Versions 1.10
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage/1.10
+============= ===========
+Home          http://metacpan.org/pod/Test::Pod::Coverage
+Versions      1.10
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod-coverage/1.10
 
-======== ===========
+
+
+============= ===========
 
 
 

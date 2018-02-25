@@ -7,13 +7,15 @@ perl-estscan1
 
 Detects coding regions in DNA sequences even if they are of low quality\. ESTScan\.pm contains the Perl part of the code that reads in the matrices file\. The C code that does the actual computation is located in estscan\.c\.
 
-======== ===========
-Home     http://estscan.sourceforge.net
-Versions 1.3
-License  open source
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-estscan1/1.3
+============= ===========
+Home          http://estscan.sourceforge.net
+Versions      1.3
+License       open source
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-estscan1/1.3
 
-======== ===========
+
+
+============= ===========
 
 
 

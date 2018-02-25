@@ -7,13 +7,15 @@ perl-moosex-app
 
 Write user\-friendly command line apps with even less suffering
 
-======== ===========
-Home     http://metacpan.org/pod/MooseX::App
-Versions 1.35, 1.39
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app
+============= ===========
+Home          http://metacpan.org/pod/MooseX::App
+Versions      1.35, 1.39
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app
 
-======== ===========
+
+
+============= ===========
 
 
 

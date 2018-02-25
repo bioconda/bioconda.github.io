@@ -7,13 +7,15 @@ perl-sanger-cgp-battenberg
 
 detect subclonality and copy number in matched NGS data
 
-======== ===========
-Home     https://github.com/cancerit/cgpBattenberg
-Versions 1.4.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-battenberg
+============= ===========
+Home          https://github.com/cancerit/cgpBattenberg
+Versions      1.4.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-battenberg
 
-======== ===========
+
+
+============= ===========
 
 
 

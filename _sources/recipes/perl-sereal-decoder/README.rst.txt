@@ -7,13 +7,15 @@ perl-sereal-decoder
 
 Fast\, compact\, powerful binary deserialization
 
-======== ===========
-Home     http://metacpan.org/pod/Sereal::Decoder
-Versions 3.015
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-decoder
+============= ===========
+Home          http://metacpan.org/pod/Sereal::Decoder
+Versions      3.015
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-decoder
 
-======== ===========
+
+
+============= ===========
 
 
 

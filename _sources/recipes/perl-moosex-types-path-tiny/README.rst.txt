@@ -7,13 +7,15 @@ perl-moosex-types-path-tiny
 
 MooseX\:\:Types\:\:Path\:\:Tiny \- Path\:\:Tiny types and coercions for Moose
 
-======== ===========
-Home     https://github.com/moose/MooseX-Types-Path-Tiny
-Versions 0.012
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-tiny
+============= ===========
+Home          https://github.com/moose/MooseX-Types-Path-Tiny
+Versions      0.012
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-tiny
 
-======== ===========
+
+
+============= ===========
 
 
 

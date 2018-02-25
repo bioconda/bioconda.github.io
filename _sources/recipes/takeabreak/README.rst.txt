@@ -7,13 +7,15 @@ takeabreak
 
 tool that can detect inversion breakpoints directly from raw NGS reads\, without the need of any reference genome and without de novo assembling the genomes
 
-======== ===========
-Home     https://colibread.inria.fr/software/takeabreak/
-Versions 1.1.2
-License  GNU Affero General Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/takeabreak
+============= ===========
+Home          https://colibread.inria.fr/software/takeabreak/
+Versions      1.1.2
+License       GNU Affero General Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/takeabreak
 
-======== ===========
+
+
+============= ===========
 
 
 

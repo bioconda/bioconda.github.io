@@ -7,13 +7,15 @@ motus
 
 mOTUs Metagenomic species profiling using universal phylogenetic marker genes
 
-======== ===========
-Home     http://www.bork.embl.de/software/mOTU
-Versions 1.0
-License  GNU GPL v3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus
+============= ===========
+Home          http://www.bork.embl.de/software/mOTU
+Versions      1.0
+License       GNU GPL v3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus
 
-======== ===========
+
+
+============= ===========
 
 
 

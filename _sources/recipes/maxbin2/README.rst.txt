@@ -7,13 +7,15 @@ maxbin2
 
 MaxBin is software for binning assembled metagenomic sequences based on an Expectation\-Maximization algorithm\.
 
-======== ===========
-Home     http://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html
-Versions 2.2.1, 2.2.4
-License  BSD 3-clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxbin2
+============= ===========
+Home          http://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html
+Versions      2.2.1, 2.2.4
+License       BSD 3-clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxbin2
 
-======== ===========
+
+
+============= ===========
 
 
 

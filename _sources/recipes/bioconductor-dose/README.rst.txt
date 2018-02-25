@@ -7,13 +7,15 @@ bioconductor-dose
 
 This package implements five methods proposed by Resnik\, Schlicker\, Jiang\, Lin and Wang respectively for measuring semantic similarities among DO terms and gene products\. Enrichment analyses including hypergeometric model and gene set enrichment analysis are also implemented for discovering disease associations of high\-throughput biological data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/DOSE.html
-Versions 2.10.6, 2.10.7, 2.8.2, 2.8.3, 3.2.0, 3.4.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/DOSE.html
+Versions      2.10.6, 2.10.7, 2.8.2, 2.8.3, 3.2.0, 3.4.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose
 
-======== ===========
+
+
+============= ===========
 
 
 

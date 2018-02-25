@@ -7,13 +7,15 @@ perl-test-warn
 
 Perl extension to test methods for warnings
 
-======== ===========
-Home     http://metacpan.org/pod/Test-Warn
-Versions 0.30
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warn
+============= ===========
+Home          http://metacpan.org/pod/Test-Warn
+Versions      0.30
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warn
 
-======== ===========
+
+
+============= ===========
 
 
 

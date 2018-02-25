@@ -7,13 +7,15 @@ verse
 
 VERSE\: a versatile and efficient RNA\-Seq read counting tool
 
-======== ===========
-Home     https://github.com/qinzhu/VERSE
-Versions 0.1.5
-License  GNU GENERAL PUBLIC LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verse
+============= ===========
+Home          https://github.com/qinzhu/VERSE
+Versions      0.1.5
+License       GNU GENERAL PUBLIC LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verse
 
-======== ===========
+
+
+============= ===========
 
 
 

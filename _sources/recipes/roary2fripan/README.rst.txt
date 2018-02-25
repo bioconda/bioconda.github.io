@@ -7,13 +7,15 @@ roary2fripan.py
 
 Formats Roary output for viewing in FriPan
 
-======== ===========
-Home     https://github.com/kwongj/roary2fripan
-Versions 0.1
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary2fripan
+============= ===========
+Home          https://github.com/kwongj/roary2fripan
+Versions      0.1
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary2fripan
 
-======== ===========
+
+
+============= ===========
 
 
 

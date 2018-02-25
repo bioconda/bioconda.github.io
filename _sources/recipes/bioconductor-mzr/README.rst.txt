@@ -7,13 +7,15 @@ bioconductor-mzr
 
 mzR provides a unified API to the common file formats and parsers available for mass spectrometry data\. It comes with a wrapper for the ISB random access parser for mass spectrometry mzXML\, mzData and mzML files\. The package contains the original code written by the ISB\, and a subset of the proteowizard library for mzML and mzIdentML\. The netCDF reading code has previously been used in XCMS\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/mzR.html
-Versions 2.10.0, 2.12.0, 2.4.1, 2.6.3
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/mzR.html
+Versions      2.10.0, 2.12.0, 2.4.1, 2.6.3
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzr
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ squizz
 
 Squizz is a sequence\/alignment format checker\, but it has some conversion capabilities too\.
 
-======== ===========
-Home     http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
-Versions 0.99d
-License  GPL 2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz
+============= ===========
+Home          http://ftp.pasteur.fr/pub/gensoft/projects/squizz/
+Versions      0.99d
+License       GPL 2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squizz
 
-======== ===========
+
+
+============= ===========
 
 
 

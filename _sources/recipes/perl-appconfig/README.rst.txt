@@ -7,13 +7,15 @@ perl-appconfig
 
 AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments\.
 
-======== ===========
-Home     http://metacpan.org/pod/AppConfig
-Versions 1.71
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig
+============= ===========
+Home          http://metacpan.org/pod/AppConfig
+Versions      1.71
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig
 
-======== ===========
+
+
+============= ===========
 
 
 

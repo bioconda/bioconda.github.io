@@ -7,13 +7,15 @@ bioconductor-yeastcc
 
 ExpressionSet for Spellman et al\. \(1998\) yeast cell cycle microarray experiment
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/yeastCC.html
-Versions 1.18.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/yeastCC.html
+Versions      1.18.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeastcc
 
-======== ===========
+
+
+============= ===========
 
 
 

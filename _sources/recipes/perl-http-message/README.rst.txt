@@ -7,13 +7,15 @@ perl-http-message
 
 HTTP style messages
 
-======== ===========
-Home     http://metacpan.org/pod/HTTP-Message
-Versions 6.11
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-message
+============= ===========
+Home          http://metacpan.org/pod/HTTP-Message
+Versions      6.11
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-message
 
-======== ===========
+
+
+============= ===========
 
 
 

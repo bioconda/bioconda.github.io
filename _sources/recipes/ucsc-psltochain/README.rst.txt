@@ -7,13 +7,15 @@ ucsc-psltochain
 
 Convert psl records to chain records 
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-psltochain
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      324, 332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-psltochain
 
-======== ===========
+
+
+============= ===========
 
 
 

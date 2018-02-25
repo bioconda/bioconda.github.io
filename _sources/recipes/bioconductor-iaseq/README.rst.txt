@@ -7,13 +7,15 @@ bioconductor-iaseq
 
 It fits correlation motif model to multiple RNAseq or ChIPseq studies to improve detection of allele\-specific events and describe correlation patterns across studies\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/iASeq.html
-Versions 1.22.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iaseq
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/iASeq.html
+Versions      1.22.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iaseq
 
-======== ===========
+
+
+============= ===========
 
 
 

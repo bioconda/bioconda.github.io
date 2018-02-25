@@ -7,13 +7,15 @@ w4mclassfilter
 
 Filter Workflow4Metabolomics dataMatrix\, sampleMetadata\, and variableMetadata files by sample\-class\, imputing zero for NA values and eliminating zero\-variance rows and columns from the data\-matrix\. MIT Licence allows redistribution\.
 
-======== ===========
-Home     https://github.com/HegemanLab/w4mclassfilter
-Versions 0.98.0, 0.98.1, 0.98.2, 0.98.3, 0.98.6, 0.98.7
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclassfilter
+============= ===========
+Home          https://github.com/HegemanLab/w4mclassfilter
+Versions      0.98.0, 0.98.1, 0.98.2, 0.98.3, 0.98.6, 0.98.7
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclassfilter
 
-======== ===========
+
+
+============= ===========
 
 
 

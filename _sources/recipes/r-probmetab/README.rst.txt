@@ -7,13 +7,15 @@ r-probmetab
 
 Provides probability ranking to candidate compounds assigned to masses\, with the prior assumption of connected sample and additional previous and spectral information modeled by the user\.
 
-======== ===========
-Home     https://github.com/rsilvabioinfo/ProbMetab
-Versions 1.0, 1.1
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/1.1
+============= ===========
+Home          https://github.com/rsilvabioinfo/ProbMetab
+Versions      1.0, 1.1
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/1.1
 
-======== ===========
+
+
+============= ===========
 
 
 

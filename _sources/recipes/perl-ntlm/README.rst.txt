@@ -7,13 +7,15 @@ perl-ntlm
 
 An NTLM authentication module
 
-======== ===========
-Home     http://metacpan.org/pod/NTLM
-Versions 1.09
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ntlm
+============= ===========
+Home          http://metacpan.org/pod/NTLM
+Versions      1.09
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ntlm
 
-======== ===========
+
+
+============= ===========
 
 
 

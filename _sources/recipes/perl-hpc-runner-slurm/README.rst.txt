@@ -7,13 +7,15 @@ perl-hpc-runner-slurm
 
 Submit Bioinformatics HPC Workflows with the Slurm scheduler 
 
-======== ===========
-Home     https://bitbucket.org/jerowe/hpc-runner-slurm
-Versions 2.57, 2.58
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-slurm/2.58
+============= ===========
+Home          https://bitbucket.org/jerowe/hpc-runner-slurm
+Versions      2.57, 2.58
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-slurm/2.58
 
-======== ===========
+
+
+============= ===========
 
 
 

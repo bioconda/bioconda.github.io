@@ -7,13 +7,15 @@ ucsc-ldhggene
 
 load database with gene predictions from a gff file\.
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ldhggene
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ldhggene
 
-======== ===========
+
+
+============= ===========
 
 
 

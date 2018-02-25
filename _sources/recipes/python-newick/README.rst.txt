@@ -7,13 +7,15 @@ python-newick
 
 A python module to read and write the Newick format
 
-======== ===========
-Home     https://github.com/glottobank/python-newick
-Versions 0.8.0
-License  Apache License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick
+============= ===========
+Home          https://github.com/glottobank/python-newick
+Versions      0.8.0
+License       Apache License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-newick
 
-======== ===========
+
+
+============= ===========
 
 
 

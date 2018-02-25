@@ -7,13 +7,15 @@ rdock
 
 A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and Nucleic Acids
 
-======== ===========
-Home     http://rdock.sourceforge.net/
-Versions 2013.1
-License  LGPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock
+============= ===========
+Home          http://rdock.sourceforge.net/
+Versions      2013.1
+License       LGPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdock
 
-======== ===========
+
+
+============= ===========
 
 
 

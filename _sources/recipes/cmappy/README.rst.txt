@@ -7,13 +7,15 @@ cmappy
 
 Assorted tools for interacting with \.gct\, \.gctx\, \.grp\, and \.gmt files as well as other Connectivity Map \(Broad Institute\) data\/tools
 
-======== ===========
-Home     https://github.com/cmap/cmapPy
-Versions 1.0.9, 1.1.1, 2.0.1, 2.1.0, 2.2.0, 2.2.1, 2.2.2, 3.0.0
-License  BSD 3-clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmappy
+============= ===========
+Home          https://github.com/cmap/cmapPy
+Versions      1.0.9, 1.1.1, 2.0.1, 2.1.0, 2.2.0, 2.2.1, 2.2.2, 3.0.0
+License       BSD 3-clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmappy
 
-======== ===========
+
+
+============= ===========
 
 
 

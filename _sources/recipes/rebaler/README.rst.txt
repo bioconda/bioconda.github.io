@@ -7,13 +7,15 @@ rebaler
 
 Reference\-based long read assemblies of bacterial genomes
 
-======== ===========
-Home     https://github.com/rrwick/Rebaler
-Versions 0.1.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rebaler
+============= ===========
+Home          https://github.com/rrwick/Rebaler
+Versions      0.1.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rebaler
 
-======== ===========
+
+
+============= ===========
 
 
 

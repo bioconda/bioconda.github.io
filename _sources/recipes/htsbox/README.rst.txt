@@ -7,13 +7,15 @@ htsbox
 
 HTSbox is a fork of early HTSlib\. It is a collection of small experimental tools manipulating HTS\-related files\.
 
-======== ===========
-Home     https://github.com/lh3/htsbox
-Versions r312, r327, r340
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htsbox
+============= ===========
+Home          https://github.com/lh3/htsbox
+Versions      r312, r327, r340
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htsbox
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ ssu-align
 
 SSU\-ALIGN\: structural alignment of SSU rRNA sequences
 
-======== ===========
-Home     http://eddylab.org/software/ssu-align/
-Versions 0.1.1
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ssu-align
+============= ===========
+Home          http://eddylab.org/software/ssu-align/
+Versions      0.1.1
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ssu-align
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ latentstrainanalysis
 
 Partitioning and analysis methods for large\, complex sequence datasets
 
-======== ===========
-Home     https://github.com/brian-cleary/LatentStrainAnalysis
-Versions 0.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latentstrainanalysis
+============= ===========
+Home          https://github.com/brian-cleary/LatentStrainAnalysis
+Versions      0.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/latentstrainanalysis
 
-======== ===========
+
+
+============= ===========
 
 LSA was developed as a pre\-assembly tool for partitioning metagenomic reads\.
 It uses a hyperplane hashing function and streaming SVD in order to find

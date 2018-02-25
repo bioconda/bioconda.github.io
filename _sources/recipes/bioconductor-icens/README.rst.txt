@@ -7,13 +7,15 @@ bioconductor-icens
 
 Many functions for computing the NPMLE for censored and truncated data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Icens.html
-Versions 1.50.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icens
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Icens.html
+Versions      1.50.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icens
 
-======== ===========
+
+
+============= ===========
 
 
 

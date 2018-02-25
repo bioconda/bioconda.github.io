@@ -7,13 +7,15 @@ metasv
 
 An accurate and integrative structural\-variant caller for next generation sequencing
 
-======== ===========
-Home     https://github.com/bioinform/metasv
-Versions 0.4.0, 0.5.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasv
+============= ===========
+Home          https://github.com/bioinform/metasv
+Versions      0.4.0, 0.5.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasv
 
-======== ===========
+
+
+============= ===========
 
 
 

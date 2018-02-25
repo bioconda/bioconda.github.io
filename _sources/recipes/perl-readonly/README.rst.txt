@@ -7,13 +7,15 @@ perl-readonly
 
 Facility for creating read\-only scalars\, arrays\, hashes
 
-======== ===========
-Home     https://github.com/sanko/readonly
-Versions 1.04
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-readonly
+============= ===========
+Home          https://github.com/sanko/readonly
+Versions      1.04
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-readonly
 
-======== ===========
+
+
+============= ===========
 
 
 

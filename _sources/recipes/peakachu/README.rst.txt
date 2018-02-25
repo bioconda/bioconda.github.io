@@ -7,13 +7,15 @@ peakachu
 
 Peak calling tool for CLIP\-seq data\.
 
-======== ===========
-Home     https://github.com/tbischler/PEAKachu
-Versions 0.1.0
-License  ISCL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakachu
+============= ===========
+Home          https://github.com/tbischler/PEAKachu
+Versions      0.1.0
+License       ISCL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakachu
 
-======== ===========
+
+
+============= ===========
 
 
 

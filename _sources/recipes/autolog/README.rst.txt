@@ -7,13 +7,15 @@ autolog
 
 quick and easy logging setup
 
-======== ===========
-Home     http://noble.gs.washington.edu/~mmh1/software/autolog/
-Versions 0.1.3
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autolog
+============= ===========
+Home          http://noble.gs.washington.edu/~mmh1/software/autolog/
+Versions      0.1.3
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/autolog
 
-======== ===========
+
+
+============= ===========
 
 
 

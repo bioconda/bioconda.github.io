@@ -7,13 +7,15 @@ erne
 
 ERNE \- Extended Randomized Numerical alignEr
 
-======== ===========
-Home     http://erne.sourceforge.net
-Versions 2.1.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/erne
+============= ===========
+Home          http://erne.sourceforge.net
+Versions      2.1.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/erne
 
-======== ===========
+
+
+============= ===========
 
 
 

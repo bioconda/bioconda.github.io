@@ -7,13 +7,15 @@ perl-types-serialiser
 
 Simple data types for common serialisation formats
 
-======== ===========
-Home     http://search.cpan.org/~mlehmann/Types-Serialiser-1.0/Serialiser.pm
-Versions 1.0
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-serialiser
+============= ===========
+Home          http://search.cpan.org/~mlehmann/Types-Serialiser-1.0/Serialiser.pm
+Versions      1.0
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-serialiser
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ snns
 
 Stuttgart Neural Network Simulator \(SNNS\)
 
-======== ===========
-Home     http://www.ra.cs.uni-tuebingen.de/SNNS/
-Versions 4.3
-License  LGPL v2.1
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snns
+============= ===========
+Home          http://www.ra.cs.uni-tuebingen.de/SNNS/
+Versions      4.3
+License       LGPL v2.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snns
 
-======== ===========
+
+
+============= ===========
 
 
 

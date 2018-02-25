@@ -7,13 +7,15 @@ pymummer
 
 Wrapper for MUMmer
 
-======== ===========
-Home     https://github.com/sanger-pathogens/pymummer
-Versions 0.10.1, 0.10.2, 0.10.3, 0.6.1, 0.8.1, 0.9.0
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer
+============= ===========
+Home          https://github.com/sanger-pathogens/pymummer
+Versions      0.10.1, 0.10.2, 0.10.3, 0.6.1, 0.8.1, 0.9.0
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymummer
 
-======== ===========
+
+
+============= ===========
 
 
 

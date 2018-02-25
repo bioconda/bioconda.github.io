@@ -7,13 +7,15 @@ hicbrowser
 
 A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\)\.
 
-======== ===========
-Home     https://github.com/maxplanck-ie/HiCBrowser
-Versions 1.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicbrowser
+============= ===========
+Home          https://github.com/maxplanck-ie/HiCBrowser
+Versions      1.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicbrowser
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ genometools-genometools
 
 GenomeTools genome analysis system\.
 
-======== ===========
-Home     http://genometools.org/
-Versions 1.5.9
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools-genometools
+============= ===========
+Home          http://genometools.org/
+Versions      1.5.9
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genometools-genometools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ leptonica
 
 Leptonica is a pedagogically\-oriented open source site containing software that is broadly useful for image processing and image analysis applications\.
 
-======== ===========
-Home     https://github.com/DanBloomberg/leptonica
-Versions 1.73
-License  FreeBSD 2-clause license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leptonica/1.73
+============= ===========
+Home          https://github.com/DanBloomberg/leptonica
+Versions      1.73
+License       FreeBSD 2-clause license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/leptonica/1.73
 
-======== ===========
+
+
+============= ===========
 
 
 

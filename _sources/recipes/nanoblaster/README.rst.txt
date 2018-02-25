@@ -7,13 +7,15 @@ nanoblaster
 
 Basic Local Alignment and Search Tool for Oxford Nanopore Long Sequences
 
-======== ===========
-Home     https://github.com/ruhulsbu/NanoBLASTer
-Versions 0.16
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoblaster
+============= ===========
+Home          https://github.com/ruhulsbu/NanoBLASTer
+Versions      0.16
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoblaster
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -10,13 +10,15 @@ supports both single\-end and paired\-end reads\. The software is implemented
 in C\+\+
 
 
-======== ===========
-Home     http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
-Versions 1.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta
+============= ===========
+Home          http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
+Versions      1.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semeta
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ survivor
 
 Toolset for SV simulation\, comparison and filtering
 
-======== ===========
-Home     https://github.com/fritzsedlazeck/SURVIVOR
-Versions 1.0.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survivor
+============= ===========
+Home          https://github.com/fritzsedlazeck/SURVIVOR
+Versions      1.0.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survivor
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-cntools
 
 This package provides tools to convert the output of segmentation analysis using DNAcopy to a matrix structure with overlapping segments as rows and samples as columns so that other computational analyses can be applied to segmented data
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/CNTools.html
-Versions 1.32.0, 1.34.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cntools
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/CNTools.html
+Versions      1.32.0, 1.34.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cntools
 
-======== ===========
+
+
+============= ===========
 
 
 

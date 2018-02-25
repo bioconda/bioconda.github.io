@@ -7,13 +7,15 @@ perl-namespace-clean
 
 Keep imports and functions out of your namespace
 
-======== ===========
-Home     http://search.cpan.org/dist/namespace-clean
-Versions 0.27
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/0.27
+============= ===========
+Home          http://search.cpan.org/dist/namespace-clean
+Versions      0.27
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-clean/0.27
 
-======== ===========
+
+
+============= ===========
 
 
 

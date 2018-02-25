@@ -7,13 +7,15 @@ porechop
 
 Adapter removal and demultiplexing of Oxford Nanopore reads
 
-======== ===========
-Home     https://github.com/rrwick/Porechop
-Versions 0.2.3_seqan2.1.1
-License  GPL-3.0-only AND BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop
+============= ===========
+Home          https://github.com/rrwick/Porechop
+Versions      0.2.3_seqan2.1.1
+License       GPL-3.0-only AND BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/porechop
 
-======== ===========
+
+
+============= ===========
 
 
 

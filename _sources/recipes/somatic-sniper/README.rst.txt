@@ -7,13 +7,15 @@ somatic-sniper
 
 A tool to call somatic single nucleotide variants\.
 
-======== ===========
-Home     https://github.com/genome/somatic-sniper/
-Versions 1.0.5.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somatic-sniper
+============= ===========
+Home          https://github.com/genome/somatic-sniper/
+Versions      1.0.5.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somatic-sniper
 
-======== ===========
+
+
+============= ===========
 
 
 

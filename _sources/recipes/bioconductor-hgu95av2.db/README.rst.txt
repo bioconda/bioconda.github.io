@@ -7,13 +7,15 @@ bioconductor-hgu95av2.db
 
 Affymetrix Human Genome U95 Set annotation data \(chip hgu95av2\) assembled using data from public repositories
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/hgu95av2.db.html
-Versions 3.2.3
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2.db
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/hgu95av2.db.html
+Versions      3.2.3
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95av2.db
 
-======== ===========
+
+
+============= ===========
 
 
 

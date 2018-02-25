@@ -7,13 +7,15 @@ vawk
 
 An awk\-like VCF parser
 
-======== ===========
-Home     https://github.com/cc2qe/vawk
-Versions 0.0.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vawk
+============= ===========
+Home          https://github.com/cc2qe/vawk
+Versions      0.0.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vawk
 
-======== ===========
+
+
+============= ===========
 
 
 

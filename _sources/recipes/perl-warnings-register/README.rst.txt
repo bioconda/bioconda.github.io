@@ -7,13 +7,15 @@ perl-warnings-register
 
 warnings import function
 
-======== ===========
-Home     http://metacpan.org/pod/warnings::register
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-warnings-register/1.03
+============= ===========
+Home          http://metacpan.org/pod/warnings::register
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-warnings-register/1.03
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ genonets
 
 Framework for creating and analyzing genotype networks from data\.
 
-======== ===========
-Home     https://github.com/fkhalid/genonets
-Versions 1.1.6
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genonets
+============= ===========
+Home          https://github.com/fkhalid/genonets
+Versions      1.1.6
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genonets
 
-======== ===========
+
+
+============= ===========
 
 
 

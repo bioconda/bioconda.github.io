@@ -7,13 +7,15 @@ perl-text-csv
 
 comma\-separated values manipulator \(using XS or PurePerl\)
 
-======== ===========
-Home     https://metacpan.org/pod/Text::CSV
-Versions 1.33
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv
+============= ===========
+Home          https://metacpan.org/pod/Text::CSV
+Versions      1.33
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-csv
 
-======== ===========
+
+
+============= ===========
 
 
 

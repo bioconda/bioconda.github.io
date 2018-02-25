@@ -7,13 +7,15 @@ fgap
 
 FGAP\: an automated gap closing tool
 
-======== ===========
-Home     https://github.com/pirovc/fgap
-Versions 1.8.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgap
+============= ===========
+Home          https://github.com/pirovc/fgap
+Versions      1.8.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgap
 
-======== ===========
+
+
+============= ===========
 
 
 

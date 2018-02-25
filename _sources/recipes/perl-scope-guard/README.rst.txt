@@ -7,13 +7,15 @@ perl-scope-guard
 
 lexically\-scoped resource management
 
-======== ===========
-Home     http://metacpan.org/pod/Scope::Guard
-Versions 0.21
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scope-guard
+============= ===========
+Home          http://metacpan.org/pod/Scope::Guard
+Versions      0.21
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scope-guard
 
-======== ===========
+
+
+============= ===========
 
 
 

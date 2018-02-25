@@ -7,13 +7,15 @@ metilene
 
 Fast and sensitive detection of differential DNA methylation
 
-======== ===========
-Home     http://www.bioinf.uni-leipzig.de/Software/metilene/
-Versions 0.2.6
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene
+============= ===========
+Home          http://www.bioinf.uni-leipzig.de/Software/metilene/
+Versions      0.2.6
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metilene
 
-======== ===========
+
+
+============= ===========
 
 
 

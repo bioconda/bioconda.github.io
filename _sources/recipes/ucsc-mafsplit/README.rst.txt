@@ -7,13 +7,15 @@ ucsc-mafsplit
 
 Split multiple alignment files
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafsplit
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      324, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-mafsplit
 
-======== ===========
+
+
+============= ===========
 
 
 

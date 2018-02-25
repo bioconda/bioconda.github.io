@@ -7,13 +7,15 @@ perl-io-prompt
 
 Interactively prompt for user input
 
-======== ===========
-Home     http://search.cpan.org/dist/IO-Prompt/lib/IO/Prompt.pm
-Versions 0.997004
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-prompt
+============= ===========
+Home          http://search.cpan.org/dist/IO-Prompt/lib/IO/Prompt.pm
+Versions      0.997004
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-prompt
 
-======== ===========
+
+
+============= ===========
 
 
 

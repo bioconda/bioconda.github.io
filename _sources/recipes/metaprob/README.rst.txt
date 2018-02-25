@@ -7,13 +7,15 @@ metaprob
 
 assembly\-assisted tool for un\-supervised metagenomic binning
 
-======== ===========
-Home     https://bitbucket.org/samu661/metaprob/
-Versions 2
-License  copyright
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaprob
+============= ===========
+Home          https://bitbucket.org/samu661/metaprob/
+Versions      2
+License       copyright
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaprob
 
-======== ===========
+
+
+============= ===========
 
 MetaProb is a novel assembly\-assisted tool for un\-supervised metagenomic
 binning\. The novelty of MetaProb derives from solving a few important

@@ -7,13 +7,15 @@ perl-sanger-cgp-vagrent
 
 A toolset for comparing genomic variants to reference genome annotation to identify potential biological consequences
 
-======== ===========
-Home     https://github.com/cancerit/VAGrENT
-Versions 3.2.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-vagrent
+============= ===========
+Home          https://github.com/cancerit/VAGrENT
+Versions      3.2.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-vagrent
 
-======== ===========
+
+
+============= ===========
 
 
 

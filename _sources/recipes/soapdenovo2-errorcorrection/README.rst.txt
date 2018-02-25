@@ -7,13 +7,15 @@ soapdenovo2-errorcorrection
 
 Error correction for soapdenovo2\.
 
-======== ===========
-Home     http://soap.genomics.org.cn/soapdenovo.html
-Versions 2.0
-License  GNU
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-errorcorrection
+============= ===========
+Home          http://soap.genomics.org.cn/soapdenovo.html
+Versions      2.0
+License       GNU
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-errorcorrection
 
-======== ===========
+
+
+============= ===========
 
 
 

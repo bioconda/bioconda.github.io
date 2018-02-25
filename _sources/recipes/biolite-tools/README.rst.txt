@@ -7,13 +7,15 @@ biolite-tools
 
 C\+\+ tools for biolite\, a lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
 
-======== ===========
-Home     https://bitbucket.org/caseywdunn/biolite
-Versions 0.4.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite-tools
+============= ===========
+Home          https://bitbucket.org/caseywdunn/biolite
+Versions      0.4.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite-tools
 
-======== ===========
+
+
+============= ===========
 
 
 

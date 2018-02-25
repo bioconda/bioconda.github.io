@@ -7,13 +7,15 @@ smashbenchmarking
 
 Check the accuracy of one VCF callset against another
 
-======== ===========
-Home     http://github.com/amplab/smash/
-Versions 1.0.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashbenchmarking
+============= ===========
+Home          http://github.com/amplab/smash/
+Versions      1.0.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smashbenchmarking
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-postscript
 
 helper module for PostScript\:\:TextBlock
 
-======== ===========
-Home     http://metacpan.org/pod/PostScript
-Versions 0.06
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-postscript
+============= ===========
+Home          http://metacpan.org/pod/PostScript
+Versions      0.06
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-postscript
 
-======== ===========
+
+
+============= ===========
 
 
 

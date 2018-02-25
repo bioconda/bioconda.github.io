@@ -7,13 +7,15 @@ bioconductor-pandar
 
 Runs PANDA\, an algorithm for discovering novel network structure by combining information from multiple complementary data sources\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/pandaR.html
-Versions 1.10.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pandar
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/pandaR.html
+Versions      1.10.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pandar
 
-======== ===========
+
+
+============= ===========
 
 
 

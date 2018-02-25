@@ -7,13 +7,15 @@ r-genabel
 
 A package for genome\-wide association analysis between quantitative or binary traits and single\-nucleotide polymorphisms \(SNPs\)\. 
 
-======== ===========
-Home     http://www.genabel.org
-Versions 1.8_0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel
+============= ===========
+Home          http://www.genabel.org
+Versions      1.8_0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel
 
-======== ===========
+
+
+============= ===========
 
 
 

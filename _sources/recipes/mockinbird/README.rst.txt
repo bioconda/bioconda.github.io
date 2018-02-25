@@ -7,13 +7,19 @@ mockinbird
 
 A fully automatic and reproducible PAR\-CLIP analysis pipeline
 
-======== ===========
-Home     https://github.com/soedinglab/mockinbird
-Versions 1.0.0a1
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mockinbird
+============= ===========
+Home          https://github.com/soedinglab/mockinbird
+Versions      1.0.0a1
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mockinbird
 
-======== ===========
+Documentation http://wwwuser.gwdg.de/~compbiol/mockinbird/doc/
+
+
+Development   https://github.com/soedinglab/mockinbird
+
+
+============= ===========
 
 
 

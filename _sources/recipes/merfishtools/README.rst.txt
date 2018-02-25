@@ -7,13 +7,15 @@ merfishtools
 
 MERFISHtools implement a Bayesian framework for accurately predicting gene or transcript expression from MERFISH data\. On top\, differential expression analysis can be performed for two or multiple conditions\, including credible intervals for fold change and coefficient of variation\, and controlling the expected false discovery rate\.
 
-======== ===========
-Home     https://merfishtools.github.io
-Versions 0.9.1, 1.0.0, 1.1.0, 1.2.0, 1.3.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merfishtools
+============= ===========
+Home          https://merfishtools.github.io
+Versions      0.9.1, 1.0.0, 1.1.0, 1.2.0, 1.3.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merfishtools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-io-uncompress-rawinflate
 
 Read RFC 1951 files\/buffers
 
-======== ===========
-Home     http://metacpan.org/pod/IO::Uncompress::RawInflate
-Versions 2.064
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-rawinflate/2.064
+============= ===========
+Home          http://metacpan.org/pod/IO::Uncompress::RawInflate
+Versions      2.064
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-rawinflate/2.064
 
-======== ===========
+
+
+============= ===========
 
 
 

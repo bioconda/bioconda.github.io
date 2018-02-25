@@ -7,13 +7,15 @@ graphlite
 
 embedded graph datastore
 
-======== ===========
-Home     https://github.com/eugene-eeo/graphlite
-Versions 1.0.5
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlite
+============= ===========
+Home          https://github.com/eugene-eeo/graphlite
+Versions      1.0.5
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlite
 
-======== ===========
+
+
+============= ===========
 
 
 

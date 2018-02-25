@@ -7,13 +7,15 @@ abruijn
 
 Long read assembly via A\-Bruijn graph
 
-======== ===========
-Home     https://github.com/fenderglass/ABruijn/
-Versions 2.1b
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abruijn
+============= ===========
+Home          https://github.com/fenderglass/ABruijn/
+Versions      2.1b
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abruijn
 
-======== ===========
+
+
+============= ===========
 
 
 

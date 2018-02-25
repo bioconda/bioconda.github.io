@@ -7,13 +7,15 @@ perl-sub-install
 
 install subroutines into packages easily
 
-======== ===========
-Home     https://github.com/rjbs/Sub-Install
-Versions 0.928
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-install
+============= ===========
+Home          https://github.com/rjbs/Sub-Install
+Versions      0.928
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-install
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pash
 
 A versatile software package for read mapping and integrative analysis of genomic and epigenomic variation using massively parallel DNA sequencing
 
-======== ===========
-Home     http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
-Versions 3.0.6.2
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pash
+============= ===========
+Home          http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
+Versions      3.0.6.2
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pash
 
-======== ===========
+
+
+============= ===========
 
 
 

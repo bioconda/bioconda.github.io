@@ -7,13 +7,15 @@ ghostx
 
 GHOSTX is a homology search tool which can detect remote homologues like BLAST and is about 100 times more efficient than BLAST by using suffix arrays\. GHOSTX outputs search results in the format similar to BLAST\-tabular format\.
 
-======== ===========
-Home     http://www.bi.cs.titech.ac.jp/ghostx/
-Versions 1.3.7
-License  BSD-2-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx
+============= ===========
+Home          http://www.bi.cs.titech.ac.jp/ghostx/
+Versions      1.3.7
+License       BSD-2-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostx
 
-======== ===========
+
+
+============= ===========
 
 
 

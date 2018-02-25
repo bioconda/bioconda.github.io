@@ -7,13 +7,15 @@ bioconductor-affypdnn
 
 The package contains functions to perform the PDNN method described by Li Zhang et al\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/affypdnn.html
-Versions 1.50.0, 1.52.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypdnn
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/affypdnn.html
+Versions      1.50.0, 1.52.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affypdnn
 
-======== ===========
+
+
+============= ===========
 
 
 

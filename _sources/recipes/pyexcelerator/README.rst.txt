@@ -7,13 +7,15 @@ pyexcelerator
 
 generating Excel 97\+ files\; importing Excel 95\+ files\; Excel files dumper\; OLE2 files dumper\; xls2txt\, xls2csv\, xls2html
 
-======== ===========
-Home     http://sourceforge.net/projects/pyexcelerator/
-Versions 0.6.4a
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyexcelerator
+============= ===========
+Home          http://sourceforge.net/projects/pyexcelerator/
+Versions      0.6.4a
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyexcelerator
 
-======== ===========
+
+
+============= ===========
 
 
 

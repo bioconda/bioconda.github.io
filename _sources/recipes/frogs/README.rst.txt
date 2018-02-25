@@ -7,13 +7,15 @@ frogs
 
 FROGS is a workflow designed to produce an OTUs count matrix from high depth sequencing amplicon data\. This is the official release 2\.0\.0 of FROGS adapted for BIOCONDA\.
 
-======== ===========
-Home     https://github.com/geraldinepascal/FROGS
-Versions 2.0.1
-License  GNU GPL v3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs
+============= ===========
+Home          https://github.com/geraldinepascal/FROGS
+Versions      2.0.1
+License       GNU GPL v3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frogs
 
-======== ===========
+
+
+============= ===========
 
 
 

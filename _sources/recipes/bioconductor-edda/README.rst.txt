@@ -7,13 +7,15 @@ bioconductor-edda
 
 EDDA can aid in the design of a range of common experiments such as RNA\-seq\, Nanostring assays\, RIP\-seq and Metagenomic sequencing\, and enables researchers to comprehensively investigate the impact of experimental decisions on the ability to detect differential abundance\. This work was published on 3 December 2014 at Genome Biology under the title \"The importance of study design for detecting differentially abundant features in high\-throughput experiments\" \(http\:\/\/genomebiology\.com\/2014\/15\/12\/527\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/EDDA.html
-Versions 1.16.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/EDDA.html
+Versions      1.16.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ reveal
 
 Graph based multi genome aligner\.
 
-======== ===========
-Home     https://github.com/jasperlinthorst/reveal
-Versions 0.1
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reveal
+============= ===========
+Home          https://github.com/jasperlinthorst/reveal
+Versions      0.1
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reveal
 
-======== ===========
+
+
+============= ===========
 
 
 

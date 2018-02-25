@@ -7,13 +7,15 @@ perl-biox-workflow
 
 Template away your bioinformatics workflows\.
 
-======== ===========
-Home     https://github.com/jerowe/BioX-Workflow
-Versions 0.27, 1.10
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow/1.10
+============= ===========
+Home          https://github.com/jerowe/BioX-Workflow
+Versions      0.27, 1.10
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow/1.10
 
-======== ===========
+
+
+============= ===========
 
 
 

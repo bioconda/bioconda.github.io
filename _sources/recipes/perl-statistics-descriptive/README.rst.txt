@@ -7,13 +7,15 @@ perl-statistics-descriptive
 
 Module of basic descriptive statistical functions\.
 
-======== ===========
-Home     http://web-cpan.shlomifish.org/modules/Statistics-Descriptive/
-Versions 3.0609, 3.0612
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-descriptive
+============= ===========
+Home          http://web-cpan.shlomifish.org/modules/Statistics-Descriptive/
+Versions      3.0609, 3.0612
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-descriptive
 
-======== ===========
+
+
+============= ===========
 
 
 

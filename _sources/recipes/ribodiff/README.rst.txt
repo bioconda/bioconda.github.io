@@ -7,13 +7,15 @@ ribodiff
 
 RiboDiff is a statistical tool that detects the protein translational efficiency change from Ribo\-Seq \(ribosome footprinting\) and RNA\-Seq data\.
 
-======== ===========
-Home     http://public.bmi.inf.ethz.ch/user/zhongy/RiboDiff/index.html
-Versions 0.2.2
-License  GPL 3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribodiff
+============= ===========
+Home          http://public.bmi.inf.ethz.ch/user/zhongy/RiboDiff/index.html
+Versions      0.2.2
+License       GPL 3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribodiff
 
-======== ===========
+
+
+============= ===========
 
 
 

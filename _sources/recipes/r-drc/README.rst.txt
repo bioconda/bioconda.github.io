@@ -7,13 +7,15 @@ r-drc
 
 Analysis of dose\-response data is made available through a suite of flexible and versatile model fitting and after\-fitting functions\.
 
-======== ===========
-Home     http://www.r-project.org, http://www.bioassay.dk
-Versions 3.0_1
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-drc
+============= ===========
+Home          http://www.r-project.org, http://www.bioassay.dk
+Versions      3.0_1
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-drc
 
-======== ===========
+
+
+============= ===========
 
 
 

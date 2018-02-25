@@ -7,13 +7,15 @@ ucsc-gaptolift
 
 create lift file from gap table\(s\)
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gaptolift
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gaptolift
 
-======== ===========
+
+
+============= ===========
 
 
 

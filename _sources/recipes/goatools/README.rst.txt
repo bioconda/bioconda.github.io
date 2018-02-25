@@ -7,13 +7,15 @@ goatools
 
 Python scripts to find enrichment of GO terms
 
-======== ===========
-Home     https://github.com/tanghaibao/goatools
-Versions 0.5.9, 0.6.10, 0.6.4, 0.7.11
-License  BSD-2-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goatools
+============= ===========
+Home          https://github.com/tanghaibao/goatools
+Versions      0.5.9, 0.6.10, 0.6.4, 0.7.11
+License       BSD-2-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/goatools
 
-======== ===========
+
+
+============= ===========
 
 
 

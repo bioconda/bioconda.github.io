@@ -7,13 +7,15 @@ afplot
 
 Plot allele frequencies in VCF files
 
-======== ===========
-Home     https://github.com/sndrtj/afplot
-Versions 0.2.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/afplot
+============= ===========
+Home          https://github.com/sndrtj/afplot
+Versions      0.2.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/afplot
 
-======== ===========
+
+
+============= ===========
 
 
 

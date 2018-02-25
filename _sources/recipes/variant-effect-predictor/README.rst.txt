@@ -7,13 +7,15 @@ variant-effect-predictor
 
 The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\, CNVs or structural variants\) on genes\, transcripts\, and protein sequence\, as well as regulatory regions\.
 
-======== ===========
-Home     http://www.ensembl.org/info/docs/tools/vep/index.html
-Versions 83, 86, 87
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variant-effect-predictor
+============= ===========
+Home          http://www.ensembl.org/info/docs/tools/vep/index.html
+Versions      83, 86, 87
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/variant-effect-predictor
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-archive-extract
 
 A generic archive extracting mechanism
 
-======== ===========
-Home     https://metacpan.org/pod/Archive::Extract
-Versions 0.76
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-extract
+============= ===========
+Home          https://metacpan.org/pod/Archive::Extract
+Versions      0.76
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-extract
 
-======== ===========
+
+
+============= ===========
 
 
 

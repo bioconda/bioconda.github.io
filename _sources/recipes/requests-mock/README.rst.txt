@@ -7,13 +7,15 @@ requests-mock
 
 Mock out responses from the requests package
 
-======== ===========
-Home     
-Versions 1.0.0
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/requests-mock
+============= ===========
+Home          
+Versions      1.0.0
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/requests-mock
 
-======== ===========
+
+
+============= ===========
 
 
 

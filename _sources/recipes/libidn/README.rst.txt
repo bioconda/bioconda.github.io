@@ -7,13 +7,15 @@ libidn
 
 Library for internationalized domain name support
 
-======== ===========
-Home     https://www.gnu.org/software/libidn/
-Versions 7.45.0
-License  LGPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libidn
+============= ===========
+Home          https://www.gnu.org/software/libidn/
+Versions      7.45.0
+License       LGPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libidn
 
-======== ===========
+
+
+============= ===========
 
 
 

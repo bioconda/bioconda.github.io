@@ -7,13 +7,15 @@ scikit-bio
 
 Data structures\, algorithms and educational resources for bioinformatics\.
 
-======== ===========
-Home     http://scikit-bio.org
-Versions 0.2.3, 0.4.2
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scikit-bio
+============= ===========
+Home          http://scikit-bio.org
+Versions      0.2.3, 0.4.2
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scikit-bio
 
-======== ===========
+
+
+============= ===========
 
 
 

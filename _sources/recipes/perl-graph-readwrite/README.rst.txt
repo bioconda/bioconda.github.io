@@ -7,13 +7,15 @@ perl-graph-readwrite
 
 Write out directed graph in Dot format
 
-======== ===========
-Home     http://metacpan.org/pod/Graph::Writer::Dot
-Versions 2.09
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph-readwrite
+============= ===========
+Home          http://metacpan.org/pod/Graph::Writer::Dot
+Versions      2.09
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph-readwrite
 
-======== ===========
+
+
+============= ===========
 
 
 

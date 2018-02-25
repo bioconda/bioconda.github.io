@@ -7,13 +7,15 @@ perl-sort-naturally
 
 sort lexically\, but sort numeral parts numerically
 
-======== ===========
-Home     http://metacpan.org/pod/Sort-Naturally
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-naturally
+============= ===========
+Home          http://metacpan.org/pod/Sort-Naturally
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-naturally
 
-======== ===========
+
+
+============= ===========
 
 
 

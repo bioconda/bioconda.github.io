@@ -7,13 +7,15 @@ taxtastic
 
 Tools for taxonomic naming and annotation
 
-======== ===========
-Home     https://github.com/fhcrc/taxtastic
-Versions 0.5.4
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxtastic
+============= ===========
+Home          https://github.com/fhcrc/taxtastic
+Versions      0.5.4
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxtastic
 
-======== ===========
+
+
+============= ===========
 
 
 

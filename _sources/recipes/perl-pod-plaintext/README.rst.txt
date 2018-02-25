@@ -7,13 +7,15 @@ perl-pod-plaintext
 
 Convert POD data to formatted ASCII text
 
-======== ===========
-Home     http://metacpan.org/pod/Pod::PlainText
-Versions 2.07
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext/2.07
+============= ===========
+Home          http://metacpan.org/pod/Pod::PlainText
+Versions      2.07
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-plaintext/2.07
 
-======== ===========
+
+
+============= ===========
 
 
 

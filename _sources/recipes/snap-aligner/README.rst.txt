@@ -7,13 +7,15 @@ snap-aligner
 
 Scalable Nucleotide Alignment Program \-\- a fast and accurate read aligner for high\-throughput sequencing data
 
-======== ===========
-Home     http://snap.cs.berkeley.edu/
-Versions 1.0beta.18, 1.0beta.23, 1.0dev.97
-License  Apache v2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap-aligner
+============= ===========
+Home          http://snap.cs.berkeley.edu/
+Versions      1.0beta.18, 1.0beta.23, 1.0dev.97
+License       Apache v2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap-aligner
 
-======== ===========
+
+
+============= ===========
 
 
 

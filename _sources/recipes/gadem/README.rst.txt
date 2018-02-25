@@ -7,13 +7,15 @@ gadem
 
 A Genetic Algorithm Guided Formation of Spaced Dyads Coupled with an EM Algorithm for Motif Discovery
 
-======== ===========
-Home     https://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm
-Versions 1.3.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem
+============= ===========
+Home          https://www.niehs.nih.gov/research/resources/software/biostatistics/gadem/index.cfm
+Versions      1.3.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gadem
 
-======== ===========
+
+
+============= ===========
 
 
 

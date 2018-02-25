@@ -7,13 +7,15 @@ perl-file-which
 
 Perl implementation of the which utility as an API
 
-======== ===========
-Home     http://perl.wdlabs.com/File-Which
-Versions 1.20
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-which
+============= ===========
+Home          http://perl.wdlabs.com/File-Which
+Versions      1.20
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-which
 
-======== ===========
+
+
+============= ===========
 
 
 

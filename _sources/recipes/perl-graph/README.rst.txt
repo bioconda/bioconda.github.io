@@ -7,13 +7,15 @@ perl-graph
 
 a Perl extension for keeping data partially sorted
 
-======== ===========
-Home     http://metacpan.org/pod/Graph
-Versions 0.9704
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph
+============= ===========
+Home          http://metacpan.org/pod/Graph
+Versions      0.9704
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph
 
-======== ===========
+
+
+============= ===========
 
 
 

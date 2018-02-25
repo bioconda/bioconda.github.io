@@ -7,13 +7,15 @@ mason
 
 Mason is a collection of tools for the simulation of biological sequences\.
 
-======== ===========
-Home     https://github.com/seqan/seqan/tree/master/apps/mason2/README
-Versions 2.0.7, 2.0.8
-License  https://github.com/seqan/seqan/tree/master/apps/mason2/LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason
+============= ===========
+Home          https://github.com/seqan/seqan/tree/master/apps/mason2/README
+Versions      2.0.7, 2.0.8
+License       https://github.com/seqan/seqan/tree/master/apps/mason2/LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mason
 
-======== ===========
+
+
+============= ===========
 
 
 

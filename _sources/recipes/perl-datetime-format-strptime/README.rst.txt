@@ -7,13 +7,15 @@ perl-datetime-format-strptime
 
 Parse and format strp and strf time patterns
 
-======== ===========
-Home     http://metacpan.org/release/DateTime-Format-Strptime
-Versions 1.73
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime/1.73
+============= ===========
+Home          http://metacpan.org/release/DateTime-Format-Strptime
+Versions      1.73
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-format-strptime/1.73
 
-======== ===========
+
+
+============= ===========
 
 
 

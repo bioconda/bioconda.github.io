@@ -7,13 +7,15 @@ ucsc-fasplit
 
 Split an fa file into several files\.
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fasplit
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fasplit
 
-======== ===========
+
+
+============= ===========
 
 
 

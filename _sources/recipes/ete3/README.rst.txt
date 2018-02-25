@@ -7,13 +7,15 @@ ete3
 
 A Python framework for the analysis and visualization of trees
 
-======== ===========
-Home     http://etetoolkit.org/
-Versions 3.0.0b35, 3.1.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3
+============= ===========
+Home          http://etetoolkit.org/
+Versions      3.0.0b35, 3.1.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3
 
-======== ===========
+
+
+============= ===========
 
 
 

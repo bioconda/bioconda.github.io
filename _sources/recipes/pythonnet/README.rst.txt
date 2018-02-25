@@ -7,13 +7,15 @@ pythonnet
 
 \.Net and Mono integration for Python
 
-======== ===========
-Home     https://pythonnet.github.io/
-Versions 2.3.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonnet
+============= ===========
+Home          https://pythonnet.github.io/
+Versions      2.3.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonnet
 
-======== ===========
+
+
+============= ===========
 
 
 

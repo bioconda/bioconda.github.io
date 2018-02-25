@@ -7,13 +7,15 @@ perl-text-soundex
 
 Implementation of the soundex algorithm\.
 
-======== ===========
-Home     http://search.cpan.org/~rjbs/Text-Soundex-3.05/Soundex.pm
-Versions 3.05
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-soundex
+============= ===========
+Home          http://search.cpan.org/~rjbs/Text-Soundex-3.05/Soundex.pm
+Versions      3.05
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-soundex
 
-======== ===========
+
+
+============= ===========
 
 
 

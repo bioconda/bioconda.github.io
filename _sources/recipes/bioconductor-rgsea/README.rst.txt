@@ -7,13 +7,15 @@ bioconductor-rgsea
 
 Combining bootstrap aggregating and Gene set enrichment analysis \(GSEA\)\, RGSEA is a classfication algorithm with high robustness and no over\-fitting problem\. It performs well especially for the data generated from different exprements\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/RGSEA.html
-Versions 1.10.0, 1.12.0
-License  GPL(>=3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsea
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/RGSEA.html
+Versions      1.10.0, 1.12.0
+License       GPL(>=3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsea
 
-======== ===========
+
+
+============= ===========
 
 
 

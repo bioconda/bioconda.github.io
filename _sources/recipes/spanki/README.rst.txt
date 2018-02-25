@@ -7,13 +7,15 @@ spanki
 
 Spanki is a set of tools to facilitate analysis of alternative splicing from RNA\-Seq data\. Spanki compiles quantitative and qualitative information about junction alignments from input BAM files\, and analyzes junction\-level splicing along with pairwise\-defined splicing events\. A simulator is also included to evaluate junction detection performance\.
 
-======== ===========
-Home     http://www.cbcb.umd.edu/software/spanki/
-Versions 0.5.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spanki
+============= ===========
+Home          http://www.cbcb.umd.edu/software/spanki/
+Versions      0.5.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spanki
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-text-parsewords
 
 parse text into an array of tokens or array of arrays
 
-======== ===========
-Home     http://metacpan.org/pod/Text::ParseWords
-Versions 3.29
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-parsewords
+============= ===========
+Home          http://metacpan.org/pod/Text::ParseWords
+Versions      3.29
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-parsewords
 
-======== ===========
+
+
+============= ===========
 
 
 

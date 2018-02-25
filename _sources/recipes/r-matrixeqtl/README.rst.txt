@@ -7,13 +7,15 @@ r-matrixeqtl
 
 Matrix eQTL is designed for fast eQTL analysis on large datasets\. Matrix eQTL can test for association between genotype and gene expression using linear regression  with either additive or ANOVA genotype effects\. The models can include covariates to account for factors  as population stratification\, gender\, and clinical variables\.  It also supports models with heteroscedastic and\/or correlated errors\, false discovery rate estimation and separate treatment of local \(cis\) and distant \(trans\) eQTLs\.
 
-======== ===========
-Home     http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/
-Versions 2.1.1
-License  LGPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-matrixeqtl
+============= ===========
+Home          http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/
+Versions      2.1.1
+License       LGPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-matrixeqtl
 
-======== ===========
+
+
+============= ===========
 
 
 

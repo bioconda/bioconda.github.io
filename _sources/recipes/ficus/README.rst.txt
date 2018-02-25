@@ -7,13 +7,15 @@ ficus
 
 Ficus provides a context manager for matplotlib figures\.
 
-======== ===========
-Home     https://github.com/camillescott/ficus
-Versions 0.3
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ficus
+============= ===========
+Home          https://github.com/camillescott/ficus
+Versions      0.3
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ficus
 
-======== ===========
+
+
+============= ===========
 
 
 

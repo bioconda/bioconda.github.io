@@ -7,13 +7,15 @@ relocate2
 
 a high resolution transposable element insertion sites mapping tool for population resequencing
 
-======== ===========
-Home     https://github.com/stajichlab/RelocaTE2
-Versions 2.0.0, 2.0.1
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relocate2
+============= ===========
+Home          https://github.com/stajichlab/RelocaTE2
+Versions      2.0.0, 2.0.1
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relocate2
 
-======== ===========
+
+
+============= ===========
 
 
 

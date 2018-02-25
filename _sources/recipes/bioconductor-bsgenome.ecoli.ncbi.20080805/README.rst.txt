@@ -7,13 +7,15 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
 
 Escherichia coli full genomes for several strains as provided by NCBI on 2008\/08\/05 and stored in Biostrings objects\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html
-Versions 1.3.1000
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html
+Versions      1.3.1000
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805
 
-======== ===========
+
+
+============= ===========
 
 
 

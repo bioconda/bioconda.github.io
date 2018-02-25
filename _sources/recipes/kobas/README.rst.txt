@@ -7,13 +7,15 @@ kobas
 
 KEGG Orthology Based Annotation System
 
-======== ===========
-Home     http://kobas.cbi.pku.edu.cn
-Versions 2.1.1, 3.0.3
-License  Biopython License Agreement
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kobas
+============= ===========
+Home          http://kobas.cbi.pku.edu.cn
+Versions      2.1.1, 3.0.3
+License       Biopython License Agreement
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kobas
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ srprism
 
 SRPRISM \- Short Read Alignment Tool
 
-======== ===========
-Home     ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/srprism/
-Versions 2.4.24
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srprism
+============= ===========
+Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/srprism/
+Versions      2.4.24
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srprism
 
-======== ===========
+
+
+============= ===========
 
 
 

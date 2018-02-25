@@ -7,13 +7,15 @@ perl-authen-sasl-saslprep
 
 A Stringprep Profile for User Names and Passwords \(RFC 4013\)
 
-======== ===========
-Home     http://metacpan.org/pod/Authen-SASL-SASLprep
-Versions 1.011
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-authen-sasl-saslprep
+============= ===========
+Home          http://metacpan.org/pod/Authen-SASL-SASLprep
+Versions      1.011
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-authen-sasl-saslprep
 
-======== ===========
+
+
+============= ===========
 
 
 

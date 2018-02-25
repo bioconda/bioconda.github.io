@@ -7,13 +7,15 @@ biopet
 
 Biopet \(Bio Pipeline Execution Toolkit\) is the main pipeline development framework of the LUMC Sequencing Analysis Support Core team\.
 
-======== ===========
-Home     https://github.com/biopet/biopet
-Versions 0.7.0, 0.8.0, 0.9.0
-License  https://github.com/biopet/biopet/blob/develop/biopet-core/src/main/resources/nl/lumc/sasc/biopet/License.txt
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet
+============= ===========
+Home          https://github.com/biopet/biopet
+Versions      0.7.0, 0.8.0, 0.9.0
+License       https://github.com/biopet/biopet/blob/develop/biopet-core/src/main/resources/nl/lumc/sasc/biopet/License.txt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet
 
-======== ===========
+
+
+============= ===========
 
 
 

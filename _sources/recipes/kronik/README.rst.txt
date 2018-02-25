@@ -7,13 +7,15 @@ kronik
 
 Utility for processing Hardklor features to find candidate peptides by chromatographic profiling
 
-======== ===========
-Home     https://github.com/mhoopmann/kronik
-Versions 2.20
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik
+============= ===========
+Home          https://github.com/mhoopmann/kronik
+Versions      2.20
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kronik
 
-======== ===========
+
+
+============= ===========
 
 
 

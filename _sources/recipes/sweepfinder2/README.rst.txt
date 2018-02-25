@@ -7,13 +7,15 @@ sweepfinder2
 
 The BWA read mapper\.
 
-======== ===========
-Home     http://www.personal.psu.edu/mxd60/sf2.html
-Versions 1.0
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sweepfinder2
+============= ===========
+Home          http://www.personal.psu.edu/mxd60/sf2.html
+Versions      1.0
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sweepfinder2
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-test-nowarnings
 
 Make sure you didn\'t emit any warnings while testing
 
-======== ===========
-Home     https://metacpan.org/pod/Test::NoWarnings
-Versions 1.04
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-nowarnings
+============= ===========
+Home          https://metacpan.org/pod/Test::NoWarnings
+Versions      1.04
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-nowarnings
 
-======== ===========
+
+
+============= ===========
 
 
 

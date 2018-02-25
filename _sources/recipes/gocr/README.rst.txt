@@ -7,13 +7,15 @@ gocr
 
 GOCR is an OCR \(Optical Character Recognition\) program
 
-======== ===========
-Home     http://jocr.sourceforge.net/
-Versions 0.50
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/0.50
+============= ===========
+Home          http://jocr.sourceforge.net/
+Versions      0.50
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gocr/0.50
 
-======== ===========
+
+
+============= ===========
 
 
 

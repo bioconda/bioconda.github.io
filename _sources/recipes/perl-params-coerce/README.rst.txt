@@ -7,13 +7,15 @@ perl-params-coerce
 
 Allows your classes to do coercion of parameters
 
-======== ===========
-Home     http://metacpan.org/pod/Params::Coerce
-Versions 0.14
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce/0.14
+============= ===========
+Home          http://metacpan.org/pod/Params::Coerce
+Versions      0.14
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-coerce/0.14
 
-======== ===========
+
+
+============= ===========
 
 
 

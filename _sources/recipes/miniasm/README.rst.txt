@@ -7,13 +7,15 @@ miniasm
 
 Ultrafast de novo assembly for long noisy reads \(though having no consensus step\)
 
-======== ===========
-Home     https://github.com/lh3/miniasm
-Versions 0.2, 0.2_r137, 0.2_r159, 0.2_r168
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniasm
+============= ===========
+Home          https://github.com/lh3/miniasm
+Versions      0.2, 0.2_r137, 0.2_r159, 0.2_r168
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miniasm
 
-======== ===========
+
+
+============= ===========
 
 
 

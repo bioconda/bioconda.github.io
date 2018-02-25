@@ -7,13 +7,15 @@ perl-test-harness
 
 Run Perl standard test scripts with statistics
 
-======== ===========
-Home     http://testanything.org/
-Versions 3.30, 3.36
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-harness
+============= ===========
+Home          http://testanything.org/
+Versions      3.30, 3.36
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-harness
 
-======== ===========
+
+
+============= ===========
 
 
 

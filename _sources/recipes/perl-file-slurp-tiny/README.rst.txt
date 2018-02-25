@@ -7,13 +7,15 @@ perl-file-slurp-tiny
 
 A simple\, sane and efficient file slurper \[DISCOURAGED\]
 
-======== ===========
-Home     http://metacpan.org/pod/File-Slurp-Tiny
-Versions 0.004
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurp-tiny
+============= ===========
+Home          http://metacpan.org/pod/File-Slurp-Tiny
+Versions      0.004
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurp-tiny
 
-======== ===========
+
+
+============= ===========
 
 
 

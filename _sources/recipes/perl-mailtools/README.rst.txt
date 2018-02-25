@@ -7,13 +7,15 @@ perl-mailtools
 
 Various e\-mail related modules
 
-======== ===========
-Home     http://metacpan.org/pod/MailTools
-Versions 2.14
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools
+============= ===========
+Home          http://metacpan.org/pod/MailTools
+Versions      2.14
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mailtools
 
-======== ===========
+
+
+============= ===========
 
 
 

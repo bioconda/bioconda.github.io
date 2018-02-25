@@ -7,13 +7,15 @@ perl-class-methodmaker
 
 Create generic methods for OO Perl
 
-======== ===========
-Home     http://search.cpan.org/~schwigon/Class-MethodMaker-2.24/
-Versions 2.24
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-methodmaker
+============= ===========
+Home          http://search.cpan.org/~schwigon/Class-MethodMaker-2.24/
+Versions      2.24
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-methodmaker
 
-======== ===========
+
+
+============= ===========
 
 
 

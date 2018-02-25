@@ -7,13 +7,15 @@ pytriangle
 
 A python interface to the 2D triangulation program TRIANGLE
 
-======== ===========
-Home     https://github.com/pletzer/pytriangle
-Versions 1.0.0, 1.0.9
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytriangle
+============= ===========
+Home          https://github.com/pletzer/pytriangle
+Versions      1.0.0, 1.0.9
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytriangle
 
-======== ===========
+
+
+============= ===========
 
 
 

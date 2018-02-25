@@ -7,13 +7,15 @@ perl-term-progressbar
 
 A progress bar for things that take a while
 
-======== ===========
-Home     https://github.com/manwar/Term-ProgressBar
-Versions 2.21
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar
+============= ===========
+Home          https://github.com/manwar/Term-ProgressBar
+Versions      2.21
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar
 
-======== ===========
+
+
+============= ===========
 
 
 

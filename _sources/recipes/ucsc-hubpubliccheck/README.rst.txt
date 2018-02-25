@@ -7,13 +7,15 @@ ucsc-hubpubliccheck
 
 checks that the labels in hubPublic match what is in the hub labels
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hubpubliccheck
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hubpubliccheck
 
-======== ===========
+
+
+============= ===========
 
 
 

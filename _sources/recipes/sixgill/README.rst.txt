@@ -7,13 +7,15 @@ sixgill
 
 six\-frame genome\-inferred libraries for LC\-MS\/MS
 
-======== ===========
-Home     
-Versions 0.2.3, 0.2.4
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill
+============= ===========
+Home          
+Versions      0.2.3, 0.2.4
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill
 
-======== ===========
+
+
+============= ===========
 
 
 

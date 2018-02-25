@@ -7,13 +7,15 @@ ucsc-pslpostarget
 
 flip psl strands so target is positive and implicit
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslpostarget
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      324, 332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslpostarget
 
-======== ===========
+
+
+============= ===========
 
 
 

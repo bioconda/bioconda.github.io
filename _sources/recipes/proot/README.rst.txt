@@ -7,13 +7,15 @@ proot
 
 chroot\, mount \-\-bind\, and binfmt\_misc without privilege\/setup
 
-======== ===========
-Home     https://github.com/proot-me/PRoot
-Versions 5.1.0
-License  GPL-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proot
+============= ===========
+Home          https://github.com/proot-me/PRoot
+Versions      5.1.0
+License       GPL-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/proot
 
-======== ===========
+
+
+============= ===========
 
 
 

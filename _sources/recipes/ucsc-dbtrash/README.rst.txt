@@ -7,13 +7,15 @@ ucsc-dbtrash
 
 drop tables from a database older than specified N hours
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbtrash
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbtrash
 
-======== ===========
+
+
+============= ===========
 
 
 

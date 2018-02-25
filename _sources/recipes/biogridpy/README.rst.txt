@@ -7,13 +7,15 @@ biogridpy
 
 Python client for the BioGRID REST API webservice
 
-======== ===========
-Home     https://github.com/arvkevi/biogridpy
-Versions 0.1.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biogridpy
+============= ===========
+Home          https://github.com/arvkevi/biogridpy
+Versions      0.1.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biogridpy
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pfam_scan
 
 pfam\_scan\.pl is a Perl script calling HMMER v3 to search a FASTA file against a library of Pfam HMMs\.
 
-======== ===========
-Home     http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
-Versions 1.6
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfam_scan
+============= ===========
+Home          http://ftp.ebi.ac.uk/pub/databases/Pfam/Tools/
+Versions      1.6
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pfam_scan
 
-======== ===========
+
+
+============= ===========
 
 
 

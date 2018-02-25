@@ -7,13 +7,15 @@ kraken-biom
 
 Create BIOM\-format tables from Kraken output\.
 
-======== ===========
-Home     https://github.com/smdabdoub/kraken-biom
-Versions 1.0.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom
+============= ===========
+Home          https://github.com/smdabdoub/kraken-biom
+Versions      1.0.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-biom
 
-======== ===========
+
+
+============= ===========
 
 
 

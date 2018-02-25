@@ -7,13 +7,15 @@ perl-test
 
 provides a simple framework for writing test scripts
 
-======== ===========
-Home     http://metacpan.org/pod/Test
-Versions 1.26
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test/1.26
+============= ===========
+Home          http://metacpan.org/pod/Test
+Versions      1.26
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test/1.26
 
-======== ===========
+
+
+============= ===========
 
 
 

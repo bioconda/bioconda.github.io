@@ -7,13 +7,15 @@ perl-io-uncompress-bunzip2
 
 Read bzip2 files\/buffers
 
-======== ===========
-Home     http://metacpan.org/pod/IO::Uncompress::Bunzip2
-Versions 2.064
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-bunzip2/2.064
+============= ===========
+Home          http://metacpan.org/pod/IO::Uncompress::Bunzip2
+Versions      2.064
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-uncompress-bunzip2/2.064
 
-======== ===========
+
+
+============= ===========
 
 
 

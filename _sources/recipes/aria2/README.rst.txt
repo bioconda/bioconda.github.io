@@ -7,13 +7,15 @@ aria2
 
 aria2 is a lightweight multi\-protocol \& multi\-source\, cross platform download utility operated in command\-line\. It supports HTTP\/HTTPS\, FTP\, SFTP\, BitTorrent and Metalink\.
 
-======== ===========
-Home     https://aria2.github.io/
-Versions 1.23.0
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aria2
+============= ===========
+Home          https://aria2.github.io/
+Versions      1.23.0
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aria2
 
-======== ===========
+
+
+============= ===========
 
 
 

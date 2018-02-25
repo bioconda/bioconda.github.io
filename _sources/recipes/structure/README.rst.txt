@@ -7,13 +7,15 @@ structure
 
 The program structure is a free software package for using multi\-locus genotype data to investigate population structure\. Its uses include inferring the presence of distinct populations\, assigning individuals to populations\, studying hybrid zones\, identifying migrants and admixed individuals\, and estimating population allele frequencies in situations where many individuals are migrants or admixed\. It can be applied to most of the commonly\-used genetic markers\, including SNPS\, microsatellites\, RFLPs and AFLPs\.
 
-======== ===========
-Home     https://web.stanford.edu/group/pritchardlab/structure.html
-Versions 2.3.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structure
+============= ===========
+Home          https://web.stanford.edu/group/pritchardlab/structure.html
+Versions      2.3.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structure
 
-======== ===========
+
+
+============= ===========
 
 
 

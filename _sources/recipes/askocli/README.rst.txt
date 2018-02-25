@@ -7,13 +7,15 @@ askocli
 
 Command line interface for a distant AskOmics
 
-======== ===========
-Home     https://github.com/askomics/askocli
-Versions 0.2.1, 0.3.2, 0.3.4, 0.4.1, 0.4.3
-License  GNU Affero General Public License v3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/askocli
+============= ===========
+Home          https://github.com/askomics/askocli
+Versions      0.2.1, 0.3.2, 0.3.4, 0.4.1, 0.4.3
+License       GNU Affero General Public License v3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/askocli
 
-======== ===========
+
+
+============= ===========
 
 
 

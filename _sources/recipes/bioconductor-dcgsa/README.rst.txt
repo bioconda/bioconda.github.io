@@ -7,13 +7,15 @@ bioconductor-dcgsa
 
 Distance\-correlation based Gene Set Analysis for longitudinal gene expression profiles\. In longitudinal studies\, the gene expression profiles were collected at each visit from each subject and hence there are multiple measurements of the gene expression profiles for each subject\. The dcGSA package could be used to assess the associations between gene sets and clinical outcomes of interest by fully taking advantage of the longitudinal nature of both the gene expression profiles and clinical outcomes\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/dcGSA.html
-Versions 1.6.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcgsa
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/dcGSA.html
+Versions      1.6.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dcgsa
 
-======== ===========
+
+
+============= ===========
 
 
 

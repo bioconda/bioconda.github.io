@@ -7,13 +7,15 @@ lefse
 
 LDA Effect Size \(LEfSe\) \(Segata et\. al 2010\) is an algorithm for high\-dimensional biomarker discovery and explanation that identifies genomic features \(genes\, pathways\, or taxa\) characterizing the differences between two or more biological conditions\.
 
-======== ===========
-Home     https://bitbucket.org/nsegata/lefse
-Versions 1.0.7, 1.0.7.post1, 1.0.8.post1
-License  Custom
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse
+============= ===========
+Home          https://bitbucket.org/nsegata/lefse
+Versions      1.0.7, 1.0.7.post1, 1.0.8.post1
+License       Custom
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lefse
 
-======== ===========
+
+
+============= ===========
 
 
 

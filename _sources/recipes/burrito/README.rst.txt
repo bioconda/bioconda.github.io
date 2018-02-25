@@ -7,13 +7,15 @@ burrito
 
 Framework for wrapping and controlling command\-line applications\.
 
-======== ===========
-Home     https://github.com/biocore/burrito
-Versions 0.9.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito/0.9.1
+============= ===========
+Home          https://github.com/biocore/burrito
+Versions      0.9.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito/0.9.1
 
-======== ===========
+
+
+============= ===========
 
 
 

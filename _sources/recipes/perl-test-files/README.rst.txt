@@ -7,13 +7,15 @@ perl-test-files
 
 A Test\:\:Builder based module to ease testing with files and dirs
 
-======== ===========
-Home     http://metacpan.org/pod/Test::Files
-Versions 0.14
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-files
+============= ===========
+Home          http://metacpan.org/pod/Test::Files
+Versions      0.14
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-files
 
-======== ===========
+
+
+============= ===========
 
 
 

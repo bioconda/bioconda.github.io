@@ -7,13 +7,15 @@ bioconductor-myvariant
 
 MyVariant\.info is a comprehensive aggregation of variant annotation resources\. myvariant is a wrapper for querying MyVariant\.info services
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/myvariant.html
-Versions 1.6.0, 1.8.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/myvariant.html
+Versions      1.6.0, 1.8.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant
 
-======== ===========
+
+
+============= ===========
 
 
 

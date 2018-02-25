@@ -7,13 +7,15 @@ perl-number-misc
 
 Number\:\:Misc \- handy utilities for numbers
 
-======== ===========
-Home     http://metacpan.org/pod/Number::Misc
-Versions 1.2
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc/1.2
+============= ===========
+Home          http://metacpan.org/pod/Number::Misc
+Versions      1.2
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-misc/1.2
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ google-cloud-sdk
 
 Command\-line interface for Google Cloud Platform products and services
 
-======== ===========
-Home     https://cloud.google.com/sdk/
-Versions 120.0.0, 166.0.0
-License  Apache v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/google-cloud-sdk
+============= ===========
+Home          https://cloud.google.com/sdk/
+Versions      120.0.0, 166.0.0
+License       Apache v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/google-cloud-sdk
 
-======== ===========
+
+
+============= ===========
 
 
 

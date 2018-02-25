@@ -7,13 +7,15 @@ odose
 
 Ortholog Direction of Selection Engine\.
 
-======== ===========
-Home     https://github.com/ODoSE/odose.nl
-Versions 1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odose
+============= ===========
+Home          https://github.com/ODoSE/odose.nl
+Versions      1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/odose
 
-======== ===========
+
+
+============= ===========
 
 
 

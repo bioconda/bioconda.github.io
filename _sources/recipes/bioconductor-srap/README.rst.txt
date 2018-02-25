@@ -7,13 +7,15 @@ bioconductor-srap
 
 This package provides a pipeline for gene expression analysis \(primarily for RNA\-Seq data\)\.  The normalization function is specific for RNA\-Seq analysis\, but all other functions \(Quality Control Figures\, Differential Expression and Visualization\, and Functional Enrichment via BD\-Func\) will work with any type of gene expression data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/sRAP.html
-Versions 1.18.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srap
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/sRAP.html
+Versions      1.18.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srap
 
-======== ===========
+
+
+============= ===========
 
 
 

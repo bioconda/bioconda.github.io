@@ -7,13 +7,15 @@ hapflk
 
 hapflk is a software implementing the hapFLK and FLK tests for the detection of selection signatures based on multiple population genotyping data\.
 
-======== ===========
-Home     https://forge-dga.jouy.inra.fr/projects/hapflk
-Versions 1.3.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapflk
+============= ===========
+Home          https://forge-dga.jouy.inra.fr/projects/hapflk
+Versions      1.3.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapflk
 
-======== ===========
+
+
+============= ===========
 
 
 

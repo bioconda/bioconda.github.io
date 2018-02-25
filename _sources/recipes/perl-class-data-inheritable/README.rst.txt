@@ -7,13 +7,15 @@ perl-class-data-inheritable
 
 Inheritable\, overridable class data
 
-======== ===========
-Home     http://metacpan.org/pod/Class-Data-Inheritable
-Versions 0.08
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-data-inheritable
+============= ===========
+Home          http://metacpan.org/pod/Class-Data-Inheritable
+Versions      0.08
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-data-inheritable
 
-======== ===========
+
+
+============= ===========
 
 
 

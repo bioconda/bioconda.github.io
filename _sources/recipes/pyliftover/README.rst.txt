@@ -7,13 +7,15 @@ pyliftover
 
 Pure\-python implementation of UCSC \`\`liftOver\`\` genome coordinate conversion\.
 
-======== ===========
-Home     https://github.com/konstantint/pyliftover
-Versions 0.3
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyliftover
+============= ===========
+Home          https://github.com/konstantint/pyliftover
+Versions      0.3
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyliftover
 
-======== ===========
+
+
+============= ===========
 
 
 

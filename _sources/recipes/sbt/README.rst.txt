@@ -7,13 +7,15 @@ sbt
 
 
 
-======== ===========
-Home     http://www.scala-sbt.org/
-Versions 0.13.12
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbt
+============= ===========
+Home          http://www.scala-sbt.org/
+Versions      0.13.12
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbt
 
-======== ===========
+
+
+============= ===========
 
 
 

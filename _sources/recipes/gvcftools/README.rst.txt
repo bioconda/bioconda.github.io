@@ -7,13 +7,15 @@ gvcftools
 
 a set of utilities to help create and analyze Genome VCF \(gVCF\) files\.
 
-======== ===========
-Home     https://sites.google.com/site/gvcftools/home
-Versions 0.17.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcftools
+============= ===========
+Home          https://sites.google.com/site/gvcftools/home
+Versions      0.17.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcftools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ mdust
 
 mdust from DFCI Gene Indices Software Tools
 
-======== ===========
-Home     http://compbio.dfci.harvard.edu/tgi/
-Versions 2006.10.17
-License  The Artistic License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust
+============= ===========
+Home          http://compbio.dfci.harvard.edu/tgi/
+Versions      2006.10.17
+License       The Artistic License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdust
 
-======== ===========
+
+
+============= ===========
 
 
 

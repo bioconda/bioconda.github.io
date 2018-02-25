@@ -7,13 +7,15 @@ bis-snp-utils
 
 bis\-snp\-utils are support tools for Bis\-SNP
 
-======== ===========
-Home     http://people.csail.mit.edu/dnaase/bissnp2011/
-Versions 0.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp-utils
+============= ===========
+Home          http://people.csail.mit.edu/dnaase/bissnp2011/
+Versions      0.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp-utils
 
-======== ===========
+
+
+============= ===========
 
 
 

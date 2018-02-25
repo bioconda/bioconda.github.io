@@ -7,13 +7,15 @@ r-gwpcr
 
 Implements the necessary distributions and parameter estimation procedures for a model of amplification and high\-troughput sequencing\. The model is based on a mechanistic model of PCR amplification as a Galton\-Watson branching process\, and on Poissonan sampling to model high\-throughput sequencing\.
 
-======== ===========
-Home     http://www.cibiv.at/~pflug_/trumicount
-Versions 0.9.9
-License  AGPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gwpcr
+============= ===========
+Home          http://www.cibiv.at/~pflug_/trumicount
+Versions      0.9.9
+License       AGPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gwpcr
 
-======== ===========
+
+
+============= ===========
 
 
 

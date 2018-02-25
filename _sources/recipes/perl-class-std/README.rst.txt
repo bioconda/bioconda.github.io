@@ -7,13 +7,15 @@ perl-class-std
 
 Support for creating standard \"inside\-out\" classes
 
-======== ===========
-Home     http://metacpan.org/pod/Class-Std
-Versions 0.013
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std
+============= ===========
+Home          http://metacpan.org/pod/Class-Std
+Versions      0.013
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std
 
-======== ===========
+
+
+============= ===========
 
 
 

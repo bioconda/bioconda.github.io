@@ -7,13 +7,15 @@ consensusfixer
 
 Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame insertions\, from a NGS read alignment\.
 
-======== ===========
-Home     https://github.com/cbg-ethz/ConsensusFixer
-Versions 0.3.1
-License  GNU General Public License v3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensusfixer
+============= ===========
+Home          https://github.com/cbg-ethz/ConsensusFixer
+Versions      0.3.1
+License       GNU General Public License v3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensusfixer
 
-======== ===========
+
+
+============= ===========
 
 
 

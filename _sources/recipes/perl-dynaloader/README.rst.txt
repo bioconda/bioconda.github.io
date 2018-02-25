@@ -7,13 +7,15 @@ perl-dynaloader
 
 Dynamically load C libraries into Perl code
 
-======== ===========
-Home     http://metacpan.org/pod/DynaLoader
-Versions 1.25
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dynaloader/1.25
+============= ===========
+Home          http://metacpan.org/pod/DynaLoader
+Versions      1.25
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dynaloader/1.25
 
-======== ===========
+
+
+============= ===========
 
 
 

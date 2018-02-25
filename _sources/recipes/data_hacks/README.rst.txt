@@ -7,13 +7,15 @@ data_hacks
 
 Command line utilities for data analysis\.
 
-======== ===========
-Home     https://github.com/bitly/data_hacks
-Versions 0.3.1
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/data_hacks
+============= ===========
+Home          https://github.com/bitly/data_hacks
+Versions      0.3.1
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/data_hacks
 
-======== ===========
+
+
+============= ===========
 
 
 

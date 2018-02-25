@@ -7,13 +7,15 @@ melt
 
 A nucleotide melt temp calculator
 
-======== ===========
-Home     https://github.com/eclarke/melt
-Versions 1.0.3
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/melt
+============= ===========
+Home          https://github.com/eclarke/melt
+Versions      1.0.3
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/melt
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ xxhash
 
 Python binding for xxHash
 
-======== ===========
-Home     https://github.com/ifduyue/python-xxhash
-Versions 1.0.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xxhash
+============= ===========
+Home          https://github.com/ifduyue/python-xxhash
+Versions      1.0.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xxhash
 
-======== ===========
+
+
+============= ===========
 
 
 

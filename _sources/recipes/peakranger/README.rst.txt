@@ -7,13 +7,15 @@ peakranger
 
 PeakRanger is a multi\-purporse software suite for analyzing next\-generation sequencing \(NGS\) data\.
 
-======== ===========
-Home     http://ranger.sourceforge.net
-Versions 1.18
-License  Artistic License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakranger
+============= ===========
+Home          http://ranger.sourceforge.net
+Versions      1.18
+License       Artistic License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakranger
 
-======== ===========
+
+
+============= ===========
 
 
 

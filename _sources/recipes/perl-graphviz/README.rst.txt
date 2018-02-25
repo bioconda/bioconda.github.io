@@ -7,13 +7,15 @@ perl-graphviz
 
 Interface to AT\&T\'s GraphViz\. Deprecated\. See GraphViz2
 
-======== ===========
-Home     http://metacpan.org/pod/GraphViz
-Versions 2.20
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz
+============= ===========
+Home          http://metacpan.org/pod/GraphViz
+Versions      2.20
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz
 
-======== ===========
+
+
+============= ===========
 
 
 

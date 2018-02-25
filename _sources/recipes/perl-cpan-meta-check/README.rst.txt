@@ -7,13 +7,15 @@ perl-cpan-meta-check
 
 Verify requirements in a CPAN\:\:Meta object
 
-======== ===========
-Home     http://metacpan.org/pod/CPAN-Meta-Check
-Versions 0.012
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-check
+============= ===========
+Home          http://metacpan.org/pod/CPAN-Meta-Check
+Versions      0.012
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-check
 
-======== ===========
+
+
+============= ===========
 
 
 

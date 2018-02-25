@@ -7,13 +7,15 @@ perl-hash-merge
 
 Merges arbitrarily deep hashes into a single hash
 
-======== ===========
-Home     http://metacpan.org/pod/Hash::Merge
-Versions 0.200
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-merge
+============= ===========
+Home          http://metacpan.org/pod/Hash::Merge
+Versions      0.200
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-merge
 
-======== ===========
+
+
+============= ===========
 
 
 

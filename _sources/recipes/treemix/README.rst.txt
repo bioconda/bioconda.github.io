@@ -7,13 +7,15 @@ treemix
 
 TreeMix is a method for inferring the patterns of population splits and mixtures in the history of a set of populations
 
-======== ===========
-Home     http://pritchardlab.stanford.edu/software.html
-Versions 1.12
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemix
+============= ===========
+Home          http://pritchardlab.stanford.edu/software.html
+Versions      1.12
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemix
 
-======== ===========
+
+
+============= ===========
 
 
 

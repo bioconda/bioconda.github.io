@@ -7,13 +7,15 @@ bioconductor-gtrellis
 
 Genome level Trellis graph visualizes genomic data conditioned by genomic categories \(e\.g\. chromosomes\)\. For each genomic category\, multiple dimensional data which are represented as tracks describe different features from different aspects\. This package provides high flexibility to arrange genomic categories and to add self\-defined graphics in the plot\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/gtrellis.html
-Versions 1.11.1
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gtrellis
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/gtrellis.html
+Versions      1.11.1
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gtrellis
 
-======== ===========
+
+
+============= ===========
 
 
 

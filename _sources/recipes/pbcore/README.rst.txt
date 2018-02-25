@@ -7,13 +7,15 @@ pbcore
 
 A Python library for reading and writing PacBio data files
 
-======== ===========
-Home     https://github.com/PacificBiosciences/pbcore
-Versions 1.2.10
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore
+============= ===========
+Home          https://github.com/PacificBiosciences/pbcore
+Versions      1.2.10
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pyscaf
 
 Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species\.
 
-======== ===========
-Home     https://github.com/lpryszcz/pyScaf
-Versions 0.12a4
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyscaf
+============= ===========
+Home          https://github.com/lpryszcz/pyScaf
+Versions      0.12a4
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyscaf
 
-======== ===========
+
+
+============= ===========
 
 
 

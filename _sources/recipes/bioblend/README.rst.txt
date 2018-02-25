@@ -7,13 +7,15 @@ bioblend
 
 CloudMan and Galaxy API library
 
-======== ===========
-Home     http://bioblend.readthedocs.org/
-Versions 0.10.0, 0.7.0, 0.8.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioblend
+============= ===========
+Home          http://bioblend.readthedocs.org/
+Versions      0.10.0, 0.7.0, 0.8.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioblend
 
-======== ===========
+
+
+============= ===========
 
 
 

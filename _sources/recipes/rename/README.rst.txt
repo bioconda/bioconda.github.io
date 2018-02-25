@@ -7,13 +7,15 @@ rename
 
 Perl\-powered file rename script with many helpful built\-ins
 
-======== ===========
-Home     http://plasmasturm.org/code/rename
-Versions 1.600
-License  GNU GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rename
+============= ===========
+Home          http://plasmasturm.org/code/rename
+Versions      1.600
+License       GNU GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rename
 
-======== ===========
+
+
+============= ===========
 
 
 

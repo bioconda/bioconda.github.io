@@ -7,13 +7,15 @@ exparna
 
 The program finds the longest common subsequence of exact pattern matches \(LCS\-EPM\)
 
-======== ===========
-Home     https://github.com/BackofenLab/ExpaRNA
-Versions 1.0.1
-License  GPL-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna
+============= ===========
+Home          https://github.com/BackofenLab/ExpaRNA
+Versions      1.0.1
+License       GPL-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna
 
-======== ===========
+
+
+============= ===========
 
 
 

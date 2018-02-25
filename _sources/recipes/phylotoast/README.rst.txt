@@ -7,13 +7,15 @@ phylotoast
 
 Tools for phylogenetic data analysis including visualization and cluster\-computing support\. 
 
-======== ===========
-Home     https://github.com/smdabdoub/phylotoast
-Versions 1.3.0, 1.4.0rc2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylotoast
+============= ===========
+Home          https://github.com/smdabdoub/phylotoast
+Versions      1.3.0, 1.4.0rc2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylotoast
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ nlstradamus
 
 NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction\.
 
-======== ===========
-Home     http://www.moseslab.csb.utoronto.ca/NLStradamus/
-Versions 1.8
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nlstradamus
+============= ===========
+Home          http://www.moseslab.csb.utoronto.ca/NLStradamus/
+Versions      1.8
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nlstradamus
 
-======== ===========
+
+
+============= ===========
 
 
 

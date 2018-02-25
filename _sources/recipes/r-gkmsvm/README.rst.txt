@@ -7,13 +7,15 @@ r-gkmsvm
 
 Imports the \'gkmSVM\' v2\.0 functionalities into R \(www\.beerlab\.org\/gkmsvm\)\. It also uses the \'kernlab\' library \(separate R package by different authors\) for various SVM algorithms\.   
 
-======== ===========
-Home     https://CRAN.R-project.org/package=gkmSVM
-Versions 0.71.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gkmsvm
+============= ===========
+Home          https://CRAN.R-project.org/package=gkmSVM
+Versions      0.71.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gkmsvm
 
-======== ===========
+
+
+============= ===========
 
 
 

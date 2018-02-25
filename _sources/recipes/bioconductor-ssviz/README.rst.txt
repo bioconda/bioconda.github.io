@@ -7,13 +7,15 @@ bioconductor-ssviz
 
 Small RNA sequencing viewer
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ssviz.html
-Versions 1.10.0, 1.12.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ssviz.html
+Versions      1.10.0, 1.12.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssviz
 
-======== ===========
+
+
+============= ===========
 
 
 

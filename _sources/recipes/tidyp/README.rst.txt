@@ -7,13 +7,15 @@ tidyp
 
 Program for cleaning up and validating HTML
 
-======== ===========
-Home     http://www.tidyp.com/
-Versions 1.04
-License  BSD-like
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidyp
+============= ===========
+Home          http://www.tidyp.com/
+Versions      1.04
+License       BSD-like
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tidyp
 
-======== ===========
+
+
+============= ===========
 
 
 

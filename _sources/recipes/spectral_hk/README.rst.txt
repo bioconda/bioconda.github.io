@@ -7,13 +7,15 @@ spectral_hk
 
 NCGC Spectral HashKey
 
-======== ===========
-Home     https://bitbucket.org/ncgc/spectral_hk
-Versions 0.1
-License  PUBLIC DOMAIN
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectral_hk
+============= ===========
+Home          https://bitbucket.org/ncgc/spectral_hk
+Versions      0.1
+License       PUBLIC DOMAIN
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectral_hk
 
-======== ===========
+
+
+============= ===========
 
 
 

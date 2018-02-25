@@ -7,13 +7,15 @@ perl-biox-workflow-plugin-filedetails
 
 Get metadata for files in directories processed by BioX\:\:Workflow
 
-======== ===========
-Home     https://github.com/jerowe/BioX-Workflow-Plugin-FileDetails
-Versions 0.11
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-plugin-filedetails
+============= ===========
+Home          https://github.com/jerowe/BioX-Workflow-Plugin-FileDetails
+Versions      0.11
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-plugin-filedetails
 
-======== ===========
+
+
+============= ===========
 
 
 

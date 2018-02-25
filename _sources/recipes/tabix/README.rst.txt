@@ -7,13 +7,15 @@ tabix
 
 A set of tools written in Perl and C\+\+ for working with VCF files\.
 
-======== ===========
-Home     https://sourceforge.net/projects/samtools
-Versions 0.2.5
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5
+============= ===========
+Home          https://sourceforge.net/projects/samtools
+Versions      0.2.5
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tabix/0.2.5
 
-======== ===========
+
+
+============= ===========
 
 
 

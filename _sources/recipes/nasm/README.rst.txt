@@ -7,13 +7,15 @@ nasm
 
 NASM\, the Netwide Assembler\.
 
-======== ===========
-Home     http://www.nasm.us
-Versions 2.11.08
-License  Simplified BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasm
+============= ===========
+Home          http://www.nasm.us
+Versions      2.11.08
+License       Simplified BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasm
 
-======== ===========
+
+
+============= ===========
 
 
 

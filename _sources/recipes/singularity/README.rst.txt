@@ -7,13 +7,15 @@ singularity
 
 Singularity \- Enabling users to have full control of their environment
 
-======== ===========
-Home     http://singularity.lbl.gov
-Versions 2.3, 2.4, 2.4.2
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singularity
+============= ===========
+Home          http://singularity.lbl.gov
+Versions      2.3, 2.4, 2.4.2
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singularity
 
-======== ===========
+
+
+============= ===========
 
 
 

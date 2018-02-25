@@ -7,13 +7,15 @@ frc
 
 Computes FRC from SAM\/BAM file and not from afg files
 
-======== ===========
-Home     https://github.com/vezzi/FRC_align
-Versions 5b3f53e
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frc
+============= ===========
+Home          https://github.com/vezzi/FRC_align
+Versions      5b3f53e
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/frc
 
-======== ===========
+
+
+============= ===========
 
 
 

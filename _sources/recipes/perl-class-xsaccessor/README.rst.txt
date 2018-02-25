@@ -7,13 +7,15 @@ perl-class-xsaccessor
 
 Generate fast XS accessors without runtime compilation
 
-======== ===========
-Home     http://metacpan.org/pod/Class::XSAccessor
-Versions 1.19
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19
+============= ===========
+Home          http://metacpan.org/pod/Class::XSAccessor
+Versions      1.19
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-xsaccessor/1.19
 
-======== ===========
+
+
+============= ===========
 
 
 

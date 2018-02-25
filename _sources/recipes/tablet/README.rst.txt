@@ -7,13 +7,15 @@ tablet
 
 Tablet is a lightweight\, high\-performance graphical viewer for next generation sequence assemblies and alignments\.
 
-======== ===========
-Home     https://ics.hutton.ac.uk/tablet
-Versions 1.17.08.17
-License  BSD-2-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tablet
+============= ===========
+Home          https://ics.hutton.ac.uk/tablet
+Versions      1.17.08.17
+License       BSD-2-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tablet
 
-======== ===========
+
+
+============= ===========
 
 
 

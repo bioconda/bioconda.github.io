@@ -7,13 +7,15 @@ eigensoft
 
 Population Genetics \- Principal Components Analysis \(PCA\)
 
-======== ===========
-Home     http://www.hsph.harvard.edu/alkes-price/software/
-Versions 6.0.1
-License  Custom OSS
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft
+============= ===========
+Home          http://www.hsph.harvard.edu/alkes-price/software/
+Versions      6.0.1
+License       Custom OSS
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft
 
-======== ===========
+
+
+============= ===========
 
 
 

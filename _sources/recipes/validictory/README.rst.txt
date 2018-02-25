@@ -7,13 +7,15 @@ validictory
 
 general purpose python data validator
 
-======== ===========
-Home     http://github.com/jamesturk/validictory
-Versions 1.0.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validictory
+============= ===========
+Home          http://github.com/jamesturk/validictory
+Versions      1.0.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validictory
 
-======== ===========
+
+
+============= ===========
 
 
 

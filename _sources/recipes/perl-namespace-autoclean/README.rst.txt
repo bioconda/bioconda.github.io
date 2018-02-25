@@ -7,13 +7,15 @@ perl-namespace-autoclean
 
 Keep imports out of your namespace
 
-======== ===========
-Home     https://github.com/moose/namespace-autoclean
-Versions 0.28
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/0.28
+============= ===========
+Home          https://github.com/moose/namespace-autoclean
+Versions      0.28
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-namespace-autoclean/0.28
 
-======== ===========
+
+
+============= ===========
 
 
 

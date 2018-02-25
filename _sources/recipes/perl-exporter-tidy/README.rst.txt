@@ -7,13 +7,15 @@ perl-exporter-tidy
 
 Another way of exporting symbols
 
-======== ===========
-Home     http://metacpan.org/pod/Exporter-Tidy
-Versions 0.08
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter-tidy
+============= ===========
+Home          http://metacpan.org/pod/Exporter-Tidy
+Versions      0.08
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter-tidy
 
-======== ===========
+
+
+============= ===========
 
 
 

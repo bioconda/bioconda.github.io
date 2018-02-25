@@ -7,13 +7,15 @@ perl-image-size
 
 A library to extract height\/width from images
 
-======== ===========
-Home     http://search.cpan.org/dist/Image-Size
-Versions 3.300
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-size
+============= ===========
+Home          http://search.cpan.org/dist/Image-Size
+Versions      3.300
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-size
 
-======== ===========
+
+
+============= ===========
 
 
 

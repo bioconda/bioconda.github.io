@@ -7,13 +7,15 @@ r-scrm
 
 A coalescent simulator that allows the rapid simulation of biological sequences under neutral models of evolution\. Different to other coalescent based simulations\, it has an optional approximation parameter that allows for high accuracy while maintaining a linear run time cost for long sequences\. It is optimized for simulating massive data sets as produced by Next\- Generation Sequencing technologies for up to several thousand sequences\.
 
-======== ===========
-Home     https://github.com/scrm/scrm-r
-Versions 1.6.0_2, 1.7.2_0
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scrm
+============= ===========
+Home          https://github.com/scrm/scrm-r
+Versions      1.6.0_2, 1.7.2_0
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scrm
 
-======== ===========
+
+
+============= ===========
 
 
 

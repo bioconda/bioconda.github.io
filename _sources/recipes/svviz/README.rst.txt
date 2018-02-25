@@ -7,13 +7,15 @@ svviz
 
 A read visualizer for structural variants
 
-======== ===========
-Home     https://github.com/svviz/svviz
-Versions 1.4.0, 1.5.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svviz
+============= ===========
+Home          https://github.com/svviz/svviz
+Versions      1.4.0, 1.5.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svviz
 
-======== ===========
+
+
+============= ===========
 
 
 

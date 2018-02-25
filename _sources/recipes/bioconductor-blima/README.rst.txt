@@ -7,13 +7,15 @@ bioconductor-blima
 
 Package blima includes several algorithms for the preprocessing of Illumina microarray data\. It focuses to the bead level analysis and provides novel approach to the quantile normalization of the vectors of unequal lengths\. It provides variety of the methods for background correction including background subtraction\, RMA like convolution and background outlier removal\. It also implements variance stabilizing transformation on the bead level\. There are also implemented methods for data summarization\. It also provides the methods for performing T\-tests on the detector \(bead\) level and on the probe level for differential expression testing\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/blima.html
-Versions 1.10.0, 1.12.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/blima.html
+Versions      1.10.0, 1.12.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-blima
 
-======== ===========
+
+
+============= ===========
 
 
 

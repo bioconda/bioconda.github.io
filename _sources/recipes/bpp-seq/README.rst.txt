@@ -7,13 +7,15 @@ bpp-seq
 
 Bio\+\+ is a set of C\+\+ libraries for Bioinformatics\.
 
-======== ===========
-Home     https://github.com/BioPP/bpp-seq
-Versions 2.2.0
-License  CeCILL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-seq
+============= ===========
+Home          https://github.com/BioPP/bpp-seq
+Versions      2.2.0
+License       CeCILL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-seq
 
-======== ===========
+
+
+============= ===========
 
 
 

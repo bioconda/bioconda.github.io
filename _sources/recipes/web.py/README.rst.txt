@@ -7,13 +7,15 @@ web.py
 
 web\.py makes web apps
 
-======== ===========
-Home     http://webpy.org/
-Versions 0.37
-License  Public domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/web.py
+============= ===========
+Home          http://webpy.org/
+Versions      0.37
+License       Public domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/web.py
 
-======== ===========
+
+
+============= ===========
 
 
 

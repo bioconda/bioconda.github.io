@@ -7,13 +7,15 @@ perl-unicode-normalize
 
 Unicode Normalization Forms
 
-======== ===========
-Home     http://metacpan.org/pod/Unicode::Normalize
-Versions 1.18
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-normalize/1.17
+============= ===========
+Home          http://metacpan.org/pod/Unicode::Normalize
+Versions      1.18
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-normalize/1.17
 
-======== ===========
+
+
+============= ===========
 
 
 

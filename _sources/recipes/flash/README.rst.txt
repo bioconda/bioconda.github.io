@@ -7,13 +7,15 @@ flash
 
 Merge mates from fragments that are shorter than twice the read length
 
-======== ===========
-Home     https://ccb.jhu.edu/software/FLASH/
-Versions 1.2.11
-License  GPLv3+
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash
+============= ===========
+Home          https://ccb.jhu.edu/software/FLASH/
+Versions      1.2.11
+License       GPLv3+
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flash
 
-======== ===========
+
+
+============= ===========
 
 
 

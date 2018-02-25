@@ -7,13 +7,15 @@ extract_genome_region
 
 Given a CSV file of variable information defining the regions of interest\, return a file that contains a fasta\-formatted representation of these regions\.
 
-======== ===========
-Home     https://github.com/xguse/extract-genome-region
-Versions 0.0.3
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extract_genome_region
+============= ===========
+Home          https://github.com/xguse/extract-genome-region
+Versions      0.0.3
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extract_genome_region
 
-======== ===========
+
+
+============= ===========
 
 
 

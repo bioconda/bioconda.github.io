@@ -7,13 +7,15 @@ mapdamage2
 
 mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics\.ku\.dk\/all\_literature\/mapdamage\/
 
-======== ===========
-Home     https://github.com/ginolhac/mapDamage
-Versions 2.0.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdamage2
+============= ===========
+Home          https://github.com/ginolhac/mapDamage
+Versions      2.0.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdamage2
 
-======== ===========
+
+
+============= ===========
 
 
 

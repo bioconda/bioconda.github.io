@@ -7,13 +7,15 @@ perl-xml-parser
 
 A perl module for parsing XML documents
 
-======== ===========
-Home     https://metacpan.org/pod/XML::Parser
-Versions 2.44
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser
+============= ===========
+Home          https://metacpan.org/pod/XML::Parser
+Versions      2.44
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-parser
 
-======== ===========
+
+
+============= ===========
 
 
 

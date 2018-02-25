@@ -7,13 +7,15 @@ jemalloc
 
 Efficient multithreaded memory allocator
 
-======== ===========
-Home     https://github.com/jemalloc/jemalloc
-Versions 3.6.0, 4.5.0
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jemalloc
+============= ===========
+Home          https://github.com/jemalloc/jemalloc
+Versions      3.6.0, 4.5.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jemalloc
 
-======== ===========
+
+
+============= ===========
 
 
 

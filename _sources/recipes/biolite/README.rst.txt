@@ -7,13 +7,15 @@ biolite
 
 A lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
 
-======== ===========
-Home     https://bitbucket.org/caseywdunn/biolite
-Versions 1.1.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite
+============= ===========
+Home          https://bitbucket.org/caseywdunn/biolite
+Versions      1.1.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite
 
-======== ===========
+
+
+============= ===========
 
 
 

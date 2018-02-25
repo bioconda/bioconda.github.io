@@ -7,13 +7,15 @@ lofreq
 
 A fast and sensitive variant\-caller for inferring SNVs and indels from next\-generation sequencing data
 
-======== ===========
-Home     http://csb5.github.io/lofreq/
-Versions 2.1.2, 2.1.3.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq
+============= ===========
+Home          http://csb5.github.io/lofreq/
+Versions      2.1.2, 2.1.3.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq
 
-======== ===========
+
+
+============= ===========
 
 
 

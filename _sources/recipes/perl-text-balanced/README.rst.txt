@@ -7,13 +7,15 @@ perl-text-balanced
 
 Text\:\:Balanced \- Extract delimited text sequences from strings
 
-======== ===========
-Home     http://search.cpan.org/dist/text/balanced/
-Versions 2.03
-License  Perl5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-balanced
+============= ===========
+Home          http://search.cpan.org/dist/text/balanced/
+Versions      2.03
+License       Perl5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-balanced
 
-======== ===========
+
+
+============= ===========
 
 
 

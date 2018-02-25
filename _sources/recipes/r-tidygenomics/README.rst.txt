@@ -7,13 +7,15 @@ r-tidygenomics
 
 Handle genomic data within data frames just as you would with \'GRanges\'\. This package provides methods to deal with genomic intervals the \"tidy\-way\" which makes it simpler to integrate in the the general data munging process\. The API is inspired by the popular \'bedtools\' and the genome\_join\(\) method from the \'fuzzyjoin\' package\.
 
-======== ===========
-Home     https://github.com/const-ae/tidygenomics
-Versions 0.1.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tidygenomics
+============= ===========
+Home          https://github.com/const-ae/tidygenomics
+Versions      0.1.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tidygenomics
 
-======== ===========
+
+
+============= ===========
 
 
 

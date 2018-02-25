@@ -7,13 +7,15 @@ perl-xml-sax-writer
 
 SAX2 XML Writer
 
-======== ===========
-Home     https://github.com/perigrin/xml-sax-writer
-Versions 0.56
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-writer
+============= ===========
+Home          https://github.com/perigrin/xml-sax-writer
+Versions      0.56
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax-writer
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-math-random
 
 Random Number Generators
 
-======== ===========
-Home     http://metacpan.org/pod/Math-Random
-Versions 0.72
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-random
+============= ===========
+Home          http://metacpan.org/pod/Math-Random
+Versions      0.72
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-random
 
-======== ===========
+
+
+============= ===========
 
 
 

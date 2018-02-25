@@ -7,13 +7,15 @@ bioconductor-drivernet
 
 DriverNet is a package to predict functional important driver genes in cancer by integrating genome data \(mutation and copy number variation data\) and transcriptome data \(gene expression data\)\. The different kinds of data are combined by an influence graph\, which is a gene\-gene interaction network deduced from pathway data\. A greedy algorithm is used to find the possible driver genes\, which may mutated in a larger number of patients and these mutations will push the gene expression values of the connected genes to some extreme values\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/DriverNet.html
-Versions 1.18.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/DriverNet.html
+Versions      1.18.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drivernet
 
-======== ===========
+
+
+============= ===========
 
 
 

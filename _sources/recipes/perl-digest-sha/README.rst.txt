@@ -7,13 +7,15 @@ perl-digest-sha
 
 Perl extension for SHA\-1\/224\/256\/384\/512
 
-======== ===========
-Home     http://metacpan.org/pod/Digest::SHA
-Versions 5.88
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-sha/5.88
+============= ===========
+Home          http://metacpan.org/pod/Digest::SHA
+Versions      5.88
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-sha/5.88
 
-======== ===========
+
+
+============= ===========
 
 
 

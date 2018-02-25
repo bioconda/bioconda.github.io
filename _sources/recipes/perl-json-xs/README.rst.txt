@@ -7,13 +7,15 @@ perl-json-xs
 
 JSON serialising\/deserialising\, done correctly and fast
 
-======== ===========
-Home     http://search.cpan.org/~mlehmann/JSON-XS/
-Versions 2.34
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs
+============= ===========
+Home          http://search.cpan.org/~mlehmann/JSON-XS/
+Versions      2.34
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs
 
-======== ===========
+
+
+============= ===========
 
 
 

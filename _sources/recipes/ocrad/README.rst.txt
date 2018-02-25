@@ -7,13 +7,15 @@ ocrad
 
 Ocrad is an optical character recognition program\.
 
-======== ===========
-Home     https://www.gnu.org/software/ocrad/
-Versions 0.21
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ocrad/0.21
+============= ===========
+Home          https://www.gnu.org/software/ocrad/
+Versions      0.21
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ocrad/0.21
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ ngless
 
 A tool for metagenomics processing with a focus on metagenomics
 
-======== ===========
-Home     http://ngless.embl.de
-Versions 0.5.1, 0.6.0, 0.6.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless
+============= ===========
+Home          http://ngless.embl.de
+Versions      0.5.1, 0.6.0, 0.6.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless
 
-======== ===========
+
+
+============= ===========
 
 
 

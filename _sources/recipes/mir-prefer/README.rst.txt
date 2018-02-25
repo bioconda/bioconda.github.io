@@ -7,13 +7,15 @@ mir-prefer
 
 microRNA PREdiction From small RNA\-seq data
 
-======== ===========
-Home     https://github.com/hangelwen/miR-PREFeR
-Versions 0.24
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mir-prefer
+============= ===========
+Home          https://github.com/hangelwen/miR-PREFeR
+Versions      0.24
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mir-prefer
 
-======== ===========
+
+
+============= ===========
 
 microRNA PREdiction From small RNA\-seq data
 

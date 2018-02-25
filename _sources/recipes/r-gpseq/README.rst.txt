@@ -7,13 +7,15 @@ r-gpseq
 
 Some functions for modeling sequence read counts as a generalized poisson model and to use this model for detecting differentially expressed genes in different conditions and differentially spliced exons\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=GPseq
-Versions 0.5
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpseq
+============= ===========
+Home          https://CRAN.R-project.org/package=GPseq
+Versions      0.5
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gpseq
 
-======== ===========
+
+
+============= ===========
 
 
 

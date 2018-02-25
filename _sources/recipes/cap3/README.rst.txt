@@ -7,13 +7,15 @@ cap3
 
 DNA sequence assembly program\.
 
-======== ===========
-Home     http://seq.cs.iastate.edu/
-Versions 10.2011
-License  Michigan Tech.
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap3
+============= ===========
+Home          http://seq.cs.iastate.edu/
+Versions      10.2011
+License       Michigan Tech.
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap3
 
-======== ===========
+
+
+============= ===========
 
 
 

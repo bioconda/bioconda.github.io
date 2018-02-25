@@ -7,13 +7,15 @@ ray
 
 Parallel genome assemblies for parallel DNA sequencing
 
-======== ===========
-Home     http://denovoassembler.sourceforge.net/index.html
-Versions 2.3.1
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ray
+============= ===========
+Home          http://denovoassembler.sourceforge.net/index.html
+Versions      2.3.1
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ray
 
-======== ===========
+
+
+============= ===========
 
 
 

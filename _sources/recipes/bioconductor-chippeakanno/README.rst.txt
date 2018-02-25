@@ -7,13 +7,15 @@ bioconductor-chippeakanno
 
 The package includes functions to retrieve the sequences around the peak\, obtain enriched Gene Ontology \(GO\) terms\, find the nearest gene\, exon\, miRNA or custom features such as most conserved elements and other transcription factor binding sites supplied by users\. Starting 2\.0\.5\, new functions have been added for finding the peaks with bi\-directional promoters with summary statistics \(peaksNearBDP\)\, for summarizing the occurrence of motifs in peaks \(summarizePatternInPeaks\) and for adding other IDs to annotated peaks or enrichedGO \(addGeneIDs\)\. This package leverages the biomaRt\, IRanges\, Biostrings\, BSgenome\, GO\.db\, multtest and stat packages\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ChIPpeakAnno.html
-Versions 3.10.2, 3.12.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chippeakanno
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ChIPpeakAnno.html
+Versions      3.10.2, 3.12.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chippeakanno
 
-======== ===========
+
+
+============= ===========
 
 
 

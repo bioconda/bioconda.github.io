@@ -9,13 +9,15 @@ A growing collection of fast and secure command line utililities for dealing wit
 implemented on top of Rust\-Bio\.
 
 
-======== ===========
-Home     https://github.com/rust-bio/rust-bio-tools
-Versions 0.1.1, 0.1.2, 0.1.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools
+============= ===========
+Home          https://github.com/rust-bio/rust-bio-tools
+Versions      0.1.1, 0.1.2, 0.1.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools
 
-======== ===========
+
+
+============= ===========
 
 
 

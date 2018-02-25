@@ -7,13 +7,15 @@ bioconductor-go.db
 
 A set of annotation maps describing the entire Gene Ontology assembled using data from GO
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/GO.db.html
-Versions 3.2.2, 3.3.0, 3.4.0, 3.4.1, 3.4.2, 3.5.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-go.db
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/GO.db.html
+Versions      3.2.2, 3.3.0, 3.4.0, 3.4.1, 3.4.2, 3.5.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-go.db
 
-======== ===========
+
+
+============= ===========
 
 
 

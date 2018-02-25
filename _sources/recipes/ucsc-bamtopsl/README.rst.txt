@@ -7,13 +7,15 @@ ucsc-bamtopsl
 
 Convert a bam file to a psl and optionally also a fasta file that contains the reads\.
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bamtopsl
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bamtopsl
 
-======== ===========
+
+
+============= ===========
 
 
 

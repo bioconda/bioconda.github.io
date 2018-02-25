@@ -7,13 +7,15 @@ perl-html-template
 
 Perl module to use HTML\-like templating language
 
-======== ===========
-Home     http://metacpan.org/pod/HTML-Template
-Versions 2.95
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-template
+============= ===========
+Home          http://metacpan.org/pod/HTML-Template
+Versions      2.95
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-template
 
-======== ===========
+
+
+============= ===========
 
 
 

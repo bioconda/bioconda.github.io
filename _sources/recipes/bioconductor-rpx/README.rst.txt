@@ -7,13 +7,15 @@ bioconductor-rpx
 
 The rpx package implements an interface to proteomics data submitted to the ProteomeXchange consortium\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/rpx.html
-Versions 1.12.1, 1.14.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpx
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/rpx.html
+Versions      1.12.1, 1.14.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpx
 
-======== ===========
+
+
+============= ===========
 
 
 

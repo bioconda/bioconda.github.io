@@ -10,13 +10,15 @@ overlaps within a set of sequences\, satisfying a user\-specified minimal
 overlap length and maximal error rate\.
 
 
-======== ===========
-Home     https://github.com/jbaaijens/rust-overlaps
-Versions 0.1.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps
+============= ===========
+Home          https://github.com/jbaaijens/rust-overlaps
+Versions      0.1.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps
 
-======== ===========
+
+
+============= ===========
 
 
 

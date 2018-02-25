@@ -7,13 +7,17 @@ netreg
 
 netReg fits linear regression models using network\-penalization\.
 
-======== ===========
-Home     https://github.com/dirmeier/netReg
-Versions 1.0.0, 1.2.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netreg
+============= ===========
+Home          https://github.com/dirmeier/netReg
+Versions      1.0.0, 1.2.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netreg
 
-======== ===========
+Documentation https://dirmeier.github.io/netReg/
+
+
+
+============= ===========
 
 
 

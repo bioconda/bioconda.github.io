@@ -7,13 +7,15 @@ r-data.table
 
 Fast aggregation of large data \(e\.g\. 100GB in RAM\)\, fast ordered joins\, fast add\/modify\/delete of columns by group using no copies at all\, list columns\, a fast friendly file reader and parallel file writer\. Offers a natural and flexible syntax\, for faster development\.
 
-======== ===========
-Home     http://r-datatable.com
-Versions 1.10.0, 1.10.4
-License  GPL-3 | file LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-data.table/1.10.4
+============= ===========
+Home          http://r-datatable.com
+Versions      1.10.0, 1.10.4
+License       GPL-3 | file LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-data.table/1.10.4
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-memoize
 
 Make functions faster by trading space for time
 
-======== ===========
-Home     http://metacpan.org/pod/Memoize
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-memoize
+============= ===========
+Home          http://metacpan.org/pod/Memoize
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-memoize
 
-======== ===========
+
+
+============= ===========
 
 
 

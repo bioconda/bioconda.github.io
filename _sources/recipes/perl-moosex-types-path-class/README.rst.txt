@@ -7,13 +7,15 @@ perl-moosex-types-path-class
 
 A Path\:\:Class type library for Moose
 
-======== ===========
-Home     https://github.com/moose/MooseX-Types-Path-Class
-Versions 0.09
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-class
+============= ===========
+Home          https://github.com/moose/MooseX-Types-Path-Class
+Versions      0.09
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types-path-class
 
-======== ===========
+
+
+============= ===========
 
 
 

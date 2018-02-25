@@ -7,13 +7,15 @@ perl-www-robotrules
 
 database of robots\.txt\-derived permissions
 
-======== ===========
-Home     http://metacpan.org/pod/WWW-RobotRules
-Versions 6.02
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-www-robotrules
+============= ===========
+Home          http://metacpan.org/pod/WWW-RobotRules
+Versions      6.02
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-www-robotrules
 
-======== ===========
+
+
+============= ===========
 
 
 

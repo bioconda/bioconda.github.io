@@ -7,13 +7,15 @@ hapbin
 
 hapbin is a collection of tools for efficiently calculating Extended Haplotype Homozygosity \(EHH\)\, the Integrated Haplotype Score \(iHS\) and the Cross Population Extended Haplotype Homozogysity \(XP\-EHH\) statistic\.
 
-======== ===========
-Home     https://github.com/evotools/hapbin
-Versions 1.0.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapbin
+============= ===========
+Home          https://github.com/evotools/hapbin
+Versions      1.0.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hapbin
 
-======== ===========
+
+
+============= ===========
 
 
 

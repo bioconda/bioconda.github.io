@@ -7,13 +7,15 @@ r-metarnaseq
 
 Implementation of two p\-value combination techniques \(inverse normal and Fisher methods\)\. A vignette is provided to explain how to perform a meta\-analysis from two independent RNA\-seq experiments\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=metaRNASeq
-Versions 1.0.2
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq
+============= ===========
+Home          https://CRAN.R-project.org/package=metaRNASeq
+Versions      1.0.2
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metarnaseq
 
-======== ===========
+
+
+============= ===========
 
 
 

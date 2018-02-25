@@ -7,13 +7,15 @@ tgt
 
 TextGridTools \-\- Read\, write\, and manipulate Praat TextGrid files
 
-======== ===========
-Home     https://github.com/hbuschme/TextGridTools/
-Versions 1.4.2
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgt
+============= ===========
+Home          https://github.com/hbuschme/TextGridTools/
+Versions      1.4.2
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tgt
 
-======== ===========
+
+
+============= ===========
 
 
 

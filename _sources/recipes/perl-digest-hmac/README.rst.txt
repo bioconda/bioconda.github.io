@@ -7,13 +7,15 @@ perl-digest-hmac
 
 Keyed\-Hashing for Message Authentication
 
-======== ===========
-Home     http://metacpan.org/pod/Digest-HMAC
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac
+============= ===========
+Home          http://metacpan.org/pod/Digest-HMAC
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac
 
-======== ===========
+
+
+============= ===========
 
 
 

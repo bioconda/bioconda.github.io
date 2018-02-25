@@ -7,13 +7,15 @@ galaxy-parsec
 
 Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\/galaxyproject\.org\/\)\.
 
-======== ===========
-Home     https://github.com/galaxy-iuc/parsec
-Versions 1.0.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-parsec
+============= ===========
+Home          https://github.com/galaxy-iuc/parsec
+Versions      1.0.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-parsec
 
-======== ===========
+
+
+============= ===========
 
 
 

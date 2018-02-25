@@ -7,13 +7,15 @@ fwdpp
 
 A C\+\+ template library for forward\-time population genetic simulation\. 
 
-======== ===========
-Home     https://www.github.com/molpopgen/fwdpp
-Versions 0.5.3, 0.5.4, 0.5.5, 0.5.7
-License  https://raw.githubusercontent.com/molpopgen/fwdpp/master/LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp
+============= ===========
+Home          https://www.github.com/molpopgen/fwdpp
+Versions      0.5.3, 0.5.4, 0.5.5, 0.5.7
+License       https://raw.githubusercontent.com/molpopgen/fwdpp/master/LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fwdpp
 
-======== ===========
+
+
+============= ===========
 
 
 

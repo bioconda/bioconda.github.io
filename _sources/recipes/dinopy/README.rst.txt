@@ -7,13 +7,15 @@ dinopy
 
 DNA input and output library for Python and Cython\. Includes reader and writer for FASTA and FASTQ files\, support for samtools faidx files\, and generators for solid and gapped q\-grams \(k\-mers\)\.
 
-======== ===========
-Home     https://bitbucket.org/HenningTimm/dinopy
-Versions 1.2.0, 1.2.1, 2.0.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinopy
+============= ===========
+Home          https://bitbucket.org/HenningTimm/dinopy
+Versions      1.2.0, 1.2.1, 2.0.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinopy
 
-======== ===========
+
+
+============= ===========
 
 
 

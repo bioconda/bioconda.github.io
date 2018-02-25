@@ -7,13 +7,15 @@ ngs-disambiguate
 
 Disambiguation algorithm for reads aligned to human and mouse genomes using Tophat or BWA mem
 
-======== ===========
-Home     https://github.com/AstraZeneca-NGS/disambiguate
-Versions 1.0.0, 2016.11.10
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate
+============= ===========
+Home          https://github.com/AstraZeneca-NGS/disambiguate
+Versions      1.0.0, 2016.11.10
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-disambiguate
 
-======== ===========
+
+
+============= ===========
 
 
 

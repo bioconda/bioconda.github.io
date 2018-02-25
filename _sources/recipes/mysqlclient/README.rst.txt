@@ -7,13 +7,15 @@ mysqlclient
 
 Python interface to MySQL
 
-======== ===========
-Home     https://github.com/PyMySQL/mysqlclient-python
-Versions 1.3.10, 1.3.7, 1.3.9
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysqlclient
+============= ===========
+Home          https://github.com/PyMySQL/mysqlclient-python
+Versions      1.3.10, 1.3.7, 1.3.9
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mysqlclient
 
-======== ===========
+
+
+============= ===========
 
 
 

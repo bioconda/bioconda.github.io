@@ -7,13 +7,15 @@ plant_tribes_gene_family_classifier
 
 Gene family classifier pipeline
 
-======== ===========
-Home     https://github.com/dePamphilis/PlantTribes
-Versions 0.1, 0.2, 0.3, 1.0.0, 1.0.2, 1.0.3
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_classifier/1.0.2
+============= ===========
+Home          https://github.com/dePamphilis/PlantTribes
+Versions      0.1, 0.2, 0.3, 1.0.0, 1.0.2, 1.0.3
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plant_tribes_gene_family_classifier/1.0.2
 
-======== ===========
+
+
+============= ===========
 
 
 

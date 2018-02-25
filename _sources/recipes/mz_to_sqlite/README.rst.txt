@@ -10,13 +10,15 @@ stores in a SQLite database\.The intended purpose is to provide a
 Galaxy dataset that can support an interactive Galaxy visualization plugin\.
 
 
-======== ===========
-Home     https://github.com/jj-umn/mztosqlite
-Versions 1.2.0
-License  GNU-GPL, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mz_to_sqlite
+============= ===========
+Home          https://github.com/jj-umn/mztosqlite
+Versions      1.2.0
+License       GNU-GPL, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mz_to_sqlite
 
-======== ===========
+
+
+============= ===========
 
 
 

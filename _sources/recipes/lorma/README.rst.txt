@@ -7,13 +7,15 @@ lorma
 
 LoRMA is a tool for correcting sequencing errors in long reads\.
 
-======== ===========
-Home     https://www.cs.helsinki.fi/u/lmsalmel/LoRMA/
-Versions 0.4
-License  GNU Affero General Public License v3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorma
+============= ===========
+Home          https://www.cs.helsinki.fi/u/lmsalmel/LoRMA/
+Versions      0.4
+License       GNU Affero General Public License v3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorma
 
-======== ===========
+
+
+============= ===========
 
 
 

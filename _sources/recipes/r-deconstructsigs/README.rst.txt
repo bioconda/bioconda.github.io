@@ -7,13 +7,15 @@ r-deconstructsigs
 
 Takes sample information in the form of the fraction of mutations in each of 96 trinucleotide contexts and identifies the weighted combination of published signatures that\, when summed\, most closely reconstructs the mutational profile\.
 
-======== ===========
-Home     https
-Versions 1.8.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deconstructsigs
+============= ===========
+Home          https
+Versions      1.8.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deconstructsigs
 
-======== ===========
+
+
+============= ===========
 
 
 

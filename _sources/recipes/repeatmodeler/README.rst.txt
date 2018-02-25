@@ -7,13 +7,15 @@ repeatmodeler
 
 RepeatModeler is a de\-novo repeat family identification and modeling package\.
 
-======== ===========
-Home     http://www.repeatmasker.org/RepeatModeler.html
-Versions 1.0.11, 1.0.8
-License  Open Software License v2.1
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmodeler
+============= ===========
+Home          http://www.repeatmasker.org/RepeatModeler.html
+Versions      1.0.11, 1.0.8
+License       Open Software License v2.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatmodeler
 
-======== ===========
+
+
+============= ===========
 
 
 

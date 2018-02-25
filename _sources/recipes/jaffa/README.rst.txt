@@ -11,13 +11,15 @@ You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_B
 to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual\.
 
 
-======== ===========
-Home     https://github.com/Oshlack/JAFFA
-Versions 1.08, 1.09
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa
+============= ===========
+Home          https://github.com/Oshlack/JAFFA
+Versions      1.08, 1.09
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jaffa
 
-======== ===========
+
+
+============= ===========
 
 
 

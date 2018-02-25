@@ -7,13 +7,15 @@ nmrml2isa
 
 nmrml2isa \- nmrML to ISA\-Tab parsing tool
 
-======== ===========
-Home     http://github.com/althonos/nmrml2isa
-Versions 0.3.0
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa
+============= ===========
+Home          http://github.com/althonos/nmrml2isa
+Versions      0.3.0
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nmrml2isa
 
-======== ===========
+
+
+============= ===========
 
 
 

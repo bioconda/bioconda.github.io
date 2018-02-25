@@ -7,13 +7,15 @@ isatools
 
 Metadata tracking tools help to manage an increasingly diverse set of life science\, environmental and biomedical experiments
 
-======== ===========
-Home     https://github.com/ISA-tools/isa-api
-Versions 0.9.3, 0.9.4
-License  CPAL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isatools
+============= ===========
+Home          https://github.com/ISA-tools/isa-api
+Versions      0.9.3, 0.9.4
+License       CPAL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isatools
 
-======== ===========
+
+
+============= ===========
 
 
 

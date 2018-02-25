@@ -7,13 +7,15 @@ python-hyphy-python
 
 HyPhy package interface library
 
-======== ===========
-Home     https://github.com/veg/hyphy-python
-Versions 0.1.3, 0.1.6
-License  UNKNOWN
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python
+============= ===========
+Home          https://github.com/veg/hyphy-python
+Versions      0.1.3, 0.1.6
+License       UNKNOWN
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hyphy-python
 
-======== ===========
+
+
+============= ===========
 
 
 

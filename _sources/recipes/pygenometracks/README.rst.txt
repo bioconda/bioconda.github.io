@@ -7,13 +7,15 @@ pygenometracks
 
 Standalone program and library to plot beautiful genome browser tracks\.
 
-======== ===========
-Home     //github.com/maxplanck-ie/pyGenomeTracks
-Versions 0.1, 1.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygenometracks
+============= ===========
+Home          //github.com/maxplanck-ie/pyGenomeTracks
+Versions      0.1, 1.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygenometracks
 
-======== ===========
+
+
+============= ===========
 
 
 

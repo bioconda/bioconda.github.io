@@ -7,13 +7,15 @@ python-fakemp
 
 Fake multiprocessing pool objects
 
-======== ===========
-Home     https://github.com/nlhepler/fakemp
-Versions 0.9.1
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-fakemp
+============= ===========
+Home          https://github.com/nlhepler/fakemp
+Versions      0.9.1
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-fakemp
 
-======== ===========
+
+
+============= ===========
 
 
 

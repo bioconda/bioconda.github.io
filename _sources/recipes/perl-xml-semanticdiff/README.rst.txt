@@ -7,13 +7,15 @@ perl-xml-semanticdiff
 
 Perl extension for comparing XML documents\.
 
-======== ===========
-Home     http://metacpan.org/pod/XML-SemanticDiff
-Versions 1.0004
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-semanticdiff
+============= ===========
+Home          http://metacpan.org/pod/XML-SemanticDiff
+Versions      1.0004
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-semanticdiff
 
-======== ===========
+
+
+============= ===========
 
 
 

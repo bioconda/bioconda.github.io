@@ -7,13 +7,15 @@ cgcloud-lib
 
 Components shared between cgcloud\-core and cgcloud\-agent
 
-======== ===========
-Home     https://github.com/BD2KGenomics/cgcloud
-Versions 1.4a1.dev195, 1.6.0
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgcloud-lib
+============= ===========
+Home          https://github.com/BD2KGenomics/cgcloud
+Versions      1.4a1.dev195, 1.6.0
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgcloud-lib
 
-======== ===========
+
+
+============= ===========
 
 
 

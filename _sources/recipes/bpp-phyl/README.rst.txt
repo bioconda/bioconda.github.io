@@ -7,13 +7,15 @@ bpp-phyl
 
 Bio\+\+ is a set of C\+\+ libraries for Bioinformatics\.
 
-======== ===========
-Home     https://github.com/BioPP/bpp-phyl
-Versions 2.2.0
-License  CeCILL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-phyl
+============= ===========
+Home          https://github.com/BioPP/bpp-phyl
+Versions      2.2.0
+License       CeCILL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpp-phyl
 
-======== ===========
+
+
+============= ===========
 
 
 

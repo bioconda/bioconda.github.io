@@ -7,13 +7,15 @@ r-bcbiobase
 
 Base functions and generics for bcbio R packages\.
 
-======== ===========
-Home     http://bioinformatics.sph.harvard.edu/bcbioBase/
-Versions 0.0.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase
+============= ===========
+Home          http://bioinformatics.sph.harvard.edu/bcbioBase/
+Versions      0.0.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiobase
 
-======== ===========
+
+
+============= ===========
 
 
 

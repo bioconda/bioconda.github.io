@@ -7,13 +7,15 @@ slang
 
 
 
-======== ===========
-Home     http://www.jedsoft.org/slang/index.html
-Versions 2.3.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slang
+============= ===========
+Home          http://www.jedsoft.org/slang/index.html
+Versions      2.3.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slang
 
-======== ===========
+
+
+============= ===========
 
 
 

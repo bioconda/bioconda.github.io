@@ -7,13 +7,15 @@ bgt
 
 Flexible genotype query among 30\,000\+ samples whole\-genome\.
 
-======== ===========
-Home     https://github.com/lh3/bgt
-Versions r277, r283
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgt
+============= ===========
+Home          https://github.com/lh3/bgt
+Versions      r277, r283
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgt
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ openpyxl
 
 A Python library to read\/write Excel 2010 xlsx\/xlsm files
 
-======== ===========
-Home     http://openpyxl.readthedocs.org
-Versions 1.8.6, 2.4.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openpyxl
+============= ===========
+Home          http://openpyxl.readthedocs.org
+Versions      1.8.6, 2.4.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openpyxl
 
-======== ===========
+
+
+============= ===========
 
 
 

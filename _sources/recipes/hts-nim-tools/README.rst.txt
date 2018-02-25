@@ -7,13 +7,15 @@ hts-nim-tools
 
 useful command\-line tools written to show\-case hts\-nim
 
-======== ===========
-Home     https://github.com/brentp/hts-nim-tools
-Versions 0.1.5
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools
+============= ===========
+Home          https://github.com/brentp/hts-nim-tools
+Versions      0.1.5
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hts-nim-tools
 
-======== ===========
+
+
+============= ===========
 
 
 

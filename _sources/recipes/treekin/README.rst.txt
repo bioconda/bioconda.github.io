@@ -7,13 +7,15 @@ treekin
 
 Compute folding dynamics on coarse grained version of an energy landscape by numeric integration of a Markov process
 
-======== ===========
-Home     https://www.tbi.univie.ac.at/RNA/Barriers/
-Versions 0.4.2
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin/0.4.2
+============= ===========
+Home          https://www.tbi.univie.ac.at/RNA/Barriers/
+Versions      0.4.2
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treekin/0.4.2
 
-======== ===========
+
+
+============= ===========
 
 
 

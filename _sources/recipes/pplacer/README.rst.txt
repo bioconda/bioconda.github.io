@@ -7,13 +7,15 @@ pplacer
 
 Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment\.
 
-======== ===========
-Home     http://matsen.fredhutch.org/pplacer/
-Versions 1.1.alpha17
-License  GNU General Public License v3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pplacer
+============= ===========
+Home          http://matsen.fredhutch.org/pplacer/
+Versions      1.1.alpha17
+License       GNU General Public License v3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pplacer
 
-======== ===========
+
+
+============= ===========
 
 
 

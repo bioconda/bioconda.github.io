@@ -7,13 +7,15 @@ norns
 
 Simple yaml\-based config module
 
-======== ===========
-Home     https://github.com/simonvh/norns
-Versions 0.1.2
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/norns
+============= ===========
+Home          https://github.com/simonvh/norns
+Versions      0.1.2
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/norns
 
-======== ===========
+
+
+============= ===========
 
 
 

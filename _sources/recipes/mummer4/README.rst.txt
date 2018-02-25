@@ -7,13 +7,15 @@ mummer4
 
 MUMmer is a system for rapidly aligning entire genomes
 
-======== ===========
-Home     https://mummer4.github.io/
-Versions 4.0.0beta2
-License  The Artistic License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer4
+============= ===========
+Home          https://mummer4.github.io/
+Versions      4.0.0beta2
+License       The Artistic License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mummer4
 
-======== ===========
+
+
+============= ===========
 
 
 

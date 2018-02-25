@@ -14,13 +14,15 @@ whole\-genome allele\-specific copy number profiles \(the number of copies of
 both parental alleles for all SNP loci across the genome\)\.
 
 
-======== ===========
-Home     https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
-Versions 2.5
-License  GPL v3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat
+============= ===========
+Home          https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
+Versions      2.5
+License       GPL v3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat
 
-======== ===========
+
+
+============= ===========
 
 
 

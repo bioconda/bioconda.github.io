@@ -7,13 +7,15 @@ bioconductor-chronos
 
 A package used for efficient unraveling of the inherent dynamic properties of pathways\. MicroRNA\-mediated subpathway topologies are extracted and evaluated by exploiting the temporal transition and the fold change activity of the linked genes\/microRNAs\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/CHRONOS.html
-Versions 1.4.0, 1.6.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chronos
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/CHRONOS.html
+Versions      1.4.0, 1.6.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chronos
 
-======== ===========
+
+
+============= ===========
 
 
 

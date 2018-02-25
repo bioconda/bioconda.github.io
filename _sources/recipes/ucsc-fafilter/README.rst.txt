@@ -7,13 +7,15 @@ ucsc-fafilter
 
 Filter fa records\, selecting ones that match the specified conditions
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafilter
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fafilter
 
-======== ===========
+
+
+============= ===========
 
 
 

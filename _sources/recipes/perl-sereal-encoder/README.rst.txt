@@ -7,13 +7,15 @@ perl-sereal-encoder
 
 Fast\, compact\, powerful binary serialization
 
-======== ===========
-Home     http://metacpan.org/pod/Sereal::Encoder
-Versions 3.015
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder
+============= ===========
+Home          http://metacpan.org/pod/Sereal::Encoder
+Versions      3.015
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder
 
-======== ===========
+
+
+============= ===========
 
 
 

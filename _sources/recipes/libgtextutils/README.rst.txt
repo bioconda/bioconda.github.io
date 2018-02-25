@@ -7,13 +7,15 @@ libgtextutils
 
 Gordon Text utils Library
 
-======== ===========
-Home     https://github.com/agordon/libgtextutils
-Versions 0.7
-License  AGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgtextutils
+============= ===========
+Home          https://github.com/agordon/libgtextutils
+Versions      0.7
+License       AGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgtextutils
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-vcftools-vcf
 
 cpanm ready distribution of VCFtools Perl libraries
 
-======== ===========
-Home     https://github.com/vcftools/vcftools
-Versions 0.1.14, 0.797, 0.840, 0.953
-License  LGPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vcftools-vcf
+============= ===========
+Home          https://github.com/vcftools/vcftools
+Versions      0.1.14, 0.797, 0.840, 0.953
+License       LGPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vcftools-vcf
 
-======== ===========
+
+
+============= ===========
 
 
 

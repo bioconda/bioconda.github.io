@@ -7,13 +7,15 @@ flask-admin
 
 Simple and extensible admin interface framework for Flask
 
-======== ===========
-Home     https://github.com/flask-admin/flask-admin/
-Versions 1.4.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-admin
+============= ===========
+Home          https://github.com/flask-admin/flask-admin/
+Versions      1.4.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-admin
 
-======== ===========
+
+
+============= ===========
 
 
 

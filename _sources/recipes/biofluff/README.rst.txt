@@ -7,13 +7,15 @@ biofluff
 
 Exploratory analysis and visualization of high\-throughput sequencing data
 
-======== ===========
-Home     https://github.com/simonvh/fluff
-Versions 2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.1.2, 2.1.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff
+============= ===========
+Home          https://github.com/simonvh/fluff
+Versions      2.0.1, 2.0.2, 2.1.0, 2.1.1, 2.1.2, 2.1.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biofluff
 
-======== ===========
+
+
+============= ===========
 
 
 

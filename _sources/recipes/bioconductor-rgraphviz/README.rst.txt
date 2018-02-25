@@ -7,13 +7,15 @@ bioconductor-rgraphviz
 
 Interfaces R with the AT and T graphviz library for plotting R graph objects from the graph package\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Rgraphviz.html
-Versions 2.13.0, 2.14.0, 2.16.0, 2.20.0, 2.22.0
-License  EPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Rgraphviz.html
+Versions      2.13.0, 2.14.0, 2.16.0, 2.20.0, 2.22.0
+License       EPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgraphviz
 
-======== ===========
+
+
+============= ===========
 
 
 

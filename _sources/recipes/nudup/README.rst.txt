@@ -7,13 +7,15 @@ nudup
 
 Marks\/removes duplicate molecules based on the molecular tagging technology used in NuGEN products\.
 
-======== ===========
-Home     http://nugentechnologies.github.io/nudup/
-Versions 2.2_post2016104, 2.3.1, 2.3.2, 2.3.3
-License  GNU Lesser General Public License 3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nudup
+============= ===========
+Home          http://nugentechnologies.github.io/nudup/
+Versions      2.2_post2016104, 2.3.1, 2.3.2, 2.3.3
+License       GNU Lesser General Public License 3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nudup
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pyomo
 
 Pyomo\: Python Optimization Modeling Objects
 
-======== ===========
-Home     http://pyomo.org
-Versions 4.1.10527
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyomo
+============= ===========
+Home          http://pyomo.org
+Versions      4.1.10527
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyomo
 
-======== ===========
+
+
+============= ===========
 
 
 

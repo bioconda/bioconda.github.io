@@ -7,13 +7,15 @@ bioconductor-bus
 
 This package can be used to compute associations among genes \(gene\-networks\) or between genes and some external traits \(i\.e\. clinical\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BUS.html
-Versions 1.34.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BUS.html
+Versions      1.34.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bus
 
-======== ===========
+
+
+============= ===========
 
 
 

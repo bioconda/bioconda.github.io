@@ -7,13 +7,15 @@ yass
 
 YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format\.
 
-======== ===========
-Home     http://bioinfo.lifl.fr/yass/
-Versions 1.14
-License  CeCILL Free Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yass
+============= ===========
+Home          http://bioinfo.lifl.fr/yass/
+Versions      1.14
+License       CeCILL Free Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yass
 
-======== ===========
+
+
+============= ===========
 
 
 

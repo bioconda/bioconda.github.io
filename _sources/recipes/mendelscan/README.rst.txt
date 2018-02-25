@@ -7,13 +7,15 @@ mendelscan
 
 Analyze exome data for Mendelian disorders\.
 
-======== ===========
-Home     https://github.com/genome/mendelscan
-Versions v1.2.2
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mendelscan
+============= ===========
+Home          https://github.com/genome/mendelscan
+Versions      v1.2.2
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mendelscan
 
-======== ===========
+
+
+============= ===========
 
 
 

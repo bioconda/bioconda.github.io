@@ -7,13 +7,15 @@ pbh5tools
 
 A swiss\-army knife for interrogating PacBio® HDF5 files \(cmp\.h5\, bas\.h5\)\.
 
-======== ===========
-Home     https://github.com/PacificBiosciences/pbh5tools
-Versions 0.8.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbh5tools
+============= ===========
+Home          https://github.com/PacificBiosciences/pbh5tools
+Versions      0.8.0
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbh5tools
 
-======== ===========
+
+
+============= ===========
 
 
 

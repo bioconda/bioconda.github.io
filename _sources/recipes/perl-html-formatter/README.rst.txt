@@ -7,13 +7,15 @@ perl-html-formatter
 
 Base class for HTML formatters
 
-======== ===========
-Home     https://metacpan.org/release/HTML-Formatter
-Versions 2.14
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-formatter
+============= ===========
+Home          https://metacpan.org/release/HTML-Formatter
+Versions      2.14
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-formatter
 
-======== ===========
+
+
+============= ===========
 
 
 

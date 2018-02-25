@@ -7,13 +7,15 @@ helperlibs
 
 A collection of bioinformatics\-related helper functions
 
-======== ===========
-Home     https://github.com/kblin/bioinf-helperlibs/wiki
-Versions 0.1.8
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs
+============= ===========
+Home          https://github.com/kblin/bioinf-helperlibs/wiki
+Versions      0.1.8
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs
 
-======== ===========
+
+
+============= ===========
 
 
 

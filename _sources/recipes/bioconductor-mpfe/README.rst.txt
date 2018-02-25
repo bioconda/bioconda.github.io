@@ -7,13 +7,15 @@ bioconductor-mpfe
 
 Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non\-conversion rate and read error rate\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MPFE.html
-Versions 1.12.0, 1.14.0
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MPFE.html
+Versions      1.12.0, 1.14.0
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpfe
 
-======== ===========
+
+
+============= ===========
 
 
 

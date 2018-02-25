@@ -7,13 +7,15 @@ xsv
 
 A fast CSV toolkit written in Rust\.
 
-======== ===========
-Home     https://github.com/BurntSushi/xsv
-Versions 0.10.3, 0.9.8
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xsv
+============= ===========
+Home          https://github.com/BurntSushi/xsv
+Versions      0.10.3, 0.9.8
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xsv
 
-======== ===========
+
+
+============= ===========
 
 
 

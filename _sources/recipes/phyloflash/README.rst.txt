@@ -9,13 +9,15 @@ phyloFlash is a pipeline to rapidly reconstruct the SSU rRNAs and explore
 phylogenetic composition of an illumina \(meta\)genomic dataset\.
 
 
-======== ===========
-Home     https://github.com/HRGV/phyloFlash
-Versions 2.0beta6, 3.0b1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloflash
+============= ===========
+Home          https://github.com/HRGV/phyloFlash
+Versions      2.0beta6, 3.0b1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyloflash
 
-======== ===========
+
+
+============= ===========
 
 
 

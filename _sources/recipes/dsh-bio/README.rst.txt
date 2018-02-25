@@ -7,13 +7,15 @@ dsh-bio
 
 Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, and VCF files
 
-======== ===========
-Home     https://github.com/heuermh/dishevelled-bio
-Versions 1.0, 1.0.1
-License  LGPL version 3 or later
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsh-bio
+============= ===========
+Home          https://github.com/heuermh/dishevelled-bio
+Versions      1.0, 1.0.1
+License       LGPL version 3 or later
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsh-bio
 
-======== ===========
+
+
+============= ===========
 
 
 

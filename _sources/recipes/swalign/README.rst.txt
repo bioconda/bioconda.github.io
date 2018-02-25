@@ -7,13 +7,15 @@ swalign
 
 Smith\-Waterman local aligner
 
-======== ===========
-Home     http://github.com/mbreese/swalign/
-Versions 0.3.3
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign
+============= ===========
+Home          http://github.com/mbreese/swalign/
+Versions      0.3.3
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign
 
-======== ===========
+
+
+============= ===========
 
 
 

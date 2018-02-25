@@ -10,13 +10,15 @@ Use it to view and edit sequence alignments\, analyse them with phylogenetic tre
 components analysis \(PCA\) plots and explore molecular structures and annotation\.
 
 
-======== ===========
-Home     http://www.jalview.org/
-Versions 2.10.2b2, 2.10.3, 2.10.3b1
-License  GNU GENERAL PUBLIC LICENSE, Version 3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview
+============= ===========
+Home          http://www.jalview.org/
+Versions      2.10.2b2, 2.10.3, 2.10.3b1
+License       GNU GENERAL PUBLIC LICENSE, Version 3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jalview
 
-======== ===========
+
+
+============= ===========
 
 
 

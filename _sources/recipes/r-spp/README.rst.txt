@@ -7,13 +7,15 @@ r-spp
 
 ChIP\-seq peak caller
 
-======== ===========
-Home     http://compbio.med.harvard.edu/Supplements/ChIP-seq
-Versions 1.11, 1.13, 1.14, 1.14post, 1.15.2
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp
+============= ===========
+Home          http://compbio.med.harvard.edu/Supplements/ChIP-seq
+Versions      1.11, 1.13, 1.14, 1.14post, 1.15.2
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp
 
-======== ===========
+
+
+============= ===========
 
 
 

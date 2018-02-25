@@ -7,13 +7,15 @@ bfc
 
 BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data\.
 
-======== ===========
-Home     https://github.com/lh3/bfc
-Versions r181
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc
+============= ===========
+Home          https://github.com/lh3/bfc
+Versions      r181
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bfc
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,17 @@ paladin
 
 Protein Alignment and Detection Interface
 
-======== ===========
-Home     http://genomebio.org/paladin/
-Versions 1.3.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin
+============= ===========
+Home          http://genomebio.org/paladin/
+Versions      1.3.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin
 
-======== ===========
+
+Development   https://github.com/twestbrookunh/paladin
+
+
+============= ===========
 
 PALADIN is a protein sequence alignment tool designed for the accurate
 functional characterization of metagenomes\.

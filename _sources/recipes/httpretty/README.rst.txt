@@ -7,13 +7,15 @@ httpretty
 
 HTTP client mock for Python
 
-======== ===========
-Home     http://github.com/gabrielfalcao/httpretty
-Versions 0.8.10
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/httpretty
+============= ===========
+Home          http://github.com/gabrielfalcao/httpretty
+Versions      0.8.10
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/httpretty
 
-======== ===========
+
+
+============= ===========
 
 
 

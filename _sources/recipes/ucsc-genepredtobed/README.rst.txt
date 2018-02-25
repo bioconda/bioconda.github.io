@@ -7,13 +7,15 @@ ucsc-genepredtobed
 
 Convert from genePred to bed format\. Does not yet handle genePredExt
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobed
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      324, 332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobed
 
-======== ===========
+
+
+============= ===========
 
 
 

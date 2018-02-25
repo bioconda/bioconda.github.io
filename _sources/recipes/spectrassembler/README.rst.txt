@@ -7,13 +7,15 @@ spectrassembler
 
 Tool \(experimental\) to compute layout from overlaps with spectral algorithm
 
-======== ===========
-Home     https://github.com/antrec/spectrassembler
-Versions 0.0.1a1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectrassembler
+============= ===========
+Home          https://github.com/antrec/spectrassembler
+Versions      0.0.1a1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectrassembler
 
-======== ===========
+
+
+============= ===========
 
 
 

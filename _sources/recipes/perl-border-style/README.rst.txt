@@ -7,13 +7,15 @@ perl-border-style
 
 Border style structure
 
-======== ===========
-Home     https://metacpan.org/release/Border-Style
-Versions 0.01
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-border-style
+============= ===========
+Home          https://metacpan.org/release/Border-Style
+Versions      0.01
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-border-style
 
-======== ===========
+
+
+============= ===========
 
 
 

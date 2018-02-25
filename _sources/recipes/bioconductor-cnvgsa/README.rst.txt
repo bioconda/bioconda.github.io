@@ -7,13 +7,15 @@ bioconductor-cnvgsa
 
 This package is intended to facilitate gene\-set association with rare CNVs in case\-control studies\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/cnvGSA.html
-Versions 1.22.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/cnvGSA.html
+Versions      1.22.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvgsa
 
-======== ===========
+
+
+============= ===========
 
 
 

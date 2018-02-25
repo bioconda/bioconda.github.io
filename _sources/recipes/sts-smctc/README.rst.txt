@@ -7,13 +7,15 @@ sts-smctc
 
 A C\+\+ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms\.
 
-======== ===========
-Home     https://github.com/matsengrp/smctc
-Versions 1.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sts-smctc
+============= ===========
+Home          https://github.com/matsengrp/smctc
+Versions      1.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sts-smctc
 
-======== ===========
+
+
+============= ===========
 
 
 

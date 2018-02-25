@@ -7,13 +7,15 @@ glpk
 
 GNU Linear Programming Kit
 
-======== ===========
-Home     https://www.gnu.org/software/glpk/
-Versions 4.56, 4.57
-License  GNU General Public License v3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glpk
+============= ===========
+Home          https://www.gnu.org/software/glpk/
+Versions      4.56, 4.57
+License       GNU General Public License v3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glpk
 
-======== ===========
+
+
+============= ===========
 
 
 

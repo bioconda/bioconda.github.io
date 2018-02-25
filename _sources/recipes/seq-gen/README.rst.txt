@@ -7,13 +7,15 @@ seq-gen
 
 Seq\-Gen is a program that will simulate the evolution of nucleotide or amino acid sequences along a phylogeny\, using common models of the substitution process\.
 
-======== ===========
-Home     http://tree.bio.ed.ac.uk/software/Seq-Gen/
-Versions 1.3.3
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-gen
+============= ===========
+Home          http://tree.bio.ed.ac.uk/software/Seq-Gen/
+Versions      1.3.3
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-gen
 
-======== ===========
+
+
+============= ===========
 
 
 

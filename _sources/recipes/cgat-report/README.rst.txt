@@ -7,13 +7,15 @@ cgat-report
 
 A report generator in python based on sphinx
 
-======== ===========
-Home     https://github.com/AndreasHeger/CGATReport
-Versions 0.3.7, 0.7.6.1
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-report
+============= ===========
+Home          https://github.com/AndreasHeger/CGATReport
+Versions      0.3.7, 0.7.6.1
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-report
 
-======== ===========
+
+
+============= ===========
 
 
 

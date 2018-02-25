@@ -7,13 +7,15 @@ dfam
 
 The Dfam database is a collection of Repetitive DNA element sequence alignments\, hidden Markov models \(HMMs\) and matches lists for complete Eukaryote genomes
 
-======== ===========
-Home     dfam.org
-Versions 2.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfam
+============= ===========
+Home          dfam.org
+Versions      2.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfam
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pileometh
 
 A \(mostly\) universal methylation extractor for BS\-seq experiments\.
 
-======== ===========
-Home     https://github.com/dpryan79/PileOMeth
-Versions 0.1.13
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pileometh
+============= ===========
+Home          https://github.com/dpryan79/PileOMeth
+Versions      0.1.13
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pileometh
 
-======== ===========
+
+
+============= ===========
 
 
 

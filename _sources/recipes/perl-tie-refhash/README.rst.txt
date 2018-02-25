@@ -7,13 +7,15 @@ perl-tie-refhash
 
 use references as hash keys
 
-======== ===========
-Home     http://metacpan.org/pod/Tie::RefHash
-Versions 1.39
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-refhash/1.39
+============= ===========
+Home          http://metacpan.org/pod/Tie::RefHash
+Versions      1.39
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-refhash/1.39
 
-======== ===========
+
+
+============= ===========
 
 
 

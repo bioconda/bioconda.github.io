@@ -7,13 +7,15 @@ glimmerhmm
 
 GlimmerHMM is a gene finder based on a Generalized Hidden Markov Model \(GHMM\)
 
-======== ===========
-Home     https://ccb.jhu.edu/software/glimmerhmm/
-Versions 3.0.4
-License  Artistic License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerHMM
+============= ===========
+Home          https://ccb.jhu.edu/software/glimmerhmm/
+Versions      3.0.4
+License       Artistic License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmerHMM
 
-======== ===========
+
+
+============= ===========
 
 
 

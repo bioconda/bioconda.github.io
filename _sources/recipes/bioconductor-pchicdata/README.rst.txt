@@ -7,13 +7,15 @@ bioconductor-pchicdata
 
 Subsets of Promoter Capture Hi\-C data conveniently packaged for Chicago users\. Data includes interactions detected for chromosomes 20 and 21 in GM12878 cells and for chromosomes 18 and 19 in mESC\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/PCHiCdata.html
-Versions 1.2.0, 1.4.0, 1.6.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/PCHiCdata.html
+Versions      1.2.0, 1.4.0, 1.6.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pchicdata
 
-======== ===========
+
+
+============= ===========
 
 
 

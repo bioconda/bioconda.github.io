@@ -7,13 +7,15 @@ bioconductor-sigar
 
 Facilitates the joint analysis of high\-throughput data from multiple molecular levels\. Contains functions for manipulation of objects\, various analysis types\, and some visualization\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/sigaR.html
-Versions 1.26.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/sigaR.html
+Versions      1.26.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigar
 
-======== ===========
+
+
+============= ===========
 
 
 

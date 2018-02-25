@@ -7,13 +7,15 @@ perl-par-packer
 
 PAR Packager
 
-======== ===========
-Home     http://metacpan.org/pod/PAR::Packer
-Versions 1.036
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-packer/1.036
+============= ===========
+Home          http://metacpan.org/pod/PAR::Packer
+Versions      1.036
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-packer/1.036
 
-======== ===========
+
+
+============= ===========
 
 
 

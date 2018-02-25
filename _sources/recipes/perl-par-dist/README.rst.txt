@@ -7,13 +7,15 @@ perl-par-dist
 
 Create and manipulate PAR distributions
 
-======== ===========
-Home     http://metacpan.org/pod/PAR::Dist
-Versions 0.49
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-dist/0.49
+============= ===========
+Home          http://metacpan.org/pod/PAR::Dist
+Versions      0.49
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-dist/0.49
 
-======== ===========
+
+
+============= ===========
 
 
 

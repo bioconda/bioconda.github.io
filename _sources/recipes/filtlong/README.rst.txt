@@ -7,13 +7,15 @@ filtlong
 
 Filtlong is a tool for filtering long reads\. It can take a set of long reads and produce a smaller\, better subset\. It uses both read length \(longer is better\) and read identity \(higher is better\) when choosing which reads pass the filter\.
 
-======== ===========
-Home     https://github.com/rrwick/Filtlong
-Versions 0.1.0, 0.1.1, 0.2.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filtlong
+============= ===========
+Home          https://github.com/rrwick/Filtlong
+Versions      0.1.0, 0.1.1, 0.2.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/filtlong
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ squeakr
 
 An Exact and Approximate k\-mmer Counting System
 
-======== ===========
-Home     https://github.com/splatlab/squeakr
-Versions 0.5
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squeakr
+============= ===========
+Home          https://github.com/splatlab/squeakr
+Versions      0.5
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squeakr
 
-======== ===========
+
+
+============= ===========
 
 
 

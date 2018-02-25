@@ -7,13 +7,15 @@ perl-termreadkey
 
 A perl module for simple terminal control
 
-======== ===========
-Home     http://metacpan.org/pod/TermReadKey
-Versions 2.32
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey
+============= ===========
+Home          http://metacpan.org/pod/TermReadKey
+Versions      2.32
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey
 
-======== ===========
+
+
+============= ===========
 
 
 

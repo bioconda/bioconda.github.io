@@ -7,13 +7,15 @@ perl-hpc-runner
 
 HPC Runner\:\:Slurm\, Runner\:\:MCE and Runner\:\:Threads base class
 
-======== ===========
-Home     http://metacpan.org/pod/HPC-Runner
-Versions 2.48
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner
+============= ===========
+Home          http://metacpan.org/pod/HPC-Runner
+Versions      2.48
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner
 
-======== ===========
+
+
+============= ===========
 
 
 

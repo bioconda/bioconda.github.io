@@ -7,13 +7,15 @@ perl-test-longstring
 
 tests strings for equality\, with more helpful failures
 
-======== ===========
-Home     http://metacpan.org/pod/Test::LongString
-Versions 0.17
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-longstring
+============= ===========
+Home          http://metacpan.org/pod/Test::LongString
+Versions      0.17
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-longstring
 
-======== ===========
+
+
+============= ===========
 
 
 

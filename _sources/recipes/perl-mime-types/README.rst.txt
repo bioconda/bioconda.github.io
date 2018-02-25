@@ -7,13 +7,15 @@ perl-mime-types
 
 Definition of MIME types
 
-======== ===========
-Home     http://metacpan.org/pod/MIME-Types
-Versions 2.12
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-types
+============= ===========
+Home          http://metacpan.org/pod/MIME-Types
+Versions      2.12
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-types
 
-======== ===========
+
+
+============= ===========
 
 
 

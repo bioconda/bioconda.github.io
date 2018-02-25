@@ -7,13 +7,15 @@ bioconductor-bsgenome.celegans.ucsc.ce6
 
 Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce6\, May 2008\) and stored in Biostrings objects\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Celegans.UCSC.ce6.html
-Versions 1.4.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce6
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Celegans.UCSC.ce6.html
+Versions      1.4.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.celegans.ucsc.ce6
 
-======== ===========
+
+
+============= ===========
 
 
 

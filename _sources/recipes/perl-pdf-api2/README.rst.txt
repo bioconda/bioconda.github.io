@@ -7,13 +7,15 @@ perl-pdf-api2
 
 Facilitates the creation and modification of PDF files
 
-======== ===========
-Home     https://metacpan.org/pod/PDF::API2
-Versions 2.025
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2
+============= ===========
+Home          https://metacpan.org/pod/PDF::API2
+Versions      2.025
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2
 
-======== ===========
+
+
+============= ===========
 
 
 

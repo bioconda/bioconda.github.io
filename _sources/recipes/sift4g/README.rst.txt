@@ -7,13 +7,15 @@ sift4g
 
 SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms\.
 
-======== ===========
-Home     http://sift.bii.a-star.edu.sg/sift4g/
-Versions 2.0.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sift4g
+============= ===========
+Home          http://sift.bii.a-star.edu.sg/sift4g/
+Versions      2.0.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sift4g
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ ropebwt2
 
 Incremental construction of FM\-index for DNA sequences
 
-======== ===========
-Home     https://github.com/lh3/ropebwt2
-Versions r187
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2
+============= ===========
+Home          https://github.com/lh3/ropebwt2
+Versions      r187
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ropebwt2
 
-======== ===========
+
+
+============= ===========
 
 
 

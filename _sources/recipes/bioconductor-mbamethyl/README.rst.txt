@@ -7,13 +7,15 @@ bioconductor-mbamethyl
 
 This package provides a function for reconstructing DNA methylation values from raw measurements\. It iteratively implements the group fused lars to smooth related\-by\-location methylation values and the constrained least squares to remove probe affinity effect across multiple sequences\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MBAmethyl.html
-Versions 1.10.0, 1.12.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbamethyl
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MBAmethyl.html
+Versions      1.10.0, 1.12.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbamethyl
 
-======== ===========
+
+
+============= ===========
 
 
 

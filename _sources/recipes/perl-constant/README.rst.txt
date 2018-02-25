@@ -7,13 +7,15 @@ perl-constant
 
 Perl pragma to declare constants
 
-======== ===========
-Home     https://metacpan.org/module/constant
-Versions 1.33
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-constant/1.33
+============= ===========
+Home          https://metacpan.org/module/constant
+Versions      1.33
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-constant/1.33
 
-======== ===========
+
+
+============= ===========
 
 
 

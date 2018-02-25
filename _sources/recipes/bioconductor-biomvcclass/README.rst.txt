@@ -7,13 +7,15 @@ bioconductor-biomvcclass
 
 Creates classes used in model\-view\-controller \(MVC\) design
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BioMVCClass.html
-Versions 1.46.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BioMVCClass.html
+Versions      1.46.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomvcclass
 
-======== ===========
+
+
+============= ===========
 
 
 

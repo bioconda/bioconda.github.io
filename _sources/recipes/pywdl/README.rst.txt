@@ -7,13 +7,15 @@ pywdl
 
 A Python implementation of a WDL parser and language bindings\.
 
-======== ===========
-Home     https://github.com/broadinstitute/pywdl
-Versions 1.0.22
-License  Apache v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pywdl
+============= ===========
+Home          https://github.com/broadinstitute/pywdl
+Versions      1.0.22
+License       Apache v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pywdl
 
-======== ===========
+
+
+============= ===========
 
 
 

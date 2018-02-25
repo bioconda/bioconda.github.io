@@ -7,13 +7,15 @@ genologics
 
 Python interface to the GenoLogics LIMS \(Laboratory Information Management System\) server via its REST API\.
 
-======== ===========
-Home     https://github.com/scilifelab/genologics
-Versions 0.3.12.post0
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genologics
+============= ===========
+Home          https://github.com/scilifelab/genologics
+Versions      0.3.12.post0
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genologics
 
-======== ===========
+
+
+============= ===========
 
 
 

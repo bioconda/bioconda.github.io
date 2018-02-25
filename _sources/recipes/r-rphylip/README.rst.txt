@@ -7,13 +7,15 @@ r-rphylip
 
 Rphylip provides an R interface for the PHYLIP package\. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package \(Felsenstein 2013\)\. See http\:\/\/www\.phylip\.com for more  information about installing PHYLIP\.
 
-======== ===========
-Home     http://www.phytools.org/Rphylip
-Versions 0.1_23
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphylip
+============= ===========
+Home          http://www.phytools.org/Rphylip
+Versions      0.1_23
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphylip
 
-======== ===========
+
+
+============= ===========
 
 
 

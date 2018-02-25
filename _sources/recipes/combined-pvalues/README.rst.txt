@@ -10,13 +10,15 @@ Unique tools involve correction for spatial autocorrelation\.
 This is useful for ChIP\-Seq probes and Tiling arrays\, or any data with spatial correlation\.
 
 
-======== ===========
-Home     https://github.com/brentp/combined-pvalues
-Versions 0.46, 0.48
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/combined-pvalues
+============= ===========
+Home          https://github.com/brentp/combined-pvalues
+Versions      0.46, 0.48
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/combined-pvalues
 
-======== ===========
+
+
+============= ===========
 
 
 

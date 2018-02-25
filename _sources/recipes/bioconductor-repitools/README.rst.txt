@@ -7,13 +7,15 @@ bioconductor-repitools
 
 Tools for the analysis of enrichment\-based epigenomic data\.  Features include summarization and visualization of epigenomic data across promoters according to gene expression context\, finding regions of differential methylation\/binding\, BayMeth for quantifying methylation etc\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Repitools.html
-Versions 1.20.0, 1.22.0, 1.24.0
-License  LGPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Repitools.html
+Versions      1.20.0, 1.22.0, 1.24.0
+License       LGPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-repitools
 
-======== ===========
+
+
+============= ===========
 
 
 

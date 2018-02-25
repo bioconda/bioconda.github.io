@@ -7,13 +7,15 @@ bioconductor-prada
 
 Tools for analysing and navigating data from high\-throughput phenotyping experiments based on cellular assays and fluorescent detection \(flow cytometry \(FACS\)\, high\-content screening microscopy\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/prada.html
-Versions 1.52.0, 1.54.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/prada.html
+Versions      1.52.0, 1.54.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prada
 
-======== ===========
+
+
+============= ===========
 
 
 

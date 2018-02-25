@@ -7,13 +7,15 @@ svgutils
 
 Python SVG editor that allows to automatically create publication ready composite SVG figures\.
 
-======== ===========
-Home     http://neuroscience.telenczuk.pl
-Versions 0.1.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svgutils
+============= ===========
+Home          http://neuroscience.telenczuk.pl
+Versions      0.1.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svgutils
 
-======== ===========
+
+
+============= ===========
 
 
 

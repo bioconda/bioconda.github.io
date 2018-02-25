@@ -7,13 +7,15 @@ treemaker
 
 A python tool for generating a Newick formatted tree from alist of classifications
 
-======== ===========
-Home     https://github.com/SimonGreenhill/treemaker
-Versions 1.1
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker
+============= ===========
+Home          https://github.com/SimonGreenhill/treemaker
+Versions      1.1
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker
 
-======== ===========
+
+
+============= ===========
 
 
 

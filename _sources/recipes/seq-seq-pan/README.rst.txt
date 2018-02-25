@@ -7,13 +7,15 @@ seq-seq-pan
 
 seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment\.
 
-======== ===========
-Home     https://gitlab.com/chrjan/seq-seq-pan
-Versions 1.0.0
-License  FreeBSDLicense
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan
+============= ===========
+Home          https://gitlab.com/chrjan/seq-seq-pan
+Versions      1.0.0
+License       FreeBSDLicense
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan
 
-======== ===========
+
+
+============= ===========
 
 
 

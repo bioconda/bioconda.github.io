@@ -7,13 +7,15 @@ r-icluster
 
 Integrative clustering of multiple genomic data types using a joint latent variable model\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=iCluster
-Versions 2.1.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-icluster
+============= ===========
+Home          https://CRAN.R-project.org/package=iCluster
+Versions      2.1.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-icluster
 
-======== ===========
+
+
+============= ===========
 
 
 

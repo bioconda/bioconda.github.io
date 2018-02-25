@@ -7,13 +7,15 @@ perl-test-eol
 
 Check the correct line endings in your project
 
-======== ===========
-Home     http://metacpan.org/release/Test-EOL
-Versions 1.6
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-eol
+============= ===========
+Home          http://metacpan.org/release/Test-EOL
+Versions      1.6
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-eol
 
-======== ===========
+
+
+============= ===========
 
 
 

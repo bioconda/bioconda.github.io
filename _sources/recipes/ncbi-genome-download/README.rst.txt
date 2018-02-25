@@ -7,13 +7,15 @@ ncbi-genome-download
 
 Download genome files from the NCBI FTP server\.
 
-======== ===========
-Home     https://github.com/kblin/ncbi-genome-download/
-Versions 0.1.8, 0.2.0, 0.2.2, 0.2.4, 0.2.5
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download
+============= ===========
+Home          https://github.com/kblin/ncbi-genome-download/
+Versions      0.1.8, 0.2.0, 0.2.2, 0.2.4, 0.2.5
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncbi-genome-download
 
-======== ===========
+
+
+============= ===========
 
 
 

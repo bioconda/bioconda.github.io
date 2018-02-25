@@ -7,13 +7,15 @@ perl-symbol-util
 
 Additional utils for Perl symbols manipulation
 
-======== ===========
-Home     http://metacpan.org/pod/Symbol::Util
-Versions 0.0203
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util/0.0203
+============= ===========
+Home          http://metacpan.org/pod/Symbol::Util
+Versions      0.0203
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol-util/0.0203
 
-======== ===========
+
+
+============= ===========
 
 
 

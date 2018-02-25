@@ -7,13 +7,15 @@ voluptuous
 
 Python data validation library
 
-======== ===========
-Home     https://github.com/alecthomas/voluptuous
-Versions 0.8.8
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/voluptuous
+============= ===========
+Home          https://github.com/alecthomas/voluptuous
+Versions      0.8.8
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/voluptuous
 
-======== ===========
+
+
+============= ===========
 
 
 

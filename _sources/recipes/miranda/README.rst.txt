@@ -7,13 +7,15 @@ miranda
 
 An algorithm for finding genomic targets for microRNAs
 
-======== ===========
-Home     http://www.microrna.org/
-Versions 3.3a
-License  GPLv2 + RNAlib license (no commercial redistribution)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miranda
+============= ===========
+Home          http://www.microrna.org/
+Versions      3.3a
+License       GPLv2 + RNAlib license (no commercial redistribution)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/miranda
 
-======== ===========
+
+
+============= ===========
 
 
 

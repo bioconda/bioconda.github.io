@@ -7,13 +7,15 @@ e-pcr
 
 e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences\.\.
 
-======== ===========
-Home     http://www.ncbi.nlm.nih.gov/tools/epcr/
-Versions 2.3.12
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e-pcr
+============= ===========
+Home          http://www.ncbi.nlm.nih.gov/tools/epcr/
+Versions      2.3.12
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e-pcr
 
-======== ===========
+
+
+============= ===========
 
 
 

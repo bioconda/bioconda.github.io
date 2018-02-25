@@ -7,13 +7,15 @@ peewee
 
 a little orm
 
-======== ===========
-Home     http://github.com/coleifer/peewee/
-Versions 2.8.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peewee
+============= ===========
+Home          http://github.com/coleifer/peewee/
+Versions      2.8.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peewee
 
-======== ===========
+
+
+============= ===========
 
 
 

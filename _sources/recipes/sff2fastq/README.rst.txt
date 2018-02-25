@@ -7,13 +7,15 @@ sff2fastq
 
 Extract 454 Genome Sequencer reads from a SFF file and convert them into a FASTQ formatted output
 
-======== ===========
-Home     https://github.com/indraniel/sff2fastq
-Versions 0.9.2
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sff2fastq
+============= ===========
+Home          https://github.com/indraniel/sff2fastq
+Versions      0.9.2
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sff2fastq
 
-======== ===========
+
+
+============= ===========
 
 The program sff2fastq extracts read information from a SFF file\, produced by
 the 454 genome sequencer\, and outputs the sequences and quality scores in a

@@ -7,13 +7,19 @@ ncfp
 
 A program\/module to find nt sequences that code for aa sequences
 
-======== ===========
-Home     http://widdowquinn.github.io/ncfp/
-Versions 0.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp
+============= ===========
+Home          http://widdowquinn.github.io/ncfp/
+Versions      0.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp
 
-======== ===========
+Documentation https://ncfp.readthedocs.io/en/latest/
+
+
+Development   https://github.com/widdowquinn/ncfp
+
+
+============= ===========
 
 ncfp is a script and module that facilitates recovery of nucleotide sequences from NCBI that encode a set of input protein sequences
 

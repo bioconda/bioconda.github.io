@@ -7,13 +7,15 @@ galaxy-ops
 
 Galaxy interval operations
 
-======== ===========
-Home     https://github.com/galaxyproject/gops
-Versions 1.0.0, 1.1.0
-License  Academic Free License version 3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ops
+============= ===========
+Home          https://github.com/galaxyproject/gops
+Versions      1.0.0, 1.1.0
+License       Academic Free License version 3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ops
 
-======== ===========
+
+
+============= ===========
 
 
 

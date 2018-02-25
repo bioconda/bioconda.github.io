@@ -7,13 +7,15 @@ braker
 
 BRAKER1\: Unsupervised RNA\-Seq\-based genome annotation with GeneMark\-ET and AUGUSTUS
 
-======== ===========
-Home     http://bioinf.uni-greifswald.de/augustus/
-Versions 1.9
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker
+============= ===========
+Home          http://bioinf.uni-greifswald.de/augustus/
+Versions      1.9
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/braker
 
-======== ===========
+
+
+============= ===========
 
 
 

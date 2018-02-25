@@ -7,13 +7,15 @@ bioconductor-measurementerror.cor
 
 Two\-stage measurement error model for correlation estimation with smaller bias than the usual sample correlation
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MeasurementError.cor.html
-Versions 1.50.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MeasurementError.cor.html
+Versions      1.50.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-measurementerror.cor
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ nanofilt
 
 Filtering and trimming of Oxford Nanopore Sequencing data
 
-======== ===========
-Home     https://github.com/wdecoster/nanofilt
-Versions 1.1.3, 1.1.4, 1.2.0, 1.7.0, 1.8.0, 1.9.2
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanofilt
+============= ===========
+Home          https://github.com/wdecoster/nanofilt
+Versions      1.1.3, 1.1.4, 1.2.0, 1.7.0, 1.8.0, 1.9.2
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanofilt
 
-======== ===========
+
+
+============= ===========
 
 
 

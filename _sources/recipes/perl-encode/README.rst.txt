@@ -7,13 +7,15 @@ perl-encode
 
 allows you to write your script in non\-ASCII and non\-UTF\-8
 
-======== ===========
-Home     http://metacpan.org/pod/Encode
-Versions 2.88
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88
+============= ===========
+Home          http://metacpan.org/pod/Encode
+Versions      2.88
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode/2.88
 
-======== ===========
+
+
+============= ===========
 
 
 

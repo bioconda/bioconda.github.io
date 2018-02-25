@@ -7,13 +7,15 @@ pygraphviz
 
 Python interface to Graphviz
 
-======== ===========
-Home     http://pygraphviz.github.io
-Versions 1.3.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygraphviz
+============= ===========
+Home          http://pygraphviz.github.io
+Versions      1.3.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygraphviz
 
-======== ===========
+
+
+============= ===========
 
 
 

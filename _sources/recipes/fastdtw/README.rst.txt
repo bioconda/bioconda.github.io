@@ -7,13 +7,15 @@ fastdtw
 
 Dynamic Time Warping \(DTW\) algorithm with an O\(N\) time and memory complexity
 
-======== ===========
-Home     https://github.com/slaypni/fastdtw
-Versions 0.2.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastdtw
+============= ===========
+Home          https://github.com/slaypni/fastdtw
+Versions      0.2.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastdtw
 
-======== ===========
+
+
+============= ===========
 
 
 

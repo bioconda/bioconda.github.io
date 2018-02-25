@@ -7,13 +7,15 @@ dreamtools
 
 Scoring functions for the DREAM \/ SAGE challenges
 
-======== ===========
-Home     https://github.com/dreamtools/dreamtools
-Versions 1.2.5, 1.3.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools
+============= ===========
+Home          https://github.com/dreamtools/dreamtools
+Versions      1.2.5, 1.3.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dreamtools
 
-======== ===========
+
+
+============= ===========
 
 
 

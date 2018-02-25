@@ -7,13 +7,15 @@ pyimzml
 
 Parser for conversion of imzML 1\.1\.0 files
 
-======== ===========
-Home     https://github.com/alexandrovteam/pyimzML
-Versions 1.2.1
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimzml
+============= ===========
+Home          https://github.com/alexandrovteam/pyimzML
+Versions      1.2.1
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimzml
 
-======== ===========
+
+
+============= ===========
 
 
 

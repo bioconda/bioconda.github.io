@@ -7,13 +7,15 @@ snippy
 
 Rapid bacterial SNP calling and core genome alignments
 
-======== ===========
-Home     https://github.com/tseemann/snippy
-Versions 2.9, 3.0, 3.1, 3.2
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy
+============= ===========
+Home          https://github.com/tseemann/snippy
+Versions      2.9, 3.0, 3.1, 3.2
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snippy
 
-======== ===========
+
+
+============= ===========
 
 
 

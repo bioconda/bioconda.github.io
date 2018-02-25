@@ -7,13 +7,15 @@ perl-io-interactive
 
 Utilities for interactive I\/O
 
-======== ===========
-Home     https://github.com/briandfoy/io-interactive
-Versions 1.021
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive
+============= ===========
+Home          https://github.com/briandfoy/io-interactive
+Versions      1.021
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive
 
-======== ===========
+
+
+============= ===========
 
 
 

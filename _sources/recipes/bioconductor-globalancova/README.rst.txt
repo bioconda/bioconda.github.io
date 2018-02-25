@@ -7,13 +7,15 @@ bioconductor-globalancova
 
 We give the following arguments in support of the GlobalAncova approach\: After appropriate normalisation\, gene\-expression\-data appear rather symmetrical and outliers are no real problem\, so least squares should be rather robust\. ANCOVA with interaction yields saturated data modelling e\.g\. different means per group and gene\. Covariate adjustment can help to correct for possible selection bias\. Variance homogeneity and uncorrelated residuals cannot be expected\. Application of ordinary least squares gives unbiased\, but no longer optimal estimates \(Gauss\-Markov\-Aitken\)\. Therefore\, using the classical F\-test is inappropriate\, due to correlation\. The test statistic however mirrors deviations from the null hypothesis\. In combination with a permutation approach\, empirical significance levels can be approximated\. Alternatively\, an approximation yields asymptotic p\-values\. This work was supported by the NGFN grant 01 GR 0459\, BMBF\, Germany\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/GlobalAncova.html
-Versions 3.46.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalancova
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/GlobalAncova.html
+Versions      3.46.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalancova
 
-======== ===========
+
+
+============= ===========
 
 
 

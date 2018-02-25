@@ -7,13 +7,15 @@ perl-yaml
 
 YAML Ain\'t Markup Language
 
-======== ===========
-Home     https://github.com/ingydotnet/yaml-pm
-Versions 1.15, 1.18
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml
+============= ===========
+Home          https://github.com/ingydotnet/yaml-pm
+Versions      1.15, 1.18
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml
 
-======== ===========
+
+
+============= ===========
 
 
 

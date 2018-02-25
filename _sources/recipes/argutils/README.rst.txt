@@ -7,13 +7,15 @@ argutils
 
 Functions to build matched argument parsers and config files
 
-======== ===========
-Home     https://github.com/eclarke/argutils
-Versions 0.3.2
-License  GNU General Public License v2 or later (GPLv2+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/argutils
+============= ===========
+Home          https://github.com/eclarke/argutils
+Versions      0.3.2
+License       GNU General Public License v2 or later (GPLv2+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/argutils
 
-======== ===========
+
+
+============= ===========
 
 
 

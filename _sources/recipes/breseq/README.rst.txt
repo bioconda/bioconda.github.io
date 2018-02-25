@@ -7,13 +7,15 @@ breseq
 
 A computational pipeline for finding mutations relative to a reference sequence in short\-read DNA re\-sequencing data\.
 
-======== ===========
-Home     https://github.com/barricklab/breseq
-Versions 0.29.0, 0.31.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq
+============= ===========
+Home          https://github.com/barricklab/breseq
+Versions      0.29.0, 0.31.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq
 
-======== ===========
+
+
+============= ===========
 
 
 

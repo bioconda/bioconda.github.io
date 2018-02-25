@@ -7,13 +7,15 @@ bioconductor-altcdfenvs
 
 Convenience data structures and functions to handle cdfenvs
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/altcdfenvs.html
-Versions 2.40.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-altcdfenvs
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/altcdfenvs.html
+Versions      2.40.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-altcdfenvs
 
-======== ===========
+
+
+============= ===========
 
 
 

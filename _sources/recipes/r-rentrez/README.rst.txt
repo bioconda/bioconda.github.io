@@ -7,13 +7,15 @@ r-rentrez
 
 Provides an R interface to the NCBI\'s EUtils API allowing users to search databases like GenBank and PubMed\, process the results of those searches and pull data into their R sessions\.
 
-======== ===========
-Home     http://github.com/ropensci/rentrez
-Versions 1.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rentrez
+============= ===========
+Home          http://github.com/ropensci/rentrez
+Versions      1.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rentrez
 
-======== ===========
+
+
+============= ===========
 
 
 

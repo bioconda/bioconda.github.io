@@ -7,13 +7,15 @@ logbook
 
 A logging replacement for Python
 
-======== ===========
-Home     http://logbook.pocoo.org/
-Versions 0.12.2, 1.0.0
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logbook
+============= ===========
+Home          http://logbook.pocoo.org/
+Versions      0.12.2, 1.0.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logbook
 
-======== ===========
+
+
+============= ===========
 
 
 

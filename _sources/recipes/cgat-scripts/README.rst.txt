@@ -7,13 +7,15 @@ cgat-scripts
 
 Computational Genomics Analysis Toolkit
 
-======== ===========
-Home     https://www.cgat.org/downloads/public/cgat/documentation
-Versions 0.2.6, 0.2.7, 0.3.0, 0.3.1, 0.3.2
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-scripts
+============= ===========
+Home          https://www.cgat.org/downloads/public/cgat/documentation
+Versions      0.2.6, 0.2.7, 0.3.0, 0.3.1, 0.3.2
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-scripts
 
-======== ===========
+
+
+============= ===========
 
 
 

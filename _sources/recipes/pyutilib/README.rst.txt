@@ -7,13 +7,15 @@ pyutilib
 
 PyUtilib\: A collection of Python utilities
 
-======== ===========
-Home     https://software.sandia.gov/trac/pyutilib
-Versions 5.1.3556
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyutilib
+============= ===========
+Home          https://software.sandia.gov/trac/pyutilib
+Versions      5.1.3556
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyutilib
 
-======== ===========
+
+
+============= ===========
 
 
 

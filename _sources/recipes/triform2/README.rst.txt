@@ -7,13 +7,15 @@ triform2
 
 Improved sensitivity\, specificity and control of false discovery rates in ChIP\-Seq peak finding\.
 
-======== ===========
-Home     http://github.com/endrebak/epic
-Versions 0.0.5
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/triform2
+============= ===========
+Home          http://github.com/endrebak/epic
+Versions      0.0.5
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/triform2
 
-======== ===========
+
+
+============= ===========
 
 
 

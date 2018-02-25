@@ -7,13 +7,15 @@ sharedmem
 
 Dispatch your trivially parallizable jobs with sharedmem\. 
 
-======== ===========
-Home     http://github.com/rainwoodman/sharedmem
-Versions 0.3.5
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharedmem
+============= ===========
+Home          http://github.com/rainwoodman/sharedmem
+Versions      0.3.5
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sharedmem
 
-======== ===========
+
+
+============= ===========
 
 
 

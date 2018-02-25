@@ -7,13 +7,15 @@ obitools
 
 The OBITools package is a set of programs specifically designed for analyzing NGS data in a DNA metabarcoding context\, taking into account taxonomic information
 
-======== ===========
-Home     http://metabarcoding.org/obitools
-Versions 1.0.010, 1.2.10, 1.2.11
-License  CeCILL-V2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10
+============= ===========
+Home          http://metabarcoding.org/obitools
+Versions      1.0.010, 1.2.10, 1.2.11
+License       CeCILL-V2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/obitools/1.2.10
 
-======== ===========
+
+
+============= ===========
 
 
 

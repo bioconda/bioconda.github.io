@@ -7,13 +7,15 @@ justbackoff
 
 Simple backoff algorithm in Python
 
-======== ===========
-Home     https://github.com/admiralobvious/justbackoff
-Versions 0.4.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/justbackoff
+============= ===========
+Home          https://github.com/admiralobvious/justbackoff
+Versions      0.4.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/justbackoff
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ mintmap
 
 Generate tRF profiles from short RNA\-Seq datasets
 
-======== ===========
-Home     https://github.com/TJU-CMC-Org/MINTmap
-Versions 1.0
-License  open source GNU GPL v3.0 license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mintmap
+============= ===========
+Home          https://github.com/TJU-CMC-Org/MINTmap
+Versions      1.0
+License       open source GNU GPL v3.0 license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mintmap
 
-======== ===========
+
+
+============= ===========
 
 
 

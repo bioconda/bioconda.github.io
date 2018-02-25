@@ -7,13 +7,15 @@ perl-text-tabs
 
 expand and unexpand tabs like unix expand\(1\) and unexpand\(1\)
 
-======== ===========
-Home     http://metacpan.org/pod/Text::Tabs
-Versions 2013.0523
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs/2013.0523
+============= ===========
+Home          http://metacpan.org/pod/Text::Tabs
+Versions      2013.0523
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs/2013.0523
 
-======== ===========
+
+
+============= ===========
 
 
 

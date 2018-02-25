@@ -7,13 +7,15 @@ star-fusion
 
 A fusion gene caller for STAR\. The FusionFilter tools to create needed index data structures are not included\.
 
-======== ===========
-Home     https://github.com/STAR-Fusion/STAR-Fusion
-Versions 0.4.0, 0.5.3, 0.5.4, 0.7.0, 1.0.0, 1.1.0, 1.2.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion
+============= ===========
+Home          https://github.com/STAR-Fusion/STAR-Fusion
+Versions      0.4.0, 0.5.3, 0.5.4, 0.7.0, 1.0.0, 1.1.0, 1.2.0
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star-fusion
 
-======== ===========
+
+
+============= ===========
 
 
 

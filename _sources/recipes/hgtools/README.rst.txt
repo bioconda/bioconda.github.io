@@ -7,13 +7,15 @@ hgtools
 
 Classes and setuptools plugin for Mercurial and Git repositories
 
-======== ===========
-Home     https://github.com/jaraco/hgtools
-Versions 6.5.1
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgtools
+============= ===========
+Home          https://github.com/jaraco/hgtools
+Versions      6.5.1
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hgtools
 
-======== ===========
+
+
+============= ===========
 
 
 

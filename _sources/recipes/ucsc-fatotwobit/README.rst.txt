@@ -7,13 +7,15 @@ ucsc-fatotwobit
 
 Convert DNA from fasta to 2bit format
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 324, 332, 353, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      324, 332, 353, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatotwobit
 
-======== ===========
+
+
+============= ===========
 
 
 

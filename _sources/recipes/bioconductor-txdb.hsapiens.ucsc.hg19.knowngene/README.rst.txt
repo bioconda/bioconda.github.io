@@ -7,13 +7,15 @@ bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 
 Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.knownGene.html
-Versions 3.2.2
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Hsapiens.UCSC.hg19.knownGene.html
+Versions      3.2.2
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg19.knowngene
 
-======== ===========
+
+
+============= ===========
 
 
 

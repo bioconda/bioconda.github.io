@@ -7,13 +7,15 @@ bioconductor-kegglincs
 
 See what is going on \'under the hood\' of KEGG pathways by explicitly re\-creating the pathway maps from information obtained from KGML files\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/KEGGlincs.html
-Versions 1.4.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegglincs
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/KEGGlincs.html
+Versions      1.4.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegglincs
 
-======== ===========
+
+
+============= ===========
 
 
 

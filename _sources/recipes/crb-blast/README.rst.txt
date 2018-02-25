@@ -7,13 +7,15 @@ crb-blast
 
 Conditional Reciprocal Best BLAST \- high confidence ortholog assignment\.
 
-======== ===========
-Home     https://github.com/cboursnell/crb-blast
-Versions 0.6.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crb-blast
+============= ===========
+Home          https://github.com/cboursnell/crb-blast
+Versions      0.6.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crb-blast
 
-======== ===========
+
+
+============= ===========
 
 
 

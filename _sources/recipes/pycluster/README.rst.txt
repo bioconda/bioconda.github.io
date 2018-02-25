@@ -7,13 +7,15 @@ pycluster
 
 Clustering module for Python
 
-======== ===========
-Home     http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm#pycluster
-Versions 1.52, 1.54
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycluster
+============= ===========
+Home          http://bonsai.hgc.jp/~mdehoon/software/cluster/software.htm#pycluster
+Versions      1.52, 1.54
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycluster
 
-======== ===========
+
+
+============= ===========
 
 
 

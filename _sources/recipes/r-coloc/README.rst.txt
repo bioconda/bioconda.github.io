@@ -7,13 +7,15 @@ r-coloc
 
 Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace et al \(2013\) and Giambartolomei et al \(2013\)\.
 
-======== ===========
-Home     https://github.com/chr1swallace/coloc
-Versions 2.3_1
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc
+============= ===========
+Home          https://github.com/chr1swallace/coloc
+Versions      2.3_1
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ r-genabel.data
 
 GenABEL\.data package consists of a data set used by GenABEL functions
 
-======== ===========
-Home     http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
-Versions 1.0.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel.data
+============= ===========
+Home          http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
+Versions      1.0.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel.data
 
-======== ===========
+
+
+============= ===========
 
 
 

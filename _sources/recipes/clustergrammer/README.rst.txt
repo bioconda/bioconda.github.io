@@ -7,13 +7,15 @@ clustergrammer
 
 A python module for the Clustergrammer visualization project
 
-======== ===========
-Home     https://github.com/MaayanLab/clustergrammer-py
-Versions 1.13.5
-License  MIT license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustergrammer
+============= ===========
+Home          https://github.com/MaayanLab/clustergrammer-py
+Versions      1.13.5
+License       MIT license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clustergrammer
 
-======== ===========
+
+
+============= ===========
 
 
 

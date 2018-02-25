@@ -7,13 +7,15 @@ perl-test-pod
 
 check for POD errors in files
 
-======== ===========
-Home     http://search.cpan.org/dist/Test-Pod/
-Versions 1.51
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod
+============= ===========
+Home          http://search.cpan.org/dist/Test-Pod/
+Versions      1.51
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-pod
 
-======== ===========
+
+
+============= ===========
 
 
 

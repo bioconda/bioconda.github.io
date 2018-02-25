@@ -7,13 +7,15 @@ bioconductor-pcot2
 
 PCOT2 is a permutation\-based method for investigating changes in the activity of multi\-gene networks\. It utilizes inter\-gene correlation information to detect significant alterations in gene network activities\. Currently it can be applied to two\-sample comparisons\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/pcot2.html
-Versions 1.44.0, 1.46.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcot2
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/pcot2.html
+Versions      1.44.0, 1.46.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcot2
 
-======== ===========
+
+
+============= ===========
 
 
 

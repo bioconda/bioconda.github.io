@@ -7,13 +7,15 @@ w4mclstrpeakpics
 
 Visualize W4M sample\-cluster peaks \- Produce a figure to assess the similarities and differences among peaks in a cluster of samples using XCMS\-preprocessed data files as input\. MIT Licence allows redistribution\.
 
-======== ===========
-Home     https://github.com/HegemanLab/w4mclstrpeakpics
-Versions 0.98.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclstrpeakpics
+============= ===========
+Home          https://github.com/HegemanLab/w4mclstrpeakpics
+Versions      0.98.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w4mclstrpeakpics
 
-======== ===========
+
+
+============= ===========
 
 
 

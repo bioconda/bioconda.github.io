@@ -7,13 +7,15 @@ bioconductor-mdgsa
 
 Functions to preform a Gene Set Analysis in several genomic dimensions\. Including methods for miRNAs\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/mdgsa.html
-Versions 1.10.0, 1.8.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdgsa
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/mdgsa.html
+Versions      1.10.0, 1.8.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdgsa
 
-======== ===========
+
+
+============= ===========
 
 
 

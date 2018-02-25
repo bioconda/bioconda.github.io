@@ -7,13 +7,15 @@ perl-term-encoding
 
 Detect encoding of the current terminal
 
-======== ===========
-Home     http://metacpan.org/pod/Term::Encoding
-Versions 0.02
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-encoding
+============= ===========
+Home          http://metacpan.org/pod/Term::Encoding
+Versions      0.02
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-encoding
 
-======== ===========
+
+
+============= ===========
 
 
 

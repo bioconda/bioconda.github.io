@@ -7,13 +7,15 @@ mothur
 
 This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community\.
 
-======== ===========
-Home     http://www.mothur.org
-Versions 1.25.0, 1.36.1, 1.38.1.1, 1.39.5
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur
+============= ===========
+Home          http://www.mothur.org
+Versions      1.25.0, 1.36.1, 1.38.1.1, 1.39.5
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur
 
-======== ===========
+
+
+============= ===========
 
 
 

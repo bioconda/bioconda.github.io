@@ -7,13 +7,15 @@ transtermhp
 
 TransTermHP finds rho\-independent transcription terminators in bacterial genomes
 
-======== ===========
-Home     http://transterm.cbcb.umd.edu/index.php
-Versions 2.09
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp
+============= ===========
+Home          http://transterm.cbcb.umd.edu/index.php
+Versions      2.09
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transtermhp
 
-======== ===========
+
+
+============= ===========
 
 
 

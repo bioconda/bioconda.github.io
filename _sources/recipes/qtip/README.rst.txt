@@ -9,13 +9,15 @@ A tandem simulation approach for accurately predicting read alignment
 mapping qualities\.
 
 
-======== ===========
-Home     https://github.com/BenLangmead/qtip
-Versions 1.6.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtip
+============= ===========
+Home          https://github.com/BenLangmead/qtip
+Versions      1.6.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qtip
 
-======== ===========
+
+
+============= ===========
 
 
 

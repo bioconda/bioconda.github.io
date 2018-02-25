@@ -7,13 +7,15 @@ pysnptools
 
 Python library for reading and manipulating genetic data
 
-======== ===========
-Home     http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/
-Versions 0.3.13, 0.3.9
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysnptools
+============= ===========
+Home          http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/
+Versions      0.3.13, 0.3.9
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysnptools
 
-======== ===========
+
+
+============= ===========
 
 
 

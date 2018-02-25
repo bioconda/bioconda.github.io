@@ -7,13 +7,15 @@ r-microseq
 
 Basic functions for microbial sequence data analysis\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=microseq
-Versions 1.2
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-microseq
+============= ===========
+Home          https://CRAN.R-project.org/package=microseq
+Versions      1.2
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-microseq
 
-======== ===========
+
+
+============= ===========
 
 
 

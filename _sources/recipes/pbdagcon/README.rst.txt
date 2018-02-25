@@ -7,13 +7,15 @@ pbdagcon
 
 A sequence consensus algorithm implementation based on using directed acyclic graphs to encode multiple sequence alignment
 
-======== ===========
-Home     https://github.com/PacificBiosciences/pbdagcon
-Versions 0.1
-License  BSD-3-Clause-Clear
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbdagcon
+============= ===========
+Home          https://github.com/PacificBiosciences/pbdagcon
+Versions      0.1
+License       BSD-3-Clause-Clear
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbdagcon
 
-======== ===========
+
+
+============= ===========
 
 
 

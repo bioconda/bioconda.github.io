@@ -7,13 +7,15 @@ perl-params-util
 
 Simple\, compact and correct param\-checking functions
 
-======== ===========
-Home     http://metacpan.org/pod/Params-Util
-Versions 1.07
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-util
+============= ===========
+Home          http://metacpan.org/pod/Params-Util
+Versions      1.07
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-util
 
-======== ===========
+
+
+============= ===========
 
 
 

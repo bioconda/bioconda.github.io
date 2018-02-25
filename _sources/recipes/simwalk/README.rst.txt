@@ -7,13 +7,15 @@ simwalk2
 
 Stochastic Statistical Analysis of Qualitative Traits
 
-======== ===========
-Home     http://www.genetics.ucla.edu/software/
-Versions 2.91
-License  INDIVIDUAL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simwalk
+============= ===========
+Home          http://www.genetics.ucla.edu/software/
+Versions      2.91
+License       INDIVIDUAL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simwalk
 
-======== ===========
+
+
+============= ===========
 
 
 

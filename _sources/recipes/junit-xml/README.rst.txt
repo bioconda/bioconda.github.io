@@ -7,13 +7,15 @@ junit-xml
 
 Creates JUnit XML test result documents that can be read by tools such as Jenkins
 
-======== ===========
-Home     https://github.com/kyrus/python-junit-xml
-Versions 1.7
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/junit-xml
+============= ===========
+Home          https://github.com/kyrus/python-junit-xml
+Versions      1.7
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/junit-xml
 
-======== ===========
+
+
+============= ===========
 
 
 

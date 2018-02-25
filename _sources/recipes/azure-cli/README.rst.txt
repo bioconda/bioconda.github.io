@@ -7,13 +7,15 @@ azure-cli
 
 Microsoft Azure Cross Platform Command Line
 
-======== ===========
-Home     https://github.com/azure/azure-xplat-cli
-Versions 0.10.3
-License  Apache v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/azure-cli
+============= ===========
+Home          https://github.com/azure/azure-xplat-cli
+Versions      0.10.3
+License       Apache v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/azure-cli
 
-======== ===========
+
+
+============= ===========
 
 
 

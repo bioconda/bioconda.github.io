@@ -11,13 +11,15 @@ on the computed alignment and generate a per sequence classifications from the
 search results\.
 
 
-======== ===========
-Home     https://github.com/epruesse/SINA
-Versions 1.3.0, 1.3.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina
+============= ===========
+Home          https://github.com/epruesse/SINA
+Versions      1.3.0, 1.3.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina
 
-======== ===========
+
+
+============= ===========
 
 
 

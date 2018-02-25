@@ -7,13 +7,15 @@ perl-file-temp
 
 return name and handle of a temporary file safely
 
-======== ===========
-Home     https://github.com/Perl-Toolchain-Gang/File-Temp
-Versions 0.2304
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-temp/0.2304
+============= ===========
+Home          https://github.com/Perl-Toolchain-Gang/File-Temp
+Versions      0.2304
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-temp/0.2304
 
-======== ===========
+
+
+============= ===========
 
 
 

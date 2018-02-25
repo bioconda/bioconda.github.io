@@ -7,13 +7,15 @@ qiime
 
 Quantitative Insights Into Microbial Ecology
 
-======== ===========
-Home     http://www.qiime.org
-Versions 1.9.1
-License  GNU General Public License v2 (GPLv2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime/1.9.1
+============= ===========
+Home          http://www.qiime.org
+Versions      1.9.1
+License       GNU General Public License v2 (GPLv2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime/1.9.1
 
-======== ===========
+
+
+============= ===========
 
 
 

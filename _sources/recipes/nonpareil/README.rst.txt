@@ -7,13 +7,15 @@ nonpareil
 
 Estimate average coverage and create Nonpareil curves for metagenomic datasets
 
-======== ===========
-Home     http://nonpareil.readthedocs.io/
-Versions 2.4, 2.4.01, 3.1.1, 3.2
-License  Artistic License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil/2.4
+============= ===========
+Home          http://nonpareil.readthedocs.io/
+Versions      2.4, 2.4.01, 3.1.1, 3.2
+License       Artistic License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil/2.4
 
-======== ===========
+
+
+============= ===========
 
 
 

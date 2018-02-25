@@ -7,13 +7,15 @@ mimeo
 
 Scan genomes for internally repeated sequences\, elements which are repetitive in another species\, or high\-identity HGT candidate regions between species\.
 
-======== ===========
-Home     https://github.com/Adamtaranto/mimeo
-Versions 1.1.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimeo
+============= ===========
+Home          https://github.com/Adamtaranto/mimeo
+Versions      1.1.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimeo
 
-======== ===========
+
+
+============= ===========
 
 
 

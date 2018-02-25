@@ -7,13 +7,15 @@ perl-math-cdf
 
 Generate probabilities and quantiles from several statistical probability functions
 
-======== ===========
-Home     http://metacpan.org/pod/Math-CDF
-Versions 0.1
-License  Public Domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-cdf
+============= ===========
+Home          http://metacpan.org/pod/Math-CDF
+Versions      0.1
+License       Public Domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-cdf
 
-======== ===========
+
+
+============= ===========
 
 
 

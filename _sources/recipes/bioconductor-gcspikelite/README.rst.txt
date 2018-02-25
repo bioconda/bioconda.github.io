@@ -7,13 +7,15 @@ bioconductor-gcspikelite
 
 Spike\-in data for GC\/MS data and methods within flagme
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/gcspikelite.html
-Versions 1.14.0, 1.16.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcspikelite
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/gcspikelite.html
+Versions      1.14.0, 1.16.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcspikelite
 
-======== ===========
+
+
+============= ===========
 
 
 

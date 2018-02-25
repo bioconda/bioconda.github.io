@@ -7,13 +7,15 @@ suma_package
 
 Fast and exact comparison of sequences
 
-======== ===========
-Home     http://metabarcoding.org/sumatra
-Versions 1.0.00
-License  CeCILL FSLA
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suma_package
+============= ===========
+Home          http://metabarcoding.org/sumatra
+Versions      1.0.00
+License       CeCILL FSLA
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/suma_package
 
-======== ===========
+
+
+============= ===========
 
 
 

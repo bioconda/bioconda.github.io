@@ -7,13 +7,15 @@ tqdist
 
 computes the triplet distance between rooted trees in O\(n log n\) time and the quartet distance between unrooted trees in O\(dn log n\) time\, where d degree of the tree with the smallest degree\.
 
-======== ===========
-Home     http://users-cs.au.dk/cstorm/software/tqdist/
-Versions 1.0.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tqdist/1.0.0
+============= ===========
+Home          http://users-cs.au.dk/cstorm/software/tqdist/
+Versions      1.0.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tqdist/1.0.0
 
-======== ===========
+
+
+============= ===========
 
 
 

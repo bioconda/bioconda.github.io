@@ -7,13 +7,15 @@ bioconductor-contibait
 
 Using strand inheritance data from multiple single cells from the organism whose genome is to be assembled\, contiBAIT can cluster unbridged contigs together into putative chromosomes\, and order the contigs within those chromosomes\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/contiBAIT.html
-Versions 1.6.0
-License  BSD_2_clause + file LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/contiBAIT.html
+Versions      1.6.0
+License       BSD_2_clause + file LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-contibait
 
-======== ===========
+
+
+============= ===========
 
 
 

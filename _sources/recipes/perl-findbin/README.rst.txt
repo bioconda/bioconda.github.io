@@ -7,13 +7,15 @@ perl-findbin
 
 Locate directory of original perl script
 
-======== ===========
-Home     http://metacpan.org/pod/FindBin
-Versions 1.51
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin/1.51
+============= ===========
+Home          http://metacpan.org/pod/FindBin
+Versions      1.51
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-findbin/1.51
 
-======== ===========
+
+
+============= ===========
 
 
 

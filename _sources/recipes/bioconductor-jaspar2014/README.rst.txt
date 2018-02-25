@@ -7,13 +7,15 @@ bioconductor-jaspar2014
 
 Data package for JASPAR 2014\. To search this databases\, please use the package TFBSTools\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/experiment/html/JASPAR2014.html
-Versions 1.12.0, 1.14.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2014
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/experiment/html/JASPAR2014.html
+Versions      1.12.0, 1.14.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2014
 
-======== ===========
+
+
+============= ===========
 
 
 

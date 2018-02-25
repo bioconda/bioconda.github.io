@@ -7,13 +7,15 @@ prosic
 
 A highly sensitive and accurate Bayesian caller for somatic insertions and deletions\.
 
-======== ===========
-Home     https://prosic.github.io
-Versions 1.0, 2.0.0, 2.1.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosic
+============= ===========
+Home          https://prosic.github.io
+Versions      1.0, 2.0.0, 2.1.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosic
 
-======== ===========
+
+
+============= ===========
 
 
 

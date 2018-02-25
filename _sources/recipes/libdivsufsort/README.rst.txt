@@ -7,13 +7,15 @@ libdivsufsort
 
 A lightweight suffix\-sorting library
 
-======== ===========
-Home     https://github.com/y-256/libdivsufsort
-Versions 2.0.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdivsufsort
+============= ===========
+Home          https://github.com/y-256/libdivsufsort
+Versions      2.0.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libdivsufsort
 
-======== ===========
+
+
+============= ===========
 
 
 

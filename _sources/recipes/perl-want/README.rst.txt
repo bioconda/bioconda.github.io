@@ -7,13 +7,15 @@ perl-want
 
 This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used\.
 
-======== ===========
-Home     http://search.cpan.org/~robin/Want-0.29/Want.pm
-Versions 0.29
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-want
+============= ===========
+Home          http://search.cpan.org/~robin/Want-0.29/Want.pm
+Versions      0.29
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-want
 
-======== ===========
+
+
+============= ===========
 
 
 

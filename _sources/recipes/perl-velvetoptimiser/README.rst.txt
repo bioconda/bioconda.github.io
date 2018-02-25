@@ -7,13 +7,15 @@ perl-velvetoptimiser
 
 Automatically optimise three of Velvet\'s assembly parameters\.
 
-======== ===========
-Home     https://github.com/tseemann/VelvetOptimiser
-Versions 2.2.5
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-velvetoptimiser
+============= ===========
+Home          https://github.com/tseemann/VelvetOptimiser
+Versions      2.2.5
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-velvetoptimiser
 
-======== ===========
+
+
+============= ===========
 
 
 

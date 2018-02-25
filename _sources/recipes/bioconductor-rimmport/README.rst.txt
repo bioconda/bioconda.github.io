@@ -7,13 +7,15 @@ bioconductor-rimmport
 
 The RImmPort package simplifies access to ImmPort data for analysis in the R environment\. It provides a standards\-based interface to the ImmPort study data that is in a proprietary format\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/RImmPort.html
-Versions 1.4.2, 1.6.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rimmport
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/RImmPort.html
+Versions      1.4.2, 1.6.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rimmport
 
-======== ===========
+
+
+============= ===========
 
 
 

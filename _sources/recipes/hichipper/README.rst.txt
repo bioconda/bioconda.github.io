@@ -7,13 +7,15 @@ hichipper
 
 Processing HiChIP data into loops\.
 
-======== ===========
-Home     https://github.com/aryeelab/hichipper
-Versions 0.7.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hichipper
+============= ===========
+Home          https://github.com/aryeelab/hichipper
+Versions      0.7.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hichipper
 
-======== ===========
+
+
+============= ===========
 
 
 

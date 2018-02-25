@@ -7,13 +7,15 @@ mvp
 
 detect creation\/destruction of sequence motifs as a result of mutations
 
-======== ===========
-Home     https://gitlab.com/LPCDRP/motif-variants
-Versions 0.4.1, 0.4.3
-License  GPLv3+
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvp
+============= ===========
+Home          https://gitlab.com/LPCDRP/motif-variants
+Versions      0.4.1, 0.4.3
+License       GPLv3+
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvp
 
-======== ===========
+
+
+============= ===========
 
 Sequence variation may cause the appearance or disappearance of certain motifs\. Since motifs can be recognition sites for biological functions such as regulation or DNA modification\, their gain and loss can have additional consequences\. Using a list of variants in variant call format\, the corresponding reference sequence\, and a set of motifs to search for\,mvp \(motif\-variant probe\) identifies variants responsible for changing the number of occurrences of these motifs in the sequence\. mvp can process both nucleotide and amino acid sequences\.
 

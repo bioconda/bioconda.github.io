@@ -7,13 +7,15 @@ bioconductor-snagee
 
 Signal\-to\-Noise applied to Gene Expression Experiments\. Signal\-to\-noise ratios can be used as a proxy for quality of gene expression studies and samples\. The SNRs can be calculated on any gene expression data set as long as gene IDs are available\, no access to the raw data files is necessary\. This allows to flag problematic studies and samples in any public data set\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/SNAGEE.html
-Versions 1.18.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snagee
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/SNAGEE.html
+Versions      1.18.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snagee
 
-======== ===========
+
+
+============= ===========
 
 
 

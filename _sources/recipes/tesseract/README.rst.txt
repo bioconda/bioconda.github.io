@@ -7,13 +7,15 @@ tesseract
 
 OCR engine
 
-======== ===========
-Home     https://github.com/tesseract-ocr/tesseract
-Versions 3.04.01
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract/3.04.01
+============= ===========
+Home          https://github.com/tesseract-ocr/tesseract
+Versions      3.04.01
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tesseract/3.04.01
 
-======== ===========
+
+
+============= ===========
 
 
 

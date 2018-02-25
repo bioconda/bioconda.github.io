@@ -7,13 +7,15 @@ primer3
 
 Design PCR primers from DNA sequence\. From mispriming libraries to sequence quality data to the generation of internal oligos\, primer3 does it\.
 
-======== ===========
-Home     http://primer3.sourceforge.net/
-Versions 1.1.4, 2.3.7
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3
+============= ===========
+Home          http://primer3.sourceforge.net/
+Versions      1.1.4, 2.3.7
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3
 
-======== ===========
+
+
+============= ===========
 
 
 

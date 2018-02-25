@@ -7,13 +7,15 @@ antismash
 
 antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters\.
 
-======== ===========
-Home     http://antismash.secondarymetabolites.org/
-Versions 4.0.1, 4.0.2, 4.1.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash
+============= ===========
+Home          http://antismash.secondarymetabolites.org/
+Versions      4.0.1, 4.0.2, 4.1.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antismash
 
-======== ===========
+
+
+============= ===========
 
 
 

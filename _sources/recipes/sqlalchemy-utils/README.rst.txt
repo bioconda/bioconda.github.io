@@ -7,13 +7,15 @@ sqlalchemy-utils
 
 Various utility functions for SQLAlchemy\.
 
-======== ===========
-Home     https://github.com/kvesteri/sqlalchemy-utils
-Versions 0.31.6
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-utils
+============= ===========
+Home          https://github.com/kvesteri/sqlalchemy-utils
+Versions      0.31.6
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-utils
 
-======== ===========
+
+
+============= ===========
 
 
 

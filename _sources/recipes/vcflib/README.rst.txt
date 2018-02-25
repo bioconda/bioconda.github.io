@@ -7,13 +7,15 @@ vcflib
 
 Command\-line tools for manipulating VCF files
 
-======== ===========
-Home     https://github.com/ekg/vcflib
-Versions 1.0.0_rc0, 1.0.0_rc1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib
+============= ===========
+Home          https://github.com/ekg/vcflib
+Versions      1.0.0_rc0, 1.0.0_rc1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcflib
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-bufferedmatrixmethods
 
 Microarray analysis methods that use BufferedMatrix objects
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrixMethods.html
-Versions 1.42.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrixmethods
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrixMethods.html
+Versions      1.42.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrixmethods
 
-======== ===========
+
+
+============= ===========
 
 
 

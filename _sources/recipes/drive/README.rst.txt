@@ -7,13 +7,15 @@ drive
 
 Google Drive client for the commandline
 
-======== ===========
-Home     https://github.com/odeke-em/drive
-Versions 0.3.8, 0.3.9
-License  Apache v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drive
+============= ===========
+Home          https://github.com/odeke-em/drive
+Versions      0.3.8, 0.3.9
+License       Apache v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drive
 
-======== ===========
+
+
+============= ===========
 
 
 

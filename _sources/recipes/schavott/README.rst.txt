@@ -7,13 +7,15 @@ schavott
 
 Assembly and scaffolding of bacterial genomes in real time using MinION\-sequencing\.
 
-======== ===========
-Home     http://github.com/emilhaegglund/schavott
-Versions 0.2, 0.3, 0.4.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schavott
+============= ===========
+Home          http://github.com/emilhaegglund/schavott
+Versions      0.2, 0.3, 0.4.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schavott
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ python-bioext
 
 A few handy bioinformatics tools not already in BioPython
 
-======== ===========
-Home     https://github.com/veg/BioExt.git
-Versions 0.17.4, 0.18.6
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext
+============= ===========
+Home          https://github.com/veg/BioExt.git
+Versions      0.17.4, 0.18.6
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-bioext
 
-======== ===========
+
+
+============= ===========
 
 
 

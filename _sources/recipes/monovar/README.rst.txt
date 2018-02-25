@@ -7,13 +7,15 @@ monovar
 
 single cell joint genotyper
 
-======== ===========
-Home     https://bitbucket.org/hamimzafar/monovar
-Versions v0.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monovar
+============= ===========
+Home          https://bitbucket.org/hamimzafar/monovar
+Versions      v0.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/monovar
 
-======== ===========
+
+
+============= ===========
 
 
 

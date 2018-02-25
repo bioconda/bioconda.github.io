@@ -7,13 +7,15 @@ metaseq
 
 Integrative analysis of high\-thoughput sequencing data
 
-======== ===========
-Home     http://github.com/daler/metaseq
-Versions 0.5.6
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaseq
+============= ===========
+Home          http://github.com/daler/metaseq
+Versions      0.5.6
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaseq
 
-======== ===========
+
+
+============= ===========
 
 
 

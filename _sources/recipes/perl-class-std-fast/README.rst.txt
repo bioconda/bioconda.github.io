@@ -7,13 +7,15 @@ perl-class-std-fast
 
 faster but less secure than Class\:\:Std
 
-======== ===========
-Home     http://metacpan.org/pod/Class-Std-Fast
-Versions 0.0.8
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std-fast
+============= ===========
+Home          http://metacpan.org/pod/Class-Std-Fast
+Versions      0.0.8
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std-fast
 
-======== ===========
+
+
+============= ===========
 
 
 

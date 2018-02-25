@@ -7,13 +7,15 @@ perl-version-next
 
 increment module version numbers simply and correctly
 
-======== ===========
-Home     https://github.com/dagolden/Version-Next
-Versions 1.000
-License  apache_2_0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-version-next
+============= ===========
+Home          https://github.com/dagolden/Version-Next
+Versions      1.000
+License       apache_2_0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-version-next
 
-======== ===========
+
+
+============= ===========
 
 
 

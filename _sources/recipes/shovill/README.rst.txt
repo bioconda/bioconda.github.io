@@ -7,13 +7,15 @@ shovill
 
 Faster SPAdes assembly of Illumina reads
 
-======== ===========
-Home     https://github.com/tseemann/shovill
-Versions 0.7.1, 0.8.0
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill
+============= ===========
+Home          https://github.com/tseemann/shovill
+Versions      0.7.1, 0.8.0
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill
 
-======== ===========
+
+
+============= ===========
 
 
 

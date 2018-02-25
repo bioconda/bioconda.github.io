@@ -7,13 +7,15 @@ perl-tie-ixhash
 
 ordered associative arrays for Perl
 
-======== ===========
-Home     http://metacpan.org/pod/Tie-IxHash
-Versions 1.23
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-ixhash
+============= ===========
+Home          http://metacpan.org/pod/Tie-IxHash
+Versions      1.23
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-ixhash
 
-======== ===========
+
+
+============= ===========
 
 
 

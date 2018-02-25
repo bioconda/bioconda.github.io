@@ -7,13 +7,15 @@ bioconductor-jmosaics
 
 jmosaics detects enriched regions of ChIP\-seq data sets jointly\.
 
-======== ===========
-Home     http://bioconductor.org/packages/release/bioc/html/jmosaics.html
-Versions 1.10.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jmosaics
+============= ===========
+Home          http://bioconductor.org/packages/release/bioc/html/jmosaics.html
+Versions      1.10.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jmosaics
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ xxmotif
 
 eXhaustive\, weight matriX\-based motif discovery in nucleotide sequences
 
-======== ===========
-Home     https://github.com/soedinglab/xxmotif
-Versions 1.6
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xxmotif
+============= ===========
+Home          https://github.com/soedinglab/xxmotif
+Versions      1.6
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xxmotif
 
-======== ===========
+
+
+============= ===========
 
 
 

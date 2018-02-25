@@ -7,13 +7,15 @@ mergevcf
 
 Python package and routines for merging VCF files
 
-======== ===========
-Home     https://github.com/ljdursi/mergevcf
-Versions 1.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mergevcf
+============= ===========
+Home          https://github.com/ljdursi/mergevcf
+Versions      1.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mergevcf
 
-======== ===========
+
+
+============= ===========
 
 
 

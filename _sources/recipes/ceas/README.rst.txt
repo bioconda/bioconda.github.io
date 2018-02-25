@@ -7,13 +7,15 @@ ceas
 
 CEAS\: Cis\-regulatory Element Annotation System
 
-======== ===========
-Home     http://liulab.dfci.harvard.edu/CEAS
-Versions 1.0.2
-License  Artistic
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ceas
+============= ===========
+Home          http://liulab.dfci.harvard.edu/CEAS
+Versions      1.0.2
+License       Artistic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ceas
 
-======== ===========
+
+
+============= ===========
 
 
 

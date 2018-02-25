@@ -7,13 +7,15 @@ requests-cache
 
 Persistent cache for requests library
 
-======== ===========
-Home     https://github.com/reclosedev/requests-cache
-Versions 0.4.10
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/requests-cache
+============= ===========
+Home          https://github.com/reclosedev/requests-cache
+Versions      0.4.10
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/requests-cache
 
-======== ===========
+
+
+============= ===========
 
 
 

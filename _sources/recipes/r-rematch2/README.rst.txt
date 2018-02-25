@@ -7,13 +7,15 @@ r-rematch2
 
 Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames\.
 
-======== ===========
-Home     https://github.com/r-lib/rematch2#readme
-Versions 2.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2
+============= ===========
+Home          https://github.com/r-lib/rematch2#readme
+Versions      2.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2
 
-======== ===========
+
+
+============= ===========
 
 
 

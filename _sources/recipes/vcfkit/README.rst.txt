@@ -7,13 +7,15 @@ vcfkit
 
 Assorted utilities for the variant call format
 
-======== ===========
-Home     https://github.com/AndersenLab/VCF-kit
-Versions 0.0.4, 0.1.6
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfkit
+============= ===========
+Home          https://github.com/AndersenLab/VCF-kit
+Versions      0.0.4, 0.1.6
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfkit
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ denovogear
 
 A program to detect denovo\-variants using next\-generation sequencing data\.
 
-======== ===========
-Home     https://github.com/denovogear/denovogear
-Versions 1.1.1
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/denovogear
+============= ===========
+Home          https://github.com/denovogear/denovogear
+Versions      1.1.1
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/denovogear
 
-======== ===========
+
+
+============= ===========
 
 
 

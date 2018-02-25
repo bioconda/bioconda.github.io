@@ -7,13 +7,15 @@ perl-integer
 
 Perl pragma to use integer arithmetic instead of floating point
 
-======== ===========
-Home     http://metacpan.org/pod/integer
-Versions 1.01
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer/1.01
+============= ===========
+Home          http://metacpan.org/pod/integer
+Versions      1.01
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-integer/1.01
 
-======== ===========
+
+
+============= ===========
 
 
 

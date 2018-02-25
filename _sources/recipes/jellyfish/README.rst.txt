@@ -7,13 +7,15 @@ jellyfish
 
 Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA\. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
 
-======== ===========
-Home     http://www.genome.umd.edu/jellyfish.html
-Versions 1.1.11, 2.2.3, 2.2.6
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish
+============= ===========
+Home          http://www.genome.umd.edu/jellyfish.html
+Versions      1.1.11, 2.2.3, 2.2.6
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish
 
-======== ===========
+
+
+============= ===========
 
 
 

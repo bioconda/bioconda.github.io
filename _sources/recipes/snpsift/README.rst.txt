@@ -7,13 +7,15 @@ snpsift
 
 Toolbox that allows you to filter and manipulate annotated files
 
-======== ===========
-Home     http://snpeff.sourceforge.net/SnpSift.html
-Versions 4.1l, 4.2, 4.3, 4.3.1m, 4.3.1o, 4.3.1p, 4.3.1r, 4.3.1t
-License  LGPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift
+============= ===========
+Home          http://snpeff.sourceforge.net/SnpSift.html
+Versions      4.1l, 4.2, 4.3, 4.3.1m, 4.3.1o, 4.3.1p, 4.3.1r, 4.3.1t
+License       LGPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsift
 
-======== ===========
+
+
+============= ===========
 
 
 

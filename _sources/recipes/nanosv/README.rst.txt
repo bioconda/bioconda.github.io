@@ -7,13 +7,15 @@ nanosv
 
 SV caller for nanopore data
 
-======== ===========
-Home     https://github.com/mroosmalen/nanosv
-Versions 0.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv
+============= ===========
+Home          https://github.com/mroosmalen/nanosv
+Versions      0.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv
 
-======== ===========
+
+
+============= ===========
 
 
 

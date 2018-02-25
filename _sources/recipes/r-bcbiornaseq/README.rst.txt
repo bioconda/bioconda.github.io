@@ -7,13 +7,15 @@ r-bcbiornaseq
 
 Quality control and differential expression for bcbio RNA\-seq experiments\.
 
-======== ===========
-Home     https://github.com/hbc/bcbioRNASeq
-Versions 0.1.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq
+============= ===========
+Home          https://github.com/hbc/bcbioRNASeq
+Versions      0.1.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bcbiornaseq
 
-======== ===========
+
+
+============= ===========
 
 
 

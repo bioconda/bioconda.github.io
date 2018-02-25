@@ -7,13 +7,15 @@ bioconductor-chipsim
 
 A general framework for the simulation of ChIP\-seq data\. Although currently focused on nucleosome positioning the package is designed to support different types of experiments\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ChIPsim.html
-Versions 1.32.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipsim
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ChIPsim.html
+Versions      1.32.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipsim
 
-======== ===========
+
+
+============= ===========
 
 
 

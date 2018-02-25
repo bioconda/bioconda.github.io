@@ -7,13 +7,15 @@ perl-net-ftp
 
 FTP Client class
 
-======== ===========
-Home     http://metacpan.org/pod/Net::FTP
-Versions 2.79
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ftp/2.79
+============= ===========
+Home          http://metacpan.org/pod/Net::FTP
+Versions      2.79
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ftp/2.79
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ r-smvar
 
 Implements the structural model for variances in order to detect differentially expressed genes from gene expression data
 
-======== ===========
-Home     https://CRAN.R-project.org/package=SMVar
-Versions 1.3.3
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-smvar
+============= ===========
+Home          https://CRAN.R-project.org/package=SMVar
+Versions      1.3.3
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-smvar
 
-======== ===========
+
+
+============= ===========
 
 
 

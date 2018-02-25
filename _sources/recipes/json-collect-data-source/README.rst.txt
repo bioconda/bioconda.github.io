@@ -7,13 +7,15 @@ json_collect_data_source
 
 This tool is able to receive multiple datasets \(optionally with their metadata\) in a single query\. As an extension of the galaxy\-json\-data\-source tool \(https\:\/\/github\.com\/mdshw5\/galaxy\-json\-data\-source\)\, it allows to handle archives \(gz\, bz2\, tar\, and zip\) organizing their content in a collection\.
 
-======== ===========
-Home     https://github.com/fabio-cumbo/galaxy-json-collect-data-source
-Versions 1.0.0, 1.0.1
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/json-collect-data-source
+============= ===========
+Home          https://github.com/fabio-cumbo/galaxy-json-collect-data-source
+Versions      1.0.0, 1.0.1
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/json-collect-data-source
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ ococo
 
 Ococo\, the first online consensus caller\.
 
-======== ===========
-Home     http://github.com/karel-brinda/ococo
-Versions 0.1.2.4, 0.1.2.5, 0.1.2.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ococo
+============= ===========
+Home          http://github.com/karel-brinda/ococo
+Versions      0.1.2.4, 0.1.2.5, 0.1.2.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ococo
 
-======== ===========
+
+
+============= ===========
 
 
 

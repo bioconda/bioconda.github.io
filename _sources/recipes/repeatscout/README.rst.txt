@@ -7,13 +7,15 @@ repeatscout
 
 De novo identification of repeat families in large genomes\.
 
-======== ===========
-Home     http://repeatscout.bioprojects.org
-Versions 1.0.5
-License  GNU General Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout
+============= ===========
+Home          http://repeatscout.bioprojects.org
+Versions      1.0.5
+License       GNU General Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repeatscout
 
-======== ===========
+
+
+============= ===========
 
 
 

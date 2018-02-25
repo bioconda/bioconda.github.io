@@ -7,13 +7,15 @@ export2graphlan
 
 export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn
 
-======== ===========
-Home     https://bitbucket.org/CibioCM/export2graphlan/overview
-Versions 0.19
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan
+============= ===========
+Home          https://bitbucket.org/CibioCM/export2graphlan/overview
+Versions      0.19
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan
 
-======== ===========
+
+
+============= ===========
 
 
 

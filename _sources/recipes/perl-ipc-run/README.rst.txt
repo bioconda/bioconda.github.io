@@ -7,13 +7,15 @@ perl-ipc-run
 
 system\(\) and background procs w\/ piping\, redirs\, ptys \(Unix\, Win32\)
 
-======== ===========
-Home     http://metacpan.org/pod/IPC-Run
-Versions 0.94
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run
+============= ===========
+Home          http://metacpan.org/pod/IPC-Run
+Versions      0.94
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-run
 
-======== ===========
+
+
+============= ===========
 
 
 

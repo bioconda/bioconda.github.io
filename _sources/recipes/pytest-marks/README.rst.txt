@@ -7,13 +7,15 @@ pytest-marks
 
 set marks on py\.test test methods
 
-======== ===========
-Home     https://github.com/adamgoucher/pytest-marks
-Versions 0.4
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-marks
+============= ===========
+Home          https://github.com/adamgoucher/pytest-marks
+Versions      0.4
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-marks
 
-======== ===========
+
+
+============= ===========
 
 
 

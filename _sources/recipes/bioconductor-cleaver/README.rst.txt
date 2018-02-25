@@ -7,13 +7,15 @@ bioconductor-cleaver
 
 In\-silico cleavage of polypeptide sequences\. The cleavage rules are taken from\: http\:\/\/web\.expasy\.org\/peptide\_cutter\/peptidecutter\_enzymes\.html
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/cleaver.html
-Versions 1.14.0, 1.16.0
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleaver
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/cleaver.html
+Versions      1.14.0, 1.16.0
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cleaver
 
-======== ===========
+
+
+============= ===========
 
 
 

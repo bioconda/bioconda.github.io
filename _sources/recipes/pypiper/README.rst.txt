@@ -7,13 +7,15 @@ pypiper
 
 Pypiper is a lightweight python toolkit that helps you write slick pipelines in python\.
 
-======== ===========
-Home     http://pypiper.readthedocs.io/en/latest/
-Versions 0.6
-License  None
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypiper
+============= ===========
+Home          http://pypiper.readthedocs.io/en/latest/
+Versions      0.6
+License       None
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypiper
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-sub-name
 
 \(Re\)name a sub
 
-======== ===========
-Home     https://github.com/p5sagit/Sub-Name
-Versions 0.21
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name/0.21
+============= ===========
+Home          https://github.com/p5sagit/Sub-Name
+Versions      0.21
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-name/0.21
 
-======== ===========
+
+
+============= ===========
 
 
 

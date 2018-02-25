@@ -7,13 +7,15 @@ bioconductor-qpcrnorm
 
 The package contains functions to perform normalization of high\-throughput qPCR data\. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/qpcrNorm.html
-Versions 1.34.0, 1.36.0
-License  LGPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/qpcrNorm.html
+Versions      1.34.0, 1.36.0
+License       LGPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpcrnorm
 
-======== ===========
+
+
+============= ===========
 
 
 

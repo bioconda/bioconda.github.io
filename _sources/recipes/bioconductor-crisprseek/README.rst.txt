@@ -7,13 +7,15 @@ bioconductor-crisprseek
 
 The package includes functions to find potential guide RNAs for input target sequences\, optionally filter guide RNAs without restriction enzyme cut site\, or without paired guide RNAs\, genome\-wide search for off\-targets\, score\, rank\, fetch flank sequence and indicate whether the target and off\-targets are located in exon region or not\. Potential guide RNAs are annotated with total score of the top5 and topN off\-targets\, detailed topN mismatch sites\, restriction enzyme cut sites\, and paired guide RNAs\. If GeneRfold and GeneR are installed \(http\:\/\/bioconductor\.case\.edu\/bioconductor\/2\.8\/bioc\/html\/GeneRfold\.html\, http\:\/\/bioc\.ism\.ac\.jp\/packages\/2\.8\/bioc\/html\/GeneR\.html\)\, then the minimum free energy and bracket notation of secondary structure of gRNA and gRNA backbone constant region will be included in the summary file\. This package leverages Biostrings and BSgenome packages\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/CRISPRseek.html
-Versions 1.18.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/CRISPRseek.html
+Versions      1.18.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseek
 
-======== ===========
+
+
+============= ===========
 
 
 

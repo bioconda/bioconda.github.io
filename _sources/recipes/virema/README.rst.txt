@@ -7,13 +7,15 @@ virema
 
 ViReMa \(Viral Recombination Mapper\) detects and reports recombination or fusion events in virus genomes using deep sequencing datasets\.
 
-======== ===========
-Home     https://sourceforge.net/projects/virema/
-Versions 0.6
-License  Custom OSS
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virema
+============= ===========
+Home          https://sourceforge.net/projects/virema/
+Versions      0.6
+License       Custom OSS
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virema
 
-======== ===========
+
+
+============= ===========
 
 
 

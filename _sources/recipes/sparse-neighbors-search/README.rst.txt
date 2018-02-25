@@ -7,13 +7,15 @@ sparse-neighbors-search
 
 Approximate k\-nearest neighbors search on sparse datasets
 
-======== ===========
-Home     https://github.com/joachimwolff/minHashNearestNeighbors
-Versions 0.2.3, 0.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search
+============= ===========
+Home          https://github.com/joachimwolff/minHashNearestNeighbors
+Versions      0.2.3, 0.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparse-neighbors-search
 
-======== ===========
+
+
+============= ===========
 
 
 

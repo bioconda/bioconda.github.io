@@ -7,13 +7,15 @@ bioconductor-mygene
 
 MyGene\.Info\_ provides simple\-to\-use REST web services to query\/retrieve gene annotation data\. It\'s designed with simplicity and performance emphasized\. \*mygene\*\, is an easy\-to\-use R wrapper to access MyGene\.Info\_ services\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/mygene.html
-Versions 1.14.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/mygene.html
+Versions      1.14.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene
 
-======== ===========
+
+
+============= ===========
 
 
 

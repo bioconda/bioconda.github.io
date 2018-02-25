@@ -7,13 +7,15 @@ bioconductor-dyndoc
 
 A set of functions to create and interact with dynamic documents and vignettes\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/DynDoc.html
-Versions 1.56.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyndoc
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/DynDoc.html
+Versions      1.56.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyndoc
 
-======== ===========
+
+
+============= ===========
 
 
 

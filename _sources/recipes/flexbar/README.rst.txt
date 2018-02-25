@@ -7,13 +7,15 @@ flexbar
 
 Flexible barcode and adapter removal
 
-======== ===========
-Home     https://github.com/seqan/flexbar
-Versions 2.5.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0
+============= ===========
+Home          https://github.com/seqan/flexbar
+Versions      2.5.0
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flexbar/2.5.0
 
-======== ===========
+
+
+============= ===========
 
 
 

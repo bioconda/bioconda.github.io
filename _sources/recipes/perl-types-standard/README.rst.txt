@@ -7,13 +7,15 @@ perl-types-standard
 
 bundled set of built\-in types for Type\:\:Tiny
 
-======== ===========
-Home     http://search.cpan.org/~tobyink/Type-Tiny-1.002001/lib/Types/Standard.pm
-Versions 1.002001
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-standard
+============= ===========
+Home          http://search.cpan.org/~tobyink/Type-Tiny-1.002001/lib/Types/Standard.pm
+Versions      1.002001
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-standard
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-class-method-modifiers
 
 Provides Moose\-like method modifiers
 
-======== ===========
-Home     https://github.com/moose/Class-Method-Modifiers
-Versions 2.11
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-method-modifiers
+============= ===========
+Home          https://github.com/moose/Class-Method-Modifiers
+Versions      2.11
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-method-modifiers
 
-======== ===========
+
+
+============= ===========
 
 
 

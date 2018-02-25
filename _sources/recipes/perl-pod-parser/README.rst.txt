@@ -7,13 +7,15 @@ perl-pod-parser
 
 Modules for parsing\/translating POD format documents
 
-======== ===========
-Home     http://metacpan.org/pod/Pod::Parser
-Versions 1.63
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-parser/1.63
+============= ===========
+Home          http://metacpan.org/pod/Pod::Parser
+Versions      1.63
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-parser/1.63
 
-======== ===========
+
+
+============= ===========
 
 
 

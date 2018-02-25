@@ -7,13 +7,15 @@ pgma-simple
 
 Pgma is a simple program for building WPGMA trees\.
 
-======== ===========
-Home     https://github.com/BackofenLab/GraphClust
-Versions 0.1
-License  GNUv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgma-simple
+============= ===========
+Home          https://github.com/BackofenLab/GraphClust
+Versions      0.1
+License       GNUv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgma-simple
 
-======== ===========
+
+
+============= ===========
 
 
 

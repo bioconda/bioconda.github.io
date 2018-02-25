@@ -7,13 +7,15 @@ crimson
 
 Bioinformatics tool outputs converter to JSON or YAML\.
 
-======== ===========
-Home     https://github.com/bow/crimson
-Versions 0.3.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crimson
+============= ===========
+Home          https://github.com/bow/crimson
+Versions      0.3.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crimson
 
-======== ===========
+
+
+============= ===========
 
 
 

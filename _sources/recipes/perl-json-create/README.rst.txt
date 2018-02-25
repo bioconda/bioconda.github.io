@@ -7,13 +7,15 @@ perl-json-create
 
 Fast\, minimal\, UTF\-8\-only serialization of data to JSON\.
 
-======== ===========
-Home     https://metacpan.org/pod/distribution/JSON-Create/lib/JSON/Create.pod
-Versions 0.24
-License  Artistic License (Perl) 1.0 | GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create
+============= ===========
+Home          https://metacpan.org/pod/distribution/JSON-Create/lib/JSON/Create.pod
+Versions      0.24
+License       Artistic License (Perl) 1.0 | GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ velvet
 
 Sequence Assembler for short reads
 
-======== ===========
-Home     https://www.ebi.ac.uk/~zerbino/velvet/
-Versions 1.2.10
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet
+============= ===========
+Home          https://www.ebi.ac.uk/~zerbino/velvet/
+Versions      1.2.10
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet
 
-======== ===========
+
+
+============= ===========
 
 
 

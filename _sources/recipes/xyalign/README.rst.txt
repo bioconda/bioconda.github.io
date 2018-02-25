@@ -7,13 +7,15 @@ xyalign
 
 Command line tools and python library to infer ploidy\, correct for sex chromosome complement\, and work with NGS data
 
-======== ===========
-Home     https://github.com/WilsonSayresLab/XYalign
-Versions 1.0.0
-License  GNU General Public License version 3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xyalign
+============= ===========
+Home          https://github.com/WilsonSayresLab/XYalign
+Versions      1.0.0
+License       GNU General Public License version 3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xyalign
 
-======== ===========
+
+
+============= ===========
 
 
 

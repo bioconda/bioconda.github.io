@@ -8,13 +8,15 @@ mpa-portable
 MPA Portable is a light\-weight and stand\-alone software for the identification of proteins and in\-depth analysis of metaproteomics\.
 
 
-======== ===========
-Home     https://github.com/compomics/meta-proteome-analyzer
-Versions 1.4.1
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mpa-portable
+============= ===========
+Home          https://github.com/compomics/meta-proteome-analyzer
+Versions      1.4.1
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mpa-portable
 
-======== ===========
+
+
+============= ===========
 
 
 

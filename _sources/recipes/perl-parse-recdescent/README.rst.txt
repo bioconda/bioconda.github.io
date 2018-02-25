@@ -7,13 +7,15 @@ perl-parse-recdescent
 
 Generate Recursive\-Descent Parsers
 
-======== ===========
-Home     http://metacpan.org/pod/Parse-RecDescent
-Versions 1.967013
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-recdescent
+============= ===========
+Home          http://metacpan.org/pod/Parse-RecDescent
+Versions      1.967013
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-recdescent
 
-======== ===========
+
+
+============= ===========
 
 
 

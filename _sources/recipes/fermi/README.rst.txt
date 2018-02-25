@@ -7,13 +7,15 @@ fermi
 
 A WGS de novo assembler based on the FMD\-index for large genomes
 
-======== ===========
-Home     https://github.com/lh3/fermi
-Versions 1.1_r751_beta
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi
+============= ===========
+Home          https://github.com/lh3/fermi
+Versions      1.1_r751_beta
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ kiwidist
 
 Combining gene\-set analysis with network properties
 
-======== ===========
-Home     
-Versions 0.3.4, 0.3.5, 0.3.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist
+============= ===========
+Home          
+Versions      0.3.4, 0.3.5, 0.3.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist
 
-======== ===========
+
+
+============= ===========
 
 
 

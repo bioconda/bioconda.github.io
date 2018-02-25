@@ -7,13 +7,15 @@ perl-text-wrap
 
 line wrapping to form simple paragraphs
 
-======== ===========
-Home     http://metacpan.org/pod/Text::Wrap
-Versions 2013.0523
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-wrap
+============= ===========
+Home          http://metacpan.org/pod/Text::Wrap
+Versions      2013.0523
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-wrap
 
-======== ===========
+
+
+============= ===========
 
 
 

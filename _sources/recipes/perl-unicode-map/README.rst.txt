@@ -7,13 +7,15 @@ perl-unicode-map
 
 Map charsets from and to UTF\-16 unicode
 
-======== ===========
-Home     http://metacpan.org/pod/Unicode-Map
-Versions 0.112
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map
+============= ===========
+Home          http://metacpan.org/pod/Unicode-Map
+Versions      0.112
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map
 
-======== ===========
+
+
+============= ===========
 
 
 

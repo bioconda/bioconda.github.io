@@ -7,13 +7,15 @@ optplus
 
 additional options for optparse
 
-======== ===========
-Home     http://noble.gs.washington.edu/~mmh1/software/optplus/
-Versions 0.1.1
-License  UNKNOWN
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus
+============= ===========
+Home          http://noble.gs.washington.edu/~mmh1/software/optplus/
+Versions      0.1.1
+License       UNKNOWN
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus
 
-======== ===========
+
+
+============= ===========
 
 
 

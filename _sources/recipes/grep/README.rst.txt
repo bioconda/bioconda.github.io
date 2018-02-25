@@ -7,13 +7,15 @@ grep
 
 Grep searches one or more input files for lines containing a match to a specified pattern
 
-======== ===========
-Home     https://www.gnu.org/software/grep/
-Versions 2.14
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grep
+============= ===========
+Home          https://www.gnu.org/software/grep/
+Versions      2.14
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grep
 
-======== ===========
+
+
+============= ===========
 
 
 

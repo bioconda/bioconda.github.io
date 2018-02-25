@@ -7,13 +7,15 @@ baitfisher
 
 The BaitFisher\-package is a software package for designing hybrid enrichment probes\.
 
-======== ===========
-Home     https://github.com/cmayer/BaitFisher-package
-Versions 1.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher
+============= ===========
+Home          https://github.com/cmayer/BaitFisher-package
+Versions      1.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/baitfisher
 
-======== ===========
+
+
+============= ===========
 
 
 

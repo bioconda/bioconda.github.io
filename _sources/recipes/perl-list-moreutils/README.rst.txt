@@ -7,13 +7,15 @@ perl-list-moreutils
 
 Provide the stuff missing in List\:\:Util
 
-======== ===========
-Home     https://metacpan.org/release/List-MoreUtils
-Versions 0.413, 0.428
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils
+============= ===========
+Home          https://metacpan.org/release/List-MoreUtils
+Versions      0.413, 0.428
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils
 
-======== ===========
+
+
+============= ===========
 
 
 

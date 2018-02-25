@@ -7,13 +7,15 @@ perl-html-tidy
 
 \(X\)HTML validation in a Perl object
 
-======== ===========
-Home     http://github.com/petdance/html-tidy
-Versions 1.56
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy
+============= ===========
+Home          http://github.com/petdance/html-tidy
+Versions      1.56
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy
 
-======== ===========
+
+
+============= ===========
 
 
 

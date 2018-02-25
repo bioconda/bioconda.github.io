@@ -7,13 +7,15 @@ perl-hash-util-fieldhash-compat
 
 Use Hash\:\:Util\:\:FieldHash or ties\, depending on availability
 
-======== ===========
-Home     https://github.com/karenetheridge/Hash-Util-FieldHash-Compat
-Versions 0.11
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-util-fieldhash-compat/0.11
+============= ===========
+Home          https://github.com/karenetheridge/Hash-Util-FieldHash-Compat
+Versions      0.11
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-util-fieldhash-compat/0.11
 
-======== ===========
+
+
+============= ===========
 
 
 

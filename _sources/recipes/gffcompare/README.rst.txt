@@ -7,13 +7,15 @@ gffcompare
 
 GffCompare by Geo Pertea
 
-======== ===========
-Home     https://github.com/gpertea/gffcompare
-Versions 0.10.1, 0.9.8
-License  Artistic License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare
+============= ===========
+Home          https://github.com/gpertea/gffcompare
+Versions      0.10.1, 0.9.8
+License       Artistic License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffcompare
 
-======== ===========
+
+
+============= ===========
 
 
 

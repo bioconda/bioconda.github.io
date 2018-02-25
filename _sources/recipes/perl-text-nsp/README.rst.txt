@@ -7,13 +7,15 @@ perl-text-nsp
 
 Extract collocations and Ngrams from text
 
-======== ===========
-Home     http://metacpan.org/pod/Text-NSP
-Versions 1.31
-License  open_source
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-nsp
+============= ===========
+Home          http://metacpan.org/pod/Text-NSP
+Versions      1.31
+License       open_source
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-nsp
 
-======== ===========
+
+
+============= ===========
 
 
 

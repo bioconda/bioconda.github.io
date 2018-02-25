@@ -7,13 +7,15 @@ simple_sv_annotation
 
 Simplify snpEff annotations for interesting cases
 
-======== ===========
-Home     https://github.com/AstraZeneca-NGS/simple_sv_annotation
-Versions 2015.10.23, 2015.11.05, 2015.11.16, 2015.11.24, 2016.06.15, 2016.07.08, 2017.02.17
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simple_sv_annotation
+============= ===========
+Home          https://github.com/AstraZeneca-NGS/simple_sv_annotation
+Versions      2015.10.23, 2015.11.05, 2015.11.16, 2015.11.24, 2016.06.15, 2016.07.08, 2017.02.17
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simple_sv_annotation
 
-======== ===========
+
+
+============= ===========
 
 
 

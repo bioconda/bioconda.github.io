@@ -7,13 +7,15 @@ r-cnogpro
 
 Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=CNOGpro
-Versions 1.1
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro
+============= ===========
+Home          https://CRAN.R-project.org/package=CNOGpro
+Versions      1.1
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro
 
-======== ===========
+
+
+============= ===========
 
 
 

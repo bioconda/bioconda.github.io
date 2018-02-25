@@ -7,13 +7,15 @@ perl-sanger-cgp-allelecount
 
 Support code for NGS copy number algorithm
 
-======== ===========
-Home     https://github.com/cancerit/alleleCount
-Versions 2.1.2
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-allelecount
+============= ===========
+Home          https://github.com/cancerit/alleleCount
+Versions      2.1.2
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-allelecount
 
-======== ===========
+
+
+============= ===========
 
 
 

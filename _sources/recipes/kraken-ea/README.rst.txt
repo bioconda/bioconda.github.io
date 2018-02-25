@@ -7,13 +7,15 @@ kraken-ea
 
 Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies\. This is a modified version allowing for splitting of fastq files based on read classifications\.
 
-======== ===========
-Home     https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.2
-Versions 0.10.5ea.3
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-ea
+============= ===========
+Home          https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.2
+Versions      0.10.5ea.3
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken-ea
 
-======== ===========
+
+
+============= ===========
 
 
 

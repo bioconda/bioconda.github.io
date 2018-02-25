@@ -7,13 +7,15 @@ retry_decorator
 
 Retry Decorator
 
-======== ===========
-Home     https://github.com/pnpnpn/retry-decorator
-Versions 1.1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/retry_decorator
+============= ===========
+Home          https://github.com/pnpnpn/retry-decorator
+Versions      1.1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/retry_decorator
 
-======== ===========
+
+
+============= ===========
 
 
 

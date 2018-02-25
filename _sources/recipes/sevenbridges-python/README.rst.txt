@@ -7,13 +7,15 @@ sevenbridges-python
 
 SBG API python client bindings
 
-======== ===========
-Home     https://github.com/sbg/sevenbridges-python
-Versions 0.7.2
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sevenbridges-python
+============= ===========
+Home          https://github.com/sbg/sevenbridges-python
+Versions      0.7.2
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sevenbridges-python
 
-======== ===========
+
+
+============= ===========
 
 
 

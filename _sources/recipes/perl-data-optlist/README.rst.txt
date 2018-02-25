@@ -7,13 +7,15 @@ perl-data-optlist
 
 parse and validate simple name\/value option pairs
 
-======== ===========
-Home     https://github.com/rjbs/Data-OptList
-Versions 0.110
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist
+============= ===========
+Home          https://github.com/rjbs/Data-OptList
+Versions      0.110
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist
 
-======== ===========
+
+
+============= ===========
 
 
 

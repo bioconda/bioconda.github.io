@@ -7,13 +7,15 @@ piler
 
 PILER is public domain software for analyzing repetitive DNA found in genome sequences\.
 
-======== ===========
-Home     http://www.drive5.com/piler
-Versions 0.1
-License  public domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piler
+============= ===========
+Home          http://www.drive5.com/piler
+Versions      0.1
+License       public domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piler
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-quartpac
 
 Identifies clustering of somatic mutations in proteins over the entire quaternary structure\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/QuartPAC.html
-Versions 1.10.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quartpac
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/QuartPAC.html
+Versions      1.10.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-quartpac
 
-======== ===========
+
+
+============= ===========
 
 
 

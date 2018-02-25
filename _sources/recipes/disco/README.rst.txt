@@ -7,13 +7,15 @@ disco
 
 Multi\-threaded Distributed Memory Overlap\-Layout\-Consensus \(OLC\) Metagenome Assembler
 
-======== ===========
-Home     http://disco.omicsbio.org/
-Versions 1.0, 1.2
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0
+============= ===========
+Home          http://disco.omicsbio.org/
+Versions      1.0, 1.2
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/disco/1.0
 
-======== ===========
+
+
+============= ===========
 
 
 

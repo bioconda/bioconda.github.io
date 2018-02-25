@@ -7,13 +7,15 @@ perl-clone
 
 recursively copy Perl datatypes
 
-======== ===========
-Home     http://metacpan.org/pod/Clone
-Versions 0.38
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone
+============= ===========
+Home          http://metacpan.org/pod/Clone
+Versions      0.38
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone
 
-======== ===========
+
+
+============= ===========
 
 
 

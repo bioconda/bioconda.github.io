@@ -7,13 +7,15 @@ fastp
 
 A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting\.\.\.\)
 
-======== ===========
-Home     https://github.com/OpenGene/fastp
-Versions 0.12.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp
+============= ===========
+Home          https://github.com/OpenGene/fastp
+Versions      0.12.2, 0.12.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp
 
-======== ===========
+
+
+============= ===========
 
 
 

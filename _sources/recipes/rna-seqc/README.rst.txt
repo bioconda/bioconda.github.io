@@ -7,13 +7,15 @@ rna-seqc
 
 RNA\-SeQC is a java program which computes a series of quality control metrics for RNA\-seq data\. The input can be one or more BAM files
 
-======== ===========
-Home     http://archive.broadinstitute.org/cancer/cga/rna-seqc
-Versions 1.1.8
-License  None
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc
+============= ===========
+Home          http://archive.broadinstitute.org/cancer/cga/rna-seqc
+Versions      1.1.8
+License       None
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rna-seqc
 
-======== ===========
+
+
+============= ===========
 
 
 

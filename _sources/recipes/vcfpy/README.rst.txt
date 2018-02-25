@@ -7,13 +7,15 @@ vcfpy
 
 Python 3 VCF library with good support for both reading and writing
 
-======== ===========
-Home     https://github.com/bihealth/vcfpy
-Versions 0.11.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfpy
+============= ===========
+Home          https://github.com/bihealth/vcfpy
+Versions      0.11.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfpy
 
-======== ===========
+
+
+============= ===========
 
 
 

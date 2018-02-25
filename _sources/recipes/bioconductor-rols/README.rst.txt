@@ -7,13 +7,15 @@ bioconductor-rols
 
 The rols package is an interface to the Ontology Lookup Service \(OLS\) to access and query hundred of ontolgies directly from R\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/rols.html
-Versions 2.4.0, 2.6.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/rols.html
+Versions      2.4.0, 2.6.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rols
 
-======== ===========
+
+
+============= ===========
 
 
 

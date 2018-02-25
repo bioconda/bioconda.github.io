@@ -7,13 +7,15 @@ bioconductor-graphat
 
 Functions and data used in Balasubramanian\, et al\. \(2004\)
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/GraphAT.html
-Versions 1.50.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphat
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/GraphAT.html
+Versions      1.50.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphat
 
-======== ===========
+
+
+============= ===========
 
 
 

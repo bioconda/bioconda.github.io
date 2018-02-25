@@ -7,13 +7,15 @@ ig-flowtools
 
 set of tools for flow cytometry analysis
 
-======== ===========
-Home     https://github.com/ImmPortDB/ig-flowtools
-Versions 1.0.0, 1.3.0, 1.4.0, 1.4.1, 2.0.0, 2.0.1, 2.0.2
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-flowtools
+============= ===========
+Home          https://github.com/ImmPortDB/ig-flowtools
+Versions      1.0.0, 1.3.0, 1.4.0, 1.4.1, 2.0.0, 2.0.1, 2.0.2
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ig-flowtools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pizzly
 
 Fast fusion detection using kallisto
 
-======== ===========
-Home     https://github.com/pmelsted/pizzly
-Versions 0.37.3
-License  BSD-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly
+============= ===========
+Home          https://github.com/pmelsted/pizzly
+Versions      0.37.3
+License       BSD-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly
 
-======== ===========
+
+
+============= ===========
 
 
 

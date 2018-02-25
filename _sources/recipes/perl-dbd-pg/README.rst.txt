@@ -7,13 +7,15 @@ perl-dbd-pg
 
 PostgreSQL database driver for the DBI module
 
-======== ===========
-Home     http://search.cpan.org/dist/DBD-Pg/
-Versions 3.5.3
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-pg
+============= ===========
+Home          http://search.cpan.org/dist/DBD-Pg/
+Versions      3.5.3
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-pg
 
-======== ===========
+
+
+============= ===========
 
 
 

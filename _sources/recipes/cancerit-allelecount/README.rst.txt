@@ -7,13 +7,15 @@ cancerit-allelecount
 
 Support code for NGS copy number algorithms
 
-======== ===========
-Home     https://github.com/cancerit/alleleCount
-Versions 2.1.2
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cancerit-allelecount
+============= ===========
+Home          https://github.com/cancerit/alleleCount
+Versions      2.1.2
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cancerit-allelecount
 
-======== ===========
+
+
+============= ===========
 
 
 

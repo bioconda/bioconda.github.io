@@ -7,13 +7,15 @@ perl-crypt-rc4
 
 Perl implementation of the RC4 encryption algorithm
 
-======== ===========
-Home     http://metacpan.org/pod/Crypt-RC4
-Versions 2.02
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-rc4
+============= ===========
+Home          http://metacpan.org/pod/Crypt-RC4
+Versions      2.02
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-rc4
 
-======== ===========
+
+
+============= ===========
 
 
 

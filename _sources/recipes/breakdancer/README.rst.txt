@@ -7,13 +7,15 @@ breakdancer
 
 SV detection from paired end reads mapping
 
-======== ===========
-Home     https://github.com/genome/breakdancer
-Versions 1.4.5
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakdancer
+============= ===========
+Home          https://github.com/genome/breakdancer
+Versions      1.4.5
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breakdancer
 
-======== ===========
+
+
+============= ===========
 
 
 

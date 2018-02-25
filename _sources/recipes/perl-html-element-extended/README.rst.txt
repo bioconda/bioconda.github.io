@@ -7,13 +7,15 @@ perl-html-element-extended
 
 Perl extension for manipulating a table composed of HTML\:\:Element style components\.
 
-======== ===========
-Home     http://metacpan.org/pod/HTML-Element-Extended
-Versions 1.18
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-element-extended
+============= ===========
+Home          http://metacpan.org/pod/HTML-Element-Extended
+Versions      1.18
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-element-extended
 
-======== ===========
+
+
+============= ===========
 
 
 

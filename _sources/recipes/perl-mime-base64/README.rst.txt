@@ -7,13 +7,15 @@ perl-mime-base64
 
 The RFC 2045 encodings\; base64 and quoted\-printable
 
-======== ===========
-Home     http://metacpan.org/pod/MIME::Base64
-Versions 3.15
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-base64
+============= ===========
+Home          http://metacpan.org/pod/MIME::Base64
+Versions      3.15
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-base64
 
-======== ===========
+
+
+============= ===========
 
 
 

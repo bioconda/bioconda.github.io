@@ -7,13 +7,15 @@ pyfaidx
 
 pyfaidx\: efficient pythonic random access to fasta subsequences
 
-======== ===========
-Home     http://mattshirley.com
-Versions 0.4.4, 0.4.7.1, 0.4.8.1, 0.4.9.2, 0.5.0, 0.5.1, 0.5.3
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfaidx
+============= ===========
+Home          http://mattshirley.com
+Versions      0.4.4, 0.4.7.1, 0.4.8.1, 0.4.9.2, 0.5.0, 0.5.1, 0.5.3
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyfaidx
 
-======== ===========
+
+
+============= ===========
 
 
 

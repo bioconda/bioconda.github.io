@@ -7,13 +7,15 @@ bioconductor-proteomicsannotationhubdata
 
 These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ProteomicsAnnotationHubData.html
-Versions 1.8.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ProteomicsAnnotationHubData.html
+Versions      1.8.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteomicsannotationhubdata
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ metavelvet-sl-feature-extraction
 
 Perl libraries that do feature extraction for metavelvet\-sl
 
-======== ===========
-Home     http://metavelvet.dna.bio.keio.ac.jp/MSL.html
-Versions 1.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-feature-extraction
+============= ===========
+Home          http://metavelvet.dna.bio.keio.ac.jp/MSL.html
+Versions      1.0
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-feature-extraction
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ tinysink
 
 Synchronise Nanopore reads with a server\.
 
-======== ===========
-Home     https://github.com/mbhall88/tinysink
-Versions 1.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinysink
+============= ===========
+Home          https://github.com/mbhall88/tinysink
+Versions      1.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinysink
 
-======== ===========
+
+
+============= ===========
 
 
 

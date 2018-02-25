@@ -7,13 +7,15 @@ rseqc
 
 RNA\-seq QC Package
 
-======== ===========
-Home     http://rseqc.sourceforge.net/
-Versions 2.6.2, 2.6.4
-License  GNU General Public License v2 (GPLv2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc
+============= ===========
+Home          http://rseqc.sourceforge.net/
+Versions      2.6.2, 2.6.4
+License       GNU General Public License v2 (GPLv2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseqc
 
-======== ===========
+
+
+============= ===========
 
 
 

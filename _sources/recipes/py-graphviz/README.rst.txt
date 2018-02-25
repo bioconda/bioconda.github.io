@@ -7,13 +7,15 @@ py-graphviz
 
 Simple Python interface for Graphviz
 
-======== ===========
-Home     http://github.com/xflr6/graphviz
-Versions 0.4.10, 0.4.8
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py-graphviz
+============= ===========
+Home          http://github.com/xflr6/graphviz
+Versions      0.4.10, 0.4.8
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py-graphviz
 
-======== ===========
+
+
+============= ===========
 
 
 

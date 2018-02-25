@@ -7,13 +7,15 @@ bioconductor-mirnatap
 
 The package facilitates implementation of workflows requiring miRNA predictions\, it allows to integrate ranked miRNA target predictions from multiple sources available online and aggregate them with various methods which improves quality of predictions above any of the single sources\. Currently predictions are available for Homo sapiens\, Mus musculus and Rattus norvegicus \(the last one through homology translation\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/miRNAtap.html
-Versions 1.10.0, 1.12.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/miRNAtap.html
+Versions      1.10.0, 1.12.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatap
 
-======== ===========
+
+
+============= ===========
 
 
 

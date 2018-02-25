@@ -7,13 +7,15 @@ famseq
 
 Peng G\, Fan Y\, Palculict TB\, Shen P\, Ruteshouser EC\, Chi A\, Davis RW\, Huff V\, Scharfe C\, Wang W\. Rare variant detection using family\-based sequencing analysis\. Proceedings of the National Academy of Sciences\. 2013 Mar 5\;110\(10\)\:3985\-90
 
-======== ===========
-Home     http://bioinformatics.mdanderson.org/main/FamSeq
-Versions 1.0.3
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famseq
+============= ===========
+Home          http://bioinformatics.mdanderson.org/main/FamSeq
+Versions      1.0.3
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/famseq
 
-======== ===========
+
+
+============= ===========
 
 
 

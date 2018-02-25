@@ -7,13 +7,15 @@ pynacl
 
 Python binding to the Networking and Cryptography \(NaCl\) library
 
-======== ===========
-Home     https://github.com/pyca/pynacl/
-Versions 0.3.0
-License  Apache License 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynacl
+============= ===========
+Home          https://github.com/pyca/pynacl/
+Versions      0.3.0
+License       Apache License 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynacl
 
-======== ===========
+
+
+============= ===========
 
 
 

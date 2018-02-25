@@ -7,13 +7,15 @@ metacluster
 
 MetaCluster5\.1 is a new software for binning short pair\-end reads
 
-======== ===========
-Home     http://i.cs.hku.hk/~alse/MetaCluster/
-Versions 5.1
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacluster
+============= ===========
+Home          http://i.cs.hku.hk/~alse/MetaCluster/
+Versions      5.1
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacluster
 
-======== ===========
+
+
+============= ===========
 
 MetaCluster5\.1 is an unsupervised binning method that can \(1\) samples with
 low\-abundance species\, or \(2\) samples \(even with high\-abundance\) with many

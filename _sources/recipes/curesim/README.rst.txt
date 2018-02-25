@@ -7,13 +7,15 @@ curesim
 
 CuReSim \(Customized Read Simulator\) is a customized tool which generates synthetic New\-Generation Sequencing reads\, supporting read simulation for major letter\-base sequencing platforms\.\.
 
-======== ===========
-Home     http://www.pegase-biosciences.com/curesim-a-customized-read-simulator/
-Versions 1.3
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curesim
+============= ===========
+Home          http://www.pegase-biosciences.com/curesim-a-customized-read-simulator/
+Versions      1.3
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/curesim
 
-======== ===========
+
+
+============= ===========
 
 
 

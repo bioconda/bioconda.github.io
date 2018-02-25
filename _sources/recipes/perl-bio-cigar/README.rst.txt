@@ -7,13 +7,15 @@ perl-bio-cigar
 
 Parse CIGAR strings and translate coordinates to\/from reference\/query
 
-======== ===========
-Home     http://search.cpan.org/~tsibley/Bio-Cigar-1.01
-Versions 1.01
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-cigar
+============= ===========
+Home          http://search.cpan.org/~tsibley/Bio-Cigar-1.01
+Versions      1.01
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-cigar
 
-======== ===========
+
+
+============= ===========
 
 
 

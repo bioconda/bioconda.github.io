@@ -7,13 +7,15 @@ bioconductor-arrayexpress
 
 Access the ArrayExpress Repository at EBI and build Bioconductor data structures\: ExpressionSet\, AffyBatch\, NChannelSet
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ArrayExpress.html
-Versions 1.36.1, 1.38.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ArrayExpress.html
+Versions      1.36.1, 1.38.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayexpress
 
-======== ===========
+
+
+============= ===========
 
 
 

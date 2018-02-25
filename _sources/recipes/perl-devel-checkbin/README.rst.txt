@@ -7,13 +7,15 @@ perl-devel-checkbin
 
 check that a command is available
 
-======== ===========
-Home     https://metacpan.org/pod/Devel::CheckBin
-Versions 0.04
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-checkbin
+============= ===========
+Home          https://metacpan.org/pod/Devel::CheckBin
+Versions      0.04
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-checkbin
 
-======== ===========
+
+
+============= ===========
 
 
 

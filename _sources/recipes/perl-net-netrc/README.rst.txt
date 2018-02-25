@@ -7,13 +7,15 @@ perl-net-netrc
 
 OO interface to users netrc file
 
-======== ===========
-Home     http://metacpan.org/pod/Net::Netrc
-Versions 2.14
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc/2.14
+============= ===========
+Home          http://metacpan.org/pod/Net::Netrc
+Versions      2.14
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-netrc/2.14
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ trackhub
 
 Create and manage UCSC track hubs from Python
 
-======== ===========
-Home     http://github.com/daler/trackhub
-Versions 0.1.2, 0.1.3, 0.2.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub
+============= ===========
+Home          http://github.com/daler/trackhub
+Versions      0.1.2, 0.1.3, 0.2.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trackhub
 
-======== ===========
+
+
+============= ===========
 
 
 

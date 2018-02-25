@@ -7,13 +7,15 @@ bx-python
 
 Toolkit to enable rapid implementation of genome scale analyses\.
 
-======== ===========
-Home     https://github.com/bxlab/bx-python
-Versions 0.7.1, 0.7.2, 0.7.3, 0.7.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python
+============= ===========
+Home          https://github.com/bxlab/bx-python
+Versions      0.7.1, 0.7.2, 0.7.3, 0.7.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bx-python
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ lighter
 
 ighter is a kmer\-based error correction method for whole genome sequencing data
 
-======== ===========
-Home     https://github.com/mourisl/Lighter
-Versions 1.1.1
-License  GPL 3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter
+============= ===========
+Home          https://github.com/mourisl/Lighter
+Versions      1.1.1
+License       GPL 3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter
 
-======== ===========
+
+
+============= ===========
 
 
 

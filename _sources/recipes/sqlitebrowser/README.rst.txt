@@ -7,13 +7,15 @@ sqlitebrowser
 
 DB Browser for SQLite is a high quality\, visual\, open source tool to create\, design\, and edit database files compatible with SQLite\.
 
-======== ===========
-Home     http://sqlitebrowser.org/
-Versions 3.8.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlitebrowser
+============= ===========
+Home          http://sqlitebrowser.org/
+Versions      3.8.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlitebrowser
 
-======== ===========
+
+
+============= ===========
 
 
 

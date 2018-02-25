@@ -7,13 +7,15 @@ dascrubber
 
 Alignment\-based Scrubbing pipeline
 
-======== ===========
-Home     https://github.com/thegenemyers/DASCRUBBER
-Versions 0.0.1a1, 0.0.1a2
-License  Custom
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dascrubber
+============= ===========
+Home          https://github.com/thegenemyers/DASCRUBBER
+Versions      0.0.1a1, 0.0.1a2
+License       Custom
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dascrubber
 
-======== ===========
+
+
+============= ===========
 
 
 

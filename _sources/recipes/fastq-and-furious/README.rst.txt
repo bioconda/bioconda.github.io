@@ -7,13 +7,15 @@ fastq-and-furious
 
 Fast handling of FASTQ files
 
-======== ===========
-Home     https://github.com/lgautier/fastq-and-furious
-Versions 0.1.0, 0.2.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-and-furious
+============= ===========
+Home          https://github.com/lgautier/fastq-and-furious
+Versions      0.1.0, 0.2.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-and-furious
 
-======== ===========
+
+
+============= ===========
 
 
 

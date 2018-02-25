@@ -7,13 +7,15 @@ csb
 
 Computational Structural Biology Toolbox
 
-======== ===========
-Home     http://github.com/csb-toolbox
-Versions 1.2.5
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csb
+============= ===========
+Home          http://github.com/csb-toolbox
+Versions      1.2.5
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csb
 
-======== ===========
+
+
+============= ===========
 
 
 

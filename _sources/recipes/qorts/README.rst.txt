@@ -7,13 +7,15 @@ qorts
 
 The QoRTs software package is a fast\, efficient\, and portable multifunction toolkit designed to assist in the analysis\, quality control\, and data management of RNA\-Seq datasets\.
 
-======== ===========
-Home     http://hartleys.github.io/QoRTs/
-Versions 1.1.8
-License  Public Domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts
+============= ===========
+Home          http://hartleys.github.io/QoRTs/
+Versions      1.1.8
+License       Public Domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts
 
-======== ===========
+
+
+============= ===========
 
 
 

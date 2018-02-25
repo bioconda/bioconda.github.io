@@ -7,13 +7,15 @@ perl-dbd-sqlite
 
 Self Contained RDBMS in a DBI Driver
 
-======== ===========
-Home     https://metacpan.org/pod/DBD::SQLite
-Versions 1.50
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-sqlite
+============= ===========
+Home          https://metacpan.org/pod/DBD::SQLite
+Versions      1.50
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-sqlite
 
-======== ===========
+
+
+============= ===========
 
 
 

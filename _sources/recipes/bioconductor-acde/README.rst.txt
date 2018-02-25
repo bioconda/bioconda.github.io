@@ -7,13 +7,15 @@ bioconductor-acde
 
 This package provides a multivariate inferential analysis method for detecting differentially expressed genes in gene expression data\. It uses artificial components\, close to the data\'s principal components but with an exact interpretation in terms of differential genetic expression\, to identify differentially expressed genes while controlling the false discovery rate \(FDR\)\. The methods on this package are described in the vignette or in the article \'Multivariate Method for Inferential Identification of Differentially Expressed Genes in Gene Expression Experiments\' by J\. P\. Acosta\, L\. Lopez\-Kleine and S\. Restrepo \(2015\, pending publication\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/acde.html
-Versions 1.6.0, 1.8.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acde
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/acde.html
+Versions      1.6.0, 1.8.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acde
 
-======== ===========
+
+
+============= ===========
 
 
 

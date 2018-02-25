@@ -7,13 +7,15 @@ rnabob
 
 fast RNA motif searching
 
-======== ===========
-Home     
-Versions 2.2.1
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabob
+============= ===========
+Home          
+Versions      2.2.1
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnabob
 
-======== ===========
+
+
+============= ===========
 
 
 

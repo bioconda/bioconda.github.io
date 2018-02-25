@@ -19,13 +19,15 @@ toolkit\. chemfp supports the Python libraries from Open Babel\,
 OpenEye\, and RDKit toolkits\.
 
 
-======== ===========
-Home     https://chemfp.com
-Versions 1.1p1, 1.3, 1.3a1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp
+============= ===========
+Home          https://chemfp.com
+Versions      1.1p1, 1.3, 1.3a1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chemfp
 
-======== ===========
+
+
+============= ===========
 
 
 

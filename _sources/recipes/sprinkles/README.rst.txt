@@ -7,13 +7,15 @@ sprinkles
 
 Plugins\! Easy\!
 
-======== ===========
-Home     http://an9.org/w/SprinklesPy
-Versions 0.4.6
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sprinkles
+============= ===========
+Home          http://an9.org/w/SprinklesPy
+Versions      0.4.6
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sprinkles
 
-======== ===========
+
+
+============= ===========
 
 
 

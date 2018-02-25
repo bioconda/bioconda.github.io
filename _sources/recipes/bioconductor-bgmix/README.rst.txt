@@ -7,13 +7,15 @@ bioconductor-bgmix
 
 Fully Bayesian mixture models for differential gene expression
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BGmix.html
-Versions 1.36.0, 1.38.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BGmix.html
+Versions      1.36.0, 1.38.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgmix
 
-======== ===========
+
+
+============= ===========
 
 
 

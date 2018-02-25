@@ -7,13 +7,15 @@ ale
 
 ALE\: Assembly Likelihood Estimator
 
-======== ===========
-Home     https://github.com/sc932/ALE
-Versions 20160127
-License  NCSA
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ale
+============= ===========
+Home          https://github.com/sc932/ALE
+Versions      20160127
+License       NCSA
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ale
 
-======== ===========
+
+
+============= ===========
 
 
 

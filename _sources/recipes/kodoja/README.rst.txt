@@ -7,13 +7,15 @@ kodoja
 
 Kodoja\: identifying viruses from plant RNA sequencing data
 
-======== ===========
-Home     https://github.com/abaizan/kodoja/
-Versions 0.0.2, 0.0.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kodoja
+============= ===========
+Home          https://github.com/abaizan/kodoja/
+Versions      0.0.2, 0.0.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kodoja
 
-======== ===========
+
+
+============= ===========
 
 
 

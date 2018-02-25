@@ -7,13 +7,15 @@ lightning
 
 lightning is a library for large\-scale linear classification\, regression and ranking in Python
 
-======== ===========
-Home     http://contrib.scikit-learn.org/lightning/
-Versions 0.2.dev0
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightning
+============= ===========
+Home          http://contrib.scikit-learn.org/lightning/
+Versions      0.2.dev0
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightning
 
-======== ===========
+
+
+============= ===========
 
 
 

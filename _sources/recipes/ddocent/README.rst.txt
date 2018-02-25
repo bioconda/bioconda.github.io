@@ -7,13 +7,15 @@ ddocent
 
  dDocent is  an interactive bash wrapper to QC\, assemble\, map\, and call SNPs from all types of RAD data
 
-======== ===========
-Home     http://ddocent.com
-Versions 2.1, 2.2.13, 2.2.15, 2.2.16, 2.2.19, 2.2.20, 2.2.25, 2.2.4, 2.2.7, 2.2.8
-License  The MIT License (MIT)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddocent
+============= ===========
+Home          http://ddocent.com
+Versions      2.1, 2.2.13, 2.2.15, 2.2.16, 2.2.19, 2.2.20, 2.2.25, 2.2.4, 2.2.7, 2.2.8
+License       The MIT License (MIT)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddocent
 
-======== ===========
+
+
+============= ===========
 
 
 

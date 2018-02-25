@@ -7,13 +7,15 @@ ccat
 
 CCAT is a software package for the analysis of ChIP\-seq data with negative control\.
 
-======== ===========
-Home     http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
-Versions 3.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0
+============= ===========
+Home          http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm
+Versions      3.0
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ccat/3.0
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ mykatlas
 
 Assists in discoveries of antibiotic\-resistance with mykrobe
 
-======== ===========
-Home     http://github.com/phelimb/atlas
-Versions 0.6.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykatlas
+============= ===========
+Home          http://github.com/phelimb/atlas
+Versions      0.6.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mykatlas
 
-======== ===========
+
+
+============= ===========
 
 
 

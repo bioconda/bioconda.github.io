@@ -7,13 +7,15 @@ flask-bower
 
 An extension to manage and serve your javascript assets with bower
 
-======== ===========
-Home     http://github.com/lobeck/flask-bower
-Versions 1.2.1
-License  GNU General Public License v2 (GPLv2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-bower
+============= ===========
+Home          http://github.com/lobeck/flask-bower
+Versions      1.2.1
+License       GNU General Public License v2 (GPLv2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-bower
 
-======== ===========
+
+
+============= ===========
 
 
 

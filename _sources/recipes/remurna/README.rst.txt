@@ -7,13 +7,15 @@ remurna
 
 Measurement of Single\-Nucleotide Polymorphism\-induced Changes of RNA Conformation
 
-======== ===========
-Home     https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna
-Versions 1.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna
+============= ===========
+Home          https://www.ncbi.nlm.nih.gov/CBBresearch/Przytycka/index.cgi#remurna
+Versions      1.0
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/remurna
 
-======== ===========
+
+
+============= ===========
 
 
 

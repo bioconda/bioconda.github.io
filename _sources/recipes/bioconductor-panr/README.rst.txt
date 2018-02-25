@@ -7,13 +7,15 @@ bioconductor-panr
 
 This package provides S4 classes and methods for inferring functional gene networks with edges encoding posterior beliefs of gene association types and nodes encoding perturbation effects\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/PANR.html
-Versions 1.24.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/PANR.html
+Versions      1.24.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panr
 
-======== ===========
+
+
+============= ===========
 
 
 

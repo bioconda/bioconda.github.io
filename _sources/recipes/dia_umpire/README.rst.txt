@@ -10,13 +10,15 @@ mass spectrometry\-based proteomics data\. It enables untargeted peptide and pro
 using DIA data\, and also incorporates targeted extraction to reduce the number of cases of missing quantitation\.
 
 
-======== ===========
-Home     https://github.com/Nesvilab/DIA-Umpire
-Versions 2.1.2, 2.1.3
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dia_umpire
+============= ===========
+Home          https://github.com/Nesvilab/DIA-Umpire
+Versions      2.1.2, 2.1.3
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dia_umpire
 
-======== ===========
+
+
+============= ===========
 
 
 

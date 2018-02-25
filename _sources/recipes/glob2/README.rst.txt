@@ -7,13 +7,15 @@ glob2
 
 Version of the glob module that can capture patterns and supports recursive wildcards
 
-======== ===========
-Home     http://github.com/miracle2k/python-glob2/
-Versions 0.4.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glob2
+============= ===========
+Home          http://github.com/miracle2k/python-glob2/
+Versions      0.4.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glob2
 
-======== ===========
+
+
+============= ===========
 
 
 

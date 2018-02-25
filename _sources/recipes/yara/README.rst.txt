@@ -7,13 +7,15 @@ yara
 
 Yara is an exact tool for aligning DNA sequencing reads to reference genomes\.
 
-======== ===========
-Home     https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
-Versions 0.9.10, 0.9.6, 0.9.9
-License  https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara
+============= ===========
+Home          https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst
+Versions      0.9.10, 0.9.6, 0.9.9
+License       https://raw.githubusercontent.com/seqan/seqan/develop/apps/yara/LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yara
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-empiricalbrownsmethod
 
 Combining P\-values from multiple statistical tests is common in bioinformatics\. However\, this procedure is non\-trivial for dependent P\-values\. This package implements an empirical adaptation of Brown’s Method \(an extension of Fisher’s Method\) for combining dependent P\-values which is appropriate for highly correlated data sets found in high\-throughput biological experiments\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/EmpiricalBrownsMethod.html
-Versions 1.6.0
-License  MIT + file LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-empiricalbrownsmethod
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/EmpiricalBrownsMethod.html
+Versions      1.6.0
+License       MIT + file LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-empiricalbrownsmethod
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ minimock
 
 The simplest possible mock library
 
-======== ===========
-Home     http://pypi.python.org/pypi/MiniMock
-Versions 1.2.8
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimock
+============= ===========
+Home          http://pypi.python.org/pypi/MiniMock
+Versions      1.2.8
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimock
 
-======== ===========
+
+
+============= ===========
 
 
 

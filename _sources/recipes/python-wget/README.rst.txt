@@ -7,13 +7,15 @@ python-wget
 
 pure python download utility
 
-======== ===========
-Home     http://bitbucket.org/techtonik/python-wget/
-Versions 3.2
-License  Public Domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-wget
+============= ===========
+Home          http://bitbucket.org/techtonik/python-wget/
+Versions      3.2
+License       Public Domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-wget
 
-======== ===========
+
+
+============= ===========
 
 
 

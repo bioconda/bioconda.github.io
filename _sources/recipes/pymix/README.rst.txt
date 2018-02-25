@@ -7,13 +7,15 @@ pymix
 
 Python mixture package
 
-======== ===========
-Home     http://www.pymix.org/pymix
-Versions 0.8
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymix
+============= ===========
+Home          http://www.pymix.org/pymix
+Versions      0.8
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymix
 
-======== ===========
+
+
+============= ===========
 
 
 

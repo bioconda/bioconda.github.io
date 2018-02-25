@@ -7,13 +7,15 @@ tetoolkit
 
 Tools for estimating differential enrichment of Transposable Elements and other highly repetitive regions
 
-======== ===========
-Home     http://hammelllab.labsites.cshl.edu/software#TEToolkit
-Versions 1.5.1
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tetoolkit
+============= ===========
+Home          http://hammelllab.labsites.cshl.edu/software#TEToolkit
+Versions      1.5.1
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tetoolkit
 
-======== ===========
+
+
+============= ===========
 
 
 

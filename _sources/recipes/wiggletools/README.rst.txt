@@ -7,13 +7,15 @@ wiggletools
 
 The WiggleTools package allows genomewide data files to be manipulated as numerical functions\, equipped with all the standard functional analysis operators \(sum\, product\, product by a scalar\, comparators\)\, and derived statistics \(mean\, median\, variance\, stddev\, t\-test\, Wilcoxon\'s rank sum test\, etc\)\.
 
-======== ===========
-Home     https://github.com/Ensembl/WiggleTools
-Versions 1.2.1, 1.2.2
-License  Apache
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools
+============= ===========
+Home          https://github.com/Ensembl/WiggleTools
+Versions      1.2.1, 1.2.2
+License       Apache
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wiggletools
 
-======== ===========
+
+
+============= ===========
 
 
 

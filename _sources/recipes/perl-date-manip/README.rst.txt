@@ -7,13 +7,15 @@ perl-date-manip
 
 Date manipulation routines
 
-======== ===========
-Home     http://metacpan.org/pod/Date::Manip
-Versions 6.57
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip
+============= ===========
+Home          http://metacpan.org/pod/Date::Manip
+Versions      6.57
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip
 
-======== ===========
+
+
+============= ===========
 
 
 

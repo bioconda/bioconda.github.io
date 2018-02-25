@@ -7,13 +7,15 @@ perl-text-tabs-wrap
 
 Expand tabs and do simple line wrapping
 
-======== ===========
-Home     http://metacpan.org/pod/Text::Tabs+Wrap
-Versions 2013.0523
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap
+============= ===========
+Home          http://metacpan.org/pod/Text::Tabs+Wrap
+Versions      2013.0523
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap
 
-======== ===========
+
+
+============= ===========
 
 
 

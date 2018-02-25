@@ -7,13 +7,15 @@ perl-perlio-encoding
 
 encoding layer
 
-======== ===========
-Home     http://metacpan.org/pod/PerlIO::encoding
-Versions 0.18
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding/0.18
+============= ===========
+Home          http://metacpan.org/pod/PerlIO::encoding
+Versions      0.18
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-encoding/0.18
 
-======== ===========
+
+
+============= ===========
 
 
 

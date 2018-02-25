@@ -9,13 +9,15 @@ Copy number and genotype annotation from whole genome and whole exome
 sequencing data\.
 
 
-======== ===========
-Home     https://github.com/BoevaLab/FREEC
-Versions 10.5, 10.6
-License  GPL (>=2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec
+============= ===========
+Home          https://github.com/BoevaLab/FREEC
+Versions      10.5, 10.6
+License       GPL (>=2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/control-freec
 
-======== ===========
+
+
+============= ===========
 
 
 

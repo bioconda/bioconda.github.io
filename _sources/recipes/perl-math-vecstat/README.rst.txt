@@ -7,13 +7,15 @@ perl-math-vecstat
 
 Some basic numeric stats on vectors
 
-======== ===========
-Home     http://metacpan.org/pod/Math-VecStat
-Versions 0.08
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-vecstat
+============= ===========
+Home          http://metacpan.org/pod/Math-VecStat
+Versions      0.08
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-vecstat
 
-======== ===========
+
+
+============= ===========
 
 
 

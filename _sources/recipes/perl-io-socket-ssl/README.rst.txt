@@ -7,13 +7,15 @@ perl-io-socket-ssl
 
 Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET\.
 
-======== ===========
-Home     https://github.com/noxxi/p5-io-socket-ssl
-Versions 2.024
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-ssl
+============= ===========
+Home          https://github.com/noxxi/p5-io-socket-ssl
+Versions      2.024
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-ssl
 
-======== ===========
+
+
+============= ===========
 
 
 

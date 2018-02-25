@@ -7,13 +7,15 @@ pynast
 
 The Python Nearest Alignment Space Termination tool
 
-======== ===========
-Home     http://qiime.org/pynast
-Versions 1.2.2
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynast/1.2.2
+============= ===========
+Home          http://qiime.org/pynast
+Versions      1.2.2
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pynast/1.2.2
 
-======== ===========
+
+
+============= ===========
 
 
 

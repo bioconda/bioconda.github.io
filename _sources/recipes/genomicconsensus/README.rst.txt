@@ -7,13 +7,15 @@ genomicconsensus
 
 PacBio variant and consensus caller\.
 
-======== ===========
-Home     https://github.com/PacificBiosciences/GenomicConsensus
-Versions 3.0.2
-License  Redistribution and use in source and binary forms, with or without modification
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicconsensus
+============= ===========
+Home          https://github.com/PacificBiosciences/GenomicConsensus
+Versions      3.0.2
+License       Redistribution and use in source and binary forms, with or without modification
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicconsensus
 
-======== ===========
+
+
+============= ===========
 
 
 

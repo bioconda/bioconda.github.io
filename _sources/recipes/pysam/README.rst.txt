@@ -7,13 +7,15 @@ pysam
 
 Pysam is a python module for reading and manipulating Samfiles\. It is a lightweight wrapper of the samtools C\-API\. Pysam also includes an interface for tabix\.
 
-======== ===========
-Home     https://github.com/pysam-developers/pysam
-Versions 0.10.0, 0.11.0, 0.11.1, 0.11.2.1, 0.11.2.2, 0.12.0.1, 0.13.0, 0.14.0, 0.7.7, 0.8.3, 0.8.4, 0.8.4pre0, 0.9.0, 0.9.1, 0.9.1.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysam
+============= ===========
+Home          https://github.com/pysam-developers/pysam
+Versions      0.10.0, 0.11.0, 0.11.1, 0.11.2.1, 0.11.2.2, 0.12.0.1, 0.13.0, 0.14.0, 0.7.7, 0.8.3, 0.8.4, 0.8.4pre0, 0.9.0, 0.9.1, 0.9.1.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysam
 
-======== ===========
+
+
+============= ===========
 
 
 

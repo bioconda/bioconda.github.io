@@ -7,13 +7,15 @@ trawler
 
 Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA\.
 
-======== ===========
-Home     https://trawler.erc.monash.edu.au/help.html
-Versions 2.0
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trawler
+============= ===========
+Home          https://trawler.erc.monash.edu.au/help.html
+Versions      2.0
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trawler
 
-======== ===========
+
+
+============= ===========
 
 
 

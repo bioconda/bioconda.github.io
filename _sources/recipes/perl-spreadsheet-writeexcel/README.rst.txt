@@ -7,13 +7,15 @@ perl-spreadsheet-writeexcel
 
 Write to a cross platform Excel binary file
 
-======== ===========
-Home     http://metacpan.org/pod/Spreadsheet-WriteExcel
-Versions 2.40
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-writeexcel
+============= ===========
+Home          http://metacpan.org/pod/Spreadsheet-WriteExcel
+Versions      2.40
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spreadsheet-writeexcel
 
-======== ===========
+
+
+============= ===========
 
 
 

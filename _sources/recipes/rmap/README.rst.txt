@@ -7,13 +7,15 @@ rmap
 
 rmap is a short reads mapper for next\-generation sequencing data
 
-======== ===========
-Home     http://smithlabresearch.org/software/rmap/
-Versions 2.1
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmap
+============= ===========
+Home          http://smithlabresearch.org/software/rmap/
+Versions      2.1
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmap
 
-======== ===========
+
+
+============= ===========
 
 
 

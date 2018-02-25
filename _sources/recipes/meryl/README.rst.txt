@@ -7,13 +7,15 @@ meryl
 
 meryl is a multi\-threaded\, multi\-process\, out\-of\-core k\-mer counter
 
-======== ===========
-Home     http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
-Versions 2013
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl
+============= ===========
+Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Meryl
+Versions      2013
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meryl
 
-======== ===========
+
+
+============= ===========
 
 
 

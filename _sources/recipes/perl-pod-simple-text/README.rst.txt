@@ -7,13 +7,15 @@ perl-pod-simple-text
 
 format Pod as plaintext
 
-======== ===========
-Home     http://metacpan.org/pod/Pod::Simple::Text
-Versions 3.28
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-simple-text/3.28
+============= ===========
+Home          http://metacpan.org/pod/Pod::Simple::Text
+Versions      3.28
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-simple-text/3.28
 
-======== ===========
+
+
+============= ===========
 
 
 

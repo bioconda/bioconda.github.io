@@ -7,13 +7,15 @@ perl-test-notabs
 
 Check the presence of tabs in your project
 
-======== ===========
-Home     http://metacpan.org/pod/Test-NoTabs
-Versions 1.4
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-notabs
+============= ===========
+Home          http://metacpan.org/pod/Test-NoTabs
+Versions      1.4
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-notabs
 
-======== ===========
+
+
+============= ===========
 
 
 

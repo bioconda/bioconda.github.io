@@ -7,13 +7,15 @@ perl-cpan-shell
 
 
 
-======== ===========
-Home     http://metacpan.org/pod/CPAN::Shell
-Versions 5.5004
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-shell/5.5004
+============= ===========
+Home          http://metacpan.org/pod/CPAN::Shell
+Versions      5.5004
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-shell/5.5004
 
-======== ===========
+
+
+============= ===========
 
 
 

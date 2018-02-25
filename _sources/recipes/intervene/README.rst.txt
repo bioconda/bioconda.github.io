@@ -7,13 +7,15 @@ intervene
 
 A tool for intersection of multiple gene or genomic region sets and visualization as venn diagrams\, UpSet plots or pariwaise heatmaps
 
-======== ===========
-Home     https://github.com/asntech/intervene
-Versions 0.5.8, 0.5.9, 0.6.2
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervene
+============= ===========
+Home          https://github.com/asntech/intervene
+Versions      0.5.8, 0.5.9, 0.6.2
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervene
 
-======== ===========
+
+
+============= ===========
 
 
 

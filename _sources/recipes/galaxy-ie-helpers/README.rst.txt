@@ -7,13 +7,15 @@ galaxy-ie-helpers
 
 Helper scripts to work with Galaxy\'s Interactive Environments
 
-======== ===========
-Home     https://github.com/bgruening/galaxy_ie_helpers
-Versions 0.2.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ie-helpers
+============= ===========
+Home          https://github.com/bgruening/galaxy_ie_helpers
+Versions      0.2.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ie-helpers
 
-======== ===========
+
+
+============= ===========
 
 
 

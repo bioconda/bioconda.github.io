@@ -7,13 +7,15 @@ bioconductor-msnid
 
 Extracts MS\/MS ID data from mzIdentML \(leveraging mzID package\) or text files\. After collating the search results from multiple datasets it assesses their identification quality and optimize filtering criteria to achieve the maximum number of identifications while not exceeding a specified false discovery rate\. Also contains a number of utilities to explore the MS\/MS results and assess missed and irregular enzymatic cleavages\, mass measurement accuracy\, etc\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MSnID.html
-Versions 1.12.1
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnid
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MSnID.html
+Versions      1.12.1
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnid
 
-======== ===========
+
+
+============= ===========
 
 
 

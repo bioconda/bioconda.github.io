@@ -7,13 +7,15 @@ validate-fasta-database
 
 Code for Galaxy tool for quality control on FASTA database
 
-======== ===========
-Home     https://github.com/caleb-easterly/validate_fasta_database
-Versions 1.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validate-fasta-database
+============= ===========
+Home          https://github.com/caleb-easterly/validate_fasta_database
+Versions      1.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validate-fasta-database
 
-======== ===========
+
+
+============= ===========
 
 
 

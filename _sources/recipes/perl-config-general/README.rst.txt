@@ -7,13 +7,15 @@ perl-config-general
 
 Generic Config Module
 
-======== ===========
-Home     http://metacpan.org/pod/Config-General
-Versions 2.61
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-general
+============= ===========
+Home          http://metacpan.org/pod/Config-General
+Versions      2.61
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-general
 
-======== ===========
+
+
+============= ===========
 
 
 

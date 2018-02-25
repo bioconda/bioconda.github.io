@@ -7,13 +7,15 @@ libbigwig
 
 A C library for handling bigWig files
 
-======== ===========
-Home     https://github.com/dpryan79/libBigWig
-Versions 0.3.0, 0.4.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbigwig
+============= ===========
+Home          https://github.com/dpryan79/libBigWig
+Versions      0.3.0, 0.4.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbigwig
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-sub-exporter
 
 a sophisticated exporter for custom\-built routines
 
-======== ===========
-Home     https://github.com/rjbs/Sub-Exporter
-Versions 0.987
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-exporter
+============= ===========
+Home          https://github.com/rjbs/Sub-Exporter
+Versions      0.987
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-exporter
 
-======== ===========
+
+
+============= ===========
 
 
 

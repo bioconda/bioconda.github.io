@@ -7,13 +7,15 @@ perl-params-check
 
 Templated based param validation
 
-======== ===========
-Home     http://metacpan.org/pod/Params::Check
-Versions 0.38
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-check/0.38
+============= ===========
+Home          http://metacpan.org/pod/Params::Check
+Versions      0.38
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-check/0.38
 
-======== ===========
+
+
+============= ===========
 
 
 

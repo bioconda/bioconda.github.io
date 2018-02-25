@@ -7,13 +7,15 @@ connor
 
 A command\-line tool to deduplicate bam files based on custom\, inline barcoding\.
 
-======== ===========
-Home     https://github.com/umich-brcf-bioinf/Connor
-Versions 0.5.1
-License  Apache-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/connor
+============= ===========
+Home          https://github.com/umich-brcf-bioinf/Connor
+Versions      0.5.1
+License       Apache-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/connor
 
-======== ===========
+
+
+============= ===========
 
 
 

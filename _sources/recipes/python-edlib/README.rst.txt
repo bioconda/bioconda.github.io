@@ -7,13 +7,15 @@ python-edlib
 
 Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance\.
 
-======== ===========
-Home     https://github.com/Martinsos/edlib
-Versions 1.2.3
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib
+============= ===========
+Home          https://github.com/Martinsos/edlib
+Versions      1.2.3
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib
 
-======== ===========
+
+
+============= ===========
 
 
 

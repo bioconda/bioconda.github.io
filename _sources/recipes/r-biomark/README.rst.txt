@@ -7,13 +7,15 @@ r-biomark
 
 Variable selection methods are provided for several classification methods\: the lasso\/elastic net\, PCLDA\, PLSDA\, and several t\-tests\. Two approaches for selecting cutoffs can be used\, one based on the stability of model coefficients under perturbation\, and the other on higher criticism\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=BioMark
-Versions 0.4.5
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biomark
+============= ===========
+Home          https://CRAN.R-project.org/package=BioMark
+Versions      0.4.5
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biomark
 
-======== ===========
+
+
+============= ===========
 
 
 

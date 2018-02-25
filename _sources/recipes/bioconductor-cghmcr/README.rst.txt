@@ -7,13 +7,15 @@ bioconductor-cghmcr
 
 This package provides functions to identify genomic regions of interests based on segmented copy number data from multiple samples\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/cghMCR.html
-Versions 1.34.0, 1.36.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/cghMCR.html
+Versions      1.34.0, 1.36.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghmcr
 
-======== ===========
+
+
+============= ===========
 
 
 

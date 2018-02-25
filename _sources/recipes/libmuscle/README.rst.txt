@@ -7,13 +7,15 @@ libmuscle
 
 libMuscle header files\.
 
-======== ===========
-Home     http://darlinglab.org/mauve/
-Versions 3.7
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmuscle
+============= ===========
+Home          http://darlinglab.org/mauve/
+Versions      3.7
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmuscle
 
-======== ===========
+
+
+============= ===========
 
 
 

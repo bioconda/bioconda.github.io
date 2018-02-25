@@ -7,13 +7,15 @@ elasticluster
 
 Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure\.
 
-======== ===========
-Home     https://github.com/gc3-uzh-ch/elasticluster
-Versions 0.1.3bcbio
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elasticluster
+============= ===========
+Home          https://github.com/gc3-uzh-ch/elasticluster
+Versions      0.1.3bcbio
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elasticluster
 
-======== ===========
+
+
+============= ===========
 
 
 

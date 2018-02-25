@@ -7,13 +7,15 @@ mirtop
 
 Small RNA\-seq annotation
 
-======== ===========
-Home     http://github.com/mirtop/mirtop
-Versions 0.1.8a0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop
+============= ===========
+Home          http://github.com/mirtop/mirtop
+Versions      0.1.8a0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtop
 
-======== ===========
+
+
+============= ===========
 
 
 

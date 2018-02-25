@@ -7,13 +7,15 @@ metavelvet-sl-pipeline
 
 Perl libraries that run the full pipeline for metavelvet\-sl
 
-======== ===========
-Home     http://metavelvet.dna.bio.keio.ac.jp/MSL.html
-Versions 1.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-pipeline
+============= ===========
+Home          http://metavelvet.dna.bio.keio.ac.jp/MSL.html
+Versions      1.0
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl-pipeline
 
-======== ===========
+
+
+============= ===========
 
 
 

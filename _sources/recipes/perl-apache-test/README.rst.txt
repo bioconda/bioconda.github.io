@@ -7,13 +7,15 @@ perl-apache-test
 
 Special Tests Sequence Failure Finder
 
-======== ===========
-Home     http://metacpan.org/pod/Apache::Test
-Versions 1.40
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-apache-test
+============= ===========
+Home          http://metacpan.org/pod/Apache::Test
+Versions      1.40
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-apache-test
 
-======== ===========
+
+
+============= ===========
 
 
 

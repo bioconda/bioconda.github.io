@@ -7,13 +7,15 @@ perl-text-ansitable
 
 Create nice formatted tables using extended ASCII and ANSI colors
 
-======== ===========
-Home     https://metacpan.org/release/Text-ANSITable
-Versions 0.48
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-ansitable/0.48
+============= ===========
+Home          https://metacpan.org/release/Text-ANSITable
+Versions      0.48
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-ansitable/0.48
 
-======== ===========
+
+
+============= ===========
 
 
 

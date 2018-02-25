@@ -7,13 +7,15 @@ pdfkit
 
 Wkhtmltopdf python wrapper to convert html to pdf using the webkit rendering engine and qt
 
-======== ===========
-Home     https://pypi.python.org/pypi/pdfkit
-Versions 0.5.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdfkit
+============= ===========
+Home          https://pypi.python.org/pypi/pdfkit
+Versions      0.5.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pdfkit
 
-======== ===========
+
+
+============= ===========
 
 
 

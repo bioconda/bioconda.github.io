@@ -7,13 +7,15 @@ pout2mzid
 
 Adds percolator statistics to mzIdentML files that were used as input to percolator
 
-======== ===========
-Home     https://github.com/percolator/pout2mzid
-Versions 0.3.03
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid
+============= ===========
+Home          https://github.com/percolator/pout2mzid
+Versions      0.3.03
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid
 
-======== ===========
+
+
+============= ===========
 
 
 

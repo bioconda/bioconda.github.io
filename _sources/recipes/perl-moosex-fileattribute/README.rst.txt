@@ -7,13 +7,15 @@ perl-moosex-fileattribute
 
 sugar for classes that have file or directory attributes
 
-======== ===========
-Home     http://metacpan.org/pod/MooseX-FileAttribute
-Versions 0.02
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-fileattribute
+============= ===========
+Home          http://metacpan.org/pod/MooseX-FileAttribute
+Versions      0.02
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-fileattribute
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-config-tiny
 
 Read\/Write \.ini style files with as little code as possible
 
-======== ===========
-Home     http://metacpan.org/pod/Config::Tiny
-Versions 2.23
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-tiny
+============= ===========
+Home          http://metacpan.org/pod/Config::Tiny
+Versions      2.23
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-tiny
 
-======== ===========
+
+
+============= ===========
 
 
 

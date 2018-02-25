@@ -7,13 +7,15 @@ perl-module-extract-use
 
 Pull out the modules a module explicitly uses
 
-======== ===========
-Home     https://github.com/briandfoy/module-extract-use
-Versions 1.043
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-extract-use/1.043
+============= ===========
+Home          https://github.com/briandfoy/module-extract-use
+Versions      1.043
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-extract-use/1.043
 
-======== ===========
+
+
+============= ===========
 
 
 

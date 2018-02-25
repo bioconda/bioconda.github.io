@@ -7,13 +7,15 @@ perl-config-any
 
 Load configuration from different file formats\, transparently
 
-======== ===========
-Home     http://metacpan.org/pod/Config-Any
-Versions 0.27
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-any
+============= ===========
+Home          http://metacpan.org/pod/Config-Any
+Versions      0.27
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-any
 
-======== ===========
+
+
+============= ===========
 
 
 

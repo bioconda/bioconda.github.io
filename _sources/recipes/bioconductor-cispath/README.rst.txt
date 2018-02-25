@@ -7,13 +7,15 @@ bioconductor-cispath
 
 cisPath is an R package that uses web browsers to visualize and manage protein\-protein interaction networks\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/cisPath.html
-Versions 1.18.0
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cispath
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/cisPath.html
+Versions      1.18.0
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cispath
 
-======== ===========
+
+
+============= ===========
 
 
 

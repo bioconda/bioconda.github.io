@@ -7,13 +7,15 @@ cityhash
 
 Python\-bindings for CityHash\, a fast non\-cryptographic hash algorithm
 
-======== ===========
-Home     https://github.com/escherba/python-cityhash
-Versions 0.1.5, 0.1.7
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash
+============= ===========
+Home          https://github.com/escherba/python-cityhash
+Versions      0.1.5, 0.1.7
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cityhash
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-io-sessiondata
 
 supporting module for SOAP\:\:Lite
 
-======== ===========
-Home     http://metacpan.org/pod/IO-SessionData
-Versions 1.03
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-sessiondata
+============= ===========
+Home          http://metacpan.org/pod/IO-SessionData
+Versions      1.03
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-sessiondata
 
-======== ===========
+
+
+============= ===========
 
 
 

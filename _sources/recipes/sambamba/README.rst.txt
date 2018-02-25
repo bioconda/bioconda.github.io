@@ -7,13 +7,15 @@ sambamba
 
 Tools for working with SAM\/BAM data
 
-======== ===========
-Home     https://github.com/lomereiter/sambamba
-Versions 0.5.9, 0.6.1, 0.6.2, 0.6.3, 0.6.5, 0.6.6
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba
+============= ===========
+Home          https://github.com/lomereiter/sambamba
+Versions      0.5.9, 0.6.1, 0.6.2, 0.6.3, 0.6.5, 0.6.6
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sambamba
 
-======== ===========
+
+
+============= ===========
 
 
 

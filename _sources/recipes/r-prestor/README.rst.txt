@@ -7,13 +7,15 @@ prestor
 
 A prototype package for generating quality control plots from pRESTO output\.
 
-======== ===========
-Home     https://bitbucket.org/javh/prototype-prestor
-Versions 07f9c7caeb60
-License  Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-prestor
+============= ===========
+Home          https://bitbucket.org/javh/prototype-prestor
+Versions      07f9c7caeb60
+License       Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-prestor
 
-======== ===========
+
+
+============= ===========
 
 
 

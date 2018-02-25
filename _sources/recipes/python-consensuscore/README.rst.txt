@@ -7,13 +7,15 @@ python-consensuscore
 
 C\+\+ library of multiple\-sequence consensus routines with SWIG bindings
 
-======== ===========
-Home     https://github.com/PacificBiosciences/ConsensusCore
-Versions 1.0.0, 1.0.2
-License  BSD-3-Clause-Clear
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-consensuscore
+============= ===========
+Home          https://github.com/PacificBiosciences/ConsensusCore
+Versions      1.0.0, 1.0.2
+License       BSD-3-Clause-Clear
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-consensuscore
 
-======== ===========
+
+
+============= ===========
 
 
 

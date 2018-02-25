@@ -7,13 +7,15 @@ biodiff
 
 exact comparison of biological sequences
 
-======== ===========
-Home     https://gitlab.com/LPCDRP/biodiff
-Versions 0.2.2
-License  GPLv3+
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biodiff
+============= ===========
+Home          https://gitlab.com/LPCDRP/biodiff
+Versions      0.2.2
+License       GPLv3+
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biodiff
 
-======== ===========
+
+
+============= ===========
 
 biodiff is a variant caller that determines the exact differences between two biological sequences\. It can operate on DNA and protein sequences\, as long as they are in fasta format\. The sequences to be compared must have the same fasta header \(up to the first whitespace\)\. If the reference and query each have only one sequence\, however\, the header need not match and the comparison will be done\, but a warning will be emitted\. Output is in the Variant Call Format\.
 

@@ -10,13 +10,15 @@ Its primary purpose is to serve as a component of sequence annotation pipelines\
 means of generating visual output suitable for the web\.
 
 
-======== ===========
-Home     http://wishart.biology.ualberta.ca/cgview/
-Versions 1.0
-License  GNU General Public License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgview
+============= ===========
+Home          http://wishart.biology.ualberta.ca/cgview/
+Versions      1.0
+License       GNU General Public License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgview
 
-======== ===========
+
+
+============= ===========
 
 
 

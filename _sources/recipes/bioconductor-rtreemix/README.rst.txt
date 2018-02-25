@@ -7,13 +7,15 @@ bioconductor-rtreemix
 
 Rtreemix is a package that offers an environment for estimating the mutagenetic trees mixture models from cross\-sectional data and using them for various predictions\. It includes functions for fitting the trees mixture models\, likelihood computations\, model comparisons\, waiting time estimations\, stability analysis\, etc\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Rtreemix.html
-Versions 1.38.0, 1.40.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtreemix
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Rtreemix.html
+Versions      1.38.0, 1.40.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtreemix
 
-======== ===========
+
+
+============= ===========
 
 
 

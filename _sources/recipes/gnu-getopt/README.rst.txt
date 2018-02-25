@@ -7,13 +7,15 @@ gnu-getopt
 
 Command\-line option parsing library
 
-======== ===========
-Home     http://software.frodo.looijaard.name/getopt/
-Versions 1.1.6
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnu-getopt
+============= ===========
+Home          http://software.frodo.looijaard.name/getopt/
+Versions      1.1.6
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnu-getopt
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ strainest
 
 Abundance estimation of strains
 
-======== ===========
-Home     https://github.com/compmetagen/strainest
-Versions 1.2.2
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainest
+============= ===========
+Home          https://github.com/compmetagen/strainest
+Versions      1.2.2
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strainest
 
-======== ===========
+
+
+============= ===========
 
 
 

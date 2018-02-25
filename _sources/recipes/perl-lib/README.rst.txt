@@ -7,13 +7,15 @@ perl-lib
 
 manipulate \@INC at compile time
 
-======== ===========
-Home     http://metacpan.org/pod/lib
-Versions 0.63
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lib/0.63
+============= ===========
+Home          http://metacpan.org/pod/lib
+Versions      0.63
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lib/0.63
 
-======== ===========
+
+
+============= ===========
 
 
 

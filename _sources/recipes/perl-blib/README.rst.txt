@@ -7,13 +7,15 @@ perl-blib
 
 Use MakeMaker\'s uninstalled version of a package
 
-======== ===========
-Home     http://metacpan.org/pod/blib
-Versions 1.06
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-blib/1.06
+============= ===========
+Home          http://metacpan.org/pod/blib
+Versions      1.06
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-blib/1.06
 
-======== ===========
+
+
+============= ===========
 
 
 

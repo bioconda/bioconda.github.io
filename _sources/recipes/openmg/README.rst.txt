@@ -7,13 +7,15 @@ openmg
 
 Exhaustive generation of chemical structures
 
-======== ===========
-Home     https://sourceforge.net/projects/openmg
-Versions 0.1
-License  GNU General Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg
+============= ===========
+Home          https://sourceforge.net/projects/openmg
+Versions      0.1
+License       GNU General Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openmg
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-motifbreakr
 
 We introduce motifbreakR\, which allows the biologist to judge in the first place whether the sequence surrounding the polymorphism is a good match\, and in the second place how much information is gained or lost in one allele of the polymorphism relative to another\. MotifbreakR is both flexible and extensible over previous offerings\; giving a choice of algorithms for interrogation of genomes with motifs from public sources that users can choose from\; these are 1\) a weighted\-sum probability matrix\, 2\) log\-probabilities\, and 3\) weighted by relative entropy\. MotifbreakR can predict effects for novel or previously described variants in public databases\, making it suitable for tasks beyond the scope of its original design\. Lastly\, it can be used to interrogate any genome curated within Bioconductor \(currently there are 22\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/motifbreakR.html
-Versions 1.4.0, 1.6.0, 1.8.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifbreakr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/motifbreakR.html
+Versions      1.4.0, 1.6.0, 1.8.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifbreakr
 
-======== ===========
+
+
+============= ===========
 
 
 

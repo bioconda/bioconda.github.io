@@ -7,13 +7,15 @@ xunit-wrapper
 
 Wrap python functions with a decorator to handle building XUnit reports
 
-======== ===========
-Home     https://github.com/TAMU-CPT/xunit-python-decorator
-Versions 0.12
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xunit-wrapper
+============= ===========
+Home          https://github.com/TAMU-CPT/xunit-python-decorator
+Versions      0.12
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xunit-wrapper
 
-======== ===========
+
+
+============= ===========
 
 
 

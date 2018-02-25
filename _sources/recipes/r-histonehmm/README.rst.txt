@@ -7,13 +7,17 @@ r-histonehmm
 
 histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3\. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
 
-======== ===========
-Home     http://histonehmm.molgen.mpg.de/
-Versions 1.6, 1.7
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm
+============= ===========
+Home          http://histonehmm.molgen.mpg.de/
+Versions      1.6, 1.7
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-histonehmm
 
-======== ===========
+
+Development   https://github.com/matthiasheinig/histoneHMM
+
+
+============= ===========
 
 
 

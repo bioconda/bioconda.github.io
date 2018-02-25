@@ -7,13 +7,15 @@ perl-test-cpan-meta
 
 Validate your CPAN META\.json files
 
-======== ===========
-Home     http://metacpan.org/pod/Test-CPAN-Meta
-Versions 0.25
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cpan-meta
+============= ===========
+Home          http://metacpan.org/pod/Test-CPAN-Meta
+Versions      0.25
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cpan-meta
 
-======== ===========
+
+
+============= ===========
 
 
 

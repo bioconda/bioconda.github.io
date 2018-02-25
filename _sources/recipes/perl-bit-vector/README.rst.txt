@@ -7,13 +7,15 @@ perl-bit-vector
 
 Efficient bit vector\, set of integers and \"big int\" math library
 
-======== ===========
-Home     https://metacpan.org/pod/distribution/Bit-Vector/Vector.pod
-Versions 7.4
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bit-vector
+============= ===========
+Home          https://metacpan.org/pod/distribution/Bit-Vector/Vector.pod
+Versions      7.4
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bit-vector
 
-======== ===========
+
+
+============= ===========
 
 
 

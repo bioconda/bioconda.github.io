@@ -7,13 +7,15 @@ myriad
 
 Simple distributed computing\.
 
-======== ===========
-Home     https://github.com/cjw85/myriad
-Versions 0.1.3
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myriad
+============= ===========
+Home          https://github.com/cjw85/myriad
+Versions      0.1.3
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myriad
 
-======== ===========
+
+
+============= ===========
 
 
 

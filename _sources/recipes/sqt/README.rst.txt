@@ -7,13 +7,15 @@ sqt
 
 Command\-line tools for the analysis of high\-throughput sequencing data
 
-======== ===========
-Home     https://bitbucket.org/marcelm/sqt
-Versions 0.6.1, 0.6.3, 0.7.0, 0.8.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqt
+============= ===========
+Home          https://bitbucket.org/marcelm/sqt
+Versions      0.6.1, 0.6.3, 0.7.0, 0.8.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqt
 
-======== ===========
+
+
+============= ===========
 
 
 

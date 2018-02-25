@@ -7,13 +7,15 @@ perl-term-app-roles
 
 Collection of roles for terminal\-based application
 
-======== ===========
-Home     https://metacpan.org/release/Term-App-Roles
-Versions 0.01
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-app-roles
+============= ===========
+Home          https://metacpan.org/release/Term-App-Roles
+Versions      0.01
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-app-roles
 
-======== ===========
+
+
+============= ===========
 
 
 

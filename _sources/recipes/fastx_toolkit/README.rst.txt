@@ -11,13 +11,15 @@ The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the s
 However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files before mapping the sequences to the genome \- manipulating the sequences to produce better mapping results\.
 The FASTX\-Toolkit tools perform some of these preprocessing tasks\.
 
-======== ===========
-Home     https://github.com/agordon/fastx_toolkit
-Versions 0.0.14
-License  AGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastx_toolkit
+============= ===========
+Home          https://github.com/agordon/fastx_toolkit
+Versions      0.0.14
+License       AGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastx_toolkit
 
-======== ===========
+
+
+============= ===========
 
 
 

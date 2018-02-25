@@ -7,13 +7,15 @@ bioconductor-transview
 
 This package provides efficient tools to generate\, access and display read densities of sequencing based data sets such as from RNA\-Seq and ChIP\-Seq\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/TransView.html
-Versions 1.20.0, 1.22.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/TransView.html
+Versions      1.20.0, 1.22.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-transview
 
-======== ===========
+
+
+============= ===========
 
 
 

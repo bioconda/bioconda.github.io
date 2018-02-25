@@ -7,13 +7,15 @@ perl-list-uniq
 
 extract the unique elements of a list
 
-======== ===========
-Home     http://metacpan.org/pod/List::Uniq
-Versions 0.20
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-uniq
+============= ===========
+Home          http://metacpan.org/pod/List::Uniq
+Versions      0.20
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-uniq
 
-======== ===========
+
+
+============= ===========
 
 
 

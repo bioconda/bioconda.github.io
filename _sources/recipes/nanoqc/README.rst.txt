@@ -7,13 +7,15 @@ nanoqc
 
 Create fastQC\-like plots for Oxford Nanopore sequencing data
 
-======== ===========
-Home     https://github.com/wdecoster/nanoQC
-Versions 0.3.3, 0.4.3, 0.5.0, 0.6.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoqc
+============= ===========
+Home          https://github.com/wdecoster/nanoQC
+Versions      0.3.3, 0.4.3, 0.5.0, 0.6.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoqc
 
-======== ===========
+
+
+============= ===========
 
 
 

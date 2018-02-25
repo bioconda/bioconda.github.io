@@ -7,13 +7,15 @@ byobu
 
 Byobu is a GPLv3 open source text\-based window manager and terminal multiplexer\.
 
-======== ===========
-Home     http://byobu.co/
-Versions 5.92, 5.98
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/byobu
+============= ===========
+Home          http://byobu.co/
+Versions      5.92, 5.98
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/byobu
 
-======== ===========
+
+
+============= ===========
 
 
 

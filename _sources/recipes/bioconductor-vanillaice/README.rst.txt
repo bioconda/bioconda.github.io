@@ -7,13 +7,15 @@ bioconductor-vanillaice
 
 Hidden Markov Models for characterizing chromosomal alterations in high throughput SNP arrays\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/VanillaICE.html
-Versions 1.40.0
-License  LGPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vanillaice
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/VanillaICE.html
+Versions      1.40.0
+License       LGPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vanillaice
 
-======== ===========
+
+
+============= ===========
 
 
 

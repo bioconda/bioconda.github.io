@@ -7,13 +7,15 @@ perl-yaml-tiny
 
 Read\/Write YAML files with as little code as possible
 
-======== ===========
-Home     http://search.cpan.org/dist/YAML-Tiny/lib/YAML/Tiny.pm
-Versions 1.70
-License  perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-tiny
+============= ===========
+Home          http://search.cpan.org/dist/YAML-Tiny/lib/YAML/Tiny.pm
+Versions      1.70
+License       perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml-tiny
 
-======== ===========
+
+
+============= ===========
 
 
 

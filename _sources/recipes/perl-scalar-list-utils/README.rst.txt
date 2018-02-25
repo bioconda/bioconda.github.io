@@ -7,13 +7,15 @@ perl-scalar-list-utils
 
 Common Scalar and List utility subroutines
 
-======== ===========
-Home     http://metacpan.org/pod/Scalar-List-Utils
-Versions 1.42, 1.45
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-list-utils/1.42
+============= ===========
+Home          http://metacpan.org/pod/Scalar-List-Utils
+Versions      1.42, 1.45
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-list-utils/1.42
 
-======== ===========
+
+
+============= ===========
 
 
 

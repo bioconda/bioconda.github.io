@@ -7,13 +7,15 @@ perl-inline
 
 Write Perl Subroutines in Other Programming Languages
 
-======== ===========
-Home     http://search.cpan.org/dist/Inline/
-Versions 0.80
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline
+============= ===========
+Home          http://search.cpan.org/dist/Inline/
+Versions      0.80
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-timecourse
 
 Functions for data analysis and graphical displays for developmental microarray time course data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/timecourse.html
-Versions 1.48.0, 1.50.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecourse
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/timecourse.html
+Versions      1.48.0, 1.50.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timecourse
 
-======== ===========
+
+
+============= ===========
 
 
 

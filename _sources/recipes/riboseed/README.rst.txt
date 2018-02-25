@@ -7,13 +7,17 @@ riboseed
 
 riboSeed\: assemble across rDNA regions
 
-======== ===========
-Home     https://github.com/nickp60/riboSeed
-Versions 0.4.16, 0.4.47
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseed
+============= ===========
+Home          https://github.com/nickp60/riboSeed
+Versions      0.4.16, 0.4.47
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseed
 
-======== ===========
+
+Development   https://github.com/nickp60/riboSeed
+
+
+============= ===========
 
 Genome assembly polisher to bridge rDNA gaps
 

@@ -7,13 +7,15 @@ cd-hit-auxtools
 
 Clusters and compares protein or nucleotide sequences
 
-======== ===========
-Home     https://github.com/weizhongli/cdhit
-Versions 4.6.8
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit-auxtools
+============= ===========
+Home          https://github.com/weizhongli/cdhit
+Versions      4.6.8
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cd-hit-auxtools
 
-======== ===========
+
+
+============= ===========
 
 
 

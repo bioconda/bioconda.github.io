@@ -7,13 +7,15 @@ pauda
 
 PAUDA is a new approach toward the problem of comparing DNA reads against a database of protein reference sequences that is applicable to very large datasets consisting of hundreds of millions or billions of reads\.
 
-======== ===========
-Home     https://ab.inf.uni-tuebingen.de/software/pauda
-Versions 1.0.1
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauda
+============= ===========
+Home          https://ab.inf.uni-tuebingen.de/software/pauda
+Versions      1.0.1
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pauda
 
-======== ===========
+
+
+============= ===========
 
 
 

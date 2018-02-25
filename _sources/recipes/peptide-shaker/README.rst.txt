@@ -11,13 +11,15 @@ By combining the results from multiple search engines\, while re\-calculating PT
 PeptideShaker attempts to give you the best possible understanding of your proteomics data\!
 
 
-======== ===========
-Home     https://github.com/compomics/peptide-shaker
-Versions 1.1.3, 1.11.0, 1.13.3, 1.13.6, 1.14.4, 1.14.6, 1.15.0, 1.15.1, 1.16.0, 1.16.13, 1.16.14, 1.16.15, 1.16.3, 1.16.4
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker
+============= ===========
+Home          https://github.com/compomics/peptide-shaker
+Versions      1.1.3, 1.11.0, 1.13.3, 1.13.6, 1.14.4, 1.14.6, 1.15.0, 1.15.1, 1.16.0, 1.16.13, 1.16.14, 1.16.15, 1.16.3, 1.16.4
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker
 
-======== ===========
+
+
+============= ===========
 
 
 

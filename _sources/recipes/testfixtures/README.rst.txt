@@ -7,13 +7,15 @@ testfixtures
 
 A collection of helpers and mock objects for unit tests and doc tests\.
 
-======== ===========
-Home     https://github.com/Simplistix/testfixtures
-Versions 4.8.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/testfixtures
+============= ===========
+Home          https://github.com/Simplistix/testfixtures
+Versions      4.8.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/testfixtures
 
-======== ===========
+
+
+============= ===========
 
 
 

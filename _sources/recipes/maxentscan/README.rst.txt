@@ -7,13 +7,15 @@ maxentscan
 
 MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions\. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models\.
 
-======== ===========
-Home     http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
-Versions 0_2004.04.21
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentscan
+============= ===========
+Home          http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
+Versions      0_2004.04.21
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxentscan
 
-======== ===========
+
+
+============= ===========
 
 
 

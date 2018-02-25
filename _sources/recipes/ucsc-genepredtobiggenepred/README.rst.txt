@@ -7,13 +7,15 @@ ucsc-genepredtobiggenepred
 
 converts genePred or genePredExt to bigGenePred input \(bed format with extra fields\)
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 332, 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobiggenepred
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      332, 357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtobiggenepred
 
-======== ===========
+
+
+============= ===========
 
 
 

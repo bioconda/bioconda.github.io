@@ -7,13 +7,15 @@ r-inlinedocs
 
 Generates Rd files from R source code with comments\. The main features of the default syntax are that \(1\) docs are defined in comments near the relevant code\, \(2\) function argument names are not repeated in comments\, and \(3\) examples are defined in R code\, not comments\. It is also easy to define a new syntax\.
 
-======== ===========
-Home     http://inlinedocs.r-forge.r-project.org
-Versions 2013.9.3
-License  GPL-2 | GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-inlinedocs
+============= ===========
+Home          http://inlinedocs.r-forge.r-project.org
+Versions      2013.9.3
+License       GPL-2 | GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-inlinedocs
 
-======== ===========
+
+
+============= ===========
 
 
 

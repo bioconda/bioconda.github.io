@@ -7,13 +7,15 @@ tophat-recondition
 
 Post\-processor for TopHat unmapped reads
 
-======== ===========
-Home     https://github.com/cbrueffer/tophat-recondition
-Versions 1.1, 1.2, 1.3, 1.4
-License  BSD_2_clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition
+============= ===========
+Home          https://github.com/cbrueffer/tophat-recondition
+Versions      1.1, 1.2, 1.3, 1.4
+License       BSD_2_clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition
 
-======== ===========
+
+
+============= ===========
 
 
 

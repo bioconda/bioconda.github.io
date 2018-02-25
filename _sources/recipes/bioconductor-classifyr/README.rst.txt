@@ -7,13 +7,15 @@ bioconductor-classifyr
 
 The software formalises a framework for classification in R\. There are four stages\; Data transformation\, feature selection\, classifier training\, and prediction\. The requirements of variable types and names are fixed\, but specialised variables for functions can also be provided\. The classification framework is wrapped in a driver loop\, that reproducibly carries out a number of cross\-validation schemes\. Functions for differential expression\, differential variability\, and differential distribution are included\. Additional functions may be developed by the user\, by creating an interface to the framework\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ClassifyR.html
-Versions 1.12.2
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ClassifyR.html
+Versions      1.12.2
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr
 
-======== ===========
+
+
+============= ===========
 
 
 

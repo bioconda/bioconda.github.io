@@ -12,13 +12,15 @@ It is well\-suited to run on multiple core servers or clusters to
 construct the BWT of large collections of genome sequences\.
 
 
-======== ===========
-Home     https://github.com/DixianZhu/deBWT
-Versions 1.0.1
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/debwt
+============= ===========
+Home          https://github.com/DixianZhu/deBWT
+Versions      1.0.1
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/debwt
 
-======== ===========
+
+
+============= ===========
 
 
 

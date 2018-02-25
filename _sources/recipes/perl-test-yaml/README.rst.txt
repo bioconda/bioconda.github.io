@@ -7,13 +7,15 @@ perl-test-yaml
 
 Testing Module for YAML Implementations
 
-======== ===========
-Home     https://github.com/ingydotnet/test-yaml-pm
-Versions 1.06
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-yaml
+============= ===========
+Home          https://github.com/ingydotnet/test-yaml-pm
+Versions      1.06
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-yaml
 
-======== ===========
+
+
+============= ===========
 
 
 

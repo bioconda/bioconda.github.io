@@ -7,13 +7,15 @@ shapemapper
 
 ShapeMapper converts raw sequencing files into mutational profiles\, creates SHAPE reactivity plots\, and provides extensive diagnostic information useful for experiment analysis and troubleshooting\.
 
-======== ===========
-Home     http://www.chem.unc.edu/rna/software.html
-Versions 1.2
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapemapper
+============= ===========
+Home          http://www.chem.unc.edu/rna/software.html
+Versions      1.2
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapemapper
 
-======== ===========
+
+
+============= ===========
 
 
 

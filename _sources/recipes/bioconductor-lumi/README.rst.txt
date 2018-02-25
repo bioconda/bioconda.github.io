@@ -7,13 +7,15 @@ bioconductor-lumi
 
 The lumi package provides an integrated solution for the Illumina microarray data analysis\. It includes functions of Illumina BeadStudio \(GenomeStudio\) data input\, quality control\, BeadArray\-specific variance stabilization\, normalization and gene annotation at the probe level\. It also includes the functions of processing Illumina methylation microarrays\, especially Illumina Infinium methylation microarrays\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/lumi.html
-Versions 2.30.0
-License  LGPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumi
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/lumi.html
+Versions      2.30.0
+License       LGPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumi
 
-======== ===========
+
+
+============= ===========
 
 
 

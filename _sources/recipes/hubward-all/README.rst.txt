@@ -7,13 +7,15 @@ hubward-all
 
 Meta\-package for hubward including bedtools and UCSC tools
 
-======== ===========
-Home     
-Versions 0.2.1
-License  The license for this meta-package is MIT; individual tools vary
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all
+============= ===========
+Home          
+Versions      0.2.1
+License       The license for this meta-package is MIT; individual tools vary
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward-all
 
-======== ===========
+
+
+============= ===========
 
 
 

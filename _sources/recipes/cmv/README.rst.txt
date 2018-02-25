@@ -7,13 +7,15 @@ cmv
 
 A collection of tools for the visualisation of Hidden Markov Models \(HMMV\) and RNA\-family models \(CMV\)\.
 
-======== ===========
-Home     https://github.com/eggzilla/cmv
-Versions 1.0.2, 1.0.5, 1.0.6, 1.0.7, 1.0.8
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmv
+============= ===========
+Home          https://github.com/eggzilla/cmv
+Versions      1.0.2, 1.0.5, 1.0.6, 1.0.7, 1.0.8
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmv
 
-======== ===========
+
+
+============= ===========
 
 
 

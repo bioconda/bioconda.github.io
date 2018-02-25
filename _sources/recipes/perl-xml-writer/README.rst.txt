@@ -7,13 +7,15 @@ perl-xml-writer
 
 Easily generate well\-formed\, namespace\-aware XML\.
 
-======== ===========
-Home     http://metacpan.org/pod/XML-Writer
-Versions 0.625
-License  unrestricted
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-writer
+============= ===========
+Home          http://metacpan.org/pod/XML-Writer
+Versions      0.625
+License       unrestricted
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-writer
 
-======== ===========
+
+
+============= ===========
 
 
 

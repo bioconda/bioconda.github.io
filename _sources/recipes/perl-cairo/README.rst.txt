@@ -7,13 +7,15 @@ perl-cairo
 
 Perl interface to the cairo 2d vector graphics library
 
-======== ===========
-Home     http://gtk2-perl.sourceforge.net
-Versions 1.106
-License  lgpl_2_1
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cairo
+============= ===========
+Home          http://gtk2-perl.sourceforge.net
+Versions      1.106
+License       lgpl_2_1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cairo
 
-======== ===========
+
+
+============= ===========
 
 
 

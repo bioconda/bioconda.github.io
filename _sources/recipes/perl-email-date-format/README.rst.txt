@@ -7,13 +7,15 @@ perl-email-date-format
 
 produce RFC 2822 date strings
 
-======== ===========
-Home     https://github.com/rjbs/Email-Date-Format
-Versions 1.005
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-email-date-format
+============= ===========
+Home          https://github.com/rjbs/Email-Date-Format
+Versions      1.005
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-email-date-format
 
-======== ===========
+
+
+============= ===========
 
 
 

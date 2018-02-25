@@ -7,13 +7,15 @@ twopaco
 
 A fast constructor of the compressed de Bruijn graph from many genomes
 
-======== ===========
-Home     https://github.com/medvedevgroup/TwoPaCo
-Versions 0.9.2
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twopaco
+============= ===========
+Home          https://github.com/medvedevgroup/TwoPaCo
+Versions      0.9.2
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twopaco
 
-======== ===========
+
+
+============= ===========
 
 
 

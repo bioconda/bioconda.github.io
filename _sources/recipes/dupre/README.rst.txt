@@ -7,13 +7,15 @@ dupre
 
 Duplicate rate estimation using linear programming and the hypergeometric distribution
 
-======== ===========
-Home     https://bitbucket.org/genomeinformatics/dupre/
-Versions 0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupre
+============= ===========
+Home          https://bitbucket.org/genomeinformatics/dupre/
+Versions      0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dupre
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ flask-potion
 
 Powerful REST API framework for Flask and SQLAlchemy
 
-======== ===========
-Home     http://potion.readthedocs.org/en/latest/
-Versions 0.12.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-potion
+============= ===========
+Home          http://potion.readthedocs.org/en/latest/
+Versions      0.12.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flask-potion
 
-======== ===========
+
+
+============= ===========
 
 
 

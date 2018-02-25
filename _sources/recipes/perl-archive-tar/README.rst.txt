@@ -7,13 +7,15 @@ perl-archive-tar
 
 Manipulates TAR archives
 
-======== ===========
-Home     http://metacpan.org/pod/Archive::Tar
-Versions 2.18
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-tar
+============= ===========
+Home          http://metacpan.org/pod/Archive::Tar
+Versions      2.18
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-tar
 
-======== ===========
+
+
+============= ===========
 
 
 

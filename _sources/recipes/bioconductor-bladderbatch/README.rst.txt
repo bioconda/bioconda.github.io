@@ -7,13 +7,15 @@ bioconductor-bladderbatch
 
 This package contains microarray gene expression data on 57 bladder samples from 5 batches\. The data are used as an illustrative example for the sva package\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.5/data/experiment/html/bladderbatch.html
-Versions 1.14.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bladderbatch
+============= ===========
+Home          http://bioconductor.org/packages/3.5/data/experiment/html/bladderbatch.html
+Versions      1.14.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bladderbatch
 
-======== ===========
+
+
+============= ===========
 
 
 

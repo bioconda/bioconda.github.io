@@ -7,13 +7,15 @@ fusepy
 
 Simple ctypes bindings for FUSE
 
-======== ===========
-Home     http://github.com/terencehonles/fusepy
-Versions 2.0.4
-License  ISC License (ISCL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusepy
+============= ===========
+Home          http://github.com/terencehonles/fusepy
+Versions      2.0.4
+License       ISC License (ISCL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusepy
 
-======== ===========
+
+
+============= ===========
 
 
 

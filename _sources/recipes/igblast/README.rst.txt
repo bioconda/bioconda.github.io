@@ -7,13 +7,15 @@ igblast
 
 A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences\.
 
-======== ===========
-Home     http://www.ncbi.nlm.nih.gov/projects/igblast/
-Versions 1.4.0, 1.5.0, 1.7.0
-License  Public Domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igblast
+============= ===========
+Home          http://www.ncbi.nlm.nih.gov/projects/igblast/
+Versions      1.4.0, 1.5.0, 1.7.0
+License       Public Domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igblast
 
-======== ===========
+
+
+============= ===========
 
 
 

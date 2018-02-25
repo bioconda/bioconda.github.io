@@ -7,13 +7,15 @@ perl-file-copy-recursive
 
 
 
-======== ===========
-Home     https://metacpan.org/pod/File::Copy::Recursive
-Versions 0.38
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive
+============= ===========
+Home          https://metacpan.org/pod/File::Copy::Recursive
+Versions      0.38
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive
 
-======== ===========
+
+
+============= ===========
 
 
 

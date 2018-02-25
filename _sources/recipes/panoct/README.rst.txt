@@ -7,13 +7,15 @@ panoct
 
 PanOCT\, Pan\-genome Ortholog Clustering Tool\, is a program for pan\-genomic analysis of closely related prokaryotic species or strains
 
-======== ===========
-Home     https://panoct.sourceforge.io/
-Versions 3.23
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panoct
+============= ===========
+Home          https://panoct.sourceforge.io/
+Versions      3.23
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panoct
 
-======== ===========
+
+
+============= ===========
 
 
 

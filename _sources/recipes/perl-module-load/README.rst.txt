@@ -7,13 +7,15 @@ perl-module-load
 
 Load modules in a DWIM style
 
-======== ===========
-Home     http://metacpan.org/pod/Module::Load
-Versions 0.32
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load/0.32
+============= ===========
+Home          http://metacpan.org/pod/Module::Load
+Versions      0.32
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load/0.32
 
-======== ===========
+
+
+============= ===========
 
 
 

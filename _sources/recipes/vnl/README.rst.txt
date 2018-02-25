@@ -7,13 +7,15 @@ vnl
 
 A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding\.
 
-======== ===========
-Home     https://sf.net/projects/vxl/
-Versions 1.17.0
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vnl
+============= ===========
+Home          https://sf.net/projects/vxl/
+Versions      1.17.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vnl
 
-======== ===========
+
+
+============= ===========
 
 
 

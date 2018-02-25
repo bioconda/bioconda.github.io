@@ -7,13 +7,15 @@ talloc
 
 talloc is a hierarchical\, reference counted memory pool system with destructors\.
 
-======== ===========
-Home     https://talloc.samba.org/talloc/doc/html/index.html`
-Versions 2.1.9
-License  LGPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talloc
+============= ===========
+Home          https://talloc.samba.org/talloc/doc/html/index.html`
+Versions      2.1.9
+License       LGPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/talloc
 
-======== ===========
+
+
+============= ===========
 
 
 

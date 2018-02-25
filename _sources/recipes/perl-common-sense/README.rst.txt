@@ -7,13 +7,15 @@ perl-common-sense
 
 Sane defaults for Perl programs
 
-======== ===========
-Home     http://search.cpan.org/~mlehmann/common-sense-3.74/
-Versions 3.74
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-common-sense
+============= ===========
+Home          http://search.cpan.org/~mlehmann/common-sense-3.74/
+Versions      3.74
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-common-sense
 
-======== ===========
+
+
+============= ===========
 
 
 

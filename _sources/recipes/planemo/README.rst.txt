@@ -7,13 +7,15 @@ planemo
 
 Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject\.org\/\)\.
 
-======== ===========
-Home     https://github.com/galaxyproject/planemo
-Versions 0.23.0, 0.29.1, 0.33.2, 0.34.1, 0.38.1, 0.40.1, 0.46.1
-License  Academic Free License (AFL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo
+============= ===========
+Home          https://github.com/galaxyproject/planemo
+Versions      0.23.0, 0.29.1, 0.33.2, 0.34.1, 0.38.1, 0.40.1, 0.46.1
+License       Academic Free License (AFL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/planemo
 
-======== ===========
+
+
+============= ===========
 
 
 

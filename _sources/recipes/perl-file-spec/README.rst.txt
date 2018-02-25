@@ -7,13 +7,15 @@ perl-file-spec
 
 portably perform operations on file names
 
-======== ===========
-Home     http://metacpan.org/pod/File::Spec
-Versions 3.48_01
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec/3.48_01
+============= ===========
+Home          http://metacpan.org/pod/File::Spec
+Versions      3.48_01
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-spec/3.48_01
 
-======== ===========
+
+
+============= ===========
 
 
 

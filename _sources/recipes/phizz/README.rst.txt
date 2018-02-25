@@ -7,13 +7,15 @@ phizz
 
 Tool to query hpo database and some other sources
 
-======== ===========
-Home     https://github.com/moonso/query_hpo
-Versions 0.0.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz
+============= ===========
+Home          https://github.com/moonso/query_hpo
+Versions      0.0.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phizz
 
-======== ===========
+
+
+============= ===========
 
 
 

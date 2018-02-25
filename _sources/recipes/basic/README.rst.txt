@@ -8,13 +8,15 @@ basic
 BASIC is a semi\-de novo assembly method to determine the full\-length sequence of the BCR in single B cells from scRNA\-seq data\.
 
 
-======== ===========
-Home     http://ttic.uchicago.edu/~aakhan/BASIC/
-Versions 1.0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic
+============= ===========
+Home          http://ttic.uchicago.edu/~aakhan/BASIC/
+Versions      1.0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic
 
-======== ===========
+
+
+============= ===========
 
 
 

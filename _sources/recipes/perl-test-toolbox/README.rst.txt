@@ -7,13 +7,15 @@ perl-test-toolbox
 
 Test\:\:Toolbox \- tools for testing
 
-======== ===========
-Home     http://metacpan.org/pod/Test::Toolbox
-Versions 0.4
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-toolbox/0.4
+============= ===========
+Home          http://metacpan.org/pod/Test::Toolbox
+Versions      0.4
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-toolbox/0.4
 
-======== ===========
+
+
+============= ===========
 
 
 

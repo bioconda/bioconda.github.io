@@ -7,13 +7,15 @@ perl-html-tree
 
 Work with HTML in a DOM\-like tree structure
 
-======== ===========
-Home     http://metacpan.org/pod/HTML-Tree
-Versions 5.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tree
+============= ===========
+Home          http://metacpan.org/pod/HTML-Tree
+Versions      5.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tree
 
-======== ===========
+
+
+============= ===========
 
 
 

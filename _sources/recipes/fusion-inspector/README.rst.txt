@@ -7,13 +7,15 @@ fusion-inspector
 
 FusionInspector is a component of the Trinity Cancer Transcriptome Analysis Toolkit \(CTAT\)\. FusionInspector assists in fusion transcript discovery by performing a supervised analysis of fusion predictions\, attempting to recover and re\-score evidence for such predictions\. \- https\:\/\/github\.com\/FusionInspector\/FusionInspector\/wiki
 
-======== ===========
-Home     https://github.com/FusionInspector/FusionInspector
-Versions 1.1.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-inspector
+============= ===========
+Home          https://github.com/FusionInspector/FusionInspector
+Versions      1.1.0
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-inspector
 
-======== ===========
+
+
+============= ===========
 
 
 

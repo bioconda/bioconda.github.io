@@ -7,13 +7,15 @@ lap
 
 De novo genome assembly evaluation
 
-======== ===========
-Home     http://assembly-eval.sourceforge.net/
-Versions 1.1.r186
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap
+============= ===========
+Home          http://assembly-eval.sourceforge.net/
+Versions      1.1.r186
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap
 
-======== ===========
+
+
+============= ===========
 
 
 

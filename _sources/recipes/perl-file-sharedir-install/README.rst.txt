@@ -7,13 +7,15 @@ perl-file-sharedir-install
 
 Install shared files
 
-======== ===========
-Home     https://metacpan.org/pod/File::ShareDir::Install
-Versions 0.10
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir-install
+============= ===========
+Home          https://metacpan.org/pod/File::ShareDir::Install
+Versions      0.10
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir-install
 
-======== ===========
+
+
+============= ===========
 
 
 

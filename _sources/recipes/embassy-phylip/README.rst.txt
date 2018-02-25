@@ -7,13 +7,15 @@ embassy-phylip
 
 embassy\/emboss wrappers for phylip functions
 
-======== ===========
-Home     http://emboss.open-bio.org/
-Versions 3.69.650
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip
+============= ===========
+Home          http://emboss.open-bio.org/
+Versions      3.69.650
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/embassy-phylip
 
-======== ===========
+
+
+============= ===========
 
 
 

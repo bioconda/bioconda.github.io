@@ -7,13 +7,15 @@ perl-encode-locale
 
 Determine the locale encoding
 
-======== ===========
-Home     https://metacpan.org/pod/Encode::Locale
-Versions 1.05
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale
+============= ===========
+Home          https://metacpan.org/pod/Encode::Locale
+Versions      1.05
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale
 
-======== ===========
+
+
+============= ===========
 
 
 

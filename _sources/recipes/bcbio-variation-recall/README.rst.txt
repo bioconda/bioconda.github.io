@@ -7,13 +7,15 @@ bcbio-variation-recall
 
 Parallel merging\, squaring off and ensemble calling for genomic variants
 
-======== ===========
-Home     https://github.com/chapmanb/bcbio.variation.recall
-Versions 0.1.4, 0.1.5, 0.1.6, 0.1.7
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-variation-recall
+============= ===========
+Home          https://github.com/chapmanb/bcbio.variation.recall
+Versions      0.1.4, 0.1.5, 0.1.6, 0.1.7
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-variation-recall
 
-======== ===========
+
+
+============= ===========
 
 
 

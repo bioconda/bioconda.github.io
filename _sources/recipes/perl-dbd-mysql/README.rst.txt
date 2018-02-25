@@ -7,13 +7,15 @@ perl-dbd-mysql
 
 MySQL driver for the Perl5 Database Interface \(DBI\)
 
-======== ===========
-Home     https://metacpan.org/pod/DBD::mysql
-Versions 4.033
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql
+============= ===========
+Home          https://metacpan.org/pod/DBD::mysql
+Versions      4.033
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql
 
-======== ===========
+
+
+============= ===========
 
 
 

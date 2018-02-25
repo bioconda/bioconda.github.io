@@ -7,13 +7,15 @@ perl-math-spline
 
 Cubic Spline Interpolation of data
 
-======== ===========
-Home     http://metacpan.org/pod/Math-Spline
-Versions 0.02
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-spline
+============= ===========
+Home          http://metacpan.org/pod/Math-Spline
+Versions      0.02
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-spline
 
-======== ===========
+
+
+============= ===========
 
 
 

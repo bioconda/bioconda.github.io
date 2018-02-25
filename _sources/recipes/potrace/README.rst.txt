@@ -7,13 +7,15 @@ potrace
 
 A tool for tracing a bitmap\, which means\, transforming a bitmap into a smooth\, scalable image
 
-======== ===========
-Home     http://potrace.sourceforge.net
-Versions 1.11
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/potrace/1.11
+============= ===========
+Home          http://potrace.sourceforge.net
+Versions      1.11
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/potrace/1.11
 
-======== ===========
+
+
+============= ===========
 
 
 

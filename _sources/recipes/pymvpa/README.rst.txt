@@ -7,13 +7,15 @@ pymvpa
 
 PyMVPA \-\- Multivariate Pattern Analysis in Python
 
-======== ===========
-Home     http://www.pymvpa.org/
-Versions 2.6.0
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymvpa/2.6.0
+============= ===========
+Home          http://www.pymvpa.org/
+Versions      2.6.0
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymvpa/2.6.0
 
-======== ===========
+
+
+============= ===========
 
 
 

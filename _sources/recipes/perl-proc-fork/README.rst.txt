@@ -7,13 +7,15 @@ perl-proc-fork
 
 simple\, intuitive interface to the fork\(\) system call
 
-======== ===========
-Home     http://github.com/ap/Proc-Fork
-Versions 0.804
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-proc-fork
+============= ===========
+Home          http://github.com/ap/Proc-Fork
+Versions      0.804
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-proc-fork
 
-======== ===========
+
+
+============= ===========
 
 
 

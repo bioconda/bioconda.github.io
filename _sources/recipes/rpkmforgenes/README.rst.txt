@@ -7,13 +7,15 @@ rpkmforgenes
 
 Calculates gene expression from a read mapping file
 
-======== ===========
-Home     https://github.com/danielramskold/S3_species-specific_sequencing
-Versions 1.0.1
-License  Creative Commons Attribution License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpkmforgenes
+============= ===========
+Home          https://github.com/danielramskold/S3_species-specific_sequencing
+Versions      1.0.1
+License       Creative Commons Attribution License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rpkmforgenes
 
-======== ===========
+
+
+============= ===========
 
 
 

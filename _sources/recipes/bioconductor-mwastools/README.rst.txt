@@ -7,13 +7,15 @@ bioconductor-mwastools
 
 MWASTools provides a complete pipeline to perform metabolome\-wide association studies\. Key functionalities of the package include\: quality control analysis of metabonomic data\; MWAS using different association models \(partial correlations\; generalized linear models\)\; model validation using non\-parametric bootstrapping\; visualization of MWAS results\; NMR metabolite identification using STOCSY\; and biological interpretation of MWAS results\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/MWASTools.html
-Versions 1.2.0
-License  CC BY-NC-ND 4.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mwastools
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/MWASTools.html
+Versions      1.2.0
+License       CC BY-NC-ND 4.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mwastools
 
-======== ===========
+
+
+============= ===========
 
 
 

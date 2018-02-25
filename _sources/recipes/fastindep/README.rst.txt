@@ -7,13 +7,15 @@ fastindep
 
 A fast random heuristic algorithm for identifying large sets of unrelated individuals and unrelated markers
 
-======== ===========
-Home     https://github.com/endrebak/fastindep
-Versions 1.0.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastindep
+============= ===========
+Home          https://github.com/endrebak/fastindep
+Versions      1.0.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastindep
 
-======== ===========
+
+
+============= ===========
 
 
 

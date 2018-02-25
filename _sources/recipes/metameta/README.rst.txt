@@ -7,13 +7,15 @@ metameta
 
 MetaMeta \- pipeline for integrating metagenome analysis tools to improve taxonomic profiling
 
-======== ===========
-Home     https://github.com/pirovc/metameta/
-Versions 1.0, 1.1, 1.1.1, 1.2.0
-License  The MIT License (MIT)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metameta
+============= ===========
+Home          https://github.com/pirovc/metameta/
+Versions      1.0, 1.1, 1.1.1, 1.2.0
+License       The MIT License (MIT)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metameta
 
-======== ===========
+
+
+============= ===========
 
 
 

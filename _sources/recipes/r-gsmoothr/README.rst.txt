@@ -7,13 +7,15 @@ r-gsmoothr
 
 Tools rewritten in C for various smoothing tasks
 
-======== ===========
-Home     https://CRAN.R-project.org/package=gsmoothr
-Versions 0.1.7
-License  LGPL (>= 2.0)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsmoothr
+============= ===========
+Home          https://CRAN.R-project.org/package=gsmoothr
+Versions      0.1.7
+License       LGPL (>= 2.0)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gsmoothr
 
-======== ===========
+
+
+============= ===========
 
 
 

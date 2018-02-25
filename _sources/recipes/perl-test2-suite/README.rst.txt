@@ -7,13 +7,15 @@ perl-test2-suite
 
 Distribution with a rich set of tools built upon the Test2 framework\.
 
-======== ===========
-Home     http://metacpan.org/pod/Test2::Suite
-Versions 0.000061
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-suite
+============= ===========
+Home          http://metacpan.org/pod/Test2::Suite
+Versions      0.000061
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2-suite
 
-======== ===========
+
+
+============= ===========
 
 
 

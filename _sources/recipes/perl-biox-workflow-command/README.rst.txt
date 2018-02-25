@@ -7,13 +7,15 @@ perl-biox-workflow-command
 
 Opinionated Bioinformatics Genomics Workflow Creator
 
-======== ===========
-Home     https://github.com/biosails/BioX-Workflow-Command
-Versions 2.2.1, 2.2.3, 2.3.0, 2.3.2
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-command/2.3.2
+============= ===========
+Home          https://github.com/biosails/BioX-Workflow-Command
+Versions      2.2.1, 2.2.3, 2.3.0, 2.3.2
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-biox-workflow-command/2.3.2
 
-======== ===========
+
+
+============= ===========
 
 
 

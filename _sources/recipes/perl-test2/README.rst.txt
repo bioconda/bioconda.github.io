@@ -7,13 +7,15 @@ perl-test2
 
 Framework for writing test tools that all work together\.
 
-======== ===========
-Home     http://metacpan.org/pod/Test2
-Versions 1.302075
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2/1.302075
+============= ===========
+Home          http://metacpan.org/pod/Test2
+Versions      1.302075
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test2/1.302075
 
-======== ===========
+
+
+============= ===========
 
 
 

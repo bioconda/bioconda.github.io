@@ -7,13 +7,15 @@ pyquery
 
 A jquery\-like library for python
 
-======== ===========
-Home     https://github.com/gawel/pyquery
-Versions 1.2.9
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquery
+============= ===========
+Home          https://github.com/gawel/pyquery
+Versions      1.2.9
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquery
 
-======== ===========
+
+
+============= ===========
 
 
 

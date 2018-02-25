@@ -7,13 +7,15 @@ abundancebin
 
 Abundance\-based tool for binning metagenomic sequences
 
-======== ===========
-Home     hhttp://omics.informatics.indiana.edu/AbundanceBin/
-Versions 1.0.1
-License  copyright
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin
+============= ===========
+Home          hhttp://omics.informatics.indiana.edu/AbundanceBin/
+Versions      1.0.1
+License       copyright
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin
 
-======== ===========
+
+
+============= ===========
 
 AbundanceBin is an abundance\-based tool for binning metagenomic sequences\,
 such that the reads classified in a bin belong to species of identical or

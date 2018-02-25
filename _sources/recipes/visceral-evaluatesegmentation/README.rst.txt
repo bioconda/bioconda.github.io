@@ -7,13 +7,15 @@ visceral-evaluatesegmentation
 
 EvaluateSegmentation is a tool that compares two volumes \(a test segmentation and a ground truth segmentation\) using 22 different metrics that were selected as a result of a comprehensive research into the metrics used in the medical volume segmentations\.
 
-======== ===========
-Home     https://github.com/Visceral-Project/EvaluateSegmentation
-Versions 2015.07.02
-License  Apache License, Version 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation
+============= ===========
+Home          https://github.com/Visceral-Project/EvaluateSegmentation
+Versions      2015.07.02
+License       Apache License, Version 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/visceral-evaluatesegmentation
 
-======== ===========
+
+
+============= ===========
 
 
 

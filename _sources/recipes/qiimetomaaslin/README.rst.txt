@@ -7,13 +7,15 @@ qiimetomaaslin
 
 Data munging script to change text Qiime OTU tables to pcl\-formatted\, maaslin\-compatible text files
 
-======== ===========
-Home     https://huttenhower.sph.harvard.edu/maaslin
-Versions 1.1.0
-License  Unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiimetomaaslin
+============= ===========
+Home          https://huttenhower.sph.harvard.edu/maaslin
+Versions      1.1.0
+License       Unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiimetomaaslin
 
-======== ===========
+
+
+============= ===========
 
 
 

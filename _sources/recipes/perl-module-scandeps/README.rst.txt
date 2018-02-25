@@ -7,13 +7,15 @@ perl-module-scandeps
 
 Recursively scan Perl code for dependencies
 
-======== ===========
-Home     http://metacpan.org/pod/Module::ScanDeps
-Versions 1.23
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-scandeps/1.23
+============= ===========
+Home          http://metacpan.org/pod/Module::ScanDeps
+Versions      1.23
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-scandeps/1.23
 
-======== ===========
+
+
+============= ===========
 
 
 

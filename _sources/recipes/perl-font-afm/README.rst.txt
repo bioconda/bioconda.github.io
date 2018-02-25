@@ -7,13 +7,15 @@ perl-font-afm
 
 Interface to Adobe Font Metrics files
 
-======== ===========
-Home     http://metacpan.org/pod/Font-AFM
-Versions 1.20
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-afm
+============= ===========
+Home          http://metacpan.org/pod/Font-AFM
+Versions      1.20
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-font-afm
 
-======== ===========
+
+
+============= ===========
 
 
 

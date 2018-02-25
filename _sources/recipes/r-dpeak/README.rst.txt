@@ -7,13 +7,15 @@ r-dpeak
 
 This package provides functions for fitting dPeak\, a statistical framework to deconvolve ChIP\-seq peaks\.
 
-======== ===========
-Home     http://dongjunchung.github.io/dpeak/
-Versions 2.0.1
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dpeak
+============= ===========
+Home          http://dongjunchung.github.io/dpeak/
+Versions      2.0.1
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dpeak
 
-======== ===========
+
+
+============= ===========
 
 
 

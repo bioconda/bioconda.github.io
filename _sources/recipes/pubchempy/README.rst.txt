@@ -7,13 +7,19 @@ pubchempy
 
 A simple Python wrapper around the PubChem PUG REST API\.
 
-======== ===========
-Home     https://github.com/mcs07/PubChemPy
-Versions 1.0.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubchempy
+============= ===========
+Home          https://github.com/mcs07/PubChemPy
+Versions      1.0.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubchempy
 
-======== ===========
+Documentation http://pubchempy.readthedocs.io/
+
+
+Development   https://github.com/mcs07/PubChemPy
+
+
+============= ===========
 
 
 

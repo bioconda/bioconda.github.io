@@ -7,13 +7,15 @@ ntcard
 
 Estimating k\-mer coverage histogram of genomics data
 
-======== ===========
-Home     https://github.com/bcgsc/ntCard
-Versions 1.0.0
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard
+============= ===========
+Home          https://github.com/bcgsc/ntCard
+Versions      1.0.0
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ntcard
 
-======== ===========
+
+
+============= ===========
 
 
 

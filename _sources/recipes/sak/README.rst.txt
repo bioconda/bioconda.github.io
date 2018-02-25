@@ -7,13 +7,15 @@ sak
 
 This tool allows one to cut sequences and parts of sequences out of sequence files\.
 
-======== ===========
-Home     https://github.com/seqan/seqan/tree/master/apps/sak/README
-Versions 0.4.6
-License  https://github.com/seqan/seqan/tree/master/apps/sak/LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak
+============= ===========
+Home          https://github.com/seqan/seqan/tree/master/apps/sak/README
+Versions      0.4.6
+License       https://github.com/seqan/seqan/tree/master/apps/sak/LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sak
 
-======== ===========
+
+
+============= ===========
 
 
 

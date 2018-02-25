@@ -7,13 +7,15 @@ intervaltree
 
 Editable interval tree data structure for Python 2 and 3
 
-======== ===========
-Home     https://github.com/chaimleib/intervaltree
-Versions 2.1.0
-License  Apache Software License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervaltree
+============= ===========
+Home          https://github.com/chaimleib/intervaltree
+Versions      2.1.0
+License       Apache Software License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervaltree
 
-======== ===========
+
+
+============= ===========
 
 
 

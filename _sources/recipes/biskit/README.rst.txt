@@ -7,13 +7,17 @@ biskit
 
 A Python platform for structural bioinformatics
 
-======== ===========
-Home     http://biskit.pasteur.fr
-Versions 2.4.3
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit
+============= ===========
+Home          http://biskit.pasteur.fr
+Versions      2.4.3
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit
 
-======== ===========
+
+Development   https://github.com/graik/biskit
+
+
+============= ===========
 
 Biskit is a modular\, object\-oriented Python library for structural bioinformatics research\.
 

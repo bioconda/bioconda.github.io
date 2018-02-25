@@ -7,13 +7,15 @@ abricate
 
 Mass screening of contigs for antibiotic resistance genes
 
-======== ===========
-Home     https://github.com/tseemann/abricate
-Versions 0.2, 0.3, 0.4, 0.5, 0.7
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abricate
+============= ===========
+Home          https://github.com/tseemann/abricate
+Versions      0.2, 0.3, 0.4, 0.5, 0.7
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abricate
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ cpat
 
 Coding Potential Assessment Tool
 
-======== ===========
-Home     http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/cpat/_build/html/index.html
-Versions 1.2.2, 1.2.3
-License  GNU
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat
+============= ===========
+Home          http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/cpat/_build/html/index.html
+Versions      1.2.2, 1.2.3
+License       GNU
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat
 
-======== ===========
+
+
+============= ===========
 
 
 

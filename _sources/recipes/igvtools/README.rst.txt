@@ -7,13 +7,15 @@ igvtools
 
 command line tools for IGV
 
-======== ===========
-Home     http://www.broadinstitute.org/igv/
-Versions 2.3.16, 2.3.48, 2.3.75, 2.3.93
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools
+============= ===========
+Home          http://www.broadinstitute.org/igv/
+Versions      2.3.16, 2.3.48, 2.3.75, 2.3.93
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igvtools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-jcode
 
 Japanese Charset Handler
 
-======== ===========
-Home     http://metacpan.org/pod/Jcode
-Versions 2.07
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-jcode
+============= ===========
+Home          http://metacpan.org/pod/Jcode
+Versions      2.07
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-jcode
 
-======== ===========
+
+
+============= ===========
 
 
 

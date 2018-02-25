@@ -7,13 +7,15 @@ r-mmgenome
 
 Tools for extracting individual genomes from metagenomes
 
-======== ===========
-Home     https://github.com/MadsAlbertsen/mmgenome
-Versions 0.6.3, 0.7.1
-License  AGPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mmgenome
+============= ===========
+Home          https://github.com/MadsAlbertsen/mmgenome
+Versions      0.6.3, 0.7.1
+License       AGPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mmgenome
 
-======== ===========
+
+
+============= ===========
 
 
 

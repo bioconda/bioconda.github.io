@@ -7,13 +7,15 @@ metavelvet-annois
 
 Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1\.2\.01
 
-======== ===========
-Home     http://metavelvet.dna.bio.keio.ac.jp
-Versions 0.2.01
-License  GNU General Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-annois
+============= ===========
+Home          http://metavelvet.dna.bio.keio.ac.jp
+Versions      0.2.01
+License       GNU General Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-annois
 
-======== ===========
+
+
+============= ===========
 
 
 

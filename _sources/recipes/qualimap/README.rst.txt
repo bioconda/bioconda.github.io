@@ -7,13 +7,15 @@ qualimap
 
 Quality control of alignment sequencing data and its derivatives like feature counts
 
-======== ===========
-Home     http://qualimap.bioinfo.cipf.es/
-Versions 2.1.3, 2.2, 2.2.2a
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qualimap
+============= ===========
+Home          http://qualimap.bioinfo.cipf.es/
+Versions      2.1.3, 2.2, 2.2.2a
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qualimap
 
-======== ===========
+
+
+============= ===========
 
 
 

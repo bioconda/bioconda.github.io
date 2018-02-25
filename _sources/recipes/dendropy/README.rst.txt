@@ -7,13 +7,15 @@ dendropy
 
 A Python library for phylogenetics and phylogenetic computing\: reading\, writing\, simulation\, processing and manipulation of phylogenetic trees \(phylogenies\) and characters\.
 
-======== ===========
-Home     http://packages.python.org/DendroPy/
-Versions 3.12.3, 4.0.3, 4.1.0, 4.2.0
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy
+============= ===========
+Home          http://packages.python.org/DendroPy/
+Versions      3.12.3, 4.0.3, 4.1.0, 4.2.0
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy
 
-======== ===========
+
+
+============= ===========
 
 
 

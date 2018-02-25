@@ -7,13 +7,15 @@ r-wasabi
 
 Prepare Sailfish and Salmon output for downstream analysis
 
-======== ===========
-Home     https://github.com/COMBINE-lab/wasabi
-Versions 0.0.1, 0.1, 0.2
-License  BSD-3-clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wasabi
+============= ===========
+Home          https://github.com/COMBINE-lab/wasabi
+Versions      0.0.1, 0.1, 0.2
+License       BSD-3-clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wasabi
 
-======== ===========
+
+
+============= ===========
 
 
 

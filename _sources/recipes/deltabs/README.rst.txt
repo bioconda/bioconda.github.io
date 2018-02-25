@@ -7,13 +7,15 @@ deltabs
 
 Quantifying the significance of genetic variation using probabilistic profile\-based methods\.
 
-======== ===========
-Home     https://github.com/UCanCompBio/deltaBS/wiki
-Versions 0.1
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deltabs
+============= ===========
+Home          https://github.com/UCanCompBio/deltaBS/wiki
+Versions      0.1
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deltabs
 
-======== ===========
+
+
+============= ===========
 
 
 

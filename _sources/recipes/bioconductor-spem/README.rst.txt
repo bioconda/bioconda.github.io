@@ -7,13 +7,15 @@ bioconductor-spem
 
 This package can optimize the parameter in S\-system models given time series data
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/SPEM.html
-Versions 1.16.0, 1.18.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spem
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/SPEM.html
+Versions      1.16.0, 1.18.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spem
 
-======== ===========
+
+
+============= ===========
 
 
 

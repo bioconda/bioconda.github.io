@@ -7,13 +7,15 @@ imfusion
 
 IM\-Fusion \- Tool for identifying transposon insertions and their effects from RNA\-sequencing data
 
-======== ===========
-Home     https://github.com/jrderuiter/imfusion
-Versions 0.3.0, 0.3.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.0
+============= ===========
+Home          https://github.com/jrderuiter/imfusion
+Versions      0.3.0, 0.3.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.0
 
-======== ===========
+
+
+============= ===========
 
 
 

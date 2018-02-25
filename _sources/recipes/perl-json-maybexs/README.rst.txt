@@ -7,13 +7,15 @@ perl-json-maybexs
 
 Use Cpanel\:\:JSON\:\:XS with a fallback to JSON\:\:XS and JSON\:\:PP
 
-======== ===========
-Home     http://metacpan.org/pod/JSON::MaybeXS
-Versions 1.003008
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-maybexs
+============= ===========
+Home          http://metacpan.org/pod/JSON::MaybeXS
+Versions      1.003008
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-maybexs
 
-======== ===========
+
+
+============= ===========
 
 
 

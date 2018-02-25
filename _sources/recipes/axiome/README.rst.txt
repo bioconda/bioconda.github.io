@@ -7,13 +7,15 @@ axiome
 
 AXIOME2\: Automation Extension and Integration of Microbial Ecology
 
-======== ===========
-Home     https://github.com/neufeld/AXIOME2
-Versions 2.0.4
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/axiome
+============= ===========
+Home          https://github.com/neufeld/AXIOME2
+Versions      2.0.4
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/axiome
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ r-george
 
 geoRge\, a computational tool for stable isotope labelling detection in LC\/MS\-based untargeted metabolomics
 
-======== ===========
-Home     https://github.com/jcapelladesto/geoRge/README.md
-Versions 1.0.1
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-george
+============= ===========
+Home          https://github.com/jcapelladesto/geoRge/README.md
+Versions      1.0.1
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-george
 
-======== ===========
+
+
+============= ===========
 
 
 

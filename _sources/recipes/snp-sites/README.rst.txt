@@ -7,13 +7,15 @@ snp-sites
 
 Finds SNP sites from a multi\-FASTA alignment file\.
 
-======== ===========
-Home     https://github.com/sanger-pathogens/snp-sites
-Versions 2.3.2, 2.3.3
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites
+============= ===========
+Home          https://github.com/sanger-pathogens/snp-sites
+Versions      2.3.2, 2.3.3
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-sites
 
-======== ===========
+
+
+============= ===========
 
 
 

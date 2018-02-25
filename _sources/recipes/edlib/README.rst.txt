@@ -7,13 +7,15 @@ edlib
 
 C\/C\+\+ library and program for sequence alignment using edit \(Levenshtein\) distance
 
-======== ===========
-Home     https://github.com/Martinsos/edlib/
-Versions 1.0.0, 1.1.2, 1.2.0, 1.2.1, 1.2.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib
+============= ===========
+Home          https://github.com/Martinsos/edlib/
+Versions      1.0.0, 1.1.2, 1.2.0, 1.2.1, 1.2.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib
 
-======== ===========
+
+
+============= ===========
 
 
 

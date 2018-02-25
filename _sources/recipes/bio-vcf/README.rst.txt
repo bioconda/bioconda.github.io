@@ -7,13 +7,15 @@ bio-vcf
 
 Smart VCF parser
 
-======== ===========
-Home     https://github.com/pjotrp/bioruby-vcf
-Versions 0.9.0, 0.9.1, 0.9.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf
+============= ===========
+Home          https://github.com/pjotrp/bioruby-vcf
+Versions      0.9.0, 0.9.1, 0.9.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf
 
-======== ===========
+
+
+============= ===========
 
 
 

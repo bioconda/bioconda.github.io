@@ -7,13 +7,15 @@ cluster-picker
 
 The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes\. Cut\-offs for within cluster genetic distance and bootstrap support are selected by the user\.
 
-======== ===========
-Home     http://hiv.bio.ed.ac.uk/software.html
-Versions 1.2.3
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cluster-picker
+============= ===========
+Home          http://hiv.bio.ed.ac.uk/software.html
+Versions      1.2.3
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cluster-picker
 
-======== ===========
+
+
+============= ===========
 
 
 

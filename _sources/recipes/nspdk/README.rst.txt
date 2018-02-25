@@ -7,13 +7,15 @@ nspdk
 
 Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\)\.
 
-======== ===========
-Home     http://dtai.cs.kuleuven.be/ml/systems/nspdk
-Versions 9.2
-License  GNUv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nspdk
+============= ===========
+Home          http://dtai.cs.kuleuven.be/ml/systems/nspdk
+Versions      9.2
+License       GNUv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nspdk
 
-======== ===========
+
+
+============= ===========
 
 
 

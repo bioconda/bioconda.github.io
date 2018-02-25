@@ -7,13 +7,15 @@ zagros
 
 zagros is a motif\-discovery tool for CLIP\-Seq data\.
 
-======== ===========
-Home     http://smithlabresearch.org/software/zagros/
-Versions 1.0.0
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zagros
+============= ===========
+Home          http://smithlabresearch.org/software/zagros/
+Versions      1.0.0
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zagros
 
-======== ===========
+
+
+============= ===========
 
 
 

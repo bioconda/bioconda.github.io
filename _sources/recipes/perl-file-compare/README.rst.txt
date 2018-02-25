@@ -7,13 +7,15 @@ perl-file-compare
 
 Compare files or filehandles
 
-======== ===========
-Home     http://metacpan.org/pod/File::Compare
-Versions 1.1006
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-compare/1.1006
+============= ===========
+Home          http://metacpan.org/pod/File::Compare
+Versions      1.1006
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-compare/1.1006
 
-======== ===========
+
+
+============= ===========
 
 
 

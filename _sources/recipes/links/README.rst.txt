@@ -7,13 +7,15 @@ links
 
 Long Interval Nucleotide K\-mer Scaffolder
 
-======== ===========
-Home     http://www.bcgsc.ca/platform/bioinfo/software/links
-Versions 1.5.2, 1.8.4
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/links
+============= ===========
+Home          http://www.bcgsc.ca/platform/bioinfo/software/links
+Versions      1.5.2, 1.8.4
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/links
 
-======== ===========
+
+
+============= ===========
 
 
 

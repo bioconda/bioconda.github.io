@@ -7,13 +7,15 @@ perl-algorithm-diff
 
 Compute intelligent differences between two files \/ lists but use the old \(\<\=0\.59\) interface\.
 
-======== ===========
-Home     http://metacpan.org/pod/Algorithm-Diff
-Versions 1.1903
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-diff
+============= ===========
+Home          http://metacpan.org/pod/Algorithm-Diff
+Versions      1.1903
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-diff
 
-======== ===========
+
+
+============= ===========
 
 
 

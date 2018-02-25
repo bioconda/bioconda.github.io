@@ -7,13 +7,15 @@ rdfextras
 
 RDFExtras provide tools\, extra stores and such for RDFLib\.
 
-======== ===========
-Home     http://github.com/RDFLib/rdfextras
-Versions 0.4
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdfextras
+============= ===========
+Home          http://github.com/RDFLib/rdfextras
+Versions      0.4
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdfextras
 
-======== ===========
+
+
+============= ===========
 
 
 

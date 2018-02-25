@@ -7,13 +7,15 @@ molpopgen-analysis
 
 Programs for the \(pre\-NGS\-era\) analysis of population\-genetic data
 
-======== ===========
-Home     https://github.com/molpopgen/analysis
-Versions 0.8.8
-License  GNU General Public License v2 (GPLv2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molpopgen-analysis
+============= ===========
+Home          https://github.com/molpopgen/analysis
+Versions      0.8.8
+License       GNU General Public License v2 (GPLv2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molpopgen-analysis
 
-======== ===========
+
+
+============= ===========
 
 
 

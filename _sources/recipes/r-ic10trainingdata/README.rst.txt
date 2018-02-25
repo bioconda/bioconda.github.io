@@ -7,13 +7,15 @@ r-ic10trainingdata
 
 Training datasets for iC10\; which implements the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al\.\, Genome Biology 2014\)\. It uses copy number and\/or expression form breast cancer data\, trains a pamr classifier \(Tibshirani et al\.\) with the features available and predicts the iC10 group\. Genomic annotation for the training dataset has been obtained from Mark Dunning\'s lluminaHumanv3\.db package\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=iC10TrainingData
-Versions 1.0.1
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10trainingdata
+============= ===========
+Home          https://CRAN.R-project.org/package=iC10TrainingData
+Versions      1.0.1
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10trainingdata
 
-======== ===========
+
+
+============= ===========
 
 
 

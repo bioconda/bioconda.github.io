@@ -7,13 +7,15 @@ sparseassembler
 
 A sparse k\-mer graph based\, memory\-efficient genome assembler
 
-======== ===========
-Home     https://github.com/yechengxi/SparseAssembler
-Versions 20160205
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparseassembler
+============= ===========
+Home          https://github.com/yechengxi/SparseAssembler
+Versions      20160205
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparseassembler
 
-======== ===========
+
+
+============= ===========
 
 
 

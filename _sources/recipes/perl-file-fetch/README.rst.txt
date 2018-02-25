@@ -7,13 +7,15 @@ perl-file-fetch
 
 A generic file fetching mechanism
 
-======== ===========
-Home     https://metacpan.org/pod/File::Fetch
-Versions 0.48
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-fetch
+============= ===========
+Home          https://metacpan.org/pod/File::Fetch
+Versions      0.48
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-fetch
 
-======== ===========
+
+
+============= ===========
 
 
 

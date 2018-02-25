@@ -7,13 +7,15 @@ python-cluster
 
 python\-cluster is a \"simple\" package that allows to create several groups \(clusters\) of objects from a list
 
-======== ===========
-Home     https://github.com/exhuma/python-cluster
-Versions 1.3.3
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster
+============= ===========
+Home          https://github.com/exhuma/python-cluster
+Versions      1.3.3
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ r-xmlrpc
 
 A simple implementation of XML\-RPC for R\.
 
-======== ===========
-Home     https://r-forge.r-project.org
-Versions 0.2_4
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xmlrpc
+============= ===========
+Home          https://r-forge.r-project.org
+Versions      0.2_4
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-xmlrpc
 
-======== ===========
+
+
+============= ===========
 
 
 

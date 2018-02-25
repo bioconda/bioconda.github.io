@@ -7,13 +7,15 @@ edd
 
 Enriched domain detector for ChIP\-seq data
 
-======== ===========
-Home     http://github.com/CollasLab/edd
-Versions 1.1.18
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edd
+============= ===========
+Home          http://github.com/CollasLab/edd
+Versions      1.1.18
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edd
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-text-format
 
 Format text
 
-======== ===========
-Home     http://www.shlomifish.org/open-source/projects/Text-Format/
-Versions 0.59
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-format
+============= ===========
+Home          http://www.shlomifish.org/open-source/projects/Text-Format/
+Versions      0.59
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-format
 
-======== ===========
+
+
+============= ===========
 
 
 

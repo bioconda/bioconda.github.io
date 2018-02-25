@@ -7,13 +7,15 @@ bioconductor-browservizdemo
 
 A BrowserViz subclassing example\, xy plotting in the browser using d3\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BrowserVizDemo.html
-Versions 1.10.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browservizdemo
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BrowserVizDemo.html
+Versions      1.10.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-browservizdemo
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ cmph
 
 CMPH \- C Minimal Perfect Hashing Library
 
-======== ===========
-Home     http://cmph.sourceforge.net/
-Versions 2.0
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmph
+============= ===========
+Home          http://cmph.sourceforge.net/
+Versions      2.0
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmph
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ groot
 
 A tool for resistome profiling of metagenomic samples\.
 
-======== ===========
-Home     https://github.com/will-rowe/groot
-Versions 0.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groot
+============= ===========
+Home          https://github.com/will-rowe/groot
+Versions      0.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groot
 
-======== ===========
+
+
+============= ===========
 
 
 

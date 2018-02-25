@@ -7,13 +7,15 @@ pycli
 
 Simple\, object\-oriented approach to Python CLI apps
 
-======== ===========
-Home     http://packages.python.org/pyCLI/
-Versions 2.0.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycli
+============= ===========
+Home          http://packages.python.org/pyCLI/
+Versions      2.0.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycli
 
-======== ===========
+
+
+============= ===========
 
 
 

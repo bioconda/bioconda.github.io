@@ -7,13 +7,15 @@ soapdenovo2-prepare
 
 SoapDenovo2 Data prepare module using assembled contig to do scaffold assembly
 
-======== ===========
-Home     http://soap.genomics.org.cn/soapdenovo.html
-Versions 2.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-prepare
+============= ===========
+Home          http://soap.genomics.org.cn/soapdenovo.html
+Versions      2.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo2-prepare
 
-======== ===========
+
+
+============= ===========
 
 
 

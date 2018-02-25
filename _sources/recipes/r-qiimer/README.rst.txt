@@ -7,13 +7,15 @@ r-qiimer
 
 Open QIIME output files in R\, compute statistics\, and create plots from the data\.
 
-======== ===========
-Home     http://www.r-project.org
-Versions 0.9.4
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer
+============= ===========
+Home          http://www.r-project.org
+Versions      0.9.4
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer
 
-======== ===========
+
+
+============= ===========
 
 
 

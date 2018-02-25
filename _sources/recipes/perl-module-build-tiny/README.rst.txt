@@ -7,13 +7,15 @@ perl-module-build-tiny
 
 A tiny replacement for Module\:\:Build
 
-======== ===========
-Home     http://metacpan.org/pod/Module-Build-Tiny
-Versions 0.039
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build-tiny
+============= ===========
+Home          http://metacpan.org/pod/Module-Build-Tiny
+Versions      0.039
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build-tiny
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ chainmap
 
 Backport\/clone of ChainMap for py26\, py32\, and pypy3\.
 
-======== ===========
-Home     https://bitbucket.org/jeunice/chainmap
-Versions 1.0.2
-License  Python Software Foundation License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chainmap
+============= ===========
+Home          https://bitbucket.org/jeunice/chainmap
+Versions      1.0.2
+License       Python Software Foundation License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chainmap
 
-======== ===========
+
+
+============= ===========
 
 
 

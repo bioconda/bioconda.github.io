@@ -7,13 +7,15 @@ bioconductor-summarizedexperiment
 
 The SummarizedExperiment container contains one or more assays\, each represented by a matrix\-like object of numeric or other mode\. The rows typically represent genomic ranges of interest and the columns represent samples\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/SummarizedExperiment.html
-Versions 1.0.0, 1.0.1, 1.0.2, 1.2.3, 1.4.0, 1.6.5, 1.8.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/SummarizedExperiment.html
+Versions      1.0.0, 1.0.1, 1.0.2, 1.2.3, 1.4.0, 1.6.5, 1.8.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedexperiment
 
-======== ===========
+
+
+============= ===========
 
 
 

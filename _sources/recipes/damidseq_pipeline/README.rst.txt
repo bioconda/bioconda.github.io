@@ -7,13 +7,15 @@ damidseq_pipeline
 
 An automated pipeline for processing DamID sequencing datasets
 
-======== ===========
-Home     https://github.com/owenjm/damidseq_pipeline
-Versions 1.4
-License  GPL-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damidseq_pipeline
+============= ===========
+Home          https://github.com/owenjm/damidseq_pipeline
+Versions      1.4
+License       GPL-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damidseq_pipeline
 
-======== ===========
+
+
+============= ===========
 
 
 

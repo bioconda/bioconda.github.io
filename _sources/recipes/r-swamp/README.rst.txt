@@ -7,13 +7,15 @@ r-swamp
 
 Collection of functions to connect the structure of the data with the information on the samples\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=swamp
-Versions 1.3.1
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-swamp
+============= ===========
+Home          https://CRAN.R-project.org/package=swamp
+Versions      1.3.1
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-swamp
 
-======== ===========
+
+
+============= ===========
 
 
 

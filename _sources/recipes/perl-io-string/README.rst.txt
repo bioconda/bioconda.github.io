@@ -7,13 +7,15 @@ perl-io-string
 
 Emulate file interface for in\-core strings
 
-======== ===========
-Home     http://metacpan.org/pod/IO-String
-Versions 1.08
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-string
+============= ===========
+Home          http://metacpan.org/pod/IO-String
+Versions      1.08
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-string
 
-======== ===========
+
+
+============= ===========
 
 
 

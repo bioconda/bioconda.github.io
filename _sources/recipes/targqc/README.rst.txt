@@ -7,13 +7,15 @@ targqc
 
 Target capture coverage QC
 
-======== ===========
-Home     https://github.com/vladsaveliev/TargQC
-Versions 1.4.4
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targqc
+============= ===========
+Home          https://github.com/vladsaveliev/TargQC
+Versions      1.4.4
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targqc
 
-======== ===========
+
+
+============= ===========
 
 
 

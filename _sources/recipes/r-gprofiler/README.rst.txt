@@ -7,13 +7,15 @@ r-gprofiler
 
 Functional enrichment analysis\, gene identifier conversion and mapping homologous genes across related organisms via the \'g\:Profiler\' toolkit \(http\:\/\/biit\.cs\.ut\.ee\/gprofiler\/\)\.
 
-======== ===========
-Home     https://CRAN.R-project.org/package=gProfileR
-Versions 0.6.1
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gprofiler
+============= ===========
+Home          https://CRAN.R-project.org/package=gProfileR
+Versions      0.6.1
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gprofiler
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-harshlight
 
 The package is used to detect extended\, diffuse and compact blemishes on microarray chips\. Harshlight automatically marks the areas in a collection of chips \(affybatch objects\) and a corrected AffyBatch object is returned\, in which the defected areas are substituted with NAs or the median of the values of the same probe in the other chips in the collection\. The new version handle the substitute value as whole matrix to solve the memory problem\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Harshlight.html
-Versions 1.50.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harshlight
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Harshlight.html
+Versions      1.50.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-harshlight
 
-======== ===========
+
+
+============= ===========
 
 
 

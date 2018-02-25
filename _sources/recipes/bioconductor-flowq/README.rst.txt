@@ -7,13 +7,15 @@ bioconductor-flowq
 
 Provides quality control and quality assessment tools for flow cytometry data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/flowQ.html
-Versions 1.38.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowq
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/flowQ.html
+Versions      1.38.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowq
 
-======== ===========
+
+
+============= ===========
 
 
 

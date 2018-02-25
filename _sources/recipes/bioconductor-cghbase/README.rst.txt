@@ -7,13 +7,15 @@ bioconductor-cghbase
 
 Contains functions and classes that are needed by arrayCGH packages\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/CGHbase.html
-Versions 1.32.0, 1.36.0, 1.38.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/CGHbase.html
+Versions      1.32.0, 1.36.0, 1.38.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase
 
-======== ===========
+
+
+============= ===========
 
 
 

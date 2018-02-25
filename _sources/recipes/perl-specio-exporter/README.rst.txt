@@ -7,13 +7,15 @@ perl-specio-exporter
 
 Base class for type libraries
 
-======== ===========
-Home     http://metacpan.org/pod/Specio::Exporter
-Versions 0.36
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter/0.36
+============= ===========
+Home          http://metacpan.org/pod/Specio::Exporter
+Versions      0.36
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio-exporter/0.36
 
-======== ===========
+
+
+============= ===========
 
 
 

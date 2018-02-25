@@ -7,13 +7,15 @@ npyscreen
 
 Writing user interfaces without all that ugly mucking about in hyperspace
 
-======== ===========
-Home     http://www.npcole.com/npyscreen/
-Versions 4.10.5
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npyscreen
+============= ===========
+Home          http://www.npcole.com/npyscreen/
+Versions      4.10.5
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npyscreen
 
-======== ===========
+
+
+============= ===========
 
 
 

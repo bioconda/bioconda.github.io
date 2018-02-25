@@ -7,13 +7,15 @@ perl-data-walk
 
 Traverse Perl data structures\.
 
-======== ===========
-Home     http://metacpan.org/pod/Data::Walk
-Versions 2.01
-License  open_source
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-walk/2.01
+============= ===========
+Home          http://metacpan.org/pod/Data::Walk
+Versions      2.01
+License       open_source
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-walk/2.01
 
-======== ===========
+
+
+============= ===========
 
 
 

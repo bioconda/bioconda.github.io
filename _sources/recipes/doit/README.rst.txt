@@ -7,13 +7,15 @@ doit
 
 doit \- Automation Tool
 
-======== ===========
-Home     http://pydoit.org
-Versions 0.29.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/doit
+============= ===========
+Home          http://pydoit.org
+Versions      0.29.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/doit
 
-======== ===========
+
+
+============= ===========
 
 
 

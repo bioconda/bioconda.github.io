@@ -7,13 +7,15 @@ stride
 
 The StriDe Assembler integrates string and de Bruijn graph by decomposing reads within error\-prone regions\, while extending paire\-end read into long reads for assembly through repetitive regions\.
 
-======== ===========
-Home     https://github.com/ythuang0522/StriDe
-Versions 1.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stride
+============= ===========
+Home          https://github.com/ythuang0522/StriDe
+Versions      1.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stride
 
-======== ===========
+
+
+============= ===========
 
 
 

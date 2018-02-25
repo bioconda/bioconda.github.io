@@ -7,13 +7,15 @@ perl-io-compress-deflate
 
 Write RFC 1950 files\/buffers
 
-======== ===========
-Home     http://metacpan.org/pod/IO::Compress::Deflate
-Versions 2.064
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-compress-deflate/2.064
+============= ===========
+Home          http://metacpan.org/pod/IO::Compress::Deflate
+Versions      2.064
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-compress-deflate/2.064
 
-======== ===========
+
+
+============= ===========
 
 
 

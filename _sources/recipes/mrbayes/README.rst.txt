@@ -7,13 +7,15 @@ mrbayes
 
 Bayesian Inference of Phylogeny
 
-======== ===========
-Home     http://mrbayes.sourceforge.net
-Versions 3.2.6
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrbayes
+============= ===========
+Home          http://mrbayes.sourceforge.net
+Versions      3.2.6
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mrbayes
 
-======== ===========
+
+
+============= ===========
 
 MrBayes is a program for Bayesian inference and model choice across a wide
 range of phylogenetic and evolutionary models\. MrBayes uses Markov chain

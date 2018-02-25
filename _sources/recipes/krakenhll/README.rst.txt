@@ -7,13 +7,15 @@ krakenhll
 
 KrakenHLL metagenomics classification method with unique k\-mer counting for more specific results
 
-======== ===========
-Home     https://github.com/fbreitwieser/krakenhll
-Versions 0.3.2
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krakenhll
+============= ===========
+Home          https://github.com/fbreitwieser/krakenhll
+Versions      0.3.2
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krakenhll
 
-======== ===========
+
+
+============= ===========
 
 
 

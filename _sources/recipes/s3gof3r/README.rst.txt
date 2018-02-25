@@ -7,13 +7,15 @@ s3gof3r
 
 Fast\, concurrent\, streaming access to Amazon S3\, including gof3r\, a CLI
 
-======== ===========
-Home     https://github.com/rlmcpherson/s3gof3r
-Versions 0.5.0
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s3gof3r
+============= ===========
+Home          https://github.com/rlmcpherson/s3gof3r
+Versions      0.5.0
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s3gof3r
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-sereal
 
 Fast\, compact\, powerful binary \(de\-\)serialization
 
-======== ===========
-Home     http://metacpan.org/pod/Sereal
-Versions 3.015
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal
+============= ===========
+Home          http://metacpan.org/pod/Sereal
+Versions      3.015
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal
 
-======== ===========
+
+
+============= ===========
 
 
 

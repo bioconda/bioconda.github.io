@@ -7,13 +7,15 @@ log4cpp
 
 Log4cpp is library of C\+\+ classes for flexible logging to files\, syslog\, IDSA and other destinations
 
-======== ===========
-Home     http://log4cpp.sourceforge.net/
-Versions 1.1
-License  Lesser General Public License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/log4cpp
+============= ===========
+Home          http://log4cpp.sourceforge.net/
+Versions      1.1
+License       Lesser General Public License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/log4cpp
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ weeder
 
 Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species\. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data\.
 
-======== ===========
-Home     http://159.149.160.51/modtools/
-Versions 2.0
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weeder
+============= ===========
+Home          http://159.149.160.51/modtools/
+Versions      2.0
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weeder
 
-======== ===========
+
+
+============= ===========
 
 
 

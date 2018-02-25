@@ -7,13 +7,15 @@ cage
 
 Changepoint Analysis for Efficient Variant Calling
 
-======== ===========
-Home     https://github.com/adambloniarz/CAGe
-Versions 2016.01.24, 2016.05.13
-License  Apache v2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage
+============= ===========
+Home          https://github.com/adambloniarz/CAGe
+Versions      2016.01.24, 2016.05.13
+License       Apache v2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cage
 
-======== ===========
+
+
+============= ===========
 
 
 

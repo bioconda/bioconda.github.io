@@ -7,13 +7,15 @@ garnet
 
 GarNet uses gene expression and epigenetic data to impute transcription factors \(TFs\) that played an important role in a biological system\.
 
-======== ===========
-Home     https://github.com/fraenkel-lab/GarNet
-Versions 0.2.17, 0.2.20, 0.4.0, 0.4.3, 0.4.5
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnet
+============= ===========
+Home          https://github.com/fraenkel-lab/GarNet
+Versions      0.2.17, 0.2.20, 0.4.0, 0.4.3, 0.4.5
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnet
 
-======== ===========
+
+
+============= ===========
 
 
 

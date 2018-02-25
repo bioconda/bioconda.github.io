@@ -7,13 +7,15 @@ bioconductor-xvector
 
 Memory efficient S4 classes for storing sequences \"externally\" \(behind an R external pointer\, or on disk\)\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/XVector.html
-Versions 0.10.0, 0.12.1, 0.14.1, 0.16.0, 0.18.0, 0.8.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xvector
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/XVector.html
+Versions      0.10.0, 0.12.1, 0.14.1, 0.16.0, 0.18.0, 0.8.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xvector
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ lapack
 
 Linear Algebra PACKage
 
-======== ===========
-Home     http://www.netlib.org/lapack
-Versions 3.6.0
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lapack
+============= ===========
+Home          http://www.netlib.org/lapack
+Versions      3.6.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lapack
 
-======== ===========
+
+
+============= ===========
 
 
 

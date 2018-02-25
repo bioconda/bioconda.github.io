@@ -7,13 +7,15 @@ msaboot
 
 Generate bootstrapping replicates for multiple sequence alignment data\.
 
-======== ===========
-Home     https://github.com/phac-nml/msaboot
-Versions 0.1.0
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaboot
+============= ===========
+Home          https://github.com/phac-nml/msaboot
+Versions      0.1.0
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msaboot
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ gdal
 
 Geospatial Data Abstraction Library
 
-======== ===========
-Home     http://gdal.org
-Versions 1.9.2
-License  Several OSS
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdal
+============= ===========
+Home          http://gdal.org
+Versions      1.9.2
+License       Several OSS
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdal
 
-======== ===========
+
+
+============= ===========
 
 
 

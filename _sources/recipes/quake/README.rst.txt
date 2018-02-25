@@ -7,13 +7,15 @@ quake
 
 Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e\.g\. \>15X\)\, specifically intended for Illumina sequencing reads
 
-======== ===========
-Home     http://www.cbcb.umd.edu/software/quake/
-Versions 0.3.5
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake
+============= ===========
+Home          http://www.cbcb.umd.edu/software/quake/
+Versions      0.3.5
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quake
 
-======== ===========
+
+
+============= ===========
 
 
 

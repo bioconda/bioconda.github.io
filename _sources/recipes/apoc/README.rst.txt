@@ -7,13 +7,15 @@ apoc
 
 Large\-scale structural comparison of protein pockets
 
-======== ===========
-Home     http://cssb.biology.gatech.edu/APoc
-Versions 1b16
-License  This software is freely available to ALL users.
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apoc
+============= ===========
+Home          http://cssb.biology.gatech.edu/APoc
+Versions      1b16
+License       This software is freely available to ALL users.
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/apoc
 
-======== ===========
+
+
+============= ===========
 
 
 

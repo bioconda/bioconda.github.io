@@ -7,13 +7,15 @@ perl-spiffy
 
 Spiffy Perl Interface Framework For You
 
-======== ===========
-Home     https://github.com/ingydotnet/spiffy-pm
-Versions 0.46
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spiffy
+============= ===========
+Home          https://github.com/ingydotnet/spiffy-pm
+Versions      0.46
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-spiffy
 
-======== ===========
+
+
+============= ===========
 
 
 

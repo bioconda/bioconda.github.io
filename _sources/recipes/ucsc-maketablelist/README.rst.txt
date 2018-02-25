@@ -7,13 +7,15 @@ ucsc-maketablelist
 
 create\/recreate tableList tables \(cache of SHOW TABLES and DESCRIBE\)
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maketablelist
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maketablelist
 
-======== ===========
+
+
+============= ===========
 
 
 

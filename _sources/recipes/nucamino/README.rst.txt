@@ -7,13 +7,15 @@ nucamino
 
 A nucleotide to amino acid alignment program optimized for virus gene sequences
 
-======== ===========
-Home     https://github.com/hivdb/nucamino
-Versions 0.1.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucamino
+============= ===========
+Home          https://github.com/hivdb/nucamino
+Versions      0.1.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucamino
 
-======== ===========
+
+
+============= ===========
 
 
 

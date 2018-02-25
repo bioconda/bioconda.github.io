@@ -7,13 +7,15 @@ perl-text-template
 
 Expand template text with embedded Perl
 
-======== ===========
-Home     http://metacpan.org/pod/Text::Template
-Versions 1.46
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template/1.46
+============= ===========
+Home          http://metacpan.org/pod/Text::Template
+Versions      1.46
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template/1.46
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ fqtools
 
 An efficient FASTQ manipulation suite\.
 
-======== ===========
-Home     https://github.com/alastair-droop/fqtools
-Versions 2.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtools
+============= ===========
+Home          https://github.com/alastair-droop/fqtools
+Versions      2.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtools
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-glimma
 
 This package generates interactive visualisations for analysis of RNA\-sequencing data using output from limma\, edgeR or DESeq2 packages in an HTML page\. The interactions are built on top of the popular static representations of analysis results in order to provide additional information\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/Glimma.html
-Versions 1.6.0
-License  GPL-3 | file LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/Glimma.html
+Versions      1.6.0
+License       GPL-3 | file LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glimma
 
-======== ===========
+
+
+============= ===========
 
 
 

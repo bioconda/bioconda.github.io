@@ -7,13 +7,15 @@ cap-mirseq
 
 A comprehensive analysis pipeline for deep microRNA sequencing
 
-======== ===========
-Home     http://bioinformaticstools.mayo.edu/research/cap-mirseq/
-Versions version
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap-mirseq
+============= ===========
+Home          http://bioinformaticstools.mayo.edu/research/cap-mirseq/
+Versions      version
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cap-mirseq
 
-======== ===========
+
+
+============= ===========
 
 
 

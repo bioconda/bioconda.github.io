@@ -7,13 +7,15 @@ networkxgmml
 
 XGMML parser for networkx
 
-======== ===========
-Home     https://github.com/informationsea/networkxxgmml
-Versions 0.1.6
-License  UNKNOWN
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/networkxgmml
+============= ===========
+Home          https://github.com/informationsea/networkxxgmml
+Versions      0.1.6
+License       UNKNOWN
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/networkxgmml
 
-======== ===========
+
+
+============= ===========
 
 
 

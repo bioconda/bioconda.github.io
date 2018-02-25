@@ -7,13 +7,15 @@ check-sort-order
 
 check sort\-order of genomic files according to a genomefile
 
-======== ===========
-Home     https://github.com/gogetdata/ggd-utils
-Versions 0.0.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/check-sort-order
+============= ===========
+Home          https://github.com/gogetdata/ggd-utils
+Versions      0.0.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/check-sort-order
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ blockbuster
 
 Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach\.
 
-======== ===========
-Home     http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
-Versions 0.0.1.1
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockbuster
+============= ===========
+Home          http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html
+Versions      0.0.1.1
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockbuster
 
-======== ===========
+
+
+============= ===========
 
 
 

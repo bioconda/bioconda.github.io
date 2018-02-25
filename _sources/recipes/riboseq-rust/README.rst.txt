@@ -7,13 +7,15 @@ riboseq-rust
 
 Ribo\-seq Unit Step Transformation\. Tools to characterise the determinants of ribosome profiling read density across mRNA\. May be used to examine relative decoding rates and and for quality assessment
 
-======== ===========
-Home     https://lapti.ucc.ie/rust/
-Versions 1.2
-License  GPL-3.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseq-rust
+============= ===========
+Home          https://lapti.ucc.ie/rust/
+Versions      1.2
+License       GPL-3.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseq-rust
 
-======== ===========
+
+
+============= ===========
 
 
 

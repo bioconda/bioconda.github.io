@@ -7,13 +7,15 @@ qcli
 
 qcli
 
-======== ===========
-Home     
-Versions 0.1.1
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli
+============= ===========
+Home          
+Versions      0.1.1
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcli
 
-======== ===========
+
+
+============= ===========
 
 
 

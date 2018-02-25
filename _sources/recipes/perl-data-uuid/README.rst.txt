@@ -7,13 +7,15 @@ perl-data-uuid
 
 Globally\/Universally Unique Identifiers \(GUIDs\/UUIDs\)
 
-======== ===========
-Home     https://metacpan.org/pod/Data::UUID
-Versions 1.221
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-uuid
+============= ===========
+Home          https://metacpan.org/pod/Data::UUID
+Versions      1.221
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-uuid
 
-======== ===========
+
+
+============= ===========
 
 
 

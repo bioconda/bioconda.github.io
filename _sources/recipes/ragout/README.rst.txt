@@ -7,13 +7,15 @@ ragout
 
 Ragout \(Reference\-Assisted Genome Ordering UTility\) is a tool for chromosome assembly using multiple references
 
-======== ===========
-Home     https://github.com/fenderglass/Ragout
-Versions 2.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragout
+============= ===========
+Home          https://github.com/fenderglass/Ragout
+Versions      2.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragout
 
-======== ===========
+
+
+============= ===========
 
 
 

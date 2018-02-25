@@ -7,13 +7,15 @@ seqmagick
 
 Tools for converting and modifying sequence files from the command\-line
 
-======== ===========
-Home     http://github.com/fhcrc/seqmagick
-Versions 0.6.1
-License  GNU General Public License (GPL)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqmagick
+============= ===========
+Home          http://github.com/fhcrc/seqmagick
+Versions      0.6.1
+License       GNU General Public License (GPL)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqmagick
 
-======== ===========
+
+
+============= ===========
 
 
 

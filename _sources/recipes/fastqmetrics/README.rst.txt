@@ -7,13 +7,15 @@ fastqmetrics
 
 Extract metrics from a fastq file\, streaming
 
-======== ===========
-Home     https://github.com/wdecoster/fastqmetrics
-Versions 0.1.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqmetrics
+============= ===========
+Home          https://github.com/wdecoster/fastqmetrics
+Versions      0.1.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqmetrics
 
-======== ===========
+
+
+============= ===========
 
 
 

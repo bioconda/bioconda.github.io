@@ -7,13 +7,15 @@ perl-tree-dag_node
 
 An N\-ary tree
 
-======== ===========
-Home     http://metacpan.org/pod/Tree-DAG_Node
-Versions 1.29
-License  artistic_2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tree-dag_node
+============= ===========
+Home          http://metacpan.org/pod/Tree-DAG_Node
+Versions      1.29
+License       artistic_2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tree-dag_node
 
-======== ===========
+
+
+============= ===========
 
 
 

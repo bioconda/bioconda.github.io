@@ -7,13 +7,15 @@ r-soap-nmr
 
 R package for 1H\-NMR data pre\-treatment 
 
-======== ===========
-Home     https://github.com/ManonMartin/SOAP-NMR
-Versions 0.1.0.20170207
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-soap-nmr
+============= ===========
+Home          https://github.com/ManonMartin/SOAP-NMR
+Versions      0.1.0.20170207
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-soap-nmr
 
-======== ===========
+
+
+============= ===========
 
 
 

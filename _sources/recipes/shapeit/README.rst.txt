@@ -7,13 +7,15 @@ shapeit
 
 SHAPEIT is a fast and accurate method for estimation of haplotypes \(aka phasing\) from genotype or sequencing data\.
 
-======== ===========
-Home     https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
-Versions 2.r837
-License  Free for Academic Use
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit
+============= ===========
+Home          https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
+Versions      2.r837
+License       Free for Academic Use
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapeit
 
-======== ===========
+
+
+============= ===========
 
 
 

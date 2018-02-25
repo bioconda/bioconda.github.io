@@ -7,13 +7,15 @@ singlecell-barcodes
 
 whitelisted singlecell barcodes and information regarding where molecular\/sample\/cellular barcodes are in each read\, for various singlecell protocols
 
-======== ===========
-Home     https://github.com/roryk/singlecell-barcodes
-Versions 0.1, 0.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlecell-barcodes
+============= ===========
+Home          https://github.com/roryk/singlecell-barcodes
+Versions      0.1, 0.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/singlecell-barcodes
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ vcf2maf
 
 Convert a VCF into a MAF where each variant is annotated to only one of all possible gene isoforms
 
-======== ===========
-Home     https://github.com/mskcc/vcf2maf
-Versions 1.6.12, 1.6.14, 1.6.15, 1.6.8
-License  Apache-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf
+============= ===========
+Home          https://github.com/mskcc/vcf2maf
+Versions      1.6.12, 1.6.14, 1.6.15, 1.6.8
+License       Apache-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf2maf
 
-======== ===========
+
+
+============= ===========
 
 
 

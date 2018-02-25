@@ -7,13 +7,15 @@ pyprophet
 
 Python reimplementation of mProphet peak scoring
 
-======== ===========
-Home     http://github.com/uweschmitt/pyprophet
-Versions 0.22.0, 0.24.1
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyprophet
+============= ===========
+Home          http://github.com/uweschmitt/pyprophet
+Versions      0.22.0, 0.24.1
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyprophet
 
-======== ===========
+
+
+============= ===========
 
 
 

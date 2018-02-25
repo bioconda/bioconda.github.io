@@ -7,13 +7,15 @@ perl-inline-c
 
 A library to extract height\/width from images
 
-======== ===========
-Home     https://github.com/ingydotnet/inline-c-pm
-Versions 0.76
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c
+============= ===========
+Home          https://github.com/ingydotnet/inline-c-pm
+Versions      0.76
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c
 
-======== ===========
+
+
+============= ===========
 
 
 

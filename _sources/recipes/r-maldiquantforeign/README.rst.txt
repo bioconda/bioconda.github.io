@@ -7,13 +7,15 @@ r-maldiquantforeign
 
 Functions for reading \(tab\, csv\, Bruker fid\, Ciphergen XML\, mzXML\, mzML\, imzML\, Analyze 7\.5\, CDF\, mMass MSD\) and writing \(tab\, csv\, mMass MSD\, mzML\, imzML\) different file formats of mass spectrometry data into\/from \'MALDIquant\' objects\.
 
-======== ===========
-Home     http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/
-Versions 0.10, 0.11
-License  GPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquantforeign
+============= ===========
+Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/
+Versions      0.10, 0.11
+License       GPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquantforeign
 
-======== ===========
+
+
+============= ===========
 
 
 

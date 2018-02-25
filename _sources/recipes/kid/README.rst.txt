@@ -7,13 +7,15 @@ kid
 
 A simple and pythonic XML template language
 
-======== ===========
-Home     https://pypi.python.org/pypi/kid
-Versions 0.9.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kid
+============= ===========
+Home          https://pypi.python.org/pypi/kid
+Versions      0.9.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kid
 
-======== ===========
+
+
+============= ===========
 
 
 

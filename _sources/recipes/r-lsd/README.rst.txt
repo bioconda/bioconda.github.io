@@ -7,13 +7,15 @@ r-lsd
 
 Create lots of colorful plots in a plethora of variations \(try the LSD demotour\(\) \)
 
-======== ===========
-Home     https://CRAN.R-project.org/package=LSD
-Versions 3.0
-License  Unlimited
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lsd
+============= ===========
+Home          https://CRAN.R-project.org/package=LSD
+Versions      3.0
+License       Unlimited
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lsd
 
-======== ===========
+
+
+============= ===========
 
 
 

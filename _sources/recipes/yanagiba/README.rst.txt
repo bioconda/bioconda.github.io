@@ -7,13 +7,15 @@ yanagiba
 
 Filter short or low quality Oxford Nanopore reads which have been basecalled with Albacore\.
 
-======== ===========
-Home     https://github.com/Adamtaranto/Yanagiba
-Versions 0.1.0, 1.0.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yanagiba
+============= ===========
+Home          https://github.com/Adamtaranto/Yanagiba
+Versions      0.1.0, 1.0.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yanagiba
 
-======== ===========
+
+
+============= ===========
 
 
 

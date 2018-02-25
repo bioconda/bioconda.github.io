@@ -7,13 +7,15 @@ bioconductor-probamr
 
 Mapping PSMs back to genome\. The package builds SAM file from shotgun proteomics data The package also provides function to prepare annotation from GTF file\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/proBAMr.html
-Versions 1.10.0, 1.12.0, 1.8.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probamr
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/proBAMr.html
+Versions      1.10.0, 1.12.0, 1.8.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-probamr
 
-======== ===========
+
+
+============= ===========
 
 
 

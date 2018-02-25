@@ -7,13 +7,15 @@ perl-file-listing
 
 parse directory listing
 
-======== ===========
-Home     http://metacpan.org/pod/File-Listing
-Versions 6.04
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-listing
+============= ===========
+Home          http://metacpan.org/pod/File-Listing
+Versions      6.04
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-listing
 
-======== ===========
+
+
+============= ===========
 
 
 

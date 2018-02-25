@@ -7,13 +7,15 @@ perl-test-object
 
 Thoroughly testing objects via registered handlers
 
-======== ===========
-Home     https://github.com/karenetheridge/Test-Object
-Versions 0.08
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-object/0.08
+============= ===========
+Home          https://github.com/karenetheridge/Test-Object
+Versions      0.08
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-object/0.08
 
-======== ===========
+
+
+============= ===========
 
 
 

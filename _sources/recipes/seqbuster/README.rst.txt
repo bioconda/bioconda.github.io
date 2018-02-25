@@ -7,13 +7,15 @@ seqbuster
 
 miRNA and isomiR annotation
 
-======== ===========
-Home     https://github.com/lpantano/seqbuster
-Versions 2.3, 3.0, 3.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster
+============= ===========
+Home          https://github.com/lpantano/seqbuster
+Versions      2.3, 3.0, 3.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqbuster
 
-======== ===========
+
+
+============= ===========
 
 
 

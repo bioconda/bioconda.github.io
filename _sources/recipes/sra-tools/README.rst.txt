@@ -7,13 +7,15 @@ sra-tools
 
 The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives\.
 
-======== ===========
-Home     https://github.com/ncbi/sra-tools
-Versions 2.6.2, 2.6.3, 2.7.0, 2.8.0, 2.8.1, 2.8.2
-License  Public Domain
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools
+============= ===========
+Home          https://github.com/ncbi/sra-tools
+Versions      2.6.2, 2.6.3, 2.7.0, 2.8.0, 2.8.1, 2.8.2
+License       Public Domain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sra-tools
 
-======== ===========
+
+
+============= ===========
 
 
 

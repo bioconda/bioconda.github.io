@@ -7,13 +7,15 @@ perl-datetime-timezone
 
 Time zone object base class and factory
 
-======== ===========
-Home     http://metacpan.org/release/DateTime-TimeZone
-Versions 2.09
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/2.09
+============= ===========
+Home          http://metacpan.org/release/DateTime-TimeZone
+Versions      2.09
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-datetime-timezone/2.09
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ spingo
 
 Species level IdentificatioN of metaGenOmic amplicons
 
-======== ===========
-Home     https://github.com/GuyAllard/SPINGO
-Versions 1.3
-License  https://github.com/GuyAllard/SPINGO/blob/master/LICENSE
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spingo
+============= ===========
+Home          https://github.com/GuyAllard/SPINGO
+Versions      1.3
+License       https://github.com/GuyAllard/SPINGO/blob/master/LICENSE
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spingo
 
-======== ===========
+
+
+============= ===========
 
 
 

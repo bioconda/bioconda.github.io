@@ -7,13 +7,15 @@ bioconductor-beadarraysnp
 
 Importing data from Illumina SNP experiments and performing copy number calculations and reports\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/beadarraySNP.html
-Versions 1.42.0, 1.44.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarraysnp
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/beadarraySNP.html
+Versions      1.42.0, 1.44.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-beadarraysnp
 
-======== ===========
+
+
+============= ===========
 
 
 

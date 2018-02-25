@@ -7,13 +7,15 @@ ftputil
 
 High\-level FTP client library \(virtual file system and more\)
 
-======== ===========
-Home     http://ftputil.sschwarzer.net/
-Versions 3.2
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ftputil
+============= ===========
+Home          http://ftputil.sschwarzer.net/
+Versions      3.2
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ftputil
 
-======== ===========
+
+
+============= ===========
 
 
 

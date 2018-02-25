@@ -7,13 +7,15 @@ perl-tap-harness-env
 
 Parsing harness related environmental variables where appropriate
 
-======== ===========
-Home     http://metacpan.org/pod/TAP::Harness::Env
-Versions 3.30
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tap-harness-env/3.30
+============= ===========
+Home          http://metacpan.org/pod/TAP::Harness::Env
+Versions      3.30
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tap-harness-env/3.30
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ octopus
 
 Bayesian haplotype\-based mutation calling
 
-======== ===========
-Home     https://github.com/luntergroup/octopus
-Versions 0.3.3a
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
+============= ===========
+Home          https://github.com/luntergroup/octopus
+Versions      0.3.3a
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
 
-======== ===========
+
+
+============= ===========
 
 
 

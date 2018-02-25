@@ -7,13 +7,15 @@ bats
 
 Bash automated testing system
 
-======== ===========
-Home     https://github.com/sstephenson/bats
-Versions 0.4.0
-License  Open Source
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bats
+============= ===========
+Home          https://github.com/sstephenson/bats
+Versions      0.4.0
+License       Open Source
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bats
 
-======== ===========
+
+
+============= ===========
 
 
 

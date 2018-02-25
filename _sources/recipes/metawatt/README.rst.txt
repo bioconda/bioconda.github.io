@@ -7,13 +7,15 @@ metawatt
 
 MetaWatt is a metagenomic binning tool
 
-======== ===========
-Home     https://sourceforge.net/projects/metawatt/
-Versions 3.5.3
-License  AFL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt
+============= ===========
+Home          https://sourceforge.net/projects/metawatt/
+Versions      3.5.3
+License       AFL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt
 
-======== ===========
+
+
+============= ===========
 
 The Metawatt binner is a graphical binning tool that makes use of
 multivariate statistics of tetranucleotide frequencies and differential

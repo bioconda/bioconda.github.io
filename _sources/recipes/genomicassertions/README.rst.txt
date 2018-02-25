@@ -7,13 +7,15 @@ genomicassertions
 
 A package to test common files in genomics \(\.vcf\.gz\, \.bam\)
 
-======== ===========
-Home     https://github.com/dakl/genomicassertions
-Versions 0.2.5
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicassertions
+============= ===========
+Home          https://github.com/dakl/genomicassertions
+Versions      0.2.5
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicassertions
 
-======== ===========
+
+
+============= ===========
 
 
 

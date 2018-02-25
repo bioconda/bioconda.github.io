@@ -7,13 +7,15 @@ perl-statistics-distributions
 
 Perl module for calculating critical values and upper probabilities of common statistical distributions
 
-======== ===========
-Home     http://metacpan.org/pod/Statistics-Distributions
-Versions 1.02
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-distributions
+============= ===========
+Home          http://metacpan.org/pod/Statistics-Distributions
+Versions      1.02
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-distributions
 
-======== ===========
+
+
+============= ===========
 
 
 

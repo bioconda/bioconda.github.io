@@ -7,13 +7,15 @@ r-peer
 
 PEER is a collection of Bayesian approaches to infer hidden determinants and their effects from gene expression profiles using factor analysis methods\. Applications of PEER have \(i\) detected batch effects and experimental confounders \(ii\) increased the number of expression QTL findings by threefold and \(iii\) allowed inference of intermediate cellular traits\, such as transcription factor or pathway activations\. This project offers an efficient and versatile C\+\+ implementation of the underlying algorithms with user\-friendly interfaces to R and python\. 
 
-======== ===========
-Home     
-Versions 1.3
-License  GPL 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-peer
+============= ===========
+Home          
+Versions      1.3
+License       GPL 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-peer
 
-======== ===========
+
+
+============= ===========
 
 
 

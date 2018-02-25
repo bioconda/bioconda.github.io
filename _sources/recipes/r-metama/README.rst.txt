@@ -7,13 +7,15 @@ r-metama
 
 Combines either p\-values or modified effect sizes from different studies to find differentially expressed genes
 
-======== ===========
-Home     https://CRAN.R-project.org/package=metaMA
-Versions 3.1.2
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metama
+============= ===========
+Home          https://CRAN.R-project.org/package=metaMA
+Versions      3.1.2
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metama
 
-======== ===========
+
+
+============= ===========
 
 
 

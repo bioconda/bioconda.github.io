@@ -7,13 +7,15 @@ alfred
 
 Sequence alignment quality control\, BAM statistics and feature counting
 
-======== ===========
-Home     https://github.com/tobiasrausch/alfred
-Versions 0.1.2, 0.1.3, 0.1.5
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred
+============= ===========
+Home          https://github.com/tobiasrausch/alfred
+Versions      0.1.2, 0.1.3, 0.1.5
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred
 
-======== ===========
+
+
+============= ===========
 
 
 

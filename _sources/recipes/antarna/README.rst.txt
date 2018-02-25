@@ -7,13 +7,15 @@ antarna
 
 antaRNA is a python based implementation of ant\-colony optimization of the RNA inverse folding problem\.
 
-======== ===========
-Home     https://github.com/RobertKleinkauf/antarna
-Versions 2.0.1.2
-License  The MIT License (MIT)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antarna
+============= ===========
+Home          https://github.com/RobertKleinkauf/antarna
+Versions      2.0.1.2
+License       The MIT License (MIT)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antarna
 
-======== ===========
+
+
+============= ===========
 
 
 

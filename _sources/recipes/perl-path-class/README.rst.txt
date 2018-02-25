@@ -7,13 +7,15 @@ perl-path-class
 
 Cross\-platform path specification manipulation
 
-======== ===========
-Home     http://metacpan.org/pod/Path-Class
-Versions 0.36
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class
+============= ===========
+Home          http://metacpan.org/pod/Path-Class
+Versions      0.36
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class
 
-======== ===========
+
+
+============= ===========
 
 
 

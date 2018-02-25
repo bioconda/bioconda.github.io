@@ -7,13 +7,15 @@ perl-unicode-stringprep
 
 Preparation of Internationalized Strings \(RFC 3454\)
 
-======== ===========
-Home     http://metacpan.org/pod/Unicode-Stringprep
-Versions 1.105
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-stringprep
+============= ===========
+Home          http://metacpan.org/pod/Unicode-Stringprep
+Versions      1.105
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-stringprep
 
-======== ===========
+
+
+============= ===========
 
 
 

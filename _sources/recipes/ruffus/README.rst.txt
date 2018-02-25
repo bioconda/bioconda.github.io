@@ -7,13 +7,15 @@ ruffus
 
 Light\-weight Python Computational Pipeline Management
 
-======== ===========
-Home     http://www.ruffus.org.uk/
-Versions 2.6.3
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruffus
+============= ===========
+Home          http://www.ruffus.org.uk/
+Versions      2.6.3
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruffus
 
-======== ===========
+
+
+============= ===========
 
 
 

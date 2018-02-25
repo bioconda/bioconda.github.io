@@ -7,13 +7,15 @@ lz4-bin
 
 Extremely Fast Compression Application
 
-======== ===========
-Home     http://cyan4973.github.io/lz4
-Versions 131
-License  BSD
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lz4-bin
+============= ===========
+Home          http://cyan4973.github.io/lz4
+Versions      131
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lz4-bin
 
-======== ===========
+
+
+============= ===========
 
 
 

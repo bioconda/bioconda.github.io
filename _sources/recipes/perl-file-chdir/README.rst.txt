@@ -7,13 +7,15 @@ perl-file-chdir
 
 a more sensible way to change directories
 
-======== ===========
-Home     https://github.com/dagolden/File-chdir
-Versions 0.1010
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-chdir
+============= ===========
+Home          https://github.com/dagolden/File-chdir
+Versions      0.1010
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-chdir
 
-======== ===========
+
+
+============= ===========
 
 
 

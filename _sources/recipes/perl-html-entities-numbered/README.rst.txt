@@ -7,13 +7,15 @@ perl-html-entities-numbered
 
 Conversion of numbered HTML entities
 
-======== ===========
-Home     http://metacpan.org/pod/HTML-Entities-Numbered
-Versions 0.04
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-entities-numbered
+============= ===========
+Home          http://metacpan.org/pod/HTML-Entities-Numbered
+Versions      0.04
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-entities-numbered
 
-======== ===========
+
+
+============= ===========
 
 
 

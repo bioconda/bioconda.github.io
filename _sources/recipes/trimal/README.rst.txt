@@ -7,13 +7,15 @@ trimal
 
 A tool for the automated removal of spurious sequences or poorly aligned regions from a multiple sequence alignment
 
-======== ===========
-Home     http://trimal.cgenomics.org
-Versions 1.4.1
-License  GNU General Public License v3 or later (GPLv3+)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal/1.4.1
+============= ===========
+Home          http://trimal.cgenomics.org
+Versions      1.4.1
+License       GNU General Public License v3 or later (GPLv3+)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimal/1.4.1
 
-======== ===========
+
+
+============= ===========
 
 
 

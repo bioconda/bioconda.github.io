@@ -7,13 +7,15 @@ hmmer
 
 Biosequence analysis using profile hidden Markov models
 
-======== ===========
-Home     http://hmmer.org/
-Versions 2.3.2, 3.1b2
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer
+============= ===========
+Home          http://hmmer.org/
+Versions      2.3.2, 3.1b2
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmer
 
-======== ===========
+
+
+============= ===========
 
 
 

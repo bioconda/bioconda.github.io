@@ -7,13 +7,15 @@ bioconductor-scisi
 
 Package to create In Silico Interactomes
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ScISI.html
-Versions 1.50.0
-License  LGPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ScISI.html
+Versions      1.50.0
+License       LGPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scisi
 
-======== ===========
+
+
+============= ===========
 
 
 

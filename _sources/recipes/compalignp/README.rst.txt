@@ -7,13 +7,15 @@ compalignp
 
 Compute fractional \"identity\" between trusted alignment and test alignment\.
 
-======== ===========
-Home     http://www.biophys.uni-duesseldorf.de/bralibase/
-Versions 1.0
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp
+============= ===========
+Home          http://www.biophys.uni-duesseldorf.de/bralibase/
+Versions      1.0
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ icqsol
 
 A collection of utilities for constructing complex geometries from primitive shapes
 
-======== ===========
-Home     https://github.com/pletzer/icqsol
-Versions 0.3.20, 0.3.26
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icqsol
+============= ===========
+Home          https://github.com/pletzer/icqsol
+Versions      0.3.20, 0.3.26
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/icqsol
 
-======== ===========
+
+
+============= ===========
 
 
 

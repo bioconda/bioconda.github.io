@@ -7,13 +7,15 @@ vt
 
 A tool set for short variant discovery in genetic sequence data
 
-======== ===========
-Home     https://github.com/atks/vt
-Versions 2015.11.10
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt
+============= ===========
+Home          https://github.com/atks/vt
+Versions      2015.11.10
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-sub-attribute
 
 Reliable subroutine attribute handlers
 
-======== ===========
-Home     http://metacpan.org/pod/Sub::Attribute
-Versions 0.05
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05
+============= ===========
+Home          http://metacpan.org/pod/Sub::Attribute
+Versions      0.05
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-attribute/0.05
 
-======== ===========
+
+
+============= ===========
 
 
 

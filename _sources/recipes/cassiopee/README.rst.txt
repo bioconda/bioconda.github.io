@@ -7,13 +7,15 @@ cassiopee
 
 scan an input genomic sequence \(dna\/rna\/protein\) and search for a subsequence with exact match or allowing substitutions \(Hamming distance\) and\/or insertion\/deletions
 
-======== ===========
-Home     https://github.com/osallou/cassiopee-c
-Versions 1.0.5
-License  GPL-3+
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopee
+============= ===========
+Home          https://github.com/osallou/cassiopee-c
+Versions      1.0.5
+License       GPL-3+
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopee
 
-======== ===========
+
+
+============= ===========
 
 
 

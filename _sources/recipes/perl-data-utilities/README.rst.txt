@@ -7,13 +7,15 @@ perl-data-utilities
 
 recursively compare Perl datatypes
 
-======== ===========
-Home     http://metacpan.org/pod/Data-Utilities
-Versions 0.04
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-utilities/0.04
+============= ===========
+Home          http://metacpan.org/pod/Data-Utilities
+Versions      0.04
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-utilities/0.04
 
-======== ===========
+
+
+============= ===========
 
 
 

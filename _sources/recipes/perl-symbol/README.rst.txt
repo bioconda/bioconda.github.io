@@ -7,13 +7,15 @@ perl-symbol
 
 manipulate Perl symbols and their names
 
-======== ===========
-Home     http://metacpan.org/pod/Symbol
-Versions 1.07
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol/1.07
+============= ===========
+Home          http://metacpan.org/pod/Symbol
+Versions      1.07
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-symbol/1.07
 
-======== ===========
+
+
+============= ===========
 
 
 

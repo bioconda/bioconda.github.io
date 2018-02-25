@@ -7,13 +7,15 @@ ucsc-lavtoaxt
 
 Convert blastz lav file to an axt file \(which includes sequence\)
 
-======== ===========
-Home     http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions 357
-License  varies; see http://genome.ucsc.edu/license
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-lavtoaxt
+============= ===========
+Home          http://hgdownload.cse.ucsc.edu/admin/exe/
+Versions      357
+License       varies; see http://genome.ucsc.edu/license
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-lavtoaxt
 
-======== ===========
+
+
+============= ===========
 
 
 

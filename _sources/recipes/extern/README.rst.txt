@@ -7,13 +7,15 @@ extern
 
 Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code\.
 
-======== ===========
-Home     https://pypi.python.org/pypi/extern/
-Versions 0.2.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern
+============= ===========
+Home          https://pypi.python.org/pypi/extern/
+Versions      0.2.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extern
 
-======== ===========
+
+
+============= ===========
 
 
 

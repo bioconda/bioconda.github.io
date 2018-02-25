@@ -7,13 +7,15 @@ igv
 
 Integrative Genomics Viewer\. Fast\, efficient\, scalable visualization tool for genomics data and annotations
 
-======== ===========
-Home     http://www.broadinstitute.org/software/igv/home
-Versions 2.3.98, 2.4.6
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igv
+============= ===========
+Home          http://www.broadinstitute.org/software/igv/home
+Versions      2.3.98, 2.4.6
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igv
 
-======== ===========
+
+
+============= ===========
 
 
 

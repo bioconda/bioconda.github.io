@@ -7,13 +7,15 @@ perl-file-remove
 
 Remove files and directories
 
-======== ===========
-Home     http://metacpan.org/pod/File::Remove
-Versions 1.57
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-remove/1.57
+============= ===========
+Home          http://metacpan.org/pod/File::Remove
+Versions      1.57
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-remove/1.57
 
-======== ===========
+
+
+============= ===========
 
 
 

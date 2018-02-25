@@ -7,13 +7,15 @@ pbsim
 
 PBSIM simulates PacBio reads
 
-======== ===========
-Home     https://code.google.com/archive/p/pbsim/
-Versions 1.0.3
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim
+============= ===========
+Home          https://code.google.com/archive/p/pbsim/
+Versions      1.0.3
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsim
 
-======== ===========
+
+
+============= ===========
 
 
 

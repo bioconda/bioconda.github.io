@@ -7,13 +7,15 @@ swiftlink
 
 A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i\.e\. many markers\, but larger pedigrees\.
 
-======== ===========
-Home     https://github.com/ajm/swiftlink
-Versions 1.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swiftlink
+============= ===========
+Home          https://github.com/ajm/swiftlink
+Versions      1.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swiftlink
 
-======== ===========
+
+
+============= ===========
 
 
 

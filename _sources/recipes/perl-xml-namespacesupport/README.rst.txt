@@ -7,13 +7,15 @@ perl-xml-namespacesupport
 
 a simple generic namespace support class
 
-======== ===========
-Home     http://metacpan.org/pod/XML-NamespaceSupport
-Versions 1.11
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-namespacesupport
+============= ===========
+Home          http://metacpan.org/pod/XML-NamespaceSupport
+Versions      1.11
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-namespacesupport
 
-======== ===========
+
+
+============= ===========
 
 
 

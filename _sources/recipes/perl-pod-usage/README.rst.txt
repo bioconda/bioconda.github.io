@@ -7,13 +7,15 @@ perl-pod-usage
 
 print a usage message from embedded pod documentation 
 
-======== ===========
-Home     http://search.cpan.org/~marekr/Pod-Usage-1.69/
-Versions 1.69
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-usage
+============= ===========
+Home          http://search.cpan.org/~marekr/Pod-Usage-1.69/
+Versions      1.69
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-usage
 
-======== ===========
+
+
+============= ===========
 
 
 

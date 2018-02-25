@@ -7,13 +7,15 @@ bioconductor-promise
 
 A general tool to identify genomic features with a specific biologically interesting pattern of associations with multiple endpoint variables as described in Pounds et\. al\. \(2009\) Bioinformatics 25\: 2013\-2019
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/PROMISE.html
-Versions 1.28.0, 1.30.0
-License  GPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/PROMISE.html
+Versions      1.28.0, 1.30.0
+License       GPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-promise
 
-======== ===========
+
+
+============= ===========
 
 
 

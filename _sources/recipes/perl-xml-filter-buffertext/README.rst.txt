@@ -7,13 +7,15 @@ perl-xml-filter-buffertext
 
 Filter to put all characters\(\) in one event
 
-======== ===========
-Home     http://metacpan.org/pod/XML-Filter-BufferText
-Versions 1.01
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-filter-buffertext
+============= ===========
+Home          http://metacpan.org/pod/XML-Filter-BufferText
+Versions      1.01
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-filter-buffertext
 
-======== ===========
+
+
+============= ===========
 
 
 

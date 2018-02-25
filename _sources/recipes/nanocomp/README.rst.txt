@@ -7,13 +7,15 @@ nanocomp
 
 Comparing runs of Oxford Nanopore sequencing data and alignments
 
-======== ===========
-Home     https://github.com/wdecoster/NanoComp
-Versions 0.12.4, 0.5.0, 0.7.0
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocomp
+============= ===========
+Home          https://github.com/wdecoster/NanoComp
+Versions      0.12.4, 0.5.0, 0.7.0
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocomp
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ bioconductor-txdb.drerio.ucsc.danrer10.refgene
 
 Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Drerio.UCSC.danRer10.refGene.html
-Versions 3.4.0, 3.4.2
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.drerio.ucsc.danrer10.refgene
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Drerio.UCSC.danRer10.refGene.html
+Versions      3.4.0, 3.4.2
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.drerio.ucsc.danrer10.refgene
 
-======== ===========
+
+
+============= ===========
 
 
 

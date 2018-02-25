@@ -7,13 +7,15 @@ cosi2
 
 cosi2 is an efficient coalescent simulator with support for selection\, population structure\, variable recombination rates\, and gene conversion\. It supports exact and approximate simulation modes\.
 
-======== ===========
-Home     https://www.broadinstitute.org/mpg/cosi2/
-Versions 2.0, 2.02, 2.3.0rc1, 2.3.0rc2, 2.3.0rc3, 2.3.0rc4
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosi2
+============= ===========
+Home          https://www.broadinstitute.org/mpg/cosi2/
+Versions      2.0, 2.02, 2.3.0rc1, 2.3.0rc2, 2.3.0rc3, 2.3.0rc4
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cosi2
 
-======== ===========
+
+
+============= ===========
 
 
 

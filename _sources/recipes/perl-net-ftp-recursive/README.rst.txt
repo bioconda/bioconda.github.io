@@ -7,13 +7,15 @@ perl-net-ftp-recursive
 
 Recursive FTP Client class
 
-======== ===========
-Home     http://metacpan.org/pod/Net::FTP::Recursive
-Versions 2.04
-License  Perl
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ftp-recursive/2.04
+============= ===========
+Home          http://metacpan.org/pod/Net::FTP::Recursive
+Versions      2.04
+License       Perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ftp-recursive/2.04
 
-======== ===========
+
+
+============= ===========
 
 
 

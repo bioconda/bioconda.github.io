@@ -7,13 +7,15 @@ tssar
 
 TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data\.
 
-======== ===========
-Home     http://rna.tbi.univie.ac.at/TSSAR
-Versions 1.0.1
-License  GNU General Public License v2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssar
+============= ===========
+Home          http://rna.tbi.univie.ac.at/TSSAR
+Versions      1.0.1
+License       GNU General Public License v2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tssar
 
-======== ===========
+
+
+============= ===========
 
 
 

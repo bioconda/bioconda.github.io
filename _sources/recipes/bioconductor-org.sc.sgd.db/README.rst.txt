@@ -7,13 +7,15 @@ bioconductor-org.sc.sgd.db
 
 Genome wide annotation for Yeast\, primarily based on mapping using ORF identifiers from SGD\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/org.Sc.sgd.db.html
-Versions 3.5.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.sc.sgd.db
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/org.Sc.sgd.db.html
+Versions      3.5.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.sc.sgd.db
 
-======== ===========
+
+
+============= ===========
 
 
 

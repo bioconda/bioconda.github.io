@@ -7,13 +7,15 @@ perl-math-bezier
 
 solution of Bezier Curves
 
-======== ===========
-Home     http://metacpan.org/pod/Math-Bezier
-Versions 0.01
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bezier
+============= ===========
+Home          http://metacpan.org/pod/Math-Bezier
+Versions      0.01
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bezier
 
-======== ===========
+
+
+============= ===========
 
 
 

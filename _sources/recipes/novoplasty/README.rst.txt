@@ -7,13 +7,15 @@ novoplasty
 
 
 
-======== ===========
-Home     https://github.com/ndierckx/NOVOPlasty
-Versions 2.2.2
-License  
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty
+============= ===========
+Home          https://github.com/ndierckx/NOVOPlasty
+Versions      2.2.2
+License       
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novoplasty
 
-======== ===========
+
+
+============= ===========
 
 NOVOPlasty is a de novo assembler for short circular genomes\.
 

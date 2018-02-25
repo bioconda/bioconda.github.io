@@ -7,13 +7,15 @@ perl-hpc-runner-pbs
 
 Submit jobs to a PBS job scheduler\.
 
-======== ===========
-Home     https://bitbucket.org/jerowe/hpc-runner-pbs
-Versions 0.12
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-pbs
+============= ===========
+Home          https://bitbucket.org/jerowe/hpc-runner-pbs
+Versions      0.12
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-pbs
 
-======== ===========
+
+
+============= ===========
 
 
 

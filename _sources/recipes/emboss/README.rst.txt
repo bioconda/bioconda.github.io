@@ -7,13 +7,15 @@ emboss
 
 The European Molecular Biology Open Software Suite
 
-======== ===========
-Home     http://emboss.open-bio.org/
-Versions 6.5.7
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss
+============= ===========
+Home          http://emboss.open-bio.org/
+Versions      6.5.7
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss
 
-======== ===========
+
+
+============= ===========
 
 
 

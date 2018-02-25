@@ -7,13 +7,15 @@ bioconductor-biocparallel
 
 This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BiocParallel.html
-Versions 1.10.1, 1.12.0, 1.2.22, 1.4.0, 1.4.3, 1.5.0, 1.6.6
-License  GPL-2 | GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BiocParallel.html
+Versions      1.10.1, 1.12.0, 1.2.22, 1.4.0, 1.4.3, 1.5.0, 1.6.6
+License       GPL-2 | GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel
 
-======== ===========
+
+
+============= ===========
 
 
 

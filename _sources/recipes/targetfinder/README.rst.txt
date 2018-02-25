@@ -7,13 +7,15 @@ targetfinder
 
 Plant small RNA target prediction tool
 
-======== ===========
-Home     https://github.com/carringtonlab/TargetFinder
-Versions 1.7
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetfinder
+============= ===========
+Home          https://github.com/carringtonlab/TargetFinder
+Versions      1.7
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/targetfinder
 
-======== ===========
+
+
+============= ===========
 
 
 

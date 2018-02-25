@@ -7,13 +7,15 @@ emmix
 
 A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set\.
 
-======== ===========
-Home     https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
-Versions 1.3
-License  Available freely for non-commercial use only
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3
+============= ===========
+Home          https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
+Versions      1.3
+License       Available freely for non-commercial use only
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3
 
-======== ===========
+
+
+============= ===========
 
 
 

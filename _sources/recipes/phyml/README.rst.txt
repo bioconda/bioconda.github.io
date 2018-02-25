@@ -7,13 +7,17 @@ phyml
 
 Phylogenetic estimation using \(Maximum\) Likelihood
 
-======== ===========
-Home     http://www.atgc-montpellier.fr/phyml/
-Versions 3.2.0, 3.3.20170530
-License  GPLv2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml
+============= ===========
+Home          http://www.atgc-montpellier.fr/phyml/
+Versions      3.2.0, 3.3.20170530
+License       GPLv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml
 
-======== ===========
+
+Development   https://github.com/stephaneguindon/phyml/
+
+
+============= ===========
 
 PhyML is a software that estimates maximum likelihood phylogenies from
 alignments of nucleotide or amino acid sequences\. The main strength of

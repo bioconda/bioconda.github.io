@@ -7,13 +7,15 @@ perl-aliased
 
 Use shorter versions of class names\.
 
-======== ===========
-Home     https://github.com/karenetheridge/aliased
-Versions 0.34
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased
+============= ===========
+Home          https://github.com/karenetheridge/aliased
+Versions      0.34
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased
 
-======== ===========
+
+
+============= ===========
 
 
 

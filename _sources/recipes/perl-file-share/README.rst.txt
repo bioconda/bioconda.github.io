@@ -7,13 +7,15 @@ perl-file-share
 
 Extend File\:\:ShareDir to Local Libraries
 
-======== ===========
-Home     https://github.com/ingydotnet/file-share-pm
-Versions 0.25
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-share/0.25
+============= ===========
+Home          https://github.com/ingydotnet/file-share-pm
+Versions      0.25
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-share/0.25
 
-======== ===========
+
+
+============= ===========
 
 
 

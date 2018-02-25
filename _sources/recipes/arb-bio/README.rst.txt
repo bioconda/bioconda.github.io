@@ -7,13 +7,15 @@ arb-bio
 
 ARB 6 Sequence Analysis Suite
 
-======== ===========
-Home     http://www.arb-home.de
-Versions 6.0.6
-License  ARB
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arb-bio
+============= ===========
+Home          http://www.arb-home.de
+Versions      6.0.6
+License       ARB
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arb-bio
 
-======== ===========
+
+
+============= ===========
 
 
 

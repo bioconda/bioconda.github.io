@@ -7,13 +7,15 @@ smartdenovo
 
 Ultra\-fast de novo assembler using long noisy reads
 
-======== ===========
-Home     https://github.com/ruanjue/smartdenovo
-Versions 1.0.0
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smartdenovo
+============= ===========
+Home          https://github.com/ruanjue/smartdenovo
+Versions      1.0.0
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smartdenovo
 
-======== ===========
+
+
+============= ===========
 
 
 

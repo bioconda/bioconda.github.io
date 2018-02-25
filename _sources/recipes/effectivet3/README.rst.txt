@@ -7,13 +7,15 @@ effectivet3
 
 Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences\.
 
-======== ===========
-Home     http://www.compbio.dundee.ac.uk/nod
-Versions 1.0.1
-License  Apache License, Version 2.0 + others used internally
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/effectivet3
+============= ===========
+Home          http://www.compbio.dundee.ac.uk/nod
+Versions      1.0.1
+License       Apache License, Version 2.0 + others used internally
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/effectivet3
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ ga4ghmongo
 
 A document based Variant database inspired by ga4gh Variants schema
 
-======== ===========
-Home     https://github.com/Phelimb/ga4gh-mongo
-Versions 0.0.1.2
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ga4ghmongo
+============= ===========
+Home          https://github.com/Phelimb/ga4gh-mongo
+Versions      0.0.1.2
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ga4ghmongo
 
-======== ===========
+
+
+============= ===========
 
 
 

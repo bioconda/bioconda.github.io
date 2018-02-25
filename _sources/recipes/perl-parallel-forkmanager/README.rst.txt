@@ -7,13 +7,15 @@ perl-parallel-forkmanager
 
 A simple parallel processing fork manager
 
-======== ===========
-Home     https://github.com/dluxhu/perl-parallel-forkmanager
-Versions 1.17
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-forkmanager
+============= ===========
+Home          https://github.com/dluxhu/perl-parallel-forkmanager
+Versions      1.17
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-forkmanager
 
-======== ===========
+
+
+============= ===========
 
 
 

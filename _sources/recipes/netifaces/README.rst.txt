@@ -7,13 +7,15 @@ netifaces
 
 
 
-======== ===========
-Home     https://bitbucket.org/al45tair/netifaces
-Versions 0.10.4
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netifaces
+============= ===========
+Home          https://bitbucket.org/al45tair/netifaces
+Versions      0.10.4
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netifaces
 
-======== ===========
+
+
+============= ===========
 
 
 

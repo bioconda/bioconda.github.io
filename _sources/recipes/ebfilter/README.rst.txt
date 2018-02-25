@@ -7,13 +7,15 @@ ebfilter
 
 EBFilter \(Empirical Bayesian Mutation Filtering\)
 
-======== ===========
-Home     https://github.com/Genomon-Project/EBFilter
-Versions 0.2.1
-License  GNU General Public License v3 (GPLv3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebfilter
+============= ===========
+Home          https://github.com/Genomon-Project/EBFilter
+Versions      0.2.1
+License       GNU General Public License v3 (GPLv3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebfilter
 
-======== ===========
+
+
+============= ===========
 
 
 

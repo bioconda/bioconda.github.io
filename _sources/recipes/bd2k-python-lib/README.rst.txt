@@ -7,13 +7,15 @@ bd2k-python-lib
 
 The BD2K Python module kitchen sink
 
-======== ===========
-Home     https://github.com/BD2KGenomics/bd2k-python-lib
-Versions 1.13.dev14, 1.14a1.dev28, 1.14a1.dev29, 1.14a1.dev33, 1.14a1.dev37
-License  Apache 2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bd2k-python-lib
+============= ===========
+Home          https://github.com/BD2KGenomics/bd2k-python-lib
+Versions      1.13.dev14, 1.14a1.dev28, 1.14a1.dev29, 1.14a1.dev33, 1.14a1.dev37
+License       Apache 2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bd2k-python-lib
 
-======== ===========
+
+
+============= ===========
 
 
 

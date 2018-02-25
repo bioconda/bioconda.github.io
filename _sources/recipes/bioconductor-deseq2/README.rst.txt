@@ -7,13 +7,15 @@ bioconductor-deseq2
 
 Estimate variance\-mean dependence in count data from high\-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/DESeq2.html
-Versions 1.10.0, 1.10.1, 1.12.4, 1.14.1, 1.16.1, 1.18.0, 1.18.1, 1.8.2
-License  LGPL (>= 3)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/DESeq2.html
+Versions      1.10.0, 1.10.1, 1.12.4, 1.14.1, 1.16.1, 1.18.0, 1.18.1, 1.8.2
+License       LGPL (>= 3)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2
 
-======== ===========
+
+
+============= ===========
 
 
 

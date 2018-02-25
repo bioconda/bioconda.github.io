@@ -7,13 +7,15 @@ perl-io-html
 
 Open an HTML file with automatic charset detection
 
-======== ===========
-Home     http://metacpan.org/pod/IO-HTML
-Versions 1.001
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html
+============= ===========
+Home          http://metacpan.org/pod/IO-HTML
+Versions      1.001
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html
 
-======== ===========
+
+
+============= ===========
 
 
 

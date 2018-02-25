@@ -7,13 +7,15 @@ perl-io-all
 
 Combines all of the best Perl IO modules into a single nifty object oriented interface
 
-======== ===========
-Home     https://github.com/ingydotnet/io-all-pm
-Versions 0.86
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-all
+============= ===========
+Home          https://github.com/ingydotnet/io-all-pm
+Versions      0.86
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-all
 
-======== ===========
+
+
+============= ===========
 
 
 

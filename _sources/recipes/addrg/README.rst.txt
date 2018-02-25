@@ -7,13 +7,15 @@ addrg
 
 Add read group to BAM files
 
-======== ===========
-Home     https://github.com/holtgrewe/addrg
-Versions 0.1, 0.2, 0.2.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/addrg
+============= ===========
+Home          https://github.com/holtgrewe/addrg
+Versions      0.1, 0.2, 0.2.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/addrg
 
-======== ===========
+
+
+============= ===========
 
 
 

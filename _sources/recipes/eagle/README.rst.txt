@@ -7,13 +7,15 @@ eagle
 
 Eagle is a webtool for genome variants and snp analysis
 
-======== ===========
-Home     https://bitbucket.org/christopherschroeder/eagle
-Versions 0.9.0, 0.9.3.3
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eagle
+============= ===========
+Home          https://bitbucket.org/christopherschroeder/eagle
+Versions      0.9.0, 0.9.3.3
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eagle
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ pycsg
 
 Python port of csg\.js from Evan Wallace
 
-======== ===========
-Home     https://github.com/pletzer/pycsg
-Versions 0.3.12
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycsg
+============= ===========
+Home          https://github.com/pletzer/pycsg
+Versions      0.3.12
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycsg
 
-======== ===========
+
+
+============= ===========
 
 
 

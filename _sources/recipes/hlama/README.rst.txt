@@ -7,13 +7,15 @@ hlama
 
 Simple matching of HTS samples based on HLA typing
 
-======== ===========
-Home     https://github.com/bihealth/hlama
-Versions 0.3, 0.3.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hlama
+============= ===========
+Home          https://github.com/bihealth/hlama
+Versions      0.3, 0.3.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hlama
 
-======== ===========
+
+
+============= ===========
 
 
 

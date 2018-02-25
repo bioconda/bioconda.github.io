@@ -7,13 +7,15 @@ biom-format
 
 Biological Observation Matrix \(BIOM\) format
 
-======== ===========
-Home     http://www.biom-format.org
-Versions 2.1.4, 2.1.5, 2.1.6
-License  BSD License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biom-format
+============= ===========
+Home          http://www.biom-format.org
+Versions      2.1.4, 2.1.5, 2.1.6
+License       BSD License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biom-format
 
-======== ===========
+
+
+============= ===========
 
 
 

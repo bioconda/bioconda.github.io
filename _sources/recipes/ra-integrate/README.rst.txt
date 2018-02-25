@@ -7,13 +7,15 @@ ra-integrate
 
 Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data\.
 
-======== ===========
-Home     https://github.com/mariokostelac/ra-integrate
-Versions 0.1
-License  GPL3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra-integrate
+============= ===========
+Home          https://github.com/mariokostelac/ra-integrate
+Versions      0.1
+License       GPL3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ra-integrate
 
-======== ===========
+
+
+============= ===========
 
 
 

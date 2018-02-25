@@ -7,13 +7,15 @@ bioconductor-genomeintervals
 
  This package defines classes for representing genomic intervals and provides functions and methods for working with these\. Note\: The package provides the basic infrastructure for and is enhanced by the package \'girafe\'\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/genomeIntervals.html
-Versions 1.34.0
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeintervals
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/genomeIntervals.html
+Versions      1.34.0
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomeintervals
 
-======== ===========
+
+
+============= ===========
 
 
 

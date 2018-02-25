@@ -7,13 +7,15 @@ shellescape
 
 Shell escape a string to safely use it as a token in a shell command \(backport of Python shlex\.quote for Python versions 2\.x \& \< 3\.3\)
 
-======== ===========
-Home     https://github.com/chrissimpkins/shellescape
-Versions 3.4.1
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shellescape
+============= ===========
+Home          https://github.com/chrissimpkins/shellescape
+Versions      3.4.1
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shellescape
 
-======== ===========
+
+
+============= ===========
 
 
 

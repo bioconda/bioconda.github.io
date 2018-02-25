@@ -7,13 +7,15 @@ gmap-fusion
 
 GMAP\-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via RNA\-Seq de novo transcriptome assembly\.
 
-======== ===========
-Home     https://github.com/GMAP-fusion/GMAP-fusion
-Versions 0.3.0
-License  BSD-3-Clause
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap-fusion
+============= ===========
+Home          https://github.com/GMAP-fusion/GMAP-fusion
+Versions      0.3.0
+License       BSD-3-Clause
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap-fusion
 
-======== ===========
+
+
+============= ===========
 
 
 

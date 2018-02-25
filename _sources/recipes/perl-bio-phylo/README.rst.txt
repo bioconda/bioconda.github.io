@@ -7,13 +7,15 @@ perl-bio-phylo
 
 An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data\.
 
-======== ===========
-Home     http://biophylo.blogspot.com/
-Versions 0.58
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-phylo
+============= ===========
+Home          http://biophylo.blogspot.com/
+Versions      0.58
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-phylo
 
-======== ===========
+
+
+============= ===========
 
 
 

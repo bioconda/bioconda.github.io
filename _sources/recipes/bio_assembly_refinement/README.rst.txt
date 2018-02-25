@@ -7,13 +7,15 @@ bio_assembly_refinement
 
 Assembly refinement tools\, mostly useful for \(but not limited to\) pacbio bacterial assemblies
 
-======== ===========
-Home     https://github.com/nds/bio_assembly_refinement
-Versions 0.5.0, 0.5.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_assembly_refinement
+============= ===========
+Home          https://github.com/nds/bio_assembly_refinement
+Versions      0.5.0, 0.5.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio_assembly_refinement
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ perl-vars
 
 Perl pragma to predeclare global variable names
 
-======== ===========
-Home     http://metacpan.org/pod/vars
-Versions 1.03
-License  perl_5
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vars/1.03
+============= ===========
+Home          http://metacpan.org/pod/vars
+Versions      1.03
+License       perl_5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-vars/1.03
 
-======== ===========
+
+
+============= ===========
 
 
 

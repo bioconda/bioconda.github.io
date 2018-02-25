@@ -7,13 +7,15 @@ bioconductor-bufferedmatrix
 
 A tabular style data object where most data is stored outside main memory\. A buffer is used to speed up access to data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrix.html
-Versions 1.42.0
-License  LGPL (>= 2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrix.html
+Versions      1.42.0
+License       LGPL (>= 2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix
 
-======== ===========
+
+
+============= ===========
 
 
 

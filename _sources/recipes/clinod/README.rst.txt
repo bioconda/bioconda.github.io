@@ -7,13 +7,15 @@ clinod
 
 Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences\.
 
-======== ===========
-Home     http://www.compbio.dundee.ac.uk/nod
-Versions 1.3
-License  Apache License, Version 2.0 + others used internally
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinod
+============= ===========
+Home          http://www.compbio.dundee.ac.uk/nod
+Versions      1.3
+License       Apache License, Version 2.0 + others used internally
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinod
 
-======== ===========
+
+
+============= ===========
 
 
 

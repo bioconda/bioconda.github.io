@@ -7,13 +7,15 @@ msstitch
 
 MS proteomics post processing utilities
 
-======== ===========
-Home     https://github.com/glormph/msstitch
-Versions 1.0, 2.2, 2.3, 2.4, 2.5
-License  MIT License
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msstitch
+============= ===========
+Home          https://github.com/glormph/msstitch
+Versions      1.0, 2.2, 2.3, 2.4, 2.5
+License       MIT License
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msstitch
 
-======== ===========
+
+
+============= ===========
 
 
 

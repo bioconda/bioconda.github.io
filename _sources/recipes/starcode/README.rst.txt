@@ -7,13 +7,15 @@ starcode
 
 Starcode\: sequence clustering based on all\-pairs search
 
-======== ===========
-Home     https://github.com/gui11aume/starcode
-Versions 1.1
-License  GPLv3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode
+============= ===========
+Home          https://github.com/gui11aume/starcode
+Versions      1.1
+License       GPLv3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starcode
 
-======== ===========
+
+
+============= ===========
 
 
 

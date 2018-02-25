@@ -7,13 +7,15 @@ flock
 
 FLOCK \- Flow Cytometry Clustering without K\.
 
-======== ===========
-Home     https://sourceforge.net/projects/immportflock/
-Versions 1.0
-License  unknown
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock
+============= ===========
+Home          https://sourceforge.net/projects/immportflock/
+Versions      1.0
+License       unknown
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock
 
-======== ===========
+
+
+============= ===========
 
 
 

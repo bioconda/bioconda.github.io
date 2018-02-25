@@ -7,13 +7,15 @@ bioconductor-deformats
 
 Convert between different data formats used by differential gene expression analysis tools\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/DEFormats.html
-Versions 1.6.1
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deformats
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/DEFormats.html
+Versions      1.6.1
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deformats
 
-======== ===========
+
+
+============= ===========
 
 
 

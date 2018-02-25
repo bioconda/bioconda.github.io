@@ -7,13 +7,15 @@ sicer
 
 A clustering approach for identification of enriched domains from histone modification ChIP\-Seq data
 
-======== ===========
-Home     http://home.gwu.edu/~wpeng/Software.htm
-Versions 1.1
-License  MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer
+============= ===========
+Home          http://home.gwu.edu/~wpeng/Software.htm
+Versions      1.1
+License       MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sicer
 
-======== ===========
+
+
+============= ===========
 
 
 

@@ -7,13 +7,15 @@ r-sartools
 
 SARTools provides R tools and an environment for the statistical analysis of RNA\-Seq projects load and clean data\, produce figures\, perform statistical analysis\/testing with DESeq2 or edgeR\, export results and create final report\.
 
-======== ===========
-Home     https://github.com/PF2-pasteur-fr/SARTools
-Versions 1.2.0, 1.3.2, 1.4.1, 1.5.1, 1.6.0
-License  GPL-2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sartools
+============= ===========
+Home          https://github.com/PF2-pasteur-fr/SARTools
+Versions      1.2.0, 1.3.2, 1.4.1, 1.5.1, 1.6.0
+License       GPL-2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sartools
 
-======== ===========
+
+
+============= ===========
 
 
 

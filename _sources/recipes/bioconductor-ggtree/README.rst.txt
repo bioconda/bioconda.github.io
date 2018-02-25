@@ -7,13 +7,15 @@ bioconductor-ggtree
 
 \'ggtree\' extends the \'ggplot2\' plotting system which implemented the grammar of graphics\. \'ggtree\' is designed for visualization and annotation of phylogenetic trees with their covariates and other associated data\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/ggtree.html
-Versions 1.10.0, 1.2.12, 1.4.20, 1.8.2
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/ggtree.html
+Versions      1.10.0, 1.2.12, 1.4.20, 1.8.2
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree
 
-======== ===========
+
+
+============= ===========
 
 
 

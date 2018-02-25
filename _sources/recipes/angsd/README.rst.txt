@@ -7,13 +7,15 @@ angsd
 
 ANGSD\: Analysis of next generation Sequencing Data
 
-======== ===========
-Home     http://www.popgen.dk/angsd/index.php/ANGSD
-Versions 0.910
-License  GPLv3, MIT
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/angsd
+============= ===========
+Home          http://www.popgen.dk/angsd/index.php/ANGSD
+Versions      0.910
+License       GPLv3, MIT
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/angsd
 
-======== ===========
+
+
+============= ===========
 
 
 

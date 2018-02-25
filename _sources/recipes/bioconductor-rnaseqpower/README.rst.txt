@@ -7,13 +7,15 @@ bioconductor-rnaseqpower
 
 RNA\-seq\, sample size
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/RNASeqPower.html
-Versions 1.14.0, 1.16.0, 1.18.0
-License  LGPL (>=2)
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/RNASeqPower.html
+Versions      1.14.0, 1.16.0, 1.18.0
+License       LGPL (>=2)
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqpower
 
-======== ===========
+
+
+============= ===========
 
 
 

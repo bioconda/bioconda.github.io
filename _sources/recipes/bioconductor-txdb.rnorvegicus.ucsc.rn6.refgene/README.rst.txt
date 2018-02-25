@@ -7,13 +7,15 @@ bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene
 
 Exposes an annotation databases generated from UCSC by exposing these as TxDb objects
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn6.refGene.html
-Versions 3.4.0, 3.4.1
-License  Artistic-2.0
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene
+============= ===========
+Home          http://bioconductor.org/packages/3.6/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn6.refGene.html
+Versions      3.4.0, 3.4.1
+License       Artistic-2.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.ucsc.rn6.refgene
 
-======== ===========
+
+
+============= ===========
 
 
 

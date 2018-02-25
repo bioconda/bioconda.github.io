@@ -7,13 +7,15 @@ bioconductor-interactionset
 
 Provides the GInteractions\, InteractionSet and ContactMatrix objects and associated methods for storing and manipulating genomic interaction data from Hi\-C and ChIA\-PET experiments\.
 
-======== ===========
-Home     http://bioconductor.org/packages/3.6/bioc/html/InteractionSet.html
-Versions 1.4.0, 1.6.0
-License  GPL-3
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset
+============= ===========
+Home          http://bioconductor.org/packages/3.6/bioc/html/InteractionSet.html
+Versions      1.4.0, 1.6.0
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset
 
-======== ===========
+
+
+============= ===========
 
 
 

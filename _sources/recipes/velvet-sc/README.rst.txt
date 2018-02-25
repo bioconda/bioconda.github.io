@@ -7,13 +7,15 @@ velvet-sc
 
 Efficient de novo assembly of single\-cell bacterial genomes from short\-read data sets
 
-======== ===========
-Home     http://bix.ucsd.edu/projects/singlecell/
-Versions 0.7.62
-License  GPL2
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet-sc
+============= ===========
+Home          http://bix.ucsd.edu/projects/singlecell/
+Versions      0.7.62
+License       GPL2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet-sc
 
-======== ===========
+
+
+============= ===========
 
 
 

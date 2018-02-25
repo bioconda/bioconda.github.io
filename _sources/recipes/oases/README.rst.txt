@@ -7,13 +7,15 @@ oases
 
 De novo transcriptome assembler for short reads
 
-======== ===========
-Home     http://www.ebi.ac.uk/~zerbino/oases/
-Versions 0.2.09
-License  GPL
-Recipe   https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases
+============= ===========
+Home          http://www.ebi.ac.uk/~zerbino/oases/
+Versions      0.2.09
+License       GPL
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/oases
 
-======== ===========
+
+
+============= ===========
 
 
 
