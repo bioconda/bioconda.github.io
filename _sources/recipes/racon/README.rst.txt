@@ -9,7 +9,7 @@ Ultrafast consensus module for raw de novo genome assembly of long uncorrected r
 
 ============= ===========
 Home          https://github.com/isovic/racon
-Versions      0.5.0, 1.0.0
+Versions      0.5.0, 1.0.0, 1.0.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/racon
 
