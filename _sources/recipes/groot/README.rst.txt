@@ -9,7 +9,7 @@ A tool for resistome profiling of metagenomic samples\.
 
 ============= ===========
 Home          https://github.com/will-rowe/groot
-Versions      0.1, 0.2
+Versions      0.1, 0.2, 0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/groot
 
