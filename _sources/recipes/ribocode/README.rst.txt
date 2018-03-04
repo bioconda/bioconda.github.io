@@ -9,7 +9,7 @@ A package for identifying the translated ORFs using ribosome\-profiling data
 
 ============= ===========
 Home          https://github.com/xzt41/RiboCode
-Versions      1.2.6, 1.2.7
+Versions      1.2.6, 1.2.7, 1.2.8
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribocode
 
