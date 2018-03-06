@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>avro-python2 &#8212; Bioconda  documentation</title>
+    <title>avro-cwl &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -25,8 +25,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="avro-python3" href="../avro-python3/README.html" />
-    <link rel="prev" title="avro-cwl" href="../avro-cwl/README.html" />
+    <link rel="next" title="avro-python2" href="../avro-python2/README.html" />
+    <link rel="prev" title="autolog" href="../autolog/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -69,47 +69,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="avro-python2">
-<span id="id1"></span><h1>avro-python2<a class="headerlink" href="#avro-python2" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/avro-python2"><img alt="downloads" src="https://anaconda.org/bioconda/avro-python2/badges/downloads.svg" /></a></p>
-<p>Avro is a serialization and RPC framework.</p>
+  <div class="section" id="avro-cwl">
+<span id="id1"></span><h1>avro-cwl<a class="headerlink" href="#avro-cwl" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/avro-cwl"><img alt="downloads" src="https://anaconda.org/bioconda/avro-cwl/badges/downloads.svg" /></a></p>
+<p>Avro is a serialization and RPC framework. This package is a fork of regular avro made by the CWL team in order to fix some issues (https://github.com/common-workflow-language/cwltool/issues/524)</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="14%" />
-<col width="86%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://avro.apache.org/">http://avro.apache.org/</a></td>
+<td><a class="reference external" href="https://pypi.python.org/pypi?:action=display&amp;name=avro-cwl">https://pypi.python.org/pypi?:action=display&amp;name=avro-cwl</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.8.1, 1.8.2</td>
+<td>1.8.4</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Apache License 2.0</td>
+<td>Apache 2.0</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python2">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python2</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-cwl">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-cwl</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">avro</span><span class="o">-</span><span class="n">python2</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">avro</span><span class="o">-</span><span class="n">cwl</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">avro</span><span class="o">-</span><span class="n">python2</span>
+<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">avro</span><span class="o">-</span><span class="n">cwl</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/avro-python2"><img alt="docker" src="https://quay.io/repository/biocontainers/avro-python2/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/avro-python2">https://quay.io/repository/biocontainers/avro-python2</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/avro-cwl"><img alt="docker" src="https://quay.io/repository/biocontainers/avro-cwl/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/avro-cwl">https://quay.io/repository/biocontainers/avro-cwl</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/avro-python2/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/avro-python2/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/avro-cwl/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/avro-cwl/README.html)
 </pre></div>
 </div>
 </div>
@@ -157,7 +157,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/avro-python2/README.rst.txt"
+      <a href="../../_sources/recipes/avro-cwl/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

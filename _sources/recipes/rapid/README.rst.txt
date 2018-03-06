@@ -5,11 +5,11 @@ rapid
 
 |downloads|
 
-RAPID is a set of tools for the alignment\, and analysis of genomic regions with small RNA clusters derived from small RNA sequencing data\.
+Read Alignment\, Analysis\, and Differential Pipeline \(RAPID\) is a set of tools for the alignment\, and analysis of genomic regions with small RNA clusters derived from small RNA sequencing data\.
 
 ============= ===========
 Home          https://github.com/SchulzLab/RAPID
-Versions      0.1
+Versions      0.1, 0.2
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid
 

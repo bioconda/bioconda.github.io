@@ -9,7 +9,7 @@ The JBrowse Genome Browser
 
 ============= ===========
 Home          http://jbrowse.org/
-Versions      1.12.1, 1.12.3
+Versions      1.12.1, 1.12.3, 1.12.5
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jbrowse
 
