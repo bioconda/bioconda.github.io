@@ -5,7 +5,7 @@ ucsc-oligomatch
 
 |downloads|
 
-find perfect matches in sequence\.
+find perfect matches in sequence.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ basic
 
 |downloads|
 
-BASIC is a semi\-de novo assembly method to determine the full\-length sequence of the BCR in single B cells from scRNA\-seq data\.
+BASIC is a semi\-de novo assembly method to determine the full\-length sequence of the BCR in single B cells from scRNA\-seq data.
 
 
 ============= ===========

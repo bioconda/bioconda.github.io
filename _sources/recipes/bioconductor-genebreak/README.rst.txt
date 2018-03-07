@@ -5,7 +5,7 @@ bioconductor-genebreak
 
 |downloads|
 
-Recurrent breakpoint gene detection on copy number aberration profiles\.
+Recurrent breakpoint gene detection on copy number aberration profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GeneBreak.html

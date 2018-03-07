@@ -5,7 +5,7 @@ bioconductor-qpcrnorm
 
 |downloads|
 
-The package contains functions to perform normalization of high\-throughput qPCR data\. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available\.
+The package contains functions to perform normalization of high\-throughput qPCR data. Basic functions for processing raw Ct data plus functions to generate diagnostic plots are also available.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/qpcrNorm.html

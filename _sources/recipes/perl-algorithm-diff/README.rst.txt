@@ -5,7 +5,7 @@ perl-algorithm-diff
 
 |downloads|
 
-Compute intelligent differences between two files \/ lists but use the old \(\<\=0\.59\) interface\.
+Compute intelligent differences between two files \/ lists but use the old \(\<\=0.59\) interface.
 
 ============= ===========
 Home          http://metacpan.org/pod/Algorithm-Diff

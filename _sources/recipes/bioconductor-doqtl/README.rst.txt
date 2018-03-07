@@ -5,7 +5,7 @@ bioconductor-doqtl
 
 |downloads|
 
-DOQTL is a quantitative trait locus \(QTL\) mapping pipeline designed for Diversity Outbred mice and other multi\-parent outbred populations\. The package reads in data from genotyping arrays and perform haplotype reconstruction using a hidden Markov model \(HMM\)\. The haplotype probabilities from the HMM are then used to perform linkage mapping\. When founder sequences are available\, DOQTL can use the haplotype reconstructions to impute the founder sequences onto DO genomes and perform association mapping\.
+DOQTL is a quantitative trait locus \(QTL\) mapping pipeline designed for Diversity Outbred mice and other multi\-parent outbred populations. The package reads in data from genotyping arrays and perform haplotype reconstruction using a hidden Markov model \(HMM\). The haplotype probabilities from the HMM are then used to perform linkage mapping. When founder sequences are available\, DOQTL can use the haplotype reconstructions to impute the founder sequences onto DO genomes and perform association mapping.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DOQTL.html

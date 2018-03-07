@@ -5,7 +5,7 @@ hlaprofiler
 
 |downloads|
 
-HLAProfiler uses k\-mer profiles to predict HLA types from paired\-end RNA\-seq data\.
+HLAProfiler uses k\-mer profiles to predict HLA types from paired\-end RNA\-seq data.
 
 ============= ===========
 Home          https://github.com/ExpressionAnalysis/HLAProfiler

@@ -5,7 +5,7 @@ bioconductor-sigpathway
 
 |downloads|
 
-Conducts pathway analysis by calculating the NT\_k and NE\_k statistics as described in Tian et al\. \(2005\)
+Conducts pathway analysis by calculating the NT\_k and NE\_k statistics as described in Tian et al. \(2005\)
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/sigPathway.html

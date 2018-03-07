@@ -5,7 +5,7 @@ perl-role-tiny
 
 |downloads|
 
-Roles\. Like a nouvelle cuisine portion size slice of Moose\.
+Roles. Like a nouvelle cuisine portion size slice of Moose.
 
 ============= ===========
 Home          http://metacpan.org/pod/Role-Tiny

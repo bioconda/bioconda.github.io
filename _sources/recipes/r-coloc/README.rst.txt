@@ -5,7 +5,7 @@ r-coloc
 
 |downloads|
 
-Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace et al \(2013\) and Giambartolomei et al \(2013\)\.
+Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace et al \(2013\) and Giambartolomei et al \(2013\).
 
 ============= ===========
 Home          https://github.com/chr1swallace/coloc

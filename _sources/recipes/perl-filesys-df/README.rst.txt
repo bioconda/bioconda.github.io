@@ -5,7 +5,7 @@ perl-filesys-df
 
 |downloads|
 
-Perl extension for filesystem disk space information\.
+Perl extension for filesystem disk space information.
 
 ============= ===========
 Home          http://metacpan.org/pod/Filesys-Df

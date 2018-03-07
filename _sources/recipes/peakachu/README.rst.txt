@@ -5,7 +5,7 @@ peakachu
 
 |downloads|
 
-Peak calling tool for CLIP\-seq data\.
+Peak calling tool for CLIP\-seq data.
 
 ============= ===========
 Home          https://github.com/tbischler/PEAKachu

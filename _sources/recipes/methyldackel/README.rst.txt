@@ -5,7 +5,7 @@ methyldackel
 
 |downloads|
 
-A \(mostly\) universal methylation extractor for BS\-seq experiments\. Formerly named PileOMeth\.
+A \(mostly\) universal methylation extractor for BS\-seq experiments. Formerly named PileOMeth.
 
 ============= ===========
 Home          https://github.com/dpryan79/MethylDackel

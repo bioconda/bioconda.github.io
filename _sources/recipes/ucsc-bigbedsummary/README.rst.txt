@@ -5,7 +5,7 @@ ucsc-bigbedsummary
 
 |downloads|
 
-Extract summary information from a bigBed file\.
+Extract summary information from a bigBed file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

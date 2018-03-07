@@ -5,7 +5,7 @@ bioconductor-netreg
 
 |downloads|
 
-netReg fits linear regression models using network\-penalization\. Graph prior knowledge\, in the form of biological networks\, is being incorporated into the likelihood of the linear model\. The networks describe biological relationships such as co\-regulation or dependency of the same transcription factors\/metabolites\/etc\. yielding a part sparse and part smooth solution for coefficient profiles\.
+netReg fits linear regression models using network\-penalization. Graph prior knowledge\, in the form of biological networks\, is being incorporated into the likelihood of the linear model. The networks describe biological relationships such as co\-regulation or dependency of the same transcription factors\/metabolites\/etc. yielding a part sparse and part smooth solution for coefficient profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/netReg.html

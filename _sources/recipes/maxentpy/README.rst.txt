@@ -5,7 +5,7 @@ maxentpy
 
 |downloads|
 
-maxentpy is a python wrapper for MaxEntScan to calculate splice site strength\.
+maxentpy is a python wrapper for MaxEntScan to calculate splice site strength.
 
 ============= ===========
 Home          https://github.com/kepbod/maxentpy

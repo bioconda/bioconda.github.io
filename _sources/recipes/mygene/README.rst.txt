@@ -5,7 +5,7 @@ mygene
 
 |downloads|
 
-Python Client for MyGene\.Info services\.
+Python Client for MyGene.Info services.
 
 ============= ===========
 Home          https://github.com/suLab/mygene.py

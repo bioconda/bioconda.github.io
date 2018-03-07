@@ -5,7 +5,7 @@ deltabs
 
 |downloads|
 
-Quantifying the significance of genetic variation using probabilistic profile\-based methods\.
+Quantifying the significance of genetic variation using probabilistic profile\-based methods.
 
 ============= ===========
 Home          https://github.com/UCanCompBio/deltaBS/wiki

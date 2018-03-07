@@ -5,7 +5,7 @@ bfc
 
 |downloads|
 
-BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data\.
+BFC is a standalone high\-performance tool for correcting sequencing errors from Illumina sequencing data.
 
 ============= ===========
 Home          https://github.com/lh3/bfc

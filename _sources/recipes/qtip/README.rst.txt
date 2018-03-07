@@ -6,7 +6,7 @@ qtip
 |downloads|
 
 A tandem simulation approach for accurately predicting read alignment
-mapping qualities\.
+mapping qualities.
 
 
 ============= ===========
@@ -38,7 +38,7 @@ and update with::
 Notes
 -----
 For running qtip\, you will need to install any of the supported read mappers\,
-\(e\.g\.\, bowtie2\)\, in the minimum required version\. See homepage for details\.
+\(e.g.\, bowtie2\)\, in the minimum required version. See homepage for details.
 
 
 

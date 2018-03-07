@@ -5,7 +5,7 @@ jq
 
 |downloads|
 
-jq is a lightweight and flexible command\-line JSON processor\.
+jq is a lightweight and flexible command\-line JSON processor.
 
 ============= ===========
 Home          https://stedolan.github.io/jq

@@ -5,7 +5,7 @@ rnasnp
 
 |downloads|
 
-Efficient detection of local RNA secondary structure changes induced by SNPs\.
+Efficient detection of local RNA secondary structure changes induced by SNPs.
 
 ============= ===========
 Home          http://rth.dk/resources/rnasnp/software

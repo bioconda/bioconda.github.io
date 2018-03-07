@@ -5,7 +5,7 @@ ucsc-ratolines
 
 |downloads|
 
-Output \.ra file stanzas as single lines\, with pipe\-separated fields\.
+Output .ra file stanzas as single lines\, with pipe\-separated fields.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

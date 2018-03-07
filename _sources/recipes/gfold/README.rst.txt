@@ -5,7 +5,7 @@ gfold
 
 |downloads|
 
-Find differentially expressed genes from RNA\-seq data with few replicates using generalized fold changes\.
+Find differentially expressed genes from RNA\-seq data with few replicates using generalized fold changes.
 
 ============= ===========
 Home          http://compbio.tongji.edu.cn/~fengjx/GFOLD/gfold.html

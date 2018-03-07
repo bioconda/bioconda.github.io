@@ -5,7 +5,7 @@ bioconductor-brain
 
 |downloads|
 
-Package for calculating aggregated isotopic distribution and exact center\-masses for chemical substances \(in this version composed of C\, H\, N\, O and S\)\. This is an implementation of the BRAIN algorithm described in the paper by J\. Claesen\, P\. Dittwald\, T\. Burzykowski and D\. Valkenborg\.
+Package for calculating aggregated isotopic distribution and exact center\-masses for chemical substances \(in this version composed of C\, H\, N\, O and S\). This is an implementation of the BRAIN algorithm described in the paper by J. Claesen\, P. Dittwald\, T. Burzykowski and D. Valkenborg.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BRAIN.html

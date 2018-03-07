@@ -5,7 +5,7 @@ dnapi
 
 |downloads|
 
-De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data\.
+De novo adapter prediction \(iterative\) algorithm for small RNA sequencing data.
 
 ============= ===========
 Home          https://github.com/jnktsj/DNApi

@@ -5,7 +5,7 @@ qcumber
 
 |downloads|
 
-Quality control\, quality trimming\, adapter removal and sequence content check of NGS data\.
+Quality control\, quality trimming\, adapter removal and sequence content check of NGS data.
 
 ============= ===========
 Home          https://gitlab.com/RKIBioinformaticsPipelines/QCumber

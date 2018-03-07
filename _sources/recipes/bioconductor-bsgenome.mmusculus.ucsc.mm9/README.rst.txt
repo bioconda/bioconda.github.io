@@ -5,7 +5,7 @@ bioconductor-bsgenome.mmusculus.ucsc.mm9
 
 |downloads|
 
-Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm9\, Jul\. 2007\) and stored in Biostrings objects\.
+Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm9\, Jul. 2007\) and stored in Biostrings objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Mmusculus.UCSC.mm9.html

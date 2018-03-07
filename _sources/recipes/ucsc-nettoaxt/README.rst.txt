@@ -5,7 +5,7 @@ ucsc-nettoaxt
 
 |downloads|
 
-Convert net \(and chain\) to axt\.
+Convert net \(and chain\) to axt.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

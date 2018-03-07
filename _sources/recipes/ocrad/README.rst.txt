@@ -5,7 +5,7 @@ ocrad
 
 |downloads|
 
-Ocrad is an optical character recognition program\.
+Ocrad is an optical character recognition program.
 
 ============= ===========
 Home          https://www.gnu.org/software/ocrad/

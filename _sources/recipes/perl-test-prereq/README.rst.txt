@@ -5,7 +5,7 @@ perl-test-prereq
 
 |downloads|
 
-check if Makefile\.PL has the right pre\-requisites
+check if Makefile.PL has the right pre\-requisites
 
 ============= ===========
 Home          https://github.com/briandfoy/test-prereq

@@ -5,7 +5,7 @@ mimeo
 
 |downloads|
 
-Scan genomes for internally repeated sequences\, elements which are repetitive in another species\, or high\-identity HGT candidate regions between species\.
+Scan genomes for internally repeated sequences\, elements which are repetitive in another species\, or high\-identity HGT candidate regions between species.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/mimeo

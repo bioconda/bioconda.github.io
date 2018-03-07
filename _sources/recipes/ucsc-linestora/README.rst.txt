@@ -5,7 +5,7 @@ ucsc-linestora
 
 |downloads|
 
-generate \.ra format from lines with pipe\-separated fields
+generate .ra format from lines with pipe\-separated fields
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

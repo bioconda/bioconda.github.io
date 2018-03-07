@@ -5,7 +5,7 @@ bioconductor-rgreat
 
 |downloads|
 
-This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) analysis automatic by constructing a HTTP POST request according to user\'s input and automatically retrieving results from GREAT web server\.
+This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) analysis automatic by constructing a HTTP POST request according to user\'s input and automatically retrieving results from GREAT web server.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rGREAT.html

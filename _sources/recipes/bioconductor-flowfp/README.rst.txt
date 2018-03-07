@@ -5,7 +5,7 @@ bioconductor-flowfp
 
 |downloads|
 
-Fingerprint generation of flow cytometry data\, used to facilitate the application of machine learning and datamining tools for flow cytometry\.
+Fingerprint generation of flow cytometry data\, used to facilitate the application of machine learning and datamining tools for flow cytometry.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowFP.html

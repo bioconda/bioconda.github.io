@@ -5,7 +5,7 @@ bioconductor-wavetiling
 
 |downloads|
 
-This package is designed to conduct transcriptome analysis for tiling arrays based on fast wavelet\-based functional models\.
+This package is designed to conduct transcriptome analysis for tiling arrays based on fast wavelet\-based functional models.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/waveTiling.html

@@ -5,7 +5,7 @@ bioconductor-dama
 
 |downloads|
 
-This package contains functions for the efficient design of factorial two\-colour microarray experiments and for the statistical analysis of factorial microarray data\. Statistical details are described in Bretz et al\. \(2003\, submitted\)
+This package contains functions for the efficient design of factorial two\-colour microarray experiments and for the statistical analysis of factorial microarray data. Statistical details are described in Bretz et al. \(2003\, submitted\)
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/daMA.html

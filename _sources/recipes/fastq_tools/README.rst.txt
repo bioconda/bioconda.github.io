@@ -5,7 +5,7 @@ fastq-tools
 
 |downloads|
 
-A collection of fastq manipulation scripts written in C for speed\.
+A collection of fastq manipulation scripts written in C for speed.
 
 ============= ===========
 Home          http://homes.cs.washington.edu/~dcjones/fastq-tools/

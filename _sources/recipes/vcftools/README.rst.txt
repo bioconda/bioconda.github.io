@@ -5,7 +5,7 @@ vcftools
 
 |downloads|
 
-A set of tools written in Perl and C\+\+ for working with VCF files\. This package only contains the C\+\+ libraries whereas the package perl\-vcftools\-vcf contains the perl libraries
+A set of tools written in Perl and C\+\+ for working with VCF files. This package only contains the C\+\+ libraries whereas the package perl\-vcftools\-vcf contains the perl libraries
 
 ============= ===========
 Home          https://vcftools.github.io/

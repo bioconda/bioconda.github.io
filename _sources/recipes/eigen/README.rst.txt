@@ -5,7 +5,7 @@ eigen
 
 |downloads|
 
-Eigen is a C\+\+ template library for linear algebra\: matrices\, vectors\, numerical solvers\, and related algorithms\.
+Eigen is a C\+\+ template library for linear algebra\: matrices\, vectors\, numerical solvers\, and related algorithms.
 
 ============= ===========
 Home          http://eigen.tuxfamily.org

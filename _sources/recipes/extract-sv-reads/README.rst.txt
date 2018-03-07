@@ -5,7 +5,7 @@ extract-sv-reads
 
 |downloads|
 
-Tool for extracting splitter or discordant reads from a BAM or CRAM file\.
+Tool for extracting splitter or discordant reads from a BAM or CRAM file.
 
 ============= ===========
 Home          https://github.com/hall-lab/extract_sv_reads

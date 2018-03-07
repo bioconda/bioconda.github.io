@@ -5,7 +5,7 @@ ngseqbasic
 
 |downloads|
 
-Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command\.
+Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in one command.
 
 ============= ===========
 Home          http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/outHouseUsers/instructionsBioconda.html

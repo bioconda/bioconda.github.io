@@ -5,7 +5,7 @@ biolite-tools
 
 |downloads|
 
-C\+\+ tools for biolite\, a lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
+C\+\+ tools for biolite\, a lightweight bioinformatics framework with automated tracking of diagnostics and provenance.
 
 ============= ===========
 Home          https://bitbucket.org/caseywdunn/biolite

@@ -5,7 +5,7 @@ bioconductor-sispa
 
 |downloads|
 
-Sample Integrated Set Profile Analysis \(SISPA\) is a method designed to define sample groups with similar gene set enrichment profiles\.
+Sample Integrated Set Profile Analysis \(SISPA\) is a method designed to define sample groups with similar gene set enrichment profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SISPA.html

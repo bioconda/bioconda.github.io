@@ -5,7 +5,7 @@ biopet
 
 |downloads|
 
-Biopet \(Bio Pipeline Execution Toolkit\) is the main pipeline development framework of the LUMC Sequencing Analysis Support Core team\.
+Biopet \(Bio Pipeline Execution Toolkit\) is the main pipeline development framework of the LUMC Sequencing Analysis Support Core team.
 
 ============= ===========
 Home          https://github.com/biopet/biopet

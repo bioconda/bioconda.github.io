@@ -5,7 +5,7 @@ bioconductor-pics
 
 |downloads|
 
-Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach\.
+Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model approach.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PICS.html

@@ -5,7 +5,7 @@ nanosim-h
 
 |downloads|
 
-NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology\.
+NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of Nanopore sequencing technology.
 
 ============= ===========
 Home          https://github.com/karel-brinda/NanoSim-H

@@ -5,7 +5,7 @@ bioconductor-lapmix
 
 |downloads|
 
-Laplace mixture modelling of microarray experiments\. A hierarchical Bayesian approach is used\, and the hyperparameters are estimated using empirical Bayes\. The main purpose is to identify differentially expressed genes\.
+Laplace mixture modelling of microarray experiments. A hierarchical Bayesian approach is used\, and the hyperparameters are estimated using empirical Bayes. The main purpose is to identify differentially expressed genes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lapmix.html

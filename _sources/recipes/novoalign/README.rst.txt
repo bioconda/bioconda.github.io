@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Novoalign runs in single\-threaded mode by default unless a \"novoalign\.lic\" license file is provided in the same directory as its binaries\. The license file can be copied in to the conda environment via the \"novoalign\-license\-register\" command\.
+Novoalign runs in single\-threaded mode by default unless a \"novoalign.lic\" license file is provided in the same directory as its binaries. The license file can be copied in to the conda environment via the \"novoalign\-license\-register\" command.
 
 
 |docker|

@@ -5,7 +5,7 @@ koeken
 
 |downloads|
 
-A Linear Discriminant Analysis \(LEfSe\) wrapper\.
+A Linear Discriminant Analysis \(LEfSe\) wrapper.
 
 ============= ===========
 Home          https://github.com/twbattaglia/koeken

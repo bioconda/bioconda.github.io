@@ -5,7 +5,7 @@ prosolo
 
 |downloads|
 
-A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data\.
+A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data.
 
 ============= ===========
 Home          https://github.com/PROSIC/prosolo/tree/v0.4.0

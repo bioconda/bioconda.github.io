@@ -5,7 +5,7 @@ bioconductor-genvisr
 
 |downloads|
 
-Produce highly customizable publication quality graphics for genomic data primarily at the cohort level\.
+Produce highly customizable publication quality graphics for genomic data primarily at the cohort level.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenVisR.html

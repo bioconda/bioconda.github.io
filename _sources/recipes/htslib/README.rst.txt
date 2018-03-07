@@ -5,7 +5,7 @@ htslib
 
 |downloads|
 
-C library for high\-throughput sequencing data formats\.
+C library for high\-throughput sequencing data formats.
 
 ============= ===========
 Home          https://github.com/samtools/htslib

@@ -5,7 +5,7 @@ bioconductor-beadarraysnp
 
 |downloads|
 
-Importing data from Illumina SNP experiments and performing copy number calculations and reports\.
+Importing data from Illumina SNP experiments and performing copy number calculations and reports.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/beadarraySNP.html

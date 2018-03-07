@@ -5,7 +5,7 @@ cap3
 
 |downloads|
 
-DNA sequence assembly program\.
+DNA sequence assembly program.
 
 ============= ===========
 Home          http://seq.cs.iastate.edu/

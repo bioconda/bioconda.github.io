@@ -5,7 +5,7 @@ perl-hpc-runner-command
 
 |downloads|
 
-Create composable bioinformatics hpc analyses\.
+Create composable bioinformatics hpc analyses.
 
 ============= ===========
 Home          https://github.com/biosails/HPC-Runner-Command

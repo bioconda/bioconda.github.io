@@ -5,7 +5,7 @@ kraken-biom
 
 |downloads|
 
-Create BIOM\-format tables from Kraken output\.
+Create BIOM\-format tables from Kraken output.
 
 ============= ===========
 Home          https://github.com/smdabdoub/kraken-biom

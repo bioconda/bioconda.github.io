@@ -5,7 +5,7 @@ bioconductor-sangerseqr
 
 |downloads|
 
-This package contains several tools for analyzing Sanger Sequencing data files in R\, including reading \.scf and \.ab1 files\, making basecalls and plotting chromatograms\.
+This package contains several tools for analyzing Sanger Sequencing data files in R\, including reading .scf and .ab1 files\, making basecalls and plotting chromatograms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/sangerseqR.html

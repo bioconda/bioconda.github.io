@@ -5,7 +5,7 @@ bioconductor-ensembldb
 
 |downloads|
 
-The package provides functions to create and use transcript centric annotation databases\/packages\. The annotation for the databases are directly fetched from Ensembl using their Perl API\. The functionality and data is similar to that of the TxDb packages from the GenomicFeatures package\, but\, in addition to retrieve all gene\/transcript models and annotations from the database\, the ensembldb package provides also a filter framework allowing to retrieve annotations for specific entries like genes encoded on a chromosome region or transcript models of lincRNA genes\.
+The package provides functions to create and use transcript centric annotation databases\/packages. The annotation for the databases are directly fetched from Ensembl using their Perl API. The functionality and data is similar to that of the TxDb packages from the GenomicFeatures package\, but\, in addition to retrieve all gene\/transcript models and annotations from the database\, the ensembldb package provides also a filter framework allowing to retrieve annotations for specific entries like genes encoded on a chromosome region or transcript models of lincRNA genes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ensembldb.html

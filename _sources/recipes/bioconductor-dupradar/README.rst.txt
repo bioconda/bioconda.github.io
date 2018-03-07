@@ -5,7 +5,7 @@ bioconductor-dupradar
 
 |downloads|
 
-Duplication rate quality control for RNA\-Seq datasets\.
+Duplication rate quality control for RNA\-Seq datasets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/dupRadar.html

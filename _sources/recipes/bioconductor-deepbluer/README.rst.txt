@@ -5,7 +5,7 @@ bioconductor-deepbluer
 
 |downloads|
 
-Accessing the DeepBlue Epigenetics Data Server through R\.
+Accessing the DeepBlue Epigenetics Data Server through R.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DeepBlueR.html

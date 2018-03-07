@@ -5,7 +5,7 @@ bioconductor-variantannotation
 
 |downloads|
 
-Annotate variants\, compute amino acid coding changes\, predict coding outcomes\.
+Annotate variants\, compute amino acid coding changes\, predict coding outcomes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/VariantAnnotation.html

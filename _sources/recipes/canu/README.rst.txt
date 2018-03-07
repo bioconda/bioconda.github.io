@@ -5,7 +5,7 @@ canu
 
 |downloads|
 
-Canu is a fork of the Celera Assembler designed for high\-noise single\-molecule sequencing\.
+Canu is a fork of the Celera Assembler designed for high\-noise single\-molecule sequencing.
 
 ============= ===========
 Home          http://canu.readthedocs.org/

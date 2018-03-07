@@ -5,7 +5,7 @@ star-fusion
 
 |downloads|
 
-A fusion gene caller for STAR\. The FusionFilter tools to create needed index data structures are not included\.
+A fusion gene caller for STAR. The FusionFilter tools to create needed index data structures are not included.
 
 ============= ===========
 Home          https://github.com/STAR-Fusion/STAR-Fusion

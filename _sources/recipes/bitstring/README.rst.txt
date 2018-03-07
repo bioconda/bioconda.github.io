@@ -5,7 +5,7 @@ bitstring
 
 |downloads|
 
-Simple construction\, analysis and modification of binary data\.
+Simple construction\, analysis and modification of binary data.
 
 ============= ===========
 Home          https://github.com/scott-griffiths/bitstring

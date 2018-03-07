@@ -5,7 +5,7 @@ ucsc-catdir
 
 |downloads|
 
-concatenate files in directory to stdout\.
+concatenate files in directory to stdout.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

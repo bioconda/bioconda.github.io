@@ -6,8 +6,8 @@ dia_umpire
 |downloads|
 
 DIA\-Umpire is an open source Java program for computational analysis of data independent acquisition \(DIA\)
-mass spectrometry\-based proteomics data\. It enables untargeted peptide and protein identification and quantitation
-using DIA data\, and also incorporates targeted extraction to reduce the number of cases of missing quantitation\.
+mass spectrometry\-based proteomics data. It enables untargeted peptide and protein identification and quantitation
+using DIA data\, and also incorporates targeted extraction to reduce the number of cases of missing quantitation.
 
 
 ============= ===========
@@ -38,7 +38,7 @@ and update with::
 
 Notes
 -----
-DIA\-Umpire is a Java program\.
+DIA\-Umpire is a Java program.
 
 
 

@@ -5,7 +5,7 @@ pytest-marks
 
 |downloads|
 
-set marks on py\.test test methods
+set marks on py.test test methods
 
 ============= ===========
 Home          https://github.com/adamgoucher/pytest-marks

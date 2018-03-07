@@ -5,7 +5,7 @@ weeder
 
 |downloads|
 
-Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species\. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data\.
+Motif \(transcription factor binding sites\) discovery in sequences from coregulated genes of a single species. This is a new Weeder release rewritten to be faster and optimized for large ChIP\-Seq data.
 
 ============= ===========
 Home          http://159.149.160.51/modtools/
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Includes a simple wrapper script to be able to run weeder from any directory\. It passes arguments transparently to the weeder2 executable\.
+Includes a simple wrapper script to be able to run weeder from any directory. It passes arguments transparently to the weeder2 executable.
 
 
 |docker|

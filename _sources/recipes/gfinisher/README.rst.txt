@@ -5,7 +5,7 @@ gfinisher
 
 |downloads|
 
-GFinisher is an application tools for refinement and finalization of prokaryotic genomes assemblies using the bias of GC Skew to identify assembly errors and organizes the contigs\/scaffolds with genomes references\.
+GFinisher is an application tools for refinement and finalization of prokaryotic genomes assemblies using the bias of GC Skew to identify assembly errors and organizes the contigs\/scaffolds with genomes references.
 
 ============= ===========
 Home          https://sourceforge.net/projects/gfinisher/

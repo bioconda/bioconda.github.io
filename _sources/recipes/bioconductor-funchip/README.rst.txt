@@ -5,7 +5,7 @@ bioconductor-funchip
 
 |downloads|
 
-Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them\.
+Preprocessing and smoothing of ChIP\-Seq peaks and efficient implementation of the k\-mean alignment algorithm to classify them.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/FunChIP.html

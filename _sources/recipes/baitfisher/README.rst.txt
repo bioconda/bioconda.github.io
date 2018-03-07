@@ -5,7 +5,7 @@ baitfisher
 
 |downloads|
 
-The BaitFisher\-package is a software package for designing hybrid enrichment probes\.
+The BaitFisher\-package is a software package for designing hybrid enrichment probes.
 
 ============= ===========
 Home          https://github.com/cmayer/BaitFisher-package

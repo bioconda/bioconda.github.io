@@ -5,7 +5,7 @@ ucsc-pslmrnacover
 
 |downloads|
 
-Make histogram of coverage percentage of mRNA in psl\.
+Make histogram of coverage percentage of mRNA in psl.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

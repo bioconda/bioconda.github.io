@@ -5,7 +5,7 @@ ucsc-qacagplift
 
 |downloads|
 
-Use AGP to combine per\-scaffold qac into per\-chrom qac\.
+Use AGP to combine per\-scaffold qac into per\-chrom qac.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

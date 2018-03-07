@@ -5,7 +5,7 @@ bioconductor-pint
 
 |downloads|
 
-Pairwise data integration for functional genomics\, including tools for DNA\/RNA\/miRNA dependency screens\.
+Pairwise data integration for functional genomics\, including tools for DNA\/RNA\/miRNA dependency screens.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pint.html

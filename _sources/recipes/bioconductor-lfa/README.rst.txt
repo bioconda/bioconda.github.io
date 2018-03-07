@@ -5,7 +5,7 @@ bioconductor-lfa
 
 |downloads|
 
-LFA is a method for a PCA analogue on Binomial data via estimation of latent structure in the natural parameter\.
+LFA is a method for a PCA analogue on Binomial data via estimation of latent structure in the natural parameter.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lfa.html

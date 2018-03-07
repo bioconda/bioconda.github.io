@@ -5,7 +5,7 @@ ucsc-twobitmask
 
 |downloads|
 
-apply masking to a \.2bit file\, creating a new \.2bit file
+apply masking to a .2bit file\, creating a new .2bit file
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

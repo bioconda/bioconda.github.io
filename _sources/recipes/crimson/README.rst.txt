@@ -5,7 +5,7 @@ crimson
 
 |downloads|
 
-Bioinformatics tool outputs converter to JSON or YAML\.
+Bioinformatics tool outputs converter to JSON or YAML.
 
 ============= ===========
 Home          https://github.com/bow/crimson

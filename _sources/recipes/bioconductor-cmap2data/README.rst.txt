@@ -5,7 +5,7 @@ bioconductor-cmap2data
 
 |downloads|
 
-Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package\.
+Data package which provides default drug profiles for the DrugVsDisease package as well as associated gene lists and data clusters used by the DrugVsDisease package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/cMap2data.html

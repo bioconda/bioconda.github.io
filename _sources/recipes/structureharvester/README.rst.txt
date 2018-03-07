@@ -5,7 +5,7 @@ structureharvester
 
 |downloads|
 
-structureHarvester\.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
+structureHarvester.py is a Python script capable of extracting all the relevant data from STRUCTURE results files
 
 ============= ===========
 Home          http://alumni.soe.ucsc.edu/~dearl/software/structureHarvester/

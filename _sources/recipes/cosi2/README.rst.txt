@@ -5,7 +5,7 @@ cosi2
 
 |downloads|
 
-cosi2 is an efficient coalescent simulator with support for selection\, population structure\, variable recombination rates\, and gene conversion\. It supports exact and approximate simulation modes\.
+cosi2 is an efficient coalescent simulator with support for selection\, population structure\, variable recombination rates\, and gene conversion. It supports exact and approximate simulation modes.
 
 ============= ===========
 Home          https://www.broadinstitute.org/mpg/cosi2/

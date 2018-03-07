@@ -5,7 +5,7 @@ bioconductor-phyloseq
 
 |downloads|
 
-phyloseq provides a set of classes and tools to facilitate the import\, storage\, analysis\, and graphical display of microbiome census data\.
+phyloseq provides a set of classes and tools to facilitate the import\, storage\, analysis\, and graphical display of microbiome census data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/phyloseq.html

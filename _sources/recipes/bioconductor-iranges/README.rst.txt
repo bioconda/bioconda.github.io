@@ -5,7 +5,7 @@ bioconductor-iranges
 
 |downloads|
 
-Provides efficient low\-level and highly reusable S4 classes for storing\, manipulating and aggregating over annotated ranges of integers\. Implements an algebra of range operations\, including efficient algorithms for finding overlaps and nearest neighbors\. Defines efficient list\-like classes for storing\, transforming and aggregating large grouped data\, i\.e\.\, collections of atomic vectors and DataFrames\.
+Provides efficient low\-level and highly reusable S4 classes for storing\, manipulating and aggregating over annotated ranges of integers. Implements an algebra of range operations\, including efficient algorithms for finding overlaps and nearest neighbors. Defines efficient list\-like classes for storing\, transforming and aggregating large grouped data\, i.e.\, collections of atomic vectors and DataFrames.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IRanges.html

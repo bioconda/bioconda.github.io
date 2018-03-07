@@ -5,7 +5,7 @@ bioconductor-multiassayexperiment
 
 |downloads|
 
-Multi\-assay \'omics experiments on a set of samples are increasingly commonplace in biomedical research\. MultiAssayExperiment implements data structures and methods for representing\, manipulating\, and integrating multi\-assay experiments via efficient construction\, subsetting\, and extraction operations\. These methods are implemented matching Bioconductor user experience by straightforward extending concept and design of single\-assay classes such as SummarizedExperiment or ExpressionSet\.
+Multi\-assay \'omics experiments on a set of samples are increasingly commonplace in biomedical research. MultiAssayExperiment implements data structures and methods for representing\, manipulating\, and integrating multi\-assay experiments via efficient construction\, subsetting\, and extraction operations. These methods are implemented matching Bioconductor user experience by straightforward extending concept and design of single\-assay classes such as SummarizedExperiment or ExpressionSet.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MultiAssayExperiment.html

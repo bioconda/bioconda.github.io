@@ -5,7 +5,7 @@ r-drc
 
 |downloads|
 
-Analysis of dose\-response data is made available through a suite of flexible and versatile model fitting and after\-fitting functions\.
+Analysis of dose\-response data is made available through a suite of flexible and versatile model fitting and after\-fitting functions.
 
 ============= ===========
 Home          http://www.r-project.org, http://www.bioassay.dk

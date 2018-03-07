@@ -5,7 +5,7 @@ corset
 
 |downloads|
 
-Software for clustering de novo assembled transcripts and counting overlapping reads\.
+Software for clustering de novo assembled transcripts and counting overlapping reads.
 
 ============= ===========
 Home          https://github.com/Oshlack/Corset

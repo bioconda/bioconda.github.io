@@ -5,7 +5,7 @@ illumina-interop
 
 |downloads|
 
-The Illumina InterOp libraries are a set of common routines used for reading and writing InterOp metric files\. These metric files are binary files produced during a run providing detailed statistics about a run\. In a few cases\, the metric files are produced after a run during secondary analysis \(index metrics\) or for faster display of a subset of the original data \(collapsed quality scores\)\.
+The Illumina InterOp libraries are a set of common routines used for reading and writing InterOp metric files. These metric files are binary files produced during a run providing detailed statistics about a run. In a few cases\, the metric files are produced after a run during secondary analysis \(index metrics\) or for faster display of a subset of the original data \(collapsed quality scores\).
 
 ============= ===========
 Home          http://illumina.github.io/interop/index.html

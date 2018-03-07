@@ -5,7 +5,7 @@ bioconductor-clst
 
 |downloads|
 
-Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons\.
+Package for modified nearest\-neighbor classification based on calculation of a similarity threshold distinguishing within\-group from between\-group comparisons.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/clst.html

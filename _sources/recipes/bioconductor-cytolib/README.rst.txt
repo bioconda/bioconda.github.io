@@ -5,7 +5,7 @@ bioconductor-cytolib
 
 |downloads|
 
-This package provides the core data structure and API to represent and interact with the gated cytometry data\.
+This package provides the core data structure and API to represent and interact with the gated cytometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cytolib.html

@@ -5,7 +5,7 @@ ucsc-rowstocols
 
 |downloads|
 
-Convert rows to columns and vice versa in a text file\.
+Convert rows to columns and vice versa in a text file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

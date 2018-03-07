@@ -5,7 +5,7 @@ riboseq-rust
 
 |downloads|
 
-Ribo\-seq Unit Step Transformation\. Tools to characterise the determinants of ribosome profiling read density across mRNA\. May be used to examine relative decoding rates and and for quality assessment
+Ribo\-seq Unit Step Transformation. Tools to characterise the determinants of ribosome profiling read density across mRNA. May be used to examine relative decoding rates and and for quality assessment
 
 ============= ===========
 Home          https://lapti.ucc.ie/rust/

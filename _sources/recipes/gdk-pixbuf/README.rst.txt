@@ -5,7 +5,7 @@ gdk-pixbuf
 
 |downloads|
 
-The GdkPixbuf Structure — Information that describes an image\.
+The GdkPixbuf Structure — Information that describes an image.
 
 ============= ===========
 Home          https://developer.gnome.org/gdk-pixbuf/

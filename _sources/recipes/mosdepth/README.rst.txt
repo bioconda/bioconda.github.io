@@ -5,7 +5,7 @@ mosdepth
 
 |downloads|
 
-Fast BAM\/CRAM depth calculation for WGS\, exome\, or targetted sequencing\.
+Fast BAM\/CRAM depth calculation for WGS\, exome\, or targetted sequencing.
 
 ============= ===========
 Home          https://github.com/brentp/mosdepth

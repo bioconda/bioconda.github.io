@@ -5,7 +5,7 @@ bioconductor-rbsurv
 
 |downloads|
 
-This package selects genes associated with survival\.
+This package selects genes associated with survival.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rbsurv.html

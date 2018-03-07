@@ -5,7 +5,7 @@ racon
 
 |downloads|
 
-Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads\.
+Ultrafast consensus module for raw de novo genome assembly of long uncorrected reads.
 
 ============= ===========
 Home          https://github.com/isovic/racon

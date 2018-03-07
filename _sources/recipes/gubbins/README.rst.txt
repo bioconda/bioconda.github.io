@@ -5,7 +5,7 @@ gubbins
 
 |downloads|
 
-Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins\.
+Rapid phylogenetic analysis of large samples of recombinant bacterial whole genome sequences using Gubbins.
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/gubbins

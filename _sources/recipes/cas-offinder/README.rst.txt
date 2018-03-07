@@ -5,7 +5,7 @@ cas-offinder
 
 |downloads|
 
-Cas\-OFFinder is OpenCL based\, ultrafast and versatile program that searches for potential off\-target sites of CRISPR\/Cas\-derived RNA\-guided endonucleases \(RGEN\)\.
+Cas\-OFFinder is OpenCL based\, ultrafast and versatile program that searches for potential off\-target sites of CRISPR\/Cas\-derived RNA\-guided endonucleases \(RGEN\).
 
 ============= ===========
 Home          https://github.com/snugel/cas-offinder

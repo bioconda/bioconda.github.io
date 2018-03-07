@@ -5,7 +5,7 @@ r-gwpcr
 
 |downloads|
 
-Implements the necessary distributions and parameter estimation procedures for a model of amplification and high\-troughput sequencing\. The model is based on a mechanistic model of PCR amplification as a Galton\-Watson branching process\, and on Poissonan sampling to model high\-throughput sequencing\.
+Implements the necessary distributions and parameter estimation procedures for a model of amplification and high\-troughput sequencing. The model is based on a mechanistic model of PCR amplification as a Galton\-Watson branching process\, and on Poissonan sampling to model high\-throughput sequencing.
 
 ============= ===========
 Home          http://www.cibiv.at/~pflug_/trumicount

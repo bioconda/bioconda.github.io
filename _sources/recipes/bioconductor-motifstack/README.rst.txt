@@ -5,7 +5,7 @@ bioconductor-motifstack
 
 |downloads|
 
-The motifStack package is designed for graphic representation of multiple motifs with different similarity scores\. It works with both DNA\/RNA sequence motif and amino acid sequence motif\. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors\.
+The motifStack package is designed for graphic representation of multiple motifs with different similarity scores. It works with both DNA\/RNA sequence motif and amino acid sequence motif. In addition\, it provides the flexibility for users to customize the graphic parameters such as the font type and symbol colors.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/motifStack.html

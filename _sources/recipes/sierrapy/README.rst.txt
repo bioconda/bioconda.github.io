@@ -5,7 +5,7 @@ sierrapy
 
 |downloads|
 
-A Client of HIVdb Sierra GraphQL Webservice\.
+A Client of HIVdb Sierra GraphQL Webservice.
 
 ============= ===========
 Home          https://github.com/hivdb/sierra-client/tree/master/python

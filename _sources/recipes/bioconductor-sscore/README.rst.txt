@@ -5,7 +5,7 @@ bioconductor-sscore
 
 |downloads|
 
-This package contains an implementation of the S\-Score algorithm as described by Zhang et al \(2002\)\.
+This package contains an implementation of the S\-Score algorithm as described by Zhang et al \(2002\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/sscore.html

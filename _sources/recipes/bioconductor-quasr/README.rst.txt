@@ -5,7 +5,7 @@ bioconductor-quasr
 
 |downloads|
 
-This package provides a framework for the quantification and analysis of Short Reads\. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest\.
+This package provides a framework for the quantification and analysis of Short Reads. It covers a complete workflow starting from raw sequence reads\, over creation of alignments and quality control plots\, to the quantification of genomic regions of interest.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/QuasR.html

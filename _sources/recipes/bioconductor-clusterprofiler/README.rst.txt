@@ -5,7 +5,7 @@ bioconductor-clusterprofiler
 
 |downloads|
 
-This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters\.
+This package implements methods to analyze and visualize functional profiles \(GO and KEGG\) of gene and gene clusters.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/clusterProfiler.html

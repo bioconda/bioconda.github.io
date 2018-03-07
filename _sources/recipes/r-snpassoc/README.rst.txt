@@ -5,7 +5,7 @@ r-snpassoc
 
 |downloads|
 
-This package carries out most common analysis when performing whole genome association studies\. These analyses include descriptive statistics and exploratory analysis of missing values\, calculation of Hardy\-Weinberg equilibrium\, analysis of association based on generalized linear models \(either for quantitative or binary traits\)\, and analysis of multiple SNPs \(haplotype and epistasis analysis\)\. Permutation test and related tests \(sum statistic and truncated product\) are also implemented\. Max\-statistic and genetic risk\-allele score exact distributions are also possible to be estimated\. 
+This package carries out most common analysis when performing whole genome association studies. These analyses include descriptive statistics and exploratory analysis of missing values\, calculation of Hardy\-Weinberg equilibrium\, analysis of association based on generalized linear models \(either for quantitative or binary traits\)\, and analysis of multiple SNPs \(haplotype and epistasis analysis\). Permutation test and related tests \(sum statistic and truncated product\) are also implemented. Max\-statistic and genetic risk\-allele score exact distributions are also possible to be estimated. 
 
 ============= ===========
 Home          http://www.creal.cat/jrgonzalez/software.htm

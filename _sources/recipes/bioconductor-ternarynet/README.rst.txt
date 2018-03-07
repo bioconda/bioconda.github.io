@@ -5,7 +5,7 @@ bioconductor-ternarynet
 
 |downloads|
 
-A computational Bayesian approach to ternary gene regulatory network estimation from gene perturbation experiments\.
+A computational Bayesian approach to ternary gene regulatory network estimation from gene perturbation experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ternarynet.html

@@ -5,7 +5,7 @@ grabix
 
 |downloads|
 
-a wee tool for random access into BGZF files\.
+a wee tool for random access into BGZF files.
 
 ============= ===========
 Home          https://github.com/arq5x/grabix

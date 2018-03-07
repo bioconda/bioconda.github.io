@@ -5,7 +5,7 @@ bioconductor-rrdp
 
 |downloads|
 
-Seamlessly interfaces RDP classifier \(version 2\.9\)\.
+Seamlessly interfaces RDP classifier \(version 2.9\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rRDP.html

@@ -5,7 +5,7 @@ bioconductor-deds
 
 |downloads|
 
-This library contains functions that calculate various statistics of differential expression for microarray data\, including t statistics\, fold change\, F statistics\, SAM\, moderated t and F statistics and B statistics\. It also implements a new methodology called DEDS \(Differential Expression via Distance Summary\)\, which selects differentially expressed genes by integrating and summarizing a set of statistics using a weighted distance approach\.
+This library contains functions that calculate various statistics of differential expression for microarray data\, including t statistics\, fold change\, F statistics\, SAM\, moderated t and F statistics and B statistics. It also implements a new methodology called DEDS \(Differential Expression via Distance Summary\)\, which selects differentially expressed genes by integrating and summarizing a set of statistics using a weighted distance approach.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DEDS.html

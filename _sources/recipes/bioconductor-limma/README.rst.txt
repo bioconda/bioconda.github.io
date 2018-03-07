@@ -5,7 +5,7 @@ bioconductor-limma
 
 |downloads|
 
-Data analysis\, linear models and differential expression for microarray data\.
+Data analysis\, linear models and differential expression for microarray data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/limma.html

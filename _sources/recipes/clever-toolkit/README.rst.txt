@@ -5,7 +5,7 @@ clever-toolkit
 
 |downloads|
 
-The clever toolkit \(CTK\) is a suite of tools to analyze next\-generation sequencing data and\, in particular\, to discover and genotype insertions and deletions from paired\-end reads\.
+The clever toolkit \(CTK\) is a suite of tools to analyze next\-generation sequencing data and\, in particular\, to discover and genotype insertions and deletions from paired\-end reads.
 
 ============= ===========
 Home          https://bitbucket.org/tobiasmarschall/clever-toolkit

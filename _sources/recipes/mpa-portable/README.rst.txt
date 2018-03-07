@@ -5,7 +5,7 @@ mpa-portable
 
 |downloads|
 
-MPA Portable is a light\-weight and stand\-alone software for the identification of proteins and in\-depth analysis of metaproteomics\.
+MPA Portable is a light\-weight and stand\-alone software for the identification of proteins and in\-depth analysis of metaproteomics.
 
 
 ============= ===========
@@ -36,7 +36,7 @@ and update with::
 
 Notes
 -----
-mpa\-protable is Java program that comes with a custom wrapper shell script\.
+mpa\-protable is Java program that comes with a custom wrapper shell script.
 
 
 

@@ -5,7 +5,7 @@ pyscaf
 
 |downloads|
 
-Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species\.
+Genome assembly scaffolding using information from paired\-end\/mate\-pair libraries\, long reads\, and synteny to closely related species.
 
 ============= ===========
 Home          https://github.com/lpryszcz/pyScaf

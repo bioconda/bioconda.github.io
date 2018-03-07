@@ -5,7 +5,7 @@ pybigwig
 
 |downloads|
 
-A python extension written in C for quick access to bigWig files\.
+A python extension written in C for quick access to bigWig files.
 
 ============= ===========
 Home          https://github.com/dpryan79/pyBigWig

@@ -5,7 +5,7 @@ validators
 
 |downloads|
 
-Python Data Validation for Humans\.
+Python Data Validation for Humans.
 
 ============= ===========
 Home          https://github.com/kvesteri/validators

@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker\.py\'\.
+Prefix with \'Lace\_\' for the script name that is rather generic\: \'Checker.py\'.
 
 
 |docker|

@@ -5,7 +5,7 @@ segway
 
 |downloads|
 
-a tool for easy pattern discovery and identification in functional genomics data\.
+a tool for easy pattern discovery and identification in functional genomics data.
 
 ============= ===========
 Home          http://segway.hoffmanlab.org/

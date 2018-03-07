@@ -5,7 +5,7 @@ bioconductor-genomicdatacommons
 
 |downloads|
 
-Programmatically access the NIH \/ NCI Genomic Data Commons RESTful service\.
+Programmatically access the NIH \/ NCI Genomic Data Commons RESTful service.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicDataCommons.html

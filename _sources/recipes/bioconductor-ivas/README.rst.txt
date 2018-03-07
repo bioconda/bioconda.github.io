@@ -5,7 +5,7 @@ bioconductor-ivas
 
 |downloads|
 
-Identification of genetic variants affecting alternative splicing\.
+Identification of genetic variants affecting alternative splicing.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IVAS.html

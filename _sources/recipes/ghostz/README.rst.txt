@@ -5,7 +5,7 @@ ghostz
 
 |downloads|
 
-GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering\. GHOSTZ outputs search results in the format similar to BLAST\-tabular format\.
+GHOSTZ is a homology search tool which can detect remote homologues like BLAST and is about 200 times more efficient than BLAST by using database subsequence clustering. GHOSTZ outputs search results in the format similar to BLAST\-tabular format.
 
 ============= ===========
 Home          http://www.bi.cs.titech.ac.jp/ghostz/

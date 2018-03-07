@@ -5,7 +5,7 @@ perl-tie-cacher
 
 |downloads|
 
-Cache a \(sub\)set of key\/value pairs\. Tie and OO interface\.
+Cache a \(sub\)set of key\/value pairs. Tie and OO interface.
 
 ============= ===========
 Home          http://metacpan.org/pod/Tie::Cacher

@@ -5,7 +5,7 @@ sra-tools
 
 |downloads|
 
-The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives\.
+The SRA Toolkit and SDK from NCBI is a collection of tools and libraries for using data in the INSDC Sequence Read Archives.
 
 ============= ===========
 Home          https://github.com/ncbi/sra-tools
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-This package includes ncbi\-vdb and ngs\-sdk\. After installation\, you should run the configuration tool\: \.\/vdb\-config \-i\. This tool will setup your download\/cache area for downloaded files and references\.
+This package includes ncbi\-vdb and ngs\-sdk. After installation\, you should run the configuration tool\: .\/vdb\-config \-i. This tool will setup your download\/cache area for downloaded files and references.
 
 
 |docker|

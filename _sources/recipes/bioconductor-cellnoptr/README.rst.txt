@@ -5,7 +5,7 @@ bioconductor-cellnoptr
 
 |downloads|
 
-This package does optimisation of boolean logic networks of signalling pathways based on a previous knowledge network and a set of data upon perturbation of the nodes in the network\.
+This package does optimisation of boolean logic networks of signalling pathways based on a previous knowledge network and a set of data upon perturbation of the nodes in the network.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CellNOptR.html

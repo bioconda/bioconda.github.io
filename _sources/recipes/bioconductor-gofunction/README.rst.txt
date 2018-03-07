@@ -5,7 +5,7 @@ bioconductor-gofunction
 
 |downloads|
 
-The GO\-function package provides a tool to address the redundancy that result from the GO structure or multiple annotation genes and derive biologically relevant functions from the statistically significant functions based on some intuitive assumption and statistical testing\.
+The GO\-function package provides a tool to address the redundancy that result from the GO structure or multiple annotation genes and derive biologically relevant functions from the statistically significant functions based on some intuitive assumption and statistical testing.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GOFunction.html

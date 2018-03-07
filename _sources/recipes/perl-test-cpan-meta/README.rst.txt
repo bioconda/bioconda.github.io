@@ -5,7 +5,7 @@ perl-test-cpan-meta
 
 |downloads|
 
-Validate your CPAN META\.json files
+Validate your CPAN META.json files
 
 ============= ===========
 Home          http://metacpan.org/pod/Test-CPAN-Meta

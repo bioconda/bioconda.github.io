@@ -5,7 +5,7 @@ nlstradamus
 
 |downloads|
 
-NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction\.
+NLStradamus\: a simple Hidden Markov Model for nuclear localization signal prediction.
 
 ============= ===========
 Home          http://www.moseslab.csb.utoronto.ca/NLStradamus/

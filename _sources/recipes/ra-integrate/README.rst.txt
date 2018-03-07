@@ -5,7 +5,7 @@ ra-integrate
 
 |downloads|
 
-Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data\.
+Integration of the Ra assembler \- a de novo DNA assembler for third generation sequencing data.
 
 ============= ===========
 Home          https://github.com/mariokostelac/ra-integrate

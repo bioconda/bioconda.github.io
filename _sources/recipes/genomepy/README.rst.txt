@@ -5,7 +5,7 @@ genomepy
 
 |downloads|
 
-Download genomes the easy way\.
+Download genomes the easy way.
 
 ============= ===========
 Home          https://github.com/simonvh/genomepy

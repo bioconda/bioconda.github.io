@@ -5,7 +5,7 @@ bioconductor-drugvsdiseasedata
 
 |downloads|
 
-Data package which provides default disease expression profiles\, clusters and annotation information for use with the DrugVsDisease package\.
+Data package which provides default disease expression profiles\, clusters and annotation information for use with the DrugVsDisease package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/DrugVsDiseasedata.html

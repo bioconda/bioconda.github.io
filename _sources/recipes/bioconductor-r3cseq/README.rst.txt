@@ -5,7 +5,7 @@ bioconductor-r3cseq
 
 |downloads|
 
-This package is an implementation of data analysis for the long\-range interactions from 3C\-seq assay\.
+This package is an implementation of data analysis for the long\-range interactions from 3C\-seq assay.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/r3Cseq.html

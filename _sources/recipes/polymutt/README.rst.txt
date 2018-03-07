@@ -5,7 +5,7 @@ polymutt
 
 |downloads|
 
-Li B\, Chen W\, Zhan X\, Busonero F\, Sanna S\, et al\. \(2012\) A Likelihood\-Based Framework for Variant Calling and De Novo Mutation Detection in Families\. PLoS Genet 8\(10\)\: e1002944\. doi\:10\.1371\/journal\.pgen\.1002944
+Li B\, Chen W\, Zhan X\, Busonero F\, Sanna S\, et al. \(2012\) A Likelihood\-Based Framework for Variant Calling and De Novo Mutation Detection in Families. PLoS Genet 8\(10\)\: e1002944. doi\:10.1371\/journal.pgen.1002944
 
 ============= ===========
 Home          https://genome.sph.umich.edu/wiki/Polymutt

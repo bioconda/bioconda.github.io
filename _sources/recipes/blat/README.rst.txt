@@ -5,7 +5,7 @@ blat
 
 |downloads|
 
-BLAT is a bioinformatics software tool which performs rapid mRNA\/DNA and cross\-species protein alignments\.
+BLAT is a bioinformatics software tool which performs rapid mRNA\/DNA and cross\-species protein alignments.
 
 ============= ===========
 Home          https://genome.ucsc.edu/FAQ/FAQblat.html

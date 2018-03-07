@@ -5,7 +5,7 @@ nanonet
 
 |downloads|
 
-Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION data\.
+Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION data.
 
 ============= ===========
 Home          https://github.com/nanoporetech/nanonet

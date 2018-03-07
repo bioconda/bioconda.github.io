@@ -5,7 +5,7 @@ spades
 
 |downloads|
 
-SPAdes \(St\. Petersburg genome assembler\) is intended for both standard isolates and single\-cell MDA bacteria assemblies\.
+SPAdes \(St. Petersburg genome assembler\) is intended for both standard isolates and single\-cell MDA bacteria assemblies.
 
 
 ============= ===========

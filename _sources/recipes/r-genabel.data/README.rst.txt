@@ -5,7 +5,7 @@ r-genabel.data
 
 |downloads|
 
-GenABEL\.data package consists of a data set used by GenABEL functions
+GenABEL.data package consists of a data set used by GenABEL functions
 
 ============= ===========
 Home          http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/

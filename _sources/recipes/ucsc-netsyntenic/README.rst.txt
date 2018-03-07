@@ -5,7 +5,7 @@ ucsc-netsyntenic
 
 |downloads|
 
-Add synteny info to net\.
+Add synteny info to net.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

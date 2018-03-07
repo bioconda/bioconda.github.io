@@ -5,7 +5,7 @@ udocker
 
 |downloads|
 
-Freely available tools for computational molecular biology\.
+Freely available tools for computational molecular biology.
 
 ============= ===========
 Home          https://github.com/indigo-dc/udocker

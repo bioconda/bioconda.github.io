@@ -5,7 +5,7 @@ r-genabel
 
 |downloads|
 
-A package for genome\-wide association analysis between quantitative or binary traits and single\-nucleotide polymorphisms \(SNPs\)\. 
+A package for genome\-wide association analysis between quantitative or binary traits and single\-nucleotide polymorphisms \(SNPs\). 
 
 ============= ===========
 Home          http://www.genabel.org

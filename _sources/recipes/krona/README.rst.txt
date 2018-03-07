@@ -5,7 +5,7 @@ krona
 
 |downloads|
 
-Krona Tools is a set of scripts to create Krona charts from several Bioinformatics tools as well as from text and XML files\.
+Krona Tools is a set of scripts to create Krona charts from several Bioinformatics tools as well as from text and XML files.
 
 ============= ===========
 Home          https://github.com/marbl/Krona

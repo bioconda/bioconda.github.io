@@ -5,7 +5,7 @@ dunovo
 
 |downloads|
 
-Du Novo\: A pipeline for processing duplex sequencing data\.
+Du Novo\: A pipeline for processing duplex sequencing data.
 
 ============= ===========
 Home          https://github.com/galaxyproject/dunovo

@@ -5,7 +5,7 @@ bioconductor-heatmaps
 
 |downloads|
 
-This package provides functions for plotting heatmaps of genome\-wide data across genomic intervals\, such as ChIP\-seq signals at peaks or across promoters\. Many functions are also provided for investigating sequence features\.
+This package provides functions for plotting heatmaps of genome\-wide data across genomic intervals\, such as ChIP\-seq signals at peaks or across promoters. Many functions are also provided for investigating sequence features.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/heatmaps.html

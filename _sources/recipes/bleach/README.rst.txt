@@ -5,7 +5,7 @@ bleach
 
 |downloads|
 
-An easy whitelist\-based HTML\-sanitizing tool\.
+An easy whitelist\-based HTML\-sanitizing tool.
 
 ============= ===========
 Home          http://github.com/jsocol/bleach

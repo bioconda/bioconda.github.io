@@ -5,7 +5,7 @@ bioconductor-manta
 
 |downloads|
 
-Tools for robust comparative metatranscriptomics\.
+Tools for robust comparative metatranscriptomics.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/manta.html

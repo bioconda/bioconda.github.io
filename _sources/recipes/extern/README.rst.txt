@@ -5,7 +5,7 @@ extern
 
 |downloads|
 
-Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code\.
+Extern is an opinionated version of Pythons subprocess\, making it just that little bit more convenient to run shell commands from within Python code.
 
 ============= ===========
 Home          https://pypi.python.org/pypi/extern/

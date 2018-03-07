@@ -5,7 +5,7 @@ bbmap
 
 |downloads|
 
-BBMap is a short read aligner\, as well as various other bioinformatic tools\.
+BBMap is a short read aligner\, as well as various other bioinformatic tools.
 
 ============= ===========
 Home          https://sourceforge.net/projects/bbmap
@@ -36,8 +36,8 @@ and update with::
 Notes
 -----
 BBMap is a series of Java programs\, but they come with a number of custom
-wrapper shell scripts\. Each of these is symlinked to the conda bin directory
-during install\.
+wrapper shell scripts. Each of these is symlinked to the conda bin directory
+during install.
 
 
 

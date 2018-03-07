@@ -5,7 +5,7 @@ r-dynamictreecut
 
 |downloads|
 
-Contains methods for detection of clusters in hierarchical clustering dendrograms\.
+Contains methods for detection of clusters in hierarchical clustering dendrograms.
 
 ============= ===========
 Home          http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/

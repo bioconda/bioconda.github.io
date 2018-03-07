@@ -5,7 +5,7 @@ ucsc-genepredtogtf
 
 |downloads|
 
-Convert genePred table or file to gtf\.
+Convert genePred table or file to gtf.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ r-maldirppa
 
 |downloads|
 
-Provides methods for quality control and robust pre\-processing and analysis of MALDI mass spectrometry data\.
+Provides methods for quality control and robust pre\-processing and analysis of MALDI mass spectrometry data.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=MALDIrppa

@@ -5,7 +5,7 @@ libmuscle
 
 |downloads|
 
-libMuscle header files\.
+libMuscle header files.
 
 ============= ===========
 Home          http://darlinglab.org/mauve/

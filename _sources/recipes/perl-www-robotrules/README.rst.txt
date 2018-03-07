@@ -5,7 +5,7 @@ perl-www-robotrules
 
 |downloads|
 
-database of robots\.txt\-derived permissions
+database of robots.txt\-derived permissions
 
 ============= ===========
 Home          http://metacpan.org/pod/WWW-RobotRules

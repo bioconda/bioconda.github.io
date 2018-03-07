@@ -5,7 +5,7 @@ bioconductor-snplocs.hsapiens.dbsnp144.grch38
 
 |downloads|
 
-SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 144\. The source data files used for this package were created by NCBI on May 30\, 2015\, and contain SNPs mapped to reference genome GRCh38\.p2 \(a patched version of GRCh38 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\)\. Note that these SNPs can be \"injected\" in BSgenome\.Hsapiens\.NCBI\.GRCh38 or in BSgenome\.Hsapiens\.UCSC\.hg38\.
+SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 144. The source data files used for this package were created by NCBI on May 30\, 2015\, and contain SNPs mapped to reference genome GRCh38.p2 \(a patched version of GRCh38 that doesn\'t alter chromosomes 1\-22\, X\, Y\, MT\). Note that these SNPs can be \"injected\" in BSgenome.Hsapiens.NCBI.GRCh38 or in BSgenome.Hsapiens.UCSC.hg38.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/SNPlocs.Hsapiens.dbSNP144.GRCh38.html

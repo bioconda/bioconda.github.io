@@ -5,7 +5,7 @@ r-gsalib
 
 |downloads|
 
-This package contains utility functions used by the Genome Analysis Toolkit \(GATK\) to load tables and plot data\. The GATK is a toolkit for variant discovery in high\-throughput sequencing data\.
+This package contains utility functions used by the Genome Analysis Toolkit \(GATK\) to load tables and plot data. The GATK is a toolkit for variant discovery in high\-throughput sequencing data.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=gsalib

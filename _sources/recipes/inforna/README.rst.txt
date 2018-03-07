@@ -5,7 +5,7 @@ inforna
 
 |downloads|
 
-A server for the design of RNA sequences that fold into a given pseudo\-knot free RNA secondary structure\.
+A server for the design of RNA sequences that fold into a given pseudo\-knot free RNA secondary structure.
 
 ============= ===========
 Home          https://github.com/BackofenLab/INFO-RNA

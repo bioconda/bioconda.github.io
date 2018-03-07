@@ -5,7 +5,7 @@ bcftools-snvphyl-plugin
 
 |downloads|
 
-The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline for identifying Single Nucleotide Variants \(SNV\) within a collection\\ of microbial genomes and constructing a phylogenetic tree\. This package is the bcftools C plugin
+The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline for identifying Single Nucleotide Variants \(SNV\) within a collection\\ of microbial genomes and constructing a phylogenetic tree. This package is the bcftools C plugin
 
 ============= ===========
 Home          https://github.com/phac-nml/snvphyl-tools

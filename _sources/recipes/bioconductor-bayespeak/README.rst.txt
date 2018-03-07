@@ -5,7 +5,7 @@ bioconductor-bayespeak
 
 |downloads|
 
-This package is an implementation of the BayesPeak algorithm for peak\-calling in ChIP\-seq data\.
+This package is an implementation of the BayesPeak algorithm for peak\-calling in ChIP\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BayesPeak.html

@@ -5,7 +5,7 @@ detonate
 
 |downloads|
 
-DETONATE \(DE novo TranscriptOme rNa\-seq Assembly with or without the Truth Evaluation\) consists of two component packages\, RSEM\-EVAL and REF\-EVAL\.
+DETONATE \(DE novo TranscriptOme rNa\-seq Assembly with or without the Truth Evaluation\) consists of two component packages\, RSEM\-EVAL and REF\-EVAL.
 
 ============= ===========
 Home          http://deweylab.biostat.wisc.edu/detonate/

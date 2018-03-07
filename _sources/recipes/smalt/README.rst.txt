@@ -5,7 +5,7 @@ smalt
 
 |downloads|
 
-SMALT aligns DNA sequencing reads with a reference genome\.
+SMALT aligns DNA sequencing reads with a reference genome.
 
 ============= ===========
 Home          http://www.sanger.ac.uk/science/tools/smalt-0

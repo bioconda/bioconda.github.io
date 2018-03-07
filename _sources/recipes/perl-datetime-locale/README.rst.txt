@@ -5,7 +5,7 @@ perl-datetime-locale
 
 |downloads|
 
-Localization support for DateTime\.pm
+Localization support for DateTime.pm
 
 ============= ===========
 Home          http://metacpan.org/release/DateTime-Locale

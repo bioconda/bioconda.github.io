@@ -5,7 +5,7 @@ perl-try-tiny-retry
 
 |downloads|
 
-Just like Try\:\:Tiny\, but with retry instead of try\.
+Just like Try\:\:Tiny\, but with retry instead of try.
 
 ============= ===========
 Home          https://github.com/dagolden/Try-Tiny-Retry

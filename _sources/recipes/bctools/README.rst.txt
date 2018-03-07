@@ -5,7 +5,7 @@ bctools
 
 |downloads|
 
-Tools for handling barcodes in NGS data\.
+Tools for handling barcodes in NGS data.
 
 ============= ===========
 Home          https://github.com/dmaticzka/bctools

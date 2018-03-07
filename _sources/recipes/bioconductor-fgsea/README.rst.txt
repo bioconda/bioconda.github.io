@@ -5,7 +5,7 @@ bioconductor-fgsea
 
 |downloads|
 
-The package implements an algorithm for fast gene set enrichment analysis\. Using the fast algorithm allows to make more permutations and get more fine grained p\-values\, which allows to use accurate stantard approaches to multiple hypothesis correction\.
+The package implements an algorithm for fast gene set enrichment analysis. Using the fast algorithm allows to make more permutations and get more fine grained p\-values\, which allows to use accurate stantard approaches to multiple hypothesis correction.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/fgsea.html

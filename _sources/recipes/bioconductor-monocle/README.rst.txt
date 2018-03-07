@@ -5,7 +5,7 @@ bioconductor-monocle
 
 |downloads|
 
-Monocle performs differential expression and time\-series analysis for single\-cell expression experiments\. It orders individual cells according to progress through a biological process\, without knowing ahead of time which genes define progress through that process\. Monocle also performs differential expression analysis\, clustering\, visualization\, and other useful tasks on single cell expression data\.  It is designed to work with RNA\-Seq and qPCR data\, but could be used with other types as well\.
+Monocle performs differential expression and time\-series analysis for single\-cell expression experiments. It orders individual cells according to progress through a biological process\, without knowing ahead of time which genes define progress through that process. Monocle also performs differential expression analysis\, clustering\, visualization\, and other useful tasks on single cell expression data.  It is designed to work with RNA\-Seq and qPCR data\, but could be used with other types as well.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/monocle.html

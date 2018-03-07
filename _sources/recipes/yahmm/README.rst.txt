@@ -5,7 +5,7 @@ yahmm
 
 |downloads|
 
-YAHMM is a HMM package for Python\, implemented in Cython for speed\.
+YAHMM is a HMM package for Python\, implemented in Cython for speed.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/yahmm/

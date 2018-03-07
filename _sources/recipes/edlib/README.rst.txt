@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-From version 1\.1\.0 onward\, the \`aligner\` executable has been renamed to \`edlib\-aligner\`\.
+From version 1.1.0 onward\, the \`aligner\` executable has been renamed to \`edlib\-aligner\`.
 
 
 |docker|

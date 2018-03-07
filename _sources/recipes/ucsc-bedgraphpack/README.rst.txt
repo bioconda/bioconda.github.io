@@ -5,7 +5,7 @@ ucsc-bedgraphpack
 
 |downloads|
 
-Pack together adjacent records representing same value\.
+Pack together adjacent records representing same value.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

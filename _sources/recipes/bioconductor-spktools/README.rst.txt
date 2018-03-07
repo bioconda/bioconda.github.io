@@ -5,7 +5,7 @@ bioconductor-spktools
 
 |downloads|
 
-The package contains functions that can be used to compare expression measures on different array platforms\.
+The package contains functions that can be used to compare expression measures on different array platforms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/spkTools.html

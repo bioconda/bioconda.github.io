@@ -5,7 +5,7 @@ bioconductor-qrqc
 
 |downloads|
 
-Quickly scans reads and gathers statistics on base and quality frequencies\, read length\, k\-mers by position\, and frequent sequences\. Produces graphical output of statistics for use in quality control pipelines\, and an optional HTML quality report\. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected\.
+Quickly scans reads and gathers statistics on base and quality frequencies\, read length\, k\-mers by position\, and frequent sequences. Produces graphical output of statistics for use in quality control pipelines\, and an optional HTML quality report. S4 SequenceSummary objects allow specific tests and functionality to be written around the data collected.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/qrqc.html

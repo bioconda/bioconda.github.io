@@ -5,7 +5,7 @@ bioconductor-inversion
 
 |downloads|
 
-Package to find genetic inversions in genotype \(SNP array\) data\.
+Package to find genetic inversions in genotype \(SNP array\) data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/inveRsion.html

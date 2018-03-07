@@ -5,7 +5,7 @@ fastqc
 
 |downloads|
 
-A quality control tool for high throughput sequence data\.
+A quality control tool for high throughput sequence data.
 
 ============= ===========
 Home          http://www.bioinformatics.babraham.ac.uk/projects/fastqc/

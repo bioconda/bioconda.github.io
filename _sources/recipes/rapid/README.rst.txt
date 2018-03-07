@@ -5,7 +5,7 @@ rapid
 
 |downloads|
 
-Read Alignment\, Analysis\, and Differential Pipeline \(RAPID\) is a set of tools for the alignment\, and analysis of genomic regions with small RNA clusters derived from small RNA sequencing data\.
+Read Alignment\, Analysis\, and Differential Pipeline \(RAPID\) is a set of tools for the alignment\, and analysis of genomic regions with small RNA clusters derived from small RNA sequencing data.
 
 ============= ===========
 Home          https://github.com/SchulzLab/RAPID

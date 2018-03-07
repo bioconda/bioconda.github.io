@@ -5,7 +5,7 @@ bioconductor-biocstyle
 
 |downloads|
 
-Provides standard formatting styles for Bioconductor PDF and HTML documents\. Package vignettes illustrate use and functionality\.
+Provides standard formatting styles for Bioconductor PDF and HTML documents. Package vignettes illustrate use and functionality.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BiocStyle.html

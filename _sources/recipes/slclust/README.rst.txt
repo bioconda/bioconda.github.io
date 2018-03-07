@@ -5,7 +5,7 @@ slclust
 
 |downloads|
 
-A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters\.
+A utility that performs single\-linkage clustering with the option of applying a Jaccard similarity coefficient to break weakly bound clusters into distinct clusters.
 
 ============= ===========
 Home          https://sourceforge.net/projects/slclust/

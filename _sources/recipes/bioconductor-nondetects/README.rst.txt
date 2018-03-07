@@ -5,7 +5,7 @@ bioconductor-nondetects
 
 |downloads|
 
-Methods to model and impute non\-detects in the results of qPCR experiments\.
+Methods to model and impute non\-detects in the results of qPCR experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/nondetects.html

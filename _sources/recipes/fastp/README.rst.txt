@@ -5,7 +5,7 @@ fastp
 
 |downloads|
 
-A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting\.\.\.\)
+A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/splitting...\)
 
 ============= ===========
 Home          https://github.com/OpenGene/fastp

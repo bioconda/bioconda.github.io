@@ -5,7 +5,7 @@ bioconductor-pathview
 
 |downloads|
 
-Pathview is a tool set for pathway based data integration and visualization\. It maps and renders a wide variety of biological data on relevant pathway graphs\. All users need is to supply their data and specify the target pathway\. Pathview automatically downloads the pathway graph data\, parses the data file\, maps user data to the pathway\, and render pathway graph with the mapped data\. In addition\, Pathview also seamlessly integrates with pathway and gene set \(enrichment\) analysis tools for large\-scale and fully automated analysis\.
+Pathview is a tool set for pathway based data integration and visualization. It maps and renders a wide variety of biological data on relevant pathway graphs. All users need is to supply their data and specify the target pathway. Pathview automatically downloads the pathway graph data\, parses the data file\, maps user data to the pathway\, and render pathway graph with the mapped data. In addition\, Pathview also seamlessly integrates with pathway and gene set \(enrichment\) analysis tools for large\-scale and fully automated analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pathview.html

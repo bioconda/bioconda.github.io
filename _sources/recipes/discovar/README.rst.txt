@@ -5,7 +5,7 @@ discovar
 
 |downloads|
 
-Suitable for variant calling with reference and de novo assembly of small genomes\.
+Suitable for variant calling with reference and de novo assembly of small genomes.
 
 ============= ===========
 Home          https://www.broadinstitute.org/software/discovar

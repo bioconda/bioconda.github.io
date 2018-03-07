@@ -5,7 +5,7 @@ knot
 
 |downloads|
 
-Detection of knots in protein folds\.
+Detection of knots in protein folds.
 
 ============= ===========
 Home          http://mathbio.nimr.mrc.ac.uk/wiki/Software#KNOT

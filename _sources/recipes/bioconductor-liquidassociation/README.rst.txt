@@ -5,7 +5,7 @@ bioconductor-liquidassociation
 
 |downloads|
 
-The package contains functions for calculate direct and model\-based estimators for liquid association\. It also provides functions for testing the existence of liquid association given a gene triplet data\.
+The package contains functions for calculate direct and model\-based estimators for liquid association. It also provides functions for testing the existence of liquid association given a gene triplet data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LiquidAssociation.html

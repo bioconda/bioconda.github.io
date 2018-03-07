@@ -6,7 +6,7 @@ phyloflash
 |downloads|
 
 phyloFlash is a pipeline to rapidly reconstruct the SSU rRNAs and explore
-phylogenetic composition of an illumina \(meta\)genomic dataset\.
+phylogenetic composition of an illumina \(meta\)genomic dataset.
 
 
 ============= ===========

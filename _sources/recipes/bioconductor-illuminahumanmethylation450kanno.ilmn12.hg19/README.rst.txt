@@ -5,7 +5,7 @@ bioconductor-illuminahumanmethylation450kanno.ilmn12.hg19
 
 |downloads|
 
-Manifests and annotation for Illumina\'s 450k array data\.
+Manifests and annotation for Illumina\'s 450k array data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylation450kanno.ilmn12.hg19.html

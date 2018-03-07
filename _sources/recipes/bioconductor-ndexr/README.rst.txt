@@ -5,7 +5,7 @@ bioconductor-ndexr
 
 |downloads|
 
-This package offers an interface to NDEx servers\, e\.g\. the public server at http\:\/\/ndexbio\.org\/\. It can retrieve and save networks via the API\. Networks are offered as RCX object and as igraph representation\.
+This package offers an interface to NDEx servers\, e.g. the public server at http\:\/\/ndexbio.org\/. It can retrieve and save networks via the API. Networks are offered as RCX object and as igraph representation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ndexr.html

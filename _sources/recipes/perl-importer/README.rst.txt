@@ -5,7 +5,7 @@ perl-importer
 
 |downloads|
 
-Alternative but compatible interface to modules that export symbols\.
+Alternative but compatible interface to modules that export symbols.
 
 ============= ===========
 Home          http://metacpan.org/pod/Importer

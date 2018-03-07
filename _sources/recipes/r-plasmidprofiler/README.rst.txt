@@ -5,7 +5,7 @@ r-plasmidprofiler
 
 |downloads|
 
-Contains functions developed to combine the results of querying a plasmid database using short\-read sequence typing with the results of a blast analysis against the query results\.
+Contains functions developed to combine the results of querying a plasmid database using short\-read sequence typing with the results of a blast analysis against the query results.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=Plasmidprofiler

@@ -5,7 +5,7 @@ breakseq2
 
 |downloads|
 
-BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants\.
+BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural variants.
 
 ============= ===========
 Home          http://bioinform.github.io/breakseq2

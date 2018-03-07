@@ -5,7 +5,7 @@ mapsplice
 
 |downloads|
 
-MapSplice is a software for mapping RNA\-seq data to reference genome for splice junction discovery that depends only on reference genome\, and not on any further annotations\.
+MapSplice is a software for mapping RNA\-seq data to reference genome for splice junction discovery that depends only on reference genome\, and not on any further annotations.
 
 ============= ===========
 Home          

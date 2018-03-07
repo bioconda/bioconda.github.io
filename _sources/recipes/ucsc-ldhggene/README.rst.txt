@@ -5,7 +5,7 @@ ucsc-ldhggene
 
 |downloads|
 
-load database with gene predictions from a gff file\.
+load database with gene predictions from a gff file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

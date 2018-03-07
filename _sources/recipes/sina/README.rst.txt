@@ -6,9 +6,9 @@ sina
 |downloads|
 
 SINA is a tool for aligning sequences with an existing multiple sequence
-alignment \(MSA\) at high accuracy\. It can also execute a homology search based
+alignment \(MSA\) at high accuracy. It can also execute a homology search based
 on the computed alignment and generate a per sequence classifications from the
-search results\.
+search results.
 
 
 ============= ===========

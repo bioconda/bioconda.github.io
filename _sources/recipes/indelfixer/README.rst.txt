@@ -5,7 +5,7 @@ indelfixer
 
 |downloads|
 
-A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference\.
+A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\-Waterman alignment against a reference.
 
 ============= ===========
 Home          https://github.com/cbg-ethz/InDelFixer
@@ -35,11 +35,11 @@ and update with::
 
 Notes
 -----
-InDelFixer is Java program that comes with a custom wrapper shell script\.
-This shell wrapper is called \"InDelFixer\" and is on \$PATH by default\. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
-specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
-set globally this will take precedence\.
+InDelFixer is Java program that comes with a custom wrapper shell script.
+This shell wrapper is called \"InDelFixer\" and is on \$PATH by default. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
+specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
+set globally this will take precedence.
 For example run it with \"InDelFixer \-Xms512m \-Xmx1G\"
 
 

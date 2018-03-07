@@ -5,7 +5,7 @@ bioconductor-sagx
 
 |downloads|
 
-A package for retrieval\, preparation and analysis of data from the Affymetrix GeneChip\. In particular the issue of identifying differentially expressed genes is addressed\.
+A package for retrieval\, preparation and analysis of data from the Affymetrix GeneChip. In particular the issue of identifying differentially expressed genes is addressed.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SAGx.html

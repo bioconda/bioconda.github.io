@@ -5,7 +5,7 @@ perl-statistics-descriptive
 
 |downloads|
 
-Module of basic descriptive statistical functions\.
+Module of basic descriptive statistical functions.
 
 ============= ===========
 Home          http://web-cpan.shlomifish.org/modules/Statistics-Descriptive/

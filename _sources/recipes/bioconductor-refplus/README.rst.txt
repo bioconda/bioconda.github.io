@@ -5,7 +5,7 @@ bioconductor-refplus
 
 |downloads|
 
-The package contains functions for pre\-processing Affymetrix data using the RMA\+ and the RMA\+\+ methods\.
+The package contains functions for pre\-processing Affymetrix data using the RMA\+ and the RMA\+\+ methods.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RefPlus.html

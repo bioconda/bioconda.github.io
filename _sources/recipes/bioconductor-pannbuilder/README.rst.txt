@@ -5,7 +5,7 @@ bioconductor-pannbuilder
 
 |downloads|
 
-Processing annotation data from public data repositories and building protein\-centric annotation data packages\.
+Processing annotation data from public data repositories and building protein\-centric annotation data packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PAnnBuilder.html

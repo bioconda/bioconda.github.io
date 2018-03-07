@@ -5,7 +5,7 @@ bioconductor-safe
 
 |downloads|
 
-SAFE is a resampling\-based method for testing functional categories in gene expression experiments\. SAFE can be applied to 2\-sample and multi\-class comparisons\, or simple linear regressions\. Other experimental designs can also be accommodated through user\-defined functions\.
+SAFE is a resampling\-based method for testing functional categories in gene expression experiments. SAFE can be applied to 2\-sample and multi\-class comparisons\, or simple linear regressions. Other experimental designs can also be accommodated through user\-defined functions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/safe.html

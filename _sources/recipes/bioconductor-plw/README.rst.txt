@@ -5,7 +5,7 @@ bioconductor-plw
 
 |downloads|
 
-Probe level Locally moderated Weighted median\-t \(PLW\) and Locally Moderated Weighted\-t \(LMW\)\.
+Probe level Locally moderated Weighted median\-t \(PLW\) and Locally Moderated Weighted\-t \(LMW\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/plw.html

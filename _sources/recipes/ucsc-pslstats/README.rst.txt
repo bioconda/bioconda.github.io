@@ -5,7 +5,7 @@ ucsc-pslstats
 
 |downloads|
 
-collect statistics from a psl file\.
+collect statistics from a psl file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-annotationfilter
 
 |downloads|
 
-This package provides class and other infrastructure to implement filters for manipulating Bioconductor annotation resources\. The filters will be used by ensembldb\, Organism\.dplyr\, and other packages\.
+This package provides class and other infrastructure to implement filters for manipulating Bioconductor annotation resources. The filters will be used by ensembldb\, Organism.dplyr\, and other packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationFilter.html

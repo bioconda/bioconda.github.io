@@ -5,7 +5,7 @@ bioconductor-process
 
 |downloads|
 
-A package for processing protein mass spectrometry data\.
+A package for processing protein mass spectrometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PROcess.html

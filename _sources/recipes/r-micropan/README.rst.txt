@@ -5,7 +5,7 @@ r-micropan
 
 |downloads|
 
-A collection of functions for computations and visualizations of microbial pan\-genomes\.
+A collection of functions for computations and visualizations of microbial pan\-genomes.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=micropan

@@ -5,7 +5,7 @@ bioconductor-jaspar2014
 
 |downloads|
 
-Data package for JASPAR 2014\. To search this databases\, please use the package TFBSTools\.
+Data package for JASPAR 2014. To search this databases\, please use the package TFBSTools.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/JASPAR2014.html

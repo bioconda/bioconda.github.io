@@ -5,7 +5,7 @@ bioconductor-gsca
 
 |downloads|
 
-GSCA takes as input several lists of activated and repressed genes\. GSCA then searches through a compendium of publicly available gene expression profiles for biological contexts that are enriched with a specified pattern of gene expression\. GSCA provides both traditional R functions and interactive\, user\-friendly user interface\.
+GSCA takes as input several lists of activated and repressed genes. GSCA then searches through a compendium of publicly available gene expression profiles for biological contexts that are enriched with a specified pattern of gene expression. GSCA provides both traditional R functions and interactive\, user\-friendly user interface.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GSCA.html

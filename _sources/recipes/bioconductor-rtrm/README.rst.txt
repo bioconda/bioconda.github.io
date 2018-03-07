@@ -5,7 +5,7 @@ bioconductor-rtrm
 
 |downloads|
 
-rTRM identifies transcriptional regulatory modules \(TRMs\) from protein\-protein interaction networks\.
+rTRM identifies transcriptional regulatory modules \(TRMs\) from protein\-protein interaction networks.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rTRM.html

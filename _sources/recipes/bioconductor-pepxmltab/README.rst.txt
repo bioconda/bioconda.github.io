@@ -5,7 +5,7 @@ bioconductor-pepxmltab
 
 |downloads|
 
-Parsing pepXML files based one XML package\. The package tries to handle pepXML files generated from different softwares\. The output will be a peptide\-spectrum\-matching tabular file\. The package also provide function to filter the PSMs based on FDR\.
+Parsing pepXML files based one XML package. The package tries to handle pepXML files generated from different softwares. The output will be a peptide\-spectrum\-matching tabular file. The package also provide function to filter the PSMs based on FDR.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pepXMLTab.html

@@ -5,7 +5,7 @@ rabix-bunny
 
 |downloads|
 
-Open\-source development kit for the Common Workflow Language from Seven Bridges\. The Rabix executor Bunny\, which can be used to execute apps locally from the command line\.
+Open\-source development kit for the Common Workflow Language from Seven Bridges. The Rabix executor Bunny\, which can be used to execute apps locally from the command line.
 
 ============= ===========
 Home          https://github.com/rabix/bunny

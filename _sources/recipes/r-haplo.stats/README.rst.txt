@@ -5,7 +5,7 @@ r-haplo.stats
 
 |downloads|
 
-Routines for the analysis of indirectly measured haplotypes\. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous \(due to unknown linkage phase of the genetic markers\)\. The main functions are\: haplo\.em\(\)\, haplo\.glm\(\)\, haplo\.score\(\)\, and haplo\.power\(\)\; all of which have detailed examples in the vignette\.
+Routines for the analysis of indirectly measured haplotypes. The statistical methods assume that all subjects are unrelated and that haplotypes are ambiguous \(due to unknown linkage phase of the genetic markers\). The main functions are\: haplo.em\(\)\, haplo.glm\(\)\, haplo.score\(\)\, and haplo.power\(\)\; all of which have detailed examples in the vignette.
 
 ============= ===========
 Home          http://www.mayo.edu/research/labs/statistical-genetics-genetic-epidemiology/software

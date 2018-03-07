@@ -5,7 +5,7 @@ sqlalchemy-utils
 
 |downloads|
 
-Various utility functions for SQLAlchemy\.
+Various utility functions for SQLAlchemy.
 
 ============= ===========
 Home          https://github.com/kvesteri/sqlalchemy-utils

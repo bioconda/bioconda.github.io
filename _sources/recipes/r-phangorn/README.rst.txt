@@ -5,7 +5,7 @@ r-phangorn
 
 |downloads|
 
-Phylogenetic analysis in R\: Estimation of phylogenetic trees and networks using Maximum Likelihood\, Maximum Parsimony\, distance methods and Hadamard conjugation\.
+Phylogenetic analysis in R\: Estimation of phylogenetic trees and networks using Maximum Likelihood\, Maximum Parsimony\, distance methods and Hadamard conjugation.
 
 ============= ===========
 Home          https://github.com/KlausVigo/phangorn

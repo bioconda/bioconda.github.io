@@ -5,7 +5,7 @@ ucsc-bedrestricttopositions
 
 |downloads|
 
-Filter bed file\, restricting to only ones that match chrom\/start\/ends specified in restrict\.bed file\.
+Filter bed file\, restricting to only ones that match chrom\/start\/ends specified in restrict.bed file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

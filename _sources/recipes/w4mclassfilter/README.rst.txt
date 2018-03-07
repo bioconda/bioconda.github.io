@@ -5,7 +5,7 @@ w4mclassfilter
 
 |downloads|
 
-Filter Workflow4Metabolomics dataMatrix\, sampleMetadata\, and variableMetadata files by sample\-class\, imputing zero for NA values and eliminating zero\-variance rows and columns from the data\-matrix\. MIT Licence allows redistribution\.
+Filter Workflow4Metabolomics dataMatrix\, sampleMetadata\, and variableMetadata files by sample\-class\, imputing zero for NA values and eliminating zero\-variance rows and columns from the data\-matrix. MIT Licence allows redistribution.
 
 ============= ===========
 Home          https://github.com/HegemanLab/w4mclassfilter

@@ -41,16 +41,16 @@ and update with::
 
 Notes
 -----
-Installs version 1\.0\.2 of CEAS from cistrome \(commit id d8c0751\,
+Installs version 1.0.2 of CEAS from cistrome \(commit id d8c0751\,
 datestamp 20140929\)\, which includes ceasBW \(a version of ceas which
-can handle bigWig file input from MACS2\)\.
+can handle bigWig file input from MACS2\).
 This version is also patched to suppress warnings about using sqlite3
-rather than MySQLdb\.
+rather than MySQLdb.
 The Cistrome code is at
-https\:\/\/bitbucket\.org\/cistrome\/cistrome\-applications\-harvard\/overview
+https\:\/\/bitbucket.org\/cistrome\/cistrome\-applications\-harvard\/overview
 The CEAS code is under the published\-packages\/CEAS\/ subdirectory
 Cistrome data files and documentation can be found at
-http\:\/\/liulab\.dfci\.harvard\.edu\/CEAS\/index\.html
+http\:\/\/liulab.dfci.harvard.edu\/CEAS\/index.html
 
 
 

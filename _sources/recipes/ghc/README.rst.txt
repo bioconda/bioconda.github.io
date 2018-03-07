@@ -5,7 +5,7 @@ ghc
 
 |downloads|
 
-GHC is a state\-of\-the\-art\, open source\, compiler and interactive environment for the functional language Haskell\.
+GHC is a state\-of\-the\-art\, open source\, compiler and interactive environment for the functional language Haskell.
 
 ============= ===========
 Home          https://www.haskell.org/ghc/

@@ -5,7 +5,7 @@ bioconductor-flipflop
 
 |downloads|
 
-Flipflop discovers which isoforms of a gene are expressed in a given sample together with their abundances\, based on RNA\-Seq read data\. It takes an alignment file in SAM format as input\. It can also discover transcripts from several samples simultaneously\, increasing statistical power\.
+Flipflop discovers which isoforms of a gene are expressed in a given sample together with their abundances\, based on RNA\-Seq read data. It takes an alignment file in SAM format as input. It can also discover transcripts from several samples simultaneously\, increasing statistical power.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flipflop.html

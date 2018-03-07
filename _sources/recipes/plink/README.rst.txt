@@ -5,7 +5,7 @@ plink
 
 |downloads|
 
-Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner\.
+Whole genome association analysis toolset\, designed to perform a range of basic\, large\-scale analyses in a computationally efficient manner.
 
 ============= ===========
 Home          https://www.cog-genomics.org/plink

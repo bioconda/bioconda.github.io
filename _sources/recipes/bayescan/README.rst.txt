@@ -5,7 +5,7 @@ bayescan
 
 |downloads|
 
-Phylogenetics \- Randomized Axelerated Maximum Likelihood\.
+Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
 ============= ===========
 Home          http://cmpg.unibe.ch/software/BayeScan/

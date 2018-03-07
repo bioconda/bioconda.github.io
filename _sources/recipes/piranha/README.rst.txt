@@ -5,7 +5,7 @@ piranha
 
 |downloads|
 
-Piranha is a peak\-caller for CLIP\- and RIP\-Seq data\.
+Piranha is a peak\-caller for CLIP\- and RIP\-Seq data.
 
 ============= ===========
 Home          http://smithlabresearch.org/software/piranha/

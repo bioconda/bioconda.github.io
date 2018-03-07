@@ -5,7 +5,7 @@ musicc
 
 |downloads|
 
-MUSICC\: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome\.
+MUSICC\: A marker genes based framework for metagenomic normalization and accurate profiling of gene abundances in the microbiome.
 
 ============= ===========
 Home          http://elbo.gs.washington.edu/software_musicc.html

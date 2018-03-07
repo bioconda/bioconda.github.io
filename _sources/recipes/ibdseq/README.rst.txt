@@ -5,7 +5,7 @@ ibdseq
 
 |downloads|
 
-IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data\.
+IBDseq is a software program for detecting segments of identity\-by\-descent \(IBD\) and homozygosity\-by\-descent \(HBD\) in unphased genetic sequence data.
 
 ============= ===========
 Home          http://faculty.washington.edu/browning/ibdseq.html

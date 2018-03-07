@@ -5,7 +5,7 @@ r-gprofiler
 
 |downloads|
 
-Functional enrichment analysis\, gene identifier conversion and mapping homologous genes across related organisms via the \'g\:Profiler\' toolkit \(http\:\/\/biit\.cs\.ut\.ee\/gprofiler\/\)\.
+Functional enrichment analysis\, gene identifier conversion and mapping homologous genes across related organisms via the \'g\:Profiler\' toolkit \(http\:\/\/biit.cs.ut.ee\/gprofiler\/\).
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=gProfileR

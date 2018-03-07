@@ -5,7 +5,7 @@ bioconductor-cghmcr
 
 |downloads|
 
-This package provides functions to identify genomic regions of interests based on segmented copy number data from multiple samples\.
+This package provides functions to identify genomic regions of interests based on segmented copy number data from multiple samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cghMCR.html

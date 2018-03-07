@@ -5,7 +5,7 @@ bioconductor-genominator
 
 |downloads|
 
-Tools for storing\, accessing\, analyzing and visualizing genomic data\.
+Tools for storing\, accessing\, analyzing and visualizing genomic data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Genominator.html

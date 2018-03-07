@@ -5,7 +5,7 @@ emmix
 
 |downloads|
 
-A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set\.
+A tool that fits a mixture model of multivariate normal or t\-distributed components to a given data set.
 
 ============= ===========
 Home          https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html

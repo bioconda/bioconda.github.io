@@ -5,7 +5,7 @@ libsvm
 
 |downloads|
 
-LIBSVM is an integrated software for support vector classification\, \(C\-SVC\,nu\-SVC\)\, regression \(epsilon\-SVR\, nu\-SVR\) and distribution estimation\(one\-class SVM\)\. It supports multi\-class classification\.http\:\/\/www\.csie\.ntu\.edu\.tw\/\~cjlin\/libsvm\/
+LIBSVM is an integrated software for support vector classification\, \(C\-SVC\,nu\-SVC\)\, regression \(epsilon\-SVR\, nu\-SVR\) and distribution estimation\(one\-class SVM\). It supports multi\-class classification.http\:\/\/www.csie.ntu.edu.tw\/\~cjlin\/libsvm\/
 
 ============= ===========
 Home          

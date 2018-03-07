@@ -5,7 +5,7 @@ bioconductor-spikeli
 
 |downloads|
 
-SpikeLI  is a package that performs the analysis of the Affymetrix spike\-in data using the Langmuir Isotherm\. The aim of this package is to show the advantages of a physical\-chemistry based analysis of the Affymetrix microarray data compared to the traditional methods\. The spike\-in \(or Latin square\) data for the HGU95 and HGU133 chipsets have been downloaded from the Affymetrix web site\. The model used in the spikeLI package is described in details in E\. Carlon and T\. Heim\, Physica A 362\, 433 \(2006\)\.
+SpikeLI  is a package that performs the analysis of the Affymetrix spike\-in data using the Langmuir Isotherm. The aim of this package is to show the advantages of a physical\-chemistry based analysis of the Affymetrix microarray data compared to the traditional methods. The spike\-in \(or Latin square\) data for the HGU95 and HGU133 chipsets have been downloaded from the Affymetrix web site. The model used in the spikeLI package is described in details in E. Carlon and T. Heim\, Physica A 362\, 433 \(2006\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/spikeLI.html

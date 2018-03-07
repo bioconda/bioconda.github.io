@@ -5,7 +5,7 @@ ucsc-blat
 
 |downloads|
 
-Standalone BLAT v\. 36x2 fast sequence search command line tool
+Standalone BLAT v. 36x2 fast sequence search command line tool
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

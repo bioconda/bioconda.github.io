@@ -5,7 +5,7 @@ bioconductor-plpe
 
 |downloads|
 
-This package performs tests for paired high\-throughput data\.
+This package performs tests for paired high\-throughput data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PLPE.html

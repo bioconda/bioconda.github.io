@@ -5,7 +5,7 @@ bioconductor-biocviews
 
 |downloads|
 
-Infrastructure to support Bioconductor \'views\' used to classify software packages\. \'biocViews\' are directed acyclic graphs of terms from a controlled vocabulary\. There are three major classifications\, corresponding to \'software\'\, \'annotation\'\, and \'experiment data\' packages\.
+Infrastructure to support Bioconductor \'views\' used to classify software packages. \'biocViews\' are directed acyclic graphs of terms from a controlled vocabulary. There are three major classifications\, corresponding to \'software\'\, \'annotation\'\, and \'experiment data\' packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/biocViews.html

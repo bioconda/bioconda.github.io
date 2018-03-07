@@ -5,7 +5,7 @@ perl-extutils-installpaths
 
 |downloads|
 
-Build\.PL install path logic made easy
+Build.PL install path logic made easy
 
 ============= ===========
 Home          http://metacpan.org/pod/ExtUtils-InstallPaths

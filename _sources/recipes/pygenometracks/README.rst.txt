@@ -5,7 +5,7 @@ pygenometracks
 
 |downloads|
 
-Standalone program and library to plot beautiful genome browser tracks\.
+Standalone program and library to plot beautiful genome browser tracks.
 
 ============= ===========
 Home          //github.com/maxplanck-ie/pyGenomeTracks

@@ -5,7 +5,7 @@ bioconductor-nnnorm
 
 |downloads|
 
-This package allows to detect and correct for spatial and intensity biases with two\-channel microarray data\. The normalization method implemented in this package is based on robust neural networks fitting\.
+This package allows to detect and correct for spatial and intensity biases with two\-channel microarray data. The normalization method implemented in this package is based on robust neural networks fitting.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/nnNorm.html

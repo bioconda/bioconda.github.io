@@ -5,7 +5,7 @@ mason
 
 |downloads|
 
-Mason is a collection of tools for the simulation of biological sequences\.
+Mason is a collection of tools for the simulation of biological sequences.
 
 ============= ===========
 Home          https://github.com/seqan/seqan/tree/master/apps/mason2/README

@@ -5,7 +5,7 @@ bioconductor-flowcore
 
 |downloads|
 
-Provides S4 data structures and basic functions to deal with flow cytometry data\.
+Provides S4 data structures and basic functions to deal with flow cytometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowCore.html

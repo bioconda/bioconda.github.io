@@ -5,7 +5,7 @@ yanagiba
 
 |downloads|
 
-Filter short or low quality Oxford Nanopore reads which have been basecalled with Albacore\.
+Filter short or low quality Oxford Nanopore reads which have been basecalled with Albacore.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/Yanagiba

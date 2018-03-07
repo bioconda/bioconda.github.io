@@ -5,7 +5,7 @@ bioconductor-bioqc
 
 |downloads|
 
-BioQC performs quality control of high\-throughput expression data based on tissue gene signatures\. It can detect tissue heterogeneity in gene expression data\. The core algorithm is a Wilcoxon\-Mann\-Whitney test that is optimised for high performance\.
+BioQC performs quality control of high\-throughput expression data based on tissue gene signatures. It can detect tissue heterogeneity in gene expression data. The core algorithm is a Wilcoxon\-Mann\-Whitney test that is optimised for high performance.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BioQC.html

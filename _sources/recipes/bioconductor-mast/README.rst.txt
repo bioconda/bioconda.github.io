@@ -5,7 +5,7 @@ bioconductor-mast
 
 |downloads|
 
-Methods and models for handling zero\-inflated single cell assay data\.
+Methods and models for handling zero\-inflated single cell assay data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MAST.html

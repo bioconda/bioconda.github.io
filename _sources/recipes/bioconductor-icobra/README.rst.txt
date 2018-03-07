@@ -5,7 +5,7 @@ bioconductor-icobra
 
 |downloads|
 
-This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods\. It also contains a shiny application for interactive exploration of results\.
+This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/iCOBRA.html

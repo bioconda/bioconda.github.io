@@ -5,7 +5,7 @@ itk
 
 |downloads|
 
-ITK is an open\-source\, cross\-platform system that provides developers with an extensive suite of software tools for image analysis\.
+ITK is an open\-source\, cross\-platform system that provides developers with an extensive suite of software tools for image analysis.
 
 ============= ===========
 Home          http://www.itk.org/

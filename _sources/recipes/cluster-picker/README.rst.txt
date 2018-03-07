@@ -5,7 +5,7 @@ cluster-picker
 
 |downloads|
 
-The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes\. Cut\-offs for within cluster genetic distance and bootstrap support are selected by the user\.
+The Cluster Picker identifies clusters in newick\-formatted trees containing thousands of sequences within a few minutes. Cut\-offs for within cluster genetic distance and bootstrap support are selected by the user.
 
 ============= ===========
 Home          http://hiv.bio.ed.ac.uk/software.html

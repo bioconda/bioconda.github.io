@@ -5,7 +5,7 @@ synapseclient
 
 |downloads|
 
-A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together\.
+A client for Synapse\, a collaborative compute space  that allows scientists to share and analyze data together.
 
 ============= ===========
 Home          http://synapse.sagebase.org/

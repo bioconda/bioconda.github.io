@@ -5,7 +5,7 @@ arem
 
 |downloads|
 
-Aligning Reads by Expectation\-Maximization\.\\nBased on MACS \(Model Based Analysis for ChIP\-Seq data\)
+Aligning Reads by Expectation\-Maximization.\\nBased on MACS \(Model Based Analysis for ChIP\-Seq data\)
 
 ============= ===========
 Home          http://cbcl.ics.uci.edu/AREM

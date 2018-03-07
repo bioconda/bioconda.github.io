@@ -5,7 +5,7 @@ ucsc-dbsnoop
 
 |downloads|
 
-Produce an overview of a database\.
+Produce an overview of a database.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

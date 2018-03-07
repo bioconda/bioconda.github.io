@@ -5,7 +5,7 @@ bioconductor-scnorm
 
 |downloads|
 
-This package implements SCnorm — a method to normalize single\-cell RNA\-seq data\.
+This package implements SCnorm — a method to normalize single\-cell RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SCnorm.html

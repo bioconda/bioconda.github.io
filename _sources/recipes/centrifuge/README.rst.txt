@@ -5,7 +5,7 @@ centrifuge
 
 |downloads|
 
-Classifier for metagenomic sequences\.
+Classifier for metagenomic sequences.
 
 ============= ===========
 Home          https://github.com/infphilo/centrifuge

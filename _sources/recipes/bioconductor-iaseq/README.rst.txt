@@ -5,7 +5,7 @@ bioconductor-iaseq
 
 |downloads|
 
-It fits correlation motif model to multiple RNAseq or ChIPseq studies to improve detection of allele\-specific events and describe correlation patterns across studies\.
+It fits correlation motif model to multiple RNAseq or ChIPseq studies to improve detection of allele\-specific events and describe correlation patterns across studies.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/iASeq.html

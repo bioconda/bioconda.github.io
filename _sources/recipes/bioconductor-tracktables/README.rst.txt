@@ -5,7 +5,7 @@ bioconductor-tracktables
 
 |downloads|
 
-Methods to create complex IGV genome browser sessions and dynamic IGV reports in HTML pages\.
+Methods to create complex IGV genome browser sessions and dynamic IGV reports in HTML pages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/tracktables.html

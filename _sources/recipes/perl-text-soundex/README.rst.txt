@@ -5,7 +5,7 @@ perl-text-soundex
 
 |downloads|
 
-Implementation of the soundex algorithm\.
+Implementation of the soundex algorithm.
 
 ============= ===========
 Home          http://search.cpan.org/~rjbs/Text-Soundex-3.05/Soundex.pm

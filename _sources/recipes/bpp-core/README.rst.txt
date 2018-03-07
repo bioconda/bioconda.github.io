@@ -5,7 +5,7 @@ bpp-core
 
 |downloads|
 
-Bio\+\+ is a set of C\+\+ libraries for Bioinformatics\.
+Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 
 ============= ===========
 Home          https://github.com/BioPP/bpp-core

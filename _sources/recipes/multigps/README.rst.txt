@@ -5,7 +5,7 @@ multigps
 
 |downloads|
 
-MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions\.
+MultiGPS is a framework for analyzing collections of multi\-condition ChIP\-seq datasets and characterizing differential binding events between conditions.
 
 ============= ===========
 Home          http://mahonylab.org/software/multigps/

@@ -5,7 +5,7 @@ perl-excel-writer-xlsx
 
 |downloads|
 
-Create a new file in the Excel 2007\+ XLSX format\.
+Create a new file in the Excel 2007\+ XLSX format.
 
 ============= ===========
 Home          http://jmcnamara.github.com/excel-writer-xlsx/

@@ -5,7 +5,7 @@ cufflinks
 
 |downloads|
 
-Transcriptome assembly and differential expression analysis for RNA\-Seq\.
+Transcriptome assembly and differential expression analysis for RNA\-Seq.
 
 ============= ===========
 Home          http://cole-trapnell-lab.github.io/cufflinks/

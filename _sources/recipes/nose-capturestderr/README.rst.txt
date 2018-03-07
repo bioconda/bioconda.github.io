@@ -5,7 +5,7 @@ nose-capturestderr
 
 |downloads|
 
-Nose plugin for capturing stderr\.
+Nose plugin for capturing stderr.
 
 ============= ===========
 Home          http://github.com/sio2project/nose-capturestderr

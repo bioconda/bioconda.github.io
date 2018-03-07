@@ -5,7 +5,7 @@ genonets
 
 |downloads|
 
-Framework for creating and analyzing genotype networks from data\.
+Framework for creating and analyzing genotype networks from data.
 
 ============= ===========
 Home          https://github.com/fkhalid/genonets

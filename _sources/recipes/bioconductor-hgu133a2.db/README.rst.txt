@@ -5,7 +5,7 @@ bioconductor-hgu133a2.db
 
 |downloads|
 
-Affymetrix Human Genome U133A 2\.0 Array annotation data \(chip hgu133a2\) assembled using data from public repositories
+Affymetrix Human Genome U133A 2.0 Array annotation data \(chip hgu133a2\) assembled using data from public repositories
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/hgu133a2.db.html

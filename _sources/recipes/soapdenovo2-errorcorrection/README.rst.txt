@@ -5,7 +5,7 @@ soapdenovo2-errorcorrection
 
 |downloads|
 
-Error correction for soapdenovo2\.
+Error correction for soapdenovo2.
 
 ============= ===========
 Home          http://soap.genomics.org.cn/soapdenovo.html

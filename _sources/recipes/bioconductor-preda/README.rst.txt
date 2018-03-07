@@ -5,7 +5,7 @@ bioconductor-preda
 
 |downloads|
 
-Package for the position related analysis of quantitative functional genomics data\.
+Package for the position related analysis of quantitative functional genomics data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PREDA.html

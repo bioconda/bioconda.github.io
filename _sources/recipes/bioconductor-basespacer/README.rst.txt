@@ -5,7 +5,7 @@ bioconductor-basespacer
 
 |downloads|
 
-A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabling the fast development of data analysis and visualisation tools\.
+A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabling the fast development of data analysis and visualisation tools.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BaseSpaceR.html

@@ -5,7 +5,7 @@ perl-hpc-runner-command-plugin-logger-sqlite
 
 |downloads|
 
-Log HPC\:\:Runner workflows to a sqlite DB\.
+Log HPC\:\:Runner workflows to a sqlite DB.
 
 ============= ===========
 Home          https://github.com/biosails/HPC-Runner-Command-Plugin-Logger-Sqlite

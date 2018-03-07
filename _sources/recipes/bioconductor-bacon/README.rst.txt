@@ -5,7 +5,7 @@ bioconductor-bacon
 
 |downloads|
 
-Bacon can be used to remove inflation and bias often observed in epigenome\- and transcriptome\-wide association studies\. To this end bacon constructs an empirical null distribution using a Gibbs Sampling algorithm by fitting a three\-component normal mixture on z\-scores\.
+Bacon can be used to remove inflation and bias often observed in epigenome\- and transcriptome\-wide association studies. To this end bacon constructs an empirical null distribution using a Gibbs Sampling algorithm by fitting a three\-component normal mixture on z\-scores.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/bacon.html

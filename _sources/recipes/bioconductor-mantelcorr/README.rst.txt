@@ -5,7 +5,7 @@ bioconductor-mantelcorr
 
 |downloads|
 
-Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e\.g\. microarray gene\-expression data\)\.
+Computes Mantel cluster correlations from a \(p x n\) numeric data matrix \(e.g. microarray gene\-expression data\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MantelCorr.html

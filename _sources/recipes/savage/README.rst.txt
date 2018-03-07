@@ -5,7 +5,7 @@ savage
 
 |downloads|
 
-SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample\.
+SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) haplotypes from a mixed sample.
 
 ============= ===========
 Home          https://bitbucket.org/jbaaijens/savage

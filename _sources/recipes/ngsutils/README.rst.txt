@@ -5,7 +5,7 @@ ngsutils
 
 |downloads|
 
-Tools for next\-generation sequencing analysis http\:\/\/ngsutils\.org
+Tools for next\-generation sequencing analysis http\:\/\/ngsutils.org
 
 ============= ===========
 Home          http://ngsutils.org

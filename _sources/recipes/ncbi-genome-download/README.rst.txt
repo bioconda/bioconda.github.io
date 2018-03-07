@@ -5,7 +5,7 @@ ncbi-genome-download
 
 |downloads|
 
-Download genome files from the NCBI FTP server\.
+Download genome files from the NCBI FTP server.
 
 ============= ===========
 Home          https://github.com/kblin/ncbi-genome-download/

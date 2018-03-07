@@ -5,7 +5,7 @@ itsx
 
 |downloads|
 
-ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e\.g\. fungi\.
+ITSx is an open source software utility to extract the highly variable ITS1 and ITS2 subregions from ITS sequences\, which is commonly used as a molecular barcode for e.g. fungi.
 
 ============= ===========
 Home          http://microbiology.se/software/itsx/

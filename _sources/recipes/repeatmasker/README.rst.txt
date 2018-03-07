@@ -5,7 +5,7 @@ repeatmasker
 
 |downloads|
 
-RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences\.
+RepeatMasker is a program that screens DNA sequences for interspersed repeats and low complexity DNA sequences.
 
 ============= ===========
 Home          http://www.repeatmasker.org

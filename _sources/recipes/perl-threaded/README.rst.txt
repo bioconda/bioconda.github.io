@@ -5,7 +5,7 @@ perl-threaded
 
 |downloads|
 
-The Perl language\.
+The Perl language.
 
 ============= ===========
 Home          http://www.perl.org/

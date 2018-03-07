@@ -5,7 +5,7 @@ pymot
 
 |downloads|
 
-This is a python implementation which determines the MOTP and MOTA metrics from a set of ground truth tracks and a set of hypothesis tracks given by the tracker to be evaluated\.
+This is a python implementation which determines the MOTP and MOTA metrics from a set of ground truth tracks and a set of hypothesis tracks given by the tracker to be evaluated.
 
 ============= ===========
 Home          https://github.com/Videmo/pymot

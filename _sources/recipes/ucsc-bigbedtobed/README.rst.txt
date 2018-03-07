@@ -5,7 +5,7 @@ ucsc-bigbedtobed
 
 |downloads|
 
-Convert from bigBed to ascii bed format\.
+Convert from bigBed to ascii bed format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

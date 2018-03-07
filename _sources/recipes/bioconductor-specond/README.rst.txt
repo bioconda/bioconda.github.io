@@ -5,7 +5,7 @@ bioconductor-specond
 
 |downloads|
 
-This package performs a gene expression data analysis to detect condition\-specific genes\. Such genes are significantly up\- or down\-regulated in a small number of conditions\. It does so by fitting a mixture of normal distributions to the expression values\. Conditions can be environmental conditions\, different tissues\, organs or any other sources that you wish to compare in terms of gene expression\.
+This package performs a gene expression data analysis to detect condition\-specific genes. Such genes are significantly up\- or down\-regulated in a small number of conditions. It does so by fitting a mixture of normal distributions to the expression values. Conditions can be environmental conditions\, different tissues\, organs or any other sources that you wish to compare in terms of gene expression.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SpeCond.html

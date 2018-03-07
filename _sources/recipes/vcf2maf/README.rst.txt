@@ -35,8 +35,8 @@ and update with::
 
 Notes
 -----
-This package installs only vcf2maf and does not integrate with the variant\-effect\-predictor \(VEP\)\. To
-do so\, please follow the instructions at https\:\/\/github\.com\/mskcc\/vcf2maf\/blob\/master\/README\.md\.
+This package installs only vcf2maf and does not integrate with the variant\-effect\-predictor \(VEP\). To
+do so\, please follow the instructions at https\:\/\/github.com\/mskcc\/vcf2maf\/blob\/master\/README.md.
 
 
 

@@ -5,7 +5,7 @@ bioconductor-rprotobuflib
 
 |downloads|
 
-This package provides the headers and static library of Protocol buffers 2\.6\.0 for other R packages to compile and link against\.
+This package provides the headers and static library of Protocol buffers 2.6.0 for other R packages to compile and link against.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RProtoBufLib.html

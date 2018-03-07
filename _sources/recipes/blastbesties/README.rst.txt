@@ -5,7 +5,7 @@ blastbesties
 
 |downloads|
 
-Rapid discovery of reciprocal best blast pairs from BLAST output files\.
+Rapid discovery of reciprocal best blast pairs from BLAST output files.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/blast-besties

@@ -5,7 +5,7 @@ sift4g
 
 |downloads|
 
-SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms\.
+SIFT 4G is a faster version of SIFT that enables us to scale up and provide SIFT predictions for more organisms.
 
 ============= ===========
 Home          http://sift.bii.a-star.edu.sg/sift4g/

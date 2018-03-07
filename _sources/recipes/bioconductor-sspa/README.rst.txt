@@ -5,7 +5,7 @@ bioconductor-sspa
 
 |downloads|
 
-General Sample size and power analysis for microarray and next\-generation sequencing data\.
+General Sample size and power analysis for microarray and next\-generation sequencing data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SSPA.html

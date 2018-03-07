@@ -5,7 +5,7 @@ r-grimport
 
 |downloads|
 
-Functions for converting\, importing\, and drawing PostScript  pictures in R plots\.
+Functions for converting\, importing\, and drawing PostScript  pictures in R plots.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=grImport

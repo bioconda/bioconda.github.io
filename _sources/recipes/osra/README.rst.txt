@@ -5,7 +5,7 @@ osra
 
 |downloads|
 
-OSRA is a utility designed to convert graphical representations of chemical structures\, as they appear in journal articles\, patent documents\, textbooks\, trade magazines etc\.\, into SMILES or SDF\.
+OSRA is a utility designed to convert graphical representations of chemical structures\, as they appear in journal articles\, patent documents\, textbooks\, trade magazines etc.\, into SMILES or SDF.
 
 ============= ===========
 Home          http://cactus.nci.nih.gov/osra/

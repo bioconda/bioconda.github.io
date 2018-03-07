@@ -5,7 +5,7 @@ ucsc-fasize
 
 |downloads|
 
-print total base count in fa files\.
+print total base count in fa files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

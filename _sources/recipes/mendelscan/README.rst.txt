@@ -5,7 +5,7 @@ mendelscan
 
 |downloads|
 
-Analyze exome data for Mendelian disorders\.
+Analyze exome data for Mendelian disorders.
 
 ============= ===========
 Home          https://github.com/genome/mendelscan

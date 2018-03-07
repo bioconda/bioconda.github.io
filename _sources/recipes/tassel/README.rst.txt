@@ -5,7 +5,7 @@ tassel
 
 |downloads|
 
-TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium\.
+TASSEL is a software package to evaluate traits associations\, evolutionary patterns\, and linkage disequilibrium.
 
 ============= ===========
 Home          http://www.maizegenetics.net/tassel

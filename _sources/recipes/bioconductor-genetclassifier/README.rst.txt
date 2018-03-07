@@ -5,7 +5,7 @@ bioconductor-genetclassifier
 
 |downloads|
 
-Comprehensive package to automatically train and validate a multi\-class SVM classifier based on gene expression data\. Provides transparent selection of gene markers\, their coexpression networks\, and an interface to query the classifier\.
+Comprehensive package to automatically train and validate a multi\-class SVM classifier based on gene expression data. Provides transparent selection of gene markers\, their coexpression networks\, and an interface to query the classifier.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/geNetClassifier.html

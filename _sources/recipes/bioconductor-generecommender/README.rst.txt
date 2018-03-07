@@ -5,7 +5,7 @@ bioconductor-generecommender
 
 |downloads|
 
-This package contains a targeted clustering algorithm for the analysis of microarray data\. The algorithm can aid in the discovery of new genes with similar functions to a given list of genes already known to have closely related functions\.
+This package contains a targeted clustering algorithm for the analysis of microarray data. The algorithm can aid in the discovery of new genes with similar functions to a given list of genes already known to have closely related functions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/geneRecommender.html

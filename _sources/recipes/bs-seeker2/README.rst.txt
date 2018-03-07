@@ -5,7 +5,7 @@ bs-seeker2
 
 |downloads|
 
-BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping the bisulfite\-treated short reads\.
+BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping the bisulfite\-treated short reads.
 
 ============= ===========
 Home          http://pellegrini.mcdb.ucla.edu/BS_Seeker2/

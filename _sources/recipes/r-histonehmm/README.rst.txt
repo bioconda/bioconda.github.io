@@ -5,7 +5,7 @@ r-histonehmm
 
 |downloads|
 
-histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3\. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
+histoneHMM is a software to analyse ChIP\-seq data of histone modifications with broad genomic footprints like H3K27me3. It allows for calling modified regions in single samples as well as for calling differentially modified regions in a comparison of two samples
 
 ============= ===========
 Home          http://histonehmm.molgen.mpg.de/

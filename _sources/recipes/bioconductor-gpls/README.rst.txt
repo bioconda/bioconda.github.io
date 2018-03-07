@@ -5,7 +5,7 @@ bioconductor-gpls
 
 |downloads|
 
-Classification using generalized partial least squares for two\-group and multi\-group \(more than 2 group\) classification\.
+Classification using generalized partial least squares for two\-group and multi\-group \(more than 2 group\) classification.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/gpls.html

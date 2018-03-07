@@ -5,7 +5,7 @@ bioconductor-psicquic
 
 |downloads|
 
-PSICQUIC is a project within the HUPO Proteomics Standard Initiative \(HUPO\-PSI\)\.  It standardises programmatic access to molecular interaction databases\.
+PSICQUIC is a project within the HUPO Proteomics Standard Initiative \(HUPO\-PSI\).  It standardises programmatic access to molecular interaction databases.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PSICQUIC.html

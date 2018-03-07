@@ -5,7 +5,7 @@ pileometh
 
 |downloads|
 
-A \(mostly\) universal methylation extractor for BS\-seq experiments\.
+A \(mostly\) universal methylation extractor for BS\-seq experiments.
 
 ============= ===========
 Home          https://github.com/dpryan79/PileOMeth

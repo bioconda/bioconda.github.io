@@ -5,7 +5,7 @@ bioconductor-minfi
 
 |downloads|
 
-Tools to analyze \& visualize Illumina Infinium methylation arrays\.
+Tools to analyze \& visualize Illumina Infinium methylation arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/minfi.html

@@ -5,7 +5,7 @@ perl-git-wrapper-plus
 
 |downloads|
 
-A Toolkit for working with Git\:\:Wrapper in an Object Oriented Way\.
+A Toolkit for working with Git\:\:Wrapper in an Object Oriented Way.
 
 ============= ===========
 Home          https://github.com/kentfredric/Git-Wrapper-Plus

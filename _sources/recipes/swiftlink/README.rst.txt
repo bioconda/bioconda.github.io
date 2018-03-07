@@ -5,7 +5,7 @@ swiftlink
 
 |downloads|
 
-A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i\.e\. many markers\, but larger pedigrees\.
+A multipoint parametric linkage analysis tool for large consanguineous pedigrees and is primarily targeted at pedigrees that cannot be analysed by a Lander\-Green algorithm based program\, i.e. many markers\, but larger pedigrees.
 
 ============= ===========
 Home          https://github.com/ajm/swiftlink

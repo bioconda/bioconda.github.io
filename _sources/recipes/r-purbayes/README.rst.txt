@@ -5,7 +5,7 @@ r-purbayes
 
 |downloads|
 
-PurBayes is an MCMC\-based algorithm that uses next\-generation sequencing data to estimate tumor purity and clonality for paired tumor\-normal data\.
+PurBayes is an MCMC\-based algorithm that uses next\-generation sequencing data to estimate tumor purity and clonality for paired tumor\-normal data.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=PurBayes

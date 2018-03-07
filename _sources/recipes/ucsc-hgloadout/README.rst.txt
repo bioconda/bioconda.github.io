@@ -5,7 +5,7 @@ ucsc-hgloadout
 
 |downloads|
 
-load RepeatMasker \.out files into database
+load RepeatMasker .out files into database
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

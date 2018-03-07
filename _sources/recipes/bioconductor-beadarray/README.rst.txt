@@ -5,7 +5,7 @@ bioconductor-beadarray
 
 |downloads|
 
-The package is able to read bead\-level data \(raw TIFFs and text files\) output by BeadScan as well as bead\-summary data from BeadStudio\.  Methods for quality assessment and low\-level analysis are provided\.
+The package is able to read bead\-level data \(raw TIFFs and text files\) output by BeadScan as well as bead\-summary data from BeadStudio.  Methods for quality assessment and low\-level analysis are provided.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/beadarray.html

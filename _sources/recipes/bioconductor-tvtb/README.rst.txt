@@ -5,7 +5,7 @@ bioconductor-tvtb
 
 |downloads|
 
-The package provides S4 classes and methods to filter\, summarise and visualise genetic variation data stored in VCF files\. In particular\, the package extends the FilterRules class \(S4Vectors package\) to define news classes of filter rules applicable to the various slots of VCF objects\. Functionalities are integrated and demonstrated in a Shiny web\-application\, the Shiny Variant Explorer \(tSVE\)\.
+The package provides S4 classes and methods to filter\, summarise and visualise genetic variation data stored in VCF files. In particular\, the package extends the FilterRules class \(S4Vectors package\) to define news classes of filter rules applicable to the various slots of VCF objects. Functionalities are integrated and demonstrated in a Shiny web\-application\, the Shiny Variant Explorer \(tSVE\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TVTB.html

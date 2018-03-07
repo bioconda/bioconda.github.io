@@ -5,7 +5,7 @@ bioconductor-masigpro
 
 |downloads|
 
-maSigPro is a regression based approach to find genes for which there are significant gene expression profile differences between experimental groups in time course microarray and RNA\-Seq experiments\.
+maSigPro is a regression based approach to find genes for which there are significant gene expression profile differences between experimental groups in time course microarray and RNA\-Seq experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/maSigPro.html

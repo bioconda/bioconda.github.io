@@ -5,7 +5,7 @@ bioconductor-diffbind
 
 |downloads|
 
-Compute differentially bound sites from multiple ChIP\-seq experiments using affinity \(quantitative\) data\. Also enables occupancy \(overlap\) analysis and plotting functions\.
+Compute differentially bound sites from multiple ChIP\-seq experiments using affinity \(quantitative\) data. Also enables occupancy \(overlap\) analysis and plotting functions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DiffBind.html

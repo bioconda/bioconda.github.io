@@ -5,7 +5,7 @@ flapjack
 
 |downloads|
 
-Flapjack provides interactive visualizations of high\-throughput genotyping data\.
+Flapjack provides interactive visualizations of high\-throughput genotyping data.
 
 ============= ===========
 Home          https://ics.hutton.ac.uk/flapjack

@@ -5,7 +5,7 @@ pytest-timeout
 
 |downloads|
 
-py\.test plugin to abort hanging tests
+py.test plugin to abort hanging tests
 
 ============= ===========
 Home          http://bitbucket.org/pytest-dev/pytest-timeout/

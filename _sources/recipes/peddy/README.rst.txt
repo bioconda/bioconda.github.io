@@ -5,7 +5,7 @@ peddy
 
 |downloads|
 
-genotype \:\: ped correspondence check\, ancestry check\, sex check\. directly\, quickly on VCF
+genotype \:\: ped correspondence check\, ancestry check\, sex check. directly\, quickly on VCF
 
 ============= ===========
 Home          https://github.com/brentp/peddy

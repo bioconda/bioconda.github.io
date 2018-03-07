@@ -5,7 +5,7 @@ r-pscbs
 
 |downloads|
 
-Segmentation of allele\-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome\.  Both tumor\-normal paired and tumor\-only analyses are supported\.
+Segmentation of allele\-specific DNA copy number data and detection of regions with abnormal copy number within each parental chromosome.  Both tumor\-normal paired and tumor\-only analyses are supported.
 
 ============= ===========
 Home          https://github.com/HenrikBengtsson/PSCBS

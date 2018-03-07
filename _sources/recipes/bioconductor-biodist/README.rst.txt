@@ -5,7 +5,7 @@ bioconductor-biodist
 
 |downloads|
 
-A collection of software tools for calculating distance measures\.
+A collection of software tools for calculating distance measures.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/bioDist.html

@@ -5,7 +5,7 @@ ucsc-genepredhisto
 
 |downloads|
 
-get data for generating histograms from a genePred file\.
+get data for generating histograms from a genePred file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ gemini
 
 |downloads|
 
-a lightweight db framework for disease and population genetics\.
+a lightweight db framework for disease and population genetics.
 
 ============= ===========
 Home          https://github.com/arq5x/gemini

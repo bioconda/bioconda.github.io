@@ -5,7 +5,7 @@ kallisto
 
 |downloads|
 
-Quantifying abundances of transcripts from RNA\-Seq data\, or more generally of target sequences using high\-throughput sequencing reads\.
+Quantifying abundances of transcripts from RNA\-Seq data\, or more generally of target sequences using high\-throughput sequencing reads.
 
 ============= ===========
 Home          http://pachterlab.github.io/kallisto

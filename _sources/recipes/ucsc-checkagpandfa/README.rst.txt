@@ -5,7 +5,7 @@ ucsc-checkagpandfa
 
 |downloads|
 
-takes a \.agp file and \.fa file and ensures that they are in synch
+takes a .agp file and .fa file and ensures that they are in synch
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

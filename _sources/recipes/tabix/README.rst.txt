@@ -5,7 +5,7 @@ tabix
 
 |downloads|
 
-A set of tools written in Perl and C\+\+ for working with VCF files\.
+A set of tools written in Perl and C\+\+ for working with VCF files.
 
 ============= ===========
 Home          https://sourceforge.net/projects/samtools

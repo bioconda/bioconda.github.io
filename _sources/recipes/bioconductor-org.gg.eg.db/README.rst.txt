@@ -5,7 +5,7 @@ bioconductor-org.gg.eg.db
 
 |downloads|
 
-Genome wide annotation for Chicken\, primarily based on mapping using Entrez Gene identifiers\.
+Genome wide annotation for Chicken\, primarily based on mapping using Entrez Gene identifiers.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/org.Gg.eg.db.html

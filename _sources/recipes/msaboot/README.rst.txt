@@ -5,7 +5,7 @@ msaboot
 
 |downloads|
 
-Generate bootstrapping replicates for multiple sequence alignment data\.
+Generate bootstrapping replicates for multiple sequence alignment data.
 
 ============= ===========
 Home          https://github.com/phac-nml/msaboot

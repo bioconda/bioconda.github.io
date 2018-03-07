@@ -5,7 +5,7 @@ r-kmsurv
 
 |downloads|
 
-Data sets and functions for Klein and Moeschberger \(1997\)\, \"Survival Analysis\, Techniques for Censored and Truncated Data\"\, Springer\.
+Data sets and functions for Klein and Moeschberger \(1997\)\, \"Survival Analysis\, Techniques for Censored and Truncated Data\"\, Springer.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=KMsurv

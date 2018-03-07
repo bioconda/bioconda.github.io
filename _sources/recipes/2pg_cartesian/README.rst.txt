@@ -5,7 +5,7 @@
 
 |downloads|
 
-2pg cartesian is a framework of optimization algorithms for protein structure prediction\.
+2pg cartesian is a framework of optimization algorithms for protein structure prediction.
 
 ============= ===========
 Home          https://github.com/rodrigofaccioli/2pg_cartesian

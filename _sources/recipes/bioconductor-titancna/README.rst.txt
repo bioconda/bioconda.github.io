@@ -5,7 +5,7 @@ bioconductor-titancna
 
 |downloads|
 
-Hidden Markov model to segment and predict regions of subclonal copy number alterations \(CNA\) and loss of heterozygosity \(LOH\)\, and estimate cellular prevalenece of clonal clusters in tumour whole genome sequencing data\.
+Hidden Markov model to segment and predict regions of subclonal copy number alterations \(CNA\) and loss of heterozygosity \(LOH\)\, and estimate cellular prevalenece of clonal clusters in tumour whole genome sequencing data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TitanCNA.html

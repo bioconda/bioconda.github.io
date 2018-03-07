@@ -5,7 +5,7 @@ tinscan
 
 |downloads|
 
-Find alignment signatures characteristic of transposon insertion sites\.
+Find alignment signatures characteristic of transposon insertion sites.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/TE-insertion-scanner

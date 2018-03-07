@@ -5,7 +5,7 @@ r-data.table
 
 |downloads|
 
-Fast aggregation of large data \(e\.g\. 100GB in RAM\)\, fast ordered joins\, fast add\/modify\/delete of columns by group using no copies at all\, list columns\, a fast friendly file reader and parallel file writer\. Offers a natural and flexible syntax\, for faster development\.
+Fast aggregation of large data \(e.g. 100GB in RAM\)\, fast ordered joins\, fast add\/modify\/delete of columns by group using no copies at all\, list columns\, a fast friendly file reader and parallel file writer. Offers a natural and flexible syntax\, for faster development.
 
 ============= ===========
 Home          http://r-datatable.com

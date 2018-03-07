@@ -5,7 +5,7 @@ bioconductor-pvac
 
 |downloads|
 
-The package contains the function for filtering genes by the proportion of variation accounted for by the first principal component \(PVAC\)\.
+The package contains the function for filtering genes by the proportion of variation accounted for by the first principal component \(PVAC\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pvac.html

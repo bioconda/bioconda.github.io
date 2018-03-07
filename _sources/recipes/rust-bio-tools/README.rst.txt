@@ -6,7 +6,7 @@ rust-bio-tools
 |downloads|
 
 A growing collection of fast and secure command line utililities for dealing with NGS data
-implemented on top of Rust\-Bio\.
+implemented on top of Rust\-Bio.
 
 
 ============= ===========

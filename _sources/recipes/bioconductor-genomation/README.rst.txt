@@ -5,7 +5,7 @@ bioconductor-genomation
 
 |downloads|
 
-A package for summary and annotation of genomic intervals\. Users can visualize and quantify genomic intervals over pre\-defined functional regions\, such as promoters\, exons\, introns\, etc\. The genomic intervals represent regions with a defined chromosome position\, which may be associated with a score\, such as aligned reads from HT\-seq experiments\, TF binding sites\, methylation scores\, etc\. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals\. In addition\, It can use BAM or BigWig files as input\.
+A package for summary and annotation of genomic intervals. Users can visualize and quantify genomic intervals over pre\-defined functional regions\, such as promoters\, exons\, introns\, etc. The genomic intervals represent regions with a defined chromosome position\, which may be associated with a score\, such as aligned reads from HT\-seq experiments\, TF binding sites\, methylation scores\, etc. The package can use any tabular genomic feature data as long as it has minimal information on the locations of genomic intervals. In addition\, It can use BAM or BigWig files as input.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/genomation.html

@@ -5,7 +5,7 @@ bioconductor-methylmnm
 
 |downloads|
 
-To give the exactly p\-value and q\-value of MeDIP\-seq and MRE\-seq data for different samples comparation\.
+To give the exactly p\-value and q\-value of MeDIP\-seq and MRE\-seq data for different samples comparation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/methylMnM.html

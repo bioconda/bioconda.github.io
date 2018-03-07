@@ -5,7 +5,7 @@ maxbin2
 
 |downloads|
 
-MaxBin is software for binning assembled metagenomic sequences based on an Expectation\-Maximization algorithm\.
+MaxBin is software for binning assembled metagenomic sequences based on an Expectation\-Maximization algorithm.
 
 ============= ===========
 Home          http://downloads.jbei.org/data/microbial_communities/MaxBin/MaxBin.html

@@ -5,7 +5,7 @@ graphmap
 
 |downloads|
 
-A highly sensitive and accurate mapper for long\, error\-prone reads\.
+A highly sensitive and accurate mapper for long\, error\-prone reads.
 
 ============= ===========
 Home          https://github.com/isovic/graphmap

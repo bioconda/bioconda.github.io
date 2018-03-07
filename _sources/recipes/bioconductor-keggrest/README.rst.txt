@@ -5,7 +5,7 @@ bioconductor-keggrest
 
 |downloads|
 
-A package that provides a client interface to the KEGG REST server\. Based on KEGGSOAP by J\. Zhang\, R\. Gentleman\, and Marc Carlson\, and KEGG \(python package\) by Aurelien Mazurie\.
+A package that provides a client interface to the KEGG REST server. Based on KEGGSOAP by J. Zhang\, R. Gentleman\, and Marc Carlson\, and KEGG \(python package\) by Aurelien Mazurie.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/KEGGREST.html

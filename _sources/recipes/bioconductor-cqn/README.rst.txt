@@ -5,7 +5,7 @@ bioconductor-cqn
 
 |downloads|
 
-A normalization tool for RNA\-Seq data\, implementing the conditional quantile normalization method\.
+A normalization tool for RNA\-Seq data\, implementing the conditional quantile normalization method.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cqn.html

@@ -5,7 +5,7 @@ bioconductor-rtrmui
 
 |downloads|
 
-This package provides a web interface to compute transcriptional regulatory modules with rTRM\.
+This package provides a web interface to compute transcriptional regulatory modules with rTRM.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rTRMui.html

@@ -5,7 +5,7 @@ perl-file-readbackwards
 
 |downloads|
 
-Read a file backwards by lines\.
+Read a file backwards by lines.
 
 ============= ===========
 Home          http://metacpan.org/pod/File::ReadBackwards

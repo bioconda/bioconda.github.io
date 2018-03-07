@@ -5,7 +5,7 @@ fusion-inspector
 
 |downloads|
 
-FusionInspector is a component of the Trinity Cancer Transcriptome Analysis Toolkit \(CTAT\)\. FusionInspector assists in fusion transcript discovery by performing a supervised analysis of fusion predictions\, attempting to recover and re\-score evidence for such predictions\. \- https\:\/\/github\.com\/FusionInspector\/FusionInspector\/wiki
+FusionInspector is a component of the Trinity Cancer Transcriptome Analysis Toolkit \(CTAT\). FusionInspector assists in fusion transcript discovery by performing a supervised analysis of fusion predictions\, attempting to recover and re\-score evidence for such predictions. \- https\:\/\/github.com\/FusionInspector\/FusionInspector\/wiki
 
 ============= ===========
 Home          https://github.com/FusionInspector/FusionInspector

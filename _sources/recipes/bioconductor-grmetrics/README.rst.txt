@@ -5,7 +5,7 @@ bioconductor-grmetrics
 
 |downloads|
 
-Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics\.
+Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GRmetrics.html

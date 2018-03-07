@@ -5,7 +5,7 @@ minimap2
 
 |downloads|
 
-A versatile pairwise aligner for genomic and spliced nucleotide sequences\.
+A versatile pairwise aligner for genomic and spliced nucleotide sequences.
 
 ============= ===========
 Home          https://github.com/lh3/minimap2

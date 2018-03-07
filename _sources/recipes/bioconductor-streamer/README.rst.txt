@@ -5,7 +5,7 @@ bioconductor-streamer
 
 |downloads|
 
-Large data files can be difficult to work with in R\, where data generally resides in memory\. This package encourages a style of programming where data is \'streamed\' from disk into R via a \`producer\' and through a series of \`consumers\' that\, typically reduce the original data to a manageable size\. The package provides useful Producer and Consumer stream components for operations such as data input\, sampling\, indexing\, and transformation\; see package\?Streamer for details\.
+Large data files can be difficult to work with in R\, where data generally resides in memory. This package encourages a style of programming where data is \'streamed\' from disk into R via a \`producer\' and through a series of \`consumers\' that\, typically reduce the original data to a manageable size. The package provides useful Producer and Consumer stream components for operations such as data input\, sampling\, indexing\, and transformation\; see package\?Streamer for details.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Streamer.html

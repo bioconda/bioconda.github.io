@@ -5,7 +5,7 @@ ucsc-bedsort
 
 |downloads|
 
-Sort a \.bed file by chrom\,chromStart
+Sort a .bed file by chrom\,chromStart
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

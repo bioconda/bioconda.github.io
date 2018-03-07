@@ -5,7 +5,7 @@ ucsc-xmlcat
 
 |downloads|
 
-Concatenate xml files together\, stuffing all records inside a single outer tag\. 
+Concatenate xml files together\, stuffing all records inside a single outer tag. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

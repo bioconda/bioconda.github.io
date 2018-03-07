@@ -5,7 +5,7 @@ perl-bloom-faster
 
 |downloads|
 
-Perl extension for the c library libbloom\.
+Perl extension for the c library libbloom.
 
 ============= ===========
 Home          http://metacpan.org/pod/Bloom-Faster

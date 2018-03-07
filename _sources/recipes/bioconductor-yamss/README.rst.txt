@@ -5,7 +5,7 @@ bioconductor-yamss
 
 |downloads|
 
-Tools to analyze and visualize high\-throughput metabolomics data aquired using chromatography\-mass spectrometry\. These tools preprocess data in a way that enables reliable and powerful differential analysis\.
+Tools to analyze and visualize high\-throughput metabolomics data aquired using chromatography\-mass spectrometry. These tools preprocess data in a way that enables reliable and powerful differential analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/yamss.html

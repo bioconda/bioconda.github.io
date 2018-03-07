@@ -5,7 +5,7 @@ lsc
 
 |downloads|
 
-LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy\.
+LSC is a long read error correction tool that offers fast correction with high sensitivity and good accuracy.
 
 ============= ===========
 Home          https://www.healthcare.uiowa.edu/labs/au/LSC/

@@ -5,7 +5,7 @@ bioconductor-roar
 
 |downloads|
 
-Identify preferential usage of APA sites\, comparing two biological conditions\, starting from known alternative sites and alignments obtained from standard RNA\-seq experiments\.
+Identify preferential usage of APA sites\, comparing two biological conditions\, starting from known alternative sites and alignments obtained from standard RNA\-seq experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/roar.html

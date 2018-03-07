@@ -5,7 +5,7 @@ bioconductor-bubbletree
 
 |downloads|
 
-CNV analysis in groups of tumor samples\.
+CNV analysis in groups of tumor samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BubbleTree.html

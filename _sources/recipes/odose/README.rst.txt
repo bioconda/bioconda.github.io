@@ -5,7 +5,7 @@ odose
 
 |downloads|
 
-Ortholog Direction of Selection Engine\.
+Ortholog Direction of Selection Engine.
 
 ============= ===========
 Home          https://github.com/ODoSE/odose.nl

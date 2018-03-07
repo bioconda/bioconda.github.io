@@ -5,7 +5,7 @@ ucsc-maffilter
 
 |downloads|
 
-Filter out maf files\. Output goes to standard out
+Filter out maf files. Output goes to standard out
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

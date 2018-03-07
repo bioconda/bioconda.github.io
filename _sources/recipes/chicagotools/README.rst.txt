@@ -5,7 +5,7 @@ chicagotools
 
 |downloads|
 
-chicagoTools are an assorted set of scripts associated with the Chicago R package\.
+chicagoTools are an assorted set of scripts associated with the Chicago R package.
 
 ============= ===========
 Home          https://bitbucket.org/chicagoTeam/chicago/src/c95eda46cb72e30e25ece06780e517efb3c06cc2/chicagoTools/?at=master

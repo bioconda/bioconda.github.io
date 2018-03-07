@@ -5,7 +5,7 @@ chainmap
 
 |downloads|
 
-Backport\/clone of ChainMap for py26\, py32\, and pypy3\.
+Backport\/clone of ChainMap for py26\, py32\, and pypy3.
 
 ============= ===========
 Home          https://bitbucket.org/jeunice/chainmap

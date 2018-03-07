@@ -5,7 +5,7 @@ bioconductor-rtreemix
 
 |downloads|
 
-Rtreemix is a package that offers an environment for estimating the mutagenetic trees mixture models from cross\-sectional data and using them for various predictions\. It includes functions for fitting the trees mixture models\, likelihood computations\, model comparisons\, waiting time estimations\, stability analysis\, etc\.
+Rtreemix is a package that offers an environment for estimating the mutagenetic trees mixture models from cross\-sectional data and using them for various predictions. It includes functions for fitting the trees mixture models\, likelihood computations\, model comparisons\, waiting time estimations\, stability analysis\, etc.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Rtreemix.html

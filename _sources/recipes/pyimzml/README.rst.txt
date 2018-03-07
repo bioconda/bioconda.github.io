@@ -5,7 +5,7 @@ pyimzml
 
 |downloads|
 
-Parser for conversion of imzML 1\.1\.0 files
+Parser for conversion of imzML 1.1.0 files
 
 ============= ===========
 Home          https://github.com/alexandrovteam/pyimzML

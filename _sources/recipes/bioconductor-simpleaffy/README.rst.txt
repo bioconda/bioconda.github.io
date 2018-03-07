@@ -5,7 +5,7 @@ bioconductor-simpleaffy
 
 |downloads|
 
-Provides high level functions for reading Affy \.CEL files\, phenotypic data\, and then computing simple things with it\, such as t\-tests\, fold changes and the like\. Makes heavy use of the affy library\. Also has some basic scatter plot functions and mechanisms for generating high resolution journal figures\.\.\.
+Provides high level functions for reading Affy .CEL files\, phenotypic data\, and then computing simple things with it\, such as t\-tests\, fold changes and the like. Makes heavy use of the affy library. Also has some basic scatter plot functions and mechanisms for generating high resolution journal figures...
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/simpleaffy.html

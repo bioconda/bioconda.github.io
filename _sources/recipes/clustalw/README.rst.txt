@@ -5,7 +5,7 @@ clustalw
 
 |downloads|
 
-ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins\.
+ClustalW2 is a general purpose multiple sequence alignment program for DNA or proteins.
 
 ============= ===========
 Home          http://www.clustal.org/clustal2/

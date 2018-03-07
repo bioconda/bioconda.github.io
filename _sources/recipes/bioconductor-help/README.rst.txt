@@ -5,7 +5,7 @@ bioconductor-help
 
 |downloads|
 
-The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications\.
+The package contains a modular pipeline for analysis of HELP microarray data\, and includes graphical and mathematical tools with more general applications.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/HELP.html

@@ -5,7 +5,7 @@ netcdf-metadata-info
 
 |downloads|
 
-Metadata information from netcdf file for Galaxy use\.
+Metadata information from netcdf file for Galaxy use.
 
 ============= ===========
 Home          https://github.com/Alanamosse/Netcdf-Metadata-Info/

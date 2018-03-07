@@ -5,7 +5,7 @@ r-nastiseq
 
 |downloads|
 
-Pairs of RNA molecules transcribed from partially or entirely complementary loci are called cis\-natural antisense transcripts \(cis\-NATs\)\, and they play key roles in the regulation of gene expression in many organisms\. A promising experimental tool for profiling sense and antisense transcription is strand\-specific RNA sequencing \(ssRNA\-seq\)\. To identify cis\-NATs using ssRNA\-seq\, we developed a new computational method based on model comparison that incorporates the inherent variable efficiency of generating perfectly strand\-specific libraries\. Applying the method to new ssRNA\-seq data from whole root and cell\-type specific Arabidopsis libraries confirmed most of the known cis\-NAT pairs and identified hundreds of additional cis\-NAT pairs\.
+Pairs of RNA molecules transcribed from partially or entirely complementary loci are called cis\-natural antisense transcripts \(cis\-NATs\)\, and they play key roles in the regulation of gene expression in many organisms. A promising experimental tool for profiling sense and antisense transcription is strand\-specific RNA sequencing \(ssRNA\-seq\). To identify cis\-NATs using ssRNA\-seq\, we developed a new computational method based on model comparison that incorporates the inherent variable efficiency of generating perfectly strand\-specific libraries. Applying the method to new ssRNA\-seq data from whole root and cell\-type specific Arabidopsis libraries confirmed most of the known cis\-NAT pairs and identified hundreds of additional cis\-NAT pairs.
 
 ============= ===========
 Home          https://ohlerlab.mdc-berlin.de/software/NASTIseq_104/

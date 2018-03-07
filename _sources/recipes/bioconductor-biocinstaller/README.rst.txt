@@ -5,7 +5,7 @@ bioconductor-biocinstaller
 
 |downloads|
 
-This package is used to install and update Bioconductor\, CRAN\, and \(some\) github packages\.
+This package is used to install and update Bioconductor\, CRAN\, and \(some\) github packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BiocInstaller.html

@@ -5,7 +5,7 @@ bioconductor-calib
 
 |downloads|
 
-This package contains functions for normalizing spotted microarray data\, based on a physically motivated calibration model\. The model parameters and error distributions are estimated from external control spikes\.
+This package contains functions for normalizing spotted microarray data\, based on a physically motivated calibration model. The model parameters and error distributions are estimated from external control spikes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CALIB.html

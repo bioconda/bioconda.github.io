@@ -5,7 +5,7 @@ perl-xml-semanticdiff
 
 |downloads|
 
-Perl extension for comparing XML documents\.
+Perl extension for comparing XML documents.
 
 ============= ===========
 Home          http://metacpan.org/pod/XML-SemanticDiff

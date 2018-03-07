@@ -5,7 +5,7 @@ mathstats
 
 |downloads|
 
-Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy \.
+Statistical functions\, goodness\-of\-fit tests and special and special distributions not implemented in scipy\/numpy .
 
 ============= ===========
 Home          https://github.com/ksahlin/mathstats

@@ -19,7 +19,7 @@ Development   https://github.com/graik/biskit
 
 ============= ===========
 
-Biskit is a modular\, object\-oriented Python library for structural bioinformatics research\.
+Biskit is a modular\, object\-oriented Python library for structural bioinformatics research.
 
 Installation
 ------------

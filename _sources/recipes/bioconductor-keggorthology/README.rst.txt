@@ -5,7 +5,7 @@ bioconductor-keggorthology
 
 |downloads|
 
-graphical representation of the Feb 2010 KEGG Orthology\. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs\.
+graphical representation of the Feb 2010 KEGG Orthology. The KEGG orthology is a set of pathway IDs that are not to be confused with the KEGG ortholog IDs.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/keggorthology.html

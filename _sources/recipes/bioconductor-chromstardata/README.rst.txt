@@ -5,7 +5,7 @@ bioconductor-chromstardata
 
 |downloads|
 
-ChIP\-seq data for demonstration purposes in the chromstaR package\.
+ChIP\-seq data for demonstration purposes in the chromstaR package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/chromstaRData.html

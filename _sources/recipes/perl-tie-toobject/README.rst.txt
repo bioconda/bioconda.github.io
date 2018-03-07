@@ -5,7 +5,7 @@ perl-tie-toobject
 
 |downloads|
 
-Tie to an existing object\.
+Tie to an existing object.
 
 ============= ===========
 Home          http://metacpan.org/pod/Tie::ToObject

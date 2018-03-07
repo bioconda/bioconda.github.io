@@ -5,7 +5,7 @@ bioconductor-iwtomics
 
 |downloads|
 
-Implementation of the Interval\-Wise Testing \(IWT\) for omics data\. This inferential procedure tests for differences in \"Omics\" data between two groups of genomic regions \(or between a group of genomic regions and a reference center of symmetry\)\, and does not require fixing location and scale at the outset\.
+Implementation of the Interval\-Wise Testing \(IWT\) for omics data. This inferential procedure tests for differences in \"Omics\" data between two groups of genomic regions \(or between a group of genomic regions and a reference center of symmetry\)\, and does not require fixing location and scale at the outset.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IWTomics.html

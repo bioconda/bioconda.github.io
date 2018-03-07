@@ -5,7 +5,7 @@ genomicassertions
 
 |downloads|
 
-A package to test common files in genomics \(\.vcf\.gz\, \.bam\)
+A package to test common files in genomics \(.vcf.gz\, .bam\)
 
 ============= ===========
 Home          https://github.com/dakl/genomicassertions

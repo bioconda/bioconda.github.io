@@ -5,7 +5,7 @@ perl-io-socket-ssl
 
 |downloads|
 
-Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET\.
+Nearly transparent SSL encapsulation for IO\:\:Socket\:\:INET.
 
 ============= ===========
 Home          https://github.com/noxxi/p5-io-socket-ssl

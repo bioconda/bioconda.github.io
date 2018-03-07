@@ -5,7 +5,7 @@ bioconductor-graphite
 
 |downloads|
 
-Graph objects from pathway topology derived from Biocarta\, HumanCyc\, KEGG\, NCI\, Panther\, Reactome and SPIKE databases\.
+Graph objects from pathway topology derived from Biocarta\, HumanCyc\, KEGG\, NCI\, Panther\, Reactome and SPIKE databases.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/graphite.html

@@ -5,7 +5,7 @@ ucsc-mafmefirst
 
 |downloads|
 
-Move component to top if it is one of the named ones\.  
+Move component to top if it is one of the named ones.  
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

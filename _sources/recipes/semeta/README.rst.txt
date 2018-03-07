@@ -5,8 +5,8 @@ semeta
 
 |downloads|
 
-SeMeta is a new software for taxonomic assignment of metagenomic reads\. It
-supports both single\-end and paired\-end reads\. The software is implemented
+SeMeta is a new software for taxonomic assignment of metagenomic reads. It
+supports both single\-end and paired\-end reads. The software is implemented
 in C\+\+
 
 
@@ -38,7 +38,7 @@ and update with::
 
 Notes
 -----
-Databases are required\. Please see the project homepage\.
+Databases are required. Please see the project homepage.
 
 
 |docker|

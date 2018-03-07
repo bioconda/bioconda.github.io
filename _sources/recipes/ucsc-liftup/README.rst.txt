@@ -5,7 +5,7 @@ ucsc-liftup
 
 |downloads|
 
-change coordinates of \.psl\, \.agp\, \.gap\, \.gl\, \.out\, \.align\, \.gff\, \.gtf
+change coordinates of .psl\, .agp\, .gap\, .gl\, .out\, .align\, .gff\, .gtf
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ fastme
 
 |downloads|
 
-a comprehensive\, accurate and fast distance\-based phylogeny inference program\.
+a comprehensive\, accurate and fast distance\-based phylogeny inference program.
 
 ============= ===========
 Home          http://www.atgc-montpellier.fr/fastme/binaries.php

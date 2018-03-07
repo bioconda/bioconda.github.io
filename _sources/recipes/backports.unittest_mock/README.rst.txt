@@ -5,7 +5,7 @@ backports.unittest_mock
 
 |downloads|
 
-backports\.unittest\_mock
+backports.unittest\_mock
 
 ============= ===========
 Home          https://github.com/jaraco/backports.unittest_mock

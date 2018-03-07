@@ -5,7 +5,7 @@ htsbox
 
 |downloads|
 
-HTSbox is a fork of early HTSlib\. It is a collection of small experimental tools manipulating HTS\-related files\.
+HTSbox is a fork of early HTSlib. It is a collection of small experimental tools manipulating HTS\-related files.
 
 ============= ===========
 Home          https://github.com/lh3/htsbox

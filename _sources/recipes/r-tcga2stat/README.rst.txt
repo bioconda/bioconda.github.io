@@ -5,7 +5,7 @@ r-tcga2stat
 
 |downloads|
 
-Automatically downloads and processes TCGA genomics and clinical data into a format convenient for statistical analyses in the R environment\.
+Automatically downloads and processes TCGA genomics and clinical data into a format convenient for statistical analyses in the R environment.
 
 ============= ===========
 Home          http://www.liuzlab.org/TCGA2STAT/

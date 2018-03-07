@@ -5,7 +5,7 @@ represent
 
 |downloads|
 
-Create \_\_repr\_\_ automatically or declaratively\.
+Create \_\_repr\_\_ automatically or declaratively.
 
 ============= ===========
 Home          https://github.com/RazerM/represent

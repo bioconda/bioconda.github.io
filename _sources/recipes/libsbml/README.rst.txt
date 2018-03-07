@@ -5,7 +5,7 @@ python-libsbml
 
 |downloads|
 
-LibSBML Python API\. LibSBML is a library for reading\, writing and manipulating the Systems Biology Markup Language \(SBML\)\.
+LibSBML Python API. LibSBML is a library for reading\, writing and manipulating the Systems Biology Markup Language \(SBML\).
 
 ============= ===========
 Home          http://sbml.org

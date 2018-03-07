@@ -5,7 +5,7 @@ fiji
 
 |downloads|
 
-Fiji is an image processing package—a \"batteries\-included\" distribution of ImageJ\, bundling a lot of plugins which facilitate scientific image analysis\.
+Fiji is an image processing package—a \"batteries\-included\" distribution of ImageJ\, bundling a lot of plugins which facilitate scientific image analysis.
 
 ============= ===========
 Home          http://fiji.sc/

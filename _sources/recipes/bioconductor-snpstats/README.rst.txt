@@ -5,7 +5,7 @@ bioconductor-snpstats
 
 |downloads|
 
-Classes and statistical methods for large SNP association studies\. This extends the earlier snpMatrix package\, allowing for uncertainty in genotypes\.
+Classes and statistical methods for large SNP association studies. This extends the earlier snpMatrix package\, allowing for uncertainty in genotypes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/snpStats.html

@@ -5,7 +5,7 @@ bioconductor-bus
 
 |downloads|
 
-This package can be used to compute associations among genes \(gene\-networks\) or between genes and some external traits \(i\.e\. clinical\)\.
+This package can be used to compute associations among genes \(gene\-networks\) or between genes and some external traits \(i.e. clinical\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BUS.html

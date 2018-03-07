@@ -5,7 +5,7 @@ r-patpro
 
 |downloads|
 
-Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit \(see \<http\:\/\/qiime\.org\> for more information\)\.
+Quickly and easily visualize longitudinal microbiome profiles using standard output from the QIIME microbiome analysis toolkit \(see \<http\:\/\/qiime.org\> for more information\).
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=patPRO

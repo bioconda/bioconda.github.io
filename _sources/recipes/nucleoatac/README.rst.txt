@@ -5,7 +5,7 @@ nucleoatac
 
 |downloads|
 
-Python package for calling nucleosomes using ATAC\-Seq data\. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\)\.
+Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
 
 ============= ===========
 Home          http://nucleoatac.readthedocs.io/en/latest/

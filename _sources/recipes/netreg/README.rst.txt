@@ -5,7 +5,7 @@ netreg
 
 |downloads|
 
-netReg fits linear regression models using network\-penalization\.
+netReg fits linear regression models using network\-penalization.
 
 ============= ===========
 Home          https://github.com/dirmeier/netReg

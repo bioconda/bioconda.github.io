@@ -5,7 +5,7 @@ somatic-sniper
 
 |downloads|
 
-A tool to call somatic single nucleotide variants\.
+A tool to call somatic single nucleotide variants.
 
 ============= ===========
 Home          https://github.com/genome/somatic-sniper/

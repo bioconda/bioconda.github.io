@@ -5,7 +5,7 @@ bioconductor-piano
 
 |downloads|
 
-Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections\. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses\.
+Piano performs gene set analysis using various statistical methods\, from different gene level statistics and a wide range of gene\-set collections. Furthermore\, the Piano package contains functions for combining the results of multiple runs of gene set analyses.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/piano.html

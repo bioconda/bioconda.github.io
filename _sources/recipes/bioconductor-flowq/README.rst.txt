@@ -5,7 +5,7 @@ bioconductor-flowq
 
 |downloads|
 
-Provides quality control and quality assessment tools for flow cytometry data\.
+Provides quality control and quality assessment tools for flow cytometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowQ.html

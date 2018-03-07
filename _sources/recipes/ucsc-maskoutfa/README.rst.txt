@@ -5,7 +5,7 @@ ucsc-maskoutfa
 
 |downloads|
 
-Produce a masked \.fa file given an unmasked \.fa and
+Produce a masked .fa file given an unmasked .fa and
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

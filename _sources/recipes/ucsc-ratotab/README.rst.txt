@@ -5,7 +5,7 @@ ucsc-ratotab
 
 |downloads|
 
-Convert ra file to table\.
+Convert ra file to table.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

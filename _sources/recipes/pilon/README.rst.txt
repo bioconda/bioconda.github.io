@@ -5,7 +5,7 @@ pilon
 
 |downloads|
 
-Pilon is an automated genome assembly improvement and variant detection tool\.
+Pilon is an automated genome assembly improvement and variant detection tool.
 
 ============= ===========
 Home          https://github.com/broadinstitute/pilon/

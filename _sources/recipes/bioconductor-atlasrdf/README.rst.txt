@@ -5,7 +5,7 @@ bioconductor-atlasrdf
 
 |downloads|
 
-Query the Gene Expression Atlas RDF data at the European Bioinformatics Institute using genes\, experimental factors \(such as disease\, cell type\, compound treatments\)\, pathways and proteins\. Also contains a function to perform an enrichment of your gene list across Experimental Factor Ontology \(EFO\) using the Atlas background set\.
+Query the Gene Expression Atlas RDF data at the European Bioinformatics Institute using genes\, experimental factors \(such as disease\, cell type\, compound treatments\)\, pathways and proteins. Also contains a function to perform an enrichment of your gene list across Experimental Factor Ontology \(EFO\) using the Atlas background set.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AtlasRDF.html

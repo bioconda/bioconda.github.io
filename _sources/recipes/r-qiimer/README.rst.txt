@@ -5,7 +5,7 @@ r-qiimer
 
 |downloads|
 
-Open QIIME output files in R\, compute statistics\, and create plots from the data\.
+Open QIIME output files in R\, compute statistics\, and create plots from the data.
 
 ============= ===========
 Home          http://www.r-project.org

@@ -5,7 +5,7 @@ pirs
 
 |downloads|
 
-pIRS is a program for simulating Illumina PE reads\.
+pIRS is a program for simulating Illumina PE reads.
 
 ============= ===========
 Home          https://github.com/galaxy001/pirs

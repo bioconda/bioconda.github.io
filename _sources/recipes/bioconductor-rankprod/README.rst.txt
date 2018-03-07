@@ -5,7 +5,7 @@ bioconductor-rankprod
 
 |downloads|
 
-Non\-parametric method for identifying differentially expressed \(up\- or down\- regulated\) genes based on the estimated percentage of false predictions \(pfp\)\. The method can combine data sets from different origins \(meta\-analysis\) to increase the power of the identification\.
+Non\-parametric method for identifying differentially expressed \(up\- or down\- regulated\) genes based on the estimated percentage of false predictions \(pfp\). The method can combine data sets from different origins \(meta\-analysis\) to increase the power of the identification.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RankProd.html

@@ -5,7 +5,7 @@ genometools-genometools
 
 |downloads|
 
-GenomeTools genome analysis system\.
+GenomeTools genome analysis system.
 
 ============= ===========
 Home          http://genometools.org/

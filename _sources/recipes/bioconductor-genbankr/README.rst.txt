@@ -5,7 +5,7 @@ bioconductor-genbankr
 
 |downloads|
 
-Reads Genbank files\.
+Reads Genbank files.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/genbankr.html

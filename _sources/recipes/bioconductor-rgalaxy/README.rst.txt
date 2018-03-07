@@ -5,7 +5,7 @@ bioconductor-rgalaxy
 
 |downloads|
 
-Given an R function and its manual page\, make the documented function available in Galaxy\.
+Given an R function and its manual page\, make the documented function available in Galaxy.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RGalaxy.html

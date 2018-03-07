@@ -5,7 +5,7 @@ bioconda-utils
 
 |downloads|
 
-Utilities for building and managing bioconda recipes\.
+Utilities for building and managing bioconda recipes.
 
 ============= ===========
 Home          http://bioconda.github.io/build-system.html

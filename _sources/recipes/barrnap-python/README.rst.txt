@@ -19,7 +19,7 @@ Development   https://github.com/nickp60/barrnap-python
 
 ============= ===========
 
-Original Perl code can be found at the projects homepage here\: https\:\/\/github\.com\/tseemann\/barrnap
+Original Perl code can be found at the projects homepage here\: https\:\/\/github.com\/tseemann\/barrnap
 
 Installation
 ------------

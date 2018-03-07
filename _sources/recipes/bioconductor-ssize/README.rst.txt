@@ -5,7 +5,7 @@ bioconductor-ssize
 
 |downloads|
 
-Functions for computing and displaying sample size information for gene expression arrays\.
+Functions for computing and displaying sample size information for gene expression arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ssize.html

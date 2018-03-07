@@ -5,7 +5,7 @@ zeroc-ice
 
 |downloads|
 
-Ice is a comprehensive RPC framework that helps you network your software with minimal effort\.
+Ice is a comprehensive RPC framework that helps you network your software with minimal effort.
 
 ============= ===========
 Home          https://github.com/zeroc-ice

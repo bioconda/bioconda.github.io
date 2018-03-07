@@ -5,7 +5,7 @@ bioconductor-flowbeads
 
 |downloads|
 
-This package extends flowCore to provide functionality specific to bead data\. One of the goals of this package is to automate analysis of bead data for the purpose of normalisation\.
+This package extends flowCore to provide functionality specific to bead data. One of the goals of this package is to automate analysis of bead data for the purpose of normalisation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowBeads.html

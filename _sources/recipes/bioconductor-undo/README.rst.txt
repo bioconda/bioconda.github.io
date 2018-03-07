@@ -5,7 +5,7 @@ bioconductor-undo
 
 |downloads|
 
-UNDO is an R package for unsupervised deconvolution of tumor and stromal mixed expression data\. It detects marker genes and deconvolutes the mixing expression data without any prior knowledge\.
+UNDO is an R package for unsupervised deconvolution of tumor and stromal mixed expression data. It detects marker genes and deconvolutes the mixing expression data without any prior knowledge.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/UNDO.html

@@ -5,7 +5,7 @@ stellar
 
 |downloads|
 
-STELLAR is a tool for finding pairwise local alignments between long genomic or very many short sequences\.
+STELLAR is a tool for finding pairwise local alignments between long genomic or very many short sequences.
 
 ============= ===========
 Home          https://github.com/seqan/seqan/tree/master/apps/stellar/README

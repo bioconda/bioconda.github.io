@@ -5,7 +5,7 @@ bioconductor-yarn
 
 |downloads|
 
-Expedite large RNA\-Seq analyses using a combination of previously developed tools\. YARN is meant to make it easier for the user in performing basic mis\-annotation quality control\, filtering\, and condition\-aware normalization\. YARN leverages many Bioconductor tools and statistical techniques to account for the large heterogeneity and sparsity found in very large RNA\-seq experiments\.
+Expedite large RNA\-Seq analyses using a combination of previously developed tools. YARN is meant to make it easier for the user in performing basic mis\-annotation quality control\, filtering\, and condition\-aware normalization. YARN leverages many Bioconductor tools and statistical techniques to account for the large heterogeneity and sparsity found in very large RNA\-seq experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/yarn.html

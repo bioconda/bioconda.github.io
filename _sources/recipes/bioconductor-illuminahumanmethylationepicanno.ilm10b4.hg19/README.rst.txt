@@ -5,7 +5,7 @@ bioconductor-illuminahumanmethylationepicanno.ilm10b4.hg19
 
 |downloads|
 
-An annotation package for Illumina\'s EPIC methylation arrays\.
+An annotation package for Illumina\'s EPIC methylation arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylationEPICanno.ilm10b4.hg19.html

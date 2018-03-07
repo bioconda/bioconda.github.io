@@ -5,7 +5,7 @@ virema
 
 |downloads|
 
-ViReMa \(Viral Recombination Mapper\) detects and reports recombination or fusion events in virus genomes using deep sequencing datasets\.
+ViReMa \(Viral Recombination Mapper\) detects and reports recombination or fusion events in virus genomes using deep sequencing datasets.
 
 ============= ===========
 Home          https://sourceforge.net/projects/virema/

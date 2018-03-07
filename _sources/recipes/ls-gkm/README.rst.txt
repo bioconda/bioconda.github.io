@@ -5,7 +5,7 @@ ls-gkm
 
 |downloads|
 
-gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is a useful tool for studying gene regulatory mechanisms\. In continuous efforts to improve the method\, new software\, LS\-GKM\, is introduced\. It offers much better scalability and provides further advanced gapped k\-mer based kernel functions\. As a result\, LS\-GKM achieves considerably higher accuracy than the original gkm\-SVM\.
+gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is a useful tool for studying gene regulatory mechanisms. In continuous efforts to improve the method\, new software\, LS\-GKM\, is introduced. It offers much better scalability and provides further advanced gapped k\-mer based kernel functions. As a result\, LS\-GKM achieves considerably higher accuracy than the original gkm\-SVM.
 
 ============= ===========
 Home          https://github.com/Dongwon-Lee/lsgkm

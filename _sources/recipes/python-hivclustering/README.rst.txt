@@ -5,7 +5,7 @@ python-hivclustering
 
 |downloads|
 
-A Python 3 library that makes inferences on HIV\-1 transmission networks\.
+A Python 3 library that makes inferences on HIV\-1 transmission networks.
 
 ============= ===========
 Home          https://github.com/veg/hivclustering

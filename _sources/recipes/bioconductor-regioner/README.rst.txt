@@ -5,7 +5,7 @@ bioconductor-regioner
 
 |downloads|
 
-regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features\.
+regioneR offers a statistical framework based on customizable permutation tests to assess the association between genomic region sets and other genomic features.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/regioneR.html

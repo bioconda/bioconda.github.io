@@ -5,7 +5,7 @@ avro-python3
 
 |downloads|
 
-Avro is a serialization and RPC framework\.
+Avro is a serialization and RPC framework.
 
 ============= ===========
 Home          http://avro.apache.org/

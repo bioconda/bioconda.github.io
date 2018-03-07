@@ -5,7 +5,7 @@ bioconductor-correp
 
 |downloads|
 
-Multivariate correlation estimation and statistical inference\. See package vignette\.
+Multivariate correlation estimation and statistical inference. See package vignette.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CORREP.html

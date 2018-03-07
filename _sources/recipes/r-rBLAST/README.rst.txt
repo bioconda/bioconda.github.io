@@ -5,7 +5,7 @@ r-rblast
 
 |downloads|
 
-Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases\. This work was partially supported by grant no\. R21HG005912 from the National Human Genome Research Institute\.
+Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.
 
 ============= ===========
 Home          https://github.com/mhahsler/rBLAST

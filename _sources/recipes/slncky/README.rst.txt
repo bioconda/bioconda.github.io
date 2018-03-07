@@ -5,7 +5,7 @@ slncky
 
 |downloads|
 
-slncky is a tool for lncRNA discovery from RNA\-Seq data\. slncky filters a high\-quality set of noncoding transcripts\, discovers lncRNA orthologs\, and characterizes conserved lncRNA evolution\. slncky was developed as a collaboration between the Garber Lab at UMass Medical and the Regev Lab at the Broad Institute\.
+slncky is a tool for lncRNA discovery from RNA\-Seq data. slncky filters a high\-quality set of noncoding transcripts\, discovers lncRNA orthologs\, and characterizes conserved lncRNA evolution. slncky was developed as a collaboration between the Garber Lab at UMass Medical and the Regev Lab at the Broad Institute.
 
 ============= ===========
 Home          https://github.com/slncky/slncky

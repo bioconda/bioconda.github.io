@@ -5,7 +5,7 @@ perl-variable-magic
 
 |downloads|
 
-Associate user\-defined magic to variables from Perl\.
+Associate user\-defined magic to variables from Perl.
 
 ============= ===========
 Home          http://search.cpan.org/dist/Variable-Magic/

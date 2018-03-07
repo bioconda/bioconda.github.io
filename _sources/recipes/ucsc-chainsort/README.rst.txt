@@ -5,7 +5,7 @@ ucsc-chainsort
 
 |downloads|
 
-Sort chains\.  By default sorts by score\.
+Sort chains.  By default sorts by score.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

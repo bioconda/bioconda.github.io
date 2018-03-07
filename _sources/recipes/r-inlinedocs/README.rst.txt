@@ -5,7 +5,7 @@ r-inlinedocs
 
 |downloads|
 
-Generates Rd files from R source code with comments\. The main features of the default syntax are that \(1\) docs are defined in comments near the relevant code\, \(2\) function argument names are not repeated in comments\, and \(3\) examples are defined in R code\, not comments\. It is also easy to define a new syntax\.
+Generates Rd files from R source code with comments. The main features of the default syntax are that \(1\) docs are defined in comments near the relevant code\, \(2\) function argument names are not repeated in comments\, and \(3\) examples are defined in R code\, not comments. It is also easy to define a new syntax.
 
 ============= ===========
 Home          http://inlinedocs.r-forge.r-project.org

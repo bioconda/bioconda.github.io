@@ -5,7 +5,7 @@ bioconductor-biocparallel
 
 |downloads|
 
-This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects\.
+This package provides modified versions and novel implementation of functions for parallel evaluation\, tailored to use with Bioconductor objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BiocParallel.html

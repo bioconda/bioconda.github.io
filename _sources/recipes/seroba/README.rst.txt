@@ -5,7 +5,7 @@ seroba
 
 |downloads|
 
-SeroBA is a k\-mer based Pipeline to identify the Serotype from Illumina NGS reads for given references\.
+SeroBA is a k\-mer based Pipeline to identify the Serotype from Illumina NGS reads for given references.
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/seroba
@@ -17,9 +17,9 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 ============= ===========
 
-SeroBA is a k\-mer based Pipeline to identify the Serotype from Illumina NGS reads for given references\.
-You can use SeroBA to download references from \(https\:\/\/github\.com\/phe\-bioinformatics\/PneumoCaT\)
-to do identify the capsular type of Streptococcus pneumoniae\.
+SeroBA is a k\-mer based Pipeline to identify the Serotype from Illumina NGS reads for given references.
+You can use SeroBA to download references from \(https\:\/\/github.com\/phe\-bioinformatics\/PneumoCaT\)
+to do identify the capsular type of Streptococcus pneumoniae.
 
 
 Installation

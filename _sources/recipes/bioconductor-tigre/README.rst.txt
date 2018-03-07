@@ -5,7 +5,7 @@ bioconductor-tigre
 
 |downloads|
 
-The tigre package implements our methodology of Gaussian process differential equation models for analysis of gene expression time series from single input motif networks\. The package can be used for inferring unobserved transcription factor \(TF\) protein concentrations from expression measurements of known target genes\, or for ranking candidate targets of a TF\.
+The tigre package implements our methodology of Gaussian process differential equation models for analysis of gene expression time series from single input motif networks. The package can be used for inferring unobserved transcription factor \(TF\) protein concentrations from expression measurements of known target genes\, or for ranking candidate targets of a TF.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/tigre.html

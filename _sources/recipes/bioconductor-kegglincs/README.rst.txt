@@ -5,7 +5,7 @@ bioconductor-kegglincs
 
 |downloads|
 
-See what is going on \'under the hood\' of KEGG pathways by explicitly re\-creating the pathway maps from information obtained from KGML files\.
+See what is going on \'under the hood\' of KEGG pathways by explicitly re\-creating the pathway maps from information obtained from KGML files.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/KEGGlincs.html

@@ -5,7 +5,7 @@ molpopgen-analysis
 
 |downloads|
 
-Deprecated and no longer maintained programs for the \(pre\-NGS\-era\) analysis of population\-genetic data\. Unless you work with Sanger data\, results will be wrong\. Please check the software homepage for more details\.
+Deprecated and no longer maintained programs for the \(pre\-NGS\-era\) analysis of population\-genetic data. Unless you work with Sanger data\, results will be wrong. Please check the software homepage for more details.
 
 ============= ===========
 Home          https://github.com/molpopgen/analysis

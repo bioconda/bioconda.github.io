@@ -5,7 +5,7 @@ oauth2client
 
 |downloads|
 
-client library for OAuth 2\.0
+client library for OAuth 2.0
 
 ============= ===========
 Home          https://github.com/google/oauth2client/

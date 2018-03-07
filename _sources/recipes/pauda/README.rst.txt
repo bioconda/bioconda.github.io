@@ -5,7 +5,7 @@ pauda
 
 |downloads|
 
-PAUDA is a new approach toward the problem of comparing DNA reads against a database of protein reference sequences that is applicable to very large datasets consisting of hundreds of millions or billions of reads\.
+PAUDA is a new approach toward the problem of comparing DNA reads against a database of protein reference sequences that is applicable to very large datasets consisting of hundreds of millions or billions of reads.
 
 ============= ===========
 Home          https://ab.inf.uni-tuebingen.de/software/pauda

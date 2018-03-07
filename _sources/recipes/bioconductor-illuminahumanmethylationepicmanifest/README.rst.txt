@@ -5,7 +5,7 @@ bioconductor-illuminahumanmethylationepicmanifest
 
 |downloads|
 
-A manifest package for Illumina\'s EPIC methylation arrays\.
+A manifest package for Illumina\'s EPIC methylation arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html

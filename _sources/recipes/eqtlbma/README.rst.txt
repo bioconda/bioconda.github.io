@@ -5,7 +5,7 @@ eqtlbma
 
 |downloads|
 
-Package to detect eQTLs jointly in multiple subgroups \(e\.g\. tissues\) via Bayesian Model Averaging\.
+Package to detect eQTLs jointly in multiple subgroups \(e.g. tissues\) via Bayesian Model Averaging.
 
 ============= ===========
 Home          https://github.com/timflutre/eqtlbma

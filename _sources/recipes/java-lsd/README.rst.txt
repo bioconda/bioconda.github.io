@@ -5,7 +5,7 @@ lsd
 
 |downloads|
 
-The LAPPS Grid Services DSL \(LSD\)\. Used to invoke LAPPS web services from the command line\.
+The LAPPS Grid Services DSL \(LSD\). Used to invoke LAPPS web services from the command line.
 
 ============= ===========
 Home          http://github.com/lappsgrid-incubator/org.anc.lapps.dsl

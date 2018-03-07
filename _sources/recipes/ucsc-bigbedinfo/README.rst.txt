@@ -5,7 +5,7 @@ ucsc-bigbedinfo
 
 |downloads|
 
-Show information about a bigBed file\.
+Show information about a bigBed file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

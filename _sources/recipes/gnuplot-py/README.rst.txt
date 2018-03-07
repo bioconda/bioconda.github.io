@@ -5,7 +5,7 @@ gnuplot-py
 
 |downloads|
 
-A Python interface to the gnuplot plotting program\.
+A Python interface to the gnuplot plotting program.
 
 ============= ===========
 Home          http://gnuplot-py.sourceforge.net

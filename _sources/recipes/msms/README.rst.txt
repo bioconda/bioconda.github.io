@@ -5,7 +5,7 @@ msms
 
 |downloads|
 
-MSMS is a program written in the C programming language to compute molecular surfaces\.
+MSMS is a program written in the C programming language to compute molecular surfaces.
 
 ============= ===========
 Home          http://mgltools.scripps.edu/packages/MSMS/

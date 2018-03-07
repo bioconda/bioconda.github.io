@@ -5,7 +5,7 @@ bioconductor-genomictuples
 
 |downloads|
 
-GenomicTuples defines general purpose containers for storing genomic tuples\. It aims to provide functionality for tuples of genomic co\-ordinates that are analogous to those available for genomic ranges in the GenomicRanges Bioconductor package\.
+GenomicTuples defines general purpose containers for storing genomic tuples. It aims to provide functionality for tuples of genomic co\-ordinates that are analogous to those available for genomic ranges in the GenomicRanges Bioconductor package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicTuples.html

@@ -5,7 +5,7 @@ ucsc-validatemanifest
 
 |downloads|
 
-Validates the ENCODE3 manifest\.txt file\.
+Validates the ENCODE3 manifest.txt file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ infinity
 
 |downloads|
 
-All\-in\-one infinity value for Python\. Can be compared to any object\.
+All\-in\-one infinity value for Python. Can be compared to any object.
 
 ============= ===========
 Home          https://github.com/kvesteri/infinity

@@ -5,7 +5,7 @@ dominate
 
 |downloads|
 
-Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API\.
+Dominate is a Python library for creating and manipulating HTML documents using an elegant DOM API.
 
 ============= ===========
 Home          http://github.com/Knio/dominate/

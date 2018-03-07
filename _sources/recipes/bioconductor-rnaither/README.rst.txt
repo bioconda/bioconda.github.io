@@ -5,7 +5,7 @@ bioconductor-rnaither
 
 |downloads|
 
-RNAither analyzes cell\-based RNAi screens\, and includes quality assessment\, customizable normalization and statistical tests\, leading to lists of significant genes and biological processes\.
+RNAither analyzes cell\-based RNAi screens\, and includes quality assessment\, customizable normalization and statistical tests\, leading to lists of significant genes and biological processes.
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/RNAither.html

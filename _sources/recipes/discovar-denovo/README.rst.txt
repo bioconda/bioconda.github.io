@@ -5,7 +5,7 @@ discovardenovo
 
 |downloads|
 
-Suitable for de novo assembly of large and small genomes\.
+Suitable for de novo assembly of large and small genomes.
 
 ============= ===========
 Home          https://www.broadinstitute.org/software/discovar/

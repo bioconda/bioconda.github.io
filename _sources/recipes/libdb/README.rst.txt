@@ -5,7 +5,7 @@ libdb
 
 |downloads|
 
-The Berkeley DB embedded database system\.
+The Berkeley DB embedded database system.
 
 ============= ===========
 Home          http://www.oracle.com/technology/software/products/berkeley-db/index.html

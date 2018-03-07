@@ -5,7 +5,7 @@ gap2seq
 
 |downloads|
 
-Gap2Seq is a tool for filling gaps between contigs in genome assemblies\.
+Gap2Seq is a tool for filling gaps between contigs in genome assemblies.
 
 ============= ===========
 Home          https://www.cs.helsinki.fi/u/lmsalmel/Gap2Seq/
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Gap2Seq is only tested on Linux x86\_64 by its author\.
+Gap2Seq is only tested on Linux x86\_64 by its author.
 
 
 |docker|

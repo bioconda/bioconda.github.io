@@ -5,7 +5,7 @@ bioconductor-maanova
 
 |downloads|
 
-Analysis of N\-dye Micro Array experiment using mixed model effect\. Containing analysis of variance\, permutation and bootstrap\, cluster and consensus tree\.
+Analysis of N\-dye Micro Array experiment using mixed model effect. Containing analysis of variance\, permutation and bootstrap\, cluster and consensus tree.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/maanova.html

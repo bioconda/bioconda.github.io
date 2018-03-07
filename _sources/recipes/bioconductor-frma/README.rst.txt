@@ -5,7 +5,7 @@ bioconductor-frma
 
 |downloads|
 
-Preprocessing and analysis for single microarrays and microarray batches\.
+Preprocessing and analysis for single microarrays and microarray batches.
 
 ============= ===========
 Home          https://www.bioconductor.org/packages/3.5/bioc/html/frma.html

@@ -5,7 +5,7 @@ raxml
 
 |downloads|
 
-Phylogenetics \- Randomized Axelerated Maximum Likelihood\.
+Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
 ============= ===========
 Home          http://sco.h-its.org/exelixis/web/software/raxml/index.html

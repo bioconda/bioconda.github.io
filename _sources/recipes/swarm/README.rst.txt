@@ -5,7 +5,7 @@ swarm
 
 |downloads|
 
-A robust and fast clustering method for amplicon\-based studies\.
+A robust and fast clustering method for amplicon\-based studies.
 
 ============= ===========
 Home          https://github.com/torognes/swarm

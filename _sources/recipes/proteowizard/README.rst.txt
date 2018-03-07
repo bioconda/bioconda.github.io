@@ -5,7 +5,7 @@ proteowizard
 
 |downloads|
 
-Tools for dealing with mass spectrometry files \(e\.g\.\, mzML\, mzXML\, mzIdentML\, MGF\)
+Tools for dealing with mass spectrometry files \(e.g.\, mzML\, mzXML\, mzIdentML\, MGF\)
 
 ============= ===========
 Home          https://proteowizard.sourceforge.net

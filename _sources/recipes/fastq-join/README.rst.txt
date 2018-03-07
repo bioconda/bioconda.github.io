@@ -5,7 +5,7 @@ fastq-join
 
 |downloads|
 
-Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning\. It uses the same \"squared distance for anchored alignment\" as other tools\.
+Similar to audy\'s stitch program\, but in C\, more efficient and supports some automatic benchmarking and tuning. It uses the same \"squared distance for anchored alignment\" as other tools.
 
 ============= ===========
 Home          https://github.com/brwnj/fastq-join

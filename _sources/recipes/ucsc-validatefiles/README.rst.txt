@@ -5,7 +5,7 @@ ucsc-validatefiles
 
 |downloads|
 
-Validates the format of different genomic files\.
+Validates the format of different genomic files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

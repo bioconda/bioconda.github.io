@@ -5,7 +5,7 @@ ucsc-psldropoverlap
 
 |downloads|
 
-deletes all overlapping self alignments\. 
+deletes all overlapping self alignments. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

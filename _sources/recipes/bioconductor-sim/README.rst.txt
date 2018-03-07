@@ -5,7 +5,7 @@ bioconductor-sim
 
 |downloads|
 
-Finds associations between two human genomic datasets\.
+Finds associations between two human genomic datasets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SIM.html

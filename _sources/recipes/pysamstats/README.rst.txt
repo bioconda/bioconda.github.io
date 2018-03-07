@@ -5,7 +5,7 @@ pysamstats
 
 |downloads|
 
-A Python utility for calculating statistics against genome position based on sequence alignments from a SAM\, BAM or CRAM file\.
+A Python utility for calculating statistics against genome position based on sequence alignments from a SAM\, BAM or CRAM file.
 
 ============= ===========
 Home          https://github.com/alimanfoo/pysamstats

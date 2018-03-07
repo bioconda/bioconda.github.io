@@ -5,7 +5,7 @@ bioconductor-variantfiltering
 
 |downloads|
 
-Filter genetic variants using different criteria such as inheritance model\, amino acid change consequence\, minor allele frequencies across human populations\, splice site strength\, conservation\, etc\.
+Filter genetic variants using different criteria such as inheritance model\, amino acid change consequence\, minor allele frequencies across human populations\, splice site strength\, conservation\, etc.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/VariantFiltering.html

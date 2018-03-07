@@ -5,7 +5,7 @@ bioconductor-quantsmooth
 
 |downloads|
 
-Implements quantile smoothing as introduced in\: Quantile smoothing of array CGH data\; Eilers PH\, de Menezes RX\; Bioinformatics\. 2005 Apr 1\;21\(7\)\:1146\-53\.
+Implements quantile smoothing as introduced in\: Quantile smoothing of array CGH data\; Eilers PH\, de Menezes RX\; Bioinformatics. 2005 Apr 1\;21\(7\)\:1146\-53.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/quantsmooth.html

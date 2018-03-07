@@ -5,7 +5,7 @@ r-aroma.core
 
 |downloads|
 
-Core methods and classes used by higher\-level aroma\.\* packages part of the Aroma Project\, e\.g\. aroma\.affymetrix and aroma\.cn\.
+Core methods and classes used by higher\-level aroma.\* packages part of the Aroma Project\, e.g. aroma.affymetrix and aroma.cn.
 
 ============= ===========
 Home          https://github.com/HenrikBengtsson/aroma.core, http://www.aroma-project.org/

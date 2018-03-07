@@ -5,7 +5,7 @@ hs-blastn
 
 |downloads|
 
-hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner\.
+hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner.
 
 ============= ===========
 Home          https://github.com/chenying2016/queries

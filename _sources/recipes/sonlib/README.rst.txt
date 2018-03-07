@@ -5,7 +5,7 @@ sonlib
 
 |downloads|
 
-Small general purpose library for C and Python with focus on bioinformatics\.
+Small general purpose library for C and Python with focus on bioinformatics.
 
 ============= ===========
 Home          https://github.com/benedictpaten/sonLib

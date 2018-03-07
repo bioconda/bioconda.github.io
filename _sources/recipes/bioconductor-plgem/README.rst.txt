@@ -5,7 +5,7 @@ bioconductor-plgem
 
 |downloads|
 
-The Power Law Global Error Model \(PLGEM\) has been shown to faithfully model the variance\-versus\-mean dependence that exists in a variety of genome\-wide datasets\, including microarray and proteomics data\. The use of PLGEM has been shown to improve the detection of differentially expressed genes or proteins in these datasets\.
+The Power Law Global Error Model \(PLGEM\) has been shown to faithfully model the variance\-versus\-mean dependence that exists in a variety of genome\-wide datasets\, including microarray and proteomics data. The use of PLGEM has been shown to improve the detection of differentially expressed genes or proteins in these datasets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/plgem.html

@@ -5,7 +5,7 @@ kneaddata
 
 |downloads|
 
-KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data\, especially data from microbiome experiments\.
+KneadData is a tool designed to perform quality control on metagenomic and metatranscriptomic sequencing data\, especially data from microbiome experiments.
 
 ============= ===========
 Home          http://huttenhower.sph.harvard.edu/kneaddata

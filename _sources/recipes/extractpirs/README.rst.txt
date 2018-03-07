@@ -5,7 +5,7 @@ extractpirs
 
 |downloads|
 
-A phase informative read \(PIR\) is a sequencing read that span at least 2 heterozyguous sites\. In the following\, we require first that the sequence data is stored in BAM files and second that the genotype data to be phased is in VCF format\. We developed a small tool\, extractPIRs\, to extract the PIRs from BAM files that relies on the samtools API for efficiency
+A phase informative read \(PIR\) is a sequencing read that span at least 2 heterozyguous sites. In the following\, we require first that the sequence data is stored in BAM files and second that the genotype data to be phased is in VCF format. We developed a small tool\, extractPIRs\, to extract the PIRs from BAM files that relies on the samtools API for efficiency
 
 ============= ===========
 Home          https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html

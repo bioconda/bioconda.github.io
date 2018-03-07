@@ -5,7 +5,7 @@ bioconductor-xcms
 
 |downloads|
 
-Framework for processing and visualization of chromatographically separated and single\-spectra mass spectral data\. Imports from AIA\/ANDI NetCDF\, mzXML\, mzData and mzML files\. Preprocesses data for high\-throughput\, untargeted analyte profiling\.
+Framework for processing and visualization of chromatographically separated and single\-spectra mass spectral data. Imports from AIA\/ANDI NetCDF\, mzXML\, mzData and mzML files. Preprocesses data for high\-throughput\, untargeted analyte profiling.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/xcms.html

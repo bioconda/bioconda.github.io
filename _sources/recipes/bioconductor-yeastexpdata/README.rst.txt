@@ -5,7 +5,7 @@ bioconductor-yeastexpdata
 
 |downloads|
 
-A collection of different sets of experimental data from yeast\.
+A collection of different sets of experimental data from yeast.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/yeastExpData.html

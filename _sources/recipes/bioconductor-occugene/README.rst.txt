@@ -5,7 +5,7 @@ bioconductor-occugene
 
 |downloads|
 
-Statistical tools for building random mutagenesis libraries for prokaryotes\. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries\.
+Statistical tools for building random mutagenesis libraries for prokaryotes. The package has functions for handling the occupancy distribution for a multinomial and for estimating the number of essential genes in random transposon mutagenesis libraries.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/occugene.html

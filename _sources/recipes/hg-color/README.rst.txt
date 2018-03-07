@@ -5,7 +5,7 @@ hg-color
 
 |downloads|
 
-HG\-CoLoR \(Hybrid Graph for the error Correction of Long Reads\) is a hybrid method for the error correction of long reads that follows the main idea from NaS to produce corrected long reads from assemblies of related accurate short reads\.
+HG\-CoLoR \(Hybrid Graph for the error Correction of Long Reads\) is a hybrid method for the error correction of long reads that follows the main idea from NaS to produce corrected long reads from assemblies of related accurate short reads.
 
 ============= ===========
 Home          https://github.com/pierre-morisse/HG-CoLoR

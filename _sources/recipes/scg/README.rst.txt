@@ -5,7 +5,7 @@ scg
 
 |downloads|
 
-The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al\. Clonal genotype and population structure inference from single\-cell tumor sequencing\. Nat Meth\. 2016\;13\: 573–576\. doi\:10\.1038\/nmeth\.3867\"
+The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, Yap D\, Wan A\, et al. Clonal genotype and population structure inference from single\-cell tumor sequencing. Nat Meth. 2016\;13\: 573–576. doi\:10.1038\/nmeth.3867\"
 
 ============= ===========
 Home          https://bitbucket.org/aroth85/scg/wiki/Home

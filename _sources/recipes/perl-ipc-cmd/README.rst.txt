@@ -5,7 +5,7 @@ perl-ipc-cmd
 
 |downloads|
 
-A cross platform way of running \(interactive\) commandline programs\.
+A cross platform way of running \(interactive\) commandline programs.
 
 ============= ===========
 Home          http://metacpan.org/pod/IPC::Cmd

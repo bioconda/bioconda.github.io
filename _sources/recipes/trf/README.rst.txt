@@ -5,7 +5,7 @@ trf
 
 |downloads|
 
-Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences\.
+Tandem Repeats Finder is a program to locate and display tandem repeats in DNA sequences.
 
 ============= ===========
 Home          https://tandem.bu.edu/trf/trf.html

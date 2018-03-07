@@ -5,7 +5,7 @@ bioconductor-nucleosim
 
 |downloads|
 
-This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next\-generation sequencing\. The user has choice between three different distributions for the read positioning\: Normal\, Student and Uniform\.
+This package can generate a synthetic map with reads covering the nucleosome regions as well as a synthetic map with forward and reverse reads emulating next\-generation sequencing. The user has choice between three different distributions for the read positioning\: Normal\, Student and Uniform.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/nucleoSim.html

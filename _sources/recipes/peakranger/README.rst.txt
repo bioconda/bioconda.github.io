@@ -5,7 +5,7 @@ peakranger
 
 |downloads|
 
-PeakRanger is a multi\-purporse software suite for analyzing next\-generation sequencing \(NGS\) data\.
+PeakRanger is a multi\-purporse software suite for analyzing next\-generation sequencing \(NGS\) data.
 
 ============= ===========
 Home          http://ranger.sourceforge.net

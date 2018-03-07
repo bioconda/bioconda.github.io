@@ -5,7 +5,7 @@ bioconductor-prada
 
 |downloads|
 
-Tools for analysing and navigating data from high\-throughput phenotyping experiments based on cellular assays and fluorescent detection \(flow cytometry \(FACS\)\, high\-content screening microscopy\)\.
+Tools for analysing and navigating data from high\-throughput phenotyping experiments based on cellular assays and fluorescent detection \(flow cytometry \(FACS\)\, high\-content screening microscopy\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/prada.html

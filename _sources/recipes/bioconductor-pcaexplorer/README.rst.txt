@@ -5,7 +5,7 @@ bioconductor-pcaexplorer
 
 |downloads|
 
-This package provides functionality for interactive visualization of RNA\-seq datasets based on Principal Components Analysis\. The methods provided allow for quick information extraction and effective data exploration\. A Shiny application encapsulates the whole analysis\.
+This package provides functionality for interactive visualization of RNA\-seq datasets based on Principal Components Analysis. The methods provided allow for quick information extraction and effective data exploration. A Shiny application encapsulates the whole analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pcaExplorer.html

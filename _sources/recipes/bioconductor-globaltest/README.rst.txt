@@ -5,7 +5,7 @@ bioconductor-globaltest
 
 |downloads|
 
-The global test tests groups of covariates \(or features\) for association with a response variable\. This package implements the test with diagnostic plots and multiple testing utilities\, along with several functions to facilitate the use of this test for gene set testing of GO and KEGG terms\.
+The global test tests groups of covariates \(or features\) for association with a response variable. This package implements the test with diagnostic plots and multiple testing utilities\, along with several functions to facilitate the use of this test for gene set testing of GO and KEGG terms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/globaltest.html

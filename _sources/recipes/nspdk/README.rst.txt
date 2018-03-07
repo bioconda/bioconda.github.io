@@ -5,7 +5,7 @@ nspdk
 
 |downloads|
 
-Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\)\.
+Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\).
 
 ============= ===========
 Home          http://dtai.cs.kuleuven.be/ml/systems/nspdk

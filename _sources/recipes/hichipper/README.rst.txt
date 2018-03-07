@@ -5,7 +5,7 @@ hichipper
 
 |downloads|
 
-Processing HiChIP data into loops\.
+Processing HiChIP data into loops.
 
 ============= ===========
 Home          https://github.com/aryeelab/hichipper

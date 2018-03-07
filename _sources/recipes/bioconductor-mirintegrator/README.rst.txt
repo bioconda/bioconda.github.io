@@ -5,7 +5,7 @@ bioconductor-mirintegrator
 
 |downloads|
 
-Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels\.
+Tools for augmenting signaling pathways to perform pathway analysis of microRNA and mRNA expression levels.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/mirIntegrator.html

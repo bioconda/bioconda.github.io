@@ -5,7 +5,7 @@ ucsc-bedweedoverlapping
 
 |downloads|
 
-Filter out beds that overlap a \'weed\.bed\' file\.
+Filter out beds that overlap a \'weed.bed\' file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

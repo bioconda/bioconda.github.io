@@ -5,7 +5,7 @@ bioconductor-switchde
 
 |downloads|
 
-Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories\.
+Inference and detection of switch\-like differential expression across single\-cell RNA\-seq trajectories.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/switchde.html

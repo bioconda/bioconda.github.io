@@ -5,7 +5,7 @@ metfrag
 
 |downloads|
 
-MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure\. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values\. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment\.
+MetFrag is a freely available software for the annotation of high precision tandem mass spectra of metabolites which is a first and critical step for the identification of a molecular structure. Candidate molecules of different databases are fragmented in silico and matched against mass to charge values. A score calculated using the fragment peak matches gives hints to the quality of the candidate spectrum assignment.
 
 ============= ===========
 Home          http://c-ruttkies.github.io/MetFrag/

@@ -17,7 +17,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 ============= ===========
 
-SECIMTools project aims to develop a suite of tools for processing of metabolomics data\, which can be run in a standalone mode or via Galaxy Genomics Framework\.
+SECIMTools project aims to develop a suite of tools for processing of metabolomics data\, which can be run in a standalone mode or via Galaxy Genomics Framework.
 
 Installation
 ------------

@@ -5,11 +5,11 @@ fastx_toolkit
 
 |downloads|
 
-The FASTX\-Toolkit is a collection of command line tools for Short\-Reads FASTA\/FASTQ files preprocessing\.
-Next\-Generation sequencing machines usually produce FASTA or FASTQ files\, containing multiple short\-reads sequences \(possibly with quality information\)\.
-The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the sequences to reference genomes or other databases using specialized programs\. Example of such mapping programs are\: Blat\, SHRiMP\, LastZ\, MAQ and many many others\.
-However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files before mapping the sequences to the genome \- manipulating the sequences to produce better mapping results\.
-The FASTX\-Toolkit tools perform some of these preprocessing tasks\.
+The FASTX\-Toolkit is a collection of command line tools for Short\-Reads FASTA\/FASTQ files preprocessing.
+Next\-Generation sequencing machines usually produce FASTA or FASTQ files\, containing multiple short\-reads sequences \(possibly with quality information\).
+The main processing of such FASTA\/FASTQ files is mapping \(aka aligning\) the sequences to reference genomes or other databases using specialized programs. Example of such mapping programs are\: Blat\, SHRiMP\, LastZ\, MAQ and many many others.
+However\, it is sometimes more productive to preprocess the FASTA\/FASTQ files before mapping the sequences to the genome \- manipulating the sequences to produce better mapping results.
+The FASTX\-Toolkit tools perform some of these preprocessing tasks.
 
 ============= ===========
 Home          https://github.com/agordon/fastx_toolkit

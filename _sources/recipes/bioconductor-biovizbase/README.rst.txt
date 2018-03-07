@@ -5,7 +5,7 @@ bioconductor-biovizbase
 
 |downloads|
 
-The biovizBase package is designed to provide a set of utilities\, color schemes and conventions for genomic data\. It serves as the base for various high\-level packages for biological data visualization\. This saves development effort and encourages consistency\.
+The biovizBase package is designed to provide a set of utilities\, color schemes and conventions for genomic data. It serves as the base for various high\-level packages for biological data visualization. This saves development effort and encourages consistency.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/biovizBase.html

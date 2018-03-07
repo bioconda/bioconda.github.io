@@ -5,7 +5,7 @@ zagros
 
 |downloads|
 
-zagros is a motif\-discovery tool for CLIP\-Seq data\.
+zagros is a motif\-discovery tool for CLIP\-Seq data.
 
 ============= ===========
 Home          http://smithlabresearch.org/software/zagros/

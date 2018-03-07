@@ -5,7 +5,7 @@ bam-readcount
 
 |downloads|
 
-bam\-readcount generates metrics at single nucleotide positions\.
+bam\-readcount generates metrics at single nucleotide positions.
 
 ============= ===========
 Home          https://github.com/genome/bam-readcount

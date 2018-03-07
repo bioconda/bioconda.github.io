@@ -5,7 +5,7 @@ kmc
 
 |downloads|
 
-K\-mer Counter is a utility designed for counting k\-mers \(sequences of consecutive k symbols\) in a set of reads from genome sequencing projects\.
+K\-mer Counter is a utility designed for counting k\-mers \(sequences of consecutive k symbols\) in a set of reads from genome sequencing projects.
 
 ============= ===========
 Home          http://sun.aei.polsl.pl/kmc/

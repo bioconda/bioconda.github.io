@@ -5,7 +5,7 @@ bioconductor-illuminaio
 
 |downloads|
 
-Tools for parsing Illumina\'s microarray output files\, including IDAT\.
+Tools for parsing Illumina\'s microarray output files\, including IDAT.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/illuminaio.html

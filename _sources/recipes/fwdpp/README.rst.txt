@@ -5,7 +5,7 @@ fwdpp
 
 |downloads|
 
-A C\+\+ template library for forward\-time population genetic simulation\. 
+A C\+\+ template library for forward\-time population genetic simulation. 
 
 ============= ===========
 Home          https://www.github.com/molpopgen/fwdpp

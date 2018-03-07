@@ -5,7 +5,7 @@ haploclique
 
 |downloads|
 
-Viral quasispecies assembly via maximal clique finding\. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data\.
+Viral quasispecies assembly via maximal clique finding. A method to reconstruct viral haplotypes and detect large insertions and deletions from NGS data.
 
 ============= ===========
 Home          https://github.com/cbg-ethz/haploclique

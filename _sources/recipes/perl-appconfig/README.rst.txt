@@ -5,7 +5,7 @@ perl-appconfig
 
 |downloads|
 
-AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments\.
+AppConfig is a bundle of Perl5 modules for reading configuration files and parsing command line arguments.
 
 ============= ===========
 Home          http://metacpan.org/pod/AppConfig

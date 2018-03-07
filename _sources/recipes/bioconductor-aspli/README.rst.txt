@@ -5,7 +5,7 @@ bioconductor-aspli
 
 |downloads|
 
-Integrative pipeline for the analysis of alternative splicing using RNAseq\.
+Integrative pipeline for the analysis of alternative splicing using RNAseq.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ASpli.html

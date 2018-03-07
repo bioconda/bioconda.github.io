@@ -5,7 +5,7 @@ bioconductor-rbioinf
 
 |downloads|
 
-Functions and datasets and examples to accompany the monograph R For Bioinformatics\.
+Functions and datasets and examples to accompany the monograph R For Bioinformatics.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RBioinf.html

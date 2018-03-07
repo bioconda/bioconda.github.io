@@ -5,7 +5,7 @@ ucsc-blasttopsl
 
 |downloads|
 
-Convert blast alignments to PSLs\.
+Convert blast alignments to PSLs.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

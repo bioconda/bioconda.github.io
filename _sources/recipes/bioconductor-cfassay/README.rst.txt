@@ -5,7 +5,7 @@ bioconductor-cfassay
 
 |downloads|
 
-The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay\.
+The package provides functions for calculation of linear\-quadratic cell survival curves and for ANOVA of experimental 2\-way designs along with the colony formation assay.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CFAssay.html

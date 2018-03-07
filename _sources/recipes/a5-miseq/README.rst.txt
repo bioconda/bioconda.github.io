@@ -5,7 +5,7 @@ a5-miseq
 
 |downloads|
 
-A5\-miseq is a pipeline for assembling DNA sequence data generated on the Illumina sequencing platform\. This README will take you through the steps necessary for running \_A5\-miseq\_
+A5\-miseq is a pipeline for assembling DNA sequence data generated on the Illumina sequencing platform. This README will take you through the steps necessary for running \_A5\-miseq\_
 
 ============= ===========
 Home          https://sourceforge.net/projects/ngop

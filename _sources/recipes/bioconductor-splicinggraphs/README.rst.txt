@@ -5,7 +5,7 @@ bioconductor-splicinggraphs
 
 |downloads|
 
-This package allows the user to create\, manipulate\, and visualize splicing graphs and their bubbles based on a gene model for a given organism\. Additionally it allows the user to assign RNA\-seq reads to the edges of a set of splicing graphs\, and to summarize them in different ways\.
+This package allows the user to create\, manipulate\, and visualize splicing graphs and their bubbles based on a gene model for a given organism. Additionally it allows the user to assign RNA\-seq reads to the edges of a set of splicing graphs\, and to summarize them in different ways.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SplicingGraphs.html

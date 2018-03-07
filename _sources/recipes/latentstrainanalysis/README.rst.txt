@@ -17,11 +17,11 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/l
 
 ============= ===========
 
-LSA was developed as a pre\-assembly tool for partitioning metagenomic reads\.
+LSA was developed as a pre\-assembly tool for partitioning metagenomic reads.
 It uses a hyperplane hashing function and streaming SVD in order to find
-covariance relations between k\-mers\. The code\, and the process outline in
+covariance relations between k\-mers. The code\, and the process outline in
 LSFScripts in particular\, have been optimized to scale to massive data
-sets in fixed memory with a highly distributed computing environment\.
+sets in fixed memory with a highly distributed computing environment.
 
 
 Installation

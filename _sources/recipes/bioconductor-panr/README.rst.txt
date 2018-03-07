@@ -5,7 +5,7 @@ bioconductor-panr
 
 |downloads|
 
-This package provides S4 classes and methods for inferring functional gene networks with edges encoding posterior beliefs of gene association types and nodes encoding perturbation effects\.
+This package provides S4 classes and methods for inferring functional gene networks with edges encoding posterior beliefs of gene association types and nodes encoding perturbation effects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PANR.html

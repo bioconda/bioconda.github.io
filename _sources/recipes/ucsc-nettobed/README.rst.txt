@@ -5,7 +5,7 @@ ucsc-nettobed
 
 |downloads|
 
-Convert target coverage of net to a bed file\.
+Convert target coverage of net to a bed file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

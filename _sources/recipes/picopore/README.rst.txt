@@ -5,7 +5,7 @@ picopore
 
 |downloads|
 
-A tool for reducing the size of Oxford Nanopore Technologies\' datasets without losing information\.
+A tool for reducing the size of Oxford Nanopore Technologies\' datasets without losing information.
 
 ============= ===========
 Home          https://github.com/scottgigante/picopore

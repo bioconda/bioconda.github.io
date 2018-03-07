@@ -5,7 +5,7 @@ bioconductor-siggenes
 
 |downloads|
 
-Identification of differentially expressed genes and estimation of the False Discovery Rate \(FDR\) using both the Significance Analysis of Microarrays \(SAM\) and the Empirical Bayes Analyses of Microarrays \(EBAM\)\.
+Identification of differentially expressed genes and estimation of the False Discovery Rate \(FDR\) using both the Significance Analysis of Microarrays \(SAM\) and the Empirical Bayes Analyses of Microarrays \(EBAM\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/siggenes.html

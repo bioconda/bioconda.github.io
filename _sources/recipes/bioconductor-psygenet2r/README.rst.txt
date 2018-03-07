@@ -5,7 +5,7 @@ bioconductor-psygenet2r
 
 |downloads|
 
-Package to retrieve data from PsyGeNET database \(www\.psygenet\.org\) and to perform comorbidity studies with PsyGeNET\'s and user\'s data\.
+Package to retrieve data from PsyGeNET database \(www.psygenet.org\) and to perform comorbidity studies with PsyGeNET\'s and user\'s data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/psygenet2r.html

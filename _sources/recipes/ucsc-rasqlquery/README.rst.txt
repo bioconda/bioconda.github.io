@@ -5,7 +5,7 @@ ucsc-rasqlquery
 
 |downloads|
 
-Do a SQL\-like query on a RA file\.
+Do a SQL\-like query on a RA file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ fcp
 
 |downloads|
 
-Homology\- and composition\-based classifiers for assigning a taxonomic attribution to metagenomic fragments\.
+Homology\- and composition\-based classifiers for assigning a taxonomic attribution to metagenomic fragments.
 
 ============= ===========
 Home          https://github.com/dparks1134/FragmentClassificationPackage

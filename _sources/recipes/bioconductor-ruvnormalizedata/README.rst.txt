@@ -5,7 +5,7 @@ bioconductor-ruvnormalizedata
 
 |downloads|
 
-Microarray gene expression data from the study of Vawter et al\.\, 2004\.
+Microarray gene expression data from the study of Vawter et al.\, 2004.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/RUVnormalizeData.html

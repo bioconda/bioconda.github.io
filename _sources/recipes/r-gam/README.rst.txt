@@ -5,7 +5,7 @@ r-gam
 
 |downloads|
 
-Functions for fitting and working with generalized additive models\, as described in chapter 7 of \"Statistical Models in S\" \(Chambers and Hastie \(eds\)\, 1991\)\, and \"Generalized Additive Models\" \(Hastie and Tibshirani\, 1990\)\.
+Functions for fitting and working with generalized additive models\, as described in chapter 7 of \"Statistical Models in S\" \(Chambers and Hastie \(eds\)\, 1991\)\, and \"Generalized Additive Models\" \(Hastie and Tibshirani\, 1990\).
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=gam

@@ -5,7 +5,7 @@ bioconductor-splicer
 
 |downloads|
 
-An R package for classification of alternative splicing and prediction of coding potential from RNA\-seq data\.
+An R package for classification of alternative splicing and prediction of coding potential from RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/spliceR.html

@@ -5,7 +5,7 @@ bioconductor-ideoviz
 
 |downloads|
 
-Plots data associated with arbitrary genomic intervals along chromosomal ideogram\.
+Plots data associated with arbitrary genomic intervals along chromosomal ideogram.
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/IdeoViz.html

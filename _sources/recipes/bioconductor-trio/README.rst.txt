@@ -5,7 +5,7 @@ bioconductor-trio
 
 |downloads|
 
-Testing SNPs and SNP interactions with a genotypic TDT\. This package furthermore contains functions for computing pairwise values of LD measures and for identifying LD blocks\, as well as functions for setting up matched case pseudo\-control genotype data for case\-parent trios in order to run trio logic regression\, for imputing missing genotypes in trios\, for simulating case\-parent trios with disease risk dependent on SNP interaction\, and for power and sample size calculation in trio data\.
+Testing SNPs and SNP interactions with a genotypic TDT. This package furthermore contains functions for computing pairwise values of LD measures and for identifying LD blocks\, as well as functions for setting up matched case pseudo\-control genotype data for case\-parent trios in order to run trio logic regression\, for imputing missing genotypes in trios\, for simulating case\-parent trios with disease risk dependent on SNP interaction\, and for power and sample size calculation in trio data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/trio.html

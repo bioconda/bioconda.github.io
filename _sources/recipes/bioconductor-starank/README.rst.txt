@@ -5,7 +5,7 @@ bioconductor-starank
 
 |downloads|
 
-Detecting all relevant variables from a data set is challenging\, especially when only few samples are available and data is noisy\. Stability ranking provides improved variable rankings of increased robustness using resampling or subsampling\.
+Detecting all relevant variables from a data set is challenging\, especially when only few samples are available and data is noisy. Stability ranking provides improved variable rankings of increased robustness using resampling or subsampling.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/staRank.html

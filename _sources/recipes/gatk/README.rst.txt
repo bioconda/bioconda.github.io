@@ -5,7 +5,7 @@ gatk
 
 |downloads|
 
-The full Genome Analysis Toolkit \(GATK\) framework\, license restricted\.
+The full Genome Analysis Toolkit \(GATK\) framework\, license restricted.
 
 ============= ===========
 Home          https://www.broadinstitute.org/gatk/
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Due to license restrictions\, this recipe cannot distribute and install GATK directly\. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/www\.broadinstitute\.org\/gatk\/download\/\)\, install this package\, and call \"gatk\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION\.tar\.bz2\|\.jar\]\"\, which will copy GATK into your conda environment\.
+Due to license restrictions\, this recipe cannot distribute and install GATK directly. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/www.broadinstitute.org\/gatk\/download\/\)\, install this package\, and call \"gatk\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION.tar.bz2\|.jar\]\"\, which will copy GATK into your conda environment.
 
 
 |docker|

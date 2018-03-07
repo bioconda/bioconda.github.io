@@ -5,7 +5,7 @@ ucsc-subcolumn
 
 |downloads|
 
-Substitute one column in a tab\-separated file\.
+Substitute one column in a tab\-separated file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-biostrings
 
 |downloads|
 
-Memory efficient string containers\, string matching algorithms\, and other utilities\, for fast manipulation of large biological sequences or sets of sequences\.
+Memory efficient string containers\, string matching algorithms\, and other utilities\, for fast manipulation of large biological sequences or sets of sequences.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Biostrings.html

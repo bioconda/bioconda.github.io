@@ -5,7 +5,7 @@ flask-bootstrap
 
 |downloads|
 
-An extension that includes Bootstrap in your project\, without any boilerplate code\.
+An extension that includes Bootstrap in your project\, without any boilerplate code.
 
 ============= ===========
 Home          http://github.com/mbr/flask-bootstrap

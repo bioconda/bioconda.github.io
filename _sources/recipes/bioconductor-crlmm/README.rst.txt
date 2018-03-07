@@ -5,7 +5,7 @@ bioconductor-crlmm
 
 |downloads|
 
-Faster implementation of CRLMM specific to SNP 5\.0 and 6\.0 arrays\, as well as a copy number tool specific to 5\.0\, 6\.0\, and Illumina platforms\.
+Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a copy number tool specific to 5.0\, 6.0\, and Illumina platforms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/crlmm.html

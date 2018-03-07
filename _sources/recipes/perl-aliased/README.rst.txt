@@ -5,7 +5,7 @@ perl-aliased
 
 |downloads|
 
-Use shorter versions of class names\.
+Use shorter versions of class names.
 
 ============= ===========
 Home          https://github.com/karenetheridge/aliased

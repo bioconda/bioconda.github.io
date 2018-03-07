@@ -5,7 +5,7 @@ prosic
 
 |downloads|
 
-A highly sensitive and accurate Bayesian caller for somatic insertions and deletions\.
+A highly sensitive and accurate Bayesian caller for somatic insertions and deletions.
 
 ============= ===========
 Home          https://prosic.github.io

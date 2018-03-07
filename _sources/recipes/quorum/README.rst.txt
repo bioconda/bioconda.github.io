@@ -5,7 +5,7 @@ quorum
 
 |downloads|
 
-QuorUM \(Quality Optimized Reads from the University of Maryland\) is an error corrector for Illumina reads\. It is distributed and used with MaSuRCA\, or it can be used independently\.
+QuorUM \(Quality Optimized Reads from the University of Maryland\) is an error corrector for Illumina reads. It is distributed and used with MaSuRCA\, or it can be used independently.
 
 ============= ===========
 Home          http://www.genome.umd.edu/quorum.html

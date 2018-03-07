@@ -5,7 +5,7 @@ ea-utils
 
 |downloads|
 
-Command\-line tools for processing biological sequencing data\.
+Command\-line tools for processing biological sequencing data.
 
 ============= ===========
 Home          https://code.google.com/p/ea-utils/

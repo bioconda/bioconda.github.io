@@ -5,7 +5,7 @@ deepmedic
 
 |downloads|
 
-Efficient Multi\-Scale 3D Convolutional Neural Network for Brain Lesion Segmentation\.
+Efficient Multi\-Scale 3D Convolutional Neural Network for Brain Lesion Segmentation.
 
 ============= ===========
 Home          https://github.com/Kamnitsask/deepmedic

@@ -5,7 +5,7 @@ bioconductor-banocc
 
 |downloads|
 
-BAnOCC is a package designed for compositional data\, where each sample sums to one\. It infers the approximate covariance of the unconstrained data using a Bayesian model coded with \`rstan\`\. It provides as output the \`stanfit\` object as well as posterior median and credible interval estimates for each correlation element\.
+BAnOCC is a package designed for compositional data\, where each sample sums to one. It infers the approximate covariance of the unconstrained data using a Bayesian model coded with \`rstan\`. It provides as output the \`stanfit\` object as well as posterior median and credible interval estimates for each correlation element.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/banocc.html

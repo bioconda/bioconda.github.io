@@ -5,7 +5,7 @@ bioconductor-philr
 
 |downloads|
 
-PhILR is short for Phylogenetic Isometric Log\-Ratio Transform\. This package provides functions for the analysis of compositional data \(e\.g\.\, data representing proportions of different variables\/parts\)\. Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree  \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure\.
+PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package provides functions for the analysis of compositional data \(e.g.\, data representing proportions of different variables\/parts\). Specifically this package allows analysis of compositional data where the parts can be related through a phylogenetic tree  \(as is common in microbiota survey data\) and makes available the Isometric Log Ratio transform built from the phylogenetic tree and utilizing a weighted reference measure.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/philr.html

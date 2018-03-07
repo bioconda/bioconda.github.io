@@ -5,7 +5,7 @@ ucsc-pslsort
 
 |downloads|
 
-Merge and sort psCluster \.psl output files
+Merge and sort psCluster .psl output files
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

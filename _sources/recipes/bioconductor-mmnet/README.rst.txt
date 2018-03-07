@@ -5,7 +5,7 @@ bioconductor-mmnet
 
 |downloads|
 
-This package gives the implementations microbiome metabolic network constructing and analyzing\. It introduces a unique metagenomic systems biology approach\, mapping metagenomic data to the KEGG global metabolic pathway and constructing a systems\-level network\. The system\-level network and the next topological analysis will be of great help to analysis the various functional properties\, including regulation and metabolic functionality of the metagenome\.
+This package gives the implementations microbiome metabolic network constructing and analyzing. It introduces a unique metagenomic systems biology approach\, mapping metagenomic data to the KEGG global metabolic pathway and constructing a systems\-level network. The system\-level network and the next topological analysis will be of great help to analysis the various functional properties\, including regulation and metabolic functionality of the metagenome.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.5/bioc/html/mmnet.html

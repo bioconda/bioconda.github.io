@@ -5,7 +5,7 @@ prestor
 
 |downloads|
 
-A prototype package for generating quality control plots from pRESTO output\.
+A prototype package for generating quality control plots from pRESTO output.
 
 ============= ===========
 Home          https://bitbucket.org/javh/prototype-prestor

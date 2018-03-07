@@ -5,7 +5,7 @@ bioconductor-genrank
 
 |downloads|
 
-Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers\. This package adapts three methods that are popular for meta\-analysis\.
+Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenRank.html

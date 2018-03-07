@@ -5,7 +5,7 @@ bioconductor-rnaseqcomp
 
 |downloads|
 
-Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines\. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation\.
+Several quantitative and visualized benchmarks for RNA\-seq quantification pipelines. Two\-condition quantifications for genes\, transcripts\, junctions or exons by each pipeline with necessary meta information should be organized into numeric matrices in order to proceed the evaluation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rnaseqcomp.html

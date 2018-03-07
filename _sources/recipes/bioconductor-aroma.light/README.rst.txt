@@ -5,7 +5,7 @@ bioconductor-aroma.light
 
 |downloads|
 
-Methods for microarray analysis that take basic data types such as matrices and lists of vectors\.  These methods can be used standalone\, be utilized in other packages\, or be wrapped up in higher\-level classes\.
+Methods for microarray analysis that take basic data types such as matrices and lists of vectors.  These methods can be used standalone\, be utilized in other packages\, or be wrapped up in higher\-level classes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/aroma.light.html

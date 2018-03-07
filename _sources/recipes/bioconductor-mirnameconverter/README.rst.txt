@@ -5,7 +5,7 @@ bioconductor-mirnameconverter
 
 |downloads|
 
-Package containing an S4 class for translating mature miRNA names to different miRBase versions\, sequence retrieval\, checking names for validity and detecting miRBase version of a given set of names \(data from http\:\/\/www\.mirbase\.org\/\)\.
+Package containing an S4 class for translating mature miRNA names to different miRBase versions\, sequence retrieval\, checking names for validity and detecting miRBase version of a given set of names \(data from http\:\/\/www.mirbase.org\/\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/miRNAmeConverter.html

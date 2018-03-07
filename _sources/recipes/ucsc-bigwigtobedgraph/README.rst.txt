@@ -5,7 +5,7 @@ ucsc-bigwigtobedgraph
 
 |downloads|
 
-Convert from bigWig to bedGraph format\.
+Convert from bigWig to bedGraph format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

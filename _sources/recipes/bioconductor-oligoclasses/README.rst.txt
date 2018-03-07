@@ -5,7 +5,7 @@ bioconductor-oligoclasses
 
 |downloads|
 
-This package contains class definitions\, validity checks\, and initialization methods for classes used by the oligo and crlmm packages\.
+This package contains class definitions\, validity checks\, and initialization methods for classes used by the oligo and crlmm packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/oligoClasses.html

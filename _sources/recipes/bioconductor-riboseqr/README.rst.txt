@@ -5,7 +5,7 @@ bioconductor-riboseqr
 
 |downloads|
 
-Plotting functions\, frameshift detection and parsing of sequencing data from ribosome profiling experiments\.
+Plotting functions\, frameshift detection and parsing of sequencing data from ribosome profiling experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/riboSeqR.html

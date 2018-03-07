@@ -5,7 +5,7 @@ yara
 
 |downloads|
 
-Yara is an exact tool for aligning DNA sequencing reads to reference genomes\.
+Yara is an exact tool for aligning DNA sequencing reads to reference genomes.
 
 ============= ===========
 Home          https://github.com/seqan/seqan/blob/develop/apps/yara/README.rst

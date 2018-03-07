@@ -5,7 +5,7 @@ bioconductor-chimera
 
 |downloads|
 
-This package facilitates the characterisation of fusion products events\. It allows to import fusion data results from the following fusion finders\:  chimeraScan\, bellerophontes\, deFuse\, FusionFinder\, FusionHunter\, mapSplice\, tophat\-fusion\, FusionMap\, STAR\, Rsubread\, fusionCatcher\.
+This package facilitates the characterisation of fusion products events. It allows to import fusion data results from the following fusion finders\:  chimeraScan\, bellerophontes\, deFuse\, FusionFinder\, FusionHunter\, mapSplice\, tophat\-fusion\, FusionMap\, STAR\, Rsubread\, fusionCatcher.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/chimera.html

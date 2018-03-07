@@ -5,7 +5,7 @@ bioconductor-gseabase
 
 |downloads|
 
-This package provides classes and methods to support Gene Set Enrichment Analysis \(GSEA\)\.
+This package provides classes and methods to support Gene Set Enrichment Analysis \(GSEA\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GSEABase.html

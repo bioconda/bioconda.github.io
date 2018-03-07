@@ -5,7 +5,7 @@ r-qtl
 
 |downloads|
 
-Analysis of experimental crosses to identify genes \(called quantitative trait loci\, QTLs\) contributing to variation in quantitative traits\.
+Analysis of experimental crosses to identify genes \(called quantitative trait loci\, QTLs\) contributing to variation in quantitative traits.
 
 ============= ===========
 Home          http://rqtl.org

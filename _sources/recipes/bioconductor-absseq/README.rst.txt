@@ -5,7 +5,7 @@ bioconductor-absseq
 
 |downloads|
 
-Inferring differential expression genes by absolute counts difference between two groups\, utilizing Negative binomial distribution and moderating fold\-change according to heterogeneity of dispersion across expression level\.
+Inferring differential expression genes by absolute counts difference between two groups\, utilizing Negative binomial distribution and moderating fold\-change according to heterogeneity of dispersion across expression level.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ABSSeq.html

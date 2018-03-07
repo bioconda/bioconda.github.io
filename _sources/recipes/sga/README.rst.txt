@@ -5,7 +5,7 @@ sga
 
 |downloads|
 
-SGA \- String Graph Assembler\. SGA is a de novo assembler for DNA sequence reads\. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads\.
+SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads. It is based on Gene Myers string graph formulation of assembly and uses the FM\-index\/Burrows\-Wheeler transform to efficiently find overlaps between sequence reads.
 
 ============= ===========
 Home          https://github.com/jts/sga

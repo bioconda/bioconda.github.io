@@ -6,9 +6,9 @@ trinculo
 |downloads|
 
 A toolkit for carrying out genetic association for
-multi\-category phenotypes\. Implements multinomial and ordinal
+multi\-category phenotypes. Implements multinomial and ordinal
 association incorporating covariates\, conditional analysis\,
-empirical and non\-emperical priors and fine\-mapping\.
+empirical and non\-emperical priors and fine\-mapping.
 
 
 ============= ===========

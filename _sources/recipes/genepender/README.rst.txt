@@ -5,7 +5,7 @@ genepender
 
 |downloads|
 
-Annotates overlapping BED\-defined regions to variants in a VCF file\. Used primarily for providing a gene\/exon context to variants \(see\:bedtarget\)\.
+Annotates overlapping BED\-defined regions to variants in a VCF file. Used primarily for providing a gene\/exon context to variants \(see\:bedtarget\).
 
 ============= ===========
 Home          https://github.com/BioTools-Tek/genepender

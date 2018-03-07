@@ -5,7 +5,7 @@ recon
 
 |downloads|
 
-The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences\.
+The RECON package performs de novo identification and classification of repeat sequence families from genomic sequences.
 
 ============= ===========
 Home          http://eddylab.org/software/recon/

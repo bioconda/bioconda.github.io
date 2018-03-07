@@ -5,7 +5,7 @@ bioconductor-pandar
 
 |downloads|
 
-Runs PANDA\, an algorithm for discovering novel network structure by combining information from multiple complementary data sources\.
+Runs PANDA\, an algorithm for discovering novel network structure by combining information from multiple complementary data sources.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pandaR.html

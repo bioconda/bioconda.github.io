@@ -5,7 +5,7 @@ presto
 
 |downloads|
 
-A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data\.
+A bioinformatics toolkit for processing high\-throughput lymphocyte receptor sequencing data.
 
 ============= ===========
 Home          http://presto.readthedocs.io

@@ -5,7 +5,7 @@ lohhla
 
 |downloads|
 
-A computational tool to evaluate HLA loss using next\-generation sequencing data\.
+A computational tool to evaluate HLA loss using next\-generation sequencing data.
 
 ============= ===========
 Home          https://bitbucket.org/mcgranahanlab/lohhla
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-The tool is available as command \`lohhla\`\.
+The tool is available as command \`lohhla\`.
 
 
 |docker|

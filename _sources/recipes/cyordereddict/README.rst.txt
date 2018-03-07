@@ -5,7 +5,7 @@ cyordereddict
 
 |downloads|
 
-Cython implementation of Python\'s collections\.OrderedDict
+Cython implementation of Python\'s collections.OrderedDict
 
 ============= ===========
 Home          https://github.com/shoyer/cyordereddict

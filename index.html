@@ -4,21 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Using Bioconda &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -59,8 +51,7 @@ $(document).ready(function() {
 } );
 </script>
 
-  </head>
-  <body>
+  </head><body>
   
 
     <div class="document">
@@ -74,7 +65,7 @@ bioinformatics software. Bioconda consists of:</p>
 <ul class="simple">
 <li>a <a class="reference external" href="https://github.com/bioconda/bioconda-recipes">repository of recipes</a> hosted on GitHub</li>
 <li>a <a class="reference external" href="https://github.com/bioconda/bioconda-utils">build system</a> that turns these recipes into conda packages</li>
-<li>a <a class="reference external" href="https://anaconda.org/bioconda/">repository of more than 3000 bioinformatics packages</a> ready to use with <code class="docutils literal"><span class="pre">conda</span> <span class="pre">install</span></code></li>
+<li>a <a class="reference external" href="https://anaconda.org/bioconda/">repository of more than 3000 bioinformatics packages</a> ready to use with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span></code></li>
 <li>Over 250 contributors that add, modify, update and maintain the recipes</li>
 </ul>
 <p>The conda package manager makes installing software a vastly more
@@ -128,7 +119,7 @@ priority).</p>
 found in the <cite>defaults</cite> channel. The <cite>r</cite> channel is only included due to
 backward compatibility.  It is not mandatory, but without the <cite>r</cite> channel
 packages compiled against R 3.3.1 might not work.</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
 </pre></div>
@@ -138,11 +129,11 @@ packages compiled against R 3.3.1 might not work.</p>
 <h2>3. Install packages<a class="headerlink" href="#install-packages" title="Permalink to this headline">¶</a></h2>
 <p><a class="reference internal" href="recipes.html#recipes"><span class="std std-ref">Browse the packages</span></a> to see what’s available.</p>
 <p>Bioconda is now enabled, so any packages on the bioconda channel can be installed into the current conda environment:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bwa</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bwa</span>
 </pre></div>
 </div>
 <p>Or a new environment can be created:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">aligners</span> <span class="n">bwa</span> <span class="n">bowtie</span> <span class="n">hisat</span> <span class="n">star</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">create</span> <span class="o">-</span><span class="n">n</span> <span class="n">aligners</span> <span class="n">bwa</span> <span class="n">bowtie</span> <span class="n">hisat</span> <span class="n">star</span>
 </pre></div>
 </div>
 </div>
@@ -213,17 +204,17 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#http-500-errors">HTTP 500 errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#http-404-errors">HTTP 404 errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#zlib-errors">ZLIB errors</a></li>
-<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#usr-bin-perl-or-usr-bin-python-not-found"><code class="docutils literal"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal"><span class="pre">/usr/bin/python</span></code> not found</a></li>
-<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#troubleshooting-failed-mulled-build-tests">Troubleshooting failed <code class="docutils literal"><span class="pre">mulled-build</span></code> tests</a></li>
+<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#usr-bin-perl-or-usr-bin-python-not-found"><code class="docutils literal notranslate"><span class="pre">/usr/bin/perl</span></code> or <code class="docutils literal notranslate"><span class="pre">/usr/bin/python</span></code> not found</a></li>
+<li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#troubleshooting-failed-mulled-build-tests">Troubleshooting failed <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests</a></li>
 <li class="toctree-l3"><a class="reference internal" href="troubleshooting.html#using-the-extended-image">Using the extended image</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="build-system.html#stages-of-a-bioconda-build">Stages of a bioconda build</a></li>
-<li class="toctree-l3"><a class="reference internal" href="build-system.html#the-bulk-branch">The <code class="docutils literal"><span class="pre">bulk</span></code> branch</a></li>
+<li class="toctree-l3"><a class="reference internal" href="build-system.html#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal"><span class="pre">bioconda</span></code> recipes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="guidelines.html#bioconda-recipe-checklist">bioconda recipe checklist</a></li>
 <li class="toctree-l3"><a class="reference internal" href="guidelines.html#python">Python</a></li>
 <li class="toctree-l3"><a class="reference internal" href="guidelines.html#r-cran">R (CRAN)</a></li>
@@ -284,7 +275,7 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="build-system.html#configure-the-environment">Configure the environment</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="build-system.html#the-bulk-branch">The <code class="docutils literal"><span class="pre">bulk</span></code> branch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build-system.html#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
 </ul>
 </li>
 </ul>
@@ -330,7 +321,7 @@ channel.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |

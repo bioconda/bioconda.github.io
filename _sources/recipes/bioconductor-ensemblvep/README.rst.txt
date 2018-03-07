@@ -5,7 +5,7 @@ bioconductor-ensemblvep
 
 |downloads|
 
-Query the Ensembl Variant Effect Predictor via the perl API\.
+Query the Ensembl Variant Effect Predictor via the perl API.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ensemblVEP.html

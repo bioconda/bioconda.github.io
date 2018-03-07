@@ -5,7 +5,7 @@ bioconductor-switchbox
 
 |downloads|
 
-The package offer different classifiers based on comparisons of pair of features \(TSP\)\, using various decision rules \(e\.g\.\, majority wins principle\)\.
+The package offer different classifiers based on comparisons of pair of features \(TSP\)\, using various decision rules \(e.g.\, majority wins principle\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/switchBox.html

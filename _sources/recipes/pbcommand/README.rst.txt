@@ -5,7 +5,7 @@ pbcommand
 
 |downloads|
 
-Library and Tools for interfacing to PacBio pbsmrtpipe workflow engine\.
+Library and Tools for interfacing to PacBio pbsmrtpipe workflow engine.
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbcommand

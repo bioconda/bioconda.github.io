@@ -5,7 +5,7 @@ gqt
 
 |downloads|
 
-GQT is a genotype query interface\.
+GQT is a genotype query interface.
 
 ============= ===========
 Home          https://github.com/ryanlayer/gqt

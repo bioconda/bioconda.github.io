@@ -5,7 +5,7 @@ bioconductor-genomeinfodbdata
 
 |downloads|
 
-Files for mapping between NCBI taxonomy ID and species\. Used by functions in the GenomeInfoDb package\.
+Files for mapping between NCBI taxonomy ID and species. Used by functions in the GenomeInfoDb package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/GenomeInfoDbData.html

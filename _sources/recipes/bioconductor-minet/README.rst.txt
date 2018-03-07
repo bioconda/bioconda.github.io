@@ -5,7 +5,7 @@ bioconductor-minet
 
 |downloads|
 
-This package implements various algorithms for inferring mutual information networks from data\.
+This package implements various algorithms for inferring mutual information networks from data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/minet.html

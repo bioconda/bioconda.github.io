@@ -5,7 +5,7 @@ genblastg
 
 |downloads|
 
-genBlast is a program suite\, consisting of two programs\: genBlastA and genBlastG\. genBlastA parses local alignments\, or high\-scoring segment pairs \(HSPs\) produced by local sequence alignment programs such as BLAST and WU\-BLAST and identify groups of HSPs\.
+genBlast is a program suite\, consisting of two programs\: genBlastA and genBlastG. genBlastA parses local alignments\, or high\-scoring segment pairs \(HSPs\) produced by local sequence alignment programs such as BLAST and WU\-BLAST and identify groups of HSPs.
 
 ============= ===========
 Home          http://genome.sfu.ca/genblast/download.html

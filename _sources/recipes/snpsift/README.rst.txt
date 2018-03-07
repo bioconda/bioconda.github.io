@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly\.
+Note that the package version is slightly different from upstream\, this is to make sure conda will order the package versions correctly.
 
 
 |docker|

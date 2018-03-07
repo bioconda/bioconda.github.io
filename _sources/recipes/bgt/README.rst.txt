@@ -5,7 +5,7 @@ bgt
 
 |downloads|
 
-Flexible genotype query among 30\,000\+ samples whole\-genome\.
+Flexible genotype query among 30\,000\+ samples whole\-genome.
 
 ============= ===========
 Home          https://github.com/lh3/bgt

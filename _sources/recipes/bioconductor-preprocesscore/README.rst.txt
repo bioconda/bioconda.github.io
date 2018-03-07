@@ -5,7 +5,7 @@ bioconductor-preprocesscore
 
 |downloads|
 
-A library of core preprocessing routines\.
+A library of core preprocessing routines.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/preprocessCore.html

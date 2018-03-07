@@ -5,7 +5,7 @@ bioconductor-codelink
 
 |downloads|
 
-This package facilitates reading\, preprocessing and manipulating Codelink microarray data\. The raw data must be exported as text file using the Codelink software\.
+This package facilitates reading\, preprocessing and manipulating Codelink microarray data. The raw data must be exported as text file using the Codelink software.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/codelink.html

@@ -5,7 +5,7 @@ bioconductor-podkat
 
 |downloads|
 
-This package provides an association test that is capable of dealing with very rare and even private variants\. This is accomplished by a kernel\-based approach that takes the positions of the variants into account\. The test can be used for pre\-processed matrix data\, but also directly for variant data stored in VCF files\. Association testing can be performed whole\-genome\, whole\-exome\, or restricted to pre\-defined regions of interest\. The test is complemented by tools for analyzing and visualizing the results\.
+This package provides an association test that is capable of dealing with very rare and even private variants. This is accomplished by a kernel\-based approach that takes the positions of the variants into account. The test can be used for pre\-processed matrix data\, but also directly for variant data stored in VCF files. Association testing can be performed whole\-genome\, whole\-exome\, or restricted to pre\-defined regions of interest. The test is complemented by tools for analyzing and visualizing the results.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/podkat.html

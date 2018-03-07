@@ -5,7 +5,7 @@ bioconductor-path2ppi
 
 |downloads|
 
-Package to predict protein\-protein interaction \(PPI\) networks in target organisms for which only a view information about PPIs is available\. Path2PPI predicts PPI networks based on sets of proteins which can belong to a certain pathway from well\-established model organisms\. It helps to combine and transfer information of a certain pathway or biological process from several reference organisms to one target organism\. Path2PPI only depends on the sequence similarity of the involved proteins\.
+Package to predict protein\-protein interaction \(PPI\) networks in target organisms for which only a view information about PPIs is available. Path2PPI predicts PPI networks based on sets of proteins which can belong to a certain pathway from well\-established model organisms. It helps to combine and transfer information of a certain pathway or biological process from several reference organisms to one target organism. Path2PPI only depends on the sequence similarity of the involved proteins.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Path2PPI.html

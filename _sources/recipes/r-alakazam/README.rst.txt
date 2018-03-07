@@ -5,7 +5,7 @@ r-alakazam
 
 |downloads|
 
-Provides immunoglobulin \(Ig\) sequence lineage reconstruction\, diversity profiling\, and amino acid property analysis\.
+Provides immunoglobulin \(Ig\) sequence lineage reconstruction\, diversity profiling\, and amino acid property analysis.
 
 ============= ===========
 Home          http://alakazam.readthedocs.org

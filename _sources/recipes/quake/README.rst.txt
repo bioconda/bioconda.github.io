@@ -5,7 +5,7 @@ quake
 
 |downloads|
 
-Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e\.g\. \>15X\)\, specifically intended for Illumina sequencing reads
+Quake is a package to correct substitution sequencing errors in experiments with deep coverage \(e.g. \>15X\)\, specifically intended for Illumina sequencing reads
 
 ============= ===========
 Home          http://www.cbcb.umd.edu/software/quake/

@@ -5,7 +5,7 @@ secapr
 
 |downloads|
 
-Process sequence\-capture FASTQ files into alignments for phylogenetic analyses\. Integrates allele phasing\, producing haplotype alignments\.
+Process sequence\-capture FASTQ files into alignments for phylogenetic analyses. Integrates allele phasing\, producing haplotype alignments.
 
 ============= ===========
 Home          https://github.com/AntonelliLab/seqcap_processor

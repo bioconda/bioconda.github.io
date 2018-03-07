@@ -5,7 +5,7 @@ bioconductor-chipqc
 
 |downloads|
 
-Quality metrics for ChIPseq data\.
+Quality metrics for ChIPseq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ChIPQC.html

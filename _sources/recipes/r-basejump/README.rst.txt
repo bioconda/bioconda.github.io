@@ -5,7 +5,7 @@ r-basejump
 
 |downloads|
 
-Base functions for bioinformatics and R package development\.
+Base functions for bioinformatics and R package development.
 
 ============= ===========
 Home          https://github.com/steinbaugh/basejump

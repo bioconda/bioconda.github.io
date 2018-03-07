@@ -5,7 +5,7 @@ pgma-simple
 
 |downloads|
 
-Pgma is a simple program for building WPGMA trees\.
+Pgma is a simple program for building WPGMA trees.
 
 ============= ===========
 Home          https://github.com/BackofenLab/GraphClust

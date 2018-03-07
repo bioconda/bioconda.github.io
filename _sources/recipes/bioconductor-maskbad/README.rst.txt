@@ -5,7 +5,7 @@ bioconductor-maskbad
 
 |downloads|
 
-Package includes functions to analyze and mask microarray expression data\.
+Package includes functions to analyze and mask microarray expression data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/maskBAD.html

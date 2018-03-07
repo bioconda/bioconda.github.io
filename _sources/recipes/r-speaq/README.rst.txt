@@ -5,7 +5,7 @@ r-speaq
 
 |downloads|
 
-Makes Nuclear Magnetic Resonance spectroscopy \(NMR spectroscopy\) data analysis as easy as possible by only requiring a small set of functions to perform an entire analysis\. \'speaq\' offers the possibility of raw spectra alignment and quantitation but also an analysis based on features whereby the spectra are converted to peaks which are then grouped and turned into features\. These features can be processed with any number of statistical tools either included in \'speaq\' or available elsewhere on CRAN\. More detail can be found in \<doi\:10\.1186\/1471\-2105\-12\-405\> and \<doi\:10\.1101\/138503\>\.
+Makes Nuclear Magnetic Resonance spectroscopy \(NMR spectroscopy\) data analysis as easy as possible by only requiring a small set of functions to perform an entire analysis. \'speaq\' offers the possibility of raw spectra alignment and quantitation but also an analysis based on features whereby the spectra are converted to peaks which are then grouped and turned into features. These features can be processed with any number of statistical tools either included in \'speaq\' or available elsewhere on CRAN. More detail can be found in \<doi\:10.1186\/1471\-2105\-12\-405\> and \<doi\:10.1101\/138503\>.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=speaq

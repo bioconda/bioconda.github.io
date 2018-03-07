@@ -5,7 +5,7 @@ r-biomark
 
 |downloads|
 
-Variable selection methods are provided for several classification methods\: the lasso\/elastic net\, PCLDA\, PLSDA\, and several t\-tests\. Two approaches for selecting cutoffs can be used\, one based on the stability of model coefficients under perturbation\, and the other on higher criticism\.
+Variable selection methods are provided for several classification methods\: the lasso\/elastic net\, PCLDA\, PLSDA\, and several t\-tests. Two approaches for selecting cutoffs can be used\, one based on the stability of model coefficients under perturbation\, and the other on higher criticism.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=BioMark

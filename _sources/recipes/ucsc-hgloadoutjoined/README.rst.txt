@@ -5,7 +5,7 @@ ucsc-hgloadoutjoined
 
 |downloads|
 
-load new style \(2014\) RepeatMasker \.out files into database
+load new style \(2014\) RepeatMasker .out files into database
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

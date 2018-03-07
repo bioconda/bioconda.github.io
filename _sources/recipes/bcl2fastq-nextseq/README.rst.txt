@@ -5,7 +5,7 @@ bcl2fastq-nextseq
 
 |downloads|
 
-NextSeq \.bcl Conversion
+NextSeq .bcl Conversion
 
 ============= ===========
 Home          https://github.com/brwnj/bcl2fastq

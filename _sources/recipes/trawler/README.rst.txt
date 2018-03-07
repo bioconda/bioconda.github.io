@@ -5,7 +5,7 @@ trawler
 
 |downloads|
 
-Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA\.
+Trawler is a motif discovery tool used to identify enriched motifs in a set of sequenced regions of DNA.
 
 ============= ===========
 Home          https://trawler.erc.monash.edu.au/help.html

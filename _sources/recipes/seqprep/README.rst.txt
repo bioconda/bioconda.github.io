@@ -5,7 +5,7 @@ seqprep
 
 |downloads|
 
-Tool for stripping adaptors and\/or merging paired reads with overlap into single reads\.
+Tool for stripping adaptors and\/or merging paired reads with overlap into single reads.
 
 ============= ===========
 Home          https://github.com/jstjohn/SeqPrep

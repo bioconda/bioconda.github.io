@@ -5,7 +5,7 @@ bioconductor-findmyfriends
 
 |downloads|
 
-A framework for doing microbial comparative genomics in R\. The main purpose of the package is assisting in the creation of pangenome matrices where genes from related organisms are grouped by similarity\, as well as the analysis of these data\. FindMyFriends provides many novel approaches to doing pangenome analysis and supports a gene grouping algorithm that scales linearly\, thus making the creation of huge pangenomes feasible\.
+A framework for doing microbial comparative genomics in R. The main purpose of the package is assisting in the creation of pangenome matrices where genes from related organisms are grouped by similarity\, as well as the analysis of these data. FindMyFriends provides many novel approaches to doing pangenome analysis and supports a gene grouping algorithm that scales linearly\, thus making the creation of huge pangenomes feasible.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/FindMyFriends.html

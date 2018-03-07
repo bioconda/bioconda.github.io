@@ -5,7 +5,7 @@ ucsc-twobitinfo
 
 |downloads|
 
-get information about sequences in a \.2bit file
+get information about sequences in a .2bit file
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

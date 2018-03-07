@@ -5,7 +5,7 @@ bioconductor-affyio
 
 |downloads|
 
-Routines for parsing Affymetrix data files based upon file format information\. Primary focus is on accessing the CEL and CDF file formats\.
+Routines for parsing Affymetrix data files based upon file format information. Primary focus is on accessing the CEL and CDF file formats.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affyio.html

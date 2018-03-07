@@ -5,7 +5,7 @@ vispr
 
 |downloads|
 
-VISPR is a visualization framework and analysis workflow for CRISPR\/Cas9 knockout screens\. VISPR is designed to display results calculated by MAGeCK\.
+VISPR is a visualization framework and analysis workflow for CRISPR\/Cas9 knockout screens. VISPR is designed to display results calculated by MAGeCK.
 
 ============= ===========
 Home          https://bitbucket.org/liulab/vispr

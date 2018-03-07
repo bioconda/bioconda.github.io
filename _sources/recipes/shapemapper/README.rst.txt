@@ -5,7 +5,7 @@ shapemapper
 
 |downloads|
 
-ShapeMapper converts raw sequencing files into mutational profiles\, creates SHAPE reactivity plots\, and provides extensive diagnostic information useful for experiment analysis and troubleshooting\.
+ShapeMapper converts raw sequencing files into mutational profiles\, creates SHAPE reactivity plots\, and provides extensive diagnostic information useful for experiment analysis and troubleshooting.
 
 ============= ===========
 Home          http://www.chem.unc.edu/rna/software.html

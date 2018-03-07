@@ -5,7 +5,7 @@ reveal
 
 |downloads|
 
-Graph based multi genome aligner\.
+Graph based multi genome aligner.
 
 ============= ===========
 Home          https://github.com/jasperlinthorst/reveal

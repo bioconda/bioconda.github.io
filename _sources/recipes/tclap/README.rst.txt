@@ -5,7 +5,7 @@ tclap
 
 |downloads|
 
-TCLAP is a small\, flexible library that provides a simple interface for defining and accessing command line arguments\.
+TCLAP is a small\, flexible library that provides a simple interface for defining and accessing command line arguments.
 
 ============= ===========
 Home          http://tclap.sourceforge.net/

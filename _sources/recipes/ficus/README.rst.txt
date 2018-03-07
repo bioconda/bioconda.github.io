@@ -5,7 +5,7 @@ ficus
 
 |downloads|
 
-Ficus provides a context manager for matplotlib figures\.
+Ficus provides a context manager for matplotlib figures.
 
 ============= ===========
 Home          https://github.com/camillescott/ficus

@@ -5,7 +5,7 @@ mykrobe
 
 |downloads|
 
-Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis\.
+Rapid antibiotic\-resistance predictions from genome sequence data for Staphylococcus aureus and Mycobacterium tuberculosis.
 
 ============= ===========
 Home          https://github.com/iqbal-lab/Mykrobe-predictor

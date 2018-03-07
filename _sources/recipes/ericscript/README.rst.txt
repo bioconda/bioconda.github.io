@@ -5,7 +5,7 @@ ericscript
 
 |downloads|
 
-EricScript is a computational framework for the discovery of gene fusions in paired end RNA\-seq data\. It is able to generate synthetic gene fusions by using the EricScript simulator and calculate a number of statistical measures for evaluating gene fusion detection methods performance with EricScript CalcStats\.
+EricScript is a computational framework for the discovery of gene fusions in paired end RNA\-seq data. It is able to generate synthetic gene fusions by using the EricScript simulator and calculate a number of statistical measures for evaluating gene fusion detection methods performance with EricScript CalcStats.
 
 ============= ===========
 Home          https://sites.google.com/site/bioericscript

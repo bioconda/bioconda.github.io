@@ -5,7 +5,7 @@ perl-indirect
 
 |downloads|
 
-Lexically warn about using the indirect method call syntax\.
+Lexically warn about using the indirect method call syntax.
 
 ============= ===========
 Home          http://search.cpan.org/dist/indirect/

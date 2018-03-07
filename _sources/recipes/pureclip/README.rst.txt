@@ -5,7 +5,7 @@ pureclip
 
 |downloads|
 
-PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nucleotide CLIP\-seq data\, such as iCLIP and eCLIP\.
+PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nucleotide CLIP\-seq data\, such as iCLIP and eCLIP.
 
 ============= ===========
 Home          https://github.com/skrakau/PureCLIP

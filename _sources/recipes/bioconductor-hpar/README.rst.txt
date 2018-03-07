@@ -5,7 +5,7 @@ bioconductor-hpar
 
 |downloads|
 
-A simple interface to and data from the Human Protein Atlas project\.
+A simple interface to and data from the Human Protein Atlas project.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/hpar.html

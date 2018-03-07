@@ -5,7 +5,7 @@ bioconductor-multidataset
 
 |downloads|
 
-Implementation of the BRGE\'s \(Bioinformatic Research Group in Epidemiology from Center for Research in Environmental Epidemiology\) MultiDataSet and ResultSet\. MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results\. This package contains base classes for MEAL and rexposome packages\.
+Implementation of the BRGE\'s \(Bioinformatic Research Group in Epidemiology from Center for Research in Environmental Epidemiology\) MultiDataSet and ResultSet. MultiDataSet is designed for integrating multi omics data sets and ResultSet is a container for omics results. This package contains base classes for MEAL and rexposome packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MultiDataSet.html

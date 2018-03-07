@@ -5,7 +5,7 @@ bioconductor-flowutils
 
 |downloads|
 
-Provides utilities for flow cytometry data\.
+Provides utilities for flow cytometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowUtils.html

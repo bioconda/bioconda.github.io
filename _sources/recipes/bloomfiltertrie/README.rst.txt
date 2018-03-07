@@ -5,7 +5,7 @@ bloomfiltertrie
 
 |downloads|
 
-An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing\.
+An alignment\-free\, reference\-free and incremental data structure for colored de Bruijn graph with application to pan\-genome indexing.
 
 ============= ===========
 Home          https://github.com/GuillaumeHolley/BloomFilterTrie

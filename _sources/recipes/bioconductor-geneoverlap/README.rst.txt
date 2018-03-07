@@ -5,7 +5,7 @@ bioconductor-geneoverlap
 
 |downloads|
 
-Test two sets of gene lists and visualize the results\.
+Test two sets of gene lists and visualize the results.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GeneOverlap.html

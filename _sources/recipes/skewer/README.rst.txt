@@ -5,7 +5,7 @@ skewer
 
 |downloads|
 
-A fast and accurate adapter trimmer for paired\-end reads\.
+A fast and accurate adapter trimmer for paired\-end reads.
 
 ============= ===========
 Home          https://github.com/relipmoc/skewer.git

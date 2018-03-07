@@ -5,7 +5,7 @@ pullseq
 
 |downloads|
 
-Utility program for extracting sequences from a fasta\/fastq file\.
+Utility program for extracting sequences from a fasta\/fastq file.
 
 ============= ===========
 Home          https://github.com/bcthomas/pullseq

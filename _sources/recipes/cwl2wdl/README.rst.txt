@@ -5,7 +5,7 @@ cwl2wdl
 
 |downloads|
 
-Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\)\.
+Proof of concept converter from Common Workflow Language \(CWL\) to the Broad Institute\'s Workflow Definition Language \(WDL\).
 
 ============= ===========
 Home          https://github.com/adamstruck/cwl2wdl

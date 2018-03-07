@@ -5,7 +5,7 @@ bioconductor-jaspar2018
 
 |downloads|
 
-Data package for JASPAR 2018\. To search this databases\, please use the package TFBSTools \(\>\= 1\.15\.6\)\.
+Data package for JASPAR 2018. To search this databases\, please use the package TFBSTools \(\>\= 1.15.6\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/JASPAR2018.html

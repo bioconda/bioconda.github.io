@@ -5,7 +5,7 @@ r-swamp
 
 |downloads|
 
-Collection of functions to connect the structure of the data with the information on the samples\.
+Collection of functions to connect the structure of the data with the information on the samples.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=swamp

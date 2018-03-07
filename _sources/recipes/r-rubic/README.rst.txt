@@ -5,7 +5,7 @@ r-rubic
 
 |downloads|
 
-RUBIC detects recurrent copy number aberrations using copy number breaks\, rather than recurrently amplified or deleted regions\. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re\-estimation of the background model are avoided\. Furthermore\, the false discovery rate is controlled on the level of called regions\, rather than at the probe level\.
+RUBIC detects recurrent copy number aberrations using copy number breaks\, rather than recurrently amplified or deleted regions. This allows for a vastly simplified approach as recursive peak splitting procedures and repeated re\-estimation of the background model are avoided. Furthermore\, the false discovery rate is controlled on the level of called regions\, rather than at the probe level.
 
 ============= ===========
 Home          http://ccb.nki.nl/software/

@@ -5,7 +5,7 @@ perl-json-create
 
 |downloads|
 
-Fast\, minimal\, UTF\-8\-only serialization of data to JSON\.
+Fast\, minimal\, UTF\-8\-only serialization of data to JSON.
 
 ============= ===========
 Home          https://metacpan.org/pod/distribution/JSON-Create/lib/JSON/Create.pod

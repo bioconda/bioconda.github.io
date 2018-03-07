@@ -5,7 +5,7 @@ bioconductor-psea
 
 |downloads|
 
-Deconvolution of gene expression data by Population\-Specific Expression Analysis \(PSEA\)\.
+Deconvolution of gene expression data by Population\-Specific Expression Analysis \(PSEA\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PSEA.html

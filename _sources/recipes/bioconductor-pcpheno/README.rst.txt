@@ -5,7 +5,7 @@ bioconductor-pcpheno
 
 |downloads|
 
-Tools to integrate\, annotate\, and link phenotypes to cellular organizational units such as protein complexes and pathways\.
+Tools to integrate\, annotate\, and link phenotypes to cellular organizational units such as protein complexes and pathways.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PCpheno.html

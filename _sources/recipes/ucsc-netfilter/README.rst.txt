@@ -5,7 +5,7 @@ ucsc-netfilter
 
 |downloads|
 
-Filter out parts of net\.  What passes
+Filter out parts of net.  What passes
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

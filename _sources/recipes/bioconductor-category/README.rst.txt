@@ -5,7 +5,7 @@ bioconductor-category
 
 |downloads|
 
-A collection of tools for performing category \(gene set enrichment\) analysis\.
+A collection of tools for performing category \(gene set enrichment\) analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Category.html

@@ -5,7 +5,7 @@ antarna
 
 |downloads|
 
-antaRNA is a python based implementation of ant\-colony optimization of the RNA inverse folding problem\.
+antaRNA is a python based implementation of ant\-colony optimization of the RNA inverse folding problem.
 
 ============= ===========
 Home          https://github.com/RobertKleinkauf/antarna

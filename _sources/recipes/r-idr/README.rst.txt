@@ -5,7 +5,7 @@ r-idr
 
 |downloads|
 
-This is a package for estimating the copula mixture model and plotting correspondence curves in \"Measuring reproducibility of high\-throughput experiments\" \(2011\)\, Annals of Applied Statistics\, Vol\. 5\, No\. 3\, 1752\-1779\, by Li\, Brown\, Huang\, and Bickel 
+This is a package for estimating the copula mixture model and plotting correspondence curves in \"Measuring reproducibility of high\-throughput experiments\" \(2011\)\, Annals of Applied Statistics\, Vol. 5\, No. 3\, 1752\-1779\, by Li\, Brown\, Huang\, and Bickel 
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=idr

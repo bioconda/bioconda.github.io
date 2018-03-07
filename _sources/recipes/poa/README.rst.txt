@@ -5,7 +5,7 @@ poa
 
 |downloads|
 
-POA is Partial Order Alignment\, a fast program for multiple sequence alignment in bioinformatics\. Its advantages are speed\, scalability\, sensitivity\, and the superior ability to handle branching \/ indels in the alignment\.
+POA is Partial Order Alignment\, a fast program for multiple sequence alignment in bioinformatics. Its advantages are speed\, scalability\, sensitivity\, and the superior ability to handle branching \/ indels in the alignment.
 
 ============= ===========
 Home          https://sourceforge.net/projects/poamsa

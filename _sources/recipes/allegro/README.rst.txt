@@ -5,7 +5,7 @@ allegro
 
 |downloads|
 
-A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity\.
+A fast linkage and haplotype analysis utility making use of MTBDD to reduce complexity.
 
 ============= ===========
 Home          http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true

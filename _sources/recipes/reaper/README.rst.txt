@@ -5,7 +5,7 @@ reaper
 
 |downloads|
 
-Tool for demultiplexing\, trimming and filtering sequencing data\.
+Tool for demultiplexing\, trimming and filtering sequencing data.
 
 ============= ===========
 Home          https://www.ebi.ac.uk/~stijn/reaper/reaper.html

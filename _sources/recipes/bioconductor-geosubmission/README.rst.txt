@@ -5,7 +5,7 @@ bioconductor-geosubmission
 
 |downloads|
 
-Helps to easily submit a microarray dataset and the associated sample information to GEO by preparing a single file for upload \(direct deposit\)\.
+Helps to easily submit a microarray dataset and the associated sample information to GEO by preparing a single file for upload \(direct deposit\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GEOsubmission.html

@@ -5,7 +5,7 @@ bioconductor-imas
 
 |downloads|
 
-Integrative analysis of Multi\-omics data for Alternative splicing\.
+Integrative analysis of Multi\-omics data for Alternative splicing.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IMAS.html

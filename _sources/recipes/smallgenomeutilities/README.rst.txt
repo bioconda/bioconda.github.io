@@ -5,7 +5,7 @@ smallgenomeutilities
 
 |downloads|
 
-A collection of scripts that are useful for dealing with viral RNA NGS data\.
+A collection of scripts that are useful for dealing with viral RNA NGS data.
 
 ============= ===========
 Home          https://github.com/cbg-ethz/smallgenomeutilities

@@ -5,7 +5,7 @@ bioconductor-gsealm
 
 |downloads|
 
-Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics\.
+Models and methods for fitting linear models to gene expression data\, together with tools for computing and using various regression diagnostics.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GSEAlm.html

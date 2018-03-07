@@ -5,7 +5,7 @@ bioconductor-marray
 
 |downloads|
 
-Class definitions for two\-color spotted microarray data\. Fuctions for data input\, diagnostic plots\, normalization and quality checking\.
+Class definitions for two\-color spotted microarray data. Fuctions for data input\, diagnostic plots\, normalization and quality checking.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/marray.html

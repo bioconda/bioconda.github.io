@@ -5,7 +5,7 @@ bioconductor-qcmetrics
 
 |downloads|
 
-The package provides a framework for generic quality control of data\. It permits to create\, manage and visualise individual or sets of quality control metrics and generate quality control reports in various formats\.
+The package provides a framework for generic quality control of data. It permits to create\, manage and visualise individual or sets of quality control metrics and generate quality control reports in various formats.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/qcmetrics.html

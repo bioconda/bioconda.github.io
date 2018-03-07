@@ -5,7 +5,7 @@ ant
 
 |downloads|
 
-Apache Ant is a Java library and command\-line tool that help building software\.
+Apache Ant is a Java library and command\-line tool that help building software.
 
 ============= ===========
 Home          http://ant.apache.org

@@ -5,7 +5,7 @@ ucsc-fatrans
 
 |downloads|
 
-Translate DNA \.fa file to peptide
+Translate DNA .fa file to peptide
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

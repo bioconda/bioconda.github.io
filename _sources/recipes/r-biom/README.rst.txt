@@ -5,7 +5,7 @@ r-biom
 
 |downloads|
 
-This is an R package for interfacing with the BIOM format\.
+This is an R package for interfacing with the BIOM format.
 
 ============= ===========
 Home          https://github.com/joey711/biom/, http://biom-format.org/

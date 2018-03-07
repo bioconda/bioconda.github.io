@@ -5,7 +5,7 @@ bwa
 
 |downloads|
 
-The BWA read mapper\.
+The BWA read mapper.
 
 ============= ===========
 Home          https://github.com/lh3/bwa

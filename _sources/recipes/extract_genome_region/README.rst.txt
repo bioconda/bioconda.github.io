@@ -5,7 +5,7 @@ extract_genome_region
 
 |downloads|
 
-Given a CSV file of variable information defining the regions of interest\, return a file that contains a fasta\-formatted representation of these regions\.
+Given a CSV file of variable information defining the regions of interest\, return a file that contains a fasta\-formatted representation of these regions.
 
 ============= ===========
 Home          https://github.com/xguse/extract-genome-region

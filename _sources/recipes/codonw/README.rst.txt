@@ -5,7 +5,7 @@ codonw
 
 |downloads|
 
-CodonW is a programme designed to simplify the Multivariate analysis \(correspondence analysis\) of codon and amino acid usage\.
+CodonW is a programme designed to simplify the Multivariate analysis \(correspondence analysis\) of codon and amino acid usage.
 
 ============= ===========
 Home          http://codonw.sourceforge.net

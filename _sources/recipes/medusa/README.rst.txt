@@ -6,9 +6,9 @@ medusa-data-fusion
 |downloads|
 
 Medusa is an approach to detect size\-k modules of objects that\, taken together\,
-appear most significant to another set of objects\. It builds on collective
+appear most significant to another set of objects. It builds on collective
 matrix factorization to derive different semantics\, and it formulates the
-growing of the modules as a submodular optimization program\.
+growing of the modules as a submodular optimization program.
 
 
 ============= ===========

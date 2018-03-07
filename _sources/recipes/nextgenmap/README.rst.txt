@@ -5,7 +5,7 @@ nextgenmap
 
 |downloads|
 
-NextGenMap is a flexible highly sensitive short read mapping tool that handles much higher mismatch rates than comparable algorithms while still outperforming them in terms of runtime\.
+NextGenMap is a flexible highly sensitive short read mapping tool that handles much higher mismatch rates than comparable algorithms while still outperforming them in terms of runtime.
 
 ============= ===========
 Home          https://github.com/philres/NextGenMap

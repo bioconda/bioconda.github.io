@@ -6,7 +6,7 @@ control-freec
 |downloads|
 
 Copy number and genotype annotation from whole genome and whole exome
-sequencing data\.
+sequencing data.
 
 
 ============= ===========
@@ -37,10 +37,10 @@ and update with::
 
 Notes
 -----
-The tool will be available as \`freec\` in the command line\.
-See the homepage for example config files\. Auxiliary scripts
-like e\.g\. freec2bed\.pl and freec2circos\.pl \(see homepage\) are available in the
-command line as well\.
+The tool will be available as \`freec\` in the command line.
+See the homepage for example config files. Auxiliary scripts
+like e.g. freec2bed.pl and freec2circos.pl \(see homepage\) are available in the
+command line as well.
 
 
 

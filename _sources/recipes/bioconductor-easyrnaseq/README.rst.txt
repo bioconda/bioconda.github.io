@@ -5,7 +5,7 @@ bioconductor-easyrnaseq
 
 |downloads|
 
-Calculates the coverage of high\-throughput short\-reads against a genome of reference and summarizes it per feature of interest \(e\.g\. exon\, gene\, transcript\)\. The data can be normalized as \'RPKM\' or by the \'DESeq\' or \'edgeR\' package\.
+Calculates the coverage of high\-throughput short\-reads against a genome of reference and summarizes it per feature of interest \(e.g. exon\, gene\, transcript\). The data can be normalized as \'RPKM\' or by the \'DESeq\' or \'edgeR\' package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/easyRNASeq.html

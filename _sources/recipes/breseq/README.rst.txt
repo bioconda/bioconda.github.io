@@ -5,7 +5,7 @@ breseq
 
 |downloads|
 
-A computational pipeline for finding mutations relative to a reference sequence in short\-read DNA re\-sequencing data\.
+A computational pipeline for finding mutations relative to a reference sequence in short\-read DNA re\-sequencing data.
 
 ============= ===========
 Home          https://github.com/barricklab/breseq

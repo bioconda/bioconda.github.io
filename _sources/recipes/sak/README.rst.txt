@@ -5,7 +5,7 @@ sak
 
 |downloads|
 
-This tool allows one to cut sequences and parts of sequences out of sequence files\.
+This tool allows one to cut sequences and parts of sequences out of sequence files.
 
 ============= ===========
 Home          https://github.com/seqan/seqan/tree/master/apps/sak/README

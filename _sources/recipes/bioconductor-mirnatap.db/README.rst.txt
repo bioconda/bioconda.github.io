@@ -5,7 +5,7 @@ bioconductor-mirnatap.db
 
 |downloads|
 
-This package holds the database for miRNAtap\.
+This package holds the database for miRNAtap.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/miRNAtap.db.html

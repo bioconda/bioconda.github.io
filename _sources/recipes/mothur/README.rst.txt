@@ -5,7 +5,7 @@ mothur
 
 |downloads|
 
-This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community\.
+This project seeks to develop a single piece of open\-source\, expandable software to fill the bioinformatics needs of the microbial ecology community.
 
 ============= ===========
 Home          http://www.mothur.org

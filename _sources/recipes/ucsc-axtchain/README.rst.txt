@@ -5,7 +5,7 @@ ucsc-axtchain
 
 |downloads|
 
-Chain together axt alignments\.
+Chain together axt alignments.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

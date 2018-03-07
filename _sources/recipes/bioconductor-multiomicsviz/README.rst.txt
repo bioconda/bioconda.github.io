@@ -5,7 +5,7 @@ bioconductor-multiomicsviz
 
 |downloads|
 
-Calculate the spearman correlation between the source omics data and other target omics data\, identify the significant correlations and plot the significant correlations on the heat map in which the x\-axis and y\-axis are ordered by the chromosomal location\.
+Calculate the spearman correlation between the source omics data and other target omics data\, identify the significant correlations and plot the significant correlations on the heat map in which the x\-axis and y\-axis are ordered by the chromosomal location.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/multiOmicsViz.html

@@ -5,7 +5,7 @@ galaxy-parsec
 
 |downloads|
 
-Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\/galaxyproject\.org\/\)\.
+Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\/galaxyproject.org\/\).
 
 ============= ===========
 Home          https://github.com/galaxy-iuc/parsec

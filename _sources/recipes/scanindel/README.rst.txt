@@ -5,7 +5,7 @@ scanindel
 
 |downloads|
 
-ScanIndel is a python program to detect indels \(insertions and deletions\) from NGS data by re\-align and de novo assemble soft clipped reads\.
+ScanIndel is a python program to detect indels \(insertions and deletions\) from NGS data by re\-align and de novo assemble soft clipped reads.
 
 ============= ===========
 Home          https://github.com/cauyrd/ScanIndel

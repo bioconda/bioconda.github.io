@@ -5,7 +5,7 @@ bioconductor-convert
 
 |downloads|
 
-Define coerce methods for microarray data objects\.
+Define coerce methods for microarray data objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/convert.html

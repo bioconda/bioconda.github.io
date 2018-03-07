@@ -5,7 +5,7 @@ nmrpro
 
 |downloads|
 
-NMRPro reads and processes different types of NMR spectra\.
+NMRPro reads and processes different types of NMR spectra.
 
 ============= ===========
 Home          https://github.com/ahmohamed/nmrpro

@@ -5,7 +5,7 @@ bioconductor-mdgsa
 
 |downloads|
 
-Functions to preform a Gene Set Analysis in several genomic dimensions\. Including methods for miRNAs\.
+Functions to preform a Gene Set Analysis in several genomic dimensions. Including methods for miRNAs.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/mdgsa.html

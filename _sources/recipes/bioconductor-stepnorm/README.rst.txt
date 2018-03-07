@@ -5,7 +5,7 @@ bioconductor-stepnorm
 
 |downloads|
 
-Stepwise normalization functions for cDNA microarray data\.
+Stepwise normalization functions for cDNA microarray data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/stepNorm.html

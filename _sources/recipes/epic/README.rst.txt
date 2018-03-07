@@ -5,7 +5,7 @@ epic
 
 |downloads|
 
-Chip\-Seq broad peak\/domain finder\.
+Chip\-Seq broad peak\/domain finder.
 
 ============= ===========
 Home          http://github.com/endrebak/epic

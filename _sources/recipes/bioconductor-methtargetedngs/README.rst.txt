@@ -5,7 +5,7 @@ bioconductor-methtargetedngs
 
 |downloads|
 
-Perform step by step methylation analysis of Next Generation Sequencing data\.
+Perform step by step methylation analysis of Next Generation Sequencing data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MethTargetedNGS.html

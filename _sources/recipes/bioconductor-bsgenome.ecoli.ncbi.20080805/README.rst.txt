@@ -5,7 +5,7 @@ bioconductor-bsgenome.ecoli.ncbi.20080805
 
 |downloads|
 
-Escherichia coli full genomes for several strains as provided by NCBI on 2008\/08\/05 and stored in Biostrings objects\.
+Escherichia coli full genomes for several strains as provided by NCBI on 2008\/08\/05 and stored in Biostrings objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html

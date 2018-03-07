@@ -5,7 +5,7 @@ infernal
 
 |downloads|
 
-Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities\.
+Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databases for RNA structure and sequence similarities.
 
 ============= ===========
 Home          http://infernal.janelia.org/

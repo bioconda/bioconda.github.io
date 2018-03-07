@@ -5,7 +5,7 @@ genomicconsensus
 
 |downloads|
 
-PacBio variant and consensus caller\.
+PacBio variant and consensus caller.
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/GenomicConsensus

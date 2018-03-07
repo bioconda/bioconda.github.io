@@ -5,7 +5,7 @@ perl-data-walk
 
 |downloads|
 
-Traverse Perl data structures\.
+Traverse Perl data structures.
 
 ============= ===========
 Home          http://metacpan.org/pod/Data::Walk

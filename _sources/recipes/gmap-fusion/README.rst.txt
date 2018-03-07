@@ -5,7 +5,7 @@ gmap-fusion
 
 |downloads|
 
-GMAP\-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via RNA\-Seq de novo transcriptome assembly\.
+GMAP\-fusion is a utility for identifying candidate fusion transcripts based on transcript sequences reconstructed via RNA\-Seq de novo transcriptome assembly.
 
 ============= ===========
 Home          https://github.com/GMAP-fusion/GMAP-fusion

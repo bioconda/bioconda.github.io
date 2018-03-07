@@ -5,7 +5,7 @@ fermi2
 
 |downloads|
 
-Fermi2 focuses on the exploration of FMD\-index as a graph\.
+Fermi2 focuses on the exploration of FMD\-index as a graph.
 
 ============= ===========
 Home          https://github.com/lh3/fermi2

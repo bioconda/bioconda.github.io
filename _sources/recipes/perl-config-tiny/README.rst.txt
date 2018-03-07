@@ -5,7 +5,7 @@ perl-config-tiny
 
 |downloads|
 
-Read\/Write \.ini style files with as little code as possible
+Read\/Write .ini style files with as little code as possible
 
 ============= ===========
 Home          http://metacpan.org/pod/Config::Tiny

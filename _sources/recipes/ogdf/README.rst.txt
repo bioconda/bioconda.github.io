@@ -5,7 +5,7 @@ ogdf
 
 |downloads|
 
-The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams\.
+The Open Graph Drawing Framework is a self\-contained C\+\+ class library for the automatic layout of diagrams.
 
 ============= ===========
 Home          http://http://ogdf.net/doku.php

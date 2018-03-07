@@ -5,7 +5,7 @@ bamutil
 
 |downloads|
 
-Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam\.
+Programs that perform operations on SAM\/BAM files\, all built into a single executable\, bam.
 
 ============= ===========
 Home          http://genome.sph.umich.edu/wiki/BamUtil

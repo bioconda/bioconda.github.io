@@ -5,7 +5,7 @@ ucsc-wigcorrelate
 
 |downloads|
 
-Produce a table that correlates all pairs of wigs\.
+Produce a table that correlates all pairs of wigs.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

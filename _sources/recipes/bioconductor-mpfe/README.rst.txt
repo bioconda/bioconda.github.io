@@ -5,7 +5,7 @@ bioconductor-mpfe
 
 |downloads|
 
-Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non\-conversion rate and read error rate\.
+Estimate distribution of methylation patterns from a table of counts from a bisulphite sequencing experiment given a non\-conversion rate and read error rate.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MPFE.html

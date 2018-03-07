@@ -5,7 +5,7 @@ platypus-conquistador
 
 |downloads|
 
-Platypus Conquistador\: Confirming specific taxonomic groups within your metagenomic samples\.
+Platypus Conquistador\: Confirming specific taxonomic groups within your metagenomic samples.
 
 ============= ===========
 Home          http://github.com/biocore/platypus

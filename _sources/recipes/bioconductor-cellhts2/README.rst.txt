@@ -5,7 +5,7 @@ bioconductor-cellhts2
 
 |downloads|
 
-This package provides tools for the analysis of high\-throughput assays that were performed in microtitre plate formats \(including but not limited to 384\-well plates\)\. The functionality includes data import and management\, normalisation\, quality assessment\, replicate summarisation and statistical scoring\. A webpage that provides a detailed graphical overview over the data and analysis results is produced\. In our work\, we have applied the package to RNAi screens on fly and human cells\, and for screens of yeast libraries\. See \?cellHTS2 for a brief introduction\.
+This package provides tools for the analysis of high\-throughput assays that were performed in microtitre plate formats \(including but not limited to 384\-well plates\). The functionality includes data import and management\, normalisation\, quality assessment\, replicate summarisation and statistical scoring. A webpage that provides a detailed graphical overview over the data and analysis results is produced. In our work\, we have applied the package to RNAi screens on fly and human cells\, and for screens of yeast libraries. See \?cellHTS2 for a brief introduction.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cellHTS2.html

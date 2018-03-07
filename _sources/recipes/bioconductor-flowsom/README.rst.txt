@@ -5,7 +5,7 @@ bioconductor-flowsom
 
 |downloads|
 
-FlowSOM offers visualization options for cytometry data\, by using Self\-Organizing Map clustering and Minimal Spanning Trees\.
+FlowSOM offers visualization options for cytometry data\, by using Self\-Organizing Map clustering and Minimal Spanning Trees.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/FlowSOM.html

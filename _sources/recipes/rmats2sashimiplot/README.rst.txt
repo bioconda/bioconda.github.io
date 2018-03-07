@@ -5,7 +5,7 @@ rmats2sashimiplot
 
 |downloads|
 
-rmats2sashimiplot is a tool that generates sahimi plots from rMATS outputs\.
+rmats2sashimiplot is a tool that generates sahimi plots from rMATS outputs.
 
 ============= ===========
 Home          https://github.com/Xinglab/rmats2sashimiplot

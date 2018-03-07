@@ -5,7 +5,7 @@ nest
 
 |downloads|
 
-NEST is a simulator for spiking neural network models\.
+NEST is a simulator for spiking neural network models.
 
 ============= ===========
 Home          http://www.nest-simulator.org/

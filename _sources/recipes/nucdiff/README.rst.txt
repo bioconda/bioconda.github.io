@@ -5,7 +5,7 @@ nucdiff
 
 |downloads|
 
-NucDiff locates and categorizes differences between two closely related nucleotide sequences\.
+NucDiff locates and categorizes differences between two closely related nucleotide sequences.
 
 ============= ===========
 Home          https://github.com/uio-cels/NucDiff

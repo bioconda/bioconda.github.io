@@ -5,7 +5,7 @@ bioconductor-fis
 
 |downloads|
 
-Data set containing two complete lists of identified functional interaction partners in Human\. Data are derived from Reactome and BioGRID databases\.
+Data set containing two complete lists of identified functional interaction partners in Human. Data are derived from Reactome and BioGRID databases.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/FIs.html

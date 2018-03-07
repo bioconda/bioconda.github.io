@@ -5,7 +5,7 @@ perl-test2
 
 |downloads|
 
-Framework for writing test tools that all work together\.
+Framework for writing test tools that all work together.
 
 ============= ===========
 Home          http://metacpan.org/pod/Test2

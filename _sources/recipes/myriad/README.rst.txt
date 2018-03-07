@@ -5,7 +5,7 @@ myriad
 
 |downloads|
 
-Simple distributed computing\.
+Simple distributed computing.
 
 ============= ===========
 Home          https://github.com/cjw85/myriad

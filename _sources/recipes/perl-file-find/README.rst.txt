@@ -5,7 +5,7 @@ perl-file-find
 
 |downloads|
 
-Traverse a directory tree\.
+Traverse a directory tree.
 
 ============= ===========
 Home          http://metacpan.org/pod/File::Find

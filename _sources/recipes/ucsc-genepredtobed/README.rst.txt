@@ -5,7 +5,7 @@ ucsc-genepredtobed
 
 |downloads|
 
-Convert from genePred to bed format\. Does not yet handle genePredExt
+Convert from genePred to bed format. Does not yet handle genePredExt
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ r-precrec
 
 |downloads|
 
-Accurate calculations and visualization of precision\-recall and ROC \(Receiver Operator Characteristics\) curves\.
+Accurate calculations and visualization of precision\-recall and ROC \(Receiver Operator Characteristics\) curves.
 
 ============= ===========
 Home          https://github.com/takayasaito/precrec

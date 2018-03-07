@@ -5,7 +5,7 @@ bioconductor-mygene
 
 |downloads|
 
-MyGene\.Info\_ provides simple\-to\-use REST web services to query\/retrieve gene annotation data\. It\'s designed with simplicity and performance emphasized\. \*mygene\*\, is an easy\-to\-use R wrapper to access MyGene\.Info\_ services\.
+MyGene.Info\_ provides simple\-to\-use REST web services to query\/retrieve gene annotation data. It\'s designed with simplicity and performance emphasized. \*mygene\*\, is an easy\-to\-use R wrapper to access MyGene.Info\_ services.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/mygene.html

@@ -5,7 +5,7 @@ blast
 
 |downloads|
 
-BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit\.
+BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit.
 
 ============= ===========
 Home          http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs

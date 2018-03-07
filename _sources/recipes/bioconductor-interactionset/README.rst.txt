@@ -5,7 +5,7 @@ bioconductor-interactionset
 
 |downloads|
 
-Provides the GInteractions\, InteractionSet and ContactMatrix objects and associated methods for storing and manipulating genomic interaction data from Hi\-C and ChIA\-PET experiments\.
+Provides the GInteractions\, InteractionSet and ContactMatrix objects and associated methods for storing and manipulating genomic interaction data from Hi\-C and ChIA\-PET experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/InteractionSet.html

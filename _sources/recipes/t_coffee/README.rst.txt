@@ -5,7 +5,7 @@ t_coffee
 
 |downloads|
 
-A collection of tools for Computing\, Evaluating and Manipulating Multiple Alignments of DNA\, RNA\, Protein Sequences and Structures\.
+A collection of tools for Computing\, Evaluating and Manipulating Multiple Alignments of DNA\, RNA\, Protein Sequences and Structures.
 
 ============= ===========
 Home          http://www.tcoffee.org/Projects/tcoffee/

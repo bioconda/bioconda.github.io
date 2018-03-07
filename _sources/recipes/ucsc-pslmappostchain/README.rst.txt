@@ -5,7 +5,7 @@ ucsc-pslmappostchain
 
 |downloads|
 
- Post genomic pslMap \(TransMap\) chaining\.  This takes transcripts that have been mapped via genomic chains adds back in blocks that didn\'t get include in genomic chains due to complex rearrangements or other issues\. 
+ Post genomic pslMap \(TransMap\) chaining.  This takes transcripts that have been mapped via genomic chains adds back in blocks that didn\'t get include in genomic chains due to complex rearrangements or other issues. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

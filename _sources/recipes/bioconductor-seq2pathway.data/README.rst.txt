@@ -5,7 +5,7 @@ bioconductor-seq2pathway.data
 
 |downloads|
 
-Supporting data for the seq2patheway package\. Includes modified gene sets from MsigDB and org\.Hs\.eg\.db\; gene locus definitions from GENCODE project\.
+Supporting data for the seq2patheway package. Includes modified gene sets from MsigDB and org.Hs.eg.db\; gene locus definitions from GENCODE project.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/seq2pathway.data.html

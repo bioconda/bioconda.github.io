@@ -5,7 +5,7 @@ perl-algorithm-munkres
 
 |downloads|
 
-Munkres\.pm
+Munkres.pm
 
 ============= ===========
 Home          http://metacpan.org/pod/Algorithm-Munkres

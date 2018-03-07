@@ -5,7 +5,7 @@ bioconductor-genomicinteractions
 
 |downloads|
 
-R package for handling Genomic interaction data\, such as ChIA\-PET\/Hi\-C\, annotating genomic features with interaction information and producing various plots \/ statistics\.
+R package for handling Genomic interaction data\, such as ChIA\-PET\/Hi\-C\, annotating genomic features with interaction information and producing various plots \/ statistics.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicInteractions.html

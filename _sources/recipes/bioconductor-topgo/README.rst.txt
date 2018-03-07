@@ -5,7 +5,7 @@ bioconductor-topgo
 
 |downloads|
 
-topGO package provides tools for testing GO terms while accounting for the topology of the GO graph\. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied\.
+topGO package provides tools for testing GO terms while accounting for the topology of the GO graph. Different test statistics and different methods for eliminating local similarities and dependencies between GO terms can be implemented and applied.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/topGO.html

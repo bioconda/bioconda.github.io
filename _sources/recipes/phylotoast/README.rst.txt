@@ -5,7 +5,7 @@ phylotoast
 
 |downloads|
 
-Tools for phylogenetic data analysis including visualization and cluster\-computing support\. 
+Tools for phylogenetic data analysis including visualization and cluster\-computing support. 
 
 ============= ===========
 Home          https://github.com/smdabdoub/phylotoast

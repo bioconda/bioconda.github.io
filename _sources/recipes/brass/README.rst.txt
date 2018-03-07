@@ -5,7 +5,7 @@ brass
 
 |downloads|
 
-BRASS analyses one or more related BAM files of paired\-end sequencing to determine potential rearrangement breakpoints\.
+BRASS analyses one or more related BAM files of paired\-end sequencing to determine potential rearrangement breakpoints.
 
 ============= ===========
 Home          https://github.com/cancerit/BRASS

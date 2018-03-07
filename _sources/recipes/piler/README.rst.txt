@@ -5,7 +5,7 @@ piler
 
 |downloads|
 
-PILER is public domain software for analyzing repetitive DNA found in genome sequences\.
+PILER is public domain software for analyzing repetitive DNA found in genome sequences.
 
 ============= ===========
 Home          http://www.drive5.com/piler

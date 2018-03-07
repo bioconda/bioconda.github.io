@@ -5,7 +5,7 @@ sis
 
 |downloads|
 
-A tool that uses mummer to scaffold small genomes\.
+A tool that uses mummer to scaffold small genomes.
 
 ============= ===========
 Home          http://marte.ic.unicamp.br:8747/

@@ -5,7 +5,7 @@ tantan
 
 |downloads|
 
-tantan is a tool for masking simple regions \(low complexity and short\-period tandem repeats\) in biological sequences\.
+tantan is a tool for masking simple regions \(low complexity and short\-period tandem repeats\) in biological sequences.
 
 ============= ===========
 Home          http://cbrc3.cbrc.jp/~martin/tantan/

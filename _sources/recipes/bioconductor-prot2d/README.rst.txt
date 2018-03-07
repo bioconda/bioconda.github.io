@@ -5,7 +5,7 @@ bioconductor-prot2d
 
 |downloads|
 
-The purpose of this package is to analyze \(i\.e\. Normalize and select significant spots\) data issued from 2D GEl experiments
+The purpose of this package is to analyze \(i.e. Normalize and select significant spots\) data issued from 2D GEl experiments
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/prot2D.html

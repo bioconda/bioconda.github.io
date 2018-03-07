@@ -5,7 +5,7 @@ bioconductor-seqpattern
 
 |downloads|
 
-Visualising oligonucleotide patterns and sequence motifs occurrences across a large set of sequences centred at a common reference point and sorted by a user defined feature\.
+Visualising oligonucleotide patterns and sequence motifs occurrences across a large set of sequences centred at a common reference point and sorted by a user defined feature.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/seqPattern.html

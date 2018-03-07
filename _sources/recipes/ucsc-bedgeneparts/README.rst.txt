@@ -5,7 +5,7 @@ ucsc-bedgeneparts
 
 |downloads|
 
-Given a bed\, spit out promoter\, first exon\, or all introns\.
+Given a bed\, spit out promoter\, first exon\, or all introns.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

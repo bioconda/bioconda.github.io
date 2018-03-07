@@ -5,7 +5,7 @@ perl-test-output
 
 |downloads|
 
-Utilities to test STDOUT and STDERR messages\.
+Utilities to test STDOUT and STDERR messages.
 
 ============= ===========
 Home          http://metacpan.org/pod/Test-Output

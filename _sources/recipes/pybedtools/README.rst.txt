@@ -5,7 +5,7 @@ pybedtools
 
 |downloads|
 
-Wraps BEDTools for use in Python and adds many additional features\.
+Wraps BEDTools for use in Python and adds many additional features.
 
 ============= ===========
 Home          https://github.com/daler/pybedtools

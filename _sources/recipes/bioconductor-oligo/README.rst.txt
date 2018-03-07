@@ -5,7 +5,7 @@ bioconductor-oligo
 
 |downloads|
 
-A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at probe\-level\. It currently supports Affymetrix \(CEL files\) and NimbleGen arrays \(XYS files\)\.
+A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at probe\-level. It currently supports Affymetrix \(CEL files\) and NimbleGen arrays \(XYS files\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/oligo.html

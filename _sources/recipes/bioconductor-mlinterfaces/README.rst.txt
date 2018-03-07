@@ -5,7 +5,7 @@ bioconductor-mlinterfaces
 
 |downloads|
 
-This package provides uniform interfaces to machine learning code for data in R and Bioconductor containers\.
+This package provides uniform interfaces to machine learning code for data in R and Bioconductor containers.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MLInterfaces.html

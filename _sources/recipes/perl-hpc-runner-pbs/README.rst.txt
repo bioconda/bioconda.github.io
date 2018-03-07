@@ -5,7 +5,7 @@ perl-hpc-runner-pbs
 
 |downloads|
 
-Submit jobs to a PBS job scheduler\.
+Submit jobs to a PBS job scheduler.
 
 ============= ===========
 Home          https://bitbucket.org/jerowe/hpc-runner-pbs

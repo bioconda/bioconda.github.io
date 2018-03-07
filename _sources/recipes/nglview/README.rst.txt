@@ -5,7 +5,7 @@ nglview
 
 |downloads|
 
-An IPython widget to interactively view molecular structures and trajectories\. Utilizes the embeddable NGL Viewer for rendering\.
+An IPython widget to interactively view molecular structures and trajectories. Utilizes the embeddable NGL Viewer for rendering.
 
 ============= ===========
 Home          http://github.com/arose/nglview

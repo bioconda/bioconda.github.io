@@ -5,7 +5,7 @@ bioconductor-flowrepositoryr
 
 |downloads|
 
-This package provides an interface to search and download data and annotations from FlowRepository \(flowrepository\.org\)\. It uses the FlowRepository programming interface to communicate with a FlowRepository server\.
+This package provides an interface to search and download data and annotations from FlowRepository \(flowrepository.org\). It uses the FlowRepository programming interface to communicate with a FlowRepository server.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/FlowRepositoryR.html

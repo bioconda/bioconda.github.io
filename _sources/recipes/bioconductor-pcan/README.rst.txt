@@ -5,7 +5,7 @@ bioconductor-pcan
 
 |downloads|
 
-Phenotypes comparison based on a pathway consensus approach\. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e\.g\. Pathways or network neighbors\)\.
+Phenotypes comparison based on a pathway consensus approach. Assess the relationship between candidate genes and a set of phenotypes based on additional genes related to the candidate \(e.g. Pathways or network neighbors\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PCAN.html

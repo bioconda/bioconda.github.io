@@ -5,7 +5,7 @@ shellescape
 
 |downloads|
 
-Shell escape a string to safely use it as a token in a shell command \(backport of Python shlex\.quote for Python versions 2\.x \& \< 3\.3\)
+Shell escape a string to safely use it as a token in a shell command \(backport of Python shlex.quote for Python versions 2.x \& \< 3.3\)
 
 ============= ===========
 Home          https://github.com/chrissimpkins/shellescape

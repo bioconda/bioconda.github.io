@@ -5,7 +5,7 @@ ccat
 
 |downloads|
 
-CCAT is a software package for the analysis of ChIP\-seq data with negative control\.
+CCAT is a software package for the analysis of ChIP\-seq data with negative control.
 
 ============= ===========
 Home          http://cmb.gis.a-star.edu.sg/ChIPSeq/paperCCAT.htm

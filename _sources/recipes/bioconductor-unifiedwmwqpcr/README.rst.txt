@@ -5,7 +5,7 @@ bioconductor-unifiedwmwqpcr
 
 |downloads|
 
-This packages implements the unified Wilcoxon\-Mann\-Whitney Test for qPCR data\. This modified test allows for testing differential expression in qPCR data\.
+This packages implements the unified Wilcoxon\-Mann\-Whitney Test for qPCR data. This modified test allows for testing differential expression in qPCR data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/unifiedWMWqPCR.html

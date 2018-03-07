@@ -5,7 +5,7 @@ bioconductor-affycoretools
 
 |downloads|
 
-Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see\.
+Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affycoretools.html

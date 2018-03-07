@@ -5,7 +5,7 @@ pubchempy
 
 |downloads|
 
-A simple Python wrapper around the PubChem PUG REST API\.
+A simple Python wrapper around the PubChem PUG REST API.
 
 ============= ===========
 Home          https://github.com/mcs07/PubChemPy

@@ -5,7 +5,7 @@ wtforms-alchemy
 
 |downloads|
 
-Generates WTForms forms from SQLAlchemy models\.
+Generates WTForms forms from SQLAlchemy models.
 
 ============= ===========
 Home          https://github.com/kvesteri/wtforms-alchemy

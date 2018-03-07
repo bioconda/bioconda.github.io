@@ -5,7 +5,7 @@ ucsc-chainfilter
 
 |downloads|
 
-Filter chain files\.  Output goes to standard out\.
+Filter chain files.  Output goes to standard out.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

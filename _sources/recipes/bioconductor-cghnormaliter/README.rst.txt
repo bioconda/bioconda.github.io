@@ -5,7 +5,7 @@ bioconductor-cghnormaliter
 
 |downloads|
 
-Normalization and centralization of array comparative genomic hybridization \(aCGH\) data\. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers\. This leads to a more reliable assessment of copy number alterations \(CNAs\)\.
+Normalization and centralization of array comparative genomic hybridization \(aCGH\) data. The algorithm uses an iterative procedure that effectively eliminates the influence of imbalanced copy numbers. This leads to a more reliable assessment of copy number alterations \(CNAs\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CGHnormaliter.html

@@ -5,7 +5,7 @@ nanopolish
 
 |downloads|
 
-Signal\-level algorithms for MinION data\.
+Signal\-level algorithms for MinION data.
 
 ============= ===========
 Home          https://github.com/jts/nanopolish

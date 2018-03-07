@@ -5,7 +5,7 @@ ucsc-bigwigsummary
 
 |downloads|
 
-Extract summary information from a bigWig file\.
+Extract summary information from a bigWig file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

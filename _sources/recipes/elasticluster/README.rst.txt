@@ -5,7 +5,7 @@ elasticluster
 
 |downloads|
 
-Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure\.
+Create\, manage and setup computing clusters hosted on a public or private cloud infrastructure.
 
 ============= ===========
 Home          https://github.com/gc3-uzh-ch/elasticluster

@@ -5,7 +5,7 @@ perl-svg-graph
 
 |downloads|
 
-Visualize your data in Scalable Vector Graphics \(SVG\) format\.
+Visualize your data in Scalable Vector Graphics \(SVG\) format.
 
 ============= ===========
 Home          http://metacpan.org/pod/SVG-Graph

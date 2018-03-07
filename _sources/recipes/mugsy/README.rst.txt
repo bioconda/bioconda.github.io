@@ -5,7 +5,7 @@ mugsy
 
 |downloads|
 
-Mugsy is a multiple whole genome aligner\.
+Mugsy is a multiple whole genome aligner.
 
 ============= ===========
 Home          http://mugsy.sourceforge.net

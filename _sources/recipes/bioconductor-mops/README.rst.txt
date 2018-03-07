@@ -5,7 +5,7 @@ bioconductor-mops
 
 |downloads|
 
-Identification and characterization of periodic fluctuations in time\-series data\.
+Identification and characterization of periodic fluctuations in time\-series data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MoPS.html

@@ -5,7 +5,7 @@ bioconductor-ruvnormalize
 
 |downloads|
 
-RUVnormalize is meant to remove unwanted variation from gene expression data when the factor of interest is not defined\, e\.g\.\, to clean up a dataset for general use or to do any kind of unsupervised analysis\.
+RUVnormalize is meant to remove unwanted variation from gene expression data when the factor of interest is not defined\, e.g.\, to clean up a dataset for general use or to do any kind of unsupervised analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RUVnormalize.html

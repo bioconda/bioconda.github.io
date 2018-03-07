@@ -5,7 +5,7 @@ r-giant
 
 |downloads|
 
-Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets\.
+Toolbox for various enrichment analysis methods and quantification of uncertainty of gene sets.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=GiANT

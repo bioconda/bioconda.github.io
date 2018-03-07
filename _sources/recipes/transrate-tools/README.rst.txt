@@ -5,7 +5,7 @@ transrate-tools
 
 |downloads|
 
-Command\-line tools used by transrate for processing bam files\.
+Command\-line tools used by transrate for processing bam files.
 
 ============= ===========
 Home          https://github.com/blahah/transrate-tools

@@ -5,7 +5,7 @@ r-maldiquantforeign
 
 |downloads|
 
-Functions for reading \(tab\, csv\, Bruker fid\, Ciphergen XML\, mzXML\, mzML\, imzML\, Analyze 7\.5\, CDF\, mMass MSD\) and writing \(tab\, csv\, mMass MSD\, mzML\, imzML\) different file formats of mass spectrometry data into\/from \'MALDIquant\' objects\.
+Functions for reading \(tab\, csv\, Bruker fid\, Ciphergen XML\, mzXML\, mzML\, imzML\, Analyze 7.5\, CDF\, mMass MSD\) and writing \(tab\, csv\, mMass MSD\, mzML\, imzML\) different file formats of mass spectrometry data into\/from \'MALDIquant\' objects.
 
 ============= ===========
 Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquantForeign/

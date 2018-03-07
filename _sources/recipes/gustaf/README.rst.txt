@@ -5,7 +5,7 @@ gustaf
 
 |downloads|
 
-Gustaf is a tool primarily designed for multi\-split mapping of sequencing reads\.
+Gustaf is a tool primarily designed for multi\-split mapping of sequencing reads.
 
 ============= ===========
 Home          https://github.com/seqan/seqan/tree/master/apps/gustaf/README.rst

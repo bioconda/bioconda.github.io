@@ -5,7 +5,7 @@ bioconductor-rbowtie
 
 |downloads|
 
-This package provides an R wrapper around the popular bowtie short read aligner and around SpliceMap\, a de novo splice junction discovery and alignment tool\. The package is used by the QuasR bioconductor package\. We recommend to use the QuasR package instead of using Rbowtie directly\.
+This package provides an R wrapper around the popular bowtie short read aligner and around SpliceMap\, a de novo splice junction discovery and alignment tool. The package is used by the QuasR bioconductor package. We recommend to use the QuasR package instead of using Rbowtie directly.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Rbowtie.html

@@ -5,7 +5,7 @@ bioconductor-causalr
 
 |downloads|
 
-Causal network analysis methods for regulator prediction and network reconstruction from genome scale data\.
+Causal network analysis methods for regulator prediction and network reconstruction from genome scale data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CausalR.html

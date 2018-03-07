@@ -5,7 +5,7 @@ bioconductor-bsgenome.celegans.ucsc.ce10
 
 |downloads|
 
-Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce10\, Oct\. 2010\) and stored in Biostrings objects\.
+Full genome sequences for Caenorhabditis elegans \(Worm\) as provided by UCSC \(ce10\, Oct. 2010\) and stored in Biostrings objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Celegans.UCSC.ce10.html

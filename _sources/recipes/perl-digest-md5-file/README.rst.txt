@@ -5,7 +5,7 @@ perl-digest-md5-file
 
 |downloads|
 
-Perl extension for getting MD5 sums for files and urls\.
+Perl extension for getting MD5 sums for files and urls.
 
 ============= ===========
 Home          http://search.cpan.org/dist/Digest-MD5-File/

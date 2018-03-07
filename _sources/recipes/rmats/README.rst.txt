@@ -5,7 +5,7 @@ rmats
 
 |downloads|
 
-MATS is a computational tool to detect differential alternative splicing events from RNA\-Seq data\.
+MATS is a computational tool to detect differential alternative splicing events from RNA\-Seq data.
 
 ============= ===========
 Home          http://rnaseq-mats.sourceforge.net

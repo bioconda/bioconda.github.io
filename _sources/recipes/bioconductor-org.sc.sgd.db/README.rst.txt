@@ -5,7 +5,7 @@ bioconductor-org.sc.sgd.db
 
 |downloads|
 
-Genome wide annotation for Yeast\, primarily based on mapping using ORF identifiers from SGD\.
+Genome wide annotation for Yeast\, primarily based on mapping using ORF identifiers from SGD.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/org.Sc.sgd.db.html

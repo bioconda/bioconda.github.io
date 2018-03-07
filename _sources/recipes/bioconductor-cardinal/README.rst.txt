@@ -5,7 +5,7 @@ bioconductor-cardinal
 
 |downloads|
 
-Implements statistical \& computational tools for analyzing mass spectrometry imaging datasets\, including methods for efficient pre\-processing\, spatial segmentation\, and classification\.
+Implements statistical \& computational tools for analyzing mass spectrometry imaging datasets\, including methods for efficient pre\-processing\, spatial segmentation\, and classification.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Cardinal.html

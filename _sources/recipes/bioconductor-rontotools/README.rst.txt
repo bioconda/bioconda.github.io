@@ -5,7 +5,7 @@ bioconductor-rontotools
 
 |downloads|
 
-Suite of tools for functional analysis\.
+Suite of tools for functional analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ROntoTools.html

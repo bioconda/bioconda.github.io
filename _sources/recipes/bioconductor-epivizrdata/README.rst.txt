@@ -5,7 +5,7 @@ bioconductor-epivizrdata
 
 |downloads|
 
-Serve data from Bioconductor Objects through a WebSocket connection\.
+Serve data from Bioconductor Objects through a WebSocket connection.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/epivizrData.html

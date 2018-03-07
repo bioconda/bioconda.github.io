@@ -5,7 +5,7 @@ e-pcr
 
 |downloads|
 
-e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences\.\.
+e\-PCR identifies sequence tagged sites\(STSs\)within DNA sequences..
 
 ============= ===========
 Home          http://www.ncbi.nlm.nih.gov/tools/epcr/

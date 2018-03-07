@@ -5,7 +5,7 @@ bcbiogff
 
 |downloads|
 
-Read and write Generic Feature Format \(GFF\) with Biopython integration\.
+Read and write Generic Feature Format \(GFF\) with Biopython integration.
 
 ============= ===========
 Home          https://github.com/chapmanb/bcbb/blob/master/gff

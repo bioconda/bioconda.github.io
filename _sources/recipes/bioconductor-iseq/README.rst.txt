@@ -5,7 +5,7 @@ bioconductor-iseq
 
 |downloads|
 
-This package uses Bayesian hidden Ising models to identify IP\-enriched genomic regions from ChIP\-seq data\. It can be used to analyze ChIP\-seq data with and without controls and replicates\.
+This package uses Bayesian hidden Ising models to identify IP\-enriched genomic regions from ChIP\-seq data. It can be used to analyze ChIP\-seq data with and without controls and replicates.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/iSeq.html

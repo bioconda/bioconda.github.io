@@ -20,7 +20,7 @@ Development   https://github.com/twestbrookunh/paladin
 ============= ===========
 
 PALADIN is a protein sequence alignment tool designed for the accurate
-functional characterization of metagenomes\.
+functional characterization of metagenomes.
 
 
 Installation

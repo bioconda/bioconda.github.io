@@ -5,7 +5,7 @@ bioconductor-bitseq
 
 |downloads|
 
-The BitSeq package is targeted for transcript expression analysis and differential expression analysis of RNA\-seq data in two stage process\. In the first stage it uses Bayesian inference methodology to infer expression of individual transcripts from individual RNA\-seq experiments\. The second stage of BitSeq embraces the differential expression analysis of transcript expression\. Providing expression estimates from replicates of multiple conditions\, Log\-Normal model of the estimates is used for inferring the condition mean transcript expression and ranking the transcripts based on the likelihood of differential expression\.
+The BitSeq package is targeted for transcript expression analysis and differential expression analysis of RNA\-seq data in two stage process. In the first stage it uses Bayesian inference methodology to infer expression of individual transcripts from individual RNA\-seq experiments. The second stage of BitSeq embraces the differential expression analysis of transcript expression. Providing expression estimates from replicates of multiple conditions\, Log\-Normal model of the estimates is used for inferring the condition mean transcript expression and ranking the transcripts based on the likelihood of differential expression.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BitSeq.html

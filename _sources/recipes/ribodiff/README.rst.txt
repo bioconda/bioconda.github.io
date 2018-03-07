@@ -5,7 +5,7 @@ ribodiff
 
 |downloads|
 
-RiboDiff is a statistical tool that detects the protein translational efficiency change from Ribo\-Seq \(ribosome footprinting\) and RNA\-Seq data\.
+RiboDiff is a statistical tool that detects the protein translational efficiency change from Ribo\-Seq \(ribosome footprinting\) and RNA\-Seq data.
 
 ============= ===========
 Home          http://public.bmi.inf.ethz.ch/user/zhongy/RiboDiff/index.html

@@ -5,7 +5,7 @@ bioconductor-affy
 
 |downloads|
 
-The package contains functions for exploratory oligonucleotide array analysis\. The dependence on tkWidgets only concerns few convenience functions\. \'affy\' is fully functional without it\.
+The package contains functions for exploratory oligonucleotide array analysis. The dependence on tkWidgets only concerns few convenience functions. \'affy\' is fully functional without it.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affy.html

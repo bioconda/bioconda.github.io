@@ -5,7 +5,7 @@ filtlong
 
 |downloads|
 
-Filtlong is a tool for filtering long reads\. It can take a set of long reads and produce a smaller\, better subset\. It uses both read length \(longer is better\) and read identity \(higher is better\) when choosing which reads pass the filter\.
+Filtlong is a tool for filtering long reads. It can take a set of long reads and produce a smaller\, better subset. It uses both read length \(longer is better\) and read identity \(higher is better\) when choosing which reads pass the filter.
 
 ============= ===========
 Home          https://github.com/rrwick/Filtlong

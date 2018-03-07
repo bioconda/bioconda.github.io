@@ -5,7 +5,7 @@ bioconductor-dyndoc
 
 |downloads|
 
-A set of functions to create and interact with dynamic documents and vignettes\.
+A set of functions to create and interact with dynamic documents and vignettes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DynDoc.html

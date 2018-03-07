@@ -5,7 +5,7 @@ bioconductor-outlierd
 
 |downloads|
 
-This package detects outliers using quantile regression on the M\-A scatterplots of high\-throughput data\.
+This package detects outliers using quantile regression on the M\-A scatterplots of high\-throughput data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/OutlierD.html

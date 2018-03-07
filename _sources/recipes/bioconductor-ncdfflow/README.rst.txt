@@ -5,7 +5,7 @@ bioconductor-ncdfflow
 
 |downloads|
 
-Provides HDF5 storage based methods and functions for manipulation of flow cytometry data\.
+Provides HDF5 storage based methods and functions for manipulation of flow cytometry data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ncdfFlow.html

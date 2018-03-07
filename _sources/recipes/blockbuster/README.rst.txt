@@ -5,7 +5,7 @@ blockbuster
 
 |downloads|
 
-Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach\.
+Blockbuster detects blocks of overlapping reads using a gaussian\-distribution approach.
 
 ============= ===========
 Home          http://hoffmann.bioinf.uni-leipzig.de/LIFE/blockbuster.html

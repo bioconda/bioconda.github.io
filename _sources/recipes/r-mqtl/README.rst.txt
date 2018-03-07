@@ -5,7 +5,7 @@ r-mqtl
 
 |downloads|
 
-mQTL provides a complete QTL analysis pipeline for metabolomic data\.  Distinctive features include normalisation using PQN approach\, peak alignment   using RSPA approach\, dimensionality reduction using SRV approach and finally  QTL mapping using R\/qtl package\.
+mQTL provides a complete QTL analysis pipeline for metabolomic data.  Distinctive features include normalisation using PQN approach\, peak alignment   using RSPA approach\, dimensionality reduction using SRV approach and finally  QTL mapping using R\/qtl package.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=mQTL

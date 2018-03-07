@@ -5,7 +5,7 @@ ghostscript
 
 |downloads|
 
-An interpreter for the PostScript language and for PDF\.
+An interpreter for the PostScript language and for PDF.
 
 ============= ===========
 Home          http://ghostscript.com/

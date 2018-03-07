@@ -5,7 +5,7 @@ perl-html-element-extended
 
 |downloads|
 
-Perl extension for manipulating a table composed of HTML\:\:Element style components\.
+Perl extension for manipulating a table composed of HTML\:\:Element style components.
 
 ============= ===========
 Home          http://metacpan.org/pod/HTML-Element-Extended

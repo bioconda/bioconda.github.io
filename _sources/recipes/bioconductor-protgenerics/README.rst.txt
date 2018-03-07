@@ -5,7 +5,7 @@ bioconductor-protgenerics
 
 |downloads|
 
-S4 generic functions needed by Bioconductor proteomics packages\.
+S4 generic functions needed by Bioconductor proteomics packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ProtGenerics.html

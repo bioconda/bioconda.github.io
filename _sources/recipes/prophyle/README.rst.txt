@@ -5,7 +5,7 @@ prophyle
 
 |downloads|
 
-ProPhyle is an accurate\, resource\-frugal and deterministic phylogeny\-based metagenomic classifier\.
+ProPhyle is an accurate\, resource\-frugal and deterministic phylogeny\-based metagenomic classifier.
 
 ============= ===========
 Home          https://github.com/karel-brinda/prophyle

@@ -5,7 +5,7 @@ bioconductor-meshdbi
 
 |downloads|
 
-The package is unified implementation of MeSH\.db\, MeSH\.AOR\.db\, and MeSH\.PCR\.db and also is interface to construct Gene\-MeSH package \(MeSH\.XXX\.eg\.db\)\. loadMeSHDbiPkg import sqlite file and generate MeSH\.XXX\.eg\.db\.
+The package is unified implementation of MeSH.db\, MeSH.AOR.db\, and MeSH.PCR.db and also is interface to construct Gene\-MeSH package \(MeSH.XXX.eg.db\). loadMeSHDbiPkg import sqlite file and generate MeSH.XXX.eg.db.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MeSHDbi.html

@@ -5,7 +5,7 @@ bioconductor-seqlogo
 
 |downloads|
 
-seqLogo takes the position weight matrix of a DNA sequence motif and plots the corresponding sequence logo as introduced by Schneider and Stephens \(1990\)\.
+seqLogo takes the position weight matrix of a DNA sequence motif and plots the corresponding sequence logo as introduced by Schneider and Stephens \(1990\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/seqLogo.html

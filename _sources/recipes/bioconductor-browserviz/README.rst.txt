@@ -5,7 +5,7 @@ bioconductor-browserviz
 
 |downloads|
 
-Interactvive graphics in a web browser from R\, using websockets and JSON\.
+Interactvive graphics in a web browser from R\, using websockets and JSON.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BrowserViz.html

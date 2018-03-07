@@ -5,7 +5,7 @@ bioconductor-varianttools
 
 |downloads|
 
-Explore\, diagnose\, and compare variant calls using filters\.
+Explore\, diagnose\, and compare variant calls using filters.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/VariantTools.html

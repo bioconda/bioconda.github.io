@@ -5,7 +5,7 @@ bioconductor-cghcall
 
 |downloads|
 
-Calls aberrations for array CGH data using a six state mixture model as well as several biological concepts that are ignored by existing algorithms\. Visualization of profiles is also provided\.
+Calls aberrations for array CGH data using a six state mixture model as well as several biological concepts that are ignored by existing algorithms. Visualization of profiles is also provided.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CGHcall.html

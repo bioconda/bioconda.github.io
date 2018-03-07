@@ -5,7 +5,7 @@ bioconductor-clusterstab
 
 |downloads|
 
-This package can be used to estimate the number of clusters in a set of microarray data\, as well as test the stability of these clusters\.
+This package can be used to estimate the number of clusters in a set of microarray data\, as well as test the stability of these clusters.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/clusterStab.html

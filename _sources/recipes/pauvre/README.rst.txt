@@ -5,7 +5,7 @@ pauvre
 
 |downloads|
 
-Tools for plotting Oxford Nanopore and other long\-read data\.
+Tools for plotting Oxford Nanopore and other long\-read data.
 
 ============= ===========
 Home          https://github.com/conchoecia/pauvre

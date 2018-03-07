@@ -5,7 +5,7 @@ bioconductor-sigfuge
 
 |downloads|
 
-Algorithm for testing significance of clustering in RNA\-seq data\.
+Algorithm for testing significance of clustering in RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SigFuge.html

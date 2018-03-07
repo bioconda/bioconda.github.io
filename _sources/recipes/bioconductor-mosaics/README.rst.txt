@@ -5,7 +5,7 @@ bioconductor-mosaics
 
 |downloads|
 
-This package provides functions for fitting MOSAiCS and MOSAiCS\-HMM\, a statistical framework to analyze one\-sample or two\-sample ChIP\-seq data of transcription factor binding and histone modification\.
+This package provides functions for fitting MOSAiCS and MOSAiCS\-HMM\, a statistical framework to analyze one\-sample or two\-sample ChIP\-seq data of transcription factor binding and histone modification.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/mosaics.html

@@ -5,7 +5,7 @@ ucsc-pslhisto
 
 |downloads|
 
- Collect counts on PSL alignments for making histograms\. These then be analyzed with R\, textHistogram\, etc\. 
+ Collect counts on PSL alignments for making histograms. These then be analyzed with R\, textHistogram\, etc. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

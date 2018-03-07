@@ -5,7 +5,7 @@ r-cnogpro
 
 |downloads|
 
-Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms\.
+Methods for assigning copy number states and breakpoints in resequencing experiments of prokaryotic organisms.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=CNOGpro

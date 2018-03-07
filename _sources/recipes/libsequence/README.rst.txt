@@ -5,7 +5,7 @@ libsequence
 
 |downloads|
 
-A C\+\+ class library for evolutionary genetics\.
+A C\+\+ class library for evolutionary genetics.
 
 ============= ===========
 Home          http://http://molpopgen.github.io/libsequence/

@@ -5,7 +5,7 @@ bioconductor-ebarrays
 
 |downloads|
 
-EBarrays provides tools for the analysis of replicated\/unreplicated microarray data\.
+EBarrays provides tools for the analysis of replicated\/unreplicated microarray data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/EBarrays.html

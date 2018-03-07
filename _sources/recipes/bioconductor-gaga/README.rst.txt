@@ -5,7 +5,7 @@ bioconductor-gaga
 
 |downloads|
 
-Implements the GaGa model for high\-throughput data analysis\, including differential expression analysis\, supervised gene clustering and classification\. Additionally\, it performs sequential sample size calculations using the GaGa and LNNGV models \(the latter from EBarrays package\)\.
+Implements the GaGa model for high\-throughput data analysis\, including differential expression analysis\, supervised gene clustering and classification. Additionally\, it performs sequential sample size calculations using the GaGa and LNNGV models \(the latter from EBarrays package\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/gaga.html

@@ -19,11 +19,11 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 The Metawatt binner is a graphical binning tool that makes use of
 multivariate statistics of tetranucleotide frequencies and differential
-coverage based binning\. It also performs taxonomic assessment of binning
-quality \(via diamond BLASTx\)\. Created bins can be edited and exported as
-fasta\. The Metawatt is implemented in Java SWING and minimally depends on
-Diamond\, HMMer3\.1\, BBMap\, Prodigal and the Batik library for the export of
-SVG graphics\.
+coverage based binning. It also performs taxonomic assessment of binning
+quality \(via diamond BLASTx\). Created bins can be edited and exported as
+fasta. The Metawatt is implemented in Java SWING and minimally depends on
+Diamond\, HMMer3.1\, BBMap\, Prodigal and the Batik library for the export of
+SVG graphics.
 
 
 Installation

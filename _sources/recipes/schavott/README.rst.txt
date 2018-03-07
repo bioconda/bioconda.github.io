@@ -5,7 +5,7 @@ schavott
 
 |downloads|
 
-Assembly and scaffolding of bacterial genomes in real time using MinION\-sequencing\.
+Assembly and scaffolding of bacterial genomes in real time using MinION\-sequencing.
 
 ============= ===========
 Home          http://github.com/emilhaegglund/schavott

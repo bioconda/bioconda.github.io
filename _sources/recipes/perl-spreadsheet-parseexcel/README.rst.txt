@@ -5,7 +5,7 @@ perl-spreadsheet-parseexcel
 
 |downloads|
 
-Read information from an Excel file\.
+Read information from an Excel file.
 
 ============= ===========
 Home          http://github.com/runrig/spreadsheet-parseexcel/

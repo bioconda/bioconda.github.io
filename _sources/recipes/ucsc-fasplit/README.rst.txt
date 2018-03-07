@@ -5,7 +5,7 @@ ucsc-fasplit
 
 |downloads|
 
-Split an fa file into several files\.
+Split an fa file into several files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

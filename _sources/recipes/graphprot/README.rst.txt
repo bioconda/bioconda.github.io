@@ -5,7 +5,7 @@ graphprot
 
 |downloads|
 
-GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete\.
+GraphProt is a tool for modelling binding preferences of RNA\-binding proteins from high\-throughput experiments such as CLIP\-seq and RNAcompete.
 
 ============= ===========
 Home          https://github.com/dmaticzka/graphprot

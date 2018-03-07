@@ -5,7 +5,7 @@ python-omero
 
 |downloads|
 
-OME \(Open Microscopy Environment\) develops open\-source software and data format standards for the storage and manipulation of biological light microscopy data\.
+OME \(Open Microscopy Environment\) develops open\-source software and data format standards for the storage and manipulation of biological light microscopy data.
 
 ============= ===========
 Home          https://www.openmicroscopy.org/

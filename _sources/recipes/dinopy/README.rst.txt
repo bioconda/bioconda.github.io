@@ -5,7 +5,7 @@ dinopy
 
 |downloads|
 
-DNA input and output library for Python and Cython\. Includes reader and writer for FASTA and FASTQ files\, support for samtools faidx files\, and generators for solid and gapped q\-grams \(k\-mers\)\.
+DNA input and output library for Python and Cython. Includes reader and writer for FASTA and FASTQ files\, support for samtools faidx files\, and generators for solid and gapped q\-grams \(k\-mers\).
 
 ============= ===========
 Home          https://bitbucket.org/HenningTimm/dinopy

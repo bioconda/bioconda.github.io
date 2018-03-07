@@ -5,7 +5,7 @@ searchgui
 
 |downloads|
 
-SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA\.
+SearchGUI is a user\-friendly open\-source graphical user interface for configuring and running proteomics identification search engines\, currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, MyriMatch\, Comet\, Tide\, Andromeda and OMSSA.
 
 
 ============= ===========
@@ -36,11 +36,11 @@ and update with::
 
 Notes
 -----
-SearchGUI is Java program that comes with a custom wrapper shell script\.
-This shell wrapper is called \"opsin\" and is on \$PATH by default\. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
-specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
-set globally this will take precedence\.
+SearchGUI is Java program that comes with a custom wrapper shell script.
+This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
+specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
+set globally this will take precedence.
 For example run it with \"searchgui \-Xms512m \-Xmx1g\"
 
 

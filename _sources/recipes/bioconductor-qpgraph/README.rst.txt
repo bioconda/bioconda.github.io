@@ -5,7 +5,7 @@ bioconductor-qpgraph
 
 |downloads|
 
-Estimate gene and eQTL networks from high\-throughput expression and genotyping assays\.
+Estimate gene and eQTL networks from high\-throughput expression and genotyping assays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/qpgraph.html

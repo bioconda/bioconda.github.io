@@ -5,7 +5,7 @@ triform2
 
 |downloads|
 
-Improved sensitivity\, specificity and control of false discovery rates in ChIP\-Seq peak finding\.
+Improved sensitivity\, specificity and control of false discovery rates in ChIP\-Seq peak finding.
 
 ============= ===========
 Home          http://github.com/endrebak/epic

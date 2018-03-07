@@ -5,7 +5,7 @@ groot
 
 |downloads|
 
-A tool for resistome profiling of metagenomic samples\.
+A tool for resistome profiling of metagenomic samples.
 
 ============= ===========
 Home          https://github.com/will-rowe/groot

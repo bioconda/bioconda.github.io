@@ -5,7 +5,7 @@ chipseq-greylist
 
 |downloads|
 
-Python implementation of GreyListChIP Bioconductor package\.
+Python implementation of GreyListChIP Bioconductor package.
 
 ============= ===========
 Home          https://github.com/roryk/chipseq-greylist

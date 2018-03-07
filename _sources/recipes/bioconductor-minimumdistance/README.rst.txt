@@ -5,7 +5,7 @@ bioconductor-minimumdistance
 
 |downloads|
 
-Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms\.
+Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MinimumDistance.html

@@ -5,7 +5,7 @@ bioconductor-tcgabiolinks
 
 |downloads|
 
-The aim of TCGAbiolinks is \: i\) facilitate the GDC open\-access data retrieval\, ii\) prepare the data using the appropriate pre\-processing strategies\, iii\) provide the means to carry out different standard analyses and iv\) to easily reproduce earlier research results\. In more detail\, the package provides multiple methods for analysis \(e\.g\.\, differential expression analysis\, identifying differentially methylated regions\) and methods for visualization \(e\.g\.\, survival plots\, volcano plots\, starburst plots\) in order to easily develop complete analysis pipelines\.
+The aim of TCGAbiolinks is \: i\) facilitate the GDC open\-access data retrieval\, ii\) prepare the data using the appropriate pre\-processing strategies\, iii\) provide the means to carry out different standard analyses and iv\) to easily reproduce earlier research results. In more detail\, the package provides multiple methods for analysis \(e.g.\, differential expression analysis\, identifying differentially methylated regions\) and methods for visualization \(e.g.\, survival plots\, volcano plots\, starburst plots\) in order to easily develop complete analysis pipelines.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TCGAbiolinks.html

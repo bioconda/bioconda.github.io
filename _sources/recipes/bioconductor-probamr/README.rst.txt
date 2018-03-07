@@ -5,7 +5,7 @@ bioconductor-probamr
 
 |downloads|
 
-Mapping PSMs back to genome\. The package builds SAM file from shotgun proteomics data The package also provides function to prepare annotation from GTF file\.
+Mapping PSMs back to genome. The package builds SAM file from shotgun proteomics data The package also provides function to prepare annotation from GTF file.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/proBAMr.html

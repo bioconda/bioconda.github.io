@@ -5,7 +5,7 @@ bioconductor-cager
 
 |downloads|
 
-Preprocessing of CAGE sequencing data\, identification and normalization of transcription start sites and downstream analysis of transcription start sites clusters \(promoters\)\.
+Preprocessing of CAGE sequencing data\, identification and normalization of transcription start sites and downstream analysis of transcription start sites clusters \(promoters\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CAGEr.html

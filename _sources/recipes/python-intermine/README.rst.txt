@@ -20,7 +20,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 InterMine Webservice Client
 \-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-\-
 
-A Python API to access bioinformatics data warehouses powered by the InterMine platform\.
+A Python API to access bioinformatics data warehouses powered by the InterMine platform.
 
 Installation
 ------------

@@ -5,7 +5,7 @@ perl-biox-workflow
 
 |downloads|
 
-Template away your bioinformatics workflows\.
+Template away your bioinformatics workflows.
 
 ============= ===========
 Home          https://github.com/jerowe/BioX-Workflow

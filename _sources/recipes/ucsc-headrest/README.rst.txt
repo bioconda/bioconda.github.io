@@ -5,7 +5,7 @@ ucsc-headrest
 
 |downloads|
 
-Return all \*but\* the first N lines of a file\.
+Return all \*but\* the first N lines of a file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-ncigraph
 
 |downloads|
 
-Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them\.
+Provides various methods to load the pathways from the NCI Pathways Database in R graph objects and to re\-format them.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/NCIgraph.html

@@ -5,7 +5,7 @@ denovogear
 
 |downloads|
 
-A program to detect denovo\-variants using next\-generation sequencing data\.
+A program to detect denovo\-variants using next\-generation sequencing data.
 
 ============= ===========
 Home          https://github.com/denovogear/denovogear

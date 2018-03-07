@@ -5,7 +5,7 @@ pycsg
 
 |downloads|
 
-Python port of csg\.js from Evan Wallace
+Python port of csg.js from Evan Wallace
 
 ============= ===========
 Home          https://github.com/pletzer/pycsg

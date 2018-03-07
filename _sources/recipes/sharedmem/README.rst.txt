@@ -5,7 +5,7 @@ sharedmem
 
 |downloads|
 
-Dispatch your trivially parallizable jobs with sharedmem\. 
+Dispatch your trivially parallizable jobs with sharedmem. 
 
 ============= ===========
 Home          http://github.com/rainwoodman/sharedmem

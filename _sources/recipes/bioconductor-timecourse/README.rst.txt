@@ -5,7 +5,7 @@ bioconductor-timecourse
 
 |downloads|
 
-Functions for data analysis and graphical displays for developmental microarray time course data\.
+Functions for data analysis and graphical displays for developmental microarray time course data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/timecourse.html

@@ -5,7 +5,7 @@ bioconductor-gewist
 
 |downloads|
 
-This \'GEWIST\' package provides statistical tools to efficiently optimize SNP prioritization for gene\-gene and gene\-environment interactions\.
+This \'GEWIST\' package provides statistical tools to efficiently optimize SNP prioritization for gene\-gene and gene\-environment interactions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GEWIST.html

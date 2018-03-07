@@ -5,7 +5,7 @@ ucsc-mafspecieslist
 
 |downloads|
 
-Scan maf and output all species used in it\.
+Scan maf and output all species used in it.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

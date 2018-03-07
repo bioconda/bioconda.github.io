@@ -5,7 +5,7 @@ crb-blast
 
 |downloads|
 
-Conditional Reciprocal Best BLAST \- high confidence ortholog assignment\.
+Conditional Reciprocal Best BLAST \- high confidence ortholog assignment.
 
 ============= ===========
 Home          https://github.com/cboursnell/crb-blast

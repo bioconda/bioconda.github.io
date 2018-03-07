@@ -5,7 +5,7 @@ ucsc-transmappsltogenepred
 
 |downloads|
 
-convert PSL alignments of mRNAs to gene annotations\.
+convert PSL alignments of mRNAs to gene annotations.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

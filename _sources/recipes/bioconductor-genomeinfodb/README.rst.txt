@@ -5,7 +5,7 @@ bioconductor-genomeinfodb
 
 |downloads|
 
-Contains data and functions that define and allow translation between different chromosome sequence naming conventions \(e\.g\.\, \"chr1\" versus \"1\"\)\, including a function that attempts to place sequence names in their natural\, rather than lexicographic\, order\.
+Contains data and functions that define and allow translation between different chromosome sequence naming conventions \(e.g.\, \"chr1\" versus \"1\"\)\, including a function that attempts to place sequence names in their natural\, rather than lexicographic\, order.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomeInfoDb.html

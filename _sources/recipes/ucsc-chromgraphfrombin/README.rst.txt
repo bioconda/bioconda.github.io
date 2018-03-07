@@ -5,7 +5,7 @@ ucsc-chromgraphfrombin
 
 |downloads|
 
-Convert chromGraph binary to ascii format\.
+Convert chromGraph binary to ascii format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ yass
 
 |downloads|
 
-YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format\.
+YASS is a genomic similarity search tool\, for nucleic \(DNA\/RNA\) sequences in fasta or plain text format.
 
 ============= ===========
 Home          http://bioinfo.lifl.fr/yass/

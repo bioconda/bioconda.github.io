@@ -5,7 +5,7 @@ bioconductor-plier
 
 |downloads|
 
-The PLIER \(Probe Logarithmic Error Intensity Estimate\) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values\.
+The PLIER \(Probe Logarithmic Error Intensity Estimate\) method produces an improved signal by accounting for experimentally observed patterns in probe behavior and handling error at the appropriately at low and high signal values.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/plier.html

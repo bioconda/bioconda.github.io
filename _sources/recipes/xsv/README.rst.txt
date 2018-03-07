@@ -5,7 +5,7 @@ xsv
 
 |downloads|
 
-A fast CSV toolkit written in Rust\.
+A fast CSV toolkit written in Rust.
 
 ============= ===========
 Home          https://github.com/BurntSushi/xsv

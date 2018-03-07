@@ -5,7 +5,7 @@ kraken
 
 |downloads|
 
-Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies\.
+Kraken is a system for assigning taxonomic labels to short DNA sequences\, usually obtained through metagenomic studies.
 
 ============= ===========
 Home          http://ccb.jhu.edu/software/kraken/

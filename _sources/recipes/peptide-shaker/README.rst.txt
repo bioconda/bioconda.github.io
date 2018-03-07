@@ -6,7 +6,7 @@ peptide-shaker
 |downloads|
 
 PeptideShaker is a search engine independent platform for interpretation of proteomics identification results from multiple search engines\,
-currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, OMSSA\, MyriMatch\, Comet\, Tide\, Mascot\, Andromeda and mzIdentML\.
+currently supporting X\!Tandem\, MS\-GF\+\, MS Amanda\, OMSSA\, MyriMatch\, Comet\, Tide\, Mascot\, Andromeda and mzIdentML.
 By combining the results from multiple search engines\, while re\-calculating PTM localization scores and redoing the protein inference\,
 PeptideShaker attempts to give you the best possible understanding of your proteomics data\!
 
@@ -39,11 +39,11 @@ and update with::
 
 Notes
 -----
-PeptideShaker is Java program that comes with a custom wrapper shell script\.
-This shell wrapper is called \"opsin\" and is on \$PATH by default\. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
-specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
-set globally this will take precedence\.
+PeptideShaker is Java program that comes with a custom wrapper shell script.
+This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
+specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
+set globally this will take precedence.
 For example run it with \"peptide\-shaker \-Xms512m \-Xmx1g\"
 
 

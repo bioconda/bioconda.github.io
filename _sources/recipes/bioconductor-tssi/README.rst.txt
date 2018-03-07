@@ -5,7 +5,7 @@ bioconductor-tssi
 
 |downloads|
 
-Identify and normalize transcription start sites in high\-throughput sequencing data\.
+Identify and normalize transcription start sites in high\-throughput sequencing data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TSSi.html

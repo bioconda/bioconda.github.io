@@ -5,7 +5,7 @@ gotohscan
 
 |downloads|
 
-a search tool that finds shorter sequences \(usually genes\) in large database sequences \(chromosomes\, genomes\, \.\.\) by computing all semi\-global alignments\.
+a search tool that finds shorter sequences \(usually genes\) in large database sequences \(chromosomes\, genomes\, ..\) by computing all semi\-global alignments.
 
 ============= ===========
 Home          http://www.bioinf.uni-leipzig.de/

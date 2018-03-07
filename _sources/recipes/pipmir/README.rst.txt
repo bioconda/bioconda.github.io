@@ -5,7 +5,7 @@ pipmir
 
 |downloads|
 
-We developed the PIPmiR algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features\.
+We developed the PIPmiR algorithm to identify novel plant miRNA genes from a combination of deep sequencing data and genomic features.
 
 ============= ===========
 Home          https://ohlerlab.mdc-berlin.de/software/Pipeline_for_the_Identification_of_Plant_miRNAs_84/

@@ -5,7 +5,7 @@ ecoprimers
 
 |downloads|
 
-ecoPrimers is a software that finds primers from a set of sequence\.
+ecoPrimers is a software that finds primers from a set of sequence.
 
 ============= ===========
 Home          https://git.metabarcoding.org/obitools/ecoprimers/wikis/home

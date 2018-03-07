@@ -5,7 +5,7 @@ r-bcbiornaseq
 
 |downloads|
 
-Quality control and differential expression for bcbio RNA\-seq experiments\.
+Quality control and differential expression for bcbio RNA\-seq experiments.
 
 ============= ===========
 Home          https://github.com/hbc/bcbioRNASeq

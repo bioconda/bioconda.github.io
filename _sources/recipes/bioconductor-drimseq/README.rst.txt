@@ -5,7 +5,7 @@ bioconductor-drimseq
 
 |downloads|
 
-The package provides two frameworks\. One for the differential transcript usage analysis between different conditions and one for the tuQTL analysis\. Both are based on modeling the counts of genomic features \(i\.e\.\, transcripts\) with the Dirichlet\-multinomial distribution\. The package also makes available functions for visualization and exploration of the data and results\.
+The package provides two frameworks. One for the differential transcript usage analysis between different conditions and one for the tuQTL analysis. Both are based on modeling the counts of genomic features \(i.e.\, transcripts\) with the Dirichlet\-multinomial distribution. The package also makes available functions for visualization and exploration of the data and results.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DRIMSeq.html

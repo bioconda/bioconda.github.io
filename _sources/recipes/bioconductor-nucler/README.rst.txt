@@ -5,7 +5,7 @@ bioconductor-nucler
 
 |downloads|
 
-Nucleosome positioning for Tiling Arrays and NGS experiments\.
+Nucleosome positioning for Tiling Arrays and NGS experiments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/nucleR.html

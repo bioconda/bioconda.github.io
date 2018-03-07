@@ -5,7 +5,7 @@ ideas
 
 |downloads|
 
-A method for jointly and quantitatively characterizing multivariate epigenetic landscapes in many cell types\, tissues or conditions\.
+A method for jointly and quantitatively characterizing multivariate epigenetic landscapes in many cell types\, tissues or conditions.
 
 ============= ===========
 Home          https://github.com/yuzhang123/IDEAS

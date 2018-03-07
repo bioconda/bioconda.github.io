@@ -5,7 +5,7 @@ ucsc-crtreeindexbed
 
 |downloads|
 
-Create an index for a bed file\.
+Create an index for a bed file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

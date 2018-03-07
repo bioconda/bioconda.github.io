@@ -5,7 +5,7 @@ flask-nav
 
 |downloads|
 
-Easily create navigation for Flask applications\.
+Easily create navigation for Flask applications.
 
 ============= ===========
 Home          http://github.com/mbr/flask-nav

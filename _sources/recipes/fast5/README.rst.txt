@@ -5,7 +5,7 @@ fast5
 
 |downloads|
 
-A C\+\+ header\-only library for reading Oxford Nanopore Fast5 files\.
+A C\+\+ header\-only library for reading Oxford Nanopore Fast5 files.
 
 ============= ===========
 Home          https://github.com/mateidavid/fast5

@@ -5,7 +5,7 @@ visitor
 
 |downloads|
 
-A tiny pythonic visitor implementation\.
+A tiny pythonic visitor implementation.
 
 ============= ===========
 Home          http://github.com/mbr/visitor

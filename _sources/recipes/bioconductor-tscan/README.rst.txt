@@ -5,7 +5,7 @@ bioconductor-tscan
 
 |downloads|
 
-TSCAN enables users to easily construct and tune pseudotemporal cell ordering as well as analyzing differentially expressed genes\. TSCAN comes with a user\-friendly GUI written in shiny\. More features will come in the future\.
+TSCAN enables users to easily construct and tune pseudotemporal cell ordering as well as analyzing differentially expressed genes. TSCAN comes with a user\-friendly GUI written in shiny. More features will come in the future.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TSCAN.html

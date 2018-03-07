@@ -5,7 +5,7 @@ bioconductor-vbmp
 
 |downloads|
 
-Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors\. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior\. This software also incorporates feature weighting by means of Automatic Relevance Determination\.
+Variational Bayesian Multinomial Probit Regression with Gaussian Process Priors. It estimates class membership posterior probability employing variational and sparse approximation to the full posterior. This software also incorporates feature weighting by means of Automatic Relevance Determination.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/vbmp.html

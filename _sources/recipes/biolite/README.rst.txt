@@ -5,7 +5,7 @@ biolite
 
 |downloads|
 
-A lightweight bioinformatics framework with automated tracking of diagnostics and provenance\.
+A lightweight bioinformatics framework with automated tracking of diagnostics and provenance.
 
 ============= ===========
 Home          https://bitbucket.org/caseywdunn/biolite

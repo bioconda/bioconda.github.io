@@ -5,7 +5,7 @@ ucsc-checkcoveragegaps
 
 |downloads|
 
-Check for biggest gap in coverage for a list of tracks\.
+Check for biggest gap in coverage for a list of tracks.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

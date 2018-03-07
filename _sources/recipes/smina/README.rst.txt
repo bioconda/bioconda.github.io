@@ -5,7 +5,7 @@ smina
 
 |downloads|
 
-A fork of AutoDock Vina that is customized to better support scoring function development and high\-performance energy minimization\.
+A fork of AutoDock Vina that is customized to better support scoring function development and high\-performance energy minimization.
 
 ============= ===========
 Home          https://sourceforge.net/projects/smina/

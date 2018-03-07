@@ -5,7 +5,7 @@ tirmite
 
 |downloads|
 
-Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete DNA\-Transposons\.
+Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete DNA\-Transposons.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/TIRmite

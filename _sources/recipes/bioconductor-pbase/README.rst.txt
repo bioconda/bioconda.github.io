@@ -5,7 +5,7 @@ bioconductor-pbase
 
 |downloads|
 
-A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment\.
+A set of classes and functions to investigate and understand protein sequence data in the context of a proteomics experiment.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Pbase.html

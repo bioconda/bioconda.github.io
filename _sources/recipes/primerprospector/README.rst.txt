@@ -5,7 +5,7 @@ primerprospector
 
 |downloads|
 
-Primer Prospector is a pipeline of programs to design and analyze PCR primers\.
+Primer Prospector is a pipeline of programs to design and analyze PCR primers.
 
 ============= ===========
 Home          http://pprospector.sourceforge.net/

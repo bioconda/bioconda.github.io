@@ -5,7 +5,7 @@ stamp
 
 |downloads|
 
-A graphical software package for analyzing taxonomic and functional profiles\.
+A graphical software package for analyzing taxonomic and functional profiles.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/stamp/

@@ -5,7 +5,7 @@ pyteomics
 
 |downloads|
 
-A framework for proteomics data analysis\.
+A framework for proteomics data analysis.
 
 ============= ===========
 Home          https://bitbucket.org/levitsky/pyteomics

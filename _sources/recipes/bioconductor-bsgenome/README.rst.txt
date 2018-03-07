@@ -5,7 +5,7 @@ bioconductor-bsgenome
 
 |downloads|
 
-Infrastructure shared by all the Biostrings\-based genome data packages\.
+Infrastructure shared by all the Biostrings\-based genome data packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BSgenome.html

@@ -5,7 +5,7 @@ bioconductor-swathxtend
 
 |downloads|
 
-Contains utility functions for integrating spectral libraries for SWATH and statistical data analysis for SWATH generated data\.
+Contains utility functions for integrating spectral libraries for SWATH and statistical data analysis for SWATH generated data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SwathXtend.html

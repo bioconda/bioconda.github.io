@@ -5,7 +5,7 @@ bioconductor-crisprseekplus
 
 |downloads|
 
-Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package\, and GUIDEseqAnalysis\.
+Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package\, and GUIDEseqAnalysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/crisprseekplus.html

@@ -5,7 +5,7 @@ bioconductor-xde
 
 |downloads|
 
-Multi\-level model for cross\-study detection of differential gene expression\.
+Multi\-level model for cross\-study detection of differential gene expression.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/XDE.html

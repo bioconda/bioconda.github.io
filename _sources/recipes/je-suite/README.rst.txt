@@ -37,10 +37,10 @@ and update with::
 
 Notes
 -----
-Je is Java program that comes with a wrapper shell script\.
-By default \"\-Xmx4G \-Xms256m\" is set in the wrapper\. If you want to overwrite it you can
-specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
-set globally this will take precedence\.
+Je is Java program that comes with a wrapper shell script.
+By default \"\-Xmx4G \-Xms256m\" is set in the wrapper. If you want to overwrite it you can
+specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
+set globally this will take precedence.
 For example run it with \"je \-Xms512m \-Xmx1g\"
 
 

@@ -5,7 +5,7 @@ bioconductor-plethy
 
 |downloads|
 
-This package provides the infrastructure and tools to import\, query and perform basic analysis of whole body plethysmography and metabolism data\.  Currently support is limited to data derived from Buxco respirometry instruments as exported by their FinePointe software\.
+This package provides the infrastructure and tools to import\, query and perform basic analysis of whole body plethysmography and metabolism data.  Currently support is limited to data derived from Buxco respirometry instruments as exported by their FinePointe software.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/plethy.html

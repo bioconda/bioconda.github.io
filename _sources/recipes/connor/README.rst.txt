@@ -5,7 +5,7 @@ connor
 
 |downloads|
 
-A command\-line tool to deduplicate bam files based on custom\, inline barcoding\.
+A command\-line tool to deduplicate bam files based on custom\, inline barcoding.
 
 ============= ===========
 Home          https://github.com/umich-brcf-bioinf/Connor

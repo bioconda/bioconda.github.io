@@ -5,7 +5,7 @@ bioconductor-flowploidy
 
 |downloads|
 
-Determine sample ploidy via flow cytometry histogram analysis\. Reads Flow Cytometry Standard \(FCS\) files via the flowCore bioconductor package\, and provides functions for determining the DNA ploidy of samples based on internal standards\.
+Determine sample ploidy via flow cytometry histogram analysis. Reads Flow Cytometry Standard \(FCS\) files via the flowCore bioconductor package\, and provides functions for determining the DNA ploidy of samples based on internal standards.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowPloidy.html

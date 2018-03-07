@@ -5,7 +5,7 @@ r-icluster
 
 |downloads|
 
-Integrative clustering of multiple genomic data types using a joint latent variable model\.
+Integrative clustering of multiple genomic data types using a joint latent variable model.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=iCluster

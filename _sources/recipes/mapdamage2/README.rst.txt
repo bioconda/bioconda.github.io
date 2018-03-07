@@ -5,7 +5,7 @@ mapdamage2
 
 |downloads|
 
-mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics\.ku\.dk\/all\_literature\/mapdamage\/
+mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences http\:\/\/geogenetics.ku.dk\/all\_literature\/mapdamage\/
 
 ============= ===========
 Home          https://github.com/ginolhac/mapDamage

@@ -5,7 +5,7 @@ bioconductor-gsri
 
 |downloads|
 
-The GSRI package estimates the number of differentially expressed genes in gene sets\, utilizing the concept of the Gene Set Regulation Index \(GSRI\)\.
+The GSRI package estimates the number of differentially expressed genes in gene sets\, utilizing the concept of the Gene Set Regulation Index \(GSRI\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GSRI.html

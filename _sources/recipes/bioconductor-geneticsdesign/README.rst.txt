@@ -5,7 +5,7 @@ bioconductor-geneticsdesign
 
 |downloads|
 
-This package contains functions useful for designing genetics studies\, including power and sample\-size calculations\.
+This package contains functions useful for designing genetics studies\, including power and sample\-size calculations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GeneticsDesign.html

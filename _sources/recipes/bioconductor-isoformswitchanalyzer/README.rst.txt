@@ -5,7 +5,7 @@ bioconductor-isoformswitchanalyzer
 
 |downloads|
 
-IsoformSwitchAnalyzeR enabels identification and analysis of isoform switches with predicted functional consequences \(such as gain\/loss of protein domains etc\) from quantification by Kallisto\, Salmon\, Cufflinks\/Cuffdiff\, RSEM etc\.
+IsoformSwitchAnalyzeR enabels identification and analysis of isoform switches with predicted functional consequences \(such as gain\/loss of protein domains etc\) from quantification by Kallisto\, Salmon\, Cufflinks\/Cuffdiff\, RSEM etc.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IsoformSwitchAnalyzeR.html

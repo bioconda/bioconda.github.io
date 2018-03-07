@@ -5,7 +5,7 @@ ppanini
 
 |downloads|
 
-PPANINI\: Prioritization and Prediction of functional Annotations for Novel and Important genes via automated data Network Integration\.
+PPANINI\: Prioritization and Prediction of functional Annotations for Novel and Important genes via automated data Network Integration.
 
 ============= ===========
 Home          http://huttenhower.sph.harvard.edu/ppanini

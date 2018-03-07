@@ -5,7 +5,7 @@ bx-python
 
 |downloads|
 
-Toolkit to enable rapid implementation of genome scale analyses\.
+Toolkit to enable rapid implementation of genome scale analyses.
 
 ============= ===========
 Home          https://github.com/bxlab/bx-python

@@ -5,7 +5,7 @@ leptonica
 
 |downloads|
 
-Leptonica is a pedagogically\-oriented open source site containing software that is broadly useful for image processing and image analysis applications\.
+Leptonica is a pedagogically\-oriented open source site containing software that is broadly useful for image processing and image analysis applications.
 
 ============= ===========
 Home          https://github.com/DanBloomberg/leptonica

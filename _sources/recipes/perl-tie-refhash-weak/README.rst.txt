@@ -5,7 +5,7 @@ perl-tie-refhash-weak
 
 |downloads|
 
-A Tie\:\:RefHash subclass with weakened references in the keys\.
+A Tie\:\:RefHash subclass with weakened references in the keys.
 
 ============= ===========
 Home          http://metacpan.org/pod/Tie::RefHash::Weak

@@ -5,7 +5,7 @@ r-sleuth
 
 |downloads|
 
-Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript abundances have been quantified with kallisto\.
+Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript abundances have been quantified with kallisto.
 
 ============= ===========
 Home          http://pachterlab.github.io/sleuth

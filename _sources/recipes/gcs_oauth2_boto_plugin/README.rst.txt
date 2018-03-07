@@ -5,7 +5,7 @@ gcs-oauth2-boto-plugin
 
 |downloads|
 
-Auth plugin allowing use the use of OAuth 2\.0 credentials for Google Cloud Storage in the Boto library\.
+Auth plugin allowing use the use of OAuth 2.0 credentials for Google Cloud Storage in the Boto library.
 
 ============= ===========
 Home          https://developers.google.com/storage/docs/gspythonlibrary

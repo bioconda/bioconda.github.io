@@ -5,7 +5,7 @@ ucsc-hgtrackdb
 
 |downloads|
 
-Create trackDb table from text files\.
+Create trackDb table from text files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

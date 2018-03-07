@@ -5,7 +5,7 @@ circos
 
 |downloads|
 
-Circos is a software package for visualizing data and information\. It visualizes data in a circular layout
+Circos is a software package for visualizing data and information. It visualizes data in a circular layout
 
 ============= ===========
 Home          http://circos.ca

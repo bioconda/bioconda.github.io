@@ -5,7 +5,7 @@ nanosim
 
 |downloads|
 
-NanoSim is a fast and scalable read simulator that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of nanopore sequencing technology\.
+NanoSim is a fast and scalable read simulator that captures the technology\-specific features of ONT data\, and allows for adjustments upon improvement of nanopore sequencing technology.
 
 ============= ===========
 Home          https://github.com/bcgsc/NanoSim

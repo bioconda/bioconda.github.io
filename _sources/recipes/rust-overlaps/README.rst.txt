@@ -7,7 +7,7 @@ rust-overlaps
 
 A fast and secure command line utilility for enumerating all suffix\-prefix
 overlaps within a set of sequences\, satisfying a user\-specified minimal
-overlap length and maximal error rate\.
+overlap length and maximal error rate.
 
 
 ============= ===========

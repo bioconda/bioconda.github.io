@@ -5,7 +5,7 @@ bioconductor-proteomicsannotationhubdata
 
 |downloads|
 
-These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures\.
+These recipes convert a variety and a growing number of public proteomics data sets into easily\-used standard Bioconductor data structures.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ProteomicsAnnotationHubData.html

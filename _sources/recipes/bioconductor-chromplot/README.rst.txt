@@ -5,7 +5,7 @@ bioconductor-chromplot
 
 |downloads|
 
-Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end\.
+Package designed to visualize genomic data along the chromosomes\, where the vertical chromosomes are sorted by number\, with sex chromosomes at the end.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/chromPlot.html

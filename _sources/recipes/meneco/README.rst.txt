@@ -5,7 +5,7 @@ meneco
 
 |downloads|
 
-Metabolic Network Completion\. Compute minimal completions to your draft network with reactions from a repair network\.
+Metabolic Network Completion. Compute minimal completions to your draft network with reactions from a repair network.
 
 ============= ===========
 Home          http://bioasp.github.io/meneco/

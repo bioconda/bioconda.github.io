@@ -5,7 +5,7 @@ footprint
 
 |downloads|
 
-This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data\.
+This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase\-seq data.
 
 ============= ===========
 Home          https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/

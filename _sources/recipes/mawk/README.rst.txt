@@ -5,7 +5,7 @@ mawk
 
 |downloads|
 
-mawk is an interpreter for the AWK Programming Language\.
+mawk is an interpreter for the AWK Programming Language.
 
 ============= ===========
 Home          http://invisible-island.net/mawk/

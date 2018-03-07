@@ -5,7 +5,7 @@ graph_embed
 
 |downloads|
 
-Compute a 2D embedding of a data matrix given supervised class information\.
+Compute a 2D embedding of a data matrix given supervised class information.
 
 ============= ===========
 Home          https://github.com/fabriziocosta/GraphEmbed

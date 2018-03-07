@@ -5,7 +5,7 @@ clearcut
 
 |downloads|
 
-The reference implementation for Relaxed Neighbor Joining \(RNJ\)\.
+The reference implementation for Relaxed Neighbor Joining \(RNJ\).
 
 ============= ===========
 Home          http://www.mothur.org

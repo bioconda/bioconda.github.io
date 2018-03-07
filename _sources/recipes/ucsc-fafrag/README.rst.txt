@@ -5,7 +5,7 @@ ucsc-fafrag
 
 |downloads|
 
-Extract a piece of DNA from a \.fa file\.
+Extract a piece of DNA from a .fa file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

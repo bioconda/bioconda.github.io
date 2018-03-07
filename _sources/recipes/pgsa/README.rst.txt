@@ -5,7 +5,7 @@ pgsa
 
 |downloads|
 
-Pseudogenome Suffix Array is a compact index for collections of reads from sequencing\.
+Pseudogenome Suffix Array is a compact index for collections of reads from sequencing.
 
 ============= ===========
 Home          http://sun.aei.polsl.pl/pgsa/

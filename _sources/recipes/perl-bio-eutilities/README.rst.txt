@@ -5,7 +5,7 @@ perl-bio-eutilities
 
 |downloads|
 
-Webagent which interacts with and retrieves data from NCBI eUtils\.
+Webagent which interacts with and retrieves data from NCBI eUtils.
 
 ============= ===========
 Home          https://metacpan.org/release/Bio-EUtilities

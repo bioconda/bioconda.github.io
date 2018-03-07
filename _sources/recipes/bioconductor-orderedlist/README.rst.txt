@@ -5,7 +5,7 @@ bioconductor-orderedlist
 
 |downloads|
 
-Detection of similarities between ordered lists of genes\. Thereby\, either simple lists can be compared or gene expression data can be used to deduce the lists\. Significance of similarities is evaluated by shuffling lists or by resampling in microarray data\, respectively\.
+Detection of similarities between ordered lists of genes. Thereby\, either simple lists can be compared or gene expression data can be used to deduce the lists. Significance of similarities is evaluated by shuffling lists or by resampling in microarray data\, respectively.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/OrderedList.html

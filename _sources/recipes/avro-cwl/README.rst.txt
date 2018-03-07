@@ -5,7 +5,7 @@ avro-cwl
 
 |downloads|
 
-Avro is a serialization and RPC framework\. This package is a fork of regular avro made by the CWL team in order to fix some issues \(https\:\/\/github\.com\/common\-workflow\-language\/cwltool\/issues\/524\)
+Avro is a serialization and RPC framework. This package is a fork of regular avro made by the CWL team in order to fix some issues \(https\:\/\/github.com\/common\-workflow\-language\/cwltool\/issues\/524\)
 
 ============= ===========
 Home          https://pypi.python.org/pypi?:action=display&name=avro-cwl

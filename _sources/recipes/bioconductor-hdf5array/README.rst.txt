@@ -5,7 +5,7 @@ bioconductor-hdf5array
 
 |downloads|
 
-An array\-like container for convenient access and manipulation of HDF5 datasets\. Supports delayed operations and block processing\.
+An array\-like container for convenient access and manipulation of HDF5 datasets. Supports delayed operations and block processing.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/HDF5Array.html

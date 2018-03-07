@@ -5,7 +5,7 @@ ecmwfapi
 
 |downloads|
 
-ECMWF API is a set of services developed by ECMWF http\:\/\/www\.ecmwf\.int to allow users from the outside to access some internal features and data of the centre\.
+ECMWF API is a set of services developed by ECMWF http\:\/\/www.ecmwf.int to allow users from the outside to access some internal features and data of the centre.
 
 ============= ===========
 Home          https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets#AccessECMWFPublicDatasets-clientlibraries

@@ -5,7 +5,7 @@ bioconductor-stategra
 
 |downloads|
 
-Classes and tools for multi\-omics data integration\.
+Classes and tools for multi\-omics data integration.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/STATegRa.html

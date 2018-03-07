@@ -5,7 +5,7 @@ data_hacks
 
 |downloads|
 
-Command line utilities for data analysis\.
+Command line utilities for data analysis.
 
 ============= ===========
 Home          https://github.com/bitly/data_hacks

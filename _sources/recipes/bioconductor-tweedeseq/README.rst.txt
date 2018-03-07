@@ -5,7 +5,7 @@ bioconductor-tweedeseq
 
 |downloads|
 
-Differential expression analysis of RNA\-seq using the Poisson\-Tweedie family of distributions\.
+Differential expression analysis of RNA\-seq using the Poisson\-Tweedie family of distributions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/tweeDEseq.html

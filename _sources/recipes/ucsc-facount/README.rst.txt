@@ -5,7 +5,7 @@ ucsc-facount
 
 |downloads|
 
-count base statistics and CpGs in FA files\.
+count base statistics and CpGs in FA files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

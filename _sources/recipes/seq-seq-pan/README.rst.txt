@@ -5,7 +5,7 @@ seq-seq-pan
 
 |downloads|
 
-seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment\.
+seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a PAN\-genome data structure and a whole\-genome\-alignment.
 
 ============= ===========
 Home          https://gitlab.com/chrjan/seq-seq-pan

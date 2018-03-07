@@ -5,7 +5,7 @@ mhap
 
 |downloads|
 
-MHAP\: MinHash Alignment Protocol\. A tool for finding overlaps of long\-read sequences \(such as PacBio or Nanopore\) in bioinformatics\.
+MHAP\: MinHash Alignment Protocol. A tool for finding overlaps of long\-read sequences \(such as PacBio or Nanopore\) in bioinformatics.
 
 ============= ===========
 Home          https://github.com/marbl/MHAP

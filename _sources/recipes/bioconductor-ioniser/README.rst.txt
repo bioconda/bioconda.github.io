@@ -5,7 +5,7 @@ bioconductor-ioniser
 
 |downloads|
 
-IONiseR provides tools for the quality assessment of Oxford Nanopore MinION data\. It extracts summary statistics from a set of fast5 files and can be used either before or after base calling\.  In addition to standard summaries of the read\-types produced\, it provides a number of plots for visualising metrics relative to experiment run time or spatially over the surface of a flowcell\.
+IONiseR provides tools for the quality assessment of Oxford Nanopore MinION data. It extracts summary statistics from a set of fast5 files and can be used either before or after base calling.  In addition to standard summaries of the read\-types produced\, it provides a number of plots for visualising metrics relative to experiment run time or spatially over the surface of a flowcell.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/IONiseR.html

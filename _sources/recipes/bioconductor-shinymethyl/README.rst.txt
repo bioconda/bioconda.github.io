@@ -5,7 +5,7 @@ bioconductor-shinymethyl
 
 |downloads|
 
-Interactive tool for visualizing Illumina methylation array data\. Both the 450k and EPIC array are supported\.
+Interactive tool for visualizing Illumina methylation array data. Both the 450k and EPIC array are supported.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/shinyMethyl.html

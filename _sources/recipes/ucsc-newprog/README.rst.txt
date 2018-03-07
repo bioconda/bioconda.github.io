@@ -5,7 +5,7 @@ ucsc-newprog
 
 |downloads|
 
-make a new C source skeleton\.
+make a new C source skeleton.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-mirbaseversions.db
 
 |downloads|
 
-Annotation package containing all available miRNA names from all versions \(data from http\:\/\/www\.mirbase\.org\/\)\.
+Annotation package containing all available miRNA names from all versions \(data from http\:\/\/www.mirbase.org\/\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/miRBaseVersions.db.html

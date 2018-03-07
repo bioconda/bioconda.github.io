@@ -5,7 +5,7 @@ scikit-bio
 
 |downloads|
 
-Data structures\, algorithms and educational resources for bioinformatics\.
+Data structures\, algorithms and educational resources for bioinformatics.
 
 ============= ===========
 Home          http://scikit-bio.org

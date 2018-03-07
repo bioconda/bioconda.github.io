@@ -5,7 +5,7 @@ bioconductor-compepitools
 
 |downloads|
 
-Tools for computational epigenomics developed for the analysis\, integration and simultaneous visualization of various \(epi\)genomics data types across multiple genomic regions in multiple samples\.
+Tools for computational epigenomics developed for the analysis\, integration and simultaneous visualization of various \(epi\)genomics data types across multiple genomic regions in multiple samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/compEpiTools.html

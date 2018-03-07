@@ -6,7 +6,7 @@ cpinsim
 |downloads|
 
 CPINSim is a package for the simulation of protein complex assembly with constrained
-protein interaction networks\.
+protein interaction networks.
 
 
 ============= ===========

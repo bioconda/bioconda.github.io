@@ -5,7 +5,7 @@ bioconductor-annotationforge
 
 |downloads|
 
-Provides code for generating Annotation packages and their databases\.  Packages produced are intended to be used with AnnotationDbi\.
+Provides code for generating Annotation packages and their databases.  Packages produced are intended to be used with AnnotationDbi.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationForge.html

@@ -5,7 +5,7 @@ sparc
 
 |downloads|
 
-A sparsity\-based consensus algorithm for long erroneous sequencing reads\.
+A sparsity\-based consensus algorithm for long erroneous sequencing reads.
 
 ============= ===========
 Home          https://github.com/yechengxi/Sparc

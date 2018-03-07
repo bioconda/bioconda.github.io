@@ -5,7 +5,7 @@ ucsc-hgsqldump
 
 |downloads|
 
-Execute mysqldump using passwords from \.hg\.conf
+Execute mysqldump using passwords from .hg.conf
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

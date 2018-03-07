@@ -5,7 +5,7 @@ samsift
 
 |downloads|
 
-Advanced filtering and tagging of SAM\/BAM alignments using Python expressions\.
+Advanced filtering and tagging of SAM\/BAM alignments using Python expressions.
 
 ============= ===========
 Home          https://github.com/karel-brinda/samsift

@@ -5,7 +5,7 @@ bioconductor-lpnet
 
 |downloads|
 
-lpNet aims at infering biological networks\, in particular signaling and gene networks\. For that it takes perturbation data\, either steady\-state or time\-series\, as input and generates an LP model which allows the inference of signaling networks\. For parameter identification either leave\-one\-out cross\-validation or stratified n\-fold cross\-validation can be used\.
+lpNet aims at infering biological networks\, in particular signaling and gene networks. For that it takes perturbation data\, either steady\-state or time\-series\, as input and generates an LP model which allows the inference of signaling networks. For parameter identification either leave\-one\-out cross\-validation or stratified n\-fold cross\-validation can be used.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lpNet.html

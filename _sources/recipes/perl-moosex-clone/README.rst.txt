@@ -5,7 +5,7 @@ perl-moosex-clone
 
 |downloads|
 
-Fine\-grained cloning support for Moose objects\.
+Fine\-grained cloning support for Moose objects.
 
 ============= ===========
 Home          https://github.com/moose/MooseX-Clone

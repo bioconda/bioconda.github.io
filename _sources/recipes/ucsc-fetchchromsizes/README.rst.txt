@@ -5,7 +5,7 @@ ucsc-fetchchromsizes
 
 |downloads|
 
- used to fetch chrom\.sizes information from UCSC for the given \<db\> 
+ used to fetch chrom.sizes information from UCSC for the given \<db\> 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

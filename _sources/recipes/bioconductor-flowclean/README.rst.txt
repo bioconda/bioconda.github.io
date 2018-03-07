@@ -5,7 +5,7 @@ bioconductor-flowclean
 
 |downloads|
 
-A quality control tool for flow cytometry data based on compositional data analysis\.
+A quality control tool for flow cytometry data based on compositional data analysis.
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/flowClean.html

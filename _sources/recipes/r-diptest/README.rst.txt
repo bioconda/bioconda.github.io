@@ -5,7 +5,7 @@ r-diptest
 
 |downloads|
 
-Compute Hartigan\'s dip test statistic for unimodality \/ multimodality and provide a test with simulation based p\-values\,  where the original public code has been corrected\.
+Compute Hartigan\'s dip test statistic for unimodality \/ multimodality and provide a test with simulation based p\-values\,  where the original public code has been corrected.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=diptest

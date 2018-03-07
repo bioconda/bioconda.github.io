@@ -5,7 +5,7 @@ bioconductor-arrayquality
 
 |downloads|
 
-Functions for performing print\-run and array level quality assessment\.
+Functions for performing print\-run and array level quality assessment.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/arrayQuality.html

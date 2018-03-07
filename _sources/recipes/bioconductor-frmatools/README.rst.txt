@@ -5,7 +5,7 @@ bioconductor-frmatools
 
 |downloads|
 
-Tools for advanced use of the frma microarray package\.
+Tools for advanced use of the frma microarray package.
 
 ============= ===========
 Home          https://www.bioconductor.org/packages/release/bioc/html/frmaTools.html

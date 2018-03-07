@@ -5,7 +5,7 @@ bioconductor-bsseq
 
 |downloads|
 
-A collection of tools for analyzing and visualizing bisulfite sequencing data\.
+A collection of tools for analyzing and visualizing bisulfite sequencing data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/bsseq.html

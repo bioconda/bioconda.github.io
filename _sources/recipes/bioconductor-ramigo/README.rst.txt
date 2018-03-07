@@ -5,7 +5,7 @@ bioconductor-ramigo
 
 |downloads|
 
-R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, parsing GraphViz DOT format files and exporting GML files for Cytoscape\. Also uses RCytoscape to interactively display AmiGO trees in Cytoscape\.
+R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, parsing GraphViz DOT format files and exporting GML files for Cytoscape. Also uses RCytoscape to interactively display AmiGO trees in Cytoscape.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RamiGO.html

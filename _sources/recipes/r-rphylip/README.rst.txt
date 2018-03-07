@@ -5,7 +5,7 @@ r-rphylip
 
 |downloads|
 
-Rphylip provides an R interface for the PHYLIP package\. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package \(Felsenstein 2013\)\. See http\:\/\/www\.phylip\.com for more  information about installing PHYLIP\.
+Rphylip provides an R interface for the PHYLIP package. All users of Rphylip will thus first have to install the PHYLIP phylogeny methods program package \(Felsenstein 2013\). See http\:\/\/www.phylip.com for more  information about installing PHYLIP.
 
 ============= ===========
 Home          http://www.phytools.org/Rphylip

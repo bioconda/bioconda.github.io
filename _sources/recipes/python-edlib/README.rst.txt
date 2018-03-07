@@ -5,7 +5,7 @@ python-edlib
 
 |downloads|
 
-Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance\.
+Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment using edit \(Levenshtein\) distance.
 
 ============= ===========
 Home          https://github.com/Martinsos/edlib

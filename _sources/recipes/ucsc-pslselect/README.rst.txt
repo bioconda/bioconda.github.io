@@ -5,7 +5,7 @@ ucsc-pslselect
 
 |downloads|
 
-select records from a PSL file\.
+select records from a PSL file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

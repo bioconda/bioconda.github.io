@@ -5,7 +5,7 @@ uniprot
 
 |downloads|
 
-Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot\.org
+Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot.org
 
 ============= ===========
 Home          http://github.com/boscoh/uniprot

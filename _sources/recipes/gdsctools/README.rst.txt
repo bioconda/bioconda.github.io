@@ -5,7 +5,7 @@ gdsctools
 
 |downloads|
 
-Set of tools and pipelines to analyse GDSC data \(cancerrxgene\.org\)
+Set of tools and pipelines to analyse GDSC data \(cancerrxgene.org\)
 
 ============= ===========
 Home          

@@ -5,7 +5,7 @@ r-ic10
 
 |downloads|
 
-Implementation of the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al\.\, Genome Biology 2014\)\. It uses copy number and\/or expression from breast cancer data\, trains a pamr classifier \(Tibshirani et al\.\) with the features available and predicts the iC10 group\.
+Implementation of the classifier described in the paper \'Genome\-driven integrated classification of breast cancer validated in over 7\,500 samples\' \(Ali HR et al.\, Genome Biology 2014\). It uses copy number and\/or expression from breast cancer data\, trains a pamr classifier \(Tibshirani et al.\) with the features available and predicts the iC10 group.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=iC10

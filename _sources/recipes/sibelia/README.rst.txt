@@ -5,7 +5,7 @@ sibelia
 
 |downloads|
 
-Genome comparison via de Bruijn graph\.
+Genome comparison via de Bruijn graph.
 
 ============= ===========
 Home          https://github.com/bioinf/Sibelia

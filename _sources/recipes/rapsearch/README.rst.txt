@@ -5,7 +5,7 @@ rapsearch
 
 |downloads|
 
-RAPSearch2 is a tool for fast protein similarity searches\.
+RAPSearch2 is a tool for fast protein similarity searches.
 
 ============= ===========
 Home          http://omics.informatics.indiana.edu/mg/RAPSearch2/

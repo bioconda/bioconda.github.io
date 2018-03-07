@@ -5,7 +5,7 @@ break-point-inspector
 
 |downloads|
 
-BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls\.
+BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determine the location of the breaks\, and applies a set of filters to remove false positives\, thereby increasing the accuracy of Manta’s calls.
 
 ============= ===========
 Home          https://github.com/hartwigmedical/hmftools/tree/master/break-point-inspector

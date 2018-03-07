@@ -5,7 +5,7 @@ taxmapper
 
 |downloads|
 
-Analysis pipeline for metagenomic\, microeukaryotic sequencing data\.
+Analysis pipeline for metagenomic\, microeukaryotic sequencing data.
 
 ============= ===========
 Home          https://bitbucket.org/dbeisser/taxmapper

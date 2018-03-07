@@ -5,7 +5,7 @@ jamm
 
 |downloads|
 
-JAMM is a peak finder for NGS datasets \(ChIP\-Seq\, ATAC\-Seq\, DNase\-Seq\.\.etc\.\) that can integrate replicates and assign peak boundaries accurately\.
+JAMM is a peak finder for NGS datasets \(ChIP\-Seq\, ATAC\-Seq\, DNase\-Seq..etc.\) that can integrate replicates and assign peak boundaries accurately.
 
 ============= ===========
 Home          https://github.com/mahmoudibrahim/JAMM

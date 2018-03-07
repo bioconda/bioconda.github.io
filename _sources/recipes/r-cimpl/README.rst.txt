@@ -5,7 +5,7 @@ r-cimpl
 
 |downloads|
 
-An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites\.
+An analysis package for multi sample insertional mutagenesis data \(including viral\- and transposon\-based systems\) using Gaussian kernel convolution to identify common insertion sites.
 
 ============= ===========
 Home          http://ccb.nki.nl/software/

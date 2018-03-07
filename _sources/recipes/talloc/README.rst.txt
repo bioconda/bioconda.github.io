@@ -5,7 +5,7 @@ talloc
 
 |downloads|
 
-talloc is a hierarchical\, reference counted memory pool system with destructors\.
+talloc is a hierarchical\, reference counted memory pool system with destructors.
 
 ============= ===========
 Home          https://talloc.samba.org/talloc/doc/html/index.html`

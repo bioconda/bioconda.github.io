@@ -5,7 +5,7 @@ gromacs
 
 |downloads|
 
-GROMACS is a versatile package to perform molecular dynamics\.
+GROMACS is a versatile package to perform molecular dynamics.
 
 ============= ===========
 Home          http://www.gromacs.org/

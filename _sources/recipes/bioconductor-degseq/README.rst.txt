@@ -5,7 +5,7 @@ bioconductor-degseq
 
 |downloads|
 
-DEGseq is an R package to identify differentially expressed genes from RNA\-Seq data\.
+DEGseq is an R package to identify differentially expressed genes from RNA\-Seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DEGseq.html

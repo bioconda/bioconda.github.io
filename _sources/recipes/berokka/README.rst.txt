@@ -5,7 +5,7 @@ berokka
 
 |downloads|
 
-Trim\, circularise and orient long read bacterial genome assemblies\.
+Trim\, circularise and orient long read bacterial genome assemblies.
 
 ============= ===========
 Home          https://github.com/tseemann/berokka

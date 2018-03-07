@@ -5,7 +5,7 @@ bioconductor-proper
 
 |downloads|
 
-This package provide simulation based methods for evaluating the statistical power in differential expression analysis from RNA\-seq data\.
+This package provide simulation based methods for evaluating the statistical power in differential expression analysis from RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PROPER.html

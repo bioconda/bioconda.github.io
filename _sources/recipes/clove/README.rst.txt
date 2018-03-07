@@ -5,7 +5,7 @@ clove
 
 |downloads|
 
-CLOVE\: Classification of genomic fusions into structural variation events\.
+CLOVE\: Classification of genomic fusions into structural variation events.
 
 ============= ===========
 Home          https://github.com/PapenfussLab/clove
@@ -35,11 +35,11 @@ and update with::
 
 Notes
 -----
-Clove is a Java program that comes with a custom wrapper shell script\.
-This shell wrapper is called \"clove\" and is on \$PATH by default\. By default
-\"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want to overwrite it you can
-specify these values directly after your binaries\. If you have \_JAVA\_OPTIONS
-set globally this will take precedence\.
+Clove is a Java program that comes with a custom wrapper shell script.
+This shell wrapper is called \"clove\" and is on \$PATH by default. By default
+\"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want to overwrite it you can
+specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
+set globally this will take precedence.
 For example run it with \"clove \-Xms512m \-Xmx1g\"
 
 

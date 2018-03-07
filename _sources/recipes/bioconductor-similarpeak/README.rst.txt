@@ -5,7 +5,7 @@ bioconductor-similarpeak
 
 |downloads|
 
-This package calculates metrics which assign a level of similarity between ChIP\-Seq profiles\.
+This package calculates metrics which assign a level of similarity between ChIP\-Seq profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/similaRpeak.html

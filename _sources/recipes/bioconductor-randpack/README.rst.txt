@@ -5,7 +5,7 @@ bioconductor-randpack
 
 |downloads|
 
-A suite of classes and functions for randomizing patients in clinical trials\.
+A suite of classes and functions for randomizing patients in clinical trials.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/randPack.html

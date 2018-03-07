@@ -5,7 +5,7 @@ soapsplice
 
 |downloads|
 
-We have developed a tool SOAPsplice for genome\-wide ab initio detection of splice junction sites from RNA\-Seq\, a method using new generation sequencing technologies to sequence the messenger RNA\.
+We have developed a tool SOAPsplice for genome\-wide ab initio detection of splice junction sites from RNA\-Seq\, a method using new generation sequencing technologies to sequence the messenger RNA.
 
 ============= ===========
 Home          http://soap.genomics.org.cn/soapsplice.html

@@ -5,7 +5,7 @@ bucketcache
 
 |downloads|
 
-Versatile persisent file cache\.
+Versatile persisent file cache.
 
 ============= ===========
 Home          https://github.com/RazerM/bucketcache

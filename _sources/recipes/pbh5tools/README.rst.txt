@@ -5,7 +5,7 @@ pbh5tools
 
 |downloads|
 
-A swiss\-army knife for interrogating PacBio® HDF5 files \(cmp\.h5\, bas\.h5\)\.
+A swiss\-army knife for interrogating PacBio® HDF5 files \(cmp.h5\, bas.h5\).
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbh5tools

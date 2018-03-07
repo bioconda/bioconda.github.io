@@ -5,7 +5,7 @@ bioconductor-simat
 
 |downloads|
 
-This package provides a pipeline for analysis of GC\-MS data acquired in selected ion monitoring \(SIM\) mode\. The tool also provides a guidance in choosing appropriate fragments for the targets of interest by using an optimization algorithm\. This is done by considering overlapping peaks from a provided library by the user\.
+This package provides a pipeline for analysis of GC\-MS data acquired in selected ion monitoring \(SIM\) mode. The tool also provides a guidance in choosing appropriate fragments for the targets of interest by using an optimization algorithm. This is done by considering overlapping peaks from a provided library by the user.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SIMAT.html

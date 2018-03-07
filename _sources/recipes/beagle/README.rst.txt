@@ -5,7 +5,7 @@ beagle
 
 |downloads|
 
-Beagle is a software package that performs genotype calling\, genotype phasing\, imputation of ungenotyped markers\, and identity\-by\-descent segment detection\.
+Beagle is a software package that performs genotype calling\, genotype phasing\, imputation of ungenotyped markers\, and identity\-by\-descent segment detection.
 
 ============= ===========
 Home          http://faculty.washington.edu/browning/beagle/beagle.html

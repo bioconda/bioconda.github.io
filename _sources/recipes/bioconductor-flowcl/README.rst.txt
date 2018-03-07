@@ -5,7 +5,7 @@ bioconductor-flowcl
 
 |downloads|
 
-Semantic labelling of flow cytometric cell populations\.
+Semantic labelling of flow cytometric cell populations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowCL.html

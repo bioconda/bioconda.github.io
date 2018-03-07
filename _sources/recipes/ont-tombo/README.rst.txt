@@ -5,7 +5,7 @@ ont-tombo
 
 |downloads|
 
-Detection of modified bases from raw nanopore sequencing data\.
+Detection of modified bases from raw nanopore sequencing data.
 
 ============= ===========
 Home          https://nanoporetech.github.io/tombo/

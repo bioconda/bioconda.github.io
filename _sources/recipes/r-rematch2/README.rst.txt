@@ -5,7 +5,7 @@ r-rematch2
 
 |downloads|
 
-Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames\.
+Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy data frames.
 
 ============= ===========
 Home          https://github.com/r-lib/rematch2#readme

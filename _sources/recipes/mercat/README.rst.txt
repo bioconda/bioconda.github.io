@@ -5,7 +5,7 @@ mercat
 
 |downloads|
 
-Mercat\: a versatile counter and diversity estimator for data base independent property analysis obtained from whole community sequencing data\.
+Mercat\: a versatile counter and diversity estimator for data base independent property analysis obtained from whole community sequencing data.
 
 ============= ===========
 Home          https://github.com/pnnl/mercat

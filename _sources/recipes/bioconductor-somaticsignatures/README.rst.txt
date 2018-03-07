@@ -5,7 +5,7 @@ bioconductor-somaticsignatures
 
 |downloads|
 
-The SomaticSignatures package identifies mutational signatures of single nucleotide variants \(SNVs\)\.  It provides a infrastructure related to the methodology described in Nik\-Zainal \(2012\, Cell\)\, with flexibility in the matrix decomposition algorithms\.
+The SomaticSignatures package identifies mutational signatures of single nucleotide variants \(SNVs\).  It provides a infrastructure related to the methodology described in Nik\-Zainal \(2012\, Cell\)\, with flexibility in the matrix decomposition algorithms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SomaticSignatures.html

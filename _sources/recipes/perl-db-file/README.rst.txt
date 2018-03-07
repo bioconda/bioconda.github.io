@@ -5,7 +5,7 @@ perl-db-file
 
 |downloads|
 
-Perl5 access to Berkeley DB version 1\.x\.
+Perl5 access to Berkeley DB version 1.x.
 
 ============= ===========
 Home          https://metacpan.org/pod/Set::IntervalTree

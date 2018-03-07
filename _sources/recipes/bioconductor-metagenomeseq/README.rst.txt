@@ -5,7 +5,7 @@ bioconductor-metagenomeseq
 
 |downloads|
 
-metagenomeSeq is designed to determine features \(be it Operational Taxanomic Unit \(OTU\)\, species\, etc\.\) that are differentially abundant between two or more groups of multiple samples\. metagenomeSeq is designed to address the effects of both normalization and under\-sampling of microbial communities on disease association detection and the testing of feature correlations\.
+metagenomeSeq is designed to determine features \(be it Operational Taxanomic Unit \(OTU\)\, species\, etc.\) that are differentially abundant between two or more groups of multiple samples. metagenomeSeq is designed to address the effects of both normalization and under\-sampling of microbial communities on disease association detection and the testing of feature correlations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/metagenomeSeq.html

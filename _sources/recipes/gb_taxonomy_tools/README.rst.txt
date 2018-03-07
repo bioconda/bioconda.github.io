@@ -5,7 +5,7 @@ gb_taxonomy_tools
 
 |downloads|
 
-These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information\.
+These are four simple utilities which perform certain manipulations and  visualization tasks on GenBank taxonomic information.
 
 ============= ===========
 Home          https://github.com/spond/gb_taxonomy_tools

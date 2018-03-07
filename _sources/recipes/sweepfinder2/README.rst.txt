@@ -5,7 +5,7 @@ sweepfinder2
 
 |downloads|
 
-The BWA read mapper\.
+The BWA read mapper.
 
 ============= ===========
 Home          http://www.personal.psu.edu/mxd60/sf2.html

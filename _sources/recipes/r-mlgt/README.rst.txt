@@ -5,7 +5,7 @@ r-mlgt
 
 |downloads|
 
-Processing and analysis of high throughput \(Roche 454\) sequences generated from multiple loci and multiple biological samples\. Sequences are assigned to their locus and sample of origin\, aligned and trimmed\. Where possible\, genotypes are called and variants mapped to known alleles\.
+Processing and analysis of high throughput \(Roche 454\) sequences generated from multiple loci and multiple biological samples. Sequences are assigned to their locus and sample of origin\, aligned and trimmed. Where possible\, genotypes are called and variants mapped to known alleles.
 
 ============= ===========
 Home          http://personalpages.manchester.ac.uk/staff/David.Gerrard/

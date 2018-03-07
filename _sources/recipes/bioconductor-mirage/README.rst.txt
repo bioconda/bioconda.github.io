@@ -5,7 +5,7 @@ bioconductor-mirage
 
 |downloads|
 
-The package contains functions for inferece of target gene regulation by miRNA\, based on only target gene expression profile\.
+The package contains functions for inferece of target gene regulation by miRNA\, based on only target gene expression profile.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MiRaGE.html

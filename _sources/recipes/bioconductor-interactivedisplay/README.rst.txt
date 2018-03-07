@@ -5,7 +5,7 @@ bioconductor-interactivedisplay
 
 |downloads|
 
-The interactiveDisplay package contains the methods needed to generate interactive Shiny based display methods for Bioconductor objects\.
+The interactiveDisplay package contains the methods needed to generate interactive Shiny based display methods for Bioconductor objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/interactiveDisplay.html

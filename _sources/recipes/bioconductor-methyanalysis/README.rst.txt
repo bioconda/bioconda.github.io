@@ -5,7 +5,7 @@ bioconductor-methyanalysis
 
 |downloads|
 
-The methyAnalysis package aims for the DNA methylation data analysis and visualization\. A MethyGenoSet class is defined to keep the chromosome location information together with the data\. The package also includes functions of estimating the methylation levels from Methy\-Seq data\.
+The methyAnalysis package aims for the DNA methylation data analysis and visualization. A MethyGenoSet class is defined to keep the chromosome location information together with the data. The package also includes functions of estimating the methylation levels from Methy\-Seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/methyAnalysis.html

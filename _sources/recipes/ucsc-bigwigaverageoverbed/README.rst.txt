@@ -5,7 +5,7 @@ ucsc-bigwigaverageoverbed
 
 |downloads|
 
-Compute average score of big wig over each bed\, which may have introns\.
+Compute average score of big wig over each bed\, which may have introns.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

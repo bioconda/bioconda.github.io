@@ -5,7 +5,7 @@ genepop
 
 |downloads|
 
-The Genepop population genetics package\.
+The Genepop population genetics package.
 
 ============= ===========
 Home          http://kimura.univ-montp2.fr/~rousset/Genepop.htm

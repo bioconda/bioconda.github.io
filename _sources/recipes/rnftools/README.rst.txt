@@ -5,7 +5,7 @@ rnftools
 
 |downloads|
 
-RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data\.
+RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion of RNF\-compliant data.
 
 ============= ===========
 Home          http://karel-brinda.github.io/rnftools

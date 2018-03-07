@@ -5,7 +5,7 @@ perl-bio-phylo
 
 |downloads|
 
-An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data\.
+An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic data.
 
 ============= ===========
 Home          http://biophylo.blogspot.com/

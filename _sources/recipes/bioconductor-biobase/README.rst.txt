@@ -5,7 +5,7 @@ bioconductor-biobase
 
 |downloads|
 
-Functions that are needed by many other packages or which replace R functions\.
+Functions that are needed by many other packages or which replace R functions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Biobase.html

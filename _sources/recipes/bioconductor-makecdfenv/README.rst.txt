@@ -5,7 +5,7 @@ bioconductor-makecdfenv
 
 |downloads|
 
-This package has two functions\. One reads a Affymetrix chip description file \(CDF\) and creates a hash table environment containing the location\/probe set membership mapping\. The other creates a package that automatically loads that environment\.
+This package has two functions. One reads a Affymetrix chip description file \(CDF\) and creates a hash table environment containing the location\/probe set membership mapping. The other creates a package that automatically loads that environment.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/makecdfenv.html

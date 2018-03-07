@@ -5,7 +5,7 @@ vnl
 
 |downloads|
 
-A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding\.
+A multi\-platform collection of C\+\+ software libraries for Computer Vision and Image Understanding.
 
 ============= ===========
 Home          https://sf.net/projects/vxl/

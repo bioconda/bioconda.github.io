@@ -18,9 +18,9 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 ============= ===========
 
 MrBayes is a program for Bayesian inference and model choice across a wide
-range of phylogenetic and evolutionary models\. MrBayes uses Markov chain
+range of phylogenetic and evolutionary models. MrBayes uses Markov chain
 Monte Carlo \(MCMC\) methods to estimate the posterior distribution of model
-parameters\.
+parameters.
 
 
 Installation

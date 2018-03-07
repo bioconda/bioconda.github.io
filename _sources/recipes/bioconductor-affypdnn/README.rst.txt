@@ -5,7 +5,7 @@ bioconductor-affypdnn
 
 |downloads|
 
-The package contains functions to perform the PDNN method described by Li Zhang et al\.
+The package contains functions to perform the PDNN method described by Li Zhang et al.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affypdnn.html

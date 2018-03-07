@@ -5,7 +5,7 @@ r-exomedepth
 
 |downloads|
 
-Calls copy number variants \(CNVs\) from targeted sequence data\, typically exome sequencing experiments designed to identify the genetic basis of Mendelian disorders\.
+Calls copy number variants \(CNVs\) from targeted sequence data\, typically exome sequencing experiments designed to identify the genetic basis of Mendelian disorders.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=ExomeDepth

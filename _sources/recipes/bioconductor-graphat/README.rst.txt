@@ -5,7 +5,7 @@ bioconductor-graphat
 
 |downloads|
 
-Functions and data used in Balasubramanian\, et al\. \(2004\)
+Functions and data used in Balasubramanian\, et al. \(2004\)
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GraphAT.html

@@ -5,7 +5,7 @@ bioconductor-pathrender
 
 |downloads|
 
-build graphs from pathway databases\, render them by Rgraphviz\.
+build graphs from pathway databases\, render them by Rgraphviz.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pathRender.html

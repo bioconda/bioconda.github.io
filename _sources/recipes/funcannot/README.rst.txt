@@ -5,7 +5,7 @@ funcannot
 
 |downloads|
 
-Annotates cDNA\, protein\, mutation type\, and other funcational changes to variants in a VCF file with pre\-existing gene annotations \(see\:genepender\)\.
+Annotates cDNA\, protein\, mutation type\, and other funcational changes to variants in a VCF file with pre\-existing gene annotations \(see\:genepender\).
 
 ============= ===========
 Home          https://github.com/BioTools-Tek/funcannot

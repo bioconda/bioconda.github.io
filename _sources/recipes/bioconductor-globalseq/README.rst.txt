@@ -5,7 +5,7 @@ bioconductor-globalseq
 
 |downloads|
 
-The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size\.
+The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/globalSeq.html

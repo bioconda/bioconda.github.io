@@ -5,7 +5,7 @@ bioconductor-jmosaics
 
 |downloads|
 
-jmosaics detects enriched regions of ChIP\-seq data sets jointly\.
+jmosaics detects enriched regions of ChIP\-seq data sets jointly.
 
 ============= ===========
 Home          http://bioconductor.org/packages/release/bioc/html/jmosaics.html

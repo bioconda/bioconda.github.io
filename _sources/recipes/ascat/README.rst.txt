@@ -6,12 +6,12 @@ ascat
 |downloads|
 
 ASCAT is a method to derive copy number profiles of tumour cells\,
-accounting for normal cell admixture and tumour aneuploidy \(Figure 1\)\.
+accounting for normal cell admixture and tumour aneuploidy \(Figure 1\).
 ASCAT infers tumour purity \(the fraction of tumour cells\) and ploidy \(the
 amount of DNA per tumour cell\, expressed as multiples of haploid genomes\)
 from SNP array or massively parallel sequencing data\, and calculates
 whole\-genome allele\-specific copy number profiles \(the number of copies of
-both parental alleles for all SNP loci across the genome\)\.
+both parental alleles for all SNP loci across the genome\).
 
 
 ============= ===========

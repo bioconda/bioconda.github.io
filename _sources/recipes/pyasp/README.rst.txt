@@ -5,7 +5,7 @@ pyasp
 
 |downloads|
 
-A convenience wrapper for the ASP tools gringo\, gringo4 and clasp\.
+A convenience wrapper for the ASP tools gringo\, gringo4 and clasp.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/pyasp/

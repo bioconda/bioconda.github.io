@@ -5,7 +5,7 @@ compalignp
 
 |downloads|
 
-Compute fractional \"identity\" between trusted alignment and test alignment\.
+Compute fractional \"identity\" between trusted alignment and test alignment.
 
 ============= ===========
 Home          http://www.biophys.uni-duesseldorf.de/bralibase/

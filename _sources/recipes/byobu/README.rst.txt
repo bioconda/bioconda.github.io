@@ -5,7 +5,7 @@ byobu
 
 |downloads|
 
-Byobu is a GPLv3 open source text\-based window manager and terminal multiplexer\.
+Byobu is a GPLv3 open source text\-based window manager and terminal multiplexer.
 
 ============= ===========
 Home          http://byobu.co/

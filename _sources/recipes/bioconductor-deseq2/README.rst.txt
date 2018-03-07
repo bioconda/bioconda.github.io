@@ -5,7 +5,7 @@ bioconductor-deseq2
 
 |downloads|
 
-Estimate variance\-mean dependence in count data from high\-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution\.
+Estimate variance\-mean dependence in count data from high\-throughput sequencing assays and test for differential expression based on a model using the negative binomial distribution.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DESeq2.html

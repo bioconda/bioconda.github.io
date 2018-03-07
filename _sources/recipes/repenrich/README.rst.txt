@@ -5,7 +5,7 @@ repenrich
 
 |downloads|
 
-RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data\.
+RepEnrich is a method to estimate repetitive element enrichment using high\-throughput sequencing data.
 
 ============= ===========
 Home          https://github.com/nskvir/RepEnrich

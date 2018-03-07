@@ -5,7 +5,7 @@ ucsc-addcols
 
 |downloads|
 
-Sum columns in a text file\.
+Sum columns in a text file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-rsamtools
 
 |downloads|
 
-This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'tabix\' utilities \(see \'LICENCE\'\) for manipulating SAM \(Sequence Alignment \/ Map\)\, FASTA\, binary variant call \(BCF\) and compressed indexed tab\-delimited \(tabix\) files\.
+This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'tabix\' utilities \(see \'LICENCE\'\) for manipulating SAM \(Sequence Alignment \/ Map\)\, FASTA\, binary variant call \(BCF\) and compressed indexed tab\-delimited \(tabix\) files.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Rsamtools.html

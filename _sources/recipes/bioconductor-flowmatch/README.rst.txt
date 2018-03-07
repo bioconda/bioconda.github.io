@@ -5,7 +5,7 @@ bioconductor-flowmatch
 
 |downloads|
 
-Matching cell populations and building meta\-clusters and templates from a collection of FC samples\.
+Matching cell populations and building meta\-clusters and templates from a collection of FC samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowMatch.html

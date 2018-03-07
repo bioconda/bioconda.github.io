@@ -5,7 +5,7 @@ bioconductor-metab
 
 |downloads|
 
-Metab is an R package for high\-throughput processing of metabolomics data analysed by the Automated Mass Spectral Deconvolution and Identification System \(AMDIS\) \(http\:\/\/chemdata\.nist\.gov\/mass\-spc\/amdis\/downloads\/\)\. In addition\, it performs statistical hypothesis test \(t\-test\) and analysis of variance \(ANOVA\)\. Doing so\, Metab considerably speed up the data mining process in metabolomics and produces better quality results\. Metab was developed using interactive features\, allowing users with lack of R knowledge to appreciate its functionalities\.
+Metab is an R package for high\-throughput processing of metabolomics data analysed by the Automated Mass Spectral Deconvolution and Identification System \(AMDIS\) \(http\:\/\/chemdata.nist.gov\/mass\-spc\/amdis\/downloads\/\). In addition\, it performs statistical hypothesis test \(t\-test\) and analysis of variance \(ANOVA\). Doing so\, Metab considerably speed up the data mining process in metabolomics and produces better quality results. Metab was developed using interactive features\, allowing users with lack of R knowledge to appreciate its functionalities.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Metab.html

@@ -5,7 +5,7 @@ bioconductor-repitools
 
 |downloads|
 
-Tools for the analysis of enrichment\-based epigenomic data\.  Features include summarization and visualization of epigenomic data across promoters according to gene expression context\, finding regions of differential methylation\/binding\, BayMeth for quantifying methylation etc\.
+Tools for the analysis of enrichment\-based epigenomic data.  Features include summarization and visualization of epigenomic data across promoters according to gene expression context\, finding regions of differential methylation\/binding\, BayMeth for quantifying methylation etc.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Repitools.html

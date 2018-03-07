@@ -5,7 +5,7 @@ ucsc-hgbbidblink
 
 |downloads|
 
-Add table that just contains a pointer to a bbiFile to database\.  This program 
+Add table that just contains a pointer to a bbiFile to database.  This program 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

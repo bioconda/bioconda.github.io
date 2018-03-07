@@ -5,7 +5,7 @@ bioconductor-homo.sapiens
 
 |downloads|
 
-Contains the Homo\.sapiens object to access data from several related annotation packages\.
+Contains the Homo.sapiens object to access data from several related annotation packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/Homo.sapiens.html

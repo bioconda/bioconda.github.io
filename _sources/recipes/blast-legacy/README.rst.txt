@@ -5,7 +5,7 @@ blast-legacy
 
 |downloads|
 
-The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarity between sequences\.
+The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarity between sequences.
 
 ============= ===========
 Home          http://blast.ncbi.nlm.nih.gov

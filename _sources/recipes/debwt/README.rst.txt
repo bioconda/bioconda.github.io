@@ -6,10 +6,10 @@ debwt
 |downloads|
 
 A efficient method to construct BWT index of a given DNA sequence\, especially
-useful for gigantic and high similar genome\.
-DeBWT has good scalability to construct BWT in parallel computing\.
+useful for gigantic and high similar genome.
+DeBWT has good scalability to construct BWT in parallel computing.
 It is well\-suited to run on multiple core servers or clusters to
-construct the BWT of large collections of genome sequences\.
+construct the BWT of large collections of genome sequences.
 
 
 ============= ===========

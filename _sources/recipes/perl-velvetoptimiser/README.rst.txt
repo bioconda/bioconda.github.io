@@ -5,7 +5,7 @@ perl-velvetoptimiser
 
 |downloads|
 
-Automatically optimise three of Velvet\'s assembly parameters\.
+Automatically optimise three of Velvet\'s assembly parameters.
 
 ============= ===========
 Home          https://github.com/tseemann/VelvetOptimiser

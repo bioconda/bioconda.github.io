@@ -5,7 +5,7 @@ mreps
 
 |downloads|
 
-mreps is a flexible and efficient software for identifying serial repeats \(usually called tandem repeats\) in DNA sequences\.
+mreps is a flexible and efficient software for identifying serial repeats \(usually called tandem repeats\) in DNA sequences.
 
 ============= ===========
 Home          http://mreps.univ-mlv.fr/

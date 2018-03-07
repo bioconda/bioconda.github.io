@@ -5,7 +5,7 @@ perl-socket6
 
 |downloads|
 
-IPv6 related part of the C socket\.h defines and structure manipulators
+IPv6 related part of the C socket.h defines and structure manipulators
 
 ============= ===========
 Home          http://metacpan.org/pod/Socket6

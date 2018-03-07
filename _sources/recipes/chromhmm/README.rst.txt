@@ -5,7 +5,7 @@ chromhmm
 
 |downloads|
 
-ChromHMM is software for learning and characterizing chromatin states\. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks\.
+ChromHMM is software for learning and characterizing chromatin states. ChromHMM can integrate multiple chromatin datasets such as ChIP\-seq data of various histone modifications to discover de novo the major re\-occuring combinatorial and spatial patterns of marks.
 
 ============= ===========
 Home          http://compbio.mit.edu/ChromHMM/
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-ChromHMM comes with about 36MB of example data which is not included in the recipe\. This recipe installs a script\, \"download\_chromhmm\_data\.sh\"\, which downloads the data in the proper location\, and which can be run after ChromHMM has been installed\.
+ChromHMM comes with about 36MB of example data which is not included in the recipe. This recipe installs a script\, \"download\_chromhmm\_data.sh\"\, which downloads the data in the proper location\, and which can be run after ChromHMM has been installed.
 
 
 |docker|

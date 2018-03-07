@@ -5,7 +5,7 @@ fermikit
 
 |downloads|
 
-FermiKit is a de novo assembly based variant calling pipeline for deep Illumina resequencing data\.
+FermiKit is a de novo assembly based variant calling pipeline for deep Illumina resequencing data.
 
 ============= ===========
 Home          https://github.com/lh3/fermikit

@@ -5,7 +5,7 @@ bioconductor-imagehts
 
 |downloads|
 
-imageHTS is an R package dedicated to the analysis of high\-throughput microscopy\-based screens\. The package provides a modular and extensible framework to segment cells\, extract quantitative cell features\, predict cell types and browse screen data through web interfaces\. Designed to operate in distributed environments\, imageHTS provides a standardized access to remote data and facilitates the dissemination of high\-throughput microscopy\-based datasets\.
+imageHTS is an R package dedicated to the analysis of high\-throughput microscopy\-based screens. The package provides a modular and extensible framework to segment cells\, extract quantitative cell features\, predict cell types and browse screen data through web interfaces. Designed to operate in distributed environments\, imageHTS provides a standardized access to remote data and facilitates the dissemination of high\-throughput microscopy\-based datasets.
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/imageHTS.html

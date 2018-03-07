@@ -5,7 +5,7 @@ cmappy
 
 |downloads|
 
-Assorted tools for interacting with \.gct\, \.gctx\, \.grp\, and \.gmt files as well as other Connectivity Map \(Broad Institute\) data\/tools
+Assorted tools for interacting with .gct\, .gctx\, .grp\, and .gmt files as well as other Connectivity Map \(Broad Institute\) data\/tools
 
 ============= ===========
 Home          https://github.com/cmap/cmapPy

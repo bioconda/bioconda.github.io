@@ -5,7 +5,7 @@ pandaseq
 
 |downloads|
 
-PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence\.
+PANDASEQ is a program to align Illumina reads\, optionally with PCR primers embedded in the sequence\, and reconstruct an overlapping sequence.
 
 ============= ===========
 Home          https://github.com/neufeld/pandaseq

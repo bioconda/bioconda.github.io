@@ -5,7 +5,7 @@ java-jdk
 
 |downloads|
 
-The Zulu OpenJDK build\.
+The Zulu OpenJDK build.
 
 ============= ===========
 Home          http://www.azulsystems.com/products/zulu

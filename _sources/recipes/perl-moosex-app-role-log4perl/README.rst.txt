@@ -5,7 +5,7 @@ perl-moosex-app-role-log4perl
 
 |downloads|
 
-Add basic Log\:\:Log4perl logging to a MooseX\:\:App application as a role\.
+Add basic Log\:\:Log4perl logging to a MooseX\:\:App application as a role.
 
 ============= ===========
 Home          https://metacpan.org/pod/MooseX::App::Role::Log4perl

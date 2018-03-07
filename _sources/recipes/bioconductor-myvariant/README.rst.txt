@@ -5,7 +5,7 @@ bioconductor-myvariant
 
 |downloads|
 
-MyVariant\.info is a comprehensive aggregation of variant annotation resources\. myvariant is a wrapper for querying MyVariant\.info services
+MyVariant.info is a comprehensive aggregation of variant annotation resources. myvariant is a wrapper for querying MyVariant.info services
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/myvariant.html

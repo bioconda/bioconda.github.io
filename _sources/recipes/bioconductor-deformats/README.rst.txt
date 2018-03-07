@@ -5,7 +5,7 @@ bioconductor-deformats
 
 |downloads|
 
-Convert between different data formats used by differential gene expression analysis tools\.
+Convert between different data formats used by differential gene expression analysis tools.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DEFormats.html

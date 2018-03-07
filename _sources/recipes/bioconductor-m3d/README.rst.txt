@@ -5,7 +5,7 @@ bioconductor-m3d
 
 |downloads|
 
-This package identifies statistically significantly differentially methylated regions of CpGs\. It uses kernel methods \(the Maximum Mean Discrepancy\) to measure differences in methylation profiles\, and relates these to inter\-replicate changes\, whilst accounting for variation in coverage profiles\.
+This package identifies statistically significantly differentially methylated regions of CpGs. It uses kernel methods \(the Maximum Mean Discrepancy\) to measure differences in methylation profiles\, and relates these to inter\-replicate changes\, whilst accounting for variation in coverage profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/M3D.html

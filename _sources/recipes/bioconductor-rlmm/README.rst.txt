@@ -5,7 +5,7 @@ bioconductor-rlmm
 
 |downloads|
 
-A classification algorithm\, based on a multi\-chip\, multi\-SNP approach for Affymetrix SNP arrays\. Using a large training sample where the genotype labels are known\, this aglorithm will obtain more accurate classification results on new data\. RLMM is based on a robust\, linear model and uses the Mahalanobis distance for classification\. The chip\-to\-chip non\-biological variation is removed through normalization\. This model\-based algorithm captures the similarities across genotype groups and probes\, as well as thousands other SNPs for accurate classification\. NOTE\: 100K\-Xba only at for now\.
+A classification algorithm\, based on a multi\-chip\, multi\-SNP approach for Affymetrix SNP arrays. Using a large training sample where the genotype labels are known\, this aglorithm will obtain more accurate classification results on new data. RLMM is based on a robust\, linear model and uses the Mahalanobis distance for classification. The chip\-to\-chip non\-biological variation is removed through normalization. This model\-based algorithm captures the similarities across genotype groups and probes\, as well as thousands other SNPs for accurate classification. NOTE\: 100K\-Xba only at for now.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RLMM.html

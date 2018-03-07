@@ -5,7 +5,7 @@ bioconductor-uniprot.ws
 
 |downloads|
 
-A collection of functions for retrieving\, processing and repackaging the UniProt web services\.
+A collection of functions for retrieving\, processing and repackaging the UniProt web services.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/UniProt.ws.html

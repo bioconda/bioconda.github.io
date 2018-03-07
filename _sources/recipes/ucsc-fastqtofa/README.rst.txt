@@ -5,7 +5,7 @@ ucsc-fastqtofa
 
 |downloads|
 
-Convert from fastq to fasta format\.
+Convert from fastq to fasta format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

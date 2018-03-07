@@ -5,7 +5,7 @@ tablet
 
 |downloads|
 
-Tablet is a lightweight\, high\-performance graphical viewer for next generation sequence assemblies and alignments\.
+Tablet is a lightweight\, high\-performance graphical viewer for next generation sequence assemblies and alignments.
 
 ============= ===========
 Home          https://ics.hutton.ac.uk/tablet

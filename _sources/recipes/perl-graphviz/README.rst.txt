@@ -5,7 +5,7 @@ perl-graphviz
 
 |downloads|
 
-Interface to AT\&T\'s GraphViz\. Deprecated\. See GraphViz2
+Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2
 
 ============= ===========
 Home          http://metacpan.org/pod/GraphViz

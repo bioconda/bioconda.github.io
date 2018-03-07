@@ -5,7 +5,7 @@ bioconductor-cleaver
 
 |downloads|
 
-In\-silico cleavage of polypeptide sequences\. The cleavage rules are taken from\: http\:\/\/web\.expasy\.org\/peptide\_cutter\/peptidecutter\_enzymes\.html
+In\-silico cleavage of polypeptide sequences. The cleavage rules are taken from\: http\:\/\/web.expasy.org\/peptide\_cutter\/peptidecutter\_enzymes.html
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cleaver.html

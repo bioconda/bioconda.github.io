@@ -19,9 +19,9 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 AbundanceBin is an abundance\-based tool for binning metagenomic sequences\,
 such that the reads classified in a bin belong to species of identical or
-very similar abundances\. AbundanceBin also gives estimations of species
+very similar abundances. AbundanceBin also gives estimations of species
 abundances and their genome sizes — two important characteristic parameters
-for a microbial community\.
+for a microbial community.
 
 
 Installation

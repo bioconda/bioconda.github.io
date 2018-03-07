@@ -5,7 +5,7 @@ bioconductor-rpsixml
 
 |downloads|
 
-Queries\, data structure and interface to visualization of interaction datasets\. This package inplements the PSI\-MI 2\.5 standard and supports up to now 8 databases\. Further databases supporting PSI\-MI 2\.5 standard will be added continuously\.
+Queries\, data structure and interface to visualization of interaction datasets. This package inplements the PSI\-MI 2.5 standard and supports up to now 8 databases. Further databases supporting PSI\-MI 2.5 standard will be added continuously.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RpsiXML.html

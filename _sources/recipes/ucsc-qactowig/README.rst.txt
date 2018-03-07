@@ -5,7 +5,7 @@ ucsc-qactowig
 
 |downloads|
 
-convert from compressed quality score format to wiggle format\.
+convert from compressed quality score format to wiggle format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

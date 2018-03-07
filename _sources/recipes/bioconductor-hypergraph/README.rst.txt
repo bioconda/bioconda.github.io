@@ -5,7 +5,7 @@ bioconductor-hypergraph
 
 |downloads|
 
-A package that implements some simple capabilities for representing and manipulating hypergraphs\.
+A package that implements some simple capabilities for representing and manipulating hypergraphs.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/hypergraph.html

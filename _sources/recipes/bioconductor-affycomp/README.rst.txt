@@ -5,7 +5,7 @@ bioconductor-affycomp
 
 |downloads|
 
-The package contains functions that can be used to compare expression measures for Affymetrix Oligonucleotide Arrays\.
+The package contains functions that can be used to compare expression measures for Affymetrix Oligonucleotide Arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affycomp.html

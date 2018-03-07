@@ -5,7 +5,7 @@ bioconductor-rbm
 
 |downloads|
 
-Use A Resampling\-Based Empirical Bayes Approach to Assess Differential Expression in Two\-Color Microarrays and RNA\-Seq data sets\.
+Use A Resampling\-Based Empirical Bayes Approach to Assess Differential Expression in Two\-Color Microarrays and RNA\-Seq data sets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RBM.html

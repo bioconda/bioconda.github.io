@@ -5,7 +5,7 @@ hurry.filesize
 
 |downloads|
 
-A simple Python library for human readable file sizes \(or anything sized in bytes\)\.
+A simple Python library for human readable file sizes \(or anything sized in bytes\).
 
 ============= ===========
 Home          

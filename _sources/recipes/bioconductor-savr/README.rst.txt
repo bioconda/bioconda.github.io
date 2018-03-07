@@ -5,7 +5,7 @@ bioconductor-savr
 
 |downloads|
 
-Parse Illumina Sequence Analysis Viewer \(SAV\) files\, access data\, and generate QC plots\.
+Parse Illumina Sequence Analysis Viewer \(SAV\) files\, access data\, and generate QC plots.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/savR.html

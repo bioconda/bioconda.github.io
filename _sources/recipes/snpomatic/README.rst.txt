@@ -5,7 +5,7 @@ snpomatic
 
 |downloads|
 
-SNP\-o\-matic is a fast\, stringent short\-read mapping software\.
+SNP\-o\-matic is a fast\, stringent short\-read mapping software.
 
 ============= ===========
 Home          https://github.com/magnusmanske/snpomatic

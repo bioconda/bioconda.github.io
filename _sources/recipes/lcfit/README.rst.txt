@@ -5,7 +5,7 @@ lcfit
 
 |downloads|
 
-Likelihood curve fitting by nonlinear least squares\.
+Likelihood curve fitting by nonlinear least squares.
 
 ============= ===========
 Home          https://github.com/matsengrp/lcfit

@@ -5,7 +5,7 @@ bioconductor-acgh
 
 |downloads|
 
-Functions for reading aCGH data from image analysis output files and clone information files\, creation of aCGH S3 objects for storing these data\. Basic methods for accessing\/replacing\, subsetting\, printing and plotting aCGH objects\.
+Functions for reading aCGH data from image analysis output files and clone information files\, creation of aCGH S3 objects for storing these data. Basic methods for accessing\/replacing\, subsetting\, printing and plotting aCGH objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/aCGH.html

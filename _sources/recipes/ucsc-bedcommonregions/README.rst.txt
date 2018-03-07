@@ -5,7 +5,7 @@ ucsc-bedcommonregions
 
 |downloads|
 
-Create a bed file \(just bed3\) that contains the regions common to all inputs\.
+Create a bed file \(just bed3\) that contains the regions common to all inputs.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

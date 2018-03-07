@@ -5,7 +5,7 @@ nextflow
 
 |downloads|
 
-A DSL for data\-driven computational pipelines http\:\/\/nextflow\.io
+A DSL for data\-driven computational pipelines http\:\/\/nextflow.io
 
 ============= ===========
 Home          https://github.com/nextflow-io/nextflow

@@ -5,7 +5,7 @@ tssar
 
 |downloads|
 
-TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data\.
+TSSAR is a Web Service for predicting bacterial Transcription Start Sites from dRNA\-seq data.
 
 ============= ===========
 Home          http://rna.tbi.univie.ac.at/TSSAR

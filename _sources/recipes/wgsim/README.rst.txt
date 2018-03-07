@@ -5,7 +5,7 @@ wgsim
 
 |downloads|
 
-Wgsim is a small tool for simulating sequence reads from a reference genome\.
+Wgsim is a small tool for simulating sequence reads from a reference genome.
 
 ============= ===========
 Home          https://github.com/lh3/wgsim

@@ -5,7 +5,7 @@ mobster
 
 |downloads|
 
-NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data\, see Thung et al\. Genome Biol\. 2014 for more information\.
+NGS tool for detecting MEI and gene retrotransposition events in WGS and WES data\, see Thung et al. Genome Biol. 2014 for more information.
 
 ============= ===========
 Home          https://github.com/jyhehir/mobster
@@ -35,8 +35,8 @@ and update with::
 
 Notes
 -----
-After installation\, mobster is available as command \`mobster\`\.
-Further\, you can convert mobster output to vcf with the command \`mobster\-to\-vcf\`\.
+After installation\, mobster is available as command \`mobster\`.
+Further\, you can convert mobster output to vcf with the command \`mobster\-to\-vcf\`.
 
 
 

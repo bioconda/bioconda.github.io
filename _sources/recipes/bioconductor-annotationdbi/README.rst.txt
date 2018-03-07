@@ -5,7 +5,7 @@ bioconductor-annotationdbi
 
 |downloads|
 
-Provides user interface and database connection code for annotation data packages using SQLite data storage\.
+Provides user interface and database connection code for annotation data packages using SQLite data storage.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationDbi.html

@@ -5,7 +5,7 @@ bioconductor-cghbase
 
 |downloads|
 
-Contains functions and classes that are needed by arrayCGH packages\.
+Contains functions and classes that are needed by arrayCGH packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CGHbase.html

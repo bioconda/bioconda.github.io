@@ -5,7 +5,7 @@ bioconductor-ggtree
 
 |downloads|
 
-\'ggtree\' extends the \'ggplot2\' plotting system which implemented the grammar of graphics\. \'ggtree\' is designed for visualization and annotation of phylogenetic trees with their covariates and other associated data\.
+\'ggtree\' extends the \'ggplot2\' plotting system which implemented the grammar of graphics. \'ggtree\' is designed for visualization and annotation of phylogenetic trees with their covariates and other associated data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ggtree.html

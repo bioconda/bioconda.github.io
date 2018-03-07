@@ -5,7 +5,7 @@ bioconductor-affyplm
 
 |downloads|
 
-A package that extends and improves the functionality of the base affy package\. Routines that make heavy use of compiled code for speed\. Central focus is on implementation of methods for fitting probe\-level models and tools using these models\. PLM based quality assessment tools\.
+A package that extends and improves the functionality of the base affy package. Routines that make heavy use of compiled code for speed. Central focus is on implementation of methods for fitting probe\-level models and tools using these models. PLM based quality assessment tools.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affyPLM.html

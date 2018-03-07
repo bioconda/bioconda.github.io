@@ -5,7 +5,7 @@ bioconductor-xvector
 
 |downloads|
 
-Memory efficient S4 classes for storing sequences \"externally\" \(behind an R external pointer\, or on disk\)\.
+Memory efficient S4 classes for storing sequences \"externally\" \(behind an R external pointer\, or on disk\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/XVector.html

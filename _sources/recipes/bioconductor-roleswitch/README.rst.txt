@@ -5,7 +5,7 @@ bioconductor-roleswitch
 
 |downloads|
 
-Infer Probabilities of MiRNA\-mRNA Interaction Signature \(ProMISe\) using paired expression data from a single sample\. Roleswitch operates in two phases by inferring the probability of mRNA \(miRNA\) being the targets \(\"targets\"\) of miRNA \(mRNA\)\, taking into account the expression of all of the mRNAs \(miRNAs\) due to their potential competition for the same miRNA \(mRNA\)\. Due to dynamic miRNA repression in the cell\, Roleswitch assumes that the total transcribed mRNA levels are higher than the observed \(equilibrium\) mRNA levels and iteratively updates the total transcription of each mRNA targets based on the above inference\. NB\: in the paper\, we used ProMISe as both the model name and inferred score name\.
+Infer Probabilities of MiRNA\-mRNA Interaction Signature \(ProMISe\) using paired expression data from a single sample. Roleswitch operates in two phases by inferring the probability of mRNA \(miRNA\) being the targets \(\"targets\"\) of miRNA \(mRNA\)\, taking into account the expression of all of the mRNAs \(miRNAs\) due to their potential competition for the same miRNA \(mRNA\). Due to dynamic miRNA repression in the cell\, Roleswitch assumes that the total transcribed mRNA levels are higher than the observed \(equilibrium\) mRNA levels and iteratively updates the total transcription of each mRNA targets based on the above inference. NB\: in the paper\, we used ProMISe as both the model name and inferred score name.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Roleswitch.html

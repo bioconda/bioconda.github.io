@@ -5,7 +5,7 @@ blastalign
 
 |downloads|
 
-BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally\.
+BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels or are otherwise difficult to align globally.
 
 ============= ===========
 Home          http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html

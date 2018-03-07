@@ -5,7 +5,7 @@ bioconductor-lvsmirna
 
 |downloads|
 
-Normalization of Agilent miRNA arrays\.
+Normalization of Agilent miRNA arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LVSmiRNA.html

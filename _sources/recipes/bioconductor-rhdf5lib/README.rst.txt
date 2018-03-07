@@ -5,7 +5,7 @@ bioconductor-rhdf5lib
 
 |downloads|
 
-Provides C and C\+\+ hdf5 libraries\.
+Provides C and C\+\+ hdf5 libraries.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Rhdf5lib.html

@@ -5,7 +5,7 @@ bioconductor-lmdme
 
 |downloads|
 
-linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit\. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS\.
+linear ANOVA decomposition of Multivariate Designed Experiments implementation based on limma lmFit. Features\: i\)Flexible formula type interface\, ii\) Fast limma based implementation\, iii\) p\-values for each estimated coefficient levels in each factor\, iv\) F values for factor effects and v\) plotting functions for PCA and PLS.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lmdme.html

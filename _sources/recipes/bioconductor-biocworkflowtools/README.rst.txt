@@ -5,7 +5,7 @@ bioconductor-biocworkflowtools
 
 |downloads|
 
-Provides functions to ease the transition between Rmarkdown and LaTeX documents when authoring a Bioconductor Workflow\.
+Provides functions to ease the transition between Rmarkdown and LaTeX documents when authoring a Bioconductor Workflow.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BiocWorkflowTools.html

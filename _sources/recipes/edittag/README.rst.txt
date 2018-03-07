@@ -5,7 +5,7 @@ edittag
 
 |downloads|
 
-Design and check sets of edit metric sequence tags\.
+Design and check sets of edit metric sequence tags.
 
 ============= ===========
 Home          http://github.com/faircloth-lab/edittag/

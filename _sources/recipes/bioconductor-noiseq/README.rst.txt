@@ -5,7 +5,7 @@ bioconductor-noiseq
 
 |downloads|
 
-Analysis of RNA\-seq expression data or other similar kind of data\. Exploratory plots to evualuate saturation\, count distribution\, expression per chromosome\, type of detected features\, features length\, etc\. Differential expression between two experimental conditions with no parametric assumptions\.
+Analysis of RNA\-seq expression data or other similar kind of data. Exploratory plots to evualuate saturation\, count distribution\, expression per chromosome\, type of detected features\, features length\, etc. Differential expression between two experimental conditions with no parametric assumptions.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/NOISeq.html

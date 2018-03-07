@@ -5,7 +5,7 @@ bioconductor-gostats
 
 |downloads|
 
-A set of tools for interacting with GO and microarray data\. A variety of basic manipulation tools for graphs\, hypothesis testing and other simple calculations\.
+A set of tools for interacting with GO and microarray data. A variety of basic manipulation tools for graphs\, hypothesis testing and other simple calculations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GOstats.html

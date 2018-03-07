@@ -5,7 +5,7 @@ perl-devel-globaldestruction
 
 |downloads|
 
-Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUCT\' for older perls\.
+Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUCT\' for older perls.
 
 ============= ===========
 Home          https://metacpan.org/release/Devel-GlobalDestruction

@@ -5,7 +5,7 @@ perl-set-intervaltree
 
 |downloads|
 
-An interval tree implementation in PERL\.
+An interval tree implementation in PERL.
 
 ============= ===========
 Home          https://metacpan.org/pod/Set::IntervalTree

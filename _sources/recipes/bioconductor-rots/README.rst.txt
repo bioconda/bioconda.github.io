@@ -5,7 +5,7 @@ bioconductor-rots
 
 |downloads|
 
-Calculates the Reproducibility\-Optimized Test Statistic \(ROTS\) for differential testing in omics data\.
+Calculates the Reproducibility\-Optimized Test Statistic \(ROTS\) for differential testing in omics data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ROTS.html

@@ -5,7 +5,7 @@ screed
 
 |downloads|
 
-Screed is a biological sequence parsing and storage\/retrieval library for DNA and protein sequences\.
+Screed is a biological sequence parsing and storage\/retrieval library for DNA and protein sequences.
 
 ============= ===========
 Home          http://github.com/dib-lab/screed/

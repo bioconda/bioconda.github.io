@@ -5,7 +5,7 @@ bioconductor-mesh.db
 
 |downloads|
 
-A set of annotation maps describing the entire MeSH assembled using data from MeSH\.
+A set of annotation maps describing the entire MeSH assembled using data from MeSH.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/MeSH.db.html

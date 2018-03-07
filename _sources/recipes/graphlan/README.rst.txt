@@ -5,7 +5,7 @@ graphlan
 
 |downloads|
 
-GraPhlAn is a software tool for producing high\-quality circular representations of taxonomic and phylogenetic trees\. It focuses on concise\, integrative\, informative\, and publication\-ready representations of phylogenetically\- and taxonomically\-driven investigation\.
+GraPhlAn is a software tool for producing high\-quality circular representations of taxonomic and phylogenetic trees. It focuses on concise\, integrative\, informative\, and publication\-ready representations of phylogenetically\- and taxonomically\-driven investigation.
 
 ============= ===========
 Home          https://bitbucket.org/nsegata/graphlan/wiki/Home

@@ -5,7 +5,7 @@ clinod
 
 |downloads|
 
-Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences\.
+Command line NoD \(clinod\)\, for  predicting nucleolar localization sequences.
 
 ============= ===========
 Home          http://www.compbio.dundee.ac.uk/nod
@@ -36,11 +36,11 @@ and update with::
 Notes
 -----
 Command line NoD \(clinod\) is Java program which is packaged with a custom
-wrapper shell script\. This shell wrapper is called \"clinod\" and is on \$PATH
-by default\. By default \"\-Xms512m \-Xmx1g\" is set in the wrapper\. If you want
-to overwrite it you can specify these values directly after your binaries\.
-If you have \_JAVA\_OPTIONS set globally this will take precedence\.
-For example run it with \"clinod \-Xms512m \-Xmx1g \.\.\.\"
+wrapper shell script. This shell wrapper is called \"clinod\" and is on \$PATH
+by default. By default \"\-Xms512m \-Xmx1g\" is set in the wrapper. If you want
+to overwrite it you can specify these values directly after your binaries.
+If you have \_JAVA\_OPTIONS set globally this will take precedence.
+For example run it with \"clinod \-Xms512m \-Xmx1g ...\"
 
 
 

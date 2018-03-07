@@ -5,7 +5,7 @@ perl-text-asciitable
 
 |downloads|
 
-Create a nice formatted table using ASCII characters\.
+Create a nice formatted table using ASCII characters.
 
 ============= ===========
 Home          http://metacpan.org/pod/Text::ASCIITable

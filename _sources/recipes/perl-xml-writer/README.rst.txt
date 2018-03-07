@@ -5,7 +5,7 @@ perl-xml-writer
 
 |downloads|
 
-Easily generate well\-formed\, namespace\-aware XML\.
+Easily generate well\-formed\, namespace\-aware XML.
 
 ============= ===========
 Home          http://metacpan.org/pod/XML-Writer

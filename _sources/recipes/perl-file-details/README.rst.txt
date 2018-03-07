@@ -5,7 +5,7 @@ perl-file-details
 
 |downloads|
 
-File details in an object\, stat\, hash\, etc\.\.
+File details in an object\, stat\, hash\, etc..
 
 ============= ===========
 Home          http://metacpan.org/pod/File::Details

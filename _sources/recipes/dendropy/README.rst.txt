@@ -5,7 +5,7 @@ dendropy
 
 |downloads|
 
-A Python library for phylogenetics and phylogenetic computing\: reading\, writing\, simulation\, processing and manipulation of phylogenetic trees \(phylogenies\) and characters\.
+A Python library for phylogenetics and phylogenetic computing\: reading\, writing\, simulation\, processing and manipulation of phylogenetic trees \(phylogenies\) and characters.
 
 ============= ===========
 Home          http://packages.python.org/DendroPy/

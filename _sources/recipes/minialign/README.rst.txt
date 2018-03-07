@@ -5,7 +5,7 @@ minialign
 
 |downloads|
 
-Fast and accurate alignment tool for PacBio and Nanopore long reads\.
+Fast and accurate alignment tool for PacBio and Nanopore long reads.
 
 ============= ===========
 Home          https://github.com/ocxtal/minialign
@@ -18,9 +18,9 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 ============= ===========
 
 Minialign is a little bit fast and moderately accurate nucleotide sequence
-alignment tool designed for PacBio and Nanopore long reads\. It is built on
+alignment tool designed for PacBio and Nanopore long reads. It is built on
 three key algorithms\, minimizer\-based index of the minimap overlapper\,
-array\-based seed chaining\, and SIMD\-parallel Smith\-Waterman\-Gotoh extension\.
+array\-based seed chaining\, and SIMD\-parallel Smith\-Waterman\-Gotoh extension.
 
 
 Installation

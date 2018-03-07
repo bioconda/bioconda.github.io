@@ -4,21 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Contributing a recipe &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -60,8 +52,7 @@ $(document).ready(function() {
 } );
 </script>
 
-  </head>
-  <body>
+  </head><body>
   
 
     <div class="document">
@@ -76,13 +67,13 @@ contribute.</p>
 <div class="section" id="update-repo">
 <h2>1. Update repo<a class="headerlink" href="#update-repo" title="Permalink to this headline">¶</a></h2>
 <p>If you’re using a fork (set up as <a class="reference internal" href="contrib-setup.html#github-setup"><span class="std std-ref">above</span></a>):</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout master
 git pull upstream master
 git push origin master
 </pre></div>
 </div>
 <p>If you’re using a clone:</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout master
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout master
 git pull origin master
 </pre></div>
 </div>
@@ -90,7 +81,7 @@ git pull origin master
 <div class="section" id="write-a-recipe">
 <h2>2. Write a recipe<a class="headerlink" href="#write-a-recipe" title="Permalink to this headline">¶</a></h2>
 <p>Check out a new branch (here the branch is arbitrarily named “my-recipe”):</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>git checkout -b my-recipe
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git checkout -b my-recipe
 </pre></div>
 </div>
 <p>and write one or more recipes. The <a class="reference external" href="http://conda.pydata.org/docs/building/recipe.html">conda-build docs</a> are the authoritative
@@ -102,7 +93,7 @@ bioconda-specific policies.</p>
 <span id="id1"></span><h2>3. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
 <p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>.
 Then, all that needs to be done is to execute</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
 docker pull bioconda/bioconda-utils-build-env
 
 <span class="c1"># Run the build locally</span>
@@ -111,7 +102,7 @@ circleci build
 </div>
 <p>in the root of your repository clone.</p>
 <p>Alternatively, you can manually run <cite>conda build</cite>, e.g.,</p>
-<div class="highlight-bash"><div class="highlight"><pre><span></span>conda build recipes/my-recipe
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda build recipes/my-recipe
 </pre></div>
 </div>
 <p>In this case. make sure to have setup Bioconda properly, see <a class="reference internal" href="index.html#using-bioconda"><span class="std std-ref">Using Bioconda</span></a>.
@@ -122,7 +113,7 @@ under <cite>scripts/env_matrix.yml</cite> in the repository.</p>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
 <h2>4. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
 <p>Push your changes to your fork or to the main repo (if using a clone) to GitHub:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
 </pre></div>
 </div>
 <p>If using a fork, make sure to enable Circle CI for it under <a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a>.</p>
@@ -146,13 +137,13 @@ recipe once the tests pass.</p>
 builds but at the end will upload the packages to anaconda.org. Once this
 completes, and as long as the channels are set up as described in
 <a class="reference internal" href="index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>, your new package is installable by anyone using:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">my</span><span class="o">-</span><span class="n">package</span><span class="o">-</span><span class="n">name</span>
 </pre></div>
 </div>
 <p>It is recommended that users set up channels as described in
 <a class="reference internal" href="index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a> to ensure that packages and dependencies are handled
 correctly, and that they create an isolated environment when installing using
-<code class="docutils literal"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">env-name-here</span></code>.</p>
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">create</span> <span class="pre">-n</span> <span class="pre">env-name-here</span></code>.</p>
 </div>
 </div>
 
@@ -191,7 +182,7 @@ correctly, and that they create an isolated environment when installing using
 </li>
 <li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting failed recipes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="build-system.html">Build system</a></li>
-<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal"><span class="pre">bioconda</span></code> recipes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
@@ -208,7 +199,7 @@ correctly, and that they create an isolated environment when installing using
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |

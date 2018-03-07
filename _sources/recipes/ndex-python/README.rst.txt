@@ -5,7 +5,7 @@ ndex-python
 
 |downloads|
 
-NDEx Python includes a client and a data model\.
+NDEx Python includes a client and a data model.
 
 ============= ===========
 Home          https://github.com/ndexbio/ndex-python

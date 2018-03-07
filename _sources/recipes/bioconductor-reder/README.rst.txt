@@ -5,7 +5,7 @@ bioconductor-reder
 
 |downloads|
 
-RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of modular structures\, nested networks and multiple levels of hierarchical associations\.
+RedeR is an R\-based package combined with a stand\-alone Java application for interactive visualization and manipulation of modular structures\, nested networks and multiple levels of hierarchical associations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RedeR.html

@@ -5,7 +5,7 @@ r-bcbiobase
 
 |downloads|
 
-Base functions and generics for bcbio R packages\.
+Base functions and generics for bcbio R packages.
 
 ============= ===========
 Home          http://bioinformatics.sph.harvard.edu/bcbioBase/

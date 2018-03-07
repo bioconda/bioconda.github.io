@@ -5,7 +5,7 @@ ecopcr
 
 |downloads|
 
-ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality\.
+ecoPCR is an electronic PCR software that helps you estimate Barcode primers quality.
 
 ============= ===========
 Home          https://git.metabarcoding.org/obitools/ecopcr/wikis/home

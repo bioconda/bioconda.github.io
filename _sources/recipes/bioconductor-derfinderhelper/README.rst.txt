@@ -5,7 +5,7 @@ bioconductor-derfinderhelper
 
 |downloads|
 
-Helper package for speeding up the derfinder package when using multiple cores\.
+Helper package for speeding up the derfinder package when using multiple cores.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/derfinderHelper.html

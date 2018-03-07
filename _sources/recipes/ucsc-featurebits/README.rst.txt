@@ -5,7 +5,7 @@ ucsc-featurebits
 
 |downloads|
 
-Correlate tables via bitmap projections\. 
+Correlate tables via bitmap projections. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

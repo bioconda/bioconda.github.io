@@ -5,7 +5,7 @@ seq-gen
 
 |downloads|
 
-Seq\-Gen is a program that will simulate the evolution of nucleotide or amino acid sequences along a phylogeny\, using common models of the substitution process\.
+Seq\-Gen is a program that will simulate the evolution of nucleotide or amino acid sequences along a phylogeny\, using common models of the substitution process.
 
 ============= ===========
 Home          http://tree.bio.ed.ac.uk/software/Seq-Gen/

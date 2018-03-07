@@ -5,7 +5,7 @@ maaslin
 
 |downloads|
 
-MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function\.
+MaAsLin is a multivariate statistical framework that finds associations between clinical metadata and microbial community abundance or function.
 
 ============= ===========
 Home          https://huttenhower.sph.harvard.edu/maaslin

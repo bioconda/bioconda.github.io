@@ -5,7 +5,7 @@ bioconductor-ballgown
 
 |downloads|
 
-Tools for statistical analysis of assembled transcriptomes\, including flexible differential expression analysis\, visualization of transcript structures\, and matching of assembled transcripts to annotation\.
+Tools for statistical analysis of assembled transcriptomes\, including flexible differential expression analysis\, visualization of transcript structures\, and matching of assembled transcripts to annotation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ballgown.html

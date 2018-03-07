@@ -5,7 +5,7 @@ bioconductor-ffpe
 
 |downloads|
 
-Identify low\-quality data using metrics developed for expression data derived from Formalin\-Fixed\, Paraffin\-Embedded \(FFPE\) data\.  Also a function for making Concordance at the Top plots \(CAT\-plots\)\.
+Identify low\-quality data using metrics developed for expression data derived from Formalin\-Fixed\, Paraffin\-Embedded \(FFPE\) data.  Also a function for making Concordance at the Top plots \(CAT\-plots\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ffpe.html

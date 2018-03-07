@@ -5,7 +5,7 @@ perl-parse-yapp
 
 |downloads|
 
-Perl extension for generating and using LALR parsers\.
+Perl extension for generating and using LALR parsers.
 
 ============= ===========
 Home          http://metacpan.org/pod/Parse::Yapp

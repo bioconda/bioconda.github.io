@@ -5,7 +5,7 @@ ucsc-bamtopsl
 
 |downloads|
 
-Convert a bam file to a psl and optionally also a fasta file that contains the reads\.
+Convert a bam file to a psl and optionally also a fasta file that contains the reads.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

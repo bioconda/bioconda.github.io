@@ -5,7 +5,7 @@ bioconductor-dmrcatedata
 
 |downloads|
 
-This package contains 8 data objects supporting functionality and examples of the Bioconductor package DMRcate\.
+This package contains 8 data objects supporting functionality and examples of the Bioconductor package DMRcate.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/DMRcatedata.html

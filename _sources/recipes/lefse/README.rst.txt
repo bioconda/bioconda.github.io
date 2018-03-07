@@ -5,7 +5,7 @@ lefse
 
 |downloads|
 
-LDA Effect Size \(LEfSe\) \(Segata et\. al 2010\) is an algorithm for high\-dimensional biomarker discovery and explanation that identifies genomic features \(genes\, pathways\, or taxa\) characterizing the differences between two or more biological conditions\.
+LDA Effect Size \(LEfSe\) \(Segata et. al 2010\) is an algorithm for high\-dimensional biomarker discovery and explanation that identifies genomic features \(genes\, pathways\, or taxa\) characterizing the differences between two or more biological conditions.
 
 ============= ===========
 Home          https://bitbucket.org/nsegata/lefse
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Prefix with \'lefse\-\'\' some script names that are rather generic\: \'format\_input\.py\'\, \'plot\_cladogram\.py\'\, \'plot\_features\.py\'\, \'plot\_res\.py\'\.
+Prefix with \'lefse\-\'\' some script names that are rather generic\: \'format\_input.py\'\, \'plot\_cladogram.py\'\, \'plot\_features.py\'\, \'plot\_res.py\'.
 
 
 |docker|

@@ -5,7 +5,7 @@ bioconductor-genomicfiles
 
 |downloads|
 
-This package provides infrastructure for parallel computations distributed \'by file\' or \'by range\'\. User defined MAPPER and REDUCER functions provide added flexibility for data combination and manipulation\.
+This package provides infrastructure for parallel computations distributed \'by file\' or \'by range\'. User defined MAPPER and REDUCER functions provide added flexibility for data combination and manipulation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicFiles.html

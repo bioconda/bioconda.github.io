@@ -5,7 +5,7 @@ maxentscan
 
 |downloads|
 
-MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions\. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models\.
+MaxEntScan is based on the approach for modeling the sequences of short sequence motifs such as those involved in RNA splicing which simultaneously accounts for non\-adjacent as well as adjacent dependencies between positions. This method is based on the \'Maximum Entropy Principle\' and generalizes most previous probabilistic models of sequence motifs such as weight matrix models and inhomogeneous Markov models.
 
 ============= ===========
 Home          http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-Due to the generic name of the included scripts\, \"maxentscan\_\" has been prefixed all executables\, e\.g\. score3\.pl can be called as maxentscan\_score3\.pl\.
+Due to the generic name of the included scripts\, \"maxentscan\_\" has been prefixed all executables\, e.g. score3.pl can be called as maxentscan\_score3.pl.
 
 
 |docker|

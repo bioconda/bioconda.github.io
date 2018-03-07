@@ -5,7 +5,7 @@ mosaik
 
 |downloads|
 
-MOSAIK is a stable\, sensitive and open\-source program for mapping second and third\-generation sequencing reads to a reference genome\.
+MOSAIK is a stable\, sensitive and open\-source program for mapping second and third\-generation sequencing reads to a reference genome.
 
 ============= ===========
 Home          https://github.com/wanpinglee/MOSAIK

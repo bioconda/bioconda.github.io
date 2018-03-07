@@ -5,7 +5,7 @@ bioconductor-pdinfobuilder
 
 |downloads|
 
-Builds platform design information packages\. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID\. The database also incorporates featureSet\-level annotation data\. The products of this packages are used by the oligo pkg\.
+Builds platform design information packages. These consist of a SQLite database containing feature\-level data such as x\, y position on chip and featureSet ID. The database also incorporates featureSet\-level annotation data. The products of this packages are used by the oligo pkg.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pdInfoBuilder.html

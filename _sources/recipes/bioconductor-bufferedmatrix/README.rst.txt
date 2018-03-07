@@ -5,7 +5,7 @@ bioconductor-bufferedmatrix
 
 |downloads|
 
-A tabular style data object where most data is stored outside main memory\. A buffer is used to speed up access to data\.
+A tabular style data object where most data is stored outside main memory. A buffer is used to speed up access to data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrix.html

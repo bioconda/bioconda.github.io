@@ -5,7 +5,7 @@ bioconductor-chipxpressdata
 
 |downloads|
 
-Contains pre\-built mouse \(GPL1261\) and human \(GPL570\) database of gene expression profiles to be used for ChIPXpress ranking\.
+Contains pre\-built mouse \(GPL1261\) and human \(GPL570\) database of gene expression profiles to be used for ChIPXpress ranking.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/ChIPXpressData.html

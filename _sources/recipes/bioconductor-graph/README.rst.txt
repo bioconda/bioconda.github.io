@@ -5,7 +5,7 @@ bioconductor-graph
 
 |downloads|
 
-A package that implements some simple graph handling capabilities\.
+A package that implements some simple graph handling capabilities.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/graph.html

@@ -5,7 +5,7 @@ r-readmzxmldata
 
 |downloads|
 
-Functions for reading mass spectrometry data in mzXML format\.
+Functions for reading mass spectrometry data in mzXML format.
 
 ============= ===========
 Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readMzXmlData/

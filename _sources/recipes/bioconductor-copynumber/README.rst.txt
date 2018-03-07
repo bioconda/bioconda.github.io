@@ -5,7 +5,7 @@ bioconductor-copynumber
 
 |downloads|
 
-Penalized least squares regression is applied to fit piecewise constant curves to copy number data to locate genomic regions of constant copy number\. Procedures are available for individual segmentation of each sample\, joint segmentation of several samples and joint segmentation of the two data tracks from SNP\-arrays\. Several plotting functions are available for visualization of the data and the segmentation results\.
+Penalized least squares regression is applied to fit piecewise constant curves to copy number data to locate genomic regions of constant copy number. Procedures are available for individual segmentation of each sample\, joint segmentation of several samples and joint segmentation of the two data tracks from SNP\-arrays. Several plotting functions are available for visualization of the data and the segmentation results.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/copynumber.html

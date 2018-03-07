@@ -5,7 +5,7 @@ ucsc-tolower
 
 |downloads|
 
-Convert upper case to lower case in file\. Leave other chars alone
+Convert upper case to lower case in file. Leave other chars alone
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

@@ -5,7 +5,7 @@ bioconductor-ipac
 
 |downloads|
 
-iPAC is a novel tool to identify somatic amino acid mutation clustering within proteins while taking into account protein structure\.
+iPAC is a novel tool to identify somatic amino acid mutation clustering within proteins while taking into account protein structure.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/iPAC.html

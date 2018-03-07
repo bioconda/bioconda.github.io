@@ -5,7 +5,7 @@ ucsc-fatofastq
 
 |downloads|
 
-Convert fa to fastq format\, just faking quality values\.
+Convert fa to fastq format\, just faking quality values.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

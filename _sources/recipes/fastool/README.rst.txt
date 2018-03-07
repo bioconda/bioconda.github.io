@@ -5,7 +5,7 @@ fastool
 
 |downloads|
 
-A simple and quick tool to read huge FastQ and FastA files \(both normal and gzipped\) and manipulate them\.
+A simple and quick tool to read huge FastQ and FastA files \(both normal and gzipped\) and manipulate them.
 
 ============= ===========
 Home          https://github.com/fstrozzi/Fastool

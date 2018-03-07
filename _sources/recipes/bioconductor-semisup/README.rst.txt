@@ -5,7 +5,7 @@ bioconductor-semisup
 
 |downloads|
 
-This R packages moves away from testing interaction terms\, and move towards testing whether an individual SNP is involved in any interaction\. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors\. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles\. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect\. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect\. Implicitly\, the membership probabilities may suggest potential interacting variables\.
+This R packages moves away from testing interaction terms\, and move towards testing whether an individual SNP is involved in any interaction. This reduces the multiple testing burden to one test per SNP\, and allows for interactions with unobserved factors. Analysing one SNP at a time\, it splits the individuals into two groups\, based on the number of minor alleles. If the quantitative trait differs in mean between the two groups\, the SNP has a main effect. If the quantitative trait differs in distribution between some individuals in one group and all other individuals\, it possibly has an interactive effect. Implicitly\, the membership probabilities may suggest potential interacting variables.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/semisup.html

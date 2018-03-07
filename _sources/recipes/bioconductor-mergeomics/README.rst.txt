@@ -5,7 +5,7 @@ bioconductor-mergeomics
 
 |downloads|
 
-The Mergeomics pipeline serves as a flexible framework for integrating multidimensional omics\-disease associations\, functional genomics\,  canonical pathways and gene\-gene interaction networks to generate mechanistic hypotheses\. It includes two main parts\, 1\) Marker set enrichment analysis \(MSEA\)\; 2\) Weighted Key Driver Analysis \(wKDA\)\.
+The Mergeomics pipeline serves as a flexible framework for integrating multidimensional omics\-disease associations\, functional genomics\,  canonical pathways and gene\-gene interaction networks to generate mechanistic hypotheses. It includes two main parts\, 1\) Marker set enrichment analysis \(MSEA\)\; 2\) Weighted Key Driver Analysis \(wKDA\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Mergeomics.html

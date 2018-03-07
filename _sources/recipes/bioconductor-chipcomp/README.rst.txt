@@ -5,7 +5,7 @@ bioconductor-chipcomp
 
 |downloads|
 
-ChIPComp detects differentially bound sharp binding sites across multiple conditions considering matching control\.
+ChIPComp detects differentially bound sharp binding sites across multiple conditions considering matching control.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ChIPComp.html

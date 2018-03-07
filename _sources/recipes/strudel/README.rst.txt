@@ -5,7 +5,7 @@ strudel
 
 |downloads|
 
-Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes\.
+Strudel is a graphical tool for visualizing genetic and physical maps of genomes for comparative purposes.
 
 ============= ===========
 Home          https://ics.hutton.ac.uk/strudel

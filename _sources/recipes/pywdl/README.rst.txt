@@ -5,7 +5,7 @@ pywdl
 
 |downloads|
 
-A Python implementation of a WDL parser and language bindings\.
+A Python implementation of a WDL parser and language bindings.
 
 ============= ===========
 Home          https://github.com/broadinstitute/pywdl

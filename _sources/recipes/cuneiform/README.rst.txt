@@ -5,7 +5,7 @@ cuneiform
 
 |downloads|
 
-Cuneiform is an OCR system\.
+Cuneiform is an OCR system.
 
 ============= ===========
 Home          https://launchpad.net/cuneiform-linux/

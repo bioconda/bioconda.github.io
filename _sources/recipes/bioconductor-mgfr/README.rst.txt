@@ -5,7 +5,7 @@ bioconductor-mgfr
 
 |downloads|
 
-The package is designed to detect marker genes from RNA\-seq data\.
+The package is designed to detect marker genes from RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MGFR.html

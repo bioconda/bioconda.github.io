@@ -5,7 +5,7 @@ bioconductor-cma
 
 |downloads|
 
-This package provides a comprehensive collection of various microarray\-based classification algorithms both from Machine Learning and Statistics\. Variable Selection\, Hyperparameter tuning\, Evaluation and Comparison can be performed combined or stepwise in a user\-friendly environment\.
+This package provides a comprehensive collection of various microarray\-based classification algorithms both from Machine Learning and Statistics. Variable Selection\, Hyperparameter tuning\, Evaluation and Comparison can be performed combined or stepwise in a user\-friendly environment.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CMA.html

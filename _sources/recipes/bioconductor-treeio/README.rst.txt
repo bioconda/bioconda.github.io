@@ -5,7 +5,7 @@ bioconductor-treeio
 
 |downloads|
 
-Base classes and functions for parsing and exporting phylogenetic trees\.
+Base classes and functions for parsing and exporting phylogenetic trees.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/treeio.html

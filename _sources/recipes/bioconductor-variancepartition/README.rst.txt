@@ -5,7 +5,7 @@ bioconductor-variancepartition
 
 |downloads|
 
-Quantify and interpret multiple sources of biological and technical variation in gene expression experiments\. Uses linear mixed model to quantify variation in gene expression attributable to individual\, tissue\, time point\, or technical variables\.
+Quantify and interpret multiple sources of biological and technical variation in gene expression experiments. Uses linear mixed model to quantify variation in gene expression attributable to individual\, tissue\, time point\, or technical variables.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/variancePartition.html

@@ -5,7 +5,7 @@ bioconductor-zlibbioc
 
 |downloads|
 
-This package uses the source code of zlib\-1\.2\.5 to create libraries for systems that do not have these available via other means \(most Linux and Mac users should have system\-level access to zlib\, and no direct need for this package\)\. See the vignette for instructions on use\.
+This package uses the source code of zlib\-1.2.5 to create libraries for systems that do not have these available via other means \(most Linux and Mac users should have system\-level access to zlib\, and no direct need for this package\). See the vignette for instructions on use.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/zlibbioc.html

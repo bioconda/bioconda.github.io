@@ -5,7 +5,7 @@ twobitreader
 
 |downloads|
 
-A fast python package for reading \.2bit files \(used by the UCSC genome browser\)
+A fast python package for reading .2bit files \(used by the UCSC genome browser\)
 
 ============= ===========
 Home          https://github.com/benjschiller/twobitreader

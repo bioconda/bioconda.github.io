@@ -5,7 +5,7 @@ r-mutoss
 
 |downloads|
 
-The Mutoss package and accompanying mutossGUI package are designed to ease the application and comparison of multiple hypothesis testing procedures\.
+The Mutoss package and accompanying mutossGUI package are designed to ease the application and comparison of multiple hypothesis testing procedures.
 
 ============= ===========
 Home          http://mutoss.r-forge.r-project.org/

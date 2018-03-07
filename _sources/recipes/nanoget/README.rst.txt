@@ -5,7 +5,7 @@ nanoget
 
 |downloads|
 
-Functions to extract information from Oxford Nanopore sequencing data and alignments\.
+Functions to extract information from Oxford Nanopore sequencing data and alignments.
 
 ============= ===========
 Home          https://github.com/wdecoster/nanoget

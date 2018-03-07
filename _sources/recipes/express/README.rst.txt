@@ -5,7 +5,7 @@ express
 
 |downloads|
 
-eXpress is a streaming DNA\/RNA sequence quantification tool\.
+eXpress is a streaming DNA\/RNA sequence quantification tool.
 
 ============= ===========
 Home          http://bio.math.berkeley.edu/eXpress/

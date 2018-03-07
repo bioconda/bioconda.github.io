@@ -5,7 +5,7 @@ bcftools
 
 |downloads|
 
-BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format \(VCF\) and its binary counterpart BCF\. All commands work transparently with both VCFs and BCFs\, both uncompressed and BGZF\-compressed\.  Most commands accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe\. Indexed VCF and BCF will work in all situations\. Un\-indexed VCF and BCF and streams will work in most\, but not all situations\.
+BCFtools is a set of utilities that manipulate variant calls in the Variant Call Format \(VCF\) and its binary counterpart BCF. All commands work transparently with both VCFs and BCFs\, both uncompressed and BGZF\-compressed.  Most commands accept VCF\, bgzipped VCF and BCF with filetype detected automatically even when streaming from a pipe. Indexed VCF and BCF will work in all situations. Un\-indexed VCF and BCF and streams will work in most\, but not all situations.
 
 ============= ===========
 Home          https://github.com/samtools/bcftools

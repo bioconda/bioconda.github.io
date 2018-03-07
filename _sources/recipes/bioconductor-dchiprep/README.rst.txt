@@ -5,7 +5,7 @@ bioconductor-dchiprep
 
 |downloads|
 
-The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et\. al \- http\:\/\/www\.dx\.doi\.org\/10\.15252\/msb\.20145776\. A detailed description of the method is given in the software paper at https\:\/\/doi\.org\/10\.7717\/peerj\.1981
+The DChIPRep package implements a methodology to assess differences between chromatin modification profiles in replicated ChIP\-Seq studies as described in Chabbert et. al \- http\:\/\/www.dx.doi.org\/10.15252\/msb.20145776. A detailed description of the method is given in the software paper at https\:\/\/doi.org\/10.7717\/peerj.1981
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DChIPRep.html

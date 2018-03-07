@@ -5,7 +5,7 @@ bioconductor-affydata
 
 |downloads|
 
-Example datasets of a slightly large size\. They represent \'real world examples\'\, unlike the artificial examples included in the package affy\.
+Example datasets of a slightly large size. They represent \'real world examples\'\, unlike the artificial examples included in the package affy.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/affydata.html

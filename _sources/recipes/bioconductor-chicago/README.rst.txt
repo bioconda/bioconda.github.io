@@ -5,7 +5,7 @@ bioconductor-chicago
 
 |downloads|
 
-A pipeline for analysing Capture Hi\-C data\.
+A pipeline for analysing Capture Hi\-C data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Chicago.html

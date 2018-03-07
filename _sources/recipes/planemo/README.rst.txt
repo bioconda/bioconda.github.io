@@ -5,7 +5,7 @@ planemo
 
 |downloads|
 
-Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject\.org\/\)\.
+Command\-line utilities to assist in building tools for the Galaxy project \(http\:\/\/galaxyproject.org\/\).
 
 ============= ===========
 Home          https://github.com/galaxyproject/planemo

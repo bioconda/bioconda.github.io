@@ -5,7 +5,7 @@ rscape
 
 |downloads|
 
-R\-scape \(RNA Structural Covariation Above Phylogenetic Expectation\) looks for evidence of a conserved RNA secondary structure by measuring pairwise covariations observed in an input multiple sequence alignment\.
+R\-scape \(RNA Structural Covariation Above Phylogenetic Expectation\) looks for evidence of a conserved RNA secondary structure by measuring pairwise covariations observed in an input multiple sequence alignment.
 
 ============= ===========
 Home          http://eddylab.org/R-scape/

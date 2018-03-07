@@ -5,7 +5,7 @@ bioconductor-yaqcaffy
 
 |downloads|
 
-Quality control of Affymetrix GeneChip expression data and reproducibility analysis of human whole genome chips with the MAQC reference datasets\.
+Quality control of Affymetrix GeneChip expression data and reproducibility analysis of human whole genome chips with the MAQC reference datasets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/yaqcaffy.html

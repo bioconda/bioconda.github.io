@@ -5,7 +5,7 @@ bioconductor-vanillaice
 
 |downloads|
 
-Hidden Markov Models for characterizing chromosomal alterations in high throughput SNP arrays\.
+Hidden Markov Models for characterizing chromosomal alterations in high throughput SNP arrays.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/VanillaICE.html

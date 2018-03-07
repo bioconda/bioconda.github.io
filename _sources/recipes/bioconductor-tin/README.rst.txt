@@ -5,7 +5,7 @@ bioconductor-tin
 
 |downloads|
 
-The TIN package implements a set of tools for transcriptome instability analysis based on exon expression profiles\. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression\. In the transcriptome instability correlation analysis\, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets\.
+The TIN package implements a set of tools for transcriptome instability analysis based on exon expression profiles. Deviating exon usage is studied in the context of splicing factors to analyse to what degree transcriptome instability is correlated to splicing factor expression. In the transcriptome instability correlation analysis\, the data is compared to both random permutations of alternative splicing scores and expression of random gene sets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TIN.html

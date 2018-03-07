@@ -5,7 +5,7 @@ bioconductor-junctionseq
 
 |downloads|
 
-A Utility for Detection and Visualization of Differential Exon or Splice\-Junction Usage in RNA\-Seq data\.
+A Utility for Detection and Visualization of Differential Exon or Splice\-Junction Usage in RNA\-Seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/JunctionSeq.html

@@ -5,7 +5,7 @@ tepid
 
 |downloads|
 
-TEPID uses paired\-end illumina sequencing reads to identify novel TE variants\.
+TEPID uses paired\-end illumina sequencing reads to identify novel TE variants.
 
 ============= ===========
 Home          https://github.com/ListerLab/TEPID

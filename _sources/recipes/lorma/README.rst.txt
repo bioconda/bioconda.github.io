@@ -5,7 +5,7 @@ lorma
 
 |downloads|
 
-LoRMA is a tool for correcting sequencing errors in long reads\.
+LoRMA is a tool for correcting sequencing errors in long reads.
 
 ============= ===========
 Home          https://www.cs.helsinki.fi/u/lmsalmel/LoRMA/

@@ -5,7 +5,7 @@ bioconductor-pwmenrich
 
 |downloads|
 
-A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings\. The main functionality is PWM enrichment analysis of already known PWMs \(e\.g\. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation\. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools\.
+A toolkit of high\-level functions for DNA motif scanning and enrichment analysis built upon Biostrings. The main functionality is PWM enrichment analysis of already known PWMs \(e.g. from databases such as MotifDb\)\, but the package also implements high\-level functions for PWM scanning and visualisation. The package does not perform \"de novo\" motif discovery\, but is instead focused on using motifs that are either experimentally derived or computationally constructed by other tools.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PWMEnrich.html

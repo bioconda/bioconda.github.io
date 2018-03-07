@@ -5,7 +5,7 @@ ucsc-facmp
 
 |downloads|
 
-Compare two \.fa files
+Compare two .fa files
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

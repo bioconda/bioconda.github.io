@@ -5,7 +5,7 @@ bioconductor-genomicscores
 
 |downloads|
 
-Provide infrastructure to store and access genomewide position\-specific scores within R and Bioconductor\.
+Provide infrastructure to store and access genomewide position\-specific scores within R and Bioconductor.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicScores.html

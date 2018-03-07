@@ -5,7 +5,7 @@ bioconductor-lola
 
 |downloads|
 
-Provides functions for testing overlap of sets of genomic regions with public and custom region set \(genomic ranges\) databases\. This makes it possible to do automated enrichment analysis for genomic region sets\, thus facilitating interpretation of functional genomics and epigenomics data\.
+Provides functions for testing overlap of sets of genomic regions with public and custom region set \(genomic ranges\) databases. This makes it possible to do automated enrichment analysis for genomic region sets\, thus facilitating interpretation of functional genomics and epigenomics data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LOLA.html

@@ -5,7 +5,7 @@ bioconductor-bladderbatch
 
 |downloads|
 
-This package contains microarray gene expression data on 57 bladder samples from 5 batches\. The data are used as an illustrative example for the sva package\.
+This package contains microarray gene expression data on 57 bladder samples from 5 batches. The data are used as an illustrative example for the sva package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.5/data/experiment/html/bladderbatch.html

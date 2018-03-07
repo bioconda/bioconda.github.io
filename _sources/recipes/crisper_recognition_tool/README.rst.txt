@@ -5,7 +5,7 @@ crisper_recognition_tool
 
 |downloads|
 
-A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\)\.
+A tool for automatic detection of clustered regularly interspaced palindromic repeats \(CRISPR\).
 
 ============= ===========
 Home          http://www.room220.com/crt/

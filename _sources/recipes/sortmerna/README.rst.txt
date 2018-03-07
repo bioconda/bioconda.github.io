@@ -5,7 +5,7 @@ sortmerna
 
 |downloads|
 
-SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads\.
+SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU\-picking NGS reads.
 
 ============= ===========
 Home          http://bioinfo.lifl.fr/RNA/sortmerna

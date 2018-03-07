@@ -5,7 +5,7 @@ beast2
 
 |downloads|
 
-BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences\.
+BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molecular sequences.
 
 ============= ===========
 Home          http://www.beast2.org

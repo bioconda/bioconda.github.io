@@ -5,7 +5,7 @@ pplacer
 
 |downloads|
 
-Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment\.
+Pplacer places query sequences on a fixed reference phylogenetic tree to maximize phylogenetic likelihood or posterior probability according to a reference alignment.
 
 ============= ===========
 Home          http://matsen.fredhutch.org/pplacer/

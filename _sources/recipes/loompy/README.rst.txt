@@ -5,7 +5,7 @@ loompy
 
 |downloads|
 
-Work with \.loom files for single\-cell RNA\-seq data
+Work with .loom files for single\-cell RNA\-seq data
 
 ============= ===========
 Home          https://github.com/linnarsson-lab/loompy

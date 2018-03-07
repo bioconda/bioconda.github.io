@@ -5,7 +5,7 @@ bioconductor-cispath
 
 |downloads|
 
-cisPath is an R package that uses web browsers to visualize and manage protein\-protein interaction networks\.
+cisPath is an R package that uses web browsers to visualize and manage protein\-protein interaction networks.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cisPath.html

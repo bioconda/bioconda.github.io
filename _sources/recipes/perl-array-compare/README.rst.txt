@@ -5,7 +5,7 @@ perl-array-compare
 
 |downloads|
 
-Perl extension for comparing arrays\.
+Perl extension for comparing arrays.
 
 ============= ===========
 Home          http://metacpan.org/pod/Array-Compare

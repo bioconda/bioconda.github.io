@@ -5,7 +5,7 @@ ucsc-bigwigcorrelate
 
 |downloads|
 
-Correlate bigWig files\, optionally only on target regions\.
+Correlate bigWig files\, optionally only on target regions.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

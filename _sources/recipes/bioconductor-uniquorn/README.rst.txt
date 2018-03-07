@@ -5,7 +5,7 @@ bioconductor-uniquorn
 
 |downloads|
 
-Identifies cancer cell lines with their small variant fingerprint\. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers\. The identification is vital and in the frame of this package based on the locations or loci of somatic and germline mutations or variations\. The input format is vcf and the files have to contain a single cancer cell line sample\. The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology\. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet\. Panel\-seq will require manual adjustment of thresholds\.
+Identifies cancer cell lines with their small variant fingerprint. Cancer cell line misidentification and cross\-contamination reprents a significant challenge for cancer researchers. The identification is vital and in the frame of this package based on the locations or loci of somatic and germline mutations or variations. The input format is vcf and the files have to contain a single cancer cell line sample. The implemented method is optimized for the Next\-generation whole exome and whole genome DNA\-sequencing technology. RNA\-seq data is very likely to work as well but hasn\'t been rigiously tested yet. Panel\-seq will require manual adjustment of thresholds.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Uniquorn.html

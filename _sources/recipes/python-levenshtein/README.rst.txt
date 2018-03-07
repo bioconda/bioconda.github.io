@@ -5,7 +5,7 @@ python-levenshtein
 
 |downloads|
 
-Python extension for computing string edit distances and similarities\.
+Python extension for computing string edit distances and similarities.
 
 ============= ===========
 Home          https://pypi.python.org/pypi/python-Levenshtein/

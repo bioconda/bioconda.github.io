@@ -5,7 +5,7 @@ bioconductor-bgeedb
 
 |downloads|
 
-A package for the annotation and gene expression data download from Bgee database\, and TopAnat analysis\: GO\-like enrichment of anatomical terms\, mapped to genes by expression patterns\.
+A package for the annotation and gene expression data download from Bgee database\, and TopAnat analysis\: GO\-like enrichment of anatomical terms\, mapped to genes by expression patterns.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BgeeDB.html

@@ -5,7 +5,7 @@ bioconductor-annotationhub
 
 |downloads|
 
-This package provides a client for the Bioconductor AnnotationHub web resource\. The AnnotationHub web resource provides a central location where genomic files \(e\.g\.\, VCF\, bed\, wig\) and other resources from standard locations \(e\.g\.\, UCSC\, Ensembl\) can be discovered\. The resource includes metadata about each resource\, e\.g\.\, a textual description\, tags\, and date of modification\. The client creates and manages a local cache of files retrieved by the user\, helping with quick and reproducible access\.
+This package provides a client for the Bioconductor AnnotationHub web resource. The AnnotationHub web resource provides a central location where genomic files \(e.g.\, VCF\, bed\, wig\) and other resources from standard locations \(e.g.\, UCSC\, Ensembl\) can be discovered. The resource includes metadata about each resource\, e.g.\, a textual description\, tags\, and date of modification. The client creates and manages a local cache of files retrieved by the user\, helping with quick and reproducible access.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationHub.html

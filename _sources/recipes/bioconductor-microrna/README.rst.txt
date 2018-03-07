@@ -5,7 +5,7 @@ bioconductor-microrna
 
 |downloads|
 
-Different data resources for microRNAs and some functions for manipulating them\.
+Different data resources for microRNAs and some functions for manipulating them.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/microRNA.html

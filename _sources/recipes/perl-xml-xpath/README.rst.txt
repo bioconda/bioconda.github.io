@@ -5,7 +5,7 @@ perl-xml-xpath
 
 |downloads|
 
-Parse and evaluate XPath statements\.
+Parse and evaluate XPath statements.
 
 ============= ===========
 Home          http://metacpan.org/pod/XML-XPath

@@ -17,7 +17,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/n
 
 ============= ===========
 
-NOVOPlasty is a de novo assembler for short circular genomes\.
+NOVOPlasty is a de novo assembler for short circular genomes.
 
 Installation
 ------------

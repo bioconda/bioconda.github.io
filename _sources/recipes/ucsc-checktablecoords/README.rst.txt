@@ -5,7 +5,7 @@ ucsc-checktablecoords
 
 |downloads|
 
-check invariants on genomic coords in table\(s\)\.
+check invariants on genomic coords in table\(s\).
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

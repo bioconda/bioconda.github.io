@@ -5,7 +5,7 @@ trimadap
 
 |downloads|
 
-Fast but inaccurate adapter trimmer for Illumina reads\.
+Fast but inaccurate adapter trimmer for Illumina reads.
 
 ============= ===========
 Home          https://github.com/lh3/trimadap

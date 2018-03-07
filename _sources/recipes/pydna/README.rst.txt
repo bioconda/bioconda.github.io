@@ -5,7 +5,7 @@ pydna
 
 |downloads|
 
-Representing double stranded DNA and simulating cloning\, homologous recombination\, Gibson assembly\, Gel electrophoresis etc\.
+Representing double stranded DNA and simulating cloning\, homologous recombination\, Gibson assembly\, Gel electrophoresis etc.
 
 ============= ===========
 Home          https://github.com/BjornFJohansson/pydna

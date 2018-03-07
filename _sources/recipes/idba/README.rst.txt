@@ -5,7 +5,7 @@ idba
 
 |downloads|
 
-IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics\.
+IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence assembly in bioinformatics.
 
 ============= ===========
 Home          http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/

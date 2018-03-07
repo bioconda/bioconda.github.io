@@ -5,7 +5,7 @@ ucsc-faonerecord
 
 |downloads|
 
-Extract a single record from a \.FA file
+Extract a single record from a .FA file
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

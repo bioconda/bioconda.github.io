@@ -5,7 +5,7 @@ mdasim
 
 |downloads|
 
-Tagliavi Z\, Draghici S\. MDAsim\: A multiple displacement amplification simulator\. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\)\. 2012\. pp\. 1–4\. doi\:10\.1109\/BIBM\.2012\.6392622
+Tagliavi Z\, Draghici S. MDAsim\: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\). 2012. pp. 1–4. doi\:10.1109\/BIBM.2012.6392622
 
 ============= ===========
 Home          https://sourceforge.net/projects/mdasim/

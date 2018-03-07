@@ -5,7 +5,7 @@ bioconductor-htseqtools
 
 |downloads|
 
-We provide efficient\, easy\-to\-use tools for High\-Throughput Sequencing \(ChIP\-seq\, RNAseq etc\.\)\. These include MDS plots \(analogues to PCA\)\, detecting inefficient immuno\-precipitation or over\-amplification artifacts\, tools to identify and test for genomic regions with large accumulation of reads\, and visualization of coverage profiles\.
+We provide efficient\, easy\-to\-use tools for High\-Throughput Sequencing \(ChIP\-seq\, RNAseq etc.\). These include MDS plots \(analogues to PCA\)\, detecting inefficient immuno\-precipitation or over\-amplification artifacts\, tools to identify and test for genomic regions with large accumulation of reads\, and visualization of coverage profiles.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/htSeqTools.html

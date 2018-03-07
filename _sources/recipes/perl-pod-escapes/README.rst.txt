@@ -5,7 +5,7 @@ perl-pod-escapes
 
 |downloads|
 
-for resolving Pod Elt\.\.\.gt sequences
+for resolving Pod Elt...gt sequences
 
 ============= ===========
 Home          http://metacpan.org/pod/Pod::Escapes

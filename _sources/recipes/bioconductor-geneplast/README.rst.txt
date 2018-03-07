@@ -5,7 +5,7 @@ bioconductor-geneplast
 
 |downloads|
 
-Geneplast is designed for evolutionary and plasticity analysis based on orthologous groups distribution in a given species tree\. It uses Shannon information theory and orthologs abundance to estimate the Evolutionary Plasticity Index\. Additionally\, it implements the Bridge algorithm to determine the evolutionary root of a given gene based on its orthologs distribution\.
+Geneplast is designed for evolutionary and plasticity analysis based on orthologous groups distribution in a given species tree. It uses Shannon information theory and orthologs abundance to estimate the Evolutionary Plasticity Index. Additionally\, it implements the Bridge algorithm to determine the evolutionary root of a given gene based on its orthologs distribution.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/geneplast.html

@@ -5,7 +5,7 @@ bioconductor-survcomp
 
 |downloads|
 
-Assessment and Comparison for Performance of Risk Prediction \(Survival\) Models\.
+Assessment and Comparison for Performance of Risk Prediction \(Survival\) Models.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/survcomp.html

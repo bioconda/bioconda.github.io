@@ -5,7 +5,7 @@ bioconductor-spia
 
 |downloads|
 
-This package implements the Signaling Pathway Impact Analysis \(SPIA\) which uses the information form a list of differentially expressed genes and their log fold changes together with signaling pathways topology\, in order to identify the pathways most relevant to the condition under the study\.
+This package implements the Signaling Pathway Impact Analysis \(SPIA\) which uses the information form a list of differentially expressed genes and their log fold changes together with signaling pathways topology\, in order to identify the pathways most relevant to the condition under the study.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SPIA.html

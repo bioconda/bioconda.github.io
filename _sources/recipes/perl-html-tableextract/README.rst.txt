@@ -5,7 +5,7 @@ perl-html-tableextract
 
 |downloads|
 
-Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees\.
+Perl module for extracting the content contained in tables within an HTML document\, either as text or encoded element trees.
 
 ============= ===========
 Home          http://metacpan.org/pod/HTML-TableExtract

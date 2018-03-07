@@ -5,7 +5,7 @@ bioconductor-epivizrserver
 
 |downloads|
 
-This package provides objects to manage WebSocket connections to epiviz apps\. Other epivizr package use this infrastructure\.
+This package provides objects to manage WebSocket connections to epiviz apps. Other epivizr package use this infrastructure.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/epivizrServer.html

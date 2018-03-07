@@ -5,7 +5,7 @@ ucsc-checkhgfindspec
 
 |downloads|
 
-test and describe search specs in hgFindSpec tables\.
+test and describe search specs in hgFindSpec tables.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

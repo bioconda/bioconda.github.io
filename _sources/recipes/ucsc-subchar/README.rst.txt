@@ -5,7 +5,7 @@ ucsc-subchar
 
 |downloads|
 
-Substitute one character for another throughout a file\.
+Substitute one character for another throughout a file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

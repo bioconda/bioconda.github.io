@@ -5,7 +5,7 @@ bioconductor-epivizrstandalone
 
 |downloads|
 
-This package imports the epiviz visualization JavaScript app for genomic data interactive visualization\. The \'epivizrServer\' package is used to provide a web server running completely within R\. This standalone version allows to browse arbitrary genomes through genome annotations provided by Bioconductor packages\.
+This package imports the epiviz visualization JavaScript app for genomic data interactive visualization. The \'epivizrServer\' package is used to provide a web server running completely within R. This standalone version allows to browse arbitrary genomes through genome annotations provided by Bioconductor packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/epivizrStandalone.html

@@ -5,7 +5,7 @@ r-nanostringnorm
 
 |downloads|
 
-A set of tools for normalizing\, diagnostics and visualization of NanoString nCounter data\.
+A set of tools for normalizing\, diagnostics and visualization of NanoString nCounter data.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=NanoStringNorm

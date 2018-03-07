@@ -5,7 +5,7 @@ ms
 
 |downloads|
 
-Generates random independent samples according to a simple Wright\-Fisher neutral model\.
+Generates random independent samples according to a simple Wright\-Fisher neutral model.
 
 ============= ===========
 Home          http://home.uchicago.edu/rhudson1/source/mksamples.html

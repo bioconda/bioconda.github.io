@@ -5,7 +5,7 @@ soapaligner
 
 |downloads|
 
-SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleotide alignment\.
+SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleotide alignment.
 
 ============= ===========
 Home          http://soap.genomics.org.cn/soapaligner.html

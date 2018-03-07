@@ -5,7 +5,7 @@ mgltools
 
 |downloads|
 
-MGLTools is an program for visualization and analisys of molecular structures\.
+MGLTools is an program for visualization and analisys of molecular structures.
 
 ============= ===========
 Home          http://mgltools.scripps.edu/

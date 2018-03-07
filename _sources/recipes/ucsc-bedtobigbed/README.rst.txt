@@ -5,7 +5,7 @@ ucsc-bedtobigbed
 
 |downloads|
 
-Convert bed file to bigBed\. \(BigBed version\: 4\)
+Convert bed file to bigBed. \(BigBed version\: 4\)
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

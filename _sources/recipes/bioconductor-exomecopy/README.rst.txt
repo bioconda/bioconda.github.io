@@ -5,7 +5,7 @@ bioconductor-exomecopy
 
 |downloads|
 
-Detection of copy number variants \(CNV\) from exome sequencing samples\, including unpaired samples\.  The package implements a hidden Markov model which uses positional covariates\, such as background read depth and GC\-content\, to simultaneously normalize and segment the samples into regions of constant copy count\.
+Detection of copy number variants \(CNV\) from exome sequencing samples\, including unpaired samples.  The package implements a hidden Markov model which uses positional covariates\, such as background read depth and GC\-content\, to simultaneously normalize and segment the samples into regions of constant copy count.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/exomeCopy.html

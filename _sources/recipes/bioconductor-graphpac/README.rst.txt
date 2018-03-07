@@ -5,7 +5,7 @@ bioconductor-graphpac
 
 |downloads|
 
-Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model\.
+Identifies mutational clusters of amino acids in a protein while utilizing the proteins tertiary structure via a graph theoretical model.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GraphPAC.html

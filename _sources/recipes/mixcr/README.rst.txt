@@ -5,7 +5,7 @@ mixcr
 
 |downloads|
 
-MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- cell receptor repertoire sequencing data\.
+MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- cell receptor repertoire sequencing data.
 
 
 ============= ===========

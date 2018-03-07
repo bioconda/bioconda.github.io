@@ -5,7 +5,7 @@ flock
 
 |downloads|
 
-FLOCK \- Flow Cytometry Clustering without K\.
+FLOCK \- Flow Cytometry Clustering without K.
 
 ============= ===========
 Home          https://sourceforge.net/projects/immportflock/

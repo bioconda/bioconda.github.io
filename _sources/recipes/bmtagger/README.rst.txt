@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-You may find it necessary to create a bmtagger\.conf file to specify paired or single\-end searching\. The file should contain the line \'srprismopts\=\"\-b 100000000 \-n 5 \-R 0 \-r 1 \-M 7168\"\' along with \'\-p true\' or \'\-p false\' for paired\, and single\, respectively\. This config file can be passed to bmtagger\.sh via the \'\-C\' option\.
+You may find it necessary to create a bmtagger.conf file to specify paired or single\-end searching. The file should contain the line \'srprismopts\=\"\-b 100000000 \-n 5 \-R 0 \-r 1 \-M 7168\"\' along with \'\-p true\' or \'\-p false\' for paired\, and single\, respectively. This config file can be passed to bmtagger.sh via the \'\-C\' option.
 
 
 |docker|

@@ -5,7 +5,7 @@ bioconductor-organismdbi
 
 |downloads|
 
-The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods\.
+The package enables a simple unified interface to several annotation packages each of which has its own schema by taking advantage of the fact that each of these packages implements a select methods.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/OrganismDbi.html

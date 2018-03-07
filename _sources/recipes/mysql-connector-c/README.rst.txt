@@ -5,7 +5,7 @@ mysql-connector-c
 
 |downloads|
 
-MySQL Connector\/C\, the C interface for communicating with MySQL servers\.
+MySQL Connector\/C\, the C interface for communicating with MySQL servers.
 
 ============= ===========
 Home          https://dev.mysql.com/downloads/connector/c/

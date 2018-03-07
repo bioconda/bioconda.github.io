@@ -5,7 +5,7 @@ soapdenovo-trans
 
 |downloads|
 
-SOAPdenovo\-Trans is a de novo transcriptome assembler basing on the SOAPdenovo framework\, adapt to alternative splicing and different expression level among transcripts\.
+SOAPdenovo\-Trans is a de novo transcriptome assembler basing on the SOAPdenovo framework\, adapt to alternative splicing and different expression level among transcripts.
 
 ============= ===========
 Home          http://soap.genomics.org.cn/SOAPdenovo-Trans.html

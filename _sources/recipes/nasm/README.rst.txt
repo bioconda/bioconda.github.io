@@ -5,7 +5,7 @@ nasm
 
 |downloads|
 
-NASM\, the Netwide Assembler\.
+NASM\, the Netwide Assembler.
 
 ============= ===========
 Home          http://www.nasm.us

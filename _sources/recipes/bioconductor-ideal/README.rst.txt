@@ -5,7 +5,7 @@ bioconductor-ideal
 
 |downloads|
 
-This package provides functions for an Interactive Differential Expression AnaLysis of RNA\-sequencing datasets\, to extract quickly and effectively information downstream the step of differential expression\. A Shiny application encapsulates the whole package\.
+This package provides functions for an Interactive Differential Expression AnaLysis of RNA\-sequencing datasets\, to extract quickly and effectively information downstream the step of differential expression. A Shiny application encapsulates the whole package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ideal.html

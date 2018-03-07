@@ -5,7 +5,7 @@ regex
 
 |downloads|
 
-Alternative regular expression module\, to replace re\.
+Alternative regular expression module\, to replace re.
 
 ============= ===========
 Home          https://bitbucket.org/mrabarnett/mrab-regex

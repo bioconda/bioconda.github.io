@@ -5,7 +5,7 @@ bioconductor-cogena
 
 |downloads|
 
-cogena is a workflow for co\-expressed gene\-set enrichment analysis\. It aims to discovery smaller scale\, but highly correlated cellular events that may be of great biological relevance\. A novel pipeline for drug discovery and drug repositioning based on the cogena workflow is proposed\. Particularly\, candidate drugs can be predicted based on the gene expression of disease\-related data\, or other similar drugs can be identified based on the gene expression of drug\-related data\. Moreover\, the drug mode of action can be disclosed by the associated pathway analysis\. In summary\, cogena is a flexible workflow for various gene set enrichment analysis for co\-expressed genes\, with a focus on pathway\/GO analysis and drug repositioning\.
+cogena is a workflow for co\-expressed gene\-set enrichment analysis. It aims to discovery smaller scale\, but highly correlated cellular events that may be of great biological relevance. A novel pipeline for drug discovery and drug repositioning based on the cogena workflow is proposed. Particularly\, candidate drugs can be predicted based on the gene expression of disease\-related data\, or other similar drugs can be identified based on the gene expression of drug\-related data. Moreover\, the drug mode of action can be disclosed by the associated pathway analysis. In summary\, cogena is a flexible workflow for various gene set enrichment analysis for co\-expressed genes\, with a focus on pathway\/GO analysis and drug repositioning.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cogena.html

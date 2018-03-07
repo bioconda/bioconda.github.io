@@ -5,7 +5,7 @@ gffread
 
 |downloads|
 
-GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more\.
+GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequence extraction and more.
 
 ============= ===========
 Home          http://ccb.jhu.edu/software/stringtie/gff.shtml

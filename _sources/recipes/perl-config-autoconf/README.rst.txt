@@ -5,7 +5,7 @@ perl-config-autoconf
 
 |downloads|
 
-A module to implement some of AutoConf macros in pure perl\.
+A module to implement some of AutoConf macros in pure perl.
 
 ============= ===========
 Home          https://metacpan.org/release/Config-AutoConf

@@ -5,9 +5,9 @@ uropa
 
 |downloads|
 
-UROPA \(Universal RObust Peak Annotator\) is a command line based tool\, intended for genomic region annotation from e\.g\. peak calling\.
-It detects the most appropriate annotation by taking parameters such as feature type\, anchor\, direction and strand into account\.
-Furthermore\, it allows filtering for GTF attribute values\, e\.g\. protein\_coding\.
+UROPA \(Universal RObust Peak Annotator\) is a command line based tool\, intended for genomic region annotation from e.g. peak calling.
+It detects the most appropriate annotation by taking parameters such as feature type\, anchor\, direction and strand into account.
+Furthermore\, it allows filtering for GTF attribute values\, e.g. protein\_coding.
 
 
 ============= ===========

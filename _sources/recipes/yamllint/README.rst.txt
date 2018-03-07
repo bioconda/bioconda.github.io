@@ -5,7 +5,7 @@ yamllint
 
 |downloads|
 
-A linter for YAML files\.
+A linter for YAML files.
 
 ============= ===========
 Home          https://github.com/adrienverge/yamllint

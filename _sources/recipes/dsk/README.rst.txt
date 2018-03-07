@@ -5,7 +5,7 @@ dsk
 
 |downloads|
 
-DSK is a k\-mer counter for reads or genomes\.
+DSK is a k\-mer counter for reads or genomes.
 
 ============= ===========
 Home          https://github.com/GATB/dsk/

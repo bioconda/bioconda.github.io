@@ -5,7 +5,7 @@ seedme
 
 |downloads|
 
-Python REST like client for SeedMe\.org
+Python REST like client for SeedMe.org
 
 ============= ===========
 Home          https://www.seedme.org/downloads

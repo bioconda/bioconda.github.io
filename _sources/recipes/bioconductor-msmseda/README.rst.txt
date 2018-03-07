@@ -5,7 +5,7 @@ bioconductor-msmseda
 
 |downloads|
 
-Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors\.
+Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experiments\, and visualize de influence of the involved factors.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/msmsEDA.html

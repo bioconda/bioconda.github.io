@@ -5,7 +5,7 @@ cansnper
 
 |downloads|
 
-A hierarchical genotype classifier of clonal pathogens\.
+A hierarchical genotype classifier of clonal pathogens.
 
 ============= ===========
 Home          https://github.com/adrlar/CanSNPer/

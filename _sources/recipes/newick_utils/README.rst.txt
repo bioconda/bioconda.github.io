@@ -5,7 +5,7 @@ newick_utils
 
 |downloads|
 
-The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees\. We distribute the package under the BSD License\. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\)\.
+The Newick Utilities are a suite of Unix shell tools for processing phylogenetic trees. We distribute the package under the BSD License. Functions include re\-rooting\, extracting subtrees\, trimming\, pruning\, condensing\, drawing \(ASCII graphics or SVG\).
 
 ============= ===========
 Home          http://cegg.unige.ch/newick_utils

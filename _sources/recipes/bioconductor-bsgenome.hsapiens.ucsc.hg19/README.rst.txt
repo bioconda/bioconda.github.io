@@ -5,7 +5,7 @@ bioconductor-bsgenome.hsapiens.ucsc.hg19
 
 |downloads|
 
-Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg19\, Feb\. 2009\) and stored in Biostrings objects\.
+Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg19\, Feb. 2009\) and stored in Biostrings objects.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.html

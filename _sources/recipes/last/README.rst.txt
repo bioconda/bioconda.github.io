@@ -5,7 +5,7 @@ last
 
 |downloads|
 
-LAST finds similar regions between sequences\, and aligns them\. It is designed for comparing large datasets to each other \(e\.g\. vertebrate genomes and\/or large numbers of DNA reads\)\.
+LAST finds similar regions between sequences\, and aligns them. It is designed for comparing large datasets to each other \(e.g. vertebrate genomes and\/or large numbers of DNA reads\).
 
 ============= ===========
 Home          http://last.cbrc.jp/

@@ -5,7 +5,7 @@ nanoraw
 
 |downloads|
 
-Analysis of nanopore sequencing data\.
+Analysis of nanopore sequencing data.
 
 ============= ===========
 Home          https://github.com/marcus1487/nanoraw

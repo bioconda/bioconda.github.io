@@ -5,7 +5,7 @@ bioconductor-hyperdraw
 
 |downloads|
 
-Functions for visualizing hypergraphs\.
+Functions for visualizing hypergraphs.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/hyperdraw.html

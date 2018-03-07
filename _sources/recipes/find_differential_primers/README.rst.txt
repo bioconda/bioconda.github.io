@@ -5,7 +5,7 @@ find_differential_primers
 
 |downloads|
 
-Scripts to aid the design of differential primers for diagnostic PCR\.
+Scripts to aid the design of differential primers for diagnostic PCR.
 
 ============= ===========
 Home          https://github.com/widdowquinn/find_differential_primers

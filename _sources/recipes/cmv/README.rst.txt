@@ -5,7 +5,7 @@ cmv
 
 |downloads|
 
-A collection of tools for the visualisation of Hidden Markov Models \(HMMV\) and RNA\-family models \(CMV\)\.
+A collection of tools for the visualisation of Hidden Markov Models \(HMMV\) and RNA\-family models \(CMV\).
 
 ============= ===========
 Home          https://github.com/eggzilla/cmv

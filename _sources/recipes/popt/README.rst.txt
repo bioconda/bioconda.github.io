@@ -5,7 +5,7 @@ popt
 
 |downloads|
 
-Popt is a C library for parsing command line parameters\.
+Popt is a C library for parsing command line parameters.
 
 ============= ===========
 Home          http://rpm5.org/

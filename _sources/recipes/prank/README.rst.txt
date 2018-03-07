@@ -5,7 +5,7 @@ prank
 
 |downloads|
 
-PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences\.
+PRANK is a probabilistic multiple alignment program for DNA\, codon and amino\-acid sequences.
 
 ============= ===========
 Home          http://wasabiapp.org/software/prank/

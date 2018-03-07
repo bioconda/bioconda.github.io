@@ -5,7 +5,7 @@ bioconductor-genomicalignments
 
 |downloads|
 
-Provides efficient containers for storing and manipulating short genomic alignments \(typically obtained by aligning short reads to a reference genome\)\. This includes read counting\, computing the coverage\, junction detection\, and working with the nucleotide content of the alignments\.
+Provides efficient containers for storing and manipulating short genomic alignments \(typically obtained by aligning short reads to a reference genome\). This includes read counting\, computing the coverage\, junction detection\, and working with the nucleotide content of the alignments.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicAlignments.html

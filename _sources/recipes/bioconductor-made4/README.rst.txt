@@ -5,7 +5,7 @@ bioconductor-made4
 
 |downloads|
 
-Multivariate data analysis and graphical display of microarray data\. Functions include between group analysis and coinertia analysis\. It contains functions that require ADE4\.
+Multivariate data analysis and graphical display of microarray data. Functions include between group analysis and coinertia analysis. It contains functions that require ADE4.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/made4.html

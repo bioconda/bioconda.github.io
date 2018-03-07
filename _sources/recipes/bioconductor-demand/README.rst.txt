@@ -5,7 +5,7 @@ bioconductor-demand
 
 |downloads|
 
-DEMAND predicts Drug MoA by interrogating a cell context specific regulatory network with a small number \(N \>\= 6\) of compound\-induced gene expression signatures\, to elucidate specific proteins whose interactions in the network is dysregulated by the compound\.
+DEMAND predicts Drug MoA by interrogating a cell context specific regulatory network with a small number \(N \>\= 6\) of compound\-induced gene expression signatures\, to elucidate specific proteins whose interactions in the network is dysregulated by the compound.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DeMAND.html

@@ -5,7 +5,7 @@ bioconductor-genega
 
 |downloads|
 
-R based Genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias\, GeneGA includes the information of highly expressed genes of almost 200 genomes\. Meanwhile\, Vienna RNA Package is needed to ensure GeneGA to function properly\.
+R based Genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias\, GeneGA includes the information of highly expressed genes of almost 200 genomes. Meanwhile\, Vienna RNA Package is needed to ensure GeneGA to function properly.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GeneGA.html

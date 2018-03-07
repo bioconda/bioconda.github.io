@@ -5,7 +5,7 @@ bioconductor-affyilm
 
 |downloads|
 
-affyILM is a preprocessing tool which estimates gene expression levels for Affymetrix Gene Chips\. Input from physical chemistry is employed to first background subtract intensities before calculating concentrations on behalf of the Langmuir model\.
+affyILM is a preprocessing tool which estimates gene expression levels for Affymetrix Gene Chips. Input from physical chemistry is employed to first background subtract intensities before calculating concentrations on behalf of the Langmuir model.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affyILM.html

@@ -5,7 +5,7 @@ bioconductor-alpine
 
 |downloads|
 
-Fragment sequence bias modeling and correction for RNA\-seq transcript abundance estimation\.
+Fragment sequence bias modeling and correction for RNA\-seq transcript abundance estimation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/alpine.html

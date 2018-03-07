@@ -5,7 +5,7 @@ hera
 
 |downloads|
 
-hera is a bioinformatics tool that helps analyze RNA\-seq data\, providing base\-to\-base alignment BAM files\, transcript abundance estimation\, and fusion gene detection\.
+hera is a bioinformatics tool that helps analyze RNA\-seq data\, providing base\-to\-base alignment BAM files\, transcript abundance estimation\, and fusion gene detection.
 
 ============= ===========
 Home          https://github.com/bioturing/hera

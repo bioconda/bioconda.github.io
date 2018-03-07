@@ -5,7 +5,7 @@ ucsc-nibfrag
 
 |downloads|
 
-Extract part of a nib file as \.fa \(all bases\/gaps lower case by default\)
+Extract part of a nib file as .fa \(all bases\/gaps lower case by default\)
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

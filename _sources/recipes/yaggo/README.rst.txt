@@ -5,7 +5,7 @@ yaggo
 
 |downloads|
 
-Yaggo is a tool to generate command line parsers for C\+\+\. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt\.
+Yaggo is a tool to generate command line parsers for C\+\+. Yaggo stands for \"Yet Another GenGetOpt\" and is inspired by GNU Gengetopt.
 
 ============= ===========
 Home          https://github.com/gmarcais/yaggo

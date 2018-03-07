@@ -5,7 +5,7 @@ bioconductor-rgraphviz
 
 |downloads|
 
-Interfaces R with the AT and T graphviz library for plotting R graph objects from the graph package\.
+Interfaces R with the AT and T graphviz library for plotting R graph objects from the graph package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Rgraphviz.html

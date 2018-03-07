@@ -5,7 +5,7 @@ tinysink
 
 |downloads|
 
-Synchronise Nanopore reads with a server\.
+Synchronise Nanopore reads with a server.
 
 ============= ===========
 Home          https://github.com/mbhall88/tinysink

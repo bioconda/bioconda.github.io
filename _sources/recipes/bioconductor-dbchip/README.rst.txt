@@ -5,7 +5,7 @@ bioconductor-dbchip
 
 |downloads|
 
-DBChIP detects differentially bound sharp binding sites across multiple conditions\, with or without matching control samples\.
+DBChIP detects differentially bound sharp binding sites across multiple conditions\, with or without matching control samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DBChIP.html

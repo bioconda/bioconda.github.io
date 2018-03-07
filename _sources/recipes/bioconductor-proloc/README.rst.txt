@@ -5,7 +5,7 @@ bioconductor-proloc
 
 |downloads|
 
-The pRoloc package implements machine learning and visualisation methods for the analysis and interogation of quantitiative mass spectrometry data to reliably infer protein sub\-cellular localisation\.
+The pRoloc package implements machine learning and visualisation methods for the analysis and interogation of quantitiative mass spectrometry data to reliably infer protein sub\-cellular localisation.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pRoloc.html

@@ -5,7 +5,7 @@ bioconductor-cnvgsa
 
 |downloads|
 
-This package is intended to facilitate gene\-set association with rare CNVs in case\-control studies\.
+This package is intended to facilitate gene\-set association with rare CNVs in case\-control studies.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cnvGSA.html

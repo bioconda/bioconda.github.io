@@ -5,7 +5,7 @@ openslide
 
 |downloads|
 
-OpenSlide is a C library that provides a simple interface to read whole\-slide images \(also known as virtual slides\)\.
+OpenSlide is a C library that provides a simple interface to read whole\-slide images \(also known as virtual slides\).
 
 ============= ===========
 Home          http://openslide.org/

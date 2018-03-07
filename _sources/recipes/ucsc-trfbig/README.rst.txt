@@ -5,7 +5,7 @@ ucsc-trfbig
 
 |downloads|
 
-Mask tandem repeats on a big sequence file\.
+Mask tandem repeats on a big sequence file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

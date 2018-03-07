@@ -5,7 +5,7 @@ mageck-vispr
 
 |downloads|
 
-MAGeCK\-VISPR is a comprehensive quality control\, analysis and visualization workflow for CRISPR\/Cas9 screens based on MAGeCK\, VISPR\, Snakemake\, FastQC and cutadapt\.
+MAGeCK\-VISPR is a comprehensive quality control\, analysis and visualization workflow for CRISPR\/Cas9 screens based on MAGeCK\, VISPR\, Snakemake\, FastQC and cutadapt.
 
 ============= ===========
 Home          https://bitbucket.org/liulab/mageck-vispr

@@ -5,7 +5,7 @@ bioconductor-trackviewer
 
 |downloads|
 
-Visualize mapped reads along with annotation as track layers for NGS dataset such as ChIP\-seq\, RNA\-seq\, miRNA\-seq\, DNA\-seq\, SNPs and methylation data\.
+Visualize mapped reads along with annotation as track layers for NGS dataset such as ChIP\-seq\, RNA\-seq\, miRNA\-seq\, DNA\-seq\, SNPs and methylation data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/trackViewer.html

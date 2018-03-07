@@ -5,7 +5,7 @@ np-likeness-scorer
 
 |downloads|
 
-Calculates Natural Product\(NP\)\-likeness of a molecule\, i\.e\. the similarity of the molecule to the structure space covered by known natural products\. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
+Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity of the molecule to the structure space covered by known natural products. NP\-likeness is a useful criterion to screen compound libraries and to design new lead compounds
 
 ============= ===========
 Home          https://sourceforge.net/projects/np-likeness/

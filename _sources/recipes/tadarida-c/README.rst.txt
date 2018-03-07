@@ -5,7 +5,7 @@ tadarida-c
 
 |downloads|
 
-Tadarida\-C \(Toolbox for Animal Detection on Acoustic Recordings \- Classification part\) for Galaxy use\.
+Tadarida\-C \(Toolbox for Animal Detection on Acoustic Recordings \- Classification part\) for Galaxy use.
 
 ============= ===========
 Home          https://github.com/YvesBas/Tadarida-C

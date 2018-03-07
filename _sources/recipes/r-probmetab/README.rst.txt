@@ -5,7 +5,7 @@ r-probmetab
 
 |downloads|
 
-Provides probability ranking to candidate compounds assigned to masses\, with the prior assumption of connected sample and additional previous and spectral information modeled by the user\.
+Provides probability ranking to candidate compounds assigned to masses\, with the prior assumption of connected sample and additional previous and spectral information modeled by the user.
 
 ============= ===========
 Home          https://github.com/rsilvabioinfo/ProbMetab

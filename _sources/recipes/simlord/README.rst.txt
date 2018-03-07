@@ -5,7 +5,7 @@ simlord
 
 |downloads|
 
-SimLoRD is a read simulator for long reads from third generation sequencing\. Currently\, it supports the Pacific Biosciences SMRT error model\.
+SimLoRD is a read simulator for long reads from third generation sequencing. Currently\, it supports the Pacific Biosciences SMRT error model.
 
 ============= ===========
 Home          https://bitbucket.org/genomeinformatics/simlord/

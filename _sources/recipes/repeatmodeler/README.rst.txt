@@ -5,7 +5,7 @@ repeatmodeler
 
 |downloads|
 
-RepeatModeler is a de\-novo repeat family identification and modeling package\.
+RepeatModeler is a de\-novo repeat family identification and modeling package.
 
 ============= ===========
 Home          http://www.repeatmasker.org/RepeatModeler.html

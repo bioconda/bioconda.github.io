@@ -5,7 +5,7 @@ bioconductor-chimeraviz
 
 |downloads|
 
-chimeraviz manages data from fusion gene finders and provides useful visualization tools\.
+chimeraviz manages data from fusion gene finders and provides useful visualization tools.
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/chimeraviz.html

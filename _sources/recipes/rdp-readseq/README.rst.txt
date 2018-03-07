@@ -5,7 +5,7 @@ rdp-readseq
 
 |downloads|
 
-Java based common sequence file format reader and sequence file manipulation\.
+Java based common sequence file format reader and sequence file manipulation.
 
 ============= ===========
 Home          https://github.com/rdpstaff/ReadSeq

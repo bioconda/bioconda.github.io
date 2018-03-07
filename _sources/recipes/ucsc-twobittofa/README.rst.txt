@@ -5,7 +5,7 @@ ucsc-twobittofa
 
 |downloads|
 
-Convert all or part of \.2bit file to fasta
+Convert all or part of .2bit file to fasta
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

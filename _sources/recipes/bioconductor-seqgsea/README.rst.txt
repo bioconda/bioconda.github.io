@@ -5,7 +5,7 @@ bioconductor-seqgsea
 
 |downloads|
 
-The package generally provides methods for gene set enrichment analysis of high\-throughput RNA\-Seq data by integrating differential expression and splicing\. It uses negative binomial distribution to model read count data\, which accounts for sequencing biases and biological variation\. Based on permutation tests\, statistical significance can also be achieved regarding each gene\'s differential expression and splicing\, respectively\.
+The package generally provides methods for gene set enrichment analysis of high\-throughput RNA\-Seq data by integrating differential expression and splicing. It uses negative binomial distribution to model read count data\, which accounts for sequencing biases and biological variation. Based on permutation tests\, statistical significance can also be achieved regarding each gene\'s differential expression and splicing\, respectively.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SeqGSEA.html

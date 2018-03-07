@@ -5,7 +5,7 @@ bioconductor-harman
 
 |downloads|
 
-Harman is a PCA and constrained optimisation based technique that maximises the removal of batch effects from datasets\, with the constraint that the probability of overcorrection \(i\.e\. removing genuine biological signal along with batch noise\) is kept to a fraction which is set by the end\-user\.
+Harman is a PCA and constrained optimisation based technique that maximises the removal of batch effects from datasets\, with the constraint that the probability of overcorrection \(i.e. removing genuine biological signal along with batch noise\) is kept to a fraction which is set by the end\-user.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Harman.html

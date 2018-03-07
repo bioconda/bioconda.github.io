@@ -5,7 +5,7 @@ bioconductor-quartpac
 
 |downloads|
 
-Identifies clustering of somatic mutations in proteins over the entire quaternary structure\.
+Identifies clustering of somatic mutations in proteins over the entire quaternary structure.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/QuartPAC.html

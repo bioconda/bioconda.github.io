@@ -5,7 +5,7 @@ rmblast
 
 |downloads|
 
-RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite\.
+RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 
 ============= ===========
 Home          http://www.repeatmasker.org/RMBlast.html

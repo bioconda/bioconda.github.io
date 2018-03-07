@@ -5,7 +5,7 @@ bioconductor-derfinder
 
 |downloads|
 
-This package provides functions for annotation\-agnostic differential expression analysis of RNA\-seq data\. Two implementations of the DER Finder approach are included in this package\: \(1\) single base\-level F\-statistics and \(2\) DER identification at the expressed regions\-level\. The DER Finder approach can also be used to identify differentially bounded ChIP\-seq peaks\.
+This package provides functions for annotation\-agnostic differential expression analysis of RNA\-seq data. Two implementations of the DER Finder approach are included in this package\: \(1\) single base\-level F\-statistics and \(2\) DER identification at the expressed regions\-level. The DER Finder approach can also be used to identify differentially bounded ChIP\-seq peaks.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/derfinder.html

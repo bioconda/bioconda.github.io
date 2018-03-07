@@ -5,7 +5,7 @@ genologics
 
 |downloads|
 
-Python interface to the GenoLogics LIMS \(Laboratory Information Management System\) server via its REST API\.
+Python interface to the GenoLogics LIMS \(Laboratory Information Management System\) server via its REST API.
 
 ============= ===========
 Home          https://github.com/scilifelab/genologics

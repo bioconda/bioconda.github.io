@@ -5,7 +5,7 @@ bioconductor-cellgrowth
 
 |downloads|
 
-This package provides functionalities for the fitting of cell population growth models on experimental OD curves\.
+This package provides functionalities for the fitting of cell population growth models on experimental OD curves.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cellGrowth.html

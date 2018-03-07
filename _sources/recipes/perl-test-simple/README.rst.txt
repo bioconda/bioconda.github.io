@@ -5,7 +5,7 @@ perl-test-simple
 
 |downloads|
 
-Basic utilities for writing tests\.
+Basic utilities for writing tests.
 
 ============= ===========
 Home          http://metacpan.org/pod/Test-Simple

@@ -5,7 +5,7 @@ bioconductor-cormotif
 
 |downloads|
 
-It fits correlation motif model to multiple studies to detect study specific differential expression patterns\.
+It fits correlation motif model to multiple studies to detect study specific differential expression patterns.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Cormotif.html

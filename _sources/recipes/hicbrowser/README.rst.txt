@@ -5,7 +5,7 @@ hicbrowser
 
 |downloads|
 
-A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\)\.
+A simple web browser to visualize Hi\-C and other genomic tracks \(bigwig\, bed\, interactions\).
 
 ============= ===========
 Home          https://github.com/maxplanck-ie/HiCBrowser

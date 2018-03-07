@@ -5,7 +5,7 @@ bioconductor-isomirs
 
 |downloads|
 
-Characterization of miRNAs and isomiRs\, clustering and differential expression\.
+Characterization of miRNAs and isomiRs\, clustering and differential expression.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/isomiRs.html

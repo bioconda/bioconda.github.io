@@ -5,7 +5,7 @@ bioconductor-mipp
 
 |downloads|
 
-This package finds optimal sets of genes that seperate samples into two or more classes\.
+This package finds optimal sets of genes that seperate samples into two or more classes.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MiPP.html

@@ -5,7 +5,7 @@ repeatscout
 
 |downloads|
 
-De novo identification of repeat families in large genomes\.
+De novo identification of repeat families in large genomes.
 
 ============= ===========
 Home          http://repeatscout.bioprojects.org

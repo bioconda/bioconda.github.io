@@ -5,7 +5,7 @@ bioconductor-cohcap
 
 |downloads|
 
-This package provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc\.\)\. It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options\.
+This package provides a pipeline to analyze single\-nucleotide resolution methylation data \(Illumina 450k\/EPIC methylation array\, targeted BS\-Seq\, etc.\). It provides differential methylation for CpG Sites\, differential methylation for CpG Islands\, integration with gene expression data\, with visualizaton options.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/COHCAP.html

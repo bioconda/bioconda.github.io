@@ -5,7 +5,7 @@ ucsc-bigwigmerge
 
 |downloads|
 
-Merge together multiple bigWigs into a single output bedGraph\.
+Merge together multiple bigWigs into a single output bedGraph.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

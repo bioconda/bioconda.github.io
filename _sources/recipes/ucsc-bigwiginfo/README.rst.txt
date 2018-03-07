@@ -5,7 +5,7 @@ ucsc-bigwiginfo
 
 |downloads|
 
-Print out information about bigWig file\.
+Print out information about bigWig file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

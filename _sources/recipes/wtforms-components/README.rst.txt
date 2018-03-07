@@ -5,7 +5,7 @@ wtforms-components
 
 |downloads|
 
-Additional fields\, validators and widgets for WTForms\.
+Additional fields\, validators and widgets for WTForms.
 
 ============= ===========
 Home          https://github.com/kvesteri/wtforms-components

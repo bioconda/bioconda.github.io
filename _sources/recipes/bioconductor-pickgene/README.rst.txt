@@ -5,7 +5,7 @@ bioconductor-pickgene
 
 |downloads|
 
-Functions to Analyze Microarray \(Gene Expression\) Data\.
+Functions to Analyze Microarray \(Gene Expression\) Data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pickgene.html

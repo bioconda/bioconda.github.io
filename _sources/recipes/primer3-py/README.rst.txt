@@ -5,7 +5,7 @@ primer3-py
 
 |downloads|
 
-Primer3\-py is a Python\-abstracted API for the popular Primer3 library\.
+Primer3\-py is a Python\-abstracted API for the popular Primer3 library.
 
 ============= ===========
 Home          https://libnano.github.io/primer3-py/

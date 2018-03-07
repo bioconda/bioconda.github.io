@@ -5,7 +5,7 @@ r-genenet
 
 |downloads|
 
-Analyzes gene expression \(time series\) data with focus on the inference of gene networks\. In particular\, GeneNet implements the methods of Schaefer and  Strimmer \(2005a\,b\,c\) and Opgen\-Rhein and Strimmer \(2006\, 2007\) for learning large\-scale gene association networks \(including assignment of putative directions\)\.  
+Analyzes gene expression \(time series\) data with focus on the inference of gene networks. In particular\, GeneNet implements the methods of Schaefer and  Strimmer \(2005a\,b\,c\) and Opgen\-Rhein and Strimmer \(2006\, 2007\) for learning large\-scale gene association networks \(including assignment of putative directions\).  
 
 ============= ===========
 Home          http://strimmerlab.org/software/genenet/

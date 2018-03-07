@@ -5,7 +5,7 @@ bedtools
 
 |downloads|
 
-A swiss army knife for genome arithmetic\.  https\:\/\/github\.com\/arq5x\/bedtools2 
+A swiss army knife for genome arithmetic.  https\:\/\/github.com\/arq5x\/bedtools2 
 
 ============= ===========
 Home          

@@ -5,7 +5,7 @@ soapdenovo2-gapcloser
 
 |downloads|
 
-a tool named GapCloser for SOAPdenovo\.
+a tool named GapCloser for SOAPdenovo.
 
 ============= ===========
 Home          http://soap.genomics.org.cn/soapdenovo.html

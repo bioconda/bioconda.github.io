@@ -5,7 +5,7 @@ pysam
 
 |downloads|
 
-Pysam is a python module for reading and manipulating Samfiles\. It is a lightweight wrapper of the samtools C\-API\. Pysam also includes an interface for tabix\.
+Pysam is a python module for reading and manipulating Samfiles. It is a lightweight wrapper of the samtools C\-API. Pysam also includes an interface for tabix.
 
 ============= ===========
 Home          https://github.com/pysam-developers/pysam

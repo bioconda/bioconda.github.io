@@ -5,7 +5,7 @@ mentalist
 
 |downloads|
 
-The MLST pipeline developed by the PathOGiST research group\.
+The MLST pipeline developed by the PathOGiST research group.
 
 ============= ===========
 Home          https://github.com/WGS-TB/MentaLiST

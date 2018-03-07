@@ -5,7 +5,7 @@ bioconductor-panther.db
 
 |downloads|
 
-A set of annotation maps describing the entire Gene Ontology assembled using data from PANTHER\.
+A set of annotation maps describing the entire Gene Ontology assembled using data from PANTHER.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/annotation/html/PANTHER.db.html

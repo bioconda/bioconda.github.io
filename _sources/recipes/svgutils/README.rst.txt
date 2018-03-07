@@ -5,7 +5,7 @@ svgutils
 
 |downloads|
 
-Python SVG editor that allows to automatically create publication ready composite SVG figures\.
+Python SVG editor that allows to automatically create publication ready composite SVG figures.
 
 ============= ===========
 Home          http://neuroscience.telenczuk.pl

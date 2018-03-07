@@ -5,7 +5,7 @@ bioconductor-encodexplorer
 
 |downloads|
 
-This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api\, download ENCODE datasets and save the database in SQLite format\.
+This package allows user to quickly access ENCODE project files metadata and give access to helper functions to query the ENCODE rest api\, download ENCODE datasets and save the database in SQLite format.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ENCODExplorer.html

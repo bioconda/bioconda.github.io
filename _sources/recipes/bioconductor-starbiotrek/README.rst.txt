@@ -5,7 +5,7 @@ bioconductor-starbiotrek
 
 |downloads|
 
-This tool StarBioTrek presents some methodologies to measure pathway activity and cross\-talk among pathways integrating also the information of network data\.
+This tool StarBioTrek presents some methodologies to measure pathway activity and cross\-talk among pathways integrating also the information of network data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/StarBioTrek.html

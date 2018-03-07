@@ -5,7 +5,7 @@ bioconductor-cand
 
 |downloads|
 
-Functions to perform the CAnD test on a set of ancestry proportions\. For a particular ancestral subpopulation\, a user will supply the estimated ancestry proportion for each sample\, and each chromosome or chromosomal segment of interest\. A p\-value for each chromosome as well as an overall CAnD p\-value will be returned for each test\. Plotting functions are also available\.
+Functions to perform the CAnD test on a set of ancestry proportions. For a particular ancestral subpopulation\, a user will supply the estimated ancestry proportion for each sample\, and each chromosome or chromosomal segment of interest. A p\-value for each chromosome as well as an overall CAnD p\-value will be returned for each test. Plotting functions are also available.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CAnD.html

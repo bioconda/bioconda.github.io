@@ -5,7 +5,7 @@ strip_it
 
 |downloads|
 
-Strip\-it is a program that extracts predefined scaffolds from organic small molecules\.
+Strip\-it is a program that extracts predefined scaffolds from organic small molecules.
 
 ============= ===========
 Home          http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/strip-it/1.0.2/strip-it.html

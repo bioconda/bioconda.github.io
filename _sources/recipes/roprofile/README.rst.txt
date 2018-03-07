@@ -5,7 +5,7 @@ roprofile
 
 |downloads|
 
-Generation of pan\-genome profile files using Roary output\.
+Generation of pan\-genome profile files using Roary output.
 
 ============= ===========
 Home          https://github.com/cimendes/roProfile

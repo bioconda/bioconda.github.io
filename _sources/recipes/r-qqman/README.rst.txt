@@ -5,7 +5,7 @@ r-qqman
 
 |downloads|
 
-Create Q\-Q and manhattan plots for GWAS data from PLINK results\.
+Create Q\-Q and manhattan plots for GWAS data from PLINK results.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=qqman

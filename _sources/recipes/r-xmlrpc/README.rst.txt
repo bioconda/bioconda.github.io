@@ -5,7 +5,7 @@ r-xmlrpc
 
 |downloads|
 
-A simple implementation of XML\-RPC for R\.
+A simple implementation of XML\-RPC for R.
 
 ============= ===========
 Home          https://r-forge.r-project.org

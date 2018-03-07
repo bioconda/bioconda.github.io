@@ -5,7 +5,7 @@ bioconductor-biocgraph
 
 |downloads|
 
-This package provides examples and code that make use of the different graph related packages produced by Bioconductor\.
+This package provides examples and code that make use of the different graph related packages produced by Bioconductor.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/biocGraph.html

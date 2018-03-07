@@ -5,7 +5,7 @@ kfoots
 
 |downloads|
 
-The package provides methods for fitting multivariate count data with a mixture model or a hidden markov model\. Each mixture component is a negative multivariate random variable and an EM algorithm is used to maximize the likelihood\.
+The package provides methods for fitting multivariate count data with a mixture model or a hidden markov model. Each mixture component is a negative multivariate random variable and an EM algorithm is used to maximize the likelihood.
 
 ============= ===========
 Home          http://github.com/lamortenera/kfoots

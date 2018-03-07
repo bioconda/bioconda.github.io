@@ -5,7 +5,7 @@ jellyfish
 
 |downloads|
 
-Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA\. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
+Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k\-mer is a substring of length k\, and counting the occurrences of all such substrings is a central step in many analyses of DNA sequence
 
 ============= ===========
 Home          http://www.genome.umd.edu/jellyfish.html

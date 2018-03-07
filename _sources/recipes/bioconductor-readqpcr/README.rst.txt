@@ -5,7 +5,7 @@ bioconductor-readqpcr
 
 |downloads|
 
-The package provides functions to read raw RT\-qPCR data of different platforms\.
+The package provides functions to read raw RT\-qPCR data of different platforms.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ReadqPCR.html

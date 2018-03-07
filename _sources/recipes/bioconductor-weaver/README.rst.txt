@@ -5,7 +5,7 @@ bioconductor-weaver
 
 |downloads|
 
-This package provides enhancements on the Sweave\(\) function in the base package\.  In particular a facility for caching code chunk results is included\.
+This package provides enhancements on the Sweave\(\) function in the base package.  In particular a facility for caching code chunk results is included.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/weaver.html

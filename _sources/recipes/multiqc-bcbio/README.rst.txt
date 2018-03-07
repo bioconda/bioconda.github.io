@@ -5,7 +5,7 @@ multiqc-bcbio
 
 |downloads|
 
-MultiQC plugin for bcbio report visualization\.
+MultiQC plugin for bcbio report visualization.
 
 ============= ===========
 Home          http://multiqc.info

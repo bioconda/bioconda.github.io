@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-PICRUST requires a set of large pre\-calculated data files\. PICRUST contains a script\, \"download\_picrust\_files\.py\"\, which downloads the data in the proper location\, and which can be run after PICRUST has been installed\.
+PICRUST requires a set of large pre\-calculated data files. PICRUST contains a script\, \"download\_picrust\_files.py\"\, which downloads the data in the proper location\, and which can be run after PICRUST has been installed.
 
 
 |docker|

@@ -5,7 +5,7 @@ entrez-direct
 
 |downloads|
 
-Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc\.\) from a UNIX terminal window\. Functions take search terms from command\-line arguments\. Individual operations are combined to build multi\-step queries\. Record retrieval and formatting normally complete the process\.
+Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc.\) from a UNIX terminal window. Functions take search terms from command\-line arguments. Individual operations are combined to build multi\-step queries. Record retrieval and formatting normally complete the process.
 
 ============= ===========
 Home          ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/7.70.20180103/README

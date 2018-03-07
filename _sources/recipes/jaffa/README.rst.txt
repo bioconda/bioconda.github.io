@@ -6,9 +6,9 @@ jaffa
 |downloads|
 
 JAFFA is a multi\-step pipeline that takes either raw RNA\-Seq reads\, or pre\-assembled transcripts then searches
-for gene fusions\.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid\.
-You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_BASE\. Otherwise\, pass any paramters
-to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual\.
+for gene fusions.  This package contains the wrappers jaffa\-direct\, jaffa\-assembly\, and jaffa\-hybrid.
+You can pass the \"refSeq\" parameter in the environment variables JAFFA\_REF\_BASE. Otherwise\, pass any paramters
+to the wrappers as you would to the bpipe JAFFA\_\{method\} call in the manual.
 
 
 ============= ===========

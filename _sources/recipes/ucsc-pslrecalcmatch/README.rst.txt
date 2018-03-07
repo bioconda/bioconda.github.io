@@ -5,7 +5,7 @@ ucsc-pslrecalcmatch
 
 |downloads|
 
-Recalculate match\,mismatch\,repMatch columns in psl file\.
+Recalculate match\,mismatch\,repMatch columns in psl file.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

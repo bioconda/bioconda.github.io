@@ -5,7 +5,7 @@ pomegranate
 
 |downloads|
 
-Pomegranate is a graphical models library for Python\, implemented in Cython for speed\.
+Pomegranate is a graphical models library for Python\, implemented in Cython for speed.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/pomegranate/

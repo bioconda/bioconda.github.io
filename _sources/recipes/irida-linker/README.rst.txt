@@ -5,7 +5,7 @@ irida-linker
 
 |downloads|
 
-The NGS Archive Linker is a Perl script used to generate a structure of links for files stored in the IRIDA platform\.
+The NGS Archive Linker is a Perl script used to generate a structure of links for files stored in the IRIDA platform.
 
 ============= ===========
 Home          

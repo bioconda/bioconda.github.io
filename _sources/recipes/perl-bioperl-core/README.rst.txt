@@ -5,7 +5,7 @@ perl-bioperl-core
 
 |downloads|
 
-\"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl\.
+\"Core\" packages for the BioPerl toolkit\; you really should install perl\-bioperl.
 
 ============= ===========
 Home          http://metacpan.org/pod/BioPerl

@@ -5,7 +5,7 @@ ddrage
 
 |downloads|
 
-Simulator for ddRADseq \(double digest restriction site associdated DNA squencing\) datasets\. Generates reads \(FASTQ format\) that can be analyzed and validated using a ground truth file \(YAML\)\.
+Simulator for ddRADseq \(double digest restriction site associdated DNA squencing\) datasets. Generates reads \(FASTQ format\) that can be analyzed and validated using a ground truth file \(YAML\).
 
 ============= ===========
 Home          https://bitbucket.org/genomeinformatics/rage

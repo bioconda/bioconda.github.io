@@ -5,7 +5,7 @@ bioconductor-asgsca
 
 |downloads|
 
-The package provides tools to model and test the association between multiple genotypes and multiple traits\, taking into account the prior biological knowledge\. Genes\, and clinical pathways are incorporated in the model as latent variables\. The method is based on Generalized Structured Component Analysis \(GSCA\)\.
+The package provides tools to model and test the association between multiple genotypes and multiple traits\, taking into account the prior biological knowledge. Genes\, and clinical pathways are incorporated in the model as latent variables. The method is based on Generalized Structured Component Analysis \(GSCA\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ASGSCA.html

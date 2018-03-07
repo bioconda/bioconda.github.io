@@ -5,7 +5,7 @@ manorm
 
 |downloads|
 
-A robust model for quantitative comparison of ChIP\-Seq data sets\.
+A robust model for quantitative comparison of ChIP\-Seq data sets.
 
 ============= ===========
 Home          https://github.com/shao-lab/MAnorm

@@ -5,7 +5,7 @@ ucsc-hgfindspec
 
 |downloads|
 
-Create hgFindSpec table from trackDb\.ra files\.
+Create hgFindSpec table from trackDb.ra files.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

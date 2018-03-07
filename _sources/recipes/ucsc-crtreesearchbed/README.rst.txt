@@ -5,7 +5,7 @@ ucsc-crtreesearchbed
 
 |downloads|
 
-Search a crTree indexed bed file and print all items that overlap query\.
+Search a crTree indexed bed file and print all items that overlap query.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

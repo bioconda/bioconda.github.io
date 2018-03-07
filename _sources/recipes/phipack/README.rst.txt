@@ -5,7 +5,7 @@ phipack
 
 |downloads|
 
-Simple\, rapid\, and statistically efficient test for recombination\.
+Simple\, rapid\, and statistically efficient test for recombination.
 
 ============= ===========
 Home          http://www.maths.otago.ac.nz/~dbryant/software.html

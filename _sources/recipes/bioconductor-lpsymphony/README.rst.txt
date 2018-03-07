@@ -5,7 +5,7 @@ bioconductor-lpsymphony
 
 |downloads|
 
-This package was derived from Rsymphony\_0\.1\-17 from CRAN\. These packages provide an R interface to SYMPHONY\, an open\-source linear programming solver written in C\+\+\. The main difference between this package and Rsymphony is that it includes the solver source code \(SYMPHONY version 5\.6\)\, while Rsymphony expects to find header and library files on the users\' system\. Thus the intention of lpsymphony is to provide an easy to install interface to SYMPHONY\. For Windows\, precompiled DLLs are included in this package\.
+This package was derived from Rsymphony\_0.1\-17 from CRAN. These packages provide an R interface to SYMPHONY\, an open\-source linear programming solver written in C\+\+. The main difference between this package and Rsymphony is that it includes the solver source code \(SYMPHONY version 5.6\)\, while Rsymphony expects to find header and library files on the users\' system. Thus the intention of lpsymphony is to provide an easy to install interface to SYMPHONY. For Windows\, precompiled DLLs are included in this package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lpsymphony.html

@@ -5,7 +5,7 @@ bioconductor-derfinderplot
 
 |downloads|
 
-This package provides plotting functions for results from the derfinder package\.
+This package provides plotting functions for results from the derfinder package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/derfinderPlot.html

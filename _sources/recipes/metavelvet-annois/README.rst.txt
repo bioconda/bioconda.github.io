@@ -5,7 +5,7 @@ metavelvet-annois
 
 |downloads|
 
-Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1\.2\.01
+Metavelvet AnnoIS \- an extra package for metavelvet for versions \< 1.2.01
 
 ============= ===========
 Home          http://metavelvet.dna.bio.keio.ac.jp

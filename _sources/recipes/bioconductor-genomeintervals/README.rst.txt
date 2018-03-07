@@ -5,7 +5,7 @@ bioconductor-genomeintervals
 
 |downloads|
 
- This package defines classes for representing genomic intervals and provides functions and methods for working with these\. Note\: The package provides the basic infrastructure for and is enhanced by the package \'girafe\'\.
+ This package defines classes for representing genomic intervals and provides functions and methods for working with these. Note\: The package provides the basic infrastructure for and is enhanced by the package \'girafe\'.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/genomeIntervals.html

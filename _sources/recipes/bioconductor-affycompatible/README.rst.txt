@@ -5,7 +5,7 @@ bioconductor-affycompatible
 
 |downloads|
 
-This package provides an interface to Affymetrix chip annotation and sample attribute files\. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files\. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files\.
+This package provides an interface to Affymetrix chip annotation and sample attribute files. The package allows an easy way for users to download and manage local data bases of Affynmetrix NetAffx annotation files. The package also provides access to GeneChip Operating System \(GCOS\) and GeneChip Command Console \(AGCC\)\-compatible sample annotation files.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AffyCompatible.html

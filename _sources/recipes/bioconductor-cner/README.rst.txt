@@ -5,7 +5,7 @@ bioconductor-cner
 
 |downloads|
 
-Large\-scale identification and advanced visualization of sets of conserved noncoding elements\.
+Large\-scale identification and advanced visualization of sets of conserved noncoding elements.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CNEr.html

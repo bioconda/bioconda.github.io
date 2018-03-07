@@ -5,7 +5,7 @@ besst
 
 |downloads|
 
-Scaffolder for genomic assemblies\.
+Scaffolder for genomic assemblies.
 
 ============= ===========
 Home          https://github.com/ksahlin/BESST

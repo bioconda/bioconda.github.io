@@ -5,7 +5,7 @@ ucsc-mafspeciessubset
 
 |downloads|
 
-Extract a maf that just has a subset of species\.
+Extract a maf that just has a subset of species.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

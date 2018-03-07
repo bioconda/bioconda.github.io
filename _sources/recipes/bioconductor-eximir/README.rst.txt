@@ -5,7 +5,7 @@ bioconductor-eximir
 
 |downloads|
 
-This package contains functions for reading raw data in ImaGene TXT format obtained from Exiqon miRCURY LNA arrays\, annotating them with appropriate GAL files\, and normalizing them using a spike\-in probe\-based method\. Other platforms and data formats are also supported\.
+This package contains functions for reading raw data in ImaGene TXT format obtained from Exiqon miRCURY LNA arrays\, annotating them with appropriate GAL files\, and normalizing them using a spike\-in probe\-based method. Other platforms and data formats are also supported.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ExiMiR.html

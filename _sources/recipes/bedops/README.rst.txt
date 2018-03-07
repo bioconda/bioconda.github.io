@@ -5,7 +5,7 @@ bedops
 
 |downloads|
 
-High\-performance genomic feature operations\.
+High\-performance genomic feature operations.
 
 ============= ===========
 Home          http://bedops.readthedocs.io

@@ -5,7 +5,7 @@ bioconductor-spacepac
 
 |downloads|
 
-Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure\.
+Identifies clustering of somatic mutations in proteins via a simulation approach while considering the protein\'s tertiary structure.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SpacePAC.html

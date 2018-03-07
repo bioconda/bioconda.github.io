@@ -5,7 +5,7 @@ intervals
 
 |downloads|
 
-Python tools for handling intervals \(ranges of comparable objects\)\.
+Python tools for handling intervals \(ranges of comparable objects\).
 
 ============= ===========
 Home          https://github.com/kvesteri/intervals

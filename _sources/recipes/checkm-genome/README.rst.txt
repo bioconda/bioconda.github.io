@@ -5,7 +5,7 @@ checkm-genome
 
 |downloads|
 
-Assess the quality of putative genome bins\.
+Assess the quality of putative genome bins.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/checkm/

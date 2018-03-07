@@ -5,7 +5,7 @@ star
 
 |downloads|
 
-An RNA\-seq read aligner\.
+An RNA\-seq read aligner.
 
 ============= ===========
 Home          https://github.com/alexdobin/STAR

@@ -5,7 +5,7 @@ samblaster
 
 |downloads|
 
-A tool to mark duplicates and extract discordant and split reads from sam files\.
+A tool to mark duplicates and extract discordant and split reads from sam files.
 
 ============= ===========
 Home          https://github.com/GregoryFaust/samblaster

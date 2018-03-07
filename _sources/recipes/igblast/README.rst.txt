@@ -5,7 +5,7 @@ igblast
 
 |downloads|
 
-A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences\.
+A tool for analyzing immunoglobulin \(IG\) and T cell receptor \(TR\) sequences.
 
 ============= ===========
 Home          http://www.ncbi.nlm.nih.gov/projects/igblast/

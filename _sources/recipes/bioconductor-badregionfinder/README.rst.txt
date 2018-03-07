@@ -5,7 +5,7 @@ bioconductor-badregionfinder
 
 |downloads|
 
-BadRegionFinder is a package for identifying regions with a bad\, acceptable and good coverage in sequence alignment data available as bam files\. The whole genome may be considered as well as a set of target regions\. Various visual and textual types of output are available\.
+BadRegionFinder is a package for identifying regions with a bad\, acceptable and good coverage in sequence alignment data available as bam files. The whole genome may be considered as well as a set of target regions. Various visual and textual types of output are available.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BadRegionFinder.html

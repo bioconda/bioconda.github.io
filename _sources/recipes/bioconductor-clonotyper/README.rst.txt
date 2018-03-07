@@ -5,7 +5,7 @@ bioconductor-clonotyper
 
 |downloads|
 
-High throughput analysis of T cell antigen receptor sequences The genes encoding T cell receptors are created by somatic recombination\, generating an immense combination of V\, \(D\) and J segments\. Additional processes during the recombination create extra sequence diversity between the V an J segments\. Collectively\, this hyper\-variable region is called the CDR3 loop\. The purpose of this package is to process and quantitatively analyse millions of V\-CDR3\-J combination\, called clonotypes\, from multiple sequence libraries\.
+High throughput analysis of T cell antigen receptor sequences The genes encoding T cell receptors are created by somatic recombination\, generating an immense combination of V\, \(D\) and J segments. Additional processes during the recombination create extra sequence diversity between the V an J segments. Collectively\, this hyper\-variable region is called the CDR3 loop. The purpose of this package is to process and quantitatively analyse millions of V\-CDR3\-J combination\, called clonotypes\, from multiple sequence libraries.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/clonotypeR.html

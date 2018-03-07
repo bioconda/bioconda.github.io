@@ -5,7 +5,7 @@ tadarida-d
 
 |downloads|
 
-Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use\.
+Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection and Feature extraction part\) for Galaxy use.
 
 ============= ===========
 Home          https://github.com/YvesBas/Tadarida-D

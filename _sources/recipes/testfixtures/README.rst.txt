@@ -5,7 +5,7 @@ testfixtures
 
 |downloads|
 
-A collection of helpers and mock objects for unit tests and doc tests\.
+A collection of helpers and mock objects for unit tests and doc tests.
 
 ============= ===========
 Home          https://github.com/Simplistix/testfixtures

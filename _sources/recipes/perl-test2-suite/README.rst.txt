@@ -5,7 +5,7 @@ perl-test2-suite
 
 |downloads|
 
-Distribution with a rich set of tools built upon the Test2 framework\.
+Distribution with a rich set of tools built upon the Test2 framework.
 
 ============= ===========
 Home          http://metacpan.org/pod/Test2::Suite

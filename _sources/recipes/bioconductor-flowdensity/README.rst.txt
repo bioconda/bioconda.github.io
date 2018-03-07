@@ -5,7 +5,7 @@ bioconductor-flowdensity
 
 |downloads|
 
-This package provides tools for automated sequential gating analogous to the manual gating strategy based on the density of the data\.
+This package provides tools for automated sequential gating analogous to the manual gating strategy based on the density of the data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flowDensity.html

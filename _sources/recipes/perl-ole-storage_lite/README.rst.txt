@@ -5,7 +5,7 @@ perl-ole-storage_lite
 
 |downloads|
 
-Read and write OLE storage files\.
+Read and write OLE storage files.
 
 ============= ===========
 Home          http://metacpan.org/pod/OLE-Storage_Lite

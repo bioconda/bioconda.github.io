@@ -5,7 +5,7 @@ bioconductor-yeastcc
 
 |downloads|
 
-ExpressionSet for Spellman et al\. \(1998\) yeast cell cycle microarray experiment
+ExpressionSet for Spellman et al. \(1998\) yeast cell cycle microarray experiment
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/yeastCC.html

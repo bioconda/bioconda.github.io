@@ -5,7 +5,7 @@ bioconductor-rdgidb
 
 |downloads|
 
-The rDGIdb package provides a wrapper for the Drug Gene Interaction Database \(DGIdb\)\. For simplicity\, the wrapper query function and output resembles the user interface and results format provided on the DGIdb website \(http\:\/\/dgidb\.genome\.wustl\.edu\/\)\.
+The rDGIdb package provides a wrapper for the Drug Gene Interaction Database \(DGIdb\). For simplicity\, the wrapper query function and output resembles the user interface and results format provided on the DGIdb website \(http\:\/\/dgidb.genome.wustl.edu\/\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rDGIdb.html

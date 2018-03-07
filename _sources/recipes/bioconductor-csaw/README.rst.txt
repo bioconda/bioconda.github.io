@@ -5,7 +5,7 @@ bioconductor-csaw
 
 |downloads|
 
-Detection of differentially bound regions in ChIP\-seq data with sliding windows\, with methods for normalization and proper FDR control\.
+Detection of differentially bound regions in ChIP\-seq data with sliding windows\, with methods for normalization and proper FDR control.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/csaw.html

@@ -5,7 +5,7 @@ ucsc-psltobed
 
 |downloads|
 
- transform a psl format file to a bed format file\. 
+ transform a psl format file to a bed format file. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

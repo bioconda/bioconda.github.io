@@ -4,21 +4,13 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Linting &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript">
-      var DOCUMENTATION_OPTIONS = {
-        URL_ROOT:    './',
-        VERSION:     '',
-        COLLAPSE_INDEX: false,
-        FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true,
-        SOURCELINK_SUFFIX: '.txt'
-      };
-    </script>
+    <script type="text/javascript" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -60,8 +52,7 @@ $(document).ready(function() {
 } );
 </script>
 
-  </head>
-  <body>
+  </head><body>
   
 
     <div class="document">
@@ -81,25 +72,25 @@ is a list of the checks performed and how to fix them if they fail.</p>
 <div class="section" id="skipping-on-a-per-commit-basis">
 <h3>Skipping on a per-commit basis<a class="headerlink" href="#skipping-on-a-per-commit-basis" title="Permalink to this headline">¶</a></h3>
 <p>While only recommended in special cases, it is possible to skip specific
-linting tests on a commit by using special text in the commit message, <code class="docutils literal"><span class="pre">[lint</span>
-<span class="pre">skip</span> <span class="pre">$FUNCTION</span> <span class="pre">for</span> <span class="pre">$RECIPE]</span></code> where <code class="docutils literal"><span class="pre">$FUNCTION</span></code> is the name of the function to
-skip and <code class="docutils literal"><span class="pre">$RECIPE</span></code> is the path to the recipe directory for which this test
+linting tests on a commit by using special text in the commit message, <code class="docutils literal notranslate"><span class="pre">[lint</span>
+<span class="pre">skip</span> <span class="pre">$FUNCTION</span> <span class="pre">for</span> <span class="pre">$RECIPE]</span></code> where <code class="docutils literal notranslate"><span class="pre">$FUNCTION</span></code> is the name of the function to
+skip and <code class="docutils literal notranslate"><span class="pre">$RECIPE</span></code> is the path to the recipe directory for which this test
 should be skipped.</p>
-<p>For example, if the linter reports a <code class="docutils literal"><span class="pre">uses_setuptools</span></code> issue for
-<code class="docutils literal"><span class="pre">recipes/mypackage</span></code>, but you are certain the package really needs
-setuptools, you can add <code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/mypackage]</span></code>
+<p>For example, if the linter reports a <code class="docutils literal notranslate"><span class="pre">uses_setuptools</span></code> issue for
+<code class="docutils literal notranslate"><span class="pre">recipes/mypackage</span></code>, but you are certain the package really needs
+setuptools, you can add <code class="docutils literal notranslate"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/mypackage]</span></code>
 to the commit message and this linting test will be skipped on CircleCI.
 Multiple tests can be skipped by adding additional special text. For example,
-<code class="docutils literal"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/pkg1]</span> <span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">in_other_channels</span> <span class="pre">for</span>
+<code class="docutils literal notranslate"><span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">uses_setuptools</span> <span class="pre">for</span> <span class="pre">recipes/pkg1]</span> <span class="pre">[lint</span> <span class="pre">skip</span> <span class="pre">in_other_channels</span> <span class="pre">for</span>
 <span class="pre">recipes/pkg2/0.3.5]</span></code>. Note in the latter case that the second recipe has
 a subdirectory for an older version.</p>
-<p>Technically we check for the regular expression <code class="docutils literal"><span class="pre">\[\s*lint</span> <span class="pre">skip</span> <span class="pre">(?P&lt;func&gt;\w+)</span>
+<p>Technically we check for the regular expression <code class="docutils literal notranslate"><span class="pre">\[\s*lint</span> <span class="pre">skip</span> <span class="pre">(?P&lt;func&gt;\w+)</span>
 <span class="pre">for</span> <span class="pre">(?P&lt;recipe&gt;.*?)\s*\]</span></code> in the commit message of the HEAD commit. However,
 often we want to test changes locally without committing.  When running
 locally for testing, you can add the same special text to a temporary
-environment variable <code class="docutils literal"><span class="pre">LINT_SKIP</span></code>. The same example above could be tested
+environment variable <code class="docutils literal notranslate"><span class="pre">LINT_SKIP</span></code>. The same example above could be tested
 locally like this without having to make a commit:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="n">circleci</span> <span class="n">build</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">LINT_SKIP</span><span class="o">=</span><span class="s2">&quot;[lint skip uses_setuptools for recipes/mypackage]&quot;</span> <span class="n">circleci</span> <span class="n">build</span>
 </pre></div>
 </div>
 </div>
@@ -108,9 +99,9 @@ locally like this without having to make a commit:</p>
 <p>Sometimes a recipe will always fail linting. For example, in rare cases the
 source for a recipe may only be available as a <cite>git_url</cite> or may require
 <cite>setuptools</cite> as a runtime dependency. In these cases, add an <cite>extra:
-skip-lints</cite> list to the <code class="docutils literal"><span class="pre">meta.yaml</span></code> indicating which lints should be
+skip-lints</cite> list to the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> indicating which lints should be
 skipped, for example:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
   <span class="n">skip</span><span class="o">-</span><span class="n">lints</span><span class="p">:</span>
     <span class="o">-</span> <span class="n">uses_git_url</span>
     <span class="o">-</span> <span class="n">uses_setuptools</span>
@@ -185,27 +176,27 @@ corrupted.</p>
 </div>
 <div class="section" id="should-be-noarch-currently-disabled">
 <h3><cite>should_be_noarch</cite> (currently disabled)<a class="headerlink" href="#should-be-noarch-currently-disabled" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The package should be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
-<p>Rationale: A <code class="docutils literal"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
-packages that do not require compilation. With this a single <code class="docutils literal"><span class="pre">noarch</span></code> package can be
+<p>Reason for failing: The package should be labelled as <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
+<p>Rationale: A <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
+packages that do not require compilation. With this a single <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package can be
 used across multiple platforms and (in case of Python) Python versions, which saves
 on build time and saves on storage space on the bioconda channel.</p>
-<p>How to resolve: For pure Python packages, add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
+<p>How to resolve: For pure Python packages, add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.
 <strong>Don’t do this if your Python package has a command line interface</strong>, as these are not
 independent of the Python version!
-For other generic packages (like a data package), add <code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal"><span class="pre">build</span></code> section.
+For other generic packages (like a data package), add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.
 See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
 more details.</p>
 </div>
 <div class="section" id="should-not-be-noarch">
 <h3><cite>should_not_be_noarch</cite><a class="headerlink" href="#should-not-be-noarch" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The package should <strong>not</strong> be labelled as <code class="docutils literal"><span class="pre">noarch</span></code>.</p>
+<p>Reason for failing: The package should <strong>not</strong> be labelled as <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
 <p>Rationale: The package defines gcc as a dependency, or it contains a build/skip
 section. In both cases, this means that there should be platform specific
 versions of this package. This also holds for skipping Python versions, because
-<code class="docutils literal"><span class="pre">noarch:</span> <span class="pre">python</span></code> also implies that the resulting package will work with <strong>all</strong>
+<code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> also implies that the resulting package will work with <strong>all</strong>
 Python versions. This is typically not the case if you skip a Python version.</p>
-<p>How to resolve: Remove the <code class="docutils literal"><span class="pre">noarch</span></code> statement.</p>
+<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">noarch</span></code> statement.</p>
 </div>
 <div class="section" id="uses-git-url">
 <h3><cite>uses_git_url</cite><a class="headerlink" href="#uses-git-url" title="Permalink to this headline">¶</a></h3>
@@ -220,60 +211,60 @@ github repo.</p>
 </div>
 <div class="section" id="uses-perl-threaded">
 <h3><cite>uses_perl_threaded</cite><a class="headerlink" href="#uses-perl-threaded" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe has a dependency of <code class="docutils literal"><span class="pre">perl-threaded</span></code>.</p>
-<p>Rationale: Previously bioconda used <code class="docutils literal"><span class="pre">perl-threaded</span></code> as a dependency for Perl
-packages, but now we are using <code class="docutils literal"><span class="pre">perl</span></code> instead. When one of these older recipes
+<p>Reason for failing: The recipe has a dependency of <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code>.</p>
+<p>Rationale: Previously bioconda used <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code> as a dependency for Perl
+packages, but now we are using <code class="docutils literal notranslate"><span class="pre">perl</span></code> instead. When one of these older recipes
 is updated, it will fail this check.</p>
-<p>How to resolve: Change <code class="docutils literal"><span class="pre">perl-threaded</span></code> to <code class="docutils literal"><span class="pre">perl</span></code>.</p>
+<p>How to resolve: Change <code class="docutils literal notranslate"><span class="pre">perl-threaded</span></code> to <code class="docutils literal notranslate"><span class="pre">perl</span></code>.</p>
 </div>
 <div class="section" id="uses-javajdk">
 <h3><cite>uses_javajdk</cite><a class="headerlink" href="#uses-javajdk" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe has a dependency of <code class="docutils literal"><span class="pre">java-jdk</span></code>.</p>
-<p>Rationale: Previously bioconda used <code class="docutils literal"><span class="pre">java-jdk</span></code> as a dependency for Java
-packages, but now we are using <code class="docutils literal"><span class="pre">openjdk</span></code> instead. When one of those older
+<p>Reason for failing: The recipe has a dependency of <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code>.</p>
+<p>Rationale: Previously bioconda used <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code> as a dependency for Java
+packages, but now we are using <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> instead. When one of those older
 recipes is updated, it will fail this check.</p>
-<p>How to resolve: Change <code class="docutils literal"><span class="pre">java-jdk</span></code> to <code class="docutils literal"><span class="pre">openjdk</span></code>.</p>
+<p>How to resolve: Change <code class="docutils literal notranslate"><span class="pre">java-jdk</span></code> to <code class="docutils literal notranslate"><span class="pre">openjdk</span></code>.</p>
 </div>
 <div class="section" id="uses-setuptools-currently-disabled">
 <h3><cite>uses_setuptools</cite> (currently disabled)<a class="headerlink" href="#uses-setuptools-currently-disabled" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe has <code class="docutils literal"><span class="pre">setuptools</span></code> as a run dependency.</p>
-<p>Rationale: <code class="docutils literal"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
+<p>Reason for failing: The recipe has <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> as a run dependency.</p>
+<p>Rationale: <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is typically used to install dependencies for Python
 packages but most of the time this is not needed within a conda package as
 a run dependency.</p>
 <p>How to resolve: Ensure that all dependencies are explicitly defined. Some
-packages do need <code class="docutils literal"><span class="pre">setuptools</span></code>, in which case this can be overridden.
-<code class="docutils literal"><span class="pre">setuptools</span></code> may be required, e.g., if a package loads resources via
-<code class="docutils literal"><span class="pre">pkg_resources</span></code> which is part of <code class="docutils literal"><span class="pre">setuptools</span></code>. That dependency can also be
-introduced implicitly when <code class="docutils literal"><span class="pre">setuptools</span></code>-created console scripts are used.
-To avoid this, make sure to carry <code class="docutils literal"><span class="pre">console_scripts</span></code> entry points from
-<code class="docutils literal"><span class="pre">setup.py</span></code> over to <code class="docutils literal"><span class="pre">meta.yaml</span></code> to replace them with scripts created by
-<code class="docutils literal"><span class="pre">conda</span></code>/<code class="docutils literal"><span class="pre">conda-build</span></code> which don’t require <code class="docutils literal"><span class="pre">pkg_resources</span></code>.</p>
+packages do need <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>, in which case this can be overridden.
+<code class="docutils literal notranslate"><span class="pre">setuptools</span></code> may be required, e.g., if a package loads resources via
+<code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code> which is part of <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>. That dependency can also be
+introduced implicitly when <code class="docutils literal notranslate"><span class="pre">setuptools</span></code>-created console scripts are used.
+To avoid this, make sure to carry <code class="docutils literal notranslate"><span class="pre">console_scripts</span></code> entry points from
+<code class="docutils literal notranslate"><span class="pre">setup.py</span></code> over to <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> to replace them with scripts created by
+<code class="docutils literal notranslate"><span class="pre">conda</span></code>/<code class="docutils literal notranslate"><span class="pre">conda-build</span></code> which don’t require <code class="docutils literal notranslate"><span class="pre">pkg_resources</span></code>.</p>
 </div>
 <div class="section" id="has-windows-bat-file">
 <h3><cite>has_windows_bat_file</cite><a class="headerlink" href="#has-windows-bat-file" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe includes a <code class="docutils literal"><span class="pre">.bat</span></code> file.</p>
-<p>Rationale: Often when using one of the skeleton commands (<code class="docutils literal"><span class="pre">conda</span> <span class="pre">skeleton</span>
-<span class="pre">{cran,pypi,cpan}</span></code>), the command will include a Windows <code class="docutils literal"><span class="pre">.bat</span></code> file. Since
-bioconda does not support Windows, any <code class="docutils literal"><span class="pre">*.bat</span></code> files are unused and to reduce
+<p>Reason for failing: The recipe includes a <code class="docutils literal notranslate"><span class="pre">.bat</span></code> file.</p>
+<p>Rationale: Often when using one of the skeleton commands (<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span>
+<span class="pre">{cran,pypi,cpan}</span></code>), the command will include a Windows <code class="docutils literal notranslate"><span class="pre">.bat</span></code> file. Since
+bioconda does not support Windows, any <code class="docutils literal notranslate"><span class="pre">*.bat</span></code> files are unused and to reduce
 clutter we try to remove them.</p>
-<p>How to resolve: Remove the <code class="docutils literal"><span class="pre">.bat</span></code> file from the recipe.</p>
+<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">.bat</span></code> file from the recipe.</p>
 </div>
 <div class="section" id="setup-py-install-args">
 <h3><cite>setup_py_install_args</cite><a class="headerlink" href="#setup-py-install-args" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe has <code class="docutils literal"><span class="pre">setuptools</span></code> as a build dependency, but
-<code class="docutils literal"><span class="pre">build.sh</span></code> needs to use certain arguments when running <code class="docutils literal"><span class="pre">setup.py</span></code>.</p>
+<p>Reason for failing: The recipe has <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> as a build dependency, but
+<code class="docutils literal notranslate"><span class="pre">build.sh</span></code> needs to use certain arguments when running <code class="docutils literal notranslate"><span class="pre">setup.py</span></code>.</p>
 <p>Rationale: When a package depends on setuptools, we have to disable some parts
 of setuptools during installation to make it work correctly with conda. In
 particular, it seems that packages depend on other packages that specify entry
-points (e.g., <code class="docutils literal"><span class="pre">pyfaidx</span></code>) will cause errors about how <code class="docutils literal"><span class="pre">setuptools</span></code> is not
-allowed to install <code class="docutils literal"><span class="pre">certifi</span></code> in a conda package.</p>
-<p>How to resolve: Change the line in either in <code class="docutils literal"><span class="pre">build.sh</span></code> or the
-<code class="docutils literal"><span class="pre">build:script</span></code> key in <code class="docutils literal"><span class="pre">meta.yaml</span></code> from:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$PYTHON setup.py install
+points (e.g., <code class="docutils literal notranslate"><span class="pre">pyfaidx</span></code>) will cause errors about how <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> is not
+allowed to install <code class="docutils literal notranslate"><span class="pre">certifi</span></code> in a conda package.</p>
+<p>How to resolve: Change the line in either in <code class="docutils literal notranslate"><span class="pre">build.sh</span></code> or the
+<code class="docutils literal notranslate"><span class="pre">build:script</span></code> key in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> from:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install
 </pre></div>
 </div>
 <p>to:</p>
-<div class="highlight-default"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$PYTHON setup.py install --single-version-externally-managed --record=record.txt
 </pre></div>
 </div>
 </div>
@@ -281,24 +272,24 @@ allowed to install <code class="docutils literal"><span class="pre">certifi</spa
 <h3><cite>*_not_pinned</cite><a class="headerlink" href="#not-pinned" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The recipe has dependencies that need to be pinned to
 a specific version all across bioconda.</p>
-<p>Rationale: Sometimes when a core dependency (like <code class="docutils literal"><span class="pre">zlib</span></code>, which is used across
+<p>Rationale: Sometimes when a core dependency (like <code class="docutils literal notranslate"><span class="pre">zlib</span></code>, which is used across
 many recipes) is updated it breaks backwards compatibility. In order to avoid
 this, for known-to-be-problematic dependencies we pin to a specific version
 across all recipes.</p>
 <p>How to resolve: Change the dependency line as follows. For each dependency
 failing the linting, specify a jinja-templated version by converting it to
-uppercase, prefixing it with <code class="docutils literal"><span class="pre">CONDA_</span></code>, adding double braces, and adding a <code class="docutils literal"><span class="pre">*</span></code>.</p>
+uppercase, prefixing it with <code class="docutils literal notranslate"><span class="pre">CONDA_</span></code>, adding double braces, and adding a <code class="docutils literal notranslate"><span class="pre">*</span></code>.</p>
 <p>Examples are much easier to understand:</p>
 <ul class="simple">
-<li><code class="docutils literal"><span class="pre">zlib</span></code> should become <code class="docutils literal"><span class="pre">zlib</span> <span class="pre">{{</span> <span class="pre">CONDA_ZLIB</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal"><span class="pre">ncurses</span></code> should become <code class="docutils literal"><span class="pre">ncurses</span> <span class="pre">{{</span> <span class="pre">CONDA_NCURSES</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal"><span class="pre">htslib</span></code> should become <code class="docutils literal"><span class="pre">htslib</span> <span class="pre">{{</span> <span class="pre">CONDA_HTSLIB</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal"><span class="pre">boost</span></code> should become <code class="docutils literal"><span class="pre">boost</span> <span class="pre">{{</span> <span class="pre">CONDA_BOOST</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">zlib</span></code> should become <code class="docutils literal notranslate"><span class="pre">zlib</span> <span class="pre">{{</span> <span class="pre">CONDA_ZLIB</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">ncurses</span></code> should become <code class="docutils literal notranslate"><span class="pre">ncurses</span> <span class="pre">{{</span> <span class="pre">CONDA_NCURSES</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">htslib</span></code> should become <code class="docutils literal notranslate"><span class="pre">htslib</span> <span class="pre">{{</span> <span class="pre">CONDA_HTSLIB</span> <span class="pre">}}*</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">boost</span></code> should become <code class="docutils literal notranslate"><span class="pre">boost</span> <span class="pre">{{</span> <span class="pre">CONDA_BOOST</span> <span class="pre">}}*</span></code></li>
 <li>… and so on.</li>
 </ul>
-<p>Here is an example in the context of a <code class="docutils literal"><span class="pre">meta.yaml</span></code> file where <code class="docutils literal"><span class="pre">zlib</span></code> needs to be
+<p>Here is an example in the context of a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file where <code class="docutils literal notranslate"><span class="pre">zlib</span></code> needs to be
 pinned:</p>
-<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="c1"># this will give a linting error because zlib is not pinned</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># this will give a linting error because zlib is not pinned</span>
 <span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
 <span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
@@ -307,7 +298,7 @@ pinned:</p>
 </pre></div>
 </div>
 <p>And here is the fixed version:</p>
-<div class="highlight-yaml"><div class="highlight"><pre><span></span><span class="c1"># fixed:</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># fixed:</span>
 <span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
   <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib {{ CONDA_ZLIB }}*</span>
 <span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
@@ -320,7 +311,7 @@ pinned:</p>
 <div class="section" id="developer-docs">
 <h2>Developer docs<a class="headerlink" href="#developer-docs" title="Permalink to this headline">¶</a></h2>
 <p>For developers adding new linting functions:</p>
-<p>Lint functions are defined in <code class="docutils literal"><span class="pre">bioconda_utils.lint_functions</span></code>. Each function
+<p>Lint functions are defined in <code class="docutils literal notranslate"><span class="pre">bioconda_utils.lint_functions</span></code>. Each function
 accepts three arguments:</p>
 <ul class="simple">
 <li><cite>recipe</cite>, the path to the recipe</li>
@@ -340,7 +331,7 @@ should return a dictionary. The keys in the dict will be propagated to columns
 of a pandas DataFrame for downstream processing and so can be somewhat
 arbitrary.</p>
 <p>After adding a new linting function, add it to the
-<code class="docutils literal"><span class="pre">bioconda_utils.lint_functions.registry</span></code> tuple so that it gets used by
+<code class="docutils literal notranslate"><span class="pre">bioconda_utils.lint_functions.registry</span></code> tuple so that it gets used by
 default.</p>
 </div>
 </div>
@@ -410,7 +401,7 @@ default.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.6.6</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.1</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |

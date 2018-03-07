@@ -5,7 +5,7 @@ maker
 
 |downloads|
 
-MAKER is a portable and easily configurable genome annotation pipeline\.
+MAKER is a portable and easily configurable genome annotation pipeline.
 
 ============= ===========
 Home          http://www.yandell-lab.org/software/maker.html

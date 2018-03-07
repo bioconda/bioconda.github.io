@@ -5,7 +5,7 @@ bioconductor-pviz
 
 |downloads|
 
-Pviz adapts the Gviz package for protein sequences and data\.
+Pviz adapts the Gviz package for protein sequences and data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Pviz.html

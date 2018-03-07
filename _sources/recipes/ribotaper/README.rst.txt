@@ -5,7 +5,7 @@ ribotaper
 
 |downloads|
 
-RiboTaper is a new analysis pipeline for Ribosome Profiling \(Ribo\-seq\) experiments\, which exploits the triplet periodicity of ribosomal footprints to call translated regions\.
+RiboTaper is a new analysis pipeline for Ribosome Profiling \(Ribo\-seq\) experiments\, which exploits the triplet periodicity of ribosomal footprints to call translated regions.
 
 ============= ===========
 Home          https://ohlerlab.mdc-berlin.de/software/RiboTaper_126/

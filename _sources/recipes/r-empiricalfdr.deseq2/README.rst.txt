@@ -5,7 +5,7 @@ r-empiricalfdr.deseq2
 
 |downloads|
 
-Auxiliary functions for the DESeq2 package to simulate read counts according to the null hypothesis \(i\.e\.\, with empirical sample size factors\, per\-gene total counts and dispersions\, but without effects of predictor variables\) and to compute the empirical false discovery rate\.
+Auxiliary functions for the DESeq2 package to simulate read counts according to the null hypothesis \(i.e.\, with empirical sample size factors\, per\-gene total counts and dispersions\, but without effects of predictor variables\) and to compute the empirical false discovery rate.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=empiricalFDR.DESeq2

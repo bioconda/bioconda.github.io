@@ -5,7 +5,7 @@ disty
 
 |downloads|
 
-Disty McMatrixface \- compute a distance matrix from a core genome alignment file\.
+Disty McMatrixface \- compute a distance matrix from a core genome alignment file.
 
 ============= ===========
 Home          https://github.com/c2-d2/disty

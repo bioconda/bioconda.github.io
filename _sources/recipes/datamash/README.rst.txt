@@ -5,7 +5,7 @@ datamash
 
 |downloads|
 
-GNU Datamash is a command\-line program which performs basic numeric\,textual and statistical operations on input textual data files\.
+GNU Datamash is a command\-line program which performs basic numeric\,textual and statistical operations on input textual data files.
 
 ============= ===========
 Home          http://www.gnu.org/software/datamash

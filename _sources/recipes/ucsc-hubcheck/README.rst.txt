@@ -5,7 +5,7 @@ ucsc-hubcheck
 
 |downloads|
 
-Check a track data hub for integrity\.
+Check a track data hub for integrity.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

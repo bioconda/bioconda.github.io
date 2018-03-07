@@ -5,7 +5,7 @@ bioconductor-isolde
 
 |downloads|
 
-This package provides ISoLDE a new method for identifying imprinted genes\. This method is dedicated to data arising from RNA sequencing technologies\. The ISoLDE package implements original statistical methodology described in the publication below\.
+This package provides ISoLDE a new method for identifying imprinted genes. This method is dedicated to data arising from RNA sequencing technologies. The ISoLDE package implements original statistical methodology described in the publication below.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ISoLDE.html

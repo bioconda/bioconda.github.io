@@ -5,7 +5,7 @@ paml
 
 |downloads|
 
-A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood\.
+A package of programs for phylogenetic analyses of DNA or protein sequences using maximum likelihood.
 
 ============= ===========
 Home          http://abacus.gene.ucl.ac.uk/software/paml.html

@@ -5,7 +5,7 @@ vcflatten
 
 |downloads|
 
-A command line tool for flattening VCF files down to simpler TSV files\.
+A command line tool for flattening VCF files down to simpler TSV files.
 
 ============= ===========
 Home          http://innovativemedicine.ca/tools/vcflatten

@@ -5,7 +5,7 @@ hapflk
 
 |downloads|
 
-hapflk is a software implementing the hapFLK and FLK tests for the detection of selection signatures based on multiple population genotyping data\.
+hapflk is a software implementing the hapFLK and FLK tests for the detection of selection signatures based on multiple population genotyping data.
 
 ============= ===========
 Home          https://forge-dga.jouy.inra.fr/projects/hapflk

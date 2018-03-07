@@ -5,7 +5,7 @@ qiime-default-reference
 
 |downloads|
 
-Default reference data files for use with QIIME\.
+Default reference data files for use with QIIME.
 
 ============= ===========
 Home          http://www.qiime.org

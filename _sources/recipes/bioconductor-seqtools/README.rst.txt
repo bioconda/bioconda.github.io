@@ -5,7 +5,7 @@ bioconductor-seqtools
 
 |downloads|
 
-Analyze read length\, phred scores and alphabet frequency and DNA k\-mers on uncompressed and compressed fastq files\.
+Analyze read length\, phred scores and alphabet frequency and DNA k\-mers on uncompressed and compressed fastq files.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/seqTools.html

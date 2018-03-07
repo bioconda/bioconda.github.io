@@ -5,7 +5,7 @@ ghostx
 
 |downloads|
 
-GHOSTX is a homology search tool which can detect remote homologues like BLAST and is about 100 times more efficient than BLAST by using suffix arrays\. GHOSTX outputs search results in the format similar to BLAST\-tabular format\.
+GHOSTX is a homology search tool which can detect remote homologues like BLAST and is about 100 times more efficient than BLAST by using suffix arrays. GHOSTX outputs search results in the format similar to BLAST\-tabular format.
 
 ============= ===========
 Home          http://www.bi.cs.titech.ac.jp/ghostx/

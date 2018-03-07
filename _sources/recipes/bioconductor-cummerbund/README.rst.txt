@@ -5,7 +5,7 @@ bioconductor-cummerbund
 
 |downloads|
 
-Allows for persistent storage\, access\, exploration\, and manipulation of Cufflinks high\-throughput sequencing data\.  In addition\, provides numerous plotting functions for commonly used visualizations\.
+Allows for persistent storage\, access\, exploration\, and manipulation of Cufflinks high\-throughput sequencing data.  In addition\, provides numerous plotting functions for commonly used visualizations.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cummeRbund.html

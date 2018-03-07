@@ -5,7 +5,7 @@ genometools
 
 |downloads|
 
-GenomeTools\: Scripts and Classes For Working With Genomic Data\.
+GenomeTools\: Scripts and Classes For Working With Genomic Data.
 
 ============= ===========
 Home          https://github.com/flo-compbio/genometools

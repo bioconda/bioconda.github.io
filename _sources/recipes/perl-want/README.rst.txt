@@ -5,7 +5,7 @@ perl-want
 
 |downloads|
 
-This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used\.
+This module generalises the mechanism of the wantarray function\, allowing a function to determine in some detail how its return value is going to be immediately used.
 
 ============= ===========
 Home          http://search.cpan.org/~robin/Want-0.29/Want.pm

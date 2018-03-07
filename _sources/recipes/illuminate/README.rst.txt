@@ -5,7 +5,7 @@ illuminate
 
 |downloads|
 
-Analytics toolkit for Illumina sequencer metrics\.
+Analytics toolkit for Illumina sequencer metrics.
 
 ============= ===========
 Home          https://bitbucket.org/invitae/illuminate

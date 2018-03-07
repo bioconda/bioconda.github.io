@@ -5,7 +5,7 @@ r-metarnaseq
 
 |downloads|
 
-Implementation of two p\-value combination techniques \(inverse normal and Fisher methods\)\. A vignette is provided to explain how to perform a meta\-analysis from two independent RNA\-seq experiments\.
+Implementation of two p\-value combination techniques \(inverse normal and Fisher methods\). A vignette is provided to explain how to perform a meta\-analysis from two independent RNA\-seq experiments.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=metaRNASeq

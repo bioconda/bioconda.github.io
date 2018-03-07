@@ -5,7 +5,7 @@ perl-file-copy-link
 
 |downloads|
 
-Perl extension for replacing a link by a copy of the linked file\.
+Perl extension for replacing a link by a copy of the linked file.
 
 ============= ===========
 Home          https://metacpan.org/pod/File::Copy::Link

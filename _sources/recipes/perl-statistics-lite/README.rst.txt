@@ -5,7 +5,7 @@ perl-statistics-lite
 
 |downloads|
 
-Small stats stuff\.
+Small stats stuff.
 
 ============= ===========
 Home          http://metacpan.org/pod/Statistics-Lite

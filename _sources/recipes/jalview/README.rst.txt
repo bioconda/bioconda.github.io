@@ -5,9 +5,9 @@ jalview
 
 |downloads|
 
-Jalview is a free program for multiple sequence alignment editing\, visualisation and analysis\.
+Jalview is a free program for multiple sequence alignment editing\, visualisation and analysis.
 Use it to view and edit sequence alignments\, analyse them with phylogenetic trees and principal
-components analysis \(PCA\) plots and explore molecular structures and annotation\.
+components analysis \(PCA\) plots and explore molecular structures and annotation.
 
 
 ============= ===========
@@ -38,7 +38,7 @@ and update with::
 
 Notes
 -----
-This wrapper and installation is primarily for commandline\-only use\.
+This wrapper and installation is primarily for commandline\-only use.
 
 
 

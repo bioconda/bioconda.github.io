@@ -5,7 +5,7 @@ bioconductor-watermelon
 
 |downloads|
 
-15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages\.
+15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/wateRmelon.html

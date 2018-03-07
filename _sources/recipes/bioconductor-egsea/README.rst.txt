@@ -5,7 +5,7 @@ bioconductor-egsea
 
 |downloads|
 
-This package implements the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing\.
+This package implements the Ensemble of Gene Set Enrichment Analyses \(EGSEA\) method for gene set testing.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/EGSEA.html

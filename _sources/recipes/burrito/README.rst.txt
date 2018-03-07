@@ -5,7 +5,7 @@ burrito
 
 |downloads|
 
-Framework for wrapping and controlling command\-line applications\.
+Framework for wrapping and controlling command\-line applications.
 
 ============= ===========
 Home          https://github.com/biocore/burrito

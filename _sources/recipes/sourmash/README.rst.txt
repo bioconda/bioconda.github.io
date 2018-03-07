@@ -5,7 +5,7 @@ sourmash
 
 |downloads|
 
-Compute and compare MinHash signatures for DNA data sets\.
+Compute and compare MinHash signatures for DNA data sets.
 
 ============= ===========
 Home          https://github.com/dib-lab/sourmash

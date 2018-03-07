@@ -5,7 +5,7 @@ ucsc-coltransform
 
 |downloads|
 
-Add and\/or multiply column by constant\.
+Add and\/or multiply column by constant.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

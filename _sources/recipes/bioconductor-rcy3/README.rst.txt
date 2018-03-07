@@ -5,7 +5,7 @@ bioconductor-rcy3
 
 |downloads|
 
-Vizualize\, analyze and explore graphs\, connecting R to Cytoscape \(\>\= 3\.3\.0\)\.
+Vizualize\, analyze and explore graphs\, connecting R to Cytoscape \(\>\= 3.3.0\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RCy3.html

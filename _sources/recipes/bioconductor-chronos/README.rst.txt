@@ -5,7 +5,7 @@ bioconductor-chronos
 
 |downloads|
 
-A package used for efficient unraveling of the inherent dynamic properties of pathways\. MicroRNA\-mediated subpathway topologies are extracted and evaluated by exploiting the temporal transition and the fold change activity of the linked genes\/microRNAs\.
+A package used for efficient unraveling of the inherent dynamic properties of pathways. MicroRNA\-mediated subpathway topologies are extracted and evaluated by exploiting the temporal transition and the fold change activity of the linked genes\/microRNAs.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CHRONOS.html

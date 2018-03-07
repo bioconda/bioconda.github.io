@@ -5,7 +5,7 @@ bioconductor-hmmcopy
 
 |downloads|
 
-Corrects GC and mappability biases for readcounts \(i\.e\. coverage\) in non\-overlapping windows of fixed length for single whole genome samples\, yielding a rough estimate of copy number for furthur analysis\.  Designed for rapid correction of high coverage whole genome tumour and normal samples\.
+Corrects GC and mappability biases for readcounts \(i.e. coverage\) in non\-overlapping windows of fixed length for single whole genome samples\, yielding a rough estimate of copy number for furthur analysis.  Designed for rapid correction of high coverage whole genome tumour and normal samples.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/HMMcopy.html

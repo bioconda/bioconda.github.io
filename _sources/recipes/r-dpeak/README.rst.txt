@@ -5,7 +5,7 @@ r-dpeak
 
 |downloads|
 
-This package provides functions for fitting dPeak\, a statistical framework to deconvolve ChIP\-seq peaks\.
+This package provides functions for fitting dPeak\, a statistical framework to deconvolve ChIP\-seq peaks.
 
 ============= ===========
 Home          http://dongjunchung.github.io/dpeak/

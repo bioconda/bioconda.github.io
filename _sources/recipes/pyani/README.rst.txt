@@ -5,7 +5,7 @@ pyani
 
 |downloads|
 
-pyani provides a package and script for calculation of genome\-scale average nucleotide identity\.
+pyani provides a package and script for calculation of genome\-scale average nucleotide identity.
 
 ============= ===========
 Home          http://widdowquinn.github.io/pyani/

@@ -5,7 +5,7 @@ bioconductor-ogsa
 
 |downloads|
 
-OGSA provides a global estimate of pathway deregulation in cancer subtypes by integrating the estimates of significance for individual pathway members that have been identified by outlier analysis\.
+OGSA provides a global estimate of pathway deregulation in cancer subtypes by integrating the estimates of significance for individual pathway members that have been identified by outlier analysis.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/OGSA.html

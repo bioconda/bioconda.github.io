@@ -5,7 +5,7 @@ ococo
 
 |downloads|
 
-Ococo\, the first online consensus caller\.
+Ococo\, the first online consensus caller.
 
 ============= ===========
 Home          http://github.com/karel-brinda/ococo

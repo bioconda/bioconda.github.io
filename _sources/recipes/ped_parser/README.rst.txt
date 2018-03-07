@@ -5,7 +5,7 @@ ped_parser
 
 |downloads|
 
-A ped file parser\.
+A ped file parser.
 
 ============= ===========
 Home          https://github.com/moonso/ped_parser

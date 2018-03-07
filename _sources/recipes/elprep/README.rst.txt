@@ -5,7 +5,7 @@ elprep
 
 |downloads|
 
-elPrep\: a high\-performance tool for preparing sequence alignment\/map files in sequencing pipelines\.
+elPrep\: a high\-performance tool for preparing sequence alignment\/map files in sequencing pipelines.
 
 ============= ===========
 Home          https://github.com/ExaScience/elprep

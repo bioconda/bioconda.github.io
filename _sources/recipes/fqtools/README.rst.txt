@@ -5,7 +5,7 @@ fqtools
 
 |downloads|
 
-An efficient FASTQ manipulation suite\.
+An efficient FASTQ manipulation suite.
 
 ============= ===========
 Home          https://github.com/alastair-droop/fqtools

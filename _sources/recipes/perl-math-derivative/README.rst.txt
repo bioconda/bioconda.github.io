@@ -5,7 +5,7 @@ perl-math-derivative
 
 |downloads|
 
-Numeric 1st and 2nd order differentiation\.
+Numeric 1st and 2nd order differentiation.
 
 ============= ===========
 Home          http://metacpan.org/pod/Math-Derivative

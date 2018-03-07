@@ -5,7 +5,7 @@ r-gpseq
 
 |downloads|
 
-Some functions for modeling sequence read counts as a generalized poisson model and to use this model for detecting differentially expressed genes in different conditions and differentially spliced exons\.
+Some functions for modeling sequence read counts as a generalized poisson model and to use this model for detecting differentially expressed genes in different conditions and differentially spliced exons.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=GPseq

@@ -5,7 +5,7 @@ bioconductor-rbgl
 
 |downloads|
 
-A fairly extensive and comprehensive interface to the graph algorithms contained in the BOOST library\.
+A fairly extensive and comprehensive interface to the graph algorithms contained in the BOOST library.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RBGL.html

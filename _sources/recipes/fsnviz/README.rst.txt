@@ -5,7 +5,7 @@ fsnviz
 
 |downloads|
 
-Tool for plotting gene fusion events detected by various tools using Circos\.
+Tool for plotting gene fusion events detected by various tools using Circos.
 
 ============= ===========
 Home          https://github.com/bow/fsnviz

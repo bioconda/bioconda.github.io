@@ -5,7 +5,7 @@ ucsc-fanoise
 
 |downloads|
 
-Add noise to \.fa file
+Add noise to .fa file
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

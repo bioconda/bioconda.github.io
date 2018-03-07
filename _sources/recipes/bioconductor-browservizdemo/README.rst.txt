@@ -5,7 +5,7 @@ bioconductor-browservizdemo
 
 |downloads|
 
-A BrowserViz subclassing example\, xy plotting in the browser using d3\.
+A BrowserViz subclassing example\, xy plotting in the browser using d3.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BrowserVizDemo.html

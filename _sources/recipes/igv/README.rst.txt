@@ -5,7 +5,7 @@ igv
 
 |downloads|
 
-Integrative Genomics Viewer\. Fast\, efficient\, scalable visualization tool for genomics data and annotations
+Integrative Genomics Viewer. Fast\, efficient\, scalable visualization tool for genomics data and annotations
 
 ============= ===========
 Home          http://www.broadinstitute.org/software/igv/home

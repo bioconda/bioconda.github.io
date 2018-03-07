@@ -5,7 +5,7 @@ antismash
 
 |downloads|
 
-antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters\.
+antiSMASH allows the rapid genome\-wide identification\, annotation and analysis of secondary metabolite biosynthesis gene clusters.
 
 ============= ===========
 Home          http://antismash.secondarymetabolites.org/

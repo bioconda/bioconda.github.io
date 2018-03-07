@@ -5,7 +5,7 @@ sts-smctc
 
 |downloads|
 
-A C\+\+ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms\.
+A C\+\+ template class library for the efficient and convenient implementation of very general Sequential Monte Carlo algorithms.
 
 ============= ===========
 Home          https://github.com/matsengrp/smctc
@@ -35,7 +35,7 @@ and update with::
 
 Notes
 -----
-This fork of smctc is maintained by the \[Matsen research group at the Fred Hutchinson Cancer Research Centre\]\(http\:\/\/matsen\.fredhutch\.org\/\) for use in the \[Sequential Tree Sampler online phylogenetics package\]\(https\:\/\/github\.com\/OnlinePhylo\/sts\)
+This fork of smctc is maintained by the \[Matsen research group at the Fred Hutchinson Cancer Research Centre\]\(http\:\/\/matsen.fredhutch.org\/\) for use in the \[Sequential Tree Sampler online phylogenetics package\]\(https\:\/\/github.com\/OnlinePhylo\/sts\)
 
 
 |docker|

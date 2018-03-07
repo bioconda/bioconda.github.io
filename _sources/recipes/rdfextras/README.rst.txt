@@ -5,7 +5,7 @@ rdfextras
 
 |downloads|
 
-RDFExtras provide tools\, extra stores and such for RDFLib\.
+RDFExtras provide tools\, extra stores and such for RDFLib.
 
 ============= ===========
 Home          http://github.com/RDFLib/rdfextras

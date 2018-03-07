@@ -5,7 +5,7 @@ ucsc-bedremoveoverlap
 
 |downloads|
 
-Remove overlapping records from a \(sorted\) bed file\.  Gets rid of
+Remove overlapping records from a \(sorted\) bed file.  Gets rid of
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

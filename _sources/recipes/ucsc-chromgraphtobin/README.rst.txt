@@ -5,7 +5,7 @@ ucsc-chromgraphtobin
 
 |downloads|
 
-Make binary version of chromGraph\.
+Make binary version of chromGraph.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

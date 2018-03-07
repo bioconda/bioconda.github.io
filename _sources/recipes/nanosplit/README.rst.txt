@@ -5,7 +5,7 @@ nanosplit
 
 |downloads|
 
-Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset\.
+Perform splitting of Oxford Nanopore sequencing data in a fail and pass dataset.
 
 ============= ===========
 Home          https://github.com/wdecoster/nanosplit

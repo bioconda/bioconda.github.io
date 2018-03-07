@@ -5,7 +5,7 @@ hivtrace
 
 |downloads|
 
-HIV TRACE is an application that identifies potential transmission clusters within a supplied FASTA file with an option to find potential links against the Los Alamos HIV Sequence Database\.
+HIV TRACE is an application that identifies potential transmission clusters within a supplied FASTA file with an option to find potential links against the Los Alamos HIV Sequence Database.
 
 ============= ===========
 Home          https://github.com/veg/hivtrace

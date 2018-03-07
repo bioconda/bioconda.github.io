@@ -5,7 +5,7 @@ web.py
 
 |downloads|
 
-web\.py makes web apps
+web.py makes web apps
 
 ============= ===========
 Home          http://webpy.org/

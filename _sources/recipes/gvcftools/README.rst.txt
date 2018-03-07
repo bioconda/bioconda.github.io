@@ -5,7 +5,7 @@ gvcftools
 
 |downloads|
 
-a set of utilities to help create and analyze Genome VCF \(gVCF\) files\.
+a set of utilities to help create and analyze Genome VCF \(gVCF\) files.
 
 ============= ===========
 Home          https://sites.google.com/site/gvcftools/home

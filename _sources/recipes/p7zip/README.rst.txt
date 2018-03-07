@@ -5,7 +5,7 @@ p7zip
 
 |downloads|
 
-p7zip is a quick port of 7z\.exe and 7za\.exe \(command line version of 7zip\, see www\.7\-zip\.org \) for Unix\.
+p7zip is a quick port of 7z.exe and 7za.exe \(command line version of 7zip\, see www.7\-zip.org \) for Unix.
 
 ============= ===========
 Home          http://sourceforge.net/projects/p7zip/

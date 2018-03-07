@@ -5,7 +5,7 @@ pytabix
 
 |downloads|
 
-Fast random access to sorted files compressed with bgzip and indexed by tabix\.
+Fast random access to sorted files compressed with bgzip and indexed by tabix.
 
 ============= ===========
 Home          https://github.com/slowkow/pytabix

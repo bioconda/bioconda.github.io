@@ -5,7 +5,7 @@ fwdpy11
 
 |downloads|
 
-Forward\-time population genetic simulation in Python\.
+Forward\-time population genetic simulation in Python.
 
 ============= ===========
 Home          http://pypi.python.org/pypi/fwdpy11

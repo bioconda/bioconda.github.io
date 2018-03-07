@@ -5,7 +5,7 @@ bioconductor-crimage
 
 |downloads|
 
-CRImage provides functionality to process and analyze images\, in particular to classify cells in biological images\. Furthermore\, in the context of tumor images\, it provides functionality to calculate tumour cellularity\.
+CRImage provides functionality to process and analyze images\, in particular to classify cells in biological images. Furthermore\, in the context of tumor images\, it provides functionality to calculate tumour cellularity.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CRImage.html

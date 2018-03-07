@@ -5,7 +5,7 @@ ucsc-tdbquery
 
 |downloads|
 
-Query the trackDb system using SQL syntax\.
+Query the trackDb system using SQL syntax.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

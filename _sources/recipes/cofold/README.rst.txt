@@ -5,7 +5,7 @@ cofold
 
 |downloads|
 
-An RNA secondary structure prediction method that takes co\-transcriptional folding into account\.
+An RNA secondary structure prediction method that takes co\-transcriptional folding into account.
 
 ============= ===========
 Home          http://www.e-rna.org/cofold/

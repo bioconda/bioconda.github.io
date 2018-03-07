@@ -5,7 +5,7 @@ geneimpacts
 
 |downloads|
 
-prioritize effects of variant annotations from VEP\, SnpEff\, et al\.
+prioritize effects of variant annotations from VEP\, SnpEff\, et al.
 
 ============= ===========
 Home          https://github.com/brentp/geneimpacts

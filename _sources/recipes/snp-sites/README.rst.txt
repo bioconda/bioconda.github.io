@@ -5,7 +5,7 @@ snp-sites
 
 |downloads|
 
-Finds SNP sites from a multi\-FASTA alignment file\.
+Finds SNP sites from a multi\-FASTA alignment file.
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/snp-sites

@@ -5,7 +5,7 @@ bioconductor-gtrellis
 
 |downloads|
 
-Genome level Trellis graph visualizes genomic data conditioned by genomic categories \(e\.g\. chromosomes\)\. For each genomic category\, multiple dimensional data which are represented as tracks describe different features from different aspects\. This package provides high flexibility to arrange genomic categories and to add self\-defined graphics in the plot\.
+Genome level Trellis graph visualizes genomic data conditioned by genomic categories \(e.g. chromosomes\). For each genomic category\, multiple dimensional data which are represented as tracks describe different features from different aspects. This package provides high flexibility to arrange genomic categories and to add self\-defined graphics in the plot.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/gtrellis.html

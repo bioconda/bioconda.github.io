@@ -5,7 +5,7 @@ pyliftover
 
 |downloads|
 
-Pure\-python implementation of UCSC \`\`liftOver\`\` genome coordinate conversion\.
+Pure\-python implementation of UCSC \`\`liftOver\`\` genome coordinate conversion.
 
 ============= ===========
 Home          https://github.com/konstantint/pyliftover

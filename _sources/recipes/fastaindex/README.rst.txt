@@ -5,7 +5,7 @@ fastaindex
 
 |downloads|
 
-FastA indexing and sequence retrival\.
+FastA indexing and sequence retrival.
 
 ============= ===========
 Home          https://github.com/lpryszcz/FastaIndex

@@ -5,7 +5,7 @@ ucsc-expmatrixtobarchartbed
 
 |downloads|
 
- Generate a barChart bed6\+5 file from a matrix\, meta data\, and coordinates\. 
+ Generate a barChart bed6\+5 file from a matrix\, meta data\, and coordinates. 
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/

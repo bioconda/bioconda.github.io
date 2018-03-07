@@ -5,7 +5,7 @@ bioconductor-arraytools
 
 |downloads|
 
-This package is designed to provide solutions for quality assessment and to detect differentially expressed genes for the Affymetrix GeneChips\, including both 3\' \-arrays and gene 1\.0\-ST arrays\. The package generates comprehensive analysis reports in HTML format\. Hyperlinks on the report page will lead to a series of QC plots\, processed data\, and differentially expressed gene lists\. Differentially expressed genes are reported in tabular format with annotations hyperlinked to online biological databases\.
+This package is designed to provide solutions for quality assessment and to detect differentially expressed genes for the Affymetrix GeneChips\, including both 3\' \-arrays and gene 1.0\-ST arrays. The package generates comprehensive analysis reports in HTML format. Hyperlinks on the report page will lead to a series of QC plots\, processed data\, and differentially expressed gene lists. Differentially expressed genes are reported in tabular format with annotations hyperlinked to online biological databases.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ArrayTools.html

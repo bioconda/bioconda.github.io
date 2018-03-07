@@ -5,7 +5,7 @@ ucsc-genepredtofakepsl
 
 |downloads|
 
-Create a psl of fake\-mRNA aligned to gene\-preds from a file or table\.
+Create a psl of fake\-mRNA aligned to gene\-preds from a file or table.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
