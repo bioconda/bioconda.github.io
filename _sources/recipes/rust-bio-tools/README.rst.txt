@@ -11,7 +11,7 @@ implemented on top of Rust\-Bio\.
 
 ============= ===========
 Home          https://github.com/rust-bio/rust-bio-tools
-Versions      0.1.1, 0.1.2, 0.1.3, 0.2.1, 0.2.2
+Versions      0.1.1, 0.1.2, 0.1.3, 0.2.1, 0.2.2, 0.2.3, 0.2.4
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-bio-tools
 
