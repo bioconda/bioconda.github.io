@@ -82,6 +82,8 @@ channels with some exceptions (<a class="reference internal" href="#channel-exce
 a pure Python package, it should be marked as a <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">“noarch”</a>
 package (<a class="reference internal" href="#id3"><span class="std std-ref">details</span></a>). However due to technical incompatibilies
 we can’t do this – so please DO NOT use <code class="docutils literal notranslate"><span class="pre">&quot;noarch&quot;</span></code> for now.</li>
+<li><strong>Update 7 Mar 2018</strong>: When patching a recipe, please provide details on how
+you tried to address the problem upstream (<a class="reference internal" href="#patching"><span class="std std-ref">details</span></a>)</li>
 </ul>
 <div class="section" id="stable-urls">
 <span id="stable-url"></span><h3>Stable urls<a class="headerlink" href="#stable-urls" title="Permalink to this headline">¶</a></h3>
@@ -172,6 +174,21 @@ include them in the PR. One shortcut is to use <cite>anaconda search -t conda
 &lt;dependency name&gt;</cite> to look for other packages built by others. Inspecting those
 recipes can give some clues into building a version of the dependency for
 bioconda.</p>
+</div>
+<div class="section" id="patching">
+<span id="id4"></span><h3>Patching<a class="headerlink" href="#patching" title="Permalink to this headline">¶</a></h3>
+<p>Some recipes require small patches to get the tests to pass, for example,
+fixing hard-coded shebang lines (as described at
+<a class="reference internal" href="troubleshooting.html#perl-or-python-not-found"><span class="std std-ref">/usr/bin/perl or /usr/bin/python not found</span></a>). Other patches are more extensive. When
+patching a recipe, please first make an effort to fix the issue upstream and
+document that effort in your pull request by either linking to the relevant
+upstream PR or indicating that you have contacted the author. The goal is not
+to block merging your PR until upstream is fixed, but rather to make sure
+upstream authors know there’s an issue that other users (including non-bioconda
+users) might be having. Ideally, upstream would fix the issue quickly and the
+PR could be modified, but it’s fine to merge with the patches and if/when
+upstream fixes, a separate bioconda PR could be opened that pulls in those
+upstream changes.</p>
 </div>
 </div>
 <div class="section" id="python">
@@ -412,7 +429,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id10"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
