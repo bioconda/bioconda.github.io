@@ -5,11 +5,11 @@ checkm-genome
 
 |downloads|
 
-Assess the quality of putative genome bins.
+Assess the quality of microbial genomes recovered from isolates\, single cells\, and metagenomes.
 
 ============= ===========
-Home          http://pypi.python.org/pypi/checkm/
-Versions      1.0.5, 1.0.7
+Home          https://ecogenomics.github.io/CheckM/
+Versions      1.0.11, 1.0.5, 1.0.7
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome
 
