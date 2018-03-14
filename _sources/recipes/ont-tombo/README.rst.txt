@@ -9,7 +9,7 @@ Detection of modified bases from raw nanopore sequencing data.
 
 ============= ===========
 Home          https://nanoporetech.github.io/tombo/
-Versions      1.0, 1.1, 1.1.1, 1.2
+Versions      1.0, 1.1, 1.1.1, 1.2, 1.2.1
 License       mpl-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-tombo
 
