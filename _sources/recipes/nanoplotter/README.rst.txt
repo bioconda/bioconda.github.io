@@ -5,11 +5,11 @@ nanoplotter
 
 |downloads|
 
-Plotting functions of Oxford Nanopore sequencing data
+Plotting functions of Oxford Nanopore sequencing data for NanoPack
 
 ============= ===========
 Home          https://github.com/wdecoster/nanoplotter
-Versions      0.13.2, 0.13.3, 0.22.1, 0.24.1, 0.29.0, 0.35.3
+Versions      0.13.2, 0.13.3, 0.22.1, 0.24.1, 0.29.0, 0.35.3, 0.35.4
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplotter
 
