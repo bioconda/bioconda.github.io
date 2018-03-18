@@ -9,7 +9,7 @@ Suite of tools for use in genome assembly and consensus.
 
 ============= ===========
 Home          https://github.com/jteutenberg/downpore
-Versions      0.1.1, 0.2
+Versions      0.1.1, 0.2, 0.3.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/downpore
 
