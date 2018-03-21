@@ -187,6 +187,18 @@ the <cite>broken</cite> label, i.e.,</p>
 </pre></div>
 </div>
 </div>
+<div class="section" id="circleci-macos-plans">
+<span id="circlecimacos"></span><h2>CircleCI macOS plans<a class="headerlink" href="#circleci-macos-plans" title="Permalink to this headline">¶</a></h2>
+<p>In the past we had recommended enabling CircleCI for your fork to help conserve
+the bioconda team’s build time quota. However this did not work very well:
+macOS builds on CircleCI require an extra macOS plan, which is not free to
+users. The result was that contributors’ pull requests would fail tests simply
+due to not having a paid macOS plan. Luckily, CircleCI has generously provided
+macOS builds to the bioconda team.</p>
+<p>To ensure that CircleCI uses the bioconda team account, please <strong>disable</strong>
+CircleCI on your fork (look for the big red “Stop Building” button at
+<a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> under the settings for your fork.</p>
+</div>
 </div>
 
 
@@ -221,6 +233,7 @@ the <cite>broken</cite> label, i.e.,</p>
 <li class="toctree-l2"><a class="reference internal" href="#how-is-circle-ci-set-up-and-configured">How is Circle CI set up and configured?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-are-environmental-variables-defined-and-used">How are environmental variables defined and used?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#circleci-macos-plans">CircleCI macOS plans</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>

@@ -9,7 +9,7 @@ A client for Synapse\, a collaborative compute space  that allows scientists to 
 
 ============= ===========
 Home          http://synapse.sagebase.org/
-Versions      1.5, 1.6.2, 1.7.1
+Versions      1.5, 1.6.2, 1.7.1, 1.7.5
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/synapseclient
 

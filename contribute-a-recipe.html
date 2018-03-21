@@ -116,7 +116,10 @@ under <cite>scripts/env_matrix.yml</cite> in the repository.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
 </pre></div>
 </div>
-<p>If using a fork, make sure to enable Circle CI for it under <a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a>.</p>
+<p><strong>Update March 2018:</strong> If using a fork, please do not enable Circle CI for it.
+If you have enabled CircleCI to build your fork in the past, please disable it
+under <a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> (look for the big red “Stop Building”
+button). See <a class="reference internal" href="faqs.html#circlecimacos"><span class="std std-ref">CircleCI macOS plans</span></a> for more details.</p>
 <p>You can view the test status next to your commits in Github.
 Make and push changes as needed to get the tests to pass.
 Once they pass, create a <a class="reference external" href="https://help.github.com/articles/about-pull-requests/">pull request</a> on the main bioconda
