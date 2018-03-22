@@ -9,7 +9,7 @@ Package that implements different performance measures for classification and ra
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=PerfMeas
-Versions      
+Versions      1.2.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-perfmeas
 
