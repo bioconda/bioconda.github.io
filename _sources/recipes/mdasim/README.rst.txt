@@ -5,11 +5,11 @@ mdasim
 
 |downloads|
 
-Tagliavi Z\, Draghici S. MDAsim\: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\). 2012. pp. 1–4. doi\:10.1109\/BIBM.2012.6392622
+This is MDAsim 2\+\, a tool to simulate whole genome amplification of a DNA sequence with multiple displacement amplification. A citation for this version will be provided when available. MDAsim 2\+ extends MDAsim 1.2\, so please also always cite\: Tagliavi Z\, Draghici S. MDAsim\: A multiple displacement amplification simulator. 2012 IEEE International Conference on Bioinformatics and Biomedicine \(BIBM\). 2012. pp. 1–4. doi\:10.1109\/BIBM.2012.6392622
 
 ============= ===========
-Home          https://sourceforge.net/projects/mdasim/
-Versions      1.2
+Home          https://github.com/hzi-bifo/mdasim
+Versions      1.2, 2.0.0, 2.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mdasim
 
