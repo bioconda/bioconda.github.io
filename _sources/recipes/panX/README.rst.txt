@@ -9,9 +9,9 @@ Microbial pan\-genome analysis and exploration tool
 
 ============= ===========
 Home          http://pangenome.de
-Versions      1.5.0
+Versions      1.5.0, 1.6.0
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panX/1.5.0
 
 
 

@@ -10,7 +10,7 @@ Convert proteomics data files into a SQLite database.
 
 ============= ===========
 Home          https://github.com/galaxyproteomics/mzToSQLite
-Versions      1.2.0
+Versions      1.2.0, 2.0.0
 License       GPL, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mztosqlite
 
