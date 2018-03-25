@@ -9,7 +9,7 @@ An IPython widget to interactively view molecular structures and trajectories. U
 
 ============= ===========
 Home          http://github.com/arose/nglview
-Versions      0.5.1, 0.5.2, 0.6.1, 0.6.2.1, 0.6.2.2, 0.6.2.3, 0.6.2.4, 0.6.3, 0.6.4, 0.6.5, 1.0, 1.1.1
+Versions      0.5.1, 0.5.2, 0.6.1, 0.6.2.1, 0.6.2.2, 0.6.2.3, 0.6.2.4, 0.6.3, 0.6.4, 0.6.5, 1.0, 1.1.1, 1.1.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nglview
 
