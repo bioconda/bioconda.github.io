@@ -9,7 +9,7 @@ Software for predicting library complexity and genome coverage in high\-throughp
 
 ============= ===========
 Home          https://github.com/smithlabcode/preseq
-Versions      2.0.2
+Versions      2.0.2, 2.0.3
 License       GNU GENERAL PUBLIC LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/preseq
 

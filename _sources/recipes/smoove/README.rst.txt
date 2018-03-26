@@ -9,7 +9,7 @@ structural variant calling and genotyping with existing tools\, but\, smoothly
 
 ============= ===========
 Home          https://github.com/brentp/smoove
-Versions      0.1.1
+Versions      0.1.1, 0.1.3
 License       Apache v2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smoove
 
