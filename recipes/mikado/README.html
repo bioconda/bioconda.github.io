@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>csvtk &#8212; Bioconda  documentation</title>
+    <title>mikado &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="ctat-metagenomics" href="../ctat-metagenomics/README.html" />
-    <link rel="prev" title="csb" href="../csb/README.html" />
+    <link rel="next" title="mimeo" href="../mimeo/README.html" />
+    <link rel="prev" title="migmap" href="../migmap/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,47 +60,80 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="csvtk">
-<span id="id1"></span><h1>csvtk<a class="headerlink" href="#csvtk" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/csvtk"><img alt="downloads" src="https://anaconda.org/bioconda/csvtk/badges/downloads.svg" /></a></p>
-<p>A cross-platform, efficient, practical CSV/TSV toolkit</p>
+  <div class="section" id="mikado">
+<span id="id1"></span><h1>mikado<a class="headerlink" href="#mikado" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/mikado"><img alt="downloads" src="https://anaconda.org/bioconda/mikado/badges/downloads.svg" /></a></p>
+<p>A Python3 annotation program to select the best gene model in each locus</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="11%" />
-<col width="89%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/shenwei356/csvtk">https://github.com/shenwei356/csvtk</a></td>
+<td><a class="reference external" href="https://github.com/lucventurini/mikado">https://github.com/lucventurini/mikado</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.10.0, 0.11.0, 0.12.0, 0.13.0, 0.4.4, 0.4.5, 0.4.6, 0.5.0, 0.6.0, 0.6.1, 0.7.0, 0.7.1, 0.8.0, 0.9.0, 0.9.1</td>
+<td>1.0.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT</td>
+<td>GNU Lesser General Public License v3 or later (LGPLv3+)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csvtk">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/csvtk</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado</a></td>
+</tr>
+<tr class="row-odd"><td>Documentation</td>
+<td><a class="reference external" href="http://mikado.readthedocs.io/en/latest/">http://mikado.readthedocs.io/en/latest/</a></td>
+</tr>
+<tr class="row-even"><td>Development</td>
+<td><a class="reference external" href="https://github.com/lucventurini/mikado">https://github.com/lucventurini/mikado</a></td>
 </tr>
 </tbody>
 </table>
+<p>Mikado is a lightweight Python3 pipeline whose purpose is to facilitate the identification
+of expressed loci from RNA-Seq data * and to select the best models in each locus.</p>
+<p>The logic of the pipeline is as follows:</p>
+<ol class="arabic">
+<li><p class="first">In a first step, the annotation (provided in GTF/GFF3 format) is parsed to locate *superloci* of overlapping features on the **same strand**.</p>
+</li>
+<li><p class="first">The superloci are divided into different *subloci*, each of which is defined as follows:</p>
+<blockquote>
+<div><p>* For multiexonic transcripts, to belong to the same sublocus they must share at least a splicing junction (i.e. an intron)
+* For monoexonic transcripts, they must overlap for at least one base pair
+* All subloci must contain either only multiexonic or only monoexonic transcripts</p>
+</div></blockquote>
+</li>
+<li><p class="first">In each sublocus, the pipeline selects the best transcript according to a user-defined prioritization scheme.</p>
+</li>
+<li><p class="first">The resulting *monosubloci* are merged together, if applicable, into *monosubloci_holders*</p>
+</li>
+<li><p class="first">The best non-overlapping transcripts are selected, in order to define the *loci* contained inside the superlocus.</p>
+<blockquote>
+<div><p>* At this stage, monoexonic and multiexonic transcript are checked for overlaps
+* Moreover, two multiexonic transcripts are considered to belong to the same locus if they share a splice *site* (not junction)</p>
+</div></blockquote>
+</li>
+<li><p class="first">Once the loci have been defined, the program backtracks and looks for transcripts which can be assigned unambiguously to a single locus and constitute valid alternative splicing isoforms of the main transcripts.</p>
+</li>
+</ol>
+<p>The criteria used to select the “*best*” transcript are left to the user’s discretion, using specific configuration files.</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">csvtk</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mikado</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">csvtk</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">mikado</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/csvtk"><img alt="docker" src="https://quay.io/repository/biocontainers/csvtk/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/csvtk">https://quay.io/repository/biocontainers/csvtk</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/mikado"><img alt="docker" src="https://quay.io/repository/biocontainers/mikado/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/mikado">https://quay.io/repository/biocontainers/mikado</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/csvtk/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/csvtk/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mikado/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mikado/README.html)
 </pre></div>
 </div>
 </div>
@@ -148,7 +181,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/csvtk/README.rst.txt"
+      <a href="../../_sources/recipes/mikado/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
