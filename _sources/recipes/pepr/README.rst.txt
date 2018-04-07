@@ -9,7 +9,7 @@ Peak\-calling and Prioritization pipeline for replicated ChIP\-Seq data
 
 ============= ===========
 Home          https://github.com/shawnzhangyx/PePr/
-Versions      1.0.9, 1.1.18
+Versions      1.0.9, 1.1.18, 1.1.24
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pepr
 

@@ -9,7 +9,7 @@ Read Alignment\, Analysis\, and Differential Pipeline \(RAPID\) is a set of tool
 
 ============= ===========
 Home          https://github.com/SchulzLab/RAPID
-Versions      0.1, 0.2
+Versions      0.1, 0.2, 0.3
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapid
 

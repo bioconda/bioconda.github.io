@@ -9,7 +9,7 @@ A versatile pairwise aligner for genomic and spliced nucleotide sequences.
 
 ============= ===========
 Home          https://github.com/lh3/minimap2
-Versions      2.0.r191, 2.1.1, 2.1.r311, 2.3, 2.4, 2.5, 2.6, 2.6.1, 2.7, 2.8, 2.9
+Versions      2.0.r191, 2.1.1, 2.1.r311, 2.10, 2.3, 2.4, 2.5, 2.6, 2.6.1, 2.7, 2.8, 2.9
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap2
 

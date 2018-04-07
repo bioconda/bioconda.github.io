@@ -11,7 +11,7 @@ read duplicates using these UMIs
 
 ============= ===========
 Home          https://gbcs.embl.de/Je
-Versions      1.2
+Versions      1.2, 2.0.RC
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite
 

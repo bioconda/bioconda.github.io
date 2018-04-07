@@ -9,8 +9,8 @@ Sequence Elements Enrichment Analysis \(SEER\)\, python implementation
 
 ============= ===========
 Home          https://github.com/mgalardini/pyseer
-Versions      0.3.1
-License       GNU General Public License v3 (GPLv3)
+Versions      0.3.1, 1.0.2
+License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyseer
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`affyilm`, doi: :doi:`10.1186/1748-7188-4-15`
+
 ============= ===========
 
 
