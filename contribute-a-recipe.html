@@ -91,8 +91,13 @@ bioconda-specific policies.</p>
 </div>
 <div class="section" id="test-locally">
 <span id="id1"></span><h2>3. Test locally<a class="headerlink" href="#test-locally" title="Permalink to this headline">¶</a></h2>
-<p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>.
-Then, all that needs to be done is to execute</p>
+<p><em>Updated April 2018 to describe the bootstrap.py method</em></p>
+<p>There are currently two options for local testing: 1) using the Circle CI
+client and 2) setting up a separate Miniconda installation and running
+bioconda-utils. The first is probably more straightforward; the second is more
+stringent, can be used for testing on MacOS, and allows the full customization
+of the bioconda-utils calls.</p>
+<p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>. Then run the following commands:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
 docker pull bioconda/bioconda-utils-build-env
 
@@ -100,15 +105,43 @@ docker pull bioconda/bioconda-utils-build-env
 circleci build
 </pre></div>
 </div>
-<p>in the root of your repository clone.</p>
-<p>Alternatively, you can manually run <cite>conda-build</cite>, e.g.,</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda-build recipes/my-recipe
+<p>in the root of your repository clone. This command effectively runs the recipe
+linting and then  <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> on all recipes recently changed. It does so
+in an environment with properly configured channels and environment variables
+in <code class="docutils literal notranslate"><span class="pre">scripts/env.yaml</span></code> exported into the build environment. The latter allows
+<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> to fill in variables in recipes like <code class="docutils literal notranslate"><span class="pre">CONDA_BOOST</span></code> that
+otherwise wouldn’t work with a simple <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> directly from the command
+line.</p>
+<p>However, due to technical limitations of the Circle CI client, the above test
+does <strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
+following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
+<span class="nb">source</span> ~/.config/bioconda/activate
+
+<span class="c1"># optional linting</span>
+bioconda-utils lint recipes config.yml --git-range master
+
+<span class="c1"># build and test</span>
+bioconda-utils build recipes config.yml --docker --mulled-test --git-range master
 </pre></div>
 </div>
-<p>In this case. make sure to have setup Bioconda properly, see <a class="reference internal" href="index.html#using-bioconda"><span class="std std-ref">Using Bioconda</span></a>.
-Also, you might need to manually specify environment variables that your recipe
-uses, e.g., <cite>CONDA_BOOST</cite>. You can look up the proper values for those variables
-under <cite>scripts/env_matrix.yml</cite> in the repository.</p>
+<p>The above commands do the following:</p>
+<ul class="simple">
+<li>install a separate miniconda installation in a temporary directory, set up
+bioconda channels, install bioconda-utils dependencies into the root
+environment of that installation, and write the file
+<code class="docutils literal notranslate"><span class="pre">~/.config/bioconda/activate</span></code></li>
+<li>source that new file to specifically activate the root environment of that
+new installation</li>
+<li>run bioconda-utils in that new installation</li>
+</ul>
+<p>If you do not have access to Docker, you can still run the basic test by
+excluding the <code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> arguments in the last command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
+<span class="nb">source</span> ~/.config/bioconda/activate
+bioconda-utils build recipes config.yml --git-range master
+</pre></div>
+</div>
 </div>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
 <h2>4. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
@@ -116,10 +149,13 @@ under <cite>scripts/env_matrix.yml</cite> in the repository.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">push</span> <span class="o">-</span><span class="n">u</span> <span class="n">origin</span> <span class="n">my</span><span class="o">-</span><span class="n">recipe</span>
 </pre></div>
 </div>
-<p><strong>Update March 2018:</strong> If using a fork, please do not enable Circle CI for it.
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last"><strong>Update March 2018:</strong> If using a fork, please do not enable Circle CI for it.
 If you have enabled CircleCI to build your fork in the past, please disable it
 under <a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> (look for the big red “Stop Building”
 button). See <a class="reference internal" href="faqs.html#circlecimacos"><span class="std std-ref">CircleCI macOS plans</span></a> for more details.</p>
+</div>
 <p>You can view the test status next to your commits in Github.
 Make and push changes as needed to get the tests to pass.
 Once they pass, create a <a class="reference external" href="https://help.github.com/articles/about-pull-requests/">pull request</a> on the main bioconda
