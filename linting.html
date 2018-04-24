@@ -268,6 +268,29 @@ allowed to install <code class="docutils literal notranslate"><span class="pre">
 </pre></div>
 </div>
 </div>
+<div class="section" id="invalid-identifiers">
+<h3><cite>invalid_identifiers</cite><a class="headerlink" href="#invalid-identifiers" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The recipes has an <cite>extra -&gt; identifiers</cite> section with an
+invalid format.</p>
+<p>Rationale: The identifiers section has to be machine readable.</p>
+<p>How to resolve: Ensure that the section is of the following format:</p>
+<p><a href="#id4"><span class="problematic" id="id5">``</span></a>`
+extra:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>identifiers:</dt>
+<dd><ul class="first last simple">
+<li>doi:10.1093/bioinformatics/bts480</li>
+<li>biotools:Snakemake</li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+<p><a href="#id6"><span class="problematic" id="id7">``</span></a><a href="#id8"><span class="problematic" id="id9">`</span></a></p>
+<p>In particular, ensure that each identifier starts with a type
+(<cite>doi</cite>, <cite>biotools</cite>, …), followed by a colon and the identifier.
+Whitespace is not allowed.</p>
+</div>
 <div class="section" id="not-pinned">
 <h3><cite>*_not_pinned</cite><a class="headerlink" href="#not-pinned" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The recipe has dependencies that need to be pinned to
@@ -382,6 +405,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#uses-setuptools-currently-disabled"><cite>uses_setuptools</cite> (currently disabled)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#invalid-identifiers"><cite>invalid_identifiers</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#not-pinned"><cite>*_not_pinned</cite></a></li>
 </ul>
 </li>
