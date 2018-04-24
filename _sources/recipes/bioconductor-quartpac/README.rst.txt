@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`quartpac`, doi: :doi:`10.1186/s12859-016-0963-3`
+
 ============= ===========
 
 

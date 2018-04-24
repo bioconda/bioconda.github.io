@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`ipac`, doi: :doi:`10.1186/1471-2105-14-190`
+
 ============= ===========
 
 

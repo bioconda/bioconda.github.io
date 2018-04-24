@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cexor`, doi: :doi:`10.14806/ej.21.0.837`
+
 ============= ===========
 
 

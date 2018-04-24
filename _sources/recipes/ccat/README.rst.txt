@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c
 
 
 
+Links         biotools: :biotools:`CCAT`, doi: :doi:`10.1093/bioinformatics/btq128`
+
 ============= ===========
 
 

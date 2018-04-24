@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`drivernet`, doi: :doi:`10.1186/gb-2012-13-12-r124`
+
 ============= ===========
 
 

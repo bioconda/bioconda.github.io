@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`StringTie`, doi: :doi:`10.1038/nbt.3122`
+
 ============= ===========
 
 

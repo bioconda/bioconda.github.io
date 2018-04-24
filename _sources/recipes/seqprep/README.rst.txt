@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`seqprep`, doi: :doi:`10.1134/S1021443716020175`
+
 ============= ===========
 
 

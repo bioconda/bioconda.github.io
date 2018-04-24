@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`baalchip`, doi: :doi:`10.1186/s13059-017-1165-7`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/q
 
 
 
+Links         biotools: :biotools:`qiime`, doi: :doi:`10.1038/nmeth.f.303`
+
 ============= ===========
 
 

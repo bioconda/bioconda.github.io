@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`gaga`, doi: :doi:`10.1214/09-aoas244`
+
 ============= ===========
 
 

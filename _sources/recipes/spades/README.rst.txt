@@ -20,6 +20,8 @@ Documentation http://cab.spbu.ru/files/release3.11.0/manual.html
 Development   https://github.com/ablab/spades
 
 
+Links         biotools: :biotools:`Spades`, doi: :doi:`10.1089/cmb.2012.0021`
+
 ============= ===========
 
 

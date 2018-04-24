@@ -8,12 +8,14 @@ dsrc
 high\-performance compression of sequencing reads stored in FASTQ format
 
 ============= ===========
-Home          https://github.com/lrog/dsrc
-Versions      2014.12.17
+Home          https://github.com/refresh-bio/DSRC
+Versions      2014.12.17, 2015.06.04
 License       GNU GPL 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc
 
 
+
+Links         biotools: :biotools:`dsrc`
 
 ============= ===========
 

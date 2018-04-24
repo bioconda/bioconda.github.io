@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`genomicinteractions`, doi: :doi:`10.1186/s12864-015-2140-x`
+
 ============= ===========
 
 

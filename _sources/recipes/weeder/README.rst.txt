@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w
 
 
 
+Links         biotools: :biotools:`weeder`, doi: :doi:`10.1002/0471250953.bi0211s47`
+
 ============= ===========
 
 

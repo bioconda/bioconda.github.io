@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`RNAlien`, doi: :doi:`10.1093/nar/gkw558`
+
 ============= ===========
 
 

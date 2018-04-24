@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/i
 
 
 
+Links         biotools: :biotools:`IMPUTE2`, doi: :doi:`10.1534/g3.111.001198`
+
 ============= ===========
 
 

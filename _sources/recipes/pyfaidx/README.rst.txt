@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 
 
 
+Links         biotools: :biotools:`pyfaidx`, doi: :doi:`10.7287/peerj.preprints.970v1`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cghbase`, doi: :doi:`10.1016/j.ejmg.2005.10.046`
+
 ============= ===========
 
 

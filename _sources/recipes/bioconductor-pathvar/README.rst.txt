@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`pathvar`, doi: :doi:`10.7717/peerj.3334`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`specond`, doi: :doi:`10.1186/gb-2011-12-12-413`
+
 ============= ===========
 
 

@@ -9,11 +9,13 @@ Accelerated BLAST compatible local sequence aligner
 
 ============= ===========
 Home          https://github.com/bbuchfink/diamond
-Versions      0.7.10, 0.7.12, 0.8.22, 0.8.24, 0.8.26, 0.8.27, 0.8.28, 0.8.29, 0.8.30, 0.8.31, 0.8.36, 0.8.9, 0.9.10, 0.9.14, 0.9.19
+Versions      0.7.10, 0.7.12, 0.8.22, 0.8.24, 0.8.26, 0.8.27, 0.8.28, 0.8.29, 0.8.30, 0.8.31, 0.8.36, 0.8.9, 0.9.10, 0.9.14, 0.9.19, 0.9.21
 License       AGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond
 
 
+
+Links         biotools: :biotools:`Diamond`, doi: :doi:`10.1038/nmeth.3176`
 
 ============= ===========
 

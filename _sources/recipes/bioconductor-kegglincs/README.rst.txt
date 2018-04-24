@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`kegglincs`, doi: :doi:`10.7490/f1000research.1113436.1`
+
 ============= ===========
 
 

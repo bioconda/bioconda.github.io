@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k
 
 
 
+Links         biotools: :biotools:`khmer`, doi: :doi:`10.12688/f1000research.6924.1`
+
 ============= ===========
 
 

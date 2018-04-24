@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`keggrest`, doi: :doi:`10.1007/s11845-015-1283-8`
+
 ============= ===========
 
 

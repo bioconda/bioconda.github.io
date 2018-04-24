@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cand`, doi: :doi:`10.1534/genetics.115.184184`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`spidermir`, doi: :doi:`10.3390/ijms18020274`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/e
 
 
 
+Links         biotools: :biotools:`ea-utils`, doi: :doi:`10.2174/1875036201307010001`
+
 ============= ===========
 
 

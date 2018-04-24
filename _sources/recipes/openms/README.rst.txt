@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/o
 
 
 
+Links         biotools: :biotools:`openms`, doi: :doi:`10.1007/978-1-60761-987-1_23`
+
 ============= ===========
 
 
@@ -31,13 +33,6 @@ With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 and update with::
 
    conda update openms
-
-
-Notes
------
-This package can exceed the travis build time. If so\, this package will be build by \@bioconda\/core locally via
-simulate\-travis.py and pushed directly. If you need an update for this package please make your changes\,
-create a PR and contact \@bioconda\/core.
 
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`micropan`, doi: :doi:`10.1186/s12859-015-0517-0`
+
 ============= ===========
 
 

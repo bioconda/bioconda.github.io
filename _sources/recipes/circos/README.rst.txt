@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c
 
 
 
+Links         biotools: :biotools:`circos`, doi: :doi:`10.1101/gr.092759.109`
+
 ============= ===========
 
 

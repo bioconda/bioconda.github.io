@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`gothic`, doi: :doi:`10.1101/gr.185272.114`
+
 ============= ===========
 
 

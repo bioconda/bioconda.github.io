@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/y
 
 
 
+Links         biotools: :biotools:`yara`, doi: :doi:`10.1093/nar/gkt005`
+
 ============= ===========
 
 

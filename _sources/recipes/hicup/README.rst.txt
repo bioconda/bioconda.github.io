@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h
 
 
 
+Links         biotools: :biotools:`hicup`, doi: :doi:`10.12688/f1000research.7334.1`
+
 ============= ===========
 
 

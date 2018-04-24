@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`snagee`, doi: :doi:`10.1371/journal.pone.0051013`
+
 ============= ===========
 
 

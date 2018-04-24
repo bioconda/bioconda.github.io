@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`bbcanalyzer`, doi: :doi:`10.1186/s12859-017-1549-4`
+
 ============= ===========
 
 

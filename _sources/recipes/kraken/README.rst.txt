@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/k
 
 
 
+Links         biotools: :biotools:`kraken`, doi: :doi:`10.1186/gb-2014-15-3-r46`
+
 ============= ===========
 
 

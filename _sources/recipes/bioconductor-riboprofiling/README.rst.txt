@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`riboprofiling`, doi: :doi:`10.12688/f1000research.8964.1`
+
 ============= ===========
 
 

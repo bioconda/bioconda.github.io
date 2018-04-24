@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`uniquorn`, doi: :doi:`10.18632/oncotarget.16110`
+
 ============= ===========
 
 

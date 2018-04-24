@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`kcsmart`, doi: :doi:`10.1186/1756-0500-3-298`
+
 ============= ===========
 
 

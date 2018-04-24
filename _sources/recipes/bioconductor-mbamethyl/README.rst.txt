@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`mbamethyl`, doi: :doi:`10.1111/biom.12422`
+
 ============= ===========
 
 

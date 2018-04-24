@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/v
 
 
 
+Links         biotools: :biotools:`varscan`
+
 ============= ===========
 
 

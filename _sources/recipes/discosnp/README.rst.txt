@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d
 
 
 
+Links         biotools: :biotools:`discosnp`, doi: :doi:`10.1093/nar/gkn000`
+
 ============= ===========
 
 

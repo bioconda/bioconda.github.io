@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`biosigner`, doi: :doi:`10.3389/fmolb.2016.00026`
+
 ============= ===========
 
 

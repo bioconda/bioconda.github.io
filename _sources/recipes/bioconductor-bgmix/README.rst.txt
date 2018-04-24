@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`bgmix`, doi: :doi:`10.2202/1544-6115.1314`
+
 ============= ===========
 
 

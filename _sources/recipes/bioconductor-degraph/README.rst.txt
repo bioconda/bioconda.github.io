@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`degraph`, doi: :doi:`10.1214/11-AOAS528`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`sff2fastq`
+
 ============= ===========
 
 The program sff2fastq extracts read information from a SFF file\, produced by

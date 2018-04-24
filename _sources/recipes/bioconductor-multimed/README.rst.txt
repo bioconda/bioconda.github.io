@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`multimed`, doi: :doi:`10.1093/bioinformatics/btt633`
+
 ============= ===========
 
 

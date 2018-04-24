@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/h
 
 
 
+Links         biotools: :biotools:`HISAT2`, doi: :doi:`10.1038/nmeth.3317`
+
 ============= ===========
 
 

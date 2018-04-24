@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`starbiotrek`, doi: :doi:`10.1186/s12918-015-0211-x`
+
 ============= ===========
 
 

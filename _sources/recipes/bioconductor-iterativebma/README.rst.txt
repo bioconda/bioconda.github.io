@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`iterativebma`, doi: :doi:`10.1186/gb-2008-9-7-r118`
+
 ============= ===========
 
 

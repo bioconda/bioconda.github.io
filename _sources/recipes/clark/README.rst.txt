@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c
 
 
 
+Links         biotools: :biotools:`clark`, doi: :doi:`10.1186/s12864-015-1419-2`
+
 ============= ===========
 
 

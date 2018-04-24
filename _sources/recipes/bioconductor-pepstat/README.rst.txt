@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`pepstat`, doi: :doi:`10.1007/978-1-4939-3037-1_10`
+
 ============= ===========
 
 

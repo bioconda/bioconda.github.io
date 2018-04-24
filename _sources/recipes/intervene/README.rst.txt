@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/i
 
 
 
+Links         biotools: :biotools:`Intervene`, doi: :doi:`10.1101/109728`
+
 ============= ===========
 
 

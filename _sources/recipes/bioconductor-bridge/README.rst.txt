@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`bridge`, doi: :doi:`10.1111/j.1541-0420.2005.00397.x`
+
 ============= ===========
 
 

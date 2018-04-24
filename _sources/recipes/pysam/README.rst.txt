@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 
 
 
+Links         biotools: :biotools:`pysam`, doi: :doi:`10.1093/bioinformatics/btp352`
+
 ============= ===========
 
 

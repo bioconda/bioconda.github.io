@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w
 
 
 
+Links         biotools: :biotools:`whatshap`, doi: :doi:`10.1089/cmb.2014.0157`
+
 ============= ===========
 
 

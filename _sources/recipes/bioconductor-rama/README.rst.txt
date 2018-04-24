@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`rama`, doi: :doi:`10.1198/016214505000001096`
+
 ============= ===========
 
 

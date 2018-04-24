@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cghnormaliter`, doi: :doi:`10.1186/1471-2164-10-401`
+
 ============= ===========
 
 

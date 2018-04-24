@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`occugene`, doi: :doi:`10.1007/978-1-59745-321-9_22`
+
 ============= ===========
 
 

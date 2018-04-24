@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`dbchip`, doi: :doi:`10.1093/bioinformatics/btr605`
+
 ============= ===========
 
 

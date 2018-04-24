@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 
 
+Links         biotools: :biotools:`mgkit`, doi: :doi:`10.6084/m9.figshare.1588384`
+
 ============= ===========
 
 

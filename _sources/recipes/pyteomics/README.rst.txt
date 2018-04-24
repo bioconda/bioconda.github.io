@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 
 
 
+Links         biotools: :biotools:`pyteomics`
+
 ============= ===========
 
 

@@ -9,7 +9,7 @@ Making Snakemake workflows into full\-fledged command line tools since 1999.
 
 ============= ===========
 Home          https://github.com/nh13/snakeparse
-Versions      0.0.1
+Versions      0.0.1, 0.1.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakeparse
 

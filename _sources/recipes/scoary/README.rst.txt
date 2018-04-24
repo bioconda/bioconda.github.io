@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`Scoary`, doi: :doi:`10.1186/s13059-016-1108-8`
+
 ============= ===========
 
 

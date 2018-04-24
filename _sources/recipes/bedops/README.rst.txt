@@ -9,11 +9,13 @@ High\-performance genomic feature operations.
 
 ============= ===========
 Home          http://bedops.readthedocs.io
-Versions      2.4.19, 2.4.20, 2.4.21, 2.4.22, 2.4.23, 2.4.24, 2.4.25, 2.4.26, 2.4.27, 2.4.30, 2.4.32
+Versions      2.4.19, 2.4.20, 2.4.21, 2.4.22, 2.4.23, 2.4.24, 2.4.25, 2.4.26, 2.4.27, 2.4.30, 2.4.32, 2.4.33
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops
 
 
+
+Links         biotools: :biotools:`Bedops`, doi: :doi:`10.1093/bioinformatics/bts277`
 
 ============= ===========
 

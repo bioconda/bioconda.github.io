@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`SnpSift`, doi: :doi:`10.3389/fgene.2012.00035`
+
 ============= ===========
 
 

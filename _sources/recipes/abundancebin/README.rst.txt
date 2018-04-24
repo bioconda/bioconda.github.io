@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 
 
+Links         doi: :doi:`10.1007/978-3-642-12683-3_35`
+
 ============= ===========
 
 AbundanceBin is an abundance\-based tool for binning metagenomic sequences\,

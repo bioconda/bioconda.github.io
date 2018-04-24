@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/g
 
 
 
+Links         biotools: :biotools:`GEMINI`, doi: :doi:`10.1371/journal.pcbi.1003153`
+
 ============= ===========
 
 

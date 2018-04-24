@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`nastiseq`, doi: :doi:`10.1101/gr.149310.112`
+
 ============= ===========
 
 

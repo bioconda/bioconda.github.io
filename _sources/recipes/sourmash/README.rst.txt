@@ -9,7 +9,7 @@ Compute and compare MinHash signatures for DNA data sets.
 
 ============= ===========
 Home          https://github.com/dib-lab/sourmash
-Versions      1.0, 2.0.0a1, 2.0.0a2, 2.0.0a3, 2.0.0a4
+Versions      1.0, 2.0.0a1, 2.0.0a2, 2.0.0a3, 2.0.0a4, 2.0.0a5
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sourmash
 

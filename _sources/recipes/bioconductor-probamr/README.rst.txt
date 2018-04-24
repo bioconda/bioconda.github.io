@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`probamr`, doi: :doi:`10.1074/mcp.M115.052860`
+
 ============= ===========
 
 

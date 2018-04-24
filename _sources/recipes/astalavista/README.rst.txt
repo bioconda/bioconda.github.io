@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 
 
+Links         biotools: :biotools:`astalavista`, doi: :doi:`10.1101/gr.121947.111`
+
 ============= ===========
 
 

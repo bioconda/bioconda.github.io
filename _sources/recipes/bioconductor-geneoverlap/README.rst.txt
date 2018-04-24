@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`geneoverlap`, doi: :doi:`10.1167/iovs.16-20618`
+
 ============= ===========
 
 

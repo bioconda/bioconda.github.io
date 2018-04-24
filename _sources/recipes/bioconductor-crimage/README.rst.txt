@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`crimage`, doi: :doi:`10.1126/scitranslmed.3004330`
+
 ============= ===========
 
 

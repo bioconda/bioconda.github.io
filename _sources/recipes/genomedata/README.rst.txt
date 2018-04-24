@@ -9,11 +9,13 @@ tools for accessing large amounts of genomic data
 
 ============= ===========
 Home          http://genomedata.hoffmanlab.org/
-Versions      1.3.5, 1.3.6
+Versions      1.3.5, 1.3.6, 1.4.0
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomedata
 
 
+
+Links         biotools: :biotools:`genomedata`, doi: :doi:`10.1093/bioinformatics/btq164`
 
 ============= ===========
 

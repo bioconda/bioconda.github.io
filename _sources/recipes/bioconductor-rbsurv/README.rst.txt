@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`rbsurv`, doi: :doi:`10.18637/jss.v029.i01`
+
 ============= ===========
 
 

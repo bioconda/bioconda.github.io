@@ -9,7 +9,7 @@ The QoRTs software package is a fast\, efficient\, and portable multifunction to
 
 ============= ===========
 Home          http://hartleys.github.io/QoRTs/
-Versions      1.1.8
+Versions      1.1.8, 1.3.0
 License       Public Domain
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qorts
 

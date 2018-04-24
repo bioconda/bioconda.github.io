@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`peca`, doi: :doi:`10.1007/978-1-4939-6518-2_11`
+
 ============= ===========
 
 

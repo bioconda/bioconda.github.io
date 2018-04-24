@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`contibait`, doi: :doi:`10.1093/bioinformatics/btx281`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`pickgene`, doi: :doi:`10.1007/0-387-21679-0_13`
+
 ============= ===========
 
 

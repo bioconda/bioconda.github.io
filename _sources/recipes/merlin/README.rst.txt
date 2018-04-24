@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 
 
+Links         biotools: :biotools:`Merlin`, doi: :doi:`10.1038/ng786`
+
 ============= ===========
 
 

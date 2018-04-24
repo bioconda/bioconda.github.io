@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`flowq`, doi: :doi:`10.1155/2009/584603`
+
 ============= ===========
 
 

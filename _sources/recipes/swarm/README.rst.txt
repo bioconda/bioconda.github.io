@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`swarm`, doi: :doi:`10.7717/peerj.593`
+
 ============= ===========
 
 

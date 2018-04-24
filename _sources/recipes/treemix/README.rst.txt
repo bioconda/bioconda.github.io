@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t
 
 
 
+Links         biotools: :biotools:`TreeMix`, doi: :doi:`10.1371/journal.pgen.1002967`
+
 ============= ===========
 
 

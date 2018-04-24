@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cve`, doi: :doi:`10.1186/s12920-017-0261-6`
+
 ============= ===========
 
 

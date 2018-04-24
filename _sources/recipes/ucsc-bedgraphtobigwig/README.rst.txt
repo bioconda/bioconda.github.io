@@ -9,11 +9,13 @@ Convert a bedGraph file to bigWig format.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357
+Versions      308, 324, 332, 357
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedgraphtobigwig
 
 
+
+Links         biotools: :biotools:`bedgraphtobigwig`, doi: :doi:`10.1093/bioinformatics/btq351`
 
 ============= ===========
 

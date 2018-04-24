@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cosmiq`, doi: :doi:`10.5167/uzh-107947`
+
 ============= ===========
 
 

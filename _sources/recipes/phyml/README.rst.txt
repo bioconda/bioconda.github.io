@@ -17,6 +17,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 Development   https://github.com/stephaneguindon/phyml/
 
 
+Links         biotools: :biotools:`phyml`, doi: :doi:`10.1093/sysbio/syq010`
+
 ============= ===========
 
 PhyML is a software that estimates maximum likelihood phylogenies from

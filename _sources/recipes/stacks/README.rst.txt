@@ -9,11 +9,13 @@ Stacks is a software pipeline for building loci from RAD\-seq
 
 ============= ===========
 Home          http://catchenlab.life.illinois.edu/stacks/
-Versions      1.37, 1.40, 1.42, 1.43, 1.44, 1.46, 1.47, 2.0Beta7c, 2.0Beta8, 2.0Beta8c, 2.0Beta9
+Versions      1.37, 1.40, 1.42, 1.43, 1.44, 1.46, 1.47, 2.0Beta10a, 2.0Beta7c, 2.0Beta8, 2.0Beta8c, 2.0Beta9
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks
 
 
+
+Links         biotools: :biotools:`Stacks`, doi: :doi:`10.1111/mec.12354`
 
 ============= ===========
 

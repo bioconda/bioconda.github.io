@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`wgcna`, doi: :doi:`10.1186/1471-2105-9-559`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`m3drop`, doi: :doi:`10.1002/1873-3468.12684`
+
 ============= ===========
 
 

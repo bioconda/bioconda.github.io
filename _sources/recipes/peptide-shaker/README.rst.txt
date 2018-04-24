@@ -19,6 +19,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 
 
 
+Links         biotools: :biotools:`peptide-shaker`, doi: :doi:`10.1038/nbt.3109`
+
 ============= ===========
 
 

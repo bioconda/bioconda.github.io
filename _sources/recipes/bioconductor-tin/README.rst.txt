@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`tin`, doi: :doi:`10.4137/CIN.S31363`
+
 ============= ===========
 
 

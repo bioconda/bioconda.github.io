@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`meshsim`, doi: :doi:`10.1142/S0219720015420020`
+
 ============= ===========
 
 

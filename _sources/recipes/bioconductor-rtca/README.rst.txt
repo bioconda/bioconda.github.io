@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`rtca`, doi: :doi:`10.1016/j.compbiolchem.2013.12.004`
+
 ============= ===========
 
 

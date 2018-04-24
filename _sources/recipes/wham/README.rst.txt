@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/w
 
 
 
+Links         biotools: :biotools:`Wham6216`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 
 
+Links         biotools: :biotools:`MOODS`, doi: :doi:`10.1109/TCBB.2009.35`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`yarn`, doi: :doi:`10.1101/086587`
+
 ============= ===========
 
 

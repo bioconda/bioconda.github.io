@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cghregions`, doi: :doi:`10.1002/9783527678679.dg00687`
+
 ============= ===========
 
 

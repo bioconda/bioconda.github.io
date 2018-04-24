@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c
 
 
 
+Links         biotools: :biotools:`corset`, doi: :doi:`10.1186/s13059-014-0410-6`
+
 ============= ===========
 
 

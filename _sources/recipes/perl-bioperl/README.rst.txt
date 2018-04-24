@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p
 
 
 
+Links         biotools: :biotools:`bioperl`, doi: :doi:`10.1007/978-1-59745-535-0_26`
+
 ============= ===========
 
 

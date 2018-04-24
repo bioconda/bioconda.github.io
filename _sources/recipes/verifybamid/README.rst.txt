@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/v
 
 
 
+Links         biotools: :biotools:`verifybamid`, doi: :doi:`10.1016/j.ajhg.2012.09.004`
+
 ============= ===========
 
 

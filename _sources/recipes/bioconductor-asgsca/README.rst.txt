@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`asgsca`, doi: :doi:`10.1002/gepi.21872`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/f
 
 
 
+Links         biotools: :biotools:`fasttree`, doi: :doi:`10.1093/molbev/msp077`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`riboseqr`, doi: :doi:`10.1080/15476286.2016.1141862`
+
 ============= ===========
 
 

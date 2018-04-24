@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`spem`, doi: :doi:`10.1089/cmb.2011.0269`
+
 ============= ===========
 
 

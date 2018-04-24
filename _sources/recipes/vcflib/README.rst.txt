@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/v
 
 
 
+Links         biotools: :biotools:`vcflib`, doi: :doi:`10.1101/023754`
+
 ============= ===========
 
 

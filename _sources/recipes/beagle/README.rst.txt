@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`BEAGLE`, doi: :doi:`10.1086/521987`
+
 ============= ===========
 
 

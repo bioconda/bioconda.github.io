@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`ncdfflow`, doi: :doi:`10.1016/j.copbio.2012.09.003`
+
 ============= ===========
 
 

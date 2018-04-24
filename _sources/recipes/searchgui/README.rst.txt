@@ -16,6 +16,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`searchgui`, doi: :doi:`10.1002/pmic.201000595`
+
 ============= ===========
 
 

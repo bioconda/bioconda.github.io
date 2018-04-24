@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c
 
 
 
+Links         biotools: :biotools:`cnvkit`, doi: :doi:`10.1371/journal.pcbi.1004873`
+
 ============= ===========
 
 

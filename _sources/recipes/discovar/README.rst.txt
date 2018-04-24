@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d
 
 
 
+Links         biotools: :biotools:`discovar`, doi: :doi:`10.1038/ng.3121`
+
 ============= ===========
 
 

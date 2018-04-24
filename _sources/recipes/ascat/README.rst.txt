@@ -22,6 +22,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 
 
+Links         biotools: :biotools:`ascat`, doi: :doi:`10.1073/pnas.1009843107`
+
 ============= ===========
 
 

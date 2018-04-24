@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`selscan`, doi: :doi:`10.1093/molbev/msu211`
+
 ============= ===========
 
 

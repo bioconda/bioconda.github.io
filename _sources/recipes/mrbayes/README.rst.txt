@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 
 
+Links         biotools: :biotools:`mrbayes`
+
 ============= ===========
 
 MrBayes is a program for Bayesian inference and model choice across a wide

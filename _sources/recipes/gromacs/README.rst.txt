@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/g
 
 
 
+Links         biotools: :biotools:`gromacs`, doi: :doi:`10.1016/j.softx.2015.06.001`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
+Links         biotools: :biotools:`spp`, doi: :doi:`10.1038/nbt.1508`
+
 ============= ===========
 
 

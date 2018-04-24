@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
+Links         biotools: :biotools:`SOAPsplice`, doi: :doi:`10.3389/fgene.2011.00046`
+
 ============= ===========
 
 

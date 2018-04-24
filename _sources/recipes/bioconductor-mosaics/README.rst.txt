@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`mosaics`, doi: :doi:`10.1198/jasa.2011.ap09706`
+
 ============= ===========
 
 

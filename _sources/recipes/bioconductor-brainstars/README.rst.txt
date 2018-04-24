@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`brainstars`, doi: :doi:`10.1097/HTR.0b013e3181a7ecb0`
+
 ============= ===========
 
 

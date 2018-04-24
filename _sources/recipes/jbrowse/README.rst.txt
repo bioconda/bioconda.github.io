@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/j
 
 
 
+Links         biotools: :biotools:`jbrowse`, doi: :doi:`10.1101/gr.094607.109`
+
 ============= ===========
 
 

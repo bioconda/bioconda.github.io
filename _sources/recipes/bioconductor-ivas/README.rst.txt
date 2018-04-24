@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`ivas`, doi: :doi:`10.1007/s13258-016-0466-7`
+
 ============= ===========
 
 

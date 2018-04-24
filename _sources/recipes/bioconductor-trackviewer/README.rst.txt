@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`trackviewer`, doi: :doi:`10.1038/nmeth.3252`
+
 ============= ===========
 
 

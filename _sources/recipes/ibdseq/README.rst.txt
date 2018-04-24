@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/i
 
 
 
+Links         biotools: :biotools:`IBDseq`, doi: :doi:`10.1016/j.ajhg.2013.09.014`
+
 ============= ===========
 
 

@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t
 
 
 
+Links         biotools: :biotools:`takeabreak`, doi: :doi:`10.1007/978-3-319-07953-0_10`
+
 ============= ===========
 
 

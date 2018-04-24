@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`cummerbund`, doi: :doi:`10.1038/nprot.2012.016`
+
 ============= ===========
 
 

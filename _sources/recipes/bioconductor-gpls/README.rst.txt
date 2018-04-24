@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`gpls`, doi: :doi:`10.1198/106186005X47697`
+
 ============= ===========
 
 

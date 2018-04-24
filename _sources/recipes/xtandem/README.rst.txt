@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/x
 
 
 
+Links         biotools: :biotools:`xtandem`, doi: :doi:`10.1093/bioinformatics/bth092`
+
 ============= ===========
 
 

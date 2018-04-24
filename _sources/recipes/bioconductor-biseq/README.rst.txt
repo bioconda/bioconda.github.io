@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`biseq`, doi: :doi:`10.1093/bib/bbv095`
+
 ============= ===========
 
 

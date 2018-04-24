@@ -15,6 +15,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 
 
+Links         biotools: :biotools:`dama`, doi: :doi:`10.1016/j.csda.2004.08.014`
+
 ============= ===========
 
 
