@@ -9,7 +9,7 @@ The Reference sequence Alignment based Phylogeny
 
 ============= ===========
 Home          https://realphy.unibas.ch/fcgi/realphy
-Versions      
+Versions      1.12
 License       GPL >=3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/realphy
 

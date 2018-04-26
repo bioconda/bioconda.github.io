@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>r-sleuth &#8212; Bioconda  documentation</title>
+    <title>r-sigqc &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-smvar" href="../r-smvar/README.html" />
-    <link rel="prev" title="r-sigqc" href="../r-sigQC/README.html" />
+    <link rel="next" title="r-sleuth" href="../r-sleuth/README.html" />
+    <link rel="prev" title="r-seurat" href="../r-seurat/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,47 +60,47 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-sleuth">
-<span id="id1"></span><h1>r-sleuth<a class="headerlink" href="#r-sleuth" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-sleuth"><img alt="downloads" src="https://anaconda.org/bioconda/r-sleuth/badges/downloads.svg" /></a></p>
-<p>Sleuth is an R library for analysis of RNA-Seq experiments for which transcript abundances have been quantified with kallisto.</p>
+  <div class="section" id="r-sigqc">
+<span id="id1"></span><h1>r-sigqc<a class="headerlink" href="#r-sigqc" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-sigqc"><img alt="downloads" src="https://anaconda.org/bioconda/r-sigqc/badges/downloads.svg" /></a></p>
+<p>Provides gene signature quality control metrics in publication ready plots. Namely, enables the visualization of properties such as expression, variability, correlation, and comparison of methods of standardisation and scoring metrics.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="13%" />
+<col width="87%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://pachterlab.github.io/sleuth">http://pachterlab.github.io/sleuth</a></td>
+<td><a class="reference external" href="https://CRAN.R-project.org/package=sigQC">https://CRAN.R-project.org/package=sigQC</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.0.1, 0.28.0, 0.29.0</td>
+<td>&#160;</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPLv3</td>
+<td>free for non-commercial users. Non-academic users MUST have requested from the author</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigQC">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigQC</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">sleuth</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">sigqc</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">sleuth</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">sigqc</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-sleuth"><img alt="docker" src="https://quay.io/repository/biocontainers/r-sleuth/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-sleuth">https://quay.io/repository/biocontainers/r-sleuth</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-sigqc"><img alt="docker" src="https://quay.io/repository/biocontainers/r-sigqc/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-sigqc">https://quay.io/repository/biocontainers/r-sigqc</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-sleuth/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-sleuth/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-sigqc/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-sigqc/README.html)
 </pre></div>
 </div>
 </div>
@@ -148,7 +148,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/r-sleuth/README.rst.txt"
+      <a href="../../_sources/recipes/r-sigQC/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
