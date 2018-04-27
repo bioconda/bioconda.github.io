@@ -9,7 +9,7 @@ Set of programs to process\, analyze and visualize Hi\-C data
 
 ============= ===========
 Home          https://github.com/deeptools/HiCExplorer
-Versions      0.1, 1.1a, 1.2, 1.3, 1.4, 1.6, 1.6.1, 1.7.1, 1.7.2, 1.8, 1.8.1, 2.0, 2.1, 2.1.1, 2.1alpha1
+Versions      0.1, 1.1a, 1.2, 1.3, 1.4, 1.6, 1.6.1, 1.7.1, 1.7.2, 1.8, 1.8.1, 2.0, 2.1, 2.1.1, 2.1.2, 2.1alpha1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicexplorer
 

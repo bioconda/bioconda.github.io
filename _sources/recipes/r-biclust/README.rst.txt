@@ -9,7 +9,7 @@ The main function biclust provides several algorithms to find biclusters in two\
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=biclust
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biclust
 

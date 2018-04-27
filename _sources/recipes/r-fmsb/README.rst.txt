@@ -9,7 +9,7 @@ Several utility functions for the book entitled  \"Practices of Medical and Heal
 
 ============= ===========
 Home          http://minato.sip21c.org/msb/
-Versions      
+Versions      0.6.3
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-fmsb
 
