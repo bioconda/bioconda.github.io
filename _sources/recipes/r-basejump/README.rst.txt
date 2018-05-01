@@ -9,7 +9,7 @@ Base functions for bioinformatics and R package development.
 
 ============= ===========
 Home          https://github.com/steinbaugh/basejump
-Versions      0.1.1
+Versions      0.1.1, 0.5.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-basejump
 
