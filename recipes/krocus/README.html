@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bedops &#8212; Bioconda  documentation</title>
+    <title>krocus &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bedtools" href="../bedtools/README.html" />
-    <link rel="prev" title="beast2" href="../beast2/README.html" />
+    <link rel="next" title="krona" href="../krona/README.html" />
+    <link rel="prev" title="krakenhll" href="../krakenhll/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,50 +60,50 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="bedops">
-<span id="id1"></span><h1>bedops<a class="headerlink" href="#bedops" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bedops"><img alt="downloads" src="https://anaconda.org/bioconda/bedops/badges/downloads.svg" /></a></p>
-<p>High-performance genomic feature operations.</p>
+  <div class="section" id="krocus">
+<span id="id1"></span><h1>krocus<a class="headerlink" href="#krocus" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/krocus"><img alt="downloads" src="https://anaconda.org/bioconda/krocus/badges/downloads.svg" /></a></p>
+<p>krocus performs multi-locus sequence typing from uncorrected long reads.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="11%" />
-<col width="89%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bedops.readthedocs.io">http://bedops.readthedocs.io</a></td>
+<td><a class="reference external" href="https://github.com/andrewjpage/krocus">https://github.com/andrewjpage/krocus</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>2.4.19, 2.4.20, 2.4.21, 2.4.22, 2.4.23, 2.4.24, 2.4.25, 2.4.26, 2.4.27, 2.4.30, 2.4.32, 2.4.33, 2.4.34</td>
+<td>0.2.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPLv2</td>
+<td>GPL3.0</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/Bedops">Bedops</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/bts277">10.1093/bioinformatics/bts277</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krocus">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krocus</a></td>
 </tr>
 </tbody>
 </table>
+<p>Krocus can predict a sequence type directly from uncorrected long reads,
+and was designed to consume read data as it is produced, providing results
+in minutes.</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bedops</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">krocus</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bedops</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">krocus</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bedops"><img alt="docker" src="https://quay.io/repository/biocontainers/bedops/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bedops">https://quay.io/repository/biocontainers/bedops</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/krocus"><img alt="docker" src="https://quay.io/repository/biocontainers/krocus/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/krocus">https://quay.io/repository/biocontainers/krocus</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bedops/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bedops/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/krocus/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/krocus/README.html)
 </pre></div>
 </div>
 </div>
@@ -151,7 +151,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/bedops/README.rst.txt"
+      <a href="../../_sources/recipes/krocus/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
