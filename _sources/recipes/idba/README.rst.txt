@@ -10,7 +10,7 @@ IDBA is a practical iterative De Bruijn Graph De Novo Assembler for sequence ass
 ============= ===========
 Home          http://i.cs.hku.hk/~alse/hkubrg/projects/idba_ud/
 Versions      1.1.1, 1.1.3
-License       
+License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idba
 
 
