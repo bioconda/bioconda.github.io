@@ -5,13 +5,13 @@ barrnap
 
 |downloads|
 
-Find 5S\, 16S and 23S ribosomal RNA genes in bacterial contigs
+Barrnap predicts the location of ribosomal RNA genes in genomes. \(bacteria\, archaea\, metazoan mitochondria and eukaryotes.\)
 
 ============= ===========
 Home          https://github.com/tseemann/barrnap
-Versions      0.2, 0.3, 0.7, 0.8
+Versions      0.2, 0.3, 0.7, 0.8, 0.9
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap/0.8
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap
 
 
 

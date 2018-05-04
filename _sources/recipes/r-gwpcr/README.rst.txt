@@ -9,7 +9,7 @@ Implements the necessary distributions and parameter estimation procedures for a
 
 ============= ===========
 Home          http://www.cibiv.at/~pflug_/trumicount
-Versions      0.9.9
+Versions      0.9.10, 0.9.9
 License       AGPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gwpcr
 
