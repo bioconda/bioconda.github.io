@@ -365,6 +365,21 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 have many fixes to makefiles</li>
 </ul>
 </div>
+<div class="section" id="haskell">
+<h2>Haskell<a class="headerlink" href="#haskell" title="Permalink to this headline">¶</a></h2>
+<p>Bioconda has a small number of haskell tools. Most often they are built with
+<code class="docutils literal notranslate"><span class="pre">stack</span></code> (which is available on <a class="reference external" href="https://github.com/conda-forge/stack-feedstock">conda-forge</a>). <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/recipes/ngless/build.sh">NGLess</a>
+provides an example of how to call <code class="docutils literal notranslate"><span class="pre">stack</span></code>. Here are a few notes:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">LD_LIBRARY_PATH</span></code>/<code class="docutils literal notranslate"><span class="pre">LIBRARY_PATH</span></code> are set to include both
+<code class="docutils literal notranslate"><span class="pre">${PREFIX}/lib</span></code> and the system paths (otherwise, <code class="docutils literal notranslate"><span class="pre">stack</span> <span class="pre">setup</span></code> will
+fail).</li>
+<li>Create a directory (called <code class="docutils literal notranslate"><span class="pre">fake-home</span></code> in this example) and set it as
+<code class="docutils literal notranslate"><span class="pre">$HOME</span></code>, further setting <code class="docutils literal notranslate"><span class="pre">$STACK_ROOT</span></code> to use a subdirectory of this
+<code class="docutils literal notranslate"><span class="pre">$HOME</span></code>.</li>
+</ul>
+<p>Mac OS X support is generally missing (any help is appreciated, see <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/issues/6607">#6607</a>).</p>
+</div>
 <div class="section" id="general-command-line-tools">
 <h2>General command-line tools<a class="headerlink" href="#general-command-line-tools" title="Permalink to this headline">¶</a></h2>
 <p>If a command-line tool is installed, it should be tested. If it has a
@@ -535,6 +550,7 @@ and others.</p>
 <li class="toctree-l3"><a class="reference internal" href="#java">Java</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#perl">Perl</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c-c">C/C++</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#haskell">Haskell</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#general-command-line-tools">General command-line tools</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#metapackages">Metapackages</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#other-examples-of-interest">Other examples of interest</a></li>
