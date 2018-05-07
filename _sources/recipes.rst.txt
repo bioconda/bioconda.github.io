@@ -5503,6 +5503,7 @@ Available packages
     <tr><td><a href="recipes/ngless/README.html">ngless</a></td><td>0.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/ngless/README.html">ngless</a></td><td>0.7.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/ngless/README.html">ngless</a></td><td>0.7.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/ngless/README.html">ngless</a></td><td>0.8.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/galaxy-ie-helpers/README.html">galaxy-ie-helpers</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/treetime/README.html">treetime</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-role-tiny/README.html">perl-role-tiny</a></td><td>2.000001</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
