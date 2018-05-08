@@ -9,7 +9,7 @@ Helper methods for accessing the Image Data Resource \(IDR\)
 
 ============= ===========
 Home          https://github.com/IDR/idr-py
-Versions      0.2.0, 0.2.1
+Versions      0.2.0, 0.2.1, 0.3.0
 License       GPL-2.0+
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr-py
 
