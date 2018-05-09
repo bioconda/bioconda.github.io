@@ -37,7 +37,7 @@ and update with::
 
 Notes
 -----
-Due to license restrictions\, this recipe cannot distribute and install GATK directly. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/www.broadinstitute.org\/gatk\/download\/\)\, install this package\, and call \"gatk\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION.tar.bz2\|.jar\]\"\, which will copy GATK into your conda environment.
+Due to license restrictions\, this recipe cannot distribute and install GATK directly. To fully install GATK\, you must download a licensed copy of GATK from the Broad Institute \(https\:\/\/www.broadinstitute.org\/gatk\/download\/\)\, install this package\, and call \"gatk3\-register \/path\/to\/GenomeAnalysisTK\[\-\$PKG\_VERSION.tar.bz2\|.jar\]\"\, which will copy GATK into your conda environment. The main run script has been renamed to gatk3 to allow compatibility with the new GATK 4 launch script \(which is now gatk\).
 
 
 |docker|

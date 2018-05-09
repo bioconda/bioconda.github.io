@@ -100,7 +100,7 @@ $(document).ready(function() {
 </div>
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>Due to license restrictions, this recipe cannot distribute and install GATK directly. To fully install GATK, you must download a licensed copy of GATK from the Broad Institute (https://www.broadinstitute.org/gatk/download/), install this package, and call “gatk-register /path/to/GenomeAnalysisTK[-$PKG_VERSION.tar.bz2|.jar]”, which will copy GATK into your conda environment.</p>
+<p>Due to license restrictions, this recipe cannot distribute and install GATK directly. To fully install GATK, you must download a licensed copy of GATK from the Broad Institute (https://www.broadinstitute.org/gatk/download/), install this package, and call “gatk3-register /path/to/GenomeAnalysisTK[-$PKG_VERSION.tar.bz2|.jar]”, which will copy GATK into your conda environment. The main run script has been renamed to gatk3 to allow compatibility with the new GATK 4 launch script (which is now gatk).</p>
 <p><a class="reference external" href="https://quay.io/repository/biocontainers/gatk"><img alt="docker" src="https://quay.io/repository/biocontainers/gatk/status" /></a></p>
 <p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/gatk">https://quay.io/repository/biocontainers/gatk</a>.</p>
 </div>

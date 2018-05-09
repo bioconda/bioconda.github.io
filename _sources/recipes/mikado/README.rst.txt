@@ -9,7 +9,7 @@ A Python3 annotation program to select the best gene model in each locus
 
 ============= ===========
 Home          https://github.com/lucventurini/mikado
-Versions      1.0.2, 1.1.1
+Versions      1.0.2, 1.1.1, 1.2.1
 License       GNU Lesser General Public License v3 or later (LGPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mikado
 
