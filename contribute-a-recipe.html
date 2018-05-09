@@ -97,6 +97,8 @@ client and 2) setting up a separate Miniconda installation and running
 bioconda-utils. The first is probably more straightforward; the second is more
 stringent, can be used for testing on MacOS, and allows the full customization
 of the bioconda-utils calls.</p>
+<div class="section" id="circle-ci-client-method">
+<span id="cci-clent"></span><h3>Circle CI client method<a class="headerlink" href="#circle-ci-client-method" title="Permalink to this headline">¶</a></h3>
 <p>The simplest way to conduct local tests is to <a class="reference internal" href="contrib-setup.html#circleci-client"><span class="std std-ref">setup the Circle CI client</span></a>. Then run the following commands:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Ensure the build container is up-to-date</span>
 docker pull bioconda/bioconda-utils-build-env
@@ -112,8 +114,11 @@ in <code class="docutils literal notranslate"><span class="pre">scripts/env.yaml
 <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> to fill in variables in recipes like <code class="docutils literal notranslate"><span class="pre">CONDA_BOOST</span></code> that
 otherwise wouldn’t work with a simple <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> directly from the command
 line.</p>
-<p>However, due to technical limitations of the Circle CI client, the above test
-does <strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
+</div>
+<div class="section" id="bootstrap-method">
+<span id="bootstrap"></span><h3>“Bootstrap” method<a class="headerlink" href="#bootstrap-method" title="Permalink to this headline">¶</a></h3>
+<p>Due to technical limitations of the Circle CI client, the above test does
+<strong>not</strong> run the more stringent <code class="docutils literal notranslate"><span class="pre">mulled-build</span></code> tests. To do so, use the
 following commands:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
 <span class="nb">source</span> ~/.config/bioconda/activate
@@ -136,11 +141,13 @@ new installation</li>
 <li>run bioconda-utils in that new installation</li>
 </ul>
 <p>If you do not have access to Docker, you can still run the basic test by
-excluding the <code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> arguments in the last command:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py /tmp/miniconda
+telling the bootstrap setup to not use docker, and by excluding the
+<code class="docutils literal notranslate"><span class="pre">--docker</span></code> and <code class="docutils literal notranslate"><span class="pre">--mulled-test</span></code> arguments in the last command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>./bootstrap.py --no-docker /tmp/miniconda
 <span class="nb">source</span> ~/.config/bioconda/activate
 bioconda-utils build recipes config.yml --git-range master
 </pre></div>
+</div>
 </div>
 </div>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
