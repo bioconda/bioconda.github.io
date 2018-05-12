@@ -9,7 +9,7 @@ Splice junction analysis and filtering from BAM files
 
 ============= ===========
 Home          https://github.com/maplesond/portcullis
-Versions      1.1.0
+Versions      1.1.0, 1.1.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/portcullis/1.1.0
 

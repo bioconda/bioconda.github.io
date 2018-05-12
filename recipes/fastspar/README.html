@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>r-rblast &#8212; Bioconda  documentation</title>
+    <title>fastspar &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="r-rapidr" href="../r-rapidr/README.html" />
-    <link rel="prev" title="r-quorts" href="../r-quorts/README.html" />
+    <link rel="next" title="fasttree" href="../fasttree/README.html" />
+    <link rel="prev" title="fastqmetrics" href="../fastqmetrics/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,47 +60,56 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="r-rblast">
-<span id="id1"></span><h1>r-rblast<a class="headerlink" href="#r-rblast" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/r-rblast"><img alt="downloads" src="https://anaconda.org/bioconda/r-rblast/badges/downloads.svg" /></a></p>
-<p>Seamlessly interfaces the Basic Local Alignment Search Tool (BLAST) to search genetic sequence data bases. This work was partially supported by grant no. R21HG005912 from the National Human Genome Research Institute.</p>
+  <div class="section" id="fastspar">
+<span id="id1"></span><h1>fastspar<a class="headerlink" href="#fastspar" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/fastspar"><img alt="downloads" src="https://anaconda.org/bioconda/fastspar/badges/downloads.svg" /></a></p>
+<p>Rapid and scalable correlation estimation for compositional data</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="12%" />
+<col width="88%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/mhahsler/rBLAST">https://github.com/mhahsler/rBLAST</a></td>
+<td><a class="reference external" href="https://github.com/scwatts/fastspar">https://github.com/scwatts/fastspar</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.99.1</td>
+<td>0.0.6</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL3</td>
+<td>GPLv3</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rBLAST">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rBLAST</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastspar">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastspar</a></td>
+</tr>
+<tr class="row-odd"><td>Links</td>
+<td>doi: <a class="reference external" href="https://doi.org/https://doi.org/10.1101/272583">https://doi.org/10.1101/272583</a>, doi: <a class="reference external" href="https://doi.org/https://doi.org/10.1371/journal.pcbi.1002687">https://doi.org/10.1371/journal.pcbi.1002687</a></td>
 </tr>
 </tbody>
 </table>
+<p>``FastSpar`` is a C++ implementation of the SparCC algorithm
+which is up to several thousand times faster than the original
+Python2 release and uses much less memory. The ``FastSpar``
+implementation provides threading support and a *p*-value
+estimator which accounts for the possibility of repetitious data
+permutations.</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">rblast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">fastspar</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">rblast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">fastspar</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-rblast"><img alt="docker" src="https://quay.io/repository/biocontainers/r-rblast/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-rblast">https://quay.io/repository/biocontainers/r-rblast</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/fastspar"><img alt="docker" src="https://quay.io/repository/biocontainers/fastspar/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/fastspar">https://quay.io/repository/biocontainers/fastspar</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-rblast/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-rblast/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/fastspar/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/fastspar/README.html)
 </pre></div>
 </div>
 </div>
@@ -148,7 +157,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/r-rBLAST/README.rst.txt"
+      <a href="../../_sources/recipes/fastspar/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
