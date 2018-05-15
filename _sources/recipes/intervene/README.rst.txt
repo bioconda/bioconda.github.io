@@ -9,13 +9,13 @@ A tool for intersection of multiple gene or genomic region sets and visualizatio
 
 ============= ===========
 Home          https://github.com/asntech/intervene
-Versions      0.5.8, 0.5.9, 0.6.2
+Versions      0.5.8, 0.5.9, 0.6.2, 0.6.4
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intervene
 
 
 
-Links         biotools: :biotools:`Intervene`, doi: :doi:`10.1101/109728`
+Links         biotools: :biotools:`Intervene`, doi: :doi:`10.1186/s12859-017-1708-7`
 
 ============= ===========
 
