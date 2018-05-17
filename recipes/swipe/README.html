@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>wkhtmltopdf &#8212; Bioconda  documentation</title>
+    <title>swipe &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="womtool" href="../womtool/README.html" />
-    <link rel="prev" title="wisecondorx" href="../wisecondorX/README.html" />
+    <link rel="next" title="synapseclient" href="../synapseclient/README.html" />
+    <link rel="prev" title="swiftlink" href="../swiftlink/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,47 +60,50 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="wkhtmltopdf">
-<span id="id1"></span><h1>wkhtmltopdf<a class="headerlink" href="#wkhtmltopdf" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/wkhtmltopdf"><img alt="downloads" src="https://anaconda.org/bioconda/wkhtmltopdf/badges/downloads.svg" /></a></p>
-<p>wkhtmltopdf and wkhtmltoimage are open source (LGPLv3) command line tools to render HTML into PDF and various image formats using the Qt WebKit rendering engine</p>
+  <div class="section" id="swipe">
+<span id="id1"></span><h1>swipe<a class="headerlink" href="#swipe" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/swipe"><img alt="downloads" src="https://anaconda.org/bioconda/swipe/badges/downloads.svg" /></a></p>
+<p>Tool for performing rapid local alignment searches in amino acid or nucleotide sequence databases. It is a highly optimized implementation of the Smith-Waterman algoritm using SIMD parallel computing technology available on common CPUs.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="16%" />
+<col width="84%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://wkhtmltopdf.org/">http://wkhtmltopdf.org/</a></td>
+<td><a class="reference external" href="http://dna.uio.no/swipe">http://dna.uio.no/swipe</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.12.3</td>
+<td>2.0.12</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>LGPLv3</td>
+<td>file</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wkhtmltopdf">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wkhtmltopdf</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe</a></td>
+</tr>
+<tr class="row-odd"><td>Links</td>
+<td>biotools: <a class="reference external" href="https://bio.tools/swipe">swipe</a>, doi: <a class="reference external" href="https://doi.org/10.1186/1471-2105-12-221">10.1186/1471-2105-12-221</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">wkhtmltopdf</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">swipe</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">wkhtmltopdf</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">swipe</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/wkhtmltopdf"><img alt="docker" src="https://quay.io/repository/biocontainers/wkhtmltopdf/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/wkhtmltopdf">https://quay.io/repository/biocontainers/wkhtmltopdf</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/swipe"><img alt="docker" src="https://quay.io/repository/biocontainers/swipe/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/swipe">https://quay.io/repository/biocontainers/swipe</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/wkhtmltopdf/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/wkhtmltopdf/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/swipe/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/swipe/README.html)
 </pre></div>
 </div>
 </div>
@@ -148,7 +151,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/wkhtmltopdf/README.rst.txt"
+      <a href="../../_sources/recipes/swipe/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

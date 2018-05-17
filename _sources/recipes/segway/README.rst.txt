@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/s
 
 
 
-Links         biotools: :biotools:`segway`
+Links         doi: :doi:`10.1093/bioinformatics/btx603`, biotools: :biotools:`segway`
 
 ============= ===========
 

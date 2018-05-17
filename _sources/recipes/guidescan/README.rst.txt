@@ -9,7 +9,7 @@ Tools to create and interface genome\-wide CRISPR guideRNA databases
 
 ============= ===========
 Home          https://bitbucket.org/arp2012/guidescan_public
-Versions      1.0
+Versions      1.0, 1.2
 License       Unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/guidescan
 
