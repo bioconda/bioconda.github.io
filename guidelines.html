@@ -255,7 +255,10 @@ performed for R packages.</p>
 <div class="section" id="r-bioconductor">
 <h2>R (Bioconductor)<a class="headerlink" href="#r-bioconductor" title="Permalink to this headline">¶</a></h2>
 <p>Use the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">bioconductor-skeleton</span></code> tool to build a Bioconductor
-skeleton:</p>
+skeleton. After using the <a class="reference internal" href="contribute-a-recipe.html#bootstrap"><span class="std std-ref">“Bootstrap” method</span></a> method to set up a testing
+environment and activating that environment (which will ensure the correct
+versions of bioconda-utils and conda-build), from the top level of the
+<code class="docutils literal notranslate"><span class="pre">bioconda-recipes</span></code> repository run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">bioconda</span><span class="o">-</span><span class="n">utils</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">skeleton</span> <span class="n">recipes</span> <span class="n">config</span><span class="o">.</span><span class="n">yml</span> <span class="n">DESeq2</span>
 </pre></div>
 </div>
