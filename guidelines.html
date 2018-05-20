@@ -195,18 +195,8 @@ upstream changes.</p>
 <h2>Python<a class="headerlink" href="#python" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
-<p>We are moving towards supporting conda-build-3 which has many nice features
-we can take advantage of. In the meantime, however, we need to use
-conda-build 2.</p>
-<p>If you have conda-build 3 installed locally and use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>,
-<strong>the resulting meta.yaml will be incompatible with our conda-build
-2 infrastructure</strong>.</p>
-<p>In particular, conda-build 3 uses the <code class="docutils literal notranslate"><span class="pre">host:</span></code> key instead of the
-<code class="docutils literal notranslate"><span class="pre">build:</span></code> key for dependencies. Conda-build 2 ignores that key. The result
-is that cb3-created meta.yaml will have no build dependencies from cb2’s
-point of view.</p>
-<p class="last">The easiest fix is to change <code class="docutils literal notranslate"><span class="pre">host:</span></code> to <code class="docutils literal notranslate"><span class="pre">build:</span></code> in the resulting
-recipe.</p>
+<p class="last">If you have conda-build 3 installed locally and use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>,
+please see <a class="reference internal" href="troubleshooting.html#cb3-recipes-in-cb2"><span class="std std-ref">Recipes built with conda-build 3</span></a>.</p>
 </div>
 <p>If a Python package is available on PyPI, use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">pypi</span>
 <span class="pre">&lt;packagename&gt;</span></code> to create a recipe, then remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> and any extra
@@ -240,6 +230,11 @@ in the meta.yaml</cite>
 </div>
 <div class="section" id="r-cran">
 <h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">If you have conda-build 3 installed locally and use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>,
+please see <a class="reference internal" href="troubleshooting.html#cb3-recipes-in-cb2"><span class="std std-ref">Recipes built with conda-build 3</span></a>.</p>
+</div>
 <p>Use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span> <span class="pre">&lt;packagename&gt;</span></code> where <code class="docutils literal notranslate"><span class="pre">packagename</span></code> is a
 package available on CRAN and is <em>case-sensitive</em>. Either run that command
 in the <code class="docutils literal notranslate"><span class="pre">recipes</span></code> dir or move the recipe it creates to <code class="docutils literal notranslate"><span class="pre">recipes</span></code>. The

@@ -62,9 +62,21 @@ $(document).ready(function() {
             
   <div class="section" id="troubleshooting-failed-recipes">
 <h1>Troubleshooting failed recipes<a class="headerlink" href="#troubleshooting-failed-recipes" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="recipes-built-with-conda-build-3">
+<span id="cb3-recipes-in-cb2"></span><h2>Recipes built with conda-build 3<a class="headerlink" href="#recipes-built-with-conda-build-3" title="Permalink to this headline">¶</a></h2>
+<p>If you have conda-build 3 installed locally and use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>, <strong>the
+resulting meta.yaml will be incompatible with our conda-build
+2 infrastructure</strong>.</p>
+<p>We are moving towards supporting conda-build-3 which has many nice features we
+can take advantage of. In the meantime, however, we need to use conda-build 2.</p>
+<p>In particular, conda-build 3 uses the <code class="docutils literal notranslate"><span class="pre">host:</span></code> key instead of the <code class="docutils literal notranslate"><span class="pre">build:</span></code>
+key for dependencies. Conda-build 2 ignores that key. The result is that
+cb3-created meta.yaml will have no build dependencies from cb2’s point of view.</p>
+<p>The easiest fix is to change <code class="docutils literal notranslate"><span class="pre">host:</span></code> to <code class="docutils literal notranslate"><span class="pre">build:</span></code> in the resulting recipe.</p>
+</div>
 <div class="section" id="reading-bioconda-utils-logs">
 <span id="reading-logs"></span><h2>Reading bioconda-utils logs<a class="headerlink" href="#reading-bioconda-utils-logs" title="Permalink to this headline">¶</a></h2>
-<p>For failed recipes, Usually the easiest thing to do is find the first <cite>BIOCONDA
+<p>For failed recipes, usually the easiest thing to do is find the first <cite>BIOCONDA
 ERROR</cite>, and start reading the output below that line. The stdout and stderr for
 that failed build will end with the next <cite>BIOCONDA</cite> log line, likely
 a <cite>BIOCONDA BUILD START</cite> or <cite>BIOCONDA BUILD SUMMARY</cite> line.
@@ -228,6 +240,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 <li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a></li>
 <li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Troubleshooting failed recipes</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#recipes-built-with-conda-build-3">Recipes built with conda-build 3</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#reading-bioconda-utils-logs">Reading bioconda-utils logs</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#http-500-errors">HTTP 500 errors</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#http-404-errors">HTTP 404 errors</a></li>
