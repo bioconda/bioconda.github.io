@@ -9,7 +9,7 @@ A fast and accurate aligner of BS\-seq reads
 
 ============= ===========
 Home          https://github.com/brentp/bwa-meth
-Versions      0.2.0
+Versions      0.2.0, 0.2.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwameth
 
