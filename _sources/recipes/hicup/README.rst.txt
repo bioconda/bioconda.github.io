@@ -9,7 +9,7 @@ A tool for mapping and performing quality control on Hi\-C data
 
 ============= ===========
 Home          http://www.bioinformatics.babraham.ac.uk/projects/hicup/
-Versions      0.5.10, 0.5.9
+Versions      0.5.10, 0.5.9, 0.6.1
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicup
 
