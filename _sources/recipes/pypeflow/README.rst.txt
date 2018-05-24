@@ -9,7 +9,7 @@ Light weight and reusable make \/ flow data process library written in Python
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pypeFLOW
-Versions      0.1.0
+Versions      0.1.0, 0.1.1
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypeflow
 
