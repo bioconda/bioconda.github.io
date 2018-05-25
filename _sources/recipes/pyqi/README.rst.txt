@@ -9,9 +9,9 @@ pyqi\: expose your interface
 
 ============= ===========
 Home          http://bipy.github.io/pyqi
-Versions      0.3.2
+Versions      0.3.1, 0.3.2
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyqi/0.3.2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyqi/0.3.1
 
 
 

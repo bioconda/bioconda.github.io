@@ -9,7 +9,7 @@ FastTree infers approximately\-maximum\-likelihood phylogenetic trees from align
 
 ============= ===========
 Home          http://www.microbesonline.org/fasttree/
-Versions      2.1.10, 2.1.8, 2.1.9
+Versions      2.1.10, 2.1.3, 2.1.8, 2.1.9
 License       GPL v2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasttree
 
