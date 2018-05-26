@@ -9,7 +9,7 @@ An RNA\-seq read aligner.
 
 ============= ===========
 Home          https://github.com/alexdobin/STAR
-Versions      2.4.0j, 2.4.2a, 2.5.0a, 2.5.0b, 2.5.0c, 2.5.1b, 2.5.2a, 2.5.2b, 2.5.3a, 2.5.4a, 2.6.0b
+Versions      2.4.0j, 2.4.2a, 2.5.0a, 2.5.0b, 2.5.0c, 2.5.1b, 2.5.2a, 2.5.2b, 2.5.3a, 2.5.4a, 2.6.0b, 2.6.0c
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/star
 
