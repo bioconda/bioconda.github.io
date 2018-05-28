@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/d
 
 
 
-Links         biotools: :biotools:`deeptools`
+Links         biotools: :biotools:`deeptools`, doi: :doi:`10.1093/nar/gkw257`
 
 ============= ===========
 

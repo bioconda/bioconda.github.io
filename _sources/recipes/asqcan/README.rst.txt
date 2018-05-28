@@ -9,7 +9,7 @@ A combined pipeline for bacterial genome assembly\, quality control and annotati
 
 ============= ===========
 Home          https://github.com/bogemad/asqcan
-Versions      0.1
+Versions      0.1, 0.2
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asqcan
 
