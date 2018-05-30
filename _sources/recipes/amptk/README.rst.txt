@@ -9,13 +9,13 @@ AMPtk\: Amplicon tool kit for processing high throughput amplicon sequencing dat
 
 ============= ===========
 Home          https://github.com/nextgenusfs/amptk
-Versions      1.1.3, 1.2.0, 1.2.2
+Versions      1.1.3, 1.2.0, 1.2.2, 1.2.4
 License       BSD 2-Clause License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/amptk
 
 
 
-Links         doi: :doi:`10.1101/213470`
+Links         doi: :doi:`10.7717/peerj.4925`
 
 ============= ===========
 

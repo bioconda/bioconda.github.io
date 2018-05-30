@@ -8,7 +8,7 @@ abundancebin
 Abundance\-based tool for binning metagenomic sequences
 
 ============= ===========
-Home          hhttp://omics.informatics.indiana.edu/AbundanceBin/
+Home          http://omics.informatics.indiana.edu/AbundanceBin/
 Versions      1.0.1
 License       copyright
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin
