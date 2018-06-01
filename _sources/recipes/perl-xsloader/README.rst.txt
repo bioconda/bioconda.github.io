@@ -8,7 +8,7 @@ perl-xsloader
 Dynamically load C libraries into Perl code
 
 ============= ===========
-Home          https://metacpan.org/module/Math::BigInt
+Home          https://metacpan.org/module/XSLoader
 Versions      0.16, 0.22
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xsloader

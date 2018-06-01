@@ -9,9 +9,9 @@ The Basic Local Alignment Search Tool \(BLAST\) finds regions of local similarit
 
 ============= ===========
 Home          http://blast.ncbi.nlm.nih.gov
-Versions      2.2.22
+Versions      2.2.22, 2.2.26
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.22
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blast-legacy/2.2.26
 
 
 

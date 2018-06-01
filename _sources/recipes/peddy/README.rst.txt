@@ -9,7 +9,7 @@ genotype \:\: ped correspondence check\, ancestry check\, sex check. directly\, 
 
 ============= ===========
 Home          https://github.com/brentp/peddy
-Versions      0.0.4, 0.1.1, 0.1.2, 0.1.3, 0.2.0, 0.2.2, 0.2.5, 0.2.9, 0.3.1, 0.3.6a
+Versions      0.0.4, 0.1.1, 0.1.2, 0.1.3, 0.2.0, 0.2.2, 0.2.5, 0.2.9, 0.3.1, 0.3.6a, 0.4.1
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peddy
 
