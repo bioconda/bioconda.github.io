@@ -5,12 +5,13 @@ export2graphlan
 
 |downloads|
 
-export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn
+export2graphlan is a conversion software tool for producing both annotation and tree file for GraPhlAn. It automatically generate the input tree and the annotation file for GraPhlAn\, starting from the input\/output of MetaPhlAn\, LEfSe\, and HUMAnN. It supports also the biom file format. The annotation file will highlight specific sub\-trees\/clades automatically inferred from input file\(s\) provided. The two output file of export2graphlan should then be used with GraPhlAn.
+
 
 ============= ===========
 Home          https://bitbucket.org/CibioCM/export2graphlan/overview
-Versions      0.19
-License       MIT
+Versions      0.19, 0.20
+License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/export2graphlan
 
 

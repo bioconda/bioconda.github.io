@@ -7,10 +7,11 @@ graphlan
 
 GraPhlAn is a software tool for producing high\-quality circular representations of taxonomic and phylogenetic trees. It focuses on concise\, integrative\, informative\, and publication\-ready representations of phylogenetically\- and taxonomically\-driven investigation.
 
+
 ============= ===========
 Home          https://bitbucket.org/nsegata/graphlan/wiki/Home
-Versions      1.0.0
-License       
+Versions      1.0.0, 1.1.2
+License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlan
 
 
