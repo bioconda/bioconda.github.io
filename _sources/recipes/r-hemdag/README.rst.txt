@@ -9,7 +9,7 @@ An implementation of Hierarchical Ensemble Methods for Directed Acyclic Graphs \
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=HEMDAG
-Versions      2.0.1, 2.1.2
+Versions      2.0.1, 2.1.2, 2.1.3
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hemdag
 
