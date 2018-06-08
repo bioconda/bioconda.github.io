@@ -9,7 +9,7 @@ A flexible read trimming tool for Illumina NGS data
 
 ============= ===========
 Home          http://www.usadellab.org/cms/?page=trimmomatic
-Versions      0.33, 0.35, 0.36
+Versions      0.32, 0.33, 0.35, 0.36
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trimmomatic
 

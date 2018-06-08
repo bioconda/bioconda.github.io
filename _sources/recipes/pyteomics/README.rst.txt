@@ -9,7 +9,7 @@ A framework for proteomics data analysis.
 
 ============= ===========
 Home          https://bitbucket.org/levitsky/pyteomics
-Versions      3.4
+Versions      3.4, 3.5.1
 License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyteomics
 

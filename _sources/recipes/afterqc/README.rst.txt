@@ -9,7 +9,7 @@ Automatic Filtering\, Trimming\, Error Removing and Quality Control for fastq da
 
 ============= ===========
 Home          https://github.com/OpenGene/AfterQC
-Versions      0.9.6
+Versions      0.9.6, 0.9.7
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/afterqc
 
