@@ -16,8 +16,8 @@ both parental alleles for all SNP loci across the genome\).
 
 ============= ===========
 Home          https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
-Versions      2.5
-License       GPL v3
+Versions      2.5, 2.5.1
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat
 
 

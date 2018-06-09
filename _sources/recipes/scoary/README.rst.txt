@@ -9,8 +9,8 @@ Microbial pan\-GWAS using the output from Roary
 
 ============= ===========
 Home          https://github.com/AdmiralenOla/Scoary
-Versions      1.6.9
-License       GNU General Public License v3 (GPLv3)
+Versions      1.6.16, 1.6.9
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoary
 
 
