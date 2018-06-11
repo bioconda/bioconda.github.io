@@ -9,7 +9,7 @@ Software for UCE \(and general\) phylogenomics.
 
 ============= ===========
 Home          https://github.com/faircloth-lab/phyluce
-Versions      1.6.2
+Versions      1.6.2, 1.6.3
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyluce
 
