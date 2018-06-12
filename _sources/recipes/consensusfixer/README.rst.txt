@@ -9,8 +9,8 @@ Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame ins
 
 ============= ===========
 Home          https://github.com/cbg-ethz/ConsensusFixer
-Versions      0.3.1
-License       GNU General Public License v3.0
+Versions      0.3.1, 0.4
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consensusfixer
 
 
@@ -41,7 +41,6 @@ This shell wrapper is called \"ConsensusFixer\" and is on \$PATH by default. By 
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"ConsensusFixer \-Xms512m \-Xmx1G\"
-
 
 
 |docker|

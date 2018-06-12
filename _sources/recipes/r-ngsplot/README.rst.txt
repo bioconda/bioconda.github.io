@@ -9,7 +9,7 @@ Quick mining and visualization of NGS data by integrating genomic databases
 
 ============= ===========
 Home          https://github.com/shenlab-sinai/ngsplot
-Versions      
+Versions      2.63
 License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ngsplot
 

@@ -9,8 +9,8 @@ The SNVPhyl \(Single Nucleotide Variant PHYLogenomics\) pipeline is a pipeline f
 
 ============= ===========
 Home          https://github.com/phac-nml/snvphyl-tools
-Versions      1.5, 1.6
-License       apache_2.0
+Versions      1.5, 1.6, 1.8
+License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-snvphyl-plugin
 
 

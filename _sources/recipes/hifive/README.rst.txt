@@ -9,7 +9,7 @@ Python library for normalizing and analyzing HiC and 5C data
 
 ============= ===========
 Home          https://github.com/bxlab/hifive
-Versions      1.2.1, 1.3.0, 1.3.1, 1.4.0, 1.5.1, 1.5.3
+Versions      1.2.1, 1.3.0, 1.3.1, 1.4.0, 1.5.1, 1.5.3, 1.5.6
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hifive
 
