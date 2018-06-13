@@ -8,9 +8,9 @@ hap.py
 Haplotype VCF comparison tools
 
 ============= ===========
-Home          https://github.com/sequencing/hap.py
-Versions      0.2.9, 0.3.7
-License       BSD
+Home          https://github.com/Illumina/hap.py
+Versions      0.2.9, 0.3.10, 0.3.7
+License       BSD-2-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hap.py
 
 

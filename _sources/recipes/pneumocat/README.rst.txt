@@ -8,9 +8,9 @@ pneumocat
 PneumoCaT \(Pneumococcal Capsular Typing\) uses a two\-step step approach to assign capsular type to S.pneumoniae genomic data \(Illumina\)
 
 ============= ===========
-Home          https://github.com/phe-bioinformatics/pneumocat/archive/v1.1.tar.gz
-Versions      1.1
-License       GPL3.0
+Home          https://github.com/phe-bioinformatics/pneumocat
+Versions      1.1, 1.2
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumocat
 
 

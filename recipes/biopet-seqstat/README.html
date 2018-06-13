@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>strelka &#8212; Bioconda  documentation</title>
+    <title>biopet-seqstat &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="stride" href="../stride/README.html" />
-    <link rel="prev" title="straitrazor" href="../straitrazor/README.html" />
+    <link rel="next" title="biopet-vcfstats" href="../biopet-vcfstats/README.html" />
+    <link rel="prev" title="biopet-sampleconfig" href="../biopet-sampleconfig/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,50 +60,68 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="strelka">
-<span id="id1"></span><h1>strelka<a class="headerlink" href="#strelka" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/strelka"><img alt="downloads" src="https://anaconda.org/bioconda/strelka/badges/downloads.svg" /></a></p>
-<p>Strelka calls somatic and germline small variants from mapped sequencing reads</p>
+  <div class="section" id="biopet-seqstat">
+<span id="id1"></span><h1>biopet-seqstat<a class="headerlink" href="#biopet-seqstat" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/biopet-seqstat"><img alt="downloads" src="https://anaconda.org/bioconda/biopet-seqstat/badges/downloads.svg" /></a></p>
+<p>SeqStats outputs several stats on a FASTQ file.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="14%" />
+<col width="86%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/Illumina/strelka">https://github.com/Illumina/strelka</a></td>
+<td><a class="reference external" href="https://github.com/biopet/seqstat">https://github.com/biopet/seqstat</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>2.7.1, 2.8.2, 2.8.4, 2.9.2, 2.9.3</td>
+<td>0.1</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-3.0</td>
+<td>MIT</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strelka">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strelka</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/strelka">strelka</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-seqstat">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-seqstat</a></td>
 </tr>
 </tbody>
 </table>
+<p>SeqStats outputs several stats on a FASTQ file.</p>
+<p>Outputted stats:</p>
+<dl class="docutils">
+<dt>- Bases</dt>
+<dd>- Total number
+- Base qualities, with the number of bases having that quality
+- Number of each nucleotide</dd>
+<dt>- Reads</dt>
+<dd>- Total number
+- Number of reads with ‘N’ bases
+- minimum length
+- maximum length
+- A histogram of the average base qualities
+- The quality encoding (Sanger, solexa etc.)
+- A histogram of the read lengths.</dd>
+</dl>
+<p>For documentation and manuals visit our github.io page: https://biopet.github.io/seqstat</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">strelka</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">biopet</span><span class="o">-</span><span class="n">seqstat</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">strelka</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">biopet</span><span class="o">-</span><span class="n">seqstat</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/strelka"><img alt="docker" src="https://quay.io/repository/biocontainers/strelka/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/strelka">https://quay.io/repository/biocontainers/strelka</a>.</p>
+</div>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>biopet-seqstat is a Java program that comes with a custom wrapper shell script. By default ‘no default java option’ is set in the wrapper. The command that runs the program is ‘biopet-seqstat’. If you want to overwrite it you can specify memory options directly after your binaries. If you have _JAVA_OPTIONS set globally this will take precedence. For example run it with ‘biopet-seqstat -Xms512m -Xmx1g’.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/biopet-seqstat"><img alt="docker" src="https://quay.io/repository/biocontainers/biopet-seqstat/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/biopet-seqstat">https://quay.io/repository/biocontainers/biopet-seqstat</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/strelka/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/strelka/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/biopet-seqstat/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biopet-seqstat/README.html)
 </pre></div>
 </div>
 </div>
@@ -151,7 +169,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/strelka/README.rst.txt"
+      <a href="../../_sources/recipes/biopet-seqstat/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

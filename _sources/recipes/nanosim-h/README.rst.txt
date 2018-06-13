@@ -9,7 +9,7 @@ NanoSim\-H is a simulator of Oxford Nanopore reads that captures the technology\
 
 ============= ===========
 Home          https://github.com/karel-brinda/NanoSim-H
-Versions      1.1.0.2
+Versions      1.1.0.2, 1.1.0.3
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim-h
 

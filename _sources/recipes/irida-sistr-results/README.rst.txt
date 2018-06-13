@@ -8,9 +8,9 @@ irida-sistr-results
 Export of IRIDA SISTR results to a spreadsheet
 
 ============= ===========
-Home          http://github.com/phac-nml/irida-sistr-results
-Versions      0.3.1
-License       Apache 2.0
+Home          https://github.com/phac-nml/irida-sistr-results
+Versions      0.3.1, 0.4.0
+License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-sistr-results
 
 
@@ -20,7 +20,6 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/i
 The IRIDA SISTR Results application enables the export of SISTR
 results that were run through IRIDA \(via the sistr\-cmd application\)
 to a spreadsheet
-
 
 Installation
 ------------
