@@ -9,7 +9,7 @@ All\-in\-one infinity value for Python. Can be compared to any object.
 
 ============= ===========
 Home          https://github.com/kvesteri/infinity
-Versions      1.3
+Versions      1.3, 1.4
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infinity
 

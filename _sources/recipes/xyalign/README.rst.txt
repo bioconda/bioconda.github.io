@@ -9,7 +9,7 @@ Command line tools and python library to infer ploidy\, correct for sex chromoso
 
 ============= ===========
 Home          https://github.com/WilsonSayresLab/XYalign
-Versions      1.0.0
+Versions      1.0.0, 1.1.3
 License       GNU General Public License version 3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xyalign
 

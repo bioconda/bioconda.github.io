@@ -9,7 +9,7 @@ MetFrag is a freely available software for the annotation of high precision tand
 
 ============= ===========
 Home          http://c-ruttkies.github.io/MetFrag/
-Versions      2.3.1, 2.4.2
+Versions      2.3.1, 2.4.2, 2.4.5
 License       GNU Lesser General Public License version 2.1 or later.
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metfrag
 

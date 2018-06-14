@@ -9,7 +9,7 @@ PIPITS\: An automated pipeline for analyses of fungal internal transcribed space
 
 ============= ===========
 Home          https://github.com/hsgweon/pipits
-Versions      2.0
+Versions      2.0, 2.1
 License       GNU General Public License v3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pipits
 

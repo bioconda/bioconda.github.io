@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>httpretty &#8212; Bioconda  documentation</title>
+    <title>biopet-validatefastq &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="hubward-all" href="../hubward-all/README.html" />
-    <link rel="prev" title="htslib" href="../htslib/README.html" />
+    <link rel="next" title="biopet-vcfstats" href="../biopet-vcfstats/README.html" />
+    <link rel="prev" title="biopet-seqstat" href="../biopet-seqstat/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -60,47 +60,59 @@ $(document).ready(function() {
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="httpretty">
-<span id="id1"></span><h1>httpretty<a class="headerlink" href="#httpretty" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/httpretty"><img alt="downloads" src="https://anaconda.org/bioconda/httpretty/badges/downloads.svg" /></a></p>
-<p>HTTP client mock for Python</p>
+  <div class="section" id="biopet-validatefastq">
+<span id="id1"></span><h1>biopet-validatefastq<a class="headerlink" href="#biopet-validatefastq" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/biopet-validatefastq"><img alt="downloads" src="https://anaconda.org/bioconda/biopet-validatefastq/badges/downloads.svg" /></a></p>
+<p>This tool validates a FASTQ file.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="13%" />
+<col width="87%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://github.com/gabrielfalcao/httpretty">http://github.com/gabrielfalcao/httpretty</a></td>
+<td><a class="reference external" href="https://github.com/biopet/validatefastq">https://github.com/biopet/validatefastq</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.8.10</td>
+<td>0.1.1</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT License</td>
+<td>MIT</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/httpretty">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/httpretty</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validatefastq">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validatefastq</a></td>
 </tr>
 </tbody>
 </table>
+<p>This tool validates a FASTQ file. When data is paired it can
+also validate a pair of FASTQ files.
+ValidateFastq will check if the FASTQ is in valid FASTQ format.
+This includes checking for duplicate reads and checking whether
+a pair of FASTQ files contains the same amount of reads and headers match.
+It also check whether the quality encodings are correct and outputs
+the most likely encoding format (Sanger, Solexa etc.).</p>
+<p>For documentation and manuals visit our github.io page: https://biopet.github.io/validatefastq</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">httpretty</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">biopet</span><span class="o">-</span><span class="n">validatefastq</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">httpretty</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">biopet</span><span class="o">-</span><span class="n">validatefastq</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/httpretty"><img alt="docker" src="https://quay.io/repository/biocontainers/httpretty/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/httpretty">https://quay.io/repository/biocontainers/httpretty</a>.</p>
+</div>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>biopet-validatefastq is a Java program that comes with a custom wrapper shell script. By default ‘no default java option’ is set in the wrapper. The command that runs the program is ‘biopet-validatefastq’. If you want to overwrite it you can specify memory options directly after your binaries. If you have _JAVA_OPTIONS set globally this will take precedence. For example run it with ‘biopet-validatefastq -Xms512m -Xmx1g’.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/biopet-validatefastq"><img alt="docker" src="https://quay.io/repository/biocontainers/biopet-validatefastq/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/biopet-validatefastq">https://quay.io/repository/biocontainers/biopet-validatefastq</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/httpretty/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/httpretty/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/biopet-validatefastq/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biopet-validatefastq/README.html)
 </pre></div>
 </div>
 </div>
@@ -148,7 +160,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
       
       |
-      <a href="../../_sources/recipes/httpretty/README.rst.txt"
+      <a href="../../_sources/recipes/biopet-validatefastq/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
