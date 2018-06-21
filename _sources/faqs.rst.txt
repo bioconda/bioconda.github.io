@@ -147,3 +147,19 @@ macOS builds to the bioconda team.
 To ensure that CircleCI uses the bioconda team account, please **disable**
 CircleCI on your fork (look for the big red "Stop Building" button at
 https://circleci.com/dashboard under the settings for your fork.
+
+How reproducible are Bioconda Environments?
+----------------------------------------------
+One goal of Bioconda is to ensure the reproducibility of scientific workflows.
+Typically, Bioconda aims to make the conda package urls static and permanent.
+However, in some cases, packages may be found to either contain bugs, or,
+more likely, build problems that interfere with other packages.
+In such situations, packages may be moved from the bioconda channel (e.g., anaconda.org/bioconda/intervaltree)
+to the bioconda-legacy channel (e.g., anaconda.org/bioconda-legacy/intervaltree).
+Furthermore, in some cases a bioconda package will later be found to be sufficiently
+general that it is better suited to live on conda-forge.  In such cases,
+future package updates may occur on conda-forge (e.g., anaconda.org/bioconda/intervaltree).
+In sum, if a package goes missing, look on conda-forge for a newer build.  If you
+specifically need the old build, look on bioconda-legacy.  Finally, if your goal
+is to preserve a workflow for long-term reproducibilty, consider using
+some sort of containerization and/or virtualization (https://www.biorxiv.org/content/early/2017/10/11/200683).
