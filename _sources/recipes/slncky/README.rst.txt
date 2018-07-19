@@ -9,8 +9,8 @@ slncky is a tool for lncRNA discovery from RNA\-Seq data. slncky filters a high\
 
 ============= ===========
 Home          https://github.com/slncky/slncky
-Versions      1.0.3
-License       MIT - https://github.com/slncky/slncky/blob/1.0.3/license.txt - Copyright (c) 2015 Jennifer Chen
+Versions      1.0.3, 1.0.4
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slncky
 
 

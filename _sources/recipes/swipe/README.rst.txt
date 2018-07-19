@@ -9,10 +9,12 @@ Tool for performing rapid local alignment searches in amino acid or nucleotide s
 
 ============= ===========
 Home          http://dna.uio.no/swipe
-Versions      2.0.12
-License       file
+Versions      2.0.12, 2.1.0
+License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swipe
 
+
+Development   https://github.com/torognes/swipe
 
 
 Links         biotools: :biotools:`swipe`, doi: :doi:`10.1186/1471-2105-12-221`

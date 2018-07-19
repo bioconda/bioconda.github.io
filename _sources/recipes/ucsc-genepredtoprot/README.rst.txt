@@ -9,7 +9,7 @@ create protein sequences by translating gene annotations
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      357
+Versions      357, 366
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-genepredtoprot
 

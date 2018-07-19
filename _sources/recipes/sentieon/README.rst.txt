@@ -9,8 +9,8 @@ Accelerated performance bioinformatics tools for mapping and variant calling
 
 ============= ===========
 Home          http://sentieon.com
-Versions      201603.02, 201606, 201611, 201611.03, 201704, 201704.02, 201704.03, 201711, 201711.01, 201711.02, 201711.03
-License       Commercial (requires license for use)
+Versions      201603.02, 201606, 201611, 201611.03, 201704, 201704.02, 201704.03, 201711, 201711.01, 201711.02, 201711.03, 201711.04
+License       Commercial (requires license for use; redistribution allowed)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sentieon
 
 

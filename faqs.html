@@ -10,13 +10,14 @@
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Conda build v3" href="cb3.html" />
     <link rel="prev" title="Linting" href="linting.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -57,6 +58,8 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="faqs">
@@ -121,45 +124,15 @@ a local test passes while the online test fails.
 Nevertheless, the local test should capture most problems, such that it is highly
 encouraged to first run a local test in order to save quota on Circle CI.</p>
 </div>
-<div class="section" id="how-are-environmental-variables-defined-and-used">
-<h2>How are environmental variables defined and used?<a class="headerlink" href="#how-are-environmental-variables-defined-and-used" title="Permalink to this headline">¶</a></h2>
-<p>In some cases a recipe may need to pin the version of a dependency.  Jinja2
-templating is used within recipes to use a uniform set of versions for core
-packages used by bioconda packages. For example, see this <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/f5eb63e30a76fd13c28663786d219c9f7750267c/recipes/gfold/meta.yaml">meta.yaml</a>
-that uses a variable to hold the current GSL (GNU Scientific Library) version
-supported by bioconda.</p>
-<p>The currently defined dependencies are defined in <cite>scripts/env_matrix.yml</cite> and
-are sent to <cite>conda-build</cite> by setting them as environment variables. More
-specifically:</p>
-<ul>
-<li><dl class="first docutils">
-<dt><cite>config.yml</cite> indicates an <cite>env_matrix</cite> file in which CONDA_GSL is defined</dt>
-<dd><ul class="first last simple">
-<li><cite>config.yaml</cite> example</li>
-</ul>
-</dd>
-</dl>
-<p>&lt;<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/config.yml#L1">https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/config.yml#L1</a>&gt;`_ pointing to file</p>
-<blockquote>
-<div><ul class="simple">
-<li><cite>env_matrix.yml</cite> example
-&lt;<a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/scripts/env_matrix.yml">https://github.com/bioconda/bioconda-recipes/blob/0be2881ef95be68feb09fae7814e0217aca57285/scripts/env_matrix.yml</a>&gt;` defining CONDA_GSL.</li>
-</ul>
-</div></blockquote>
-</li>
-<li><p class="first">When figuring out which recipes need to be built, the filtering step attaches
-each unique env to a Target object. For example, one env might be
-<cite>CONDA_GSL=1.6; CONDA_PY=27, CONDA_R=3.3.1;</cite> while a different env would be
-<cite>CONDA_GSL=1.6; CONDA_PY=35, CONDA_R=3.3.1;</cite>.</p>
-</li>
-<li><p class="first">That env is provided to the build function which is either sent directly to
-docker as environment variables, or used to temporarily update os.environ so
-that conda-build sees it.</p>
-</li>
-<li><p class="first">These environment variables are then seen by conda-build and used to fill in
-the templated variables via jinja2.</p>
-</li>
-</ul>
+<div class="section" id="how-are-dependencies-pinned-to-particular-versions">
+<h2>How are dependencies pinned to particular versions?<a class="headerlink" href="#how-are-dependencies-pinned-to-particular-versions" title="Permalink to this headline">¶</a></h2>
+<p>In some cases a recipe may need to pin the version of a dependency.
+A global set of default versions to pin against is shared with conda-forge and
+can be found <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">here</a>.
+For new dependencies that are contained in conda-forge and not yet in this list,
+please update the list via a pull request.
+Local pinnings can be achieved by adding a file <code class="docutils literal notranslate"><span class="pre">conda_build_config.yaml</span></code> next
+to your <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>.</p>
 <p>To find out against which version you can pin a package, e.g. x.y.* or x.* please use [ABI-Laboratory](<a class="reference external" href="https://abi-laboratory.pro/tracker/">https://abi-laboratory.pro/tracker/</a>).</p>
 </div>
 <div class="section" id="what-s-the-lifecycle-of-a-bioconda-package">
@@ -197,12 +170,41 @@ due to not having a paid macOS plan. Luckily, CircleCI has generously provided
 macOS builds to the bioconda team.</p>
 <p>To ensure that CircleCI uses the bioconda team account, please <strong>disable</strong>
 CircleCI on your fork (look for the big red “Stop Building” button at
-<a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> under the settings for your fork.</p>
+<a class="reference external" href="https://circleci.com/dashboard">https://circleci.com/dashboard</a> under the settings for your fork).</p>
+</div>
+<div class="section" id="testing-bioconda-utils-locally">
+<h2>Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally<a class="headerlink" href="#testing-bioconda-utils-locally" title="Permalink to this headline">¶</a></h2>
+<p>Follow the instructions at <a class="reference internal" href="contribute-a-recipe.html#bootstrap"><span class="std std-ref">“Bootstrap” method</span></a> to create a separate Miniconda
+installation using the <code class="docutils literal notranslate"><span class="pre">bootstrap.py</span></code> script in the <cite>bioconda-recipes</cite> repo.</p>
+<p>Then, in the activated environment, install the bioconda-utils test
+requirements, from the top-level directory of the <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> repo.
+While the bootstrap script installs bioconda-utils dependencies, if there are
+any changes in <code class="docutils literal notranslate"><span class="pre">requirements.txt</span></code> you will want to install them as well.</p>
+<p>The bootstrap script already installed bioconda-utils, but we want to install
+it in develop mode so we can make local changes and they will be immediately
+picked up. So we need to uninstall and then reinstall bioconda-utils.</p>
+<p>Finally, run the tests using <code class="docutils literal notranslate"><span class="pre">pytest</span></code>.</p>
+<p>In summary:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># activate env</span>
+<span class="nb">source</span> ~/.config/bioconda/activate
+
+<span class="c1"># install dependencies</span>
+conda install --file test-requirements.txt --file bioconda_utils/bioconda_utils-requirements.txt
+
+<span class="c1"># uninstall and then reinstall</span>
+pip uninstall bioconda_utils
+python setup.py develop
+
+<span class="c1"># run tests</span>
+pytest <span class="nb">test</span> -vv
+</pre></div>
+</div>
 </div>
 </div>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -231,12 +233,14 @@ CircleCI on your fork (look for the big red “Stop Building” button at
 <li class="toctree-l2"><a class="reference internal" href="#recipe-vs-package">Recipe vs package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#continuous-integration-circle-ci">Continuous integration (Circle CI)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#how-is-circle-ci-set-up-and-configured">How is Circle CI set up and configured?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#how-are-environmental-variables-defined-and-used">How are environmental variables defined and used?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#how-are-dependencies-pinned-to-particular-versions">How are dependencies pinned to particular versions?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#circleci-macos-plans">CircleCI macOS plans</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#testing-bioconda-utils-locally">Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -248,8 +252,8 @@ CircleCI on your fork (look for the big red “Stop Building” button at
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="_sources/faqs.rst.txt"

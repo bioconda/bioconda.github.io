@@ -10,7 +10,7 @@ This software implements a spectral learning algorithm for hidden Markov models 
 ============= ===========
 Home          https://github.com/jiminsong/Spectacle
 Versions      1.4
-License       GPLv3
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectacle
 
 

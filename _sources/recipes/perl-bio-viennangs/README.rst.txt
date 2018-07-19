@@ -9,7 +9,7 @@ Bio\:\:ViennaNGS is a distribution of Perl modules and utilities for building ef
 
 ============= ===========
 Home          http://search.cpan.org/dist/Bio-ViennaNGS/
-Versions      v0.16, v0.18
+Versions      v0.16, v0.18, v0.19
 License       Perl5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-viennangs
 

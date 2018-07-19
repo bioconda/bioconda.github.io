@@ -8,9 +8,9 @@ bedtools
 A swiss army knife for genome arithmetic.  https\:\/\/github.com\/arq5x\/bedtools2 
 
 ============= ===========
-Home          
+Home          http://bedtools.readthedocs.org/
 Versions      2.16.2, 2.17.0, 2.19.1, 2.20.1, 2.22, 2.23.0, 2.24.0, 2.25.0, 2.26.0, 2.26.0gx, 2.27.0, 2.27.1
-License       
+License       GPL v2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedtools/2.19.1
 
 

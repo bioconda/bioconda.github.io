@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -58,6 +58,8 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="guidelines-for-bioconda-recipes">
@@ -359,9 +361,8 @@ ensure that all bioconda packages are binary-compatible with each other. For
 example, bioconda provides an environnmnet variable <code class="docutils literal notranslate"><span class="pre">CONDA_BOOST</span></code> that
 contains the current major version of Boost. You should pin your boost
 dependency against that version. An example is the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon">salmon recipe</a>.
-You find the libraries you can currently pin in <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/blob/master/scripts/env_matrix.yml">scripts/env_matrix.yml</a>.
-If you need to pin another library, please notify &#64;bioconda/core, and we will
-set up a corresponding environment variable.</p>
+You find the libraries that are already pinned <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yamll">here</a>.
+If you need to pin another library, please notify &#64;bioconda/core, and we will extend this list.</p>
 <p>It’s not uncommon to have difficulty compiling package into a portable
 conda package. Since there is no single solution, here are some examples
 of how bioconda contributors have solved compiling issues to give you
@@ -481,7 +482,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id12"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
@@ -538,6 +539,7 @@ and others.</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -587,6 +589,7 @@ and others.</p>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -598,8 +601,8 @@ and others.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="_sources/guidelines.rst.txt"

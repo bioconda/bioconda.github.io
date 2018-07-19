@@ -8,7 +8,7 @@ homer
 Software for motif discovery and next generation sequencing analysis
 
 ============= ===========
-Home          
+Home          http://homer.ucsd.edu/homer/index.html
 Versions      4.8, 4.8.3, 4.9.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/homer

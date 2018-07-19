@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -57,6 +57,8 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <img alt="_images/bioconda.png" src="_images/bioconda.png" />
@@ -78,6 +80,7 @@ The main <cite>defaults</cite> channel has a large number of common packages. Us
 add additional channels from which to install software packages not available
 in the defaults channel. Bioconda is one such channel specializing in
 bioinformatics software.</p>
+<p>When using Bioconda please <strong>cite our article</strong> <a href="#id5"><span class="problematic" id="id6">`Grüning, Björn, Ryan Dale, Andreas Sjödin, Brad A. Chapman, Jillian Rowe, Christopher H. Tomkins-Tinch, Renan Valieris, the Bioconda Team, and Johannes Köster. 2018. &quot;Bioconda: Sustainable and Comprehensive Software Distribution for the Life Sciences&quot;. Nature Methods, July. &lt;https://doi.org/10.1038/s41592-018-0046-7&gt;.`_</span></a>.</p>
 <p>Bioconda has been acknowledged by NATURE in their
 <a class="reference external" href="http://blogs.nature.com/naturejobs/2017/11/03/techblog-bioconda-promises-to-ease-bioinformatics-software-installation-woes/">technology blog</a>.</p>
 <p>Each package added to Bioconda also has a corresponding Docker  <a class="reference external" href="https://biocontainers.pro">BioContainer</a> automatically created and uploaded to Quay.io.</p>
@@ -249,7 +252,7 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#missing-license"><cite>missing_license</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#missing-tests"><cite>missing_tests</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#missing-hash"><cite>missing_hash</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#should-be-noarch-currently-disabled"><cite>should_be_noarch</cite> (currently disabled)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-be-noarch"><cite>should_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-be-noarch"><cite>should_not_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#uses-git-url"><cite>uses_git_url</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#uses-perl-threaded"><cite>uses_perl_threaded</cite></a></li>
@@ -258,7 +261,10 @@ channel.</p>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#invalid-identifiers"><cite>invalid_identifiers</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="linting.html#not-pinned"><cite>*_not_pinned</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#deprecated-numpy-spec"><cite>deprecated_numpy_spec</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-not-use-fn"><cite>should_not_use_fn</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#should-use-compilers"><cite>should_use_compilers</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="linting.html#compilers-must-be-in-build"><cite>compilers_must_be_in_build</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="linting.html#bioconductor-37"><cite>bioconductor_37</cite></a></li>
 </ul>
 </li>
@@ -270,9 +276,10 @@ channel.</p>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#recipe-vs-package">Recipe vs package</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#continuous-integration-circle-ci">Continuous integration (Circle CI)</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#how-is-circle-ci-set-up-and-configured">How is Circle CI set up and configured?</a></li>
-<li class="toctree-l2"><a class="reference internal" href="faqs.html#how-are-environmental-variables-defined-and-used">How are environmental variables defined and used?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html#how-are-dependencies-pinned-to-particular-versions">How are dependencies pinned to particular versions?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#what-s-the-lifecycle-of-a-bioconda-package">What’s the lifecycle of a bioconda package?</a></li>
 <li class="toctree-l2"><a class="reference internal" href="faqs.html#circleci-macos-plans">CircleCI macOS plans</a></li>
+<li class="toctree-l2"><a class="reference internal" href="faqs.html#testing-bioconda-utils-locally">Testing <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span></code> locally</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a><ul>
@@ -283,6 +290,12 @@ channel.</p>
 <li class="toctree-l2"><a class="reference internal" href="build-system.html#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html#the-new-host-section">The new <code class="docutils literal notranslate"><span class="pre">host</span></code> section</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html#compiler-tools">Compiler tools</a></li>
+<li class="toctree-l2"><a class="reference internal" href="cb3.html#global-pinning">Global pinning</a></li>
+</ul>
+</li>
 </ul>
 </div>
 </div>
@@ -290,6 +303,7 @@ channel.</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -315,6 +329,7 @@ channel.</p>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -326,8 +341,8 @@ channel.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="_sources/index.rst.txt"

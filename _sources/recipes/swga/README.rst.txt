@@ -10,7 +10,7 @@ Select primer sets for selective whole genome amplification \(SWGA\)
 ============= ===========
 Home          https://github.com/eclarke/swga
 Versions      0.4.2, 0.4.3.p1, 0.4.4
-License       GPLv3
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swga
 
 

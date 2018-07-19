@@ -5,13 +5,13 @@ perl-time-local
 
 |downloads|
 
-efficiently compute time from local and GMT time
+Efficiently compute time from local and GMT time
 
 ============= ===========
-Home          http://metacpan.org/pod/Time::Local
-Versions      1.2300
+Home          http://metacpan.org/release/Time-Local
+Versions      1.2300, 1.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-local/1.2300
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-local
 
 
 

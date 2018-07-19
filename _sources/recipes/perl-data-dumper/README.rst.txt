@@ -5,10 +5,10 @@ perl-data-dumper
 
 |downloads|
 
-stringified perl data structures\, suitable for both printing and eval
+seeds germane\, yet not germinated
 
 ============= ===========
-Home          http://search.cpan.org/~smueller/Data-Dumper-2.161/Dumper.pm
+Home          http://metacpan.org/pod/Data::Dumper
 Versions      2.161
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-dumper

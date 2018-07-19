@@ -9,8 +9,8 @@ OrfM is a simple and not slow ORF caller
 
 ============= ===========
 Home          https://github.com/wwood/OrfM
-Versions      0.6.1
-License       GPL3
+Versions      0.6.1, 0.7.1
+License       LGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orfm
 
 

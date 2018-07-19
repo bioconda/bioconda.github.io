@@ -9,10 +9,12 @@ Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k
 
 ============= ===========
 Home          http://www.genome.umd.edu/jellyfish.html
-Versions      1.1.11, 2.2.3, 2.2.6
-License       GPLv3
+Versions      1.1.11, 1.1.12, 2.2.10, 2.2.3, 2.2.6
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jellyfish
 
+
+Development   https://github.com/gmarcais/Jellyfish
 
 
 Links         biotools: :biotools:`jellyfish`

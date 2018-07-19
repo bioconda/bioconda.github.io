@@ -9,8 +9,8 @@ Yaggo is a tool to generate command line parsers for C\+\+. Yaggo stands for \"Y
 
 ============= ===========
 Home          https://github.com/gmarcais/yaggo
-Versions      1.5.8, 1.5.9
-License       GPLv3
+Versions      1.5.10, 1.5.8, 1.5.9
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yaggo
 
 

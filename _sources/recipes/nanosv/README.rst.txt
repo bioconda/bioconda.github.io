@@ -9,7 +9,7 @@ Structural variation detection tool for Oxford Nanopore data.
 
 ============= ===========
 Home          https://github.com/mroosmalen/nanosv
-Versions      0.0.1, 1.1.2
+Versions      0.0.1, 1.1.2, 1.2.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosv
 

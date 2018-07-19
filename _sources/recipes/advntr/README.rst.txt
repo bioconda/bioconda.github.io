@@ -9,7 +9,7 @@ A tool for genotyping Variable Number Tandem Repeats \(VNTR\) from sequence data
 
 ============= ===========
 Home          https://github.com/mehrdadbakhtiari/adVNTR
-Versions      1.0.3, 1.1.0
+Versions      1.0.3, 1.1.0, 1.1.1
 License       BSD 3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/advntr
 

@@ -9,13 +9,17 @@ Assembly By Short Sequences \- a de novo\, parallel\, paired\-end sequence assem
 
 ============= ===========
 Home          http://www.bcgsc.ca/platform/bioinfo/software/abyss
-Versions      1.5.2, 1.9.0, 2.0.1, 2.0.2
+Versions      1.5.2, 1.9.0, 2.0.1, 2.0.2, 2.1.0
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abyss
 
+Documentation https://github.com/bcgsc/abyss#readme
 
 
-Links         biotools: :biotools:`abyss`, doi: :doi:`10.1101/gr.089532.108`
+Development   https://github.com/bcgsc/abyss
+
+
+Links         biotools: :biotools:`abyss`, doi: :doi:`10.1101/gr.214346.116`, doi: :doi:`10.1101/gr.089532.108`
 
 ============= ===========
 

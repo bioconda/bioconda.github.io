@@ -9,7 +9,7 @@ get\, unpack\, build and install modules from CPAN
 
 ============= ===========
 Home          https://github.com/miyagawa/cpanminus
-Versions      1.7039, 1.7043
+Versions      1.7039, 1.7043, 1.7044
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-app-cpanminus
 

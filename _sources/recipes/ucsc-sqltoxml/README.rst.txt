@@ -9,7 +9,7 @@ dump out all or part of a relational database to XML\, guided
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357
+Versions      324, 332, 357, 366
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-sqltoxml
 

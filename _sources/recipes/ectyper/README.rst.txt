@@ -5,12 +5,12 @@ ectyper
 
 |downloads|
 
-Ectyper is a python script for serotyping e.coli genomes
+ECtyper is a python program for serotyping E. coli genomes
 
 ============= ===========
 Home          https://github.com/phac-nml/ecoli_serotyping
-Versions      0.1
-License       MIT
+Versions      0.1, 0.5.4
+License       Apache 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ectyper
 
 

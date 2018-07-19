@@ -9,7 +9,7 @@ comprehensive analysis of miRNA sequencing data
 
 ============= ===========
 Home          https://github.com/mhalushka/miRge
-Versions      2.0, 2.0.3
+Versions      2.0, 2.0.3, 2.0.4, 2.0.5
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirge
 

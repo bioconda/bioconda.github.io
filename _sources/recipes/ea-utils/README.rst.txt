@@ -8,8 +8,8 @@ ea-utils
 Command\-line tools for processing biological sequencing data.
 
 ============= ===========
-Home          https://code.google.com/p/ea-utils/
-Versions      1.1.2.537
+Home          https://expressionanalysis.github.io/ea-utils/
+Versions      1.1.2.537, 1.1.2.779
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ea-utils
 

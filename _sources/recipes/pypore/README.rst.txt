@@ -10,7 +10,7 @@ Pythonic\/Cythonic Nanopore Translocation Analysis
 ============= ===========
 Home          http://parkin.github.io/pypore/
 Versions      0.0.5.dev20160304220337, 0.0.6.dev20161116235131
-License       
+License       None
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypore
 
 

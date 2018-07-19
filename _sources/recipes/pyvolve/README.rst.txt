@@ -9,7 +9,7 @@ Pyvolve is an open\-source Python module for simulating sequences along a phylog
 
 ============= ===========
 Home          https://github.com/sjspielman/pyvolve
-Versions      0.8.7
+Versions      0.8.7, 0.8.8
 License       FreeBSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvolve
 

@@ -9,7 +9,7 @@ small RNA analysis from NGS data
 
 ============= ===========
 Home          https://github.com/lpantano/seqclsuter
-Versions      1.1.13, 1.1.14, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4a
+Versions      1.1.13, 1.1.14, 1.2.0, 1.2.1, 1.2.2, 1.2.3, 1.2.4a, 1.2.4a5, 1.2.4a6
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqcluster
 

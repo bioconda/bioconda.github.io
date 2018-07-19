@@ -10,7 +10,7 @@
 ============= ===========
 Home          https://github.com/rodrigofaccioli/2pg_cartesian
 Versions      1.0.1
-License       
+License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/2pg_cartesian
 
 

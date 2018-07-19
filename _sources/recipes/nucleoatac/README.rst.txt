@@ -8,12 +8,16 @@ nucleoatac
 Python package for calling nucleosomes using ATAC\-Seq data. Also includes general scripts for working with paired\-end ATAC\-Seq data \(or potentially other paired\-end data\).
 
 ============= ===========
-Home          http://nucleoatac.readthedocs.io/en/latest/
+Home          https://github.com/GreenleafLab/NucleoATAC
 Versions      0.3.1, 0.3.4
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nucleoatac
 
+Documentation http://nucleoatac.readthedocs.io/en/latest/
 
+
+
+Links         doi: :doi:`10.1101/gr.192294.115`
 
 ============= ===========
 

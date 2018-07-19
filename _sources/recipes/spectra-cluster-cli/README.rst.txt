@@ -10,7 +10,7 @@ This is a stand\-alone implementation of the new updated PRIDE Cluster algorithm
 ============= ===========
 Home          https://github.com/spectra-cluster/spectra-cluster-cli
 Versions      1.0.1
-License       Apache License, Version 2.0
+License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectra-cluster-cli
 
 
@@ -41,7 +41,6 @@ This shell wrapper is called \"opsin\" and is on \$PATH by default. By default
 specify these values directly after your binaries. If you have \_JAVA\_OPTIONS
 set globally this will take precedence.
 For example run it with \"spectra\-cluster\-cli \-Xms512m \-Xmx1g\"
-
 
 
 |docker|

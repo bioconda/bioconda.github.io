@@ -10,7 +10,7 @@ WTDBG\: A fuzzy Bruijn graph \(FBG\) approach to long noisy reads assembly
 ============= ===========
 Home          https://github.com/ruanjue/wtdbg-1.2.8
 Versions      1.2.8.1
-License       Unknown
+License       GPL-3.0+
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtdbg
 
 

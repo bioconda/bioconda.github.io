@@ -5,12 +5,12 @@ squeakr
 
 |downloads|
 
-An Exact and Approximate k\-mmer Counting System
+An Exact and Approximate k\-mer Counting System
 
 ============= ===========
 Home          https://github.com/splatlab/squeakr
 Versions      0.5
-License       BSD
+License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squeakr
 
 

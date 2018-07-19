@@ -9,7 +9,7 @@ Bayesian haplotype\-based mutation calling
 
 ============= ===========
 Home          https://github.com/luntergroup/octopus
-Versions      0.3.3a
+Versions      0.3.3a, 0.4.1a
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
 

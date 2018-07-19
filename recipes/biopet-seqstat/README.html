@@ -10,15 +10,15 @@
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="biopet-validatefastq" href="../biopet-validatefastq/README.html" />
-    <link rel="prev" title="biopet-sampleconfig" href="../biopet-sampleconfig/README.html" />
+    <link rel="next" title="biopet-validateannotation" href="../biopet-validateannotation/README.html" />
+    <link rel="prev" title="biopet-seattleseqkit" href="../biopet-seattleseqkit/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -58,12 +58,14 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="biopet-seqstat">
 <span id="id1"></span><h1>biopet-seqstat<a class="headerlink" href="#biopet-seqstat" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://anaconda.org/bioconda/biopet-seqstat"><img alt="downloads" src="https://anaconda.org/bioconda/biopet-seqstat/badges/downloads.svg" /></a></p>
-<p>SeqStats outputs several stats on a FASTQ file.</p>
+<p>SeqStat is a package that contains tools to generate stats from a FastQ file, merge those stats for multiple samples, and validate the generated stats files.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="14%" />
@@ -74,7 +76,7 @@ $(document).ready(function() {
 <td><a class="reference external" href="https://github.com/biopet/seqstat">https://github.com/biopet/seqstat</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.1</td>
+<td>0.1, 1.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
 <td>MIT</td>
@@ -84,7 +86,12 @@ $(document).ready(function() {
 </tr>
 </tbody>
 </table>
-<p>SeqStats outputs several stats on a FASTQ file.</p>
+<p>SeqStat is a package that contains tools
+to generate stats from a FastQ file,
+merge those stats for multiple samples,
+and validate the generated stats files.</p>
+<p>#### Mode - Generate</p>
+<p>Generate outputs several stats on a FASTQ file.</p>
 <p>Outputted stats:</p>
 <dl class="docutils">
 <dt>- Bases</dt>
@@ -93,13 +100,18 @@ $(document).ready(function() {
 - Number of each nucleotide</dd>
 <dt>- Reads</dt>
 <dd>- Total number
-- Number of reads with ‘N’ bases
 - minimum length
 - maximum length
 - A histogram of the average base qualities
 - The quality encoding (Sanger, solexa etc.)
 - A histogram of the read lengths.</dd>
 </dl>
+<p>#### Mode - Merge</p>
+<p>This module will merge seqstat files together and keep the sample/library/readgroup structure.
+If required it’s also possible to collapse this, the output file then des not have any sample/library/readgroup structure.</p>
+<blockquote>
+<div>aggregation values can not be regenerated the file is considered corrupt.</div></blockquote>
+<p>This should only happen when the user will edit the seqstat file manually.</p>
 <p>For documentation and manuals visit our github.io page: https://biopet.github.io/seqstat</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
@@ -129,6 +141,7 @@ $(document).ready(function() {
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -154,6 +167,7 @@ $(document).ready(function() {
 <li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -165,8 +179,8 @@ $(document).ready(function() {
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="../../_sources/recipes/biopet-seqstat/README.rst.txt"

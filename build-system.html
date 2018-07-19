@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -58,6 +58,8 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="build-system">
@@ -165,10 +167,7 @@ Travis-CI build.</li>
 run in the container.</li>
 <li>At the end of the build, the build script copies the package to the
 exported conda-bld directory</li>
-<li><code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">scripts/env_matrix.yml</span></code>: each unique combination of
-env vars defined here will create an independent build</li>
-<li>A whitelist of env vars (including those defined in the
-<code class="docutils literal notranslate"><span class="pre">env_matrix.yml</span></code>) is exported. The whitelist is configured in
+<li>A whitelist of env vars is exported. The whitelist is configured in
 <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">utils.py</span></code>.</li>
 </ul>
 </div></blockquote>
@@ -247,6 +246,7 @@ fully successful, a PR is opened to merge the changes into master.</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -268,18 +268,7 @@ fully successful, a PR is opened to merge the changes into master.</p>
 <h3>Navigation</h3>
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="recipes.html">Available packages</a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="contributing.html">Contributing</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="contrib-setup.html">One-time setup</a></li>
-<li class="toctree-l2"><a class="reference internal" href="contribute-a-recipe.html">Contributing a recipe</a></li>
-<li class="toctree-l2"><a class="reference internal" href="troubleshooting.html">Troubleshooting failed recipes</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Build system</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#stages-of-a-bioconda-build">Stages of a bioconda build</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
-</ul>
-</li>
-<li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
-</ul>
-</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Build system</a><ul>
@@ -290,6 +279,7 @@ fully successful, a PR is opened to merge the changes into master.</p>
 <li class="toctree-l2"><a class="reference internal" href="#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -301,8 +291,8 @@ fully successful, a PR is opened to merge the changes into master.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="_sources/build-system.rst.txt"

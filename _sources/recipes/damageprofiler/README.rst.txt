@@ -5,12 +5,12 @@ damageprofiler
 
 |downloads|
 
- A Java based tool to determine damage patterns on ancient DNA as a replacement for mapDamage 
+A Java based tool to determine damage patterns on ancient DNA as a replacement for mapDamage
 
 ============= ===========
-Home          https://github.com/Integrative-Transcriptomics/dedup
+Home          https://github.com/Integrative-Transcriptomics/DamageProfiler
 Versions      0.3.11
-License       GPLv3
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/damageprofiler
 
 

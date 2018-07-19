@@ -5,11 +5,11 @@ motus
 
 |downloads|
 
-mOTUs Metagenomic species profiling using universal phylogenetic marker genes
+Marker gene\-based OTU \(mOTU\) profiling
 
 ============= ===========
-Home          http://www.bork.embl.de/software/mOTU
-Versions      1.0
+Home          http://motu-tool.org/
+Versions      1.0, 2.0.0
 License       GNU GPL v3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motus
 
@@ -34,6 +34,10 @@ and update with::
 
    conda update motus
 
+
+Notes
+-----
+A tiny wrapper to the command motus was added. See build.sh for additional notes
 
 
 |docker|

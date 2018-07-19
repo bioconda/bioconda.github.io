@@ -9,7 +9,7 @@ Fast BAM\/CRAM depth calculation for WGS\, exome\, or targetted sequencing.
 
 ============= ===========
 Home          https://github.com/brentp/mosdepth
-Versions      0.1.1, 0.1.3, 0.1.4a, 0.1.5, 0.1.6, 0.1.7, 0.1.9, 0.2.0, 0.2.1, 0.2.2
+Versions      0.1.1, 0.1.3, 0.1.4a, 0.1.5, 0.1.6, 0.1.7, 0.1.9, 0.2.0, 0.2.1, 0.2.2, 0.2.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mosdepth
 

@@ -5,11 +5,11 @@ biopet-seqstat
 
 |downloads|
 
-SeqStats outputs several stats on a FASTQ file.
+SeqStat is a package that contains tools to generate stats from a FastQ file\, merge those stats for multiple samples\, and validate the generated stats files.
 
 ============= ===========
 Home          https://github.com/biopet/seqstat
-Versions      0.1
+Versions      0.1, 1.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-seqstat
 
@@ -17,7 +17,15 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 ============= ===========
 
-SeqStats outputs several stats on a FASTQ file.
+SeqStat is a package that contains tools
+to generate stats from a FastQ file\,
+merge those stats for multiple samples\,
+and validate the generated stats files.
+
+     
+\#\#\#\# Mode \- Generate
+
+Generate outputs several stats on a FASTQ file.
 
 Outputted stats\:
 
@@ -27,12 +35,23 @@ Outputted stats\:
    \- Number of each nucleotide
 \- Reads
    \- Total number
-   \- Number of reads with \'N\' bases
    \- minimum length
    \- maximum length
    \- A histogram of the average base qualities
    \- The quality encoding \(Sanger\, solexa etc.\)
    \- A histogram of the read lengths.
+    
+        
+
+\#\#\#\# Mode \- Merge
+
+This module will merge seqstat files together and keep the sample\/library\/readgroup structure.
+If required it\'s also possible to collapse this\, the output file then des not have any sample\/library\/readgroup structure.
+    
+        
+
+ aggregation values can not be regenerated the file is considered corrupt.
+This should only happen when the user will edit the seqstat file manually.
 
 For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/seqstat
 

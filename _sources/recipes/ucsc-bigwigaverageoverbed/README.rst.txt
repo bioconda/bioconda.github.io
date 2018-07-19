@@ -9,7 +9,7 @@ Compute average score of big wig over each bed\, which may have introns.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357
+Versions      324, 332, 357, 366
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bigwigaverageoverbed
 

@@ -10,7 +10,7 @@ Efficient de novo assembly of single\-cell bacterial genomes from short\-read da
 ============= ===========
 Home          http://bix.ucsd.edu/projects/singlecell/
 Versions      0.7.62
-License       GPL2
+License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/velvet-sc
 
 

@@ -10,7 +10,7 @@ CMPH \- C Minimal Perfect Hashing Library
 ============= ===========
 Home          http://cmph.sourceforge.net/
 Versions      2.0
-License       
+License       LGPL and the MPL 1.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmph
 
 

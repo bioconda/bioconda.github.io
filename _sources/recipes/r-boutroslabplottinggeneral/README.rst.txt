@@ -10,7 +10,7 @@ boutroslabplottinggeneral
 ============= ===========
 Home          https://labs.oicr.on.ca/boutros-lab/software/bpg
 Versions      5.3.4
-License       
+License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-boutroslabplottinggeneral
 
 

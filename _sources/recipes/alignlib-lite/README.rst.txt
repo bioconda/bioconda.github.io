@@ -10,7 +10,7 @@ Simple wrapper around alignlib C\+\+ library for sequence alignment
 ============= ===========
 Home          http://sourceforge.net/projects/alignlib/
 Versions      0.2.3, 0.3
-License       GNU General Public License v2 or later (GPLv2+)
+License       GPL-2.0-or-later
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite
 
 

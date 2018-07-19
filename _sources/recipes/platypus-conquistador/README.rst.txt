@@ -8,9 +8,9 @@ platypus-conquistador
 Platypus Conquistador\: Confirming specific taxonomic groups within your metagenomic samples.
 
 ============= ===========
-Home          http://github.com/biocore/platypus
+Home          https://github.com/biocore/Platypus-Conquistador
 Versions      0.9.0
-License       BSD License
+License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/platypus-conquistador
 
 

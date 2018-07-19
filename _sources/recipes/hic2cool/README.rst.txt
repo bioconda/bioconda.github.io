@@ -9,7 +9,7 @@ A converter between .hic files \(from juicer\) and .cool files \(for cooler\).
 
 ============= ===========
 Home          https://github.com/4dn-dcic/hic2cool
-Versions      0.4.1
+Versions      0.4.1, 0.4.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hic2cool
 

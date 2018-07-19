@@ -9,13 +9,13 @@ Tool for digital spoligotyping of MTB strains from Illumina read data
 
 ============= ===========
 Home          https://github.com/AbeelLab/lorikeet
-Versions      17, 19
+Versions      17, 19, 20
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lorikeet
 
 
 
-Links         DOI: :DOI:`10.1371/journal.pmed.1001880`
+Links         doi: :doi:`10.1371/journal.pmed.1001880`
 
 ============= ===========
 

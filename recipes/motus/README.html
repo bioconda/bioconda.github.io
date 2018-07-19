@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="../../_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
     <script type="text/javascript" src="../../_static/jquery.js"></script>
     <script type="text/javascript" src="../../_static/underscore.js"></script>
     <script type="text/javascript" src="../../_static/doctools.js"></script>
@@ -58,12 +58,14 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="motus">
 <span id="id1"></span><h1>motus<a class="headerlink" href="#motus" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://anaconda.org/bioconda/motus"><img alt="downloads" src="https://anaconda.org/bioconda/motus/badges/downloads.svg" /></a></p>
-<p>mOTUs Metagenomic species profiling using universal phylogenetic marker genes</p>
+<p>Marker gene-based OTU (mOTU) profiling</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="16%" />
@@ -71,10 +73,10 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://www.bork.embl.de/software/mOTU">http://www.bork.embl.de/software/mOTU</a></td>
+<td><a class="reference external" href="http://motu-tool.org/">http://motu-tool.org/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.0</td>
+<td>1.0, 2.0.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
 <td>GNU GPL v3</td>
@@ -97,6 +99,10 @@ $(document).ready(function() {
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">motus</span>
 </pre></div>
 </div>
+</div>
+<div class="section" id="notes">
+<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
+<p>A tiny wrapper to the command motus was added. See build.sh for additional notes</p>
 <p><a class="reference external" href="https://quay.io/repository/biocontainers/motus"><img alt="docker" src="https://quay.io/repository/biocontainers/motus/status" /></a></p>
 <p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/motus">https://quay.io/repository/biocontainers/motus</a>.</p>
 </div>
@@ -111,6 +117,7 @@ $(document).ready(function() {
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -136,6 +143,7 @@ $(document).ready(function() {
 <li class="toctree-l1"><a class="reference internal" href="../../linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -147,8 +155,8 @@ $(document).ready(function() {
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="../../_sources/recipes/motus/README.rst.txt"

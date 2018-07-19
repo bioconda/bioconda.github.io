@@ -10,7 +10,7 @@ Adds percolator statistics to mzIdentML files that were used as input to percola
 ============= ===========
 Home          https://github.com/percolator/pout2mzid
 Versions      0.3.03
-License       
+License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pout2mzid
 
 

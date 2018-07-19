@@ -5,11 +5,18 @@ r-maldiquant
 
 |downloads|
 
-A complete analysis pipeline for matrix\-assisted laser desorption\/ionization\-time\-of\-flight \(MALDI\-TOF\) and other two\-dimensional mass spectrometry data. In addition to commonly used plotting and processing methods it includes distinctive features\, namely baseline subtraction methods such as morphological filters \(TopHat\) or the statistics\-sensitive non\-linear iterative peak\-clipping algorithm \(SNIP\)\, peak alignment using warping functions\, handling of replicated measurements as well as allowing spectra with different resolutions.
+A complete analysis pipeline for matrix\-assisted laser desorption\/ionization\-time\-of\-flight
+\(MALDI\-TOF\) and other two\-dimensional mass spectrometry data. In addition to commonly
+used plotting and processing methods it includes distinctive features\, namely baseline
+subtraction methods such as morphological filters \(TopHat\) or the statistics\-sensitive
+non\-linear iterative peak\-clipping algorithm \(SNIP\)\, peak alignment using warping
+functions\, handling of replicated measurements as well as allowing spectra with
+different resolutions.
+
 
 ============= ===========
-Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquant/
-Versions      1.14, 1.16.4, 1.17
+Home          https://github.com/sgibb/MALDIquant/
+Versions      1.14, 1.16.4, 1.17, 1.18
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquant
 

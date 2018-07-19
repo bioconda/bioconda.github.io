@@ -10,7 +10,7 @@ Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity o
 ============= ===========
 Home          https://sourceforge.net/projects/np-likeness/
 Versions      2.1
-License       
+License       None
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/np-likeness-scorer
 
 

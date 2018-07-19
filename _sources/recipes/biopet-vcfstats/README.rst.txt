@@ -9,7 +9,7 @@ Vcfstats is a tool that can generate metrics from a vcf file.
 
 ============= ===========
 Home          https://github.com/biopet/vcfstats
-Versions      1.0, 1.1
+Versions      1.0, 1.1, 1.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-vcfstats
 
@@ -19,15 +19,15 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 Vcfstats is a tool that can generate metrics from a vcf file.
 
-\- General stats \(default\, can be disabled\)
-\- Genotype stats \(default\, can be disabled\)
-\- Sample compare \(default\, can be disabled\)
-\- Sample distributions \(default\, can be disabled\)
-\- Field histograms
+ \- General stats \(default\, can be disabled\)
+ \- Genotype stats \(default\, can be disabled\)
+ \- Sample compare \(default\, can be disabled\)
+ \- Sample distributions \(default\, can be disabled\)
+ \- Field histograms
 
 This tool can run locally single threaded but also on a Apache Spark cluster.
 
-For documentation and manuals visit our \[github.io page\]\(https\:\/\/biopet.github.io\/vcfstats\).
+For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/vcfstats
 
 Installation
 ------------

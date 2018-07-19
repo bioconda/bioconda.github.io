@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="_static/custom.css" type="text/css" />
-    <script type="text/javascript" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
@@ -58,6 +58,8 @@ $(document).ready(function() {
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
+          
+
           <div class="body" role="main">
             
   <div class="section" id="linting">
@@ -174,18 +176,19 @@ corrupted.</p>
 <p>How to resolve: Add a hash in the <a class="reference external" href="https://conda.io/docs/building/meta-yaml.html#source-section">source section</a>. See
 <a class="reference internal" href="guidelines.html#hashes"><span class="std std-ref">Hashes</span></a> for more info.</p>
 </div>
-<div class="section" id="should-be-noarch-currently-disabled">
-<h3><cite>should_be_noarch</cite> (currently disabled)<a class="headerlink" href="#should-be-noarch-currently-disabled" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="should-be-noarch">
+<h3><cite>should_be_noarch</cite><a class="headerlink" href="#should-be-noarch" title="Permalink to this headline">¶</a></h3>
 <p>Reason for failing: The package should be labelled as <code class="docutils literal notranslate"><span class="pre">noarch</span></code>.</p>
-<p>Rationale: A <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package should be created for pure Python packages, data packages, or
-packages that do not require compilation. With this a single <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package can be
-used across multiple platforms and (in case of Python) Python versions, which saves
-on build time and saves on storage space on the bioconda channel.</p>
-<p>How to resolve: For pure Python packages, add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.
-<strong>Don’t do this if your Python package has a command line interface</strong>, as these are not
-independent of the Python version!
-For other generic packages (like a data package), add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the <code class="docutils literal notranslate"><span class="pre">build</span></code> section.
-See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
+<p>Rationale: A <code class="docutils literal notranslate"><span class="pre">noarch</span></code> package should be created for pure Python packages,
+data packages, or packages that do not require compilation. With this a single
+<code class="docutils literal notranslate"><span class="pre">noarch</span></code> package can be used across multiple platforms and (in case of
+Python) Python versions, which saves on build time and saves on storage space
+on the bioconda channel.</p>
+<p>How to resolve: For pure Python packages, add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">python</span></code> to the
+<code class="docutils literal notranslate"><span class="pre">build</span></code> section.  <strong>Don’t do this if your Python package has a command line
+interface</strong>, as these are not independent of the Python version!  For other
+generic packages (like a data package), add <code class="docutils literal notranslate"><span class="pre">noarch:</span> <span class="pre">generic</span></code> to the
+<code class="docutils literal notranslate"><span class="pre">build</span></code> section.  See <a class="reference external" href="https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages">here</a> for
 more details.</p>
 </div>
 <div class="section" id="should-not-be-noarch">
@@ -270,65 +273,45 @@ allowed to install <code class="docutils literal notranslate"><span class="pre">
 </div>
 <div class="section" id="invalid-identifiers">
 <h3><cite>invalid_identifiers</cite><a class="headerlink" href="#invalid-identifiers" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipes has an <cite>extra -&gt; identifiers</cite> section with an
+<p>Reason for failing: The recipe has an <code class="docutils literal notranslate"><span class="pre">extra</span> <span class="pre">-&gt;</span> <span class="pre">identifiers</span></code> section with an
 invalid format.</p>
 <p>Rationale: The identifiers section has to be machine readable.</p>
 <p>How to resolve: Ensure that the section is of the following format:</p>
-<p><a href="#id4"><span class="problematic" id="id5">``</span></a>`
-extra:</p>
-<blockquote>
-<div><dl class="docutils">
-<dt>identifiers:</dt>
-<dd><ul class="first last simple">
-<li>doi:10.1093/bioinformatics/bts480</li>
-<li>biotools:Snakemake</li>
-</ul>
-</dd>
-</dl>
-</div></blockquote>
-<p><a href="#id6"><span class="problematic" id="id7">``</span></a><a href="#id8"><span class="problematic" id="id9">`</span></a></p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">extra</span><span class="p">:</span>
+  <span class="n">identifiers</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">doi</span><span class="p">:</span><span class="mf">10.1093</span><span class="o">/</span><span class="n">bioinformatics</span><span class="o">/</span><span class="n">bts480</span>
+    <span class="o">-</span> <span class="n">biotools</span><span class="p">:</span><span class="n">Snakemake</span>
+</pre></div>
+</div>
 <p>In particular, ensure that each identifier starts with a type
 (<cite>doi</cite>, <cite>biotools</cite>, …), followed by a colon and the identifier.
 Whitespace is not allowed.</p>
 </div>
-<div class="section" id="not-pinned">
-<h3><cite>*_not_pinned</cite><a class="headerlink" href="#not-pinned" title="Permalink to this headline">¶</a></h3>
-<p>Reason for failing: The recipe has dependencies that need to be pinned to
-a specific version all across bioconda.</p>
-<p>Rationale: Sometimes when a core dependency (like <code class="docutils literal notranslate"><span class="pre">zlib</span></code>, which is used across
-many recipes) is updated it breaks backwards compatibility. In order to avoid
-this, for known-to-be-problematic dependencies we pin to a specific version
-across all recipes.</p>
-<p>How to resolve: Change the dependency line as follows. For each dependency
-failing the linting, specify a jinja-templated version by converting it to
-uppercase, prefixing it with <code class="docutils literal notranslate"><span class="pre">CONDA_</span></code>, adding double braces, and adding a <code class="docutils literal notranslate"><span class="pre">*</span></code>.</p>
-<p>Examples are much easier to understand:</p>
-<ul class="simple">
-<li><code class="docutils literal notranslate"><span class="pre">zlib</span></code> should become <code class="docutils literal notranslate"><span class="pre">zlib</span> <span class="pre">{{</span> <span class="pre">CONDA_ZLIB</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal notranslate"><span class="pre">ncurses</span></code> should become <code class="docutils literal notranslate"><span class="pre">ncurses</span> <span class="pre">{{</span> <span class="pre">CONDA_NCURSES</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal notranslate"><span class="pre">htslib</span></code> should become <code class="docutils literal notranslate"><span class="pre">htslib</span> <span class="pre">{{</span> <span class="pre">CONDA_HTSLIB</span> <span class="pre">}}*</span></code></li>
-<li><code class="docutils literal notranslate"><span class="pre">boost</span></code> should become <code class="docutils literal notranslate"><span class="pre">boost</span> <span class="pre">{{</span> <span class="pre">CONDA_BOOST</span> <span class="pre">}}*</span></code></li>
-<li>… and so on.</li>
-</ul>
-<p>Here is an example in the context of a <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> file where <code class="docutils literal notranslate"><span class="pre">zlib</span></code> needs to be
-pinned:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># this will give a linting error because zlib is not pinned</span>
-<span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
-<span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">bedtools</span>
-</pre></div>
+<div class="section" id="deprecated-numpy-spec">
+<h3><cite>deprecated_numpy_spec</cite><a class="headerlink" href="#deprecated-numpy-spec" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The recipe contains <code class="docutils literal notranslate"><span class="pre">numpy</span> <span class="pre">x.x</span></code> in build or run requirements.</p>
+<p>Rationale: This kind of version pinning is deprecated, and numpy pinning is now
+handled automatically by the system.</p>
+<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">x.x</span></code>.</p>
 </div>
-<p>And here is the fixed version:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="c1"># fixed:</span>
-<span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib {{ CONDA_ZLIB }}*</span>
-<span class="l l-Scalar l-Scalar-Plain">run</span><span class="p p-Indicator">:</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">zlib {{ CONDA_ZLIB }}*</span>
-  <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">bedtools</span>
-</pre></div>
+<div class="section" id="should-not-use-fn">
+<h3><cite>should_not_use_fn</cite><a class="headerlink" href="#should-not-use-fn" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: Recipe contains a <code class="docutils literal notranslate"><span class="pre">fn:</span></code> key in the <code class="docutils literal notranslate"><span class="pre">source:</span></code> section</p>
+<p>Rationale: Conda-build 3 no longer requres <code class="docutils literal notranslate"><span class="pre">fn:</span></code>, and it is redundant with <code class="docutils literal notranslate"><span class="pre">url:</span></code>.</p>
+<p>How to resolve: Remove the <code class="docutils literal notranslate"><span class="pre">source:</span> <span class="pre">fn:</span></code> key.</p>
 </div>
+<div class="section" id="should-use-compilers">
+<h3><cite>should_use_compilers</cite><a class="headerlink" href="#should-use-compilers" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: The recipe has one of <code class="docutils literal notranslate"><span class="pre">gcc</span></code>, <code class="docutils literal notranslate"><span class="pre">llvm</span></code>, <code class="docutils literal notranslate"><span class="pre">libgfortran</span></code>, or <code class="docutils literal notranslate"><span class="pre">libgcc</span></code> as dependencies.</p>
+<p>Rationale: Conda-build 3 now uses compiler tools, which are more up-to-date and
+better-supported.</p>
+<p>How to resolve: Use <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables. See <a class="reference internal" href="cb3.html#compiler-tools"><span class="std std-ref">Compiler tools</span></a> for details.</p>
+</div>
+<div class="section" id="compilers-must-be-in-build">
+<h3><cite>compilers_must_be_in_build</cite><a class="headerlink" href="#compilers-must-be-in-build" title="Permalink to this headline">¶</a></h3>
+<p>Reason for failing: A <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> varaiable was found, but not in the <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
+<p>Rational: The compiler tools must not be in <code class="docutils literal notranslate"><span class="pre">host:</span></code> or <code class="docutils literal notranslate"><span class="pre">run:</span></code> sections.</p>
+<p>How to resolve: Move <code class="docutils literal notranslate"><span class="pre">{{</span> <span class="pre">compiler()</span> <span class="pre">}}</span></code> variables to the <code class="docutils literal notranslate"><span class="pre">build:</span></code> section.</p>
 </div>
 <div class="section" id="bioconductor-37">
 <h3><cite>bioconductor_37</cite><a class="headerlink" href="#bioconductor-37" title="Permalink to this headline">¶</a></h3>
@@ -368,6 +351,7 @@ default.</p>
 
 
           </div>
+          
         </div>
       </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
@@ -404,7 +388,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#missing-license"><cite>missing_license</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-tests"><cite>missing_tests</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#missing-hash"><cite>missing_hash</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch-currently-disabled"><cite>should_be_noarch</cite> (currently disabled)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-be-noarch"><cite>should_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#should-not-be-noarch"><cite>should_not_be_noarch</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-git-url"><cite>uses_git_url</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#uses-perl-threaded"><cite>uses_perl_threaded</cite></a></li>
@@ -413,7 +397,10 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#has-windows-bat-file"><cite>has_windows_bat_file</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#setup-py-install-args"><cite>setup_py_install_args</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#invalid-identifiers"><cite>invalid_identifiers</cite></a></li>
-<li class="toctree-l3"><a class="reference internal" href="#not-pinned"><cite>*_not_pinned</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#deprecated-numpy-spec"><cite>deprecated_numpy_spec</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-not-use-fn"><cite>should_not_use_fn</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#should-use-compilers"><cite>should_use_compilers</cite></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#compilers-must-be-in-build"><cite>compilers_must_be_in_build</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#bioconductor-37"><cite>bioconductor_37</cite></a></li>
 </ul>
 </li>
@@ -422,6 +409,7 @@ default.</p>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
 </ul>
 
 
@@ -433,8 +421,8 @@ default.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.4</a>
-      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.7.5</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
       <a href="_sources/linting.rst.txt"

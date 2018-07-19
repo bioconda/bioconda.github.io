@@ -5,7 +5,9 @@ hyphy
 
 |downloads|
 
-HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences \(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
+HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software package for the analysis of genetic sequences
+\(in particular the inference of natural selection\) using techniques in phylogenetics\, molecular evolution\, and machine learning.
+
 
 ============= ===========
 Home          http://hyphy.org/

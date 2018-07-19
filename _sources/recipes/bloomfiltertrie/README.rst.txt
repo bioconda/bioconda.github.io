@@ -9,7 +9,7 @@ An alignment\-free\, reference\-free and incremental data structure for colored 
 
 ============= ===========
 Home          https://github.com/GuillaumeHolley/BloomFilterTrie
-Versions      0.8.1
+Versions      0.8.1, 0.8.7
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloomfiltertrie
 

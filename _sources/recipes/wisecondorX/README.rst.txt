@@ -9,7 +9,7 @@ WIthin\-SamplE COpy Number aberration DetectOR\, including sex chromosomes
 
 ============= ===========
 Home          https://github.com/CenterForMedicalGeneticsGhent/wisecondorX
-Versions      0.1.0
+Versions      0.1.0, 0.2.0
 License       Attribution-NonCommercial-ShareAlike CC BY-NC-SA
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wisecondorX
 

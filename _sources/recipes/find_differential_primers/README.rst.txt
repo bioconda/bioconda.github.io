@@ -10,10 +10,12 @@ Scripts to aid the design of differential primers for diagnostic PCR.
 ============= ===========
 Home          https://github.com/widdowquinn/find_differential_primers
 Versions      0.1.3, 0.1.3.p1
-License       GPLv3
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/find_differential_primers
 
 
+
+Links         doi: :doi:`10.5281/zenodo.9861`
 
 ============= ===========
 

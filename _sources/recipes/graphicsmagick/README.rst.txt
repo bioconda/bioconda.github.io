@@ -11,7 +11,7 @@ GraphicsMagick is the swiss army knife of image processing
 Home          http://www.graphicsmagick.org/
 Versions      1.3.20, 1.3.23, 1.3.26
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphicsmagick/1.3.20
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphicsmagick/1.3.26
 
 
 

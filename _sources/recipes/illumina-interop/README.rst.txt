@@ -9,10 +9,12 @@ The Illumina InterOp libraries are a set of common routines used for reading and
 
 ============= ===========
 Home          http://illumina.github.io/interop/index.html
-Versions      1.0.25
-License       GNU General Public License v3.0
+Versions      1.0.25, 1.1.4
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-interop
 
+
+Development   https://github.com/Illumina/interop
 
 
 ============= ===========

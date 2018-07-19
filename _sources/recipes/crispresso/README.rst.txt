@@ -9,7 +9,7 @@ A software pipeline for the analysis of targeted CRISPR\-Cas9 sequencing data
 
 ============= ===========
 Home          https://github.com/lucapinello/CRISPResso
-Versions      1.0, 1.0.6, 1.0.7, 1.0.8
+Versions      1.0, 1.0.13, 1.0.6, 1.0.7, 1.0.8
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispresso
 

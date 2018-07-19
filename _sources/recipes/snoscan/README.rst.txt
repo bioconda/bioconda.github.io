@@ -10,7 +10,7 @@ Search for C\/D box methylation guide snoRNA genes in a genomic sequence
 ============= ===========
 Home          http://lowelab.ucsc.edu/snoscan
 Versions      0.9b
-License       
+License       GNU General Public License, version 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snoscan
 
 

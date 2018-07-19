@@ -8,7 +8,7 @@ hurry.filesize
 A simple Python library for human readable file sizes \(or anything sized in bytes\).
 
 ============= ===========
-Home          
+Home          None
 Versions      0.9
 License       ZPL 2.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hurry.filesize

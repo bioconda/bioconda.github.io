@@ -9,7 +9,7 @@ A lightweight OAI client library for Python
 
 ============= ===========
 Home          http://github.com/mloesch/sickle
-Versions      0.5
+Versions      0.5, 0.6.3
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle
 

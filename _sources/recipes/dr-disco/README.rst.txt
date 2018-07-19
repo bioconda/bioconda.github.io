@@ -8,9 +8,9 @@ dr-disco
 Dr. Disco\: fusion gene and genomic breakpoint detection in random hexamer RNA\-seq data
 
 ============= ===========
-Home          https://github.com/yhoogstrate/dr-disco/
-Versions      0.10.0, 0.11.0, 0.14.0, 0.2.0, 0.3.3, 0.3.4, 0.6.0, 0.8.0, 0.8.2, 0.9.0
-License       GNU General Public License v3 or later (GPLv3+)
+Home          https://github.com/yhoogstrate/dr-disco
+Versions      0.10.0, 0.11.0, 0.14.0, 0.16.3, 0.2.0, 0.3.3, 0.3.4, 0.6.0, 0.8.0, 0.8.2, 0.9.0
+License       GPL-3.0+
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dr-disco
 
 
