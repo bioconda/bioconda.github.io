@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/g
 
 
 
-Links         doi: :doi:`10.1038/nmeth.2221`, biotools: :biotools:`gemmapper`
+Links         doi: :doi:`10.1038/nmeth.2221`, biotools: :biotools:`GEM_Mapper`
 
 ============= ===========
 

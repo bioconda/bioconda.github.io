@@ -5,11 +5,11 @@ itsxpress
 
 |downloads|
 
-ITSxpress\: Software to rapidly trim the Internally transcribed spacer \(ITS\) region of FASTQ files
+ITSxpress\: Software to rapidly trim the Internally Transcribed Spacer \(ITS\) region from FASTQ files
 
 ============= ===========
 Home          http://github.com/usda-ars-gbru/itsxpress
-Versions      1.5.6
+Versions      1.5.6, 1.6.1
 License       License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsxpress
 
