@@ -9,7 +9,7 @@ Hclust2 is a handy tool for plotting heat\-maps with several useful options to p
 
 ============= ===========
 Home          https://bitbucket.org/nsegata/hclust2
-Versions      0.98.3d589ab
+Versions      0.98.3d589ab, 0.99
 License       License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hclust2
 
