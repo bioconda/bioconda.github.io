@@ -111,6 +111,18 @@ skipped, for example:</p>
 </div>
 </div>
 </div>
+<div class="section" id="recipes-duplicated-in-conda-forge">
+<span id="in-conda-forge"></span><h2>Recipes duplicated in conda-forge<a class="headerlink" href="#recipes-duplicated-in-conda-forge" title="Permalink to this headline">¶</a></h2>
+<p>Sometimes when adding or updating a recipe in a pull request to <cite>conda-forge</cite>
+the conda-forge linter will warn that a recipe with the same name already
+exists in bioconda. When this happens, usually the best thing to do is:</p>
+<ol class="arabic simple">
+<li>Submit – but don’t merge yet! – a PR to bioconda that removes the recipe.
+In that PR, reference the conda-forge/staged-recipes PR.</li>
+<li>Merge the conda-forge PR adding or updating the recipe</li>
+<li>Merge the bioconda PR deleting the recipe</li>
+</ol>
+</div>
 <div class="section" id="linting-functions">
 <h2>Linting functions<a class="headerlink" href="#linting-functions" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="in-other-channels">
@@ -380,6 +392,7 @@ default.</p>
 <li class="toctree-l3"><a class="reference internal" href="#skipping-persistently-on-a-per-recipe-basis">Skipping persistently on a per-recipe basis</a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="#recipes-duplicated-in-conda-forge">Recipes duplicated in conda-forge</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#linting-functions">Linting functions</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#in-other-channels"><cite>in_other_channels</cite></a></li>
 <li class="toctree-l3"><a class="reference internal" href="#already-in-bioconda-currently-disabled"><cite>already_in_bioconda</cite> (currently disabled)</a></li>
