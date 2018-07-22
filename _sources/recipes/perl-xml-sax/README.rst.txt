@@ -8,9 +8,9 @@ perl-xml-sax
 Simple API for XML
 
 ============= ===========
-Home          http://search.cpan.org/~grantm/XML-SAX-0.99
-Versions      0.99
-License       Perl
+Home          http://metacpan.org/pod/XML::SAX
+Versions      0.99, 1.00
+License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax
 
 
