@@ -858,6 +858,7 @@ Available packages
     <tr><td><a href="recipes/mothur/README.html">mothur</a></td><td>1.36.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/mothur/README.html">mothur</a></td><td>1.38.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/mothur/README.html">mothur</a></td><td>1.39.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/mothur/README.html">mothur</a></td><td>1.40.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/ucsc-xmltosql/README.html">ucsc-xmltosql</a></td><td>324</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/ucsc-xmltosql/README.html">ucsc-xmltosql</a></td><td>332</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-xmltosql/README.html">ucsc-xmltosql</a></td><td>357</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -884,6 +885,7 @@ Available packages
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201711.02</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201711.03</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201711.04</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/sourcetracker/README.html">sourcetracker</a></td><td>2.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/hardklor/README.html">hardklor</a></td><td>2.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/pymzml/README.html">pymzml</a></td><td>0.7.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pymzml/README.html">pymzml</a></td><td>0.7.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>

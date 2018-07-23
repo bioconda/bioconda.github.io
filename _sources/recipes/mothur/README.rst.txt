@@ -9,10 +9,12 @@ This project seeks to develop a single piece of open\-source\, expandable softwa
 
 ============= ===========
 Home          http://www.mothur.org
-Versions      1.25.0, 1.36.1, 1.38.1.1, 1.39.5
-License       GPL
+Versions      1.25.0, 1.36.1, 1.38.1.1, 1.39.5, 1.40.5
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mothur
 
+
+Development   https://github.com/mothur/mothur
 
 
 ============= ===========
