@@ -5,11 +5,11 @@ perl-yaml
 
 |downloads|
 
-YAML Ain\'t Markup Language
+YAML Ain\'t Markup Language™
 
 ============= ===========
 Home          https://github.com/ingydotnet/yaml-pm
-Versions      1.15, 1.18, 1.24
+Versions      1.15, 1.18, 1.24, 1.26
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-yaml
 
