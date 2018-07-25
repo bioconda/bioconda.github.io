@@ -9,7 +9,7 @@ MAKER is a portable and easily configurable genome annotation pipeline.
 
 ============= ===========
 Home          http://www.yandell-lab.org/software/maker.html
-Versions      2.31.9
+Versions      2.31.10, 2.31.9
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maker
 

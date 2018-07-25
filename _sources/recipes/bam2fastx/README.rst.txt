@@ -10,8 +10,8 @@ Converting and demultiplexing of PacBio BAM files into gzipped fasta and fastq f
 ============= ===========
 Home          https://github.com/PacificBiosciences/bam2fastx
 Versions      1.3.0
-License       BSD-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fastx/1.3.0
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bam2fastx
 
 
 

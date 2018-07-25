@@ -5,12 +5,12 @@ pbbam
 
 |downloads|
 
-PacBio BAM C\+\+ library\, with SWIG bindings
+PacBio BAM C\+\+ library
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbbam
 Versions      0.1, 0.18.0
-License       BSD-3-Clause-Clear
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbbam
 
 

@@ -10,8 +10,8 @@ bax2bam converts the legacy PacBio basecall format \(bax.h5\) into the BAM basec
 ============= ===========
 Home          https://github.com/PacificBiosciences/bax2bam
 Versions      0.0.9
-License       BSD-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bax2bam/0.0.9
+License       BSD
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bax2bam
 
 
 

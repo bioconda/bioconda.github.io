@@ -10,7 +10,7 @@ BLASR \- The PacBio long read aligner
 ============= ===========
 Home          https://github.com/PacificBiosciences/blasr
 Versions      5.2p1, 5.3.1, 5.3.2
-License       BSD-3-Clause-Clear
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blasr
 
 

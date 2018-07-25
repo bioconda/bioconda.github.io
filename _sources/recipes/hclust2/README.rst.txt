@@ -5,7 +5,7 @@ hclust2
 
 |downloads|
 
-Hclust2 is a handy tool for plotting heat\-maps with several useful options to produce high quality figures that can be used in publication.
+hclust2 is a handy tool for plotting heat\-maps with several useful options to produce high quality figures that can be used in publication.
 
 ============= ===========
 Home          https://bitbucket.org/nsegata/hclust2

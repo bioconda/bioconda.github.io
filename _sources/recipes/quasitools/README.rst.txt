@@ -9,7 +9,7 @@ Quasitools is a collection of tools for analysing Viral Quasispecies
 
 ============= ===========
 Home          https://github.com/phac-nml/quasitools/
-Versions      0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.0, 0.3.1, 0.4.0
+Versions      0.1.0, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.3.0, 0.3.1, 0.4.0, 0.4.1
 License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quasitools
 

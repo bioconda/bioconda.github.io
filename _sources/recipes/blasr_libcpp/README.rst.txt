@@ -5,12 +5,12 @@ blasr_libcpp
 
 |downloads|
 
-Blasr\_libcpp is a library used by blasr and other executables such as samtoh5\, loadPulses for analyzing PacBio sequences
+blasr\_libcpp is a support library used by blasr and other PacBio tools
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/blasr_libcpp
 Versions      1.1, 5.3.1
-License       BSD-3-Clause-Clear
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blasr_libcpp
 
 

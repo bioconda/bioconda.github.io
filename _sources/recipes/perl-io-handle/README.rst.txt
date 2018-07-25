@@ -9,7 +9,7 @@ supply object methods for I\/O handles
 
 ============= ===========
 Home          http://metacpan.org/pod/IO::Handle
-Versions      1.35
+Versions      1.35, 1.36
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-handle/1.35
 
