@@ -5,11 +5,17 @@ r-spocc
 
 |downloads|
 
-A programmatic interface to many species occurrence data sources\, including Global Biodiversity Information Facility \(\'GBIF\'\)\, \'USGSs\' Biodiversity Information Serving Our Nation \(\'BISON\'\)\, \'iNaturalist\'\, Berkeley \'Ecoinformatics\' Engine\, \'eBird\'\, \'AntWeb\'\, Integrated Digitized \'Biocollections\' \(\'iDigBio\'\)\, \'VertNet\'\, Ocean \'Biogeographic\' Information System \(\'OBIS\'\)\, and Atlas of Living Australia \(\'ALA\'\). Includes functionality for retrieving species occurrence data\, and combining those data.
+A programmatic interface to many species occurrence data sources\, including Global
+Biodiversity Information Facility \(\'GBIF\'\)\, \'USGSs\' Biodiversity Information Serving
+Our Nation \(\'BISON\'\)\, \'iNaturalist\'\, Berkeley \'Ecoinformatics\' Engine\, \'eBird\'\,
+\'AntWeb\'\, Integrated Digitized \'Biocollections\' \(\'iDigBio\'\)\, \'VertNet\'\, Ocean \'Biogeographic\'
+Information System \(\'OBIS\'\)\, and Atlas of Living Australia \(\'ALA\'\). Includes functionality
+for retrieving species occurrence data\, and combining those data.
+
 
 ============= ===========
 Home          https://github.com/ropensci/spocc
-Versions      0.7.0
+Versions      0.7.0, 0.8.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spocc
 
