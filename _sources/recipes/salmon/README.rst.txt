@@ -9,7 +9,7 @@ Highly\-accurate \& wicked fast transcript\-level quantification from RNA\-seq r
 
 ============= ===========
 Home          https://github.com/COMBINE-lab/salmon
-Versions      0.10.0, 0.10.1, 0.10.2, 0.5.1, 0.6.0, 0.7.2, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1
+Versions      0.10.0, 0.10.1, 0.10.2, 0.11.0, 0.5.1, 0.6.0, 0.7.2, 0.8.0, 0.8.1, 0.8.2, 0.9.0, 0.9.1
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon
 

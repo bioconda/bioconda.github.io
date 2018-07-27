@@ -9,7 +9,7 @@ Hidden Markov model to segment and predict regions of subclonal copy number alte
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TitanCNA.html
-Versions      1.14.0, 1.15.0, 1.16.0
+Versions      1.14.0, 1.15.0, 1.16.0, 1.17.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-titancna
 

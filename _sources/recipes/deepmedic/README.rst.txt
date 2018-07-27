@@ -9,7 +9,7 @@ Efficient Multi\-Scale 3D Convolutional Neural Network for Brain Lesion Segmenta
 
 ============= ===========
 Home          https://github.com/Kamnitsask/deepmedic
-Versions      0.5.4, 0.6
+Versions      0.5.4, 0.6, 0.6.1
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepmedic
 
