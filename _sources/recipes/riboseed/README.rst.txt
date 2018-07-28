@@ -9,7 +9,7 @@ riboSeed\: assemble across rDNA regions
 
 ============= ===========
 Home          https://github.com/nickp60/riboSeed
-Versions      0.4.16, 0.4.47, 0.4.65
+Versions      0.4.16, 0.4.47, 0.4.65, 0.4.67, 0.4.68
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboseed
 

@@ -9,15 +9,17 @@ SBG API python client bindings
 
 ============= ===========
 Home          https://github.com/sbg/sevenbridges-python
-Versions      0.7.2
+Versions      0.15.0, 0.7.2
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sevenbridges-python
 
 
+Development   https://github.com/sbg/sevenbridges-python
+
 
 ============= ===========
 
-
+sevenbridges\-python is a Python library that provides an interface for the Seven Bridges Platform the Cancer Genomics Cloud and Cavatica public APIs. It works with Python versions 2.6\+ and supports Python 3.
 
 Installation
 ------------
