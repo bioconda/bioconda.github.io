@@ -9,7 +9,7 @@ gemBS is a bioinformatics pipeline designed for high throughput analysis of DNA 
 
 ============= ===========
 Home          https://github.com/heathsc/gemBS
-Versions      
+Versions      3.2.0
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gembs
 
