@@ -9,7 +9,7 @@ Fast \& accurate alignment of barcoded short\-reads
 
 ============= ===========
 Home          http://ema.csail.mit.edu/
-Versions      v0.6.1
+Versions      v0.6.1, v0.6.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ema
 

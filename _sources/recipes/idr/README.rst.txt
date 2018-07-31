@@ -8,12 +8,14 @@ idr
 The IDR \(Irreproducible Discovery Rate\) framework is a uniﬁed approach to measure the reproducibility of ﬁndings identiﬁed from replicate experiments and provide highly stable thresholds based on reproducibility.
 
 ============= ===========
-Home          https://github.com/nboley/idr
-Versions      2.0.2, 2.0.3
+Home          https://github.com/kundajelab/idr
+Versions      2.0.2, 2.0.3, 2.0.4.2
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr
 
 
+
+Links         doi: :doi:`10.1214/11-AOAS466`
 
 ============= ===========
 
