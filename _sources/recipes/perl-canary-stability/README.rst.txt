@@ -8,8 +8,8 @@ perl-canary-stability
 canary to check perl compatibility for schmorp\'s modules
 
 ============= ===========
-Home          http://metacpan.org/pod/Canary-Stability
-Versions      2006
+Home          http://metacpan.org/pod/Canary::Stability
+Versions      2006, 2012
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-canary-stability
 
