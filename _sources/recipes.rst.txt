@@ -972,6 +972,7 @@ Available packages
     <tr><td><a href="recipes/alfred/README.html">alfred</a></td><td>0.1.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/alfred/README.html">alfred</a></td><td>0.1.6</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/alfred/README.html">alfred</a></td><td>0.1.7</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/alfred/README.html">alfred</a></td><td>0.1.8</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-mldbm-sync/README.html">perl-mldbm-sync</a></td><td>0.30</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-scalar-util-numeric/README.html">perl-scalar-util-numeric</a></td><td>0.40</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pkiss/README.html">pkiss</a></td><td>2.2.12</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>

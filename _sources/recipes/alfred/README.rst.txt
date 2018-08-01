@@ -9,7 +9,7 @@ Sequence alignment quality control\, BAM statistics\, feature counting and featu
 
 ============= ===========
 Home          https://github.com/tobiasrausch/alfred
-Versions      0.1.2, 0.1.3, 0.1.5, 0.1.6, 0.1.7
+Versions      0.1.2, 0.1.3, 0.1.5, 0.1.6, 0.1.7, 0.1.8
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred
 
