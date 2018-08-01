@@ -333,36 +333,37 @@ likely sufficient. Otherwise, test the import of modules (see the
 <div class="section" id="c-c">
 <h2>C/C++<a class="headerlink" href="#c-c" title="Permalink to this headline">¶</a></h2>
 <p>Build tools (e.g., <code class="docutils literal notranslate"><span class="pre">autoconf</span></code>) and compilers (e.g., <code class="docutils literal notranslate"><span class="pre">gcc</span></code>) should be
-specified in the build requirements.</p>
-<p>We have decided that to optimize compatibility, <code class="docutils literal notranslate"><span class="pre">gcc</span></code> needs to be added as
-a dependency rather than assume it is in the build environment. However there
-is still discussion on how best to do this on OSX. For now, please add <code class="docutils literal notranslate"><span class="pre">gcc</span></code>
-(for Linux packages) and <code class="docutils literal notranslate"><span class="pre">llvm</span></code> (for OSX packages) to the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> as
-follows:</p>
+specified in the build requirements. Compilers are handled via a special macro.
+E.g., <cite>{{ compiler(‘c’)}}</cite> ensures that the correct version of <cite>gcc</cite> is used.
+For the C++ variant <cite>g++</cite>, you need to use <cite>{{ compiler(‘cxx’) }}</cite>.
+These rules apply for both Linux and macOS.</p>
+<p>Conda distinguishes between dependencies needed for building (the <cite>build</cite> section),
+and dependencies needed during build time (the <cite>host</cite> section).
+For example, the following</p>
 <div class="code yaml highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">requirements</span><span class="p">:</span>
   <span class="n">build</span><span class="p">:</span>
-    <span class="o">-</span> <span class="n">gcc</span>   <span class="c1"># [not osx]</span>
-    <span class="o">-</span> <span class="n">llvm</span>  <span class="c1"># [osx]</span>
-
+    <span class="o">-</span> <span class="p">{{</span> <span class="n">compiler</span><span class="p">(</span><span class="s1">&#39;c&#39;</span><span class="p">)</span> <span class="p">}}</span>
+  <span class="n">host</span><span class="p">:</span>
+    <span class="o">-</span> <span class="n">zlib</span>
   <span class="n">run</span><span class="p">:</span>
-    <span class="o">-</span> <span class="n">libgcc</span>    <span class="c1"># [not osx]</span>
+    <span class="o">-</span> <span class="n">zlib</span>
 </pre></div>
 </div>
-<p>If the package uses <code class="docutils literal notranslate"><span class="pre">zlib</span></code>, then please see the <a class="reference internal" href="troubleshooting.html#zlib"><span class="std std-ref">troubleshooting section on zlib</span></a>.</p>
+<p>specifies that a recipe needs the C compiler to build, and zlib present during
+building and running.</p>
+<p>For two examples see:</p>
 <ul class="simple">
 <li>example requiring <code class="docutils literal notranslate"><span class="pre">autoconf</span></code>: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srprism">srprism</a></li>
 <li>simple example: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools">samtools</a></li>
 </ul>
+<p>If the package uses <code class="docutils literal notranslate"><span class="pre">zlib</span></code>, then please see the <a class="reference internal" href="troubleshooting.html#zlib"><span class="std std-ref">troubleshooting section on zlib</span></a>.</p>
 <p>If your package links dynamically against a particular library, it is
 often necessary to pin the version against which it was compiled, in
 order to avoid ABI incompatibilities. Instead of hardcoding a particular
-version in the recipe, we use jinja templates to achieve this. This helps
-ensure that all bioconda packages are binary-compatible with each other. For
-example, bioconda provides an environnmnet variable <code class="docutils literal notranslate"><span class="pre">CONDA_BOOST</span></code> that
-contains the current major version of Boost. You should pin your boost
-dependency against that version. An example is the <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmon">salmon recipe</a>.
-You find the libraries that are already pinned <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yamll">here</a>.
-If you need to pin another library, please notify &#64;bioconda/core, and we will extend this list.</p>
+version in the recipe, we rely on conda doing this automatically.
+We use globally defined configurations, namely <a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock/blob/master/recipe/conda_build_config.yaml">this for dependencies from conda-forge</a>
+and <a class="reference external" href="https://github.com/bioconda/bioconda-utils/blob/master/bioconda_utils/bioconda_utils-conda_build_config.yaml">this for dependencies in bioconda</a>.
+If you need to pin another library, please notify &#64;bioconda/core, and we will extend these lists.</p>
 <p>It’s not uncommon to have difficulty compiling package into a portable
 conda package. Since there is no single solution, here are some examples
 of how bioconda contributors have solved compiling issues to give you
@@ -482,7 +483,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id12"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit

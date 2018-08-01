@@ -111,11 +111,7 @@ circleci build
 </div>
 <p>in the root of your repository clone. This command effectively runs the recipe
 linting and then  <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> on all recipes recently changed. It does so
-in an environment with properly configured channels and environment variables
-in <code class="docutils literal notranslate"><span class="pre">scripts/env.yaml</span></code> exported into the build environment. The latter allows
-<code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> to fill in variables in recipes like <code class="docutils literal notranslate"><span class="pre">CONDA_BOOST</span></code> that
-otherwise wouldn’t work with a simple <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">build</span></code> directly from the command
-line.</p>
+in an environment with properly configured channels.</p>
 </div>
 <div class="section" id="bootstrap-method">
 <span id="bootstrap"></span><h3>“Bootstrap” method<a class="headerlink" href="#bootstrap-method" title="Permalink to this headline">¶</a></h3>
