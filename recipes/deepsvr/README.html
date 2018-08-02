@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>deeptools &#8212; Bioconda  documentation</title>
+    <title>deepsvr &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="deepvariant" href="../deepvariant/README.html" />
-    <link rel="prev" title="deepsvr" href="../deepsvr/README.html" />
+    <link rel="next" title="deeptools" href="../deeptools/README.html" />
+    <link rel="prev" title="deepmedic" href="../deepmedic/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,50 +62,47 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="deeptools">
-<span id="id1"></span><h1>deeptools<a class="headerlink" href="#deeptools" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/deeptools"><img alt="downloads" src="https://anaconda.org/bioconda/deeptools/badges/downloads.svg" /></a></p>
-<p>A set of user-friendly tools for normalization and visualzation of deep-sequencing data</p>
+  <div class="section" id="deepsvr">
+<span id="id1"></span><h1>deepsvr<a class="headerlink" href="#deepsvr" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/deepsvr"><img alt="downloads" src="https://anaconda.org/bioconda/deepsvr/badges/downloads.svg" /></a></p>
+<p>DeepSVR stands for deep somatic variant refinement. It uses deep learning to classify real somatic and anomalous variants in paired tumor sequencing data.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="5%" />
-<col width="95%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/deeptools/deepTools">https://github.com/deeptools/deepTools</a></td>
+<td><a class="reference external" href="https://github.com/griffithlab/deepsvr">https://github.com/griffithlab/deepsvr</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.5.8.2, 1.5.9.1, 2.0.0, 2.0.1, 2.1.0, 2.2.0, 2.2.1, 2.2.2, 2.2.3, 2.2.4, 2.3.1, 2.3.2, 2.3.3, 2.3.4, 2.3.5, 2.3.6, 2.4.0, 2.4.1, 2.4.2, 2.4.3, 2.5.0, 2.5.1, 2.5.2, 2.5.3, 2.5.4, 2.5.5, 2.5.6, 2.5.7, 3.0.0, 3.0.1, 3.0.2, 3.1.0, 3.1.1</td>
+<td>0.1.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL3</td>
+<td>MIT</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptools</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/deeptools">deeptools</a>, doi: <a class="reference external" href="https://doi.org/10.1093/nar/gkw257">10.1093/nar/gkw257</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepsvr">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepsvr</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">deeptools</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">deepsvr</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">deeptools</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">deepsvr</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/deeptools"><img alt="docker" src="https://quay.io/repository/biocontainers/deeptools/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/deeptools">https://quay.io/repository/biocontainers/deeptools</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/deepsvr"><img alt="docker" src="https://quay.io/repository/biocontainers/deepsvr/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/deepsvr">https://quay.io/repository/biocontainers/deepsvr</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/deeptools/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deeptools/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/deepsvr/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/deepsvr/README.html)
 </pre></div>
 </div>
 </div>
@@ -155,7 +152,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/deeptools/README.rst.txt"
+      <a href="../../_sources/recipes/deepsvr/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

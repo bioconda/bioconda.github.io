@@ -9,7 +9,7 @@ Library and Tools for interfacing with PacBio pbsmrtpipe workflow engine
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbcommand
-Versions      0.2.17, 0.3.29
+Versions      0.2.17, 0.3.29, 1.1.1
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcommand
 
