@@ -8,7 +8,7 @@ pycoqc
 Python 3 package for Jupyter Notebook\, computing metrics and generating plots from Oxford Nanopore Albacore report
 
 ============= ===========
-Home          https://github.com/EnrightLab/pycoQC
+Home          https://github.com/a-slide/pycoQC
 Versions      1.0.alpha1
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pycoqc

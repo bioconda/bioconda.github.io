@@ -8,8 +8,8 @@ anndata
 An annotated data matrix.
 
 ============= ===========
-Home          http://github.com/theislab/anndata
-Versions      0.6.4, 0.6.5
+Home          https://github.com/theislab/anndata
+Versions      0.6.4, 0.6.5, 0.6.6
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anndata
 

@@ -8,9 +8,9 @@ chado-tools
 Tools to access CHADO databases
 
 ============= ===========
-Home          https://github.com/sanger-pathogens/chado-tools/
-Versions      0.0.3
-License       GNU General Public v3 (GPLv3)
+Home          https://github.com/sanger-pathogens/chado-tools
+Versions      0.0.3, 0.0.4
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chado-tools
 
 

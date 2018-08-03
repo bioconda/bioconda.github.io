@@ -9,8 +9,8 @@ A C\+\+ class library for evolutionary genetics.
 
 ============= ===========
 Home          http://http://molpopgen.github.io/libsequence/
-Versions      1.8.4, 1.9.0, 1.9.1, 1.9.2, 1.9.3
-License       GNU Lesser General Public License v2 or later (LGPLv2+)
+Versions      1.8.4, 1.9.0, 1.9.1, 1.9.2, 1.9.3, 1.9.4
+License       GNU Lesser General Public License v3 or later (LGPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libsequence
 
 
