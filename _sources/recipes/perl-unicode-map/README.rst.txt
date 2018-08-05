@@ -5,10 +5,10 @@ perl-unicode-map
 
 |downloads|
 
-Map charsets from and to UTF\-16 unicode
+An utility to map texts from and to unicode
 
 ============= ===========
-Home          http://metacpan.org/pod/Unicode-Map
+Home          http://metacpan.org/pod/Unicode::Map
 Versions      0.112
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map

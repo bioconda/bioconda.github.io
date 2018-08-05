@@ -9,9 +9,9 @@ convert between color spaces
 
 ============= ===========
 Home          http://metacpan.org/pod/Graphics::ColorObject
-Versions      
+Versions      0.5.0
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphics-colorobject/0.5.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphics-colorobject
 
 
 

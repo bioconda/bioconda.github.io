@@ -5,11 +5,11 @@ vt
 
 |downloads|
 
-A tool set for short variant discovery in genetic sequence data
+A tool set for manipulating and generating VCF files
 
 ============= ===========
-Home          https://github.com/atks/vt
-Versions      2015.11.10
+Home          https://genome.sph.umich.edu/wiki/Vt
+Versions      0.57721, 2015.11.10
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt
 

@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t
 
 
 
-Links         biotools: :biotools:`trimmomatic`
+Links         biotools: :biotools:`trimmomatic`, doi: :doi:`10.1093/bioinformatics/btu170`
 
 ============= ===========
 

@@ -8,8 +8,8 @@ perl-array-compare
 Perl extension for comparing arrays.
 
 ============= ===========
-Home          http://metacpan.org/pod/Array-Compare
-Versions      2.11
+Home          http://metacpan.org/pod/Array::Compare
+Versions      2.11, 3.0.1
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-compare
 
