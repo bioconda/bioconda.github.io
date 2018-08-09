@@ -5,12 +5,12 @@ perl-archive-zip
 
 |downloads|
 
-Provide an interface to ZIP archive files
+Provide an interface to ZIP archive files.
 
 ============= ===========
-Home          https://metacpan.org/pod/Archive::Zip
-Versions      1.55
-License       Perl
+Home          http://metacpan.org/pod/Archive::Zip
+Versions      1.55, 1.60
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-zip
 
 

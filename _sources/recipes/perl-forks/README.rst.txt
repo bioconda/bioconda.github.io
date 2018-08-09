@@ -10,7 +10,7 @@ drop\-in replacement for Perl threads using fork\(\)
 ============= ===========
 Home          http://search.cpan.org/~rybskej/forks/lib/forks.pm
 Versions      0.36
-License       Perl
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-forks
 
 

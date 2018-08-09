@@ -9,8 +9,8 @@ Work with .loom files for single\-cell RNA\-seq data
 
 ============= ===========
 Home          https://github.com/linnarsson-lab/loompy
-Versions      1.0.2, 1.1.0, 2.0.9
-License       BSD
+Versions      1.0.2, 1.1.0, 2.0.10, 2.0.9
+License       BSD-2-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/loompy
 
 

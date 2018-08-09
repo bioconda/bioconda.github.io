@@ -5,15 +5,17 @@ nasp
 
 |downloads|
 
-The Northern Arizona SNP Pipeline \(NASP\)
+NASP\: an accurate\, rapid method for the identification of SNPs in WGS datasets that supports flexible input and output formats
 
 ============= ===========
 Home          https://github.com/TGenNorth/nasp
-Versions      1.0.1, 1.0.2a1
+Versions      1.0.1, 1.0.2a1, 1.1.2
 License       Academic and Research License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasp
 
 
+
+Links         doi: :doi:`10.1099/mgen.0.000074`
 
 ============= ===========
 

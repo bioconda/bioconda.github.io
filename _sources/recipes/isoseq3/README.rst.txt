@@ -9,9 +9,9 @@ IsoSeq3 \- Scalable De Novo Isoform Discovery
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/IsoSeq3
-Versions      0.7.2
+Versions      0.7.2, 3.0.0
 License       Pacific Biosciences Proprietary
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoseq3/0.7.2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoseq3
 
 
 

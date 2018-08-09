@@ -9,8 +9,8 @@ Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2
 
 ============= ===========
 Home          http://metacpan.org/pod/GraphViz
-Versions      2.20
-License       artistic_2
+Versions      2.20, 2.24
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz
 
 

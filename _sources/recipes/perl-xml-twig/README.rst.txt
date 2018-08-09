@@ -9,7 +9,7 @@ XML\, The Perl Way
 
 ============= ===========
 Home          http://metacpan.org/pod/XML-Twig
-Versions      3.49
+Versions      3.49, 3.52
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-twig
 

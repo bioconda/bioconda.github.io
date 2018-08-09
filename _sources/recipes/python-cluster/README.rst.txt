@@ -9,7 +9,7 @@ python\-cluster is a \"simple\" package that allows to create several groups \(c
 
 ============= ===========
 Home          https://github.com/exhuma/python-cluster
-Versions      1.3.3, 1.4.1
+Versions      1.3.3, 1.4.1, 1.4.1.post1
 License       LGPL-2.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-cluster
 

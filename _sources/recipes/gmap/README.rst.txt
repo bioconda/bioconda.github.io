@@ -9,7 +9,7 @@ Genomic mapping and alignment program for mRNA and EST sequences
 
 ============= ===========
 Home          http://research-pub.gene.com/gmap/
-Versions      2014.12.23, 2015.09.10, 2015.12.31, 2016.09.23, 2017.02.15, 2017.05.08, 2017.09.30, 2017.10.30, 2017.11.15, 2018.03.25
+Versions      2014.12.23, 2014.12.28, 2015.09.10, 2015.12.31, 2016.09.23, 2017.02.15, 2017.05.08, 2017.09.30, 2017.10.30, 2017.11.15, 2018.03.25
 License       Non-commercial
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap
 

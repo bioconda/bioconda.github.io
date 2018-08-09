@@ -9,7 +9,7 @@ framework for more readable interactive test scripts
 
 ============= ===========
 Home          http://metacpan.org/pod/Test::Inter
-Versions      1.06
+Versions      1.06, 1.07
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-inter
 

@@ -11,7 +11,7 @@ perl-acme-damn
 Home          http://metacpan.org/pod/Acme::Damn
 Versions      0.08
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-acme-damn/0.08
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-acme-damn
 
 
 
