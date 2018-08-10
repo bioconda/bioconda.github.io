@@ -9,7 +9,7 @@ Bioinformatics Toolkit
 
 ============= ===========
 Home          http://metacpan.org/pod/BioPerl
-Versions      1.6.924
+Versions      1.6.924, 1.7.2
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl
 

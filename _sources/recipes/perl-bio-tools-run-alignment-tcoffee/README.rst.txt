@@ -9,7 +9,7 @@ Object for the calculation of a multiple sequence alignment from a set of unalig
 
 ============= ===========
 Home          https://metacpan.org/release/Bio-Tools-Run-Alignment-TCoffee
-Versions      
+Versions      1.7.4
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-tools-run-alignment-tcoffee
 
