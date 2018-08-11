@@ -5,7 +5,7 @@ perl-file-copy-recursive
 
 |downloads|
 
-
+Perl extension for recursively copying files and directories
 
 ============= ===========
 Home          https://metacpan.org/pod/File::Copy::Recursive

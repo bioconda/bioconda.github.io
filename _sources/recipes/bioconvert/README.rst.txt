@@ -9,8 +9,8 @@ convert various bioinformatics formats
 
 ============= ===========
 Home          http://bioconvert.readthedocs.io/
-Versions      0.0.10
-License       BSD License
+Versions      0.0.10, 0.2.0
+License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconvert
 
 

@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 
 
-Links         doi: :doi:`10.1093/bioinformatics/btr010`
+Links         biotools: :biotools:`augustus`, doi: :doi:`10.1093/bioinformatics/btr010`
 
 ============= ===========
 
