@@ -5,11 +5,11 @@ perl-parse-yapp
 
 |downloads|
 
-Perl extension for generating and using LALR parsers.
+A perl frontend to the Parse\:\:Yapp module
 
 ============= ===========
 Home          http://metacpan.org/pod/Parse::Yapp
-Versions      1.05
+Versions      1.05, 1.21
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-yapp
 

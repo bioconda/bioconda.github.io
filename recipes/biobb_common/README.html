@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>quast &#8212; Bioconda  documentation</title>
+    <title>biobb_common &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="query_phenomizer" href="../query_phenomizer/README.html" />
-    <link rel="prev" title="quasitools" href="../quasitools/README.html" />
+    <link rel="next" title="bioblend" href="../bioblend/README.html" />
+    <link rel="prev" title="biobambam" href="../biobambam/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,54 +62,74 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="quast">
-<span id="id1"></span><h1>quast<a class="headerlink" href="#quast" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/quast"><img alt="downloads" src="https://anaconda.org/bioconda/quast/badges/downloads.svg" /></a></p>
-<p>Quality Assessment Tool for Genome Assemblies</p>
+  <div class="section" id="biobb-common">
+<span id="id1"></span><h1>biobb_common<a class="headerlink" href="#biobb-common" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/biobb_common"><img alt="downloads" src="https://anaconda.org/bioconda/biobb_common/badges/downloads.svg" /></a></p>
+<p>Biobb_common is the base package required to use the biobb packages.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="16%" />
-<col width="84%" />
+<col width="14%" />
+<col width="86%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://quast.sourceforge.net/">http://quast.sourceforge.net/</a></td>
+<td><a class="reference external" href="https://github.com/bioexcel/biobb_common">https://github.com/bioexcel/biobb_common</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>3.2, 4.1, 4.3, 4.4, 4.5, 4.6.1, 4.6.3, 5.0.0</td>
+<td>0.0.3</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Custom</td>
+<td>Apache Software License</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/quast">quast</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common</a></td>
 </tr>
 </tbody>
 </table>
+<p>[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3f9ac104a1444a57a1a5287e95830a84)](https://www.codacy.com/app/andriopau/pymdsetup?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=bioexcel/pymdsetup&amp;amp;utm_campaign=Badge_Grade)
+[![Documentation Status](https://readthedocs.org/projects/pymdsetup/badge/?version=latest)](http://pymdsetup.readthedocs.io/en/latest/?badge=latest)</p>
+<p># biobb_common</p>
+<p>### Introduction
+Biobb_common is the base package required to use the biobb
+packages.
+Biobb (Bio building blocks) packages are Python building blocks that
+create new layer of compatibility and interoperability over popular
+bioinformatics tools.
+The latest documentation of this package can be found in our readthedocs site:
+[latest API documentation](http://biobb_common.readthedocs.io/en/latest/).</p>
+<p>### Version 0.0.1
+This version is the first Alpha.</p>
+<p>### Copyright &amp; Licensing
+This software has been developed in the MMB group (http://mmb.pcb.ub.es) at the
+BSC (http://www.bsc.es/) &amp; IRB (https://www.irbbarcelona.org/) for the European BioExcel (http://bioexcel.eu/), funded by the European Commission
+(EU H2020 [675728](http://cordis.europa.eu/projects/675728)).</p>
+<p>* (c) 2015-2017 [Barcelona Supercomputing Center](https://www.bsc.es/)
+* (c) 2015-2017 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)</p>
+<p>Licensed under the
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file
+[LICENSE](LICENSE) for details.</p>
+<p>&lt;!–
+The file [NOTICE](NOTICE) contains any additional attributions and
+details about embedded third-party libraries and source code.
+–&gt;</p>
+<p>![](docs/source/_static/bioexcel_logo.png “Bioexcel”)</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">quast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">biobb_common</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">quast</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">biobb_common</span>
 </pre></div>
 </div>
-</div>
-<div class="section" id="notes">
-<h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>- GeneMark gene prediction software is disabled due to licensing issues</p>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/quast"><img alt="docker" src="https://quay.io/repository/biocontainers/quast/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/quast">https://quay.io/repository/biocontainers/quast</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/biobb_common"><img alt="docker" src="https://quay.io/repository/biocontainers/biobb_common/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/biobb_common">https://quay.io/repository/biocontainers/biobb_common</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/quast/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/quast/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/biobb_common/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biobb_common/README.html)
 </pre></div>
 </div>
 </div>
@@ -159,7 +179,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/quast/README.rst.txt"
+      <a href="../../_sources/recipes/biobb_common/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

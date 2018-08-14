@@ -9,7 +9,7 @@ Scan genome contigs against the ResFinder and PointFinder databases
 
 ============= ===========
 Home          https://github.com/phac-nml/staramr
-Versions      0.1.0, 0.2.0, 0.2.1
+Versions      0.1.0, 0.2.0, 0.2.1, 0.2.2
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/staramr
 
