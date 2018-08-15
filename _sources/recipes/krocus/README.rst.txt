@@ -9,8 +9,8 @@ krocus performs multi\-locus sequence typing from uncorrected long reads.
 
 ============= ===========
 Home          https://github.com/andrewjpage/krocus
-Versions      0.2.2, 0.2.3
-License       GPL3.0
+Versions      0.2.2, 0.2.3, 1.0.0
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krocus
 
 

@@ -5,12 +5,12 @@ python-consensuscore
 
 |downloads|
 
-C\+\+ library of multiple\-sequence consensus routines with SWIG bindings
+PacBio Quiver Consensus library for RSII data
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/ConsensusCore
-Versions      1.0.0, 1.0.2
-License       BSD-3-Clause-Clear
+Versions      1.0.0, 1.0.2, 1.1.1
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-consensuscore
 
 

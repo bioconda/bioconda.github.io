@@ -5,12 +5,12 @@ genomicconsensus
 
 |downloads|
 
-PacBio variant and consensus caller.
+PacBio genomic consensus and variant caller for RSII and Sequel
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/GenomicConsensus
-Versions      3.0.2
-License       Redistribution and use in source and binary forms, with or without modification
+Versions      2.3.1, 2.3.2
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomicconsensus
 
 

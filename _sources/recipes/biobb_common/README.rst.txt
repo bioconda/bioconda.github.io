@@ -9,7 +9,7 @@ Biobb\_common is the base package required to use the biobb packages.
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_common
-Versions      0.0.3
+Versions      0.0.3, 0.0.4
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common
 
@@ -17,8 +17,8 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 ============= ===========
 
-\[\!\[Codacy Badge\]\(https\:\/\/api.codacy.com\/project\/badge\/Grade\/3f9ac104a1444a57a1a5287e95830a84\)\]\(https\:\/\/www.codacy.com\/app\/andriopau\/pymdsetup\?utm\_source\=github.com\&amp\;utm\_medium\=referral\&amp\;utm\_content\=bioexcel\/pymdsetup\&amp\;utm\_campaign\=Badge\_Grade\)
-\[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/pymdsetup\/badge\/\?version\=latest\)\]\(http\:\/\/pymdsetup.readthedocs.io\/en\/latest\/\?badge\=latest\)
+\[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-common\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-common.readthedocs.io\/en\/latest\/\?badge\=latest\)
+\[\!\[Codacy Badge\]\(https\:\/\/api.codacy.com\/project\/badge\/Grade\/8e5c5537c6234bff958171e273471879\)\]\(https\:\/\/www.codacy.com\/app\/andriopau\/biobb\_common\?utm\_source\=github.com\&amp\;utm\_medium\=referral\&amp\;utm\_content\=bioexcel\/biobb\_common\&amp\;utm\_campaign\=Badge\_Grade\)
 
 \# biobb\_common
 
@@ -31,25 +31,20 @@ bioinformatics tools.
 The latest documentation of this package can be found in our readthedocs site\:
 \[latest API documentation\]\(http\:\/\/biobb\_common.readthedocs.io\/en\/latest\/\).
 
-\#\#\# Version 0.0.1
-This version is the first Alpha.
+\#\#\# Version 0.0.4
+This software is in Alpha version.
 
 \#\#\# Copyright \& Licensing
 This software has been developed in the MMB group \(http\:\/\/mmb.pcb.ub.es\) at the
 BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
 \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-\* \(c\) 2015\-2017 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-\* \(c\) 2015\-2017 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+\* \(c\) 2015\-2018 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+\* \(c\) 2015\-2018 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
 
 Licensed under the
 \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
 \[LICENSE\]\(LICENSE\) for details.
-
-\<\!\-\-
-The file \[NOTICE\]\(NOTICE\) contains any additional attributions and
-details about embedded third\-party libraries and source code.
-\-\-\>
 
 \!\[\]\(docs\/source\/\_static\/bioexcel\_logo.png \"Bioexcel\"\)
 
