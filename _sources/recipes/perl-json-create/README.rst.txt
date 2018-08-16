@@ -5,12 +5,12 @@ perl-json-create
 
 |downloads|
 
-Fast\, minimal\, UTF\-8\-only serialization of data to JSON.
+fast\, minimal\, UTF\-8\-only serialization of data to JSON
 
 ============= ===========
-Home          https://metacpan.org/pod/distribution/JSON-Create/lib/JSON/Create.pod
+Home          http://metacpan.org/pod/JSON::Create
 Versions      0.24
-License       Artistic License (Perl) 1.0 | GNU General Public License (GPL)
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-create
 
 
