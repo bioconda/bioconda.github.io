@@ -9,10 +9,12 @@ SUPER\-FOCUS\: A tool for agile functional analysis of shotgun metagenomic data
 
 ============= ===========
 Home          https://edwards.sdsu.edu/SUPERFOCUS
-Versions      0.29, 0.30
-License       GPL3
+Versions      0.29, 0.30, 0.31
+License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/super-focus
 
+
+Development   https://github.com/metageni/SUPER-FOCUS
 
 
 ============= ===========

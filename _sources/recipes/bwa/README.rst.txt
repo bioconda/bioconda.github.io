@@ -9,7 +9,7 @@ The BWA read mapper.
 
 ============= ===========
 Home          https://github.com/lh3/bwa
-Versions      0.5.9, 0.6.2, 0.7.12, 0.7.13, 0.7.15, 0.7.16, 0.7.17, 0.7.3a, 0.7.8
+Versions      0.5.9, 0.6.2, 0.7.12, 0.7.13, 0.7.15, 0.7.16, 0.7.17, 0.7.3a, 0.7.4, 0.7.8
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwa
 

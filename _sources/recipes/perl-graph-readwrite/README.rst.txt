@@ -5,10 +5,10 @@ perl-graph-readwrite
 
 |downloads|
 
-Write out directed graph in Dot format
+modules for reading and writing directed graphs
 
 ============= ===========
-Home          http://metacpan.org/pod/Graph::Writer::Dot
+Home          https://github.com/neilb/Graph-ReadWrite
 Versions      2.09
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph-readwrite

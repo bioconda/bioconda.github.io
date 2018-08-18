@@ -8,7 +8,7 @@ perl-file-find-rule
 Alternative interface to File\:\:Find
 
 ============= ===========
-Home          https://metacpan.org/pod/File::Find::Rule
+Home          http://metacpan.org/pod/File::Find::Rule
 Versions      0.34
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule

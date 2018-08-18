@@ -5,11 +5,11 @@ pb-falcon
 
 |downloads|
 
-Light weight and reusable make \/ flow data process library written in Python
+FALCON\/Unzip tool\-suite \(originally by Jason Chin\)
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pypeFLOW
-Versions      0.0.0
+Versions      0.0.0, 0.0.1, 0.0.2
 License       BSD 3-Clause Clear License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-falcon
 
