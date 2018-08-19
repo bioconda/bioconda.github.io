@@ -9,7 +9,7 @@ Creates JUnit XML test result documents that can be read by tools such as Jenkin
 
 ============= ===========
 Home          https://github.com/kyrus/python-junit-xml
-Versions      1.7
+Versions      1.7, 1.8
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/junit-xml
 

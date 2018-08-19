@@ -9,7 +9,7 @@ Meta\-package for Falcon\/Unzip tool\-suite \(originally by Jason Chin\)
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      
+Versions      0.0.0
 License       BSD 3-Clause Clear License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-assembly
 

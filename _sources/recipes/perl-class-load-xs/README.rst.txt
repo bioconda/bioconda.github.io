@@ -9,7 +9,7 @@ XS implementation of parts of Class\:\:Load
 
 ============= ===========
 Home          https://github.com/moose/Class-Load-XS
-Versions      0.09
+Versions      0.09, 0.10
 License       artistic_2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-load-xs
 
