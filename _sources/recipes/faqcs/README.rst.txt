@@ -9,7 +9,7 @@ Quality Control of Next Generation Sequencing Data.
 
 ============= ===========
 Home          https://github.com/LANL-Bioinformatics/FaQCs
-Versions      2.08
+Versions      2.08, 2.09
 License       BSD 3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs
 

@@ -8,10 +8,10 @@ perl-module-metadata
 Gather package and POD information from perl module files
 
 ============= ===========
-Home          http://metacpan.org/pod/Module::Metadata
-Versions      1.000019
+Home          https://github.com/Perl-Toolchain-Gang/Module-Metadata
+Versions      1.000019, 1.000033
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata/1.000019
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata
 
 
 
