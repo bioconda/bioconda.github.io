@@ -8,7 +8,7 @@ perl-extutils-config
 A wrapper for perl\'s configuration
 
 ============= ===========
-Home          http://metacpan.org/pod/ExtUtils-Config
+Home          http://metacpan.org/pod/ExtUtils::Config
 Versions      0.008
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-config
