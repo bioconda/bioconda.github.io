@@ -9,7 +9,7 @@ A motif discovery tool to search for candidate targets of given motifs.
 
 ============= ===========
 Home          https://github.com/shao-lab/MotifScan
-Versions      1.1
+Versions      1.1, 1.1.2
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/motifscan
 

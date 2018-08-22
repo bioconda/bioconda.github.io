@@ -9,7 +9,7 @@ R package for extracting and visualizing mutational patterns in base substitutio
 
 ============= ===========
 Home          http://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
-Versions      1.4.1
+Versions      1.4.1, 1.4.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns
 

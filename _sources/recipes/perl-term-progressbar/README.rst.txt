@@ -5,11 +5,11 @@ perl-term-progressbar
 
 |downloads|
 
-A progress bar for things that take a while
+provide a progress meter on a standard terminal
 
 ============= ===========
-Home          https://github.com/manwar/Term-ProgressBar
-Versions      2.21
+Home          http://metacpan.org/pod/Term::ProgressBar
+Versions      2.21, 2.22
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar
 

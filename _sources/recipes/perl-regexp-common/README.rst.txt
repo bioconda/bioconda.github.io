@@ -8,8 +8,8 @@ perl-regexp-common
 Provide commonly requested regular expressions
 
 ============= ===========
-Home          http://metacpan.org/pod/Regexp-Common
-Versions      2016060801
+Home          http://metacpan.org/pod/Regexp::Common
+Versions      2016060801, 2017060201
 License       mit
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-regexp-common
 

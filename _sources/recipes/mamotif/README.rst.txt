@@ -9,7 +9,7 @@ An integrative toolkit for searching cell type\-specific co\-factors associated 
 
 ============= ===========
 Home          https://github.com/shao-lab/MAmotif
-Versions      1.0
+Versions      1.0, 1.0.1
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mamotif
 
