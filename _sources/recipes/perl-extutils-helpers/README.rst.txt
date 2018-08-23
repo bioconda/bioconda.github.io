@@ -8,8 +8,8 @@ perl-extutils-helpers
 Various portability utilities for module builders
 
 ============= ===========
-Home          http://metacpan.org/pod/ExtUtils-Helpers
-Versions      0.022
+Home          http://metacpan.org/pod/ExtUtils::Helpers
+Versions      0.022, 0.026
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-helpers
 

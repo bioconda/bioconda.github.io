@@ -9,9 +9,9 @@ Unicode Normalization Forms
 
 ============= ===========
 Home          http://metacpan.org/pod/Unicode::Normalize
-Versions      1.18
+Versions      1.18, 1.25
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-normalize/1.17
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-normalize
 
 
 

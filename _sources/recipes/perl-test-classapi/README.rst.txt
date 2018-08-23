@@ -8,8 +8,8 @@ perl-test-classapi
 Provides basic first\-pass API testing for large class trees
 
 ============= ===========
-Home          http://metacpan.org/pod/Test::ClassAPI
-Versions      1.06
+Home          https://github.com/karenetheridge/Test-ClassAPI
+Versions      1.06, 1.07
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-classapi
 

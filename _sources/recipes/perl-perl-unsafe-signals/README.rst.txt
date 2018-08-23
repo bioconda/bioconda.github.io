@@ -8,9 +8,9 @@ perl-perl-unsafe-signals
 Allow unsafe handling of signals in selected blocks
 
 ============= ===========
-Home          https://metacpan.org/pod/Perl::Unsafe::Signals
+Home          http://metacpan.org/pod/Perl::Unsafe::Signals
 Versions      0.03
-License       Perl
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl-unsafe-signals
 
 

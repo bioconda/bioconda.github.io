@@ -9,7 +9,7 @@ Organise your Moose types in libraries
 
 ============= ===========
 Home          https://github.com/moose/MooseX-Types
-Versions      0.46
+Versions      0.46, 0.50
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-types
 

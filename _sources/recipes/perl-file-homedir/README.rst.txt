@@ -8,7 +8,7 @@ perl-file-homedir
 Find your home and other directories on any platform
 
 ============= ===========
-Home          http://metacpan.org/pod/File-HomeDir
+Home          https://metacpan.org/release/File-HomeDir
 Versions      1.00
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-homedir

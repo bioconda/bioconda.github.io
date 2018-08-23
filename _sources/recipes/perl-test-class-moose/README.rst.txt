@@ -9,9 +9,9 @@ Serious testing for serious Perl
 
 ============= ===========
 Home          http://metacpan.org/release/Test-Class-Moose/
-Versions      0.80
+Versions      0.80, 0.94
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-class-moose/0.80
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-class-moose
 
 
 
