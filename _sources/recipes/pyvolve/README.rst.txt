@@ -5,15 +5,17 @@ pyvolve
 
 |downloads|
 
-Pyvolve is an open\-source Python module for simulating sequences along a phylogenetic tree according to continuous\-time Markov models of sequence evolution. Please cite\: Spielman\, S.J.\, and Wilke\, C.O. \(2015\). Pyvolve\: A Flexible Python Module for Simulating Sequences along Phylogenies. PLOS ONE 10\, e0139047. doi\:10.1371\/journal.pone.0139047.
+Pyvolve is an open\-source Python module for simulating sequences along a phylogenetic tree according to continuous\-time Markov models of sequence evolution. Please cite\: Spielman\, S.J.\, and Wilke\, C.O. \(2015\). Pyvolve\: A Flexible Python Module for Simulating Sequences along Phylogenies. PLOS ONE 10\, e0139047.
 
 ============= ===========
 Home          https://github.com/sjspielman/pyvolve
-Versions      0.8.7, 0.8.8
+Versions      0.8.7, 0.8.8, 0.8.9
 License       FreeBSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyvolve
 
 
+
+Links         doi: :doi:`10.1371/journal.pone.0139047`
 
 ============= ===========
 

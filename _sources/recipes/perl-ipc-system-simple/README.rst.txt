@@ -8,9 +8,9 @@ perl-ipc-system-simple
 Run commands simply\, with detailed diagnostics
 
 ============= ===========
-Home          https://metacpan.org/pod/IPC::System::Simple
+Home          http://metacpan.org/pod/IPC::System::Simple
 Versions      1.25
-License       Perl
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-system-simple
 
 

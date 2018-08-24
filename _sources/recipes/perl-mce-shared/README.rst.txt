@@ -5,11 +5,11 @@ perl-mce-shared
 
 |downloads|
 
-Many\-Core Engine for Perl providing parallel processing capabilities
+MCE extension for sharing data supporting threads and processes
 
 ============= ===========
-Home          https://github.com/marioroy/mce-perl
-Versions      1.836
+Home          https://github.com/marioroy/mce-shared
+Versions      1.836, 1.838
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mce-shared
 

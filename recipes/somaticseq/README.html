@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>perl-types-standard &#8212; Bioconda  documentation</title>
+    <title>somaticseq &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="perl-unicode-map" href="../perl-unicode-map/README.html" />
-    <link rel="prev" title="perl-types-serialiser" href="../perl-types-serialiser/README.html" />
+    <link rel="next" title="sonlib" href="../sonlib/README.html" />
+    <link rel="prev" title="somatic-sniper" href="../somatic-sniper/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,47 +62,48 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="perl-types-standard">
-<span id="id1"></span><h1>perl-types-standard<a class="headerlink" href="#perl-types-standard" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/perl-types-standard"><img alt="downloads" src="https://anaconda.org/bioconda/perl-types-standard/badges/downloads.svg" /></a></p>
-<p>bundled set of built-in types for Type::Tiny</p>
+  <div class="section" id="somaticseq">
+<span id="id1"></span><h1>somaticseq<a class="headerlink" href="#somaticseq" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/somaticseq"><img alt="downloads" src="https://anaconda.org/bioconda/somaticseq/badges/downloads.svg" /></a></p>
+<p>An ensemble approach to accurately detect somatic mutations</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="13%" />
-<col width="87%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://search.cpan.org/~tobyink/Type-Tiny-1.002001/lib/Types/Standard.pm">http://search.cpan.org/~tobyink/Type-Tiny-1.002001/lib/Types/Standard.pm</a></td>
+<td><a class="reference external" href="http://bioinform.github.io/somaticseq/">http://bioinform.github.io/somaticseq/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.002001</td>
+<td>2.8.1</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>perl_5</td>
+<td>2-clause BSD</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-standard">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-types-standard</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq</a></td>
 </tr>
 </tbody>
 </table>
+<p>SomaticSeq is an ensemble caller that has the ability to use machine learning to filter out false positives. The detailed documentation is included in the package, located in docs/Manual.pdf. A quick guide can also be found here. SomaticSeq’s open-access paper: Fang LT, Afshar PT, Chhibber A, et al. An ensemble approach to accurately detect somatic mutations using SomaticSeq. Genome Biol. 2015;16:197.</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">perl</span><span class="o">-</span><span class="n">types</span><span class="o">-</span><span class="n">standard</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">somaticseq</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">perl</span><span class="o">-</span><span class="n">types</span><span class="o">-</span><span class="n">standard</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">somaticseq</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/perl-types-standard"><img alt="docker" src="https://quay.io/repository/biocontainers/perl-types-standard/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/perl-types-standard">https://quay.io/repository/biocontainers/perl-types-standard</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/somaticseq"><img alt="docker" src="https://quay.io/repository/biocontainers/somaticseq/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/somaticseq">https://quay.io/repository/biocontainers/somaticseq</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/perl-types-standard/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/perl-types-standard/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/somaticseq/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/somaticseq/README.html)
 </pre></div>
 </div>
 </div>
@@ -152,7 +153,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/perl-types-standard/README.rst.txt"
+      <a href="../../_sources/recipes/somaticseq/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

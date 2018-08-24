@@ -8,9 +8,9 @@ perl-bio-cigar
 Parse CIGAR strings and translate coordinates to\/from reference\/query
 
 ============= ===========
-Home          http://search.cpan.org/~tsibley/Bio-Cigar-1.01
+Home          https://github.com/MullinsLab/Bio-Cigar
 Versions      1.01
-License       perl_5
+License       gpl_2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-cigar
 
 
