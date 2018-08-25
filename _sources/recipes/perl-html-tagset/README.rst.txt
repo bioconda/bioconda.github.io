@@ -8,7 +8,7 @@ perl-html-tagset
 data tables useful in parsing HTML
 
 ============= ===========
-Home          http://metacpan.org/pod/HTML-Tagset
+Home          http://metacpan.org/pod/HTML::Tagset
 Versions      3.20
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tagset
