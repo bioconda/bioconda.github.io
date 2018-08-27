@@ -5,12 +5,12 @@ perl-compress-raw-zlib
 
 |downloads|
 
-Low\-Level Interface to zlib compression library
+Basic utilities for writing tests.
 
 ============= ===========
-Home          https://metacpan.org/pod/Compress::Raw::Zlib
-Versions      2.069
-License       Perl
+Home          http://metacpan.org/pod/Compress::Raw::Zlib
+Versions      2.069, 2.081
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-compress-raw-zlib
 
 

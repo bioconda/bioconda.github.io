@@ -9,7 +9,7 @@ FOCUS is an innovative and agile model to profile and report organisms present i
 
 ============= ===========
 Home          https://edwards.sdsu.edu/FOCUS
-Versions      1.3
+Versions      1.3, 1.4
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/focus
 
