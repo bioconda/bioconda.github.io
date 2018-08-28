@@ -8,8 +8,8 @@ perl-http-cookies
 HTTP cookie jars
 
 ============= ===========
-Home          http://metacpan.org/pod/HTTP-Cookies
-Versions      6.01
+Home          https://github.com/libwww-perl/http-cookies
+Versions      6.01, 6.04
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-cookies
 

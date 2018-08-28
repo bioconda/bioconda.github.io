@@ -8,7 +8,7 @@ perl-http-negotiate
 choose a variant to serve
 
 ============= ===========
-Home          http://metacpan.org/pod/HTTP-Negotiate
+Home          http://metacpan.org/pod/HTTP::Negotiate
 Versions      6.01
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-negotiate

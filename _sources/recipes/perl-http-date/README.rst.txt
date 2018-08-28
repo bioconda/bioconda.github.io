@@ -8,7 +8,7 @@ perl-http-date
 date conversion routines
 
 ============= ===========
-Home          http://metacpan.org/pod/HTTP-Date
+Home          http://metacpan.org/pod/HTTP::Date
 Versions      6.02
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-date

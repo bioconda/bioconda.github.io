@@ -5,11 +5,11 @@ perl-http-message
 
 |downloads|
 
-HTTP style messages
+HTTP style message \(base class\)
 
 ============= ===========
-Home          http://metacpan.org/pod/HTTP-Message
-Versions      6.11
+Home          https://github.com/libwww-perl/HTTP-Message
+Versions      6.11, 6.18
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-message
 

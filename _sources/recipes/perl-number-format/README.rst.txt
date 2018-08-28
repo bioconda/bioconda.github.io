@@ -8,7 +8,7 @@ perl-number-format
 Perl extension for formatting numbers
 
 ============= ===========
-Home          http://metacpan.org/pod/Number-Format
+Home          http://metacpan.org/pod/Number::Format
 Versions      1.75
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-format
