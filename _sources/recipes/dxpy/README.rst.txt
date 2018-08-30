@@ -9,7 +9,7 @@ DNAnexus Platform API bindings for Python
 
 ============= ===========
 Home          https://github.com/dnanexus/dx-toolkit
-Versions      0.223.0, 0.225.0, 0.247.0, 0.250.2, 0.254.0, 0.257.3
+Versions      0.223.0, 0.225.0, 0.247.0, 0.250.2, 0.254.0, 0.257.3, 0.261.1
 License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dxpy
 

@@ -9,7 +9,7 @@ A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Ru
 
 ============= ===========
 Home          https://github.com/assemblerflow/flowcraft
-Versions      1.2.0, 1.2.0.post1, 1.2.1
+Versions      1.2.0, 1.2.0.post1, 1.2.1, 1.2.2
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flowcraft
 
