@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bats &#8212; Bioconda  documentation</title>
+    <title>tigmint &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bax2bam" href="../bax2bam/README.html" />
-    <link rel="prev" title="basic" href="../basic/README.html" />
+    <link rel="next" title="tinscan" href="../tinscan/README.html" />
+    <link rel="prev" title="tidyp" href="../tidyp/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,47 +62,56 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="bats">
-<span id="id1"></span><h1>bats<a class="headerlink" href="#bats" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bats"><img alt="downloads" src="https://anaconda.org/bioconda/bats/badges/downloads.svg" /></a></p>
-<p>Bash automated testing system</p>
+  <div class="section" id="tigmint">
+<span id="id1"></span><h1>tigmint<a class="headerlink" href="#tigmint" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/tigmint"><img alt="downloads" src="https://anaconda.org/bioconda/tigmint/badges/downloads.svg" /></a></p>
+<p>Correct misassemblies using linked reads</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="16%" />
-<col width="84%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/sstephenson/bats">https://github.com/sstephenson/bats</a></td>
+<td><a class="reference external" href="https://bcgsc.github.io/tigmint/">https://bcgsc.github.io/tigmint/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.4.0</td>
+<td>1.1.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Open Source</td>
+<td>GNU General Public v3 (GPLv3)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bats">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bats</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tigmint">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tigmint</a></td>
+</tr>
+<tr class="row-odd"><td>Documentation</td>
+<td><a class="reference external" href="https://github.com/bcgsc/tigmint#readme">https://github.com/bcgsc/tigmint#readme</a></td>
+</tr>
+<tr class="row-even"><td>Development</td>
+<td><a class="reference external" href="https://github.com/bcgsc/tigmint">https://github.com/bcgsc/tigmint</a></td>
+</tr>
+<tr class="row-odd"><td>Links</td>
+<td>doi: <a class="reference external" href="https://doi.org/10.1101/304253">10.1101/304253</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bats</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">tigmint</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bats</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">tigmint</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bats"><img alt="docker" src="https://quay.io/repository/biocontainers/bats/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bats">https://quay.io/repository/biocontainers/bats</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/tigmint"><img alt="docker" src="https://quay.io/repository/biocontainers/tigmint/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/tigmint">https://quay.io/repository/biocontainers/tigmint</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bats/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bats/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/tigmint/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/tigmint/README.html)
 </pre></div>
 </div>
 </div>
@@ -152,7 +161,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/bats/README.rst.txt"
+      <a href="../../_sources/recipes/tigmint/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

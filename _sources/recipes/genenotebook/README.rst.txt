@@ -9,7 +9,7 @@ A colleborative notebook for genes and genomes
 
 ============= ===========
 Home          https://genenotebook.github.io
-Versions      0.1.1
+Versions      0.1.1, 0.1.2
 License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genenotebook
 

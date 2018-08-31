@@ -9,7 +9,7 @@ ELMER is designed to use DNA methylation and gene expression from a large number
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ELMER.html
-Versions      
+Versions      2.4.4
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer
 

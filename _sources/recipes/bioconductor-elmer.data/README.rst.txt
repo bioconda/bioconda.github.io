@@ -9,7 +9,7 @@ bioconductor-elmer.data
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/experiment/html/ELMER.data.html
-Versions      
+Versions      2.4.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer.data
 
