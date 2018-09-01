@@ -9,7 +9,7 @@ BANNER is a tool that lives inside HULK and aims to make sense of hulk histosket
 
 ============= ===========
 Home          https://www.github.com/will-rowe/banner
-Versions      0.0.1
+Versions      0.0.1, 0.0.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/banner
 
