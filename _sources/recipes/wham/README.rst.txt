@@ -9,7 +9,7 @@ Structural variant detection and association testing
 
 ============= ===========
 Home          https://github.com/zeeev/wham
-Versions      1.7.0.162, 1.7.0.307, 1.7.0.311, 1.8.0
+Versions      1.7.0.162, 1.7.0.307, 1.7.0.311, 1.8.0, 1.8.0.1.2017.05.03
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wham
 
