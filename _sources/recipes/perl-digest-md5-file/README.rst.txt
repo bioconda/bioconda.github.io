@@ -8,9 +8,9 @@ perl-digest-md5-file
 Perl extension for getting MD5 sums for files and urls.
 
 ============= ===========
-Home          http://search.cpan.org/dist/Digest-MD5-File/
+Home          http://metacpan.org/pod/Digest::MD5::File
 Versions      0.08
-License       perl_5
+License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-md5-file
 
 
