@@ -8,9 +8,9 @@ pbccs
 pbccs \- Generate Accurate Consensus Sequences from a Single SMRTbell
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/unanimity
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      3.1.0
-License       Pacific Biosciences Proprietary
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbccs
 
 
