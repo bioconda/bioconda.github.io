@@ -9,8 +9,8 @@ Scan contig files against PubMLST typing schemes
 
 ============= ===========
 Home          https://github.com/tseemann/mlst
-Versions      2.10, 2.11, 2.12, 2.13, 2.14, 2.15, 2.6, 2.9
-License       GPL2
+Versions      2.10, 2.11, 2.12, 2.13, 2.14, 2.15, 2.15.1, 2.6, 2.9
+License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mlst
 
 

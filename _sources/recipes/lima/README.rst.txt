@@ -8,9 +8,9 @@ lima
 lima \- The PacBio Barcode Demultiplexer
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/barcoding
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.6.1, 1.6.2, 1.7.0, 1.7.1
-License       Pacific Biosciences Proprietary
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lima
 
 
