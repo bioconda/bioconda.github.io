@@ -5,10 +5,10 @@ sequana
 
 |downloads|
 
-A set of standalone application and pipelines dedicated to NGS \(new generation sequencing\) analysis
+A set of standalone application and snakemake pipelines dedicated to NGS \(new generation sequencing\) analysis
 
 ============= ===========
-Home          http://github.com/sequana/
+Home          http://sequana.readthedocs.io/
 Versions      0.2.0, 0.2.1, 0.3.0, 0.4.0, 0.4.1, 0.5.0, 0.5.1, 0.5.2, 0.6.0, 0.6.1, 0.6.3.post1, 0.7.0
 License       BSD 3-clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana

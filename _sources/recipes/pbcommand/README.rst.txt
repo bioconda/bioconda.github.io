@@ -8,9 +8,9 @@ pbcommand
 Library and Tools for interfacing with PacBio pbsmrtpipe workflow engine
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/pbcommand
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      0.2.17, 0.3.29, 1.1.1
-License       BSD
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcommand
 
 

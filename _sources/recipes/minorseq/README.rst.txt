@@ -8,9 +8,9 @@ minorseq
 Minor Variant Calling and Phasing Tools
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/minorseq
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.11.0
-License       Pacific Biosciences Proprietary
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minorseq
 
 

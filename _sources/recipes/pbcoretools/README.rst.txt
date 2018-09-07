@@ -8,9 +8,9 @@ pbcoretools
 CLI tools and add\-ons for PacBio\'s core APIs
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/pbcoretools
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      0.2.4
-License       BSD
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcoretools
 
 

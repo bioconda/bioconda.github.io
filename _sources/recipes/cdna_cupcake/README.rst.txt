@@ -9,7 +9,7 @@ cDNA\_Cupcake is a miscellaneous collection of Python and R scripts used for ana
 
 ============= ===========
 Home          https://github.com/Magdoll/cDNA_Cupcake
-Versions      5.3
+Versions      5.3, 5.8
 License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cdna_cupcake
 

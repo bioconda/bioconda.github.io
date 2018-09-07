@@ -9,7 +9,7 @@ sliced imaging data
 
 ============= ===========
 Home          https://github.com/spacetx/slicedimage
-Versions      0.0.1, 0.0.2, 0.0.3, 0.0.4
+Versions      0.0.1, 0.0.2, 0.0.3, 0.0.4, 0.0.5
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slicedimage
 

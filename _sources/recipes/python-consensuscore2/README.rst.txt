@@ -8,9 +8,9 @@ python-consensuscore2
 PacBio Arrow Consensus library for Sequel data
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/unanimity
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      3.1.0
-License       BSD
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-consensuscore2
 
 

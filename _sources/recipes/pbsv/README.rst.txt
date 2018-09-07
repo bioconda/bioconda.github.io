@@ -8,9 +8,9 @@ pbsv
 pbsv \- Calling All Variants\: Fast\, Accurate\, Population\-Scale Structural Variant Analysis from Single\-Molecule PacBio Reads
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/pbsv
-Versions      2.0.0
-License       Pacific Biosciences Proprietary
+Home          https://github.com/PacificBiosciences/pbbioconda
+Versions      2.0.0, 2.0.1
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsv
 
 

@@ -8,10 +8,10 @@ pblaa
 PacBio tool to deconvolute mixtures of alleles and loci into phased consensus sequences.
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/pblaa
+Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      2.4.2
-License       Pacific Biosciences Proprietary
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pblaa/2.4.2
+License       BSD-3-Clause-Clear
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pblaa
 
 
 

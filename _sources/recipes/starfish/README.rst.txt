@@ -9,7 +9,7 @@ standardized analysis pipeline for image\-based transcriptomics
 
 ============= ===========
 Home          https://github.com/spacetx/starfish
-Versions      0.0.14, 0.0.16, 0.0.17
+Versions      0.0.14, 0.0.16, 0.0.17, 0.0.18
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starfish
 
