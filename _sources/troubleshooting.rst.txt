@@ -106,7 +106,7 @@ Or sometimes:
 
 .. code-block:: bash
 
-    export CPATH=${PREFIX}/include
+    export CPATH="$PREFIX/include"
 
 Sometimes Makefiles may specify these locations, in which case they need to be
 edited. See the `samtools` recipe for an example of this. It may take some
