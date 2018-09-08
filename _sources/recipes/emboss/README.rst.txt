@@ -9,7 +9,7 @@ The European Molecular Biology Open Software Suite
 
 ============= ===========
 Home          http://emboss.open-bio.org/
-Versions      6.5.7
+Versions      6.5.7, 6.6.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emboss
 
