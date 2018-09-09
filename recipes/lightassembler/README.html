@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bucketcache &#8212; Bioconda  documentation</title>
+    <title>lightassembler &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bufet" href="../bufet/README.html" />
-    <link rel="prev" title="bsmap" href="../bsmap/README.html" />
+    <link rel="next" title="lighter" href="../lighter/README.html" />
+    <link rel="prev" title="libssw" href="../libssw/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,47 +62,50 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="bucketcache">
-<span id="id1"></span><h1>bucketcache<a class="headerlink" href="#bucketcache" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bucketcache"><img alt="downloads" src="https://anaconda.org/bioconda/bucketcache/badges/downloads.svg" /></a></p>
-<p>Versatile persisent file cache.</p>
+  <div class="section" id="lightassembler">
+<span id="id1"></span><h1>lightassembler<a class="headerlink" href="#lightassembler" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/lightassembler"><img alt="downloads" src="https://anaconda.org/bioconda/lightassembler/badges/downloads.svg" /></a></p>
+<p>Lightweight assembly algorithm designed to be executed on a desktop machine. It uses a pair of cache oblivious Bloom filters, one holding a uniform sample of g-spaced sequenced k-mers and the other holding k-mers classified as likely correct, using a simple statistical test.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="15%" />
-<col width="85%" />
+<col width="14%" />
+<col width="86%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/RazerM/bucketcache">https://github.com/RazerM/bucketcache</a></td>
+<td><a class="reference external" href="https://github.com/SaraEl-Metwally/LightAssembler">https://github.com/SaraEl-Metwally/LightAssembler</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.12.0</td>
+<td>1.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT License</td>
+<td>GPL</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bucketcache">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bucketcache</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightassembler</a></td>
+</tr>
+<tr class="row-odd"><td>Links</td>
+<td>biotools: <a class="reference external" href="https://bio.tools/LightAssembler">LightAssembler</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/btw470">10.1093/bioinformatics/btw470</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bucketcache</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">lightassembler</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bucketcache</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">lightassembler</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bucketcache"><img alt="docker" src="https://quay.io/repository/biocontainers/bucketcache/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bucketcache">https://quay.io/repository/biocontainers/bucketcache</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/lightassembler"><img alt="docker" src="https://quay.io/repository/biocontainers/lightassembler/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/lightassembler">https://quay.io/repository/biocontainers/lightassembler</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bucketcache/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bucketcache/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/lightassembler/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/lightassembler/README.html)
 </pre></div>
 </div>
 </div>
@@ -152,7 +155,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/bucketcache/README.rst.txt"
+      <a href="../../_sources/recipes/lightassembler/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
