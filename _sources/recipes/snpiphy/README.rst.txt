@@ -9,7 +9,7 @@ An automated snp phylogeny pipeline
 
 ============= ===========
 Home          https://github.com/bogemad/snpiphy
-Versions      0.1
+Versions      0.1, 0.2
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpiphy
 
