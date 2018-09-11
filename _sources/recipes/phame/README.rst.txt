@@ -9,7 +9,7 @@ From raw reads to trees\, Whole genome SNP phylogenetics across the tree of life
 
 ============= ===========
 Home          https://github.com/LANL-Bioinformatics/PhaME
-Versions      1.0
+Versions      1.0, 1.0.0
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phame
 
