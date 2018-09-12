@@ -5174,6 +5174,7 @@ Available packages
     <tr><td><a href="recipes/biofluff/README.html">biofluff</a></td><td>2.1.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/biofluff/README.html">biofluff</a></td><td>3.0.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanopolish/README.html">nanopolish</a></td><td>0.10.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/nanopolish/README.html">nanopolish</a></td><td>0.10.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanopolish/README.html">nanopolish</a></td><td>0.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/nanopolish/README.html">nanopolish</a></td><td>0.6.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanopolish/README.html">nanopolish</a></td><td>0.6.0.dev</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -6816,6 +6817,7 @@ Available packages
     <tr><td><a href="recipes/sequana/README.html">sequana</a></td><td>0.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/sequana/README.html">sequana</a></td><td>0.6.3.post1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/sequana/README.html">sequana</a></td><td>0.7.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/sequana/README.html">sequana</a></td><td>0.7.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/transgenescan/README.html">transgenescan</a></td><td>1.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ms/README.html">ms</a></td><td>2014_03_04</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-genominator/README.html">bioconductor-genominator</a></td><td>1.30.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -7147,6 +7149,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-rtracklayer/README.html">bioconductor-rtracklayer</a></td><td>1.38.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-rtracklayer/README.html">bioconductor-rtracklayer</a></td><td>1.38.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/deepbinner/README.html">deepbinner</a></td><td>0.1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/topas/README.html">topas</a></td><td>1.0.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/denovogear/README.html">denovogear</a></td><td>1.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/yaggo/README.html">yaggo</a></td><td>1.5.10</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/yaggo/README.html">yaggo</a></td><td>1.5.8</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -7518,6 +7521,7 @@ Available packages
     <tr><td><a href="recipes/perl-pcap/README.html">perl-pcap</a></td><td>1.11.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-import-into/README.html">perl-import-into</a></td><td>1.002005</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/molpopgen-analysis/README.html">molpopgen-analysis</a></td><td>0.8.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/reparation_blast/README.html">reparation_blast</a></td><td>v1.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-coloc/README.html">r-coloc</a></td><td>2.3_1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.1.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
