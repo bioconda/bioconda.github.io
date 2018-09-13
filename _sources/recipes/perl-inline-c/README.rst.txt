@@ -5,7 +5,7 @@ perl-inline-c
 
 |downloads|
 
-A library to extract height\/width from images
+C Language Support for Inline
 
 ============= ===========
 Home          https://github.com/ingydotnet/inline-c-pm

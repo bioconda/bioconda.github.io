@@ -5,11 +5,11 @@ phame
 
 |downloads|
 
-From raw reads to trees\, Whole genome SNP phylogenetics across the tree of life
+A tool to derive SNP matrices and phylogenetic tree from raw reads\, contigs\, and full genomes.
 
 ============= ===========
 Home          https://github.com/LANL-Bioinformatics/PhaME
-Versions      1.0, 1.0.0
+Versions      1.0, 1.0.0, 1.0.1
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phame
 
