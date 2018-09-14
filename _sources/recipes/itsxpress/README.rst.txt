@@ -9,13 +9,13 @@ ITSxpress\: Software to rapidly trim the Internally Transcribed Spacer \(ITS\) r
 
 ============= ===========
 Home          http://github.com/usda-ars-gbru/itsxpress
-Versions      1.5.6, 1.6.1, 1.6.3, 1.6.4
+Versions      1.5.6, 1.6.1, 1.6.3, 1.6.4, 1.7.1
 License       License :: CC0 1.0 Universal (CC0 1.0) Public Domain Dedication
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itsxpress
 
 
 
-Links         biotools: :biotools:`ITSxpress`, doi: :doi:`10.5281/zenodo.1304349`
+Links         biotools: :biotools:`ITSxpress`, doi: :doi:`10.5281/zenodo.1304349`, doi: :doi:`10.12688/f1000research.15704.1`
 
 ============= ===========
 

@@ -156,7 +156,7 @@ Nevertheless, it can sometimes happen that we have to mark packages as broken
 in order to avoid that they are accidentally pulled by the conda solver.
 In such a case it is only possible to install them by specifically considering
 the <cite>broken</cite> label, i.e.,</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c bioconda -c conda-forge -c defaults -c bioconda/label/broken my-package<span class="o">=</span>&lt;broken-version&gt;
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>conda install -c conda-forge -c bioconda -c defaults -c bioconda/label/broken my-package<span class="o">=</span>&lt;broken-version&gt;
 </pre></div>
 </div>
 </div>

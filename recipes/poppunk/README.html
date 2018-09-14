@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>biobb_md &#8212; Bioconda  documentation</title>
+    <title>poppunk &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioblend" href="../bioblend/README.html" />
-    <link rel="prev" title="biobb_io" href="../biobb_io/README.html" />
+    <link rel="next" title="popt" href="../popt/README.html" />
+    <link rel="prev" title="polymutt" href="../polymutt/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,10 +62,10 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="biobb-md">
-<span id="id1"></span><h1>biobb_md<a class="headerlink" href="#biobb-md" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/biobb_md"><img alt="downloads" src="https://anaconda.org/bioconda/biobb_md/badges/downloads.svg" /></a></p>
-<p>Biobb_md is the Biobb module collection to perform molecular dynamics simulations.</p>
+  <div class="section" id="poppunk">
+<span id="id1"></span><h1>poppunk<a class="headerlink" href="#poppunk" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/poppunk"><img alt="downloads" src="https://anaconda.org/bioconda/poppunk/badges/downloads.svg" /></a></p>
+<p>PopPUNK (POPulation Partitioning Using Nucleotide Kmers)</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="15%" />
@@ -73,58 +73,36 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/bioexcel/biobb_md">https://github.com/bioexcel/biobb_md</a></td>
+<td><a class="reference external" href="https://github.com/johnlees/PopPUNK">https://github.com/johnlees/PopPUNK</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.0.1, 0.0.2</td>
+<td>1.1.2</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>Apache Software License</td>
+<td>Apache-2.0</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/poppunk</a></td>
 </tr>
 </tbody>
 </table>
-<p>[![Documentation Status](https://readthedocs.org/projects/biobb-md/badge/?version=latest)](https://biobb-md.readthedocs.io/en/latest/?badge=latest)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/159c05eeeb094019b4ef0b4ab000d566)](https://www.codacy.com/app/andriopau/biobb_md?utm_source=github.com&amp;amp;utm_medium=referral&amp;amp;utm_content=bioexcel/biobb_md&amp;amp;utm_campaign=Badge_Grade)</p>
-<p># biobb_md</p>
-<p>### Introduction
-Biobb_md is the Biobb module collection to perform molecular dynamics simulations.
-Biobb (BioExcel building blocks) packages are Python building blocks that
-create new layer of compatibility and interoperability over popular
-bioinformatics tools.
-The latest documentation of this package can be found in our readthedocs site:
-[latest API documentation](http://biobb_md.readthedocs.io/en/latest/).</p>
-<p>### Version
-This software is in Alpha version.</p>
-<p>### Copyright &amp; Licensing
-This software has been developed in the MMB group (http://mmb.irbbarcelona.org) at the
-BSC (http://www.bsc.es/) &amp; IRB (https://www.irbbarcelona.org/) for the European BioExcel (http://bioexcel.eu/), funded by the European Commission
-(EU H2020 [675728](http://cordis.europa.eu/projects/675728)).</p>
-<p>* (c) 2015-2018 [Barcelona Supercomputing Center](https://www.bsc.es/)
-* (c) 2015-2018 [Institute for Research in Biomedicine](https://www.irbbarcelona.org/)</p>
-<p>Licensed under the
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0), see the file
-[LICENSE](LICENSE) for details.</p>
-<p>![](docs/source/_static/bioexcel_logo.png “Bioexcel”)</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">biobb_md</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">poppunk</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">biobb_md</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">poppunk</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/biobb_md"><img alt="docker" src="https://quay.io/repository/biocontainers/biobb_md/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/biobb_md">https://quay.io/repository/biocontainers/biobb_md</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/poppunk"><img alt="docker" src="https://quay.io/repository/biocontainers/poppunk/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/poppunk">https://quay.io/repository/biocontainers/poppunk</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/biobb_md/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/biobb_md/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/poppunk/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/poppunk/README.html)
 </pre></div>
 </div>
 </div>
@@ -174,7 +152,7 @@ BSC (http://www.bsc.es/) &amp; IRB (https://www.irbbarcelona.org/) for the Europ
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/biobb_md/README.rst.txt"
+      <a href="../../_sources/recipes/poppunk/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

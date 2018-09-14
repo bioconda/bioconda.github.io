@@ -9,7 +9,7 @@ Biobb\_common is the base package required to use the biobb packages.
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_common
-Versions      0.0.3, 0.0.4
+Versions      0.0.3, 0.0.4, 0.0.5
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common
 
@@ -25,7 +25,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 \#\#\# Introduction
 Biobb\_common is the base package required to use the biobb
 packages.
-Biobb \(Bio building blocks\) packages are Python building blocks that
+Biobb \(BioExcel building blocks\) packages are Python building blocks that
 create new layer of compatibility and interoperability over popular
 bioinformatics tools.
 The latest documentation of this package can be found in our readthedocs site\:
@@ -35,7 +35,7 @@ The latest documentation of this package can be found in our readthedocs site\:
 This software is in Alpha version.
 
 \#\#\# Copyright \& Licensing
-This software has been developed in the MMB group \(http\:\/\/mmb.pcb.ub.es\) at the
+This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
 BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
 \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 

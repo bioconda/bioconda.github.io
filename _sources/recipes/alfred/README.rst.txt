@@ -5,11 +5,11 @@ alfred
 
 |downloads|
 
-Sequence alignment quality control\, BAM statistics\, feature counting and feature annotation
+BAM statistics\, feature counting and feature annotation
 
 ============= ===========
 Home          https://github.com/tobiasrausch/alfred
-Versions      0.1.2, 0.1.3, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9
+Versions      0.1.12, 0.1.2, 0.1.3, 0.1.5, 0.1.6, 0.1.7, 0.1.8, 0.1.9
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alfred
 
