@@ -8017,6 +8017,7 @@ Available packages
     <tr><td><a href="recipes/galaxy-lib/README.html">galaxy-lib</a></td><td>18.5.13</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/galaxy-lib/README.html">galaxy-lib</a></td><td>18.5.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/galaxy-lib/README.html">galaxy-lib</a></td><td>18.5.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/galaxy-lib/README.html">galaxy-lib</a></td><td>18.9.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplotter/README.html">nanoplotter</a></td><td>0.13.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplotter/README.html">nanoplotter</a></td><td>0.13.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplotter/README.html">nanoplotter</a></td><td>0.22.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
