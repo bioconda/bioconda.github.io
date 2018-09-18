@@ -9,7 +9,7 @@ PacBio BAM C\+\+ library
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbbam
-Versions      0.1, 0.18.0
+Versions      0.1, 0.18.0, 0.19.0
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbbam
 

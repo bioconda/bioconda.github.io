@@ -9,7 +9,7 @@ Detect intra\- and inter\-species bacterial contamination in NGS reads
 
 ============= ===========
 Home          https://github.com/lowandrew/ConFindr
-Versions      0.3.2, 0.3.3, 0.3.4, 0.4.0
+Versions      0.3.2, 0.3.3, 0.3.4, 0.4.0, 0.4.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/confindr
 
