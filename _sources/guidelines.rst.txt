@@ -18,13 +18,10 @@ bioconda recipe checklist
 - Package is appropriate for bioconda (:ref:`details <appropriate-for-bioconda>`)
 - If the recipe installs custom wrapper scripts, usage notes should be added to
   ``extra -> notes`` in the ``meta.yaml``.
-- **Update 7 Feb 2018**: Previously we had recommended that if the recipe is
-  a pure Python package, it should be marked as a `"noarch"
-  <https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages>`_
-  package (:ref:`details <noarch>`). However due to technical incompatibilies
-  we can't do this -- so please DO NOT use ``"noarch"`` for now.
 - **Update 7 Mar 2018**: When patching a recipe, please provide details on how
   you tried to address the problem upstream (:ref:`details <patching>`)
+- **Update 5 Sep 2018**: Pure Python packages should be marked ``noarch: python`` and use
+  ``run: - python >=3`` instead of ``skip: True #[py2k]`` (:ref:`details <noarch>`)
 
 .. _stable-url:
 
@@ -126,23 +123,22 @@ dev suffixes, see `here
 
 "Noarch" packages
 ~~~~~~~~~~~~~~~~~
-**Update 7 Feb 2018** For now please DO NOT use ``noarch`` until technical
-compatibility issues are resolved.
+A ``noarch`` package can be created for pure Python packages, data packages, or
+packages that do not require compilation. This single ``noarch`` package can be
+used across multiple platforms, which saves on build time and saves on storage
+space on the bioconda channel.
 
-.. Deprecated advice:
-.. A ``noarch`` package can be created for pure Python packages, data packages, or
-   packages that do not require compilation. This single ``noarch`` package can be
-   used across multiple platforms, which saves on build time and saves on storage
-   space on the bioconda channel.
+For pure Python packages, add ``noarch: python`` to the ``build`` section. As 
+only one package will be built, ``skip: True # [py2k]`` has no effect for 
+noarch packages. Use version pinning to constrain the Python interpreter 
+version instead.
 
-.. For pure Python packages, add ``noarch: python`` to the ``build`` section.
+For other generic packages (like a data package), add ``noarch: generic`` to
+the ``build`` section.
 
-.. For other generic packages (like a data package), add ``noarch: generic`` to
-   the ``build`` section.
-
-.. See `here
-   <https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages>`_ for
-   more details.
+See `here
+<https://www.continuum.io/blog/developer-blog/condas-new-noarch-packages>`_ for
+more details.
 
 Dependencies
 ~~~~~~~~~~~~
@@ -204,25 +200,31 @@ a command-line tool, in which case that should be tested as well.
 By default, Python recipes (those that have `python` listed as a dependency)
 must be successfully built and tested on Python 2.7, 3.4, and 3.5 in order to
 pass. However, many Python packages are not fully compatible across all Python
-versions. Use the `preprocessing selectors
-<http://conda.pydata.org/docs/building/meta-yaml.html#preprocessing-selectors>`_
-in the meta.yaml file along with the `build/skip` entry to indicate that
-a recipe should be skipped.
+versions. Use pinning to indicate with which versions your package is compatible.
 
 For example, a recipe that only runs on Python 2.7 should include the
 following:
 
 .. code-block:: yaml
+    requirements:
+      build:
+        - python 2.7.*
+      run:
+        - python 2.7.*
 
-    build:
-      skip: True  # [not py27]
-
-Or a package that only runs on Python 3.4 and 3.5:
+A package that only runs on Python 3.4 and 3.5 would include:
 
 .. code-block:: yaml
 
-    build:
-      skip: True # [py27]
+    requirements:
+      build:
+        - python >=3.4,<3.6
+      run:
+        - python >=3.4,<3.6
+        
+See `package-match-specifications 
+<https://conda.io/docs/user-guide/tasks/build-packages/package-spec.html#package-match-specifications>`_ 
+for details on how to express version compatibility. 
 
 Alternatively, for straightforward compatibility fixes you can apply a `patch
 in the meta.yaml`
