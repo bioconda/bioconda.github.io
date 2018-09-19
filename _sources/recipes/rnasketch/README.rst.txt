@@ -5,11 +5,11 @@ rnasketch
 
 |downloads|
 
-RNAsketch Library for designing RNA molecules. Glue between RNAblueprint and ViennaRNA.
+RNAsketch Library for designing RNA molecules. Glue between RNAblueprint\/RNARedPrint and ViennaRNA\, Nupack\, Hotknots\, pKiss.
 
 ============= ===========
 Home          https://github.com/ViennaRNA/RNAsketch
-Versions      1.4
+Versions      1.4, 1.5
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasketch
 
