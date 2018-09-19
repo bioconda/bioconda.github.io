@@ -99,14 +99,14 @@ can be done like this:
 
 .. code-block:: bash
 
-    export CFLAGS="-I$PREFIX/include"
-    export LDFLAGS="-L$PREFIX/lib"
+    export CFLAGS="-I${PREFIX}/include"
+    export LDFLAGS="-L${PREFIX}/lib"
 
 Or sometimes:
 
 .. code-block:: bash
 
-    export CPATH="$PREFIX/include"
+    export CPATH="${PREFIX}/include"
 
 Sometimes Makefiles may specify these locations, in which case they need to be
 edited. See the `samtools` recipe for an example of this. It may take some
@@ -124,7 +124,7 @@ build script to edit the lines.
 Here is an example that will replace the first line of a file
 ``$PREFIX/bin/alocal`` with the proper shebang line ::
 
-    sed -i.bak '1 s|^.*$|#!/usr/bin/env perl|g' $PREFIX/bin/aclocal
+    sed -i.bak '1 s|^.*$|#!/usr/bin/env perl|g' ${PREFIX}/bin/aclocal
 
 (note the ``-i.bak``, which is needed to support both Linux and OSX versions of
 ``sed``).
