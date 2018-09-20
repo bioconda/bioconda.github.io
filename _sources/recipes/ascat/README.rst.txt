@@ -16,10 +16,12 @@ both parental alleles for all SNP loci across the genome\).
 
 ============= ===========
 Home          https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/
-Versions      2.5, 2.5.1
+Versions      2.5, 2.5.1, 2.5.2
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat
 
+
+Development   https://github.com/Crick-CancerGenomics/ascat
 
 
 Links         biotools: :biotools:`ascat`, doi: :doi:`10.1073/pnas.1009843107`

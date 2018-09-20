@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>ascat &#8212; Bioconda  documentation</title>
+    <title>kraken2 &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="asciigenome" href="../asciigenome/README.html" />
-    <link rel="prev" title="arvados-python-client" href="../arvados-python-client/README.html" />
+    <link rel="next" title="krakenuniq" href="../krakenuniq/README.html" />
+    <link rel="prev" title="kraken" href="../kraken/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,59 +62,50 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="ascat">
-<span id="id1"></span><h1>ascat<a class="headerlink" href="#ascat" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/ascat"><img alt="downloads" src="https://anaconda.org/bioconda/ascat/badges/downloads.svg" /></a></p>
-<p>ASCAT is a method to derive copy number profiles of tumour cells,
-accounting for normal cell admixture and tumour aneuploidy (Figure 1).
-ASCAT infers tumour purity (the fraction of tumour cells) and ploidy (the
-amount of DNA per tumour cell, expressed as multiples of haploid genomes)
-from SNP array or massively parallel sequencing data, and calculates
-whole-genome allele-specific copy number profiles (the number of copies of
-both parental alleles for all SNP loci across the genome).</p>
+  <div class="section" id="kraken2">
+<span id="id1"></span><h1>kraken2<a class="headerlink" href="#kraken2" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/kraken2"><img alt="downloads" src="https://anaconda.org/bioconda/kraken2/badges/downloads.svg" /></a></p>
+<p>Kraken is a system for assigning taxonomic labels to short DNA sequences, usually obtained through metagenomic studies.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="13%" />
-<col width="87%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/">https://www.crick.ac.uk/research/a-z-researchers/researchers-v-y/peter-van-loo/software/</a></td>
+<td><a class="reference external" href="http://ccb.jhu.edu/software/kraken/">http://ccb.jhu.edu/software/kraken/</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>2.5, 2.5.1, 2.5.2</td>
+<td>2.0.7_beta</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-3.0</td>
+<td>GPLv3</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ascat</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kraken2</a></td>
 </tr>
-<tr class="row-odd"><td>Development</td>
-<td><a class="reference external" href="https://github.com/Crick-CancerGenomics/ascat">https://github.com/Crick-CancerGenomics/ascat</a></td>
-</tr>
-<tr class="row-even"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/ascat">ascat</a>, doi: <a class="reference external" href="https://doi.org/10.1073/pnas.1009843107">10.1073/pnas.1009843107</a></td>
+<tr class="row-odd"><td>Links</td>
+<td>biotools: <a class="reference external" href="https://bio.tools/kraken2">kraken2</a>, doi: <a class="reference external" href="https://doi.org/10.1186/gb-2014-15-3-r46">10.1186/gb-2014-15-3-r46</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">ascat</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">kraken2</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">ascat</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">kraken2</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/ascat"><img alt="docker" src="https://quay.io/repository/biocontainers/ascat/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/ascat">https://quay.io/repository/biocontainers/ascat</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/kraken2"><img alt="docker" src="https://quay.io/repository/biocontainers/kraken2/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/kraken2">https://quay.io/repository/biocontainers/kraken2</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/ascat/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ascat/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/kraken2/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/kraken2/README.html)
 </pre></div>
 </div>
 </div>
@@ -164,7 +155,7 @@ both parental alleles for all SNP loci across the genome).</p>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/ascat/README.rst.txt"
+      <a href="../../_sources/recipes/kraken2/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

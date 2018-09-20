@@ -9,9 +9,9 @@ BEAST 2 is a cross\-platform program for Bayesian phylogenetic analysis of molec
 
 ============= ===========
 Home          http://www.beast2.org
-Versions      2.4.5
+Versions      2.4.5, 2.5.0
 License       LGPLv2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast2/2.4.5
 
 
 

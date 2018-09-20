@@ -9,7 +9,7 @@ C Language Support for Inline
 
 ============= ===========
 Home          https://github.com/ingydotnet/inline-c-pm
-Versions      0.76
+Versions      0.76, 0.78
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-inline-c
 
