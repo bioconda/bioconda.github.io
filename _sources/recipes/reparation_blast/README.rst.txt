@@ -9,7 +9,7 @@ a pipeline that uses ribosome profiling data for a de novo open reading frame de
 
 ============= ===========
 Home          https://github.com/RickGelhausen/REPARATION_blast
-Versions      v1.0.1, v1.0.2, v1.0.3, v1.0.4
+Versions      v1.0.1, v1.0.2, v1.0.3, v1.0.4, v1.0.5
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reparation_blast
 

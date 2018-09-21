@@ -13,7 +13,7 @@ search results.
 
 ============= ===========
 Home          https://github.com/epruesse/SINA
-Versions      1.3.0, 1.3.1, 1.3.4
+Versions      1.3.0, 1.3.1, 1.3.4, 1.3.5
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina
 

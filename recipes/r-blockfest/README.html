@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>ete3 &#8212; Bioconda  documentation</title>
+    <title>r-blockfest &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="evidencemodeler" href="../evidencemodeler/README.html" />
-    <link rel="prev" title="ete2" href="../ete2/README.html" />
+    <link rel="next" title="boutroslabplottinggeneral" href="../r-boutroslabplottinggeneral/README.html" />
+    <link rel="prev" title="r-bipartite" href="../r-bipartite/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,47 +62,50 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="ete3">
-<span id="id1"></span><h1>ete3<a class="headerlink" href="#ete3" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/ete3"><img alt="downloads" src="https://anaconda.org/bioconda/ete3/badges/downloads.svg" /></a></p>
-<p>A Python framework for the analysis and visualization of trees</p>
+  <div class="section" id="r-blockfest">
+<span id="id1"></span><h1>r-blockfest<a class="headerlink" href="#r-blockfest" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-blockfest"><img alt="downloads" src="https://anaconda.org/bioconda/r-blockfest/badges/downloads.svg" /></a></p>
+<p>An R implementation of an extension of the ‘BayeScan’ software (Foll, 2008) &lt;DOI:10.1534/genetics.108.092221&gt; for codominant markers, adding the option to group individual SNPs into pre-defined blocks. A typical application of this new approach is the identification of genomic regions, genes, or gene sets containing one or more SNPs that evolved under directional selection.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="16%" />
-<col width="84%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://etetoolkit.org/">http://etetoolkit.org/</a></td>
+<td><a class="reference external" href="https://CRAN.R-project.org/package=BlockFeST">https://CRAN.R-project.org/package=BlockFeST</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>3.0.0b35, 3.1.1</td>
+<td>1.6</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPLv3</td>
+<td>GPL-2</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest</a></td>
+</tr>
+<tr class="row-odd"><td>Links</td>
+<td>doi: <a class="reference external" href="https://doi.org/10.1534/genetics.108.092221">10.1534/genetics.108.092221</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">ete3</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">blockfest</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">ete3</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">blockfest</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/ete3"><img alt="docker" src="https://quay.io/repository/biocontainers/ete3/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/ete3">https://quay.io/repository/biocontainers/ete3</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-blockfest"><img alt="docker" src="https://quay.io/repository/biocontainers/r-blockfest/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-blockfest">https://quay.io/repository/biocontainers/r-blockfest</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/ete3/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/ete3/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-blockfest/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-blockfest/README.html)
 </pre></div>
 </div>
 </div>
@@ -152,7 +155,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.11</a>
       
       |
-      <a href="../../_sources/recipes/ete3/README.rst.txt"
+      <a href="../../_sources/recipes/r-blockfest/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
