@@ -9,7 +9,7 @@ Functions to extract information from Oxford Nanopore sequencing data and alignm
 
 ============= ===========
 Home          https://github.com/wdecoster/nanoget
-Versions      0.11.5, 0.11.7, 1.0.0, 1.0.2, 1.2.2, 1.5.0, 1.5.2
+Versions      0.11.5, 0.11.7, 1.0.0, 1.0.2, 1.2.2, 1.5.0, 1.5.2, 1.7.4
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoget
 

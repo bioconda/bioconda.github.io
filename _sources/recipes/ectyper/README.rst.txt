@@ -9,7 +9,7 @@ ECTyper is a python program for serotyping E. coli genomes
 
 ============= ===========
 Home          https://github.com/phac-nml/ecoli_serotyping
-Versions      0.1, 0.5.4
+Versions      0.1, 0.5.4, 0.8.1
 License       Apache 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ectyper
 
