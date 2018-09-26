@@ -10,7 +10,7 @@ An assembly tool for 16S ribosomal RNA recovery from metagenomic data
 ============= ===========
 Home          https://github.com/chengyuan/reago-1.1
 Versions      1.1
-License       None
+License       Unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reago
 
 
