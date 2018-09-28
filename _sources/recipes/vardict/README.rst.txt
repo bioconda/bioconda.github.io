@@ -9,7 +9,7 @@ A sensitive variant caller for both single and paired sample variant calling
 
 ============= ===========
 Home          https://github.com/AstraZeneca-NGS/VarDict
-Versions      2015.10.30, 2016.01.27, 2016.02.19, 2016.12.02, 2017.01.27, 2017.02.01, 2017.02.10, 2017.02.16, 2017.04.18, 2017.09.24, 2017.11.23, 2018.04.27, 2018.06.21, 2018.07.24, 2018.07.25
+Versions      2015.10.30, 2016.01.27, 2016.02.19, 2016.12.02, 2017.01.27, 2017.02.01, 2017.02.10, 2017.02.16, 2017.04.18, 2017.09.24, 2017.11.23, 2018.04.27, 2018.06.21, 2018.07.24, 2018.07.25, 2018.09.21
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vardict
 
