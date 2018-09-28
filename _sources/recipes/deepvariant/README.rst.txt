@@ -9,7 +9,7 @@ DeepVariant is an analysis pipeline that uses a deep neural network to call gene
 
 ============= ===========
 Home          https://github.com/google/deepvariant
-Versions      0.4.1, 0.6.0, 0.6.1
+Versions      0.4.1, 0.6.0, 0.6.1, 0.7.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deepvariant
 
