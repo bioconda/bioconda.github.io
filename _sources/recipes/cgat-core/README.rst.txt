@@ -9,7 +9,7 @@ CGAT \: the Computational Genomics Analysis Toolkit
 
 ============= ===========
 Home          https://github.com/cgat-developers/cgat-core
-Versions      0.5.1
+Versions      0.5.1, 0.5.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-core
 
