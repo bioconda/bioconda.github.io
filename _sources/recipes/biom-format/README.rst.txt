@@ -9,7 +9,7 @@ Biological Observation Matrix \(BIOM\) format
 
 ============= ===========
 Home          http://www.biom-format.org
-Versions      1.3.1, 2.1.4, 2.1.5, 2.1.6
+Versions      1.3.1, 2.1.4, 2.1.5, 2.1.6, 2.1.7
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biom-format
 

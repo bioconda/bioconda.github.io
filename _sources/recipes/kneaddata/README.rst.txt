@@ -9,7 +9,7 @@ KneadData is a tool designed to perform quality control on metagenomic and metat
 
 ============= ===========
 Home          http://huttenhower.sph.harvard.edu/kneaddata
-Versions      0.5.2, 0.6.1
+Versions      0.5.2, 0.6.1, 0.7.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kneaddata
 
