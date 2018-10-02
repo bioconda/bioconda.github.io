@@ -769,6 +769,7 @@ Available packages
     <tr><td><a href="recipes/perl-yaml-tiny/README.html">perl-yaml-tiny</a></td><td>1.70</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/fusion-inspector/README.html">fusion-inspector</a></td><td>1.1.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/fusion-inspector/README.html">fusion-inspector</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/fusion-inspector/README.html">fusion-inspector</a></td><td>1.3.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/networkxgmml/README.html">networkxgmml</a></td><td>0.1.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-pslfilter/README.html">ucsc-pslfilter</a></td><td>324</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-pslfilter/README.html">ucsc-pslfilter</a></td><td>332</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -3978,6 +3979,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-prada/README.html">bioconductor-prada</a></td><td>1.52.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-prada/README.html">bioconductor-prada</a></td><td>1.54.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/poppunk/README.html">poppunk</a></td><td>1.1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/poppunk/README.html">poppunk</a></td><td>1.1.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/phylip/README.html">phylip</a></td><td>3.696</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/phylip/README.html">phylip</a></td><td>3.697</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-cnvtools/README.html">bioconductor-cnvtools</a></td><td>1.72.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -4495,6 +4497,7 @@ Available packages
     <tr><td><a href="recipes/ucsc-genepredfilter/README.html">ucsc-genepredfilter</a></td><td>366</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/connectome-workbench/README.html">connectome-workbench</a></td><td>1.3.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-html-template/README.html">perl-html-template</a></td><td>2.95</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-html-template/README.html">perl-html-template</a></td><td>2.97</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/beagle/README.html">beagle</a></td><td>4.0_06Jun17</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/beagle/README.html">beagle</a></td><td>4.1_03May16.862.jar</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/beagle/README.html">beagle</a></td><td>4.1_21Jan17.6cc.jar</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -7643,6 +7646,7 @@ Available packages
     <tr><td><a href="recipes/reparation_blast/README.html">reparation_blast</a></td><td>v1.0.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/reparation_blast/README.html">reparation_blast</a></td><td>v1.0.4</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/reparation_blast/README.html">reparation_blast</a></td><td>v1.0.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/reparation_blast/README.html">reparation_blast</a></td><td>v1.0.6</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-coloc/README.html">r-coloc</a></td><td>2.3_1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.1.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -7708,6 +7712,7 @@ Available packages
     <tr><td><a href="recipes/swiftlink/README.html">swiftlink</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/rapclust/README.html">rapclust</a></td><td>0.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/rapclust/README.html">rapclust</a></td><td>0.1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/tracy/README.html">tracy</a></td><td>0.3.6</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-regioner/README.html">bioconductor-regioner</a></td><td>1.10.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-regioner/README.html">bioconductor-regioner</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-regioner/README.html">bioconductor-regioner</a></td><td>1.6.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
