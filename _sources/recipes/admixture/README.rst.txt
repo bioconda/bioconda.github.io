@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/a
 
 
 
-Links         biotools: :biotools:`admixture`, doi: :doi:`10.1534/genetics.112.145037`
+Links         biotools: :biotools:`admixture`, doi: :doi:`10.1101/gr.094052.109`
 
 ============= ===========
 
