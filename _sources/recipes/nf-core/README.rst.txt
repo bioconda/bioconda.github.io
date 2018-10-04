@@ -9,7 +9,7 @@ Python package with helper tools for the nf\-core community.
 
 ============= ===========
 Home          http://nf-co.re/
-Versions      1.1
+Versions      1.1, 1.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nf-core
 
