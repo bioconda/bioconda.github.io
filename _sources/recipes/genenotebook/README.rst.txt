@@ -5,11 +5,11 @@ genenotebook
 
 |downloads|
 
-A colleborative notebook for genes and genomes
+A colleborative notebook for comparative genomics
 
 ============= ===========
 Home          https://genenotebook.github.io
-Versions      0.1.1, 0.1.2, 0.1.3
+Versions      0.1.1, 0.1.2, 0.1.3, 0.1.4
 License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genenotebook
 
