@@ -8,7 +8,7 @@ spotyping
 SpoTyping\: fast and accurate in silico Mycobacterium spoligotyping from sequence reads
 
 ============= ===========
-Home          https://github.com/xiaeryu/SpoTyping-v2.0
+Home          https://github.com/xiaeryu/SpoTyping
 Versions      2.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spotyping
