@@ -9,7 +9,7 @@ Download genomes the easy way.
 
 ============= ===========
 Home          https://github.com/simonvh/genomepy
-Versions      0.3.1, 0.4.0, 0.5.0, 0.5.1
+Versions      0.3.1, 0.4.0, 0.5.0, 0.5.1, 0.5.2
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomepy
 

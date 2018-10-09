@@ -8,8 +8,8 @@ pb-falcon
 FALCON\/Unzip tool\-suite \(originally by Jason Chin\)
 
 ============= ===========
-Home          https://github.com/PacificBiosciences/pypeFLOW
-Versions      0.0.0, 0.0.1, 0.0.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3
+Home          https://github.com/PacificBiosciences/pbbioconda
+Versions      0.0.0, 0.0.1, 0.0.2, 0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4
 License       BSD 3-Clause Clear License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-falcon
 

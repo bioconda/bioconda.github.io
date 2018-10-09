@@ -9,7 +9,7 @@ Fast aggregation of large data \(e.g. 100GB in RAM\)\, fast ordered joins\, fast
 
 ============= ===========
 Home          http://r-datatable.com
-Versions      1.10.0, 1.10.4
+Versions      1.10.0, 1.10.4, 1.11.6
 License       GPL-3 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-data.table/1.10.4
 

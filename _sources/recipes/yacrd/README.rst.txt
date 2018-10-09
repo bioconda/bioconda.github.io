@@ -9,7 +9,7 @@ Yet Another Chimeric Read Detector\, with long\-read mapper result as input.
 
 ============= ===========
 Home          https://github.com/natir/yacrd
-Versions      0.2, 0.2.1, 0.3, 0.4
+Versions      0.2, 0.2.1, 0.3, 0.4, 0.4.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yacrd
 

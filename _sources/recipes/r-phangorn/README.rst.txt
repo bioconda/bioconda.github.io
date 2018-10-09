@@ -9,7 +9,7 @@ Phylogenetic analysis in R\: Estimation of phylogenetic trees and networks using
 
 ============= ===========
 Home          https://github.com/KlausVigo/phangorn
-Versions      2.2.0
+Versions      2.2.0, 2.4.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phangorn
 

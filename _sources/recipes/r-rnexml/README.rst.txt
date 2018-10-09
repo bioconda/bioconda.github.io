@@ -9,7 +9,7 @@ Provides access to phyloinformatic data in \'NeXML\' format.  The package should
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=RNeXML
-Versions      2.1.1
+Versions      2.1.1, 2.1.2
 License       BSD_3_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rnexml
 
