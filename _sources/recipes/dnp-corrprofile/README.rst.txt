@@ -1,7 +1,7 @@
-.. _`corrprofile`:
+.. _`dnp-corrprofile`:
 
-corrprofile
-===========
+dnp-corrprofile
+===============
 
 |downloads|
 
@@ -26,29 +26,29 @@ Installation
 
 With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-   conda install corrprofile
+   conda install dnp-corrprofile
 
 and update with::
 
-   conda update corrprofile
+   conda update dnp-corrprofile
 
 
 
 |docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/corrprofile.
+A Docker container is available at https://quay.io/repository/biocontainers/dnp-corrprofile.
 
 Link to this page
 -----------------
 
 Render an |badge| badge with the following Markdown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/corrprofile/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dnp-corrprofile/README.html)
 
 .. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/corrprofile/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/corrprofile/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/corrprofile
-.. |docker| image:: https://quay.io/repository/biocontainers/corrprofile/status
-                :target: https://quay.io/repository/biocontainers/corrprofile
+           :target: http://bioconda.github.io/recipes/dnp-corrprofile/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/dnp-corrprofile/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/dnp-corrprofile
+.. |docker| image:: https://quay.io/repository/biocontainers/dnp-corrprofile/status
+                :target: https://quay.io/repository/biocontainers/dnp-corrprofile
 

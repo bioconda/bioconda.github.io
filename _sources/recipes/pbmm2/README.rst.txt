@@ -9,7 +9,7 @@ A minimap2 frontend for PacBio native data formats
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbmm2
-Versions      0.10.0, 0.5.1, 0.6.0, 0.7.0, 0.8.1, 0.9.0
+Versions      0.10.0, 0.10.1, 0.5.1, 0.6.0, 0.7.0, 0.8.1, 0.9.0
 License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbmm2
 

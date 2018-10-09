@@ -1,7 +1,7 @@
-.. _`binstrings`:
+.. _`dnp-binstrings`:
 
-binstrings
-==========
+dnp-binstrings
+==============
 
 |downloads|
 
@@ -26,29 +26,29 @@ Installation
 
 With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
 
-   conda install binstrings
+   conda install dnp-binstrings
 
 and update with::
 
-   conda update binstrings
+   conda update dnp-binstrings
 
 
 
 |docker|
 
-A Docker container is available at https://quay.io/repository/biocontainers/binstrings.
+A Docker container is available at https://quay.io/repository/biocontainers/dnp-binstrings.
 
 Link to this page
 -----------------
 
 Render an |badge| badge with the following Markdown::
 
-   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/binstrings/README.html)
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/dnp-binstrings/README.html)
 
 .. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
-           :target: http://bioconda.github.io/recipes/binstrings/README.html
-.. |downloads| image:: https://anaconda.org/bioconda/binstrings/badges/downloads.svg
-               :target: https://anaconda.org/bioconda/binstrings
-.. |docker| image:: https://quay.io/repository/biocontainers/binstrings/status
-                :target: https://quay.io/repository/biocontainers/binstrings
+           :target: http://bioconda.github.io/recipes/dnp-binstrings/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/dnp-binstrings/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/dnp-binstrings
+.. |docker| image:: https://quay.io/repository/biocontainers/dnp-binstrings/status
+                :target: https://quay.io/repository/biocontainers/dnp-binstrings
 
