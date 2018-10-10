@@ -9,7 +9,7 @@ Conducts pathway analysis by calculating the NT\_k and NE\_k statistics as descr
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/sigPathway.html
-Versions      1.44.1, 1.46.0
+Versions      1.44.1, 1.46.0, 1.48.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigpathway
 

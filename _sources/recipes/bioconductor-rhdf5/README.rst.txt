@@ -9,7 +9,7 @@ This package provides an interface between HDF5 and R. HDF5\'s main features are
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rhdf5.html
-Versions      2.12.0, 2.14.0, 2.16.0, 2.20.0, 2.22.0
+Versions      2.12.0, 2.14.0, 2.16.0, 2.20.0, 2.22.0, 2.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5
 

@@ -9,7 +9,7 @@ Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-ana
 
 ============= ===========
 Home          https://cran.r-project.org/web/packages/seqminer/index.html
-Versions      6.0
+Versions      6.0, 6.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqminer
 
