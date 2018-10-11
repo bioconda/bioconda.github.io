@@ -9,7 +9,7 @@ Penalized least squares regression is applied to fit piecewise constant curves t
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/copynumber.html
-Versions      1.16.0, 1.18.0
+Versions      1.16.0, 1.18.0, 1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copynumber
 

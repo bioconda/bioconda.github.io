@@ -9,7 +9,7 @@ GenomicTuples defines general purpose containers for storing genomic tuples. It 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicTuples.html
-Versions      1.10.0, 1.12.0
+Versions      1.10.0, 1.12.0, 1.14.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomictuples
 

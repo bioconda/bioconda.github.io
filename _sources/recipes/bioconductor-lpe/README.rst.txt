@@ -9,7 +9,7 @@ This LPE library is used to do significance analysis of microarray data with sma
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LPE.html
-Versions      1.52.0
+Versions      1.52.0, 1.54.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpe
 

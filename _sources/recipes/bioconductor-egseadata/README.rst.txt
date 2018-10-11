@@ -9,7 +9,7 @@ This package includes gene set collections that are used for the Ensemble of Gen
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/EGSEAdata.html
-Versions      1.6.0
+Versions      1.6.0, 1.8.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-egseadata
 

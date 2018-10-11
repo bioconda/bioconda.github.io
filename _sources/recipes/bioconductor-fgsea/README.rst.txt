@@ -9,7 +9,7 @@ The package implements an algorithm for fast gene set enrichment analysis. Using
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/fgsea.html
-Versions      1.2.1, 1.4.0
+Versions      1.2.1, 1.4.0, 1.6.0
 License       MIT + file LICENCE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgsea
 

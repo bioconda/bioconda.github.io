@@ -9,7 +9,7 @@ Two options are added to the LPE algorithm. The original LPE method sets all var
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LPEadj.html
-Versions      1.38.0
+Versions      1.38.0, 1.40.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpeadj
 

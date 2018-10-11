@@ -9,7 +9,7 @@ Functions for normalisation of two\-color microarrays by optimised local regress
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/OLIN.html
-Versions      1.54.0, 1.56.0
+Versions      1.54.0, 1.56.0, 1.58.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-olin
 
