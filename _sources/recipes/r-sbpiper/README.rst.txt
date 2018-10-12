@@ -9,7 +9,7 @@ Provides an API for analysing repetitive parameter estimations and simulations o
 
 ============= ===========
 Home          https://cran.r-project.org/package=sbpiper
-Versions      1.8.0
+Versions      1.8.0, 1.9.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sbpiper
 

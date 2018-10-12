@@ -9,7 +9,7 @@ A pipeline for analysing Capture Hi\-C data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Chicago.html
-Versions      1.2.0, 1.4.0, 1.6.0
+Versions      1.2.0, 1.4.0, 1.6.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chicago
 
