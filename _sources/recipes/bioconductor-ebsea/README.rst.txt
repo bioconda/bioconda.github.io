@@ -9,7 +9,7 @@ Calculates differential expression of genes based on exon counts of genes obtain
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/EBSEA.html
-Versions      1.6.0
+Versions      1.6.0, 1.8.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebsea
 

@@ -9,7 +9,7 @@ Filter Pairwise Alignment filter long read mapping information to save disk spac
 
 ============= ===========
 Home          https://github.com/natir/yacrd
-Versions      0.1.1
+Versions      0.1.1, 0.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fpa
 

@@ -9,7 +9,7 @@ Dirichlet\-multinomial mixture models can be used to describe variability in mic
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DirichletMultinomial.html
-Versions      1.16.0, 1.18.0, 1.20.0
+Versions      1.16.0, 1.18.0, 1.20.0, 1.22.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dirichletmultinomial
 

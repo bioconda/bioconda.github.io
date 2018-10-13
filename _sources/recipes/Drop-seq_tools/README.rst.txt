@@ -5,12 +5,12 @@ dropseq_tools
 
 |downloads|
 
-Package fot the analysis of Drop\-seq data developed by Jim Nemesh in the McCarroll Lab
+Package for the analysis of Drop\-seq data developed by Jim Nemesh in the McCarroll Lab
 
 
 ============= ===========
 Home          http://mccarrolllab.com/dropseq/
-Versions      1.13
+Versions      1.13, 2.0.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/Drop-seq_tools
 

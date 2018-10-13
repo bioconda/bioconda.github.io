@@ -9,7 +9,7 @@ The Pathway Activity Profiling \- PAPi \- is an R package for predicting the act
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PAPi.html
-Versions      1.16.0, 1.18.0
+Versions      1.16.0, 1.18.0, 1.20.0
 License       GPL(>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-papi
 

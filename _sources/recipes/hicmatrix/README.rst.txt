@@ -9,7 +9,7 @@ Library to manage Hi\-C matrices for HiCExplorer and pyGenomeTracks
 
 ============= ===========
 Home          https://github.com/deeptools/HiCMatrix
-Versions      2.2
+Versions      2.2, 3
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hicmatrix
 
