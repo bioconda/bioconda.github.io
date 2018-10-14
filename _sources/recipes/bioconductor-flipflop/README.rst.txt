@@ -9,7 +9,7 @@ Flipflop discovers which isoforms of a gene are expressed in a given sample toge
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/flipflop.html
-Versions      1.14.1, 1.16.0
+Versions      1.14.1, 1.16.0, 1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flipflop
 

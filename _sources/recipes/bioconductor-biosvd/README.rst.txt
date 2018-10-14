@@ -9,7 +9,7 @@ The biosvd package contains functions to reduce the input data set from the feat
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/biosvd.html
-Versions      2.14.0
+Versions      2.14.0, 2.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biosvd
 

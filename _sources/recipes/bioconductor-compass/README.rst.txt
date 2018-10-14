@@ -9,7 +9,7 @@ COMPASS is a statistical framework that enables unbiased analysis of antigen\-sp
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/COMPASS.html
-Versions      1.16.0
+Versions      1.16.0, 1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compass
 

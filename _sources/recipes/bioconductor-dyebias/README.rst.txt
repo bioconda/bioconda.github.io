@@ -9,7 +9,7 @@ Many two\-colour hybridizations suffer from a dye bias that is both gene\-specif
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/dyebias.html
-Versions      1.38.0
+Versions      1.38.0, 1.40.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebias
 

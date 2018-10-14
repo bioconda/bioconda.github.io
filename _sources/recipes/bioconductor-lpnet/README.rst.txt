@@ -9,7 +9,7 @@ lpNet aims at infering biological networks\, in particular signaling and gene ne
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/lpNet.html
-Versions      2.10.0
+Versions      2.10.0, 2.12.0
 License       Artistic License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpnet
 

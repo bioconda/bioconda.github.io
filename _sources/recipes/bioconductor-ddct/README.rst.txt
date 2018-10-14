@@ -9,7 +9,7 @@ The Delta\-Delta\-Ct \(ddCt\) Algorithm is an approximation method to determine 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ddCt.html
-Versions      1.34.0
+Versions      1.34.0, 1.36.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddct
 

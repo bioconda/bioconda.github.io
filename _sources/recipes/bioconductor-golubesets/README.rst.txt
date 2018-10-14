@@ -9,7 +9,7 @@ representation of public golub data with some covariate data of provenance unkno
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/golubEsets.html
-Versions      1.20.0
+Versions      1.20.0, 1.22.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets
 

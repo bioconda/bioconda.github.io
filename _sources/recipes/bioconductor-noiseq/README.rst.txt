@@ -9,7 +9,7 @@ Analysis of RNA\-seq expression data or other similar kind of data. Exploratory 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/NOISeq.html
-Versions      2.18.0, 2.20.0, 2.22.0
+Versions      2.18.0, 2.20.0, 2.22.0, 2.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-noiseq
 

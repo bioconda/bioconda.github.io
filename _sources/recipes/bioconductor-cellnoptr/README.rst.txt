@@ -9,7 +9,7 @@ This package does optimisation of boolean logic networks of signalling pathways 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CellNOptR.html
-Versions      1.22.0, 1.23.0, 1.24.1
+Versions      1.22.0, 1.23.0, 1.24.1, 1.26.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cellnoptr
 

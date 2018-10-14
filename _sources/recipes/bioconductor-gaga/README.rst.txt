@@ -9,7 +9,7 @@ Implements the GaGa model for high\-throughput data analysis\, including differe
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/gaga.html
-Versions      2.22.0, 2.24.0
+Versions      2.22.0, 2.24.0, 2.26.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga
 
