@@ -9,7 +9,7 @@ An R package for connecting to chemical and biological databases.
 
 ============= ===========
 Home          https://github.com/pkrog/biodb
-Versions      1.0.2, 1.1.0
+Versions      1.0.2, 1.1.0, 1.2.0a
 License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-biodb
 

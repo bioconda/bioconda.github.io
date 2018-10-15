@@ -9,7 +9,7 @@ This package performs tests for paired high\-throughput data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PLPE.html
-Versions      1.38.0
+Versions      1.38.0, 1.40.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plpe
 

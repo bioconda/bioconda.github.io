@@ -8,8 +8,8 @@ treebest
 A tool for hierarchically clustering on a sparse graph
 
 ============= ===========
-Home          
-Versions      1.9.2_ep78
+Home          http://treesoft.sourceforge.net/treebest.shtml
+Versions      1.9.2.post0, 1.9.2_ep78
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treebest
 
