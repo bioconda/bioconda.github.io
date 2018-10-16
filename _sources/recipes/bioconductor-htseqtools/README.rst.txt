@@ -9,7 +9,7 @@ We provide efficient\, easy\-to\-use tools for High\-Throughput Sequencing \(ChI
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/htSeqTools.html
-Versions      1.26.0
+Versions      1.26.0, 1.28.3
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htseqtools
 

@@ -9,7 +9,7 @@ Functions for reading\, writing\, plotting\, analysing\, and manipulating alleli
 
 ============= ===========
 Home          http
-Versions      0.10
+Versions      0.10, 0.11
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pegas
 

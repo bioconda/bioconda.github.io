@@ -9,7 +9,7 @@ The purpose of this package is to analyze \(i.e. Normalize and select significan
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/prot2D.html
-Versions      1.16.0
+Versions      1.16.0, 1.18.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prot2d
 
