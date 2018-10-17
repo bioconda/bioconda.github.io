@@ -9,7 +9,7 @@ The package provides functionality for kernel\-based analysis of DNA\, RNA\, and
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/kebabs.html
-Versions      1.12.0
+Versions      1.12.0, 1.14.0
 License       GPL (>= 2.1)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kebabs
 

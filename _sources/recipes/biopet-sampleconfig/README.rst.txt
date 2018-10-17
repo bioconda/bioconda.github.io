@@ -9,7 +9,7 @@ biopet-sampleconfig
 
 ============= ===========
 Home          https://github.com/biopet/sampleconfig
-Versions      0.1, 0.2
+Versions      0.1, 0.2, 0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-sampleconfig
 
@@ -17,26 +17,27 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 
 ============= ===========
 
-\#\#\#\# Tools \- ExtractTsv
 
 This mean can extract samples\, libraries and readgroups from a sample config file. This meant as a supporting tool inside wdl pipelines.
 It can also output a single layer as tsv file.
-    
-        
 
-\#\#\#\# Tools \- ReadFromTsv
+
 
 This tool enables a user to create a full sample sheet in JSON format or
 YAML format\, suitable for all Biopet Queue pipelines\, from TSV file\(s\).
-    
-        
 
-\#\#\#\# Tools \- CromwellArrays
+
 
 This tool will convert the sample configs to a array based format that can be used inside wdl pipelines.
 This tool is only to support biowdl pipelines.
 
+
+
+ This tool will extract the case\-control pairs from a sample config file.
+ It will read the headers of the bam files to confirm that samples do exist.
+
 For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/sampleconfig
+
 
 Installation
 ------------
@@ -54,7 +55,13 @@ and update with::
 
 Notes
 -----
-biopet\-sampleconfig is a Java program that comes with a custom wrapper shell script. By default \'no default java option\' is set in the wrapper. The command that runs the program is \'biopet\-sampleconfig\'. If you want to overwrite it you can specify memory options directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \'biopet\-sampleconfig \-Xms512m \-Xmx1g\'. 
+biopet\-sampleconfig is a Java program that comes with a custom wrapper shell script.
+By default \'no default java option\' is set in the wrapper.
+The command that runs the program is \'biopet\-sampleconfig\'.
+If you want to overwrite it you can specify memory options directly after your binaries.
+If you have \_JAVA\_OPTIONS set globally this will take precedence.
+For example run it with \'biopet\-sampleconfig \-Xms512m \-Xmx1g\'.
+
 
 
 |docker|

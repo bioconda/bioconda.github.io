@@ -9,7 +9,7 @@ hiAnnotator contains set of functions which allow users to annotate a GRanges ob
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/hiAnnotator.html
-Versions      1.11.1
+Versions      1.11.1, 1.14.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator
 

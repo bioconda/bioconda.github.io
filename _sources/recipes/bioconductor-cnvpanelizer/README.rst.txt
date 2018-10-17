@@ -9,7 +9,7 @@ A method that allows for the use of a collection of non\-matched normal tissue s
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CNVPanelizer.html
-Versions      1.8.0
+Versions      1.12.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvpanelizer
 

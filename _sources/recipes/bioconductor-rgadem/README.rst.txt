@@ -9,7 +9,7 @@ rGADEM is an efficient de novo motif discovery tool for large\-scale genomic seq
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rGADEM.html
-Versions      2.22.0, 2.24.0, 2.26.0
+Versions      2.22.0, 2.24.0, 2.26.0, 2.28.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgadem
 

@@ -9,7 +9,7 @@ Implementation of the BRGE\'s \(Bioinformatic Research Group in Epidemiology fro
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MultiDataSet.html
-Versions      1.4.0, 1.6.0
+Versions      1.4.0, 1.6.0, 1.8.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multidataset
 

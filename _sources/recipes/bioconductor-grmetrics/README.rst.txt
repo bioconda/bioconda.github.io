@@ -9,7 +9,7 @@ Functions for calculating and visualizing growth\-rate inhibition \(GR\) metrics
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GRmetrics.html
-Versions      1.4.1
+Versions      1.4.1, 1.6.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-grmetrics
 

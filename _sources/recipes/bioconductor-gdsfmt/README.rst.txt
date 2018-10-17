@@ -9,7 +9,7 @@ This package provides a high\-level R interface to CoreArray Genomic Data Struct
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/gdsfmt.html
-Versions      1.14.1
+Versions      1.14.1, 1.16.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsfmt
 

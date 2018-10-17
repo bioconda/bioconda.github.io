@@ -9,7 +9,7 @@ An application of functional canonical correlation analysis to assess covariance
 
 ============= ===========
 Home          https://www.bioconductor.org/packages/release/bioc/html/fCCAC.html
-Versions      1.2.0
+Versions      1.2.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fccac
 

@@ -9,7 +9,7 @@ Programmatically access the NIH \/ NCI Genomic Data Commons RESTful service.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicDataCommons.html
-Versions      1.0.5, 1.2.0
+Versions      1.0.5, 1.2.0, 1.4.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicdatacommons
 

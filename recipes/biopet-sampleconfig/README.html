@@ -76,7 +76,7 @@ $(document).ready(function() {
 <td><a class="reference external" href="https://github.com/biopet/sampleconfig">https://github.com/biopet/sampleconfig</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.1, 0.2</td>
+<td>0.1, 0.2, 0.3</td>
 </tr>
 <tr class="row-odd"><td>License</td>
 <td>MIT</td>
@@ -86,15 +86,15 @@ $(document).ready(function() {
 </tr>
 </tbody>
 </table>
-<p>#### Tools - ExtractTsv</p>
 <p>This mean can extract samples, libraries and readgroups from a sample config file. This meant as a supporting tool inside wdl pipelines.
 It can also output a single layer as tsv file.</p>
-<p>#### Tools - ReadFromTsv</p>
 <p>This tool enables a user to create a full sample sheet in JSON format or
 YAML format, suitable for all Biopet Queue pipelines, from TSV file(s).</p>
-<p>#### Tools - CromwellArrays</p>
 <p>This tool will convert the sample configs to a array based format that can be used inside wdl pipelines.
 This tool is only to support biowdl pipelines.</p>
+<blockquote>
+<div>This tool will extract the case-control pairs from a sample config file.
+It will read the headers of the bam files to confirm that samples do exist.</div></blockquote>
 <p>For documentation and manuals visit our github.io page: https://biopet.github.io/sampleconfig</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
@@ -109,7 +109,12 @@ This tool is only to support biowdl pipelines.</p>
 </div>
 <div class="section" id="notes">
 <h2>Notes<a class="headerlink" href="#notes" title="Permalink to this headline">¶</a></h2>
-<p>biopet-sampleconfig is a Java program that comes with a custom wrapper shell script. By default ‘no default java option’ is set in the wrapper. The command that runs the program is ‘biopet-sampleconfig’. If you want to overwrite it you can specify memory options directly after your binaries. If you have _JAVA_OPTIONS set globally this will take precedence. For example run it with ‘biopet-sampleconfig -Xms512m -Xmx1g’.</p>
+<p>biopet-sampleconfig is a Java program that comes with a custom wrapper shell script.
+By default ‘no default java option’ is set in the wrapper.
+The command that runs the program is ‘biopet-sampleconfig’.
+If you want to overwrite it you can specify memory options directly after your binaries.
+If you have _JAVA_OPTIONS set globally this will take precedence.
+For example run it with ‘biopet-sampleconfig -Xms512m -Xmx1g’.</p>
 <p><a class="reference external" href="https://quay.io/repository/biocontainers/biopet-sampleconfig"><img alt="docker" src="https://quay.io/repository/biocontainers/biopet-sampleconfig/status" /></a></p>
 <p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/biopet-sampleconfig">https://quay.io/repository/biocontainers/biopet-sampleconfig</a>.</p>
 </div>

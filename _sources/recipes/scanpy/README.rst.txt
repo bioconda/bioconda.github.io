@@ -9,7 +9,7 @@ Single\-Cell Analysis in Python. Scales to \>1M cells.
 
 ============= ===========
 Home          https://scanpy.readthedocs.io/en/latest/
-Versions      1.3.1
+Versions      1.3.1, 1.3.2
 License       BSD-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy
 
