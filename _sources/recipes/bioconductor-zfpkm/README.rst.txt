@@ -9,7 +9,7 @@ Perform the zFPKM transform on RNA\-seq FPKM data. This algorithm is based on th
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/zFPKM.html
-Versions      1.0.0
+Versions      1.0.0, 1.2.0
 License       GPL-3 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zfpkm
 

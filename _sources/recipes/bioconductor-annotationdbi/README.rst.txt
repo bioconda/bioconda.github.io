@@ -9,7 +9,7 @@ Provides user interface and database connection code for annotation data package
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationDbi.html
-Versions      1.30.1, 1.32.0, 1.32.2, 1.32.3, 1.34.4, 1.36.0, 1.36.2, 1.38.0, 1.38.2, 1.40.0
+Versions      1.30.1, 1.32.0, 1.32.2, 1.32.3, 1.34.4, 1.36.0, 1.36.2, 1.38.0, 1.38.2, 1.40.0, 1.42.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationdbi
 

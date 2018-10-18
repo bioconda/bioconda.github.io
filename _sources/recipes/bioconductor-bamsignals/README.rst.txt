@@ -9,7 +9,7 @@ This package allows to efficiently obtain count vectors from indexed bam files. 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/bamsignals.html
-Versions      1.10.0
+Versions      1.10.0, 1.12.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bamsignals
 

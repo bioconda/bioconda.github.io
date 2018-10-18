@@ -9,7 +9,7 @@ cogena is a workflow for co\-expressed gene\-set enrichment analysis. It aims to
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cogena.html
-Versions      1.12.0
+Versions      1.12.0, 1.14.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cogena
 

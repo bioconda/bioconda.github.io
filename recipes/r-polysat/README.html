@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-scde &#8212; Bioconda  documentation</title>
+    <title>r-polysat &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-scisi" href="../bioconductor-scisi/README.html" />
-    <link rel="prev" title="bioconductor-scater" href="../bioconductor-scater/README.html" />
+    <link rel="next" title="r-popgenome" href="../r-popgenome/README.html" />
+    <link rel="prev" title="r-pma" href="../r-pma/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,50 +62,47 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-scde">
-<span id="id1"></span><h1>bioconductor-scde<a class="headerlink" href="#bioconductor-scde" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-scde"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-scde/badges/downloads.svg" /></a></p>
-<p>The scde package implements a set of statistical methods for analyzing single-cell RNA-seq data. scde fits individual error models for single-cell RNA-seq measurements. These models can then be used for assessment of differential expression between groups of cells, as well as other types of analysis. The scde package also contains the pagoda framework which applies pathway and gene set overdispersion analysis to identify and characterize putative cell subpopulations based on transcriptional signatures. The overall approach to the differential expression analysis is detailed in the following publication: “Bayesian approach to single-cell differential expression analysis” (Kharchenko PV, Silberstein L, Scadden DT, Nature Methods, doi: 10.1038/nmeth.2967). The overall approach to subpopulation identification and characterization is detailed in the following pre-print: “Characterizing transcriptional heterogeneity through pathway and gene set overdispersion analysis” (Fan J, Salathia N, Liu R, Kaeser G, Yung Y, Herman J, Kaper F, Fan JB, Zhang K, Chun J, and Kharchenko PV, Nature Methods, doi:10.1038/nmeth.3734).</p>
+  <div class="section" id="r-polysat">
+<span id="id1"></span><h1>r-polysat<a class="headerlink" href="#r-polysat" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-polysat"><img alt="downloads" src="https://anaconda.org/bioconda/r-polysat/badges/downloads.svg" /></a></p>
+<p>A collection of tools to handle microsatellite data of any ploidy (and samples of mixed ploidy) where allele copy number is not known in partially heterozygous genotypes.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="14%" />
-<col width="86%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/scde.html">http://bioconductor.org/packages/3.6/bioc/html/scde.html</a></td>
+<td><a class="reference external" href="https://cran.r-project.org/web/packages/polysat/index.html">https://cran.r-project.org/web/packages/polysat/index.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>2.6.0, 2.8.0</td>
+<td>1.7_3</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-2</td>
+<td>GPL (&gt;= 2)</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/scde">scde</a>, doi: <a class="reference external" href="https://doi.org/10.1038/nmeth.2967">10.1038/nmeth.2967</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-polysat">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-polysat</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">scde</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">polysat</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">scde</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">polysat</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-scde"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-scde/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-scde">https://quay.io/repository/biocontainers/bioconductor-scde</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-polysat"><img alt="docker" src="https://quay.io/repository/biocontainers/r-polysat/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-polysat">https://quay.io/repository/biocontainers/r-polysat</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-scde/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-scde/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-polysat/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-polysat/README.html)
 </pre></div>
 </div>
 </div>
@@ -155,7 +152,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-scde/README.rst.txt"
+      <a href="../../_sources/recipes/r-polysat/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

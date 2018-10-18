@@ -9,7 +9,7 @@ The dada2 package infers exact amplicon sequence variants \(ASVs\) from high\-th
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/dada2.html
-Versions      0.10.0, 0.10.1, 0.10.3, 0.10.4, 0.99.10, 1.0.3, 1.2, 1.4, 1.4.0, 1.6.0
+Versions      0.10.0, 0.10.1, 0.10.3, 0.10.4, 0.99.10, 1.0.3, 1.2, 1.4, 1.4.0, 1.6.0, 1.8.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2
 

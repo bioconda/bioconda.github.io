@@ -14,6 +14,8 @@ License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umi_tools
 
 
+Development   https://github.com/CGATOxford/UMI-tools
+
 
 ============= ===========
 

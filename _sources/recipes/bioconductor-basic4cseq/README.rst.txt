@@ -9,7 +9,7 @@ Basic4Cseq is an R\/Bioconductor package for basic filtering\, analysis and subs
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Basic4Cseq.html
-Versions      1.12.0, 1.14.0, 1.6.0
+Versions      1.12.0, 1.14.0, 1.16.0, 1.6.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basic4cseq
 
