@@ -9,7 +9,7 @@ Strand specific peak\-pair calling in ChIP\-exo replicates. The cumulative Skell
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CexoR.html
-Versions      1.14.0, 1.16.0, 1.8.0
+Versions      1.14.0, 1.16.0, 1.18.0, 1.8.0
 License       Artistic-2.0 | GPL-2 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cexor
 

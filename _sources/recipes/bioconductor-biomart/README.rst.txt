@@ -9,7 +9,7 @@ In recent years a wealth of biological data has become available in public data 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/biomaRt.html
-Versions      2.26.0, 2.26.1, 2.27.0, 2.28.0, 2.30.0, 2.32.1, 2.34.0, 2.34.2
+Versions      2.26.0, 2.26.1, 2.27.0, 2.28.0, 2.30.0, 2.32.1, 2.34.0, 2.34.2, 2.36.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomart
 

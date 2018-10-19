@@ -9,7 +9,7 @@ The semantic comparisons of Gene Ontology \(GO\) annotations provide quantitativ
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GOSemSim.html
-Versions      1.28.2, 1.29.0, 1.30.3, 2.2.0, 2.4.0
+Versions      1.28.2, 1.29.0, 1.30.3, 2.2.0, 2.4.0, 2.6.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gosemsim
 

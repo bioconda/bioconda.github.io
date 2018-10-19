@@ -9,7 +9,7 @@ Package containing an S4 class for translating mature miRNA names to different m
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/miRNAmeConverter.html
-Versions      1.6.0
+Versions      1.6.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnameconverter
 

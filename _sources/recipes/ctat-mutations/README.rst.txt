@@ -9,7 +9,7 @@ ctat-mutations
 
 ============= ===========
 Home          https://github.com/NCIP/ctat-mutations
-Versions      1.0, 2.0.0
+Versions      1.0, 2.0.0, 2.0.1
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-mutations
 

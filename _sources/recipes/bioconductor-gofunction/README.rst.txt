@@ -9,7 +9,7 @@ The GO\-function package provides a tool to address the redundancy that result f
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GOFunction.html
-Versions      1.26.0
+Versions      1.26.0, 1.28.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gofunction
 
