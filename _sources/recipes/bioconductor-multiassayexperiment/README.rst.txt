@@ -9,7 +9,7 @@ Multi\-assay \'omics experiments on a set of samples are increasingly commonplac
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MultiAssayExperiment.html
-Versions      1.4.9
+Versions      1.4.9, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment
 

@@ -9,7 +9,7 @@ Defines a S4 class for storing data from single\-cell experiments. This includes
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SingleCellExperiment.html
-Versions      1.0.0
+Versions      1.0.0, 1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment
 

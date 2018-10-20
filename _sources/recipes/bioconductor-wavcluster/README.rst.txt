@@ -9,7 +9,7 @@ The package provides an integrated pipeline for the analysis of PAR\-CLIP data. 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/wavClusteR.html
-Versions      2.11.0
+Versions      2.11.0, 2.14.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavcluster
 

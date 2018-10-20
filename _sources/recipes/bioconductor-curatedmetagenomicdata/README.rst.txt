@@ -9,7 +9,7 @@ bioconductor-curatedmetagenomicdata
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/curatedMetagenomicData.html
-Versions      1.8.1
+Versions      1.10.2, 1.8.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedmetagenomicdata
 

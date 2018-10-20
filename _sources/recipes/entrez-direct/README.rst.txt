@@ -8,8 +8,8 @@ entrez-direct
 Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of interconnected databases \(publication\, sequence\, structure\, gene\, variation\, expression\, etc.\) from a UNIX terminal window. Functions take search terms from command\-line arguments. Individual operations are combined to build multi\-step queries. Record retrieval and formatting normally complete the process.
 
 ============= ===========
-Home          ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/10.0.20180927/README
-Versions      10.0, 4.00, 5.80, 7.00, 7.70
+Home          ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/10.2.20181018/README
+Versions      10.0, 10.2, 4.00, 5.80, 7.00, 7.70
 License       PUBLIC DOMAIN
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct
 

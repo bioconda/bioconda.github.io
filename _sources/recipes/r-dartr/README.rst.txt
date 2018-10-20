@@ -9,7 +9,7 @@ Functions are provided that facilitate the import and analysis of snp and silico
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=dartR
-Versions      1.0
+Versions      1.0, 1.0.5
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dartr
 

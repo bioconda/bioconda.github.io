@@ -9,7 +9,7 @@ Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace 
 
 ============= ===========
 Home          https://github.com/chr1swallace/coloc
-Versions      2.3_1
+Versions      2.3_1, 3.1
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc
 

@@ -9,7 +9,7 @@ The Mutoss package and accompanying mutossGUI package are designed to ease the a
 
 ============= ===========
 Home          http://mutoss.r-forge.r-project.org/
-Versions      0.1_10
+Versions      0.1_10, 0.1_12
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mutoss
 

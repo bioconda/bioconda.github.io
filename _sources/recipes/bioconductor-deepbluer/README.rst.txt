@@ -9,7 +9,7 @@ Accessing the DeepBlue Epigenetics Data Server through R.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DeepBlueR.html
-Versions      1.4.1
+Versions      1.4.1, 1.6.0
 License       GPL (>=2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deepbluer
 

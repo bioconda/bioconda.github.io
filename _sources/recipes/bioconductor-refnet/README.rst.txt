@@ -9,7 +9,7 @@ Molecular interactions with metadata\, some archived\, some dynamically obtained
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RefNet.html
-Versions      1.12.0, 1.14.0
+Versions      1.12.0, 1.14.0, 1.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-refnet
 
