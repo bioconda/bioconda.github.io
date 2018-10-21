@@ -9,7 +9,7 @@ The software formalises a framework for classification in R. There are four stag
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ClassifyR.html
-Versions      1.12.2
+Versions      1.12.2, 2.0.10
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-classifyr
 

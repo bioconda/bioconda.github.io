@@ -9,7 +9,7 @@ Comprehensive alignment\, whole\-genome coverage\, and capture coverage statisti
 
 ============= ===========
 Home          https://github.com/jfarek/alignstats
-Versions      0.3
+Versions      0.3, 0.5
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignstats
 

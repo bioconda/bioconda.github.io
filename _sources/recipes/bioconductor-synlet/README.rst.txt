@@ -9,7 +9,7 @@ Select hits from synthetic lethal RNAi screen data. For example\, there are two 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/synlet.html
-Versions      1.8.0
+Versions      1.10.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synlet
 

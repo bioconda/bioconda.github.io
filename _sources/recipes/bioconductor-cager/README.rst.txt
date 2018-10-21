@@ -9,7 +9,7 @@ Preprocessing of CAGE sequencing data\, identification and normalization of tran
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CAGEr.html
-Versions      1.16.0, 1.18.1, 1.20.0
+Versions      1.16.0, 1.18.1, 1.20.0, 1.22.3
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cager
 
