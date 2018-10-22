@@ -9,7 +9,7 @@ This package implements SCnorm — a method to normalize single\-cell RNA\-seq d
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SCnorm.html
-Versions      1.0.0
+Versions      1.0.0, 1.2.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scnorm
 

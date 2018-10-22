@@ -9,7 +9,7 @@ Detector for fusion\-gene and non\-fusion\-gene transcriptomic structural variat
 
 ============= ===========
 Home          https://github.com/Kingsford-Group/squid
-Versions      1.4
+Versions      1.4, 1.5
 License       BSD 3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/squid
 

@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-pwomics &#8212; Bioconda  documentation</title>
+    <title>card_trick &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-qcmetrics" href="../bioconductor-qcmetrics/README.html" />
-    <link rel="prev" title="bioconductor-pwmenrich" href="../bioconductor-pwmenrich/README.html" />
+    <link rel="next" title="carna" href="../carna/README.html" />
+    <link rel="prev" title="cap3" href="../cap3/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,50 +62,47 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-pwomics">
-<span id="id1"></span><h1>bioconductor-pwomics<a class="headerlink" href="#bioconductor-pwomics" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-pwomics"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-pwomics/badges/downloads.svg" /></a></p>
-<p>pwOmics performs pathway-based level-specific data comparison of matching omics data sets based on pre-analysed user-specified lists of differential genes/transcripts and phosphoproteins. A separate downstream analysis of phosphoproteomic data including pathway identification, transcription factor identification and target gene identification is opposed to the upstream analysis starting with gene or transcript information as basis for identification of upstream transcription factors and potential proteomic regulators. The cross-platform comparative analysis allows for comprehensive analysis of single time point experiments and time-series experiments by providing static and dynamic analysis tools for data integration. In addition, it provides functions to identify individual signaling axes based on data integration.</p>
+  <div class="section" id="card-trick">
+<span id="id1"></span><h1>card_trick<a class="headerlink" href="#card-trick" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/card_trick"><img alt="downloads" src="https://anaconda.org/bioconda/card_trick/badges/downloads.svg" /></a></p>
+<p>Utility package to find gene &lt;-&gt; drug relationships within CARD</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="13%" />
-<col width="87%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/pwOmics.html">http://bioconductor.org/packages/3.6/bioc/html/pwOmics.html</a></td>
+<td><a class="reference external" href="https://gitlab.com/cgps/card_trick">https://gitlab.com/cgps/card_trick</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.10.1, 1.12.0</td>
+<td>0.1.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL (&gt;= 2)</td>
+<td>MIT</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/pwomics">pwomics</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/btv323">10.1093/bioinformatics/btv323</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/card_trick">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/card_trick</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">pwomics</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">card_trick</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">pwomics</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">card_trick</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-pwomics"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-pwomics/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-pwomics">https://quay.io/repository/biocontainers/bioconductor-pwomics</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/card_trick"><img alt="docker" src="https://quay.io/repository/biocontainers/card_trick/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/card_trick">https://quay.io/repository/biocontainers/card_trick</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-pwomics/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-pwomics/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/card_trick/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/card_trick/README.html)
 </pre></div>
 </div>
 </div>
@@ -155,7 +152,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-pwomics/README.rst.txt"
+      <a href="../../_sources/recipes/card_trick/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

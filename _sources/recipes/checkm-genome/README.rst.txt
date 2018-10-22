@@ -9,7 +9,7 @@ Assess the quality of microbial genomes recovered from isolates\, single cells\,
 
 ============= ===========
 Home          https://ecogenomics.github.io/CheckM/
-Versions      1.0.11, 1.0.5, 1.0.7
+Versions      1.0.11, 1.0.12, 1.0.5, 1.0.7
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/checkm-genome
 

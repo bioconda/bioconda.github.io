@@ -9,7 +9,7 @@ Allows for persistent storage\, access\, exploration\, and manipulation of Cuffl
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/cummeRbund.html
-Versions      2.12.1, 2.16.0, 2.18.0, 2.20.0, 2.8.2
+Versions      2.12.1, 2.16.0, 2.18.0, 2.20.0, 2.22.0, 2.8.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cummerbund
 

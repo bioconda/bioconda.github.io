@@ -9,7 +9,7 @@ Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model appr
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PING.html
-Versions      2.20.0, 2.22.0
+Versions      2.20.0, 2.22.0, 2.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ping
 

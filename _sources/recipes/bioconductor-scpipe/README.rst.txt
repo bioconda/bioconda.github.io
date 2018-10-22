@@ -9,7 +9,7 @@ to process single cell RNA\-seq data from fastq to gene counting matrix. it can 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/scPipe.html
-Versions      1.0.0
+Versions      1.0.0, 1.2.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scpipe
 
