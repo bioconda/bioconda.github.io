@@ -9,7 +9,7 @@ This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/epivizr.html
-Versions      2.8.0
+Versions      2.10.0, 2.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizr
 

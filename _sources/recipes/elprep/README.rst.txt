@@ -5,12 +5,12 @@ elprep
 
 |downloads|
 
-elPrep\: a high\-performance tool for preparing sequence alignment\/map files in sequencing pipelines.
+elPrep is a high\-performance tool for preparing .sam\/.bam files for variant calling in sequencing pipelines. It can be used as a drop\-in replacement for SAMtools\/Picard\/GATK4\, and was extensively tested with different pipelines for variant analysis with GATK. The key advantage of elPrep is that it only performs a single\-pass to process a .sam\/.bam file\, independent of the number of processing steps that need to be applied in a particular pipeline\, greatly improving runtime performance.
 
 ============= ===========
 Home          https://github.com/ExaScience/elprep
-Versions      3.04
-License       BSD 3
+Versions      3.04, 4.0.0
+License       GNU AFFERO GENERAL PUBLIC LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elprep
 
 

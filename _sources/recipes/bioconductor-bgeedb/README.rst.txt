@@ -9,7 +9,7 @@ A package for the annotation and gene expression data download from Bgee databas
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BgeeDB.html
-Versions      2.2.0, 2.4.0
+Versions      2.2.0, 2.4.0, 2.6.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgeedb
 

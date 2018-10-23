@@ -9,7 +9,7 @@ These recipes convert a wide variety and a growing number of public bioinformati
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AnnotationHubData.html
-Versions      1.8.0
+Versions      1.10.3, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationhubdata
 
