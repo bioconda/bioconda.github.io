@@ -9,7 +9,7 @@ Explore\, diagnose\, and compare variant calls using filters.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/VariantTools.html
-Versions      1.18.1, 1.20.0
+Versions      1.18.1, 1.20.0, 1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-varianttools
 

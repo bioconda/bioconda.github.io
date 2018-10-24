@@ -9,7 +9,7 @@ Raw data objects for the Illumina 450k DNA methylation microarrays\, and an obje
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/data/experiment/html/FlowSorted.Blood.450k.html
-Versions      1.16.0
+Versions      1.16.0, 1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.450k
 

@@ -5,12 +5,12 @@ fred2
 
 |downloads|
 
-Python package with helper tools for the nf\-core community.
+Python\-based framework for computational immunomics.
 
 ============= ===========
-Home          http://nf-co.re/
-Versions      
-License       MIT
+Home          https://fred-2.github.io
+Versions      2.0.2
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fred2
 
 

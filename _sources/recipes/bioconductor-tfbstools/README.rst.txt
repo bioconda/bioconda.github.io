@@ -9,7 +9,7 @@ TFBSTools is a package for the analysis and manipulation of transcription factor
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TFBSTools.html
-Versions      1.12.2, 1.14.2, 1.15.7, 1.16.0
+Versions      1.12.2, 1.14.2, 1.15.7, 1.16.0, 1.18.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tfbstools
 

@@ -9,7 +9,7 @@ Second version of RareVariantVis package aims to provide comprehensive informati
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RareVariantVis.html
-Versions      2.6.0
+Versions      2.6.0, 2.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rarevariantvis
 

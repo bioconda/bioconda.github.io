@@ -9,7 +9,7 @@ Wtdbg2\: A fuzzy Bruijn graph approach to long noisy reads assembly
 
 ============= ===========
 Home          https://github.com/ruanjue/wtdbg2
-Versions      1.2.8.1, 2.0
+Versions      1.2.8.1, 2.0, 2.1
 License       GPL-3.0+
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtdbg
 

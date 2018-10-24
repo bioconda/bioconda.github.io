@@ -9,7 +9,7 @@ Identifies cancer cell lines with their small variant fingerprint. Cancer cell l
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/Uniquorn.html
-Versions      1.6.0
+Versions      1.6.0, 2.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniquorn
 
