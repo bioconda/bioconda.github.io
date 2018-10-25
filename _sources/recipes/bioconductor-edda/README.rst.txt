@@ -9,7 +9,7 @@ EDDA can aid in the design of a range of common experiments such as RNA\-seq\, N
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/EDDA.html
-Versions      1.16.0
+Versions      1.16.0, 1.18.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edda
 

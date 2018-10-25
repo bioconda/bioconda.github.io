@@ -9,7 +9,7 @@ The purpose of this package is to perform Statistical Microbiome Analysis on met
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PathoStat.html
-Versions      1.4.1
+Versions      1.4.1, 1.6.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathostat
 

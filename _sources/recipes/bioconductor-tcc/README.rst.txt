@@ -9,7 +9,7 @@ This package provides a series of functions for performing differential expressi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TCC.html
-Versions      1.18.0
+Versions      1.18.0, 1.20.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcc
 

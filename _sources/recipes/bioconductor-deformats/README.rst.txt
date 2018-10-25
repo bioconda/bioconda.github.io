@@ -9,7 +9,7 @@ Convert between different data formats used by differential gene expression anal
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DEFormats.html
-Versions      1.6.1
+Versions      1.6.1, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deformats
 

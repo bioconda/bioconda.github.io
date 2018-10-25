@@ -9,7 +9,7 @@ The global test tests groups of covariates \(or features\) for association with 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/globaltest.html
-Versions      5.30.0, 5.32.0
+Versions      5.30.0, 5.32.0, 5.34.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globaltest
 

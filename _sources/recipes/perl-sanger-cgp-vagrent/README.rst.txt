@@ -9,7 +9,7 @@ A toolset for comparing genomic variants to reference genome annotation to ident
 
 ============= ===========
 Home          https://github.com/cancerit/VAGrENT
-Versions      3.2.0
+Versions      3.2.0, 3.3.3
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sanger-cgp-vagrent
 

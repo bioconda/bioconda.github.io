@@ -9,7 +9,7 @@ Sequencing and microarray samples often are collected or processed in multiple b
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BatchQC.html
-Versions      1.6.1
+Versions      1.6.1, 1.8.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-batchqc
 

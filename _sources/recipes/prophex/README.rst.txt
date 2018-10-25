@@ -9,7 +9,7 @@ The ProPhex k\-mer index.
 
 ============= ===========
 Home          https://github.com/prophyle/prophex
-Versions      0.1.0
+Versions      0.1.0, 0.1.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophex
 

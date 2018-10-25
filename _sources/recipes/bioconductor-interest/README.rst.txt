@@ -9,7 +9,7 @@ IntEREst \(Intron\-Exon Retention Estimator\) \- This package performs Intron\-E
 
 ============= ===========
 Home          https://bioconductor.org/packages/release/bioc/html/IntEREst.html
-Versions      1.2.2
+Versions      1.2.2, 1.4.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest
 

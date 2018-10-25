@@ -9,7 +9,7 @@ This package applies several machine learning methods\, including SVM\, bagSVM\,
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MLSeq.html
-Versions      1.18.0
+Versions      1.18.0, 1.20.3
 License       GPL(>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlseq
 

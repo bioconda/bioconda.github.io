@@ -9,7 +9,7 @@ Get paths for fast5 files contained in BAM\, SAM\, or fastq.
 
 ============= ===========
 Home          https://github.com/mbhall88/fast5seek
-Versions      0.1.0
+Versions      0.1.0, 0.1.1
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast5seek
 
