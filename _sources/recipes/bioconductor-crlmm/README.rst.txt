@@ -9,7 +9,7 @@ Faster implementation of CRLMM specific to SNP 5.0 and 6.0 arrays\, as well as a
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/crlmm.html
-Versions      1.36.0
+Versions      1.36.0, 1.38.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crlmm
 

@@ -9,7 +9,7 @@ BamStats is a package that contains tools to generate stats from a BAM file\, me
 
 ============= ===========
 Home          https://github.com/biopet/bamstats
-Versions      1.0
+Versions      1.0, 1.0.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-bamstats
 

@@ -9,7 +9,7 @@ This package contains functions for reading raw data in ImaGene TXT format obtai
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ExiMiR.html
-Versions      2.20.0
+Versions      2.20.0, 2.22.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-eximir
 

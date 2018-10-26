@@ -9,7 +9,7 @@ The tigre package implements our methodology of Gaussian process differential eq
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/tigre.html
-Versions      1.30.0, 1.32.0
+Versions      1.30.0, 1.32.0, 1.34.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tigre
 

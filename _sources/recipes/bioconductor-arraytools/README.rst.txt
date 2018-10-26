@@ -9,7 +9,7 @@ This package is designed to provide solutions for quality assessment and to dete
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ArrayTools.html
-Versions      1.36.0, 1.38.0
+Versions      1.36.0, 1.38.0, 1.40.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arraytools
 

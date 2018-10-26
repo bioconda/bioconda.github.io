@@ -9,7 +9,7 @@ The GSRI package estimates the number of differentially expressed genes in gene 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/GSRI.html
-Versions      2.26.0
+Versions      2.26.0, 2.28.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsri
 

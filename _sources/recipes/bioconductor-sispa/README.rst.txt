@@ -9,7 +9,7 @@ Sample Integrated Set Profile Analysis \(SISPA\) is a method designed to define 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SISPA.html
-Versions      1.6.0, 1.8.0
+Versions      1.10.0, 1.6.0, 1.8.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sispa
 

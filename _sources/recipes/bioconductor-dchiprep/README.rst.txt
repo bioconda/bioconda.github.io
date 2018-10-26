@@ -9,7 +9,7 @@ The DChIPRep package implements a methodology to assess differences between chro
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DChIPRep.html
-Versions      1.8.0
+Versions      1.10.0, 1.8.0
 License       MIT + file LICENCE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dchiprep
 

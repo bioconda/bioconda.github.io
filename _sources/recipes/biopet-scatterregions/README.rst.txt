@@ -9,7 +9,7 @@ This tool breaks a reference or bed file into smaller scatter regions of equal s
 
 ============= ===========
 Home          https://github.com/biopet/scatterregions
-Versions      0.1
+Versions      0.1, 0.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-scatterregions
 
@@ -20,6 +20,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/b
 This tool breaks a reference or bed file into smaller scatter regions of equal size. This can be used for processing inside a pipeline.
 
 For documentation and manuals visit our github.io page\: https\:\/\/biopet.github.io\/scatterregions
+
 
 Installation
 ------------
@@ -37,7 +38,13 @@ and update with::
 
 Notes
 -----
-biopet\-scatterregions is a Java program that comes with a custom wrapper shell script. By default \'no default java option\' is set in the wrapper. The command that runs the program is \'biopet\-scatterregions\'. If you want to overwrite it you can specify memory options directly after your binaries. If you have \_JAVA\_OPTIONS set globally this will take precedence. For example run it with \'biopet\-scatterregions \-Xms512m \-Xmx1g\'. 
+biopet\-scatterregions is a Java program that comes with a custom wrapper shell script.
+By default \'no default java option\' is set in the wrapper.
+The command that runs the program is \'biopet\-scatterregions\'.
+If you want to overwrite it you can specify memory options directly after your binaries.
+If you have \_JAVA\_OPTIONS set globally this will take precedence.
+For example run it with \'biopet\-scatterregions \-Xms512m \-Xmx1g\'.
+
 
 
 |docker|

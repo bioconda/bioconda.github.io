@@ -9,7 +9,7 @@ Builds platform design information packages. These consist of a SQLite database 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pdInfoBuilder.html
-Versions      1.42.0
+Versions      1.42.0, 1.44.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pdinfobuilder
 

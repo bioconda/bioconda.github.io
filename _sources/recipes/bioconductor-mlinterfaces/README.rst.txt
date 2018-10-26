@@ -9,7 +9,7 @@ This package provides uniform interfaces to machine learning code for data in R 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MLInterfaces.html
-Versions      1.58.0
+Versions      1.58.0, 1.60.1
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mlinterfaces
 

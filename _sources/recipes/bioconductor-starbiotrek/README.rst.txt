@@ -9,7 +9,7 @@ This tool StarBioTrek presents some methodologies to measure pathway activity an
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/StarBioTrek.html
-Versions      1.4.0
+Versions      1.4.0, 1.6.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starbiotrek
 

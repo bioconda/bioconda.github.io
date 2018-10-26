@@ -9,7 +9,7 @@ R\/GSEPD is a bioinformatics package for R to help disambiguate transcriptome sa
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rgsepd.html
-Versions      1.10.0, 1.8.0
+Versions      1.10.0, 1.12.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd
 

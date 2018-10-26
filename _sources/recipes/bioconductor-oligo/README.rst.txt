@@ -9,7 +9,7 @@ A package to analyze oligonucleotide arrays \(expression\/SNP\/tiling\/exon\) at
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/oligo.html
-Versions      1.40.1, 1.40.2, 1.42.0
+Versions      1.40.1, 1.40.2, 1.42.0, 1.44.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oligo
 

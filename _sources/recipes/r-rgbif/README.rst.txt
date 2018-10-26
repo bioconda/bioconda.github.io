@@ -15,7 +15,7 @@ records.
 
 ============= ===========
 Home          https://github.com/ropensci/rgbif
-Versions      0.9.9, 1.0.2
+Versions      0.9.9, 1.0.2, 1.1.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rgbif
 

@@ -9,7 +9,7 @@ The aim of TCGAbiolinks is \: i\) facilitate the GDC open\-access data retrieval
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/TCGAbiolinks.html
-Versions      2.6.11
+Versions      2.6.11, 2.8.4
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgabiolinks
 

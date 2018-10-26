@@ -9,7 +9,7 @@ Inferring differential expression genes by absolute counts difference between tw
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ABSSeq.html
-Versions      1.22.8, 1.32.0
+Versions      1.22.8, 1.32.0, 1.34.1
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-absseq
 

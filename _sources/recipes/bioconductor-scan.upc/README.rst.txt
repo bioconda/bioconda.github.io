@@ -9,7 +9,7 @@ SCAN is a microarray normalization method to facilitate personalized\-medicine w
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SCAN.UPC.html
-Versions      2.18.0, 2.20.0
+Versions      2.18.0, 2.20.0, 2.22.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scan.upc
 

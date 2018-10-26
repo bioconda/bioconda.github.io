@@ -9,7 +9,7 @@ The package contains the function for filtering genes by the proportion of varia
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/pvac.html
-Versions      1.24.0, 1.26.0
+Versions      1.24.0, 1.26.0, 1.28.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvac
 

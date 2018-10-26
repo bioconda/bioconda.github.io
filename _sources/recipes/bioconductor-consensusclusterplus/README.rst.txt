@@ -9,7 +9,7 @@ algorithm for determining cluster count and membership by stability evidence in 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ConsensusClusterPlus.html
-Versions      1.40.0, 1.42.0
+Versions      1.40.0, 1.42.0, 1.44.0
 License       GPL version 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusclusterplus
 
