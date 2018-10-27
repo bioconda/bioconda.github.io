@@ -9,7 +9,7 @@ Canu is a fork of the Celera Assembler designed for high\-noise single\-molecule
 
 ============= ===========
 Home          http://canu.readthedocs.org/
-Versions      1.1, 1.3, 1.4, 1.5, 1.6, 1.7, 1.7.1
+Versions      1.1, 1.3, 1.4, 1.5, 1.6, 1.7, 1.7.1, 1.8
 License       GPLv2 and others
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canu
 

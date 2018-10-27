@@ -9,7 +9,7 @@ The SomaticSignatures package identifies mutational signatures of single nucleot
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SomaticSignatures.html
-Versions      2.12.1, 2.14.0
+Versions      2.12.1, 2.14.0, 2.16.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-somaticsignatures
 

@@ -9,7 +9,7 @@ Queries\, data structure and interface to visualization of interaction datasets.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RpsiXML.html
-Versions      2.20.0
+Versions      2.20.0, 2.22.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpsixml
 

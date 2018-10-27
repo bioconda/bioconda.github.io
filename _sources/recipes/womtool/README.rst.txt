@@ -9,7 +9,7 @@ Command line utilities for interacting with WDL
 
 ============= ===========
 Home          https://cromwell.readthedocs.io/en/develop/WOMtool/
-Versions      31
+Versions      31, 36
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/womtool
 

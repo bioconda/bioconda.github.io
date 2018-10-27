@@ -9,7 +9,7 @@ This library contains functions that calculate various statistics of differentia
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DEDS.html
-Versions      1.52.0
+Versions      1.52.0, 1.54.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deds
 

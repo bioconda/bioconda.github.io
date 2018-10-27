@@ -9,7 +9,7 @@ structural variant database software
 
 ============= ===========
 Home          https://github.com/J35P312/SVDB
-Versions      1.0.7, 1.1.2
+Versions      1.0.7, 1.1.2, 1.3.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svdb
 

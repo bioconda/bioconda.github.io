@@ -9,7 +9,7 @@ ChIPXpress takes as input predicted TF bound genes from ChIPx data and uses a co
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ChIPXpress.html
-Versions      1.22.0
+Versions      1.22.0, 1.24.0
 License       GPL(>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress
 

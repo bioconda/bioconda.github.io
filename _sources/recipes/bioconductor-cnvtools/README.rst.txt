@@ -9,7 +9,7 @@ This package is meant to facilitate the testing of Copy Number Variant data for 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/CNVtools.html
-Versions      1.72.0
+Versions      1.72.0, 1.74.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvtools
 

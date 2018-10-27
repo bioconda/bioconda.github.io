@@ -9,7 +9,7 @@ High throughput analysis of T cell antigen receptor sequences The genes encoding
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/clonotypeR.html
-Versions      1.16.0
+Versions      1.16.0, 1.18.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clonotyper
 

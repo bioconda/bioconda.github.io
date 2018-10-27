@@ -9,7 +9,7 @@ Provides gene signature quality control metrics in publication ready plots. Name
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=sigQC
-Versions      0.1.14
+Versions      0.1.14, 0.1.21
 License       free for non-commercial users. Non-academic users MUST have requested from the author
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sigQC
 

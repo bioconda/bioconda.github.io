@@ -9,7 +9,7 @@ NanoSim is a fast and scalable read simulator that captures the technology\-spec
 
 ============= ===========
 Home          https://github.com/bcgsc/NanoSim
-Versions      2.0.0, v1.0.1, v1.2.0, v1.3.0
+Versions      2.0.0, 2.1.0, v1.0.1, v1.2.0, v1.3.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanosim
 

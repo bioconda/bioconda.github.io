@@ -9,7 +9,7 @@ Starting with a BAM file\, this package provides the necessary functions for qua
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RiboProfiling.html
-Versions      1.6.0, 1.7.1
+Versions      1.10.0, 1.6.0, 1.7.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboprofiling
 

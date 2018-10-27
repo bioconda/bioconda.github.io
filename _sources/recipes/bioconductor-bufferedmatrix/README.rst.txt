@@ -9,7 +9,7 @@ A tabular style data object where most data is stored outside main memory. A buf
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/BufferedMatrix.html
-Versions      1.42.0
+Versions      1.42.0, 1.44.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix
 

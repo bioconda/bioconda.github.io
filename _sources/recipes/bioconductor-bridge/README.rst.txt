@@ -9,7 +9,7 @@ Test for differentially expressed genes with microarray data. This package can b
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/bridge.html
-Versions      1.42.0
+Versions      1.42.0, 1.44.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge
 
