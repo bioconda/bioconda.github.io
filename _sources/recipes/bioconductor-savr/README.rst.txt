@@ -9,7 +9,7 @@ Parse Illumina Sequence Analysis Viewer \(SAV\) files\, access data\, and genera
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/savR.html
-Versions      1.14.0, 1.16.0
+Versions      1.14.0, 1.16.0, 1.18.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-savr
 

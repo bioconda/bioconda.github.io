@@ -5,7 +5,7 @@ estmapper
 
 |downloads|
 
-software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species
+Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\) sequence sets to a large eukaryotic genome of the same species.
 
 ============= ===========
 Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper

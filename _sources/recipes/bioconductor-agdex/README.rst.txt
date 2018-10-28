@@ -9,7 +9,7 @@ A tool to evaluate agreement of differential expression for cross\-species genom
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/AGDEX.html
-Versions      1.24.0, 1.26.0
+Versions      1.24.0, 1.26.0, 1.28.0
 License       GPL Version 2 or later
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agdex
 

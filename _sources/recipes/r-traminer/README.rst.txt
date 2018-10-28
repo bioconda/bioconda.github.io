@@ -9,7 +9,7 @@ Toolbox for the manipulation\, description and rendering of sequences\, and more
 
 ============= ===========
 Home          https://cran.r-project.org/web/packages/TraMineR
-Versions      2.0_8
+Versions      2.0_8, 2.0_9
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-traminer
 

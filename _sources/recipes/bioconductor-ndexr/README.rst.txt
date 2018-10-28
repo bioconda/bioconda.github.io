@@ -9,7 +9,7 @@ This package offers an interface to NDEx servers\, e.g. the public server at htt
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ndexr.html
-Versions      1.0.0
+Versions      1.0.0, 1.2.0
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr
 

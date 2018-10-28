@@ -9,7 +9,7 @@ MBttest method was developed from beta t\-test method of Baggerly et al\(2003\).
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/MBttest.html
-Versions      1.4.0, 1.5.0
+Versions      1.4.0, 1.5.0, 1.8.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mbttest
 

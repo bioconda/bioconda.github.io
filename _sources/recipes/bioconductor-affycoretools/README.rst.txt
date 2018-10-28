@@ -9,7 +9,7 @@ Various wrapper functions that have been written to streamline the more common a
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/affycoretools.html
-Versions      1.50.6
+Versions      1.50.6, 1.52.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools
 

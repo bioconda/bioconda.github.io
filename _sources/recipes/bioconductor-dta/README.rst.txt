@@ -9,7 +9,7 @@ Dynamic Transcriptome Analysis \(DTA\) can monitor the cellular response to pert
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/DTA.html
-Versions      2.24.0
+Versions      2.24.0, 2.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dta
 

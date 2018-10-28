@@ -9,7 +9,7 @@ A classification algorithm\, based on a multi\-chip\, multi\-SNP approach for Af
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/RLMM.html
-Versions      1.38.0, 1.40.0
+Versions      1.38.0, 1.40.0, 1.42.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rlmm
 

@@ -9,7 +9,7 @@ A collection of functions for computations and visualizations of microbial pan\-
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=micropan
-Versions      1.1.2
+Versions      1.1.2, 1.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-micropan
 

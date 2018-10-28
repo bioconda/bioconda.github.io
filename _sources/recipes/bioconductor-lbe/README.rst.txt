@@ -9,7 +9,7 @@ LBE is an efficient procedure for estimating the proportion of true null hypothe
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/LBE.html
-Versions      1.46.0
+Versions      1.46.0, 1.48.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lbe
 

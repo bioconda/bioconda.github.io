@@ -9,7 +9,7 @@ Provides taxonomic classes for groupings of taxonomic names without data\, and t
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=taxa
-Versions      0.2.1
+Versions      0.2.1, 0.3.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxa
 

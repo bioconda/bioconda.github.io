@@ -9,7 +9,7 @@ Testing SNPs and SNP interactions with a genotypic TDT. This package furthermore
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/trio.html
-Versions      3.14.0, 3.16.0
+Versions      3.14.0, 3.16.0, 3.18.0
 License       LGPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trio
 

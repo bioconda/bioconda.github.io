@@ -9,7 +9,7 @@ Geneplast is designed for evolutionary and plasticity analysis based on ortholog
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/geneplast.html
-Versions      1.4.0
+Versions      1.4.0, 1.6.2
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplast
 

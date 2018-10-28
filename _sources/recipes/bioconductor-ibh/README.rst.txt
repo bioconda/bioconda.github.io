@@ -9,7 +9,7 @@ This package contains methods for calculating Interaction Based Homogeneity to e
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/ibh.html
-Versions      1.26.0
+Versions      1.26.0, 1.28.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ibh
 

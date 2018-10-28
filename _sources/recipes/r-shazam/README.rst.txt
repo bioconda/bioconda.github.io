@@ -9,7 +9,7 @@ Provides a computational framework for Bayesian estimation of antigen\-driven se
 
 ============= ===========
 Home          http
-Versions      0.1.9
+Versions      0.1.10, 0.1.9
 License       CC BY-SA 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shazam
 

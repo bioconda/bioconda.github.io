@@ -9,7 +9,7 @@ This package provides methods for measuring the strength of association between 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/SANTA.html
-Versions      2.14.0, 2.16.0
+Versions      2.14.0, 2.16.0, 2.18.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-santa
 
