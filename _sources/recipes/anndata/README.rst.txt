@@ -9,7 +9,7 @@ An annotated data matrix.
 
 ============= ===========
 Home          https://github.com/theislab/anndata
-Versions      0.6.10, 0.6.4, 0.6.5, 0.6.6, 0.6.8, 0.6.9
+Versions      0.6.10, 0.6.11, 0.6.4, 0.6.5, 0.6.6, 0.6.8, 0.6.9
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anndata
 

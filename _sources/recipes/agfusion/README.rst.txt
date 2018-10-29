@@ -9,7 +9,7 @@ Python package to annotate and visualize gene fusions.
 
 ============= ===========
 Home          https://github.com/murphycj/AGFusion
-Versions      1.0, 1.2
+Versions      1.0, 1.2, 1.23
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agfusion
 

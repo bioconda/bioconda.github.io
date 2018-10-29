@@ -9,7 +9,7 @@ This package is an R version of the package MAT and contains functions to parse 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/rMAT.html
-Versions      3.26.0, 3.28.0
+Versions      3.26.0, 3.28.0, 3.30.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmat
 

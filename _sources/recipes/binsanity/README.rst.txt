@@ -9,7 +9,7 @@ Method to cluster contigs based a biphasic method with coverage and composition
 
 ============= ===========
 Home          https://github.com/edgraham/BinSanity
-Versions      0.2.6.1, 0.2.6.3
+Versions      0.2.6.1, 0.2.6.3, 0.2.7.1
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/binsanity
 

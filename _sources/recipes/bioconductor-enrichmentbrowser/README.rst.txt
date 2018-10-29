@@ -9,7 +9,7 @@ The EnrichmentBrowser package implements essential functionality for the enrichm
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/EnrichmentBrowser.html
-Versions      
+Versions      2.10.11
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichmentbrowser
 

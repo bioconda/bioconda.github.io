@@ -9,7 +9,7 @@ This package estimates tumor purity\, copy number\, and loss of heterozygosity \
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.6/bioc/html/PureCN.html
-Versions      1.11.13, 1.6.3, 1.8.0
+Versions      1.11.13, 1.11.20, 1.6.3, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-purecn
 
