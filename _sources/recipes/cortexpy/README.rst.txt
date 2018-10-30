@@ -9,7 +9,7 @@ A Python API for manipulating \(Mc\)Cortex de novo assembly graph and link data
 
 ============= ===========
 Home          https://github.com/winni2k/cortexpy
-Versions      0.41.1, 0.44.0
+Versions      0.41.1, 0.44.0, 0.45.6
 License       Apache Software
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortexpy
 

@@ -9,7 +9,7 @@ Python Data Validation for Humans.
 
 ============= ===========
 Home          https://github.com/kvesteri/validators
-Versions      0.10, 0.12.1
+Versions      0.10, 0.12.1, 0.12.2
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/validators
 

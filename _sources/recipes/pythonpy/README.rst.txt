@@ -9,7 +9,7 @@ the swiss army knife of the command line
 
 ============= ===========
 Home          https://github.com/Russell91/pythonpy
-Versions      0.4.2
+Versions      0.4.11, 0.4.2
 License       Unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonpy
 
