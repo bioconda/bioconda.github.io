@@ -8,7 +8,7 @@ bioconductor-genega
 R based Genetic algorithm for gene expression optimization by considering both mRNA secondary structure and codon usage bias\, GeneGA includes the information of highly expressed genes of almost 200 genomes. Meanwhile\, Vienna RNA Package is needed to ensure GeneGA to function properly.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GeneGA.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GeneGA.html
 Versions      1.28.0, 1.30.0
 License       GPL version 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega

@@ -8,7 +8,7 @@ bioconductor-wiggleplotr
 Tools to visualise read coverage from sequencing experiments together with genomic annotations \(genes\, transcripts\, peaks\). Introns of long transcripts can be rescaled to a fixed length for better visualisation of exonic read coverage.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/wiggleplotr.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/wiggleplotr.html
 Versions      1.0.0, 1.2.0, 1.4.0
 License       Apache License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wiggleplotr

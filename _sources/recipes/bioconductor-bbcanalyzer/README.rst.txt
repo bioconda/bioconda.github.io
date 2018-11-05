@@ -8,7 +8,7 @@ bioconductor-bbcanalyzer
 BBCAnalyzer is a package for visualizing the relative or absolute number of bases\, deletions and insertions at defined positions in sequence alignment data available as bam files in comparison to the reference bases. Markers for the relative base frequencies\, the mean quality of the detected bases\, known mutations or polymorphisms and variants called in the data may additionally be included in the plots.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/BBCAnalyzer.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/BBCAnalyzer.html
 Versions      1.10.0, 1.6.0, 1.8.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bbcanalyzer

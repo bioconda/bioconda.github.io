@@ -8,7 +8,7 @@ bioconductor-agilp
 More about what it does \(maybe more than one line\)
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/agilp.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/agilp.html
 Versions      3.10.0, 3.12.0, 3.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp

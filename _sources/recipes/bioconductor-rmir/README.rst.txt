@@ -8,7 +8,7 @@ bioconductor-rmir
 Useful functions  to merge microRNA and respective targets using differents databases
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RmiR.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RmiR.html
 Versions      1.34.0, 1.36.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir

@@ -8,7 +8,7 @@ bioconductor-watermelon
 15 flavours of betas and three performance metrics\, with methods for objects produced by methylumi and minfi packages.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/wateRmelon.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/wateRmelon.html
 Versions      1.22.0, 1.24.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-watermelon

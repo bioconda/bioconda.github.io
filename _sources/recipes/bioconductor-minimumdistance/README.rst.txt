@@ -8,7 +8,7 @@ bioconductor-minimumdistance
 Analysis of de novo copy number variants in trios from high\-dimensional genotyping platforms.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/MinimumDistance.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/MinimumDistance.html
 Versions      1.22.0, 1.24.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-minimumdistance

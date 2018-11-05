@@ -8,7 +8,7 @@ bioconductor-metcirc
 MetCirc comprises a workflow to interactively explore high\-resolution MS\/MS metabolomics data\: create an MSP object\, a format for MS\/MS library data\, bin m\/z values of precursors\, calculate similarity between precursors based on the normalised dot product and visualise similarities in a circular layout. Within the interactive framework the user can annotate MS\/MS features based on their similarity to \(known\) related MS\/MS features.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/MetCirc.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/MetCirc.html
 Versions      1.10.0, 1.2.0, 1.6.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc

@@ -8,7 +8,7 @@ bioconductor-ebimage
 EBImage provides general purpose functionality for image processing and analysis. In the context of \(high\-throughput\) microscopy\-based cellular assays\, EBImage offers tools to segment cells and extract quantitative cellular descriptors. This allows the automation of such tasks using the R programming language and facilitates the use of other tools in the R environment for signal processing\, statistical modeling\, machine learning and visualization with image data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/EBImage.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/EBImage.html
 Versions      4.12.2, 4.13.0, 4.18.3, 4.20.0, 4.22.1
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ebimage

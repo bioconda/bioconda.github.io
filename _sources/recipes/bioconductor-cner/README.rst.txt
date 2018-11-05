@@ -8,7 +8,7 @@ bioconductor-cner
 Large\-scale identification and advanced visualization of sets of conserved noncoding elements.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/CNEr.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/CNEr.html
 Versions      1.10.2, 1.12.1, 1.14.0, 1.16.1
 License       GPL-2 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner

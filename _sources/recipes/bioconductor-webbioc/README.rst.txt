@@ -8,7 +8,7 @@ bioconductor-webbioc
 An integrated web interface for doing microarray analysis using several of the Bioconductor packages. It is intended to be deployed as a centralized bioinformatics resource for use by many users. \(Currently only Affymetrix oligonucleotide analysis is supported.\)
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/webbioc.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/webbioc.html
 Versions      1.50.0, 1.52.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-webbioc

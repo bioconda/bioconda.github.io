@@ -5,7 +5,7 @@ r-pma
 
 |downloads|
 
-Performs Penalized Multivariate Analysis
+Performs Penalized Multivariate Analysis\: a penalized matrix decomposition\, sparse principal components analysis\, and sparse canonical correlation analysis\, described in the following papers\: \(1\) Witten\, Tibshirani and Hastie \(2009\) A penalized matrix decomposition\, with applications to sparse principal components and canonical correlation analysis. Biostatistics 10\(3\)\:515\-534. \(2\) Witten and Tibshirani \(2009\) Extensions of sparse canonical correlation analysis\, with applications to genomic data. Statistical Applications in Genetics and Molecular Biology 8\(1\)\: Article 28.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=PMA

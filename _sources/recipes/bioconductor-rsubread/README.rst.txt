@@ -5,10 +5,10 @@ bioconductor-rsubread
 
 |downloads|
 
-Provides powerful and easy\-to\-use tools for analyzing next\-gen sequencing read data. Includes quality assessment of sequence reads\, read alignment\, read summarization\, exon\-exon junction detection\, fusion detection\, detection of short and long indels\, absolute expression calling and SNP calling. Can be used with reads generated from any of the major sequencing platforms including Illumina GA\/HiSeq\/MiSeq\, Roche GS\-FLX\, ABI SOLiD and LifeTech Ion PGM\/Proton sequencers.
+Rsubread is a toolbox developed for the analyses of second and third generation sequencing data. It can be used for read mapping\, read counting\, SNP calling\, structural variant detection and gene fusion discovery. It can be applied to all major sequencing techologies and it is suitable for the analysis of both short and long reads.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/Rsubread.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/Rsubread.html
 Versions      1.22.1, 1.23.0, 1.25.2, 1.26.1, 1.28.0, 1.28.1, 1.30.9
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread

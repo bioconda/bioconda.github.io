@@ -8,7 +8,7 @@ bioconductor-linc
 This package provides methods to compute co\-expression networks of lincRNAs and protein\-coding genes. Biological terms associated with the sets of protein\-coding genes predict the biological contexts of lincRNAs according to the \'Guilty by Association\' approach.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/LINC.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/LINC.html
 Versions      1.6.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linc

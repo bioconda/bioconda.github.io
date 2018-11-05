@@ -8,7 +8,7 @@ bioconductor-sc3
 A tool for unsupervised clustering and analysis of single cell RNA\-Seq data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/SC3.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/SC3.html
 Versions      1.7.6, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3

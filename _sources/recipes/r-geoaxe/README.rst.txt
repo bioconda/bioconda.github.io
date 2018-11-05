@@ -10,7 +10,7 @@ Split \'geospatial\' objects into pieces. Includes support for some spatial obje
 ============= ===========
 Home          https://github.com/ropenscilabs/geoaxe
 Versions      0.1.0
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-geoaxe
 
 

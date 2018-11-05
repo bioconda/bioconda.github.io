@@ -8,7 +8,7 @@ bioconductor-phastcons100way.ucsc.hg19
 Store UCSC phastCons conservation scores for the human genome \(hg19\) calculated from multiple alignments with other 99 vertebrate species.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/annotation/html/phastCons100way.UCSC.hg19.html
+Home          http://bioconductor.org/packages/3.7/data/annotation/html/phastCons100way.UCSC.hg19.html
 Versions      3.6.0, 3.7.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons100way.ucsc.hg19

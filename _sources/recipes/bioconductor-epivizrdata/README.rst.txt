@@ -8,7 +8,7 @@ bioconductor-epivizrdata
 Serve data from Bioconductor Objects through a WebSocket connection.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/epivizrData.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/epivizrData.html
 Versions      1.6.0, 1.8.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrdata

@@ -8,7 +8,7 @@ bioconductor-flowclean
 A quality control tool for flow cytometry data based on compositional data analysis.
 
 ============= ===========
-Home          https://bioconductor.org/packages/release/bioc/html/flowClean.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/flowClean.html
 Versions      1.16.0, 1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowclean

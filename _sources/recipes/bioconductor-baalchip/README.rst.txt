@@ -8,7 +8,7 @@ bioconductor-baalchip
 The package offers functions to process multiple ChIP\-seq BAM files and detect allele\-specific events. Computes allele counts at individual variants \(SNPs\/SNVs\)\, implements extensive QC steps to remove problematic variants\, and utilizes a bayesian framework to identify statistically significant allele\- specific events. BaalChIP is able to account for copy number differences between the two alleles\, a known phenotypical feature of cancer samples.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/BaalChIP.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/BaalChIP.html
 Versions      1.4.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-baalchip

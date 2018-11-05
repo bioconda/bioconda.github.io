@@ -8,7 +8,7 @@ bioconductor-ggbase
 infrastructure
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GGBase.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GGBase.html
 Versions      3.40.0, 3.42.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggbase

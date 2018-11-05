@@ -8,7 +8,7 @@ bioconductor-epigenomix
 A package for the integrative analysis of RNA\-seq or microarray based gene transcription and histone modification data obtained by ChIP\-seq. The package provides methods for data preprocessing and matching as well as methods for fitting bayesian mixture models in order to detect genes with differences in both data types.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/epigenomix.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/epigenomix.html
 Versions      1.18.0, 1.20.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix

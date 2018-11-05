@@ -8,7 +8,7 @@ bioconductor-rbcbook1
 tools for building book
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RbcBook1.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RbcBook1.html
 Versions      1.44.0, 1.46.0, 1.48.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbcbook1

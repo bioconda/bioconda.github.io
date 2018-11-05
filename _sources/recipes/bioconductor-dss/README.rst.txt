@@ -8,7 +8,7 @@ bioconductor-dss
 DSS is an R library performing differntial analysis for count\-based sequencing data. It detectes differentially expressed genes \(DEGs\) from RNA\-seq\, and differentially methylated loci or regions \(DML\/DMRs\) from bisulfite sequencing \(BS\-seq\). The core of DSS is a new dispersion shrinkage method for estimating the dispersion parameter from Gamma\-Poisson or Beta\-Binomial distributions.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/DSS.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/DSS.html
 Versions      2.26.0, 2.28.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss

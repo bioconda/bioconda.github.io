@@ -8,7 +8,7 @@ bioconductor-reportingtools
 The ReportingTools software package enables users to easily display reports of analysis results generated from sources such as microarray and sequencing data.  The package allows users to create HTML pages that may be viewed on a web browser such as Safari\, or in other formats readable by programs such as Excel.  Users can generate tables with sortable and filterable columns\, make and display plots\, and link table entries to other data sources such as NCBI or larger plots within the HTML page.  Using the package\, users can also produce a table of contents page to link various reports together for a particular project that can be viewed in a web browser.  For more examples\, please visit our site\: http\:\/\/ research\-pub.gene.com\/ReportingTools.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ReportingTools.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ReportingTools.html
 Versions      2.17.3, 2.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reportingtools

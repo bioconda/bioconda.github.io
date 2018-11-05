@@ -5,12 +5,12 @@ bioconductor-rcy3
 
 |downloads|
 
-Vizualize\, analyze and explore graphs\, connecting R to Cytoscape \(\>\= 3.3.0\).
+Vizualize\, analyze and explore networks using Cytoscape via R.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RCy3.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RCy3.html
 Versions      1.8.0, 2.0.88
-License       Artistic-2.0
+License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcy3
 
 

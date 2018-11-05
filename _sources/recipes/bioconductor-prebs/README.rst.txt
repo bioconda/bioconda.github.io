@@ -8,7 +8,7 @@ bioconductor-prebs
 The prebs package aims at making RNA\-sequencing \(RNA\-seq\) data more comparable to microarray data. The comparability is achieved by summarizing sequencing\-based expressions of probe regions using a modified version of RMA algorithm. The pipeline takes mapped reads in BAM format as an input and produces either gene expressions or original microarray probe set expressions as an output.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/prebs.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/prebs.html
 Versions      1.18.0, 1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebs

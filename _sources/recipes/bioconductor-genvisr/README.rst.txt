@@ -8,7 +8,7 @@ bioconductor-genvisr
 Produce highly customizable publication quality graphics for genomic data primarily at the cohort level.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GenVisR.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GenVisR.html
 Versions      1.12.1, 1.6.3, 1.8.0
 License       GPL-3 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genvisr

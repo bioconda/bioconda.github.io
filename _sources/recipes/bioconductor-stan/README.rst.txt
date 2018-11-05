@@ -8,7 +8,7 @@ bioconductor-stan
 Genome segmentation with hidden Markov models has become a useful tool to annotate genomic elements\, such as promoters and enhancers. STAN \(genomic STate ANnotation\) implements \(bidirectional\) hidden Markov models \(HMMs\) using a variety of different probability distributions\, which can model a wide range of current genomic data \(e.g. continuous\, discrete\, binary\). STAN de novo learns and annotates the genome into a given number of \'genomic states\'. The \'genomic states\' may for instance reflect distinct genome\-associated protein complexes \(e.g. \'transcription states\'\) or describe recurring patterns of chromatin features \(referred to as \'chromatin states\'\). Unlike other tools\, STAN also allows for the integration of strand\-specific \(e.g. RNA\)  and non\-strand\-specific data \(e.g. ChIP\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/STAN.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/STAN.html
 Versions      2.6.0, 2.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stan

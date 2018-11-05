@@ -8,7 +8,7 @@ bioconductor-mosaics
 This package provides functions for fitting MOSAiCS and MOSAiCS\-HMM\, a statistical framework to analyze one\-sample or two\-sample ChIP\-seq data of transcription factor binding and histone modification.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/mosaics.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/mosaics.html
 Versions      2.10.0, 2.14.0, 2.16.0, 2.18.0, 2.4.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics

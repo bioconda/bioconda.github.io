@@ -5,10 +5,10 @@ r-funrar
 
 |downloads|
 
-Computes functional rarity indices as proposed by Violle et al. \(2017\)
+Computes functional rarity indices as proposed by Violle et al. \(2017\) \<doi\:10.1016\/j.tree.2017.02.002\>. Various indices can be computed using both regional and local information. Functional Rarity combines both the functional aspect of rarity as well as the extent aspect of rarity. \'funrar\' is presented in Grenié et al. \(2017\) \<doi\:10.1111\/ddi.12629\>.
 
 ============= ===========
-Home          https
+Home          https://github.com/Rekyt/funrar
 Versions      1.2.2
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-funrar

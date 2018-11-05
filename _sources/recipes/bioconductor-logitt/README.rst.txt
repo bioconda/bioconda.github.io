@@ -8,7 +8,7 @@ bioconductor-logitt
 The logitT library implements the Logit\-t algorithm introduced in \-\-A high performance test of differential gene expression for oligonucleotide arrays\-\- by William J Lemon\, Sandya Liyanarachchi and Ming You for use with Affymetrix data stored in an AffyBatch object in R.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/logitT.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/logitT.html
 Versions      1.36.0, 1.38.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-logitt

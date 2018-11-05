@@ -8,7 +8,7 @@ bioconductor-geneoverlap
 Test two sets of gene lists and visualize the results.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GeneOverlap.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GeneOverlap.html
 Versions      1.14.0, 1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneoverlap

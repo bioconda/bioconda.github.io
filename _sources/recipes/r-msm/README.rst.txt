@@ -8,7 +8,7 @@ r-msm
 Functions for fitting continuous\-time Markov and hidden Markov multi\-state models to longitudinal data.  Designed for processes observed at arbitrary times in continuous time \(panel data\) but some other observation schemes are supported. Both Markov transition rates and the hidden Markov output process can be modelled in terms of covariates\, which may be constant or piecewise\-constant in time.
 
 ============= ===========
-Home          https
+Home          https://github.com/chjackson/msm
 Versions      1.6.6
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-msm

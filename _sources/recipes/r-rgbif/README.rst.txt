@@ -5,18 +5,12 @@ r-rgbif
 
 |downloads|
 
-A programmatic interface to the Web Service methods provided by the Global Biodiversity
-Information Facility \(\'GBIF\'\; \<https\:\/\/www.gbif.org\/developer\/summary\>\). \'GBIF\'
-is a database of species occurrence records from sources all over the globe. \'rgbif\'
-includes functions for searching for taxonomic names\, retrieving information on
-data providers\, getting species occurrence records\, and getting counts of occurrence
-records.
-
+A programmatic interface to the Web Service methods provided by the Global Biodiversity Information Facility \(\'GBIF\'\; \<https\:\/\/www.gbif.org\/developer\/summary\>\). \'GBIF\' is a database of species occurrence records from sources all over the globe. \'rgbif\' includes functions for searching for taxonomic names\, retrieving information on data providers\, getting species occurrence records\, getting counts of occurrence records\, and using the \'GBIF\'  tile map service to make \'rasters\' summarizing huge amounts of data.
 
 ============= ===========
-Home          https://github.com/ropensci/rgbif
+Home          https://github.com/ropensci/rgbif (devel) https://ropenscilabs.github.io/occurrence-manual/ (manual)
 Versions      0.9.9, 1.0.2, 1.1.0
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rgbif
 
 

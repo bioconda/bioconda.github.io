@@ -9,7 +9,7 @@ A set of wrappers for individual components of the scanpy package. Functions in 
 
 ============= ===========
 Home          https://github.com/ebi-gene-expression-group/scanpy-scripts
-Versions      0.0.2
+Versions      0.0.2, 0.0.3
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy-scripts
 

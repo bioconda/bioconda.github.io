@@ -8,7 +8,7 @@ bioconductor-qualifier
 Provides quality control and quality assessment tools for gated flow cytometry data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/QUALIFIER.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/QUALIFIER.html
 Versions      1.20.0, 1.22.0, 1.24.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qualifier

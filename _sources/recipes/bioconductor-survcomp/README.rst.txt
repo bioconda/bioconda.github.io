@@ -8,7 +8,7 @@ bioconductor-survcomp
 Assessment and Comparison for Performance of Risk Prediction \(Survival\) Models.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/survcomp.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/survcomp.html
 Versions      1.28.4, 1.30.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-survcomp

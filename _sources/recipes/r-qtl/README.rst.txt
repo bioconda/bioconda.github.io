@@ -8,7 +8,7 @@ r-qtl
 Analysis of experimental crosses to identify genes \(called quantitative trait loci\, QTLs\) contributing to variation in quantitative traits.
 
 ============= ===========
-Home          http://rqtl.org
+Home          https://rqtl.org, https://github.com/kbroman/qtl
 Versions      1.41_6
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl

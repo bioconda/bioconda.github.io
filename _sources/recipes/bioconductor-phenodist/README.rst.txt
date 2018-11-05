@@ -8,7 +8,7 @@ bioconductor-phenodist
 PhenoDist is designed for measuring phenotypic distance in image\-based high\-throughput screening\, in order to identify strong phenotypes and to group treatments into functional clusters.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/phenoDist.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/phenoDist.html
 Versions      1.26.0, 1.27.0
 License       LGPL-2.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phenodist

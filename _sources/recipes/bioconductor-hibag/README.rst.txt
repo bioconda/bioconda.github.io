@@ -8,7 +8,7 @@ bioconductor-hibag
 It is a software package for imputing HLA types using SNP data\, and relies on a training set of HLA and SNP genotypes. HIBAG can be used by researchers with published parameter estimates instead of requiring access to large training sample datasets. It combines the concepts of attribute bagging\, an ensemble classifier method\, with haplotype inference for SNPs and HLA types. Attribute bagging is a technique which improves the accuracy and stability of classifier ensembles using bootstrap aggregating and random variable selection.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/HIBAG.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/HIBAG.html
 Versions      1.14.0, 1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag

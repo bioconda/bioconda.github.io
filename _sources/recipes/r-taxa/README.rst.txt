@@ -8,9 +8,9 @@ r-taxa
 Provides taxonomic classes for groupings of taxonomic names without data\, and those with data. Methods provided are \"taxonomically aware\"\, in that they know about ordering of ranks\, and methods that filter based on taxonomy also filter associated data.
 
 ============= ===========
-Home          https://CRAN.R-project.org/package=taxa
+Home          https://github.com/ropensci/taxa
 Versions      0.2.1, 0.3.1
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-taxa
 
 

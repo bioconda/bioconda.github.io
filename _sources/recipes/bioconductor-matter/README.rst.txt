@@ -5,7 +5,7 @@ bioconductor-matter
 
 |downloads|
 
-Memory\-efficient reading\, writing\, and manipulation of structured binary data on disk as vectors\, matrices\, and arrays.
+Memory\-efficient reading\, writing\, and manipulation of structured binary data on disk as vectors\, matrices\, arrays\, lists\, and data frames.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/matter.html

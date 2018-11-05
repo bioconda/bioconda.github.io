@@ -8,7 +8,7 @@ bioconductor-chipxpressdata
 Contains pre\-built mouse \(GPL1261\) and human \(GPL570\) database of gene expression profiles to be used for ChIPXpress ranking.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/experiment/html/ChIPXpressData.html
+Home          http://bioconductor.org/packages/3.7/data/experiment/html/ChIPXpressData.html
 Versions      1.16.0, 1.18.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpressdata

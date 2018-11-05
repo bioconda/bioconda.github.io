@@ -8,7 +8,7 @@ bioconductor-rnits
 R\/Bioconductor package for normalization\, curve registration and inference in time course gene expression data
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/Rnits.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/Rnits.html
 Versions      1.10.0, 1.11.0, 1.12.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits

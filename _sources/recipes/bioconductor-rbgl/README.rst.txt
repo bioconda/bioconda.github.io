@@ -8,7 +8,7 @@ bioconductor-rbgl
 A fairly extensive and comprehensive interface to the graph algorithms contained in the BOOST library.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RBGL.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RBGL.html
 Versions      1.46.0, 1.48.1, 1.52.0, 1.54.0, 1.56.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl

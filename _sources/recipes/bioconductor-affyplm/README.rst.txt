@@ -8,7 +8,7 @@ bioconductor-affyplm
 A package that extends and improves the functionality of the base affy package. Routines that make heavy use of compiled code for speed. Central focus is on implementation of methods for fitting probe\-level models and tools using these models. PLM based quality assessment tools.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/affyPLM.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/affyPLM.html
 Versions      1.54.0, 1.56.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyplm

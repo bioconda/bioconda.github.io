@@ -8,7 +8,7 @@ bioconductor-ssize
 Functions for computing and displaying sample size information for gene expression arrays.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ssize.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ssize.html
 Versions      1.50.0, 1.52.0, 1.54.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ssize

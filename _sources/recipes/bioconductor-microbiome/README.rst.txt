@@ -8,7 +8,7 @@ bioconductor-microbiome
 Utilities for microbiome analysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/microbiome.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/microbiome.html
 Versions      1.0.2, 1.2.1
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microbiome

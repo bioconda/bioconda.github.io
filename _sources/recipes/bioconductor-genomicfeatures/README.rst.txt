@@ -8,7 +8,7 @@ bioconductor-genomicfeatures
 A set of tools and methods for making and manipulating transcript centric annotations. With these tools the user can easily download the genomic locations of the transcripts\, exons and cds of a given organism\, from either the UCSC Genome Browser or a BioMart database \(more sources will be supported in the future\). This information is then stored in a local database that keeps track of the relationship between transcripts\, exons\, cds and genes. Flexible methods are provided for extracting the desired features in a convenient format.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GenomicFeatures.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GenomicFeatures.html
 Versions      1.22.0, 1.22.13, 1.22.4, 1.22.6, 1.24.5, 1.26.0, 1.26.4, 1.28.5, 1.30.0, 1.30.3, 1.32.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicfeatures

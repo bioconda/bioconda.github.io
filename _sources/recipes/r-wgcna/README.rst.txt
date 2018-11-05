@@ -5,10 +5,10 @@ r-wgcna
 
 |downloads|
 
-Functions necessary to perform Weighted Correlation Network Analysis on high\-dimensional data. Includes functions for rudimentary data cleaning\, construction of correlation networks\, module identification\, summarization\, and relating of variables and modules to sample traits. Also includes a number of utility functions for data manipulation and visualization.
+Functions necessary to perform Weighted Correlation Network Analysis on high\-dimensional data as originally described in Horvath and Zhang \(2005\) \<doi\:10.2202\/1544\-6115.1128\> and Langfelder and Horvath \(2008\) \<doi\:10.1186\/1471\-2105\-9\-559\>. Includes functions for rudimentary data cleaning\, construction of correlation networks\, module identification\, summarization\, and relating of variables and modules to sample traits. Also includes a number of utility functions for data manipulation and visualization.
 
 ============= ===========
-Home          http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/Rpackages/WGCNA/
+Home          http://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/
 Versions      1.51, 1.61, 1.64_1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wgcna

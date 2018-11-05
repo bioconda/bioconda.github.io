@@ -8,7 +8,7 @@ r-precrec
 Accurate calculations and visualization of precision\-recall and ROC \(Receiver Operator Characteristics\) curves.
 
 ============= ===========
-Home          https://github.com/takayasaito/precrec
+Home          http://takayasaito.github.io/precrec, https://github.com/takayasaito/precrec
 Versions      0.9.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-precrec

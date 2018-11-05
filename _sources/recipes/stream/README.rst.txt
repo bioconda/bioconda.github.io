@@ -5,11 +5,11 @@ stream
 
 |downloads|
 
-Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data
+STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of single\-cell data http\:\/\/stream.pinellolab.org
 
 ============= ===========
-Home          https://github.com/pinellolab/stream
-Versions      0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6
+Home          https://github.com/pinellolab/STREAM
+Versions      0.2.0, 0.2.1, 0.2.2, 0.2.3, 0.2.4, 0.2.5, 0.2.6, 0.3.0
 License       Affero
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stream
 

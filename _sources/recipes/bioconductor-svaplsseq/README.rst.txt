@@ -8,7 +8,7 @@ bioconductor-svaplsseq
 The package contains functions that are intended for extracting the signatures of latent variation in RNAseq data and using them to perform an improved differential expression analysis for a set of features \(genes\, transcripts\) between two specified biological groups.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/SVAPLSseq.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/SVAPLSseq.html
 Versions      1.4.0, 1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-svaplsseq

@@ -8,7 +8,7 @@ bioconductor-zinbwave
 Implements a general and flexible zero\-inflated negative binomial model that can be used to provide a low\-dimensional representations of single\-cell RNA\-seq data. The model accounts for zero inflation \(dropouts\)\, over\-dispersion\, and the count nature of the data. The model also accounts for the difference in library sizes and optionally for batch effects and\/or other covariates\, avoiding the need for pre\-normalize the data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/zinbwave.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/zinbwave.html
 Versions      1.0.0, 1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-zinbwave

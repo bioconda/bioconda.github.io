@@ -9,7 +9,7 @@ SBpipe is a collection of pipelines for systems modelling of biological networks
 
 ============= ===========
 Home          http://sbpipe.readthedocs.io
-Versions      4.18.0, 4.20.0
+Versions      4.18.0, 4.20.0, 4.21.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sbpipe
 

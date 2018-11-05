@@ -10,7 +10,7 @@ A means to explore the structure of 16S rRNA surveys using a Structural  Topic M
 ============= ===========
 Home          http://github.com/EESI/themetagenomics
 Versions      0.1.4
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spieceasi
 
 

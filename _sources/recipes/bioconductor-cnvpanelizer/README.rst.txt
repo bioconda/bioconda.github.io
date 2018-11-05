@@ -8,7 +8,7 @@ bioconductor-cnvpanelizer
 A method that allows for the use of a collection of non\-matched normal tissue samples. Our approach uses a non\-parametric bootstrap subsampling of the available reference samples to estimate the distribution of read counts from targeted sequencing. As inspired by random forest\, this is combined with a procedure that subsamples the amplicons associated with each of the targeted genes. The obtained information allows us to reliably classify the copy number aberrations on the gene level.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/CNVPanelizer.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/CNVPanelizer.html
 Versions      1.12.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvpanelizer

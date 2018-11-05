@@ -5,12 +5,12 @@ bioconductor-mutationalpatterns
 
 |downloads|
 
-R package for extracting and visualizing mutational patterns in base substitution catalogues
+An extensive toolset for the characterization and visualization of a wide range of mutational patterns in base substitution catalogs.
 
 ============= ===========
-Home          http://bioconductor.org/packages/release/bioc/html/MutationalPatterns.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/MutationalPatterns.html
 Versions      1.4.1, 1.4.3, 1.6.1
-License       MIT
+License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns
 
 

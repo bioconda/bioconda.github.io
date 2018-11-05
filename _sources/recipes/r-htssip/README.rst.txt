@@ -5,7 +5,7 @@ r-htssip
 
 |downloads|
 
-Functions for analyzing high throughput sequencing stable isotope probing \(HTS\-SIP\) data. Analyses include high resolution stable isotope probing \(HR\-SIP\)\, multi\-window high resolution stable isotope probing \(MW\-HR\-SIP\)\, and quantitative stable isotope probing \(q\-SIP\).
+Functions for analyzing high throughput sequencing  stable isotope probing \(HTS\-SIP\) data. Analyses include high resolution stable isotope probing \(HR\-SIP\)\, multi\-window high resolution stable isotope probing \(MW\-HR\-SIP\)\,  and quantitative stable isotope probing \(q\-SIP\). 
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=HTSSIP

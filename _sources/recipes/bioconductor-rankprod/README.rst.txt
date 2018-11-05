@@ -8,9 +8,9 @@ bioconductor-rankprod
 Non\-parametric method for identifying differentially expressed \(up\- or down\- regulated\) genes based on the estimated percentage of false predictions \(pfp\). The method can combine data sets from different origins \(meta\-analysis\) to increase the power of the identification.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RankProd.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RankProd.html
 Versions      3.4.0, 3.6.0
-License       free for non-commercial users. Non-academic users MUST have requested from the author
+License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod
 
 

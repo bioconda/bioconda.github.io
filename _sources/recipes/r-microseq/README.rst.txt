@@ -5,7 +5,7 @@ r-microseq
 
 |downloads|
 
-Basic functions for microbial sequence data analysis.
+Basic functions for microbial sequence data analysis. The idea is to use the basic R data structures as much as possible\, without building complex data types.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=microseq

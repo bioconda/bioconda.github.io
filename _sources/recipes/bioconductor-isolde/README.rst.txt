@@ -8,7 +8,7 @@ bioconductor-isolde
 This package provides ISoLDE a new method for identifying imprinted genes. This method is dedicated to data arising from RNA sequencing technologies. The ISoLDE package implements original statistical methodology described in the publication below.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ISoLDE.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ISoLDE.html
 Versions      1.6.0, 1.8.0
 License       GPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isolde

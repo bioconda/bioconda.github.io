@@ -8,7 +8,7 @@ bioconductor-fabia
 Biclustering by \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). FABIA is a model\-based technique for biclustering\, that is clustering rows and columns simultaneously. Biclusters are found by factor analysis where both the factors and the loading matrix are sparse. FABIA is a multiplicative model that extracts linear dependencies between samples and feature patterns. It captures realistic non\-Gaussian data distributions with heavy tails as observed in gene expression measurements. FABIA utilizes well understood model selection techniques like the EM algorithm and variational approaches and is embedded into a Bayesian framework. FABIA ranks biclusters according to their information content and separates spurious biclusters from true biclusters. The code is written in C.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/fabia.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/fabia.html
 Versions      2.24.0, 2.26.0
 License       LGPL (>= 2.1)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabia

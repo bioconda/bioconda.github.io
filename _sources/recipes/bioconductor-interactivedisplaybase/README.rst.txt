@@ -8,7 +8,7 @@ bioconductor-interactivedisplaybase
 The interactiveDisplayBase package contains the the basic methods needed to generate interactive Shiny based display methods for Bioconductor objects.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/interactiveDisplayBase.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/interactiveDisplayBase.html
 Versions      1.12.0, 1.14.0, 1.16.0, 1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactivedisplaybase

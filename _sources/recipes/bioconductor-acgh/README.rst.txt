@@ -8,7 +8,7 @@ bioconductor-acgh
 Functions for reading aCGH data from image analysis output files and clone information files\, creation of aCGH S3 objects for storing these data. Basic methods for accessing\/replacing\, subsetting\, printing and plotting aCGH objects.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/aCGH.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/aCGH.html
 Versions      1.54.0, 1.56.0, 1.58.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh

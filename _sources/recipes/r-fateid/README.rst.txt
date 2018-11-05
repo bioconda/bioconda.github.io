@@ -5,7 +5,7 @@ r-fateid
 
 |downloads|
 
-Application of \'FateID\' allows computation and visualization of cell fate bias for multi\-lineage single cell transcriptome data.
+Application of \'FateID\' allows computation and visualization of cell fate bias for multi\-lineage single cell transcriptome data. Herman\, J.S.\, Sagar\, Grün D. \(2017\) \<DOI\:10.1038\/nmeth.4662\>.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=FateID

@@ -8,13 +8,11 @@ r-seurat
 A toolkit for quality control\, analysis\, and exploration of single cell RNA sequencing data. \'Seurat\' aims to enable users to identify and interpret sources of heterogeneity from single cell transcriptomic measurements\, and to integrate diverse types of single cell data. See Satija R\, Farrell J\, Gennert D\, et al \(2015\) \<doi\:10.1038\/nbt.3192\>\, Macosko E\, Basu A\, Satija R\, et al \(2015\) \<doi\:10.1016\/j.cell.2015.05.002\>\, and Butler A and Satija R \(2017\) \<doi\:10.1101\/164889\> for more details.
 
 ============= ===========
-Home          http://www.satijalab.org/seurat
+Home          http://www.satijalab.org/seurat, https://github.com/satijalab/seurat
 Versions      1.4.0.16, 2.2.0, 2.3.1, 2.3.4
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seurat
 
-
-Development   https://github.com/satijalab/seurat
 
 
 ============= ===========

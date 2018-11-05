@@ -8,7 +8,7 @@ bioconductor-panp
 A function to make gene presence\/absence calls based on distance from negative strand matching probesets \(NSMP\) which are derived from Affymetrix annotation. PANP is applied after gene expression values are created\, and therefore can be used after any preprocessing method such as MAS5 or GCRMA\, or PM\-only methods like RMA. NSMP sets have been established for the HGU133A and HGU133\-Plus\-2.0 chipsets to date.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/panp.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/panp.html
 Versions      1.46.0, 1.48.0, 1.50.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panp

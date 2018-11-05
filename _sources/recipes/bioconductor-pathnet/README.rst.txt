@@ -8,7 +8,7 @@ bioconductor-pathnet
 PathNet uses topological information present in pathways and differential expression levels of genes \(obtained from microarray experiment\) to identify pathways that are 1\) significantly enriched and 2\) associated with each other in the context of differential expression. The algorithm is described in\: PathNet\: A tool for pathway analysis using topological information. Dutta B\, Wallqvist A\, and Reifman J. Source Code for Biology and Medicine 2012 Sep 24\;7\(1\)\:10.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/PathNet.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/PathNet.html
 Versions      1.16.0, 1.18.0, 1.20.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathnet

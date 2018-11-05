@@ -8,7 +8,7 @@ bioconductor-ruvnormalize
 RUVnormalize is meant to remove unwanted variation from gene expression data when the factor of interest is not defined\, e.g.\, to clean up a dataset for general use or to do any kind of unsupervised analysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/RUVnormalize.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/RUVnormalize.html
 Versions      1.12.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ruvnormalize

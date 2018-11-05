@@ -9,7 +9,7 @@ Ksw\: \(interactive\) smith\-waterman in C
 
 ============= ===========
 Home          https://github.com/nh13/ksw
-Versions      0.0.2, 0.1.0a, 0.2.0
+Versions      0.0.2, 0.1.0a, 0.2.0, 0.2.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ksw
 

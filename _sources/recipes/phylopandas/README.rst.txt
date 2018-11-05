@@ -9,8 +9,8 @@ Pandas for phylogenetics
 
 ============= ===========
 Home          https://github.com/Zsailer/phylopandas
-Versions      0.1.3, 0.1.4
-License       MIT License
+Versions      0.1.3, 0.1.4, 0.7.1
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylopandas
 
 

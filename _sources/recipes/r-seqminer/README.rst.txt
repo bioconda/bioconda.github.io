@@ -5,12 +5,12 @@ r-seqminer
 
 |downloads|
 
-Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-analysis results in R.
+Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-analysis results in R. This package can help you \(1\) read VCF\/BCF files by chromosomal ranges \(e.g. 1\:100\-200\)\; \(2\) read RareMETAL summary statistics files\; \(3\) read tables from a tabix\-indexed files\; \(4\) annotate VCF\/BCF files\; \(5\) create customized workflow based on Makefile.
 
 ============= ===========
-Home          https://cran.r-project.org/web/packages/seqminer/index.html
+Home          http://seqminer.genomic.codes
 Versions      6.0, 6.1
-License       GPL (>= 2)
+License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-seqminer
 
 

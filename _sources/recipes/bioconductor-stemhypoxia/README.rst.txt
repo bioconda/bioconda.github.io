@@ -8,7 +8,7 @@ bioconductor-stemhypoxia
 Expression profiling using microarray technology to prove if \'Hypoxia Promotes Efficient Differentiation of Human Embryonic Stem Cells to Functional Endothelium\' by Prado\-Lopez et al. \(2010\) Stem Cells 28\:407\-418. Full data available at Gene Expression Omnibus series GSE37761.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/experiment/html/stemHypoxia.html
+Home          http://bioconductor.org/packages/3.7/data/experiment/html/stemHypoxia.html
 Versions      1.14.0, 1.16.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stemhypoxia

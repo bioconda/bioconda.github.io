@@ -8,7 +8,7 @@ bioconductor-qpgraph
 Estimate gene and eQTL networks from high\-throughput expression and genotyping assays.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/qpgraph.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/qpgraph.html
 Versions      2.12.0, 2.14.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph

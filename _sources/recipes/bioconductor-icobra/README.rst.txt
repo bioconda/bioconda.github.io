@@ -8,7 +8,7 @@ bioconductor-icobra
 This package provides functions for calculation and visualization of performance metrics for evaluation of ranking and binary classification \(assignment\) methods. It also contains a shiny application for interactive exploration of results.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/iCOBRA.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/iCOBRA.html
 Versions      1.6.0, 1.8.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-icobra

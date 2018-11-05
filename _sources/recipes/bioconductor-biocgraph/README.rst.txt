@@ -8,7 +8,7 @@ bioconductor-biocgraph
 This package provides examples and code that make use of the different graph related packages produced by Bioconductor.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/biocGraph.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/biocGraph.html
 Versions      1.40.0, 1.42.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocgraph

@@ -8,7 +8,7 @@ bioconductor-chemminer
 ChemmineR is a cheminformatics package for analyzing drug\-like small molecule data in R. Its latest version contains functions for efficient processing of large numbers of molecules\, physicochemical\/structural property predictions\, structural similarity searching\, classification and clustering of compound libraries with a wide spectrum of algorithms. In addition\, it offers visualization functions for compound clustering results and chemical structures.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ChemmineR.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ChemmineR.html
 Versions      2.28.3, 2.30.0, 3.32.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminer

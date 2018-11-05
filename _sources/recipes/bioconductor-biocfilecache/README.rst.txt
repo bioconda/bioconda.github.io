@@ -8,7 +8,7 @@ bioconductor-biocfilecache
 This package creates a persistent on\-disk cache of files that the user can add\, update\, and retrieve. It is useful for managing resources \(such as custom Txdb objects\) that are costly or difficult to create\, web resources\, and data files used across sessions.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/BiocFileCache.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/BiocFileCache.html
 Versions      1.2.3, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocfilecache

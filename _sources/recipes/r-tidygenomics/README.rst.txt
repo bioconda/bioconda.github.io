@@ -5,7 +5,7 @@ r-tidygenomics
 
 |downloads|
 
-Handle genomic data within data frames just as you would with \'GRanges\'. This package provides methods to deal with genomic intervals the \"tidy\-way\" which makes it simpler to integrate in the the general data munging process. The API is inspired by the popular \'bedtools\' and the genome\_join\(\) method from the \'fuzzyjoin\' package.
+Handle genomic data within data frames just as you would with \'GRanges\'. This packages provides method to deal with genomic intervals the \"tidy\-way\" which makes it simpler to integrate in the the general data munging process. The API is inspired by the popular \'bedtools\' and the genome\_join\(\) method from the \'fuzzyjoin\' package.
 
 ============= ===========
 Home          https://github.com/const-ae/tidygenomics

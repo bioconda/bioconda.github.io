@@ -8,7 +8,7 @@ bioconductor-qcmetrics
 The package provides a framework for generic quality control of data. It permits to create\, manage and visualise individual or sets of quality control metrics and generate quality control reports in various formats.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/qcmetrics.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/qcmetrics.html
 Versions      1.16.0, 1.18.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qcmetrics

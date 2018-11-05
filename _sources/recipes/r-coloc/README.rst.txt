@@ -5,10 +5,10 @@ r-coloc
 
 |downloads|
 
-Performs the colocalisation tests described in Plagnol et al \(2009\)\, Wallace et al \(2013\) and Giambartolomei et al \(2013\).
+Performs the colocalisation tests described in Plagnol et al \(2009\) \<doi\:10.1093\/biostatistics\/kxn039\>\, Wallace et al \(2013\) \<doi\:10.1002\/gepi.21765\> and Giambartolomei et al \(2013\) \<doi\:10.1371\/journal.pgen.1004383\>.
 
 ============= ===========
-Home          https://github.com/chr1swallace/coloc
+Home          https://CRAN.R-project.org/package=coloc
 Versions      2.3_1, 3.1
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc

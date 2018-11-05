@@ -5,10 +5,10 @@ r-pegas
 
 |downloads|
 
-Functions for reading\, writing\, plotting\, analysing\, and manipulating allelic and haplotypic data\, and for the analysis of population nucleotide sequences and micro\-satellites including coalescence analyses.
+Functions for reading\, writing\, plotting\, analysing\, and manipulating allelic and haplotypic data\, including from VCF files\, and for the analysis of population nucleotide sequences and micro\-satellites including coalescent analyses\, linkage disequilibrium\, population structure \(Fst\, Amova\) and equilibrium \(HWE\)\, haplotype networks\, minimum spanning tree and network\, and median\-joining networks.
 
 ============= ===========
-Home          http
+Home          http://ape-package.ird.fr/pegas.html
 Versions      0.10, 0.11
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pegas

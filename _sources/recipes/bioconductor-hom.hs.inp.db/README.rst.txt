@@ -8,7 +8,7 @@ bioconductor-hom.hs.inp.db
 Homology information for Homo Sapiens from Inparanoid assembled using data from public repositories
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/annotation/html/hom.Hs.inp.db.html
+Home          http://bioconductor.org/packages/3.7/data/annotation/html/hom.Hs.inp.db.html
 Versions      3.1.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.hs.inp.db

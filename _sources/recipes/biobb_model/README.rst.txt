@@ -5,11 +5,11 @@ biobb_model
 
 |downloads|
 
-biobb\_model is the Biobb module collection to fetch data to be consumed by the rest of the Biobb building blocks.
+Biobb\_model is the Biobb module collection to check and model 3d structures\, create mutations or reconstruct missing atoms.
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_model
-Versions      0.0.6
+Versions      0.0.6, 0.1.0
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_model
 

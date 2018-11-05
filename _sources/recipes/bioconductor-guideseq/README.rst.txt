@@ -8,7 +8,7 @@ bioconductor-guideseq
 The package implements GUIDE\-seq analysis workflow including functions for obtaining unique insertion sites \(proxy of cleavage sites\)\, estimating the locations of the insertion sites\, aka\, peaks\, merging estimated insertion sites from plus and minus strand\, and performing off target search of the extended regions around insertion sites.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/GUIDEseq.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/GUIDEseq.html
 Versions      1.10.0, 1.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-guideseq

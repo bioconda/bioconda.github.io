@@ -8,9 +8,9 @@ r-metalonda
 Identify time intervals of differentially abundant metagenomics features in longitudinal studies.
 
 ============= ===========
-Home          https
+Home          https://github.com/aametwally/MetaLonDA
 Versions      1.1.0
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metalonda
 
 

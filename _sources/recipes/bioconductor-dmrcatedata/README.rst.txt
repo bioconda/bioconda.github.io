@@ -8,7 +8,7 @@ bioconductor-dmrcatedata
 This package contains 8 data objects supporting functionality and examples of the Bioconductor package DMRcate.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/experiment/html/DMRcatedata.html
+Home          http://bioconductor.org/packages/3.7/data/experiment/html/DMRcatedata.html
 Versions      1.14.0, 1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcatedata

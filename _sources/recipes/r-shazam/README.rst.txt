@@ -5,10 +5,10 @@ r-shazam
 
 |downloads|
 
-Provides a computational framework for Bayesian estimation of antigen\-driven selection in immunoglobulin \(Ig\) sequences\, providing an intuitive means of analyzing selection by quantifying the degree of selective pressure. Also provides tools to profile mutations in Ig sequences\, build models of somatic hypermutation \(SHM\) in Ig sequences\, and make model\-dependent distance comparisons of Ig repertoires. Citations
+Provides a computational framework for analyzing mutations in immunoglobulin \(Ig\) sequences. Includes methods for Bayesian estimation of antigen\-driven selection pressure\, mutational load quantification\, building of somatic hypermutation \(SHM\) models\, and model\-dependent distance calculations. Also includes empirically derived models of SHM for both mice and humans. Citations\:  Gupta and Vander Heiden\, et al \(2015\) \<doi\:10.1093\/bioinformatics\/btv359\>\,  Yaari\, et al \(2012\) \<doi\:10.1093\/nar\/gks457\>\,  Yaari\, et al \(2013\) \<doi\:10.3389\/fimmu.2013.00358\>\,  Cui\, et al \(2016\) \<doi\:10.4049\/jimmunol.1502263\>.
 
 ============= ===========
-Home          http
+Home          http://shazam.readthedocs.io
 Versions      0.1.10, 0.1.9
 License       CC BY-SA 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-shazam

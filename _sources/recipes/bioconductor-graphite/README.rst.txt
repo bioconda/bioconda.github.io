@@ -8,7 +8,7 @@ bioconductor-graphite
 Graph objects from pathway topology derived from Biocarta\, HumanCyc\, KEGG\, NCI\, Panther\, Reactome and SPIKE databases.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/graphite.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/graphite.html
 Versions      1.16.0, 1.22.0, 1.24.0, 1.26.3
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphite

@@ -8,7 +8,7 @@ bioconductor-genoset
 GenoSet provides an extension of the RangedSummarizedExperiment class with additional API features. This class provides convenient and fast methods for working with segmented genomic data. Additionally\, GenoSet provides the class RleDataFrame which stores runs of data along the genome for multiple samples and provides very fast summaries of arbitrary row sets \(regions of the genome\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/genoset.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/genoset.html
 Versions      1.34.0, 1.36.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genoset

@@ -9,7 +9,7 @@ Biobb\_common is the base package required to use the biobb packages.
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_common
-Versions      0.0.3, 0.0.4, 0.0.5
+Versions      0.0.3, 0.0.4, 0.0.5, 0.0.6
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_common
 

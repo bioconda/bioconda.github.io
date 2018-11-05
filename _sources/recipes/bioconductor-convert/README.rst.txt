@@ -8,7 +8,7 @@ bioconductor-convert
 Define coerce methods for microarray data objects.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/convert.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/convert.html
 Versions      1.54.0, 1.56.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-convert

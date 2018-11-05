@@ -5,7 +5,7 @@ r-aptreeshape
 
 |downloads|
 
-Simulation and analysis of phylogenetic tree topologies using statistical indices. It is a companion library of the \'ape\' package. It provides additional functions for reading\, plotting\, manipulating phylogenetic trees. It also offers convenient web\-access to public databases\, and enables testing null models of macroevolution using corrected test statistics.  Trees of class \"phylo\" \(from \'ape\' package\) can be converted easily. Implements methods described in Bortolussi et al. \(2005\) and Maliet et al. \(2017\).
+Simulation and analysis of phylogenetic tree topologies using statistical indices. It is a companion library of the \'ape\' package. It provides additional functions for reading\, plotting\, manipulating phylogenetic trees. It also offers convenient web\-access to public databases\, and enables testing null models of macroevolution using corrected test statistics.  Trees of class \"phylo\" \(from \'ape\' package\) can be converted easily. Implements methods described in Bortolussi et al. \(2005\) \<doi\:10.1093\/bioinformatics\/bti798\> and Maliet et al. \(2017\)  \<doi\:10.1101\/224295\>.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=apTreeshape

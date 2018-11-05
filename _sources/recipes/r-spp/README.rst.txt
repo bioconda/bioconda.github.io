@@ -5,12 +5,12 @@ r-spp
 
 |downloads|
 
-ChIP\-seq peak caller
+Analysis of ChIP\-seq and other functional sequencing data \[Kharchenko PV \(2008\) \<DOI\:10.1038\/nbt.1508\>\].
 
 ============= ===========
-Home          http://compbio.med.harvard.edu/Supplements/ChIP-seq
+Home          https://CRAN.R-project.org/package=spp
 Versions      1.11, 1.13, 1.14, 1.14post, 1.15.2, 1.15.5
-License       GPL
+License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spp
 
 

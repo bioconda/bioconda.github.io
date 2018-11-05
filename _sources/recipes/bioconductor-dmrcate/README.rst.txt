@@ -8,7 +8,7 @@ bioconductor-dmrcate
 De novo identification and extraction of differentially methylated regions \(DMRs\) from the human genome using Whole Genome Bisulphite Sequencing \(WGBS\) and Illumina Infinium Array \(450K and EPIC\) data. Provides functionality for filtering probes possibly confounded by SNPs and cross\-hybridisation. Includes GRanges generation and plotting functions.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/DMRcate.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/DMRcate.html
 Versions      1.14.0, 1.16.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcate

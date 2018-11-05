@@ -8,7 +8,7 @@ bioconductor-girafe
 The package \'girafe\' deals with the genome\-level representation of aligned reads from next\-generation sequencing data. It contains an object class for enabling a detailed description of genome intervals with aligned reads and functions for comparing\, visualising\, exporting and working with such intervals and the aligned reads. As such\, the package interacts with and provides a link between the packages ShortRead\, IRanges and genomeIntervals.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/girafe.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/girafe.html
 Versions      1.30.0, 1.32.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe

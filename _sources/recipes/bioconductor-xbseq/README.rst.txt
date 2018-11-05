@@ -8,7 +8,7 @@ bioconductor-xbseq
 We developed a novel algorithm\, XBSeq\, where a statistical model was established based on the assumption that observed signals are the convolution of true expression signals and sequencing noises. The mapped reads in non\-exonic regions are considered as sequencing noises\, which follows a Poisson distribution. Given measureable observed and noise signals from RNA\-seq data\, true expression signals\, assuming governed by the negative binomial distribution\, can be delineated and thus the accurate detection of differential expressed genes.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/XBSeq.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/XBSeq.html
 Versions      1.12.0, 1.6.0, 1.8.0
 License       GPL (>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xbseq

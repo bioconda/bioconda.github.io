@@ -8,7 +8,7 @@ r-geiger
 Methods for fitting macroevolutionary models to phylogenetic trees.
 
 ============= ===========
-Home          http
+Home          http://www.webpages.uidaho.edu/~lukeh/software.html
 Versions      2.0.6
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-geiger

@@ -8,7 +8,7 @@ bioconductor-swathxtend
 Contains utility functions for integrating spectral libraries for SWATH and statistical data analysis for SWATH generated data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/SwathXtend.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/SwathXtend.html
 Versions      1.4.0, 2.0.0, 2.2.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-swathxtend

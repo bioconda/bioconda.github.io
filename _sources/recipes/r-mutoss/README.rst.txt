@@ -5,10 +5,10 @@ r-mutoss
 
 |downloads|
 
-The Mutoss package and accompanying mutossGUI package are designed to ease the application and comparison of multiple hypothesis testing procedures.
+Designed to ease the application and comparison of multiple hypothesis testing procedures for FWER\, gFWER\, FDR and FDX. Methods are  standardized and usable by the accompanying \'mutossGUI\'.
 
 ============= ===========
-Home          http://mutoss.r-forge.r-project.org/
+Home          https://github.com/kornl/mutoss/
 Versions      0.1_10, 0.1_12
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mutoss

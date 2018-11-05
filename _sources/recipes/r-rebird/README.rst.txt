@@ -5,15 +5,12 @@ r-rebird
 
 |downloads|
 
-A programmatic client for the eBird database\, including functions for searching for
-bird observations by geographic location \(latitude\, longitude\)\, eBird hotspots\,
-location identifiers\, by notable sightings\, by region\, and by taxonomic name.
-
+A programmatic client for the eBird database\, including functions for searching for bird observations by geographic location \(latitude\, longitude\)\, eBird hotspots\, location identifiers\, by notable sightings\, by region\, and by taxonomic name.
 
 ============= ===========
 Home          http://github.com/ropensci/rebird
 Versions      0.4.0, 0.5.0, 1.0.0
-License       MIT + file LICENSE
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rebird
 
 

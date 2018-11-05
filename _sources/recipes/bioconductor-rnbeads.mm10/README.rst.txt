@@ -8,7 +8,7 @@ bioconductor-rnbeads.mm10
 Automatically generated RnBeads annotation package for the assembly mm10.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/data/experiment/html/RnBeads.mm10.html
+Home          http://bioconductor.org/packages/3.7/data/experiment/html/RnBeads.mm10.html
 Versions      1.10.0, 1.12.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.mm10

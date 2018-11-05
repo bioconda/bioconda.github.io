@@ -8,9 +8,9 @@ r-rnexml
 Provides access to phyloinformatic data in \'NeXML\' format.  The package should add new functionality to R such as the possibility to manipulate \'NeXML\' objects in more various and refined way and compatibility with \'ape\' objects.
 
 ============= ===========
-Home          https://CRAN.R-project.org/package=RNeXML
+Home          https://github.com/ropensci/RNeXML
 Versions      2.1.1, 2.1.2
-License       BSD_3_clause + file LICENSE
+License       BSD_3_clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rnexml
 
 

@@ -8,7 +8,7 @@ bioconductor-sscore
 This package contains an implementation of the S\-Score algorithm as described by Zhang et al \(2002\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/sscore.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/sscore.html
 Versions      1.48.0, 1.50.0, 1.52.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sscore

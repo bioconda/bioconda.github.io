@@ -8,7 +8,7 @@ bioconductor-pbcmc
 The pbcmc package characterizes uncertainty assessment on gene expression classifiers\, a. k. a. molecular signatures\, based on a permutation test. In order to achieve this goal\, synthetic simulated subjects are obtained by permutations of gene labels. Then\, each synthetic subject is tested against the corresponding subtype classifier to build the null distribution. Thus\, classification confidence measurement can be provided for each subject\, to assist physician therapy choice. At present\, it is only available for PAM50 implementation in genefu package but it can easily be extend to other molecular signatures.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/pbcmc.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/pbcmc.html
 Versions      1.6.0, 1.8.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pbcmc

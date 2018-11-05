@@ -8,7 +8,7 @@ bioconductor-shinymethyl
 Interactive tool for visualizing Illumina methylation array data. Both the 450k and EPIC array are supported.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/shinyMethyl.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/shinyMethyl.html
 Versions      1.14.0, 1.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinymethyl

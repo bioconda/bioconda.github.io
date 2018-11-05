@@ -5,7 +5,7 @@ r-gkmsvm
 
 |downloads|
 
-Imports the \'gkmSVM\' v2.0 functionalities into R \(www.beerlab.org\/gkmsvm\). It also uses the \'kernlab\' library \(separate R package by different authors\) for various SVM algorithms.   
+Imports the \'gkmSVM\' v2.0 functionalities into R \<http\:\/\/www.beerlab.org\/gkmsvm\/\> It also uses the \'kernlab\' library \(separate R package by different authors\) for various SVM algorithms.
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=gkmSVM

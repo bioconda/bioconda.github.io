@@ -8,7 +8,7 @@ bioconductor-npgsea
 Current gene set enrichment methods rely upon permutations for inference.  These approaches are computationally expensive and have minimum achievable p\-values based on the number of permutations\, not on the actual observed statistics.  We have derived three parametric approximations to the permutation distributions of two gene set enrichment test statistics.  We are able to reduce the computational burden and granularity issues of permutation testing with our method\, which is implemented in this package. npGSEA calculates gene set enrichment statistics and p\-values without the computational cost of permutations.  It is applicable in settings where one or many gene sets are of interest.  There are also built\-in plotting functions to help users visualize results.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/npGSEA.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/npGSEA.html
 Versions      1.12.0, 1.14.0, 1.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-npgsea

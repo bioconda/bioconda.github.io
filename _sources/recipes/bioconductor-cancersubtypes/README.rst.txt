@@ -8,7 +8,7 @@ bioconductor-cancersubtypes
 CancerSubtypes integrates the current common computational biology methods for cancer subtypes identification and provides a standardized framework for cancer subtype analysis based multi\-omics data\, such as gene expression\, miRNA expression\, DNA methylation and others.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/CancerSubtypes.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/CancerSubtypes.html
 Versions      1.4.0, 1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cancersubtypes

@@ -8,7 +8,7 @@ bioconductor-marray
 Class definitions for two\-color spotted microarray data. Fuctions for data input\, diagnostic plots\, normalization and quality checking.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/marray.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/marray.html
 Versions      1.50.0, 1.54.0, 1.56.0, 1.58.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-marray

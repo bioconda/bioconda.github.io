@@ -8,7 +8,7 @@ bioconductor-gage
 GAGE is a published method for gene set \(enrichment or GSEA\) or pathway analysis. GAGE is generally applicable independent of microarray or RNA\-Seq data attributes including sample sizes\, experimental designs\, assay platforms\, and other types of heterogeneity\, and consistently achieves superior performance over other frequently used methods. In gage package\, we provide functions for basic GAGE analysis\, result processing and presentation. We have also built pipeline routines for of multiple GAGE analyses in a batch\, comparison between parallel analyses\, and combined analysis of heterogeneous data from different sources\/studies. In addition\, we provide demo microarray data and commonly used gene set data based on KEGG pathways and GO terms. These funtions and data are also useful for gene set analysis using other methods.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/gage.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/gage.html
 Versions      2.21.1, 2.26.3, 2.28.0, 2.30.0
 License       GPL (>=2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage

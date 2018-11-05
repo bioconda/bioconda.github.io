@@ -8,7 +8,7 @@ bioconductor-a4base
 Automated Affymetrix Array Analysis
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/a4Base.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/a4Base.html
 Versions      1.26.0, 1.28.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4base

@@ -8,7 +8,7 @@ bioconductor-aseb
 ASEB is an R package to predict lysine sites that can be acetylated by a specific KAT\-family.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ASEB.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ASEB.html
 Versions      1.20.0, 1.22.0, 1.24.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aseb

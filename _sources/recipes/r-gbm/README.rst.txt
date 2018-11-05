@@ -5,10 +5,10 @@ r-gbm
 
 |downloads|
 
-An implementation of extensions to Freund and Schapire\'s AdaBoost algorithm and Friedman\'s gradient boosting machine. Includes regression methods for least squares\, absolute loss\, t\-distribution loss\, quantile regression\, logistic\, multinomial logistic\, Poisson\, Cox proportional hazards partial likelihood\, AdaBoost exponential loss\, Huberized hinge loss\, and Learning to Rank measures \(LambdaMart\).
+An implementation of extensions to Freund and Schapire\'s AdaBoost  algorithm and Friedman\'s gradient boosting machine. Includes regression  methods for least squares\, absolute loss\, t\-distribution loss\, quantile  regression\, logistic\, multinomial logistic\, Poisson\, Cox proportional hazards  partial likelihood\, AdaBoost exponential loss\, Huberized hinge loss\, and  Learning to Rank measures \(LambdaMart\). Originally developed by Greg Ridgeway.
 
 ============= ===========
-Home          http://code.google.com/p/gradientboostedmodels/
+Home          https://github.com/gbm-developers/gbm
 Versions      2.1.1, 2.1.3
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gbm

@@ -8,7 +8,7 @@ bioconductor-chimeraviz
 chimeraviz manages data from fusion gene finders and provides useful visualization tools.
 
 ============= ===========
-Home          https://bioconductor.org/packages/release/bioc/html/chimeraviz.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/chimeraviz.html
 Versions      1.0.4, 1.6.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chimeraviz

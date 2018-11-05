@@ -8,7 +8,7 @@ bioconductor-yaqcaffy
 Quality control of Affymetrix GeneChip expression data and reproducibility analysis of human whole genome chips with the MAQC reference datasets.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/yaqcaffy.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/yaqcaffy.html
 Versions      1.38.0, 1.40.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yaqcaffy

@@ -8,7 +8,7 @@ bioconductor-junctionseq
 A Utility for Detection and Visualization of Differential Exon or Splice\-Junction Usage in RNA\-Seq data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/JunctionSeq.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/JunctionSeq.html
 Versions      1.10.0, 1.8.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-junctionseq

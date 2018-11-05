@@ -8,7 +8,7 @@ r-vcfr
 Facilitates easy manipulation of variant call format \(VCF\) data. Functions are provided to rapidly read from and write to VCF files. Once VCF data is read into R a parser function extracts matrices of data. This information can then be used for quality control or other purposes. Additional functions provide visualization of genomic data. Once processing is complete data may be written to a VCF file \(\*.vcf.gz\). It also may be converted into other popular R objects \(e.g.\, genlight\, DNAbin\). VcfR provides a link between VCF data and familiar R software.
 
 ============= ===========
-Home          https://github.com/knausb/vcfR, https://knausb.github.io/ vcfR_documentation/
+Home          https://github.com/knausb/vcfR, https://knausb.github.io/vcfR_documentation/
 Versions      1.5.0, 1.8.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-vcfr

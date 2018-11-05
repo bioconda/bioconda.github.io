@@ -8,7 +8,7 @@ bioconductor-maftools
 Analyze and visualize Mutation Annotation Format \(MAF\) files from large scale sequencing studies. This package provides various functions to perform most commonly used analyses in cancer genomics and to create feature rich customizable visualzations with minimal effort.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/maftools.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/maftools.html
 Versions      1.4.27, 1.6.15
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maftools

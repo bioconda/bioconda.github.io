@@ -5,10 +5,10 @@ bioconductor-specl
 
 |downloads|
 
-specL provides a function for generating spectra libraries which can be used for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader\, a function which can add the protein information using a FASTA formatted amino acid file\, and an export method for using the created library in the Spectronaut software.
+provides a function for generating spectra libraries which can be used for MRM SRM MS workflows in proteomics. The package provides a BiblioSpec reader\, a function which can add the protein information using a FASTA formatted amino acid file\, and an export method for using the created library in the Spectronaut software.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/specL.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/specL.html
 Versions      1.12.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl

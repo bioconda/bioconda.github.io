@@ -8,7 +8,7 @@ bioconductor-dsimer
 dSimer is an R package which provides computation of nine methods for measuring disease\-disease similarity\, including a standard cosine similarity measure and eight function\-based methods. The disease similarity matrix obtained from these nine methods can be visualized through heatmap and network. Biological data widely used in disease\-disease associations study are also provided by dSimer.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/dSimer.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/dSimer.html
 Versions      1.4.0, 1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsimer

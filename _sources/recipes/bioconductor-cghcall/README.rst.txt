@@ -8,7 +8,7 @@ bioconductor-cghcall
 Calls aberrations for array CGH data using a six state mixture model as well as several biological concepts that are ignored by existing algorithms. Visualization of profiles is also provided.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/CGHcall.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/CGHcall.html
 Versions      2.34.0, 2.34.1, 2.38.0, 2.40.0, 2.42.0
 License       GPL (http://www.gnu.org/copyleft/gpl.html)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghcall

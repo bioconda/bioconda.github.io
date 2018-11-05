@@ -8,7 +8,7 @@ bioconductor-bayseq
 This package identifies differential expression in high\-throughput \'count\' data\, such as that derived from next\-generation sequencing machines\, calculating estimated posterior likelihoods of differential expression \(or more complex hypotheses\) via empirical Bayesian methods.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/baySeq.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/baySeq.html
 Versions      2.10.0, 2.12.0, 2.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bayseq

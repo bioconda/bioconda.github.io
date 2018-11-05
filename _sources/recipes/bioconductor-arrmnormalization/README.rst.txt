@@ -8,7 +8,7 @@ bioconductor-arrmnormalization
 Perform the Adaptive Robust Regression method \(ARRm\) for the normalization of methylation data from the Illumina Infinium HumanMethylation 450k assay.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/ARRmNormalization.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/ARRmNormalization.html
 Versions      1.18.0, 1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrmnormalization

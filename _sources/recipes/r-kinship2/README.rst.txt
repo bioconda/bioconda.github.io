@@ -8,7 +8,7 @@ r-kinship2
 Routines to handle family data with a pedigree object. The initial purpose was to create correlation structures that describe  family relationships such as kinship and identity\-by\-descent\, which can be used to model family data in mixed effects models\, such as in the  coxme function.  Also includes a tool for pedigree drawing which is  focused on producing compact layouts without intervention.  Recent additions include utilities to trim the pedigree object with various criteria\, and  kinship for the X chromosome.
 
 ============= ===========
-Home          https://CRAN.R-project.org/package=kinship2
+Home          http://r-forge.r-project.org
 Versions      1.6.4
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-kinship2

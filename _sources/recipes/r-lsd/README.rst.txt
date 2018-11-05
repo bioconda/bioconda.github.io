@@ -5,7 +5,7 @@ r-lsd
 
 |downloads|
 
-Create lots of colorful plots in a plethora of variations \(try the LSD demotour\(\) \)
+Create lots of colorful plots in a plethora of variations. Try the LSD demotour\(\).
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=LSD

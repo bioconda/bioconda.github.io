@@ -8,7 +8,7 @@ bioconductor-macat
 This library contains functions to investigate links between differential gene expression and the chromosomal localization of the genes. MACAT is motivated by the common observation of phenomena involving large chromosomal regions in tumor cells. MACAT is the implementation of a statistical approach for identifying significantly differentially expressed chromosome regions. The functions have been tested on a publicly available data set about acute lymphoblastic leukemia \(Yeoh et al.Cancer Cell 2002\)\, which is provided in the library \'stjudem\'.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.6/bioc/html/macat.html
+Home          http://bioconductor.org/packages/3.7/bioc/html/macat.html
 Versions      1.50.0, 1.52.0, 1.54.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-macat
