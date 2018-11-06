@@ -9,7 +9,7 @@ Chado library
 
 ============= ===========
 Home          https://github.com/galaxy-genome-annotation/python-chado
-Versions      1.2, 2.0, 2.0.1, 2.1, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.2.1
+Versions      1.2, 2.0, 2.0.1, 2.1, 2.1.1, 2.1.2, 2.1.3, 2.1.4, 2.1.5, 2.2.1, 2.2.2
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-chado
 

@@ -5,12 +5,12 @@ macs2
 
 |downloads|
 
-MACS \-\- Model\-based Analysis of ChIP\-Seq
+Model Based Analysis for ChIP\-Seq data
 
 ============= ===========
-Home          https://github.com/taoliu/MACS/
-Versions      2.1.0, 2.1.1, 2.1.1.20160309
-License       BSD New
+Home          http://github.com/taoliu/MACS/
+Versions      2.1.0, 2.1.1, 2.1.1.20160309, 2.1.2
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/macs2
 
 
