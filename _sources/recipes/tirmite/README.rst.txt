@@ -9,7 +9,7 @@ Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete D
 
 ============= ===========
 Home          https://github.com/Adamtaranto/TIRmite
-Versions      1.1.0
+Versions      1.1.0, 1.1.1
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite
 
@@ -17,7 +17,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t
 
 ============= ===========
 
-
+Build profile Hidden Markov Models for Terminal Inverted repeat families \(TIR\-pHMMs\) and map to genomic sequences for annotation of MITES and complete DNA\-Transposons with variable internal sequence composition.
 
 Installation
 ------------

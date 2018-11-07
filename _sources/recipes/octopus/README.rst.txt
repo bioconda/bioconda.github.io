@@ -5,11 +5,11 @@ octopus
 
 |downloads|
 
-Bayesian haplotype\-based mutation calling
+Octopus is a mapping\-based variant caller that implements several calling models within a unified haplotype\-aware framework.
 
 ============= ===========
 Home          https://github.com/luntergroup/octopus
-Versions      0.3.3a, 0.4.1a, 0.5.0b, 0.5.1b
+Versions      0.3.3a, 0.4.1a, 0.5.0b, 0.5.1b, 0.5.2b
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
 
