@@ -9,7 +9,7 @@ Pheniqs is a generic high throughput DNA sequence demultiplexer and quality anal
 
 ============= ===========
 Home          http://biosails.github.io/pheniqs
-Versions      2.0.3
+Versions      2.0.3, 2.0.6
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pheniqs
 
