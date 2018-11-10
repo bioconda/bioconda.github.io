@@ -9,7 +9,7 @@ Dong X et al. Accurate identification of single\-nucleotide variants in whole\-g
 
 ============= ===========
 Home          https://github.com/biosinodx/SCcaller
-Versions      1.2
+Versions      1.2, 1.21
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sccaller
 

@@ -46,7 +46,7 @@ Licensed under the
 \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
 \[LICENSE\]\(LICENSE\) for details.
 
-\!\[\]\(docs\/source\/\_static\/bioexcel\_logo.png \"Bioexcel\"\)
+\!\[\]\(https\:\/\/bioexcel.eu\/wp\-content\/uploads\/2015\/12\/Bioexcell\_logo\_1080px\_transp.png \"Bioexcel\"\)
 
 
 

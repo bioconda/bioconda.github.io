@@ -9,7 +9,7 @@ Kipoi\: model zoo for genomics
 
 ============= ===========
 Home          https://github.com/kipoi/kipoi
-Versions      0.3.6, 0.5.7
+Versions      0.3.6, 0.5.7, 0.6.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kipoi
 
