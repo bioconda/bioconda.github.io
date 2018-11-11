@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>bioconductor-metcirc &#8212; Bioconda  documentation</title>
+    <title>bioconductor-metavizr &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script async="async" type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="bioconductor-methped" href="../bioconductor-methped/README.html" />
-    <link rel="prev" title="bioconductor-metavizr" href="../bioconductor-metavizr/README.html" />
+    <link rel="next" title="bioconductor-metcirc" href="../bioconductor-metcirc/README.html" />
+    <link rel="prev" title="bioconductor-metaseq" href="../bioconductor-metaseq/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,10 +62,10 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="bioconductor-metcirc">
-<span id="id1"></span><h1>bioconductor-metcirc<a class="headerlink" href="#bioconductor-metcirc" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-metcirc"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-metcirc/badges/downloads.svg" /></a></p>
-<p>MetCirc comprises a workflow to interactively explore high-resolution MS/MS metabolomics data: create an MSP object, a format for MS/MS library data, bin m/z values of precursors, calculate similarity between precursors based on the normalised dot product and visualise similarities in a circular layout. Within the interactive framework the user can annotate MS/MS features based on their similarity to (known) related MS/MS features.</p>
+  <div class="section" id="bioconductor-metavizr">
+<span id="id1"></span><h1>bioconductor-metavizr<a class="headerlink" href="#bioconductor-metavizr" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-metavizr"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-metavizr/badges/downloads.svg" /></a></p>
+<p>This package provides Websocket communication to the metaviz web app (http://metaviz.cbcb.umd.edu) for interactive visualization of metagenomics data. Objects in R/bioc interactive sessions can be displayed in plots and data can be explored using a facetzoom visualization. Fundamental Bioconductor data structures are supported (e.g., MRexperiment objects), while providing an easy mechanism to support other data structures. Visualizations (using d3.js) can be easily added to the web app as well.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="13%" />
@@ -73,39 +73,36 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.7/bioc/html/MetCirc.html">http://bioconductor.org/packages/3.7/bioc/html/MetCirc.html</a></td>
+<td><a class="reference external" href="http://bioconductor.org/packages/3.6/bioc/html/metavizr.html">http://bioconductor.org/packages/3.6/bioc/html/metavizr.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>1.10.0, 1.2.0, 1.6.0</td>
+<td>1.2.1</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPL-2</td>
+<td>MIT + file LICENSE</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metcirc</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>biotools: <a class="reference external" href="https://bio.tools/metcirc">metcirc</a>, doi: <a class="reference external" href="https://doi.org/10.1093/bioinformatics/btx159">10.1093/bioinformatics/btx159</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metavizr</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">metcirc</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">metavizr</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">metcirc</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">bioconductor</span><span class="o">-</span><span class="n">metavizr</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-metcirc"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-metcirc/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-metcirc">https://quay.io/repository/biocontainers/bioconductor-metcirc</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-metavizr"><img alt="docker" src="https://quay.io/repository/biocontainers/bioconductor-metavizr/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/bioconductor-metavizr">https://quay.io/repository/biocontainers/bioconductor-metavizr</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-metcirc/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metcirc/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/bioconductor-metavizr/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-metavizr/README.html)
 </pre></div>
 </div>
 </div>
@@ -155,7 +152,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/bioconductor-metcirc/README.rst.txt"
+      <a href="../../_sources/recipes/bioconductor-metavizr/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
