@@ -9,7 +9,7 @@ Strelka calls somatic and germline small variants from mapped sequencing reads
 
 ============= ===========
 Home          https://github.com/Illumina/strelka
-Versions      2.7.1, 2.8.2, 2.8.4, 2.9.2, 2.9.3, 2.9.4, 2.9.7
+Versions      2.7.1, 2.8.2, 2.8.4, 2.9.10, 2.9.2, 2.9.3, 2.9.4, 2.9.7
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strelka
 

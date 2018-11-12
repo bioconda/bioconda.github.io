@@ -9,7 +9,7 @@ Perl interface to the MD\-5 algorithm
 
 ============= ===========
 Home          http://metacpan.org/pod/Digest-MD5
-Versions      2.52
+Versions      2.52, 2.55
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-md5
 

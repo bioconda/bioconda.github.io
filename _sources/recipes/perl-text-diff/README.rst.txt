@@ -9,7 +9,7 @@ Perform diffs on files and record sets
 
 ============= ===========
 Home          http://metacpan.org/pod/Text-Diff
-Versions      1.44
+Versions      1.44, 1.45
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-diff
 

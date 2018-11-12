@@ -9,7 +9,7 @@ Perl extension for recursively copying files and directories
 
 ============= ===========
 Home          https://metacpan.org/pod/File::Copy::Recursive
-Versions      0.38
+Versions      0.38, 0.44
 License       Perl
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-copy-recursive
 

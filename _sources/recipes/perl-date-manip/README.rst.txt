@@ -9,7 +9,7 @@ Date manipulation routines
 
 ============= ===========
 Home          http://metacpan.org/pod/Date::Manip
-Versions      6.57, 6.72
+Versions      6.57, 6.72, 6.73
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip
 

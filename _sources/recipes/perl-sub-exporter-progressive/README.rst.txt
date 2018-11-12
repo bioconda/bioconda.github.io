@@ -9,7 +9,7 @@ Only use Sub\:\:Exporter if you need it
 
 ============= ===========
 Home          http://search.cpan.org/dist/Sub-Exporter-Progressive/
-Versions      0.001011
+Versions      0.001011, 0.001013
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-exporter-progressive
 

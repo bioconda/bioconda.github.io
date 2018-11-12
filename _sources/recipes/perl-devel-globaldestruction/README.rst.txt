@@ -9,7 +9,7 @@ Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUC
 
 ============= ===========
 Home          https://metacpan.org/release/Devel-GlobalDestruction
-Versions      0.13
+Versions      0.13, 0.14
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-globaldestruction
 

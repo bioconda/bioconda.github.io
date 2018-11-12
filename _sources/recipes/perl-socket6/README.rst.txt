@@ -9,7 +9,7 @@ IPv6 related part of the C socket.h defines and structure manipulators
 
 ============= ===========
 Home          http://metacpan.org/pod/Socket6
-Versions      0.25
+Versions      0.25, 0.29
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket6
 

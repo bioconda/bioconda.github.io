@@ -9,7 +9,7 @@ Extremely flexible deep comparison
 
 ============= ===========
 Home          http://github.com/rjbs/Test-Deep/
-Versions      1.120
+Versions      1.120, 1.128
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-deep
 

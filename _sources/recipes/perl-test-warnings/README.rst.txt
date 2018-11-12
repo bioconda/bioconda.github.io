@@ -9,7 +9,7 @@ Test for warnings and the lack of them
 
 ============= ===========
 Home          https://github.com/karenetheridge/Test-Warnings
-Versions      0.021
+Versions      0.021, 0.026
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warnings
 

@@ -9,7 +9,7 @@ Utilities for interactive I\/O
 
 ============= ===========
 Home          https://github.com/briandfoy/io-interactive
-Versions      1.021
+Versions      1.021, 1.022
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-interactive
 

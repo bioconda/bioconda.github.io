@@ -9,7 +9,7 @@ File path utility
 
 ============= ===========
 Home          https://github.com/dagolden/Path-Tiny
-Versions      0.076, 0.082
+Versions      0.076, 0.082, 0.108
 License       apache_2_0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-tiny
 

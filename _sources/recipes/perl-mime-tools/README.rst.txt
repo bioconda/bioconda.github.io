@@ -9,7 +9,7 @@ Tools to manipulate MIME messages
 
 ============= ===========
 Home          http://metacpan.org/pod/MIME-tools
-Versions      5.507
+Versions      5.507, 5.508
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools
 

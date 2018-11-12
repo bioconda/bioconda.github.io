@@ -9,7 +9,7 @@ Capture STDOUT and STDERR from Perl\, XS or external programs
 
 ============= ===========
 Home          https://github.com/dagolden/Capture-Tiny
-Versions      0.34, 0.36
+Versions      0.34, 0.36, 0.48
 License       apache_2_0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-capture-tiny
 

@@ -9,7 +9,7 @@ Biobb\_md is the Biobb module collection to perform molecular dynamics simulatio
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_md
-Versions      0.0.1, 0.0.2, 0.1.0
+Versions      0.0.1, 0.0.2, 0.1.0, 0.1.1
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_md
 

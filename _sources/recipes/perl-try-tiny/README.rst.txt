@@ -9,7 +9,7 @@ minimal try\/catch with proper preservation of \$\@
 
 ============= ===========
 Home          https://github.com/karenetheridge/Try-Tiny
-Versions      0.24
+Versions      0.24, 0.30
 License       mit
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny
 

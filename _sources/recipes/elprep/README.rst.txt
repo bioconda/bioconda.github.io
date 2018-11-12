@@ -9,7 +9,7 @@ elPrep is a high\-performance tool for preparing .sam\/.bam files for variant ca
 
 ============= ===========
 Home          https://github.com/ExaScience/elprep
-Versions      3.04, 4.0.0
+Versions      3.04, 4.0.0, 4.0.1
 License       GNU AFFERO GENERAL PUBLIC LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/elprep
 

@@ -9,7 +9,7 @@ Type constraints and coercions for Perl
 
 ============= ===========
 Home          http://metacpan.org/release/Specio
-Versions      0.42
+Versions      0.42, 0.43
 License       artistic_2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-specio
 
