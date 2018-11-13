@@ -9,7 +9,7 @@ Smith\-Waterman local aligner
 
 ============= ===========
 Home          http://github.com/mbreese/swalign/
-Versions      0.3.3
+Versions      0.3.3, 0.3.4
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swalign
 

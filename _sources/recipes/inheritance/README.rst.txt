@@ -9,7 +9,7 @@ inheritance models for mendelian diseases
 
 ============= ===========
 Home          https://github.com/brentp/inheritance
-Versions      0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.9, 0.1.2
+Versions      0.0.3, 0.0.4, 0.0.5, 0.0.6, 0.0.7, 0.0.9, 0.1.2, 0.1.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inheritance
 

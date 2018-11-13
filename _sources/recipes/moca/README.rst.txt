@@ -9,7 +9,7 @@ Tool for motif conservation analysis
 
 ============= ===========
 Home          https://github.com/saketkc/moca
-Versions      0.2.9, 0.3.3, 0.3.4
+Versions      0.2.9, 0.3.3, 0.3.4, 0.4.3
 License       ISC License (ISCL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moca
 

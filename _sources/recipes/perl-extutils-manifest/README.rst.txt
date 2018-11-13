@@ -9,7 +9,7 @@ Utilities to write and check a MANIFEST file
 
 ============= ===========
 Home          https://metacpan.org/release/ExtUtils-Manifest
-Versions      1.70
+Versions      1.70, 1.71
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-manifest
 

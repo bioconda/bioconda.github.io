@@ -9,7 +9,7 @@ Oxford Nanopore Technologies fast5 API software
 
 ============= ===========
 Home          https://github.com/nanoporetech/ont_fast5_api
-Versions      0.4.1
+Versions      0.4.1, 1.0.1
 License       Mozilla Public License 2.0 (MPL 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ont-fast5-api
 

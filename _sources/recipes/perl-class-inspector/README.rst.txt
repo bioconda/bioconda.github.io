@@ -9,7 +9,7 @@ Get information about a class and its structure
 
 ============= ===========
 Home          http://metacpan.org/pod/Class-Inspector
-Versions      1.28
+Versions      1.28, 1.32
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-inspector
 
