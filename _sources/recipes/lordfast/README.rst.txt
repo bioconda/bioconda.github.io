@@ -9,7 +9,7 @@ Sensitive and Fast Alignment Search Tool for Long Read sequencing Data
 
 ============= ===========
 Home          https://github.com/vpc-ccg/lordfast
-Versions      0.0.9
+Versions      0.0.10, 0.0.9
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lordfast
 
