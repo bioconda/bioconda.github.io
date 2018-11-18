@@ -9,7 +9,7 @@ Predict plasmids from uncorrected long read data.
 
 ============= ===========
 Home          https://github.com/andrewjpage/tiptoft
-Versions      0.1.4
+Versions      0.1.4, 1.0.0
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tiptoft
 
