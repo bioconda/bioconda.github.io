@@ -9,7 +9,7 @@ A simple transcriptome assembler based on kallisto and Cortex graphs.
 
 ============= ===========
 Home          https://github.com/winni2k/abeona
-Versions      0.23.0, 0.23.1, 0.24.0, 0.26.0, 0.31.2, 0.36.0, 0.37.2, 0.39.3
+Versions      0.23.0, 0.23.1, 0.24.0, 0.26.0, 0.31.2, 0.36.0, 0.37.2, 0.39.3, 0.40.0
 License       Apache Software
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abeona
 

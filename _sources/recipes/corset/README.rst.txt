@@ -9,7 +9,7 @@ Software for clustering de novo assembled transcripts and counting overlapping r
 
 ============= ===========
 Home          https://github.com/Oshlack/Corset
-Versions      1.06
+Versions      1.06, 1.07
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/corset
 
