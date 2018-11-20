@@ -9,7 +9,7 @@ This package MOB\-suite\: software tools for clustering\, reconstruction and typ
 
 ============= ===========
 Home          https://github.com/phac-nml/mob-suite
-Versions      1.4.1, 1.4.5, 1.4.6, 1.4.8
+Versions      1.4.1, 1.4.5, 1.4.6, 1.4.8, 1.4.9
 License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mob_suite
 

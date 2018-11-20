@@ -9,7 +9,7 @@ GRIDSS\: a Genomic Rearrangement IDentification Software Suite
 
 ============= ===========
 Home          https://github.com/PapenfussLab/gridss
-Versions      1.2.4, 1.3.0, 1.3.2, 1.3.4, 1.7.2, 1.8.0, 1.8.1, 1.9.0
+Versions      1.2.4, 1.3.0, 1.3.2, 1.3.4, 1.7.2, 1.8.0, 1.8.1, 1.9.0, 2.0.1
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gridss
 
