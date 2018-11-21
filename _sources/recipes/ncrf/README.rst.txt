@@ -9,7 +9,7 @@ Noise\-Cancelling Repeat Finder\, Uncovering tandem repeats in error\-prone long
 
 ============= ===========
 Home          https://github.com/makovalab-psu/NoiseCancellingRepeatFinder
-Versions      
+Versions      1.0.4
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncrf
 
