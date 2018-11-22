@@ -3070,6 +3070,7 @@ Available packages
     <tr><td><a href="recipes/genenotebook/README.html">genenotebook</a></td><td>0.1.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/genenotebook/README.html">genenotebook</a></td><td>0.1.7</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/genenotebook/README.html">genenotebook</a></td><td>0.1.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/genenotebook/README.html">genenotebook</a></td><td>0.1.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gxformat2/README.html">gxformat2</a></td><td>0.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gxformat2/README.html">gxformat2</a></td><td>0.8.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-hilbertvis/README.html">bioconductor-hilbertvis</a></td><td>1.32.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -9374,6 +9375,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-genomegraphs/README.html">bioconductor-genomegraphs</a></td><td>1.36.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-genomegraphs/README.html">bioconductor-genomegraphs</a></td><td>1.38.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-genomegraphs/README.html">bioconductor-genomegraphs</a></td><td>1.40.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/r-airr/README.html">r-airr</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-vcftools-vcf/README.html">perl-vcftools-vcf</a></td><td>0.1.14</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-vcftools-vcf/README.html">perl-vcftools-vcf</a></td><td>0.1.15</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-vcftools-vcf/README.html">perl-vcftools-vcf</a></td><td>0.1.16</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
