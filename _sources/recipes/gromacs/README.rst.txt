@@ -9,13 +9,13 @@ GROMACS is a versatile package to perform molecular dynamics.
 
 ============= ===========
 Home          http://www.gromacs.org/
-Versions      2018, 2018.2, 4.6.5
+Versions      2018, 2018.2, 2018.3, 2018.4, 4.6.5
 License       GNU Lesser General Public License (LGPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gromacs
 
 
 
-Links         biotools: :biotools:`gromacs`, doi: :doi:`10.1016/j.softx.2015.06.001`
+Links         biotools: :biotools:`gromacs`, doi: :doi:`10.1016/j.softx.2015.06.001`, rrid: :rrid:`RRID:SCR_014565`
 
 ============= ===========
 

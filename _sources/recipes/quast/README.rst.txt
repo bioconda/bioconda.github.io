@@ -9,7 +9,7 @@ Quality Assessment Tool for Genome Assemblies
 
 ============= ===========
 Home          http://quast.sourceforge.net/
-Versions      3.2, 4.1, 4.3, 4.4, 4.5, 4.6.1, 4.6.3, 5.0.0, 5.0.1
+Versions      3.2, 4.1, 4.3, 4.4, 4.5, 4.6.1, 4.6.3, 5.0.0, 5.0.1, 5.0.2
 License       Custom
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quast
 
