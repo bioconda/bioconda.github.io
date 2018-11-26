@@ -9,7 +9,7 @@ Clustering cONtigs with COverage and ComposiTion
 
 ============= ===========
 Home          https://github.com/BinPro/CONCOCT
-Versions      0.4.0, 0.4.1
+Versions      0.4.0, 0.4.1, 0.4.2
 License       FreeBSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/concoct
 
