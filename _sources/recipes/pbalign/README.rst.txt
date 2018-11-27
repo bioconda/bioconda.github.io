@@ -10,7 +10,7 @@ Python wrapper for producing PBBAM valid alignments
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbalign
 Versions      0.3.1
-License       BSD
+License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbalign
 
 
