@@ -89,9 +89,9 @@ found in the `defaults` channel.
 
 ::
 
-    conda config --add channels defaults
-    conda config --add channels bioconda
-    conda config --add channels conda-forge
+    conda config --env --add channels defaults
+    conda config --env --add channels bioconda
+    conda config --env --add channels conda-forge
 
 3. Install packages
 -------------------
