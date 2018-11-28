@@ -9,7 +9,7 @@ kipoi\_veff\: variant effect prediction plugin for Kipoi
 
 ============= ===========
 Home          https://github.com/kipoi/kipoi-veff
-Versions      0.1.2, 0.2.0
+Versions      0.1.2, 0.2.0, 0.2.1
 License       MIT license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kipoi_veff
 

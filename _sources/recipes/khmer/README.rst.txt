@@ -9,7 +9,7 @@ khmer k\-mer counting library
 
 ============= ===========
 Home          https://khmer.readthedocs.io/
-Versions      2.0, 2.1, 2.1.2, 2.1rc1, 3.0.0a1
+Versions      2.0, 2.1, 2.1.2, 2.1rc1, 3.0.0a1, 3.0.0a2
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/khmer
 
