@@ -9,7 +9,7 @@ pbsv \- Calling All Variants\: Fast\, Accurate\, Population\-Scale Structural Va
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      2.0.0, 2.0.1, 2.0.2
+Versions      2.0.0, 2.0.1, 2.0.2, 2.1.0
 License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbsv
 
