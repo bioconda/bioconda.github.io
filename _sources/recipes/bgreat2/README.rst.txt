@@ -9,7 +9,7 @@ BGREAT2 is a read mapping tool for NGS sequencing data that align reads on a de 
 
 ============= ===========
 Home          https://github.com/Malfoy/BGREAT2
-Versions      
+Versions      2.0.0
 License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bgreat2
 
