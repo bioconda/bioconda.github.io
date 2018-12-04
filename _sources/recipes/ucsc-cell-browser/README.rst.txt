@@ -9,7 +9,7 @@ A browser for single\-cell data\, main site at http\:\/\/cells.ucsc.edu
 
 ============= ===========
 Home          http://cells.ucsc.edu
-Versions      
+Versions      0.4.23
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-cell-browser
 

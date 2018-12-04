@@ -5,17 +5,17 @@ eigensoft
 
 |downloads|
 
-Population Genetics \- Principal Components Analysis \(PCA\)
+The EIGENSOFT package implements methods for analzing population structure and performing stratification correction
 
 ============= ===========
-Home          http://www.hsph.harvard.edu/alkes-price/software/
-Versions      6.0.1
+Home          https://github.com/DReichLab/EIG
+Versions      6.0.1, 7.2.1
 License       Custom OSS
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft
 
 
 
-Links         biotools: :biotools:`Eigensoft`
+Links         biotools: :biotools:`Eigensoft`, doi: :doi:`10.1371/journal.pgen.0020190`
 
 ============= ===========
 
