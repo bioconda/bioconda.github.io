@@ -9,7 +9,7 @@ Exports SISTR results available through IRIDA into a single report.
 
 ============= ===========
 Home          https://github.com/phac-nml/irida-sistr-results
-Versions      0.3.1, 0.4.0, 0.5.0
+Versions      0.3.1, 0.4.0, 0.5.0, 0.6.0
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-sistr-results
 

@@ -9,7 +9,7 @@ Useful set of classes for creating statistical genetic programs.
 
 ============= ===========
 Home          https://genome.sph.umich.edu/wiki/C++_Library:_libStatGen
-Versions      1.0.5
+Versions      1.0.14, 1.0.5
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libstatgen
 

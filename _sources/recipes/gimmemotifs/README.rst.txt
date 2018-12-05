@@ -9,7 +9,7 @@ Motif prediction pipeline and various motif\-related tools
 
 ============= ===========
 Home          https://github.com/vanheeringen-lab/gimmemotifs
-Versions      0.10.0, 0.10.0b1, 0.10.0b4, 0.10.0b5, 0.10.0b6, 0.11.1, 0.12.0, 0.13.0, 0.8.9.1, 0.9.0.3, 0.9.0.4, 0.9.0.5, 0.9.0.6
+Versions      0.10.0, 0.10.0b1, 0.10.0b4, 0.10.0b5, 0.10.0b6, 0.11.1, 0.12.0, 0.13.0, 0.13.1, 0.8.9.1, 0.9.0.3, 0.9.0.4, 0.9.0.5, 0.9.0.6
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gimmemotifs
 
