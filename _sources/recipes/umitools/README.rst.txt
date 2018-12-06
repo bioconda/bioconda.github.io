@@ -9,11 +9,13 @@ A toolset for handling sequencing data with unique molecular identifiers \(UMIs\
 
 ============= ===========
 Home          https://github.com/weng-lab/umitools
-Versions      0.3.0
+Versions      0.3.0, 0.3.4
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/umitools
 
 
+
+Links         doi: :doi:`10.1186/s12864-018-4933-1`
 
 ============= ===========
 
