@@ -5,11 +5,11 @@ teloclip
 
 |downloads|
 
-Filter SAM file for soft\-clipped alignments containing unassembled telomeric repeats.
+A tool for the recovery of unassembled telomeres from soft\-clipped read alignments.
 
 ============= ===========
 Home          https://github.com/Adamtaranto/teloclip
-Versions      0.0.2
+Versions      0.0.2, 0.0.3
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/teloclip
 

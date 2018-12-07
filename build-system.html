@@ -195,7 +195,7 @@ can be merged into the master branch</li>
 <li><dl class="first docutils">
 <dt>if we are on the master branch:</dt>
 <dd><ul class="first last">
-<li>upload the built conda package to anaconda.org</li>
+<li>upload the built conda package to anaconda.org, with an optional label</li>
 <li>upload the BusyBox container to quay.io</li>
 </ul>
 </dd>
@@ -241,6 +241,14 @@ left off. Failing tests are fixed in another round of commits, and these
 changes are then pushed to <code class="docutils literal notranslate"><span class="pre">bulk</span></code> and the process repeats. Once <code class="docutils literal notranslate"><span class="pre">bulk</span></code> is
 fully successful, a PR is opened to merge the changes into master.</p>
 </div>
+<div class="section" id="labels">
+<h2>Labels<a class="headerlink" href="#labels" title="Permalink to this headline">¶</a></h2>
+<p>If the <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> environment variable is set, then all uploads will
+have that label assigned to them, rather than <code class="docutils literal notranslate"><span class="pre">main</span></code>. Consequently, they can
+only be installed by adding <code class="docutils literal notranslate"><span class="pre">-c</span> <span class="pre">bioconda/BIOCONDA_LABEL</span></code> to the channels,
+where <code class="docutils literal notranslate"><span class="pre">BIOCONDA_LABEL</span></code> is whatever that environment variable is set to. Note
+that uploads of biocontainers to quay.io will still occur!</p>
+</div>
 </div>
 
 
@@ -276,6 +284,7 @@ fully successful, a PR is opened to merge the changes into master.</p>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#the-bulk-branch">The <code class="docutils literal notranslate"><span class="pre">bulk</span></code> branch</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#labels">Labels</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>

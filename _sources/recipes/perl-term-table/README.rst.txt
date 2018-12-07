@@ -9,7 +9,7 @@ Format a header and rows into a table
 
 ============= ===========
 Home          http://metacpan.org/pod/Term::Table
-Versions      0.012
+Versions      0.012, 0.013
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-table
 

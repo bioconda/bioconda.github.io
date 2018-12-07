@@ -9,7 +9,7 @@ Generates WTForms forms from SQLAlchemy models.
 
 ============= ===========
 Home          https://github.com/kvesteri/wtforms-alchemy
-Versions      0.15.0, 0.16.7
+Versions      0.15.0, 0.16.7, 0.16.8
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtforms-alchemy
 
