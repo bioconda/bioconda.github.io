@@ -9,7 +9,7 @@ Snakemake is a workflow management system that aims to reduce the complexity of 
 
 ============= ===========
 Home          https://snakemake.readthedocs.io
-Versions      5.2.1, 5.2.2, 5.2.4, 5.3.0
+Versions      5.2.1, 5.2.2, 5.2.4, 5.3.0, 5.3.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snakemake-minimal
 

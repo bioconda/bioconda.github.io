@@ -9,7 +9,7 @@ A lightweight bioinformatics framework with automated tracking of diagnostics an
 
 ============= ===========
 Home          https://bitbucket.org/caseywdunn/biolite
-Versions      1.1.0
+Versions      1.1.0, 1.2.0
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biolite
 
