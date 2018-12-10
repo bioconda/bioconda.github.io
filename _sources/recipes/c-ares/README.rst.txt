@@ -9,7 +9,7 @@ c\-ares is a C library for asynchronous DNS requests \(including name resolves\)
 
 ============= ===========
 Home          http://c-ares.haxx.se/
-Versions      1.11.0
+Versions      1.11.0, 1.14.0, 1.15.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/c-ares
 

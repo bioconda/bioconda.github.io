@@ -9,7 +9,7 @@ munkres algorithm for the Assignment Problem
 
 ============= ===========
 Home          http://software.clapper.org/munkres/
-Versions      1.0.7
+Versions      1.0.12, 1.0.7
 License       Apache License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/munkres
 

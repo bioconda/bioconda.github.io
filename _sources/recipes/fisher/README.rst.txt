@@ -9,7 +9,7 @@ Fast Fisher\'s Exact Test
 
 ============= ===========
 Home          http://github.com/brentp/fishers_exact_test
-Versions      0.1.4
+Versions      0.1.4, 0.1.5
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fisher
 

@@ -9,7 +9,7 @@ Training datasets for iC10\; which implements the classifier described in the pa
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=iC10TrainingData
-Versions      1.0.1
+Versions      1.0.1, 1.3.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10trainingdata
 

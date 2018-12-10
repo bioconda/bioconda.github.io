@@ -9,7 +9,7 @@ netifaces
 
 ============= ===========
 Home          https://bitbucket.org/al45tair/netifaces
-Versions      0.10.4
+Versions      0.10.4, 0.10.5, 0.10.6, 0.10.7
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/netifaces
 

@@ -9,7 +9,7 @@ Variables defined by the XDG Base Directory Specification
 
 ============= ===========
 Home          https://github.com/srstevenson/xdg
-Versions      1.0.5
+Versions      1.0.5, 2.0.0, 3.0.1, 3.0.2
 License       ISC License (ISCL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xdg
 

@@ -9,7 +9,7 @@ De novo genome assembly evaluation
 
 ============= ===========
 Home          http://assembly-eval.sourceforge.net/
-Versions      1.1.r186
+Versions      0.3.0, 0.4.0, 1.1.r186
 License       
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lap
 

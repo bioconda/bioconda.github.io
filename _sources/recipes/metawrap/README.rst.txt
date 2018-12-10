@@ -9,7 +9,7 @@ MetaWRAP is a pipeline for genome\-resolved metagenomic data analysis
 
 ============= ===========
 Home          https://github.com/bxlab/metaWRAP
-Versions      1.0
+Versions      0.0.1, 0.0.2, 1.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawrap
 

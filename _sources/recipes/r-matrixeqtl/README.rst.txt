@@ -9,7 +9,7 @@ Matrix eQTL is designed for fast eQTL analysis on large datasets. Matrix eQTL ca
 
 ============= ===========
 Home          http://www.bios.unc.edu/research/genomic_software/Matrix_eQTL/
-Versions      2.1.1
+Versions      2.1.1, 2.2
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-matrixeqtl
 

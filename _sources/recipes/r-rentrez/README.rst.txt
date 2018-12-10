@@ -9,7 +9,7 @@ Provides an R interface to the NCBI\'s \'EUtils\' API\,  allowing users to searc
 
 ============= ===========
 Home          http://github.com/ropensci/rentrez
-Versions      1.1.0
+Versions      1.1.0, 1.2.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rentrez
 

@@ -9,7 +9,7 @@ py.test plugin to abort hanging tests
 
 ============= ===========
 Home          http://bitbucket.org/pytest-dev/pytest-timeout/
-Versions      1.0.0
+Versions      1.0.0, 1.2.0, 1.2.1, 1.3.0, 1.3.1, 1.3.2, 1.3.3
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytest-timeout
 
