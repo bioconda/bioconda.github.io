@@ -146,6 +146,27 @@ bioconda-utils build recipes config.yml --git-range master
 </pre></div>
 </div>
 </div>
+<div class="section" id="updating-recipes">
+<h3>Updating recipes<a class="headerlink" href="#updating-recipes" title="Permalink to this headline">¶</a></h3>
+<p><cite>bioconda-utils</cite> now has the ability to automatically update packages and
+submit a PR on your behalf. Note that the auto-updater does not yet know how to
+monitor changed dependencies, so it is important to verify that the updated
+recipe reflects all the changes. This tool is most useful when scanning
+packages to know when something has been updated.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml --packages &lt;my-package-name&gt;
+</pre></div>
+</div>
+<p>will update the package’s recipe which you can then inspect. If you have
+a <a class="reference external" href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">GitHub personal access token</a>
+set as the environment variable <code class="docutils literal notranslate"><span class="pre">GITHUB_TOKEN</span></code>, the following command will
+additionally submit a pull request on your behalf:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml <span class="se">\</span>
+  --packages &lt;my-package-name&gt; <span class="se">\</span>
+  --create-pr
+</pre></div>
+</div>
+<p>For more details, see the <a class="reference internal" href="updating.html#updating"><span class="std std-ref">Updating recipes</span></a> section.</p>
+</div>
 </div>
 <div class="section" id="push-changes-wait-for-tests-to-pass-submit-pull-request">
 <h2>4. Push changes, wait for tests to pass, submit pull request<a class="headerlink" href="#push-changes-wait-for-tests-to-pass-submit-pull-request" title="Permalink to this headline">¶</a></h2>
@@ -234,6 +255,7 @@ correctly, and that they create an isolated environment when installing using
 <li class="toctree-l2"><a class="reference internal" href="guidelines.html">Guidelines for <code class="docutils literal notranslate"><span class="pre">bioconda</span></code> recipes</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="updating.html">Updating recipes</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>

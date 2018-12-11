@@ -1,0 +1,276 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Updating recipes &#8212; Bioconda  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Linting" href="linting.html" />
+    <link rel="prev" title="Guidelines for bioconda recipes" href="guidelines.html" />
+<link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
+<link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="_static/style.css">
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.css"/>
+<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<script type="text/javascript" src="https://cdn.datatables.net/v/dt/jqc-1.12.3/dt-1.10.12/datatables.min.js"></script>
+
+<script type="text/javascript" class="init">
+$(document).ready(function() {
+    $('#recipestable').DataTable( {
+        "lengthMenu": [[10, 25, 50, -1], [10, 25, 50, "All"]]
+    } );
+} );
+</script>
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="updating-recipes">
+<span id="updating"></span><h1>Updating recipes<a class="headerlink" href="#updating-recipes" title="Permalink to this headline">¶</a></h1>
+<p><cite>bioconda-utils</cite> now has the ability to automatically update packages and
+submit a PR on your behalf. Note that the auto-updater does not yet know how to
+monitor changed dependencies, so it is important to verify that the updated
+recipe reflects all the changes. This tool is most useful when scanning
+packages to know when something has been updated.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml --packages &lt;my-package-name&gt;
+</pre></div>
+</div>
+<p>will update the package’s recipe which you can then inspect. If you have
+a <a class="reference external" href="https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/">GitHub personal access token</a>
+set as the environment variable <code class="docutils literal notranslate"><span class="pre">GITHUB_TOKEN</span></code>, the following command will
+additionally submit a pull request on your behalf:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>bioconda-utils update recipes/ config.yml <span class="se">\</span>
+  --packages &lt;my-package-name&gt; <span class="se">\</span>
+  --create-pr
+</pre></div>
+</div>
+<p>By default, subrecipes  will be ignored for updating unless
+they specifically have the following in their <cite>extra</cite> block:</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">extra</span><span class="p p-Indicator">:</span>
+  <span class="l l-Scalar l-Scalar-Plain">watch</span><span class="p p-Indicator">:</span>
+    <span class="l l-Scalar l-Scalar-Plain">enable</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">yes</span>
+</pre></div>
+</div>
+<p>E.g., <cite>packagename/meta.yaml</cite> is the main recipe, and
+<cite>packagename/0.5/meta.yaml</cite> is a subrecipe. So <cite>packagename/0.5/meta.yaml</cite>
+needs the above <cite>extra</cite> block if it should ever be automatically updated.</p>
+<div class="section" id="how-it-works">
+<h2>How it works<a class="headerlink" href="#how-it-works" title="Permalink to this headline">¶</a></h2>
+<p>This section describes the system in more detail for developers looking to
+expand the functionality of the update scanner or anyone interested in the
+inner workings.</p>
+<div class="section" id="the-components">
+<h3>The components<a class="headerlink" href="#the-components" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>bioconda_utils.update.Recipe</cite> object contains logic for finding and
+replacing text that may contain version information (such as within <code class="docutils literal notranslate"><span class="pre">package:</span></code>
+and <code class="docutils literal notranslate"><span class="pre">source:</span></code> sections or Jinja set statements), for resetting build numbers,
+and for reading and writing recipes. Notably, reading and writing recipes here
+does not rely on conda-build as we need to do things conda-build was not
+designed for.</p>
+<p>The <cite>bioconda_utils.update.Scanner</cite> class reads recipes and applies various
+filters (described below) in an asyncio loop to dramatically speed up the many
+http calls that are performed over the course of scanning for updates. It also
+handles other things like retrying after increasingly longer wait times when it
+encounters non-permanent HTTP errors.</p>
+<p>Subclasses of <cite>bioconda_utils.update.Filter</cite> are added to the scanner. They
+contain logic in their <cite>apply</cite> method. This method at least takes a recipe as
+the first argument, and either returns a (possibly modified) recipe or raises
+a custom exception. The remainder of the <cite>apply</cite> function can do arbitrarily
+complicated things, and will do so in the asyncio loop.</p>
+<p>Subclasses of <cite>bioconda_utils.hosters.Hoster</cite> use regular expressions to detect
+which recipes came from which site and how to find links to new source code
+from that site. There are existing hosters for e.g. GitHub, PyPI, CRAN, CPAN,
+Bioconductor, and more. These are primarily used by the <cite>UpdateVersion</cite> filter.</p>
+</div>
+<div class="section" id="writing-a-filter">
+<h3>Writing a filter<a class="headerlink" href="#writing-a-filter" title="Permalink to this headline">¶</a></h3>
+<p>To add additional functionality to the scanner, create a filter in
+<cite>bioconda_utils.update</cite> and add it to the scanner in
+<cite>bioconda_utils.cli.update()</cite>. There are existing filters to exclude recipes
+based on blacklist or subrecipe status, update a recipe based on the latest
+version found by a <cite>Hoster</cite> (see below), update checksums, figure out where to
+load a recipe from (i.e. master branch or an existing PR), create a new PR, and
+more.</p>
+<p>Filters can be arbitrarily complex, like any Python function. See the
+<cite>bioconda_utils.update</cite> source for examples when writing a new filter –
+<cite>ExcludeSubrecipe</cite> is a relatively simple one; <cite>UpdateVersion</cite> is more complex.</p>
+</div>
+<div class="section" id="writing-a-new-hoster">
+<h3>Writing a new hoster<a class="headerlink" href="#writing-a-new-hoster" title="Permalink to this headline">¶</a></h3>
+<p>A <cite>Hoster</cite> is a mechanism for scraping links of new releases off of a site and
+is the means by which we detect new releases. It works primarily by regular
+expressions.</p>
+<p>A hoster is a subclass of <cite>bioconda_utils.hosters.Hoster</cite> and is configured by</p>
+<ul class="simple">
+<li>a regex used to try matching with the existing source URL in the recipe</li>
+<li>a format string that will create the URL of the releases website on which
+possibly many versions may be listed</li>
+<li>a regex to match links from that page and extract their version</li>
+</ul>
+<p>If you want a recipe to be updated automatically (and existing hosters aren’t
+cutting it), write a new <cite>Hoster</cite> class in <cite>bioconda_utils.hosters</cite>. Any new
+classes will automatically be picked up by the <cite>HosterMeta</cite> metaclass and will
+be used to scan against existing recipes.</p>
+<p>Adding an attribute to the class with the suffix  <code class="docutils literal notranslate"><span class="pre">_pattern</span></code> allows the
+regular expression stored in that attribute to be subsituted into other regular
+expressions using <cite>{placeholder}</cite> format placeholders.</p>
+<p>Take, for example, the <cite>Bioconductor</cite> hoster which is commented here for
+explanation purposes:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Bioconductor</span><span class="p">(</span><span class="n">HTMLHoster</span><span class="p">):</span>
+    <span class="sd">&quot;&quot;&quot;Matches R packages hosted at Bioconductor&quot;&quot;&quot;</span>
+
+    <span class="c1"># This link pattern will be filled into the `url_pattern` below at the</span>
+    <span class="c1"># {link} placeholder. It will also be used to search for links within</span>
+    <span class="c1"># the HTML page defined below for `releases_format`.</span>
+    <span class="c1">#</span>
+    <span class="c1"># The `version` and `ext` placeholders here are regexps defined in the Hoster</span>
+    <span class="c1"># parent class -- basically, anything that looks reasonably like</span>
+    <span class="c1"># a version number will match for `version` and any of the extensions</span>
+    <span class="c1"># supported by conda will match for `ext`. See the source in</span>
+    <span class="c1"># bioconda_utils.hosters.Hoster for details. Those (quite complex)</span>
+    <span class="c1"># regexps will be filled in at these placeholders.</span>
+    <span class="n">link_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/src/contrib/(?P&lt;package&gt;[^/]+)_{version}{ext}&quot;</span>
+
+    <span class="c1"># Bioconductor packages are stored at different locations on the</span>
+    <span class="c1"># Bioconductor site depending on if they&#39;re a code package or a data</span>
+    <span class="c1"># package (annotation or experiment). This will match any of them, and</span>
+    <span class="c1"># will be filled in to the `url_pattern` below at the {section}</span>
+    <span class="c1"># placeholder.</span>
+    <span class="n">section_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;/(bioc|data/annotation|data/experiment)&quot;</span>
+
+    <span class="c1"># This is the pattern that will be checked against a recipe&#39;s source</span>
+    <span class="c1"># URLs to figure out if the recipe is a Bioconductor package. `section`</span>
+    <span class="c1"># and `link` are filled in from above (and `link` was in turn filled in</span>
+    <span class="c1"># recursively from `version` and `ext`)</span>
+    <span class="n">url_pattern</span> <span class="o">=</span> <span class="sa">r</span><span class="s2">&quot;bioconductor.org/packages/(?P&lt;bioc&gt;[\d\.]+){section}{link}&quot;</span>
+
+    <span class="c1"># This is the HTML page containing releases for this package. It will</span>
+    <span class="c1"># be filled in with # any other placeholders and then it will be</span>
+    <span class="c1"># scraped for links that match `link_pattern` defined above.</span>
+    <span class="n">releases_format</span> <span class="o">=</span> <span class="s2">&quot;https://bioconductor.org/packages/{bioc}/bioc/html/{package}.html&quot;</span>
+</pre></div>
+</div>
+<p>To tie this all together:</p>
+<ul class="simple">
+<li>A <cite>Scanner</cite> is set up, the <cite>UpdateVersion</cite> filter is added and the asyncio
+loop starts.</li>
+<li>The scanner checks all recipes. Because it has the <cite>UpdateVersion</cite>
+filter added, and because an <cite>UpdateVersion</cite> filter will check a recipe
+against all configured hosters, a Bioconductor recipe will match the above
+<cite>url_pattern</cite> for the <cite>Bioconductor</cite> hoster.</li>
+<li>The hoster object will go to the site specified by <cite>releases_format</cite> and
+scrape links that match <cite>link_pattern</cite>.</li>
+<li>The <cite>UpdateVersion</cite> filter will inspect those links found by the hoster,
+figure out which is the most recent, and see if the existing recipe is
+up-to-date. If a more recent link was found, use that and write the new
+recipe with the updated version and URL.</li>
+<li>The scanner also has the <cite>UpdateChecksums</cite> filter added, but it is added
+after <cite>UpdateVersion</cite>. This filter will inspect the package, download it, and
+update the checksum in the recipe.</li>
+</ul>
+<p>In practice, depending on the command-line argument provided (and therefore
+which filters were conditionally added) the scanner will do other things like
+exclude recipes, create a new branch or push a new pull request to GitHub for
+testing.</p>
+</div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<p class="logo">
+  <a href="index.html">
+    <img class="logo" src="_static/logo/bioconda_monochrome_small.png" alt="Logo"/>
+    
+  </a>
+</p>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="recipes.html">Available packages</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Updating recipes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-it-works">How it works</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-components">The components</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#writing-a-filter">Writing a filter</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#writing-a-new-hoster">Writing a new hoster</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
+<li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cb3.html">Conda build v3</a></li>
+</ul>
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2016, The Bioconda Team.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.2</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/updating.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
