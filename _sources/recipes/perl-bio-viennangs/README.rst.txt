@@ -5,12 +5,12 @@ perl-bio-viennangs
 
 |downloads|
 
-Bio\:\:ViennaNGS is a distribution of Perl modules and utilities for building efficient Next\-Generation Sequencing \(NGS\) analysis pipelines.
+A Perl distribution for Next\-Generation Sequencing \(NGS\) data analysis
 
 ============= ===========
-Home          http://search.cpan.org/dist/Bio-ViennaNGS/
+Home          http://metacpan.org/pod/Bio::ViennaNGS
 Versions      v0.16, v0.18, v0.19
-License       Perl5
+License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-viennangs
 
 

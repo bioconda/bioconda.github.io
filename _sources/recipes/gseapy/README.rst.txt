@@ -9,7 +9,7 @@ Gene Set Enrichment Analysis in Python
 
 ============= ===========
 Home          https://github.com/zqfang/gseapy
-Versions      0.4.2, 0.5.2a0, 0.5.3, 0.6.0, 0.6.2, 0.7.2, 0.7.3, 0.7.4, 0.8.11, 0.8.2, 0.8.3, 0.8.6, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.5, 0.9.7, 0.9.8
+Versions      0.4.2, 0.5.2a0, 0.5.3, 0.6.0, 0.6.2, 0.7.2, 0.7.3, 0.7.4, 0.8.11, 0.8.2, 0.8.3, 0.8.6, 0.9.0, 0.9.1, 0.9.2, 0.9.3, 0.9.5, 0.9.7, 0.9.8, 0.9.9
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gseapy
 
