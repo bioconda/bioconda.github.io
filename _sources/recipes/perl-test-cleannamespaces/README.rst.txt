@@ -9,7 +9,7 @@ Check for uncleaned imports
 
 ============= ===========
 Home          https://github.com/karenetheridge/Test-CleanNamespaces
-Versions      0.23
+Versions      0.23, 0.24
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-cleannamespaces
 

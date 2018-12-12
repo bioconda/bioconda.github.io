@@ -131,6 +131,7 @@ Available packages
     <tr><td><a href="recipes/r-argumentcheck/README.html">r-argumentcheck</a></td><td>0.10.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-mime-tools/README.html">perl-mime-tools</a></td><td>5.507</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-mime-tools/README.html">perl-mime-tools</a></td><td>5.508</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/extern/README.html">extern</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -1471,6 +1472,7 @@ Available packages
     <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.15</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.15.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.15.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.16</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/mlst/README.html">mlst</a></td><td>2.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/migraine/README.html">migraine</a></td><td>0.5.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -1705,6 +1707,7 @@ Available packages
     <tr><td><a href="recipes/flye/README.html">flye</a></td><td>2.3.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/flye/README.html">flye</a></td><td>2.3.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/svim/README.html">svim</a></td><td>0.4.1</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/svim/README.html">svim</a></td><td>0.4.2</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-prebs/README.html">bioconductor-prebs</a></td><td>1.18.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-prebs/README.html">bioconductor-prebs</a></td><td>1.20.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pispino/README.html">pispino</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -3037,6 +3040,7 @@ Available packages
     <tr><td><a href="recipes/fastq-screen/README.html">fastq-screen</a></td><td>0.13.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/fastq-screen/README.html">fastq-screen</a></td><td>0.5.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-test-cleannamespaces/README.html">perl-test-cleannamespaces</a></td><td>0.23</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-test-cleannamespaces/README.html">perl-test-cleannamespaces</a></td><td>0.24</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-minimumdistance/README.html">bioconductor-minimumdistance</a></td><td>1.22.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-minimumdistance/README.html">bioconductor-minimumdistance</a></td><td>1.24.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/motus/README.html">motus</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -6942,6 +6946,7 @@ Available packages
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.10</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.11</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.13</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.14</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.4</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.5</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/anndata/README.html">anndata</a></td><td>0.6.6</td><td></td><td></td><td></td></tr>
@@ -8944,6 +8949,7 @@ Available packages
     <tr><td><a href="recipes/links/README.html">links</a></td><td>1.8.6</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/transit/README.html">transit</a></td><td>2.3.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/transit/README.html">transit</a></td><td>2.3.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/transit/README.html">transit</a></td><td>2.3.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sak/README.html">sak</a></td><td>0.4.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nucamino/README.html">nucamino</a></td><td>0.1.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/skmer/README.html">skmer</a></td><td>1.0.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
