@@ -9,7 +9,7 @@ Python utility libraries on genome assembly\, annotation and comparative genomic
 
 ============= ===========
 Home          http://github.com/tanghaibao/jcvi
-Versions      0.8.4
+Versions      0.8.12, 0.8.4
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jcvi
 

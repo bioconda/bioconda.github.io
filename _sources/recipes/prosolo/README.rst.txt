@@ -8,8 +8,8 @@ prosolo
 A highly sensitive and accurate Bayesian caller for variants in single cell sequencing data.
 
 ============= ===========
-Home          https://github.com/prosolo/prosolo/tree/v0.6.0
-Versions      0.2.0, 0.3.1, 0.4.0, 0.5.0, 0.6.0
+Home          https://github.com/prosolo/prosolo/tree/v0.6.1
+Versions      0.2.0, 0.3.1, 0.4.0, 0.5.0, 0.6.0, 0.6.1
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prosolo
 
