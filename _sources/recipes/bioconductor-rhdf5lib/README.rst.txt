@@ -8,8 +8,8 @@ bioconductor-rhdf5lib
 Provides C and C\+\+ hdf5 libraries.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/Rhdf5lib.html
-Versions      1.0.0, 1.2.1
+Home          https://bioconductor.org/packages/3.8/bioc/html/Rhdf5lib.html
+Versions      1.0.0, 1.2.1, 1.4.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rhdf5lib
 

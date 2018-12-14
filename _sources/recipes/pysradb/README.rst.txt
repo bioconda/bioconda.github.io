@@ -9,7 +9,7 @@ Python package for interacting with SRAdb and downloading datasets from SRA
 
 ============= ===========
 Home          https://github.com/saketkc/pysradb
-Versions      0.2.2, 0.3.0
+Versions      0.2.2, 0.3.0, 0.4.0
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysradb
 

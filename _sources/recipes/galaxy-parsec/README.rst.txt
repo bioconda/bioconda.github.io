@@ -9,7 +9,7 @@ Command\-line utilities to assist in interacting with Galaxy servers \(http\:\/\
 
 ============= ===========
 Home          https://github.com/galaxy-iuc/parsec
-Versions      1.0.4, 1.0.5
+Versions      1.0.4, 1.0.5, 1.0.6
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-parsec
 
