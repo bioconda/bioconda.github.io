@@ -5,11 +5,11 @@ popdel
 
 |downloads|
 
-Fast structural deletion calling on population\-scale short read paired\-end data.
+Fast structural deletion calling on population\-scale short read paired\-end germline WGS data.
 
 ============= ===========
 Home          https://github.com/kehrlab/PopDel
-Versions      1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5
+Versions      1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popdel
 

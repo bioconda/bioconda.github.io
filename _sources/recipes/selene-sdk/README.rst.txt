@@ -10,7 +10,7 @@ Framework for developing sequence\-level deep learning networks.
 ============= ===========
 Home          https://github.com/FunctionLab/selene
 Versions      0.0.1, 0.1.2, 0.1.3, 0.2.0
-License       BSD 3-clause
+License       BSD 3-clause clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selene-sdk
 
 
