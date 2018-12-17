@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>meraculous &#8212; Bioconda  documentation</title>
+    <title>pysvmlight &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -16,8 +16,8 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="mercat" href="../mercat/README.html" />
-    <link rel="prev" title="mentalist" href="../mentalist/README.html" />
+    <link rel="next" title="pytabix" href="../pytabix/README.html" />
+    <link rel="prev" title="pysvg" href="../pysvg/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -61,10 +61,10 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="meraculous">
-<span id="id1"></span><h1>meraculous<a class="headerlink" href="#meraculous" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/meraculous"><img alt="downloads" src="https://anaconda.org/bioconda/meraculous/badges/downloads.svg" /></a></p>
-<p>Meraculous is a whole genome assembler for Next Generation Sequencing data, geared for large genomes. It’s hybrid k-mer/read-based approach capitalizes on the high accuracy of Illumina sequence by eschewing an explicit error correction step which we argue to be redundant with the assembly process. Meraculous achieves high performance with large datasets by utilizing lightweight data structures and multi-threaded parallelization, allowing to assemble human-sized genomes on a high-cpu cluster in under a day. The process pipeline implements a highly transparent and portable model of job control and monitoring where different assembly stages can be executed and re-executed separately or in unison on a wide variety of architectures.</p>
+  <div class="section" id="pysvmlight">
+<span id="id1"></span><h1>pysvmlight<a class="headerlink" href="#pysvmlight" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/pysvmlight"><img alt="downloads" src="https://anaconda.org/bioconda/pysvmlight/badges/downloads.svg" /></a></p>
+<p>Interface to Thorsten Joachims’ SVM-Light</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="15%" />
@@ -72,39 +72,36 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://jgi.doe.gov/data-and-tools/meraculous/">https://jgi.doe.gov/data-and-tools/meraculous/</a></td>
+<td><a class="reference external" href="https://bitbucket.org/wcauchois/pysvmlight">https://bitbucket.org/wcauchois/pysvmlight</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>2.2.4, 2.2.5, 2.2.5.1.1.ga103cd6, 2.2.6</td>
+<td>0.4</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>GPLv3</td>
+<td>UNKNOWN</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meraculous">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meraculous</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>doi: <a class="reference external" href="https://doi.org/10.1371/journal.pone.0023501">10.1371/journal.pone.0023501</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysvmlight">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysvmlight</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">meraculous</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pysvmlight</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">meraculous</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pysvmlight</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/meraculous"><img alt="docker" src="https://quay.io/repository/biocontainers/meraculous/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/meraculous">https://quay.io/repository/biocontainers/meraculous</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/pysvmlight"><img alt="docker" src="https://quay.io/repository/biocontainers/pysvmlight/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/pysvmlight">https://quay.io/repository/biocontainers/pysvmlight</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/meraculous/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/meraculous/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pysvmlight/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pysvmlight/README.html)
 </pre></div>
 </div>
 </div>
@@ -155,7 +152,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/meraculous/README.rst.txt"
+      <a href="../../_sources/recipes/pysvmlight/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

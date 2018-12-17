@@ -9,7 +9,7 @@ Sequence Quality Control pipeline\/modules
 
 ============= ===========
 Home          https://github.com/bioexcel/bioexcel_seqqc
-Versions      0.5
+Versions      0.5, 0.6
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/BioExcel_SeqQC
 
