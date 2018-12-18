@@ -9,7 +9,7 @@ Numeric 1st and 2nd order differentiation.
 
 ============= ===========
 Home          http://metacpan.org/pod/Math-Derivative
-Versions      0.04
+Versions      0.04, 1.01
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-derivative
 

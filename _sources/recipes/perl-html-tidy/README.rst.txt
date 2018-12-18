@@ -9,7 +9,7 @@ perl-html-tidy
 
 ============= ===========
 Home          http://github.com/petdance/html-tidy
-Versions      1.56
+Versions      1.56, 1.60
 License       artistic_2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tidy
 
