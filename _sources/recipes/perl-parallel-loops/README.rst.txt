@@ -9,7 +9,7 @@ Execute loops using parallel forked subprocesses
 
 ============= ===========
 Home          http://metacpan.org/pod/Parallel::Loops
-Versions      0.08
+Versions      0.08, 0.10
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parallel-loops
 

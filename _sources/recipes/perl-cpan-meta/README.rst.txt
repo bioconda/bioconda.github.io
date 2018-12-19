@@ -9,7 +9,7 @@ the distribution metadata for a CPAN dist
 
 ============= ===========
 Home          https://github.com/dagolden/cpan-meta
-Versions      2.120921
+Versions      2.120921, 2.150010
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta
 

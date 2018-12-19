@@ -9,7 +9,7 @@ Provide an interface to ZIP archive files.
 
 ============= ===========
 Home          http://metacpan.org/pod/Archive::Zip
-Versions      1.55, 1.60
+Versions      1.55, 1.60, 1.64
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-archive-zip
 
