@@ -9,7 +9,7 @@ jq is a lightweight and flexible command\-line JSON processor.
 
 ============= ===========
 Home          https://stedolan.github.io/jq
-Versions      1.5
+Versions      1.5, 1.6
 License       MIT (code), CC-BY-3.0 (docs)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jq
 

@@ -9,7 +9,7 @@ rdflib extension adding JSON\-LD parser and serializer
 
 ============= ===========
 Home          https://github.com/RDFLib/rdflib-jsonld
-Versions      0.3, 0.4
+Versions      0.3, 0.4, 0.4.0
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdflib-jsonld
 

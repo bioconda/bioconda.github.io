@@ -9,7 +9,7 @@ FragGeneScan is an application for finding \(fragmented\) genes in short reads.
 
 ============= ===========
 Home          https://sourceforge.net/projects/fraggenescan/
-Versions      1.30
+Versions      1.30, 1.31
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fraggenescan
 
