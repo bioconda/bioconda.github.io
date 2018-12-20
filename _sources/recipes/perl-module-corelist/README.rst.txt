@@ -9,7 +9,7 @@ what modules shipped with versions of perl
 
 ============= ===========
 Home          http://dev.perl.org/
-Versions      5.20180120, 5.20180626, 5.20180820, 5.20181130
+Versions      5.20180120, 5.20180626, 5.20180820, 5.20181130, 5.20181218
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-corelist
 

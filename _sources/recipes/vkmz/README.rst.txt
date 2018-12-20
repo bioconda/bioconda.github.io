@@ -5,11 +5,11 @@ vkmz
 
 |downloads|
 
-VKMZ\: metabolomics formula prediction and van Krevelen diagram generation
+vkmz\: metabolomics formula prediction and van Krevelen diagram generation
 
 ============= ===========
-Home          https://github.com/HegemanLab/VKMZ
-Versions      v1.3.1
+Home          https://github.com/HegemanLab/vkmz
+Versions      v1.3.1, v1.4dev1
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vkmz
 
