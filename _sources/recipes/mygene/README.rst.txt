@@ -9,7 +9,7 @@ Python Client for MyGene.Info services.
 
 ============= ===========
 Home          https://github.com/suLab/mygene.py
-Versions      2.2.0, 3.0.0
+Versions      2.2.0, 3.0.0, 3.1.0
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mygene
 
