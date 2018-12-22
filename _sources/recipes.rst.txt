@@ -1127,6 +1127,7 @@ Available packages
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201808</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201808.01</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201808.02</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/sentieon/README.html">sentieon</a></td><td>201808.03</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sourcetracker/README.html">sourcetracker</a></td><td>2.0.1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-heap/README.html">perl-heap</a></td><td>0.80</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/hardklor/README.html">hardklor</a></td><td>2.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -2053,6 +2054,7 @@ Available packages
     <tr><td><a href="recipes/ucsc-cell-browser/README.html">ucsc-cell-browser</a></td><td>0.4.23</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>2.10</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>2.11</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>2.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>2.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/msstitch/README.html">msstitch</a></td><td>2.4</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -2267,6 +2269,7 @@ Available packages
     <tr><td><a href="recipes/multiqc/README.html">multiqc</a></td><td>1.5a</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/multiqc/README.html">multiqc</a></td><td>1.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/multiqc/README.html">multiqc</a></td><td>1.6a0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/multiqc/README.html">multiqc</a></td><td>1.7</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/genclust/README.html">genclust</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-agdex/README.html">bioconductor-agdex</a></td><td>1.24.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-agdex/README.html">bioconductor-agdex</a></td><td>1.26.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -2274,6 +2277,7 @@ Available packages
     <tr><td><a href="recipes/mdust/README.html">mdust</a></td><td>2006.10.17</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-excel-writer-xlsx/README.html">perl-excel-writer-xlsx</a></td><td>0.95</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-excel-writer-xlsx/README.html">perl-excel-writer-xlsx</a></td><td>0.98</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/bcool/README.html">bcool</a></td><td>1.0.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/hap.py/README.html">hap.py</a></td><td>0.2.9</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/hap.py/README.html">hap.py</a></td><td>0.3.10</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/hap.py/README.html">hap.py</a></td><td>0.3.7</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -2822,6 +2826,7 @@ Available packages
     <tr><td><a href="recipes/damageprofiler/README.html">damageprofiler</a></td><td>0.3.11</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/damageprofiler/README.html">damageprofiler</a></td><td>0.4.2</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/damageprofiler/README.html">damageprofiler</a></td><td>0.4.3</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/damageprofiler/README.html">damageprofiler</a></td><td>0.4.4</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-decontam/README.html">bioconductor-decontam</a></td><td>1.0.0</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-mime-quotedprint/README.html">perl-mime-quotedprint</a></td><td>3.13</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/smcounter2/README.html">smcounter2</a></td><td>0.1.2018.08.28</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -5307,6 +5312,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-lvsmirna/README.html">bioconductor-lvsmirna</a></td><td>1.28.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-lvsmirna/README.html">bioconductor-lvsmirna</a></td><td>1.30.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-endsinlf/README.html">ucsc-endsinlf</a></td><td>366</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/fastsimbac/README.html">fastsimbac</a></td><td>1.0.1_bd3ad13d8f79</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-oai/README.html">r-oai</a></td><td>0.2.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-moosex-types-stringlike/README.html">perl-moosex-types-stringlike</a></td><td>0.003</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-io-socket-inet6/README.html">perl-io-socket-inet6</a></td><td>2.72</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -8537,6 +8543,7 @@ Available packages
     <tr><td><a href="recipes/ucsc-genepredtofakepsl/README.html">ucsc-genepredtofakepsl</a></td><td>366</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-hopach/README.html">bioconductor-hopach</a></td><td>2.38.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-hopach/README.html">bioconductor-hopach</a></td><td>2.40.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/vkmz/README.html">vkmz</a></td><td>1.4dev2</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/vkmz/README.html">vkmz</a></td><td>v1.3.1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/vkmz/README.html">vkmz</a></td><td>v1.4dev1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/roary2fripan.py/README.html">roary2fripan.py</a></td><td>0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -9103,6 +9110,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-uniprot.ws/README.html">bioconductor-uniprot.ws</a></td><td>2.16.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-uniprot.ws/README.html">bioconductor-uniprot.ws</a></td><td>2.18.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-uniprot.ws/README.html">bioconductor-uniprot.ws</a></td><td>2.20.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/evidencemodeler/README.html">evidencemodeler</a></td><td>1.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/evidencemodeler/README.html">evidencemodeler</a></td><td>v1.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pdfkit/README.html">pdfkit</a></td><td>0.5.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/pdfkit/README.html">pdfkit</a></td><td>0.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
