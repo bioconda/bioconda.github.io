@@ -11,7 +11,7 @@ A Moose Role for basic File IO
 Home          http://metacpan.org/pod/FileDirUtil
 Versions      v0.03
 License       agpl_3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filedirutil/0.03
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filedirutil
 
 
 
