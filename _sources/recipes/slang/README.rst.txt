@@ -13,7 +13,7 @@ display\/screen management\, keyboard input\, keymaps\, and so on.
 
 ============= ===========
 Home          http://www.jedsoft.org/slang/index.html
-Versions      2.3.0
+Versions      2.3.0, 2.3.2
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slang
 
