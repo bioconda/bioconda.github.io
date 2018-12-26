@@ -464,6 +464,7 @@ Available packages
     <tr><td><a href="recipes/nglview/README.html">nglview</a></td><td>1.1.7</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/vcflib/README.html">vcflib</a></td><td>1.0.0_rc0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/vcflib/README.html">vcflib</a></td><td>1.0.0_rc1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/vcflib/README.html">vcflib</a></td><td>1.0.0_rc2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/ucsc-pslcdnafilter/README.html">ucsc-pslcdnafilter</a></td><td>324</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-pslcdnafilter/README.html">ucsc-pslcdnafilter</a></td><td>332</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-pslcdnafilter/README.html">ucsc-pslcdnafilter</a></td><td>357</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -6593,6 +6594,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-recount/README.html">bioconductor-recount</a></td><td>1.4.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-recount/README.html">bioconductor-recount</a></td><td>1.6.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ghc/README.html">ghc</a></td><td>6.8.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/ghc/README.html">ghc</a></td><td>8.2.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bazam/README.html">bazam</a></td><td>1.0.1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/vnl/README.html">vnl</a></td><td>1.17.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-readmzxmldata/README.html">r-readmzxmldata</a></td><td>2.8.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -6769,6 +6771,7 @@ Available packages
     <tr><td><a href="recipes/bx-python/README.html">bx-python</a></td><td>0.8.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bx-python/README.html">bx-python</a></td><td>0.8.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/newt/README.html">newt</a></td><td>0.52.18</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/newt/README.html">newt</a></td><td>0.52.20</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-scrm/README.html">r-scrm</a></td><td>1.6.0_2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-scrm/README.html">r-scrm</a></td><td>1.7.2_0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-scrm/README.html">r-scrm</a></td><td>1.7.2_1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>

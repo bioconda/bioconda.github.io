@@ -9,7 +9,7 @@ newt
 
 ============= ===========
 Home          https://fedorahosted.org/newt/
-Versions      0.52.18
+Versions      0.52.18, 0.52.20
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/newt
 

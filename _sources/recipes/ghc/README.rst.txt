@@ -9,7 +9,7 @@ GHC is a state\-of\-the\-art\, open source\, compiler and interactive environmen
 
 ============= ===========
 Home          https://www.haskell.org/ghc/
-Versions      6.8.3
+Versions      6.8.3, 8.2.2
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghc/6.8.3
 
