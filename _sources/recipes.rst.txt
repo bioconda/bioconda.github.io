@@ -1929,6 +1929,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-biocworkflowtools/README.html">bioconductor-biocworkflowtools</a></td><td>1.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-biocworkflowtools/README.html">bioconductor-biocworkflowtools</a></td><td>1.6.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pymisc-utils/README.html">pymisc-utils</a></td><td>0.2.10</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/pymisc-utils/README.html">pymisc-utils</a></td><td>0.2.11</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/rambo-k/README.html">rambo-k</a></td><td>1.21</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pypiper/README.html">pypiper</a></td><td>0.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pypiper/README.html">pypiper</a></td><td>0.7.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -4655,6 +4656,7 @@ Available packages
     <tr><td><a href="recipes/sevenbridges-python/README.html">sevenbridges-python</a></td><td>0.17.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/sevenbridges-python/README.html">sevenbridges-python</a></td><td>0.17.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/sevenbridges-python/README.html">sevenbridges-python</a></td><td>0.17.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/sevenbridges-python/README.html">sevenbridges-python</a></td><td>0.17.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/sevenbridges-python/README.html">sevenbridges-python</a></td><td>0.7.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-pepstat/README.html">bioconductor-pepstat</a></td><td>1.10.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-pepstat/README.html">bioconductor-pepstat</a></td><td>1.12.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -4696,6 +4698,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-dose/README.html">bioconductor-dose</a></td><td>3.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-dose/README.html">bioconductor-dose</a></td><td>3.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/meta-sparse/README.html">meta-sparse</a></td><td>0.1.11</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/meta-sparse/README.html">meta-sparse</a></td><td>0.1.12</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/meta-sparse/README.html">meta-sparse</a></td><td>0.1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-diffbind/README.html">bioconductor-diffbind</a></td><td>1.16.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-diffbind/README.html">bioconductor-diffbind</a></td><td>2.0.9</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -7928,6 +7931,7 @@ Available packages
     <tr><td><a href="recipes/pysradb/README.html">pysradb</a></td><td>0.3.0</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/pysradb/README.html">pysradb</a></td><td>0.4.0</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/pysradb/README.html">pysradb</a></td><td>0.4.2</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/pysradb/README.html">pysradb</a></td><td>0.6.0</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/bufet/README.html">bufet</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nim-falcon/README.html">nim-falcon</a></td><td>0.0.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gem3-mapper/README.html">gem3-mapper</a></td><td>3.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -9104,6 +9108,7 @@ Available packages
     <tr><td><a href="recipes/libssw/README.html">libssw</a></td><td>1.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/pairtools/README.html">pairtools</a></td><td>0.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pairtools/README.html">pairtools</a></td><td>0.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/pairtools/README.html">pairtools</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-text-csv/README.html">perl-text-csv</a></td><td>1.33</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-text-csv/README.html">perl-text-csv</a></td><td>1.97</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/optitype/README.html">optitype</a></td><td>1.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -9355,6 +9360,7 @@ Available packages
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.7</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/ncbi-genome-download/README.html">ncbi-genome-download</a></td><td>0.2.8</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/vawk/README.html">vawk</a></td><td>0.0.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-pathview/README.html">bioconductor-pathview</a></td><td>1.16.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-pathview/README.html">bioconductor-pathview</a></td><td>1.18.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -10786,6 +10792,7 @@ Available packages
     <tr><td><a href="recipes/super-focus/README.html">super-focus</a></td><td>0.30</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/super-focus/README.html">super-focus</a></td><td>0.31</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/super-focus/README.html">super-focus</a></td><td>0.32</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/super-focus/README.html">super-focus</a></td><td>0.33</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/asqcan/README.html">asqcan</a></td><td>0.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/asqcan/README.html">asqcan</a></td><td>0.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-html-formatter/README.html">perl-html-formatter</a></td><td>2.14</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -10981,10 +10988,12 @@ Available packages
     <tr><td><a href="recipes/rnastructure/README.html">rnastructure</a></td><td>5.7</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/rnastructure/README.html">rnastructure</a></td><td>6.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/rnastructure/README.html">rnastructure</a></td><td>6.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/scaffold_builder/README.html">scaffold_builder</a></td><td>2.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-unicode-normalize/README.html">perl-unicode-normalize</a></td><td>1.18</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-unicode-normalize/README.html">perl-unicode-normalize</a></td><td>1.25</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-unicode-normalize/README.html">perl-unicode-normalize</a></td><td>1.26</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bcalm/README.html">bcalm</a></td><td>2.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/bcalm/README.html">bcalm</a></td><td>2.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/homer/README.html">homer</a></td><td>4.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/homer/README.html">homer</a></td><td>4.8.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/homer/README.html">homer</a></td><td>4.9.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>

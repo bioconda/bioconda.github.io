@@ -9,7 +9,7 @@ SPARSE indexes reference genomes in public databases into hierarchical clusters 
 
 ============= ===========
 Home          https://github.com/zheminzhou/SPARSE/
-Versions      0.1.11, 0.1.2
+Versions      0.1.11, 0.1.12, 0.1.2
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meta-sparse
 
