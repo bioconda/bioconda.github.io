@@ -9,7 +9,7 @@ Base class for implementing various dependency trees
 
 ============= ===========
 Home          http://metacpan.org/pod/Algorithm::Dependency
-Versions      1.110
+Versions      1.110, 1.111
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-dependency
 
