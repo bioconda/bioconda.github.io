@@ -9,7 +9,7 @@ Linux driver for Sys\:\:Info
 
 ============= ===========
 Home          http://metacpan.org/pod/Sys::Info::Driver::Linux
-Versions      0.7903
+Versions      0.7903, 0.7904
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-linux
 

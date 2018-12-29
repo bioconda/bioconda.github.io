@@ -9,7 +9,7 @@ Fetch information from the host system
 
 ============= ===========
 Home          http://metacpan.org/pod/Sys::Info
-Versions      0.78
+Versions      0.78, 0.7811
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info
 

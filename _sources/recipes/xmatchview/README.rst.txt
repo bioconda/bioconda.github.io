@@ -9,7 +9,7 @@ Genome sequence alignment visualization
 
 ============= ===========
 Home          http://www.bcgsc.ca/platform/bioinfo/software/xmatchview
-Versions      v1.1.1
+Versions      1.1.1, v1.1.1
 License       GNU General Public License v3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xmatchview
 
