@@ -2022,7 +2022,7 @@ Available packages
     <tr><td><a href="recipes/gemini/README.html">gemini</a></td><td>0.20.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gemini/README.html">gemini</a></td><td>0.20.0a0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gemini/README.html">gemini</a></td><td>0.20.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
-    <tr><td><a href="recipes/nemo/README.html">nemo</a></td><td>2.3.51</td><td></td><td></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/nemo/README.html">nemo</a></td><td>2.3.51</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bismark/README.html">bismark</a></td><td>0.17.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bismark/README.html">bismark</a></td><td>0.18.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bismark/README.html">bismark</a></td><td>0.19.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -3215,6 +3215,7 @@ Available packages
     <tr><td><a href="recipes/nanoplot/README.html">nanoplot</a></td><td>1.18.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplot/README.html">nanoplot</a></td><td>1.19.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplot/README.html">nanoplot</a></td><td>1.2.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/nanoplot/README.html">nanoplot</a></td><td>1.20.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanoplot/README.html">nanoplot</a></td><td>1.8.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/svtyper/README.html">svtyper</a></td><td>0.0.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/svtyper/README.html">svtyper</a></td><td>0.0.4</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -3887,6 +3888,7 @@ Available packages
     <tr><td><a href="recipes/ariba/README.html">ariba</a></td><td>2.11.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ariba/README.html">ariba</a></td><td>2.12.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ariba/README.html">ariba</a></td><td>2.12.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/ariba/README.html">ariba</a></td><td>2.13.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ariba/README.html">ariba</a></td><td>2.5.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-extutils-installpaths/README.html">perl-extutils-installpaths</a></td><td>0.011</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-extutils-installpaths/README.html">perl-extutils-installpaths</a></td><td>0.012</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -5890,6 +5892,7 @@ Available packages
     <tr><td><a href="recipes/r-grimport/README.html">r-grimport</a></td><td>0.9_1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-edda/README.html">bioconductor-edda</a></td><td>1.16.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-edda/README.html">bioconductor-edda</a></td><td>1.18.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/seqlogo/README.html">seqlogo</a></td><td>0.1.12</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.34.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.36.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.38.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -7335,6 +7338,7 @@ Available packages
     <tr><td><a href="recipes/merlin/README.html">merlin</a></td><td>1.1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/anise_basil/README.html">anise_basil</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.06</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.07</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-phosphonormalizer/README.html">bioconductor-phosphonormalizer</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-phosphonormalizer/README.html">bioconductor-phosphonormalizer</a></td><td>1.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-adegenet/README.html">r-adegenet</a></td><td>2.1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -8865,7 +8869,7 @@ Available packages
     <tr><td><a href="recipes/cgat-scripts/README.html">cgat-scripts</a></td><td>0.3.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pypore/README.html">pypore</a></td><td>0.0.5.dev20160304220337</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/pypore/README.html">pypore</a></td><td>0.0.6.dev20161116235131</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
-    <tr><td><a href="recipes/pypore/README.html">pypore</a></td><td>0.0.6.dev20180702231556</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/pypore/README.html">pypore</a></td><td>0.0.6.dev20180702231556</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-tie-cacher/README.html">perl-tie-cacher</a></td><td>0.09</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/graphlite/README.html">graphlite</a></td><td>1.0.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/prodigal/README.html">prodigal</a></td><td>2.6.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
