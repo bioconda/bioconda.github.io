@@ -9,7 +9,7 @@ Rare variant test software for next generation sequencing data
 
 ============= ===========
 Home          https://github.com/zhanxw/rvtests
-Versions      2.0.6
+Versions      2.0.6, 2.0.7
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rvtests
 
