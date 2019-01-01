@@ -73,6 +73,7 @@ Available packages
     <tr><td><a href="recipes/pathwaymatcher/README.html">pathwaymatcher</a></td><td>1.8.1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-compress-raw-zlib/README.html">perl-compress-raw-zlib</a></td><td>2.069</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-compress-raw-zlib/README.html">perl-compress-raw-zlib</a></td><td>2.081</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-compress-raw-zlib/README.html">perl-compress-raw-zlib</a></td><td>2.083</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pygresql/README.html">pygresql</a></td><td>5.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-kebabs/README.html">bioconductor-kebabs</a></td><td>1.12.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-kebabs/README.html">bioconductor-kebabs</a></td><td>1.14.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -106,6 +107,7 @@ Available packages
     <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.5</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.6</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/krakenuniq/README.html">krakenuniq</a></td><td>0.5.7</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-mime-tools/README.html">perl-mime-tools</a></td><td>5.507</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-mime-tools/README.html">perl-mime-tools</a></td><td>5.508</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/extern/README.html">extern</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -823,6 +825,7 @@ Available packages
     <tr><td><a href="recipes/nanocomp/README.html">nanocomp</a></td><td>0.5.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanocomp/README.html">nanocomp</a></td><td>0.7.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nanocomp/README.html">nanocomp</a></td><td>1.0.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/nanocomp/README.html">nanocomp</a></td><td>1.1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bwa/README.html">bwa</a></td><td>0.5.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bwa/README.html">bwa</a></td><td>0.6.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bwa/README.html">bwa</a></td><td>0.7.12</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -1014,6 +1017,7 @@ Available packages
     <tr><td><a href="recipes/ococo/README.html">ococo</a></td><td>0.1.2.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ococo/README.html">ococo</a></td><td>0.1.2.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ococo/README.html">ococo</a></td><td>0.1.2.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/ococo/README.html">ococo</a></td><td>0.1.2.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-data-dump/README.html">perl-data-dump</a></td><td>1.23</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-genemeta/README.html">bioconductor-genemeta</a></td><td>1.50.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-genemeta/README.html">bioconductor-genemeta</a></td><td>1.52.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -1045,6 +1049,7 @@ Available packages
     <tr><td><a href="recipes/perl-parse-yapp/README.html">perl-parse-yapp</a></td><td>1.05</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-parse-yapp/README.html">perl-parse-yapp</a></td><td>1.21</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-package-stash/README.html">perl-package-stash</a></td><td>0.37</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-package-stash/README.html">perl-package-stash</a></td><td>0.38</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/planemo/README.html">planemo</a></td><td>0.23.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/planemo/README.html">planemo</a></td><td>0.29.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/planemo/README.html">planemo</a></td><td>0.33.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -3036,6 +3041,7 @@ Available packages
     <tr><td><a href="recipes/perl-bioperl-run/README.html">perl-bioperl-run</a></td><td>1.007002</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-sys-info-driver-linux/README.html">perl-sys-info-driver-linux</a></td><td>0.7903</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-sys-info-driver-linux/README.html">perl-sys-info-driver-linux</a></td><td>0.7904</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/perl-sys-info-driver-linux/README.html">perl-sys-info-driver-linux</a></td><td>0.7905</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-dynaloader/README.html">perl-dynaloader</a></td><td>1.25</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/amused/README.html">amused</a></td><td>1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-myvariant/README.html">bioconductor-myvariant</a></td><td>1.10.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -4211,6 +4217,7 @@ Available packages
     <tr><td><a href="recipes/perl-compress-raw-bzip2/README.html">perl-compress-raw-bzip2</a></td><td>2.069</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-compress-raw-bzip2/README.html">perl-compress-raw-bzip2</a></td><td>2.074</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-compress-raw-bzip2/README.html">perl-compress-raw-bzip2</a></td><td>2.081</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-compress-raw-bzip2/README.html">perl-compress-raw-bzip2</a></td><td>2.083</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-sleuth/README.html">r-sleuth</a></td><td>0.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-sleuth/README.html">r-sleuth</a></td><td>0.28.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-sleuth/README.html">r-sleuth</a></td><td>0.29.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -8230,6 +8237,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-spem/README.html">bioconductor-spem</a></td><td>1.20.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bio_assembly_refinement/README.html">bio_assembly_refinement</a></td><td>0.5.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bio_assembly_refinement/README.html">bio_assembly_refinement</a></td><td>0.5.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/sample-sheet/README.html">sample-sheet</a></td><td>0.8.0</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/libdb/README.html">libdb</a></td><td>6.1.26</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nmrglue/README.html">nmrglue</a></td><td>0.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/nmrglue/README.html">nmrglue</a></td><td>0.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
