@@ -15,7 +15,7 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/m
 
 
 
-Links         biotools: :biotools:`multiqc`
+Links         biotools: :biotools:`multiqc`, doi: :doi:`https://doi.org/10.1093/bioinformatics/btw354`
 
 ============= ===========
 

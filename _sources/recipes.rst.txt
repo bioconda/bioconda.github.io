@@ -2335,6 +2335,7 @@ Available packages
     <tr><td><a href="recipes/cooler/README.html">cooler</a></td><td>0.7.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/cooler/README.html">cooler</a></td><td>0.7.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/cooler/README.html">cooler</a></td><td>0.7.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/cooler/README.html">cooler</a></td><td>0.8.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/slncky/README.html">slncky</a></td><td>1.0.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/slncky/README.html">slncky</a></td><td>1.0.4</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-hpc-runner-command-plugin-logger-sqlite/README.html">perl-hpc-runner-command-plugin-logger-sqlite</a></td><td>0.0.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -3781,6 +3782,7 @@ Available packages
     <tr><td><a href="recipes/prince/README.html">prince</a></td><td>1.2</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-io-compress/README.html">perl-io-compress</a></td><td>2.069</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-io-compress/README.html">perl-io-compress</a></td><td>2.081</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/perl-io-compress/README.html">perl-io-compress</a></td><td>2.083</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-qorts/README.html">r-qorts</a></td><td>1.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-pod-simple/README.html">perl-pod-simple</a></td><td>3.35</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-bio-mlst-check/README.html">perl-bio-mlst-check</a></td><td>2.1.1706216</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -5602,6 +5604,7 @@ Available packages
     <tr><td><a href="recipes/rscape/README.html">rscape</a></td><td>0.6.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/rscape/README.html">rscape</a></td><td>0.8.3</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/rscape/README.html">rscape</a></td><td>1.0.4</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/rscape/README.html">rscape</a></td><td>1.2.2</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/chromhmm/README.html">chromhmm</a></td><td>1.11</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/chromhmm/README.html">chromhmm</a></td><td>1.12</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/chromhmm/README.html">chromhmm</a></td><td>1.14</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -5903,7 +5906,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-edda/README.html">bioconductor-edda</a></td><td>1.16.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-edda/README.html">bioconductor-edda</a></td><td>1.18.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/seqlogo/README.html">seqlogo</a></td><td>0.1.12</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
-    <tr><td><a href="recipes/seqlogo/README.html">seqlogo</a></td><td>0.1.13</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/seqlogo/README.html">seqlogo</a></td><td>0.1.13</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.34.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.36.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-tspair/README.html">bioconductor-tspair</a></td><td>1.38.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -9417,6 +9420,7 @@ Available packages
     <tr><td><a href="recipes/r-nodiv/README.html">r-nodiv</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-nodiv/README.html">r-nodiv</a></td><td>1.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/biopet-fastqsplitter/README.html">biopet-fastqsplitter</a></td><td>0.1</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/nullarbor/README.html">nullarbor</a></td><td>2.0.20181010</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/r-whopgenome/README.html">r-whopgenome</a></td><td>0.9.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/deeptools/README.html">deeptools</a></td><td>1.5.8.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/deeptools/README.html">deeptools</a></td><td>1.5.9.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -10335,6 +10339,7 @@ Available packages
     <tr><td><a href="recipes/bioconductor-messina/README.html">bioconductor-messina</a></td><td>1.14.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-messina/README.html">bioconductor-messina</a></td><td>1.16.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/gclib/README.html">gclib</a></td><td>0.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/r-rrbgen/README.html">r-rrbgen</a></td><td>0.0.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/fgap/README.html">fgap</a></td><td>1.8.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/toolshed/README.html">toolshed</a></td><td>0.4.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-bicare/README.html">bioconductor-bicare</a></td><td>1.34.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -10742,6 +10747,7 @@ Available packages
     <tr><td><a href="recipes/netifaces/README.html">netifaces</a></td><td>0.10.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/netifaces/README.html">netifaces</a></td><td>0.10.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/netifaces/README.html">netifaces</a></td><td>0.10.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/netifaces/README.html">netifaces</a></td><td>0.10.8</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/sumaclust/README.html">sumaclust</a></td><td>1.0.31</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/je-suite/README.html">je-suite</a></td><td>1.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/je-suite/README.html">je-suite</a></td><td>2.0.RC</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
