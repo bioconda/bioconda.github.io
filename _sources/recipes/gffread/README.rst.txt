@@ -9,8 +9,8 @@ GFF\/GTF utility providing format conversions\, region filtering\, FASTA sequenc
 
 ============= ===========
 Home          http://ccb.jhu.edu/software/stringtie/gff.shtml
-Versions      0.9.8, 0.9.9
-License       Artistic License 2.0
+Versions      0.9.12, 0.9.8, 0.9.9
+License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffread
 
 
