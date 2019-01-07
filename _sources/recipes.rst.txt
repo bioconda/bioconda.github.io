@@ -1683,6 +1683,7 @@ Available packages
     <tr><td><a href="recipes/stream/README.html">stream</a></td><td>0.2.5</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/stream/README.html">stream</a></td><td>0.2.6</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/stream/README.html">stream</a></td><td>0.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/stream/README.html">stream</a></td><td>0.3.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-dss/README.html">bioconductor-dss</a></td><td>2.26.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-dss/README.html">bioconductor-dss</a></td><td>2.28.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-minfi/README.html">bioconductor-minfi</a></td><td>1.16.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -4043,6 +4044,7 @@ Available packages
     <tr><td><a href="recipes/hicmatrix/README.html">hicmatrix</a></td><td>4</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/hicmatrix/README.html">hicmatrix</a></td><td>5</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/bam-readcount/README.html">bam-readcount</a></td><td>0.8</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/stream_atac/README.html">stream_atac</a></td><td>0.1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/savage/README.html">savage</a></td><td>0.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/savage/README.html">savage</a></td><td>0.3.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/savage/README.html">savage</a></td><td>0.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
@@ -7366,6 +7368,7 @@ Available packages
     <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.06</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.07</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.08</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
+    <tr><td><a href="recipes/perl-bio-rna-rnaalisplit/README.html">perl-bio-rna-rnaalisplit</a></td><td>v0.09</td><td></td><td><i class="fa fa-linux"></i></td><td></td></tr>
     <tr><td><a href="recipes/bioconductor-phosphonormalizer/README.html">bioconductor-phosphonormalizer</a></td><td>1.2.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-phosphonormalizer/README.html">bioconductor-phosphonormalizer</a></td><td>1.4.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/r-adegenet/README.html">r-adegenet</a></td><td>2.1.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
