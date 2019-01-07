@@ -9,7 +9,7 @@ Split and deconvolute structural RNA multiple sequence alignments
 
 ============= ===========
 Home          http://metacpan.org/pod/Bio::RNA::RNAaliSplit
-Versions      v0.06, v0.07
+Versions      v0.06, v0.07, v0.08
 License       agpl_3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-rna-rnaalisplit
 
