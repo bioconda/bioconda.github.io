@@ -9,7 +9,7 @@ MCE extension for sharing data supporting threads and processes
 
 ============= ===========
 Home          https://github.com/marioroy/mce-shared
-Versions      1.836, 1.838, 1.839
+Versions      1.836, 1.838, 1.839, 1.840
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mce-shared
 

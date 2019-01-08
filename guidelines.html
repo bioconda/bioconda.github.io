@@ -328,6 +328,14 @@ script can be simplified. An example of this simplification is
 <p>If the recipe was created with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cpan</span></code>, the tests are
 likely sufficient. Otherwise, test the import of modules (see the
 <code class="docutils literal notranslate"><span class="pre">imports</span></code> section of the <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> files in above examples).</p>
+<p>Additionally, if the recipe was created with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cpan</span></code>, several modifications
+are necessary to satisfy bioconda policies:</p>
+<ul class="simple">
+<li>remove the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> script</li>
+<li>remove the <code class="docutils literal notranslate"><span class="pre">source/fn</span></code> entry in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code></li>
+<li>the <code class="docutils literal notranslate"><span class="pre">requirements/build</span></code> keyword in <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code> should be changed to
+<code class="docutils literal notranslate"><span class="pre">requirements/host</span></code></li>
+</ul>
 </div>
 <div class="section" id="c-c">
 <h2>C/C++<a class="headerlink" href="#c-c" title="Permalink to this headline">¶</a></h2>

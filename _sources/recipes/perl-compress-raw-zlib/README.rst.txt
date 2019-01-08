@@ -9,7 +9,7 @@ Basic utilities for writing tests.
 
 ============= ===========
 Home          http://metacpan.org/pod/Compress::Raw::Zlib
-Versions      2.069, 2.081, 2.083
+Versions      2.069, 2.081, 2.083, 2.084
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-compress-raw-zlib
 

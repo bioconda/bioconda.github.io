@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>pairtools &#8212; Bioconda  documentation</title>
+    <title>mirtrace &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -16,8 +16,8 @@
     <script type="text/javascript" src="../../_static/doctools.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="pal_finder" href="../pal_finder/README.html" />
-    <link rel="prev" title="pairix" href="../pairix/README.html" />
+    <link rel="next" title="misopy" href="../misopy/README.html" />
+    <link rel="prev" title="mirtop" href="../mirtop/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -61,10 +61,16 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="pairtools">
-<span id="id1"></span><h1>pairtools<a class="headerlink" href="#pairtools" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/pairtools"><img alt="downloads" src="https://anaconda.org/bioconda/pairtools/badges/downloads.svg" /></a></p>
-<p>CLI tools to process mapped Hi-C data</p>
+  <div class="section" id="mirtrace">
+<span id="id1"></span><h1>mirtrace<a class="headerlink" href="#mirtrace" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/mirtrace"><img alt="downloads" src="https://anaconda.org/bioconda/mirtrace/badges/downloads.svg" /></a></p>
+<p>miRTrace is a new quality control and taxonomic tracing tool developed specifically for small RNA sequencing data (sRNA-Seq).
+Each sample is characterized by profiling sequencing quality, read length, sequencing depth and miRNA complexity and also the
+amounts of miRNAs versus undesirable sequences (derived from tRNAs, rRNAs and sequencing artifacts). In addition to these routine
+quality control (QC) analyses, miRTrace can accurately and sensitively resolve taxonomic origins of small RNA-Seq data based on the
+composition of clade-specific miRNAs. This feature can be used to detect cross-clade contaminations in typical lab settings. It can
+also be applied for more specific applications in forensics, food quality control and clinical diagnosis, for instance tracing the
+origins of meat products or detecting parasitic microRNAs in host serum.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="15%" />
@@ -72,42 +78,39 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://github.com/mirnylab/pairtools">https://github.com/mirnylab/pairtools</a></td>
+<td><a class="reference external" href="https://github.com/friedlanderlab/mirtrace">https://github.com/friedlanderlab/mirtrace</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>0.1.1, 0.2.0, 0.2.1, 0.2.2</td>
+<td>1.0.0</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT</td>
+<td>GPL-2.0</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairtools">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pairtools</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtrace">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mirtrace</a></td>
 </tr>
-<tr class="row-odd"><td>Documentation</td>
-<td><a class="reference external" href="http://pairtools.readthedocs.io/">http://pairtools.readthedocs.io/</a></td>
-</tr>
-<tr class="row-even"><td>Development</td>
-<td><a class="reference external" href="https://github.com/mirnylab/pairtools">https://github.com/mirnylab/pairtools</a></td>
+<tr class="row-odd"><td>Links</td>
+<td>biotools: <a class="reference external" href="https://bio.tools/mirtrace">mirtrace</a>, doi: <a class="reference external" href="https://doi.org/10.1186/s13059-018-1588-9">10.1186/s13059-018-1588-9</a></td>
 </tr>
 </tbody>
 </table>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">pairtools</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">mirtrace</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">pairtools</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">mirtrace</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/pairtools"><img alt="docker" src="https://quay.io/repository/biocontainers/pairtools/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/pairtools">https://quay.io/repository/biocontainers/pairtools</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/mirtrace"><img alt="docker" src="https://quay.io/repository/biocontainers/mirtrace/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/mirtrace">https://quay.io/repository/biocontainers/mirtrace</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/pairtools/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/pairtools/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/mirtrace/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/mirtrace/README.html)
 </pre></div>
 </div>
 </div>
@@ -158,7 +161,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/pairtools/README.rst.txt"
+      <a href="../../_sources/recipes/mirtrace/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 

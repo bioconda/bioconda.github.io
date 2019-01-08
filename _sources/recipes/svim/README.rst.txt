@@ -9,7 +9,7 @@ SVIM is a structural variant caller for long reads.
 
 ============= ===========
 Home          https://github.com/eldariont/svim
-Versions      0.4.1, 0.4.2
+Versions      0.4.1, 0.4.2, 0.4.3
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svim
 
