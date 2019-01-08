@@ -9,13 +9,13 @@ This script sorts and \(optionally\) filters the rows\/variants of a VCF file \(
 
 ============= ===========
 Home          https://github.com/hepcat72/vcfSampleCompare
-Versions      v2.006
+Versions      v2.006, v2.008
 License       GNU
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcfsamplecompare
 
 
 
-Links         doi: :doi:`10.5281/zenodo.1453403`
+Links         doi: :doi:`10.5281/zenodo.1463080`
 
 ============= ===========
 
