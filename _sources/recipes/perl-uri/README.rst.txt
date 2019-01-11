@@ -9,7 +9,7 @@ Uniform Resource Identifiers \(absolute and relative\)
 
 ============= ===========
 Home          https://github.com/libwww-perl/URI
-Versions      1.69, 1.71, 1.74
+Versions      1.69, 1.71, 1.74, 1.76
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-uri
 

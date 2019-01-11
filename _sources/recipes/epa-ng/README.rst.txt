@@ -9,7 +9,7 @@ Massively parallel phylogenetic placement of genetic sequences
 
 ============= ===========
 Home          https://github.com/Pbdas/epa-ng
-Versions      0.3.3
+Versions      0.3.3, 0.3.4
 License       GNU Affero General Public License v3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epa-ng
 
