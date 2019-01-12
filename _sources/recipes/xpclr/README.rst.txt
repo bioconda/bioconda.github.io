@@ -5,7 +5,7 @@ xpclr
 
 |downloads|
 
-Code to compute xp\-clr values as per Chen\, Patterson \& Reich 2010.
+Code to compute xp\-clr values to detect selection as per Chen\, Patterson \& Reich 2010.
 
 ============= ===========
 Home          https://github.com/hardingnj/xpclr

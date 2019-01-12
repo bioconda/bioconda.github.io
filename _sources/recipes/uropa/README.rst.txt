@@ -12,7 +12,7 @@ Furthermore\, it allows filtering for GTF attribute values\, e.g. protein\_codin
 
 ============= ===========
 Home          https://github.molgen.mpg.de/loosolab/UROPA
-Versions      1.2.1, 2.0.0a0, 2.0.2a0
+Versions      1.2.1, 2.0.0a0, 2.0.2a0, 2.0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uropa
 

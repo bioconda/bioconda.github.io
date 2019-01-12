@@ -14,6 +14,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Build system" href="build-system.html" />
@@ -206,9 +207,9 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 <li><code class="docutils literal notranslate"><span class="pre">openssl</span></code> dependency, e.g., through <code class="docutils literal notranslate"><span class="pre">openmpi</span></code></li>
 </ul>
 <p>To use the extended container, add the following to a recipe’s <code class="docutils literal notranslate"><span class="pre">meta.yaml</span></code>:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">extra</span><span class="p p-Indicator">:</span>
-  <span class="l l-Scalar l-Scalar-Plain">container</span><span class="p p-Indicator">:</span>
-    <span class="l l-Scalar l-Scalar-Plain">extended-base</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">extra</span><span class="p">:</span>
+  <span class="nt">container</span><span class="p">:</span>
+    <span class="nt">extended-base</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>
 </pre></div>
 </div>
 </div>
@@ -272,7 +273,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

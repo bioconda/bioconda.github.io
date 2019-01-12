@@ -14,6 +14,7 @@
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Updating recipes" href="updating.html" />
@@ -216,13 +217,13 @@ in the meta.yaml file along with the <cite>build/skip</cite> entry to indicate t
 a recipe should be skipped.</p>
 <p>For example, a recipe that only runs on Python 2.7 should include the
 following:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
-  <span class="l l-Scalar l-Scalar-Plain">skip</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>  <span class="c1"># [not py27]</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">skip</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span>  <span class="c1"># [not py27]</span>
 </pre></div>
 </div>
 <p>Or a package that only runs on Python 3.4 and 3.5:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">build</span><span class="p p-Indicator">:</span>
-  <span class="l l-Scalar l-Scalar-Plain">skip</span><span class="p p-Indicator">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span> <span class="c1"># [py27]</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">build</span><span class="p">:</span>
+  <span class="nt">skip</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">True</span> <span class="c1"># [py27]</span>
 </pre></div>
 </div>
 <p>Alternatively, for straightforward compatibility fixes you can apply a <cite>patch
@@ -245,8 +246,8 @@ built for Windows as well, with lines like:</p>
 </pre></div>
 </div>
 <p>and</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">test</span><span class="p p-Indicator">:</span>
-  <span class="l l-Scalar l-Scalar-Plain">commands</span><span class="p p-Indicator">:</span>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
+  <span class="nt">commands</span><span class="p">:</span>
     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>  <span class="c1"># [not win]</span>
     <span class="p p-Indicator">-</span> <span class="s">&quot;\&quot;%R%\&quot;</span><span class="nv"> </span><span class="s">-e</span><span class="nv"> </span><span class="s">\&quot;library(&#39;RNeXML&#39;)\&quot;&quot;</span>  <span class="c1"># [win]</span>
 </pre></div>
@@ -254,8 +255,8 @@ built for Windows as well, with lines like:</p>
 <p>The bioconda channel does not build for Windows. To keep recipes
 streamlined, please remove the “set posix” and “set native” lines described
 above and convert the <cite>test:commands:</cite> block to only:</p>
-<div class="last highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="l l-Scalar l-Scalar-Plain">test</span><span class="p p-Indicator">:</span>
-  <span class="l l-Scalar l-Scalar-Plain">commands</span><span class="p p-Indicator">:</span>
+<div class="last highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">test</span><span class="p">:</span>
+  <span class="nt">commands</span><span class="p">:</span>
     <span class="p p-Indicator">-</span> <span class="l l-Scalar l-Scalar-Plain">$R -e &quot;library(&#39;RNeXML&#39;)&quot;</span>
 </pre></div>
 </div>
@@ -610,7 +611,7 @@ and others.</p>
       &copy;2016, The Bioconda Team.
       
       |
-      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.2</a>
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.8.3</a>
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |

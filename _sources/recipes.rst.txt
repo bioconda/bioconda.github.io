@@ -805,6 +805,7 @@ Available packages
     <tr><td><a href="recipes/raxml/README.html">raxml</a></td><td>8.2.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/raxml/README.html">raxml</a></td><td>8.2.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/fast5-research/README.html">fast5-research</a></td><td>1.0.9</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/fast5-research/README.html">fast5-research</a></td><td>1.2.10</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/fast5-research/README.html">fast5-research</a></td><td>1.2.8</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/ucsc-parafetch/README.html">ucsc-parafetch</a></td><td>324</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/ucsc-parafetch/README.html">ucsc-parafetch</a></td><td>332</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -2879,6 +2880,7 @@ Available packages
     <tr><td><a href="recipes/uropa/README.html">uropa</a></td><td>1.2.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/uropa/README.html">uropa</a></td><td>2.0.0a0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/uropa/README.html">uropa</a></td><td>2.0.2a0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/uropa/README.html">uropa</a></td><td>2.0.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/dxpy/README.html">dxpy</a></td><td>0.223.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/dxpy/README.html">dxpy</a></td><td>0.225.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/dxpy/README.html">dxpy</a></td><td>0.247.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -2967,6 +2969,7 @@ Available packages
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.15.0</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.15.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.15.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.15.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.7.7</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.8.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/pysam/README.html">pysam</a></td><td>0.8.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
@@ -5053,6 +5056,7 @@ Available packages
     <tr><td><a href="recipes/xopen/README.html">xopen</a></td><td>0.1.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/xopen/README.html">xopen</a></td><td>0.3.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/xopen/README.html">xopen</a></td><td>0.3.5</td><td></td><td></td><td></td></tr>
+    <tr><td><a href="recipes/xopen/README.html">xopen</a></td><td>0.4.1</td><td></td><td></td><td></td></tr>
     <tr><td><a href="recipes/perl-io-stringy/README.html">perl-io-stringy</a></td><td>2.111</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-maftools/README.html">bioconductor-maftools</a></td><td>1.4.27</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/bioconductor-maftools/README.html">bioconductor-maftools</a></td><td>1.6.15</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
