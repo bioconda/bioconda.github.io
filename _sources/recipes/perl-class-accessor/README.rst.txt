@@ -9,7 +9,7 @@ Automated accessor generation
 
 ============= ===========
 Home          http://metacpan.org/pod/Class::Accessor
-Versions      0.34
+Versions      0.34, 0.51
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-accessor
 

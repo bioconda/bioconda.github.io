@@ -10,11 +10,11 @@ A Rust crate for working with a local copy of the NCBI Taxonomy database\, which
 
 ============= ===========
 Home          https://github.com/pvanheus/ncbitaxonomy
-Versions      0.1.3
+Versions      0.1.3, 0.1.4
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-ncbitaxonomy
 
-Documentation https://docs.rs/crate/ncbitaxonomy/0.1.3
+Documentation https://docs.rs/crate/ncbitaxonomy/0.1.4
 
 
 

@@ -9,7 +9,7 @@ ONT Research fast5 read\/write package
 
 ============= ===========
 Home          https://github.com/nanoporetech/fast5_research
-Versions      1.0.9, 1.2.10, 1.2.8
+Versions      1.0.9, 1.2.10, 1.2.11, 1.2.8
 License       Mozilla Public License 2.0 (MPL 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fast5-research
 

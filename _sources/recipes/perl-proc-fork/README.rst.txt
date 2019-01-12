@@ -9,7 +9,7 @@ simple\, intuitive interface to the fork\(\) system call
 
 ============= ===========
 Home          http://github.com/ap/Proc-Fork
-Versions      0.804
+Versions      0.804, 0.806
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-proc-fork
 
