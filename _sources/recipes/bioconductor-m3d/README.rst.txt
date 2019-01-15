@@ -9,7 +9,7 @@ This package identifies statistically significantly differentially methylated re
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/M3D.html
-Versions      1.12.0, 1.14.0
+Versions      1.14.0, 1.12.0
 License       Artistic License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3d
 

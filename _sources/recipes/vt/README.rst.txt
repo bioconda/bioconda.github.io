@@ -9,7 +9,7 @@ A tool set for manipulating and generating VCF files
 
 ============= ===========
 Home          https://genome.sph.umich.edu/wiki/Vt
-Versions      0.57721, 2015.11.10
+Versions      2015.11.10, 0.57721
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vt
 

@@ -9,7 +9,7 @@ Director is an R package designed to streamline the visualization of molecular e
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/Director.html
-Versions      1.4.0, 1.6.0
+Versions      1.6.0, 1.4.0
 License       GPL-3 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-director
 

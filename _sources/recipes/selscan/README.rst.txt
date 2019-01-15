@@ -9,7 +9,7 @@ a program to calculate EHH\-based scans for positive selection in genomes
 
 ============= ===========
 Home          https://github.com/szpiech/selscan
-Versions      1.1.0b, 1.2.0a
+Versions      1.2.0a, 1.1.0b
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/selscan
 

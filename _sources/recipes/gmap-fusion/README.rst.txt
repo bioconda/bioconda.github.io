@@ -9,7 +9,7 @@ GMAP\-fusion is a utility for identifying candidate fusion transcripts based on 
 
 ============= ===========
 Home          https://github.com/GMAP-fusion/GMAP-fusion
-Versions      0.3.0, 0.4.0
+Versions      0.4.0, 0.3.0
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmap-fusion
 

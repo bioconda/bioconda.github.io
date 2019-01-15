@@ -9,7 +9,7 @@ A tool for chromosome\-level scaffolding using multiple references
 
 ============= ===========
 Home          https://github.com/fenderglass/Ragout
-Versions      2.0, 2.1, 2.1.1
+Versions      2.1.1, 2.1, 2.0
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ragout
 

@@ -9,7 +9,7 @@ MyVariant.info is a comprehensive aggregation of variant annotation resources. m
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/myvariant.html
-Versions      1.10.0, 1.6.0, 1.8.0
+Versions      1.10.0, 1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-myvariant
 

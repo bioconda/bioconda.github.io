@@ -9,7 +9,7 @@ R\-scape \(RNA Structural Covariation Above Phylogenetic Expectation\) looks for
 
 ============= ===========
 Home          http://eddylab.org/R-scape/
-Versions      0.2.1, 0.3.1, 0.6.1, 0.8.3, 1.0.4, 1.2.2
+Versions      1.2.2, 1.0.4, 0.8.3, 0.6.1, 0.3.1, 0.2.1
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rscape
 

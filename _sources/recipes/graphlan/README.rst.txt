@@ -10,7 +10,7 @@ GraPhlAn is a software tool for producing high\-quality circular representations
 
 ============= ===========
 Home          https://bitbucket.org/nsegata/graphlan/wiki/Home
-Versions      1.0.0, 1.1.2
+Versions      1.1.2, 1.0.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphlan
 

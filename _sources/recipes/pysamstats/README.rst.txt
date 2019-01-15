@@ -9,7 +9,7 @@ A Python utility for calculating statistics against genome position based on seq
 
 ============= ===========
 Home          https://github.com/alimanfoo/pysamstats
-Versions      0.24.0, 0.24.2, 0.24.3, 1.0.0, 1.0.1, 1.1.2
+Versions      1.1.2, 1.0.1, 1.0.0, 0.24.3, 0.24.2, 0.24.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysamstats
 

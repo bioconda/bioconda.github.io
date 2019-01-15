@@ -9,7 +9,7 @@ mzml2isa \- mzML to ISA\-tab parsing tool
 
 ============= ===========
 Home          https://github.com/ISA-tools/mzml2isa
-Versions      0.4.24, 0.5.1
+Versions      0.5.1, 0.4.24
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mzml2isa
 

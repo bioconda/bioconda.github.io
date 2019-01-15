@@ -9,7 +9,7 @@ Imports transcript\-level abundance\, estimated counts and transcript lengths\, 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/tximport.html
-Versions      1.0.3, 1.4.0, 1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0, 1.4.0, 1.0.3
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tximport
 

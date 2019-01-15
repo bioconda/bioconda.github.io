@@ -9,7 +9,7 @@ A pipeline for iterative\, guided contig assembly that integrates spades\, bwa\,
 
 ============= ===========
 Home          https://github.com/faircloth-lab/itero
-Versions      1.0.0, 1.0.1, 1.1.0, 1.1.1, 1.1.2
+Versions      1.1.2, 1.1.1, 1.1.0, 1.0.1, 1.0.0
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/itero
 

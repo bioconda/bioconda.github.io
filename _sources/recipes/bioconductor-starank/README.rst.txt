@@ -9,7 +9,7 @@ Detecting all relevant variables from a data set is challenging\, especially whe
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/staRank.html
-Versions      1.18.0, 1.20.0, 1.22.0
+Versions      1.22.0, 1.20.0, 1.18.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starank
 

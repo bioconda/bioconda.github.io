@@ -9,7 +9,7 @@ A set of wrappers for operations associated with the SingleCellExperiment packag
 
 ============= ===========
 Home          https://github.com/ebi-gene-expression-group/bioconductor-singlecellexperiment-scripts
-Versions      0.0.1, 0.0.2, 0.0.3
+Versions      0.0.3, 0.0.2, 0.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singlecellexperiment-scripts
 

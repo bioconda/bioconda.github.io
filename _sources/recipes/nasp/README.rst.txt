@@ -9,7 +9,7 @@ NASP\: an accurate\, rapid method for the identification of SNPs in WGS datasets
 
 ============= ===========
 Home          https://github.com/TGenNorth/nasp
-Versions      1.0.1, 1.0.2a1, 1.1.2
+Versions      1.1.2, 1.0.2a1, 1.0.1
 License       Academic and Research License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nasp
 

@@ -9,7 +9,7 @@ This package uses Bayesian hidden Ising models to identify IP\-enriched genomic 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/iSeq.html
-Versions      1.30.0, 1.32.0
+Versions      1.32.0, 1.30.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iseq
 

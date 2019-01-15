@@ -12,7 +12,7 @@ MinION reads for hybrid assembly.
 
 ============= ===========
 Home          http://masurca.blogspot.co.uk/
-Versions      3.2.7, 3.2.8, 3.2.9, 3.3.0
+Versions      3.3.0, 3.2.9, 3.2.8, 3.2.7
 License       GPL-3.0-only
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/masurca
 

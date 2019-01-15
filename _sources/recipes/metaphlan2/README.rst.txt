@@ -15,7 +15,7 @@ track strains across samples for all species.
 
 ============= ===========
 Home          https://bitbucket.org/biobakery/metaphlan2
-Versions      2.2.0, 2.5.0, 2.6.0, 2.7.5, 2.7.7, 2.7.8
+Versions      2.7.8, 2.7.7, 2.7.5, 2.6.0, 2.5.0, 2.2.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaphlan2/2.7.7
 

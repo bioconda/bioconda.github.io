@@ -9,7 +9,7 @@ C\/C\+\+ library and program for sequence alignment using edit \(Levenshtein\) d
 
 ============= ===========
 Home          https://github.com/Martinsos/edlib/
-Versions      1.0.0, 1.1.2, 1.2.0, 1.2.1, 1.2.3
+Versions      1.2.3, 1.2.1, 1.2.0, 1.1.2, 1.0.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/edlib
 

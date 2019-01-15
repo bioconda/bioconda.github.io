@@ -9,7 +9,7 @@ A set of tools for normalizing\, diagnostics and visualization of NanoString nCo
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=NanoStringNorm
-Versions      1.1.21, 1.2.1
+Versions      1.2.1, 1.1.21
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nanostringnorm
 

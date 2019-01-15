@@ -9,7 +9,7 @@ Pre\-processor for bioinformatics cluster job submission
 
 ============= ===========
 Home          https://github.com/AgResearch/tardis
-Versions      0.5.10, 0.5.11, 0.5.12, 0.5.13, 0.5.16, 0.5.17, 0.5.9, 1.0.19
+Versions      1.0.19, 0.5.17, 0.5.16, 0.5.13, 0.5.12, 0.5.11, 0.5.10, 0.5.9
 License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tardis
 

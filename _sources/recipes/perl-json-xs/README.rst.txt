@@ -9,7 +9,7 @@ JSON serialising\/deserialising\, done correctly and fast
 
 ============= ===========
 Home          http://metacpan.org/pod/JSON::XS
-Versions      2.34, 3.04, 4.0
+Versions      4.0, 3.04, 2.34
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-xs
 

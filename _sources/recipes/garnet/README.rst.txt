@@ -9,7 +9,7 @@ GarNet uses gene expression and epigenetic data to impute transcription factors 
 
 ============= ===========
 Home          https://github.com/fraenkel-lab/GarNet
-Versions      0.2.17, 0.2.20, 0.4.0, 0.4.3, 0.4.5
+Versions      0.4.5, 0.4.3, 0.4.0, 0.2.20, 0.2.17
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/garnet
 

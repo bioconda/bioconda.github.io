@@ -9,7 +9,7 @@ Module to handle parsing command line options
 
 ============= ===========
 Home          http://metacpan.org/pod/Getopt::Long
-Versions      2.49, 2.50
+Versions      2.50, 2.49
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-long
 

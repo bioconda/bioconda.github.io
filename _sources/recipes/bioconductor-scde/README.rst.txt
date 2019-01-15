@@ -9,7 +9,7 @@ The scde package implements a set of statistical methods for analyzing single\-c
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/scde.html
-Versions      2.6.0, 2.8.0
+Versions      2.8.0, 2.6.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scde
 

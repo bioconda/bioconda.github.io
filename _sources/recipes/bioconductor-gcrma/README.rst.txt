@@ -9,7 +9,7 @@ Background adjustment using sequence information
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/gcrma.html
-Versions      2.48.0, 2.50.0, 2.52.0
+Versions      2.52.0, 2.50.0, 2.48.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcrma
 

@@ -9,7 +9,7 @@ MyGene.Info\_ provides simple\-to\-use REST web services to query\/retrieve gene
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/mygene.html
-Versions      1.14.0, 1.16.2
+Versions      1.16.2, 1.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mygene
 

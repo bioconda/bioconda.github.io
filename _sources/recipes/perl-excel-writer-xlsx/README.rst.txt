@@ -9,7 +9,7 @@ Create a new file in the Excel 2007\+ XLSX format.
 
 ============= ===========
 Home          http://jmcnamara.github.com/excel-writer-xlsx/
-Versions      0.95, 0.98
+Versions      0.98, 0.95
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-excel-writer-xlsx
 

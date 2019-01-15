@@ -9,7 +9,7 @@ BadRegionFinder is a package for identifying regions with a bad\, acceptable and
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/BadRegionFinder.html
-Versions      1.4.0, 1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0, 1.4.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-badregionfinder
 

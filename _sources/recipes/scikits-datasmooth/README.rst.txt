@@ -9,7 +9,7 @@ Scikits data smoothing package
 
 ============= ===========
 Home          https://github.com/jjstickel/scikit-datasmooth/
-Versions      0.7.0, 0.7.1
+Versions      0.7.1, 0.7.0
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scikits-datasmooth
 

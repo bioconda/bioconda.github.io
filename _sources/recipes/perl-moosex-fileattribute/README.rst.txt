@@ -9,7 +9,7 @@ Sugar for classes that have file or directory attributes
 
 ============= ===========
 Home          https://github.com/moose/MooseX-FileAttribute
-Versions      0.02, 0.03
+Versions      0.03, 0.02
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-fileattribute
 

@@ -9,7 +9,7 @@ An Oxford Nanopore Basecaller
 
 ============= ===========
 Home          https://github.com/mateidavid/nanocall
-Versions      v0.6.13, v0.6.14, v0.6.5, v0.7.4
+Versions      v0.7.4, v0.6.14, v0.6.13, v0.6.5
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanocall
 

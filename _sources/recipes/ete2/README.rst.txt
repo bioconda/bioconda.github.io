@@ -9,7 +9,7 @@ Phylogenetic tree analyses and exploration
 
 ============= ===========
 Home          http://etetoolkit.org/
-Versions      2.2.1072, 2.3.10
+Versions      2.3.10, 2.2.1072
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete2
 

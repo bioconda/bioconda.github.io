@@ -9,7 +9,7 @@ DISCASM aims to extract reads that map to reference genomes in a discordant fash
 
 ============= ===========
 Home          https://github.com/DISCASM/DISCASM
-Versions      0.1.2, 0.1.3
+Versions      0.1.3, 0.1.2
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discasm
 

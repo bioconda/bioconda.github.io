@@ -9,7 +9,7 @@ Identify and normalize transcription start sites in high\-throughput sequencing 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/TSSi.html
-Versions      1.22.0, 1.24.0, 1.26.0
+Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tssi
 

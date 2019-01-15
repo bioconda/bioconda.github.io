@@ -9,7 +9,7 @@ build command lines for external programs
 
 ============= ===========
 Home          http://noble.gs.washington.edu/~mmh1/software/optbuild/
-Versions      0.1.11, 0.2, 0.2.1
+Versions      0.2.1, 0.2, 0.1.11
 License       GNU GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optbuild
 

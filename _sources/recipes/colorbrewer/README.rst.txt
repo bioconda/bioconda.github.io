@@ -9,7 +9,7 @@ An easy way to get access to ColorBrewer schemes from within a Python program
 
 ============= ===========
 Home          http://noble.gs.washington.edu/~mmh1/software/colorbrewer/
-Versions      0.1.1, 0.2
+Versions      0.2, 0.1.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/colorbrewer
 

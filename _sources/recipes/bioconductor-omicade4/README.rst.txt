@@ -9,7 +9,7 @@ Multiple co\-inertia analysis of omics datasets
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/omicade4.html
-Versions      1.16.1, 1.18.0, 1.20.0
+Versions      1.20.0, 1.18.0, 1.16.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicade4
 

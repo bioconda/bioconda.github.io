@@ -9,7 +9,7 @@ FishTaco\: a metagenomic computational framework\, aiming to identify the taxa t
 
 ============= ===========
 Home          https://github.com/borenstein-lab/fishtaco/
-Versions      1.0.5, 1.1.1
+Versions      1.1.1, 1.0.5
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fishtaco
 

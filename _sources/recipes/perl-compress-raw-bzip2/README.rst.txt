@@ -9,7 +9,7 @@ Low\-Level Interface to bzip2 compression library
 
 ============= ===========
 Home          http://metacpan.org/pod/Compress::Raw::Bzip2
-Versions      2.069, 2.074, 2.081, 2.083, 2.084
+Versions      2.084, 2.083, 2.081, 2.074, 2.069
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-compress-raw-bzip2
 

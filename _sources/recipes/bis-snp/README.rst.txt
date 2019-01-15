@@ -9,7 +9,7 @@ Bisulfite\-seq\/NOMe\-seq SNPs \& cytosine methylation caller
 
 ============= ===========
 Home          http://people.csail.mit.edu/dnaase/bissnp2011/
-Versions      0.82.2, 1.0.1
+Versions      1.0.1, 0.82.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bis-snp
 

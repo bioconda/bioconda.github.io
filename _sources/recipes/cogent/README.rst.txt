@@ -9,7 +9,7 @@ COmparative GENomics Toolkit
 
 ============= ===========
 Home          http://www.pycogent.org
-Versions      1.5.3, 1.9
+Versions      1.9, 1.5.3
 License       GNU General Public License (GPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cogent
 

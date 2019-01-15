@@ -9,7 +9,7 @@ a python package for analyzing genomic segmentations
 
 ============= ===========
 Home          http://segtools.hoffmanlab.org/
-Versions      1.1.14, 1.2.1
+Versions      1.2.1, 1.1.14
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segtools
 

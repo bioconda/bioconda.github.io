@@ -9,7 +9,7 @@ The HOPACH clustering algorithm builds a hierarchical tree of clusters by recurs
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/hopach.html
-Versions      2.38.0, 2.40.0
+Versions      2.40.0, 2.38.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach
 

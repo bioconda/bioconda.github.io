@@ -9,7 +9,7 @@ Create composable bioinformatics hpc analyses.
 
 ============= ===========
 Home          https://github.com/biosails/HPC-Runner-Command
-Versions      3.0.1, 3.1.1, 3.1.4, 3.2.0, 3.2.10, 3.2.11, 3.2.13, 3.2.2, 3.2.4, 3.2.5, 3.2.6, 3.2.7, 3.2.8, 3.2.9
+Versions      3.2.13, 3.2.11, 3.2.10, 3.2.9, 3.2.8, 3.2.7, 3.2.6, 3.2.5, 3.2.4, 3.2.2, 3.2.0, 3.1.4, 3.1.1, 3.0.1
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hpc-runner-command/3.2.13
 

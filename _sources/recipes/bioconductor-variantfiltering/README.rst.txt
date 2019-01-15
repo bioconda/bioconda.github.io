@@ -9,7 +9,7 @@ Filter genetic variants using different criteria such as inheritance model\, ami
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/VariantFiltering.html
-Versions      1.14.0, 1.16.0
+Versions      1.16.0, 1.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantfiltering
 

@@ -9,7 +9,7 @@ Utilities to test STDOUT and STDERR messages.
 
 ============= ===========
 Home          https://github.com/briandfoy/test-output
-Versions      1.03, 1.031
+Versions      1.031, 1.03
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-output
 

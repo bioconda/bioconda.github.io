@@ -9,7 +9,7 @@ The package is designed to detect marker genes from RNA\-seq data.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/MGFR.html
-Versions      1.2.0, 1.4.0, 1.6.0
+Versions      1.6.0, 1.4.0, 1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgfr
 

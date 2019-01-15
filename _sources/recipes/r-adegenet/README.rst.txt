@@ -9,7 +9,7 @@ Toolset for the exploration of genetic and genomic data. Adegenet provides forma
 
 ============= ===========
 Home          https://github.com/thibautjombart/adegenet
-Versions      2.1.0, 2.1.1
+Versions      2.1.1, 2.1.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-adegenet
 

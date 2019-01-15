@@ -9,7 +9,7 @@ Filter bed file\, restricting to only ones that match chrom\/start\/ends specifi
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357, 366
+Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedrestricttopositions
 

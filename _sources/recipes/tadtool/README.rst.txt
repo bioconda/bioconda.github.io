@@ -9,7 +9,7 @@ TADtool is an interactive tool for the identification of meaningful parameters i
 
 ============= ===========
 Home          https://github.com/vaquerizaslab/tadtool
-Versions      0.75, 0.77
+Versions      0.77, 0.75
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tadtool
 

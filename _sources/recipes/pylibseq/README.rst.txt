@@ -9,7 +9,7 @@ A Python interface to libsequence
 
 ============= ===========
 Home          http://pypi.python.org/pypi/pylibseq
-Versions      0.1.8, 0.1.9.post0, 0.2.0
+Versions      0.2.0, 0.1.9.post0, 0.1.8
 License       GNU Lesser General Public License v2 or later (LGPLv2+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pylibseq
 

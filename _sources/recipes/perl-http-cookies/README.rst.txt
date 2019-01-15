@@ -9,7 +9,7 @@ HTTP cookie jars
 
 ============= ===========
 Home          https://github.com/libwww-perl/http-cookies
-Versions      6.01, 6.04
+Versions      6.04, 6.01
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-cookies
 

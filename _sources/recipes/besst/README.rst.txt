@@ -9,7 +9,7 @@ Scaffolder for genomic assemblies.
 
 ============= ===========
 Home          https://github.com/ksahlin/BESST
-Versions      2.2.3, 2.2.7, 2.2.8
+Versions      2.2.8, 2.2.7, 2.2.3
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/besst
 

@@ -9,7 +9,7 @@ Simple and Efficient Reading\/Writing\/Modifying of Complete Files
 
 ============= ===========
 Home          http://metacpan.org/pod/File::Slurp
-Versions      9999.19, 9999.24, 9999.25
+Versions      9999.25, 9999.24, 9999.19
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurp
 

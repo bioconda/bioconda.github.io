@@ -9,7 +9,7 @@ NovaSplice is a python tool to predict novel intronic splice sites from a given 
 
 ============= ===========
 Home          https://github.com/aryakaul/novasplice
-Versions      0.0.3, 0.0.4
+Versions      0.0.4, 0.0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/novasplice
 

@@ -9,7 +9,7 @@ Tools for Mutation Identification in Model Organism Genomes
 
 ============= ===========
 Home          http://sourceforge.net/projects/mimodd
-Versions      0.1.7.3, 0.1.8, 0.1.9
+Versions      0.1.9, 0.1.8, 0.1.7.3
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mimodd
 

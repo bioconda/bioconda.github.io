@@ -9,7 +9,7 @@ mass spectrometry–based proteomics database search algorithm
 
 ============= ===========
 Home          https://github.com/cwenger/Morpheus/
-Versions      255, 272
+Versions      272, 255
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/morpheus
 

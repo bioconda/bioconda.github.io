@@ -9,7 +9,7 @@ Set of tools and pipelines to analyse GDSC data \(cancerrxgene.org\)
 
 ============= ===========
 Home          None
-Versions      0.19.0, 0.20.1
+Versions      0.20.1, 0.19.0
 License       BSD 3-clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdsctools
 

@@ -9,7 +9,7 @@ Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 
 ============= ===========
 Home          http://sco.h-its.org/exelixis/web/software/raxml/index.html
-Versions      7.3.0, 8.2.10, 8.2.12, 8.2.4, 8.2.9
+Versions      8.2.12, 8.2.10, 8.2.9, 8.2.4, 7.3.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/raxml
 

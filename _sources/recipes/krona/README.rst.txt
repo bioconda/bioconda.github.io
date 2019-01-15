@@ -9,7 +9,7 @@ Krona Tools is a set of scripts to create Krona charts from several Bioinformati
 
 ============= ===========
 Home          https://github.com/marbl/Krona
-Versions      2.5, 2.6, 2.6.1, 2.7
+Versions      2.7, 2.6.1, 2.6, 2.5
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/krona
 

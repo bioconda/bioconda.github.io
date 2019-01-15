@@ -9,7 +9,7 @@ Perl extension for generating Scalable Vector Graphics \(SVG\) documents
 
 ============= ===========
 Home          http://metacpan.org/pod/SVG
-Versions      2.64, 2.84
+Versions      2.84, 2.64
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-svg
 

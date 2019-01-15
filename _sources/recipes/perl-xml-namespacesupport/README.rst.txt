@@ -9,7 +9,7 @@ a simple generic namespace support class
 
 ============= ===========
 Home          https://github.com/perigrin/xml-namespacesupport
-Versions      1.11, 1.12
+Versions      1.12, 1.11
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-namespacesupport
 

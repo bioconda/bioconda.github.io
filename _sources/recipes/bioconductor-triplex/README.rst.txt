@@ -9,7 +9,7 @@ This package provides functions for identification and visualization of potentia
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/triplex.html
-Versions      1.16.0, 1.18.0, 1.20.0
+Versions      1.20.0, 1.18.0, 1.16.0
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-triplex
 

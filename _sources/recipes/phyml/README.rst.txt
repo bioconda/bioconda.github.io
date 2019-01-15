@@ -9,7 +9,7 @@ Phylogenetic estimation using \(Maximum\) Likelihood
 
 ============= ===========
 Home          http://www.atgc-montpellier.fr/phyml/
-Versions      3.2.0, 3.3.20170530, 3.3.20180621
+Versions      3.3.20180621, 3.3.20170530, 3.2.0
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phyml
 

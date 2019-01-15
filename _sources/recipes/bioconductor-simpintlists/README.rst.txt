@@ -9,7 +9,7 @@ The package contains BioGRID interactions for arabidopsis\(thale cress\)\, c.ele
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/experiment/html/simpIntLists.html
-Versions      1.14.0, 1.16.0
+Versions      1.16.0, 1.14.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpintlists
 

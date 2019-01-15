@@ -9,7 +9,7 @@ R based Genetic algorithm for gene expression optimization by considering both m
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/GeneGA.html
-Versions      1.28.0, 1.30.0
+Versions      1.30.0, 1.28.0
 License       GPL version 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega
 

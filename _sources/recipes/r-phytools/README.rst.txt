@@ -9,7 +9,7 @@ A wide range of functions for phylogenetic analysis. Functionality is concentrat
 
 ============= ===========
 Home          http://github.com/liamrevell/phytools
-Versions      0.6_44, 0.6_60
+Versions      0.6_60, 0.6_44
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phytools
 

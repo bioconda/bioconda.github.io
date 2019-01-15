@@ -9,7 +9,7 @@ MSnbase provides infrastructure for manipulation\, processing and visualisation 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/MSnbase.html
-Versions      2.2.0, 2.4.0
+Versions      2.4.0, 2.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msnbase
 

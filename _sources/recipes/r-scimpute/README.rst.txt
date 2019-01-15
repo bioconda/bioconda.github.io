@@ -9,7 +9,7 @@ scImpute is accurate and robust imputation of single\-cell RNA sequencing data.
 
 ============= ===========
 Home          https://github.com/Vivianstats/scImpute
-Versions      0.0.6, 0.0.8
+Versions      0.0.8, 0.0.6
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scimpute
 

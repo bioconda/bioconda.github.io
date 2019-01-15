@@ -9,7 +9,7 @@ finds SNPs in MAF and builds a bed with their functional consequence
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 357, 366
+Versions      366, 357, 324
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maftosnpbed
 

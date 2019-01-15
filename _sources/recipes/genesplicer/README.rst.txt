@@ -9,7 +9,7 @@ GeneSplicer \: A computational method for splice site prediction
 
 ============= ===========
 Home          http://www.cs.jhu.edu/~genomics/GeneSplicer
-Versions      0_2003.04.03, 1.0
+Versions      1.0, 0_2003.04.03
 License       OSI
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genesplicer
 

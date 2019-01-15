@@ -9,7 +9,7 @@ Simple API for XML
 
 ============= ===========
 Home          http://metacpan.org/pod/XML::SAX
-Versions      0.99, 1.00
+Versions      1.00, 0.99
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-sax
 

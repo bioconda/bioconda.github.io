@@ -9,7 +9,7 @@ Ancestry and Kinship Tools \(AKT\) provides a handful of useful statistical gene
 
 ============= ===========
 Home          https://github.com/Illumina/akt
-Versions      0.2.0, 0.3.2
+Versions      0.3.2, 0.2.0
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/akt
 

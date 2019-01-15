@@ -9,7 +9,7 @@ This package implements methods to analyze and visualize functional profiles \(G
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/clusterProfiler.html
-Versions      2.4.3, 3.0.4, 3.0.5, 3.4.4, 3.6.0, 3.8.1
+Versions      3.8.1, 3.6.0, 3.4.4, 3.0.5, 3.0.4, 2.4.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clusterprofiler
 

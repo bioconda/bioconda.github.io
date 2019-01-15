@@ -9,7 +9,7 @@ An interactive analysis and visualization platform for omics data
 
 ============= ===========
 Home          http://merenlab.org/software/anvio/index.html
-Versions      2.1.0, 2.3.2, 2.4.0, 3.0.0, 4.0.0, 5.0.0, 5.1.0, 5.2.0
+Versions      5.2.0, 5.1.0, 5.0.0, 4.0.0, 3.0.0, 2.4.0, 2.3.2, 2.1.0
 License       GPL-3.0-or-later
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anvio
 

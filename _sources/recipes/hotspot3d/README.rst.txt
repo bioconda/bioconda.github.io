@@ -9,7 +9,7 @@ This 3D proximity tool can be used to identify mutation hotspots from linear pro
 
 ============= ===========
 Home          https://github.com/ding-lab/hotspot3d
-Versions      0.6.0, 1.8.2
+Versions      1.8.2, 0.6.0
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hotspot3d
 

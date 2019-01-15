@@ -9,7 +9,7 @@ A simple and flexible way to generate Circos 2D track plot images for genomic da
 
 ============= ===========
 Home          http://bitbucket.org/henryhzhang/rcircos
-Versions      1.1.3, 1.2.0
+Versions      1.2.0, 1.1.3
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rcircos
 

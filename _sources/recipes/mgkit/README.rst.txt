@@ -9,7 +9,7 @@ Metagenomics Framework
 
 ============= ===========
 Home          https://bitbucket.org/setsuna80/mgkit/
-Versions      0.2.2, 0.3.0, 0.3.3, 0.3.4
+Versions      0.3.4, 0.3.3, 0.3.0, 0.2.2
 License       GNU General Public License v2 or later (GPLv2+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mgkit
 

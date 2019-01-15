@@ -9,7 +9,7 @@ Takes sample information in the form of the fraction of mutations in each of 96 
 
 ============= ===========
 Home          https://github.com/raerose01/deconstructSigs
-Versions      1.8.0, 1.8.0.1
+Versions      1.8.0.1, 1.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deconstructsigs
 

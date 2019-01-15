@@ -9,7 +9,7 @@ Exporter with the features of Sub\:\:Exporter but only core dependencies
 
 ============= ===========
 Home          https://metacpan.org/release/Exporter-Tiny
-Versions      0.042, 1.000000, 1.002001
+Versions      1.002001, 1.000000, 0.042
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter-tiny
 

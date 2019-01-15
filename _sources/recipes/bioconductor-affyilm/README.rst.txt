@@ -9,7 +9,7 @@ affyILM is a preprocessing tool which estimates gene expression levels for Affym
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/affyILM.html
-Versions      1.28.0, 1.30.0, 1.32.0
+Versions      1.32.0, 1.30.0, 1.28.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyilm
 

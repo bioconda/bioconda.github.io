@@ -9,7 +9,7 @@ Avro is a serialization and RPC framework. This package is a fork of regular avr
 
 ============= ===========
 Home          https://pypi.python.org/pypi?:action=display&name=avro-cwl
-Versions      1.8.4, 1.8.9
+Versions      1.8.9, 1.8.4
 License       Apache 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-cwl
 

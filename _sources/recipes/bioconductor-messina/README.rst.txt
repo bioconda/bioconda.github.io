@@ -9,7 +9,7 @@ Messina is a collection of algorithms for constructing optimally robust single\-
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/messina.html
-Versions      1.12.0, 1.14.0, 1.16.0
+Versions      1.16.0, 1.14.0, 1.12.0
 License       EPL (>= 1.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-messina
 

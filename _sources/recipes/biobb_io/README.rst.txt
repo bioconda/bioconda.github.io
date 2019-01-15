@@ -9,7 +9,7 @@ Biobb\_io is the Biobb module collection to fetch data to be consumed by the res
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_io
-Versions      0.0.3, 0.0.5, 0.0.6, 0.0.8, 0.1.0
+Versions      0.1.0, 0.0.8, 0.0.6, 0.0.5, 0.0.3
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_io
 

@@ -9,7 +9,7 @@ A programmatic client for the eBird database\, including functions for searching
 
 ============= ===========
 Home          http://github.com/ropensci/rebird
-Versions      0.4.0, 0.5.0, 1.0.0
+Versions      1.0.0, 0.5.0, 0.4.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rebird
 

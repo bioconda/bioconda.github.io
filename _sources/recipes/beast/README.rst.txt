@@ -9,7 +9,7 @@ BEAST is a cross\-platform program for Bayesian analysis of molecular sequences 
 
 ============= ===========
 Home          http://beast.bio.ed.ac.uk
-Versions      1.10.0, 1.10.1, 1.10.2, 1.10.3, 1.10.4, 1.8.2, 1.8.4
+Versions      1.10.4, 1.10.3, 1.10.2, 1.10.1, 1.10.0, 1.8.4, 1.8.2
 License       LGPL-2.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beast
 

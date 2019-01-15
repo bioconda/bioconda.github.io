@@ -9,7 +9,7 @@ Recycler is a tool designed for extracting circular sequences from de novo assem
 
 ============= ===========
 Home          https://github.com/Shamir-Lab/Recycler
-Versions      0.6, 0.6.2, 0.6p1, 0.7
+Versions      0.7, 0.6.2, 0.6, 0.6p1
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/recycler
 

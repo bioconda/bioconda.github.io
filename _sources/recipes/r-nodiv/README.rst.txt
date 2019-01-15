@@ -9,7 +9,7 @@ An implementation of the nodiv algorithm\, see Borregaard\, M.K.\, Rahbek\, C.\,
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=nodiv
-Versions      1.2.0, 1.3.0
+Versions      1.3.0, 1.2.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nodiv
 

@@ -9,7 +9,7 @@ Emperor a tool for the analysis and visualization of large microbial ecology dat
 
 ============= ===========
 Home          http://github.com/biocore/emperor
-Versions      0.9.3, 0.9.51, 1.0.0beta10, 1.0.0beta11, 1.0.0beta12, 1.0.0beta13, 1.0.0beta14, 1.0.0beta15, 1.0.0beta16, 1.0.0beta17, 1.0.0beta18, 1.0.0beta4, 1.0.0beta5, 1.0.0beta6, 1.0.0beta7, 1.0.0beta8, 1.0.0beta9
+Versions      0.9.51, 0.9.3
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emperor
 

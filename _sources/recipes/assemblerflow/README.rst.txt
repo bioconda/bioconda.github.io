@@ -9,7 +9,7 @@ A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Ru
 
 ============= ===========
 Home          https://github.com/ODiogoSilva/assemblerflow
-Versions      1.0.1, 1.1.0.post1, 1.1.0.post3
+Versions      1.1.0.post3, 1.1.0.post1, 1.0.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblerflow
 

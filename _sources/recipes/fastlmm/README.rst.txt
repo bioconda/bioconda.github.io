@@ -9,7 +9,7 @@ Fast GWAS
 
 ============= ===========
 Home          http://research.microsoft.com/en-us/um/redmond/projects/mscompbio/fastlmm/
-Versions      0.2.24, 0.2.32
+Versions      0.2.32, 0.2.24
 License       Apache 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastlmm
 

@@ -9,7 +9,7 @@ A set of tools for working with genomic and high throughput sequencing data\, in
 
 ============= ===========
 Home          https://github.com/fulcrumgenomics/fgbio
-Versions      0.1.2a, 0.1.3a, 0.1.5a, 0.2.0, 0.2.1a, 0.2.1b, 0.4.0, 0.5.0a, 0.6.1, 0.7.0
+Versions      0.7.0, 0.6.1, 0.5.0a, 0.4.0, 0.2.1b, 0.2.1a, 0.2.0, 0.1.5a, 0.1.3a, 0.1.2a
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgbio
 

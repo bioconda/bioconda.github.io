@@ -9,7 +9,7 @@ conditional reciprocal best hits with LAST
 
 ============= ===========
 Home          https://github.com/camillescott/shmlast
-Versions      1.2.1, 1.3, 1.4
+Versions      1.4, 1.3, 1.2.1
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shmlast
 

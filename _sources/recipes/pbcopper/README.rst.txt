@@ -9,7 +9,7 @@ Core C\+\+ library for data structures\, algorithms\, and utilities
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbcopper
-Versions      0.4.1, 0.4.2
+Versions      0.4.2, 0.4.1
 License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcopper
 

@@ -9,7 +9,7 @@ This package contains functions to ease the analyses of DNA micro arrays. It uti
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/pcaGoPromoter.html
-Versions      1.22.0, 1.24.0
+Versions      1.24.0, 1.22.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter
 

@@ -9,7 +9,7 @@ graphical representation of the Feb 2010 KEGG Orthology. The KEGG orthology is a
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/keggorthology.html
-Versions      2.30.0, 2.32.0
+Versions      2.32.0, 2.30.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggorthology
 

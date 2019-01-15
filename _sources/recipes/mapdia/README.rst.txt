@@ -9,7 +9,7 @@ Performs essential data preprocessing\, including novel retention time\-based no
 
 ============= ===========
 Home          http://sourceforge.net/projects/mapdia/.
-Versions      1.0, 3.1.0
+Versions      3.1.0, 1.0
 License       file
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapdia
 

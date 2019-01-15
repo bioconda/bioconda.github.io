@@ -9,7 +9,7 @@ An algorithm for recovering haplotypes from metagenomes
 
 ============= ===========
 Home          https://github.com/SamStudio8/gretel
-Versions      0.0.81, 0.0.90
+Versions      0.0.90, 0.0.81
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gretel
 

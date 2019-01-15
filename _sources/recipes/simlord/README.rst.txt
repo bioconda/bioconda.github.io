@@ -9,7 +9,7 @@ SimLoRD is a read simulator for long reads from third generation sequencing. Cur
 
 ============= ===========
 Home          https://bitbucket.org/genomeinformatics/simlord/
-Versions      0.7.3, 1.0.1, 1.0.2
+Versions      1.0.2, 1.0.1, 0.7.3
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simlord
 

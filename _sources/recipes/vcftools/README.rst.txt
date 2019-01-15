@@ -9,7 +9,7 @@ A set of tools written in Perl and C\+\+ for working with VCF files. This packag
 
 ============= ===========
 Home          https://vcftools.github.io/
-Versions      0.1.10, 0.1.11, 0.1.14, 0.1.15, 0.1.16
+Versions      0.1.16, 0.1.15, 0.1.14, 0.1.11, 0.1.10
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcftools
 

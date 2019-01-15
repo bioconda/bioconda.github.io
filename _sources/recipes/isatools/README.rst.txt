@@ -9,7 +9,7 @@ Metadata tracking tools help to manage an increasingly diverse set of life scien
 
 ============= ===========
 Home          https://github.com/ISA-tools/isa-api
-Versions      0.10.0, 0.10.2, 0.10.3, 0.9.3, 0.9.4, 0.9.5
+Versions      0.10.3, 0.10.2, 0.10.0, 0.9.5, 0.9.4, 0.9.3
 License       CPAL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isatools
 

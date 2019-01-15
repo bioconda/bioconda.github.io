@@ -9,7 +9,7 @@ NGS tool for detecting MEI and gene retrotransposition events in WGS and WES dat
 
 ============= ===========
 Home          https://github.com/jyhehir/mobster
-Versions      0.2.1, 0.2.2, 0.2.3.1, 0.2.4.1
+Versions      0.2.4.1, 0.2.3.1, 0.2.2, 0.2.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mobster
 

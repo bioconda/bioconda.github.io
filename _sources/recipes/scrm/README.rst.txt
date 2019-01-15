@@ -9,7 +9,7 @@ A coalescent simulator for genome\-scale sequences
 
 ============= ===========
 Home          https://scrm.github.io/
-Versions      1.6.1, 1.7.1, 1.7.2, 1.7.3
+Versions      1.7.3, 1.7.2, 1.7.1, 1.6.1
 License       GNU General Public License v3 or later (GPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrm
 

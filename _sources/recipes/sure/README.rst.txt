@@ -9,7 +9,7 @@ utility belt for automated testing in python for python
 
 ============= ===========
 Home          http://github.com/gabrielfalcao/sure
-Versions      1.2.24, 1.4.11
+Versions      1.4.11, 1.2.24
 License       GNU General Public License v3 or later (GPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sure
 

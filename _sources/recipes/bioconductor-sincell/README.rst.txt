@@ -9,7 +9,7 @@ Cell differentiation processes are achieved through a continuum of hierarchical 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/sincell.html
-Versions      1.10.0, 1.12.0
+Versions      1.12.0, 1.10.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sincell
 

@@ -9,7 +9,7 @@ Provides quality control and quality assessment tools for gated flow cytometry d
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/QUALIFIER.html
-Versions      1.20.0, 1.22.0, 1.24.1
+Versions      1.24.1, 1.22.0, 1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qualifier
 

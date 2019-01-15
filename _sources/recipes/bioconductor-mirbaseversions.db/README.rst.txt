@@ -9,7 +9,7 @@ Annotation package containing all available miRNA names from 22 versions \(data 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/annotation/html/miRBaseVersions.db.html
-Versions      0.99.5, 1.1.0
+Versions      1.1.0, 0.99.5
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirbaseversions.db
 

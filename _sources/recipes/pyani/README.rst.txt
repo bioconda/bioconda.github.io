@@ -9,7 +9,7 @@ pyani provides a package and script for calculation of genome\-scale average nuc
 
 ============= ===========
 Home          http://widdowquinn.github.io/pyani/
-Versions      0.2.0, 0.2.3, 0.2.7
+Versions      0.2.7, 0.2.3, 0.2.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyani
 

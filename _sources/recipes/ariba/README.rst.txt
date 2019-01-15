@@ -9,7 +9,7 @@ ARIBA\: Antibiotic Resistance Identification By Assembly
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/ariba
-Versions      0.6.0, 2.10.0, 2.10.1, 2.11.0, 2.11.1, 2.12.0, 2.12.1, 2.13.2, 2.13.3, 2.5.1
+Versions      2.13.3, 2.13.2, 2.12.1, 2.12.0, 2.11.1, 2.11.0, 2.10.1, 2.10.0, 2.5.1, 0.6.0
 License       GNU General Public License v3 (GPL-3.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ariba
 

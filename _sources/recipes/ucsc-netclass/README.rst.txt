@@ -9,7 +9,7 @@ Add classification info to net
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      332, 357, 366
+Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-netclass
 

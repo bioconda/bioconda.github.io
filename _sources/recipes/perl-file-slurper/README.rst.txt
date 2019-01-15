@@ -9,7 +9,7 @@ A simple\, sane and efficient module to slurp a file
 
 ============= ===========
 Home          http://metacpan.org/pod/File-Slurper
-Versions      0.008, 0.012
+Versions      0.012, 0.008
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-slurper
 

@@ -9,7 +9,7 @@ Package provides mRNA datasets from The Cancer Genome Atlas Project for all avai
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/experiment/html/RTCGA.mRNA.html
-Versions      1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mrna
 

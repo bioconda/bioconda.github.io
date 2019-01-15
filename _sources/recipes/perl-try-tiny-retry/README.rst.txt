@@ -9,7 +9,7 @@ Just like Try\:\:Tiny\, but with retry instead of try.
 
 ============= ===========
 Home          https://github.com/dagolden/Try-Tiny-Retry
-Versions      0.002, 0.004
+Versions      0.004, 0.002
 License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-try-tiny-retry
 

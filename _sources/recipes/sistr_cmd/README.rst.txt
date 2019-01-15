@@ -9,7 +9,7 @@ Salmonella In Silico Typing Resource \(SISTR\) commandline tool for serovar pred
 
 ============= ===========
 Home          https://github.com/peterk87/sistr_cmd/
-Versions      0.3.1, 0.3.3, 0.3.4, 0.3.6, 1.0.2
+Versions      1.0.2, 0.3.6, 0.3.4, 0.3.3, 0.3.1
 License       Apache
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sistr_cmd
 

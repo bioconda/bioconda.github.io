@@ -9,7 +9,7 @@ Main purpose of this software is to pre\-process NGS data in order to prepare fo
 
 ============= ===========
 Home          https://github.com/ibest/seqyclean
-Versions      1.10.07, 1.10.09
+Versions      1.10.09, 1.10.07
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqyclean
 

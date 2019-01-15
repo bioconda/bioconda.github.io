@@ -9,7 +9,7 @@ gvcf aggregation tool
 
 ============= ===========
 Home          https://github.com/Illumina/agg
-Versions      0.3.5, 0.3.6
+Versions      0.3.6, 0.3.5
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agg
 

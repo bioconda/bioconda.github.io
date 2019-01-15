@@ -9,7 +9,7 @@ The World\-Wide Web library for Perl
 
 ============= ===========
 Home          http://metacpan.org/pod/libwww-perl
-Versions      6.15, 6.36
+Versions      6.36, 6.15
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-libwww-perl
 

@@ -9,7 +9,7 @@ Provides probability ranking to candidate compounds assigned to masses\, with th
 
 ============= ===========
 Home          https://github.com/rsilvabioinfo/ProbMetab
-Versions      1.0, 1.1
+Versions      1.1, 1.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-probmetab/1.1
 

@@ -9,7 +9,7 @@ A python tool for generating a Newick formatted tree from alist of classificatio
 
 ============= ===========
 Home          https://github.com/SimonGreenhill/treemaker
-Versions      1.1, 1.2
+Versions      1.2, 1.1
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treemaker
 

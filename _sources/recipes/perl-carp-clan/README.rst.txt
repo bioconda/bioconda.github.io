@@ -9,7 +9,7 @@ Report errors from perspective of caller of a \"clan\" of modules
 
 ============= ===========
 Home          http://metacpan.org/pod/Carp::Clan
-Versions      6.06, 6.07
+Versions      6.07, 6.06
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp-clan
 

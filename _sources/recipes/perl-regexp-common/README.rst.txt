@@ -9,7 +9,7 @@ Provide commonly requested regular expressions
 
 ============= ===========
 Home          http://metacpan.org/pod/Regexp::Common
-Versions      2016060801, 2017060201
+Versions      2017060201, 2016060801
 License       mit
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-regexp-common
 

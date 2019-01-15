@@ -9,7 +9,7 @@ Generic file fetching code
 
 ============= ===========
 Home          http://metacpan.org/pod/File::Fetch
-Versions      0.48, 0.56
+Versions      0.56, 0.48
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-fetch
 

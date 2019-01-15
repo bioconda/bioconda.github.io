@@ -9,7 +9,7 @@ DEXUS identifies differentially expressed genes in RNA\-Seq data under all possi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/dexus.html
-Versions      1.18.0, 1.20.0
+Versions      1.20.0, 1.18.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dexus
 

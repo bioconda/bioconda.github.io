@@ -9,7 +9,7 @@ For NGS experiments using unique molecular identifiers \(UMIs\)\, molecules that
 
 ============= ===========
 Home          https://cibiv.github.io/trumicount/
-Versions      0.9.10, 0.9.11, 0.9.11.1, 0.9.9.3
+Versions      0.9.11.1, 0.9.11, 0.9.10, 0.9.9.3
 License       AGPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trumicount
 

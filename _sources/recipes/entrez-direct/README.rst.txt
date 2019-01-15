@@ -9,7 +9,7 @@ Entrez Direct \(EDirect\) is an advanced method for accessing the NCBI\'s set of
 
 ============= ===========
 Home          ftp://ftp.ncbi.nlm.nih.gov/entrez/entrezdirect/versions/10.2.20181018/README
-Versions      10.0, 10.2, 4.00, 5.80, 7.00, 7.70
+Versions      10.2, 10.0, 7.70, 7.00, 5.80, 4.00
 License       PUBLIC DOMAIN
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/entrez-direct
 

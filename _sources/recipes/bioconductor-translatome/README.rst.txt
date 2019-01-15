@@ -9,7 +9,7 @@ Detection of differentially expressed genes \(DEGs\) from the comparison of two 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/tRanslatome.html
-Versions      1.16.0, 1.18.5
+Versions      1.18.5, 1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-translatome
 

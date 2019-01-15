@@ -9,7 +9,7 @@ This package has been prepared to assist users in computing either a sample size
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/sizepower.html
-Versions      1.46.0, 1.48.0, 1.50.0
+Versions      1.50.0, 1.48.0, 1.46.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sizepower
 

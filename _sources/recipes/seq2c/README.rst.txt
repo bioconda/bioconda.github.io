@@ -9,7 +9,7 @@ Cohort based copy number calling in gene regions
 
 ============= ===========
 Home          https://github.com/AstraZeneca-NGS/Seq2C
-Versions      2016.03.23, 2018.12.05
+Versions      2018.12.05, 2016.03.23
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq2c
 

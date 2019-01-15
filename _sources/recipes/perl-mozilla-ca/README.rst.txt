@@ -9,7 +9,7 @@ Mozilla\'s CA cert bundle in PEM format
 
 ============= ===========
 Home          http://metacpan.org/pod/Mozilla::CA
-Versions      20160104, 20180117
+Versions      20180117, 20160104
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mozilla-ca
 

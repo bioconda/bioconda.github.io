@@ -9,7 +9,7 @@ Java tool for performing annotation of VCF files
 
 ============= ===========
 Home          https://github.com/charite/jannovar
-Versions      0.20, 0.21, 0.22, 0.23, 0.24, 0.25, 0.26, 0.27
+Versions      0.27, 0.26, 0.25, 0.24, 0.23, 0.22, 0.21, 0.20
 License       BSD2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jannovar-cli
 

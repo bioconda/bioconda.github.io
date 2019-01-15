@@ -9,7 +9,7 @@ A statistical framework and computational procedure for identifying the sub\-pop
 
 ============= ===========
 Home          https://github.com/yuchaojiang/Canopy
-Versions      1.2.0, 1.3.0
+Versions      1.3.0, 1.2.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-canopy
 

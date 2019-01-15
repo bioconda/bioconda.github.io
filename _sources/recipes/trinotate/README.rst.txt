@@ -9,7 +9,7 @@ Trinotate is a comprehensive annotation suite designed for automatic functional 
 
 ============= ===========
 Home          https://trinotate.github.io/
-Versions      3.0.1, 3.0.2, 3.1.0, 3.1.1
+Versions      3.1.1, 3.1.0, 3.0.2, 3.0.1
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trinotate
 

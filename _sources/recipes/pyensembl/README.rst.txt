@@ -9,7 +9,7 @@ Python interface to ensembl reference genome metadata
 
 ============= ===========
 Home          https://github.com/openvax/pyensembl
-Versions      1.2.6, 1.7.2, 1.7.3
+Versions      1.7.3, 1.7.2, 1.2.6
 License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyensembl
 

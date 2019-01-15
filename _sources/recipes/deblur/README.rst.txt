@@ -9,7 +9,7 @@ Deblur is a greedy deconvolution algorithm based on known read error profiles.
 
 ============= ===========
 Home          https://github.com/biocore/deblur
-Versions      1.0.4, 1.1.0
+Versions      1.1.0, 1.0.4
 License       BSD license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deblur
 

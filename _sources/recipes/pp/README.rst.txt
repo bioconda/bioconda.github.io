@@ -9,7 +9,7 @@ Parallel and distributed programming for Python
 
 ============= ===========
 Home          http://www.parallelpython.com
-Versions      1.6.4, 1.6.5
+Versions      1.6.5, 1.6.4
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pp
 

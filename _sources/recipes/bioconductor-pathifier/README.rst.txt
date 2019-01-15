@@ -9,7 +9,7 @@ Pathifier is an algorithm that infers pathway deregulation scores for each tumor
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/pathifier.html
-Versions      1.16.0, 1.20.0
+Versions      1.20.0, 1.16.0
 License       Artistic-1.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathifier
 

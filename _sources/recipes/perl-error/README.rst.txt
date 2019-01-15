@@ -9,7 +9,7 @@ Error\/exception handling in an OO\-ish way
 
 ============= ===========
 Home          http://metacpan.org/pod/Error
-Versions      0.17024, 0.17027
+Versions      0.17027, 0.17024
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-error
 

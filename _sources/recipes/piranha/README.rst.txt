@@ -9,7 +9,7 @@ Piranha is a peak\-caller for CLIP\- and RIP\-Seq data.
 
 ============= ===========
 Home          http://smithlabresearch.org/software/piranha/
-Versions      0.10, 0.11, 0.5, 0.8, 1.2.1
+Versions      1.2.1
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/piranha
 

@@ -9,7 +9,7 @@ Data of T\- and B\-cell Acute Lymphocytic Leukemia from the Ritz Laboratory at t
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/experiment/html/ALL.html
-Versions      1.18.0, 1.20.0, 1.22.0
+Versions      1.22.0, 1.20.0, 1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-all
 

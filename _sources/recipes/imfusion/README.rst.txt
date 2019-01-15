@@ -9,7 +9,7 @@ IM\-Fusion \- Tool for identifying transposon insertions and their effects from 
 
 ============= ===========
 Home          https://github.com/jrderuiter/imfusion
-Versions      0.3.0, 0.3.2
+Versions      0.3.2, 0.3.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/imfusion/0.3.0
 

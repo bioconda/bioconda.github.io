@@ -9,7 +9,7 @@ Tools for working with directory and file names
 
 ============= ===========
 Home          http://dev.perl.org/
-Versions      3.40, 3.73
+Versions      3.73, 3.40
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pathtools/3.73
 

@@ -9,7 +9,7 @@ Non\-parametric method for identifying differentially expressed \(up\- or down\-
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/RankProd.html
-Versions      3.4.0, 3.6.0
+Versions      3.6.0, 3.4.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rankprod
 

@@ -9,7 +9,7 @@ Implementation of the classifier described in the paper \'Genome\-driven integra
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=iC10
-Versions      1.1.3, 1.4.2
+Versions      1.4.2, 1.1.3
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ic10
 

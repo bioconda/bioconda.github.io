@@ -9,7 +9,7 @@ pwOmics performs pathway\-based level\-specific data comparison of matching omic
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/pwOmics.html
-Versions      1.10.1, 1.12.0
+Versions      1.12.0, 1.10.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwomics
 

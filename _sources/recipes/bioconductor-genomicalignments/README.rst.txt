@@ -9,7 +9,7 @@ Provides efficient containers for storing and manipulating short genomic alignme
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/GenomicAlignments.html
-Versions      1.10.0, 1.12.2, 1.14.0, 1.14.1, 1.16.0, 1.6.0, 1.6.1, 1.6.3, 1.8.4
+Versions      1.16.0, 1.14.1, 1.14.0, 1.12.2, 1.10.0, 1.8.4, 1.6.3, 1.6.1, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genomicalignments
 

@@ -9,7 +9,7 @@ Methodology for supervised clustering of potentially many predictor variables\, 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ctsGE.html
-Versions      1.4.0, 1.6.1
+Versions      1.6.1, 1.4.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctsge
 

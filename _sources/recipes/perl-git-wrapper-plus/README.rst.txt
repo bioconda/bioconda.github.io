@@ -9,7 +9,7 @@ A Toolkit for working with Git\:\:Wrapper in an Object Oriented Way.
 
 ============= ===========
 Home          https://github.com/kentnl/Git-Wrapper-Plus
-Versions      0.004010, 0.004011
+Versions      0.004011, 0.004010
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-git-wrapper-plus
 

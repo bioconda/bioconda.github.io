@@ -9,7 +9,7 @@ Differential Evolution \(DE\) stochastic algorithms for global optimization of p
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=DEoptimR
-Versions      1.0_6, 1.0_8
+Versions      1.0_8, 1.0_6
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-deoptimr
 

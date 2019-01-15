@@ -9,7 +9,7 @@ Faster than intervaltree\_bio
 
 ============= ===========
 Home          https://pypi.org/project/intervaltree/#description
-Versions      2.1.0, 3.0.1, 3.0.2
+Versions      3.0.2, 3.0.1, 2.1.0
 License       Apache
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-intervaltree
 

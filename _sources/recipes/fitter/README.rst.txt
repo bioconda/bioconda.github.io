@@ -9,7 +9,7 @@ A tool to fit data to many distributions and best one\(s\)
 
 ============= ===========
 Home          http://github.com/cokelaer/fitter
-Versions      1.0.4, 1.0.8, 1.0.9
+Versions      1.0.9, 1.0.8, 1.0.4
 License       GNU Library or Lesser General Public License (LGPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fitter
 

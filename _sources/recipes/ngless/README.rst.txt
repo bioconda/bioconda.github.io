@@ -9,7 +9,7 @@ A tool for metagenomics processing with a focus on metagenomics
 
 ============= ===========
 Home          http://ngless.embl.de
-Versions      0.10.0, 0.5.1, 0.6.0, 0.6.1, 0.7.0, 0.7.1, 0.8.0, 0.8.1, 0.9.0, 0.9.1
+Versions      0.10.0, 0.9.1, 0.9.0, 0.8.1, 0.8.0, 0.7.1, 0.7.0, 0.6.1, 0.6.0, 0.5.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngless
 

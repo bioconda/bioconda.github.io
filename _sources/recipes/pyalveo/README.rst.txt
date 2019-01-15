@@ -9,7 +9,7 @@ A Python library for interfacing with the Alveo API
 
 ============= ===========
 Home          https://github.com/Alveo/pyalveo
-Versions      0.5, 0.6, 0.7, 1.0.3, 1.0.5
+Versions      1.0.3, 0.7, 0.6, 0.5
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyalveo
 

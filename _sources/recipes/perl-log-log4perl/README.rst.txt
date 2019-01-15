@@ -9,7 +9,7 @@ Log4j implementation for Perl
 
 ============= ===========
 Home          http://metacpan.org/pod/Log::Log4perl
-Versions      1.47, 1.49
+Versions      1.49, 1.47
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-log-log4perl
 

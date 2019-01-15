@@ -9,7 +9,7 @@ This package uses hidden Ising models to identify enriched genomic regions in Ch
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/iChip.html
-Versions      1.32.0, 1.34.0
+Versions      1.34.0, 1.32.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ichip
 

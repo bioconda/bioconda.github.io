@@ -9,7 +9,7 @@ Fast structural deletion calling on population\-scale short read paired\-end ger
 
 ============= ===========
 Home          https://github.com/kehrlab/PopDel
-Versions      1.0.1, 1.0.2, 1.0.3, 1.0.4, 1.0.5, 1.0.6, 1.0.7, 1.0.8
+Versions      1.0.8, 1.0.7, 1.0.6, 1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/popdel
 

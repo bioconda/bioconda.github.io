@@ -9,7 +9,7 @@ Concatenate xml files together\, stuffing all records inside a single outer tag.
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357, 366
+Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-xmlcat
 

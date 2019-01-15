@@ -9,7 +9,7 @@ Store UCSC phastCons conservation scores for the human genome \(hg19\) calculate
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/annotation/html/phastCons100way.UCSC.hg19.html
-Versions      3.6.0, 3.7.2
+Versions      3.7.2, 3.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-phastcons100way.ucsc.hg19
 

@@ -9,7 +9,7 @@ A package for retrieval\, preparation and analysis of data from the Affymetrix G
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/SAGx.html
-Versions      1.50.0, 1.52.0, 1.54.0
+Versions      1.54.0, 1.52.0, 1.50.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sagx
 

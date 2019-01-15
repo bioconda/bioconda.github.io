@@ -9,7 +9,7 @@ contributing to TAP\:\:Harness
 
 ============= ===========
 Home          http://testanything.org/
-Versions      3.30, 3.36, 3.42
+Versions      3.42, 3.36, 3.30
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-harness
 

@@ -9,7 +9,7 @@ RNAinteract estimates genetic interactions from multi\-dimensional read\-outs li
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/RNAinteract.html
-Versions      1.26.0, 1.28.0
+Versions      1.28.0, 1.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnainteract
 

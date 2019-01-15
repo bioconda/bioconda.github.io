@@ -9,7 +9,7 @@ Accurate\, Fast and Lightweight Clustering of de novo Transcriptomes using Fragm
 
 ============= ===========
 Home          https://github.com/COMBINE-lab/RapClust
-Versions      0.1.1, 0.1.2
+Versions      0.1.2, 0.1.1
 License       BSD with attribution
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapclust
 

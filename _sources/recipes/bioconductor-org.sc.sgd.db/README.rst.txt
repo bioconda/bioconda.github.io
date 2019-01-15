@@ -9,7 +9,7 @@ Genome wide annotation for Yeast\, primarily based on mapping using ORF identifi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/annotation/html/org.Sc.sgd.db.html
-Versions      3.5.0, 3.6.0
+Versions      3.6.0, 3.5.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.sc.sgd.db
 

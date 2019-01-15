@@ -9,7 +9,7 @@ A generic file fetching mechanism
 
 ============= ===========
 Home          https://metacpan.org/pod/distribution/CGI/lib/CGI.pod
-Versions      4.22, 4.40
+Versions      4.40, 4.22
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cgi
 

@@ -9,7 +9,7 @@ Fast sequence distance estimator that uses MinHash
 
 ============= ===========
 Home          https://github.com/marbl/Mash
-Versions      1.0.2, 1.1, 2.0, 2.1
+Versions      2.1, 2.0, 1.1, 1.0.2
 License       https://raw.githubusercontent.com/marbl/Mash/master/LICENSE.txt
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mash
 

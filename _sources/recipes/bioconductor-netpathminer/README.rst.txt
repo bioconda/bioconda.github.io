@@ -9,7 +9,7 @@ NetPathMiner is a general framework for network path mining using genome\-scale 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/NetPathMiner.html
-Versions      1.12.1, 1.14.0, 1.16.0
+Versions      1.16.0, 1.14.0, 1.12.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netpathminer
 

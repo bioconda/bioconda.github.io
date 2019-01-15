@@ -9,7 +9,7 @@ ctat\-lncrna uses slncky
 
 ============= ===========
 Home          https://github.com/NCIP/ctat-lncrna
-Versions      1.0, 1.0.1
+Versions      1.0.1, 1.0
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-lncrna
 

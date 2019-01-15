@@ -9,7 +9,7 @@ PlasmidTron\: assembling the cause of phenotypes from NGS data
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/plasmidtron
-Versions      0.3.3, 0.3.5, 0.4.1
+Versions      0.4.1, 0.3.5, 0.3.3
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasmidtron
 

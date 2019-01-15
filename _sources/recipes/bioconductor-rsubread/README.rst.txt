@@ -9,7 +9,7 @@ Rsubread is a toolbox developed for the analyses of second and third generation 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/Rsubread.html
-Versions      1.22.1, 1.23.0, 1.25.2, 1.26.1, 1.28.0, 1.28.1, 1.30.9
+Versions      1.30.9, 1.28.1, 1.28.0, 1.26.1, 1.25.2, 1.23.0, 1.22.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsubread
 

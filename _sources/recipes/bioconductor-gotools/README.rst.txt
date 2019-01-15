@@ -9,7 +9,7 @@ Wraper functions for description\/comparison of oligo ID list using Gene Ontolog
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/goTools.html
-Versions      1.52.0, 1.54.0
+Versions      1.54.0, 1.52.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gotools
 

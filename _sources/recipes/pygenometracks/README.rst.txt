@@ -9,7 +9,7 @@ Standalone program and library to plot beautiful genome browser tracks.
 
 ============= ===========
 Home          https://github.com/deeptools/pyGenomeTracks/
-Versions      0.1, 1.0, 2.0, 2.1
+Versions      2.1, 2.0, 1.0, 0.1
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygenometracks
 

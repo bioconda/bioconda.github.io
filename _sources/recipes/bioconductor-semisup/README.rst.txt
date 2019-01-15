@@ -9,7 +9,7 @@ This R packages moves away from testing interaction terms\, and move towards tes
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/semisup.html
-Versions      1.0.2, 1.2.0, 1.4.0
+Versions      1.4.0, 1.2.0, 1.0.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-semisup
 

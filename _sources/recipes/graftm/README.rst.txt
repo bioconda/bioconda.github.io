@@ -9,7 +9,7 @@ GraftM is a pipeline used for identifying and classifying marker gene reads from
 
 ============= ===========
 Home          http://geronimp.github.io/graftM
-Versions      0.10.1, 0.11.1
+Versions      0.11.1, 0.10.1
 License       GPL3+
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graftm
 

@@ -9,7 +9,7 @@ Utilities to process\, organize and explore protein structure\, sequence and dyn
 
 ============= ===========
 Home          http://thegrantlab.org/bio3d/, http://bitbucket.org/Grantlab/bio3d
-Versions      2.2_3, 2.3_3, 2.3_4
+Versions      2.3_3, 2.2_3
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bio3d
 

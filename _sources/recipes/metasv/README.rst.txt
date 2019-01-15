@@ -9,7 +9,7 @@ An accurate and integrative structural\-variant caller for next generation seque
 
 ============= ===========
 Home          https://github.com/bioinform/metasv
-Versions      0.4.0, 0.5.4
+Versions      0.5.4, 0.4.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasv
 

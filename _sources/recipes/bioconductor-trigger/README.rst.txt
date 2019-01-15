@@ -9,7 +9,7 @@ This R package provides tools for the statistical analysis of integrative genomi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/trigger.html
-Versions      1.24.0, 1.26.0
+Versions      1.26.0, 1.24.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trigger
 

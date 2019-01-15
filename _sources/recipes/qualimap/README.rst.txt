@@ -9,7 +9,7 @@ Quality control of alignment sequencing data and its derivatives like feature co
 
 ============= ===========
 Home          http://qualimap.bioinfo.cipf.es/
-Versions      2.1.3, 2.2, 2.2.2a, 2.2.2b
+Versions      2.2.2b, 2.2.2a, 2.2, 2.1.3
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qualimap
 

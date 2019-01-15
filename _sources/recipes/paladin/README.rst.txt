@@ -9,7 +9,7 @@ Protein Alignment and Detection Interface
 
 ============= ===========
 Home          http://genomebio.org/paladin/
-Versions      1.3.1, 1.4.4
+Versions      1.4.4, 1.3.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/paladin
 

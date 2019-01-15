@@ -9,7 +9,7 @@ A post sequencing QC tool for Oxford Nanopore sequencers
 
 ============= ===========
 Home          https://github.com/GenomicParisCentre/toulligQC
-Versions      0.10, 0.5, 0.9, 1.0
+Versions      1.0, 0.10, 0.9, 0.5
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/toulligqc
 

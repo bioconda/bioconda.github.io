@@ -9,7 +9,7 @@ Converts HyPhy 2.3.2 GARD output to JSON
 
 ============= ===========
 Home          https://github.com/veg/translate-gard/
-Versions      1.0.3, 1.0.4
+Versions      1.0.4, 1.0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/npm-translate-gard
 

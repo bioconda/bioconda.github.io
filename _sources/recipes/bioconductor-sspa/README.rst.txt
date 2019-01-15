@@ -9,7 +9,7 @@ General Sample size and power analysis for microarray and next\-generation seque
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/SSPA.html
-Versions      2.16.0, 2.18.0, 2.20.0
+Versions      2.20.0, 2.18.0, 2.16.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sspa
 

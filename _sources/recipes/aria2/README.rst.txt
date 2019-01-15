@@ -9,7 +9,7 @@ aria2 is a lightweight multi\-protocol \& multi\-source\, cross platform downloa
 
 ============= ===========
 Home          https://aria2.github.io/
-Versions      1.23.0, 1.34.0
+Versions      1.34.0, 1.23.0
 License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/aria2
 

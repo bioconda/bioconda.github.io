@@ -9,7 +9,7 @@ xAtlas is a fast and retrainable small variant caller that has been developed at
 
 ============= ===========
 Home          https://github.com/jfarek/xatlas
-Versions      0.1, 0.2.1
+Versions      0.2.1, 0.1
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xatlas
 

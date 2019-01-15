@@ -9,7 +9,7 @@ The package provides functionality to extract isotopic peak patterns from raw ma
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/IPPD.html
-Versions      1.26.0, 1.28.0
+Versions      1.28.0, 1.26.0
 License       GPL (version 2 or later)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ippd
 

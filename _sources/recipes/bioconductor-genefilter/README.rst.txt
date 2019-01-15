@@ -9,7 +9,7 @@ Some basic functions for filtering genes
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/genefilter.html
-Versions      1.50.0, 1.51.0, 1.52.0, 1.52.1, 1.54.2, 1.56.0, 1.58.1, 1.60.0, 1.62.0
+Versions      1.62.0, 1.60.0, 1.58.1, 1.56.0, 1.54.2, 1.52.1, 1.52.0, 1.51.0, 1.50.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefilter
 

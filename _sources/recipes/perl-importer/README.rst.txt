@@ -9,7 +9,7 @@ Alternative but compatible interface to modules that export symbols.
 
 ============= ===========
 Home          http://metacpan.org/pod/Importer
-Versions      0.024, 0.025
+Versions      0.025, 0.024
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-importer
 

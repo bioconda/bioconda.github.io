@@ -9,7 +9,7 @@ Rapid large\-scale prokaryote pan genome analysis
 
 ============= ===========
 Home          https://github.com/sanger-pathogens/Roary
-Versions      3.10.2, 3.12.0, 3.7.0, 3.8.0, 3.8.2, 3.9.1
+Versions      3.12.0, 3.10.2, 3.9.1, 3.8.2, 3.8.0, 3.7.0
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary
 

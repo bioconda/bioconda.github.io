@@ -9,7 +9,7 @@ Qcat is Python command\-line tool for demultiplexing Oxford Nanopore reads from 
 
 ============= ===========
 Home          https://github.com/nanoporetech/qcat
-Versions      1.0.0, 1.0.1
+Versions      1.0.1, 1.0.0
 License       Mozilla Public License Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcat
 

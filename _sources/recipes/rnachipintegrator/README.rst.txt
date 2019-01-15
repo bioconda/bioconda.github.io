@@ -9,7 +9,7 @@ Analyse genes against peak data\, and vice versa
 
 ============= ===========
 Home          https://github.com/fls-bioinformatics-core/RnaChipIntegrator
-Versions      1.0.3, 1.1.0
+Versions      1.1.0, 1.0.3
 License       Artistic License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnachipintegrator
 

@@ -9,7 +9,7 @@ Methods for ranking genes based on convergent evidence obtained from multiple in
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/GenRank.html
-Versions      1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank
 

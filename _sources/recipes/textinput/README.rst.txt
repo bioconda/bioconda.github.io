@@ -9,7 +9,7 @@ streamlined version of stdlib fileinput
 
 ============= ===========
 Home          http://www.ebi.ac.uk/~hoffman/software/textinput/
-Versions      0.1.1, 0.2
+Versions      0.2, 0.1.1
 License       GNU General Public License (GPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/textinput
 

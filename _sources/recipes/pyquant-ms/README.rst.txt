@@ -9,7 +9,7 @@ A framework for the analysis of quantitative mass spectrometry data
 
 ============= ===========
 Home          https://chris7.github.io/pyquant/
-Versions      0.1.42, 0.1.43rc3, 0.2.1, 0.2.3
+Versions      0.2.3, 0.2.1, 0.1.43rc3, 0.1.42
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyquant-ms
 

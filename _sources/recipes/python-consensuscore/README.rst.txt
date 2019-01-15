@@ -9,7 +9,7 @@ PacBio Quiver Consensus library for RSII data
 
 ============= ===========
 Home          https://github.com/PacificBiosciences/pbbioconda
-Versions      1.0.0, 1.0.2, 1.1.1
+Versions      1.1.1, 1.0.2, 1.0.0
 License       BSD-3-Clause-Clear
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-consensuscore
 

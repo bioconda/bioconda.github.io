@@ -9,7 +9,7 @@ A library and collection of scripts to work with Illumina paired\-end data \(for
 
 ============= ===========
 Home          https://github.com/meren/illumina-utils
-Versions      2.4.1, 2.5, 2.6
+Versions      2.6, 2.5, 2.4.1
 License       GNU General Public v3 or later (GPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumina-utils
 

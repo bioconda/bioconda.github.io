@@ -9,7 +9,7 @@ Utility library for rp\-bp
 
 ============= ===========
 Home          https://github.com/dieterich-lab/pymisc-utils
-Versions      0.2.10, 0.2.11
+Versions      0.2.11, 0.2.10
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymisc-utils
 

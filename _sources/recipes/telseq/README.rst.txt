@@ -9,7 +9,7 @@ A software for calculating telomere length
 
 ============= ===========
 Home          https://github.com/zd1/telseq
-Versions      0.0.1, 0.0.2
+Versions      0.0.2, 0.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/telseq
 

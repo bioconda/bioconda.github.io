@@ -9,7 +9,7 @@ Report generation for bcbio\-nextgen RNA\-seq runs
 
 ============= ===========
 Home          https://github.com/roryk/bcbio.rnaseq
-Versions      1.0.3, 1.0.4, 1.1.1, 1.2.0
+Versions      1.2.0, 1.1.1, 1.0.4, 1.0.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio-rnaseq
 

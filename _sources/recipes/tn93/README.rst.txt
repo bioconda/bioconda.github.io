@@ -9,7 +9,7 @@ This is a simple program meant to compute pairwise distances between aligned nuc
 
 ============= ===========
 Home          https://github.com/veg/tn93
-Versions      1.0.2, 1.0.4, 1.0.6
+Versions      1.0.6, 1.0.4, 1.0.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tn93
 

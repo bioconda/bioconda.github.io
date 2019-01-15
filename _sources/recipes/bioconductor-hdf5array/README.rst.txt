@@ -9,7 +9,7 @@ An array\-like container for convenient access and manipulation of HDF5 datasets
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/HDF5Array.html
-Versions      1.6.0, 1.8.1
+Versions      1.8.1, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hdf5array
 

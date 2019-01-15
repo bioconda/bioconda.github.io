@@ -9,7 +9,7 @@ ExtractAdaptersFastqc reads which adapter sequences where found from a FastQC ra
 
 ============= ===========
 Home          https://github.com/biopet/extractadaptersfastqc
-Versions      0.1, 0.2
+Versions      0.2, 0.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-extractadaptersfastqc
 

@@ -9,7 +9,7 @@ Memory efficient string containers\, string matching algorithms\, and other util
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/Biostrings.html
-Versions      2.38.0, 2.38.2, 2.38.3, 2.38.4, 2.40.0, 2.40.2, 2.42.1, 2.44.2, 2.46.0, 2.48.0
+Versions      2.48.0, 2.46.0, 2.44.2, 2.42.1, 2.40.2, 2.40.0, 2.38.4, 2.38.3, 2.38.2, 2.38.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biostrings
 

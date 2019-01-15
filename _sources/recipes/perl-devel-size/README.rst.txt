@@ -9,7 +9,7 @@ Perl extension for finding the memory usage of Perl variables
 
 ============= ===========
 Home          http://metacpan.org/pod/Devel::Size
-Versions      0.80, 0.82
+Versions      0.82, 0.80
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-size
 

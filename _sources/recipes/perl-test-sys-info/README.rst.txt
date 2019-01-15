@@ -9,7 +9,7 @@ Centralized test suite for Sys\:\:Info.
 
 ============= ===========
 Home          http://metacpan.org/pod/Test::Sys::Info
-Versions      0.21, 0.23
+Versions      0.23, 0.21
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-sys-info
 

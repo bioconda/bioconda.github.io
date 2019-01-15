@@ -9,7 +9,7 @@ EcoPy\: Ecological Data Analysis in Python
 
 ============= ===========
 Home          https://github.com/Auerilas/ecopy
-Versions      0.1.2, 0.1.2.2
+Versions      0.1.2.2, 0.1.2
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecopy
 

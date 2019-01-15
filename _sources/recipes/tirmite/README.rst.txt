@@ -9,7 +9,7 @@ Map TIR\-pHMM models to genomic sequences for annotation of MITES and complete D
 
 ============= ===========
 Home          https://github.com/Adamtaranto/TIRmite
-Versions      1.1.0, 1.1.1, 1.1.3
+Versions      1.1.3, 1.1.1, 1.1.0
 License       MIT License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tirmite
 

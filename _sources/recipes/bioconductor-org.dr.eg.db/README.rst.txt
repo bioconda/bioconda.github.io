@@ -9,7 +9,7 @@ Genome wide annotation for Zebrafish\, primarily based on mapping using Entrez G
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/annotation/html/org.Dr.eg.db.html
-Versions      3.4.1, 3.4.2, 3.5.0, 3.6.0
+Versions      3.6.0, 3.5.0, 3.4.2, 3.4.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.dr.eg.db
 

@@ -9,7 +9,7 @@ tiny\, yet Moo\(se\)\-compatible type constraint
 
 ============= ===========
 Home          https://metacpan.org/release/Type-Tiny
-Versions      1.000005, 1.002002, 1.004002, 1.004003, 1.004004
+Versions      1.004004, 1.004003, 1.004002, 1.002002, 1.000005
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-type-tiny
 

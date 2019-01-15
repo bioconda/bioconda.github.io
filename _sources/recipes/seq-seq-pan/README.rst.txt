@@ -9,7 +9,7 @@ seq\-seq\-pan is a workflow for the SEQuential alignment of SEQuences to build a
 
 ============= ===========
 Home          https://gitlab.com/chrjan/seq-seq-pan
-Versions      1.0.0, 1.0.1
+Versions      1.0.1, 1.0.0
 License       FreeBSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seq-seq-pan
 

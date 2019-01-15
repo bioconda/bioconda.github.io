@@ -9,7 +9,7 @@ An extensive toolset for the characterization and visualization of a wide range 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/MutationalPatterns.html
-Versions      1.4.1, 1.4.3, 1.6.1
+Versions      1.6.1, 1.4.3, 1.4.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mutationalpatterns
 

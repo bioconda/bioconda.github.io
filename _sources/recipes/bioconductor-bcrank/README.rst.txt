@@ -9,7 +9,7 @@ Functions and classes for de novo prediction of transcription factor binding con
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/BCRANK.html
-Versions      1.38.0, 1.40.0, 1.42.0
+Versions      1.42.0, 1.40.0, 1.38.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcrank
 

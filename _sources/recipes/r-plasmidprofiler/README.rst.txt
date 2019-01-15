@@ -9,7 +9,7 @@ Contains functions developed to combine the results of querying a plasmid databa
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=Plasmidprofiler
-Versions      0.1.4, 0.1.6
+Versions      0.1.6, 0.1.4
 License       Apache License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-plasmidprofiler
 

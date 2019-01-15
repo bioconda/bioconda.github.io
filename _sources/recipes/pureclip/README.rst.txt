@@ -9,7 +9,7 @@ PureCLIP is a tool to detect protein\-RNA interaction footprints from single\-nu
 
 ============= ===========
 Home          https://github.com/skrakau/PureCLIP
-Versions      1.0.2, 1.0.3, 1.0.4, 1.1.1, 1.1.2, 1.2.0
+Versions      1.2.0, 1.1.2, 1.1.1, 1.0.4, 1.0.3, 1.0.2
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pureclip
 

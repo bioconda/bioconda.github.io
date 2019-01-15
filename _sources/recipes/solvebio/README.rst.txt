@@ -9,7 +9,7 @@ The SolveBio Python client
 
 ============= ===========
 Home          https://github.com/solvebio/solvebio-python
-Versions      2.4.6, 2.5.1, 2.6.1, 2.7.0, 2.8.0
+Versions      2.8.0, 2.7.0, 2.6.1, 2.5.1, 2.4.6
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/solvebio
 

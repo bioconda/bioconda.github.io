@@ -9,7 +9,7 @@ Common functions for making R function wapper scripts. Functions in R packages a
 
 ============= ===========
 Home          https://github.com/ebi-gene-expression-group/workflowscriptscommon
-Versions      0.0.1, 0.0.2
+Versions      0.0.2, 0.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-workflowscriptscommon
 

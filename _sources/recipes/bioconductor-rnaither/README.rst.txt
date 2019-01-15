@@ -9,7 +9,7 @@ RNAither analyzes cell\-based RNAi screens\, and includes quality assessment\, c
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/RNAither.html
-Versions      2.24.0, 2.28.0
+Versions      2.28.0, 2.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaither
 

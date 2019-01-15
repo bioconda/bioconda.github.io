@@ -9,7 +9,7 @@ Minimalist Object Orientation \(with Moose compatibility\)
 
 ============= ===========
 Home          http://metacpan.org/pod/Moo
-Versions      2.000002, 2.001000, 2.003004
+Versions      2.003004, 2.001000, 2.000002
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moo
 

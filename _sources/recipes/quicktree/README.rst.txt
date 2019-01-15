@@ -9,7 +9,7 @@ Fast implementation of the neighbour\-joining phylogenetic inference method
 
 ============= ===========
 Home          https://github.com/khowe/quicktree
-Versions      2.2, 2.4
+Versions      2.4, 2.2
 License       Apache-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicktree
 

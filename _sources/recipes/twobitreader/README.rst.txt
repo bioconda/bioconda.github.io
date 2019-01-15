@@ -9,7 +9,7 @@ A fast python package for reading .2bit files \(used by the UCSC genome browser\
 
 ============= ===========
 Home          https://github.com/benjschiller/twobitreader
-Versions      3.1.4, 3.1.6
+Versions      3.1.6, 3.1.4
 License       Artistic License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/twobitreader
 

@@ -9,7 +9,7 @@ Process sequence\-capture FASTQ files into alignments for phylogenetic analyses.
 
 ============= ===========
 Home          https://github.com/AntonelliLab/seqcap_processor
-Versions      1.0.1, 1.0.2, 1.1.0, 1.1.10, 1.1.12, 1.1.4, 1.1.7, 1.1.8, 1.1.9
+Versions      1.1.12, 1.1.10, 1.1.9, 1.1.8, 1.1.7, 1.1.4, 1.1.0, 1.0.2, 1.0.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/secapr
 

@@ -9,7 +9,7 @@ Build.PL install path logic made easy
 
 ============= ===========
 Home          http://metacpan.org/pod/ExtUtils::InstallPaths
-Versions      0.011, 0.012
+Versions      0.012, 0.011
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-extutils-installpaths
 

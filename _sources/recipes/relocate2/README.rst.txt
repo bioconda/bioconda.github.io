@@ -9,7 +9,7 @@ a high resolution transposable element insertion sites mapping tool for populati
 
 ============= ===========
 Home          https://github.com/stajichlab/RelocaTE2
-Versions      2.0.0, 2.0.1
+Versions      2.0.1, 2.0.0
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/relocate2
 

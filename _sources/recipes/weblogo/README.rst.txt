@@ -9,7 +9,7 @@ WebLogo3 \: Sequence Logos Redrawn
 
 ============= ===========
 Home          https://github.com/WebLogo/weblogo
-Versions      2.8.2, 3.5.0, 3.6.0
+Versions      3.6.0, 3.5.0, 2.8.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/weblogo
 

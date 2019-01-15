@@ -9,7 +9,7 @@ IO Interface to compressed data files\/buffers
 
 ============= ===========
 Home          http://metacpan.org/pod/IO-Compress
-Versions      2.069, 2.081, 2.083, 2.084
+Versions      2.084, 2.083, 2.081, 2.069
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-compress
 

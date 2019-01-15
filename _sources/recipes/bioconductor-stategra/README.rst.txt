@@ -9,7 +9,7 @@ Classes and tools for multi\-omics data integration.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/STATegRa.html
-Versions      1.10.0, 1.12.0, 1.16.1
+Versions      1.16.1, 1.12.0, 1.10.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-stategra
 

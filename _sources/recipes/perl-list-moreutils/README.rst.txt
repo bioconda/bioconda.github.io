@@ -9,7 +9,7 @@ Provide the stuff missing in List\:\:Util
 
 ============= ===========
 Home          https://metacpan.org/release/List-MoreUtils
-Versions      0.15, 0.413, 0.428
+Versions      0.428, 0.413, 0.15
 License       apache_2_0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils
 

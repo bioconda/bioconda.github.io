@@ -9,7 +9,7 @@ SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU
 
 ============= ===========
 Home          http://bioinfo.lifl.fr/RNA/sortmerna
-Versions      2.0, 2.1b
+Versions      2.1b, 2.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sortmerna/2.1b
 

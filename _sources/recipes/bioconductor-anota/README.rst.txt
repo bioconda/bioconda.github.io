@@ -9,7 +9,7 @@ Genome wide studies of translational control is emerging as a tool to study veri
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/anota.html
-Versions      1.24.0, 1.26.0, 1.28.0
+Versions      1.28.0, 1.26.0, 1.24.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota
 

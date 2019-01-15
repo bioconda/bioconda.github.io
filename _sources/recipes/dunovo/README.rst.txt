@@ -9,7 +9,7 @@ Du Novo\: A pipeline for processing duplex sequencing data.
 
 ============= ===========
 Home          https://github.com/galaxyproject/dunovo
-Versions      0.7, 0.7.1, 0.7.4, 0.7.5, 0.7.6, 0.8.1, 2.0.12, 2.0.6, 2.0.8, 2.0.9, 2.14, 2.15
+Versions      2.15, 2.14, 2.0.12, 2.0.9, 2.0.8, 2.0.6, 0.8.1, 0.7.6, 0.7.5, 0.7.4, 0.7.1, 0.7
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dunovo
 

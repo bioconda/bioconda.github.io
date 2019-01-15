@@ -9,7 +9,7 @@ Color theme structure
 
 ============= ===========
 Home          https://metacpan.org/release/Color-Theme
-Versions      0.01, 0.10.1
+Versions      0.10.1, 0.01
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-color-theme
 

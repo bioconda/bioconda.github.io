@@ -9,7 +9,7 @@ Estimate variance\-mean dependence in count data from high\-throughput sequencin
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/DESeq2.html
-Versions      1.10.0, 1.10.1, 1.12.4, 1.14.1, 1.16.1, 1.18.0, 1.18.1, 1.20.0, 1.8.2
+Versions      1.20.0, 1.18.1, 1.18.0, 1.16.1, 1.14.1, 1.12.4, 1.10.1, 1.10.0, 1.8.2
 License       LGPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deseq2
 

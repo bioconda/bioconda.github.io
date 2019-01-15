@@ -9,7 +9,7 @@ bioconductor-metaarray
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/metaArray.html
-Versions      1.54.0, 1.56.0, 1.58.0
+Versions      1.58.0, 1.56.0, 1.54.0
 License       LGPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaarray
 

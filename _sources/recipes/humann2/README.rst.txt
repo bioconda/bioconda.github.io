@@ -9,7 +9,7 @@ HUMAnN2\: The HMP Unified Metabolic Analysis Network 2
 
 ============= ===========
 Home          http://huttenhower.sph.harvard.edu/humann2
-Versions      0.11.1, 0.11.2, 0.5.0, 0.6.1, 0.9.9
+Versions      0.11.2, 0.11.1, 0.9.9, 0.6.1, 0.5.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/humann2
 

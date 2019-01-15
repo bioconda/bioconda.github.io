@@ -9,7 +9,7 @@ Perl implementation of the which utility as an API
 
 ============= ===========
 Home          https://metacpan.org/pod/File::Which
-Versions      1.20, 1.22, 1.23
+Versions      1.23, 1.22, 1.20
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-which
 

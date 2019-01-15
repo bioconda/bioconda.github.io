@@ -9,7 +9,7 @@ The term \'GeneSelector\' refers to a filter selecting those genes which are con
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/GeneSelector.html
-Versions      2.28.0, 2.30.0
+Versions      2.30.0, 2.28.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselector
 

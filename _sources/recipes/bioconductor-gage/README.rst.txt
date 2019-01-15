@@ -9,7 +9,7 @@ GAGE is a published method for gene set \(enrichment or GSEA\) or pathway analys
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/gage.html
-Versions      2.21.1, 2.26.3, 2.28.0, 2.30.0
+Versions      2.30.0, 2.28.0, 2.26.3, 2.21.1
 License       GPL (>=2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gage
 

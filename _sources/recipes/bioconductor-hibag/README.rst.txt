@@ -9,7 +9,7 @@ It is a software package for imputing HLA types using SNP data\, and relies on a
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/HIBAG.html
-Versions      1.14.0, 1.16.0
+Versions      1.16.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hibag
 

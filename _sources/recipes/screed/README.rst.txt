@@ -9,7 +9,7 @@ Screed is a biological sequence parsing and storage\/retrieval library for DNA a
 
 ============= ===========
 Home          http://github.com/dib-lab/screed/
-Versions      0.9, 1.0
+Versions      1.0, 0.9
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/screed
 

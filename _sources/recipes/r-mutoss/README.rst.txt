@@ -9,7 +9,7 @@ Designed to ease the application and comparison of multiple hypothesis testing p
 
 ============= ===========
 Home          https://github.com/kornl/mutoss/
-Versions      0.1_10, 0.1_12
+Versions      0.1_12, 0.1_10
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mutoss
 

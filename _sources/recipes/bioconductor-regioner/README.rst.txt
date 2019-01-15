@@ -9,7 +9,7 @@ regioneR offers a statistical framework based on customizable permutation tests 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/regioneR.html
-Versions      1.10.0, 1.12.0, 1.2.0, 1.6.2, 1.8.1
+Versions      1.12.0, 1.10.0, 1.8.1, 1.6.2, 1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regioner
 

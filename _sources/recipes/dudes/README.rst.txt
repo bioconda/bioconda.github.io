@@ -9,7 +9,7 @@ DUDes\: a top\-down taxonomic profiler for metagenomics
 
 ============= ===========
 Home          https://github.com/pirovc/dudes/
-Versions      0.06, 0.07, 0.08
+Versions      0.08, 0.07, 0.06
 License       The MIT License (MIT)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dudes
 

@@ -9,7 +9,7 @@ Short\-read sequencing tools
 
 ============= ===========
 Home          https://github.com/imgag/ngs-bits
-Versions      2018_04, 2018_06, 2018_10, 2018_11
+Versions      2018_11, 2018_10, 2018_06, 2018_04
 License       MIT license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngs-bits
 

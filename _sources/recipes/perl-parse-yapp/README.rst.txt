@@ -9,7 +9,7 @@ A perl frontend to the Parse\:\:Yapp module
 
 ============= ===========
 Home          http://metacpan.org/pod/Parse::Yapp
-Versions      1.05, 1.21
+Versions      1.21, 1.05
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parse-yapp
 

@@ -9,7 +9,7 @@ Python package for the generation of PostScript\, PDF\, and SVG files
 
 ============= ===========
 Home          http://pyx.sourceforge.net/
-Versions      0.12.1, 0.14.1
+Versions      0.14.1, 0.12.1
 License       GNU General Public License (GPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyx
 

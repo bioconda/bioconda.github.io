@@ -9,7 +9,7 @@ Tools for working on BAM data
 
 ============= ===========
 Home          https://github.com/blankenberg/pyBamTools
-Versions      0.0.3, 0.0.4
+Versions      0.0.4, 0.0.3
 License       GNU General Public License v2 (GPLv2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pybamtools
 

@@ -9,7 +9,7 @@ The full Genome Analysis Toolkit \(GATK\) framework\, license restricted.
 
 ============= ===========
 Home          https://www.broadinstitute.org/gatk/
-Versions      3.5, 3.6, 3.7, 3.8
+Versions      3.8, 3.7, 3.6, 3.5
 License       https://www.broadinstitute.org/gatk/about/#licensing
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk
 

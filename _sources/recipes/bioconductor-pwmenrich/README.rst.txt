@@ -9,7 +9,7 @@ A toolkit of high\-level functions for DNA motif scanning and enrichment analysi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/PWMEnrich.html
-Versions      4.14.0, 4.16.0
+Versions      4.16.0, 4.14.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pwmenrich
 

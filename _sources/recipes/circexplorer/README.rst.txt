@@ -9,7 +9,7 @@ A combined strategy to identify circular RNAs \(circRNAs and ciRNAs\)
 
 ============= ===========
 Home          https://github.com/YangLab/CIRCexplorer
-Versions      0.1, 1.1.10, 1.1.9
+Versions      1.1.10, 1.1.9, 0.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/circexplorer
 

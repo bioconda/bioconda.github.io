@@ -9,7 +9,7 @@ A robust tool for DNA contamination estimation from sequence reads using ancestr
 
 ============= ===========
 Home          https://github.com/Griffan/VerifyBamID
-Versions      1.0.4, 1.0.5
+Versions      1.0.5, 1.0.4
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/verifybamid2
 

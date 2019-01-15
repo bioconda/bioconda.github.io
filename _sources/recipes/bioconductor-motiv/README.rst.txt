@@ -9,7 +9,7 @@ This package makes use of STAMP for comparing a set of motifs to a given databas
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/MotIV.html
-Versions      1.30.0, 1.32.0, 1.34.0, 1.36.0
+Versions      1.36.0, 1.34.0, 1.32.0, 1.30.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motiv
 

@@ -9,7 +9,7 @@ a general probabilistic framework for structural variant discovery
 
 ============= ===========
 Home          https://github.com/arq5x/lumpy-sv
-Versions      0.2.11, 0.2.12, 0.2.13, 0.2.14a
+Versions      0.2.14a, 0.2.13, 0.2.12, 0.2.11
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lumpy-sv
 

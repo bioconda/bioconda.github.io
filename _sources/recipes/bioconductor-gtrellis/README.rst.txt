@@ -9,7 +9,7 @@ Genome level Trellis graph visualizes genomic data conditioned by genomic catego
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/gtrellis.html
-Versions      1.11.1, 1.12.1
+Versions      1.12.1, 1.11.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gtrellis
 

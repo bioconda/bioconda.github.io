@@ -9,7 +9,7 @@ This package can generate a synthetic map with reads covering the nucleosome reg
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/nucleoSim.html
-Versions      1.4.0, 1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucleosim
 

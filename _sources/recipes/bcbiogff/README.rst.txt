@@ -9,7 +9,7 @@ Read and write Generic Feature Format \(GFF\) with Biopython integration.
 
 ============= ===========
 Home          https://github.com/chapmanb/bcbb/blob/master/gff
-Versions      0.6.2, 0.6.4
+Versions      0.6.4, 0.6.2
 License       Biopython License Agreement
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbiogff
 

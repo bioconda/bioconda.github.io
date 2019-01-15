@@ -9,7 +9,7 @@ Implementation of the GA4GH Workflow Execution Service\, a REST service for runn
 
 ============= ===========
 Home          https://github.com/common-workflow-language/workflow-service
-Versions      2.5, 2.7
+Versions      2.7, 2.5
 License       Apache License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wes-service-client
 

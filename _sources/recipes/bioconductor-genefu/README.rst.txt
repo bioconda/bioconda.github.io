@@ -9,7 +9,7 @@ Description\: This package contains functions implementing various tasks usually
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/genefu.html
-Versions      2.10.0, 2.12.0
+Versions      2.12.0, 2.10.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefu
 

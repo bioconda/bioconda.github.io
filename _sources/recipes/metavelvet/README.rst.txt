@@ -9,7 +9,7 @@ MetaVelvet \: An extension of Velvet assembler to de novo metagenome assembly fr
 
 ============= ===========
 Home          http://metavelvet.dna.bio.keio.ac.jp
-Versions      1.1.01, 1.2.02
+Versions      1.2.02, 1.1.01
 License       GNU General Public License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet
 

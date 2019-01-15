@@ -9,7 +9,7 @@ A complete analysis pipeline for matrix\-assisted laser desorption\/ionization\-
 
 ============= ===========
 Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/MALDIquant/
-Versions      1.14, 1.16.4, 1.17, 1.18
+Versions      1.18, 1.17, 1.16.4, 1.14
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-maldiquant
 

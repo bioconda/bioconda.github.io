@@ -9,7 +9,7 @@ This toolkit allows the efficient manipulation of sequence data in various ways.
 
 ============= ===========
 Home          https://github.com/subwaystation/TOPAS
-Versions      1.0.0, 1.0.1
+Versions      1.0.1, 1.0.0
 License       CC-BY
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/topas
 

@@ -9,7 +9,7 @@ This package provides a client for the Bioconductor ExperimentHub web resource. 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ExperimentHub.html
-Versions      1.4.0, 1.6.1
+Versions      1.6.1, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthub
 

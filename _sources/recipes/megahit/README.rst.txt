@@ -10,7 +10,7 @@ metagenomics assembly via succinct de Bruijn graph
 
 ============= ===========
 Home          https://github.com/voutcn/megahit
-Versions      1.0.3, 1.0.6, 1.1.1, 1.1.2, 1.1.3
+Versions      1.1.3, 1.1.2, 1.1.1, 1.0.6, 1.0.3
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megahit
 

@@ -9,7 +9,7 @@ This package contains the AIMS implementation. It contains necessary functions t
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/AIMS.html
-Versions      1.10.0, 1.12.0, 1.8.0
+Versions      1.12.0, 1.10.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aims
 

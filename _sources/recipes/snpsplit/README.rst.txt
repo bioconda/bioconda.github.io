@@ -9,7 +9,7 @@ SNPsplit is an allele\-specific alignment sorter which is designed to read in al
 
 ============= ===========
 Home          https://www.bioinformatics.babraham.ac.uk/projects/SNPsplit/
-Versions      0.3.3, 0.3.4
+Versions      0.3.4, 0.3.3
 License       GNU General Public License v3 (GPLv3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpsplit
 

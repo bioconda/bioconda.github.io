@@ -9,7 +9,7 @@ Most commonly needed test functions and features
 
 ============= ===========
 Home          http://metacpan.org/pod/Test-Most
-Versions      0.34, 0.35
+Versions      0.35, 0.34
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-most
 

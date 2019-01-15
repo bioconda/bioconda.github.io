@@ -9,7 +9,7 @@ Fiji is an image processing package—a \"batteries\-included\" distribution of 
 
 ============= ===========
 Home          http://fiji.sc
-Versions      20141125, 20151222
+Versions      20151222, 20141125
 License       GNU General Public License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fiji/20151222
 

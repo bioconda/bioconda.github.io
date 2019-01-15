@@ -9,7 +9,7 @@ Biclustering by \"Factor Analysis for Bicluster Acquisition\" \(FABIA\). FABIA i
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/fabia.html
-Versions      2.24.0, 2.26.0
+Versions      2.26.0, 2.24.0
 License       LGPL (>= 2.1)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fabia
 

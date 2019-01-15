@@ -9,7 +9,7 @@ Microbial assembly pipeline for Illumina paired\-end reads
 
 ============= ===========
 Home          https://github.com/tseemann/shovill
-Versions      0.7.1, 0.8.0, 0.9.0, 1.0.0, 1.0.1, 1.0.4
+Versions      1.0.4, 1.0.1, 1.0.0, 0.9.0, 0.8.0, 0.7.1
 License       GPL2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shovill
 

@@ -9,7 +9,7 @@ ExifTool is a platform\-independent Perl library plus a command\-line applicatio
 
 ============= ===========
 Home          http://metacpan.org/pod/Image::ExifTool
-Versions      10.40, 11.01, 11.11
+Versions      11.11, 11.01, 10.40
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-exiftool
 

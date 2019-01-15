@@ -9,7 +9,7 @@ This package implements functions to retrieve the nearest genes around the peak\
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ChIPseeker.html
-Versions      1.10.0, 1.12.1, 1.14.0, 1.14.2, 1.16.1, 1.6.6
+Versions      1.16.1, 1.14.2, 1.14.0, 1.12.1, 1.10.0, 1.6.6
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseeker
 

@@ -9,7 +9,7 @@ Multi sample aCGH analysis package using kernel convolution
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/KCsmart.html
-Versions      2.32.0, 2.34.0, 2.36.0, 2.38.0
+Versions      2.38.0, 2.36.0, 2.34.0, 2.32.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kcsmart
 

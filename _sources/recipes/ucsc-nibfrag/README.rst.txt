@@ -9,7 +9,7 @@ Extract part of a nib file as .fa \(all bases\/gaps lower case by default\)
 
 ============= ===========
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
-Versions      324, 332, 357, 366
+Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-nibfrag
 

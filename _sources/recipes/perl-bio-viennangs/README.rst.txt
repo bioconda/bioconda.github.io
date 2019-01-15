@@ -9,7 +9,7 @@ A Perl distribution for Next\-Generation Sequencing \(NGS\) data analysis
 
 ============= ===========
 Home          http://metacpan.org/pod/Bio::ViennaNGS
-Versions      v0.16, v0.18, v0.19, v0.19.2
+Versions      v0.19.2, v0.19, v0.18, v0.16
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-viennangs
 

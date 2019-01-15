@@ -9,7 +9,7 @@ Tools for dealing with SAM\, BAM and CRAM files
 
 ============= ===========
 Home          https://github.com/samtools/samtools
-Versions      0.1.12, 0.1.13, 0.1.14, 0.1.15, 0.1.16, 0.1.17, 0.1.18, 0.1.19, 1.0, 1.1, 1.2, 1.2.rglab, 1.3, 1.3.1, 1.4, 1.4.1, 1.5, 1.6, 1.7, 1.8, 1.9
+Versions      1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.1, 1.3, 1.2, 1.2.rglab, 1.1, 1.0, 0.1.19, 0.1.18, 0.1.17, 0.1.16, 0.1.15, 0.1.14, 0.1.13, 0.1.12
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samtools
 

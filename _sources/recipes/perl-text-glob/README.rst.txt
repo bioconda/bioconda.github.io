@@ -9,7 +9,7 @@ match globbing patterns against text
 
 ============= ===========
 Home          https://metacpan.org/pod/Text::Glob
-Versions      0.09, 0.11
+Versions      0.11, 0.09
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-glob
 

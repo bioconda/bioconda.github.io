@@ -9,7 +9,7 @@ Subset of Galaxy \(http\:\/\/galaxyproject.org\/\) core code base designed to be
 
 ============= ===========
 Home          https://github.com/galaxyproject/galaxy-lib
-Versions      16.10.3, 16.10.4, 16.10.6, 16.10.8, 16.10.9, 16.4.0, 16.7.10, 17.1.2, 17.5.9, 17.9.10, 17.9.7, 17.9.9, 18.5.13, 18.5.4, 18.5.5, 18.9.1, 18.9.2
+Versions      18.9.2, 18.9.1, 18.5.13, 18.5.5, 18.5.4, 17.9.10, 17.9.9, 17.9.7, 17.5.9, 17.1.2, 16.10.9, 16.10.8, 16.10.6, 16.10.4, 16.10.3, 16.7.10, 16.4.0
 License       Academic Free License (AFL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-lib
 

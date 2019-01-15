@@ -9,7 +9,7 @@ SHIVER \- Sequences from HIV Easily Reconstructed
 
 ============= ===========
 Home          https://github.com/ChrisHIV/shiver
-Versions      1.0.0, 1.1.0, 1.2.1, 1.3.5
+Versions      1.3.5, 1.2.1, 1.1.0, 1.0.0
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shiver
 

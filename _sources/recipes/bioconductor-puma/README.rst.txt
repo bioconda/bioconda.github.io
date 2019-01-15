@@ -9,7 +9,7 @@ Most analyses of Affymetrix GeneChip data \(including tranditional 3\' arrays an
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/puma.html
-Versions      3.20.0, 3.22.0
+Versions      3.22.0, 3.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-puma
 

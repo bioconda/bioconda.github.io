@@ -9,7 +9,7 @@ A highly sensitive and accurate mapper for long\, error\-prone reads.
 
 ============= ===========
 Home          https://github.com/isovic/graphmap
-Versions      0.3.1p1, 0.4.0, 0.5.2
+Versions      0.5.2, 0.4.0, 0.3.1p1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/graphmap
 

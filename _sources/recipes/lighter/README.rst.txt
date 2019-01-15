@@ -9,7 +9,7 @@ Lighter is a kmer\-based error correction method for whole genome sequencing dat
 
 ============= ===========
 Home          https://github.com/mourisl/Lighter
-Versions      1.1.1, 1.1.2
+Versions      1.1.2, 1.1.1
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lighter
 

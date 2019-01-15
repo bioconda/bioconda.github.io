@@ -9,7 +9,7 @@ The IDR \(Irreproducible Discovery Rate\) framework is a uniﬁed approach to me
 
 ============= ===========
 Home          https://github.com/kundajelab/idr
-Versions      2.0.2, 2.0.3, 2.0.4.2
+Versions      2.0.4.2, 2.0.3, 2.0.2
 License       GPLv2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/idr
 

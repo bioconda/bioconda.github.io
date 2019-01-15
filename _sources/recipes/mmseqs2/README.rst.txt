@@ -9,7 +9,7 @@ MMseqs2.0\: ultra fast and sensitive protein search and clustering suite
 
 ============= ===========
 Home          https://github.com/soedinglab/mmseqs2
-Versions      2.23394, 3.be8f6, 4.0b8cc, 4.bff50, 5.9375b, 6.f5a1c, 7.4e23d
+Versions      7.4e23d, 6.f5a1c, 5.9375b, 4.bff50, 4.0b8cc, 3.be8f6, 2.23394
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mmseqs2
 

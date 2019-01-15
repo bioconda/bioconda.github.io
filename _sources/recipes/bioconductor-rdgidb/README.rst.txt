@@ -9,7 +9,7 @@ The rDGIdb package provides a wrapper for the Drug Gene Interaction Database \(D
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/rDGIdb.html
-Versions      1.2.1, 1.4.1, 1.6.0
+Versions      1.6.0, 1.4.1, 1.2.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdgidb
 

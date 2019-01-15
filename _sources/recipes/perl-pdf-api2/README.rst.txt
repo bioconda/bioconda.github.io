@@ -9,7 +9,7 @@ Facilitates the creation and modification of PDF files
 
 ============= ===========
 Home          http://metacpan.org/pod/PDF::API2
-Versions      2.025, 2.033
+Versions      2.033, 2.025
 License       lgpl_2_1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pdf-api2
 

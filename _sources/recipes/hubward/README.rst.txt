@@ -9,7 +9,7 @@ Manage the visualization of large amounts of other people\'s \[often messy\] gen
 
 ============= ===========
 Home          https://github.com/daler/hubward
-Versions      0.2.0, 0.2.1, 0.2.2
+Versions      0.2.2, 0.2.1, 0.2.0
 License       BSD License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hubward
 

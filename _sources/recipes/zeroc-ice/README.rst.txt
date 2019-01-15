@@ -9,7 +9,7 @@ Ice is a comprehensive RPC framework that helps you network your software with m
 
 ============= ===========
 Home          https://github.com/zeroc-ice
-Versions      3.6.3, 3.7.1
+Versions      3.7.1, 3.6.3
 License       GPL v2 with exceptions
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/zeroc-ice
 

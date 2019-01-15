@@ -9,7 +9,7 @@ A set of wrappers for individual components of the SC3 package. Functions R pack
 
 ============= ===========
 Home          https://github.com/ebi-gene-expression-group/bioconductor-sc3-scripts
-Versions      0.0.1
+Versions      0.0.2, 0.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sc3-scripts
 

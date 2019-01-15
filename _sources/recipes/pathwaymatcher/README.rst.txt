@@ -10,7 +10,7 @@ PathwayMatcher is a software tool writen in Java to search for pathways related 
 
 ============= ===========
 Home          https://github.com/PathwayAnalysisPlatform/PathwayMatcher
-Versions      1.7, 1.8, 1.8.1
+Versions      1.8.1, 1.8, 1.7
 License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pathwaymatcher
 

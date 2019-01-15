@@ -9,7 +9,7 @@ rmats2sashimiplot is a tool that generates sahimi plots from rMATS outputs.
 
 ============= ===========
 Home          https://github.com/Xinglab/rmats2sashimiplot
-Versions      2.0.0, 2.0.3
+Versions      2.0.3, 2.0.0
 License       GPL-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmats2sashimiplot
 

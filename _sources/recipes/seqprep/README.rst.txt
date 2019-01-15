@@ -9,7 +9,7 @@ Tool for stripping adaptors and\/or merging paired reads with overlap into singl
 
 ============= ===========
 Home          https://github.com/jstjohn/SeqPrep
-Versions      1.1, 1.2, 1.3.2
+Versions      1.3.2, 1.2, 1.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqprep
 

@@ -9,7 +9,7 @@ Functions for handling translating between different identifieres using the Bioc
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/AnnotationFuncs.html
-Versions      1.26.0, 1.28.0, 1.30.0
+Versions      1.30.0, 1.28.0, 1.26.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-annotationfuncs
 

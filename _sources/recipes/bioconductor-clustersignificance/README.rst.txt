@@ -9,7 +9,7 @@ The ClusterSignificance package provides tools to assess if class clusters in di
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ClusterSignificance.html
-Versions      1.6.0, 1.8.2
+Versions      1.8.2, 1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance
 

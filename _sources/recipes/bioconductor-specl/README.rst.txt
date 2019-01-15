@@ -9,7 +9,7 @@ provides a function for generating spectra libraries which can be used for MRM S
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/specL.html
-Versions      1.12.0, 1.14.0
+Versions      1.14.0, 1.12.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-specl
 

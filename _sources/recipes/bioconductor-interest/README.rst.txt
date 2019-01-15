@@ -9,7 +9,7 @@ This package performs Intron\-Exon Retention analysis on RNA\-seq data \(.bam fi
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/IntEREst.html
-Versions      1.2.2, 1.4.1
+Versions      1.4.1, 1.2.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interest
 

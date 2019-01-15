@@ -9,7 +9,7 @@ Agilent \"Mouse Genome\,  Whole\" annotation data \(chip mgug4122a\) assembled u
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/data/annotation/html/mgug4122a.db.html
-Versions      3.2.2, 3.2.3
+Versions      3.2.3, 3.2.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgug4122a.db
 

@@ -9,7 +9,7 @@ Stacks reports generator
 
 ============= ===========
 Home          https://github.com/mariabernard/galaxy_wrappers
-Versions      1.0, 1.1
+Versions      1.1, 1.0
 License       GNU General Public License v3 or later (GPLv3+)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/stacks_summary
 

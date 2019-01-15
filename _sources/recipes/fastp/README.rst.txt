@@ -9,7 +9,7 @@ A FASTQ preprocessor with full features \(QC\/adapters\/trimming\/filtering\/spl
 
 ============= ===========
 Home          https://github.com/OpenGene/fastp
-Versions      0.12.2, 0.12.3, 0.12.4, 0.12.5, 0.13.1, 0.14.1, 0.17.0, 0.17.1, 0.18.0, 0.19.3, 0.19.4, 0.19.5
+Versions      0.19.5, 0.19.4, 0.19.3, 0.18.0, 0.17.1, 0.17.0, 0.14.1, 0.13.1, 0.12.5, 0.12.4, 0.12.3, 0.12.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastp
 

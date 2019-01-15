@@ -9,7 +9,7 @@ Distributed Evolutionary Algorithms in Python
 
 ============= ===========
 Home          https://www.github.com/deap
-Versions      1.0.2, 1.0.2.post2, 1.2.2
+Versions      1.0.2
 License       GNU Library or Lesser General Public License (LGPL)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deap
 

@@ -9,7 +9,7 @@ This package provides plotting functions for results from the derfinder package.
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/derfinderPlot.html
-Versions      1.12.0, 1.14.0
+Versions      1.14.0, 1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-derfinderplot
 

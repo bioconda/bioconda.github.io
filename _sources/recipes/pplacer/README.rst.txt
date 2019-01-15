@@ -9,7 +9,7 @@ Pplacer places query sequences on a fixed reference phylogenetic tree to maximiz
 
 ============= ===========
 Home          http://matsen.fredhutch.org/pplacer/
-Versions      1.1.alpha17, 1.1.alpha19
+Versions      1.1.alpha19, 1.1.alpha17
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pplacer
 

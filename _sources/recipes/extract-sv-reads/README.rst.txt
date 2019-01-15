@@ -9,7 +9,7 @@ Tool for extracting splitter or discordant reads from a BAM or CRAM file.
 
 ============= ===========
 Home          https://github.com/hall-lab/extract_sv_reads
-Versions      1.1.0, 1.1.2, 1.2.1, 1.3.0
+Versions      1.3.0, 1.2.1, 1.1.2, 1.1.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/extract-sv-reads
 

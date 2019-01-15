@@ -9,7 +9,7 @@ PPANINI\: Prioritization and Prediction of functional Annotations for Novel and 
 
 ============= ===========
 Home          http://huttenhower.sph.harvard.edu/ppanini
-Versions      0.6.2, 0.6.4
+Versions      0.6.4, 0.6.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ppanini
 

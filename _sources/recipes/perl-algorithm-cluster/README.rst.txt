@@ -9,7 +9,7 @@ Perl interface to the C Clustering Library
 
 ============= ===========
 Home          http://metacpan.org/pod/Algorithm::Cluster
-Versions      1.52, 1.56, 1.57
+Versions      1.57, 1.56, 1.52
 License       unknown
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-algorithm-cluster
 

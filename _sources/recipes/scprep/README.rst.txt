@@ -9,7 +9,7 @@ scprep
 
 ============= ===========
 Home          https://github.com/KrishnaswamyLab/scprep
-Versions      0.7.1, 0.8.1
+Versions      0.8.1, 0.7.1
 License       GNU General Public Version 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scprep
 

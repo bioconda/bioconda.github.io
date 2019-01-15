@@ -9,7 +9,7 @@ A package for RNA basepair analysis\, including the visualization of basepairs a
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/R4RNA.html
-Versions      1.4.0, 1.6.0, 1.8.0
+Versions      1.8.0, 1.6.0, 1.4.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r4rna
 

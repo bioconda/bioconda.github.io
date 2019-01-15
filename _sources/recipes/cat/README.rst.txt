@@ -10,7 +10,7 @@ CAT\/BAT\: tool for taxonomic classification of contigs and metagenome\-assemble
 
 ============= ===========
 Home          https://github.com/dutilh/CAT
-Versions      4.3.1, 4.3.3
+Versions      4.3.3, 4.3.1
 License       CC BY 3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cat
 

@@ -9,7 +9,7 @@ A module to implement some of AutoConf macros in pure perl.
 
 ============= ===========
 Home          https://metacpan.org/release/Config-AutoConf
-Versions      0.311, 0.317
+Versions      0.317, 0.311
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-autoconf
 

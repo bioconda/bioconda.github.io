@@ -9,7 +9,7 @@ TRANSIT
 
 ============= ===========
 Home          http://github.com/mad-lab/transit
-Versions      2.3.1, 2.3.2, 2.3.3
+Versions      2.3.3, 2.3.2, 2.3.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transit
 

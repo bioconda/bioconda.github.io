@@ -9,7 +9,7 @@ The Genepop population genetics package.
 
 ============= ===========
 Home          http://kimura.univ-montp2.fr/~rousset/Genepop.htm
-Versions      4.5.1, 4.6
+Versions      4.6, 4.5.1
 License       CeCILL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepop
 

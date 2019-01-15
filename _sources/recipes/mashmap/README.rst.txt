@@ -9,7 +9,7 @@ A fast approximate aligner for long DNA sequences
 
 ============= ===========
 Home          https://github.com/marbl/MashMap
-Versions      1.0, 2.0
+Versions      2.0, 1.0
 License       Custom
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashmap
 

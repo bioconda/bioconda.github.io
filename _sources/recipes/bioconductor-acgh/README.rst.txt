@@ -9,7 +9,7 @@ Functions for reading aCGH data from image analysis output files and clone infor
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/aCGH.html
-Versions      1.54.0, 1.56.0, 1.58.0
+Versions      1.58.0, 1.56.0, 1.54.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acgh
 

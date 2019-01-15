@@ -9,7 +9,7 @@ JSON\:\:XS compatible pure\-Perl module.
 
 ============= ===========
 Home          http://metacpan.org/pod/JSON::PP
-Versions      2.97001, 4.00
+Versions      4.00, 2.97001
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-pp
 

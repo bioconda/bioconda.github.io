@@ -9,7 +9,7 @@ Minimap2 Python binding
 
 ============= ===========
 Home          https://github.com/lh3/minimap2
-Versions      2.10, 2.11, 2.12, 2.13, 2.14, 2.15, 2.2, 2.4, 2.5, 2.6, 2.7, 2.8, 2.9
+Versions      2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.8, 2.7, 2.6, 2.5, 2.4, 2.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mappy
 

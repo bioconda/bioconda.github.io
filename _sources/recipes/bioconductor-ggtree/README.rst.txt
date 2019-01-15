@@ -9,7 +9,7 @@ bioconductor-ggtree
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ggtree.html
-Versions      1.10.0, 1.12.7, 1.2.12, 1.4.20, 1.8.2
+Versions      1.12.7, 1.10.0, 1.8.2, 1.4.20, 1.2.12
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ggtree
 

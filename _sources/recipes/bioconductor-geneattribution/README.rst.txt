@@ -9,7 +9,7 @@ Identification of the most likely gene or genes through which variation at a giv
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/geneAttribution.html
-Versions      1.4.0, 1.6.0
+Versions      1.6.0, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneattribution
 

@@ -9,7 +9,7 @@ Implements functions for low\-level analyses of single\-cell RNA\-seq data. Meth
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/scran.html
-Versions      1.4.5, 1.6.2, 1.8.4
+Versions      1.8.4, 1.6.2, 1.4.5
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scran
 

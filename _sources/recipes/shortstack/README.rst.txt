@@ -9,7 +9,7 @@ ShortStack\: Comprehensive annotation and quantification of small RNA genes
 
 ============= ===========
 Home          https://github.com/MikeAxtell/ShortStack
-Versions      3.8.3, 3.8.5
+Versions      3.8.5, 3.8.3
 License       GPL-3.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shortstack
 

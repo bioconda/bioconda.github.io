@@ -9,7 +9,7 @@ ChemmineR is a cheminformatics package for analyzing drug\-like small molecule d
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/ChemmineR.html
-Versions      2.28.3, 2.30.0, 3.32.1
+Versions      3.32.1, 2.30.0, 2.28.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminer
 

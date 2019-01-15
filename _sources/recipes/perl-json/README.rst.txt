@@ -9,7 +9,7 @@ JSON \(JavaScript Object Notation\) encoder\/decoder
 
 ============= ===========
 Home          http://metacpan.org/pod/JSON
-Versions      2.90, 2.97001, 4.00
+Versions      4.00, 2.97001, 2.90
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json
 

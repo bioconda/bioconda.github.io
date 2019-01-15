@@ -9,7 +9,7 @@ RealTimeGenomics Tools \-\- Utilities for accurate VCF comparison and manipulati
 
 ============= ===========
 Home          https://github.com/RealTimeGenomics/rtg-tools
-Versions      3.10, 3.6, 3.7.1, 3.8.2, 3.8.4, 3.9, 3.9.1
+Versions      3.10, 3.9.1, 3.9, 3.8.4, 3.8.2, 3.7.1, 3.6
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rtg-tools
 

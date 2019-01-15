@@ -9,7 +9,7 @@ An intuitive HyPhy interface for Python
 
 ============= ===========
 Home          https://github.com/veg/hppy
-Versions      0.9.6, 0.9.8
+Versions      0.9.8, 0.9.6
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hppy
 

@@ -9,7 +9,7 @@ a wee tool for random access into BGZF files.
 
 ============= ===========
 Home          https://github.com/arq5x/grabix
-Versions      0.1.3, 0.1.6, 0.1.7, 0.1.8
+Versions      0.1.8, 0.1.7, 0.1.6, 0.1.3
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grabix
 

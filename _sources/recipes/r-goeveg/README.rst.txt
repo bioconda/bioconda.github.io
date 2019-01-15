@@ -9,7 +9,7 @@ A collection of functions useful in \(vegetation\) community analyses and ordina
 
 ============= ===========
 Home          http://github.com/fgoral/goeveg
-Versions      0.3.3, 0.4.2
+Versions      0.4.2, 0.3.3
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-goeveg
 

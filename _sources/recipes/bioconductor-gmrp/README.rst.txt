@@ -9,7 +9,7 @@ Perform Mendelian randomization analysis of multiple SNPs to determine risk fact
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/GMRP.html
-Versions      1.5.0, 1.8.1
+Versions      1.8.1, 1.5.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp
 

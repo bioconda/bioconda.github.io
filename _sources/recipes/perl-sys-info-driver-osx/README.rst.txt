@@ -9,7 +9,7 @@ OSX driver for Sys\:\:Info
 
 ============= ===========
 Home          http://metacpan.org/pod/Sys::Info::Driver::OSX
-Versions      0.7958, 0.7959
+Versions      0.7959, 0.7958
 License       perl_5
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sys-info-driver-osx
 

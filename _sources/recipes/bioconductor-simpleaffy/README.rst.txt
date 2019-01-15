@@ -9,7 +9,7 @@ Provides high level functions for reading Affy .CEL files\, phenotypic data\, an
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/simpleaffy.html
-Versions      2.52.0, 2.54.0, 2.56.0
+Versions      2.56.0, 2.54.0, 2.52.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleaffy
 

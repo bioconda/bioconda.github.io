@@ -9,7 +9,7 @@ A Python\-reimplementation of the Pairs algorithm described by A. Scialdone et a
 
 ============= ===========
 Home          https://github.com/rfechtner/pypairs
-Versions      2.0.5, 2.0.6
+Versions      2.0.6, 2.0.5
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pypairs
 

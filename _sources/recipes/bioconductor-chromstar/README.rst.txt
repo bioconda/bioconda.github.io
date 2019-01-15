@@ -9,7 +9,7 @@ This package implements functions for combinatorial and differential analysis of
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/chromstaR.html
-Versions      1.4.0, 1.6.2
+Versions      1.6.2, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromstar
 

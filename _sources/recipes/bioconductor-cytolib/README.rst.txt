@@ -9,7 +9,7 @@ This package provides the core data structure and API to represent and interact 
 
 ============= ===========
 Home          http://bioconductor.org/packages/3.7/bioc/html/cytolib.html
-Versions      1.0.1, 1.2.0
+Versions      1.2.0, 1.0.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cytolib
 

@@ -9,7 +9,7 @@ Somatic and germline variant caller for amplicon data. Recommended caller for tu
 
 ============= ===========
 Home          https://github.com/Illumina/Pisces
-Versions      5.2.7.47, 5.2.9.122
+Versions      5.2.9.122, 5.2.7.47
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pisces
 
