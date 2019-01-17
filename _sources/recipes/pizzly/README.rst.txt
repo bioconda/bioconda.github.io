@@ -9,7 +9,7 @@ Fast fusion detection using kallisto
 
 ============= ===========
 Home          https://github.com/pmelsted/pizzly
-Versions      0.37.3
+Versions      0.37.3, 0.37.1
 License       BSD-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pizzly
 
@@ -32,6 +32,10 @@ and update with::
 
    conda update pizzly
 
+
+Notes
+-----
+Auxilliary scripts are available as commands \`\`pizzly\_flatten\_json.py\`\` and \`\`pizzly\_get\_fragment\_length.py\`\` along with the \`\`pizzly\`\` binary.
 
 
 |docker|

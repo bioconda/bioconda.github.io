@@ -122,9 +122,11 @@ priority).</p>
 found in the <cite>defaults</cite> channel.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">defaults</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">bioconda</span>
+<span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span><span class="o">/</span><span class="n">label</span><span class="o">/</span><span class="n">cf201901</span>
 <span class="n">conda</span> <span class="n">config</span> <span class="o">--</span><span class="n">add</span> <span class="n">channels</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
 </pre></div>
 </div>
+<p>Note that the channel <code class="docutils literal notranslate"><span class="pre">conda-forge/label/cf201901</span></code> is meant as a fallback that is temporally needed, until all bioconda packages have been updated to work with the new default compiler toolchain of conda and conda-forge, which was switched to GCC 7 in January 2019.</p>
 </div>
 <div class="section" id="install-packages">
 <h2>3. Install packages<a class="headerlink" href="#install-packages" title="Permalink to this headline">¶</a></h2>
