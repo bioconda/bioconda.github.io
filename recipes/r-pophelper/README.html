@@ -6,7 +6,7 @@
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>plantcv &#8212; Bioconda  documentation</title>
+    <title>r-pophelper &#8212; Bioconda  documentation</title>
     <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
     <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
     <link rel="stylesheet" type="text/css" href="../../_static/custom.css" />
@@ -17,8 +17,8 @@
     <script type="text/javascript" src="../../_static/language_data.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="plascope" href="../plascope/README.html" />
-    <link rel="prev" title="plant_tribes_kaks_analysis" href="../plant_tribes_kaks_analysis/README.html" />
+    <link rel="next" title="r-poppr" href="../r-poppr/README.html" />
+    <link rel="prev" title="r-popgenome" href="../r-popgenome/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -62,57 +62,47 @@ $(document).ready(function() {
 
           <div class="body" role="main">
             
-  <div class="section" id="plantcv">
-<span id="id1"></span><h1>plantcv<a class="headerlink" href="#plantcv" title="Permalink to this headline">¶</a></h1>
-<p><a class="reference external" href="https://anaconda.org/bioconda/plantcv"><img alt="downloads" src="https://anaconda.org/bioconda/plantcv/badges/downloads.svg" /></a></p>
-<p>An image processing package for plant phenotyping.</p>
+  <div class="section" id="r-pophelper">
+<span id="id1"></span><h1>r-pophelper<a class="headerlink" href="#r-pophelper" title="Permalink to this headline">¶</a></h1>
+<p><a class="reference external" href="https://anaconda.org/bioconda/r-pophelper"><img alt="downloads" src="https://anaconda.org/bioconda/r-pophelper/badges/downloads.svg" /></a></p>
+<p>A set of useful functions for processing admixture proportion files from the population structure analysis softwares STRUCTURE, TESS, ADMIXTURE, BAPS, fastSTRUCTURE etc. The package contains functions to read runs, tabulate runs, summarise runs, plot runs, estimate K using Evanno method, export clumpp files, export distruct files and generate barplots.</p>
 <table border="1" class="docutils">
 <colgroup>
-<col width="8%" />
-<col width="92%" />
+<col width="15%" />
+<col width="85%" />
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="https://plantcv.danforthcenter.org">https://plantcv.danforthcenter.org</a></td>
+<td><a class="reference external" href="https://github.com/royfrancis/pophelper">https://github.com/royfrancis/pophelper</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
-<td>3.0.5, 3.0.3</td>
+<td>2.2.7</td>
 </tr>
 <tr class="row-odd"><td>License</td>
-<td>MIT License</td>
+<td>GPL-3</td>
 </tr>
 <tr class="row-even"><td>Recipe</td>
-<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plantcv">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plantcv</a></td>
-</tr>
-<tr class="row-odd"><td>Documentation</td>
-<td><a class="reference external" href="https://plantcv.readthedocs.io">https://plantcv.readthedocs.io</a></td>
-</tr>
-<tr class="row-even"><td>Development</td>
-<td><a class="reference external" href="https://github.com/danforthcenter/plantcv">https://github.com/danforthcenter/plantcv</a></td>
-</tr>
-<tr class="row-odd"><td>Links</td>
-<td>doi: <a class="reference external" href="https://doi.org/10.1016/j.molp.2015.06.005">10.1016/j.molp.2015.06.005</a>, doi: <a class="reference external" href="https://doi.org/10.1109/WNYIPW.2016.7904790">10.1109/WNYIPW.2016.7904790</a>, doi: <a class="reference external" href="https://doi.org/10.7717/peerj.4088">10.7717/peerj.4088</a>, doi: <a class="reference external" href="https://doi.org/10.7717/peerj.5727">10.7717/peerj.5727</a></td>
+<td><a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pophelper">https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pophelper</a></td>
 </tr>
 </tbody>
 </table>
-<p>PlantCV is a Python package for building modular image analysis workflows for plant phenotyping.</p>
 <div class="section" id="installation">
 <h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
 <p>With an activated Bioconda channel (see <a class="reference internal" href="../../index.html#set-up-channels"><span class="std std-ref">2. Set up channels</span></a>), install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">plantcv</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">r</span><span class="o">-</span><span class="n">pophelper</span>
 </pre></div>
 </div>
 <p>and update with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">plantcv</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">update</span> <span class="n">r</span><span class="o">-</span><span class="n">pophelper</span>
 </pre></div>
 </div>
-<p><a class="reference external" href="https://quay.io/repository/biocontainers/plantcv"><img alt="docker" src="https://quay.io/repository/biocontainers/plantcv/status" /></a></p>
-<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/plantcv">https://quay.io/repository/biocontainers/plantcv</a>.</p>
+<p><a class="reference external" href="https://quay.io/repository/biocontainers/r-pophelper"><img alt="docker" src="https://quay.io/repository/biocontainers/r-pophelper/status" /></a></p>
+<p>A Docker container is available at <a class="reference external" href="https://quay.io/repository/biocontainers/r-pophelper">https://quay.io/repository/biocontainers/r-pophelper</a>.</p>
 </div>
 <div class="section" id="link-to-this-page">
 <h2>Link to this page<a class="headerlink" href="#link-to-this-page" title="Permalink to this headline">¶</a></h2>
-<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/plantcv/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/plantcv/README.html)
+<p>Render an <a class="reference external" href="http://bioconda.github.io/recipes/r-pophelper/README.html"><img alt="badge" src="https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square" /></a> badge with the following Markdown:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>[![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/r-pophelper/README.html)
 </pre></div>
 </div>
 </div>
@@ -163,7 +153,7 @@ $(document).ready(function() {
       &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
       
       |
-      <a href="../../_sources/recipes/plantcv/README.rst.txt"
+      <a href="../../_sources/recipes/r-pophelper/README.rst.txt"
           rel="nofollow">Page source</a>
     </div>
 
