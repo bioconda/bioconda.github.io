@@ -9,7 +9,7 @@ Utilities for interacting with the Cromwell workflow engine
 
 ============= ===========
 Home          http://github.com/broadinstitute/cromwell-tools
-Versions      1.0.1
+Versions      1.1.0, 1.0.1
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cromwell-tools
 
