@@ -9,7 +9,7 @@ de novo assembly of RNA\-Seq data using ABySS
 
 ============= ===========
 Home          http://www.bcgsc.ca/platform/bioinfo/software/trans-abyss
-Versions      1.5.5, 1.5.4
+Versions      2.0.1, 1.5.5, 1.5.4
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transabyss
 
