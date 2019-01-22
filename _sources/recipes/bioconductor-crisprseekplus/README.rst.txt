@@ -8,7 +8,7 @@ bioconductor-crisprseekplus
 Bioinformatics platform containing interface to work with offTargetAnalysis and compare2Sequences in the CRISPRseek package\, and GUIDEseqAnalysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/crisprseekplus.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/crisprseekplus.html
 Versions      1.6.0, 1.4.1
 License       GPL-3 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crisprseekplus

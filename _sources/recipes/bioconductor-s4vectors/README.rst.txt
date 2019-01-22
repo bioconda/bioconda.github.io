@@ -8,7 +8,7 @@ bioconductor-s4vectors
 The S4Vectors package defines the Vector and List virtual classes and a set of generic functions that extend the semantic of ordinary vectors and lists in R. Package developers can easily implement vector\-like or list\-like objects as concrete subclasses of Vector or List. In addition\, a few low\-level concrete subclasses of general interest \(e.g. DataFrame\, Rle\, and Hits\) are implemented in the S4Vectors package itself \(many more are implemented in the IRanges package and in other Bioconductor infrastructure packages\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/S4Vectors.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/S4Vectors.html
 Versions      0.18.3, 0.16.0, 0.14.7, 0.12.2, 0.12.0, 0.10.3, 0.9.0, 0.8.11, 0.8.7, 0.8.5, 0.8.1, 0.8.0, 0.6.6
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-s4vectors

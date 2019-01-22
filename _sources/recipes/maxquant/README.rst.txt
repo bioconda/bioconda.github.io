@@ -9,7 +9,7 @@ MaxQuant is a quantitative proteomics software package designed for analyzing la
 
 ============= ===========
 Home          http://www.coxdocs.org/doku.php?id=maxquant:start
-Versions      1.6.2.10
+Versions      1.6.3.4, 1.6.2.10
 License       http://www.coxdocs.org/lib/exe/fetch.php?media=license_agreement.pdf
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/maxquant
 

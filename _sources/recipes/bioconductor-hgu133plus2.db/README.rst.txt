@@ -8,7 +8,7 @@ bioconductor-hgu133plus2.db
 Affymetrix Human Genome U133 Plus 2.0 Array annotation data \(chip hgu133plus2\) assembled using data from public repositories
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/annotation/html/hgu133plus2.db.html
+Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133plus2.db.html
 Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133plus2.db

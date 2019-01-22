@@ -8,7 +8,7 @@ bioconductor-affycoretools
 Various wrapper functions that have been written to streamline the more common analyses that a core Biostatistician might see.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/affycoretools.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/affycoretools.html
 Versions      1.52.2, 1.50.6
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affycoretools

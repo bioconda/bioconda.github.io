@@ -8,7 +8,7 @@ bioconductor-elmer
 ELMER is designed to use DNA methylation and gene expression from a large number of samples to infere regulatory element landscape and transcription factor network in primary tissue.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ELMER.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ELMER.html
 Versions      2.4.4
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elmer

@@ -8,7 +8,7 @@ bioconductor-xcms
 Framework for processing and visualization of chromatographically separated and single\-spectra mass spectral data. Imports from AIA\/ANDI NetCDF\, mzXML\, mzData and mzML files. Preprocesses data for high\-throughput\, untargeted analyte profiling.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/xcms.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/xcms.html
 Versions      3.0.0, 1.52.0, 1.50.1, 1.48.0, 1.46.0, 1.44.0
 License       GPL (>= 2) + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xcms

@@ -8,7 +8,7 @@ bioconductor-chipxpress
 ChIPXpress takes as input predicted TF bound genes from ChIPx data and uses a corresponding database of gene expression profiles downloaded from NCBI GEO to rank the TF bound targets in order of which gene is most likely to be functional TF target.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ChIPXpress.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ChIPXpress.html
 Versions      1.24.0, 1.22.0
 License       GPL(>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipxpress

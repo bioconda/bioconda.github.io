@@ -8,7 +8,7 @@ bioconductor-cnvtools
 This package is meant to facilitate the testing of Copy Number Variant data for genetic association\, typically in case\-control studies.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/CNVtools.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/CNVtools.html
 Versions      1.74.0, 1.72.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnvtools

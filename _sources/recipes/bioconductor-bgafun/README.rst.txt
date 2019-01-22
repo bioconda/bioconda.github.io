@@ -8,7 +8,7 @@ bioconductor-bgafun
 A method to identify specifity determining residues in protein families using Between Group Analysis
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/bgafun.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/bgafun.html
 Versions      1.42.0, 1.40.0, 1.38.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bgafun

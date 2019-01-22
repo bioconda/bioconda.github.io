@@ -8,7 +8,7 @@ bioconductor-kegg.db
 A set of annotation maps for KEGG assembled using data from KEGG
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/annotation/html/KEGG.db.html
+Home          https://bioconductor.org/packages/3.8/data/annotation/html/KEGG.db.html
 Versions      3.2.3, 3.2.2
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kegg.db

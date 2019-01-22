@@ -8,7 +8,7 @@ bioconductor-abadata
 Provides the data for the gene expression enrichment analysis conducted in the package \'ABAEnrichment\'. The package includes three datasets which are derived from the Allen Brain Atlas\: \(1\) Gene expression data from Human Brain \(adults\) averaged across donors\, \(2\) Gene expression data from the Developing Human Brain pooled into five age categories and averaged across donors and \(3\) a developmental effect score based on the Developing Human Brain expression data. All datasets are restricted to protein coding genes.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/ABAData.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/ABAData.html
 Versions      1.10.0, 1.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abadata

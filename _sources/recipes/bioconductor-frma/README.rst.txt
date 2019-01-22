@@ -8,7 +8,7 @@ bioconductor-frma
 Preprocessing and analysis for single microarrays and microarray batches.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/frma.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/frma.html
 Versions      1.32.0, 1.28.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-frma

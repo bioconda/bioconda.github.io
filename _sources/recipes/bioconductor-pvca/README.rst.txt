@@ -8,7 +8,7 @@ bioconductor-pvca
 This package contains the function to assess the batch sourcs by fitting all \"sources\" as random effects including two\-way interaction terms in the Mixed Model\(depends on lme4 package\) to selected principal components\, which were obtained from the original data correlation matrix. This package accompanies the book \"Batch Effects and Noise in Microarray Experiements\, chapter 12.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/pvca.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/pvca.html
 Versions      1.20.0, 1.18.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca

@@ -15,8 +15,6 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r
 
 
 
-Links         biotools: :biotools:`exomedepth`
-
 ============= ===========
 
 

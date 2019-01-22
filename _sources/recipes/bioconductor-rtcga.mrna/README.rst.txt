@@ -8,7 +8,7 @@ bioconductor-rtcga.mrna
 Package provides mRNA datasets from The Cancer Genome Atlas Project for all available cohorts types from http\:\/\/gdac.broadinstitute.org\/. Data format is explained here https\:\/\/wiki.nci.nih.gov\/display\/TCGA\/Gene\+expression\+data Data from 2015\-11\-01 snapshot.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/RTCGA.mRNA.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.mRNA.html
 Versions      1.8.0, 1.6.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.mrna

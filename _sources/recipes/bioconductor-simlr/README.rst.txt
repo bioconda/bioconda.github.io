@@ -5,10 +5,10 @@ bioconductor-simlr
 
 |downloads|
 
- In this package we provide implementations of both SIMLR and CIMLR. These methods were originally applied to single\-cell and cancer genomic data\, but they are in principle capable of effectively and efficiently learning similarities in all the contexts where diverse and heterogeneous statistical characteristics of the data make the problem harder for standard approaches.
+Single\-cell RNA\-seq technologies enable high throughput gene expression measurement of individual cells\, and allow the discovery of heterogeneity within cell populations. Measurement of cell\-to\-cell gene expression similarity is critical for the identification\, visualization and analysis of cell populations. However\, single\-cell data introduce challenges to conventional measures of gene expression similarity because of the high level of noise\, outliers and dropouts. We develop a novel similarity\-learning framework\, SIMLR \(Single\-cell Interpretation via Multi\-kernel LeaRning\)\, which learns an appropriate distance metric from the data for dimension reduction\, clustering and visualization.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/SIMLR.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/SIMLR.html
 Versions      1.6.0, 1.4.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simlr

@@ -8,7 +8,7 @@ bioconductor-jaspar2018
 Data package for JASPAR 2018. To search this databases\, please use the package TFBSTools \(\>\= 1.15.6\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/JASPAR2018.html
+Home          https://bioconductor.org/packages/3.8/data/annotation/html/JASPAR2018.html
 Versions      1.0.0, 0.99.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2018

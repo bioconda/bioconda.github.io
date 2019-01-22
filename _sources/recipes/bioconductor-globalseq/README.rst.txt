@@ -5,10 +5,10 @@ bioconductor-globalseq
 
 |downloads|
 
-The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size.
+The method may be conceptualised as a test of overall significance in regression analysis\, where the response variable is overdispersed and the number of explanatory variables exceeds the sample size. Useful for testing for association between RNA\-Seq and high\-dimensional data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/globalSeq.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/globalSeq.html
 Versions      1.8.0, 1.6.0, 1.4.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalseq

@@ -8,7 +8,7 @@ bioconductor-inversion
 Package to find genetic inversions in genotype \(SNP array\) data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/inveRsion.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/inveRsion.html
 Versions      1.28.0, 1.26.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inversion

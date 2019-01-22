@@ -8,7 +8,7 @@ bioconductor-mcrestimate
 This package includes a function for combining preprocessing and classification methods to calculate misclassification errors
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MCRestimate.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MCRestimate.html
 Versions      2.36.0, 2.34.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcrestimate

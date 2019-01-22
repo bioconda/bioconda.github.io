@@ -8,7 +8,7 @@ bioconductor-reactomepa
 This package provides functions for pathway analysis based on REACTOME pathway database. It implements enrichment analysis\, gene set enrichment analysis and several functions for visualization.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ReactomePA.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ReactomePA.html
 Versions      1.24.0, 1.22.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactomepa

@@ -8,7 +8,7 @@ bioconductor-hiannotator
 hiAnnotator contains set of functions which allow users to annotate a GRanges object with custom set of annotations. The basic philosophy of this package is to take two GRanges objects \(query \& subject\) with common set of seqnames \(i.e. chromosomes\) and return associated annotation per seqnames and rows from the query matching seqnames and rows from the subject \(i.e. genes or cpg islands\). The package comes with three types of annotation functions which calculates if a position from query is\: within a feature\, near a feature\, or count features in defined window sizes. Moreover\, each function is equipped with parallel backend to utilize the foreach package. In addition\, the package is equipped with wrapper functions\, which finds appropriate columns needed to make a GRanges object from a common data frame.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/hiAnnotator.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/hiAnnotator.html
 Versions      1.14.0, 1.11.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiannotator

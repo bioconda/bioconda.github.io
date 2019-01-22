@@ -8,7 +8,7 @@ bioconductor-reactome.db
 A set of annotation maps for reactome assembled using data from reactome
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/annotation/html/reactome.db.html
+Home          https://bioconductor.org/packages/3.8/data/annotation/html/reactome.db.html
 Versions      1.64.0, 1.62.0
 License       CC BY 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reactome.db

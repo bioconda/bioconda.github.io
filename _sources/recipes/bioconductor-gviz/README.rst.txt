@@ -8,7 +8,7 @@ bioconductor-gviz
 Genomic data analyses requires integrated visualization of known genomic information and new experimental data.  Gviz uses the biomaRt and the rtracklayer packages to perform live annotation queries to Ensembl and UCSC and translates this to e.g. gene\/transcript structures in viewports of the grid graphics package. This results in genomic information plotted together with your data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/Gviz.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/Gviz.html
 Versions      1.24.0, 1.22.3, 1.22.0, 1.20.0, 1.16.5, 1.14.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gviz

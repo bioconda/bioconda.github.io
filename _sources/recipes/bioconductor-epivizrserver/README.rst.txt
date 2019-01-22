@@ -8,7 +8,7 @@ bioconductor-epivizrserver
 This package provides objects to manage WebSocket connections to epiviz apps. Other epivizr package use this infrastructure.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/epivizrServer.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/epivizrServer.html
 Versions      1.8.1, 1.6.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epivizrserver

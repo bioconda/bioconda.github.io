@@ -5,10 +5,10 @@ bioconductor-tdaracne
 
 |downloads|
 
-To infer gene networks from time\-series measurements is a current challenge into  bioinformatics research  area. In order to detect dependencies between genes at different time delays\, we propose an  approach  to  infer  gene  regulatory  networks  from  time\-series measurements starting from a well known algorithm based on information theory. The proposed algorithm is expected to  be useful in reconstruction of small biological directed networks from time course data.
+To infer gene networks from time\-series measurements is a current challenge into bioinformatics research area. In order to detect dependencies between genes at different time delays\, we propose an approach to infer gene regulatory networks from time\-series measurements starting from a well known algorithm based on information theory. The proposed algorithm is expected to be useful in reconstruction of small biological directed networks from time course data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/TDARACNE.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/TDARACNE.html
 Versions      1.30.0, 1.28.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tdaracne

@@ -8,7 +8,7 @@ bioconductor-ppistats
 Tools for the analysis of protein interaction data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ppiStats.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ppiStats.html
 Versions      1.46.0, 1.44.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppistats

@@ -8,7 +8,7 @@ bioconductor-fdb.infiniummethylation.hg19
 Compiled HumanMethylation27 and HumanMethylation450 annotations
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/annotation/html/FDb.InfiniumMethylation.hg19.html
+Home          https://bioconductor.org/packages/3.8/data/annotation/html/FDb.InfiniumMethylation.hg19.html
 Versions      2.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg19

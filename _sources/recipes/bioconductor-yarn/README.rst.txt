@@ -8,7 +8,7 @@ bioconductor-yarn
 Expedite large RNA\-Seq analyses using a combination of previously developed tools. YARN is meant to make it easier for the user in performing basic mis\-annotation quality control\, filtering\, and condition\-aware normalization. YARN leverages many Bioconductor tools and statistical techniques to account for the large heterogeneity and sparsity found in very large RNA\-seq experiments.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/yarn.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/yarn.html
 Versions      1.6.0, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yarn

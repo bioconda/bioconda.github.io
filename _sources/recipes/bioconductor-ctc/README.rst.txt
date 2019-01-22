@@ -8,7 +8,7 @@ bioconductor-ctc
 Tools for export and import classification trees and clusters to other programs
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ctc.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ctc.html
 Versions      1.54.0, 1.52.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctc

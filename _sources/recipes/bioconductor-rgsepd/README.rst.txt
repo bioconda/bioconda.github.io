@@ -8,7 +8,7 @@ bioconductor-rgsepd
 R\/GSEPD is a bioinformatics package for R to help disambiguate transcriptome samples \(a matrix of RNA\-Seq counts at RefSeq IDs\) by automating differential expression \(with DESeq2\)\, then gene set enrichment \(with GOSeq\)\, and finally a N\-dimensional projection to quantify in which ways each sample is like either treatment group.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/rgsepd.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/rgsepd.html
 Versions      1.12.0, 1.10.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgsepd

@@ -8,7 +8,7 @@ bioconductor-lpnet
 lpNet aims at infering biological networks\, in particular signaling and gene networks. For that it takes perturbation data\, either steady\-state or time\-series\, as input and generates an LP model which allows the inference of signaling networks. For parameter identification either leave\-one\-out cross\-validation or stratified n\-fold cross\-validation can be used.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/lpNet.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/lpNet.html
 Versions      2.12.0, 2.10.0
 License       Artistic License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lpnet

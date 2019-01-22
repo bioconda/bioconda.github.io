@@ -8,7 +8,7 @@ bioconductor-metaarray
 1\) Data transformation for meta\-analysis of microarray Data\: Transformation of gene expression data to signed probability scale \(MCMC\/EM methods\) 2\) Combined differential expression on raw scale\: Weighted Z\-score after stabilizing mean\-variance relation within platform
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/metaArray.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/metaArray.html
 Versions      1.58.0, 1.56.0, 1.54.0
 License       LGPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metaarray

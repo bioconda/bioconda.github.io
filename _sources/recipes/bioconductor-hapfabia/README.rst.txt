@@ -8,7 +8,7 @@ bioconductor-hapfabia
 A package to identify very short IBD segments in large sequencing data by FABIA biclustering. Two haplotypes are identical by descent \(IBD\) if they share a segment that both inherited from a common ancestor. Current IBD methods reliably detect long IBD segments because many minor alleles in the segment are concordant between the two haplotypes. However\, many cohort studies contain unrelated individuals which share only short IBD segments. This package provides software to identify short IBD segments in sequencing data. Knowledge of short IBD segments are relevant for phasing of genotyping data\, association studies\, and for population genetics\, where they shed light on the evolutionary history of humans. The package supports VCF formats\, is based on sparse matrix operations\, and provides visualization of haplotype clusters in different formats.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/hapFabia.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/hapFabia.html
 Versions      1.22.0, 1.20.0
 License       LGPL (>= 2.1)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapfabia

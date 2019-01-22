@@ -8,7 +8,7 @@ bioconductor-kodata
 Contains consensus genomic signatures \(CGS\) for experimental cell\-line specific gene knock\-outs as well as baseline gene expression data for a subset of experimental cell\-lines. Intended for use with package KEGGlincs.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/KOdata.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/KOdata.html
 Versions      1.6.0, 1.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata

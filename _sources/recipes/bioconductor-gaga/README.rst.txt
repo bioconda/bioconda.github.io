@@ -8,7 +8,7 @@ bioconductor-gaga
 Implements the GaGa model for high\-throughput data analysis\, including differential expression analysis\, supervised gene clustering and classification. Additionally\, it performs sequential sample size calculations using the GaGa and LNNGV models \(the latter from EBarrays package\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/gaga.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/gaga.html
 Versions      2.26.0, 2.24.0, 2.22.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gaga

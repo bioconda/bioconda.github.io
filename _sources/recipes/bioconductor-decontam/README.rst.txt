@@ -8,7 +8,7 @@ bioconductor-decontam
 Simple statistical identification of contaminating sequence features in marker\-gene or metagenomics data. Works on any kind of feature derived from environmental sequencing data \(e.g. ASVs\, OTUs\, taxonomic groups\, MAGs\,...\). Requires DNA quantitation data or sequenced negative control samples.
 
 ============= ===========
-Home          https://bioconductor.org/packages/3.7/bioc/html/decontam.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/decontam.html
 Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-decontam

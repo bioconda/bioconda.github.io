@@ -8,7 +8,7 @@ bioconductor-chipseeker
 This package implements functions to retrieve the nearest genes around the peak\, annotate genomic region of the peak\, statstical methods for estimate the significance of overlap among ChIP peak data sets\, and incorporate GEO database for user to compare the own dataset with those deposited in database. The comparison can be used to infer cooperative regulation and thus can be used to generate hypotheses. Several visualization functions are implemented to summarize the coverage of the peak experiment\, average profile and heatmap of peaks binding to TSS regions\, genomic annotation\, distance to TSS\, and overlap of peaks or genes.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ChIPseeker.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ChIPseeker.html
 Versions      1.16.1, 1.14.2, 1.14.0, 1.12.1, 1.10.0, 1.6.6
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipseeker

@@ -8,7 +8,7 @@ bioconductor-pathostat
 The purpose of this package is to perform Statistical Microbiome Analysis on metagenomics results from sequencing data samples. In particular\, it supports analyses on the PathoScope generated report files. PathoStat provides various functionalities including Relative Abundance charts\, Diversity estimates and plots\, tests of Differential Abundance\, Time Series visualization\, and Core OTU analysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/PathoStat.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/PathoStat.html
 Versions      1.6.1, 1.4.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathostat

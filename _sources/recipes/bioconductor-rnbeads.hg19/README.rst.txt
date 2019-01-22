@@ -8,7 +8,7 @@ bioconductor-rnbeads.hg19
 Automatically generated RnBeads annotation package for the assembly hg19.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/RnBeads.hg19.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/RnBeads.hg19.html
 Versions      1.12.0, 1.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnbeads.hg19

@@ -1,0 +1,54 @@
+.. _`bioconductor-proteinprofiles`:
+
+bioconductor-proteinprofiles
+============================
+
+|downloads|
+
+Significance assessment for distance measures of time\-course protein profiles
+
+============= ===========
+Home          https://bioconductor.org/packages/3.8/bioc/html/proteinProfiles.html
+Versions      
+License       GPL-3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-proteinprofiles
+
+
+
+============= ===========
+
+
+
+Installation
+------------
+
+.. highlight: bash
+
+With an activated Bioconda channel (see :ref:`set-up-channels`), install with::
+
+   conda install bioconductor-proteinprofiles
+
+and update with::
+
+   conda update bioconductor-proteinprofiles
+
+
+
+|docker|
+
+A Docker container is available at https://quay.io/repository/biocontainers/bioconductor-proteinprofiles.
+
+Link to this page
+-----------------
+
+Render an |badge| badge with the following Markdown::
+
+   [![install with bioconda](https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square)](http://bioconda.github.io/recipes/bioconductor-proteinprofiles/README.html)
+
+.. |badge| image:: https://img.shields.io/badge/install%20with-bioconda-brightgreen.svg?style=flat-square
+           :target: http://bioconda.github.io/recipes/bioconductor-proteinprofiles/README.html
+.. |downloads| image:: https://anaconda.org/bioconda/bioconductor-proteinprofiles/badges/downloads.svg
+               :target: https://anaconda.org/bioconda/bioconductor-proteinprofiles
+.. |docker| image:: https://quay.io/repository/biocontainers/bioconductor-proteinprofiles/status
+                :target: https://quay.io/repository/biocontainers/bioconductor-proteinprofiles
+

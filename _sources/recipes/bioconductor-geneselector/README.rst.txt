@@ -8,7 +8,7 @@ bioconductor-geneselector
 The term \'GeneSelector\' refers to a filter selecting those genes which are consistently identified as differentially expressed using various statistical procedures. \'Selected\' genes are those present at the top of the list in various ranking methods \(currently 14\). In addition\, the stability of the findings can be taken into account in the final ranking by examining perturbed versions of the original data set\, e.g. by leaving samples\, swapping class labels\, generating bootstrap replicates or adding noise. Given multiple ranked lists\, one can use aggregation methods in order to find a synthesis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/GeneSelector.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/GeneSelector.html
 Versions      2.30.0, 2.28.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneselector

@@ -8,7 +8,7 @@ bioconductor-arrayqualitymetrics
 This package generates microarray quality metrics reports for data in Bioconductor microarray data containers \(ExpressionSet\, NChannelSet\, AffyBatch\). One and two color array platforms are supported.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/arrayQualityMetrics.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/arrayQualityMetrics.html
 Versions      3.36.0, 3.34.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-arrayqualitymetrics

@@ -8,7 +8,7 @@ bioconductor-madseq
 The MADSEQ package provides a group of hierarchical Bayeisan models for the detection of mosaic aneuploidy\, the inference of the type of aneuploidy and also for the quantification of the fraction of aneuploid cells in the sample.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MADSEQ.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MADSEQ.html
 Versions      1.6.1, 1.4.1
 License       GPL(>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-madseq

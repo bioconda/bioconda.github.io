@@ -8,7 +8,7 @@ bioconductor-degraph
 DEGraph implements recent hypothesis testing methods which directly assess whether a particular gene network is differentially expressed between two conditions. This is to be contrasted with the more classical two\-step approaches which first test individual genes\, then test gene sets for enrichment in differentially expressed genes. These recent methods take into account the topology of the network to yield more powerful detection procedures. DEGraph provides methods to easily test all KEGG pathways for differential expression on any gene expression data set and tools to visualize the results.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/DEGraph.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/DEGraph.html
 Versions      1.32.0, 1.30.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph

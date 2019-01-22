@@ -8,7 +8,7 @@ bioconductor-rcaspar
 The package is the R\-version of the C\-based software \\bold\{CASPAR\} \(Kaderali\,2006\: \\url\{http\:\/\/bioinformatics.oxfordjournals.org\/content\/22\/12\/1495\}\). It is meant to help predict survival times in the presence of high\-dimensional explanatory covariates. The model is a piecewise baseline hazard Cox regression model with an Lq\-norm based prior that selects for the most important regression coefficients\, and in turn the most relevant covariates for survival analysis. It was primarily tried on gene expression and aCGH data\, but can be used on any other type of high\-dimensional data and in disciplines other than biology and medicine.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/RCASPAR.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/RCASPAR.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL (>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcaspar

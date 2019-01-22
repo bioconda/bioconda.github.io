@@ -8,7 +8,7 @@ bioconductor-rfpred
 Based on external numerous data files where rfPred scores are pre\-calculated on all genomic positions of the human exome\, the package gives rfPred scores to missense variants identified by the chromosome\, the position \(hg19 version\)\, the referent and alternative nucleotids and the uniprot identifier of the protein. Note that for using the package\, the user has to be connected on the Internet or to download the TabixFile and index \(approximately 3.3 Go\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/rfPred.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/rfPred.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL (>=2 )
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfpred

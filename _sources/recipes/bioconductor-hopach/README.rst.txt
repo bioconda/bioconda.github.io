@@ -8,7 +8,7 @@ bioconductor-hopach
 The HOPACH clustering algorithm builds a hierarchical tree of clusters by recursively partitioning a data set\, while ordering and possibly collapsing clusters at each level. The algorithm uses the Mean\/Median Split Silhouette \(MSS\) criteria to identify the level of the tree with maximally homogeneous clusters. It also runs the tree down to produce a final ordered list of the elements. The non\-parametric bootstrap allows one to estimate the probability that each element belongs to each cluster \(fuzzy clustering\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/hopach.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/hopach.html
 Versions      2.40.0, 2.38.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hopach

@@ -8,7 +8,7 @@ bioconductor-correp
 Multivariate correlation estimation and statistical inference. See package vignette.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/CORREP.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/CORREP.html
 Versions      1.46.0, 1.44.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-correp

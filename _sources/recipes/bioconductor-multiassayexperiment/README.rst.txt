@@ -5,10 +5,10 @@ bioconductor-multiassayexperiment
 
 |downloads|
 
-Multi\-assay \'omics experiments on a set of samples are increasingly commonplace in biomedical research. MultiAssayExperiment implements data structures and methods for representing\, manipulating\, and integrating multi\-assay experiments via efficient construction\, subsetting\, and extraction operations. These methods are implemented matching Bioconductor user experience by straightforward extending concept and design of single\-assay classes such as SummarizedExperiment.
+MultiAssayExperiment harmonizes data management of multiple assays performed on an overlapping set of specimens. It provides a familiar Bioconductor user experience by extending concepts from SummarizedExperiment\, supporting an open\-ended mix of standard data classes for individual assays\, and allowing subsetting by genomic ranges or rownames.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MultiAssayExperiment.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MultiAssayExperiment.html
 Versions      1.6.0, 1.4.9
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment

@@ -8,7 +8,7 @@ bioconductor-geosubmission
 Helps to easily submit a microarray dataset and the associated sample information to GEO by preparing a single file for upload \(direct deposit\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/GEOsubmission.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/GEOsubmission.html
 Versions      1.32.0, 1.30.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geosubmission

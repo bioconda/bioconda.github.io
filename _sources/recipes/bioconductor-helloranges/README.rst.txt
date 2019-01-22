@@ -8,7 +8,7 @@ bioconductor-helloranges
 Translates bedtools command\-line invocations to R code calling functions from the Bioconductor \*Ranges infrastructure. This is intended to educate novice Bioconductor users and to compare the syntax and semantics of the two frameworks.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/HelloRanges.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/HelloRanges.html
 Versions      1.6.0, 1.4.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-helloranges

@@ -5,12 +5,12 @@ bioconductor-dropletutils
 
 |downloads|
 
-Utilities for Handling Single\-Cell Droplet Data.
+Provides a number of utility functions for handling single\-cell \(RNA\-seq\) data from droplet technologies such as 10X Genomics. This includes data loading\, identification of cells from empty droplets\, removal of barcode\-swapped pseudo\-cells\, and downsampling of the count matrix.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/DropletUtils.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/DropletUtils.html
 Versions      1.0.3
-License       GPL (>= 2)
+License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dropletutils
 
 

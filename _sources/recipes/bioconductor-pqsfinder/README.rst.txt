@@ -8,7 +8,7 @@ bioconductor-pqsfinder
 The main functionality of this package is to detect DNA sequence patterns that are likely to fold into an intramolecular G\-quadruplex \(G4\). Unlike many other approaches\, this package is able to detect sequences responsible for G4s folded from imperfect G\-runs containing bulges or mismatches and as such is more sensitive than competing algorithms.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/pqsfinder.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/pqsfinder.html
 Versions      1.8.0, 1.6.3
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pqsfinder

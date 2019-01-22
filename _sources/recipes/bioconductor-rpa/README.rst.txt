@@ -8,7 +8,7 @@ bioconductor-rpa
 Probabilistic analysis of probe reliability and differential gene expression on short oligonucleotide arrays.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/RPA.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/RPA.html
 Versions      1.36.0, 1.34.0, 1.32.0
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rpa

@@ -8,7 +8,7 @@ bioconductor-synapter
 The synapter package provides functionality to reanalyse label\-free proteomics data acquired on a Synapt G2 mass spectrometer. One or several runs\, possibly processed with additional ion mobility separation to increase identification accuracy can be combined to other quantitation files to maximise identification and quantitation accuracy.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/synapter.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/synapter.html
 Versions      2.2.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-synapter

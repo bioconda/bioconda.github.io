@@ -8,7 +8,7 @@ bioconductor-lvsmirna
 Normalization of Agilent miRNA arrays.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/LVSmiRNA.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/LVSmiRNA.html
 Versions      1.30.0, 1.28.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lvsmirna

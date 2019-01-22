@@ -8,7 +8,7 @@ bioconductor-sigfuge
 Algorithm for testing significance of clustering in RNA\-seq data.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/SigFuge.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/SigFuge.html
 Versions      1.18.0, 1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigfuge

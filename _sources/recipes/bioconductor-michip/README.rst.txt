@@ -5,10 +5,10 @@ bioconductor-michip
 
 |downloads|
 
-This package takes the MiChip miRNA microarray .grp scanner output files and parses these out\, providing summary and plotting functions	to analyse MiChip hybridizations. A set of hybridizations is packaged into an ExpressionSet allowing it to be used by other	BioConductor packages.
+This package takes the MiChip miRNA microarray .grp scanner output files and parses these out\, providing summary and plotting functions to analyse MiChip hybridizations. A set of hybridizations is packaged into an ExpressionSet allowing it to be used by other BioConductor packages.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MiChip.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MiChip.html
 Versions      1.34.0, 1.32.0, 1.30.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-michip

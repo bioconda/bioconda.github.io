@@ -8,7 +8,7 @@ bioconductor-simbindprofiles
 SimBindProfiles identifies common and unique binding regions in genome tiling array data. This package does not rely on peak calling\, but directly compares binding profiles processed on the same array platform. It implements a simple threshold approach\, thus allowing retrieval of commonly and differentially bound regions between datasets as well as events of compensation and increased binding.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/SimBindProfiles.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/SimBindProfiles.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simbindprofiles

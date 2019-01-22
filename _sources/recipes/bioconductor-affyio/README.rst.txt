@@ -8,7 +8,7 @@ bioconductor-affyio
 Routines for parsing Affymetrix data files based upon file format information. Primary focus is on accessing the CEL and CDF file formats.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/affyio.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/affyio.html
 Versions      1.50.0, 1.48.0, 1.46.0, 1.42.0, 1.40.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyio

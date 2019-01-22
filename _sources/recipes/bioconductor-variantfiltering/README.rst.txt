@@ -8,7 +8,7 @@ bioconductor-variantfiltering
 Filter genetic variants using different criteria such as inheritance model\, amino acid change consequence\, minor allele frequencies across human populations\, splice site strength\, conservation\, etc.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/VariantFiltering.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/VariantFiltering.html
 Versions      1.16.0, 1.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-variantfiltering

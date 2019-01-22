@@ -8,7 +8,7 @@ bioconductor-delayedmatrixstats
 A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'DelayedArray\' package. High\-performing functions operating on rows and columns of DelayedMatrix objects\, e.g. col \/ rowMedians\(\)\, col \/ rowRanks\(\)\, and col \/ rowSds\(\). Functions optimized per data type and for subsetted calculations such that both memory usage and processing time is minimized.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/DelayedMatrixStats.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/DelayedMatrixStats.html
 Versions      1.2.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats

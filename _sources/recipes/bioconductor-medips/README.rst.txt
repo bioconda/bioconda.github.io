@@ -8,7 +8,7 @@ bioconductor-medips
 MEDIPS was developed for analyzing data derived from methylated DNA immunoprecipitation \(MeDIP\) experiments followed by sequencing \(MeDIP\-seq\). However\, MEDIPS provides functionalities for the analysis of any kind of quantitative sequencing data \(e.g. ChIP\-seq\, MBD\-seq\, CMS\-seq and others\) including calculation of differential coverage between groups of samples and saturation and correlation analysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MEDIPS.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MEDIPS.html
 Versions      1.32.0, 1.30.0, 1.28.0, 1.24.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medips

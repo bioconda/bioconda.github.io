@@ -8,7 +8,7 @@ bioconductor-simpleaffy
 Provides high level functions for reading Affy .CEL files\, phenotypic data\, and then computing simple things with it\, such as t\-tests\, fold changes and the like. Makes heavy use of the affy library. Also has some basic scatter plot functions and mechanisms for generating high resolution journal figures...
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/simpleaffy.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/simpleaffy.html
 Versions      2.56.0, 2.54.0, 2.52.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simpleaffy

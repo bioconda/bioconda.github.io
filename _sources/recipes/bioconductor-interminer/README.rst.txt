@@ -8,7 +8,7 @@ bioconductor-interminer
 Databases based on the InterMine platform such as FlyMine\, modMine \(modENCODE\)\, RatMine\, YeastMine\, HumanMine and TargetMine are integrated databases of genomic\, expression and protein data for various organisms. Integrating data makes it possible to run sophisticated data mining queries that span domains of biological knowledge. This R package provides interfaces with these databases through webservices. It makes most from the correspondence of the data frame object in R and the table object in databases\, while hiding the details of data exchange through XML or JSON.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/InterMineR.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/InterMineR.html
 Versions      1.2.1, 1.0.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interminer

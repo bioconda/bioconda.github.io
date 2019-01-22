@@ -8,7 +8,7 @@ bioconductor-qdnaseq.mm10
 This package provides QDNAseq bin annotations for the mouse genome build mm10.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/QDNAseq.mm10.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/QDNAseq.mm10.html
 Versions      1.10.0, 1.8.0, 1.6.0, 1.4.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qdnaseq.mm10

@@ -8,7 +8,7 @@ bioconductor-bridge
 Test for differentially expressed genes with microarray data. This package can be used with both cDNA microarrays or Affymetrix chip. The packge fits a robust Bayesian hierarchical model for testing for differential expression. Outliers are modeled explicitly using a \$t\$\-distribution. The model includes an exchangeable prior for the variances which allow different variances for the genes but still shrink extreme empirical variances. Our model can be used for testing for differentially expressed genes among multiple samples\, and can distinguish between the different possible patterns of differential expression when there are three or more samples. Parameter estimation is carried out using a novel version of Markov Chain Monte Carlo that is appropriate when the model puts mass on subspaces of the full parameter space.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/bridge.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/bridge.html
 Versions      1.44.0, 1.42.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bridge

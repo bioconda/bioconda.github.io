@@ -8,7 +8,7 @@ bioconductor-mzid
 A parser for mzIdentML files implemented using the XML package. The parser tries to be general and able to handle all types of mzIdentML files with the drawback of having less \'pretty\' output than a vendor specific parser. Please contact the maintainer with any problems and supply an mzIdentML file so the problems can be fixed quickly.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/mzID.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/mzID.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mzid

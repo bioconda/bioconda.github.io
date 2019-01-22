@@ -8,7 +8,7 @@ bioconductor-dta
 Dynamic Transcriptome Analysis \(DTA\) can monitor the cellular response to perturbations with higher sensitivity and temporal resolution than standard transcriptomics. The package implements the underlying kinetic modeling approach capable of the precise determination of synthesis\- and decay rates from individual microarray or RNAseq measurements.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/DTA.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/DTA.html
 Versions      2.26.0, 2.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dta

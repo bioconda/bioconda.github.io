@@ -5,10 +5,10 @@ bioconductor-dada2
 
 |downloads|
 
-The dada2 package infers exact amplicon sequence variants \(ASVs\) from high\-throughput amplicon sequencing data\, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files\, and outputs the sequence variants and their sample\-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier\, and genus\-species assignment by exact matching.
+The dada2 package infers exact amplicon sequence variants \(ASVs\) from high\-throughput amplicon sequencing data\, replacing the coarser and less accurate OTU clustering approach. The dada2 pipeline takes as input demultiplexed fastq files\, and outputs the sequence variants and their sample\-wise abundances after removing substitution and chimera errors. Taxonomic classification is available via a native implementation of the RDP naive Bayesian classifier\, and species\-level assignment to 16S rRNA gene fragments by exact matching.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/dada2.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/dada2.html
 Versions      1.8.0, 1.6.0, 1.4, 1.4.0, 1.2, 1.0.3, 0.99.10, 0.10.4, 0.10.3, 0.10.1, 0.10.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dada2

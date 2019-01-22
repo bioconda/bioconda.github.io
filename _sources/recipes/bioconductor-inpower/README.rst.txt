@@ -8,7 +8,7 @@ bioconductor-inpower
 An R package for computing the number of susceptibility SNPs and power of future studies
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/INPower.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/INPower.html
 Versions      1.16.0, 1.14.0
 License       GPL-2 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-inpower

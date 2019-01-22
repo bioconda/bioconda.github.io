@@ -8,7 +8,7 @@ bioconductor-scrnaseq
 Gene\-level read counts of three public scRNA\-seq datasets. See vignette for details.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/scRNAseq.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/scRNAseq.html
 Versions      1.6.0
 License       CC0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq

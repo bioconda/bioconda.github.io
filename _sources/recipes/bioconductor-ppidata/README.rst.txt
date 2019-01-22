@@ -8,7 +8,7 @@ bioconductor-ppidata
 This package contains the directed graphs for protein interaction data as derived from Y2H and APMS as well as the code used to obtain the y2h data from IntAct Repository.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/ppiData.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/ppiData.html
 Versions      0.18.0, 0.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ppidata

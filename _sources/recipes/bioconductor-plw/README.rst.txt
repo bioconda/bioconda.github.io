@@ -8,7 +8,7 @@ bioconductor-plw
 Probe level Locally moderated Weighted median\-t \(PLW\) and Locally Moderated Weighted\-t \(LMW\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/plw.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/plw.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plw

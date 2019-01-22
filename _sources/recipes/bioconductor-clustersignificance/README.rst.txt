@@ -8,7 +8,7 @@ bioconductor-clustersignificance
 The ClusterSignificance package provides tools to assess if class clusters in dimensionality reduced data representations have a separation different from permuted data. The term class clusters here refers to\, clusters of points representing known classes in the data. This is particularly useful to determine if a subset of the variables\, e.g. genes in a specific pathway\, alone can separate samples into these established classes. ClusterSignificance accomplishes this by\, projecting all points onto a one dimensional line. Cluster separations are then scored and the probability of the seen separation being due to chance is evaluated using a permutation method.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ClusterSignificance.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ClusterSignificance.html
 Versions      1.8.2, 1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-clustersignificance

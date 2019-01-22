@@ -5,10 +5,10 @@ bioconductor-motifdb
 
 |downloads|
 
-More than 9000 annotated position frequency matrices from 14 public sources\, for multiple organisms.
+More than 9900 annotated position frequency matrices from 14 public sources\, for multiple organisms.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/MotifDb.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/MotifDb.html
 Versions      1.22.0, 1.20.0, 1.18.0, 1.16.0
 License       Artistic-2.0 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifdb

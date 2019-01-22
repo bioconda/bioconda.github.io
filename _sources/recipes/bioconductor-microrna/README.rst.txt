@@ -8,7 +8,7 @@ bioconductor-microrna
 Different data resources for microRNAs and some functions for manipulating them.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/microRNA.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/microRNA.html
 Versions      1.38.0, 1.36.0, 1.34.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-microrna

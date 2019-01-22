@@ -8,7 +8,7 @@ bioconductor-mirnameconverter
 Translating mature miRNA names to different miRBase versions\, sequence retrieval\, checking names for validity and detecting miRBase version of a given set of names \(data from http\:\/\/www.mirbase.org\/\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/miRNAmeConverter.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/miRNAmeConverter.html
 Versions      1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnameconverter

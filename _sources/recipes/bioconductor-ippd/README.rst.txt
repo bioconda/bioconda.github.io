@@ -8,7 +8,7 @@ bioconductor-ippd
 The package provides functionality to extract isotopic peak patterns from raw mass spectra. This is done by fitting a large set of template basis functions to the raw spectrum using either nonnegative least squares or least absolute deviation fittting. The package offers a flexible function which tries to estimate model parameters in a way tailored to the peak shapes in the data. The package also provides functionality to process LCMS runs.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/IPPD.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/IPPD.html
 Versions      1.28.0, 1.26.0
 License       GPL (version 2 or later)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ippd

@@ -8,7 +8,7 @@ bioconductor-golubesets
 representation of public golub data with some covariate data of provenance unknown to the maintainer at present\; now employs ExpressionSet format
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/golubEsets.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/golubEsets.html
 Versions      1.22.0, 1.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-golubesets

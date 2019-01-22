@@ -8,7 +8,7 @@ bioconductor-genrank
 Methods for ranking genes based on convergent evidence obtained from multiple independent evidence layers. This package adapts three methods that are popular for meta\-analysis.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/GenRank.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/GenRank.html
 Versions      1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genrank

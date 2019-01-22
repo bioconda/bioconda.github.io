@@ -8,7 +8,7 @@ bioconductor-m3d
 This package identifies statistically significantly differentially methylated regions of CpGs. It uses kernel methods \(the Maximum Mean Discrepancy\) to measure differences in methylation profiles\, and relates these to inter\-replicate changes\, whilst accounting for variation in coverage profiles.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/M3D.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/M3D.html
 Versions      1.14.0, 1.12.0
 License       Artistic License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-m3d

@@ -8,7 +8,7 @@ bioconductor-rtrmui
 This package provides a web interface to compute transcriptional regulatory modules with rTRM.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/rTRMui.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/rTRMui.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtrmui

@@ -8,7 +8,7 @@ bioconductor-edaseq
 Numerical and graphical summaries of RNA\-Seq read data. Within\-lane normalization procedures to adjust for GC\-content effect \(or other gene\-level effects\) on read counts\: loess robust local regression\, global\-scaling\, and full\-quantile normalization \(Risso et al.\, 2011\). Between\-lane normalization procedures to adjust for distributional differences between lanes \(e.g.\, sequencing depth\)\: global\-scaling and full\-quantile normalization \(Bullard et al.\, 2010\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/EDASeq.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/EDASeq.html
 Versions      2.14.1, 2.12.0, 2.10.0, 2.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-edaseq

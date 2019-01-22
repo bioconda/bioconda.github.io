@@ -8,7 +8,7 @@ bioconductor-casper
 Infer alternative splicing from paired\-end RNA\-seq data. The model is based on counting paths across exons\, rather than pairwise exon connections\, and estimates the fragment size and start distributions non\-parametrically\, which improves estimation precision.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/casper.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/casper.html
 Versions      2.14.0, 2.12.0, 2.10.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-casper

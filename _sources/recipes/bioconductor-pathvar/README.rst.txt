@@ -8,7 +8,7 @@ bioconductor-pathvar
 This package contains the functions to find the pathways that have significantly different variability than a reference gene set. It also finds the categories from this pathway that are significant where each category is a cluster of genes. The genes are separated into clusters by their level of variability.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/pathVar.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/pathVar.html
 Versions      1.10.0, 1.8.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar

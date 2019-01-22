@@ -8,7 +8,7 @@ bioconductor-oscope
 Oscope is a statistical pipeline developed to identifying and recovering the base cycle profiles of oscillating genes in an unsynchronized single cell RNA\-seq experiment. The Oscope pipeline includes three modules\: a sine model module to search for candidate oscillator pairs\; a K\-medoids clustering module to cluster candidate oscillators into groups\; and an extended nearest insertion module to recover the base cycle order for each oscillator group.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/Oscope.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/Oscope.html
 Versions      1.10.0, 1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oscope

@@ -8,7 +8,7 @@ bioconductor-birte
 Expression levels of mRNA molecules are regulated by different processes\, comprising inhibition or activation by transcription factors and post\-transcriptional degradation by microRNAs. biRte uses regulatory networks of TFs\, miRNAs and possibly other factors\, together with mRNA\, miRNA and other available expression data to predict the relative influence of a regulator on the expression of its target genes. Inference is done in a Bayesian modeling framework using Markov\-Chain\-Monte\-Carlo. A special feature is the possibility for follow\-up network reverse engineering between active regulators.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/birte.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/birte.html
 Versions      1.16.0, 1.14.0, 1.12.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-birte

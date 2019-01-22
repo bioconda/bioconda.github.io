@@ -18,7 +18,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="bioconductor-globalseq" href="../bioconductor-globalseq/README.html" />
-    <link rel="prev" title="bioconductor-glimma" href="../bioconductor-glimma/README.html" />
+    <link rel="prev" title="bioconductor-glmsparsenet" href="../bioconductor-glmsparsenet/README.html" />
 <link href="https://fonts.googleapis.com/css?family=Lato|Raleway" rel="stylesheet"> 
 <link rel="stylesheet" type="text/css" href="_static/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="_static/style.css">
@@ -65,7 +65,7 @@ $(document).ready(function() {
   <div class="section" id="bioconductor-globalancova">
 <span id="id1"></span><h1>bioconductor-globalancova<a class="headerlink" href="#bioconductor-globalancova" title="Permalink to this headline">¶</a></h1>
 <p><a class="reference external" href="https://anaconda.org/bioconda/bioconductor-globalancova"><img alt="downloads" src="https://anaconda.org/bioconda/bioconductor-globalancova/badges/downloads.svg" /></a></p>
-<p>We give the following arguments in support of the GlobalAncova approach: After appropriate normalisation, gene-expression-data appear rather symmetrical and outliers are no real problem, so least squares should be rather robust. ANCOVA with interaction yields saturated data modelling e.g. different means per group and gene. Covariate adjustment can help to correct for possible selection bias. Variance homogeneity and uncorrelated residuals cannot be expected. Application of ordinary least squares gives unbiased, but no longer optimal estimates (Gauss-Markov-Aitken). Therefore, using the classical F-test is inappropriate, due to correlation. The test statistic however mirrors deviations from the null hypothesis. In combination with a permutation approach, empirical significance levels can be approximated. Alternatively, an approximation yields asymptotic p-values. This work was supported by the NGFN grant 01 GR 0459, BMBF, Germany.</p>
+<p>The association between a variable of interest (e.g. two groups) and the global pattern of a group of variables (e.g. a gene set) is tested via a global F-test. We give the following arguments in support of the GlobalAncova approach: After appropriate normalisation, gene-expression-data appear rather symmetrical and outliers are no real problem, so least squares should be rather robust. ANCOVA with interaction yields saturated data modelling e.g. different means per group and gene. Covariate adjustment can help to correct for possible selection bias. Variance homogeneity and uncorrelated residuals cannot be expected. Application of ordinary least squares gives unbiased, but no longer optimal estimates (Gauss-Markov-Aitken). Therefore, using the classical F-test is inappropriate, due to correlation. The test statistic however mirrors deviations from the null hypothesis. In combination with a permutation approach, empirical significance levels can be approximated. Alternatively, an approximation yields asymptotic p-values. The framework is generalized to groups of categorical variables or even mixed data by a likelihood ratio approach. Closed and hierarchical testing procedures are supported. This work was supported by the NGFN grant 01 GR 0459, BMBF, Germany and BMBF grant 01ZX1309B, Germany.</p>
 <table border="1" class="docutils">
 <colgroup>
 <col width="13%" />
@@ -73,7 +73,7 @@ $(document).ready(function() {
 </colgroup>
 <tbody valign="top">
 <tr class="row-odd"><td>Home</td>
-<td><a class="reference external" href="http://bioconductor.org/packages/3.7/bioc/html/GlobalAncova.html">http://bioconductor.org/packages/3.7/bioc/html/GlobalAncova.html</a></td>
+<td><a class="reference external" href="https://bioconductor.org/packages/3.8/bioc/html/GlobalAncova.html">https://bioconductor.org/packages/3.8/bioc/html/GlobalAncova.html</a></td>
 </tr>
 <tr class="row-even"><td>Versions</td>
 <td>3.48.0, 3.46.0</td>

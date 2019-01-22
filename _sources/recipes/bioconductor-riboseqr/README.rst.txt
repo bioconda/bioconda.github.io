@@ -8,7 +8,7 @@ bioconductor-riboseqr
 Plotting functions\, frameshift detection and parsing of sequencing data from ribosome profiling experiments.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/riboSeqR.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/riboSeqR.html
 Versions      1.14.0, 1.12.0, 1.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-riboseqr

@@ -8,7 +8,7 @@ bioconductor-gmrp
 Perform Mendelian randomization analysis of multiple SNPs to determine risk factors causing disease of study and to exclude confounding variabels and perform path analysis to construct path of risk factors to the disease.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/GMRP.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/GMRP.html
 Versions      1.8.1, 1.5.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gmrp

@@ -8,7 +8,7 @@ bioconductor-pathprint
 Algorithms to convert a gene expression array provided as an expression table or a GEO reference to a \'pathway fingerprint\'\, a vector of discrete ternary scores representing high \(1\)\, low\(\-1\) or insignificant \(0\) expression in a suite of pathways.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/pathprint.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/pathprint.html
 Versions      1.10.4, 1.6.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathprint

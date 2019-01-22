@@ -8,7 +8,7 @@ bioconductor-lungcanceracvssccgeo
 This package contains 30 Affymetrix CEL files for 7 Adenocarcinoma \(AC\) and 8 Squamous cell carcinoma \(SCC\) lung cancer samples taken at random from 3 GEO datasets \(GSE10245\, GSE18842 and GSE2109\) and other 15 samples from a dataset produced by the organizers of the IMPROVER Diagnostic Signature Challenge available from GEO \(GSE43580\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/data/experiment/html/LungCancerACvsSCCGEO.html
+Home          https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerACvsSCCGEO.html
 Versions      1.16.0, 1.14.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lungcanceracvssccgeo

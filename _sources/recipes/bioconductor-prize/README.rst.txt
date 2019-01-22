@@ -8,7 +8,7 @@ bioconductor-prize
 The high throughput studies often produce large amounts of numerous genes and proteins of interest. While it is difficult to study and validate all of them. Analytic Hierarchy Process \(AHP\) offers a novel approach to narrowing down long lists of candidates by prioritizing them based on how well they meet the research goal. AHP is a mathematical technique for organizing and analyzing complex decisions where multiple criteria are involved. The technique structures problems into a hierarchy of elements\, and helps to specify numerical weights representing the relative importance of each element. Numerical weight or priority derived from each element allows users to find alternatives that best suit their goal and their understanding of the problem.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/Prize.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/Prize.html
 Versions      1.10.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prize

@@ -8,7 +8,7 @@ bioconductor-genemeta
 A collection of meta\-analysis tools for analysing high throughput experimental data
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/GeneMeta.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/GeneMeta.html
 Versions      1.52.0, 1.50.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genemeta

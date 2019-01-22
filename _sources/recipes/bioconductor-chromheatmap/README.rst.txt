@@ -8,7 +8,7 @@ bioconductor-chromheatmap
 The ChromHeatMap package can be used to plot genome\-wide data \(e.g. expression\, CGH\, SNP\) along each strand of a given chromosome as a heat map. The generated heat map can be used to interactively identify probes and genes of interest.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/ChromHeatMap.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/ChromHeatMap.html
 Versions      1.34.0, 1.32.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chromheatmap

@@ -8,7 +8,7 @@ bioconductor-affy
 The package contains functions for exploratory oligonucleotide array analysis. The dependence on tkWidgets only concerns few convenience functions. \'affy\' is fully functional without it.
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/affy.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/affy.html
 Versions      1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affy

@@ -8,7 +8,7 @@ bioconductor-htqpcr
 Analysis of Ct values from high throughput quantitative real\-time PCR \(qPCR\) assays across multiple conditions or replicates. The input data can be from spatially\-defined formats such ABI TaqMan Low Density Arrays or OpenArray\; LightCycler from Roche Applied Science\; the CFX plates from Bio\-Rad Laboratories\; conventional 96\- or 384\-well plates\; or microfluidic devices such as the Dynamic Arrays from Fluidigm Corporation. HTqPCR handles data loading\, quality assessment\, normalization\, visualization and parametric or non\-parametric testing for statistical significance in Ct values between features \(e.g. genes\, microRNAs\).
 
 ============= ===========
-Home          http://bioconductor.org/packages/3.7/bioc/html/HTqPCR.html
+Home          https://bioconductor.org/packages/3.8/bioc/html/HTqPCR.html
 Versions      1.34.0, 1.32.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htqpcr
