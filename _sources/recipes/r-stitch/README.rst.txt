@@ -9,7 +9,7 @@ STITCH \- Sequencing To Imputation Through Constructing Haplotypes
 
 ============= ===========
 Home          https://github.com/rwdavies/stitch
-Versions      1.5.4
+Versions      1.5.5, 1.5.4
 License       GPL3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-stitch
 
