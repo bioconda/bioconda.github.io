@@ -11,7 +11,7 @@ Python\-based framework for computational immunomics.
 Home          https://fred-2.github.io
 Versions      2.0.3, 2.0.2
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fred2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fred2/meta.yaml
 
 
 

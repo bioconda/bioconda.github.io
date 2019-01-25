@@ -11,7 +11,7 @@ a simple generic namespace support class
 Home          https://github.com/perigrin/xml-namespacesupport
 Versions      1.12, 1.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-namespacesupport
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-namespacesupport/meta.yaml
 
 
 

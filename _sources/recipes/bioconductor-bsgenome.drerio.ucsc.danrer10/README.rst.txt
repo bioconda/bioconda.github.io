@@ -11,7 +11,7 @@ Full genome sequences for Danio rerio \(Zebrafish\) as provided by UCSC \(danRer
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Drerio.UCSC.danRer10.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.drerio.ucsc.danrer10
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.drerio.ucsc.danrer10/meta.yaml
 
 
 

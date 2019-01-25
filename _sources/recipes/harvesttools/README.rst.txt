@@ -11,7 +11,7 @@ HarvestTools is a part of the Harvest software suite and provides file conversio
 Home          https://github.com/marbl/harvest-tools
 Versions      1.2
 License       custom; see https://raw.githubusercontent.com/marbl/harvest-tools/master/LICENSE.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/harvesttools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/harvesttools/meta.yaml
 
 
 

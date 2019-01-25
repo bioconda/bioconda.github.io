@@ -11,7 +11,7 @@ Analyze antibody repertoires and discover new V genes
 Home          https://igdiscover.se/
 Versions      0.11, 0.10, 0.9, 0.8.0, 0.7.0, 0.6.0, 0.5, 0.4, 0.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/igdiscover
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/igdiscover/meta.yaml
 
 
 

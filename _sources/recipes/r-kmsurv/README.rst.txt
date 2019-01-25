@@ -11,7 +11,7 @@ Data sets and functions for Klein and Moeschberger \(1997\)\, \"Survival Analysi
 Home          https://CRAN.R-project.org/package=KMsurv
 Versions      0.1_5
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-kmsurv
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-kmsurv/meta.yaml
 
 
 

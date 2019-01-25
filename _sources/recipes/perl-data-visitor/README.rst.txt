@@ -11,7 +11,7 @@ Visitor style traversal of Perl data structures
 Home          http://metacpan.org/release/Data-Visitor
 Versions      0.30
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-visitor/0.30
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-visitor/0.30/meta.yaml
 
 
 

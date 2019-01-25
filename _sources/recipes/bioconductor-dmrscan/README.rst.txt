@@ -11,7 +11,7 @@ This package detects significant differentially methylated regions \(for both qu
 Home          https://bioconductor.org/packages/3.8/bioc/html/DMRScan.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrscan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmrscan/meta.yaml
 
 
 

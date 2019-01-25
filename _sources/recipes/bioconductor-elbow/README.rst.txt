@@ -11,7 +11,7 @@ Elbow an improved fold change test that uses cluster analysis and pattern recogn
 Home          https://bioconductor.org/packages/3.8/bioc/html/ELBOW.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-elbow
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-elbow/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Sumaclust clusters sequences in a way that is fast and exact at the same time\, 
 Home          https://git.metabarcoding.org/obitools/sumaclust/wikis/home
 Versions      1.0.31
 License       CeCILL FREE SOFTWARE LICENSE AGREEMENT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sumaclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sumaclust/meta.yaml
 
 
 

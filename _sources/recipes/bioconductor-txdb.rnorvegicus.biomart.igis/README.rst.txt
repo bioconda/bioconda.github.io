@@ -11,7 +11,7 @@ Exposes an annotation databases generated from BioMart by exposing these as TxDb
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Rnorvegicus.BioMart.igis.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.rnorvegicus.biomart.igis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.rnorvegicus.biomart.igis/meta.yaml
 
 
 

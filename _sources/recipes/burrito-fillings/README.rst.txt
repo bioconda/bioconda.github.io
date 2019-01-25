@@ -11,7 +11,7 @@ burrito\-fillings\: burrito application controllers for bioinformatics
 Home          https://github.com/biocore/burrito-fillings
 Versions      0.1.1
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/burrito-fillings/0.1.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/burrito-fillings/0.1.1/meta.yaml
 
 
 

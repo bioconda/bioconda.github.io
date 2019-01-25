@@ -11,7 +11,7 @@ RRBS data set comprising 12 samples with simulated differentially methylated reg
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RRBSdata.html
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rrbsdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rrbsdata/meta.yaml
 
 
 

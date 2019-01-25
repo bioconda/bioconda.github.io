@@ -11,7 +11,7 @@ A computational pipeline for finding mutations relative to a reference sequence 
 Home          https://github.com/barricklab/breseq
 Versions      0.33.0, 0.31.1, 0.29.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/breseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/breseq/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ PlasFlow \- predicting plasmid sequences in metagenomic data
 Home          https://github.com/smaegol/PlasFlow
 Versions      1.1.0
 License       GNU General Public v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plasflow
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plasflow/meta.yaml
 
 
 

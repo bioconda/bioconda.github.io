@@ -11,7 +11,7 @@ The Naive Variant Caller
 Home          https://github.com/blankenberg/nvc
 Versions      0.0.4, 0.0.3
 License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nvc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nvc/meta.yaml
 
 
 

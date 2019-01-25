@@ -11,7 +11,7 @@ Output .ra file stanzas as single lines\, with pipe\-separated fields.
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-ratolines
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-ratolines/meta.yaml
 
 
 

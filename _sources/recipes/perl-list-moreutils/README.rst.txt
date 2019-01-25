@@ -11,7 +11,7 @@ Provide the stuff missing in List\:\:Util
 Home          https://metacpan.org/release/List-MoreUtils
 Versions      0.428, 0.413, 0.15
 License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-list-moreutils/meta.yaml
 
 
 

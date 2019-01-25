@@ -11,7 +11,7 @@ A differential abundance analysis for the comparison of two or more conditions. 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ALDEx2.html
 Versions      1.12.0, 1.10.0, 1.8.0
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aldex2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-aldex2/meta.yaml
 
 
 

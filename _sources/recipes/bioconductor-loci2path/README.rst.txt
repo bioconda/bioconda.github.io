@@ -11,7 +11,7 @@ loci2path performs statistics\-rigorous enrichment analysis of eQTLs in genomic 
 Home          https://bioconductor.org/packages/3.8/bioc/html/loci2path.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loci2path
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-loci2path/meta.yaml
 
 
 

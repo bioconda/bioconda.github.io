@@ -11,7 +11,7 @@ A Python 3 library that makes inferences on HIV\-1 transmission networks.
 Home          https://github.com/veg/hivclustering
 Versions      1.3.2, 1.3.1, 1.3.0, 1.2.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-hivclustering
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-hivclustering/meta.yaml
 
 
 

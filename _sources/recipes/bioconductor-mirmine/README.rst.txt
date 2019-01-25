@@ -11,7 +11,7 @@ miRmine database is a collection of expression profiles from different publicly 
 Home          https://bioconductor.org/packages/3.8/bioc/html/miRmine.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirmine
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mirmine/meta.yaml
 
 
 

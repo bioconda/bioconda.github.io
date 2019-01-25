@@ -11,7 +11,7 @@ Full genome sequences for Bos taurus \(Cow\) as provided by UCSC \(bosTau4\, Oct
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Btaurus.UCSC.bosTau4.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau4
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.btaurus.ucsc.bostau4/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl extensions for keeping data partially sorted
 Home          http://metacpan.org/pod/Heap
 Versions      0.80
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-heap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-heap/meta.yaml
 
 
 

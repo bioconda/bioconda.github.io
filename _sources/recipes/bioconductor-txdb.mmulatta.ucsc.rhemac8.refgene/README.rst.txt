@@ -11,7 +11,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Mmulatta.UCSC.rheMac8.refGene.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.mmulatta.ucsc.rhemac8.refgene/meta.yaml
 
 
 

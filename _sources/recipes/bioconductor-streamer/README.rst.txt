@@ -11,7 +11,7 @@ Large data files can be difficult to work with in R\, where data generally resid
 Home          https://bioconductor.org/packages/3.8/bioc/html/Streamer.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-streamer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-streamer/meta.yaml
 
 
 

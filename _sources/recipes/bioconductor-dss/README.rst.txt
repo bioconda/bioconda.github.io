@@ -11,7 +11,7 @@ DSS is an R library performing differntial analysis for count\-based sequencing 
 Home          https://bioconductor.org/packages/3.8/bioc/html/DSS.html
 Versions      2.28.0, 2.26.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dss
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dss/meta.yaml
 
 
 

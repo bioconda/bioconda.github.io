@@ -11,7 +11,7 @@ TTMap is a clustering method that groups together samples with the same deviatio
 Home          https://bioconductor.org/packages/3.8/bioc/html/TTMap.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ttmap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ttmap/meta.yaml
 
 
 

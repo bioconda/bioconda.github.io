@@ -11,7 +11,7 @@ MUSICC\: A marker genes based framework for metagenomic normalization and accura
 Home          http://elbo.gs.washington.edu/software_musicc.html
 Versions      1.0.2, 1.0.1
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/musicc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/musicc/meta.yaml
 
 
 

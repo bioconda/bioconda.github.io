@@ -11,7 +11,7 @@ tantan is a tool for masking simple regions \(low complexity and short\-period t
 Home          http://cbrc3.cbrc.jp/~martin/tantan/
 Versions      13
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tantan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tantan/meta.yaml
 
 
 

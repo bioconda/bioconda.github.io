@@ -11,7 +11,7 @@ FlExible Extraction of LncRNA
 Home          https://github.com/tderrien/FEELnc
 Versions      0.1.1
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/feelnc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/feelnc/meta.yaml
 
 
 

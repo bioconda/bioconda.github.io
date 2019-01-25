@@ -11,7 +11,7 @@ BMTagger aka Best Match Tagger is for removing human reads from metagenomics dat
 Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
 Versions      3.101
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmtagger
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bmtagger/meta.yaml
 
 
 

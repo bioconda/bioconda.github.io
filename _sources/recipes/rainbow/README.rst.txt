@@ -11,7 +11,7 @@ Efficient tool for clustering and assembling short reads\, especially for RAD
 Home          https://sourceforge.net/projects/bio-rainbow/
 Versions      2.0.4
 License       GNU General Public License version 2.0 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rainbow
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rainbow/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Genome wide annotation for Xenopus\, primarily based on mapping using Entrez Gen
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/org.Xl.eg.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.xl.eg.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-org.xl.eg.db/meta.yaml
 
 
 

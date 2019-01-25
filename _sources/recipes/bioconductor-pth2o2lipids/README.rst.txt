@@ -11,7 +11,7 @@ Annotated HPLC\-ESI\-MS lipid data in positive ionization mode from an experimen
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/PtH2O2lipids.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pth2o2lipids
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pth2o2lipids/meta.yaml
 
 
 

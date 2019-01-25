@@ -11,7 +11,7 @@ Infernal \(\"INFERence of RNA ALignment\"\) is for searching DNA sequence databa
 Home          http://infernal.janelia.org/
 Versions      1.1.2, 1.1.1, 1.0.2
 License       3-Clause BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/infernal
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/infernal/meta.yaml
 
 
 

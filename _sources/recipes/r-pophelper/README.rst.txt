@@ -11,7 +11,7 @@ A set of useful functions for processing admixture proportion files from the pop
 Home          https://github.com/royfrancis/pophelper
 Versions      2.2.7
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pophelper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pophelper/meta.yaml
 
 
 

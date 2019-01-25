@@ -11,7 +11,7 @@ fastseg implements a very fast and efficient segmentation algorithm. It has simi
 Home          https://bioconductor.org/packages/3.8/bioc/html/fastseg.html
 Versions      1.26.0, 1.24.0, 1.22.0, 1.20.0
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fastseg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fastseg/meta.yaml
 
 
 

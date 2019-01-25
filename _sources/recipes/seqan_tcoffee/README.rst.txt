@@ -11,7 +11,7 @@ SeqAn\:\:T\-Coffee \- Multiple Sequence Alignment
 Home          http://www.seqan.de/apps/seqan-t-coffee/
 Versions      1.13.3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seqan_tcoffee
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seqan_tcoffee/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ An implementation of the PASTA \(Practical Alignment using Sate and TrAnsitivity
 Home          https://github.com/smirarab/pasta
 Versions      1.7.8, 0.2
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pasta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pasta/meta.yaml
 
 
 

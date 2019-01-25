@@ -11,7 +11,7 @@ Access to igv.js\, the Integrative Genomics Viewer running in a web browser.
 Home          https://bioconductor.org/packages/3.8/bioc/html/igvR.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igvr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-igvr/meta.yaml
 
 
 

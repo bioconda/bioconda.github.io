@@ -11,7 +11,7 @@ Simple interface to Locale\:\:Maketext\:\:Lexicon
 Home          http://metacpan.org/pod/Locale::Maketext::Simple
 Versions      0.21
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-locale-maketext-simple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-locale-maketext-simple/meta.yaml
 
 
 

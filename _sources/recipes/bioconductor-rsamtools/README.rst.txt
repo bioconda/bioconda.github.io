@@ -11,7 +11,7 @@ This package provides an interface to the \'samtools\'\, \'bcftools\'\, and \'ta
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rsamtools.html
 Versions      1.32.3, 1.30.0, 1.28.0, 1.26.1, 1.24.0, 1.22.0
 License       Artistic-2.0 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rsamtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rsamtools/meta.yaml
 
 
 

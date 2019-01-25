@@ -11,7 +11,7 @@ Perl extension for using OpenSSL
 Home          http://metacpan.org/pod/Net::SSLeay
 Versions      1.85, 1.84, 1.74, 1.72
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-net-ssleay
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-net-ssleay/meta.yaml
 
 
 

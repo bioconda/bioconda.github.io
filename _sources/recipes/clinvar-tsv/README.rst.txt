@@ -11,7 +11,7 @@ A Snakemake\-based program to download ClinVar and convert to easy\-to\-use TSV 
 Home          https://github.com/bihealth/clinvar-tsv
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clinvar-tsv
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clinvar-tsv/meta.yaml
 
 
 

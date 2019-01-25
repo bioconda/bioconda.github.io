@@ -11,7 +11,7 @@ The Open Graph Drawing Framework is a self\-contained C\+\+ class library for th
 Home          http://http://ogdf.net/doku.php
 Versions      201207
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ogdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ogdf/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MSstatsQCgui is a Shiny app which provides longitudinal system suitability monit
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSstatsQCgui.html
 Versions      
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstatsqcgui
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msstatsqcgui/meta.yaml
 
 
 

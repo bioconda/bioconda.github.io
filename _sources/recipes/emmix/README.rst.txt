@@ -11,7 +11,7 @@ A tool that fits a mixture model of multivariate normal or t\-distributed compon
 Home          https://people.smp.uq.edu.au/GeoffMcLachlan/emmix/emmix.html
 Versions      1.3
 License       Available freely for non-commercial use only
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/emmix/1.3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/emmix/1.3/meta.yaml
 
 
 

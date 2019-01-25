@@ -11,7 +11,7 @@ Expand tabs and do simple line wrapping
 Home          http://metacpan.org/pod/Text::Tabs+Wrap
 Versions      2013.0523
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-tabs-wrap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-tabs-wrap/meta.yaml
 
 
 

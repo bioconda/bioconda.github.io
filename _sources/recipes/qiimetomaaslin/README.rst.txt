@@ -11,7 +11,7 @@ Data munging script to change text Qiime OTU tables to pcl\-formatted\, maaslin\
 Home          https://huttenhower.sph.harvard.edu/maaslin
 Versions      1.1.0
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiimetomaaslin
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qiimetomaaslin/meta.yaml
 
 
 

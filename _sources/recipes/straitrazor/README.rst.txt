@@ -11,7 +11,7 @@ The STR Allele Identification Tool
 Home          https://github.com/Ahhgust/STRaitRazor
 Versions      3.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/straitrazor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/straitrazor/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix RheGene\-1\_1\-st
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.rhegene.1.1.st.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rhegene.1.1.st
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.rhegene.1.1.st/meta.yaml
 
 
 

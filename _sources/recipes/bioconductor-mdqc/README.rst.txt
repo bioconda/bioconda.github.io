@@ -11,7 +11,7 @@ MDQC is a multivariate quality assessment method for microarrays based on qualit
 Home          https://bioconductor.org/packages/3.8/bioc/html/mdqc.html
 Versions      1.42.0, 1.40.0, 1.38.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mdqc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mdqc/meta.yaml
 
 
 

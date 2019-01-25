@@ -11,7 +11,7 @@ canary to check perl compatibility for schmorp\'s modules
 Home          http://metacpan.org/pod/Canary::Stability
 Versions      2012, 2006
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-canary-stability
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-canary-stability/meta.yaml
 
 
 

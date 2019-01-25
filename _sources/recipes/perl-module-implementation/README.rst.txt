@@ -11,7 +11,7 @@ Loads one of several alternate underlying implementations for a module
 Home          http://metacpan.org/release/Module-Implementation
 Versions      0.09
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-implementation
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-implementation/meta.yaml
 
 
 

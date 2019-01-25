@@ -11,7 +11,7 @@ Testing individual SNPs\, as well as arbitrarily large groups of SNPs in GWA stu
 Home          https://bioconductor.org/packages/3.8/bioc/html/hierGWAS.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiergwas
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hiergwas/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Tools for processing and analyzing structural variants
 Home          https://github.com/hall-lab/svtools
 Versions      0.4.0, 0.3.2, 0.3.1, 0.3.0, 0.2.0, 0.1.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/svtools/meta.yaml
 
 
 

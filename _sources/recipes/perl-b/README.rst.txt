@@ -11,7 +11,7 @@ The Perl Compiler Backend
 Home          http://metacpan.org/pod/B
 Versions      1.48
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-b/1.48
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-b/1.48/meta.yaml
 
 
 

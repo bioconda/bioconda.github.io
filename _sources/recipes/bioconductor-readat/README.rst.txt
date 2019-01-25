@@ -11,7 +11,7 @@ This package contains functionality to import\, transform and annotate data from
 Home          https://bioconductor.org/packages/3.8/bioc/html/readat.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-readat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-readat/meta.yaml
 
 
 

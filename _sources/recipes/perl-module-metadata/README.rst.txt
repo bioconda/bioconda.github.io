@@ -11,7 +11,7 @@ Gather package and POD information from perl module files
 Home          https://github.com/Perl-Toolchain-Gang/Module-Metadata
 Versions      1.000033, 1.000019
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-metadata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-metadata/meta.yaml
 
 
 

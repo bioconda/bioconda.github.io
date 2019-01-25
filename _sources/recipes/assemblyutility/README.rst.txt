@@ -11,7 +11,7 @@ Tools for DBG2OLC genoome assembler
 Home          https://github.com/yechengxi/AssemblyUtility
 Versions      20160209
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assemblyutility
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/assemblyutility/meta.yaml
 
 
 

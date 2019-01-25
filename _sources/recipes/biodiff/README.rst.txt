@@ -11,7 +11,7 @@ exact comparison of biological sequences
 Home          https://gitlab.com/LPCDRP/biodiff
 Versions      0.2.2
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biodiff
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biodiff/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl extension for the c library libbloom.
 Home          http://metacpan.org/pod/Bloom-Faster
 Versions      1.7
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bloom-faster
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bloom-faster/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Extract meta information from image files
 Home          http://metacpan.org/pod/Image-Info
 Versions      1.38
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-image-info
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-image-info/meta.yaml
 
 
 

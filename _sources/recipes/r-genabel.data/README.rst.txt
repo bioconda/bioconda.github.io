@@ -11,7 +11,7 @@ GenABEL.data package consists of a data set used by GenABEL functions
 Home          http://www.genabel.org, http://forum.genabel.org, http://genabel.r-forge.r-project.org/
 Versions      1.0.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel.data
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-genabel.data/meta.yaml
 
 
 

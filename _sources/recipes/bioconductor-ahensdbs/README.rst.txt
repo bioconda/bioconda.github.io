@@ -11,7 +11,7 @@ Supplies AnnotationHub with EnsDb Ensembl\-based annotation databases for all sp
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/AHEnsDbs.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ahensdbs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ahensdbs/meta.yaml
 
 
 

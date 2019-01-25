@@ -11,7 +11,7 @@ BigWig manpulation tools using libBigWig and htslib
 Home          https://github.com/cancerit/cgpBigWig
 Versions      1.0.2
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgpbigwig
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cgpbigwig/meta.yaml
 
 
 

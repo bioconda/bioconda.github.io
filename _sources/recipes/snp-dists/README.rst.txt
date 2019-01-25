@@ -11,7 +11,7 @@ Convert a FASTA alignment to SNP distance matrix
 Home          https://github.com/tseemann/snp-dists
 Versions      0.6.3, 0.6.2, 0.6, 0.5, 0.2
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-dists
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snp-dists/meta.yaml
 
 
 

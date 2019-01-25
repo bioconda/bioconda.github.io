@@ -11,7 +11,7 @@ Provide information on conflicts for Module\:\:Runtime
 Home          https://github.com/karenetheridge/Module-Runtime-Conflicts
 Versions      0.003
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-runtime-conflicts
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-runtime-conflicts/meta.yaml
 
 
 

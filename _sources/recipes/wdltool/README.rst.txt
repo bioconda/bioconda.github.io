@@ -11,7 +11,7 @@ Command line utilities for interacting with WDL
 Home          https://github.com/broadinstitute/wdltool
 Versions      0.14, 0.9, 0.6
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wdltool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wdltool/meta.yaml
 
 
 

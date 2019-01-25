@@ -11,7 +11,7 @@ Set of visualisation and analysis tools for biological data sets
 Home          http://pypi.python.org/pypi/biokit
 Versions      0.4.4, 0.4.2, 0.4.1, 0.2.1, 0.1.4, 0.1.3
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biokit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biokit/meta.yaml
 
 
 

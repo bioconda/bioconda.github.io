@@ -11,7 +11,7 @@ A MySQL driver for the Perl5 Database Interface \(DBI\)
 Home          http://dbi.perl.org/
 Versions      4.046, 4.033
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dbd-mysql
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-dbd-mysql/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Unit testing without external dependencies
 Home          http://metacpan.org/pod/Test::Unit::Lite
 Versions      0.1202
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-unit-lite/0.1202
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-unit-lite/0.1202/meta.yaml
 
 
 

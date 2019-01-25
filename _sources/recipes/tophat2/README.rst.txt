@@ -9,9 +9,9 @@ A spliced read mapper for RNA\-Seq
 
 ============= ===========
 Home          http://ccb.jhu.edu/software/tophat/index.shtml
-Versions      2.1.1, 2.1.0
+Versions      2.1.1, 2.1.0, 2.0.13
 License       Boost Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tophat2/meta.yaml
 
 
 

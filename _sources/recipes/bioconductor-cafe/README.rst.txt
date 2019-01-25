@@ -11,7 +11,7 @@ Detection and visualizations of gross chromosomal aberrations using Affymetrix e
 Home          https://bioconductor.org/packages/3.8/bioc/html/CAFE.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cafe
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cafe/meta.yaml
 
 
 

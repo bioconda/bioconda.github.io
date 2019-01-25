@@ -14,7 +14,7 @@ Furthermore\, it allows filtering for GTF attribute values\, e.g. protein\_codin
 Home          https://github.molgen.mpg.de/loosolab/UROPA
 Versions      2.0.3, 2.0.2a0, 2.0.0a0, 1.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/uropa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/uropa/meta.yaml
 
 Documentation http://uropa-manual.readthedocs.io
 

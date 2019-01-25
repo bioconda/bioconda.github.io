@@ -11,7 +11,7 @@ The BiblioSpec Spetral Library tool suite
 Home          https://skyline.ms/project/home/software/BiblioSpec/begin.view?
 Versions      1.0
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bibliospec
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bibliospec/meta.yaml
 
 
 

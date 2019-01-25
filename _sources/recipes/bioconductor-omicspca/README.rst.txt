@@ -11,7 +11,7 @@ OMICsPCA is an analysis pipeline designed to integrate multi OMICs experiments d
 Home          https://bioconductor.org/packages/3.8/bioc/html/OMICsPCA.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-omicspca
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-omicspca/meta.yaml
 
 
 

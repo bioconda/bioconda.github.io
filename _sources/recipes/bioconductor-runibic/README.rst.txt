@@ -11,7 +11,7 @@ This package implements UbiBic algorithm in R. This biclustering algorithm for a
 Home          https://bioconductor.org/packages/3.8/bioc/html/runibic.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-runibic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-runibic/meta.yaml
 
 
 

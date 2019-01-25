@@ -11,7 +11,7 @@ A package containing an environment representing the Mu19KsubC.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu19ksubccdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu19ksubccdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mu19ksubccdf/meta.yaml
 
 
 

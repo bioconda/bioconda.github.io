@@ -11,7 +11,7 @@ Simplified source filtering
 Home          http://metacpan.org/pod/Filter::Simple
 Versions      0.91
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-filter-simple/0.91
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-filter-simple/0.91/meta.yaml
 
 
 

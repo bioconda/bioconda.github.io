@@ -11,7 +11,7 @@ Download genomes the easy way.
 Home          https://github.com/simonvh/genomepy
 Versions      0.5.2, 0.5.1, 0.5.0, 0.4.0, 0.3.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomepy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomepy/meta.yaml
 
 
 

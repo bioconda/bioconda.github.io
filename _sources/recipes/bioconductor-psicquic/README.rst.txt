@@ -11,7 +11,7 @@ PSICQUIC is a project within the HUPO Proteomics Standard Initiative \(HUPO\-PSI
 Home          https://bioconductor.org/packages/3.8/bioc/html/PSICQUIC.html
 Versions      1.18.1, 1.16.1, 1.14.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-psicquic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-psicquic/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name Vitis\_Vinifera
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.vitis.vinifera.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.vitis.vinifera
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.vitis.vinifera/meta.yaml
 
 
 

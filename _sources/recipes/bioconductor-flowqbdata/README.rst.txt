@@ -11,7 +11,7 @@ The flowQBData package provides data files used as examples and for testing of t
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/flowQBData.html
 Versions      
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowqbdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowqbdata/meta.yaml
 
 
 

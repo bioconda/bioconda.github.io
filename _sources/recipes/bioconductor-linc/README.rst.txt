@@ -11,7 +11,7 @@ This package provides methods to compute co\-expression networks of lincRNAs and
 Home          https://bioconductor.org/packages/3.8/bioc/html/LINC.html
 Versions      1.8.0, 1.6.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-linc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-linc/meta.yaml
 
 
 

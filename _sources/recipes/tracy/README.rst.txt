@@ -11,7 +11,7 @@ Basecalling\, alignment and deconvolution of Sanger chromatogram trace files
 Home          https://github.com/gear-genomics/tracy
 Versions      0.3.10, 0.3.8, 0.3.7, 0.3.6
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tracy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tracy/meta.yaml
 
 
 

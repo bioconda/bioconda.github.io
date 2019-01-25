@@ -11,7 +11,7 @@ Clip\&Merge is a tool to clip off adapters from sequencing reads and merge overl
 Home          https://github.com/apeltzer/ClipAndMerge
 Versions      1.7.8
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clipandmerge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clipandmerge/meta.yaml
 
 
 

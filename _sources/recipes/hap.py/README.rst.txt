@@ -11,7 +11,7 @@ Haplotype VCF comparison tools
 Home          https://github.com/Illumina/hap.py
 Versions      0.3.10, 0.3.7, 0.2.9
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hap.py
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hap.py/meta.yaml
 
 
 

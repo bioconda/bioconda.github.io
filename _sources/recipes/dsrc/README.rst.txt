@@ -11,7 +11,7 @@ high\-performance compression of sequencing reads stored in FASTQ format
 Home          https://github.com/refresh-bio/DSRC
 Versions      2015.06.04, 2014.12.17
 License       GNU GPL 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dsrc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dsrc/meta.yaml
 
 
 

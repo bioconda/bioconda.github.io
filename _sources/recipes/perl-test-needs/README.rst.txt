@@ -11,7 +11,7 @@ Skip tests when modules not available
 Home          http://metacpan.org/pod/Test::Needs
 Versions      0.002005
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-needs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-needs/meta.yaml
 
 
 

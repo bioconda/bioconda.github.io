@@ -11,7 +11,7 @@ This package provides modified versions and novel implementation of functions fo
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocParallel.html
 Versions      1.14.2, 1.12.0, 1.10.1, 1.6.6, 1.5.0, 1.4.3, 1.4.0, 1.2.22
 License       GPL-2 | GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocparallel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biocparallel/meta.yaml
 
 
 

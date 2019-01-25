@@ -11,7 +11,7 @@ A programmatic interface to many species occurrence data sources\, including Glo
 Home          https://github.com/ropensci/spocc
 Versions      0.9.0, 0.8.0, 0.7.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-spocc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-spocc/meta.yaml
 
 
 

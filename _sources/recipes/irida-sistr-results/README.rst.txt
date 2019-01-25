@@ -11,7 +11,7 @@ Exports SISTR results available through IRIDA into a single report.
 Home          https://github.com/phac-nml/irida-sistr-results
 Versions      0.6.0, 0.5.0, 0.4.0, 0.3.1
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/irida-sistr-results
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/irida-sistr-results/meta.yaml
 
 
 Development   https://github.com/phac-nml/irida-sistr-results

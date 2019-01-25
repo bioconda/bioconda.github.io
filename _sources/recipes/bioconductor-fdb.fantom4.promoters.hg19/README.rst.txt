@@ -11,7 +11,7 @@ FANTOM4 promoters\, liftOver\'ed from hg18 to hg19\, CpGs quantified
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/FDb.FANTOM4.promoters.hg19.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.fantom4.promoters.hg19
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fdb.fantom4.promoters.hg19/meta.yaml
 
 
 

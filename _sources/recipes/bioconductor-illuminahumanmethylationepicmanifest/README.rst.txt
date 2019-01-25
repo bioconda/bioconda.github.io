@@ -11,7 +11,7 @@ A manifest package for Illumina\'s EPIC methylation arrays.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylationEPICmanifest.html
 Versions      0.3.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicmanifest
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanmethylationepicmanifest/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ collectl monitoring tool
 Home          http://collectl.sourceforge.net/
 Versions      4.0.4
 License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/collectl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/collectl/meta.yaml
 
 
 

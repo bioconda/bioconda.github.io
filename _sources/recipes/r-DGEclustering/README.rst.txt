@@ -11,7 +11,7 @@ DGEclustering is an R package for multidimensional clustering of differential ge
 Home          https://github.com/reneechou123/DGEclustering
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-DGEclustering
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-DGEclustering/meta.yaml
 
 
 

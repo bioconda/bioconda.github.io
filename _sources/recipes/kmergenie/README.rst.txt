@@ -11,7 +11,7 @@ KmerGenie estimates the best k\-mer length for genome de novo assembly
 Home          http://kmergenie.bx.psu.edu/
 Versions      1.7016
 License       free software license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmergenie
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kmergenie/meta.yaml
 
 
 

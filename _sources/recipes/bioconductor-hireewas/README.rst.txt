@@ -11,7 +11,7 @@ In epigenome\-wide association studies\, the measured signals for each sample ar
 Home          https://bioconductor.org/packages/3.8/bioc/html/HIREewas.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hireewas
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hireewas/meta.yaml
 
 
 

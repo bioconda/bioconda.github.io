@@ -11,7 +11,7 @@ Store minor allele frequency data from NHLBI TOPMed for the human genome version
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.TOPMed.freeze5.hg19.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.topmed.freeze5.hg19
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mafdb.topmed.freeze5.hg19/meta.yaml
 
 
 

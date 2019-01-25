@@ -11,7 +11,7 @@ This is a supportive data package for the software package\, gage. However\, the
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/gageData.html
 Versions      2.18.0, 2.16.0, 2.14.0, 2.10.0, 2.8.0
 License       GPL (>=2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gagedata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gagedata/meta.yaml
 
 
 

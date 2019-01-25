@@ -11,7 +11,7 @@ safe concurrent access to MLDBM databases
 Home          http://metacpan.org/pod/MLDBM-Sync
 Versions      0.30
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mldbm-sync
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mldbm-sync/meta.yaml
 
 
 

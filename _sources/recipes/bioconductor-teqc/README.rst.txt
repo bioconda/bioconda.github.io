@@ -11,7 +11,7 @@ Target capture experiments combine hybridization\-based \(in solution or on micr
 Home          https://bioconductor.org/packages/3.8/bioc/html/TEQC.html
 Versions      4.2.0, 3.18.0, 3.16.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-teqc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-teqc/meta.yaml
 
 
 

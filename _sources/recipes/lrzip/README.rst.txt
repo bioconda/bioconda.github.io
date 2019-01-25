@@ -11,7 +11,7 @@ Long Range ZIP or Lzma RZIP. This is a compression program optimised for large f
 Home          https://github.com/ckolivas/lrzip
 Versions      0.621
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lrzip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lrzip/meta.yaml
 
 
 

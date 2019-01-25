@@ -11,7 +11,7 @@ MooseX\:\:NonMoose \- easy subclassing of non\-Moose classes
 Home          https://github.com/moose/MooseX-NonMoose
 Versions      0.26
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-nonmoose
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-nonmoose/meta.yaml
 
 
 

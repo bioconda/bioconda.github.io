@@ -11,7 +11,7 @@ An example dataset for use with the charm package
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/charmData.html
 Versions      
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-charmdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-charmdata/meta.yaml
 
 
 

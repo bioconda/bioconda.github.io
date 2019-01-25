@@ -11,7 +11,7 @@ Package to perform non\-invasive fetal testing for aneuploidies using sequencing
 Home          https://CRAN.R-project.org/package=RAPIDR
 Versions      0.1.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rapidr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rapidr/meta.yaml
 
 
 

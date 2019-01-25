@@ -11,7 +11,7 @@ A collection of functions for retrieving\, processing and repackaging the UniPro
 Home          https://bioconductor.org/packages/3.8/bioc/html/UniProt.ws.html
 Versions      2.20.4, 2.18.0, 2.16.0
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-uniprot.ws
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-uniprot.ws/meta.yaml
 
 
 

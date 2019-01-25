@@ -11,7 +11,7 @@ solution of Bezier Curves
 Home          http://metacpan.org/pod/Math-Bezier
 Versions      0.01
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bezier
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-bezier/meta.yaml
 
 
 

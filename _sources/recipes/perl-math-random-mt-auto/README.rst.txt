@@ -11,7 +11,7 @@ Auto\-seeded Mersenne Twister PRNGs
 Home          http://metacpan.org/pod/Math::Random::MT::Auto
 Versions      6.23, 6.22
 License       unrestricted
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-random-mt-auto
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-random-mt-auto/meta.yaml
 
 
 

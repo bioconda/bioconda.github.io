@@ -11,7 +11,7 @@ Point mutations occurring in a genome can be divided into 96 categories based on
 Home          https://bioconductor.org/packages/3.8/bioc/html/SparseSignatures.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sparsesignatures
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sparsesignatures/meta.yaml
 
 
 

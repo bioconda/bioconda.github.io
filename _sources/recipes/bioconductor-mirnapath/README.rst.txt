@@ -11,7 +11,7 @@ This package provides pathway enrichment techniques for miRNA expression data. S
 Home          https://bioconductor.org/packages/3.8/bioc/html/miRNApath.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnapath
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mirnapath/meta.yaml
 
 
 

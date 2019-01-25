@@ -11,7 +11,7 @@ This package provides an interface to simulate metabolic reconstruction from the
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiGGR.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biggr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biggr/meta.yaml
 
 
 

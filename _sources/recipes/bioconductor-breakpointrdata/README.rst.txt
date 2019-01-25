@@ -11,7 +11,7 @@ Strand\-seq data to demonstrate functionalities of breakpointR package.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/breakpointRdata.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breakpointrdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-breakpointrdata/meta.yaml
 
 
 

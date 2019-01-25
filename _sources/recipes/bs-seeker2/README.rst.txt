@@ -11,7 +11,7 @@ BS Seeker 2 is a seamless and versatile pipeline for accurately and fast mapping
 Home          http://pellegrini.mcdb.ucla.edu/BS_Seeker2/
 Versions      2.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bs-seeker2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bs-seeker2/meta.yaml
 
 
 

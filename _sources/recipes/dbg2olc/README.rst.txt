@@ -11,7 +11,7 @@ Efficient Assembly of Large Genomes Using Long Erroneous Reads of the Third Gene
 Home          https://github.com/yechengxi/DBG2OLC
 Versions      20180222, 20160205
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dbg2olc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dbg2olc/meta.yaml
 
 
 

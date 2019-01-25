@@ -11,7 +11,7 @@ PURPLE is a purity ploidy estimator. It leverages the read depth and tumor BAF t
 Home          https://github.com/hartwigmedical/hmftools/tree/master/purity-ploidy-estimator
 Versions      2.17, 2.16, 2.15
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-purple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hmftools-purple/meta.yaml
 
 
 

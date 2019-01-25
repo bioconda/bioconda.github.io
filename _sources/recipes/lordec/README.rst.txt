@@ -11,7 +11,7 @@ A hybrid error correction program for long\, PacBio reads
 Home          http://www.atgc-montpellier.fr/lordec/
 Versions      0.9, 0.6
 License       CeCILL A license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lordec
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lordec/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The BPRMeth package is a probabilistic method to quantify explicit features of m
 Home          https://bioconductor.org/packages/3.8/bioc/html/BPRMeth.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bprmeth
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bprmeth/meta.yaml
 
 
 

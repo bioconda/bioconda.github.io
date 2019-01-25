@@ -11,7 +11,7 @@ Tool that performs the unbiased miRNA functional enrichment analysis \(Bleazard 
 Home          https://github.com/diwis/BUFET/
 Versions      1.0
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bufet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bufet/meta.yaml
 
 
 

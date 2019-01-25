@@ -11,7 +11,7 @@ Implements gene expression anti\-profiles as described in Corrada Bravo et al.\,
 Home          https://bioconductor.org/packages/3.8/bioc/html/antiProfiles.html
 Versions      1.20.0, 1.18.0, 1.16.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-antiprofiles
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-antiprofiles/meta.yaml
 
 
 

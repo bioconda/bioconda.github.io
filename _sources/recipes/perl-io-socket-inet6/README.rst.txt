@@ -11,7 +11,7 @@ Object interface for AF\_INET\/AF\_INET6 domain sockets
 Home          http://metacpan.org/pod/IO::Socket::INET6
 Versions      2.72
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-socket-inet6
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-socket-inet6/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl interface to the gd2 graphics library
 Home          http://metacpan.org/pod/GD
 Versions      2.70, 2.69, 2.68, 2.56
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-gd/meta.yaml
 
 
 

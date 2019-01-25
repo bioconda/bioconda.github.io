@@ -11,7 +11,7 @@ Functions to add metadata to ExperimentHub db and resource files to AWS S3 bucke
 Home          https://bioconductor.org/packages/3.8/bioc/html/ExperimentHubData.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-experimenthubdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-experimenthubdata/meta.yaml
 
 
 

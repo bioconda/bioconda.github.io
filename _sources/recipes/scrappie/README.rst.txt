@@ -11,7 +11,7 @@ Scrappie is a technology demonstrator for the Oxford Nanopore Research Algorithm
 Home          https://github.com/nanoporetech/scrappie
 Versions      1.3.2
 License       Mozilla Public License 2.0 (MPL 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scrappie
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scrappie/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ choose a variant to serve
 Home          http://metacpan.org/pod/HTTP::Negotiate
 Versions      6.01
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-negotiate
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-http-negotiate/meta.yaml
 
 
 

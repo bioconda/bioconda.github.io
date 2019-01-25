@@ -13,7 +13,7 @@ aggregation and scoring strategy.
 Home          https://github.com/cmks/DAS_Tool
 Versions      1.1.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/das_tool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/das_tool/meta.yaml
 
 
 

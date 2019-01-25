@@ -11,7 +11,7 @@ Provides transcript expression and bi\-allelic genotypes corresponding to the ch
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GeuvadisTranscriptExpr.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geuvadistranscriptexpr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geuvadistranscriptexpr/meta.yaml
 
 
 

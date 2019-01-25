@@ -11,7 +11,7 @@ Statistical and biological validation of clustering results.
 Home          http://guybrock.gpbrock.net/research
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-clvalid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-clvalid/meta.yaml
 
 
 

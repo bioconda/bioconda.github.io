@@ -11,7 +11,7 @@ The package handles pre\-processing\, normalization\, filtering and analysis of 
 Home          https://bioconductor.org/packages/3.8/bioc/html/xps.html
 Versions      
 License       GPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-xps
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-xps/meta.yaml
 
 
 

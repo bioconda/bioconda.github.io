@@ -11,7 +11,7 @@ A software that deconvolutes mixed genomes with unknown proportions.
 Home          http://deploid.readthedocs.io/en/latest/index.html
 Versions      v0.5
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deploid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/deploid/meta.yaml
 
 
 

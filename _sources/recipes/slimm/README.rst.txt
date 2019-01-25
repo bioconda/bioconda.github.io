@@ -11,7 +11,7 @@ SLIMM \- Species Level Identification of Microbes from Metagenomes
 Home          https://github.com/seqan/slimm/blob/master/README.md
 Versions      0.3.4
 License       https://github.com/seqan/slimm/blob/master/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/slimm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/slimm/meta.yaml
 
 
 

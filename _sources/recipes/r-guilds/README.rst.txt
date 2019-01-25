@@ -11,7 +11,7 @@ A collection of sampling formulas for the unified neutral model of biogeography 
 Home          https://github.com/thijsjanzen/GUILDS
 Versions      1.3
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-guilds
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-guilds/meta.yaml
 
 
 

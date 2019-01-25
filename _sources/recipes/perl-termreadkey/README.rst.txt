@@ -11,7 +11,7 @@ A perl module for simple terminal control
 Home          http://metacpan.org/pod/TermReadKey
 Versions      2.38, 2.37, 2.32
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-termreadkey
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-termreadkey/meta.yaml
 
 
 

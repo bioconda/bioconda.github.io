@@ -11,7 +11,7 @@ DNA Assembly with Gaps \(Dawg\) is an application designed to simulate the evolu
 Home          https://github.com/reedacartwright/dawg
 Versions      2.0.beta1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dawg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dawg/meta.yaml
 
 
 

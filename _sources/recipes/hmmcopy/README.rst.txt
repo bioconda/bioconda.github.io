@@ -11,7 +11,7 @@ C\+\+ based programs for analyzing BAM files and preparing read counts \-\- used
 Home          http://compbio.bccrc.ca/software/hmmcopy/
 Versions      0.1.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmmcopy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hmmcopy/meta.yaml
 
 
 

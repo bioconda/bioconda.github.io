@@ -11,7 +11,7 @@ a module for when strings are too long to be displayed in...
 Home          https://github.com/rjbs/String-Truncate
 Versions      1.100602
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-truncate
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-string-truncate/meta.yaml
 
 
 

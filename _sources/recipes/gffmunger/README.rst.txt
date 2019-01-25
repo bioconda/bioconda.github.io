@@ -11,7 +11,7 @@ Munges GFF3 files exported from Chado database to make them suitable for loading
 Home          https://github.com/sanger-pathogens/gffmunger
 Versions      0.0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gffmunger
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gffmunger/meta.yaml
 
 
 

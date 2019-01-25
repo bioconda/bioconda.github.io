@@ -11,7 +11,7 @@ smCounter2\: an accurate low\-frequency variant caller for targeted sequencing d
 Home          https://github.com/qiaseq/qiaseq-smcounter-v2
 Versions      0.1.2018.08.28
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smcounter2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/smcounter2/meta.yaml
 
 
 

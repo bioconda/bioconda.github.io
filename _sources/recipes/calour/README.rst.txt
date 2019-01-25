@@ -11,7 +11,7 @@ exploratory and interactive microbiome analyses based on heatmaps
 Home          https://biocore.github.io/calour/
 Versions      2018.10.1
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/calour
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/calour/meta.yaml
 
 
 Development   https://github.com/biocore/calour

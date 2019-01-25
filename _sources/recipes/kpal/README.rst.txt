@@ -11,7 +11,7 @@ Analysis toolkit and programming library for k\-mer profiles
 Home          https://kpal.readthedocs.org
 Versions      2.1.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kpal
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kpal/meta.yaml
 
 
 

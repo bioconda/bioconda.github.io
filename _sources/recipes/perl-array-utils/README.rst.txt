@@ -11,7 +11,7 @@ small utils for array manipulation
 Home          http://metacpan.org/pod/Array::Utils
 Versions      0.5
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-utils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-array-utils/meta.yaml
 
 
 

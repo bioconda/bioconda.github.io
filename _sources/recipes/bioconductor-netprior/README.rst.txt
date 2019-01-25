@@ -11,7 +11,7 @@ A model for semi\-supervised prioritisation of genes integrating network data\, 
 Home          https://bioconductor.org/packages/3.8/bioc/html/netprioR.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-netprior
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-netprior/meta.yaml
 
 
 

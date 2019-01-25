@@ -11,7 +11,7 @@ The EnrichmentBrowser package implements essential functionality for the enrichm
 Home          https://bioconductor.org/packages/3.8/bioc/html/EnrichmentBrowser.html
 Versions      2.10.11
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enrichmentbrowser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-enrichmentbrowser/meta.yaml
 
 
 

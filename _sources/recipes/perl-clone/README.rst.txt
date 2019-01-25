@@ -11,7 +11,7 @@ recursively copy Perl datatypes
 Home          http://metacpan.org/pod/Clone
 Versions      0.41, 0.39, 0.38
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-clone
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-clone/meta.yaml
 
 
 

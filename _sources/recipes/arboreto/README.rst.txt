@@ -11,7 +11,7 @@ Scalable gene regulatory network inference using tree\-based ensemble regressors
 Home          https://github.com/tmoerman/arboreto
 Versions      0.1.5
 License       BSD 3-Clause License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/arboreto
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/arboreto/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ assertions for Perl \>\= 5.14
 Home          http://metacpan.org/pod/Devel::Assert
 Versions      1.06
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-assert
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-assert/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Tools to manipulate MIME messages
 Home          http://metacpan.org/pod/MIME-tools
 Versions      5.508, 5.507
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-tools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mime-tools/meta.yaml
 
 
 

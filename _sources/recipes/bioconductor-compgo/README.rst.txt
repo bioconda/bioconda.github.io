@@ -11,7 +11,7 @@ This package contains functions to accomplish several tasks. It is able to downl
 Home          https://bioconductor.org/packages/3.8/bioc/html/CompGO.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compgo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-compgo/meta.yaml
 
 
 

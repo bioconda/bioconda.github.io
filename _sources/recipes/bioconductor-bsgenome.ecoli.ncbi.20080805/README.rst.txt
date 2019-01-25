@@ -11,7 +11,7 @@ Escherichia coli full genomes for several strains as provided by NCBI on 2008\/0
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ecoli.NCBI.20080805.html
 Versions      1.3.1000
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.ecoli.ncbi.20080805/meta.yaml
 
 
 

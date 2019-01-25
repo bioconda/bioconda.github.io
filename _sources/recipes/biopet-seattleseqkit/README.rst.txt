@@ -11,7 +11,7 @@ biopet-seattleseqkit
 Home          https://github.com/biopet/seattleseqkit
 Versions      0.2, 0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-seattleseqkit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-seattleseqkit/meta.yaml
 
 
 

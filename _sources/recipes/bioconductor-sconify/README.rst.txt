@@ -11,7 +11,7 @@ This package does k\-nearest neighbor based statistics and visualizations with f
 Home          https://bioconductor.org/packages/3.8/bioc/html/Sconify.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sconify
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sconify/meta.yaml
 
 
 

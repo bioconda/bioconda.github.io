@@ -11,7 +11,7 @@ Numeric comparisons
 Home          https://metacpan.org/pod/Number::Compare
 Versions      0.03
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-number-compare
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-number-compare/meta.yaml
 
 
 

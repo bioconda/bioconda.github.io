@@ -11,7 +11,7 @@ control superclass method dispatch
 Home          http://metacpan.org/pod/SUPER
 Versions      1.20141117
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-super
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-super/meta.yaml
 
 
 

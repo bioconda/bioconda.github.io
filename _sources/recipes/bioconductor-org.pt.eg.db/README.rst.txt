@@ -11,7 +11,7 @@ Genome wide annotation for Chimp\, primarily based on mapping using Entrez Gene 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/org.Pt.eg.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.pt.eg.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-org.pt.eg.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package contains the experimental data \(assay annotation\, siRNA annotatio
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/mitoODEdata.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mitoodedata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mitoodedata/meta.yaml
 
 
 

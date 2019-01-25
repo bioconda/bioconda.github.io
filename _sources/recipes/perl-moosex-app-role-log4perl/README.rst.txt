@@ -11,7 +11,7 @@ Add basic Log\:\:Log4perl logging to a MooseX\:\:App application as a role.
 Home          https://metacpan.org/pod/MooseX::App::Role::Log4perl
 Versions      0.03
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-app-role-log4perl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-app-role-log4perl/meta.yaml
 
 
 

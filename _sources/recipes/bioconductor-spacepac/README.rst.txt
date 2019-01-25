@@ -11,7 +11,7 @@ Identifies clustering of somatic mutations in proteins via a simulation approach
 Home          https://bioconductor.org/packages/3.8/bioc/html/SpacePAC.html
 Versions      1.18.3, 1.16.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-spacepac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-spacepac/meta.yaml
 
 
 

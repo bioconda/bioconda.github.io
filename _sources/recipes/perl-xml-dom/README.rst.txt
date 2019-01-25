@@ -11,7 +11,7 @@ A perl module for building DOM Level 1 compliant document structures
 Home          http://metacpan.org/pod/XML-DOM
 Versions      1.46, 1.45
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-dom
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-dom/meta.yaml
 
 
 

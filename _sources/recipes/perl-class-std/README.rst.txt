@@ -11,7 +11,7 @@ Support for creating standard \"inside\-out\" classes
 Home          http://metacpan.org/pod/Class-Std
 Versions      0.013
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-std
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-std/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name Ecoli\_ASv2
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ecoli.asv2.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ecoli.asv2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.ecoli.asv2/meta.yaml
 
 
 

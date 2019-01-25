@@ -11,7 +11,7 @@ The skewr package is a tool for visualizing the output of the Illumina Human Met
 Home          https://bioconductor.org/packages/3.8/bioc/html/skewr.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-skewr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-skewr/meta.yaml
 
 
 

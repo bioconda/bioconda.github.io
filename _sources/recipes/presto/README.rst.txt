@@ -11,7 +11,7 @@ A bioinformatics toolkit for processing high\-throughput lymphocyte receptor seq
 Home          http://presto.readthedocs.io
 Versions      0.5.10, 0.5.4
 License       Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/presto
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/presto/meta.yaml
 
 
 

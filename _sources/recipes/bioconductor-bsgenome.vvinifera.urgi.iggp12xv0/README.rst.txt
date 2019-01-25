@@ -11,7 +11,7 @@ Full reference nuclear genome sequences for Vitis vinifera subsp. vinifera PN400
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Vvinifera.URGI.IGGP12Xv0.html
 Versions      
 License       CC0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.vvinifera.urgi.iggp12xv0/meta.yaml
 
 
 

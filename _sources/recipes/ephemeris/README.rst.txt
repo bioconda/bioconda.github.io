@@ -11,7 +11,7 @@ Ephemeris is an opinionated library and set of scripts for managing the bootstra
 Home          https://github.com/galaxyproject/ephemeris
 Versions      0.8.0
 License       Academic Free License (AFL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ephemeris
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ephemeris/meta.yaml
 
 
 

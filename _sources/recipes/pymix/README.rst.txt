@@ -11,7 +11,7 @@ Python mixture package
 Home          http://www.pymix.org/pymix
 Versions      0.8
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pymix/meta.yaml
 
 
 

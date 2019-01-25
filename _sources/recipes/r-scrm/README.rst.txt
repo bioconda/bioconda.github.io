@@ -11,7 +11,7 @@ A coalescent simulator that allows the rapid simulation of biological sequences 
 Home          https://github.com/scrm/scrm-r
 Versions      1.7.2_4, 1.7.2_0, 1.6.0_2
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-scrm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-scrm/meta.yaml
 
 
 

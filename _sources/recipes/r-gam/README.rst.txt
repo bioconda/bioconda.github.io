@@ -11,7 +11,7 @@ Functions for fitting and working with generalized additive models\, as describe
 Home          https://CRAN.R-project.org/package=gam
 Versions      1.14_4, 1.14
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gam
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gam/meta.yaml
 
 
 

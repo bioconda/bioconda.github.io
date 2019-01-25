@@ -11,7 +11,7 @@ An implementation of extensions to Freund and Schapire\'s AdaBoost  algorithm an
 Home          https://github.com/gbm-developers/gbm
 Versions      2.1.3, 2.1.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gbm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gbm/meta.yaml
 
 
 

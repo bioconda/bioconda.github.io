@@ -11,7 +11,7 @@ Abundance\-based tool for binning metagenomic sequences
 Home          http://omics.informatics.indiana.edu/AbundanceBin/
 Versions      1.0.1
 License       copyright
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/abundancebin
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/abundancebin/meta.yaml
 
 
 

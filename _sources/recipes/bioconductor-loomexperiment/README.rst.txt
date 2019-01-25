@@ -11,7 +11,7 @@ The LoomExperiment class provide a means to easily convert Bioconductor\'s \"Exp
 Home          https://bioconductor.org/packages/3.8/bioc/html/LoomExperiment.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-loomexperiment
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-loomexperiment/meta.yaml
 
 
 

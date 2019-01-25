@@ -11,7 +11,7 @@ A collection of tools for performing category \(gene set enrichment\) analysis.
 Home          https://bioconductor.org/packages/3.8/bioc/html/Category.html
 Versions      2.46.0, 2.44.0, 2.42.1, 2.38.0, 2.36.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-category
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-category/meta.yaml
 
 
 

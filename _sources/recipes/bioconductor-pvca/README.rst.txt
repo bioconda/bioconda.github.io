@@ -11,7 +11,7 @@ This package contains the function to assess the batch sourcs by fitting all \"s
 Home          https://bioconductor.org/packages/3.8/bioc/html/pvca.html
 Versions      1.20.0, 1.18.0
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pvca
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pvca/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ pIRS is a program for simulating Illumina PE reads.
 Home          https://github.com/galaxy001/pirs
 Versions      2.0.2
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pirs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pirs/meta.yaml
 
 
 

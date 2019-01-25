@@ -11,7 +11,7 @@ This is a non\-parametric method for joint adaptive mean\-variance regularizatio
 Home          https://github.com/jedazard/MVR
 Versions      1.33.0
 License       GPL (>= 3) | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mvr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mvr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A fairly extensive and comprehensive interface to the graph algorithms contained
 Home          https://bioconductor.org/packages/3.8/bioc/html/RBGL.html
 Versions      1.56.0, 1.54.0, 1.52.0, 1.48.1, 1.46.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rbgl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rbgl/meta.yaml
 
 
 

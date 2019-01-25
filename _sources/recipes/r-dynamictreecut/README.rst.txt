@@ -11,7 +11,7 @@ Contains methods for detection of clusters in hierarchical clustering dendrogram
 Home          http://www.genetics.ucla.edu/labs/horvath/CoexpressionNetwork/BranchCutting/
 Versions      1.63_1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-dynamictreecut
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-dynamictreecut/meta.yaml
 
 
 

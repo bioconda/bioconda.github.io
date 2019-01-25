@@ -11,7 +11,7 @@ A Python library for phylogenetics and phylogenetic computing\: reading\, writin
 Home          http://packages.python.org/DendroPy/
 Versions      4.4.0, 4.2.0, 4.1.0, 4.0.3, 3.12.3
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dendropy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dendropy/meta.yaml
 
 
 

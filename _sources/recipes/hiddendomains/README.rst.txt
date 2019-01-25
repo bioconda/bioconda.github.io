@@ -11,7 +11,7 @@ hiddenDomains is a suite of programs used to identify significant enrichment of 
 Home          http://hiddendomains.sourceforge.net/
 Versions      3.0
 License       GNU GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hiddendomains
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hiddendomains/meta.yaml
 
 
 

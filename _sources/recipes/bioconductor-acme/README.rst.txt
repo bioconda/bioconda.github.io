@@ -11,7 +11,7 @@ ACME \(Algorithms for Calculating Microarray Enrichment\) is a set of tools for 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ACME.html
 Versions      2.36.0, 2.34.0, 2.32.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-acme
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-acme/meta.yaml
 
 
 

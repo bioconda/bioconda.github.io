@@ -15,7 +15,7 @@ PeptideShaker attempts to give you the best possible understanding of your prote
 Home          https://github.com/compomics/peptide-shaker
 Versions      1.16.36, 1.16.35, 1.16.32, 1.16.31, 1.16.30, 1.16.29, 1.16.26, 1.16.23, 1.16.22, 1.16.20, 1.16.17, 1.16.16, 1.16.15, 1.16.14, 1.16.13, 1.16.4, 1.16.3, 1.16.0, 1.15.1, 1.15.0, 1.14.6, 1.14.4, 1.13.6, 1.13.3, 1.11.0, 1.1.3
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/peptide-shaker/meta.yaml
 
 
 

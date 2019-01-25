@@ -11,7 +11,7 @@ assembly\-assisted tool for un\-supervised metagenomic binning
 Home          https://bitbucket.org/samu661/metaprob/
 Versions      2
 License       copyright
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaprob
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaprob/meta.yaml
 
 
 

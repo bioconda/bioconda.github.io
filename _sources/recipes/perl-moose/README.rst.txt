@@ -11,7 +11,7 @@ A postmodern object system for Perl 5
 Home          http://moose.perl.org/
 Versions      2.2011, 2.2009, 2.1804
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moose
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moose/meta.yaml
 
 
 

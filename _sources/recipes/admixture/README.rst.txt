@@ -11,7 +11,7 @@ ADMIXTURE is a software tool for maximum likelihood estimation of individual anc
 Home          http://www.genetics.ucla.edu/software/admixture/index.html
 Versions      1.3.0
 License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixture
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/admixture/meta.yaml
 
 
 

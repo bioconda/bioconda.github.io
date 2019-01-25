@@ -11,7 +11,7 @@ Analyze mass spectra
 Home          https://github.com/mhoopmann/hardklor
 Versions      2.3.0
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hardklor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hardklor/meta.yaml
 
 
 

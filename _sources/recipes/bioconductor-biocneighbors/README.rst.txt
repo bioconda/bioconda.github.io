@@ -11,7 +11,7 @@ Implements exact and approximate methods for nearest neighbor detection\, in a f
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocNeighbors.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biocneighbors
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biocneighbors/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Affymetrix Yeast Genome 2.0 Array annotation data \(chip yeast2\) assembled usin
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/yeast2.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yeast2.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-yeast2.db/meta.yaml
 
 
 

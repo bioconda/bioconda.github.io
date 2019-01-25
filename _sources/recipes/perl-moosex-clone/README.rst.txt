@@ -11,7 +11,7 @@ Fine\-grained cloning support for Moose objects.
 Home          https://github.com/moose/MooseX-Clone
 Versions      0.06
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-clone/0.06
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-clone/0.06/meta.yaml
 
 
 

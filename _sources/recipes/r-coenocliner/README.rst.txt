@@ -11,7 +11,7 @@ Simulate species occurrence and abundances \(counts\) along gradients.
 Home          https://github.com/gavinsimpson/coenocliner/
 Versions      0.2_2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coenocliner
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-coenocliner/meta.yaml
 
 
 

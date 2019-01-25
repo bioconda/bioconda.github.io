@@ -11,7 +11,7 @@ This package performs Random Walk with Restart on multiplex and heterogeneous ne
 Home          https://bioconductor.org/packages/3.8/bioc/html/RandomWalkRestartMH.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-randomwalkrestartmh
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-randomwalkrestartmh/meta.yaml
 
 
 

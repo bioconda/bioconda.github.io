@@ -11,7 +11,7 @@ CNVetti is a CNV caller from HTS data.
 Home          https://github.com/bihealth/cnvetti
 Versions      0.2.0, 0.1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cnvetti
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cnvetti/meta.yaml
 
 
 

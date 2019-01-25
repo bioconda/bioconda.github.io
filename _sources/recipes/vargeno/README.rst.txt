@@ -11,7 +11,7 @@ Fast SNP genotyping tool for whole genome sequence data and large SNP database.
 Home          https://github.com/medvedevgroup/vargeno
 Versions      1.0.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vargeno
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vargeno/meta.yaml
 
 
 

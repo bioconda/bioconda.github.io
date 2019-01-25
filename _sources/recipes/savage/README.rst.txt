@@ -11,7 +11,7 @@ SAVAGE \(Strain Aware VirAl GEnome assembly\) reconstructs individual \(viral\) 
 Home          https://bitbucket.org/jbaaijens/savage
 Versions      0.4.0, 0.3.0, 0.2.1
 License       GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/savage
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/savage/meta.yaml
 
 
 

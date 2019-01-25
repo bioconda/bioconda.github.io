@@ -11,7 +11,7 @@ This tool exploits the RNAcentral public APIs to automatically retrieve sequence
 Home          https://github.com/fabio-cumbo/RNAcentral-data-retrieval-tool
 Versions      1.0.0
 License       BSD 2-Clause License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-rnacentral
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-rnacentral/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ REad ALigner for Next\-Generation sequencing reads.
 Home          https://nms.kcl.ac.uk/informatics/projects/real/?id=man
 Versions      1.0
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/real
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/real/meta.yaml
 
 
 

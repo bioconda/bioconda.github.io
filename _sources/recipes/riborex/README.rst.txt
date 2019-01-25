@@ -11,7 +11,7 @@ Riborex is a R package for identification of differential translation from Ribo\
 Home          https://github.com/smithlabcode/riborex
 Versions      2.3.4
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riborex
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/riborex/meta.yaml
 
 
 

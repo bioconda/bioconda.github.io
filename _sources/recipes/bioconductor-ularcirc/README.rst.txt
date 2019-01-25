@@ -11,7 +11,7 @@ Ularcirc reads in STAR aligned splice junction files and provides visualisation 
 Home          https://bioconductor.org/packages/3.8/bioc/html/Ularcirc.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ularcirc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ularcirc/meta.yaml
 
 
 

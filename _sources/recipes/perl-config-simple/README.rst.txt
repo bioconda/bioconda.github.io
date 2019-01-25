@@ -11,7 +11,7 @@ simple configuration file class
 Home          http://metacpan.org/pod/Config::Simple
 Versions      4.58
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-simple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-config-simple/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The aim of vidger is to rapidly generate information\-rich visualizations for th
 Home          https://bioconductor.org/packages/3.8/bioc/html/vidger.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vidger
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-vidger/meta.yaml
 
 
 

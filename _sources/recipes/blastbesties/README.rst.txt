@@ -11,7 +11,7 @@ Rapid discovery of reciprocal best blast pairs from BLAST output files.
 Home          https://github.com/Adamtaranto/blast-besties
 Versions      1.1.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blastbesties
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blastbesties/meta.yaml
 
 
 

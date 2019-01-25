@@ -11,7 +11,7 @@ M\-Vicuna is a modularized version of VICUNA\, a de novo assembly program target
 Home          https://www.broadinstitute.org/scientific-community/science/projects/viral-genomics/vicuna
 Versions      1.0
 License       https://www.broadinstitute.org/node/4238
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mvicuna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mvicuna/meta.yaml
 
 
 

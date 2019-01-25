@@ -11,7 +11,7 @@ Mustang is a program that implements an algorithm for structural alignment of mu
 Home          http://lcb.infotech.monash.edu.au/mustang/
 Versions      3.2.3
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mustang
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mustang/meta.yaml
 
 
 

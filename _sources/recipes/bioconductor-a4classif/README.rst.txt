@@ -11,7 +11,7 @@ Automated Affymetrix Array Analysis Classification Package
 Home          https://bioconductor.org/packages/3.8/bioc/html/a4Classif.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-a4classif
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-a4classif/meta.yaml
 
 
 

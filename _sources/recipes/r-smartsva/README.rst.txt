@@ -11,7 +11,7 @@ Introduces a fast and efficient Surrogate Variable Analysis algorithm that captu
 Home          https://CRAN.R-project.org/package=SmartSVA
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-smartsva
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-smartsva/meta.yaml
 
 
 

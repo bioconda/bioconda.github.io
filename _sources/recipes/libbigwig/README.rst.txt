@@ -11,7 +11,7 @@ A C library for handling bigWig files
 Home          https://github.com/dpryan79/libBigWig
 Versions      0.4.2, 0.4.1, 0.3.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbigwig
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libbigwig/meta.yaml
 
 
 

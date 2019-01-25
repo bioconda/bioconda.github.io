@@ -11,7 +11,7 @@ RNA degradation is monitored through measurement of RNA abundance after inhibiti
 Home          https://bioconductor.org/packages/3.8/bioc/html/RNAdecay.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnadecay
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnadecay/meta.yaml
 
 
 

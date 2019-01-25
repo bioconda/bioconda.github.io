@@ -11,7 +11,7 @@ Light\-weight Python Computational Pipeline Management
 Home          http://www.ruffus.org.uk/
 Versions      2.8.1, 2.8, 2.7, 2.6.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ruffus
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ruffus/meta.yaml
 
 
 

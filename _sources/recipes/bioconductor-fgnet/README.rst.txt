@@ -11,7 +11,7 @@ Build and visualize functional gene and term networks from clustering of enrichm
 Home          https://bioconductor.org/packages/3.8/bioc/html/FGNet.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fgnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fgnet/meta.yaml
 
 
 

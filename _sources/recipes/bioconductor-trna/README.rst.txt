@@ -11,7 +11,7 @@ The tRNA package allows tRNA sequences and structures to be accessed and used fo
 Home          https://bioconductor.org/packages/3.8/bioc/html/tRNA.html
 Versions      
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-trna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-trna/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Metagenomic sequencing techniques enable quantitative analyses of the microbiome
 Home          https://bioconductor.org/packages/3.8/bioc/html/BDMMAcorrect.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bdmmacorrect
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bdmmacorrect/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ FunciSNP integrates information from GWAS\, 1000genomes and chromatin feature to
 Home          https://bioconductor.org/packages/3.8/bioc/html/FunciSNP.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-funcisnp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-funcisnp/meta.yaml
 
 
 

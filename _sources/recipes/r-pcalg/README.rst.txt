@@ -11,7 +11,7 @@ Functions for causal structure learning and causal inference using graphical mod
 Home          http://pcalg.r-forge.r-project.org/
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pcalg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pcalg/meta.yaml
 
 
 

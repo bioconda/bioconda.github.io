@@ -11,7 +11,7 @@ An R wrapper for \'libnabo\'\, an exact or approximate k nearest neighbour libra
 Home          https://CRAN.R-project.org/package=nabor
 Versions      0.5.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nabor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-nabor/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Model based clustering and meta\-clustering of Flow Cytometry Data
 Home          https://bioconductor.org/packages/3.8/bioc/html/immunoClust.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-immunoclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-immunoclust/meta.yaml
 
 
 

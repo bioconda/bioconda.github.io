@@ -11,7 +11,7 @@ Ribo TIS Hunter \(Ribo\-TISH\) identifies translation activities using ribosome 
 Home          https://github.com/zhpn1024/ribotish
 Versions      0.2.1, 0.2.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribotish
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ribotish/meta.yaml
 
 
 

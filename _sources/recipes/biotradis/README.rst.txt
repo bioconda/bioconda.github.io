@@ -11,7 +11,7 @@ A set of tools to analyse the output from TraDIS analyses
 Home          https://github.com/sanger-pathogens/Bio-Tradis
 Versions      1.4.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biotradis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biotradis/meta.yaml
 
 
 

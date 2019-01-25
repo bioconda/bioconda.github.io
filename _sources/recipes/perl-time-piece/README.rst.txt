@@ -11,7 +11,7 @@ Object Oriented time objects
 Home          http://metacpan.org/pod/Time::Piece
 Versions      1.27
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-time-piece/1.27
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-time-piece/1.27/meta.yaml
 
 
 

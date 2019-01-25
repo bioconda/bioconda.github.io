@@ -11,7 +11,7 @@ Modules for parsing\/translating POD format documents
 Home          http://metacpan.org/pod/Pod::Parser
 Versions      1.63
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-parser/1.63
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-parser/1.63/meta.yaml
 
 
 

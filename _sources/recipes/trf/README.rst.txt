@@ -11,7 +11,7 @@ Tandem Repeats Finder is a program to locate and display tandem repeats in DNA s
 Home          https://tandem.bu.edu/trf/trf.html
 Versions      4.09, 4.07b
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/trf/meta.yaml
 
 
 

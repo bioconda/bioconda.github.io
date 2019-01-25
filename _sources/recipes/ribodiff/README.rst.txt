@@ -11,7 +11,7 @@ RiboDiff is a statistical tool that detects the protein translational efficiency
 Home          http://public.bmi.inf.ethz.ch/user/zhongy/RiboDiff/index.html
 Versions      0.2.2
 License       GPL 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribodiff
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ribodiff/meta.yaml
 
 
 

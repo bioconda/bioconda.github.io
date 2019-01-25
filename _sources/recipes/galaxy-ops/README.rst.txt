@@ -11,7 +11,7 @@ Galaxy interval operations
 Home          https://github.com/galaxyproject/gops
 Versions      1.1.0, 1.0.0
 License       Academic Free License version 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/galaxy-ops
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/galaxy-ops/meta.yaml
 
 
 

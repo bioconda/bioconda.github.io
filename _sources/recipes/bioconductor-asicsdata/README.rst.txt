@@ -11,7 +11,7 @@ bioconductor-asicsdata
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ASICSdata.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-asicsdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-asicsdata/meta.yaml
 
 
 

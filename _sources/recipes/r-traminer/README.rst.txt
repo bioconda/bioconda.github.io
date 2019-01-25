@@ -11,7 +11,7 @@ Toolbox for the manipulation\, description and rendering of sequences\, and more
 Home          http://traminer.unige.ch
 Versions      2.0_9, 2.0_8
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-traminer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-traminer/meta.yaml
 
 
 

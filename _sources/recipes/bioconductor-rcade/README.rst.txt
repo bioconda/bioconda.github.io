@@ -11,7 +11,7 @@ Rcade \(which stands for \"R\-based analysis of ChIP\-seq And Differential Expre
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rcade.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcade
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rcade/meta.yaml
 
 
 

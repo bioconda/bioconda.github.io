@@ -11,7 +11,7 @@ Simple distributed computing.
 Home          https://github.com/cjw85/myriad
 Versions      0.1.4, 0.1.3
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/myriad
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/myriad/meta.yaml
 
 
 

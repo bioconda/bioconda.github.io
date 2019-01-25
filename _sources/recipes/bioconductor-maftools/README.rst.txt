@@ -11,7 +11,7 @@ Analyze and visualize Mutation Annotation Format \(MAF\) files from large scale 
 Home          https://bioconductor.org/packages/3.8/bioc/html/maftools.html
 Versions      1.6.15, 1.4.27
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-maftools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-maftools/meta.yaml
 
 
 

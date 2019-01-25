@@ -15,7 +15,7 @@ SNVer runs very fast\, making it feasible for analysis of whole\-exome sequencin
 Home          http://snver.sourceforge.net/
 Versions      0.5.3
 License       GNU General Public License version 3.0 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snver
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snver/meta.yaml
 
 
 

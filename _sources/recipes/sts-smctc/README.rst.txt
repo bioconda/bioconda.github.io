@@ -11,7 +11,7 @@ A C\+\+ template class library for the efficient and convenient implementation o
 Home          https://github.com/matsengrp/smctc
 Versions      1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sts-smctc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sts-smctc/meta.yaml
 
 
 

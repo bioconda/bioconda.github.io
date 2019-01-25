@@ -11,7 +11,7 @@ load subroutines only on demand
 Home          http://metacpan.org/pod/AutoLoader
 Versions      5.74
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-autoloader/5.74
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-autoloader/5.74/meta.yaml
 
 
 

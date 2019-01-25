@@ -11,7 +11,7 @@ Workflow editor for metagenomic analysis
 Home          http://pypi.python.org/pypi/SamSifter/
 Versions      1.0.0
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samsifter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/samsifter/meta.yaml
 
 
 

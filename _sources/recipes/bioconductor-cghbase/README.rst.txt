@@ -11,7 +11,7 @@ Contains functions and classes that are needed by arrayCGH packages.
 Home          https://bioconductor.org/packages/3.8/bioc/html/CGHbase.html
 Versions      1.40.0, 1.38.0, 1.36.0, 1.32.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghbase
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cghbase/meta.yaml
 
 
 

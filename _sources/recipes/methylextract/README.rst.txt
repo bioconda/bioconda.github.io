@@ -11,7 +11,7 @@ High\-Quality methylation maps and SNV calling from whole genome bisulfite seque
 Home          http://bioinfo2.ugr.es/MethylExtract/
 Versions      1.9.1
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/methylextract
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/methylextract/meta.yaml
 
 
 

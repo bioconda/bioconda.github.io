@@ -11,7 +11,7 @@ Agilent \"Human Genome\, Whole\" annotation data \(chip hgug4112a\) assembled us
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgug4112a.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgug4112a.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hgug4112a.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ ctat\-metagenomics uses centrifuge
 Home          https://github.com/NCIP/ctat-metagenomics
 Versions      1.0.1
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-metagenomics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ctat-metagenomics/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Computes functional rarity indices as proposed by Violle et al. \(2017\) \<doi\:
 Home          https://github.com/Rekyt/funrar
 Versions      1.2.2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-funrar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-funrar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The ddPCRclust algorithm can automatically quantify the CPDs of non\-orthogonal 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ddPCRclust.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ddpcrclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ddpcrclust/meta.yaml
 
 
 

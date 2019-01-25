@@ -11,7 +11,7 @@ COPA is a method to find genes that undergo recurrent fusion in a given cancer t
 Home          https://bioconductor.org/packages/3.8/bioc/html/copa.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-copa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-copa/meta.yaml
 
 
 

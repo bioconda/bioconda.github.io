@@ -11,7 +11,7 @@ Genomic data for the plant pathogen \"Phytophthora infestans.\" It includes a va
 Home          https://CRAN.R-project.org/package=pinfsc50
 Versions      1.1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pinfsc50
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pinfsc50/meta.yaml
 
 
 

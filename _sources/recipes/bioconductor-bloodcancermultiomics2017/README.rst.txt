@@ -11,7 +11,7 @@ The package contains data of the Primary Blood Cancer Encyclopedia \(PACE\) proj
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/BloodCancerMultiOmics2017.html
 Versions      
 License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bloodcancermultiomics2017
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bloodcancermultiomics2017/meta.yaml
 
 
 

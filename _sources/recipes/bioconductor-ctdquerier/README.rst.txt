@@ -11,7 +11,7 @@ Package to retrieve and visualize data from the Comparative Toxicogenomics Datab
 Home          https://bioconductor.org/packages/3.8/bioc/html/CTDquerier.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ctdquerier
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ctdquerier/meta.yaml
 
 
 

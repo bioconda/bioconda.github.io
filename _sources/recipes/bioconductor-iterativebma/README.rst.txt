@@ -11,7 +11,7 @@ The iterative Bayesian Model Averaging \(BMA\) algorithm is a variable selection
 Home          https://bioconductor.org/packages/3.8/bioc/html/iterativeBMA.html
 Versions      1.38.0, 1.36.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iterativebma
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-iterativebma/meta.yaml
 
 
 

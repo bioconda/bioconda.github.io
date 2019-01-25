@@ -11,7 +11,7 @@ Probabilistic inference of ChIP\-Seq using an empirical Bayes mixture model appr
 Home          https://bioconductor.org/packages/3.8/bioc/html/PICS.html
 Versions      2.24.0, 2.22.0, 2.20.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pics/meta.yaml
 
 
 

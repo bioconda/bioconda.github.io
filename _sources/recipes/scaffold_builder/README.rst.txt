@@ -11,7 +11,7 @@ Scaffold\_builder\: Combining de novo and reference\-guided assembly with Scaffo
 Home          http://edwards.sdsu.edu/scaffold_builder
 Versions      2.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scaffold_builder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scaffold_builder/meta.yaml
 
 
 Development   https://github.com/metageni/Scaffold_builder

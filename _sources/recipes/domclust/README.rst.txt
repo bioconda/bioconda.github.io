@@ -11,7 +11,7 @@ Effective tool for orthologous grouping in multiple genomes
 Home          http://mbgd.genome.ad.jp/domclust/
 Versions      1.2.8a, 1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/domclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/domclust/meta.yaml
 
 
 

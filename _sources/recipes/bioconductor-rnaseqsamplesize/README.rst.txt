@@ -11,7 +11,7 @@ RnaSeqSampleSize package provides a sample size calculation method based on nega
 Home          https://bioconductor.org/packages/3.8/bioc/html/RnaSeqSampleSize.html
 Versions      1.12.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqsamplesize
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnaseqsamplesize/meta.yaml
 
 
 

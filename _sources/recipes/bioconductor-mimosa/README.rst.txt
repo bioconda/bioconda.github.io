@@ -11,7 +11,7 @@ Modeling count data using Dirichlet\-multinomial and beta\-binomial mixtures wit
 Home          https://bioconductor.org/packages/3.8/bioc/html/MIMOSA.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mimosa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mimosa/meta.yaml
 
 
 

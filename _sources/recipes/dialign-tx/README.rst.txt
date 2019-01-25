@@ -11,7 +11,7 @@ DIALIGN\-TX is a greedy and progressive approaches for segment\-based multiple s
 Home          https://dialign-tx.gobics.de
 Versions      1.0.2
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign-tx
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dialign-tx/meta.yaml
 
 
 

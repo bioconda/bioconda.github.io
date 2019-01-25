@@ -11,7 +11,7 @@ CRImage provides functionality to process and analyze images\, in particular to 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CRImage.html
 Versions      1.28.0, 1.26.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crimage
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-crimage/meta.yaml
 
 
 

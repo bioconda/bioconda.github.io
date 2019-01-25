@@ -11,7 +11,7 @@ Fast\, compact\, powerful binary serialization
 Home          http://metacpan.org/pod/Sereal::Encoder
 Versions      4.005, 3.015
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sereal-encoder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sereal-encoder/meta.yaml
 
 
 

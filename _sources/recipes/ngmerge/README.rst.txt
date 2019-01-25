@@ -11,7 +11,7 @@ Merging paired\-end reads and removing sequencing adapters.
 Home          https://github.com/harvardinformatics/NGmerge
 Versions      0.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngmerge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ngmerge/meta.yaml
 
 
 

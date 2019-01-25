@@ -11,7 +11,7 @@ Predicts branchpoint probability for sites in intronic branchpoint windows. Quer
 Home          https://bioconductor.org/packages/3.8/bioc/html/branchpointer.html
 Versions      
 License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-branchpointer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-branchpointer/meta.yaml
 
 
 

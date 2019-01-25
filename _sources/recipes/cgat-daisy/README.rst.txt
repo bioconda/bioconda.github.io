@@ -11,7 +11,7 @@ A system to design and execute benchmarks
 Home          https://github.com/cgat-developers/cgat-daisy
 Versions      0.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgat-daisy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cgat-daisy/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MetaVelvet\-SL \: An extension of Velvet assembler to de novo metagenomic assemb
 Home          http://metavelvet.dna.bio.keio.ac.jp/MSL.html
 Versions      1.0
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metavelvet-sl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metavelvet-sl/meta.yaml
 
 
 

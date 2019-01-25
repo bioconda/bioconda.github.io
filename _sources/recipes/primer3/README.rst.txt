@@ -11,7 +11,7 @@ Design PCR primers from DNA sequence. From mispriming libraries to sequence qual
 Home          https://github.com/primer3-org/primer3
 Versions      2.4.1a, 2.4.0, 2.3.7, 2.0.0a, 1.1.4
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/primer3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/primer3/meta.yaml
 
 
 

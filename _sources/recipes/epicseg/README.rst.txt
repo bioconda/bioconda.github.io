@@ -11,7 +11,7 @@ EpiCSeg \(Epigenome Count\-based Segmentation\) is a software for annotating the
 Home          http://github.com/lamortenera/epicseg
 Versions      1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epicseg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/epicseg/meta.yaml
 
 
 

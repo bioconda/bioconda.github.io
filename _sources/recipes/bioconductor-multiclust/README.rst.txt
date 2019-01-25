@@ -11,7 +11,7 @@ Clustering is carried out to identify patterns in transcriptomics profiles to de
 Home          https://bioconductor.org/packages/3.8/bioc/html/multiClust.html
 Versions      1.10.0, 1.8.2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-multiclust/meta.yaml
 
 
 

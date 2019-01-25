@@ -11,7 +11,7 @@ Rphylip provides an R interface for the PHYLIP package. All users of Rphylip wil
 Home          http://www.phytools.org/Rphylip
 Versions      0.1_23
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rphylip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rphylip/meta.yaml
 
 
 

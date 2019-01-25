@@ -11,7 +11,7 @@ Divides a large FASTA file into a set of smaller\, approximately equally sized f
 Home          http://kirill-kryukov.com/study/tools/fasta-splitter/
 Versions      0.2.4
 License       zlib/libpng
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta-splitter/0.2.4
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fasta-splitter/0.2.4/meta.yaml
 
 
 

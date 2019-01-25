@@ -11,7 +11,7 @@ A robust model for quantitative comparison of ChIP\-Seq data sets.
 Home          https://github.com/shao-lab/MAnorm
 Versions      1.1.4, 1.1.3, 1.1.2, 1.1.1, 1.1
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manorm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/manorm/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ colorectal cancer mRNA and miRNA on 18 cell lines
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CRCL18.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-crcl18
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-crcl18/meta.yaml
 
 
 

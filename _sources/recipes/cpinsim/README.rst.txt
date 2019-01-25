@@ -13,7 +13,7 @@ protein interaction networks.
 Home          https://github.com/BiancaStoecker/cpinsim
 Versions      0.5.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpinsim
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cpinsim/meta.yaml
 
 
 

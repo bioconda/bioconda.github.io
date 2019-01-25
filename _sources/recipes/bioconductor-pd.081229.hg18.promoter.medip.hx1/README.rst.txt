@@ -11,7 +11,7 @@ Platform Design Info for NimbleGen 081229\_hg18\_promoter\_medip\_hx1
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.081229.hg18.promoter.medip.hx1.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.081229.hg18.promoter.medip.hx1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.081229.hg18.promoter.medip.hx1/meta.yaml
 
 
 

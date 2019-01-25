@@ -11,7 +11,7 @@ Functions necessary to perform Weighted Correlation Network Analysis on high\-di
 Home          http://horvath.genetics.ucla.edu/html/CoexpressionNetwork/Rpackages/WGCNA/
 Versions      1.66, 1.64_1, 1.61, 1.51
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wgcna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-wgcna/meta.yaml
 
 
 

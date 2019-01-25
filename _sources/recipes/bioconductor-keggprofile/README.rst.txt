@@ -11,7 +11,7 @@ KEGGprofile is an annotation and visualization tool which integrated the express
 Home          https://bioconductor.org/packages/3.8/bioc/html/KEGGprofile.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggprofile
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-keggprofile/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Functions for fitting continuous\-time Markov and hidden Markov multi\-state mod
 Home          https://github.com/chjackson/msm
 Versions      1.6.6
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-msm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-msm/meta.yaml
 
 
 

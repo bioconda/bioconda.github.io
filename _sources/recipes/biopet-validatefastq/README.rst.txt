@@ -11,7 +11,7 @@ This tool validates a FASTQ file.
 Home          https://github.com/biopet/validatefastq
 Versions      0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validatefastq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-validatefastq/meta.yaml
 
 
 

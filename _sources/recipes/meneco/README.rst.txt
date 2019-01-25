@@ -11,7 +11,7 @@ Metabolic Network Completion. Compute minimal completions to your draft network 
 Home          http://bioasp.github.io/meneco/
 Versions      1.5.2
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/meneco/1.5.2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/meneco/1.5.2/meta.yaml
 
 
 

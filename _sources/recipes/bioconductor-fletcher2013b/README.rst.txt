@@ -11,7 +11,7 @@ This package reproduces the systems biology analysis for the data in package Fle
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Fletcher2013b.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fletcher2013b
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fletcher2013b/meta.yaml
 
 
 

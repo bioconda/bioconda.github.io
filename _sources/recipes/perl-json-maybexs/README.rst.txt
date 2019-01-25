@@ -11,7 +11,7 @@ Use Cpanel\:\:JSON\:\:XS with a fallback to JSON\:\:XS and JSON\:\:PP
 Home          http://metacpan.org/pod/JSON::MaybeXS
 Versions      1.004000, 1.003008
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-json-maybexs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-json-maybexs/meta.yaml
 
 
 

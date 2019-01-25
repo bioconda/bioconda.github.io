@@ -11,7 +11,7 @@ extract the unique elements of a list
 Home          http://metacpan.org/pod/List::Uniq
 Versions      0.20
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-uniq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-list-uniq/meta.yaml
 
 
 

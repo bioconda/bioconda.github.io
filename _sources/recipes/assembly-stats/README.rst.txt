@@ -11,7 +11,7 @@ Get assembly statistics from FASTA and FASTQ files
 Home          https://github.com/sanger-pathogens/assembly-stats
 Versions      1.0.1, 1.0.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-stats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/assembly-stats/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Extracting Features from Biological Sequences and Building Classification Model
 Home          https://bioconductor.org/packages/3.8/bioc/html/BioSeqClass.html
 Versions      
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bioseqclass
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bioseqclass/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Looking up module information \/ loading at runtime
 Home          http://metacpan.org/pod/Module::Load::Conditional
 Versions      0.68, 0.62
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-load-conditional/0.62
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-load-conditional/0.62/meta.yaml
 
 
 

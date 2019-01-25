@@ -11,7 +11,7 @@ RTNduals is a tool that searches for possible co\-regulatory loops between regul
 Home          https://bioconductor.org/packages/3.8/bioc/html/RTNduals.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtnduals
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtnduals/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ mawk is an interpreter for the AWK Programming Language.
 Home          http://invisible-island.net/mawk/
 Versions      1.3.4
 License       Copyright (c) 2009-2014,2015 by Thomas E. Dickey
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mawk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mawk/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ scan an input genomic sequence \(dna\/rna\/protein\) and search for a subsequenc
 Home          https://github.com/osallou/cassiopee-c
 Versions      1.0.5
 License       GPL-3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cassiopee
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cassiopee/meta.yaml
 
 
 

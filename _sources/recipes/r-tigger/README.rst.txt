@@ -11,7 +11,7 @@ Infers the V genotype of an individual from immunoglobulin \(Ig\) repertoire seq
 Home          http://tigger.readthedocs.io
 Versions      0.3.1
 License       CC BY-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-tigger
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-tigger/meta.yaml
 
 
 

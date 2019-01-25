@@ -11,7 +11,7 @@ BASIL is a method to detect breakpoints for structural variants \(including inse
 Home          https://github.com/seqan/anise_basil
 Versions      1.2.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/anise_basil
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/anise_basil/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Glimmer is a system for finding genes in microbial DNA
 Home          https://ccb.jhu.edu/software/glimmer/index.shtml
 Versions      3.02
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/glimmer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/glimmer/meta.yaml
 
 
 

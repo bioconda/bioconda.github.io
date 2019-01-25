@@ -11,7 +11,7 @@ Smart VCF parser
 Home          https://github.com/pjotrp/bioruby-vcf
 Versions      0.9.2, 0.9.1, 0.9.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bio-vcf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bio-vcf/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package containing an environment representing the Canine\_2.cdf file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/canine2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-canine2cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-canine2cdf/meta.yaml
 
 
 

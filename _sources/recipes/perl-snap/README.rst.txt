@@ -11,7 +11,7 @@ SNAP calculates pairwise synonymous and nonsynonymous distances according to the
 Home          https://www.hiv.lanl.gov/content/sequence/SNAP/SNAP.html
 Versions      2.1.1
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-snap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-snap/meta.yaml
 
 
 

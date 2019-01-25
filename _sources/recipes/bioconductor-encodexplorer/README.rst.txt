@@ -11,7 +11,7 @@ This package allows user to quickly access ENCODE project files metadata and giv
 Home          https://bioconductor.org/packages/3.8/bioc/html/ENCODExplorer.html
 Versions      2.6.0, 2.4.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-encodexplorer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-encodexplorer/meta.yaml
 
 
 

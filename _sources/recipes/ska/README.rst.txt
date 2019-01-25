@@ -11,7 +11,7 @@ SKA \(Split Kmer Analysis\)
 Home          https://github.com/simonrharris/SKA
 Versions      1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ska
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ska/meta.yaml
 
 
 

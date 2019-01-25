@@ -11,7 +11,7 @@ Contains a set of functions to perform large\-scale analysis of pharmacogenomic 
 Home          https://bioconductor.org/packages/3.8/bioc/html/PharmacoGx.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pharmacogx
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pharmacogx/meta.yaml
 
 
 

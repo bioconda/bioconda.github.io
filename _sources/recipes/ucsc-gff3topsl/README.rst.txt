@@ -11,7 +11,7 @@ convert a GFF3 CIGAR file to a PSL file
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-gff3topsl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-gff3topsl/meta.yaml
 
 
 

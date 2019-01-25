@@ -11,7 +11,7 @@ Functions for plotting genomic data
 Home          https://bioconductor.org/packages/3.8/bioc/html/geneplotter.html
 Versions      1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0, 1.46.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneplotter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneplotter/meta.yaml
 
 
 

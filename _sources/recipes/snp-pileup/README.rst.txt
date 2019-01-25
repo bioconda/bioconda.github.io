@@ -11,7 +11,7 @@ Compute SNP pileup at reference positions in one or more input bam files. Output
 Home          https://github.com/mskcc/facets
 Versions      0.5.14, v0.5.14
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snp-pileup
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snp-pileup/meta.yaml
 
 
 

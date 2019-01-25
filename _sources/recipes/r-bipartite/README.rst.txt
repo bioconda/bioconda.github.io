@@ -11,7 +11,7 @@ Functions to visualise webs and calculate a series of indices commonly used to d
 Home          https://github.com/biometry/bipartite
 Versions      2.11
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-bipartite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-bipartite/meta.yaml
 
 
 

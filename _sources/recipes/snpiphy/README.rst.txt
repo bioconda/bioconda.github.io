@@ -11,7 +11,7 @@ An automated snp phylogeny pipeline
 Home          https://github.com/bogemad/snpiphy
 Versions      0.3, 0.2, 0.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snpiphy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snpiphy/meta.yaml
 
 
 

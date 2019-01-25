@@ -11,7 +11,7 @@ Alternative interface to File\:\:Find
 Home          http://metacpan.org/pod/File::Find::Rule
 Versions      0.34
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-find-rule
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-find-rule/meta.yaml
 
 
 

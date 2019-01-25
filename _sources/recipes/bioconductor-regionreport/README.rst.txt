@@ -11,7 +11,7 @@ Generate HTML or PDF reports to explore a set of regions such as the results fro
 Home          https://bioconductor.org/packages/3.8/bioc/html/regionReport.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regionreport
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-regionreport/meta.yaml
 
 
 

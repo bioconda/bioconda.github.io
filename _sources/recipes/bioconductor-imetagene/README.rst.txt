@@ -11,7 +11,7 @@ This package provide a graphical user interface to the metagene package. This wi
 Home          https://bioconductor.org/packages/3.8/bioc/html/Imetagene.html
 Versions      
 License       Artistic-2.0 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-imetagene
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-imetagene/meta.yaml
 
 
 

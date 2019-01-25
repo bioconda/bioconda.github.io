@@ -11,7 +11,7 @@ MHAP\: MinHash Alignment Protocol. A tool for finding overlaps of long\-read seq
 Home          https://github.com/marbl/MHAP
 Versions      2.1.3, 2.1.1, 2.0
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mhap/meta.yaml
 
 
 

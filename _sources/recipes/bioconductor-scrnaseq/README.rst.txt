@@ -11,7 +11,7 @@ Gene\-level read counts of three public scRNA\-seq datasets. See vignette for de
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/scRNAseq.html
 Versions      1.6.0
 License       CC0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scrnaseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scrnaseq/meta.yaml
 
 
 

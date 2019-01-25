@@ -11,7 +11,7 @@ COSMIC\: Catalogue Of Somatic Mutations In Cancer\, version 67 \(2013\-10\-24\)
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/COSMIC.67.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosmic.67
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cosmic.67/meta.yaml
 
 
 

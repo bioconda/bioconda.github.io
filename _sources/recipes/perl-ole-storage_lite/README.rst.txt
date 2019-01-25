@@ -11,7 +11,7 @@ Read and write OLE storage files.
 Home          http://metacpan.org/pod/OLE-Storage_Lite
 Versions      0.19
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ole-storage_lite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ole-storage_lite/meta.yaml
 
 
 

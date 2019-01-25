@@ -11,7 +11,7 @@ Provides the GInteractions\, InteractionSet and ContactMatrix objects and associ
 Home          https://bioconductor.org/packages/3.8/bioc/html/InteractionSet.html
 Versions      1.8.0, 1.6.0, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-interactionset
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-interactionset/meta.yaml
 
 
 

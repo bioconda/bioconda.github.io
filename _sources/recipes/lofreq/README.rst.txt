@@ -11,7 +11,7 @@ A fast and sensitive variant\-caller for inferring SNVs and indels from next\-ge
 Home          http://csb5.github.io/lofreq/
 Versions      2.1.3.1, 2.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lofreq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lofreq/meta.yaml
 
 
 

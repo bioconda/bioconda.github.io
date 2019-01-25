@@ -11,7 +11,7 @@ This package is an implementation the Quantitative Set Analysis for Gene Express
 Home          https://bioconductor.org/packages/3.8/bioc/html/qusage.html
 Versions      2.14.0, 2.12.0, 2.10.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qusage
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-qusage/meta.yaml
 
 
 

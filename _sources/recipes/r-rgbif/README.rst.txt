@@ -11,7 +11,7 @@ A programmatic interface to the Web Service methods provided by the Global Biodi
 Home          https://github.com/ropensci/rgbif (devel) https://ropenscilabs.github.io/occurrence-manual/ (manual)
 Versions      1.1.0, 1.0.2, 0.9.9
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rgbif
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rgbif/meta.yaml
 
 
 

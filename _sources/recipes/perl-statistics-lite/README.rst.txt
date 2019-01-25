@@ -11,7 +11,7 @@ Small stats stuff.
 Home          http://metacpan.org/pod/Statistics-Lite
 Versions      3.62
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-statistics-lite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-lite/meta.yaml
 
 
 

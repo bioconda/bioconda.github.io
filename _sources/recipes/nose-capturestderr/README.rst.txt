@@ -11,7 +11,7 @@ Nose plugin for capturing stderr.
 Home          http://github.com/sio2project/nose-capturestderr
 Versions      1.2, 1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nose-capturestderr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nose-capturestderr/meta.yaml
 
 
 

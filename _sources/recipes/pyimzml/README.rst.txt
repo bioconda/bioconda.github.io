@@ -11,7 +11,7 @@ Parser for conversion of imzML 1.1.0 files
 Home          https://github.com/alexandrovteam/pyimzML
 Versions      1.2.4, 1.2.3, 1.2.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimzml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyimzml/meta.yaml
 
 
 

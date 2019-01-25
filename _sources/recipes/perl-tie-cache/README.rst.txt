@@ -11,7 +11,7 @@ LRU Cache in Memory
 Home          http://metacpan.org/pod/Tie-Cache
 Versions      0.21
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-tie-cache
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-tie-cache/meta.yaml
 
 
 

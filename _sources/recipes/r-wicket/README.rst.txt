@@ -11,7 +11,7 @@ Utilities to generate bounding boxes from \'WKT\' \(Well\-Known Text\) objects a
 Home          https://github.com/ropensci/wicket
 Versions      0.4.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-wicket
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-wicket/meta.yaml
 
 
 

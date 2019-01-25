@@ -11,7 +11,7 @@ SNV calling software
 Home          http:// metasnv.embl.de
 Versions      1.0.3, 1.0.2
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metasnv
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metasnv/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Cross platform \(fast\) DBM interface in python
 Home          https://github.com/jamesls/semidbm
 Versions      0.5.1
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/semidbm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/semidbm/meta.yaml
 
 
 

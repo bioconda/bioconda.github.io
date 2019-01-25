@@ -11,7 +11,7 @@ anota2seq provides analysis of translational efficiency and differential express
 Home          https://bioconductor.org/packages/3.8/bioc/html/anota2seq.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anota2seq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-anota2seq/meta.yaml
 
 
 

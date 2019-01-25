@@ -11,7 +11,7 @@ HMM\-guided metagenomic gene\-targeted assembler using iterative de Bruijn graph
 Home          https://github.com/HKU-BAL/megagta
 Versions      0.1_alpha
 License       GNU General Public License v3 (GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megagta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/megagta/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ hs\-blastn\, a fast and accurate nucleotide\-nucleotide sequences aligner.
 Home          https://github.com/chenying2016/queries
 Versions      0.0.5
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hs-blastn
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hs-blastn/meta.yaml
 
 
 

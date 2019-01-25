@@ -11,7 +11,7 @@ Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled u
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/lumiRatAll.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lumiratall.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lumiratall.db/meta.yaml
 
 
 

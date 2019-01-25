@@ -11,7 +11,7 @@ A long\-read error correction tool using the multi\-string Burrows Wheeler Trans
 Home          https://github.com/holtjma/fmlrc
 Versions      0.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fmlrc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fmlrc/meta.yaml
 
 
 

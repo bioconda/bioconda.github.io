@@ -11,7 +11,7 @@ Multivariate methods are well suited to large omics data sets where the number o
 Home          https://bioconductor.org/packages/3.8/bioc/html/mixOmics.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mixomics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mixomics/meta.yaml
 
 
 

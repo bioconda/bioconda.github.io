@@ -11,7 +11,7 @@ A simple tool developed to compare\, globally\, all MS\/MS spectra between two d
 Home          http://www.ms-utils.org/compareMS2.html
 Versions      1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comparems2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/comparems2/meta.yaml
 
 
 

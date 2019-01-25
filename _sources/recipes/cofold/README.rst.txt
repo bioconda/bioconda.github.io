@@ -11,7 +11,7 @@ An RNA secondary structure prediction method that takes co\-transcriptional fold
 Home          http://www.e-rna.org/cofold/
 Versions      2.0.4
 License       MIT-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cofold
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cofold/meta.yaml
 
 
 

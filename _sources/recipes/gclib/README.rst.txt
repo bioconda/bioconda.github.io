@@ -11,7 +11,7 @@ Genomic C libraries by Geo Pertea
 Home          https://github.com/gpertea/gclib
 Versions      0.0.1
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gclib
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gclib/meta.yaml
 
 
 

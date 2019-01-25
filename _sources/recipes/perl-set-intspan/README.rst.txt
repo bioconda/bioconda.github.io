@@ -11,7 +11,7 @@ Manages sets of integers\, newsrc style
 Home          http://metacpan.org/pod/Set-IntSpan
 Versions      1.19
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-intspan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-set-intspan/meta.yaml
 
 
 

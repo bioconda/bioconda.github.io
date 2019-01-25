@@ -11,7 +11,7 @@ Based on \(but not identical to\) the no\-longer\-maintained package \'phyext\'\
 Home          https://CRAN.R-project.org/package=phyext2
 Versions      0.0.4
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phyext2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-phyext2/meta.yaml
 
 
 

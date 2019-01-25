@@ -11,7 +11,7 @@ MultiAssayExperiment harmonizes data management of multiple assays performed on 
 Home          https://bioconductor.org/packages/3.8/bioc/html/MultiAssayExperiment.html
 Versions      1.6.0, 1.4.9
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-multiassayexperiment
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-multiassayexperiment/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ LSC is a long read error correction tool that offers fast correction with high s
 Home          https://www.healthcare.uiowa.edu/labs/au/LSC/
 Versions      2.0
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lsc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lsc/meta.yaml
 
 
 

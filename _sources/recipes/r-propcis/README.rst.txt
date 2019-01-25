@@ -11,7 +11,7 @@ Computes two\-sample confidence intervals for single\, paired and independent pr
 Home          https://github.com/shearer/PropCIs
 Versions      0.3_0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-propcis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-propcis/meta.yaml
 
 
 

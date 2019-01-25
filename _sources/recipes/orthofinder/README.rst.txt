@@ -11,7 +11,7 @@ Accurate inference of orthogroups\, orthologues\, gene trees and rooted species 
 Home          https://github.com/davidemms/OrthoFinder
 Versions      2.2.7, 2.2.6, 2.2.1, 2.2.0, 2.1.2, 1.1.10, 1.1.8, 1.1.4, 1.1.2
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthofinder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/orthofinder/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Provides GC percentage of a 1 kilobase window at a genomic position for differen
 Home          https://github.com/mskcc/pctGCdata
 Versions      0.2.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pctgcdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pctgcdata/meta.yaml
 
 
 

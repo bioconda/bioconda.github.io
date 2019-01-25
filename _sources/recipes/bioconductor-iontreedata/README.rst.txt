@@ -11,7 +11,7 @@ Raw MS2\, MS3 scans from direct infusion mass spectrometry \(DIMS\) and a demo i
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/iontreeData.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-iontreedata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-iontreedata/meta.yaml
 
 
 

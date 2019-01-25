@@ -11,7 +11,7 @@ The HiC data from Human Fibroblast IMR90 cell line \(HindIII restriction\) was r
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HiCDataHumanIMR90.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hicdatahumanimr90
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hicdatahumanimr90/meta.yaml
 
 
 

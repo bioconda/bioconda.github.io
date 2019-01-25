@@ -11,7 +11,7 @@ DAZZ\_DB\: The Dazzler Data Base
 Home          https://github.com/thegenemyers/DAZZ_DB
 Versions      1.0, 1.0p2, 1.0p1
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dazz_db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dazz_db/meta.yaml
 
 
 

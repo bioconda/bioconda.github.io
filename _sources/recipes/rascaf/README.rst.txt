@@ -11,7 +11,7 @@ Scaffolding with RNA\-seq read alignment
 Home          https://github.com/mourisl/Rascaf/commits/master
 Versions      20161129
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rascaf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rascaf/meta.yaml
 
 
 

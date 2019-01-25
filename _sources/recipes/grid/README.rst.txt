@@ -11,7 +11,7 @@ Growth Rate Index \(GRiD\) measures bacterial growth rate from reference genomes
 Home          https://github.com/ohlab/GRiD
 Versions      1.2, 1.1, 1.0.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/grid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/grid/meta.yaml
 
 
 

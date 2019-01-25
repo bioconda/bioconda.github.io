@@ -11,7 +11,7 @@ Octopus is a mapping\-based variant caller that implements several calling model
 Home          https://github.com/luntergroup/octopus
 Versions      0.5.2b, 0.5.1b, 0.5.0b, 0.4.1a, 0.3.3a
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/octopus
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/octopus/meta.yaml
 
 
 

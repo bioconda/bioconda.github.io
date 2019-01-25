@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix Mapping250K\_Nsp
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mapping250k.nsp.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mapping250k.nsp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.mapping250k.nsp/meta.yaml
 
 
 

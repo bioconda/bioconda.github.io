@@ -11,7 +11,7 @@ Estimate gene and eQTL networks from high\-throughput expression and genotyping 
 Home          https://bioconductor.org/packages/3.8/bioc/html/qpgraph.html
 Versions      2.14.0, 2.12.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qpgraph
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-qpgraph/meta.yaml
 
 
 

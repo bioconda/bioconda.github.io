@@ -11,7 +11,7 @@ Python interface to the GenoLogics LIMS \(Laboratory Information Management Syst
 Home          https://github.com/scilifelab/genologics
 Versions      0.4.1, 0.3.12.post0
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genologics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genologics/meta.yaml
 
 
 

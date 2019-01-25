@@ -11,7 +11,7 @@ This package provides a GUI interface for rTANDEM. The GUI is primarily designed
 Home          https://bioconductor.org/packages/3.8/bioc/html/shinyTANDEM.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-shinytandem
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-shinytandem/meta.yaml
 
 
 

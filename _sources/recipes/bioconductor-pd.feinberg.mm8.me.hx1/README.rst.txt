@@ -11,7 +11,7 @@ Platform Design Info for NimbleGen feinberg\_mm8\_me\_hx1
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.feinberg.mm8.me.hx1.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.feinberg.mm8.me.hx1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.feinberg.mm8.me.hx1/meta.yaml
 
 
 

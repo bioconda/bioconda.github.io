@@ -11,7 +11,7 @@ yaha is an open source\, flexible\, sensitive and accurate DNA aligner designed 
 Home          https://github.com/GregoryFaust/yaha
 Versions      0.1.83
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yaha
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/yaha/meta.yaml
 
 
 

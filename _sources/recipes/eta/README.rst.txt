@@ -11,7 +11,7 @@ ETA Progress bar for command\-line utilities
 Home          http://github.com/mbreese/eta/
 Versions      0.9.7
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/eta/meta.yaml
 
 
 

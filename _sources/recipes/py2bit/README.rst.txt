@@ -11,7 +11,7 @@ A package for accessing 2bit files using lib2bit
 Home          https://github.com/deeptools/py2bit
 Versions      0.3.0, 0.2.2, 0.2.1, 0.2.0, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/py2bit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/py2bit/meta.yaml
 
 
 

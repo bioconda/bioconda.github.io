@@ -241,8 +241,8 @@ please see <a class="reference internal" href="troubleshooting.html#cb3-recipes-
 <p class="first admonition-title">Note</p>
 <p>Using the <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> method results in a recipe intended to be
 built for Windows as well, with lines like:</p>
-<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>{% set posix = &#39;m2-&#39; if win else &#39;&#39; %}
-{% set native = &#39;m2w64-&#39; if win else &#39;&#39; %}
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="o">%</span> <span class="nb">set</span> <span class="n">posix</span> <span class="o">=</span> <span class="s1">&#39;m2-&#39;</span> <span class="k">if</span> <span class="n">win</span> <span class="k">else</span> <span class="s1">&#39;&#39;</span> <span class="o">%</span><span class="p">}</span>
+<span class="p">{</span><span class="o">%</span> <span class="nb">set</span> <span class="n">native</span> <span class="o">=</span> <span class="s1">&#39;m2w64-&#39;</span> <span class="k">if</span> <span class="n">win</span> <span class="k">else</span> <span class="s1">&#39;&#39;</span> <span class="o">%</span><span class="p">}</span>
 </pre></div>
 </div>
 <p>and</p>
@@ -305,8 +305,8 @@ though dependencies may also need recipes. Recipes for dependencies with an
 Sometimes the software already comes with one; for example, <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqc">fastqc</a>
 already had a wrapper script, but <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peptide-shaker">peptide-shaker</a>
 did not.</p>
-<p>New recipes should use the <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> package from <a class="reference external" href="https://github.com/conda-forge/openjdk-feedstock">conda-forge</a>
-, the java-jdk package from bioconda is deprecated.</p>
+<p>New recipes should use the <code class="docutils literal notranslate"><span class="pre">openjdk</span></code> package from conda-forge <a class="reference external" href="https://github.com/conda-forge/openjdk-feedstock">(recipe feedstock)</a>,
+the java-jdk package from bioconda is deprecated.</p>
 <p>JAR files should go in <code class="docutils literal notranslate"><span class="pre">$PREFIX/share/$PKG_NAME-$PKG_VERSION-$PKG_BUILDNUM</span></code>.
 A wrapper script should be placed here as well, and symlinked to
 <code class="docutils literal notranslate"><span class="pre">$PREFIX/bin</span></code>.</p>
@@ -491,7 +491,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id10"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit

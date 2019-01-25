@@ -11,7 +11,7 @@ FusionFilter provides a common fusion\-finding\, filtering\, and annotation fram
 Home          https://github.com/FusionFilter/FusionFilter
 Versions      0.5.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fusion-filter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fusion-filter/meta.yaml
 
 
 

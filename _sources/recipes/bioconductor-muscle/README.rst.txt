@@ -11,7 +11,7 @@ MUSCLE performs multiple sequence alignments of nucleotide or amino acid sequenc
 Home          https://bioconductor.org/packages/3.8/bioc/html/muscle.html
 Versions      
 License       Unlimited
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-muscle
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-muscle/meta.yaml
 
 
 

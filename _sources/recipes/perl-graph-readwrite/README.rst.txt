@@ -11,7 +11,7 @@ modules for reading and writing directed graphs
 Home          https://github.com/neilb/Graph-ReadWrite
 Versions      2.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph-readwrite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-graph-readwrite/meta.yaml
 
 
 

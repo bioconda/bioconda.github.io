@@ -11,7 +11,7 @@ Spanki is a set of tools to facilitate analysis of alternative splicing from RNA
 Home          http://www.cbcb.umd.edu/software/spanki/
 Versions      0.5.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spanki
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/spanki/meta.yaml
 
 
 

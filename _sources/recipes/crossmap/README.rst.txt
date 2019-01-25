@@ -11,7 +11,7 @@ Convert genomic coordiates between assemblies
 Home          http://crossmap.sourceforge.net
 Versions      0.3.3, 0.3.2, 0.3.1, 0.2.8, 0.2.7, 0.2.5, 0.2.2, 0.2.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crossmap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/crossmap/meta.yaml
 
 
 

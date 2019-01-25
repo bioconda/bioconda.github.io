@@ -11,7 +11,7 @@ Provides access to phyloinformatic data in \'NeXML\' format.  The package should
 Home          https://github.com/ropensci/RNeXML
 Versions      2.2.0, 2.1.2, 2.1.1
 License       BSD_3_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rnexml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rnexml/meta.yaml
 
 
 

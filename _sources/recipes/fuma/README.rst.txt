@@ -11,7 +11,7 @@ FuMa\: reporting overlap in RNA\-seq detected fusion genes
 Home          https://github.com/yhoogstrate/fuma/
 Versions      3.0.5, 3.0.3
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fuma
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fuma/meta.yaml
 
 
 

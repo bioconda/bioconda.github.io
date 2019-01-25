@@ -11,7 +11,7 @@ A port of the \'matrixStats\' API for use with DelayedMatrix objects from the \'
 Home          https://bioconductor.org/packages/3.8/bioc/html/DelayedMatrixStats.html
 Versions      1.2.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedmatrixstats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-delayedmatrixstats/meta.yaml
 
 
 

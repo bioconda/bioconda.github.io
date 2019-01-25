@@ -11,7 +11,7 @@ The Cluster Picker identifies clusters in newick\-formatted trees containing tho
 Home          http://hiv.bio.ed.ac.uk/software.html
 Versions      1.2.3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cluster-picker
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cluster-picker/meta.yaml
 
 
 

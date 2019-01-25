@@ -11,7 +11,7 @@ A collection of tools for Multiple Alignments of DNA\, RNA\, Protein Sequence
 Home          https://github.com/cbcrg/tcoffee
 Versions      12.00.7fb08c2, 11.00.8cbe486
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t-coffee
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/t-coffee/meta.yaml
 
 
 

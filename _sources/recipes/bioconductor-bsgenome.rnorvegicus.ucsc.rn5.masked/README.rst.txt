@@ -11,7 +11,7 @@ Full genome sequences for Rattus norvegicus \(Rat\) as provided by UCSC \(rn5\, 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Rnorvegicus.UCSC.rn5.masked.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.rnorvegicus.ucsc.rn5.masked/meta.yaml
 
 
 

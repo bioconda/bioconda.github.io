@@ -11,7 +11,7 @@ parse and validate simple name\/value option pairs
 Home          https://github.com/rjbs/Data-OptList
 Versions      0.110
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-optlist
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-optlist/meta.yaml
 
 
 

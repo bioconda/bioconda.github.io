@@ -11,7 +11,7 @@ A robust and fast clustering method for amplicon\-based studies.
 Home          https://github.com/torognes/swarm
 Versions      2.2.2, 2.1.13, 2.1.10, 2.1.5, 1.2.19
 License       Affero GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/swarm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/swarm/meta.yaml
 
 
 

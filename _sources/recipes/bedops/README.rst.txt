@@ -11,7 +11,7 @@ High\-performance genomic feature operations.
 Home          http://bedops.readthedocs.io
 Versions      2.4.35, 2.4.34, 2.4.33, 2.4.32, 2.4.30, 2.4.27, 2.4.26, 2.4.25, 2.4.24, 2.4.23, 2.4.22, 2.4.21, 2.4.20, 2.4.19
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bedops
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bedops/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl extension to test methods for warnings
 Home          http://metacpan.org/pod/Test-Warn
 Versions      0.36, 0.30
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-warn
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-warn/meta.yaml
 
 
 

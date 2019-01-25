@@ -11,7 +11,7 @@ Check the correct line endings in your project
 Home          http://metacpan.org/release/Test-EOL
 Versions      2.00, 1.6
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-eol
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-eol/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ genomic environment analysis tool
 Home          https://github.com/ctlab/metacherchant
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metacherchant
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metacherchant/meta.yaml
 
 
 

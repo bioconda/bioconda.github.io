@@ -11,7 +11,7 @@ parse text into an array of tokens or array of arrays
 Home          http://metacpan.org/pod/Text::ParseWords
 Versions      3.30, 3.29
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-parsewords
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-parsewords/meta.yaml
 
 
 

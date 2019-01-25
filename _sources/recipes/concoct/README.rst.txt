@@ -11,7 +11,7 @@ Clustering cONtigs with COverage and ComposiTion
 Home          https://github.com/BinPro/CONCOCT
 Versions      1.0.0, 0.4.2, 0.4.1, 0.4.0
 License       FreeBSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/concoct
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/concoct/meta.yaml
 
 
 

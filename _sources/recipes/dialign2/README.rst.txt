@@ -11,7 +11,7 @@ DIALIGN multiple sequence alignment using various sources of external informatio
 Home          http://dialign.gobics.de
 Versions      2.2.1
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dialign2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dialign2/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ pKiss is a tool for folding RNA secondary structures\, including two limited cla
 Home          https://bibiserv.cebitec.uni-bielefeld.de/pkiss
 Versions      2.2.12
 License       Uknown - Please refer to the tool homepage
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pkiss
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pkiss/meta.yaml
 
 
 

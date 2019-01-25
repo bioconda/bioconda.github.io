@@ -11,7 +11,7 @@ Frequency\-based String Mining \(lite\)
 Home          https://github.com/nvalimak/fsm-lite
 Versions      1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fsm-lite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fsm-lite/meta.yaml
 
 
 

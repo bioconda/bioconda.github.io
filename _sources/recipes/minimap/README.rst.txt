@@ -11,7 +11,7 @@ Experimental tool to find approximate mapping positions between long sequences
 Home          https://github.com/lh3/minimap
 Versions      0.2, 0.2_r124
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minimap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/minimap/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MERFISHtools implement a Bayesian framework for accurately predicting gene or tr
 Home          https://merfishtools.github.io
 Versions      1.5.0, 1.4.0, 1.3.0, 1.2.0, 1.1.0, 1.0.0, 0.9.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/merfishtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/merfishtools/meta.yaml
 
 
 

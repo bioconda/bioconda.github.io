@@ -11,7 +11,7 @@ six\-frame genome\-inferred libraries for LC\-MS\/MS
 Home          
 Versions      0.2.4, 0.2.3
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sixgill
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sixgill/meta.yaml
 
 
 

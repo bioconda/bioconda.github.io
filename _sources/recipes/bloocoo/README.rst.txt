@@ -11,7 +11,7 @@ Bloocoo is a k\-mer spectrum\-based read error corrector\, designed to correct l
 Home          http://gatb.inria.fr/software/bloocoo/
 Versions      1.0.7
 License       aGPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bloocoo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bloocoo/meta.yaml
 
 
 

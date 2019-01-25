@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name Mu11KsubB
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mu11ksubb.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mu11ksubb
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.mu11ksubb/meta.yaml
 
 
 

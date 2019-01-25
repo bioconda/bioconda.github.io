@@ -11,7 +11,7 @@ Efficient generation of subroutines via string eval
 Home          http://metacpan.org/pod/Sub::Quote
 Versions      2.005001
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-quote
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-quote/meta.yaml
 
 
 

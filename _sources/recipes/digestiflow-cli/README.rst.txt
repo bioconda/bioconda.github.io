@@ -10,9 +10,9 @@ Command line client for Digestiflow.
 
 ============= ===========
 Home          https://github.com/bihealth/digestiflow-cli
-Versions      0.2.0, 0.1.1
+Versions      0.3.0, 0.2.0, 0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/digestiflow-cli
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/digestiflow-cli/meta.yaml
 
 
 

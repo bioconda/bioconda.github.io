@@ -11,7 +11,7 @@ Methods for assigning copy number states and breakpoints in resequencing experim
 Home          https://CRAN.R-project.org/package=CNOGpro
 Versions      1.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cnogpro
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-cnogpro/meta.yaml
 
 
 

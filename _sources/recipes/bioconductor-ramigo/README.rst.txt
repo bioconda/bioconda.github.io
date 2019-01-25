@@ -11,7 +11,7 @@ R interface sending requests to AmiGO visualize\, retrieving DAG GO trees\, pars
 Home          http://bioconductor.org/packages/3.7/bioc/html/RamiGO.html
 Versions      1.28.0, 1.23.0, 1.22.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ramigo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ramigo/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ An R implementation of an extension of the \'BayeScan\' software \(Foll\, 2008\)
 Home          https://CRAN.R-project.org/package=BlockFeST
 Versions      1.6
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-blockfest
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-blockfest/meta.yaml
 
 
 

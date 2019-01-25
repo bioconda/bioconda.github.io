@@ -11,7 +11,7 @@ DNA input and output library for Python and Cython. Includes reader and writer f
 Home          https://bitbucket.org/HenningTimm/dinopy
 Versions      2.0.1, 2.0.0, 1.2.1, 1.2.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dinopy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dinopy/meta.yaml
 
 
 

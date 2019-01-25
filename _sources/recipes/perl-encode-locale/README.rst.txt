@@ -11,7 +11,7 @@ Determine the locale encoding
 Home          http://metacpan.org/pod/Encode::Locale
 Versions      1.05
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-encode-locale
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-encode-locale/meta.yaml
 
 
 

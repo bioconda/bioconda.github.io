@@ -11,7 +11,7 @@ By leveraging statistical properties \(log\-rank test for survival\) of patient 
 Home          https://bioconductor.org/packages/3.8/bioc/html/sigsquared.html
 Versions      
 License       GPL version 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sigsquared
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sigsquared/meta.yaml
 
 
 

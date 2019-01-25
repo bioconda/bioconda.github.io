@@ -11,7 +11,7 @@ Compile and execute code in restricted compartments
 Home          http://metacpan.org/pod/Safe
 Versions      2.37
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-safe/2.37
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-safe/2.37/meta.yaml
 
 
 

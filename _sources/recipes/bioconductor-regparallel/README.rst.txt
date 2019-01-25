@@ -11,7 +11,7 @@ In many analyses\, a large amount of variables have to be tested independently a
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RegParallel.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-regparallel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-regparallel/meta.yaml
 
 
 

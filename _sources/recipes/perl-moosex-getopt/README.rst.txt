@@ -11,7 +11,7 @@ A Moose role for processing command line options
 Home          https://github.com/moose/MooseX-Getopt
 Versions      0.74, 0.72, 0.71
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-moosex-getopt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-getopt/meta.yaml
 
 
 

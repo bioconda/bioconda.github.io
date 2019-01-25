@@ -11,7 +11,7 @@ SeqStat is a package that contains tools to generate stats from a FastQ file\, m
 Home          https://github.com/biopet/seqstat
 Versions      1.0.1, 1.0, 0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-seqstat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-seqstat/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A set of tools to extract bibliographic content from the National Center for Bio
 Home          https://CRAN.R-project.org/package=RISmed
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rismed
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rismed/meta.yaml
 
 
 

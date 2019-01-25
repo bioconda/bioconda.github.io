@@ -11,7 +11,7 @@ The package provides a method to infer the set of proteins that are more probabl
 Home          https://bioconductor.org/packages/3.8/bioc/html/R3CPET.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cpet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-r3cpet/meta.yaml
 
 
 

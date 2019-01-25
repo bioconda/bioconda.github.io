@@ -11,7 +11,7 @@ This package provides additional expression data on diffuse large B\-cell lympho
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DLBCL.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dlbcl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dlbcl/meta.yaml
 
 
 

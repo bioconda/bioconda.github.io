@@ -11,7 +11,7 @@ Use the reference GenBank file to add biological annotations to the variant call
 Home          https://github.com/rpetit3/vcf-annotator
 Versions      0.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vcf-annotator
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vcf-annotator/meta.yaml
 
 
 

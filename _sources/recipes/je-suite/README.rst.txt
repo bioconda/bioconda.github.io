@@ -13,7 +13,7 @@ read duplicates using these UMIs
 Home          https://gbcs.embl.de/Je
 Versions      2.0.RC, 1.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/je-suite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/je-suite/meta.yaml
 
 
 

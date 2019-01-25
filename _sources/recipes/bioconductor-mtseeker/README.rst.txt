@@ -11,7 +11,7 @@ Variant analysis tools for mitochondrial genetics.
 Home          https://bioconductor.org/packages/3.8/bioc/html/MTseeker.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mtseeker
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mtseeker/meta.yaml
 
 
 

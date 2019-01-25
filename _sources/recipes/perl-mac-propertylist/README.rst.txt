@@ -11,7 +11,7 @@ work with Mac plists at a low level
 Home          https://github.com/briandfoy/mac-propertylist
 Versions      1.413
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mac-propertylist
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mac-propertylist/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package implements five methods proposed by Resnik\, Schlicker\, Jiang\, Li
 Home          https://bioconductor.org/packages/3.8/bioc/html/DOSE.html
 Versions      3.6.1, 3.4.0, 3.2.0, 2.10.7, 2.10.6, 2.8.3, 2.8.2
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dose
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dose/meta.yaml
 
 
 

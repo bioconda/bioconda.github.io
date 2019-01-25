@@ -11,7 +11,7 @@ Advanced operations on path variables
 Home          http://metacpan.org/pod/Env::Path
 Versions      0.19
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-env-path
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-env-path/meta.yaml
 
 
 

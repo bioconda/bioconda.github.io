@@ -11,7 +11,7 @@ The package provides two frameworks. One for the differential transcript usage a
 Home          https://bioconductor.org/packages/3.8/bioc/html/DRIMSeq.html
 Versions      1.8.0, 1.6.0
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drimseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drimseq/meta.yaml
 
 
 

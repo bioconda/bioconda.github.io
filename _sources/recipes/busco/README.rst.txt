@@ -11,7 +11,7 @@ BUSCO provides measures for quantitative assessment of genome assembly\, gene se
 Home          http://busco.ezlab.org/
 Versions      3.0.2, 3.0.1, 2.0.1, 2.0, 1.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/busco
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/busco/meta.yaml
 
 
 

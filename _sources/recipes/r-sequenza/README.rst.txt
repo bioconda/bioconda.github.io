@@ -11,7 +11,7 @@ Tools to analyze genomic sequencing data from paired normal\-tumor samples\, inc
 Home          http://cbs.dtu.dk/biotools/sequenza/
 Versions      2.1.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sequenza
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-sequenza/meta.yaml
 
 
 

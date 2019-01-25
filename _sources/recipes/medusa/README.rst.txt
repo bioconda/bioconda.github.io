@@ -15,7 +15,7 @@ growing of the modules as a submodular optimization program.
 Home          https://github.com/marinkaz/medusa
 Versions      0.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/medusa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/medusa/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Simple text template engine
 Home          http://metacpan.org/pod/Text::Template::Simple
 Versions      0.91
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-template-simple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-template-simple/meta.yaml
 
 
 

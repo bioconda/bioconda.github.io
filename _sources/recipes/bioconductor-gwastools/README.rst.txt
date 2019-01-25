@@ -11,7 +11,7 @@ Classes for storing very large GWAS data sets and annotation\, and functions for
 Home          https://bioconductor.org/packages/3.8/bioc/html/GWASTools.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwastools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gwastools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The sva package contains functions for removing batch effects and other unwanted
 Home          https://bioconductor.org/packages/3.8/bioc/html/sva.html
 Versions      3.28.0, 3.26.0, 3.24.4, 3.20.0, 3.18.0, 3.15.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sva
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sva/meta.yaml
 
 
 

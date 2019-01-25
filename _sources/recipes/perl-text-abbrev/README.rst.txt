@@ -11,7 +11,7 @@ abbrev \- create an abbreviation table from a list
 Home          http://search.cpan.org/dist/Text-Abbrev
 Versions      1.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-abbrev
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-abbrev/meta.yaml
 
 
 

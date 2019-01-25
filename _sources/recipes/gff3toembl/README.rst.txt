@@ -11,7 +11,7 @@ Submitting annotated genomes to EMBL is a very difficult and time consuming proc
 Home          https://github.com/sanger-pathogens/gff3toembl/
 Versions      1.1.4
 License       GNU GENERAL PUBLIC LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gff3toembl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gff3toembl/meta.yaml
 
 
 

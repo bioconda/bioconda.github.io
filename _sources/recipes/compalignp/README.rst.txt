@@ -11,7 +11,7 @@ Compute fractional \"identity\" between trusted alignment and test alignment.
 Home          http://www.biophys.uni-duesseldorf.de/bralibase/
 Versions      1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/compalignp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/compalignp/meta.yaml
 
 
 

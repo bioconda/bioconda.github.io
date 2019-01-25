@@ -11,7 +11,7 @@ A server for the design of RNA sequences that fold into a given pseudo\-knot fre
 Home          https://github.com/BackofenLab/INFO-RNA
 Versions      2.1.2
 License       MIT-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/inforna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/inforna/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Methods to model and impute non\-detects in the results of qPCR experiments.
 Home          https://bioconductor.org/packages/3.8/bioc/html/nondetects.html
 Versions      2.10.0, 2.8.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nondetects
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nondetects/meta.yaml
 
 
 

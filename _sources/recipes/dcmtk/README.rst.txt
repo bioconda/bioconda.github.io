@@ -11,7 +11,7 @@ DCMTK is a collection of libraries and applications implementing large parts the
 Home          http://dicom.offis.de
 Versions      3.6.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dcmtk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dcmtk/meta.yaml
 
 
 

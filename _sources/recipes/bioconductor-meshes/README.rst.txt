@@ -11,7 +11,7 @@ MeSH \(Medical Subject Headings\) is the NLM controlled vocabulary used to manua
 Home          https://bioconductor.org/packages/3.8/bioc/html/meshes.html
 Versions      1.6.1, 1.4.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-meshes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-meshes/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Estimate tumor purity and clonal\/subclonal copy number aberrations directly fro
 Home          https://github.com/raphael-group/THetA
 Versions      0.7
 License       Modified MIT (no inclusion in commercial tools)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/theta2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/theta2/meta.yaml
 
 
 

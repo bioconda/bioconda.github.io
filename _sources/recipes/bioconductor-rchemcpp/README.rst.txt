@@ -11,7 +11,7 @@ The Rchemcpp package implements the marginalized graph kernel and extensions\, T
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rchemcpp.html
 Versions      2.18.0, 2.16.0, 2.14.0
 License       GPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rchemcpp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rchemcpp/meta.yaml
 
 
 

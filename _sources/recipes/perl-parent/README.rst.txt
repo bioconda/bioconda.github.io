@@ -11,7 +11,7 @@ Establish an ISA relationship with base classes at compile time
 Home          http://metacpan.org/pod/parent
 Versions      0.236
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-parent/0.236
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-parent/0.236/meta.yaml
 
 
 

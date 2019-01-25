@@ -11,7 +11,7 @@ libraries historically supplied with Perl 4
 Home          http://metacpan.org/pod/Perl4-CoreLibs
 Versions      0.004
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perl4-corelibs/0.004
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perl4-corelibs/0.004/meta.yaml
 
 
 

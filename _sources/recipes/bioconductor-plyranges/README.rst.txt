@@ -11,7 +11,7 @@ A dplyr\-like interface for interacting with the common Bioconductor classes Ran
 Home          https://bioconductor.org/packages/3.8/bioc/html/plyranges.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plyranges
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-plyranges/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ IsoSeq3 \- Scalable De Novo Isoform Discovery
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      3.1.0, 3.0.0, 0.7.2
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/isoseq3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/isoseq3/meta.yaml
 
 
 

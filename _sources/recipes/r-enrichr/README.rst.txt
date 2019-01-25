@@ -11,7 +11,7 @@ Provides an R interface to all \'Enrichr\' databases\, a web\-based tool for ana
 Home          https://CRAN.R-project.org/package=enrichR
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-enrichr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-enrichr/meta.yaml
 
 
 

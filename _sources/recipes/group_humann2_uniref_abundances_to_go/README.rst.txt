@@ -11,7 +11,7 @@ Group abundances of UniRef50 gene families obtained with HUMAnN2 to Gene Ontolog
 Home          https://github.com/ASaiM/group_humann2_uniref_abundances_to_GO
 Versions      1.2.0
 License       Apache 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/group_humann2_uniref_abundances_to_go
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/group_humann2_uniref_abundances_to_go/meta.yaml
 
 
 

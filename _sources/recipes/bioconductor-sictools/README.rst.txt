@@ -11,7 +11,7 @@ This package is to find SNV\/Indel differences between two bam files with near r
 Home          https://bioconductor.org/packages/3.8/bioc/html/SICtools.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sictools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sictools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Default reference data files for use with QIIME.
 Home          http://www.qiime.org
 Versions      0.1.3
 License       CC BY-SA 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qiime-default-reference/0.1.3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qiime-default-reference/0.1.3/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package was automatically created by package AnnotationForge version 1.11.2
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133bprobe.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hthgu133bprobe
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hthgu133bprobe/meta.yaml
 
 
 

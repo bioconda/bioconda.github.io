@@ -11,7 +11,7 @@ ViReMa \(Viral Recombination Mapper\) detects and reports recombination or fusio
 Home          https://sourceforge.net/projects/virema/
 Versions      0.6
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/virema
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/virema/meta.yaml
 
 
 

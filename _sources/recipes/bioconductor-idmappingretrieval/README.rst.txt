@@ -11,7 +11,7 @@ Data retrieval for identifier mapping performance analysis
 Home          https://bioconductor.org/packages/3.8/bioc/html/IdMappingRetrieval.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-idmappingretrieval
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-idmappingretrieval/meta.yaml
 
 
 

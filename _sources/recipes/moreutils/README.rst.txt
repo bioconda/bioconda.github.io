@@ -11,7 +11,7 @@ a growing collection of the unix tools that nobody thought to write long ago whe
 Home          http://joeyh.name/code/moreutils/
 Versions      0.5.7
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/moreutils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/moreutils/meta.yaml
 
 
 

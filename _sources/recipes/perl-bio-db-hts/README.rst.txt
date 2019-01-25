@@ -11,7 +11,7 @@ Read files using HTSlib including BAM\/CRAM\, Tabix and BCF database files
 Home          https://metacpan.org/pod/Bio::DB::HTS
 Versions      2.7, 2.4
 License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-db-hts
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-db-hts/meta.yaml
 
 
 

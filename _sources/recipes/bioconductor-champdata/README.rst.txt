@@ -11,7 +11,7 @@ Provides datasets needed for ChAMP including a test dataset and blood controls f
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ChAMPdata.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-champdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-champdata/meta.yaml
 
 
 

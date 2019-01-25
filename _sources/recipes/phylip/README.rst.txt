@@ -11,7 +11,7 @@ Package of programs for inferring phylogenies
 Home          http://evolution.genetics.washington.edu/phylip/
 Versions      3.697, 3.696
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phylip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phylip/meta.yaml
 
 
 

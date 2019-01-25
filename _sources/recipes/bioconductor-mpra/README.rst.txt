@@ -11,7 +11,7 @@ Tools for data management\, count preprocessing\, and differential analysis in m
 Home          https://bioconductor.org/packages/3.8/bioc/html/mpra.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mpra
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mpra/meta.yaml
 
 
 

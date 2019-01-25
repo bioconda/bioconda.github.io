@@ -11,7 +11,7 @@ PyMVPA \-\- Multivariate Pattern Analysis in Python
 Home          http://www.pymvpa.org/
 Versions      2.6.5, 2.6.4, 2.6.0
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pymvpa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pymvpa/meta.yaml
 
 
 Development   https://github.com/PyMVPA/PyMVPA

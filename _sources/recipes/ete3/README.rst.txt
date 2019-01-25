@@ -11,7 +11,7 @@ A Python framework for the analysis and visualization of trees
 Home          http://etetoolkit.org/
 Versions      3.1.1, 3.0.0b35
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ete3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ete3/meta.yaml
 
 
 

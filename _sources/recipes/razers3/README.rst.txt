@@ -11,7 +11,7 @@ RazerS 3 \- Faster\, fully sensitive read mapping
 Home          http://www.seqan.de/projects/razers/
 Versions      3.5.3, 3.5.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/razers3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/razers3/meta.yaml
 
 
 

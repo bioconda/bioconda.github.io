@@ -11,7 +11,7 @@ A tool for the rapid annotation of prokaryotic genomes
 Home          http://www.vicbioinformatics.com/software.prokka.shtml
 Versions      1.13.4, 1.13.3, 1.13, 1.12, 1.11
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prokka
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prokka/meta.yaml
 
 
 Development   https://github.com/tseemann/prokka

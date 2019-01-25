@@ -11,7 +11,7 @@ A cross platform way of running \(interactive\) commandline programs.
 Home          http://metacpan.org/pod/IPC::Cmd
 Versions      1.02, 1.00
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ipc-cmd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ipc-cmd/meta.yaml
 
 
 

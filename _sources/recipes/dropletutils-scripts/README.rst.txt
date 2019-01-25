@@ -11,7 +11,7 @@ A set of wrappers for operations associated with Aaron Lun\'s DropletUtils  pack
 Home          https://github.com/ebi-gene-expression-group/dropletutils-scripts
 Versions      0.0.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dropletutils-scripts
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dropletutils-scripts/meta.yaml
 
 
 Development   https://github.com/ebi-gene-expression-group/dropletutils-scripts

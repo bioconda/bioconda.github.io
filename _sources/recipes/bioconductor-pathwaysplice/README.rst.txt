@@ -11,7 +11,7 @@ Pathway analysis of alternative splicing would be biased without accounting for 
 Home          https://bioconductor.org/packages/3.8/bioc/html/PathwaySplice.html
 Versions      
 License       LGPL(>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathwaysplice
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pathwaysplice/meta.yaml
 
 
 

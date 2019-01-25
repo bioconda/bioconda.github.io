@@ -11,7 +11,7 @@ drop tables from a database older than specified N hours
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-dbtrash
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-dbtrash/meta.yaml
 
 
 

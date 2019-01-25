@@ -11,7 +11,7 @@ Build and Deliver Software with Containers
 Home          https://github.com/involucro/involucro
 Versions      1.1.2
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/involucro
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/involucro/meta.yaml
 
 
 

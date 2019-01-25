@@ -11,7 +11,7 @@ Full genome sequences for Drosophila melanogaster \(Fly\) as provided by UCSC \(
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Dmelanogaster.UCSC.dm2.masked.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm2.masked
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.dmelanogaster.ucsc.dm2.masked/meta.yaml
 
 
 

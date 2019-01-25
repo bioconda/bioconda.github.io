@@ -11,7 +11,7 @@ MetNet contains functionality to infer metabolic network topologies from quantit
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetNet.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-metnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metnet/meta.yaml
 
 
 

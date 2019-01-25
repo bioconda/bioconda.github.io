@@ -11,7 +11,7 @@ RSA encoding and decoding\, using the openSSL libraries
 Home          https://metacpan.org/release/Crypt-OpenSSL-RSA
 Versions      0.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-rsa/0.28
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-crypt-openssl-rsa/0.28/meta.yaml
 
 
 

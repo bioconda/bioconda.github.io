@@ -11,7 +11,7 @@ A package for genome\-wide association analysis between quantitative or binary t
 Home          http://www.genabel.org
 Versions      1.8_0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genabel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-genabel/meta.yaml
 
 
 

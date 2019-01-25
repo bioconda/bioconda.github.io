@@ -11,7 +11,7 @@ Genometric Correlation \(GenometriCorr\) is an R package for spatial correlation
 Home          http://genometricorr.sourceforge.net
 Versions      1.1.17
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genometricorr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-genometricorr/meta.yaml
 
 
 

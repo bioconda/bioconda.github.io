@@ -11,7 +11,7 @@ This package provides a pipeline for gene expression analysis \(primarily for RN
 Home          https://bioconductor.org/packages/3.8/bioc/html/sRAP.html
 Versions      1.20.0, 1.18.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-srap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-srap/meta.yaml
 
 
 

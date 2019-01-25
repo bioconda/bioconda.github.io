@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix HuEx\-1\_0\-st\-v2
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.huex.1.0.st.v2.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.huex.1.0.st.v2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.huex.1.0.st.v2/meta.yaml
 
 
 

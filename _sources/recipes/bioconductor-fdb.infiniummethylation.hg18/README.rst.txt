@@ -11,7 +11,7 @@ Compiled HumanMethylation27 and HumanMethylation450 annotations
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/FDb.InfiniumMethylation.hg18.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fdb.infiniummethylation.hg18
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fdb.infiniummethylation.hg18/meta.yaml
 
 
 

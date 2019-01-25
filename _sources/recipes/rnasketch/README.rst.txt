@@ -11,7 +11,7 @@ RNAsketch Library for designing RNA molecules. Glue between RNAblueprint\/RNARed
 Home          https://github.com/ViennaRNA/RNAsketch
 Versions      1.5, 1.4
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasketch
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnasketch/meta.yaml
 
 
 

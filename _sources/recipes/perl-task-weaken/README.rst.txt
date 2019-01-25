@@ -11,7 +11,7 @@ Ensure that a platform has weaken support
 Home          http://metacpan.org/pod/Task-Weaken
 Versions      1.06, 1.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-task-weaken
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-task-weaken/meta.yaml
 
 
 

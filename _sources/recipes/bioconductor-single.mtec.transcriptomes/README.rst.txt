@@ -11,7 +11,7 @@ This data package contains the code used to analyse the single\-cell RNA\-seq an
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Single.mTEC.Transcriptomes.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-single.mtec.transcriptomes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-single.mtec.transcriptomes/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ GA4GHshiny package provides an easy way to interact with data servers based on G
 Home          https://bioconductor.org/packages/3.8/bioc/html/GA4GHshiny.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghshiny
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ga4ghshiny/meta.yaml
 
 
 

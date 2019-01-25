@@ -11,7 +11,7 @@ Efficient RNA\-RNA interaction prediction incorporating seeding and accessibilit
 Home          http://www.bioinf.uni-freiburg.de/Software
 Versions      2.3.1, 2.3.0, 2.2.1, 2.2.0, 2.1.0, 2.0.5, 2.0.4, 2.0.3, 2.0.2, 2.0.1, 2.0.0, 1.2.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intarna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/intarna/meta.yaml
 
 
 

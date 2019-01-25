@@ -11,7 +11,7 @@ Detects coding regions in DNA sequences even if they are of low quality. ESTScan
 Home          http://estscan.sourceforge.net
 Versions      2.1
 License       open source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-estscan2/2.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-estscan2/2.1/meta.yaml
 
 
 

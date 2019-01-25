@@ -11,7 +11,7 @@ minepy \- Maximal Information\-based Nonparametric Exploration
 Home          http://minepy.readthedocs.io
 Versions      1.2.2, 1.2.0
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/minepy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/minepy/meta.yaml
 
 
 

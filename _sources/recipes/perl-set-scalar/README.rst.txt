@@ -11,7 +11,7 @@ basic set operations
 Home          http://metacpan.org/pod/Set-Scalar
 Versions      1.29
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-set-scalar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-set-scalar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package is designed to uncover the intrinsic cell progression path from sin
 Home          https://bioconductor.org/packages/3.8/bioc/html/uSORT.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-usort
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-usort/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Analysis of dose\-response data is made available through a suite of flexible an
 Home          http://www.r-project.org, http://www.bioassay.dk
 Versions      3.0_1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-drc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-drc/meta.yaml
 
 
 

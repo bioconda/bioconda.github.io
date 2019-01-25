@@ -11,7 +11,7 @@ Nucleosome positioning for Tiling Arrays and NGS experiments.
 Home          https://bioconductor.org/packages/3.8/bioc/html/nucleR.html
 Versions      2.12.1, 2.10.0, 2.8.0
 License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nucler
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nucler/meta.yaml
 
 
 

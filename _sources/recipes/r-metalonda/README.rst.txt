@@ -11,7 +11,7 @@ Identify time intervals of differentially abundant metagenomics features in long
 Home          https://github.com/aametwally/MetaLonDA
 Versions      1.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metalonda
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-metalonda/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Suitable for de novo assembly of large and small genomes.
 Home          https://www.broadinstitute.org/software/discovar/
 Versions      52488
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/discovar-denovo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/discovar-denovo/meta.yaml
 
 
 

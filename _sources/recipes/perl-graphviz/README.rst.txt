@@ -11,7 +11,7 @@ Interface to AT\&T\'s GraphViz. Deprecated. See GraphViz2
 Home          http://metacpan.org/pod/GraphViz
 Versions      2.24, 2.20
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graphviz
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-graphviz/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name Soybean
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.soybean.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.soybean
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.soybean/meta.yaml
 
 
 

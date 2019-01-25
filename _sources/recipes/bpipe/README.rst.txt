@@ -11,7 +11,7 @@ Bpipe \- a tool for running and managing bioinformatics pipelines
 Home          http://docs.bpipe.org/
 Versions      0.9.9.2
 License       BSD-3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bpipe
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bpipe/meta.yaml
 
 
 

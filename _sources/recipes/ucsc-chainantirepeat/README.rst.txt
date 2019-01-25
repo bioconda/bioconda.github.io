@@ -11,7 +11,7 @@ Get rid of chains that are primarily the results of repeats and degenerate DNA
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-chainantirepeat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-chainantirepeat/meta.yaml
 
 
 

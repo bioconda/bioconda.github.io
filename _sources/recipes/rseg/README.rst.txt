@@ -11,7 +11,7 @@ The RSEG software package is used to analyze ChIP\-Seq data\, especially for ide
 Home          http://smithlabresearch.org/software/rseg
 Versions      0.4.9
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rseg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rseg/meta.yaml
 
 
 

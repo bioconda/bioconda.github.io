@@ -11,7 +11,7 @@ The package is able to perform an automatic or interactive quality control on FC
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowAI.html
 Versions      1.10.1, 1.6.2, 1.4.4, 1.2.9, 1.2.8
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowai
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowai/meta.yaml
 
 
 

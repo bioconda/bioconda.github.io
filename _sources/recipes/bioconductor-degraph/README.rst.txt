@@ -11,7 +11,7 @@ DEGraph implements recent hypothesis testing methods which directly assess wheth
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEGraph.html
 Versions      1.32.0, 1.30.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-degraph
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-degraph/meta.yaml
 
 
 

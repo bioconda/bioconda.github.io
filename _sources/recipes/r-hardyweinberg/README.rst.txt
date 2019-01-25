@@ -11,7 +11,7 @@ Contains tools for exploring Hardy\-Weinberg equilibrium \(Hardy\, 1908\;  Weinb
 Home          https://www.r-project.org, http://www-eio.upc.edu/~jan
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-hardyweinberg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-hardyweinberg/meta.yaml
 
 
 

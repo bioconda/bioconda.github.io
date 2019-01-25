@@ -11,7 +11,7 @@ A visual and interactive web application using RStudio\'s shiny package. Bad qua
 Home          https://bioconductor.org/packages/3.8/bioc/html/MethylAid.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methylaid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-methylaid/meta.yaml
 
 
 

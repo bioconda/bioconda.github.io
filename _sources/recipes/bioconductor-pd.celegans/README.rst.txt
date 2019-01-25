@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name Celegans
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.celegans.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.celegans
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.celegans/meta.yaml
 
 
 

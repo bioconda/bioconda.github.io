@@ -11,7 +11,7 @@ Profile maximum likelihood estimation of parameters for flow cytometry data tran
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowTrans.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowtrans
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowtrans/meta.yaml
 
 
 

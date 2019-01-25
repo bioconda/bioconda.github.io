@@ -11,7 +11,7 @@ PanOCT\, Pan\-genome Ortholog Clustering Tool\, is a program for pan\-genomic an
 Home          https://panoct.sourceforge.io/
 Versions      3.23
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/panoct
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/panoct/meta.yaml
 
 
 

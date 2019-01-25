@@ -11,7 +11,7 @@ The soGGi package provides a toolset to create genomic interval aggregate\/summa
 Home          https://bioconductor.org/packages/3.8/bioc/html/soGGi.html
 Versions      1.12.0, 1.10.0, 1.8.0
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-soggi
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-soggi/meta.yaml
 
 
 

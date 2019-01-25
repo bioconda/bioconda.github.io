@@ -11,7 +11,7 @@ Useful utility functions used at the Harvard Chan School Bioinformatics core
 Home          https://github.com/hbc/CHBUtils
 Versions      0.1_2015_12_21
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-chbutils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-chbutils/meta.yaml
 
 
 

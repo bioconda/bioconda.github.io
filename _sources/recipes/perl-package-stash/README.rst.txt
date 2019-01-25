@@ -11,7 +11,7 @@ routines for manipulating stashes
 Home          http://metacpan.org/release/Package-Stash
 Versions      0.38, 0.37
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-package-stash/meta.yaml
 
 
 

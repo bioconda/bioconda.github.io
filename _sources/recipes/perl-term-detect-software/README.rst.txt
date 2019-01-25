@@ -11,7 +11,7 @@ Detect terminal \(emulator\) software and its capabilities
 Home          https://metacpan.org/release/Term-Detect-Software
 Versions      0.21
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-detect-software
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-term-detect-software/meta.yaml
 
 
 

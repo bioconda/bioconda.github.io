@@ -11,7 +11,7 @@ Package with metadata for genotyping Illumina Omni Express 12 arrays using the \
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/humanomniexpress12v1bCrlmm.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanomniexpress12v1bcrlmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-humanomniexpress12v1bcrlmm/meta.yaml
 
 
 

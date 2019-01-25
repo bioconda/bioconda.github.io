@@ -11,7 +11,7 @@ Statistical tests for label\-free LC\-MS\/MS data by spectral counts\, to discov
 Home          https://bioconductor.org/packages/3.8/bioc/html/msmsTests.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msmstests
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msmstests/meta.yaml
 
 
 

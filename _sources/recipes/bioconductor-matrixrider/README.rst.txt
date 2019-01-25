@@ -11,7 +11,7 @@ Calculates a single number for a whole sequence that reflects the propensity of 
 Home          https://bioconductor.org/packages/3.8/bioc/html/MatrixRider.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-matrixrider
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-matrixrider/meta.yaml
 
 
 

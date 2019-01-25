@@ -11,7 +11,7 @@ This package contains the experimental data and a complete executable transcript
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Hiiragi2013.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiiragi2013
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hiiragi2013/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ PRINSEQ can be used to filter\, reformat\, or trim your genomic and metagenomic 
 Home          http://prinseq.sourceforge.net/
 Versions      0.20.4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prinseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prinseq/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Quality control\, quality trimming\, adapter removal and sequence content check 
 Home          https://gitlab.com/RKIBioinformaticsPipelines/QCumber
 Versions      2.0.4
 License       LGPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qcumber
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qcumber/meta.yaml
 
 
 

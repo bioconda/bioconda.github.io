@@ -11,7 +11,7 @@ Read and write a subset of YAML for CPAN Meta files
 Home          https://github.com/Perl-Toolchain-Gang/CPAN-Meta-YAML
 Versions      0.018
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta-yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cpan-meta-yaml/meta.yaml
 
 
 

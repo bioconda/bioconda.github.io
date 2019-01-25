@@ -11,7 +11,7 @@ introspect overloaded operators
 Home          http://metacpan.org/pod/Devel::OverloadInfo
 Versions      0.005
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-overloadinfo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-overloadinfo/meta.yaml
 
 
 

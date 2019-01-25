@@ -11,7 +11,7 @@ This package implements an approach for scanning the genome to detect and perfor
 Home          https://bioconductor.org/packages/3.8/bioc/html/dmrseq.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmrseq/meta.yaml
 
 
 

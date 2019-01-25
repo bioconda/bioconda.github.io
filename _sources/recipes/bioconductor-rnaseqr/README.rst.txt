@@ -11,7 +11,7 @@ This R package is designed for case\-control RNA\-Seq analysis \(two\-group\). T
 Home          https://bioconductor.org/packages/3.8/bioc/html/RNASeqR.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnaseqr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Assorted tools for interacting with .gct\, .gctx\, .grp\, and .gmt files as well
 Home          https://github.com/cmap/cmapPy
 Versions      3.3.3, 3.3.0, 3.2.0, 3.1.1, 3.0.0, 2.2.2, 2.2.1, 2.2.0, 2.1.0, 2.0.1, 1.1.1, 1.0.9
 License       BSD 3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cmappy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cmappy/meta.yaml
 
 
 

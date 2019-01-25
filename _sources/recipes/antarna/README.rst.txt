@@ -11,7 +11,7 @@ antaRNA is a python based implementation of ant\-colony optimization of the RNA 
 Home          https://github.com/RobertKleinkauf/antarna
 Versions      2.0.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/antarna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/antarna/meta.yaml
 
 
 

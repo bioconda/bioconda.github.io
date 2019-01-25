@@ -11,7 +11,7 @@ Tools for handling barcodes in NGS data.
 Home          https://github.com/dmaticzka/bctools
 Versions      0.2.2, 0.2.1
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bctools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bctools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Make histogram of coverage percentage of mRNA in psl.
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslmrnacover
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-pslmrnacover/meta.yaml
 
 
 

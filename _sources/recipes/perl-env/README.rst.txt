@@ -11,7 +11,7 @@ perl module that imports environment variables as scalars or arrays
 Home          http://search.cpan.org/dist/Env
 Versions      1.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-env
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-env/meta.yaml
 
 
 

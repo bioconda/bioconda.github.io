@@ -11,7 +11,7 @@ The project is intended to support the use of sequins \(synthetic sequencing spi
 Home          https://bioconductor.org/packages/3.8/bioc/html/Anaquin.html
 Versions      
 License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-anaquin
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-anaquin/meta.yaml
 
 
 

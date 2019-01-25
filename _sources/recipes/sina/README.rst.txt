@@ -15,7 +15,7 @@ search results.
 Home          https://github.com/epruesse/SINA
 Versions      1.4.0, 1.3.5, 1.3.4, 1.3.1, 1.3.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sina
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sina/meta.yaml
 
 
 

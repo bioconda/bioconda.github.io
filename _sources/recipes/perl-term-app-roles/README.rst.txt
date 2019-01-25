@@ -11,7 +11,7 @@ Collection of roles for terminal\-based application
 Home          https://metacpan.org/release/Term-App-Roles
 Versions      0.02, 0.01
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-app-roles
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-term-app-roles/meta.yaml
 
 
 

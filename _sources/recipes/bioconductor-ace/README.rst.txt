@@ -11,7 +11,7 @@ Uses segmented copy number data to estimate tumor cell percentage and produce co
 Home          https://bioconductor.org/packages/3.8/bioc/html/ACE.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ace
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ace/meta.yaml
 
 
 

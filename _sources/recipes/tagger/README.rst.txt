@@ -11,7 +11,7 @@ tagger allows you to tag a corpus of documents with search terms that you provid
 Home          https://bitbucket.org/larsjuhljensen/tagger
 Versions      1.1
 License       BSD 2-Clause License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tagger
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tagger/meta.yaml
 
 
 

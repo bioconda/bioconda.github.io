@@ -11,7 +11,7 @@ Encoding and decoding of quoted\-printable strings
 Home          http://metacpan.org/pod/MIME::QuotedPrint
 Versions      3.13
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-mime-quotedprint/3.13
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mime-quotedprint/3.13/meta.yaml
 
 
 

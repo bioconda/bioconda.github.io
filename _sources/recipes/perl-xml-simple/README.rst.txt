@@ -11,7 +11,7 @@ An API for simple XML files
 Home          http://metacpan.org/pod/XML-Simple
 Versions      2.25, 2.22
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-simple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-simple/meta.yaml
 
 
 

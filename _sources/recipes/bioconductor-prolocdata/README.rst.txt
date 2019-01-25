@@ -11,7 +11,7 @@ Mass\-spectrometry based spatial proteomics data sets and protein complex separa
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pRolocdata.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prolocdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-prolocdata/meta.yaml
 
 
 

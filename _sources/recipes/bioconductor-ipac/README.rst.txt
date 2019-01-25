@@ -11,7 +11,7 @@ iPAC is a novel tool to identify somatic amino acid mutation clustering within p
 Home          https://bioconductor.org/packages/3.8/bioc/html/iPAC.html
 Versions      1.24.2, 1.22.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ipac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ipac/meta.yaml
 
 
 

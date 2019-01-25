@@ -11,7 +11,7 @@ The single cell genotyper \(SCG\)\: \"Roth A\, McPherson A\, Laks E\, Biele J\, 
 Home          https://bitbucket.org/aroth85/scg/wiki/Home
 Versions      0.3.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scg/meta.yaml
 
 
 

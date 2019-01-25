@@ -11,7 +11,7 @@ This package computes informative enrichment and quality measures for ChIP\-seq\
 Home          https://github.com/kundajelab/phantompeakqualtools
 Versions      1.2
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phantompeakqualtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phantompeakqualtools/meta.yaml
 
 
 

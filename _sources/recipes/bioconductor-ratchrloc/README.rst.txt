@@ -11,7 +11,7 @@ Annotation data file for ratCHRLOC assembled using data from public data reposit
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ratCHRLOC.html
 Versions      
 License       The Artistic License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ratchrloc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ratchrloc/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Large\-scale identification and advanced visualization of sets of conserved nonc
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNEr.html
 Versions      1.16.1, 1.14.0, 1.12.1, 1.10.2
 License       GPL-2 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cner
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cner/meta.yaml
 
 
 

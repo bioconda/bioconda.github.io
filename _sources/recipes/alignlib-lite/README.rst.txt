@@ -11,7 +11,7 @@ Simple wrapper around alignlib C\+\+ library for sequence alignment
 Home          http://sourceforge.net/projects/alignlib/
 Versions      0.3, 0.2.3
 License       GPL-2.0-or-later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/alignlib-lite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/alignlib-lite/meta.yaml
 
 
 

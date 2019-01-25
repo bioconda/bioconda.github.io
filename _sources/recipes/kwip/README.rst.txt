@@ -11,7 +11,7 @@ kWIP implements a de novo\, alignment free measure of sample genetic dissimilari
 Home          https://github.com/kdmurray91/kWIP
 Versions      0.2.0
 License       GNU General Public License version 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kwip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kwip/meta.yaml
 
 
 

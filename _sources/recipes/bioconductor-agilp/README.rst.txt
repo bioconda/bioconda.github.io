@@ -11,7 +11,7 @@ More about what it does \(maybe more than one line\)
 Home          https://bioconductor.org/packages/3.8/bioc/html/agilp.html
 Versions      3.12.0, 3.10.0, 3.8.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-agilp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-agilp/meta.yaml
 
 
 

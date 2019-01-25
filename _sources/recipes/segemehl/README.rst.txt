@@ -11,7 +11,7 @@ Short read mapping with gaps
 Home          http://www.bioinf.uni-leipzig.de/Software/segemehl/
 Versions      0.3.4, 0.3.1, 0.2.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segemehl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/segemehl/meta.yaml
 
 
 

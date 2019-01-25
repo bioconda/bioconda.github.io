@@ -11,7 +11,7 @@ R based Genetic algorithm for gene expression optimization by considering both m
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneGA.html
 Versions      1.30.0, 1.28.0
 License       GPL version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genega
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genega/meta.yaml
 
 
 

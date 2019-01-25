@@ -11,7 +11,7 @@ A tool for hierarchically clustering on a sparse graph
 Home          http://treesoft.sourceforge.net/treebest.shtml
 Versions      1.9.2.post0, 1.9.2_ep78
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/treebest
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/treebest/meta.yaml
 
 
 

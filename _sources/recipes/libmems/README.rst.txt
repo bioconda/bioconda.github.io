@@ -11,7 +11,7 @@ libMems is a freely available software development library to support DNA string
 Home          http://darlinglab.org/mauve/
 Versions      1.6.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libmems
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libmems/meta.yaml
 
 
 

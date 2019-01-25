@@ -11,7 +11,7 @@ Rapid tool to check taxonomic ID of single isolate samples. Currently only IDs S
 Home          https://github.com/hcdenbakker/SalmID
 Versions      
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/salmid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/salmid/meta.yaml
 
 
 

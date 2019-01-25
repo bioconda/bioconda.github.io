@@ -11,7 +11,7 @@ BBMap is a short read aligner\, as well as various other bioinformatic tools.
 Home          https://sourceforge.net/projects/bbmap
 Versions      38.22, 38.20, 38.19, 38.18, 38.16, 38.06, 37.99, 37.96, 37.95, 37.90, 37.78, 37.77, 37.75, 37.66, 37.62, 37.52, 37.17, 37.10, 37.02, 36.84, 36.32, 35.85
 License       UC-LBL license (see package)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bbmap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bbmap/meta.yaml
 
 Documentation https://jgi.doe.gov/data-and-tools/bbtools/bb-tools-user-guide/
 

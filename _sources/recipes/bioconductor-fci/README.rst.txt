@@ -11,7 +11,7 @@ bioconductor-fci
 Home          https://bioconductor.org/packages/3.8/bioc/html/fCI.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fci
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fci/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides a RangedSummarizedExperiment object of read counts in gene
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/airway.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-airway
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-airway/meta.yaml
 
 
 

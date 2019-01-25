@@ -11,7 +11,7 @@ Generates Rd files from R source code with comments. The main features of the de
 Home          http://inlinedocs.r-forge.r-project.org
 Versions      2013.9.3
 License       GPL-2 | GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-inlinedocs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-inlinedocs/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Arbitrary size floating point math package
 Home          http://metacpan.org/pod/Math::BigInt
 Versions      1.999816, 1.999813
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-bigint
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-bigint/meta.yaml
 
 
 

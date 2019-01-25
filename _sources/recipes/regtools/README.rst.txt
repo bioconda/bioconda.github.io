@@ -11,7 +11,7 @@ Tools that integrate DNA\-seq and RNA\-seq data to help interpret mutations in a
 Home          https://github.com/griffithlab/regtools/
 Versions      0.5.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/regtools/meta.yaml
 
 
 

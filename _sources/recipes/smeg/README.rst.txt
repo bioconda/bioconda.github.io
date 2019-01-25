@@ -11,7 +11,7 @@ Strain\-level MEtagenomic Growth estimation \(SMEG\) measures growth rates of mi
 Home          https://github.com/ohlab/SMEG
 Versions      1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smeg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/smeg/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A pipeline for identifying differentially methylated CpG sites using Hidden Mark
 Home          https://bioconductor.org/packages/3.8/bioc/html/DMCHMM.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmchmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmchmm/meta.yaml
 
 
 

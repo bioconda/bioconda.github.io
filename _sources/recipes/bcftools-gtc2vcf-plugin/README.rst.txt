@@ -11,7 +11,7 @@ Tools to convert Illumina and Affymetrix array intensity data files into VCF fil
 Home          https://github.com/freeseek/gtc2vcf
 Versions      1.9
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcftools-gtc2vcf-plugin/1.9
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcftools-gtc2vcf-plugin/1.9/meta.yaml
 
 
 

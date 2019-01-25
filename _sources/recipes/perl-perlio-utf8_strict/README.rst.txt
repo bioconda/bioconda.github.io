@@ -11,7 +11,7 @@ Fast and correct UTF\-8 IO
 Home          http://metacpan.org/pod/PerlIO::utf8_strict
 Versions      0.007, 0.006
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-perlio-utf8_strict
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perlio-utf8_strict/meta.yaml
 
 
 

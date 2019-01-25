@@ -11,7 +11,7 @@ Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg38\, De
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Hsapiens.UCSC.hg38.html
 Versions      1.4.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.hsapiens.ucsc.hg38/meta.yaml
 
 
 

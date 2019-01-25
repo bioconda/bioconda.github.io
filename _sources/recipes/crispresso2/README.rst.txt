@@ -11,7 +11,7 @@ A software pipeline designed to enable rapid and intuitive interpretation of gen
 Home          https://github.com/pinellolab/CRISPResso2
 Versions      2.0.23
 License       Partners
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crispresso2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/crispresso2/meta.yaml
 
 
 

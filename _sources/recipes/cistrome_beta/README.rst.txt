@@ -11,7 +11,7 @@ Binding and Expression Target Analysis of ChIP\-seq TF with differential gene ex
 Home          https://github.com/hanfeisun/BETA
 Versions      1.0.7
 License       This code is free software; you can redistribute it and/or modify it.
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cistrome_beta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cistrome_beta/meta.yaml
 
 
 

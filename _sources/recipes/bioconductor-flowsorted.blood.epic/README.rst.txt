@@ -11,7 +11,7 @@ Raw data objects to be used for blood cell proportion estimation in minfi and si
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/FlowSorted.Blood.EPIC.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowsorted.blood.epic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowsorted.blood.epic/meta.yaml
 
 
 

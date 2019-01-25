@@ -11,7 +11,7 @@ Install shared files
 Home          https://github.com/Perl-Toolchain-Gang/File-ShareDir-Install
 Versions      0.13, 0.10
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir-install
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-sharedir-install/meta.yaml
 
 
 

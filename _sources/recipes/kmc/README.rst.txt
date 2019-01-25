@@ -11,7 +11,7 @@ K\-mer Counter is a utility designed for counting k\-mers \(sequences of consecu
 Home          http://sun.aei.polsl.pl/kmc/
 Versions      3.1.1rc1, 3.1.0, 3.0.1, 3.0.0, 2.3.0
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kmc/meta.yaml
 
 
 

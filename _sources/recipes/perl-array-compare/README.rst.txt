@@ -11,7 +11,7 @@ Perl extension for comparing arrays.
 Home          http://metacpan.org/pod/Array::Compare
 Versions      3.0.1, 2.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-compare
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-array-compare/meta.yaml
 
 
 

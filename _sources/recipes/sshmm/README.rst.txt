@@ -11,7 +11,7 @@ ssHMM is an RNA motif finder that recovers sequence\-structure motifs from RNA\-
 Home          https://github.molgen.mpg.de/heller/ssHMM
 Versions      1.0.7
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sshmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sshmm/meta.yaml
 
 
 

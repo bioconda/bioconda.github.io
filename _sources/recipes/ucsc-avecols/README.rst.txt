@@ -11,7 +11,7 @@ average together columns
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-avecols
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-avecols/meta.yaml
 
 
 

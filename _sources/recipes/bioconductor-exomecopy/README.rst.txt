@@ -11,7 +11,7 @@ Detection of copy number variants \(CNV\) from exome sequencing samples\, includ
 Home          https://bioconductor.org/packages/3.8/bioc/html/exomeCopy.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-exomecopy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-exomecopy/meta.yaml
 
 
 

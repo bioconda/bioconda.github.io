@@ -11,7 +11,7 @@ Pipeline for detecting mis\-assemblies in metagenomic assemblies
 Home          https://github.com/marbl/VALET
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/valet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/valet/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A C\+\+ development library designed to make common operations on DNA and protei
 Home          http://darlinglab.org/mauve/
 Versions      1.3.1
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libgenome
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libgenome/meta.yaml
 
 
 

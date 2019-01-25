@@ -11,7 +11,7 @@ The MAIT package contains functions to perform end\-to\-end statistical analysis
 Home          https://bioconductor.org/packages/3.8/bioc/html/MAIT.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mait
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mait/meta.yaml
 
 
 

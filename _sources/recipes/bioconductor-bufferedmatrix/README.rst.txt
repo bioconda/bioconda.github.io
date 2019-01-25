@@ -11,7 +11,7 @@ A tabular style data object where most data is stored outside main memory. A buf
 Home          https://bioconductor.org/packages/3.8/bioc/html/BufferedMatrix.html
 Versions      1.44.0, 1.42.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bufferedmatrix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bufferedmatrix/meta.yaml
 
 
 

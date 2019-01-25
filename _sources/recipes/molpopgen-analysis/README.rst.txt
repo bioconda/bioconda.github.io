@@ -11,7 +11,7 @@ Deprecated and no longer maintained programs for the \(pre\-NGS\-era\) analysis 
 Home          https://github.com/molpopgen/analysis
 Versions      0.8.8
 License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/molpopgen-analysis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/molpopgen-analysis/meta.yaml
 
 
 

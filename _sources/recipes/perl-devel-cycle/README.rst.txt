@@ -11,7 +11,7 @@ Find memory cycles in objects
 Home          http://metacpan.org/pod/Devel::Cycle
 Versions      1.12
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-cycle
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-cycle/meta.yaml
 
 
 

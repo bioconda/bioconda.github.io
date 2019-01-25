@@ -11,7 +11,7 @@ Date manipulation routines
 Home          http://metacpan.org/pod/Date::Manip
 Versions      6.75, 6.73, 6.72, 6.57
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-date-manip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-date-manip/meta.yaml
 
 
 

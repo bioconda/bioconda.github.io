@@ -11,7 +11,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Mmusculus.UCSC.mm10.ensGene.html
 Versions      3.4.0, 3.2.2
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.mmusculus.ucsc.mm10.ensgene/meta.yaml
 
 
 

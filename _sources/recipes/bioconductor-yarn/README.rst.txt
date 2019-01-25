@@ -11,7 +11,7 @@ Expedite large RNA\-Seq analyses using a combination of previously developed too
 Home          https://bioconductor.org/packages/3.8/bioc/html/yarn.html
 Versions      1.6.0, 1.4.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-yarn
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-yarn/meta.yaml
 
 
 

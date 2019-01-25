@@ -11,7 +11,7 @@ Perl module for extracting the content contained in tables within an HTML docume
 Home          http://metacpan.org/pod/HTML-TableExtract
 Versions      2.13
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tableextract
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-tableextract/meta.yaml
 
 
 

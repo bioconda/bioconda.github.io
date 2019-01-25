@@ -11,7 +11,7 @@ A pipeline which processes single cell RNA\-seq \(scRNA\-seq\) reads from CEL\-s
 Home          https://bioconductor.org/packages/3.8/bioc/html/scruff.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scruff
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scruff/meta.yaml
 
 
 

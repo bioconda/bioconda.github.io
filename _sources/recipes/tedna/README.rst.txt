@@ -11,7 +11,7 @@ Tedna is a lightweight de novo transposable element assembler
 Home          https://urgi.versailles.inra.fr/Tools/Tedna
 Versions      1.2.2
 License       GNU Affero General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tedna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tedna/meta.yaml
 
 
 

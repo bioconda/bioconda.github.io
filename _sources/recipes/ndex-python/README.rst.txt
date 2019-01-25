@@ -11,7 +11,7 @@ NDEx Python includes a client and a data model.
 Home          https://github.com/ndexbio/ndex-python
 Versions      3.0.11.23
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ndex-python
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ndex-python/meta.yaml
 
 
 

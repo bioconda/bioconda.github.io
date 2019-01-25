@@ -11,7 +11,7 @@ Mass cytometry \(CyTOF\) uses heavy metal isotopes rather than fluorescent tags 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CATALYST.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-catalyst
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-catalyst/meta.yaml
 
 
 

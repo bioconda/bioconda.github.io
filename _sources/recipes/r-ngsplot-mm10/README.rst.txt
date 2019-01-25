@@ -11,7 +11,7 @@ MM10 genome database for NGSplot
 Home          https://github.com/shenlab-sinai/ngsplot
 Versions      3.00
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ngsplot-mm10
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ngsplot-mm10/meta.yaml
 
 
 

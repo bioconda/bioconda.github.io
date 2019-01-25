@@ -11,7 +11,7 @@ Package provides CNV \(based on Merge snp\) datasets from The Cancer Genome Atla
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.CNV.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtcga.cnv
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtcga.cnv/meta.yaml
 
 
 

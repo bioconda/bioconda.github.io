@@ -11,7 +11,7 @@ B Cell Receptor Repertoire Reconstruction from short read mRNA\-Seq data
 Home          https://github.com/mozack/vdjer
 Versions      0.12
 License       https://github.com/mozack/vdjer/blob/master/LICENSE.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/vdjer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vdjer/meta.yaml
 
 
 

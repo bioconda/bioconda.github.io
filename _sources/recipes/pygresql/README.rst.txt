@@ -11,7 +11,7 @@ Python PostgreSQL Interfaces
 Home          http://www.pygresql.org
 Versions      5.0.1
 License       Python Software Foundation License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pygresql
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pygresql/meta.yaml
 
 
 

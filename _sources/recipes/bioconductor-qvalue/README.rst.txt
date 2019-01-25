@@ -11,7 +11,7 @@ This package takes a list of p\-values resulting from the simultaneous testing o
 Home          https://bioconductor.org/packages/3.8/bioc/html/qvalue.html
 Versions      2.12.0, 2.10.0, 2.8.0, 2.6.0, 2.4.2, 2.2.2
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qvalue
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-qvalue/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Affymetrix time course experiment on human stem cells \(two time points\: undiff
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/humanStemCell.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humanstemcell
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-humanstemcell/meta.yaml
 
 
 

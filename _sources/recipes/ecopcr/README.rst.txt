@@ -11,7 +11,7 @@ ecoPCR is an electronic PCR software that helps you estimate Barcode primers qua
 Home          https://git.metabarcoding.org/obitools/ecopcr/wikis/home
 Versions      0.5.0
 License       CeCill v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ecopcr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ecopcr/meta.yaml
 
 
 

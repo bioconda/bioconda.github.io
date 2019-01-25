@@ -11,7 +11,7 @@ Periodogram of dinucleotide frequency pattern
 Home          https://github.com/erinijapranckeviciene/dnpatterntools
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-fourier
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dnp-fourier/meta.yaml
 
 
 

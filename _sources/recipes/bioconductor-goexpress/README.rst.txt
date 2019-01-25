@@ -11,7 +11,7 @@ The package contains methods to visualise the expression profile of genes from a
 Home          https://bioconductor.org/packages/3.8/bioc/html/GOexpress.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-goexpress
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-goexpress/meta.yaml
 
 
 

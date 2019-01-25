@@ -11,7 +11,7 @@ Automated annotation of assemblies
 Home          http://www.sanger.ac.uk/
 Versions      1.182770
 License       open_source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-automatedannotation/1.182770
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-automatedannotation/1.182770/meta.yaml
 
 
 

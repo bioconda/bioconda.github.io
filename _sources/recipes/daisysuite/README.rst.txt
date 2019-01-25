@@ -11,7 +11,7 @@ DaisySuite \- mapping\-based pipeline for horizontal gene transfer \(HGT\) detec
 Home          https://gitlab.com/eseiler/DaisySuite
 Versions      1.2.1, 1.2.0, 1.1.0, 1.0.0
 License       GNU GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/daisysuite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/daisysuite/meta.yaml
 
 
 

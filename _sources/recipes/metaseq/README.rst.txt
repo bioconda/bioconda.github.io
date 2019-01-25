@@ -11,7 +11,7 @@ Framework for integrated analysis and plotting of ChIP\/RIP\/RNA\/\*\-seq data.
 Home          http://github.com/daler/metaseq
 Versions      0.5.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaseq/meta.yaml
 
 
 

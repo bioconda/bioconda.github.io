@@ -11,7 +11,7 @@ for resolving Pod Elt...gt sequences
 Home          http://metacpan.org/pod/Pod::Escapes
 Versions      1.07
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-escapes/1.07
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-escapes/1.07/meta.yaml
 
 
 

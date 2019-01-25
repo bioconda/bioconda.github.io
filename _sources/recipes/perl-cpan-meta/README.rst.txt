@@ -11,7 +11,7 @@ the distribution metadata for a CPAN dist
 Home          https://github.com/dagolden/cpan-meta
 Versions      2.150010, 2.120921
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-cpan-meta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cpan-meta/meta.yaml
 
 
 

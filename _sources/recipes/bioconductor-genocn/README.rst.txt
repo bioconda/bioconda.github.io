@@ -11,7 +11,7 @@ Simultaneous identification of copy number states and genotype calls for regions
 Home          https://bioconductor.org/packages/3.8/bioc/html/genoCN.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genocn
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genocn/meta.yaml
 
 
 

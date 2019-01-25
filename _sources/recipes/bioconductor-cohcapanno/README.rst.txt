@@ -11,7 +11,7 @@ Provides genomic location\, nearby CpG island and nearby gene information for co
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/COHCAPanno.html
 Versions      1.16.0, 1.14.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cohcapanno
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cohcapanno/meta.yaml
 
 
 

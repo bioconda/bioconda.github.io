@@ -11,7 +11,7 @@ glmSparseNet is an R\-package that generalizes sparse regression models when the
 Home          https://bioconductor.org/packages/3.8/bioc/html/glmSparseNet.html
 Versions      
 License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-glmsparsenet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-glmsparsenet/meta.yaml
 
 
 

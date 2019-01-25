@@ -11,7 +11,7 @@ MODA can be used to estimate and construct condition\-specific gene co\-expressi
 Home          https://bioconductor.org/packages/3.8/bioc/html/MODA.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moda
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-moda/meta.yaml
 
 
 

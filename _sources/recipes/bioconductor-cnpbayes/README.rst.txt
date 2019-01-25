@@ -11,7 +11,7 @@ Bayesian hierarchical mixture models for batch effects and copy number.
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNPBayes.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnpbayes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cnpbayes/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ DeconSeq is an R package for deconvolution of heterogeneous tissues based on mRN
 Home          https://bioconductor.org/packages/3.8/bioc/html/DeconRNASeq.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deconrnaseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-deconrnaseq/meta.yaml
 
 
 

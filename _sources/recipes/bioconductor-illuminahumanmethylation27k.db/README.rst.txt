@@ -11,7 +11,7 @@ Illumina Illumina Human Methylation 27k annotation data \(chip IlluminaHumanMeth
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylation27k.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27k.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanmethylation27k.db/meta.yaml
 
 
 

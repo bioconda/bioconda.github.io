@@ -11,7 +11,7 @@ Experimental features made easy
 Home          http://metacpan.org/pod/experimental
 Versions      0.020
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-experimental
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-experimental/meta.yaml
 
 
 

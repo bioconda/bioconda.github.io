@@ -11,7 +11,7 @@ Based on external numerous data files where rfPred scores are pre\-calculated on
 Home          https://bioconductor.org/packages/3.8/bioc/html/rfPred.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL (>=2 )
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rfpred
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rfpred/meta.yaml
 
 
 

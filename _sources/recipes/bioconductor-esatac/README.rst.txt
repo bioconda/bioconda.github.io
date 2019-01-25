@@ -11,7 +11,7 @@ This package provides a framework and complete preset pipeline for quantificatio
 Home          https://bioconductor.org/packages/3.8/bioc/html/esATAC.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-esatac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-esatac/meta.yaml
 
 
 

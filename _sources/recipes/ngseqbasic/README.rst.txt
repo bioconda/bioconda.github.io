@@ -11,7 +11,7 @@ Basic ChIP\/DNaseI\/ATAC analysis \- from FASTQ to visualisation of tracks\, in 
 Home          http://userweb.molbiol.ox.ac.uk/public/telenius/NGseqBasicManual/external/instructionsBioconda.html
 Versions      2.0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngseqbasic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ngseqbasic/meta.yaml
 
 
 

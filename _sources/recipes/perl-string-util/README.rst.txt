@@ -11,7 +11,7 @@ String\:\:Util \-\- String processing utilities
 Home          http://metacpan.org/pod/String::Util
 Versions      1.26
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-string-util/1.26
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-string-util/1.26/meta.yaml
 
 
 

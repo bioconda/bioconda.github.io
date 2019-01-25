@@ -11,7 +11,7 @@ Manifest for Illumina\'s 27k array data
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylation27kmanifest.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylation27kmanifest
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanmethylation27kmanifest/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Streamed and parallel demultiplexing of fastq files in python
 Home          https://github.com/jenzopr/pydemult
 Versions      0.4.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pydemult
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pydemult/meta.yaml
 
 
 Development   https://github.com/jenzopr/pydemult

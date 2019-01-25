@@ -11,7 +11,7 @@ The package applies a functional version of principal component analysis \(FPCA\
 Home          https://bioconductor.org/packages/3.8/bioc/html/NarrowPeaks.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-narrowpeaks
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-narrowpeaks/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A set of annotation maps describing the entire Disease Ontology assembled using 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/DO.db.html
 Versions      2.9
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-do.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-do.db/meta.yaml
 
 
 

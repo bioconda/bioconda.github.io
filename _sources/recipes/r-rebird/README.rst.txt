@@ -11,7 +11,7 @@ A programmatic client for the eBird database\, including functions for searching
 Home          http://github.com/ropensci/rebird
 Versions      1.0.0, 0.5.0, 0.4.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rebird
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rebird/meta.yaml
 
 
 

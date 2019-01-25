@@ -11,7 +11,7 @@ Provides functions for creating an interactive Shiny\-based graphical user inter
 Home          https://bioconductor.org/packages/3.8/bioc/html/iSEE.html
 Versions      1.0.1
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-isee
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-isee/meta.yaml
 
 
 

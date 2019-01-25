@@ -11,7 +11,7 @@ A complete suite for gene\-by\-gene schema creation and strain identification
 Home          https://github.com/B-UMMI/chewBBACA
 Versions      2.0.16, 2.0.15, 2.0.12, 2.0.8, 2.0.6, 1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chewbbaca
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chewbbaca/meta.yaml
 
 
 

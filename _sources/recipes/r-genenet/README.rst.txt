@@ -11,7 +11,7 @@ Analyzes gene expression \(time series\) data with focus on the inference of gen
 Home          http://strimmerlab.org/software/genenet/
 Versions      1.2.13
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-genenet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-genenet/meta.yaml
 
 
 

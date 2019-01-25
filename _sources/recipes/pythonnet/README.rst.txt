@@ -11,7 +11,7 @@ pythonnet
 Home          https://pythonnet.github.io/
 Versions      2.3.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pythonnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pythonnet/meta.yaml
 
 
 

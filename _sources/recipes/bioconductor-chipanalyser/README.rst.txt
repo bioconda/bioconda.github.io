@@ -11,7 +11,7 @@ Based on a statistical thermodynamic framework\, ChIPanalyser tries to produce C
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChIPanalyser.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipanalyser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chipanalyser/meta.yaml
 
 
 

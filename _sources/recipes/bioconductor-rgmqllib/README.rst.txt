@@ -11,7 +11,7 @@ A package that contains scala libraries to call GMQL from R used by RGMQL packag
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RGMQLlib.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rgmqllib
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rgmqllib/meta.yaml
 
 
 

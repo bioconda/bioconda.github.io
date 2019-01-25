@@ -11,7 +11,7 @@ DiTASiC is designed as a comprehensive approach for abundance estimation and dif
 Home          https://rki_bioinformatics.gitlab.io/ditasic/
 Versions      0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ditasic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ditasic/meta.yaml
 
 
 

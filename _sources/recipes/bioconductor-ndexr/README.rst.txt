@@ -11,7 +11,7 @@ This package offers an interface to NDEx servers\, e.g. the public server at htt
 Home          https://bioconductor.org/packages/3.8/bioc/html/ndexr.html
 Versions      1.2.0, 1.0.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ndexr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ndexr/meta.yaml
 
 
 

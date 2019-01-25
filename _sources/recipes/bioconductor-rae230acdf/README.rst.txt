@@ -11,7 +11,7 @@ A package containing an environment representing the RAE230A.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rae230acdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rae230acdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rae230acdf/meta.yaml
 
 
 

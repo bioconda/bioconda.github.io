@@ -11,7 +11,7 @@ This package provides functions for fitting MOSAiCS and MOSAiCS\-HMM\, a statist
 Home          https://bioconductor.org/packages/3.8/bioc/html/mosaics.html
 Versions      2.18.0, 2.16.0, 2.14.0, 2.10.0, 2.4.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mosaics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mosaics/meta.yaml
 
 
 

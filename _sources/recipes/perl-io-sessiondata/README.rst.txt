@@ -11,7 +11,7 @@ supporting module for SOAP\:\:Lite
 Home          http://metacpan.org/pod/IO-SessionData
 Versions      1.03
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-sessiondata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-sessiondata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Alternating Least Squares \(or Multivariate Curve Resolution\) for analytical ch
 Home          https://bioconductor.org/packages/3.8/bioc/html/alsace.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alsace
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-alsace/meta.yaml
 
 
 

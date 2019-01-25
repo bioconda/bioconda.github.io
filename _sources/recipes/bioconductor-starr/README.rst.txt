@@ -11,7 +11,7 @@ Starr facilitates the analysis of ChIP\-chip data\, in particular that of Affyme
 Home          https://bioconductor.org/packages/3.8/bioc/html/Starr.html
 Versions      1.36.0, 1.34.0, 1.32.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-starr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-starr/meta.yaml
 
 
 

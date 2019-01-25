@@ -11,7 +11,7 @@ Efficient clustering and classification of non\-coding RNAs from short read RNA\
 Home          https://github.com/pavanvidem/blockclust
 Versions      1.1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/blockclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blockclust/meta.yaml
 
 
 

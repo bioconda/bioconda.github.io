@@ -11,7 +11,7 @@ Python library for processing imaging mass spectrometry data
 Home          https://github.com/alexandrovteam/pyImagingMSpec
 Versions      0.1.4
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyimagingmspec
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyimagingmspec/meta.yaml
 
 
 

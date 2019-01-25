@@ -11,7 +11,7 @@ A reference\-assisted assembly tool for producing draft chromosome sequences.
 Home          https://github.com/gtamazian/chromosomer
 Versions      0.1.4a
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chromosomer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chromosomer/meta.yaml
 
 
 

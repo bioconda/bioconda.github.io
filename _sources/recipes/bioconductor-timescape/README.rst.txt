@@ -11,7 +11,7 @@ TimeScape is an automated tool for navigating temporal clonal evolution data. Th
 Home          https://bioconductor.org/packages/3.8/bioc/html/timescape.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-timescape
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-timescape/meta.yaml
 
 
 

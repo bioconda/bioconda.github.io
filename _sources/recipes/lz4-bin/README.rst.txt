@@ -11,7 +11,7 @@ Extremely Fast Compression Application
 Home          http://cyan4973.github.io/lz4
 Versions      131
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lz4-bin
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lz4-bin/meta.yaml
 
 
 

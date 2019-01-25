@@ -11,7 +11,7 @@ Test that some code calls exec without terminating testing
 Home          https://metacpan.org/pod/Test::Exec
 Versions      0.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-exec
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-exec/meta.yaml
 
 
 

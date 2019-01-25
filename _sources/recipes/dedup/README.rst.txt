@@ -11,7 +11,7 @@ DeDup is a tool for read deduplication in paired\-end read merging \(e.g. for an
 Home          https://github.com/apeltzer/dedup
 Versions      0.12.3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dedup
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dedup/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A diverse collection of metabolomics related statistical tools.
 Home          https://CRAN.R-project.org/package=MetStaT
 Versions      1.0
 License       Apache License (== 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-metstat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-metstat/meta.yaml
 
 
 

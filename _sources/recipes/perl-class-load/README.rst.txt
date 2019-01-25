@@ -11,7 +11,7 @@ A working \(require \"Class\:\:Name\"\) and more
 Home          https://github.com/moose/Class-Load
 Versions      0.25, 0.23
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-class-load
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-load/meta.yaml
 
 
 

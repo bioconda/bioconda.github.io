@@ -11,7 +11,7 @@ Tools for next\-generation sequencing analysis http\:\/\/ngsutils.org
 Home          http://ngsutils.org
 Versions      0.5.9
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ngsutils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ngsutils/meta.yaml
 
 
 

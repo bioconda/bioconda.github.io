@@ -11,7 +11,7 @@ Scalable COncurrent Operations in Python
 Home          http://github.com/soravux/scoop
 Versions      0.7.1.1
 License       GNU Library or Lesser General Public License (LGPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scoop
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scoop/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name DrosGenome1
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.drosgenome1.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.drosgenome1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.drosgenome1/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Routines to handle family data with a pedigree object. The initial purpose was t
 Home          http://r-forge.r-project.org
 Versions      1.6.4
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-kinship2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-kinship2/meta.yaml
 
 
 

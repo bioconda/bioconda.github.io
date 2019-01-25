@@ -11,7 +11,7 @@ SQLAlchemy integration of jQuery DataTables
 Home          https://github.com/pegase745/sqlalchemy-datatables
 Versions      0.3.0, 0.2.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sqlalchemy-datatables
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sqlalchemy-datatables/meta.yaml
 
 
 

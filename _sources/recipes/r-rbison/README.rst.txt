@@ -11,7 +11,7 @@ Interface to the \'USGS\' \'BISON\' \(\<https\:\/\/bison.usgs.gov\/\>\) \'API\'\
 Home          https://github.com/ropensci/rbison
 Versions      0.6.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rbison
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rbison/meta.yaml
 
 
 

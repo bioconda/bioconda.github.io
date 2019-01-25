@@ -11,7 +11,7 @@ An interactive tool to visualize long vectors of integer data by means of Hilber
 Home          https://bioconductor.org/packages/3.8/bioc/html/HilbertVisGUI.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hilbertvisgui
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hilbertvisgui/meta.yaml
 
 
 

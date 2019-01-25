@@ -11,7 +11,7 @@ Exonerate \- A generic tool for pairwise sequence comparison \/ alignment
 Home          https://www.ebi.ac.uk/about/vertebrate-genomics/software/exonerate
 Versions      2.4.0, 2.2.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exonerate
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/exonerate/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A Python interface to the gnuplot plotting program.
 Home          http://gnuplot-py.sourceforge.net
 Versions      1.8
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gnuplot-py
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gnuplot-py/meta.yaml
 
 
 

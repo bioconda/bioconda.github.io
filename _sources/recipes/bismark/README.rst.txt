@@ -11,7 +11,7 @@ Bismark is a program to map bisulfite treated sequencing reads to a genome of in
 Home          https://www.bioinformatics.babraham.ac.uk/projects/bismark/
 Versions      0.20.0, 0.19.1, 0.19.0, 0.18.1, 0.17.0
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bismark
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bismark/meta.yaml
 
 
 

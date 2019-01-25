@@ -11,7 +11,7 @@ Access to processed 10x \(droplet\) and SmartSeq2 \(on FACS\-sorted cells\) sing
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/TabulaMurisData.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tabulamurisdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tabulamurisdata/meta.yaml
 
 
 

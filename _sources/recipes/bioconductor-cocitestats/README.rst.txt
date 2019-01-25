@@ -11,7 +11,7 @@ A collection of software tools for dealing with co\-citation data.
 Home          https://bioconductor.org/packages/3.8/bioc/html/CoCiteStats.html
 Versions      
 License       CPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cocitestats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cocitestats/meta.yaml
 
 
 

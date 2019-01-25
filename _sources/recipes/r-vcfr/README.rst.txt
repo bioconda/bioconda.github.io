@@ -11,7 +11,7 @@ Facilitates easy manipulation of variant call format \(VCF\) data. Functions are
 Home          https://github.com/knausb/vcfR, https://knausb.github.io/vcfR_documentation/
 Versions      1.8.0, 1.5.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-vcfr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-vcfr/meta.yaml
 
 
 

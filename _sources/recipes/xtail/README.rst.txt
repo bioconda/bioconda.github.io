@@ -11,7 +11,7 @@ Genome\-wide assessment of differential translations with ribosome profiling dat
 Home          https://github.com/xryanglab/xtail
 Versions      1.1.5
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtail
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xtail/meta.yaml
 
 
 

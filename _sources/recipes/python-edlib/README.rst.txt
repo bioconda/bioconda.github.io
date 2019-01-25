@@ -11,7 +11,7 @@ Lightweight\, super fast C\/C\+\+ \(\& Python\) library for sequence alignment u
 Home          https://github.com/Martinsos/edlib
 Versions      1.2.3.post1, 1.2.3
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-edlib
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-edlib/meta.yaml
 
 
 

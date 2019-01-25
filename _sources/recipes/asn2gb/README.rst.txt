@@ -11,7 +11,7 @@ asn2gb converts ASN1 format sequence records to Genbank format
 Home          https://www.ncbi.nlm.nih.gov/IEB/ToolBox/C_DOC/lxr/source/doc/asn2gb.txt
 Versions      18.2
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/asn2gb
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/asn2gb/meta.yaml
 
 
 

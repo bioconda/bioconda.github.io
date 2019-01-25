@@ -11,7 +11,7 @@ p7zip is a quick port of 7z.exe and 7za.exe \(command line version of 7zip\, see
 Home          http://sourceforge.net/projects/p7zip/
 Versions      15.09
 License       LGPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/p7zip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/p7zip/meta.yaml
 
 
 

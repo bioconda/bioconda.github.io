@@ -11,7 +11,7 @@ MUSCLE\: multiple sequence alignment with high accuracy and high throughput
 Home          http://www.drive5.com/muscle/
 Versions      3.8.1551, 3.8.31
 License       http://www.drive5.com/muscle/manual/license.html
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muscle
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/muscle/meta.yaml
 
 
 

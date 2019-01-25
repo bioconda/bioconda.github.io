@@ -11,7 +11,7 @@ TEPID uses paired\-end illumina sequencing reads to identify novel TE variants.
 Home          https://github.com/ListerLab/TEPID
 Versions      0.8, 0.7
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tepid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tepid/meta.yaml
 
 
 

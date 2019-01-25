@@ -11,7 +11,7 @@ HiCcompare provides functions for joint normalization and difference detection i
 Home          https://bioconductor.org/packages/3.8/bioc/html/HiCcompare.html
 Versions      1.2.0, 1.0.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hiccompare
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hiccompare/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ a perl 5 module for sorting of revision\-like numbers
 Home          https://github.com/neilb/Sort-Versions
 Versions      1.62
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sort-versions
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sort-versions/meta.yaml
 
 
 

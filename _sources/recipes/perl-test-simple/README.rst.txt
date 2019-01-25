@@ -11,7 +11,7 @@ Basic utilities for writing tests.
 Home          http://metacpan.org/pod/Test-Simple
 Versions      1.302156, 1.302141, 1.302140, 1.302075, 1.302052
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-simple
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-simple/meta.yaml
 
 
 

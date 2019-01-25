@@ -11,7 +11,7 @@ Implements default import method for modules
 Home          http://metacpan.org/pod/Exporter
 Versions      5.72
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-exporter/5.72
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-exporter/5.72/meta.yaml
 
 
 

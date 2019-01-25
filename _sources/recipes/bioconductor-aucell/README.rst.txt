@@ -11,7 +11,7 @@ AUCell allows to identify cells with active gene sets \(e.g. signatures\, gene m
 Home          https://bioconductor.org/packages/3.8/bioc/html/AUCell.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-aucell
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-aucell/meta.yaml
 
 
 

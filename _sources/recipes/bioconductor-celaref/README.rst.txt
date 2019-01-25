@@ -11,7 +11,7 @@ After the clustering step of a single\-cell RNAseq experiment\, this package aim
 Home          https://bioconductor.org/packages/3.8/bioc/html/celaref.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celaref
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-celaref/meta.yaml
 
 
 

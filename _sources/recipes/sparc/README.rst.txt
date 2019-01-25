@@ -11,7 +11,7 @@ A sparsity\-based consensus algorithm for long erroneous sequencing reads.
 Home          https://github.com/yechengxi/Sparc
 Versions      20160205
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sparc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sparc/meta.yaml
 
 
 

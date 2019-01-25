@@ -11,7 +11,7 @@ eXpress is a streaming DNA\/RNA sequence quantification tool.
 Home          http://bio.math.berkeley.edu/eXpress/
 Versions      1.5.1
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/express
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/express/meta.yaml
 
 
 

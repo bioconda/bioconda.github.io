@@ -11,7 +11,7 @@ A package for nonlinear dimension reduction using the Isomap and LLE algorithm. 
 Home          https://bioconductor.org/packages/3.8/bioc/html/RDRToolbox.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rdrtoolbox
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rdrtoolbox/meta.yaml
 
 
 

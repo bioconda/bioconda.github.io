@@ -11,7 +11,7 @@ A graph\-inspired data structure for determining likely chains of sequences from
 Home          https://github.com/SamStudio8/hansel
 Versions      0.0.81
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hanselx
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hanselx/meta.yaml
 
 
 

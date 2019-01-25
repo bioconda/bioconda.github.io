@@ -11,7 +11,7 @@ Simple\, rapid\, and statistically efficient test for recombination.
 Home          http://www.maths.otago.ac.nz/~dbryant/software.html
 Versions      1.0
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/phipack
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phipack/meta.yaml
 
 
 

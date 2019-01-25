@@ -11,7 +11,7 @@ The core function of this R package is to provide the implementation of the well
 Home          https://bioconductor.org/packages/3.8/bioc/html/QUBIC.html
 Versions      
 License       CC BY-NC-ND 4.0 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-qubic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-qubic/meta.yaml
 
 
 

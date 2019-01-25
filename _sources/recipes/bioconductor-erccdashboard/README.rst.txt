@@ -11,7 +11,7 @@ Technical performance metrics for differential gene expression experiments using
 Home          https://bioconductor.org/packages/3.8/bioc/html/erccdashboard.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-erccdashboard
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-erccdashboard/meta.yaml
 
 
 

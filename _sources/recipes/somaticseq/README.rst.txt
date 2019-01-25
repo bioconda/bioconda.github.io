@@ -11,7 +11,7 @@ An ensemble approach to accurately detect somatic mutations
 Home          http://bioinform.github.io/somaticseq/
 Versions      2.8.1
 License       2-clause BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/somaticseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/somaticseq/meta.yaml
 
 
 

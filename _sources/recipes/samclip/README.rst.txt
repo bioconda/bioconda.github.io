@@ -11,7 +11,7 @@ Filter SAM file for soft and hard clipped alignments
 Home          https://github.com/tseemann/samclip
 Versions      0.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samclip
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/samclip/meta.yaml
 
 
 

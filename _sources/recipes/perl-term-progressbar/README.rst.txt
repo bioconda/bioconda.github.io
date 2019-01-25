@@ -11,7 +11,7 @@ provide a progress meter on a standard terminal
 Home          http://metacpan.org/pod/Term::ProgressBar
 Versions      2.22, 2.21
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-term-progressbar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-term-progressbar/meta.yaml
 
 
 

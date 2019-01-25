@@ -11,7 +11,7 @@ Generic Config Module
 Home          http://metacpan.org/pod/Config-General
 Versions      2.63, 2.61
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-config-general
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-config-general/meta.yaml
 
 
 

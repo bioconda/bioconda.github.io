@@ -11,7 +11,7 @@ High performance UniFrac
 Home          https://github.com/biocore/unifrac
 Versions      0.9.3
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unifrac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/unifrac/meta.yaml
 
 
 

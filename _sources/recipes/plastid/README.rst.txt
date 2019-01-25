@@ -11,7 +11,7 @@ plastid is a Python library for genomic analysis \-\- in particular\, high\-thro
 Home          http://plastid.readthedocs.io/en/latest/
 Versions      0.4.8, 0.4.7
 License       BSD 3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plastid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plastid/meta.yaml
 
 
 

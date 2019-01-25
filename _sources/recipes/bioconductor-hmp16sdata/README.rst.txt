@@ -11,7 +11,7 @@ HMP16SData is a Bioconductor ExperimentData package of the Human Microbiome Proj
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HMP16SData.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmp16sdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hmp16sdata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ lightning is a library for large\-scale linear classification\, regression and r
 Home          http://contrib.scikit-learn.org/lightning/
 Versions      0.2.dev0
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightning
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lightning/meta.yaml
 
 
 

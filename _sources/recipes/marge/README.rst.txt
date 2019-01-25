@@ -11,7 +11,7 @@ Model\-based Analysis of Regulation of Gene Expression
 Home          http://cistrome.org/MARGE
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/marge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/marge/meta.yaml
 
 
 

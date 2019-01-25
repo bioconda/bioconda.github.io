@@ -11,7 +11,7 @@ Experiment and Annotation Data files used by the examples \/ vignette in the wav
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/waveTilingData.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wavetilingdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-wavetilingdata/meta.yaml
 
 
 

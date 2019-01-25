@@ -11,7 +11,7 @@ The CLL package contains the chronic lymphocytic leukemia \(CLL\) gene expressio
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CLL.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cll
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cll/meta.yaml
 
 
 

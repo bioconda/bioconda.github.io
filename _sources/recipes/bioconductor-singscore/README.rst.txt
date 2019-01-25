@@ -11,7 +11,7 @@ A simple single\-sample gene signature scoring method that uses rank\-based stat
 Home          https://bioconductor.org/packages/3.8/bioc/html/singscore.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-singscore
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-singscore/meta.yaml
 
 
 

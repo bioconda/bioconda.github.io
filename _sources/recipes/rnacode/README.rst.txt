@@ -11,7 +11,7 @@ RNAcode \- Analyze the protein coding potential in multiple sequence alignments 
 Home          http://wash.github.io/rnacode/
 Versions      0.3
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnacode/0.3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnacode/0.3/meta.yaml
 
 
 

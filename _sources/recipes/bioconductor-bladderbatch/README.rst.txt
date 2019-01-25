@@ -11,7 +11,7 @@ This package contains microarray gene expression data on 57 bladder samples from
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/bladderbatch.html
 Versions      1.18.0, 1.14.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bladderbatch
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bladderbatch/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ dsQTL\, excerpt from Degner et al. 2012 Nature letter on DNA variants associated
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/dsQTL.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsqtl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dsqtl/meta.yaml
 
 
 

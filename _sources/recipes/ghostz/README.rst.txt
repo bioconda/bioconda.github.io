@@ -11,7 +11,7 @@ GHOSTZ is a homology search tool which can detect remote homologues like BLAST a
 Home          http://www.bi.cs.titech.ac.jp/ghostz/
 Versions      1.0.0
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ghostz
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ghostz/meta.yaml
 
 
 

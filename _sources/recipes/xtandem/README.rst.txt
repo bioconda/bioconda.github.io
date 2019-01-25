@@ -11,7 +11,7 @@ X\! Tandem open source is software that can match tandem mass spectra with pepti
 Home          http://www.thegpm.org/TANDEM/index.html
 Versions      15.12.15.2
 License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xtandem
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xtandem/meta.yaml
 
 
 

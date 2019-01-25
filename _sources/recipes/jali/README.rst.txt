@@ -11,7 +11,7 @@ Alignment method for comparing a protein sequence to a protein family\, represen
 Home          http://bibiserv.cebitec.uni-bielefeld.de/jali
 Versions      1.3
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/jali
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/jali/meta.yaml
 
 
 

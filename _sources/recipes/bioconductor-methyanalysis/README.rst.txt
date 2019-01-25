@@ -11,7 +11,7 @@ The methyAnalysis package aims for the DNA methylation data analysis and visuali
 Home          https://bioconductor.org/packages/3.8/bioc/html/methyAnalysis.html
 Versions      1.22.0, 1.20.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-methyanalysis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-methyanalysis/meta.yaml
 
 
 

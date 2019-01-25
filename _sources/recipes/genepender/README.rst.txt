@@ -11,7 +11,7 @@ Annotates overlapping BED\-defined regions to variants in a VCF file. Used prima
 Home          https://github.com/BioTools-Tek/genepender
 Versions      v2.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genepender
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genepender/meta.yaml
 
 
 

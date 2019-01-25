@@ -14,7 +14,7 @@ overlap length and maximal error rate.
 Home          https://github.com/jbaaijens/rust-overlaps
 Versions      0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rust-overlaps
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rust-overlaps/meta.yaml
 
 
 

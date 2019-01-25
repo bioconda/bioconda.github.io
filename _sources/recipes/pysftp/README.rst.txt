@@ -11,7 +11,7 @@ A friendly face on SFTP
 Home          https://bitbucket.org/dundeemt/pysftp
 Versions      0.2.9, 0.2.8
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pysftp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pysftp/meta.yaml
 
 
 

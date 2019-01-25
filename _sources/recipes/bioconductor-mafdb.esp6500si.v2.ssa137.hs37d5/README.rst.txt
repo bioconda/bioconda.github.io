@@ -11,7 +11,7 @@ Store minor allele frequency data from the NHLBI Exome Sequencing Project in the
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.ESP6500SI.V2.SSA137.hs37d5.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mafdb.esp6500si.v2.ssa137.hs37d5/meta.yaml
 
 
 

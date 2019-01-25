@@ -11,7 +11,7 @@ This is a collection of 18 data sets for which the phenotype is a disease with a
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/KEGGandMetacoreDzPathwaysGEO.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-keggandmetacoredzpathwaysgeo
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-keggandmetacoredzpathwaysgeo/meta.yaml
 
 
 

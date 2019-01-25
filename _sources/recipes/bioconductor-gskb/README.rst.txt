@@ -11,7 +11,7 @@ Gene Set Knowledgebase \(GSKB\) is a comprehensive knowledgebase for pathway ana
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/gskb.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gskb
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gskb/meta.yaml
 
 
 

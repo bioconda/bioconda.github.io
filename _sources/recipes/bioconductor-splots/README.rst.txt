@@ -11,7 +11,7 @@ The splots package provides the plotScreen function for visualising data in micr
 Home          https://bioconductor.org/packages/3.8/bioc/html/splots.html
 Versions      1.46.0, 1.44.0, 1.42.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-splots
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-splots/meta.yaml
 
 
 

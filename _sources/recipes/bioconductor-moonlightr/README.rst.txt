@@ -11,7 +11,7 @@ Motivation\: The understanding of cancer mechanism requires the identification o
 Home          https://bioconductor.org/packages/3.8/bioc/html/MoonlightR.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moonlightr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-moonlightr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Fast random access to sorted files compressed with bgzip and indexed by tabix.
 Home          https://github.com/slowkow/pytabix
 Versions      0.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pytabix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pytabix/meta.yaml
 
 
 

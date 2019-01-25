@@ -11,7 +11,7 @@ An amino acid variant format parser for Python.
 Home          http://github.com/winhiv/PyAAVF
 Versions      0.1.0
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyaavf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyaavf/meta.yaml
 
 
 

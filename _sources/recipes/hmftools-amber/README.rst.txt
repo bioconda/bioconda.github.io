@@ -11,7 +11,7 @@ AMBER is designed to generate a tumor BAF file for use in PURPLE. Looking direct
 Home          https://github.com/hartwigmedical/hmftools/tree/master/amber
 Versions      2.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-amber
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hmftools-amber/meta.yaml
 
 
 

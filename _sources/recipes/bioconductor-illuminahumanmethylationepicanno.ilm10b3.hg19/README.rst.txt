@@ -11,7 +11,7 @@ An annotation package for Illumina\'s EPIC methylation arrays.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylationEPICanno.ilm10b3.hg19.html
 Versions      0.6.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanmethylationepicanno.ilm10b3.hg19/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Processing and analysis of high throughput \(Roche 454\) sequences generated fro
 Home          http://personalpages.manchester.ac.uk/staff/David.Gerrard/
 Versions      0.16
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mlgt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mlgt/meta.yaml
 
 
 

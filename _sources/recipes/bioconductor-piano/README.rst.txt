@@ -11,7 +11,7 @@ Piano performs gene set analysis using various statistical methods\, from differ
 Home          https://bioconductor.org/packages/3.8/bioc/html/piano.html
 Versions      1.20.1, 1.18.0, 1.16.4, 1.12.1
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-piano
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-piano/meta.yaml
 
 
 

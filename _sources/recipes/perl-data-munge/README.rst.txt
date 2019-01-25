@@ -11,7 +11,7 @@ various utility functions
 Home          http://metacpan.org/pod/Data::Munge
 Versions      0.097
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-munge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-munge/meta.yaml
 
 
 

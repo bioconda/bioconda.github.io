@@ -11,7 +11,7 @@ The package includes DNA methylation data for the primary Chronic Lymphocytic Le
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CLLmethylation.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cllmethylation
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cllmethylation/meta.yaml
 
 
 

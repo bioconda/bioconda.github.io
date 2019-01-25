@@ -11,7 +11,7 @@ generating Excel 97\+ files\; importing Excel 95\+ files\; Excel files dumper\; 
 Home          http://sourceforge.net/projects/pyexcelerator/
 Versions      0.6.4a
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyexcelerator
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyexcelerator/meta.yaml
 
 
 

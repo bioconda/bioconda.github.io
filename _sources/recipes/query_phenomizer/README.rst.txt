@@ -11,7 +11,7 @@ Tool for query and parsing the phenomizer tool
 Home          https://www.github.com/moonso/query_phenomizer
 Versions      1.2, 0.5
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/query_phenomizer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/query_phenomizer/meta.yaml
 
 
 

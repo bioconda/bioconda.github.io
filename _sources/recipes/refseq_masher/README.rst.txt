@@ -11,7 +11,7 @@ refseq\_masher finds what NCBI RefSeq genomes match or are contained within your
 Home          https://github.com/phac-nml/refseq_masher
 Versions      0.1.1, 0.1.0
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/refseq_masher
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/refseq_masher/meta.yaml
 
 
 Development   https://github.com/phac-nml/refseq_masher

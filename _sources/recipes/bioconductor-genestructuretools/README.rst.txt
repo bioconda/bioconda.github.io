@@ -11,7 +11,7 @@ GeneStructureTools can be used to create in silico alternative splicing events\,
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneStructureTools.html
 Versions      
 License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genestructuretools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genestructuretools/meta.yaml
 
 
 

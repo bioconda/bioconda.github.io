@@ -11,7 +11,7 @@ Plotting suite for long read sequencing data and alignments
 Home          https://github.com/wdecoster/NanoPlot
 Versions      1.20.0, 1.19.0, 1.18.2, 1.13.0, 1.11.0, 1.10.4, 1.8.1, 1.2.2, 1.1.0, 1.0.0, 0.16.4, 0.16.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanoplot
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nanoplot/meta.yaml
 
 
 

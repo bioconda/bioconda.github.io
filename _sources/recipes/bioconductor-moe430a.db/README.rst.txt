@@ -11,7 +11,7 @@ Affymetrix Mouse Expression Set 430 annotation data \(chip moe430a\) assembled u
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/moe430a.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-moe430a.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-moe430a.db/meta.yaml
 
 
 

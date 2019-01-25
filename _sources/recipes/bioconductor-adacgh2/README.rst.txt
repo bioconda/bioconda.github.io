@@ -11,7 +11,7 @@ Analysis and plotting of array CGH data. Allows usage of Circular Binary Segemen
 Home          https://bioconductor.org/packages/3.8/bioc/html/ADaCGH2.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-adacgh2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-adacgh2/meta.yaml
 
 
 

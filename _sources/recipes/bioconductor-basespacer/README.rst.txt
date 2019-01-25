@@ -11,7 +11,7 @@ A rich R interface to Illumina\'s BaseSpace cloud computing environment\, enabli
 Home          https://bioconductor.org/packages/3.8/bioc/html/BaseSpaceR.html
 Versions      1.24.0, 1.22.0, 1.20.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-basespacer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-basespacer/meta.yaml
 
 
 

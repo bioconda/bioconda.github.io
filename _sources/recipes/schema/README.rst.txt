@@ -11,7 +11,7 @@ Simple data validation library
 Home          https://github.com/keleshev/schema
 Versions      0.6.8, 0.6.6, 0.4.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/schema
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/schema/meta.yaml
 
 
 

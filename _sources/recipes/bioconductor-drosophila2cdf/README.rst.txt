@@ -11,7 +11,7 @@ A package containing an environment representing the Drosophila\_2.cdf file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/drosophila2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drosophila2cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drosophila2cdf/meta.yaml
 
 
 

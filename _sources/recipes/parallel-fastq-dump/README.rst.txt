@@ -11,7 +11,7 @@ parallel fastq\-dump wrapper
 Home          https://github.com/rvalieris/parallel-fastq-dump
 Versions      0.6.3, 0.6.2, 0.6.1, 0.6.0, 0.5.4
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/parallel-fastq-dump
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/parallel-fastq-dump/meta.yaml
 
 
 

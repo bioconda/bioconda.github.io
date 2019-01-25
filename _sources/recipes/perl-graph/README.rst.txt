@@ -11,7 +11,7 @@ a Perl extension for keeping data partially sorted
 Home          http://metacpan.org/pod/Graph
 Versions      0.9704
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-graph
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-graph/meta.yaml
 
 
 

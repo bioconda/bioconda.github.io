@@ -11,7 +11,7 @@ The Dfam database is a collection of Repetitive DNA element sequence alignments\
 Home          dfam.org
 Versions      2.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dfam
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dfam/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Trap exit codes\, exceptions\, output\, etc.
 Home          http://metacpan.org/pod/Test::Trap
 Versions      0.3.3, 0.3.2
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-trap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-trap/meta.yaml
 
 
 

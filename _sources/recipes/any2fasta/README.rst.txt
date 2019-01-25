@@ -11,7 +11,7 @@ Convert various sequence formats to FASTA
 Home          https://github.com/tseemann/any2fasta
 Versions      0.4.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/any2fasta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/any2fasta/meta.yaml
 
 
 

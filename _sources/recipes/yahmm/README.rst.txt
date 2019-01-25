@@ -11,7 +11,7 @@ YAHMM is a HMM package for Python\, implemented in Cython for speed.
 Home          http://pypi.python.org/pypi/yahmm/
 Versions      1.1.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/yahmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/yahmm/meta.yaml
 
 
 

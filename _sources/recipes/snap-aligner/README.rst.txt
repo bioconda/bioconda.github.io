@@ -11,7 +11,7 @@ Scalable Nucleotide Alignment Program \-\- a fast and accurate read aligner for 
 Home          http://snap.cs.berkeley.edu/
 Versions      1.0beta.23, 1.0beta.18, 1.0dev.97
 License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/snap-aligner
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snap-aligner/meta.yaml
 
 
 

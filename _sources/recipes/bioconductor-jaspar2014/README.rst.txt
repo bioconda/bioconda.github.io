@@ -11,7 +11,7 @@ Data package for JASPAR 2014. To search this databases\, please use the package 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/JASPAR2014.html
 Versions      1.16.0, 1.14.0, 1.12.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-jaspar2014
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-jaspar2014/meta.yaml
 
 
 

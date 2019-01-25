@@ -11,7 +11,7 @@ Fast\, accurate and versatile k\-mer based classification system
 Home          http://clark.cs.ucr.edu/
 Versions      1.2.5, 1.2.3.1, 1.2.3, 1.2.2_b
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clark
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clark/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Statistical functions\, goodness\-of\-fit tests and special and special distribu
 Home          https://github.com/ksahlin/mathstats
 Versions      0.2.6.5, 0.2.6, 0.2.4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mathstats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mathstats/meta.yaml
 
 
 

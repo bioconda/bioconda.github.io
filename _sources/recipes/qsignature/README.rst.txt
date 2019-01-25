@@ -11,7 +11,7 @@ qsignature is a simple and highly effective method for detecting potential sampl
 Home          http://sourceforge.net/p/adamajava/wiki/Home/
 Versions      0.1pre
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qsignature
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qsignature/meta.yaml
 
 
 

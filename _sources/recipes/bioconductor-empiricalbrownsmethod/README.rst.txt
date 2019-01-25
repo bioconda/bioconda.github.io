@@ -11,7 +11,7 @@ Combining P\-values from multiple statistical tests is common in bioinformatics.
 Home          https://bioconductor.org/packages/3.8/bioc/html/EmpiricalBrownsMethod.html
 Versions      1.8.0, 1.6.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-empiricalbrownsmethod
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-empiricalbrownsmethod/meta.yaml
 
 
 

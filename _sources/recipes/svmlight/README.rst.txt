@@ -11,7 +11,7 @@ SVMLight Library by Thorsten Joachim
 Home          http://svmlight.joachims.org/
 Versions      6.02
 License       Modified MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/svmlight
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/svmlight/meta.yaml
 
 
 

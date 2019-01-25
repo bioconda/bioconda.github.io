@@ -11,7 +11,7 @@ The core MIT\-licensed Genome Analysis Toolkit \(GATK\) framework\, free for all
 Home          https://github.com/chapmanb/gatk
 Versions      3.6.24, 3.5.21, 3.4.46
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatk-framework
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gatk-framework/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package containing an environment representing the CYP450.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/cyp450cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cyp450cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cyp450cdf/meta.yaml
 
 
 

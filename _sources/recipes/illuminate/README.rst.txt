@@ -11,7 +11,7 @@ Analytics toolkit for Illumina sequencer metrics.
 Home          https://bitbucket.org/invitae/illuminate
 Versions      0.6.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illuminate
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/illuminate/meta.yaml
 
 
 

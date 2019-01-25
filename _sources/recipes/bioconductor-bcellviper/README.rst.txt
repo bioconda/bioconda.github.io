@@ -11,7 +11,7 @@ This package provides a human B\-cell context\-specific transcriptional regulato
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/bcellViper.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bcellviper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bcellviper/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The gCMAPWeb R package provides a graphical user interface for the gCMAP package
 Home          https://bioconductor.org/packages/3.8/bioc/html/gCMAPWeb.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gcmapweb
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gcmapweb/meta.yaml
 
 
 

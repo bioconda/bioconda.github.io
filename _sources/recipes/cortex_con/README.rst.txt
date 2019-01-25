@@ -11,7 +11,7 @@ cortex\_con \(primary contact Mario Caccamo\) is for consensus genome assembly
 Home          http://cortexassembler.sourceforge.net/index.html
 Versions      0.04c
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cortex_con
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cortex_con/meta.yaml
 
 
 

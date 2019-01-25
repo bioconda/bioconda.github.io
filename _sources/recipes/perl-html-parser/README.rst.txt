@@ -11,7 +11,7 @@ HTML parser class
 Home          http://metacpan.org/pod/HTML::Parser
 Versions      3.72
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-parser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-parser/meta.yaml
 
 
 

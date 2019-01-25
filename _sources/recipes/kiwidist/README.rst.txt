@@ -11,7 +11,7 @@ Combining gene\-set analysis with network properties
 Home          
 Versions      0.3.6, 0.3.5, 0.3.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kiwidist
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kiwidist/meta.yaml
 
 
 

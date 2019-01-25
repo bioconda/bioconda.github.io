@@ -11,7 +11,7 @@ dSimer is an R package which provides computation of nine methods for measuring 
 Home          https://bioconductor.org/packages/3.8/bioc/html/dSimer.html
 Versions      1.6.0, 1.4.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dsimer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dsimer/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A python module creating\/accessing GTF\-based interval trees with associated me
 Home          https://github.com/deeptools/deeptools_intervals
 Versions      0.1.7
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/deeptoolsintervals
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/deeptoolsintervals/meta.yaml
 
 
 

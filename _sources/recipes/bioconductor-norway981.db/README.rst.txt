@@ -11,7 +11,7 @@ Norway981 http\:\/\/genome\-www5.stanford.edu\/ Annotation Data \(Norway981\) as
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Norway981.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-norway981.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-norway981.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ extract data from Macintosh BinHex files
 Home          http://metacpan.org/pod/Convert-BinHex
 Versions      1.125
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-convert-binhex
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-convert-binhex/meta.yaml
 
 
 

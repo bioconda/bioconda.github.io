@@ -11,7 +11,7 @@ Simple matching of HTS samples based on HLA typing
 Home          https://github.com/bihealth/hlama
 Versions      3.0.1, 0.3.1, 0.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hlama
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hlama/meta.yaml
 
 
 

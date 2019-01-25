@@ -11,7 +11,7 @@ Assembly summary statistics in JSON format
 Home          https://github.com/rpetit3/assembly-scan
 Versions      0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/assembly-scan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/assembly-scan/meta.yaml
 
 
 

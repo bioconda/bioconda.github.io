@@ -11,7 +11,7 @@ Text utilities for use with GD
 Home          http://metacpan.org/pod/GDTextUtil
 Versions      0.86
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdtextutil
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-gdtextutil/meta.yaml
 
 
 

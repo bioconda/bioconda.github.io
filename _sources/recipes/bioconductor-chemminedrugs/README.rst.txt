@@ -11,7 +11,7 @@ An annotation package for use with ChemmineR. This package includes data from Dr
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ChemmineDrugs.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemminedrugs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chemminedrugs/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ TransDecoder identifies candidate coding regions within transcript sequences\, s
 Home          https://transdecoder.github.io/
 Versions      5.5.0, 5.3.0, 5.2.0, 5.1.0, 5.0.2, 3.0.1, 2.1.0
 License       Broad Institute
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transdecoder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/transdecoder/meta.yaml
 
 
 Development   https://github.com/TransDecoder/TransDecoder

@@ -11,7 +11,7 @@ A tool for automatic detection of clustered regularly interspaced palindromic re
 Home          http://www.room220.com/crt/
 Versions      1.2
 License       Public domain software
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/crisper_recognition_tool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/crisper_recognition_tool/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ ChIP\-Enrich performs gene set enrichment testing using peaks called from a ChIP
 Home          https://bioconductor.org/packages/3.8/bioc/html/chipenrich.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chipenrich
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chipenrich/meta.yaml
 
 
 

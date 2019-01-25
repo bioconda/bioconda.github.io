@@ -11,7 +11,7 @@ KMA is mapping a method designed to map raw reads directly against redundant dat
 Home          https://bitbucket.org/genomicepidemiology/kma
 Versions      1.1.7, 1.0.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kma
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kma/meta.yaml
 
 
 

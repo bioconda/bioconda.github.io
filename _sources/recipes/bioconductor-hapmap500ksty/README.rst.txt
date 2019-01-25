@@ -11,7 +11,7 @@ Sample dataset obtained from http\:\/\/www.hapmap.org
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/hapmap500ksty.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hapmap500ksty
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hapmap500ksty/meta.yaml
 
 
 

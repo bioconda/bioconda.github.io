@@ -11,7 +11,7 @@ brainImageRdata contains image masks for the developing human and the adult huma
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/brainImageRdata.html
 Versions      
 License       CC BY-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brainimagerdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-brainimagerdata/meta.yaml
 
 
 

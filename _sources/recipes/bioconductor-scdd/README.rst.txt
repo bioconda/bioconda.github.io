@@ -11,7 +11,7 @@ This package implements a method to analyze single\-cell RNA\- seq Data utilizin
 Home          https://bioconductor.org/packages/3.8/bioc/html/scDD.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-scdd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scdd/meta.yaml
 
 
 

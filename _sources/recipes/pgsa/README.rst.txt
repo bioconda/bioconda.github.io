@@ -11,7 +11,7 @@ Pseudogenome Suffix Array is a compact index for collections of reads from seque
 Home          http://sun.aei.polsl.pl/pgsa/
 Versions      1.2
 License       Creative Commons Attribution License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pgsa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pgsa/meta.yaml
 
 
 

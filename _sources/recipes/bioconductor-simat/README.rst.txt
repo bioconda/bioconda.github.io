@@ -11,7 +11,7 @@ This package provides a pipeline for analysis of GC\-MS data acquired in selecte
 Home          https://bioconductor.org/packages/3.8/bioc/html/SIMAT.html
 Versions      1.10.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-simat/meta.yaml
 
 
 

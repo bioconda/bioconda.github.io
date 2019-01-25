@@ -11,7 +11,7 @@ A fast\, convenient tool to identify the TSSs of miRNAs by integrating the data 
 Home          https://bioconductor.org/packages/3.8/bioc/html/primirTSS.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-primirtss
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-primirtss/meta.yaml
 
 
 

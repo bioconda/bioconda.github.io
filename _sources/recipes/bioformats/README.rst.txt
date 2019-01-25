@@ -11,7 +11,7 @@ A collection of Python classes to handle bioinformatics data.
 Home          https://github.com/gtamazian/bioformats
 Versions      0.1.15
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioformats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioformats/meta.yaml
 
 
 

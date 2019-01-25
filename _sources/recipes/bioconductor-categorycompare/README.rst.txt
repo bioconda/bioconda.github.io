@@ -11,7 +11,7 @@ Calculates significant annotations \(categories\) in each of two \(or more\) fea
 Home          https://bioconductor.org/packages/3.8/bioc/html/categoryCompare.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-categorycompare
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-categorycompare/meta.yaml
 
 
 

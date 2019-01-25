@@ -11,7 +11,7 @@ Simulate repeating a nanopore experiment.
 Home          https://github.com/mbhall88/taeper
 Versions      0.1.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taeper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/taeper/meta.yaml
 
 
 

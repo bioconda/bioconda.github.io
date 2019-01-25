@@ -11,7 +11,7 @@ This package provides an interface to search and download data and annotations f
 Home          https://bioconductor.org/packages/3.8/bioc/html/FlowRepositoryR.html
 Versions      1.12.0, 1.10.0, 1.8.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowrepositoryr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowrepositoryr/meta.yaml
 
 
 

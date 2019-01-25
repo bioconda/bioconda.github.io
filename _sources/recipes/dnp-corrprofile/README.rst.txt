@@ -11,7 +11,7 @@ Profile of correlations between the patterns of dinucleotide frequency on forwar
 Home          https://github.com/erinijapranckeviciene/dnpatterntools
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-corrprofile
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dnp-corrprofile/meta.yaml
 
 
 

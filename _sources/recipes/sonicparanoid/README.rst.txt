@@ -11,7 +11,7 @@ SonicParanoid\: fast\, easy and accurate orthology inference
 Home          http://iwasakilab.bs.s.u-tokyo.ac.jp/sonicparanoid/
 Versions      1.0.14, 1.0.13
 License       GNU General Public License v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sonicparanoid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sonicparanoid/meta.yaml
 
 
 

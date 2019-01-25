@@ -11,7 +11,7 @@ This package aims at creating a predictive model of regulatory sequences used to
 Home          https://bioconductor.org/packages/3.8/bioc/html/LedPred.html
 Versions      
 License       MIT | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ledpred
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ledpred/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Retrieve\, map and summarize data from the \'VertNet.org\'  archives \(\<http\:\
 Home          https://github.com/ropensci/rvertnet
 Versions      0.7.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rvertnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rvertnet/meta.yaml
 
 
 

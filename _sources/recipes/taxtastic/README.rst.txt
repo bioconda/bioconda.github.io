@@ -11,7 +11,7 @@ Tools for taxonomic naming and annotation
 Home          https://github.com/fhcrc/taxtastic
 Versions      0.8.9, 0.8.5, 0.5.4
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxtastic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/taxtastic/meta.yaml
 
 
 

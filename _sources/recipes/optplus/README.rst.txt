@@ -11,7 +11,7 @@ additional options for optparse
 Home          http://noble.gs.washington.edu/~mmh1/software/optplus/
 Versions      0.2, 0.1.1
 License       UNKNOWN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/optplus
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/optplus/meta.yaml
 
 
 

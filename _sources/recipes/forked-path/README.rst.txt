@@ -11,7 +11,7 @@ An object oriented file path module
 Home          http://github.com/Singletoned/forked-path
 Versions      0.2.3
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forked-path
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/forked-path/meta.yaml
 
 
 

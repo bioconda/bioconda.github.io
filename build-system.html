@@ -111,18 +111,24 @@ bioconda-utils, sets the correct channel order</li>
 </dd>
 </dl>
 </li>
-<li><p class="first">Run linting on changed recipes
-- This is triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> “lint”</p>
-<blockquote>
-<div><p>job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/cli.py</span></code> and
-<code class="docutils literal notranslate"><span class="pre">bioconda_utils/linting.py</span></code></p>
-</div></blockquote>
+<li><dl class="first docutils">
+<dt>Run linting on changed recipes</dt>
+<dd><ul class="first last simple">
+<li>This is triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yml</span></code> “lint”
+job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils:</span> <span class="pre">bioconda_utils/cli.py</span></code> and
+<code class="docutils literal notranslate"><span class="pre">bioconda_utils/linting.py</span></code></li>
+</ul>
+</dd>
+</dl>
 </li>
-<li><p class="first">Build recipes
-- Triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yaml</span></code> “test-linux”</p>
-<blockquote>
-<div><p>job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">build</span></code>. This performs the next steps.</p>
-</div></blockquote>
+<li><dl class="first docutils">
+<dt>Build recipes</dt>
+<dd><ul class="first last simple">
+<li>Triggered by the <code class="docutils literal notranslate"><span class="pre">bioconda-recipes:</span> <span class="pre">.circleci/config.yaml</span></code> “test-linux”
+job, which runs <code class="docutils literal notranslate"><span class="pre">bioconda-utils</span> <span class="pre">build</span></code>. This performs the next steps.</li>
+</ul>
+</dd>
+</dl>
 </li>
 <li><dl class="first docutils">
 <dt>Filter recipes to only focus on recipes that satisfy the following criteria:</dt>

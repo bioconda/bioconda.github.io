@@ -11,7 +11,7 @@ Removing lambda DNA control reads from fastq dataset
 Home          https://github.com/wdecoster/NanoLyse
 Versions      1.1.0, 1.0.0, 0.5.1, 0.4.0, 0.2.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanolyse
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nanolyse/meta.yaml
 
 
 

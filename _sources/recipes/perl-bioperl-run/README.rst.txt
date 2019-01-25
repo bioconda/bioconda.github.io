@@ -11,7 +11,7 @@ BioPerl\-Run \- wrapper toolkit
 Home          http://metacpan.org/pod/BioPerl-Run
 Versions      1.007002, 1.006900
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-run
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bioperl-run/meta.yaml
 
 
 

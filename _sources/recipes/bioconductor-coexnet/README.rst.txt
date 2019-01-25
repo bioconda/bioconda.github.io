@@ -11,7 +11,7 @@ Extracts the gene expression matrix from GEO DataSets \(.CEL files\) as a AffyBa
 Home          https://bioconductor.org/packages/3.8/bioc/html/coexnet.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-coexnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-coexnet/meta.yaml
 
 
 

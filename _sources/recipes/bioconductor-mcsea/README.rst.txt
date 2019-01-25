@@ -11,7 +11,7 @@ Identification of diferentially methylated regions \(DMRs\) in predefined region
 Home          https://bioconductor.org/packages/3.8/bioc/html/mCSEA.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mcsea
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mcsea/meta.yaml
 
 
 

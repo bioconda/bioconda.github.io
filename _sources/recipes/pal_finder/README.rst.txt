@@ -11,7 +11,7 @@ Find microsatellite repeat elements from sequencing reads and design PCR primers
 Home          http://sourceforge.net/projects/palfinder/
 Versions      0.02.04
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pal_finder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pal_finder/meta.yaml
 
 
 

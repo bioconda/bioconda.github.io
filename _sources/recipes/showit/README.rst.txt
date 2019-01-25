@@ -11,7 +11,7 @@ simple and sensible display of images in python
 Home          https://github.com/freeman-lab/showit
 Versions      1.1.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/showit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/showit/meta.yaml
 
 
 

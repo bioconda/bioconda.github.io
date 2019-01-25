@@ -11,7 +11,7 @@ R\/Bioconductor package for normalization\, curve registration and inference in 
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rnits.html
 Versions      1.14.0, 1.12.0, 1.11.0, 1.10.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnits
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnits/meta.yaml
 
 
 

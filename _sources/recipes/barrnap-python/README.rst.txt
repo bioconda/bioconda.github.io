@@ -11,7 +11,7 @@ python package for Torsten Seemann\'s barrnap package for annotating rRNAs
 Home          https://github.com/nickp60/barrnap-python
 Versions      0.0.5
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap-python
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/barrnap-python/meta.yaml
 
 
 Development   https://github.com/nickp60/barrnap-python

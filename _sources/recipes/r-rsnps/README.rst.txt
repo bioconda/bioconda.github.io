@@ -11,7 +11,7 @@ A programmatic interface to various \'SNP\' \'datasets\' on the web\: \'OpenSNP\
 Home          https://github.com/ropensci/rsnps
 Versions      
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rsnps
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rsnps/meta.yaml
 
 
 

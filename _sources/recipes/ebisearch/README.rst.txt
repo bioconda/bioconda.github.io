@@ -11,7 +11,7 @@ A Python library for interacting with EBI Search\'s API
 Home          https://github.com/bebatut/ebisearch
 Versions      0.0.3, 0.0.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ebisearch
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ebisearch/meta.yaml
 
 
 

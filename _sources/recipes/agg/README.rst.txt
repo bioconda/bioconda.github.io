@@ -11,7 +11,7 @@ gvcf aggregation tool
 Home          https://github.com/Illumina/agg
 Versions      0.3.6, 0.3.5
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/agg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/agg/meta.yaml
 
 
 

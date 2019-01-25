@@ -11,7 +11,7 @@ gwasurvivr is a package to perform survival analysis using Cox proportional haza
 Home          https://bioconductor.org/packages/3.8/bioc/html/gwasurvivr.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasurvivr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gwasurvivr/meta.yaml
 
 
 

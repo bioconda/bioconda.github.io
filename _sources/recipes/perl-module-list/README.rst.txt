@@ -11,7 +11,7 @@ module \`directory\' listing
 Home          http://metacpan.org/pod/Module::List
 Versions      0.004
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-list
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-list/meta.yaml
 
 
 

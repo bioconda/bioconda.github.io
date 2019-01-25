@@ -11,7 +11,7 @@ SEPIRA \(Systems EPigenomics Inference of Regulatory Activity\) is an algorithm 
 Home          https://bioconductor.org/packages/3.8/bioc/html/SEPIRA.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sepira
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sepira/meta.yaml
 
 
 

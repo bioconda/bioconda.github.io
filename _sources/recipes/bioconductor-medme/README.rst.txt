@@ -11,7 +11,7 @@ Description\: MEDME allows the prediction of absolute and relative methylation l
 Home          https://bioconductor.org/packages/3.8/bioc/html/MEDME.html
 Versions      1.40.0, 1.38.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medme
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-medme/meta.yaml
 
 
 

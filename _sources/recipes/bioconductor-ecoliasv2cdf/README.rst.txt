@@ -11,7 +11,7 @@ A package containing an environment representing the Ecoli\_ASv2.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ecoliasv2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoliasv2cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ecoliasv2cdf/meta.yaml
 
 
 

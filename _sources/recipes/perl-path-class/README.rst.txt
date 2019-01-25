@@ -11,7 +11,7 @@ Cross\-platform path specification manipulation
 Home          http://metacpan.org/pod/Path::Class
 Versions      0.37, 0.36
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-path-class
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-path-class/meta.yaml
 
 
 

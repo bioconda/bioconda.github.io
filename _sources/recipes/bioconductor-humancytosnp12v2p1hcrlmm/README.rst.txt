@@ -11,7 +11,7 @@ Package with metadata for genotyping Illumina CytoSNP 12 arrays using the \'crlm
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/humancytosnp12v2p1hCrlmm.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-humancytosnp12v2p1hcrlmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-humancytosnp12v2p1hcrlmm/meta.yaml
 
 
 

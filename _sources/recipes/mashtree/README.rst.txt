@@ -11,7 +11,7 @@ Create a tree using Mash distances
 Home          https://github.com/lskatz/mashtree
 Versions      0.37, 0.36, 0.35.4, 0.30, 0.28, 0.26, 0.25, 0.21, 0.20, 0.12
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mashtree
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mashtree/meta.yaml
 
 
 

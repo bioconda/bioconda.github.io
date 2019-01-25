@@ -11,7 +11,7 @@ The clever toolkit \(CTK\) is a suite of tools to analyze next\-generation seque
 Home          https://bitbucket.org/tobiasmarschall/clever-toolkit
 Versions      2.4, 2.3, 2.2.1, 2.1, 2.0rc4, 2.0rc3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/clever-toolkit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clever-toolkit/meta.yaml
 
 
 

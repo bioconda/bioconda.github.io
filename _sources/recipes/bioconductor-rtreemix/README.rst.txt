@@ -11,7 +11,7 @@ Rtreemix is a package that offers an environment for estimating the mutagenetic 
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rtreemix.html
 Versions      1.42.0, 1.40.0, 1.38.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtreemix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtreemix/meta.yaml
 
 
 

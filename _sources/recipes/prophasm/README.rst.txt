@@ -11,7 +11,7 @@ ProPhasm – ProPhyle Assembler. Compressing k\-mer sets via assembling contigs.
 Home          https://github.com/prophyle/prophasm
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/prophasm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prophasm/meta.yaml
 
 
 

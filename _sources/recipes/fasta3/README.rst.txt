@@ -11,7 +11,7 @@ The FASTA package \- protein and DNA sequence similarity searching and alignment
 Home          http://faculty.virginia.edu/wrpearson/fasta
 Versions      36.3.8
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fasta3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fasta3/meta.yaml
 
 
 

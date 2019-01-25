@@ -11,7 +11,7 @@ framework for parsing Pod
 Home          http://search.cpan.org/dist/Pod-Simple/
 Versions      3.35
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-simple/3.35
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-simple/3.35/meta.yaml
 
 
 

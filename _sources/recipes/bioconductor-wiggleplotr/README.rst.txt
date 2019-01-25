@@ -11,7 +11,7 @@ Tools to visualise read coverage from sequencing experiments together with genom
 Home          https://bioconductor.org/packages/3.8/bioc/html/wiggleplotr.html
 Versions      1.4.0, 1.2.0, 1.0.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-wiggleplotr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-wiggleplotr/meta.yaml
 
 
 

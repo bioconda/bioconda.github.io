@@ -11,7 +11,7 @@ Lexically warn about using the indirect method call syntax.
 Home          http://search.cpan.org/dist/indirect/
 Versions      0.38
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-indirect
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-indirect/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl script and dependent library files required for GTDB\-Tk.
 Home          https://github.com/Ecogenomics/GTDBTk
 Versions      0.1.5, 0.1.3
 License       GNU General Public v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gtdbtk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-gtdbtk/meta.yaml
 
 
 

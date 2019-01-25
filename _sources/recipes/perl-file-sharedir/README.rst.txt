@@ -11,7 +11,7 @@ Locate per\-dist and per\-module shared files
 Home          https://metacpan.org/release/File-ShareDir
 Versions      1.116, 1.102
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-sharedir
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-sharedir/meta.yaml
 
 
 

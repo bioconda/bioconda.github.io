@@ -11,7 +11,7 @@ Algorithm for recalibrating the base quality scores for aligned sequencing data 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ReQON.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-reqon
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-reqon/meta.yaml
 
 
 

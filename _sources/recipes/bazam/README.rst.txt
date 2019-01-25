@@ -11,7 +11,7 @@ A tool to extract paired reads in FASTQ format from coordinate sorted BAM files
 Home          https://github.com/ssadedin/bazam
 Versions      1.0.1
 License       LGPL v2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bazam
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bazam/meta.yaml
 
 
 

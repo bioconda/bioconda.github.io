@@ -11,7 +11,7 @@ This package contains the data used in the vignettes and examples of the \'h5vc\
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/h5vcData.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h5vcdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-h5vcdata/meta.yaml
 
 
 

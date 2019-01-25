@@ -11,7 +11,7 @@ Open an HTML file with automatic charset detection
 Home          http://metacpan.org/pod/IO-HTML
 Versions      1.001
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-html
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-html/meta.yaml
 
 
 

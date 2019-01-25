@@ -11,7 +11,7 @@ ScanIndel is a python program to detect indels \(insertions and deletions\) from
 Home          https://github.com/cauyrd/ScanIndel
 Versions      1.3
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanindel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scanindel/meta.yaml
 
 
 

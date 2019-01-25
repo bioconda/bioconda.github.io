@@ -11,7 +11,7 @@ a reference\-based tool for rapid and sensitive extraction of one organism´s re
 Home          https://gitlab.com/SimonHTausch/RAMBO-K
 Versions      1.21
 License       GNU Lesser General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rambo-k
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rambo-k/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Quantitative metaproteomics analysis of taxonomy and function.
 Home          https://github.com/galaxyproteomics/metaquant
 Versions      0.99.3, 0.99.2
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metaquantome
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaquantome/meta.yaml
 
 
 Development   https://github.com/galaxyproteomics/metaquant

@@ -11,7 +11,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Cfamiliaris.UCSC.canFam3.refGene.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.cfamiliaris.ucsc.canfam3.refgene/meta.yaml
 
 
 

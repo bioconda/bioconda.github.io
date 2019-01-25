@@ -11,7 +11,7 @@ Mea was developed as part of the lab class \"Bioinformatik von RNA\- und Protein
 Home          http://www.bioinf.uni-leipzig.de/Software/mea/
 Versions      0.6.4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mea
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mea/meta.yaml
 
 
 

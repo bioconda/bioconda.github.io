@@ -11,7 +11,7 @@ collect statistics from a psl file.
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-pslstats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-pslstats/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Enrichment of metabolomics data using KEGG entries. Given a set of affected comp
 Home          https://bioconductor.org/packages/3.8/bioc/html/FELLA.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-fella
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fella/meta.yaml
 
 
 

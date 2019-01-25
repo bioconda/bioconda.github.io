@@ -11,7 +11,7 @@ This package contains a set of functions related to network inference combining 
 Home          https://bioconductor.org/packages/3.8/bioc/html/predictionet.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-predictionet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-predictionet/meta.yaml
 
 
 

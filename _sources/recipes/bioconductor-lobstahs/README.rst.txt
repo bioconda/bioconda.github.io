@@ -11,7 +11,7 @@ LOBSTAHS is a multifunction package for screening\, annotation\, and putative id
 Home          https://bioconductor.org/packages/3.8/bioc/html/LOBSTAHS.html
 Versions      1.4.0
 License       GPL (>= 3) + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-lobstahs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lobstahs/meta.yaml
 
 
 

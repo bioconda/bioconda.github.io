@@ -11,7 +11,7 @@ Hybrid assembly pipeline for bacterial genomes
 Home          https://github.com/rrwick/Unicycler
 Versions      0.4.7, 0.4.6, 0.4.4, 0.4.1, 0.3.0b, 0.2.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/unicycler
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/unicycler/meta.yaml
 
 
 

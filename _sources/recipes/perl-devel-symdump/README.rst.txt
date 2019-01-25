@@ -11,7 +11,7 @@ dump symbol names or the symbol table
 Home          http://metacpan.org/pod/Devel::Symdump
 Versions      2.18
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-devel-symdump/2.18
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-symdump/2.18/meta.yaml
 
 
 

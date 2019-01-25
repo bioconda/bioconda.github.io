@@ -11,7 +11,7 @@ ctat-mutations
 Home          https://github.com/NCIP/ctat-mutations
 Versions      2.0.1, 2.0.0, 1.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ctat-mutations
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ctat-mutations/meta.yaml
 
 
 

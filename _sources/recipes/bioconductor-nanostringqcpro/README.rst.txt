@@ -11,7 +11,7 @@ NanoStringQCPro provides a set of quality metrics that can be used to assess the
 Home          https://bioconductor.org/packages/3.8/bioc/html/NanoStringQCPro.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nanostringqcpro
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nanostringqcpro/meta.yaml
 
 
 

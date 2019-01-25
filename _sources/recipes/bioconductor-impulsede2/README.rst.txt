@@ -11,7 +11,7 @@ ImpulseDE2 is a differential expression algorithm for longitudinal count data se
 Home          https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE2.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-impulsede2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-impulsede2/meta.yaml
 
 
 

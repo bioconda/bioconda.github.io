@@ -11,7 +11,7 @@ Compartmap performs shrunken A\/B compartment inference from ATAC\-seq and methy
 Home          https://bioconductor.org/packages/3.8/bioc/html/compartmap.html
 Versions      
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-compartmap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-compartmap/meta.yaml
 
 
 

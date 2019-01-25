@@ -11,7 +11,7 @@ Assess the contribution of the targeted precursor in fragmentation acquired or a
 Home          https://bioconductor.org/packages/3.8/bioc/html/msPurity.html
 Versions      1.5.4, 1.4.0, 1.3.9
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mspurity
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mspurity/meta.yaml
 
 
 

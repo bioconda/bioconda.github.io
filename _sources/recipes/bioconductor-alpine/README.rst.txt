@@ -11,7 +11,7 @@ Fragment sequence bias modeling and correction for RNA\-seq transcript abundance
 Home          https://bioconductor.org/packages/3.8/bioc/html/alpine.html
 Versions      1.6.0, 1.4.0, 1.2.0, 1.0.0
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-alpine
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-alpine/meta.yaml
 
 
 

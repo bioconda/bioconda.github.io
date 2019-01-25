@@ -11,7 +11,7 @@ A shiny app\-based GUI wrapper for ggplot with built\-in statistical analysis. I
 Home          https://bioconductor.org/packages/3.8/bioc/html/plotGrouper.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-plotgrouper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-plotgrouper/meta.yaml
 
 
 

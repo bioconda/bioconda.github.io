@@ -11,7 +11,7 @@ The program structure is a free software package for using multi\-locus genotype
 Home          https://web.stanford.edu/group/pritchardlab/structure.html
 Versions      2.3.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/structure
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/structure/meta.yaml
 
 
 

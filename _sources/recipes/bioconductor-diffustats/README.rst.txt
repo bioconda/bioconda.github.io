@@ -11,7 +11,7 @@ Label propagation approaches are a widely used procedure in computational biolog
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffuStats.html
 Versions      0.104.0, 0.102.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffustats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-diffustats/meta.yaml
 
 
 

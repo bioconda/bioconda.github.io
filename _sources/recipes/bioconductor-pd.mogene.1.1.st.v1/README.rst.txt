@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix MoGene\-1\_1\-st\-v1
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mogene.1.1.st.v1.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.mogene.1.1.st.v1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.mogene.1.1.st.v1/meta.yaml
 
 
 

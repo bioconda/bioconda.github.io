@@ -11,7 +11,7 @@ Data for the dyebias package\, consisting of 4 self\-self hybrizations of self\-
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/dyebiasexamples.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dyebiasexamples
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dyebiasexamples/meta.yaml
 
 
 

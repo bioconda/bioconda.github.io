@@ -11,7 +11,7 @@ Utility to work with NCBI taxonomy database including tool to annotate DIAMOND r
 Home          https://github.com/pvanheus/diamond_add_taxonomy
 Versions      0.1.2, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/diamond_add_taxonomy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/diamond_add_taxonomy/meta.yaml
 
 
 

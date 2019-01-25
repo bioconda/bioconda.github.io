@@ -11,7 +11,7 @@ Copy number variant \(CNV\) calling from DNA sequencing data
 Home          https://github.com/Illumina/canvas
 Versions      1.35.1.1316, 1.25.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/canvas
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/canvas/meta.yaml
 
 
 

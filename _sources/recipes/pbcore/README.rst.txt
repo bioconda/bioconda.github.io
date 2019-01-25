@@ -11,7 +11,7 @@ A Python library for reading and writing PacBio data files
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.6.5, 1.5.1, 1.2.10
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbcore
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbcore/meta.yaml
 
 
 

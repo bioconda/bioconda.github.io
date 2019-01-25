@@ -11,7 +11,7 @@ Taxator\-tk sequence taxonomic annotaion
 Home          https://github.com/fungs/taxator-tk
 Versions      1.3.3e
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/taxator-tk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/taxator-tk/meta.yaml
 
 
 

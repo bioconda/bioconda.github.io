@@ -11,7 +11,7 @@ perl-bioperl-core
 Home          http://metacpan.org/pod/BioPerl
 Versions      1.007002, 1.7.2, 1.6.924
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bioperl-core
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bioperl-core/meta.yaml
 
 
 

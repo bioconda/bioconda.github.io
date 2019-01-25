@@ -11,7 +11,7 @@ A Poisson mixture model is implemented to cluster genes from high\- throughput t
 Home          https://CRAN.R-project.org/package=HTSCluster
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-htscluster
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-htscluster/meta.yaml
 
 
 

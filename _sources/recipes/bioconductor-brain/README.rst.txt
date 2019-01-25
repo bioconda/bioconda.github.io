@@ -11,7 +11,7 @@ Package for calculating aggregated isotopic distribution and exact center\-masse
 Home          https://bioconductor.org/packages/3.8/bioc/html/BRAIN.html
 Versions      1.26.0, 1.24.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-brain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-brain/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Count bam lines is designed to count the number of read starts within each 1000 
 Home          https://github.com/hartwigmedical/hmftools/tree/master/count-bam-lines
 Versions      1.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hmftools-cobalt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hmftools-cobalt/meta.yaml
 
 
 

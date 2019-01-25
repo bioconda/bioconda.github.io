@@ -11,7 +11,7 @@ Identifies differentially abundant populations between samples and groups in mas
 Home          https://bioconductor.org/packages/3.8/bioc/html/cydar.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cydar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cydar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ FALCON\/Unzip tool\-suite \(originally by Jason Chin\)
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.0.2, 0.0.1, 0.0.0
 License       BSD 3-Clause Clear License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pb-falcon
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pb-falcon/meta.yaml
 
 
 

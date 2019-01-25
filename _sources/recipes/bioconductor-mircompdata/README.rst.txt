@@ -11,7 +11,7 @@ Raw amplification data from a large microRNA mixture \/ dilution study. These da
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/miRcompData.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircompdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mircompdata/meta.yaml
 
 
 

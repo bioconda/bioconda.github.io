@@ -11,7 +11,7 @@ Structured Tags
 Home          http://metacpan.org/pod/Data-Stag
 Versions      0.14
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-data-stag
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-stag/meta.yaml
 
 
 

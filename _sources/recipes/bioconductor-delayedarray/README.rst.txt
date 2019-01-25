@@ -11,7 +11,7 @@ Wrapping an array\-like object \(typically an on\-disk object\) in a DelayedArra
 Home          https://bioconductor.org/packages/3.8/bioc/html/DelayedArray.html
 Versions      0.6.6, 0.4.1, 0.2.7
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-delayedarray
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-delayedarray/meta.yaml
 
 
 

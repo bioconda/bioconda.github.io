@@ -11,7 +11,7 @@ Description\: This package contains functions implementing various tasks usually
 Home          https://bioconductor.org/packages/3.8/bioc/html/genefu.html
 Versions      2.12.0, 2.10.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genefu
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genefu/meta.yaml
 
 
 

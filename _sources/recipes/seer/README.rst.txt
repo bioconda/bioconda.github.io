@@ -11,7 +11,7 @@ sequence element \(kmer\) enrichment analysis
 Home          https://github.com/johnlees/seer
 Versions      1.1.4
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/seer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seer/meta.yaml
 
 
 

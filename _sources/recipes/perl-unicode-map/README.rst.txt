@@ -11,7 +11,7 @@ An utility to map texts from and to unicode
 Home          http://metacpan.org/pod/Unicode::Map
 Versions      0.112
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-unicode-map
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-unicode-map/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ PneumoCaT \(Pneumococcal Capsular Typing\) uses a two\-step step approach to ass
 Home          https://github.com/phe-bioinformatics/pneumocat
 Versions      1.2, 1.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pneumocat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pneumocat/meta.yaml
 
 
 

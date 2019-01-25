@@ -14,7 +14,7 @@ This streaming creates some awesome efficiencies when processing HTS data.
 Home          https://ibest.github.io/HTStream
 Versions      1.0.0
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htstream
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/htstream/meta.yaml
 
 
 

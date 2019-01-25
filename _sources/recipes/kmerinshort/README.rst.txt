@@ -11,7 +11,7 @@ KmerInShort counts kmers from a fasta\/fastq file or list of files\, and outputs
 Home          https://github.com/rizkg/KmerInShort
 Versions      1.0.1
 License       aGPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kmerinshort
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kmerinshort/meta.yaml
 
 
 

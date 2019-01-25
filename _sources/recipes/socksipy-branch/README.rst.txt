@@ -11,7 +11,7 @@ A Python SOCKS module
 Home          http://socksipy.sourceforge.net/
 Versions      1.01
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/socksipy-branch
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/socksipy-branch/meta.yaml
 
 
 

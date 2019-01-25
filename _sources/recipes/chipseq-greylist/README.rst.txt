@@ -11,7 +11,7 @@ Python implementation of GreyListChIP Bioconductor package.
 Home          https://github.com/roryk/chipseq-greylist
 Versions      1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/chipseq-greylist
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chipseq-greylist/meta.yaml
 
 
 

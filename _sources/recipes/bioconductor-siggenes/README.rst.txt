@@ -11,7 +11,7 @@ Identification of differentially expressed genes and estimation of the False Dis
 Home          https://bioconductor.org/packages/3.8/bioc/html/siggenes.html
 Versions      1.54.0, 1.52.0, 1.50.0, 1.46.0, 1.44.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-siggenes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-siggenes/meta.yaml
 
 
 

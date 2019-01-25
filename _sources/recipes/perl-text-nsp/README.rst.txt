@@ -11,7 +11,7 @@ Extract collocations and Ngrams from text
 Home          http://metacpan.org/pod/Text::NSP
 Versions      1.31
 License       open_source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-nsp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-nsp/meta.yaml
 
 
 

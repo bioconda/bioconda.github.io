@@ -11,7 +11,7 @@ Allows the user to access functionality in the \'CDK\'\, a Java framework for ch
 Home          https://CRAN.R-project.org/package=rcdk
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rcdk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rcdk/meta.yaml
 
 
 

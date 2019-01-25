@@ -11,7 +11,7 @@ Checks to see if the module can be loaded
 Home          https://github.com/tokuhirom/Test-Requires
 Versions      0.10
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-requires
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-requires/meta.yaml
 
 
 

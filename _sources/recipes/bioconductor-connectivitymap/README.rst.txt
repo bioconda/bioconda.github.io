@@ -11,7 +11,7 @@ The Broad Institute\'s Connectivity Map \(cmap02\) is a \"large reference catalo
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ConnectivityMap.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-connectivitymap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-connectivitymap/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Convert fa to fastq format\, just faking quality values.
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-fatofastq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-fatofastq/meta.yaml
 
 
 

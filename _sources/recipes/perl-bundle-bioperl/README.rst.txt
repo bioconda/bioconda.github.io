@@ -11,7 +11,7 @@ A bundle to install external CPAN modules used by BioPerl 1.5.2
 Home          http://metacpan.org/pod/Bundle::BioPerl
 Versions      2.1.9
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bundle-bioperl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bundle-bioperl/meta.yaml
 
 
 

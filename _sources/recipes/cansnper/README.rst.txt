@@ -11,7 +11,7 @@ A hierarchical genotype classifier of clonal pathogens.
 Home          https://github.com/adrlar/CanSNPer/
 Versions      1.0.8
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cansnper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cansnper/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Cyclic Redundency Check digests implementation
 Home          http://metacpan.org/pod/Digest::Crc32
 Versions      0.01
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-crc32
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-digest-crc32/meta.yaml
 
 
 

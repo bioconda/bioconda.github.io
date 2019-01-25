@@ -11,7 +11,7 @@ Perform set operations on arrays
 Home          https://metacpan.org/release/Array-Set
 Versions      0.05
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-array-set
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-array-set/meta.yaml
 
 
 

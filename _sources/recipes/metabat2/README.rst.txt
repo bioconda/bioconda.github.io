@@ -11,7 +11,7 @@ MetaBAT2 is a program for binning metagenome\-assembled contigs into bins\/MAGs.
 Home          https://bitbucket.org/berkeleylab/metabat
 Versions      2.12.1
 License       Academic and Research License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metabat2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metabat2/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Python extension for smhasher hash functions
 Home          http://github.com/phensley/python-smhasher
 Versions      0.150.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/smhasher
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/smhasher/meta.yaml
 
 
 

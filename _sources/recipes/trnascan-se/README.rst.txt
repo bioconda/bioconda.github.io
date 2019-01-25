@@ -11,7 +11,7 @@ tRNA detection in large\-scale genome sequence
 Home          http://lowelab.ucsc.edu/tRNAscan-SE/
 Versions      2.0, 1.3.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/trnascan-se
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/trnascan-se/meta.yaml
 
 
 

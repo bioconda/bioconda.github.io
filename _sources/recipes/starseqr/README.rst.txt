@@ -11,7 +11,7 @@ RNA Fusion Detection and Quantification
 Home          https://github.com/ExpressionAnalysis/STAR-SEQR
 Versions      0.6.7, 0.6.6, 0.6.3, 0.5.0
 License       ../../LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/starseqr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/starseqr/meta.yaml
 
 
 

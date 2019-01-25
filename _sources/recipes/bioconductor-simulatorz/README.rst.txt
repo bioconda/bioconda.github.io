@@ -11,7 +11,7 @@ simulatorZ is a package intended primarily to simulate collections of independen
 Home          https://bioconductor.org/packages/3.8/bioc/html/simulatorZ.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-simulatorz
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-simulatorz/meta.yaml
 
 
 

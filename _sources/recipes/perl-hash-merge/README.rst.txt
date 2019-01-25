@@ -11,7 +11,7 @@ Merges arbitrarily deep hashes into a single hash
 Home          http://metacpan.org/pod/Hash::Merge
 Versions      0.300, 0.200
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-hash-merge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-hash-merge/meta.yaml
 
 
 

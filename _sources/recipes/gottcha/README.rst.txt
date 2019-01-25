@@ -11,7 +11,7 @@ Genomic Origin Through Taxonomic CHAllenge \(GOTTCHA\)
 Home          https://github.com/LANL-Bioinformatics/GOTTCHA
 Versions      1.0
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gottcha
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gottcha/meta.yaml
 
 
 

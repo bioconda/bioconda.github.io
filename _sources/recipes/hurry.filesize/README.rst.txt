@@ -11,7 +11,7 @@ A simple Python library for human readable file sizes \(or anything sized in byt
 Home          None
 Versions      0.9
 License       ZPL 2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hurry.filesize
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hurry.filesize/meta.yaml
 
 
 

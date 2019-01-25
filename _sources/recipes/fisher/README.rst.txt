@@ -11,7 +11,7 @@ Fast Fisher\'s Exact Test
 Home          http://github.com/brentp/fishers_exact_test
 Versions      0.1.4
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fisher
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fisher/meta.yaml
 
 
 

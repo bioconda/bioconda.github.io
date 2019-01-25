@@ -11,7 +11,7 @@ Appliation for discovering direct or indirect targets of transcription factors u
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneNetworkBuilder.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genenetworkbuilder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genenetworkbuilder/meta.yaml
 
 
 

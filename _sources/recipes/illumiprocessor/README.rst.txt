@@ -11,7 +11,7 @@ illumiprocessor is a tool to batch process illumina sequencing reads using the e
 Home          https://github.com/faircloth-lab/illumiprocessor
 Versions      2.0.9
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/illumiprocessor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/illumiprocessor/meta.yaml
 
 
 

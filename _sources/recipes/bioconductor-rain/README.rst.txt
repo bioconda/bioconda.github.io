@@ -11,7 +11,7 @@ This package uses non\-parametric methods to detect rhythms in time series. It d
 Home          https://bioconductor.org/packages/3.8/bioc/html/rain.html
 Versions      1.14.0, 1.12.0, 1.10.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rain/meta.yaml
 
 
 

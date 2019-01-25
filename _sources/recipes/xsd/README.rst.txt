@@ -11,7 +11,7 @@ CodeSynthesis XSD is an open\-source\, cross\-platform W3C XML Schema to C\+\+ d
 Home          http://www.codesynthesis.com/products/xsd/
 Versions      4.0.0_dep
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xsd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xsd/meta.yaml
 
 
 

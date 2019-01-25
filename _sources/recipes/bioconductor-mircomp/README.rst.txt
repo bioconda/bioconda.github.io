@@ -11,7 +11,7 @@ Based on a large miRNA dilution study\, this package provides tools to read in t
 Home          https://bioconductor.org/packages/3.8/bioc/html/miRcomp.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mircomp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mircomp/meta.yaml
 
 
 

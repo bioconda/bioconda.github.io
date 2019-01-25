@@ -11,7 +11,7 @@ A fast and accurate adapter trimmer for paired\-end reads.
 Home          https://github.com/relipmoc/skewer.git
 Versions      0.2.2, 0.1.126
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skewer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/skewer/meta.yaml
 
 
 

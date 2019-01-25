@@ -11,7 +11,7 @@ A lightweight limited functionality R bgen read\/write library
 Home          https://github.com/rwdavies/rrbgen
 Versions      0.0.6
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rrbgen
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rrbgen/meta.yaml
 
 
 Development   https://github.com/rwdavies/rrbgen

@@ -11,7 +11,7 @@ Genetic multiplexing of barcoded single cell RNA\-seq
 Home          https://github.com/statgen/demuxlet
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/demuxlet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/demuxlet/meta.yaml
 
 
 Development   https://github.com/statgen/demuxlet

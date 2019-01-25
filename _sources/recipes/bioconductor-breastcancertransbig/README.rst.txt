@@ -11,7 +11,7 @@ Gene expression data from a breast cancer study published by Desmedt et al. in 2
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerTRANSBIG.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancertransbig
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-breastcancertransbig/meta.yaml
 
 
 

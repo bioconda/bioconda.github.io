@@ -13,7 +13,7 @@ HyPhy \(Hypothesis Testing using Phylogenies\) is an open\-source software packa
 Home          http://hyphy.org/
 Versions      2.3.14, 2.3.12
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hyphy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hyphy/meta.yaml
 
 
 Development   https://github.com/veg/hyphy

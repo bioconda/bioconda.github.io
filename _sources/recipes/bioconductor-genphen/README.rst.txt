@@ -11,7 +11,7 @@ Genetic association studies are an essential tool for studying the relationship 
 Home          https://bioconductor.org/packages/3.8/bioc/html/genphen.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-genphen
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genphen/meta.yaml
 
 
 

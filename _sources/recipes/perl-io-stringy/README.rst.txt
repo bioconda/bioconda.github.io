@@ -11,7 +11,7 @@ write a file which is updated atomically
 Home          http://metacpan.org/pod/IO-stringy
 Versions      2.111
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-io-stringy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-stringy/meta.yaml
 
 
 

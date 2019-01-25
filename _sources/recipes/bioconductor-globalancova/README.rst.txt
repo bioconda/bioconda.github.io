@@ -11,7 +11,7 @@ The association between a variable of interest \(e.g. two groups\) and the globa
 Home          https://bioconductor.org/packages/3.8/bioc/html/GlobalAncova.html
 Versions      3.48.0, 3.46.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-globalancova
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-globalancova/meta.yaml
 
 
 

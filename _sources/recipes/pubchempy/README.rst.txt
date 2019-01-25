@@ -11,7 +11,7 @@ A simple Python wrapper around the PubChem PUG REST API.
 Home          https://github.com/mcs07/PubChemPy
 Versions      1.0.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pubchempy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pubchempy/meta.yaml
 
 Documentation http://pubchempy.readthedocs.io/
 

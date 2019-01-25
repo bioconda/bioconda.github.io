@@ -11,7 +11,7 @@ The curatedOvarianData package provides data for gene expression analysis in pat
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedOvarianData.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedovariandata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-curatedovariandata/meta.yaml
 
 
 

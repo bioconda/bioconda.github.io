@@ -11,7 +11,7 @@ HG\-CoLoR \(Hybrid Graph for the error Correction of Long Reads\) is a hybrid me
 Home          https://github.com/pierre-morisse/HG-CoLoR
 Versions      1.0.0
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hg-color
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hg-color/meta.yaml
 
 
 

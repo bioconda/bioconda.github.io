@@ -11,7 +11,7 @@ ddocent
 Home          http://ddocent.com
 Versions      2.6.0, 2.5.6, 2.5.5, 2.5.2, 2.5.1, 2.3.8, 2.2.25, 2.2.20, 2.2.19, 2.2.16, 2.2.15, 2.2.13, 2.2.8, 2.2.7, 2.2.4, 2.1
 License       The MIT License (MIT)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ddocent
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ddocent/meta.yaml
 
 
 

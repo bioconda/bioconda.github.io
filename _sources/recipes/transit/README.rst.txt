@@ -11,7 +11,7 @@ TRANSIT
 Home          http://github.com/mad-lab/transit
 Versions      2.3.3, 2.3.2, 2.3.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/transit/meta.yaml
 
 
 Development   https://github.com/simongog/sdsl-lite

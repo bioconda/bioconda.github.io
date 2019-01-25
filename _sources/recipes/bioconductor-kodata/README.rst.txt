@@ -11,7 +11,7 @@ Contains consensus genomic signatures \(CGS\) for experimental cell\-line specif
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/KOdata.html
 Versions      1.6.0, 1.4.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-kodata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-kodata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The motifStack package is designed for graphic representation of multiple motifs
 Home          https://bioconductor.org/packages/3.8/bioc/html/motifStack.html
 Versions      1.24.1, 1.22.0, 1.20.1, 1.18.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-motifstack
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-motifstack/meta.yaml
 
 
 

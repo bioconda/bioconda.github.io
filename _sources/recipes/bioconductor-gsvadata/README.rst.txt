@@ -11,7 +11,7 @@ This package stores the data employed in the vignette of the GSVA package. These
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GSVAdata.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gsvadata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gsvadata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ bmtool is part of BMTagger aka Best Match Tagger\, for removing human reads from
 Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/bmtagger/
 Versions      3.101
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bmtool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bmtool/meta.yaml
 
 
 

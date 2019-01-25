@@ -11,7 +11,7 @@ LightStringGraphs \(LSG\) is an external memory string graph construction tool.
 Home          http://lsg.algolab.eu
 Versions      0.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/lightstringgraph
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lightstringgraph/meta.yaml
 
 
 

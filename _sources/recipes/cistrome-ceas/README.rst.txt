@@ -11,7 +11,7 @@ Cistrome\-CEAS \-\- Cis\-regulatory Element Annotation System
 Home          https://bitbucket.org/cistrome/cistrome-applications-harvard/overview
 Versions      1.0.2b1
 License       Artistic Licence
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cistrome-ceas
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cistrome-ceas/meta.yaml
 
 Documentation http://liulab.dfci.harvard.edu/CEAS/
 

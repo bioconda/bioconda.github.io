@@ -11,7 +11,7 @@ SV callers like lumpy look at split\-reads and pair distances to find structural
 Home          https://github.com/brentp/duphold
 Versions      0.1.1, 0.1.0, 0.0.9, 0.0.6, 0.0.3, 0.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/duphold
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/duphold/meta.yaml
 
 
 

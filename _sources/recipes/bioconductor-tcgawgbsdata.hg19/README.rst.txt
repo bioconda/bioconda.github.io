@@ -11,7 +11,7 @@ Data package for WGBS Data in TCGA. Data is stored as SummarizedExperiment Forma
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tcgaWGBSData.hg19.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tcgawgbsdata.hg19
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tcgawgbsdata.hg19/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A Shiny application providing methods for designing\, evaluating\, and comparing
 Home          https://bioconductor.org/packages/3.8/bioc/html/openPrimeRui.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-openprimerui
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-openprimerui/meta.yaml
 
 
 

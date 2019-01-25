@@ -11,7 +11,7 @@ RNA\-seq count data from Pickrell et al. \(2010\) employed to illustrate the use
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tweeDEseqCountData.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tweedeseqcountdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tweedeseqcountdata/meta.yaml
 
 
 

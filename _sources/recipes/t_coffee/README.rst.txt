@@ -11,7 +11,7 @@ A collection of tools for Computing\, Evaluating and Manipulating Multiple Align
 Home          http://www.tcoffee.org/Projects/tcoffee/
 Versions      11.0.8
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/t_coffee
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/t_coffee/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Coding Potential Assessment Tool
 Home          http://dldcc-web.brc.bcm.edu/lilab/liguow/CGI/cpat/_build/html/index.html
 Versions      1.2.3, 1.2.2
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cpat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cpat/meta.yaml
 
 
 

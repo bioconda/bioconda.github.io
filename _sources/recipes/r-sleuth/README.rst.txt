@@ -11,7 +11,7 @@ Sleuth is an R library for analysis of RNA\-Seq experiments for which transcript
 Home          http://pachterlab.github.io/sleuth
 Versions      0.30.0, 0.29.0, 0.28.0, 0.0.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sleuth
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-sleuth/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides example GC\-MS data for TargetSearch Package.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/TargetSearchData.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-targetsearchdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-targetsearchdata/meta.yaml
 
 
 

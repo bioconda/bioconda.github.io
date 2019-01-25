@@ -11,7 +11,7 @@ Demultiplexes a fastq. Capable of auto\-determining barcode id\'s based on a mas
 Home          https://github.com/brwnj/fastq-multx
 Versions      1.3.1, 1.3.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastq-multx
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastq-multx/meta.yaml
 
 
 

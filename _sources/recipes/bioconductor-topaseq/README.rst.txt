@@ -11,7 +11,7 @@ Implementation of methods for topology\-based pathway analysis of RNA\-seq data.
 Home          https://bioconductor.org/packages/3.8/bioc/html/ToPASeq.html
 Versions      
 License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-topaseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-topaseq/meta.yaml
 
 
 

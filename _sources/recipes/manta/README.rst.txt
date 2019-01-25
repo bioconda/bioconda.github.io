@@ -11,7 +11,7 @@ Structural variant and indel caller for mapped sequencing data
 Home          https://github.com/Illumina/manta
 Versions      1.5.0, 1.4.0, 1.3.2, 1.3.0, 1.2.1, 1.1.0, 1.0.3, 1.0.0, 0.29.6, 0.29.3, 0.29.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/manta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/manta/meta.yaml
 
 
 

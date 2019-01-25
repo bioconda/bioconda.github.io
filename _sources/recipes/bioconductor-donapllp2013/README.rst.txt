@@ -11,7 +11,7 @@ An experiment data package associated with the publication Dona et al. \(2013\).
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DonaPLLP2013.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-donapllp2013
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-donapllp2013/meta.yaml
 
 
 

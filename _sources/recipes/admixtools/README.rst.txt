@@ -11,7 +11,7 @@ ADMIXTOOLS \(Patterson et al. 2012\) is a software package that supports formal 
 Home          https://github.com/DReichLab/AdmixTools
 Versions      5.1, 5.0
 License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/admixtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/admixtools/meta.yaml
 
 
 

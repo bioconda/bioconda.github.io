@@ -11,7 +11,7 @@ SaffronTree\: Reference free rapid phylogenetic tree construction from raw read 
 Home          https://github.com/sanger-pathogens/saffrontree
 Versions      0.1.2
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/saffrontree
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/saffrontree/meta.yaml
 
 
 

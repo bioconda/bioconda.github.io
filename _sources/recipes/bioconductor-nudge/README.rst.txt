@@ -11,7 +11,7 @@ Package for normalizing microarray data in single and multiple replicate experim
 Home          http://bioconductor.org/packages/3.7/bioc/html/nudge.html
 Versions      1.46.0, 1.44.0, 1.42.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nudge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nudge/meta.yaml
 
 
 

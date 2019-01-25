@@ -11,7 +11,7 @@ Useful functions to merge microRNA and respective targets using differents datab
 Home          https://bioconductor.org/packages/3.8/bioc/html/RmiR.html
 Versions      1.36.0, 1.34.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmir
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rmir/meta.yaml
 
 
 

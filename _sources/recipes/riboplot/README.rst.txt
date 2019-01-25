@@ -11,7 +11,7 @@ Plot read counts of RiboSeq data from BAM format alignment files
 Home          https://github.com/vimalkvn/riboplot
 Versions      0.3.1
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboplot
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/riboplot/meta.yaml
 
 
 

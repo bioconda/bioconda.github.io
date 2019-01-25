@@ -11,7 +11,7 @@ general purpose library for evaluating the likelihood of sequence evolution on t
 Home          https://github.com/beagle-dev/beagle-lib
 Versions      3.1.2, 3.1.1, 3.1.0, 3.0.2, 2.1.2
 License       GPL-3.0+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/beagle-lib
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/beagle-lib/meta.yaml
 
 
 

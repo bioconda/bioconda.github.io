@@ -11,7 +11,7 @@ This package reproduces the main pipeline to analyze the AMC\-AJCCII\-90 microar
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DeSousa2013.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-desousa2013
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-desousa2013/meta.yaml
 
 
 

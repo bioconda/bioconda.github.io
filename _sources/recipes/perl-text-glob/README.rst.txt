@@ -11,7 +11,7 @@ match globbing patterns against text
 Home          https://metacpan.org/pod/Text::Glob
 Versions      0.11, 0.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-glob
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-glob/meta.yaml
 
 
 

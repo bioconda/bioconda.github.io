@@ -13,7 +13,7 @@ outlined in Kuehnl et al. 2017\, https\:\/\/doi.org\/10.1186\/s12859\-017\-1823\
 Home          http://www.bioinf.uni-leipzig.de/~felix/
 Versions      0.3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kinsimriboswitch
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kinsimriboswitch/meta.yaml
 
 
 

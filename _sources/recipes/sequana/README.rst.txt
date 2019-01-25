@@ -11,7 +11,7 @@ A set of standalone application and snakemake pipelines dedicated to NGS \(new g
 Home          http://sequana.readthedocs.io/
 Versions      0.7.1, 0.7.0, 0.6.3.post1, 0.6.1, 0.6.0, 0.5.2, 0.5.1, 0.5.0, 0.4.1, 0.4.0, 0.3.0, 0.2.1, 0.2.0
 License       BSD 3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequana
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sequana/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Probability propagation in graphical independence networks\, also known as Bayes
 Home          http://people.math.aau.dk/~sorenh/software/gR/
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-grain
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-grain/meta.yaml
 
 
 

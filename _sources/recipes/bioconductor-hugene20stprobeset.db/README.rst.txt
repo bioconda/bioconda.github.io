@@ -11,7 +11,7 @@ Affymetrix hugene20 annotation data \(chip hugene20stprobeset\) assembled using 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hugene20stprobeset.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hugene20stprobeset.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hugene20stprobeset.db/meta.yaml
 
 
 

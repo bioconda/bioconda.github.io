@@ -11,7 +11,7 @@ Predictor of long non\-coding RNAs and mRNAs based on k\-mer scheme.
 Home          https://sourceforge.net/projects/plek
 Versions      1.2
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/plek
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plek/meta.yaml
 
 
 

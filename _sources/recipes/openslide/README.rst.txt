@@ -11,7 +11,7 @@ OpenSlide is a C library that provides a simple interface to read whole\-slide i
 Home          http://openslide.org/
 Versions      3.4.1
 License       GNU LGPL 2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/openslide
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/openslide/meta.yaml
 
 
 

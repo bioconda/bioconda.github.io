@@ -11,7 +11,7 @@ pyopt
 Home          http://www.pyopt.org/index.html
 Versions      1.2.0
 License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyopt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyopt/meta.yaml
 
 
 

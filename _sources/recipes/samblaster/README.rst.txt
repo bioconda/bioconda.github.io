@@ -11,7 +11,7 @@ A tool to mark duplicates and extract discordant and split reads from sam files.
 Home          https://github.com/GregoryFaust/samblaster
 Versions      0.1.24, 0.1.23, 0.1.22
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/samblaster
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/samblaster/meta.yaml
 
 
 

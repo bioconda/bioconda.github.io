@@ -11,7 +11,7 @@ RepEnrich is a method to estimate repetitive element enrichment using high\-thro
 Home          https://github.com/nskvir/RepEnrich
 Versions      1.2
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/repenrich
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/repenrich/meta.yaml
 
 
 

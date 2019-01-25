@@ -11,7 +11,7 @@ The functions in this R extension are intended for cross\-study comparison of ge
 Home          https://bioconductor.org/packages/3.8/bioc/html/MergeMaid.html
 Versions      2.52.0, 2.50.0, 2.48.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mergemaid
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mergemaid/meta.yaml
 
 
 

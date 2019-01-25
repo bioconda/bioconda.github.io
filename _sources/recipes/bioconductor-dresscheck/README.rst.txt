@@ -11,7 +11,7 @@ data and software for checking Dressman JCO 25\(5\) 2007
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/dressCheck.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dresscheck
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dresscheck/meta.yaml
 
 
 

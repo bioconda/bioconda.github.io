@@ -11,7 +11,7 @@ The \'msa\' package provides a unified R\/Bioconductor interface to the multiple
 Home          https://bioconductor.org/packages/3.8/bioc/html/msa.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msa/meta.yaml
 
 
 

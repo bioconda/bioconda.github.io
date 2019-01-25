@@ -11,7 +11,7 @@ fqtrim is a versatile stand\-alone utility that can be used to trim adapters\, p
 Home          https://ccb.jhu.edu/software/fqtrim/
 Versions      0.9.7
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fqtrim
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fqtrim/meta.yaml
 
 
 

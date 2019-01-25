@@ -11,7 +11,7 @@ A package containing an environment representing the GP53.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/gp53cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gp53cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gp53cdf/meta.yaml
 
 
 

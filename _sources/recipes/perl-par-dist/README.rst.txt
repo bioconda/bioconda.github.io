@@ -11,7 +11,7 @@ Create and manipulate PAR distributions
 Home          http://metacpan.org/pod/PAR::Dist
 Versions      0.49
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-par-dist/0.49
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-par-dist/0.49/meta.yaml
 
 
 

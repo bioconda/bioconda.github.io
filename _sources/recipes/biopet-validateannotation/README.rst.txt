@@ -11,7 +11,7 @@ ValidateAnnotationvalidates whether an annotation file is correct.
 Home          https://github.com/biopet/validateannotation
 Versions      0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validateannotation
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-validateannotation/meta.yaml
 
 
 

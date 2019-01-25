@@ -11,7 +11,7 @@ Report errors from perspective of caller of a \"clan\" of modules
 Home          http://metacpan.org/pod/Carp::Clan
 Versions      6.07, 6.06
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-carp-clan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-carp-clan/meta.yaml
 
 
 

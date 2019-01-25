@@ -11,7 +11,7 @@ Application of \'RaceID\' allows inference of cell types and prediction of linea
 Home          https://github.com/dgrun/RaceID3_StemID2_package
 Versions      0.1.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-raceid3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-raceid3/meta.yaml
 
 
 

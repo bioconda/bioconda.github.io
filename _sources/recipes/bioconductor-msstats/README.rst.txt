@@ -11,7 +11,7 @@ A set of tools for statistical relative protein significance analysis in DDA\, S
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSstats.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-msstats
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msstats/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Keyed\-Hashing for Message Authentication
 Home          http://metacpan.org/pod/Digest-HMAC
 Versions      1.03
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-digest-hmac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-digest-hmac/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The rnaSeqMap library provides classes and functions to analyze the RNA\-sequenc
 Home          https://bioconductor.org/packages/3.8/bioc/html/rnaSeqMap.html
 Versions      2.38.0, 2.36.0, 2.34.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rnaseqmap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnaseqmap/meta.yaml
 
 
 

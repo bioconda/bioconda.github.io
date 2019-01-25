@@ -11,7 +11,7 @@ Command\-line tools used by transrate for processing bam files.
 Home          https://github.com/blahah/transrate-tools
 Versions      1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/transrate-tools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/transrate-tools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ File details in an object\, stat\, hash\, etc..
 Home          http://metacpan.org/pod/File::Details
 Versions      0.003
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-details
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-details/meta.yaml
 
 
 

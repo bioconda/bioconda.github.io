@@ -11,7 +11,7 @@ Filter sequencing data using some simple heuristics
 Home          https://github.com/veg/qfilt
 Versions      0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/qfilt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qfilt/meta.yaml
 
 
 

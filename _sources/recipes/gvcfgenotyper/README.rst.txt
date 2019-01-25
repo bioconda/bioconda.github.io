@@ -11,7 +11,7 @@ A utility for merging and genotyping Illumina\-style GVCFs.
 Home          https://github.com/Illumina/gvcfgenotyper
 Versions      2018.10.15
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gvcfgenotyper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gvcfgenotyper/meta.yaml
 
 
 

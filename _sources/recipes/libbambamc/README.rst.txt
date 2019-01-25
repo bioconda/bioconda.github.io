@@ -11,7 +11,7 @@ lightweight C implementation of name collating BAM file input and BAM file outpu
 Home          https://github.com/gt1/bambamc
 Versions      0.0.50
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/libbambamc/0.5.00
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libbambamc/0.5.00/meta.yaml
 
 
 

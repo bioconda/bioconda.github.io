@@ -11,7 +11,7 @@ Data used by the barcode package for microarrays of type mouse4302.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/mouse4302barcodevecs.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mouse4302barcodevecs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mouse4302barcodevecs/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MapSplice is a software for mapping RNA\-seq data to reference genome for splice
 Home          
 Versions      2.2.0
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mapsplice
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mapsplice/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Linear mixed models \(lme4\) with flexible covariance structure for qtl and asso
 Home          https://CRAN.R-project.org/package=lme4qtl
 Versions      0.1.10
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-lme4qtl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-lme4qtl/meta.yaml
 
 
 

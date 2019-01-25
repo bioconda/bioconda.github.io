@@ -11,7 +11,7 @@ Produces charts with GD
 Home          http://metacpan.org/pod/GDGraph
 Versions      1.54, 1.49
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-gdgraph
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-gdgraph/meta.yaml
 
 
 

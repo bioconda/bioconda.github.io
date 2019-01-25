@@ -11,7 +11,7 @@ Comprehensive inside\-out object support module
 Home          http://metacpan.org/pod/Object::InsideOut
 Versions      4.05, 4.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-object-insideout
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-object-insideout/meta.yaml
 
 
 

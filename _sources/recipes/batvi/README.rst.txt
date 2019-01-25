@@ -11,7 +11,7 @@ Detect viral integrations
 Home          https://www.comp.nus.edu.sg/~bioinfo/batvi/
 Versions      1.04
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/batvi
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/batvi/meta.yaml
 
 
 

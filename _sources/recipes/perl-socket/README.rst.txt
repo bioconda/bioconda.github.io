@@ -11,7 +11,7 @@ networking constants and support functions
 Home          http://metacpan.org/pod/Socket
 Versions      2.027
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-socket/2.027
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-socket/2.027/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Peakzilla identifies sites of enrichment and transcription factor binding sites 
 Home          http://stark.imp.ac.at/data/peakzilla
 Versions      1.0
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/peakzilla
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/peakzilla/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package contains the functions to find the pathways that have significantly
 Home          https://bioconductor.org/packages/3.8/bioc/html/pathVar.html
 Versions      1.10.0, 1.8.0
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pathvar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pathvar/meta.yaml
 
 
 

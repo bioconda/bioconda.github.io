@@ -11,7 +11,7 @@ Codelink UniSet Human I Bioarray \(\~10 000 human genes\) annotation data \(chip
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/h10kcod.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-h10kcod.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-h10kcod.db/meta.yaml
 
 
 

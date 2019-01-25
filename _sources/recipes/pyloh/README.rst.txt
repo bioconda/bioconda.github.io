@@ -11,7 +11,7 @@ Deconvolving tumor purity and ploidy by integrating copy number alterations and 
 Home          https://github.com/uci-cbcl/PyLOH
 Versions      1.4.3, 1.4.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyloh
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyloh/meta.yaml
 
 
 

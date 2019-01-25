@@ -11,7 +11,7 @@ Designed for association studies in nested association mapping \(NAM\) panels\, 
 Home          https://CRAN.R-project.org/package=NAM
 Versions      1.6.4
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-nam
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-nam/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Trim\, circularise and orient long read bacterial genome assemblies.
 Home          https://github.com/tseemann/berokka
 Versions      0.2, 0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/berokka
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/berokka/meta.yaml
 
 
 

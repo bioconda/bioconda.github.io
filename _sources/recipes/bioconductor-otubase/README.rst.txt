@@ -11,7 +11,7 @@ Provides a platform for Operational Taxonomic Unit based analysis
 Home          https://bioconductor.org/packages/3.8/bioc/html/OTUbase.html
 Versions      1.30.0, 1.28.0, 1.26.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-otubase
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-otubase/meta.yaml
 
 
 

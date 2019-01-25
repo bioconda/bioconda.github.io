@@ -11,7 +11,7 @@ F\-Seq\: A feature density estimator for high\-throughput sequence tags
 Home          http://fureylab.web.unc.edu/software/fseq/
 Versions      1.84
 License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fseq/meta.yaml
 
 
 

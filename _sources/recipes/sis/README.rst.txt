@@ -11,7 +11,7 @@ A tool that uses mummer to scaffold small genomes.
 Home          http://marte.ic.unicamp.br:8747/
 Versions      0.1.2, 0.1.0
 License       GPLv2+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sis/meta.yaml
 
 
 

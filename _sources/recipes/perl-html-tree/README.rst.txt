@@ -11,7 +11,7 @@ Work with HTML in a DOM\-like tree structure
 Home          http://metacpan.org/pod/HTML::Tree
 Versions      5.07, 5.03
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-html-tree
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-tree/meta.yaml
 
 
 

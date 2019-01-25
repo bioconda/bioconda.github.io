@@ -11,7 +11,7 @@ A Client of HIVdb Sierra GraphQL Webservice.
 Home          https://github.com/hivdb/sierra-client/tree/master/python
 Versions      0.2.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sierrapy
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sierrapy/meta.yaml
 
 
 

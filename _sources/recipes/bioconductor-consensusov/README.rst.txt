@@ -11,7 +11,7 @@ This package implements four major subtype classifiers for high\-grade serous \(
 Home          https://bioconductor.org/packages/3.8/bioc/html/consensusOV.html
 Versions      1.2.0, 1.0.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensusov
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-consensusov/meta.yaml
 
 
 

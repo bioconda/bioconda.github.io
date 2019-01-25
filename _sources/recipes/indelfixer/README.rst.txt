@@ -11,7 +11,7 @@ A sensitive aligner for 454\, Illumina and PacBio data\, employing a full Smith\
 Home          https://github.com/cbg-ethz/InDelFixer
 Versions      1.1
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/indelfixer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/indelfixer/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package defines a \"BigMatrix\" ReferenceClass which adds safety and conven
 Home          https://bioconductor.org/packages/3.8/bioc/html/bigmemoryExtras.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bigmemoryextras
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bigmemoryextras/meta.yaml
 
 
 

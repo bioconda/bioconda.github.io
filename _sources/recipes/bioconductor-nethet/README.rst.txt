@@ -11,7 +11,7 @@ Package nethet is an implementation of statistical solid methodology enabling th
 Home          https://bioconductor.org/packages/3.8/bioc/html/nethet.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nethet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nethet/meta.yaml
 
 
 

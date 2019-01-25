@@ -11,7 +11,7 @@ gkm\-SVM\, a sequence\-based method for predicting regulatory DNA elements\, is 
 Home          https://github.com/Dongwon-Lee/lsgkm
 Versions      0.0.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ls-gkm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ls-gkm/meta.yaml
 
 
 

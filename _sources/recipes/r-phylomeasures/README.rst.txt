@@ -11,7 +11,7 @@ Given a phylogenetic tree T and an assemblage S of species represented as  a sub
 Home          https://CRAN.R-project.org/package=PhyloMeasures
 Versions      2.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-phylomeasures
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-phylomeasures/meta.yaml
 
 
 

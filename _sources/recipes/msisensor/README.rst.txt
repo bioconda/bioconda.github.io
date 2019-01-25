@@ -11,7 +11,7 @@ MSIsensor is a C\+\+ program to detect replication slippage variants at microsat
 Home          https://github.com/ding-lab/msisensor
 Versions      0.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/msisensor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/msisensor/meta.yaml
 
 
 

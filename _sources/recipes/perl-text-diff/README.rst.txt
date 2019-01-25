@@ -11,7 +11,7 @@ Perform diffs on files and record sets
 Home          http://metacpan.org/pod/Text-Diff
 Versions      1.45, 1.44
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-text-diff
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-diff/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Automated pipline to perform gene expression analysis for Applied Biosystems Gen
 Home          https://bioconductor.org/packages/3.8/bioc/html/ABarray.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abarray
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-abarray/meta.yaml
 
 
 

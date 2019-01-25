@@ -11,7 +11,7 @@ This tool divides a fastq file into smaller fastq files\, based on the number of
 Home          https://github.com/biopet/fastq-splitter
 Versions      0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-fastqsplitter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-fastqsplitter/meta.yaml
 
 
 

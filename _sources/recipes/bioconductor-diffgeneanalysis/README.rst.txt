@@ -11,7 +11,7 @@ Analyze microarray data
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffGeneAnalysis.html
 Versions      1.62.0, 1.60.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-diffgeneanalysis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-diffgeneanalysis/meta.yaml
 
 
 

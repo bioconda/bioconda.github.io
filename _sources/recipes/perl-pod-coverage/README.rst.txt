@@ -11,7 +11,7 @@ Checks if the documentation of a module is comprehensive
 Home          http://metacpan.org/pod/Pod::Coverage
 Versions      0.23
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage/0.23
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-coverage/0.23/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Edward Loper\'s API Documentation Generation Tool
 Home          http://epydoc.sourceforge.net
 Versions      3.0.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/epydoc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/epydoc/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Open compressed files transparently in Python
 Home          https://github.com/marcelm/xopen
 Versions      0.4.1, 0.3.5, 0.3.2, 0.1.1, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xopen
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xopen/meta.yaml
 
 
 

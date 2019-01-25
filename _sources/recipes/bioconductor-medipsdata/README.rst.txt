@@ -11,7 +11,7 @@ Example data for MEDIPS and QSEA packages\, consisting of chromosome 22 MeDIP an
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MEDIPSData.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-medipsdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-medipsdata/meta.yaml
 
 
 

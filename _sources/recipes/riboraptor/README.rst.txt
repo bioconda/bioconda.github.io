@@ -11,7 +11,7 @@ Python package to analyse ribosome profiling data
 Home          https://github.com/saketkc/riboraptor
 Versions      0.2.2
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/riboraptor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/riboraptor/meta.yaml
 
 Documentation https://saketkc.github.io/riboraptor
 

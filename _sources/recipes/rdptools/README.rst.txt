@@ -11,7 +11,7 @@ Metaproject for RDP Tools
 Home          http://rdp.cme.msu.edu/misc/resources.jsp
 Versions      2.0.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rdptools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rdptools/meta.yaml
 
 
 

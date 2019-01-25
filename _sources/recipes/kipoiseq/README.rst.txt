@@ -11,7 +11,7 @@ kipoiseq\: sequence\-based data\-laoders for Kipoi
 Home          https://github.com/kipoi/kipoiseq
 Versions      0.2.2
 License       MIT license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kipoiseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kipoiseq/meta.yaml
 
 Documentation https://kipoi.org/kipoiseq/
 

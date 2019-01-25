@@ -11,7 +11,7 @@ Platform Design Info for NimbleGen 2006\-10\-31\_rn34\_refseq\_promoter
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.2006.10.31.rn34.refseq.promoter.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.2006.10.31.rn34.refseq.promoter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.2006.10.31.rn34.refseq.promoter/meta.yaml
 
 
 

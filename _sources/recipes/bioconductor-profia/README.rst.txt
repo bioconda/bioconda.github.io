@@ -11,7 +11,7 @@ Flow Injection Analysis coupled to High\-Resolution Mass Spectrometry is a promi
 Home          https://bioconductor.org/packages/3.8/bioc/html/proFIA.html
 Versions      1.4.0, 1.2.0
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-profia
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-profia/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ ShapeMapper converts raw sequencing files into mutational profiles\, creates SHA
 Home          http://www.chem.unc.edu/rna/software.html
 Versions      1.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shapemapper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/shapemapper/meta.yaml
 
 
 

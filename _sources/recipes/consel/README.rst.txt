@@ -11,7 +11,7 @@ CONSEL calculates the probability value \(i.e.\, p\-value\) to assess the confid
 Home          http://stat.sys.i.kyoto-u.ac.jp/prog/consel/
 Versions      0.20
 License       GNU GENERAL PUBLIC LICENSE Version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/consel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/consel/meta.yaml
 
 
 

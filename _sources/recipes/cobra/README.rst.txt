@@ -11,7 +11,7 @@ COBRApy is a package for constraint\-based modeling of biological networks
 Home          https://opencobra.github.io/cobrapy
 Versions      0.10.1, 0.4.0, 0.4.0b6
 License       GNU Lesser General Public License v2 or later (LGPLv2+) or GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cobra
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cobra/meta.yaml
 
 
 

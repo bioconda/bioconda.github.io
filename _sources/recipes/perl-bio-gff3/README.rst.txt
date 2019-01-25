@@ -11,7 +11,7 @@ fast\, low\-level GFF3 manipulation
 Home          http://metacpan.org/release/Bio-GFF3
 Versions      2.0
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-gff3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-gff3/meta.yaml
 
 
 

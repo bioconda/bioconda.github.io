@@ -11,7 +11,7 @@ Variant caller for legacy and low coverage Pacific Biosciences\' long\-read sequ
 Home          https://gitlab.com/LPCDRP/pbhoover
 Versions      1.0.7, 1.0.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pbhoover
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbhoover/meta.yaml
 
 
 

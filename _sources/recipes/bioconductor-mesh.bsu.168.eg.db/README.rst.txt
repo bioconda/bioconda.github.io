@@ -11,7 +11,7 @@ Entrez Gene ID to MeSH ID table.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MeSH.Bsu.168.eg.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mesh.bsu.168.eg.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mesh.bsu.168.eg.db/meta.yaml
 
 
 

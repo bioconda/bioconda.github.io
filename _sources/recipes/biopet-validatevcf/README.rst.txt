@@ -11,7 +11,7 @@ ValidateVcf validates a VCF file against a reference genomes.
 Home          https://github.com/biopet/validatevcf
 Versions      0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-validatevcf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-validatevcf/meta.yaml
 
 
 

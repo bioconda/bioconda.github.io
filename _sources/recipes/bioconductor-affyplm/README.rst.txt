@@ -11,7 +11,7 @@ A package that extends and improves the functionality of the base affy package. 
 Home          https://bioconductor.org/packages/3.8/bioc/html/affyPLM.html
 Versions      1.56.0, 1.54.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affyplm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affyplm/meta.yaml
 
 
 

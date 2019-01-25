@@ -11,7 +11,7 @@ Affymetrix Human Genome U95 Set annotation data \(chip hgu95b\) assembled using 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu95b.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu95b.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hgu95b.db/meta.yaml
 
 
 

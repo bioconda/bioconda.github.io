@@ -11,7 +11,7 @@ Toxoplasma gondii ME49 genome Release 7.0 available at http\:\/\/www.toxodb.org
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Tgondii.ToxoDB.7.0.html
 Versions      
 License       GPL 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.tgondii.toxodb.7.0/meta.yaml
 
 
 

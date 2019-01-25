@@ -11,7 +11,7 @@ A ped file parser.
 Home          https://github.com/moonso/ped_parser
 Versions      1.6.6, 1.6.5
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ped_parser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ped_parser/meta.yaml
 
 
 

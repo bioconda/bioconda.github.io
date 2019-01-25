@@ -11,7 +11,7 @@ A modern refactoring of the venerable xmltramp application
 Home          https://github.com/tBaxter/xmltramp2
 Versions      3.1.1
 License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xmltramp2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xmltramp2/meta.yaml
 
 
 

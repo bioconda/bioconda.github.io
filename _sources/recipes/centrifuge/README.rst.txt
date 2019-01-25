@@ -11,7 +11,7 @@ Classifier for metagenomic sequences.
 Home          https://github.com/infphilo/centrifuge
 Versions      1.0.4_beta, 1.0.3
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/centrifuge
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/centrifuge/meta.yaml
 
 
 

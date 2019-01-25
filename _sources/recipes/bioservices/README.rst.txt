@@ -11,7 +11,7 @@ Access to Biological Web Services from Python
 Home          http://pypi.python.org/pypi/bioservices
 Versions      1.6.0, 1.5.2, 1.5.1, 1.4.17, 1.4.16, 1.4.10, 1.4.7, 1.4.5
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioservices
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioservices/meta.yaml
 
 
 

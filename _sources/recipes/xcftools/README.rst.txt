@@ -11,7 +11,7 @@ Provides xcf2pnm\, xcf2png\, and xcfinfo binaries
 Home          https://github.com/j-jorge/xcftools
 Versions      1.0.7
 License       GPL v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/xcftools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xcftools/meta.yaml
 
 
 

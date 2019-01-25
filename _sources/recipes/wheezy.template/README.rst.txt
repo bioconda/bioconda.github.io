@@ -11,7 +11,7 @@ A lightweight template library
 Home          https://bitbucket.org/akorn/wheezy.template
 Versions      0.1.167
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wheezy.template
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wheezy.template/meta.yaml
 
 
 

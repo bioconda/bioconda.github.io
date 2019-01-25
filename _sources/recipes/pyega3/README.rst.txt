@@ -11,7 +11,7 @@ EGA python client
 Home          https://github.com/EGA-archive/ega-download-client
 Versions      3.0.21
 License       Apache Software
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyega3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyega3/meta.yaml
 
 
 Development   https://github.com/EGA-archive/ega-download-client

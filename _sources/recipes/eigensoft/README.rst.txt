@@ -11,7 +11,7 @@ The EIGENSOFT package implements methods for analzing population structure and p
 Home          https://github.com/DReichLab/EIG
 Versions      7.2.1, 6.0.1
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/eigensoft
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/eigensoft/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ numeric tests for perl scalars
 Home          http://metacpan.org/pod/Scalar-Util-Numeric
 Versions      0.40
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-scalar-util-numeric
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-scalar-util-numeric/meta.yaml
 
 
 

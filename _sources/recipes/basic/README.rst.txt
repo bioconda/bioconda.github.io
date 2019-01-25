@@ -12,7 +12,7 @@ BASIC is a semi\-de novo assembly method for assembling BCR and TCR genes from s
 Home          http://ttic.uchicago.edu/~aakhan/BASIC/
 Versions      1.4.1, 1.4.0, 1.3.1, 1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/basic
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/basic/meta.yaml
 
 
 

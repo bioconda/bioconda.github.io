@@ -11,7 +11,7 @@ Package for noise\-robust soft clustering of gene expression time\-series data \
 Home          https://bioconductor.org/packages/3.8/bioc/html/Mfuzz.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mfuzz
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mfuzz/meta.yaml
 
 
 

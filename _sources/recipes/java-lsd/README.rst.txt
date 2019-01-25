@@ -11,7 +11,7 @@ The LAPPS Grid Services DSL \(LSD\). Used to invoke LAPPS web services from the 
 Home          http://github.com/lappsgrid-incubator/org.anc.lapps.dsl
 Versions      2.2.3
 License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/java-lsd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/java-lsd/meta.yaml
 
 
 

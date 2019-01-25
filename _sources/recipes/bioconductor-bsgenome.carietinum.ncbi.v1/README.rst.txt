@@ -11,7 +11,7 @@ Full genome sequences for Cicer arietinum \(Chickpea\) as provided by NCBI \(ASM
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Carietinum.NCBI.v1.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.carietinum.ncbi.v1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.carietinum.ncbi.v1/meta.yaml
 
 
 

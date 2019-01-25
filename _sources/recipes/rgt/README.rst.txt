@@ -11,7 +11,7 @@ Toolkit to perform regulatory genomics data analysis
 Home          http://www.regulatory-genomics.org
 Versions      0.11.4
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rgt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rgt/meta.yaml
 
 Documentation http://www.regulatory-genomics.org/rgt/tutorial/
 

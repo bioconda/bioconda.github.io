@@ -11,7 +11,7 @@ Rapid and scalable correlation estimation for compositional data
 Home          https://github.com/scwatts/fastspar
 Versions      0.0.9, 0.0.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastspar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastspar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Ortholog groups of protein sequences
 Home          http://orthomcl.org/orthomcl/
 Versions      2.0.9
 License       EuPathDB Bioinformatics Resource Center
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/orthomcl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/orthomcl/meta.yaml
 
 
 

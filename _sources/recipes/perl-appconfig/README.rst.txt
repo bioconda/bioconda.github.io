@@ -11,7 +11,7 @@ AppConfig is a bundle of Perl5 modules for reading configuration files and parsi
 Home          http://metacpan.org/pod/AppConfig
 Versions      1.71
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-appconfig
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-appconfig/meta.yaml
 
 
 

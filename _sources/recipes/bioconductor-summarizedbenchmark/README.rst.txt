@@ -11,7 +11,7 @@ This package defines the BenchDesign and SummarizedBenchmark classes for buildin
 Home          https://bioconductor.org/packages/3.8/bioc/html/SummarizedBenchmark.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-summarizedbenchmark
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-summarizedbenchmark/meta.yaml
 
 
 

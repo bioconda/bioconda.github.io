@@ -11,7 +11,7 @@ A program\/module to find nt sequences that code for aa sequences
 Home          http://widdowquinn.github.io/ncfp/
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ncfp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ncfp/meta.yaml
 
 Documentation https://ncfp.readthedocs.io/en/latest/
 

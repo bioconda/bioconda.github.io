@@ -11,7 +11,7 @@ This package provides tools for computing and analyzing dependency relationships
 Home          https://bioconductor.org/packages/3.8/bioc/html/pkgDepTools.html
 Versions      1.46.0, 1.44.0, 1.42.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pkgdeptools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pkgdeptools/meta.yaml
 
 
 

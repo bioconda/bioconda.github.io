@@ -11,7 +11,7 @@ Identifies and scores possible Transcription Factor Binding Sites and allows for
 Home          http://compgen.cshl.edu/rtfbs
 Versions      
 License       BSD_3_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rtfbs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rtfbs/meta.yaml
 
 
 

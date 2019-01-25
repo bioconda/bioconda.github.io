@@ -11,7 +11,7 @@ TCLAP is a small\, flexible library that provides a simple interface for definin
 Home          http://tclap.sourceforge.net/
 Versions      1.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tclap/1.2.1
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tclap/1.2.1/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A Python platform for structural bioinformatics
 Home          http://biskit.pasteur.fr
 Versions      2.4.3
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biskit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biskit/meta.yaml
 
 
 Development   https://github.com/graik/biskit

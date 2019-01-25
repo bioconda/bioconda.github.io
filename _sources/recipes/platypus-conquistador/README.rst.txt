@@ -11,7 +11,7 @@ Platypus Conquistador\: Confirming specific taxonomic groups within your metagen
 Home          https://github.com/biocore/Platypus-Conquistador
 Versions      0.9.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/platypus-conquistador
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/platypus-conquistador/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Analysis of experimental crosses to identify genes \(called quantitative trait l
 Home          https://rqtl.org, https://github.com/kbroman/qtl
 Versions      1.41_6
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qtl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-qtl/meta.yaml
 
 
 

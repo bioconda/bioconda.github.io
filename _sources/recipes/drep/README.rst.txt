@@ -11,7 +11,7 @@ De\-replication of microbial genomes assembled from multiple samples
 Home          https://github.com/MrOlm/drep
 Versions      2.2.3, 2.0.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/drep
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/drep/meta.yaml
 
 
 

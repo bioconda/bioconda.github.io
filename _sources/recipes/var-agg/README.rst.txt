@@ -12,7 +12,7 @@ A simple helper for aggregating multi\-sample VCF files into \"site VCF\" files.
 Home          https://github.com/bihealth/var-agg
 Versions      0.1.1, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/var-agg
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/var-agg/meta.yaml
 
 
 

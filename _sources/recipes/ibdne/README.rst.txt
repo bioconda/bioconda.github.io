@@ -11,7 +11,7 @@ The IBDNe program estimates the historical effective population size of a homoge
 Home          http://faculty.washington.edu/browning/ibdne.html
 Versions      04Sep15.e78
 License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ibdne
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ibdne/meta.yaml
 
 
 

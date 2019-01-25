@@ -11,7 +11,7 @@ Efficient detection of local RNA secondary structure changes induced by SNPs.
 Home          http://rth.dk/resources/rnasnp/software
 Versions      1.2
 License       RTH
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnasnp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnasnp/meta.yaml
 
 
 

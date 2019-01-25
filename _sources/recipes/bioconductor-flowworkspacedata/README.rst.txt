@@ -11,7 +11,7 @@ The necessary external data to run the flowWorkspace and openCyto vignette is fo
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/flowWorkspaceData.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowworkspacedata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowworkspacedata/meta.yaml
 
 
 

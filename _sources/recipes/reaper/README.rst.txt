@@ -11,7 +11,7 @@ Tool for demultiplexing\, trimming and filtering sequencing data.
 Home          https://www.ebi.ac.uk/~stijn/reaper/reaper.html
 Versions      16.098
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/reaper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/reaper/meta.yaml
 
 
 

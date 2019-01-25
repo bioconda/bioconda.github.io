@@ -11,7 +11,7 @@ enaBrowserTools is a set of scripts that interface with the ENA web services to 
 Home          https://github.com/enasequence/enaBrowserTools
 Versions      1.5.4
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/enabrowsertools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/enabrowsertools/meta.yaml
 
 
 

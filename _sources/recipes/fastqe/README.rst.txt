@@ -11,7 +11,7 @@ A emoji based bioinformatics command line tool
 Home          https://github.com/lonsbio/fastqe
 Versions      0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fastqe
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastqe/meta.yaml
 
 
 

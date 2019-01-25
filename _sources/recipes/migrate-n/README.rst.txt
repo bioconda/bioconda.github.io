@@ -11,7 +11,7 @@ Population Genetics \- Panmixia and Migration detection
 Home          http://popgen.sc.fsu.edu/Migrate/Migrate-n.html
 Versions      3.6.11
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/migrate-n
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/migrate-n/meta.yaml
 
 
 

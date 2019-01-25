@@ -11,7 +11,7 @@ The tool integrates data from biological networks with transcriptomes\, displayi
 Home          https://bioconductor.org/packages/3.8/bioc/html/levi.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-levi
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-levi/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Dinucleotide frequency of occurrence in a batch of fasta sequences
 Home          https://github.com/erinijapranckeviciene/dnpatterntools
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-diprofile
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dnp-diprofile/meta.yaml
 
 
 

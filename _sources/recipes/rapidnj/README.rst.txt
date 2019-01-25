@@ -11,7 +11,7 @@ RapidNJ is an algorithmic engineered implementation of canonical neighbour\-join
 Home          http://birc.au.dk/software/rapidnj/
 Versions      v2.3.2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rapidnj
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rapidnj/meta.yaml
 
 
 

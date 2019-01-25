@@ -11,7 +11,7 @@ Package with metadata for genotyping Illumina 1M Duo arrays using the \'crlmm\' 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/human1mduov3bCrlmm.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-human1mduov3bcrlmm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-human1mduov3bcrlmm/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Uses Bisulfite sequencing data in two conditions and identifies differentially m
 Home          https://bioconductor.org/packages/3.8/bioc/html/DMRcaller.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-dmrcaller
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmrcaller/meta.yaml
 
 
 

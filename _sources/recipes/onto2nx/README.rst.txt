@@ -11,7 +11,7 @@ A package for parsing ontologies into NetworkX graphs
 Home          https://github.com/cthoyt/onto2nx
 Versions      0.1.0
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/onto2nx
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/onto2nx/meta.yaml
 
 
 

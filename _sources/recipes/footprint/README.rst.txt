@@ -11,7 +11,7 @@ This is a pipeline to find transcription factor footprints in ATAC\-seq or DNase
 Home          https://ohlerlab.mdc-berlin.de/software/Reproducible_footprinting_139/
 Versions      1.0.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/footprint
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/footprint/meta.yaml
 
 
 

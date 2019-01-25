@@ -11,7 +11,7 @@ Full genome sequences for Macaca fascicularis \(long\-tailed macaque\) as provid
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mfascicularis.NCBI.5.0.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.mfascicularis.ncbi.5.0/meta.yaml
 
 
 

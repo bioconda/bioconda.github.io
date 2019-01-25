@@ -11,7 +11,7 @@ Remove primer sequence from BAM alignments by soft\-clipping.
 Home          https://github.com/tommyau/bamclipper
 Versions      1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bamclipper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bamclipper/meta.yaml
 
 
 

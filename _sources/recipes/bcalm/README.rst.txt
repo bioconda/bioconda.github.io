@@ -11,7 +11,7 @@ BCALM 2 is a bioinformatics tool for constructing the compacted de Bruijn graph 
 Home          https://github.com/GATB/bcalm
 Versions      2.2.1, 2.2.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcalm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcalm/meta.yaml
 
 
 

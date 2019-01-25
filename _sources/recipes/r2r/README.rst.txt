@@ -11,7 +11,7 @@ software to speed depiction of aesthetic consensus RNA secondary structures
 Home          http://breaker.research.yale.edu/R2R/
 Versions      1.0.5, 1.0.4
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r2r
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r2r/meta.yaml
 
 
 

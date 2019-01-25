@@ -11,7 +11,7 @@ change directory temporarily for a limited scope
 Home          https://github.com/dagolden/File-pushd
 Versions      1.016
 License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-pushd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-pushd/meta.yaml
 
 
 

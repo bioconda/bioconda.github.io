@@ -11,7 +11,7 @@ Affymetrix Human Genome U133A 2.0 Array annotation data \(chip hgu133a2\) assemb
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a2.db.html
 Versions      3.2.3
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hgu133a2.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hgu133a2.db/meta.yaml
 
 
 

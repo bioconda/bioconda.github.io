@@ -11,7 +11,7 @@ A set of wrappers for individual components of the scanpy package. Functions in 
 Home          https://github.com/ebi-gene-expression-group/scanpy-scripts
 Versions      0.0.4, 0.0.3, 0.0.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scanpy-scripts
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scanpy-scripts/meta.yaml
 
 
 Development   https://github.com/ebi-gene-expression-group/scanpy-scripts

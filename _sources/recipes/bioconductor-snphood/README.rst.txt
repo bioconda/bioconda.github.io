@@ -11,7 +11,7 @@ To date\, thousands of single nucleotide polymorphisms \(SNPs\) have been found 
 Home          https://bioconductor.org/packages/3.8/bioc/html/SNPhood.html
 Versions      1.10.0, 1.8.0, 1.6.1
 License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-snphood
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-snphood/meta.yaml
 
 
 

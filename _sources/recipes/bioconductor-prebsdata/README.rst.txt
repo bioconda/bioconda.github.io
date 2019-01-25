@@ -11,7 +11,7 @@ This package contains data required to run examples in \'prebs\' package. The da
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/prebsdata.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-prebsdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-prebsdata/meta.yaml
 
 
 

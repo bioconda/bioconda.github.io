@@ -11,7 +11,7 @@ Alternative regular expression module\, to replace re.
 Home          https://bitbucket.org/mrabarnett/mrab-regex
 Versions      2016.06.24
 License       Python software foundation license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/regex
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/regex/meta.yaml
 
 
 

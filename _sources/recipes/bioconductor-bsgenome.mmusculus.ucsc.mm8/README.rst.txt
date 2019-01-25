@@ -11,7 +11,7 @@ Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm8\, Feb
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mmusculus.UCSC.mm8.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.mmusculus.ucsc.mm8/meta.yaml
 
 
 

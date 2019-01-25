@@ -11,7 +11,7 @@ declare version conflicts for your dist
 Home          http://metacpan.org/release/Dist-CheckConflicts
 Versions      0.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-dist-checkconflicts
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-dist-checkconflicts/meta.yaml
 
 
 

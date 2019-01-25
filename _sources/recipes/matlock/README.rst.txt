@@ -11,7 +11,7 @@ Simple tools for working with Hi\-C data
 Home          https://github.com/phasegenomics/matlock
 Versions      20181227
 License       GNU Affero General Public License v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/matlock
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/matlock/meta.yaml
 
 
 

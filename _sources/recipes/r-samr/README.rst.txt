@@ -11,7 +11,7 @@ Significance Analysis of Microarrays
 Home          http://www-stat.stanford.edu/~tibs/SAM
 Versions      2.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-samr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-samr/meta.yaml
 
 
 

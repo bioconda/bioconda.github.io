@@ -11,7 +11,7 @@ martini deals with the low power inherent to GWAS studies by using prior knowled
 Home          https://bioconductor.org/packages/3.8/bioc/html/martini.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-martini
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-martini/meta.yaml
 
 
 

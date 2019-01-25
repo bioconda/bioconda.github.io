@@ -11,7 +11,7 @@ Phylogenetics \- Randomized Axelerated Maximum Likelihood.
 Home          http://cmpg.unibe.ch/software/BayeScan/
 Versions      2.0.1
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bayescan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bayescan/meta.yaml
 
 
 

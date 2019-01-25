@@ -11,7 +11,7 @@ bioconductor-amplican
 Home          https://bioconductor.org/packages/3.8/bioc/html/amplican.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-amplican
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-amplican/meta.yaml
 
 
 

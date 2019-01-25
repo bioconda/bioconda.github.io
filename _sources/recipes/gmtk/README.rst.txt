@@ -11,7 +11,7 @@ A publicly available toolkit for rapidly prototyping statistical models using dy
 Home          http://melodi.ee.washington.edu/gmtk/
 Versions      1.4.4
 License       OSL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gmtk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gmtk/meta.yaml
 
 
 

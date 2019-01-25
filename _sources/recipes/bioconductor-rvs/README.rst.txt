@@ -11,7 +11,7 @@ Rare Variant Sharing \(RVS\) implements tests of association and linkage between
 Home          https://bioconductor.org/packages/3.8/bioc/html/RVS.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rvs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rvs/meta.yaml
 
 
 

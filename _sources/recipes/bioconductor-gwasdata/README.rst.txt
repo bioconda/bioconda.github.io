@@ -11,7 +11,7 @@ Selected Affymetrix and Illlumina SNP data for HapMap subjects.  Data provided b
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GWASdata.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gwasdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gwasdata/meta.yaml
 
 
 

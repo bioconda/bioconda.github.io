@@ -11,7 +11,7 @@ Package that implements the COSNet classification algorithm. The algorithm predi
 Home          https://bioconductor.org/packages/3.8/bioc/html/COSNet.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cosnet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cosnet/meta.yaml
 
 
 

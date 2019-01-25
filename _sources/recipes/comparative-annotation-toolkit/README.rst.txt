@@ -11,7 +11,7 @@ A straightforward end\-to\-end pipeline that takes as input a HAL\-format multip
 Home          https://github.com/ComparativeGenomicsToolkit/Comparative-Annotation-Toolkit
 Versions      0.1
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/comparative-annotation-toolkit
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/comparative-annotation-toolkit/meta.yaml
 
 
 

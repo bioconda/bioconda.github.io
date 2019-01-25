@@ -11,7 +11,7 @@ Annotation data file for mouseCHRLOC assembled using data from public data repos
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mouseCHRLOC.html
 Versions      
 License       The Artistic License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mousechrloc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mousechrloc/meta.yaml
 
 
 

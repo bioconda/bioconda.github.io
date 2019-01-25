@@ -11,7 +11,7 @@ A method for protein identification in MS\/MS proteomics. Think of it like a pro
 Home          https://noble.gs.washington.edu/proj/fido/
 Versions      1.0
 License       MIT license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fido
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fido/meta.yaml
 
 
 

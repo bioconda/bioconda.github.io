@@ -11,7 +11,7 @@ Add table that just contains a pointer to a bbiFile to database.  This program
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-hgbbidblink
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-hgbbidblink/meta.yaml
 
 
 

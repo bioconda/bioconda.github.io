@@ -11,7 +11,7 @@ Exposes an annotation databases generated from Ensembl.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/EnsDb.Hsapiens.v86.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ensdb.hsapiens.v86
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ensdb.hsapiens.v86/meta.yaml
 
 
 

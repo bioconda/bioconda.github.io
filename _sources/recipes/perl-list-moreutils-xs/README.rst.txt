@@ -11,7 +11,7 @@ Provide the stuff missing in List\:\:Util in XS
 Home          https://metacpan.org/release/List-MoreUtils-XS
 Versions      0.428
 License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-list-moreutils-xs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-list-moreutils-xs/meta.yaml
 
 
 

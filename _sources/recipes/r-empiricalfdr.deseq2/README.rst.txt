@@ -11,7 +11,7 @@ Auxiliary functions for the DESeq2 package to simulate read counts according to 
 Home          https://CRAN.R-project.org/package=empiricalFDR.DESeq2
 Versions      1.0.3
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-empiricalfdr.deseq2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-empiricalfdr.deseq2/meta.yaml
 
 
 

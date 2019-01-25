@@ -11,7 +11,7 @@ interpolates script options from files into \@ARGV or another array
 Home          http://metacpan.org/pod/Getopt::ArgvFile
 Versions      1.11
 License       artistic_1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-getopt-argvfile/1.11
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-getopt-argvfile/1.11/meta.yaml
 
 
 

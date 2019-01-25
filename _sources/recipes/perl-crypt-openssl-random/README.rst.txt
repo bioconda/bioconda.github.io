@@ -11,7 +11,7 @@ OpenSSL\/LibreSSL pseudo\-random number generator access
 Home          http://sourceforge.net/projects/perl-openssl/
 Versions      0.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-crypt-openssl-random/0.11
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-crypt-openssl-random/0.11/meta.yaml
 
 
 

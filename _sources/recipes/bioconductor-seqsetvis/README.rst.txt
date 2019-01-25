@@ -11,7 +11,7 @@ seqsetvis enables the visualization and analysis of multiple genomic datasets. A
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqsetvis.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-seqsetvis
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-seqsetvis/meta.yaml
 
 
 

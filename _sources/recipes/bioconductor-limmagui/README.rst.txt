@@ -11,7 +11,7 @@ A Graphical User Interface for differential expression analysis of two\-color mi
 Home          https://bioconductor.org/packages/3.8/bioc/html/limmaGUI.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limmagui
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-limmagui/meta.yaml
 
 
 

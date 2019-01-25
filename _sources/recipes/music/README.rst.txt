@@ -11,7 +11,7 @@ MUltiScale enrIchment Calling for ChIP\-Seq Datasets
 Home          http://music.gersteinlab.org
 Versions      1.0.0
 License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/music
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/music/meta.yaml
 
 
 

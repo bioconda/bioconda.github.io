@@ -11,7 +11,7 @@ Somatic point mutation caller
 Home          http://bioinformatics.mdanderson.org/main/MuSE
 Versions      1.0.rc
 License       https://github.com/danielfan/MuSE/blob/master/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/muse
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/muse/meta.yaml
 
 
 

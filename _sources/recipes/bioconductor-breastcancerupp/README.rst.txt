@@ -11,7 +11,7 @@ Gene expression data from a breast cancer study published by Miller et al. in 20
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerUPP.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-breastcancerupp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-breastcancerupp/meta.yaml
 
 
 

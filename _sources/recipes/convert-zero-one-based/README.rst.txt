@@ -11,7 +11,7 @@ Convert between zero and one based coordinate systems
 Home          https://github.com/griffithlab/convert_zero_one_based.git
 Versions      0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/convert-zero-one-based
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/convert-zero-one-based/meta.yaml
 
 
 

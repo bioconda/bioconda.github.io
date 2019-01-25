@@ -11,7 +11,7 @@ Short Read Sequence Typing for Bacterial Pathogens
 Home          https://github.com/katholt/srst2
 Versions      0.2.0, 0.1.6, 0.1.4.6
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/srst2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/srst2/meta.yaml
 
 
 

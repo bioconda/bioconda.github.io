@@ -11,7 +11,7 @@ Functional enrichment analysis\, gene identifier conversion and mapping homologo
 Home          https://CRAN.R-project.org/package=gProfileR
 Versions      0.6.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-gprofiler
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gprofiler/meta.yaml
 
 
 

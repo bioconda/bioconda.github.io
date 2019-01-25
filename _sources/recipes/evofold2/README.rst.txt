@@ -11,7 +11,7 @@ Identifies functional RNA\-structure in multiple sequence alignments.
 Home          https://github.com/jakob-skou-pedersen/phy
 Versions      0.1
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evofold2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/evofold2/meta.yaml
 
 
 

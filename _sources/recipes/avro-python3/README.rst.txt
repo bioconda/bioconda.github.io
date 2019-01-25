@@ -11,7 +11,7 @@ Avro is a serialization and RPC framework.
 Home          http://avro.apache.org/
 Versions      1.8.2, 1.8.1, 1.8.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/avro-python3
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/avro-python3/meta.yaml
 
 
 

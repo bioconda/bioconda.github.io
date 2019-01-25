@@ -11,7 +11,7 @@ Accurate inference of orthogroups\, orthologues\, gene trees and rooted species 
 Home          https://github.com/davidemms/OrthoFinder
 Versions      1.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dlcpar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dlcpar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Genomic Association Tester
 Home          https://github.com/AndreasHeger/gat
 Versions      1.3.5, 1.3.3, 1.2.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gat/meta.yaml
 
 
 

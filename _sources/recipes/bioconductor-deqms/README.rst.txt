@@ -11,7 +11,7 @@ DEqMS is developped on top of Limma. However\, Limma assumes same prior variance
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEqMS.html
 Versions      1.0.1, 1.0.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-deqms
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-deqms/meta.yaml
 
 
 

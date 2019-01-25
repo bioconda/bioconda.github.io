@@ -11,7 +11,7 @@ This package is intended to identify differentially expressed genes driven by Co
 Home          https://bioconductor.org/packages/3.8/bioc/html/iGC.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-igc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-igc/meta.yaml
 
 
 

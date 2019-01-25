@@ -11,7 +11,7 @@ gene target tabale of miRNA for human\/mouse used for MiRaGE package
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/miRNATarget.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mirnatarget
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mirnatarget/meta.yaml
 
 
 

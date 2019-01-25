@@ -11,7 +11,7 @@ Quality Control of Next Generation Sequencing Data.
 Home          https://github.com/LANL-Bioinformatics/FaQCs
 Versions      2.09, 2.08
 License       BSD 3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/faqcs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/faqcs/meta.yaml
 
 
 

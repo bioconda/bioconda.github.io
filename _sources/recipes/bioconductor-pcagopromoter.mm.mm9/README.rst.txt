@@ -11,7 +11,7 @@ Contains the data for transciption factors analysis of organism Mus musculus wit
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pcaGoPromoter.Mm.mm9.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pcagopromoter.mm.mm9
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pcagopromoter.mm.mm9/meta.yaml
 
 
 

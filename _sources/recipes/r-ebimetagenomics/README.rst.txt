@@ -11,7 +11,7 @@ Functions for querying the EBI Metagenomics Portal \<https\:\/\/www.ebi.ac.uk\/m
 Home          https://CRAN.R-project.org/package=ebimetagenomics
 Versions      0.6
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-ebimetagenomics
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ebimetagenomics/meta.yaml
 
 
 

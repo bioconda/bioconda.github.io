@@ -11,7 +11,7 @@ A collection of bioinformatics\-related helper functions
 Home          https://github.com/kblin/bioinf-helperlibs
 Versions      0.1.9, 0.1.8
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/helperlibs
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/helperlibs/meta.yaml
 
 
 

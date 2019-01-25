@@ -11,7 +11,7 @@ Normalization and centralization of array comparative genomic hybridization \(aC
 Home          https://bioconductor.org/packages/3.8/bioc/html/CGHnormaliter.html
 Versions      1.34.0, 1.32.0
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cghnormaliter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cghnormaliter/meta.yaml
 
 
 

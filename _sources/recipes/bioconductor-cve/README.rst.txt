@@ -11,7 +11,7 @@ Shiny app for interactive variant prioritisation in precision oncology. The inpu
 Home          https://bioconductor.org/packages/3.8/bioc/html/CVE.html
 Versions      1.6.0, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cve
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cve/meta.yaml
 
 
 

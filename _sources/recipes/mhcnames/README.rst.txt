@@ -11,7 +11,7 @@ Python library for MHC nomenclature parsing
 Home          https://github.com/hammerlab/mhcnames
 Versions      0.4.8
 License       Apache License Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mhcnames
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mhcnames/meta.yaml
 
 
 

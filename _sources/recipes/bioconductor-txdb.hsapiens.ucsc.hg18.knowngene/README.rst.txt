@@ -11,7 +11,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Hsapiens.UCSC.hg18.knownGene.html
 Versions      3.2.2
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.hsapiens.ucsc.hg18.knowngene/meta.yaml
 
 
 

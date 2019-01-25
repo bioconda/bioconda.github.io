@@ -11,7 +11,7 @@ An analysis package for multi sample insertional mutagenesis data \(including vi
 Home          http://ccb.nki.nl/software/
 Versions      1.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-cimpl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-cimpl/meta.yaml
 
 
 

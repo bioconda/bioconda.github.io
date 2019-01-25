@@ -11,7 +11,7 @@ Efficient phylogenomic software by maximum likelihood.
 Home          http://www.iqtree.org/
 Versions      1.6.9, 1.6.8, 1.6.7.2, 1.6.7.1, 1.6.7, 1.6.6, 1.5.5, 1.5.3
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/iqtree
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/iqtree/meta.yaml
 
 
 

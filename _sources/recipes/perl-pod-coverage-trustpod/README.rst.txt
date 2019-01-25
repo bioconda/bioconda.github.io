@@ -11,7 +11,7 @@ allow a module\'s pod to contain Pod\:\:Coverage hints
 Home          https://github.com/rjbs/Pod-Coverage-TrustPod
 Versions      0.100003
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-pod-coverage-trustpod/0.100003
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-coverage-trustpod/0.100003/meta.yaml
 
 
 

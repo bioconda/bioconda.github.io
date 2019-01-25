@@ -11,7 +11,7 @@ HTSeq is a Python library to facilitate processing and analysis of data from hig
 Home          https://github.com/simon-anders/htseq
 Versions      0.11.2, 0.11.1, 0.11.0, 0.9.1, 0.7.2, 0.6.1.post1, 0.6.1, 0.6.1p1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/htseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/htseq/meta.yaml
 
 
 

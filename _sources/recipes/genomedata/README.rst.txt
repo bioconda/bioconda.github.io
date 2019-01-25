@@ -11,7 +11,7 @@ tools for accessing large amounts of genomic data
 Home          http://genomedata.hoffmanlab.org/
 Versions      1.4.4, 1.4.1, 1.4.0, 1.3.6, 1.3.5
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomedata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomedata/meta.yaml
 
 
 

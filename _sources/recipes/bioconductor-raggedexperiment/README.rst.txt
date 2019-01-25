@@ -11,7 +11,7 @@ This package provides a flexible representation of copy number\, mutation\, and 
 Home          https://bioconductor.org/packages/3.8/bioc/html/RaggedExperiment.html
 Versions      1.4.0, 1.2.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-raggedexperiment
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-raggedexperiment/meta.yaml
 
 
 

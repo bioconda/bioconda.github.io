@@ -11,7 +11,7 @@ This package draws protein schematics from Uniprot API output. From the JSON ret
 Home          https://bioconductor.org/packages/3.8/bioc/html/drawProteins.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-drawproteins
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drawproteins/meta.yaml
 
 
 

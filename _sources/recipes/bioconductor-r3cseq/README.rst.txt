@@ -11,7 +11,7 @@ This package is an implementation of data analysis for the long\-range interacti
 Home          https://bioconductor.org/packages/3.8/bioc/html/r3Cseq.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-r3cseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-r3cseq/meta.yaml
 
 
 

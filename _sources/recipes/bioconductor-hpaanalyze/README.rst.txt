@@ -11,7 +11,7 @@ Provide functions for retrieving\, exploratory analyzing and visualizing the Hum
 Home          https://bioconductor.org/packages/3.8/bioc/html/HPAanalyze.html
 Versions      
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hpaanalyze
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hpaanalyze/meta.yaml
 
 
 

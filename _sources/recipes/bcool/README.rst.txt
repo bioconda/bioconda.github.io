@@ -11,7 +11,7 @@ BCOOL is a read corrector for NGS sequencing data that align reads on a de Bruij
 Home          https://github.com/Malfoy/BCOOL
 Versions      1.0.0
 License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcool/meta.yaml
 
 
 

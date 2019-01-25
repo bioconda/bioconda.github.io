@@ -11,7 +11,7 @@ An implementation of the American Society for Testing and Materials \(ASTM\) Sta
 Home          https://bioconductor.org/packages/3.8/bioc/html/consensus.html
 Versions      
 License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-consensus
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-consensus/meta.yaml
 
 
 

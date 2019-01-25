@@ -11,7 +11,7 @@ Homology information for Danio rerio from Inparanoid assembled using data from p
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hom.Dr.inp.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hom.dr.inp.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hom.dr.inp.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Provide https support for LWP\:\:UserAgent
 Home          https://metacpan.org/pod/LWP::Protocol::https
 Versions      6.07, 6.06
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-lwp-protocol-https
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-lwp-protocol-https/meta.yaml
 
 
 

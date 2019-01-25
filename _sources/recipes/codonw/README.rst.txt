@@ -11,7 +11,7 @@ CodonW is a programme designed to simplify the Multivariate analysis \(correspon
 Home          http://codonw.sourceforge.net
 Versions      1.4.4
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/codonw
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/codonw/meta.yaml
 
 
 

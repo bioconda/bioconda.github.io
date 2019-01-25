@@ -11,7 +11,7 @@ Pipeline to generate complete public health microbiology reports from sequenced 
 Home          https://github.com/tseemann/nullarbor
 Versions      2.0.20181010
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nullarbor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nullarbor/meta.yaml
 
 
 

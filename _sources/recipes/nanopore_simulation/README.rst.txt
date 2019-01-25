@@ -11,7 +11,7 @@ Nanopore SimulatION is a tool for simulating an Oxfornd Nanopore Technologies Mi
 Home          https://github.com/crohrandt/nanopore_simulation
 Versions      0.3
 License       MPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nanopore_simulation
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nanopore_simulation/meta.yaml
 
 
 

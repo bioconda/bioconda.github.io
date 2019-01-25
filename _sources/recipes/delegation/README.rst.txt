@@ -11,7 +11,7 @@ Simple implementation of the delegate pattern.
 Home          https://github.com/symonsoft/delegation
 Versions      1.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/delegation
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/delegation/meta.yaml
 
 
 Development   https://github.com/symonsoft/delegation

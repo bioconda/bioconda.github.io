@@ -11,7 +11,7 @@ Performs multiple testing corrections that take specific structure of hypotheses
 Home          https://CRAN.R-project.org/package=structSSI
 Versions      1.1.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-structssi
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-structssi/meta.yaml
 
 
 

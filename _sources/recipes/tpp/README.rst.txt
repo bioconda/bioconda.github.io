@@ -12,7 +12,7 @@ The Trans\-Proteomic Pipeline \(TPP\) is a collection of integrated tools for MS
 Home          http://tools.proteomecenter.org/wiki/index.php?title=Software:TPP
 Versions      5.0.0
 License       GPL v. 2.0 and LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tpp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tpp/meta.yaml
 
 
 

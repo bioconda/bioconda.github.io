@@ -11,7 +11,7 @@ a correction tool for SOAPdenovo
 Home          http://soap.genomics.org.cn/soapdenovo.html
 Versions      2.03
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapec
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapec/meta.yaml
 
 
 

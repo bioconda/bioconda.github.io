@@ -11,7 +11,7 @@ Tools for population genetics on sequencing datas
 Home          https://github.com/stschiff/sequenceTools
 Versions      1.2.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sequenceTools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sequenceTools/meta.yaml
 
 
 

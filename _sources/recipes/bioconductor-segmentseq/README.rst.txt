@@ -11,7 +11,7 @@ High\-throughput sequencing technologies allow the production of large volumes o
 Home          https://bioconductor.org/packages/3.8/bioc/html/segmentSeq.html
 Versions      2.14.0, 2.12.0, 2.10.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-segmentseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-segmentseq/meta.yaml
 
 
 

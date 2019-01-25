@@ -11,7 +11,7 @@ Utility designed for compression of genome collections from the same species.
 Home          http://sun.aei.polsl.pl/REFRESH/index.php?page=projects&project=gdc&subpage=about
 Versions      2.0
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gdc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gdc/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Formats Roary output for viewing in FriPan
 Home          https://github.com/kwongj/roary2fripan
 Versions      0.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/roary2fripan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/roary2fripan/meta.yaml
 
 
 

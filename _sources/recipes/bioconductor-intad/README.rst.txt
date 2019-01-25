@@ -11,7 +11,7 @@ The package is focused on the detection of correlation between expressed genes a
 Home          https://bioconductor.org/packages/3.8/bioc/html/InTAD.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-intad
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-intad/meta.yaml
 
 
 

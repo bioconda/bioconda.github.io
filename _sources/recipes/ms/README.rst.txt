@@ -11,7 +11,7 @@ Generates random independent samples according to a simple Wright\-Fisher neutra
 Home          http://home.uchicago.edu/rhudson1/source/mksamples.html
 Versions      2014_03_04
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ms
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ms/meta.yaml
 
 
 

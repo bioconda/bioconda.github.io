@@ -11,7 +11,7 @@ Verifies code hasn\'t left circular references
 Home          http://metacpan.org/pod/Test::Memory::Cycle
 Versions      1.06
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-memory-cycle
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-memory-cycle/meta.yaml
 
 
 

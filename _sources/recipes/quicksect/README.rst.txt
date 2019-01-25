@@ -11,7 +11,7 @@ A cythonized\, extended version of the interval search tree in bx
 Home          https://github.com/brentp/quicksect
 Versions      0.2.0, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/quicksect
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/quicksect/meta.yaml
 
 
 

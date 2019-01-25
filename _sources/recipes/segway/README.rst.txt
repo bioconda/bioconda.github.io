@@ -11,7 +11,7 @@ a tool for easy pattern discovery and identification in functional genomics data
 Home          http://segway.hoffmanlab.org/
 Versions      2.0.2, 2.0.1, 2.0, 1.4.4, 1.4
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/segway
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/segway/meta.yaml
 
 
 

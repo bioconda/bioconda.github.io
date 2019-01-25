@@ -11,7 +11,7 @@ This package facilitates reading\, preprocessing and manipulating Codelink micro
 Home          https://bioconductor.org/packages/3.8/bioc/html/codelink.html
 Versions      1.48.0, 1.46.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codelink
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-codelink/meta.yaml
 
 
 

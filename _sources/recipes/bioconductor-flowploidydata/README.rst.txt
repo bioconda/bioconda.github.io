@@ -11,7 +11,7 @@ A collection of raw flow cytometry data for use in vignettes for the flowPloidy 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/flowPloidyData.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-flowploidydata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowploidydata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Affymetrix E. coli Genome 2.0 Array annotation data \(chip ecoli2\) assembled us
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ecoli2.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ecoli2.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ecoli2.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Wrappers on \'regexpr\' and \'gregexpr\' to return the match results in tidy dat
 Home          https://github.com/r-lib/rematch2#readme
 Versions      2.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-rematch2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rematch2/meta.yaml
 
 
 

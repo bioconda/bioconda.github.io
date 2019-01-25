@@ -11,7 +11,7 @@ Mauve is a system for constructing multiple genome alignments in the presence of
 Home          http://darlinglab.org/mauve/
 Versions      2.4.0.r4736
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mauve
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mauve/meta.yaml
 
 
 Development   https://sourceforge.net/projects/mauve/

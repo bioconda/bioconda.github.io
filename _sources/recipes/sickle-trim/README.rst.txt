@@ -11,7 +11,7 @@ Windowed Adaptive Trimming for fastq files using quality
 Home          https://github.com/najoshi/sickle
 Versions      1.33
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sickle-trim
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sickle-trim/meta.yaml
 
 
 

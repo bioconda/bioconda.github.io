@@ -11,7 +11,7 @@ An interface for the single\-cell RNAseq\-oriented loom format. Loom files are a
 Home          https://github.com/mojaveazure/loomR
 Versions      0.2.0.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-loom
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-loom/meta.yaml
 
 
 

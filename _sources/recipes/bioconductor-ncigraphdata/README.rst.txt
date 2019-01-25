@@ -11,7 +11,7 @@ Provides pathways from the NCI Pathways Database as R graph objects
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/NCIgraphData.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ncigraphdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ncigraphdata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The mauveAligner and progressiveMauve command\-line tools for generating multipl
 Home          http://darlinglab.org/mauve/
 Versions      1.2.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/mauvealigner
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mauvealigner/meta.yaml
 
 
 Development   https://sourceforge.net/projects/mauve/

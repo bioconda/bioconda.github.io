@@ -11,7 +11,7 @@ The package ABAEnrichment is designed to test for enrichment of user defined can
 Home          https://bioconductor.org/packages/3.8/bioc/html/ABAEnrichment.html
 Versions      1.10.0, 1.8.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-abaenrichment
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-abaenrichment/meta.yaml
 
 
 

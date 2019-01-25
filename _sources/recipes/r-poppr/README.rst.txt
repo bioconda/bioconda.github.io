@@ -11,7 +11,7 @@ An R package for genetic analysis of populations with mixed \(clonal\/sexual\) r
 Home          https://github.com/grunwaldlab/poppr
 Versions      2.8.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-poppr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-poppr/meta.yaml
 
 
 

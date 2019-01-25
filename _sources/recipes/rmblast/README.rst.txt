@@ -11,7 +11,7 @@ RMBlast is a RepeatMasker compatible version of the standard NCBI BLAST suite.
 Home          http://www.repeatmasker.org/RMBlast.html
 Versions      2.6.0, 2.2.28
 License       OSL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rmblast
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rmblast/meta.yaml
 
 
 

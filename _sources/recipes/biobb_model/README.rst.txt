@@ -9,9 +9,9 @@ Biobb\_model is the Biobb module collection to check and model 3d structures\, c
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_model
-Versions      0.1.0, 0.0.6
+Versions      0.1.1, 0.1.0, 0.0.6
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biobb_model
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biobb_model/meta.yaml
 
 
 

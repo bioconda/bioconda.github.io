@@ -11,7 +11,7 @@ The curatedCRC package provides relevant functions and data for gene expression 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedCRCData.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-curatedcrcdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-curatedcrcdata/meta.yaml
 
 
 

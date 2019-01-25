@@ -11,7 +11,7 @@ Genome wide annotation for Mouse\, primarily based on mapping using Entrez Gene 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/org.Mm.eg.db.html
 Versions      3.6.0, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.0, 3.2.3
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-org.mm.eg.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-org.mm.eg.db/meta.yaml
 
 
 

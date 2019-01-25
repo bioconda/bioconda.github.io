@@ -11,7 +11,7 @@ Data package providing convenient programmatic access to published microhaplotyp
 Home          https://github.com/bioforensics/MicroHapDB/
 Versions      0.2
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/microhapdb
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/microhapdb/meta.yaml
 
 
 Development   https://github.com/bioforensics/MicroHapDB/

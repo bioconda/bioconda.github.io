@@ -11,7 +11,7 @@ Samples large data such that spectral clustering is possible while preserving de
 Home          https://bioconductor.org/packages/3.8/bioc/html/SamSPECTRAL.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-samspectral
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-samspectral/meta.yaml
 
 
 

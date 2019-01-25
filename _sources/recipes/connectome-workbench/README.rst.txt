@@ -11,7 +11,7 @@ Connectome Workbench is an open source\, freely available visualization and disc
 Home          https://www.humanconnectome.org/software/connectome-workbench
 Versions      1.3.2, 1.3.1
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/connectome-workbench
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/connectome-workbench/meta.yaml
 
 
 Development   https://github.com/Washington-University/workbench

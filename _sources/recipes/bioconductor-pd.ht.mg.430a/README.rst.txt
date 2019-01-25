@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name HT\_MG\-430A
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ht.mg.430a.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.ht.mg.430a
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.ht.mg.430a/meta.yaml
 
 
 

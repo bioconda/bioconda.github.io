@@ -11,7 +11,7 @@ Vega \(Variational Estimator for Genomic Aberrations\) is an algorithm that adap
 Home          https://bioconductor.org/packages/3.8/bioc/html/Vega.html
 Versions      1.28.0, 1.26.0, 1.24.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-vega
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-vega/meta.yaml
 
 
 

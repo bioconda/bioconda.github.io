@@ -11,7 +11,7 @@ The NCI\-60 cancer cell line panel has been used over the course of several deca
 Home          https://bioconductor.org/packages/3.8/bioc/html/rcellminer.html
 Versions      
 License       LGPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rcellminer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rcellminer/meta.yaml
 
 
 

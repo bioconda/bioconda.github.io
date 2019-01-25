@@ -13,7 +13,7 @@ Genomic islands \(GIs\) are clusters of genes in prokaryotic genomes of probable
 Home          http://www.pathogenomics.sfu.ca/islandpath/
 Versions      1.0.3
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/islandpath
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/islandpath/meta.yaml
 
 
 

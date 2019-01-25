@@ -11,7 +11,7 @@ This add\-on to the package CellNOptR handles time\-course data\, as opposed to 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNORdt.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cnordt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cnordt/meta.yaml
 
 
 

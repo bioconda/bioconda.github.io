@@ -11,7 +11,7 @@ Funnel is a toolkit for distributed task execution via a simple\, standard API
 Home          https://ohsu-comp-bio.github.io/funnel/
 Versions      0.5.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/funnel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/funnel/meta.yaml
 
 
 

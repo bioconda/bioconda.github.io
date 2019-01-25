@@ -11,7 +11,7 @@ Logol is a pattern matching grammar language and a set of tools to search a patt
 Home          https://github.com/genouest/logol
 Versions      1.7.8
 License       Affero GPL 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/logol
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/logol/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Additional fields\, validators and widgets for WTForms.
 Home          https://github.com/kvesteri/wtforms-components
 Versions      0.10.0
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/wtforms-components
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wtforms-components/meta.yaml
 
 
 

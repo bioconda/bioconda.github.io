@@ -11,7 +11,7 @@ The R implementation of mCOPA package published by Wang et al. \(2012\). Oppar p
 Home          https://bioconductor.org/packages/3.8/bioc/html/oppar.html
 Versions      1.8.0, 1.6.0, 1.4.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-oppar
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-oppar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Use shorter versions of class names.
 Home          https://github.com/karenetheridge/aliased
 Versions      0.34
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-aliased
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-aliased/meta.yaml
 
 
 

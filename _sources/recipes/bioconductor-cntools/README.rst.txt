@@ -11,7 +11,7 @@ This package provides tools to convert the output of segmentation analysis using
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNTools.html
 Versions      1.36.0, 1.34.0, 1.32.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cntools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cntools/meta.yaml
 
 
 

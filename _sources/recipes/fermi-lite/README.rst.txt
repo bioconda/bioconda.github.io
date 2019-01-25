@@ -11,7 +11,7 @@ Fermi\-lite is a standalone C library as well as a command\-line tool for assemb
 Home          https://github.com/lh3/fermi-lite
 Versions      0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fermi-lite
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fermi-lite/meta.yaml
 
 
 

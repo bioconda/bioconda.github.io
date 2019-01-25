@@ -11,7 +11,7 @@ Open QIIME output files in R\, compute statistics\, and create plots from the da
 Home          http://www.r-project.org
 Versions      0.9.4
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-qiimer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-qiimer/meta.yaml
 
 
 

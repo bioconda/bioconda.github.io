@@ -11,7 +11,7 @@ Tiny Python package\, with no external dependencies\, for parsing FASTA sequence
 Home          https://github.com/tjelvar-olsson/tinyfasta
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tinyfasta
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tinyfasta/meta.yaml
 
 
 

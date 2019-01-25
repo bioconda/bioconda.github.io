@@ -11,7 +11,7 @@ Rqc is an optimised tool designed for quality control and assessment of high\-th
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rqc.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rqc/meta.yaml
 
 
 

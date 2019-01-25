@@ -11,7 +11,7 @@ Example spectra\, example compound list\(s\) and an example annotation list for 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RMassBankData.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rmassbankdata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rmassbankdata/meta.yaml
 
 
 

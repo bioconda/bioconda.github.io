@@ -11,7 +11,7 @@ Produce a masked .fa file given an unmasked .fa and
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-maskoutfa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-maskoutfa/meta.yaml
 
 
 

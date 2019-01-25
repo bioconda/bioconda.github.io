@@ -11,7 +11,7 @@ Genesis Applications for Phylogenetic Placement Analysis
 Home          https://github.com/lczech/gappa
 Versions      0.1.0
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gappa
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gappa/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ FLOCK \- Flow Cytometry Clustering without K.
 Home          https://sourceforge.net/projects/immportflock/
 Versions      1.0
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/flock
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/flock/meta.yaml
 
 
 

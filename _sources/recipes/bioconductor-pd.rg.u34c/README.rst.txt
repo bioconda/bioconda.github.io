@@ -11,7 +11,7 @@ Platform Design Info for The Manufacturer\'s Name RG\_U34C
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.rg.u34c.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pd.rg.u34c
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.rg.u34c/meta.yaml
 
 
 

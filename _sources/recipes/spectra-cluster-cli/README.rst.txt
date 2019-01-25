@@ -11,7 +11,7 @@ This is a stand\-alone implementation of the new updated PRIDE Cluster algorithm
 Home          https://github.com/spectra-cluster/spectra-cluster-cli
 Versions      1.1.2, 1.0.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/spectra-cluster-cli
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/spectra-cluster-cli/meta.yaml
 
 
 

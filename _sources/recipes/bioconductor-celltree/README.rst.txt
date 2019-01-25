@@ -11,7 +11,7 @@ This packages computes a Latent Dirichlet Allocation \(LDA\) model of single\-ce
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellTree.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-celltree
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-celltree/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Performs the colocalisation tests described in Plagnol et al \(2009\) \<doi\:10.
 Home          https://CRAN.R-project.org/package=coloc
 Versions      3.1, 2.3_1
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-coloc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-coloc/meta.yaml
 
 
 

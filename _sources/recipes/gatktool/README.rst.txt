@@ -11,7 +11,7 @@ Functions and classes used to extend a GATK tool with Python
 Home          https://broadinstitute.org/
 Versions      0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gatktool
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gatktool/meta.yaml
 
 
 

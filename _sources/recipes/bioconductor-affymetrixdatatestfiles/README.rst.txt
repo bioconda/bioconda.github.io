@@ -11,7 +11,7 @@ This package contains annotation data files and sample data files of Affymetrix 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/AffymetrixDataTestFiles.html
 Versions      
 License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-affymetrixdatatestfiles
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affymetrixdatatestfiles/meta.yaml
 
 
 

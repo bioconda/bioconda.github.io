@@ -11,7 +11,7 @@ Performs Penalized Multivariate Analysis\: a penalized matrix decomposition\, sp
 Home          https://CRAN.R-project.org/package=PMA
 Versions      1.0.11
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-pma
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pma/meta.yaml
 
 
 

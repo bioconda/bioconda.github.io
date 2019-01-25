@@ -11,7 +11,7 @@ BiFET identifies TFs whose footprints are over\-represented in target regions co
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiFET.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bifet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bifet/meta.yaml
 
 
 

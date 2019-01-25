@@ -11,7 +11,7 @@ Useful mathematical functions not in Perl
 Home          http://metacpan.org/pod/Math::Utils
 Versions      1.13
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-math-utils
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-utils/meta.yaml
 
 
 

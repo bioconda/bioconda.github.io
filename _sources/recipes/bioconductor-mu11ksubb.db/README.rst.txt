@@ -11,7 +11,7 @@ Affymetrix Murine 11K Set annotation data \(chip mu11ksubb\) assembled using dat
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu11ksubb.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mu11ksubb.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mu11ksubb.db/meta.yaml
 
 
 

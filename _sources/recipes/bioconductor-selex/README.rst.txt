@@ -11,7 +11,7 @@ Tools for quantifying DNA binding specificities based on SELEX\-seq data
 Home          https://bioconductor.org/packages/3.8/bioc/html/SELEX.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-selex
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-selex/meta.yaml
 
 
 

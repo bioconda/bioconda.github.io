@@ -11,7 +11,7 @@ Bayesian haplotype\-based polymorphism discovery and genotyping
 Home          https://github.com/ekg/freebayes
 Versions      1.2.0, 1.1.0.46, 1.1.0, 1.0.2.29, 1.0.2, 1.0.1, 0.9.21.26, 0.9.21.7
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/freebayes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/freebayes/meta.yaml
 
 
 

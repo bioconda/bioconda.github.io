@@ -11,7 +11,7 @@ apparently run a function in a higher stack frame
 Home          https://github.com/dagolden/Sub-Uplevel
 Versions      0.2800, 0.25
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-sub-uplevel
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-uplevel/meta.yaml
 
 
 

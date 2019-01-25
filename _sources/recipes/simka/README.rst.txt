@@ -11,7 +11,7 @@ Simka is a de novo comparative metagenomics tool. Simka represents each dataset 
 Home          https://github.com/GATB/simka
 Versions      1.4.0
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/simka
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/simka/meta.yaml
 
 
 

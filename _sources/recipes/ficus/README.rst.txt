@@ -11,7 +11,7 @@ provides a context manager for matplotlib figures.
 Home          https://github.com/camillescott/ficus
 Versions      0.5, 0.3
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ficus
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ficus/meta.yaml
 
 
 

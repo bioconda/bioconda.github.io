@@ -11,7 +11,7 @@ This package detects outliers using quantile regression on the M\-A scatterplots
 Home          https://bioconductor.org/packages/3.8/bioc/html/OutlierD.html
 Versions      1.44.0, 1.42.0, 1.40.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-outlierd
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-outlierd/meta.yaml
 
 
 

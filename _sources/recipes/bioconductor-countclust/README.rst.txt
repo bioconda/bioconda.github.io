@@ -11,7 +11,7 @@ Fits grade of membership models \(GoM\, also known as admixture models\) to clus
 Home          https://bioconductor.org/packages/3.8/bioc/html/CountClust.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-countclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-countclust/meta.yaml
 
 
 

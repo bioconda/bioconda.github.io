@@ -11,7 +11,7 @@ bioconductor-etec16s
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/etec16s.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-etec16s
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-etec16s/meta.yaml
 
 
 

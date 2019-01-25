@@ -11,7 +11,7 @@ Assembly\-free and alignment\-free tool for estimating genomic distances between
 Home          https://github.com/shahab-sarmashghi/Skmer
 Versions      2.0.1, 2.0.0, 1.1.0, 1.0.0
 License       3-Clause BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/skmer
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/skmer/meta.yaml
 
 
 

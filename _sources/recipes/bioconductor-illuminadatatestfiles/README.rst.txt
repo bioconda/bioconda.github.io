@@ -11,7 +11,7 @@ Example data for Illumina microarray output files\, for testing purposes
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/IlluminaDataTestFiles.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-illuminadatatestfiles
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminadatatestfiles/meta.yaml
 
 
 

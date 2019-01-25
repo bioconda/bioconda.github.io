@@ -11,7 +11,7 @@ File\-finding iterator
 Home          http://metacpan.org/pod/File::Next
 Versions      1.16
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-file-next
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-next/meta.yaml
 
 
 

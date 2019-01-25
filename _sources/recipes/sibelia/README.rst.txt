@@ -11,7 +11,7 @@ Genome comparison via de Bruijn graph.
 Home          https://github.com/bioinf/Sibelia
 Versions      3.0.7, 3.0.6
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/sibelia
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sibelia/meta.yaml
 
 
 

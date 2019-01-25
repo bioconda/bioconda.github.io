@@ -11,7 +11,7 @@ Interface to GNOME libxslt library
 Home          http://metacpan.org/pod/XML-LibXSLT
 Versions      1.94
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-xml-libxslt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-libxslt/meta.yaml
 
 
 

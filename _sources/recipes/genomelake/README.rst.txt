@@ -11,7 +11,7 @@ Simple and efficient random access to genomic data for deep learning models.
 Home          https://github.com/kundajelab/genomelake
 Versions      0.1.4
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/genomelake
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomelake/meta.yaml
 
 
 

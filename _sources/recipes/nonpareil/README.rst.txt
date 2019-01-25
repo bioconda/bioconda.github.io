@@ -11,7 +11,7 @@ Estimate average coverage and create curves for metagenomic datasets
 Home          http://nonpareil.readthedocs.io/
 Versions      3.3.3, 3.3.1, 3.2, 3.1.1, 2.4.01, 2.4
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/nonpareil
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nonpareil/meta.yaml
 
 
 Development   https://github.com/lmrodriguezr/nonpareil

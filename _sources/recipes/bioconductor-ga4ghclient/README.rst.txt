@@ -11,7 +11,7 @@ GA4GHclient provides an easy way to access public data servers through Global Al
 Home          https://bioconductor.org/packages/3.8/bioc/html/GA4GHclient.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ga4ghclient
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ga4ghclient/meta.yaml
 
 
 

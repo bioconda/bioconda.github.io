@@ -11,7 +11,7 @@ Read SAM\/BAM files
 Home          http://search.cpan.org/~lds/Bio-SamTools-1.43/
 Versions      1.43
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-bio-samtools
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-samtools/meta.yaml
 
 
 

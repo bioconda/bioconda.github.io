@@ -11,7 +11,7 @@ Rapid phylogenetic analysis of large samples of recombinant bacterial whole geno
 Home          https://github.com/sanger-pathogens/gubbins
 Versions      2.3.4, 2.3.2, 2.3.1, 2.2.1
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gubbins
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gubbins/meta.yaml
 
 
 

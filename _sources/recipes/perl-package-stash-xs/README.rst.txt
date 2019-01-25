@@ -11,7 +11,7 @@ faster and more correct implementation of the Package\:\:Stash API
 Home          http://metacpan.org/release/Package-Stash-XS
 Versions      0.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-package-stash-xs/0.28
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-package-stash-xs/0.28/meta.yaml
 
 
 

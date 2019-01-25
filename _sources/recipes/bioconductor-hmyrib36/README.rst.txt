@@ -11,7 +11,7 @@ YRI hapmap \+ expression \(GENEVAR\)\, Build 36\, r23a genotypes
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/hmyriB36.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-hmyrib36
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hmyrib36/meta.yaml
 
 
 

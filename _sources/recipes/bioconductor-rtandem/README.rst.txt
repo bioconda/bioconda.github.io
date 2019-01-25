@@ -11,7 +11,7 @@ This package interfaces the tandem protein identification algorithm in R. Identi
 Home          https://bioconductor.org/packages/3.8/bioc/html/rTANDEM.html
 Versions      
 License       Artistic-1.0 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rtandem
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtandem/meta.yaml
 
 
 

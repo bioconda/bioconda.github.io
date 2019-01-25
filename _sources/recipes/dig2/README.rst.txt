@@ -11,7 +11,7 @@ dig2 is a simple but flexible in silico digester of protein sequences in the FAS
 Home          http://www.ms-utils.org/dig2/dig2.html
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dig2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dig2/meta.yaml
 
 
 

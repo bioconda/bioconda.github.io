@@ -11,7 +11,7 @@ BWISE is a de Bruijn assembly Workflow using Integral information of Short paire
 Home          https://github.com/Malfoy/BWISE
 Versions      
 License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bwise
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bwise/meta.yaml
 
 
 

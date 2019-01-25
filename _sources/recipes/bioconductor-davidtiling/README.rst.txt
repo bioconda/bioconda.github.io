@@ -11,7 +11,7 @@ This package contains the data for the paper by L. David et al. in PNAS 2006 \(P
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/davidTiling.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-davidtiling
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-davidtiling/meta.yaml
 
 
 

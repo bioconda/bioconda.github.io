@@ -11,7 +11,7 @@ PISPINO \(PIpits SPIN\-Off tools\)\: Bioinformatics toolkits for processing NGS 
 Home          https://github.com/hsgweon/pispino
 Versions      1.1, 1.0
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pispino
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pispino/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ graph\-based alignment of next generation sequencing reads to a population of ge
 Home          https://ccb.jhu.edu/software/hisat2/index.shtml
 Versions      2.1.0, 2.0.5, 2.0.4, 2.0.3beta, 2.0.2beta, 2.0.1beta, 2.0.0beta
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/hisat2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hisat2/meta.yaml
 
 
 

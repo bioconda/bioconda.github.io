@@ -11,7 +11,7 @@ bcbio\-monitor is an extension of bcbio\-nextgen to visualize its progress
 Home          https://github.com/guillermo-carrasco/bcbio-nextgen-monitor
 Versions      1.0.6, 1.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bcbio_monitor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcbio_monitor/meta.yaml
 
 
 

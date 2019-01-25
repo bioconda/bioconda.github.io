@@ -11,7 +11,7 @@ Components shared between cgcloud\-core and cgcloud\-agent
 Home          https://github.com/BD2KGenomics/cgcloud
 Versions      1.6.0, 1.4a1.dev195
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cgcloud-lib
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cgcloud-lib/meta.yaml
 
 
 

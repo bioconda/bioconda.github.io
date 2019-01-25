@@ -11,7 +11,7 @@ An NTLM authentication module
 Home          http://metacpan.org/pod/NTLM
 Versions      1.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-ntlm
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ntlm/meta.yaml
 
 
 

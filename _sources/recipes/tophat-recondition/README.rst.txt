@@ -11,7 +11,7 @@ Post\-processor for TopHat unmapped reads
 Home          https://github.com/cbrueffer/tophat-recondition
 Versions      1.4, 1.3, 1.2, 1.1
 License       BSD_2_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tophat-recondition
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tophat-recondition/meta.yaml
 
 
 

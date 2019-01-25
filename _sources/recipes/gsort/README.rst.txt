@@ -11,7 +11,7 @@ sort genomic files according to a genomefile
 Home          https://github.com/brentp/gsort
 Versions      0.0.6, 0.0.2, 0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/gsort
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gsort/meta.yaml
 
 
 

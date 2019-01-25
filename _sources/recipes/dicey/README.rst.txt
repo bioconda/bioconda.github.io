@@ -11,7 +11,7 @@ In\-silico PCR and variant primer design
 Home          https://github.com/gear-genomics/dicey
 Versions      0.1.6
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dicey
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dicey/meta.yaml
 
 
 

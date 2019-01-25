@@ -11,7 +11,7 @@ Scala combines object\-oriented and functional programming in one concise\, high
 Home          http://www.scala-lang.org/
 Versions      2.11.8
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/scala
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scala/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Affymetrix nugomm1a520177 annotation data \(chip nugomm1a520177\) assembled usin
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugomm1a520177.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-nugomm1a520177.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nugomm1a520177.db/meta.yaml
 
 
 

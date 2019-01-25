@@ -11,7 +11,7 @@ Barrnap predicts the location of ribosomal RNA genes in genomes. \(bacteria\, ar
 Home          https://github.com/tseemann/barrnap
 Versions      0.9, 0.8, 0.7, 0.3, 0.2
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/barrnap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/barrnap/meta.yaml
 
 
 

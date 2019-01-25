@@ -11,7 +11,7 @@ check if Makefile.PL has the right pre\-requisites
 Home          https://github.com/briandfoy/test-prereq
 Versions      2.002
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test-prereq/2.002
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-prereq/2.002/meta.yaml
 
 
 

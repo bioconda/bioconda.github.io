@@ -11,7 +11,7 @@ A tool for clustering of RNAs based on their secondary structures using LocARNA
 Home          http://www.bioinf.uni-leipzig.de/~kristin/Software/RNAclust/
 Versions      1.3
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaclust
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnaclust/meta.yaml
 
 
 

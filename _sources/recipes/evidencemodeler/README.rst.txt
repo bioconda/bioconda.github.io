@@ -11,7 +11,7 @@ Evidence Modeler combines ab intio gene predictions\, protein alignments\, and t
 Home          https://github.com/EVidenceModeler/EVidenceModeler
 Versions      1.1.1, v1.1.1
 License       BSD 3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/evidencemodeler
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/evidencemodeler/meta.yaml
 
 
 

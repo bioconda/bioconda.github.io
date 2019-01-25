@@ -11,7 +11,7 @@ provides a simple framework for writing test scripts
 Home          http://metacpan.org/pod/Test
 Versions      1.26
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-test/1.26
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test/1.26/meta.yaml
 
 
 

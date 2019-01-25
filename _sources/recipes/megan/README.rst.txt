@@ -11,7 +11,7 @@ A tool for studying the taxonomic content of a set of DNA reads
 Home          http://ab.inf.uni-tuebingen.de/software/megan6/
 Versions      6.12.3
 License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/megan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/megan/meta.yaml
 
 
 

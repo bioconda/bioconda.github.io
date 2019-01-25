@@ -11,7 +11,7 @@ Templated based param validation
 Home          http://metacpan.org/pod/Params::Check
 Versions      0.38
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-params-check/0.38
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-params-check/0.38/meta.yaml
 
 
 

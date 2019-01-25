@@ -11,7 +11,7 @@ This package provides a model for the clone size distribution of the TCR reperto
 Home          https://bioconductor.org/packages/3.8/bioc/html/powerTCR.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-powertcr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-powertcr/meta.yaml
 
 
 

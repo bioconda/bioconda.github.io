@@ -11,7 +11,7 @@ A program to evaluate protein multiple sequence alignments using a single protei
 Home          http://www.tcoffee.org/Projects/strike/index.html
 Versions      1.2
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/strike
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/strike/meta.yaml
 
 
 

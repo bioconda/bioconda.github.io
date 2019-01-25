@@ -11,7 +11,7 @@ runtime module handling
 Home          http://metacpan.org/pod/Module-Runtime
 Versions      0.016, 0.014
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-runtime
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-runtime/meta.yaml
 
 
 

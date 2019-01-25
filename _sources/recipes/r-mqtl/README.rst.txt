@@ -11,7 +11,7 @@ mQTL provides a complete QTL analysis pipeline for metabolomic data.  Distinctiv
 Home          https://CRAN.R-project.org/package=mQTL
 Versions      1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-mqtl
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mqtl/meta.yaml
 
 
 

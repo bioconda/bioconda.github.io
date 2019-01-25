@@ -11,7 +11,7 @@ Remove overlapping records from a \(sorted\) bed file.  Gets rid of
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ucsc-bedremoveoverlap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-bedremoveoverlap/meta.yaml
 
 
 

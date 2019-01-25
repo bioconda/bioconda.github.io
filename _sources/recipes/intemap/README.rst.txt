@@ -11,7 +11,7 @@ Integrated metagenomic assembly pipeline for short reads
 Home          http://cqb.pku.edu.cn/ZhuLab/InteMAP/index.html
 Versions      1.0
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/intemap
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/intemap/meta.yaml
 
 
 

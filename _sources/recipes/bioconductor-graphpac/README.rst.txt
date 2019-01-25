@@ -11,7 +11,7 @@ Identifies mutational clusters of amino acids in a protein while utilizing the p
 Home          https://bioconductor.org/packages/3.8/bioc/html/GraphPAC.html
 Versions      1.22.1, 1.20.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-graphpac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-graphpac/meta.yaml
 
 
 

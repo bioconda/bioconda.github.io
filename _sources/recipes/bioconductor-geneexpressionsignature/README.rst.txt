@@ -11,7 +11,7 @@ This package gives the implementations of the gene expression signature and its 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneExpressionSignature.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-geneexpressionsignature
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneexpressionsignature/meta.yaml
 
 
 

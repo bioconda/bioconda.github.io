@@ -11,7 +11,7 @@ Maximum likelihood tools to fit and compare models of species abundance distribu
 Home          http://piLaboratory.github.io/sads, https://github.com/piklprado/sads
 Versions      0.4.2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-sads
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-sads/meta.yaml
 
 
 

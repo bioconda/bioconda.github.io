@@ -11,7 +11,7 @@ Tool for plotting gene fusion events detected by various tools using Circos.
 Home          https://github.com/bow/fsnviz
 Versions      0.3.0, 0.2.0, 0.1.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fsnviz
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fsnviz/meta.yaml
 
 
 

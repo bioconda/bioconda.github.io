@@ -11,7 +11,7 @@ PhILR is short for Phylogenetic Isometric Log\-Ratio Transform. This package pro
 Home          https://bioconductor.org/packages/3.8/bioc/html/philr.html
 Versions      1.6.0, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-philr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-philr/meta.yaml
 
 
 

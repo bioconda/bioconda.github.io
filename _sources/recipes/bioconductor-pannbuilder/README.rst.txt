@@ -11,7 +11,7 @@ Processing annotation data from public data repositories and building protein\-c
 Home          http://bioconductor.org/packages/3.7/bioc/html/PAnnBuilder.html
 Versions      1.43.0, 1.42.0, 1.40.0
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-pannbuilder
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pannbuilder/meta.yaml
 
 
 

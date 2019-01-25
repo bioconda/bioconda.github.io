@@ -11,7 +11,7 @@ A computational Bayesian approach to ternary gene regulatory network estimation 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ternarynet.html
 Versions      1.24.0, 1.22.0, 1.20.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ternarynet
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ternarynet/meta.yaml
 
 
 

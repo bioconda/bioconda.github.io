@@ -11,7 +11,7 @@ rnaQUAST is a tool for evaluating RNA\-Seq assemblies using reference genome and
 Home          http://cab.spbu.ru/software/rnaquast/
 Versions      1.5.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/rnaquast
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnaquast/meta.yaml
 
 
 

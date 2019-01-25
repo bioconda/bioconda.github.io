@@ -11,7 +11,7 @@ This package contains example data for the MUGA array that is used by the R pack
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MUGAExampleData.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mugaexampledata
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mugaexampledata/meta.yaml
 
 
 

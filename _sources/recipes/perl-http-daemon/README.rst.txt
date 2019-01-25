@@ -11,7 +11,7 @@ a simple http server class
 Home          http://metacpan.org/pod/HTTP-Daemon
 Versions      6.01
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-http-daemon
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-http-daemon/meta.yaml
 
 
 

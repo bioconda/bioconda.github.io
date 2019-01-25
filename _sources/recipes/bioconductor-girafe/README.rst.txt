@@ -11,7 +11,7 @@ The package \'girafe\' deals with the genome\-level representation of aligned re
 Home          https://bioconductor.org/packages/3.8/bioc/html/girafe.html
 Versions      1.32.0, 1.30.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-girafe
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-girafe/meta.yaml
 
 
 

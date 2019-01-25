@@ -11,7 +11,7 @@ The ENmix package provides a set of quality control and data pre\-processing too
 Home          https://bioconductor.org/packages/3.8/bioc/html/ENmix.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-enmix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-enmix/meta.yaml
 
 
 

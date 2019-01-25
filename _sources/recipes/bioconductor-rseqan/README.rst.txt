@@ -11,7 +11,7 @@ Headers from the SeqAn C\+\+ library for easy of usage in R.
 Home          https://bioconductor.org/packages/3.8/bioc/html/RSeqAn.html
 Versions      
 License       BSD_3_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rseqan
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rseqan/meta.yaml
 
 
 

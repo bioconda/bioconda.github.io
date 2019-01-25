@@ -11,7 +11,7 @@ This is an R package for interfacing with the BIOM format. This package includes
 Home          https://bioconductor.org/packages/3.8/bioc/html/biomformat.html
 Versions      1.8.0, 1.6.0, 1.4.0, 1.2.0, 1.0.2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-biomformat
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biomformat/meta.yaml
 
 
 

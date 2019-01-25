@@ -11,7 +11,7 @@ Convert fasta strings into dinucleotide binary indicator string as 00101...
 Home          https://github.com/erinijapranckeviciene/dnpatterntools
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/dnp-binstrings
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dnp-binstrings/meta.yaml
 
 
 

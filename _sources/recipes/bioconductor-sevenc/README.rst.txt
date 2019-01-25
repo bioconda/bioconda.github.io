@@ -11,7 +11,7 @@ Chromatin looping is an essential feature of eukaryotic genomes and can bring re
 Home          https://bioconductor.org/packages/3.8/bioc/html/sevenC.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-sevenc
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sevenc/meta.yaml
 
 
 

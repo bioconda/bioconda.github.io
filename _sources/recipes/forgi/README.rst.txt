@@ -11,7 +11,7 @@ RNA Graph Library
 Home          http://www.tbi.univie.ac.at/~pkerp/forgi/
 Versions      1.1
 License       GNU Affero GPL 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/forgi
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/forgi/meta.yaml
 
 
 

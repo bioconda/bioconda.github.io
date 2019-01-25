@@ -11,7 +11,7 @@ A Utility for Detection and Visualization of Differential Exon or Splice\-Juncti
 Home          https://bioconductor.org/packages/3.8/bioc/html/JunctionSeq.html
 Versions      1.10.0, 1.8.0
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-junctionseq
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-junctionseq/meta.yaml
 
 
 

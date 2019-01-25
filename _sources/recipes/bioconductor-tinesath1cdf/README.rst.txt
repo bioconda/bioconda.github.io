@@ -11,7 +11,7 @@ A package containing an environment represeting the newcdf\/tinesATH1.cdf.cdf fi
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tinesath1cdf.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-tinesath1cdf
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tinesath1cdf/meta.yaml
 
 
 

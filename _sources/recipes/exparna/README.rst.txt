@@ -11,7 +11,7 @@ The program finds the longest common subsequence of exact pattern matches \(LCS\
 Home          https://github.com/BackofenLab/ExpaRNA
 Versions      1.0.1
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/exparna
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/exparna/meta.yaml
 
 
 

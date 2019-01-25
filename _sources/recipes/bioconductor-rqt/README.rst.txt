@@ -11,7 +11,7 @@ Despite the recent advances of modern GWAS methods\, it still remains an importa
 Home          https://bioconductor.org/packages/3.8/bioc/html/rqt.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-rqt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rqt/meta.yaml
 
 
 

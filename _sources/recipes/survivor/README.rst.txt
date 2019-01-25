@@ -11,7 +11,7 @@ Toolset for SV simulation\, comparison and filtering
 Home          https://github.com/fritzsedlazeck/SURVIVOR
 Versions      1.0.5, 1.0.3, 1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/survivor
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/survivor/meta.yaml
 
 
 

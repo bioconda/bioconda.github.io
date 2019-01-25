@@ -11,7 +11,7 @@ SOAPdenovo\-Trans is a de novo transcriptome assembler basing on the SOAPdenovo 
 Home          http://soap.genomics.org.cn/SOAPdenovo-Trans.html
 Versions      1.04
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/soapdenovo-trans
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapdenovo-trans/meta.yaml
 
 
 

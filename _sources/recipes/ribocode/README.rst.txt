@@ -11,7 +11,7 @@ A package for identifying the translated ORFs using ribosome\-profiling data
 Home          https://github.com/xryanglab/RiboCode
 Versions      1.2.11, 1.2.10, 1.2.9, 1.2.8, 1.2.7, 1.2.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/ribocode
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ribocode/meta.yaml
 
 
 

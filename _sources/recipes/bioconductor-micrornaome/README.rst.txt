@@ -11,7 +11,7 @@ This package provides a SummarizedExperiment object of read counts for microRNAs
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/microRNAome.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-micrornaome
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-micrornaome/meta.yaml
 
 
 

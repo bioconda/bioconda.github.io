@@ -11,7 +11,7 @@ A tool to screen Klebiella genome assembiles for\: MLST sequence type\, species 
 Home          https://github.com/katholt/Kleborate
 Versions      0.3.0
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kleborate
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kleborate/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ ChemmineOB provides an R interface to a subset of cheminformatics functionalitie
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChemmineOB.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-chemmineob
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chemmineob/meta.yaml
 
 
 

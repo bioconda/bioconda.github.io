@@ -11,7 +11,7 @@ This package uses a Bayesian hierarchical model to detect enriched regions from 
 Home          https://bioconductor.org/packages/3.8/bioc/html/BAC.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-bac
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bac/meta.yaml
 
 
 

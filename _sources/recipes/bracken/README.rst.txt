@@ -11,7 +11,7 @@ Bracken \(Bayesian Reestimation of Abundance with KrakEN\) is a highly accurate 
 Home          https://github.com/jenniferlu717/Bracken
 Versions      2.2, 1.0.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bracken
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bracken/meta.yaml
 
 
 

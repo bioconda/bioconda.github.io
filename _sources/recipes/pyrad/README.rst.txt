@@ -11,7 +11,7 @@ Assembly and analysis of RADseq data sets
 Home          https://github.com/dereneaton/pyrad
 Versions      3.0.66, 3.0.64
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/pyrad
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyrad/meta.yaml
 
 
 

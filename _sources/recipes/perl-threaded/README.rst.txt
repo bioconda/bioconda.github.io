@@ -11,7 +11,7 @@ The Perl language.
 Home          http://www.perl.org/
 Versions      5.22.0
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-threaded
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-threaded/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Explore and download data from the recount project available at https\:\/\/jhubi
 Home          https://bioconductor.org/packages/3.8/bioc/html/recount.html
 Versions      1.6.3, 1.4.5, 1.4.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-recount
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-recount/meta.yaml
 
 
 

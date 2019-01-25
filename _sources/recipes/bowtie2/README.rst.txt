@@ -11,7 +11,7 @@ Fast and sensitive read alignment
 Home          http://bowtie-bio.sourceforge.net/bowtie2/index.shtml
 Versions      2.3.4.3, 2.3.4.2, 2.3.4.1, 2.3.4, 2.3.3.1, 2.3.2, 2.3.0, 2.2.8, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bowtie2
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bowtie2/meta.yaml
 
 
 

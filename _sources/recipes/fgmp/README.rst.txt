@@ -11,7 +11,7 @@ FGMP\: assessing fungal genome completeness and gene content.
 Home          https://github.com/stajichlab/FGMP
 Versions      1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/fgmp
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fgmp/meta.yaml
 
 
 

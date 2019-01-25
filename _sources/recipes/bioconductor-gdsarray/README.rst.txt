@@ -11,7 +11,7 @@ GDS files are widely used to represent genotyping or sequence data. The GDSArray
 Home          https://bioconductor.org/packages/3.8/bioc/html/GDSArray.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-gdsarray
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gdsarray/meta.yaml
 
 
 

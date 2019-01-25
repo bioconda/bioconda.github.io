@@ -11,7 +11,7 @@ CAGE is a widely used high throughput assay for measuring transcription start si
 Home          https://bioconductor.org/packages/3.8/bioc/html/CAGEfightR.html
 Versions      
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-cagefightr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cagefightr/meta.yaml
 
 
 

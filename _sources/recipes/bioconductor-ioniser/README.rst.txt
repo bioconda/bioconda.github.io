@@ -11,7 +11,7 @@ IONiseR provides tools for the quality assessment of Oxford Nanopore MinION data
 Home          https://bioconductor.org/packages/3.8/bioc/html/IONiseR.html
 Versions      2.4.0, 2.2.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-ioniser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ioniser/meta.yaml
 
 
 

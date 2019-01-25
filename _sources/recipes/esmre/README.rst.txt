@@ -11,7 +11,7 @@ Regular expression accelerator
 Home          http://code.google.com/p/esmre/
 Versions      0.3.1
 License       GNU Library or Lesser General Public License (LGPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/esmre
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/esmre/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A local transcriptome assembler for SNPs\, indels and AS events
 Home          http://kissplice.prabi.fr
 Versions      2.4.0p1
 License       CeCILL license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/kissplice
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kissplice/meta.yaml
 
 
 

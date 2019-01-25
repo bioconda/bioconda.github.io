@@ -11,7 +11,7 @@ A toolkit for working with ATAC\-seq data.
 Home          http://theparkerlab.org/
 Versions      0.1.6
 License       GPL-3.0-or-later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/atactk
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/atactk/meta.yaml
 
 
 

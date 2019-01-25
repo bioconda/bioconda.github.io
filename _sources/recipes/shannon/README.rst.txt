@@ -11,7 +11,7 @@ A program for assembling transcripts from RNA\-Seq data.
 Home          http://sreeramkannan.github.io/Shannon/
 Versions      0.0.2
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/shannon
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/shannon/meta.yaml
 
 
 Development   https://github.com/sreeramkannan/Shannon

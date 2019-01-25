@@ -11,7 +11,7 @@ Wrapper around the .net \(C\#\) ThermoFisher ThermoRawFileReader library for run
 Home          https://github.com/compomics/ThermoRawFileParser
 Versions      0.0.2018.09.07
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/thermorawfileparser
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/thermorawfileparser/meta.yaml
 
 Documentation https://github.com/compomics/ThermoRawFileParser/blob/master/README.md
 

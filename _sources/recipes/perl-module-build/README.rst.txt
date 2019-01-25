@@ -11,7 +11,7 @@ Build and install Perl modules
 Home          http://metacpan.org/pod/Module-Build
 Versions      0.4224, 0.4214
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/perl-module-build
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-build/meta.yaml
 
 
 

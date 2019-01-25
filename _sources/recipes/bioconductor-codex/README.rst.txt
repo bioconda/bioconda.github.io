@@ -11,7 +11,7 @@ A normalization and copy number variation calling procedure for whole exome DNA 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CODEX.html
 Versions      1.12.0, 1.10.0, 1.8.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-codex
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-codex/meta.yaml
 
 
 

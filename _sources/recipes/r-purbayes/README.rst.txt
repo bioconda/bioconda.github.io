@@ -11,7 +11,7 @@ PurBayes is an MCMC\-based algorithm that uses next\-generation sequencing data 
 Home          https://CRAN.R-project.org/package=PurBayes
 Versions      1.3
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/r-purbayes
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-purbayes/meta.yaml
 
 
 

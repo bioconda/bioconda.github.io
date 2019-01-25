@@ -11,7 +11,7 @@ Affymetrix Murine Genome U74v2 annotation data \(chip mgu74b\) assembled using d
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mgu74b.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-mgu74b.db
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mgu74b.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This tool breaks a reference or bed file into smaller scatter regions of equal s
 Home          https://github.com/biopet/scatterregions
 Versions      0.2, 0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/biopet-scatterregions
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-scatterregions/meta.yaml
 
 
 

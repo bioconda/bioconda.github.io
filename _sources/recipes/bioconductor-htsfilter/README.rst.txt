@@ -11,7 +11,7 @@ This package implements a filtering procedure for replicated transcriptome seque
 Home          https://bioconductor.org/packages/3.8/bioc/html/HTSFilter.html
 Versions      1.20.0, 1.18.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-htsfilter
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-htsfilter/meta.yaml
 
 
 

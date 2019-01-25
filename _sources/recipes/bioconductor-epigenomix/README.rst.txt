@@ -11,7 +11,7 @@ A package for the integrative analysis of RNA\-seq or microarray based gene tran
 Home          https://bioconductor.org/packages/3.8/bioc/html/epigenomix.html
 Versions      1.20.0, 1.18.0
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-epigenomix
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-epigenomix/meta.yaml
 
 
 

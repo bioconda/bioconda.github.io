@@ -11,7 +11,7 @@ MetaWatt is a metagenomic binning tool
 Home          https://sourceforge.net/projects/metawatt/
 Versions      3.5.3
 License       AFL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/metawatt
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metawatt/meta.yaml
 
 
 

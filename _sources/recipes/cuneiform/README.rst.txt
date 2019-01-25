@@ -11,7 +11,7 @@ Cuneiform is an OCR system.
 Home          https://launchpad.net/cuneiform-linux/
 Versions      
 License       Simplified BSD Licence
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/cuneiform/1.1.0
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cuneiform/1.1.0/meta.yaml
 
 
 

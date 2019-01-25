@@ -11,7 +11,7 @@ This package provides S4 classes and methods for inferring functional gene netwo
 Home          https://bioconductor.org/packages/3.8/bioc/html/PANR.html
 Versions      1.26.0, 1.24.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-panr
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-panr/meta.yaml
 
 
 

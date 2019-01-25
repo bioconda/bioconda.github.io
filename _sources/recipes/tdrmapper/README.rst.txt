@@ -11,7 +11,7 @@ tRNA detection and quantification
 Home          https://github.com/sararselitsky/tDRmapper
 Versions      1.1, 1.0
 License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/tdrmapper
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tdrmapper/meta.yaml
 
 
 
