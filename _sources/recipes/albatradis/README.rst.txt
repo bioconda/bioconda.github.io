@@ -9,7 +9,7 @@ Comparative TraDIS analysis
 
 ============= ===========
 Home          https://github.com/quadram-institute-bioscience/albatradis
-Versions      
+Versions      0.0.5
 License       GPLv3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/albatradis
 

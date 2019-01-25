@@ -9,7 +9,7 @@ Client library offering helper methods to access an OMERO server.
 
 ============= ===========
 Home          https://www.openmicroscopy.org/
-Versions      5.4.9, 5.4.8, 5.4.7, 5.4.6, 5.4.5, 5.4.4, 5.4.3, 5.4.2, 5.4.1, 5.4.0, 5.3.3, 5.3.2, 5.3.1, 5.3.0, 5.2.8, 5.2.7
+Versions      5.4.10, 5.4.9, 5.4.8, 5.4.7, 5.4.6, 5.4.5, 5.4.4, 5.4.3, 5.4.2, 5.4.1, 5.4.0, 5.3.3, 5.3.2, 5.3.1, 5.3.0, 5.2.8, 5.2.7
 License       GPL 2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes/python-omero
 
