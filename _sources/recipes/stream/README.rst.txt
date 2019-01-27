@@ -9,7 +9,7 @@ STREAM Single\-cell Trajectories Reconstruction\, Exploration And Mapping of sin
 
 ============= ===========
 Home          https://github.com/pinellolab/STREAM
-Versions      0.3.2, 0.3.1, 0.3.0, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0
+Versions      0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.6, 0.2.5, 0.2.4, 0.2.3, 0.2.2, 0.2.1, 0.2.0
 License       Affero
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/stream/meta.yaml
 
