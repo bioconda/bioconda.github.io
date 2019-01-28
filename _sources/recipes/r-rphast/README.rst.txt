@@ -9,7 +9,7 @@ Provides an R interface to the \'PHAST\'\(\<http\:\/\/compgen.cshl.edu\/phast\/\
 
 ============= ===========
 Home          http://compgen.cshl.edu/rphast
-Versions      
+Versions      1.6.9
 License       BSD_3_clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rphast/meta.yaml
 
