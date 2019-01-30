@@ -9,7 +9,7 @@ Detect intra\- and inter\-species bacterial contamination in NGS reads
 
 ============= ===========
 Home          https://github.com/OLC-Bioinformatics/ConFindr
-Versions      0.5.0, 0.4.8, 0.4.7, 0.4.6, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.4, 0.3.3, 0.3.2
+Versions      0.5.1, 0.5.0, 0.4.8, 0.4.7, 0.4.6, 0.4.5, 0.4.4, 0.4.3, 0.4.2, 0.4.1, 0.4.0, 0.3.4, 0.3.3, 0.3.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/confindr/meta.yaml
 
