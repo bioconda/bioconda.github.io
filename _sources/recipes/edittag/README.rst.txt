@@ -11,7 +11,7 @@ Design and check sets of edit metric sequence tags.
 Home          http://github.com/faircloth-lab/edittag/
 Versions      1.1
 License       http://www.opensource.org/licenses/BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/edittag/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//edittag/meta.yaml
 
 
 

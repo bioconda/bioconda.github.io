@@ -11,7 +11,7 @@ RNA\-Seq is currently used routinely\, and it provides accurate information on g
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rmmquant.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rmmquant/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmmquant/meta.yaml
 
 
 

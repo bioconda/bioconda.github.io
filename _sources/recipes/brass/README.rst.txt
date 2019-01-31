@@ -11,7 +11,7 @@ BRASS analyses one or more related BAM files of paired\-end sequencing to determ
 Home          https://github.com/cancerit/BRASS
 Versions      5.1.6
 License       AGPL-3-0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/brass/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//brass/meta.yaml
 
 
 

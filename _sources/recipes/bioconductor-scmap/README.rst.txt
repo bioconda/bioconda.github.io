@@ -11,7 +11,7 @@ Single\-cell RNA\-seq \(scRNA\-seq\) is widely used to investigate the compositi
 Home          https://bioconductor.org/packages/3.8/bioc/html/scmap.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scmap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scmap/meta.yaml
 
 
 

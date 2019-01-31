@@ -11,7 +11,7 @@ A package containing an environment representing the HT\_HG\-U133\_Plus\_PM.CDF 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133pluspmcdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hthgu133pluspmcdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hthgu133pluspmcdf/meta.yaml
 
 
 

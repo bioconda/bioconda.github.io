@@ -11,7 +11,7 @@ General Hidden Markov Model library \(GHMM\) is a freely available C library imp
 Home          http://ghmm.org/
 Versions      0.9
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ghmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ghmm/meta.yaml
 
 
 

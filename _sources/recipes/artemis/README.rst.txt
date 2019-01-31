@@ -11,7 +11,7 @@ A set of Java genome visualization tools including the Artemis genome browser \&
 Home          http://sanger-pathogens.github.io/Artemis/
 Versions      18.0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/artemis/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//artemis/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Tools for analyzing 10X Genomics data
 Home          https://github.com/walaj/bxtools
 Versions      0.1.0, 0.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bxtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bxtools/meta.yaml
 
 
 

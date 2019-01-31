@@ -11,7 +11,7 @@ mdust from DFCI Gene Indices Software Tools
 Home          http://compbio.dfci.harvard.edu/tgi/
 Versions      2006.10.17
 License       The Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mdust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mdust/meta.yaml
 
 
 

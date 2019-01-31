@@ -11,7 +11,7 @@ Read JSON into a Perl variable
 Home          http://metacpan.org/pod/JSON::Parse
 Versions      0.55, 0.49
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-json-parse/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json-parse/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides facilities for differential methylation analysis based on 
 Home          https://bioconductor.org/packages/3.8/bioc/html/methyvim.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-methyvim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methyvim/meta.yaml
 
 
 

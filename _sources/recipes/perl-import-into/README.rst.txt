@@ -11,7 +11,7 @@ Import packages into other packages
 Home          http://metacpan.org/pod/Import::Into
 Versions      1.002005
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-import-into/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-import-into/meta.yaml
 
 
 

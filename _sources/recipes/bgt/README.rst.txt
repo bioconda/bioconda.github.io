@@ -11,7 +11,7 @@ Flexible genotype query among 30\,000\+ samples whole\-genome.
 Home          https://github.com/lh3/bgt
 Versions      r283, r277
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bgt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bgt/meta.yaml
 
 
 

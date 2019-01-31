@@ -11,7 +11,7 @@ Microbial pan\-GWAS using the output from Roary
 Home          https://github.com/AdmiralenOla/Scoary
 Versions      1.6.16, 1.6.9
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scoary/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scoary/meta.yaml
 
 
 

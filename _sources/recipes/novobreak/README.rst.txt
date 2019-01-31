@@ -11,7 +11,7 @@ local assembly for breakpoint detection in cancer genomes
 Home          https://github.com/czc/nb_distribution
 Versions      1.1.3rc
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/novobreak/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//novobreak/meta.yaml
 
 
 

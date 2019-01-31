@@ -11,7 +11,7 @@ A utility that performs single\-linkage clustering with the option of applying a
 Home          https://sourceforge.net/projects/slclust/
 Versions      02022010
 License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/slclust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//slclust/meta.yaml
 
 
 

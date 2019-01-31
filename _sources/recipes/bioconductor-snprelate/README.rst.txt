@@ -11,7 +11,7 @@ Genome\-wide association studies \(GWAS\) are widely used to investigate the gen
 Home          https://bioconductor.org/packages/3.8/bioc/html/SNPRelate.html
 Versions      1.14.0, 1.12.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-snprelate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snprelate/meta.yaml
 
 
 

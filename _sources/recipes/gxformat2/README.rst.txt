@@ -11,7 +11,7 @@ Galaxy Workflow Format 2 Descriptions
 Home          https://github.com/jmchilton/gxformat2
 Versions      0.8.0, 0.2.0
 License       Academic Free License (AFL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gxformat2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gxformat2/meta.yaml
 
 
 

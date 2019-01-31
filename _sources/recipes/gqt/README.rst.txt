@@ -11,7 +11,7 @@ GQT is a genotype query interface.
 Home          https://github.com/ryanlayer/gqt
 Versions      1.1.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gqt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gqt/meta.yaml
 
 
 

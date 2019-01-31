@@ -11,7 +11,7 @@ Provides methods for quality control and robust pre\-processing and analysis of 
 Home          https://CRAN.R-project.org/package=MALDIrppa
 Versions      1.0.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-maldirppa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-maldirppa/meta.yaml
 
 
 

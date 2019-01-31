@@ -11,7 +11,7 @@ high\-throughput mzML parsing
 Home          http://pymzml.github.com
 Versions      2.0.6, 2.0.5, 0.7.10, 0.7.8, 0.7.7, 0.7.5
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pymzml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pymzml/meta.yaml
 
 
 

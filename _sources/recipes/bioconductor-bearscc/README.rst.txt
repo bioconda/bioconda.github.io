@@ -11,7 +11,7 @@ BEARscc is a noise estimation and injection tool that is designed to assess puta
 Home          https://bioconductor.org/packages/3.8/bioc/html/BEARscc.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bearscc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bearscc/meta.yaml
 
 
 

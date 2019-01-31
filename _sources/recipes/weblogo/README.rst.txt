@@ -11,7 +11,7 @@ WebLogo3 \: Sequence Logos Redrawn
 Home          https://github.com/WebLogo/weblogo
 Versions      3.6.0, 3.5.0, 2.8.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/weblogo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//weblogo/meta.yaml
 
 
 

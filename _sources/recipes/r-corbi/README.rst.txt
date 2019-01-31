@@ -11,7 +11,7 @@ Provides a bundle of basic and fundamental bioinformatics tools\, such as networ
 Home          https://github.com/wulingyun/Corbi
 Versions      0.4_2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-corbi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-corbi/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This module generalises the mechanism of the wantarray function\, allowing a fun
 Home          http://search.cpan.org/~robin/Want-0.29/Want.pm
 Versions      0.29
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-want/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-want/meta.yaml
 
 
 

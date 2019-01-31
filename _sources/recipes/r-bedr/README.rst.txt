@@ -11,7 +11,7 @@ Genomic regions processing using open\-source command line tools such as \'BEDTo
 Home          https://CRAN.R-project.org/package=bedr
 Versions      1.0.4
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-bedr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-bedr/meta.yaml
 
 
 

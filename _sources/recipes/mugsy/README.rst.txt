@@ -11,7 +11,7 @@ Mugsy is a multiple whole genome aligner.
 Home          http://mugsy.sourceforge.net
 Versions      1.2.3
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mugsy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mugsy/meta.yaml
 
 
 

@@ -13,7 +13,7 @@ identification of proteins and in\-depth analysis of metaproteomics.
 Home          https://github.com/compomics/meta-proteome-analyzer
 Versions      1.4.1
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mpa-portable/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mpa-portable/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Python library for terminal color support \(including 256\-color support
 Home          https://github.com/broadinstitute/xtermcolor
 Versions      1.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xtermcolor/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xtermcolor/meta.yaml
 
 
 

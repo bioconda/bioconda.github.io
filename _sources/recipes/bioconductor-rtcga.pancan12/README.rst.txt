@@ -11,7 +11,7 @@ Package provides clinical\, expression\, cnv and mutation data from Genome Cance
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.PANCAN12.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtcga.pancan12/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.pancan12/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Filtering and profiling of next\-generational sequencing data using region\-spec
 Home          https://github.com/jwalabroad/VariantBam
 Versions      1.4.4a, 1.4.3, 1.3.0, 1.2.1_2015.01.08
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/variantbam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//variantbam/meta.yaml
 
 
 

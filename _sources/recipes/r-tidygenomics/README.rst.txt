@@ -11,7 +11,7 @@ Handle genomic data within data frames just as you would with \'GRanges\'. This 
 Home          https://github.com/const-ae/tidygenomics
 Versions      0.1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-tidygenomics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-tidygenomics/meta.yaml
 
 
 

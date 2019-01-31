@@ -11,7 +11,7 @@ pairix
 Home          https://github.com/4dn-dcic/pairix
 Versions      0.3.6, 0.3.5, 0.3.3, 0.3.2, 0.3.1, 0.3.0, 0.2.5, 0.2.4, 0.1.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pairix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pairix/meta.yaml
 
 
 

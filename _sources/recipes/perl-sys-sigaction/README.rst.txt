@@ -11,7 +11,7 @@ Perl extension for Consistent Signal Handling
 Home          http://metacpan.org/pod/Sys::SigAction
 Versions      0.23
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sys-sigaction/0.23/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sys-sigaction/0.23/meta.yaml
 
 
 

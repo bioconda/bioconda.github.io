@@ -11,7 +11,7 @@ Software tool for finding genes in assembled transcripts from metatranscriptomic
 Home          https://github.com/COL-IU/TransGeneScan
 Versions      1.2.1
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/transgenescan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//transgenescan/meta.yaml
 
 
 

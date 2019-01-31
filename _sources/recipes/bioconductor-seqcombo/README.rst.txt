@@ -11,7 +11,7 @@ Provides useful functions for visualizing sequence recombination and virus reass
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqcombo.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-seqcombo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcombo/meta.yaml
 
 
 

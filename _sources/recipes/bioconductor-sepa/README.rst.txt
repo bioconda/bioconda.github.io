@@ -11,7 +11,7 @@ Given single\-cell RNA\-seq data and true experiment time of cells or pseudo\-ti
 Home          https://bioconductor.org/packages/3.8/bioc/html/SEPA.html
 Versions      1.10.0, 1.8.0, 1.6.0
 License       GPL(>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sepa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sepa/meta.yaml
 
 
 

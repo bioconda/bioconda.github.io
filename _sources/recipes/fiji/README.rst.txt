@@ -11,7 +11,7 @@ Fiji is an image processing package—a \"batteries\-included\" distribution of 
 Home          http://fiji.sc
 Versions      20151222, 20141125
 License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fiji/20151222/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fiji/20151222/meta.yaml
 
 
 

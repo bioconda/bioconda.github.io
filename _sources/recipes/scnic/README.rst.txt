@@ -11,7 +11,7 @@ SCNIC\: Sparse Cooccurence Network Investigation for Compositional data
 Home          https://github.com/shafferm/SCNIC
 Versions      0.6.0, 0.5.3, 0.5.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scnic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scnic/meta.yaml
 
 
 

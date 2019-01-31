@@ -11,7 +11,7 @@ Public Health England SNP calling pipeline
 Home          https://github.com/phe-bioinformatics/PHEnix
 Versions      1.4.1a
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phenix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phenix/meta.yaml
 
 
 

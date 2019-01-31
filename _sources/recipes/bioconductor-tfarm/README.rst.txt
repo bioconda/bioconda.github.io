@@ -11,7 +11,7 @@ It searches for relevant associations of transcription factors with a transcript
 Home          https://bioconductor.org/packages/3.8/bioc/html/TFARM.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tfarm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tfarm/meta.yaml
 
 
 

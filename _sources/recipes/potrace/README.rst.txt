@@ -11,7 +11,7 @@ A tool for tracing a bitmap\, which means\, transforming a bitmap into a smooth\
 Home          http://potrace.sourceforge.net
 Versions      1.11
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/potrace/1.11/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//potrace/1.11/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Test strings and data structures and show differences if not ok
 Home          http://metacpan.org/pod/Test-Differences
 Versions      0.64
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-differences/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-differences/meta.yaml
 
 
 

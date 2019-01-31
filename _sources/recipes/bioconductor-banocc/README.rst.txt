@@ -11,7 +11,7 @@ BAnOCC is a package designed for compositional data\, where each sample sums to 
 Home          https://bioconductor.org/packages/3.8/bioc/html/banocc.html
 Versions      1.4.0, 1.2.0, 1.0.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-banocc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-banocc/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The NCBI Gene Expression Omnibus \(GEO\) represents the largest public repositor
 Home          https://bioconductor.org/packages/3.8/bioc/html/GEOmetadb.html
 Versions      1.42.0, 1.40.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geometadb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geometadb/meta.yaml
 
 
 

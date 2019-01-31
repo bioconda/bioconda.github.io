@@ -11,7 +11,7 @@ variant detection in massively parallel sequencing data
 Home          http://dkoboldt.github.io/varscan/
 Versions      2.4.3, 2.4.2, 2.4.1, 2.4.0, 2.3.7
 License       The Non-Profit Open Software License version 3.0 (NPOSL-3.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/varscan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//varscan/meta.yaml
 
 
 

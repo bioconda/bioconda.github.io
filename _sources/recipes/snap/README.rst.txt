@@ -11,7 +11,7 @@ Semi\-HMM\-based Nucleic Acid Parser \-\- gene prediction tool
 Home          http://korflab.ucdavis.edu/software.html
 Versions      2013_11_29
 License       GNU General Public License version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snap/meta.yaml
 
 
 

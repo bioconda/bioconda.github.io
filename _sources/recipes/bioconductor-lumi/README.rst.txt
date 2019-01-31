@@ -11,7 +11,7 @@ The lumi package provides an integrated solution for the Illumina microarray dat
 Home          https://bioconductor.org/packages/3.8/bioc/html/lumi.html
 Versions      2.32.0, 2.30.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lumi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumi/meta.yaml
 
 
 

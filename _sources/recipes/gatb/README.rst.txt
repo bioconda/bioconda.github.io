@@ -11,7 +11,7 @@ The Genome Analysis Toolbox with de\-Bruijn graph
 Home          https://gatb.inria.fr/
 Versions      1.4.1
 License       AGPL 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gatb/1.4.1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gatb/1.4.1/meta.yaml
 
 
 

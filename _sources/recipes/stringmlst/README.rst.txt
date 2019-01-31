@@ -11,7 +11,7 @@ Fast k\-mer based tool for multi locus sequence typing \(MLST\) directly from ge
 Home          https://github.com/jordanlab/stringMLST
 Versions      0.5.1, 0.5.1a, 0.4.2, 0.4.1, 0.4, 0.3.7, 0.3.6.1
 License       CC BY-NC-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/stringmlst/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stringmlst/meta.yaml
 
 
 

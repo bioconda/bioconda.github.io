@@ -11,7 +11,7 @@ This package provides an integrated analysis workflow for robust and reproducibl
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEP.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dep/meta.yaml
 
 
 

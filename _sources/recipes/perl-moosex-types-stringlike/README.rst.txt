@@ -11,7 +11,7 @@ Moose type constraints for strings or string\-like objects
 Home          https://github.com/dagolden/MooseX-Types-Stringlike
 Versions      0.003
 License       apache_2_0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-types-stringlike/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-types-stringlike/meta.yaml
 
 
 

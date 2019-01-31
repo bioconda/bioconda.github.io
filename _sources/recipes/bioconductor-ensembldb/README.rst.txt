@@ -11,7 +11,7 @@ The package provides functions to create and use transcript centric annotation d
 Home          https://bioconductor.org/packages/3.8/bioc/html/ensembldb.html
 Versions      2.4.1, 2.2.2, 2.2.0, 2.0.4, 1.6.2, 1.6.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ensembldb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ensembldb/meta.yaml
 
 
 

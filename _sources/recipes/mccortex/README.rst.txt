@@ -11,7 +11,7 @@ De novo genome assembly and multisample variant calling
 Home          https://github.com/mcveanlab/mccortex
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mccortex/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mccortex/meta.yaml
 
 
 

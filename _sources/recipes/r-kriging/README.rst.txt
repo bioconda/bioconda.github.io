@@ -11,7 +11,7 @@ Simple and highly optimized ordinary kriging algorithm to plot geographical data
 Home          https://CRAN.R-project.org/package=kriging
 Versions      1.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-kriging/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-kriging/meta.yaml
 
 
 

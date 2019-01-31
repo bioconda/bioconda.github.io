@@ -11,7 +11,7 @@ The ALDER software computes the weighted linkage disequilibrium \(LD\) statistic
 Home          http://cb.csail.mit.edu/cb/alder/
 Versions      1.03
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/alder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//alder/meta.yaml
 
 
 

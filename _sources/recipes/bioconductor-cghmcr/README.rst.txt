@@ -11,7 +11,7 @@ This package provides functions to identify genomic regions of interests based o
 Home          https://bioconductor.org/packages/3.8/bioc/html/cghMCR.html
 Versions      1.38.0, 1.36.0, 1.34.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cghmcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cghmcr/meta.yaml
 
 
 

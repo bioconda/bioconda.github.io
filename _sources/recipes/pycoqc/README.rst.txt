@@ -11,7 +11,7 @@ Python 3 package for Jupyter Notebook\, computing metrics and generating plots f
 Home          https://github.com/a-slide/pycoQC
 Versions      1.0.alpha1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pycoqc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pycoqc/meta.yaml
 
 
 

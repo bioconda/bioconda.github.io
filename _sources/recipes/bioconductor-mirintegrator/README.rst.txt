@@ -11,7 +11,7 @@ Tools for augmenting signaling pathways to perform pathway analysis of microRNA 
 Home          https://bioconductor.org/packages/3.8/bioc/html/mirIntegrator.html
 Versions      1.10.0, 1.8.0
 License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mirintegrator/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirintegrator/meta.yaml
 
 
 

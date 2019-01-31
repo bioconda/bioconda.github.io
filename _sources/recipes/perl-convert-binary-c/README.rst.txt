@@ -11,7 +11,7 @@ Binary Data Conversion using C Types
 Home          http://search.cpan.org/~mhx/Convert-Binary-C/
 Versions      0.78
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-convert-binary-c/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-convert-binary-c/meta.yaml
 
 
 

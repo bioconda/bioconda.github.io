@@ -11,7 +11,7 @@ A Java based tool to determine damage patterns on ancient DNA as a replacement f
 Home          https://github.com/Integrative-Transcriptomics/DamageProfiler
 Versions      0.4.4, 0.4.3, 0.4.2, 0.3.11
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/damageprofiler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//damageprofiler/meta.yaml
 
 
 

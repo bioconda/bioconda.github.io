@@ -11,7 +11,7 @@ Encoding and decoding of UTF\-8 encoding form
 Home          http://metacpan.org/pod/Unicode::UTF8
 Versions      0.62
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-unicode-utf8/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-unicode-utf8/meta.yaml
 
 
 

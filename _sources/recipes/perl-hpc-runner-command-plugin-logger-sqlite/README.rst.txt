@@ -11,7 +11,7 @@ Log HPC\:\:Runner workflows to a sqlite DB.
 Home          https://github.com/biosails/HPC-Runner-Command-Plugin-Logger-Sqlite
 Versions      0.0.3
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-hpc-runner-command-plugin-logger-sqlite/0.0.3/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-hpc-runner-command-plugin-logger-sqlite/0.0.3/meta.yaml
 
 
 

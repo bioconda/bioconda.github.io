@@ -11,7 +11,7 @@ MetaCluster5.1 is a new software for binning short pair\-end reads
 Home          http://i.cs.hku.hk/~alse/MetaCluster/
 Versions      5.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metacluster/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metacluster/meta.yaml
 
 
 

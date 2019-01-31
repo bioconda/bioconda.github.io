@@ -11,7 +11,7 @@ This package provides a comprehensive collection of various microarray\-based cl
 Home          https://bioconductor.org/packages/3.8/bioc/html/CMA.html
 Versions      1.38.0, 1.36.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cma/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cma/meta.yaml
 
 
 

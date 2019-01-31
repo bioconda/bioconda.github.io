@@ -11,7 +11,7 @@ GTF Parsing
 Home          https://github.com/openvax/gtfparse
 Versions      1.2.0, 1.0.7
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gtfparse/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gtfparse/meta.yaml
 
 
 

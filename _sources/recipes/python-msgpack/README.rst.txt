@@ -11,7 +11,7 @@ It\'s like JSON. But fast and small.
 Home          https://pypi.org/project/msgpack/#description
 Versions      0.5.6
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-msgpack/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-msgpack/meta.yaml
 
 
 

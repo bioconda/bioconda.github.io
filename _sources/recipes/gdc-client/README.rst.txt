@@ -11,7 +11,7 @@ GDC Data Transfer Tool
 Home          https://gdc.cancer.gov/access-data/gdc-data-transfer-tool
 Versions      1.3.0
 License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gdc-client/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gdc-client/meta.yaml
 
 
 

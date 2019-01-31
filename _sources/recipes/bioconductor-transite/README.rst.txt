@@ -11,7 +11,7 @@ transite is a computational method that allows comprehensive analysis of the reg
 Home          https://bioconductor.org/packages/3.8/bioc/html/transite.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-transite/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-transite/meta.yaml
 
 
 

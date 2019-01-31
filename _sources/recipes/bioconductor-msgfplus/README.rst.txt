@@ -11,7 +11,7 @@ This package contains function to perform peptide identification using the MS\-G
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSGFplus.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msgfplus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msgfplus/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Accurate calculations and visualization of precision\-recall and ROC \(Receiver 
 Home          http://takayasaito.github.io/precrec, https://github.com/takayasaito/precrec
 Versions      0.9.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-precrec/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-precrec/meta.yaml
 
 
 

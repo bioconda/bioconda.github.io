@@ -11,7 +11,7 @@ ITSxpress\: Software to rapidly trim the Internally Transcribed Spacer \(ITS\) r
 Home          http://github.com/usda-ars-gbru/itsxpress
 Versions      1.7.2, 1.7.1, 1.6.4, 1.6.3, 1.6.1, 1.5.6
 License       CC0 1.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/itsxpress/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//itsxpress/meta.yaml
 
 
 

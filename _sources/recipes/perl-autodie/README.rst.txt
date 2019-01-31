@@ -11,7 +11,7 @@ Replace functions with ones that succeed or die with lexical scope
 Home          http://metacpan.org/pod/autodie
 Versions      2.29
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-autodie/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-autodie/meta.yaml
 
 
 

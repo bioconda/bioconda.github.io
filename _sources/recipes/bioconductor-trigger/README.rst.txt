@@ -11,7 +11,7 @@ This R package provides tools for the statistical analysis of integrative genomi
 Home          https://bioconductor.org/packages/3.8/bioc/html/trigger.html
 Versions      1.26.0, 1.24.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-trigger/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-trigger/meta.yaml
 
 
 

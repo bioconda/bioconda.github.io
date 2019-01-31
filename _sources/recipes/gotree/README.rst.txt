@@ -11,7 +11,7 @@ GoTree is a set of command line tools to manipulate phylogenetic trees.
 Home          https://github.com/fredericlemoine/gotree
 Versions      0.2.10
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gotree/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gotree/meta.yaml
 
 
 

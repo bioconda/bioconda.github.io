@@ -11,7 +11,7 @@ The WiggleTools package allows genomewide data files to be manipulated as numeri
 Home          https://github.com/Ensembl/WiggleTools
 Versions      1.2.2, 1.2.1
 License       Apache
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wiggletools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wiggletools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A highly sensitive and accurate Bayesian caller for variants in single cell sequ
 Home          https://github.com/prosolo/prosolo/tree/v0.6.1
 Versions      0.6.1, 0.6.0, 0.5.0, 0.4.0, 0.3.1, 0.2.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prosolo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prosolo/meta.yaml
 
 
 

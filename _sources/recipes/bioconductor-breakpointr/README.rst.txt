@@ -11,7 +11,7 @@ This package implements functions for finding breakpoints\, plotting and export 
 Home          https://bioconductor.org/packages/3.8/bioc/html/breakpointR.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-breakpointr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-breakpointr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A selection of RNA\-Seq data from a yeast transcriptome experiment.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/yeastRNASeq.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-yeastrnaseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-yeastrnaseq/meta.yaml
 
 
 

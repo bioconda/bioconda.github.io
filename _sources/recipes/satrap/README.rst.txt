@@ -11,7 +11,7 @@ A SOLiD assembly translation program.
 Home          http://satrap.cribi.unipd.it/cgi-bin/satrap.pl
 Versions      0.2
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/satrap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//satrap/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ VERSE\: a versatile and efficient RNA\-Seq read counting tool
 Home          https://github.com/qinzhu/VERSE
 Versions      0.1.5
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/verse/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//verse/meta.yaml
 
 
 

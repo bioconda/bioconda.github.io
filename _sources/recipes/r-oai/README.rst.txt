@@ -11,7 +11,7 @@ A general purpose client to work with any \'OAI\-PMH\' \(Open Archives Initiativ
 Home          https://github.com/ropensci/oai
 Versions      0.2.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-oai/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-oai/meta.yaml
 
 
 

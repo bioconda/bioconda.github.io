@@ -11,7 +11,7 @@ Sprai \(single\-pass read accuracy improver\) is a tool to correct sequencing er
 Home          http://zombie.cb.k.u-tokyo.ac.jp/sprai/
 Versions      0.9.9.23
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sprai/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sprai/meta.yaml
 
 
 

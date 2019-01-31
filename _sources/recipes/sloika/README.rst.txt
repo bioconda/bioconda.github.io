@@ -11,7 +11,7 @@ Sloika is Oxford Nanopore Technologies\' software for training neural network mo
 Home          https://github.com/nanoporetech/sloika
 Versions      2.0.1
 License       Mozilla Public License 2.0 (MPL 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sloika/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sloika/meta.yaml
 
 
 

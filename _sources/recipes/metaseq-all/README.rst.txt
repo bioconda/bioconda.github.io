@@ -11,7 +11,7 @@ Meta\-package for metaseq including bedtools and UCSC tools
 Home          
 Versions      0.5.6
 License       The license for this meta-package is MIT; individual tools vary
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaseq-all/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaseq-all/meta.yaml
 
 
 

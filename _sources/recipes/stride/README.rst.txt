@@ -11,7 +11,7 @@ The StriDe Assembler integrates string and de Bruijn graph by decomposing reads 
 Home          https://github.com/ythuang0522/StriDe
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/stride/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stride/meta.yaml
 
 
 

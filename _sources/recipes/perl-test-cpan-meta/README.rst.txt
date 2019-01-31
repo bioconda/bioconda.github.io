@@ -11,7 +11,7 @@ Validate your CPAN META.json files
 Home          http://metacpan.org/pod/Test-CPAN-Meta
 Versions      0.25
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-cpan-meta/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-cpan-meta/meta.yaml
 
 
 

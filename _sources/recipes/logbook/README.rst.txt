@@ -11,7 +11,7 @@ A logging replacement for Python
 Home          http://logbook.pocoo.org/
 Versions      1.4.1, 1.0.0, 0.12.2
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/logbook/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//logbook/meta.yaml
 
 
 

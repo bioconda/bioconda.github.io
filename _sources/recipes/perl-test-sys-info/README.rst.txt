@@ -11,7 +11,7 @@ Centralized test suite for Sys\:\:Info.
 Home          http://metacpan.org/pod/Test::Sys::Info
 Versions      0.23, 0.21
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-sys-info/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-sys-info/meta.yaml
 
 
 

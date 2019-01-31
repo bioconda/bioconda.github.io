@@ -13,7 +13,7 @@ mapping qualities.
 Home          https://github.com/BenLangmead/qtip
 Versions      1.6.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qtip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qtip/meta.yaml
 
 
 

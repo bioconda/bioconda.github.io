@@ -11,7 +11,7 @@ The package Fletcher2013a contains time\-course gene expression data from MCF\-7
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Fletcher2013a.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fletcher2013a/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fletcher2013a/meta.yaml
 
 
 

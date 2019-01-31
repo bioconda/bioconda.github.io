@@ -11,7 +11,7 @@ The Explicit Decomposition with Neighborhoods \(EDeN\) is a decompositional kern
 Home          https://github.com/fabriziocosta/EDeN
 Versions      2.0, 1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/eden/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eden/meta.yaml
 
 
 

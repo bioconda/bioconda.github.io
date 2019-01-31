@@ -11,7 +11,7 @@ Background adjustment using sequence information
 Home          https://bioconductor.org/packages/3.8/bioc/html/gcrma.html
 Versions      2.52.0, 2.50.0, 2.48.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gcrma/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gcrma/meta.yaml
 
 
 

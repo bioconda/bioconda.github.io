@@ -11,7 +11,7 @@ optimal alignment of sequences with structural variants \(SVs\)\, modifiied for 
 Home          https://github.com/marghoob/AGE/tree/simple-parseable-output
 Versions      2015.01.29.3
 License       CCPL (Creative Commons Public License)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/age-metasv/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//age-metasv/meta.yaml
 
 
 

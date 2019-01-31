@@ -11,7 +11,7 @@ The twoddpcr package takes Droplet Digital PCR \(ddPCR\) droplet amplitude data 
 Home          https://bioconductor.org/packages/3.8/bioc/html/twoddpcr.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-twoddpcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-twoddpcr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ blasr\_libcpp is a support library used by blasr and other PacBio tools
 Home          https://github.com/PacificBiosciences/blasr_libcpp
 Versions      5.3.1, 1.1
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blasr_libcpp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//blasr_libcpp/meta.yaml
 
 
 

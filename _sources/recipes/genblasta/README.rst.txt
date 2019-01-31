@@ -11,7 +11,7 @@ genBlast is a program suite\, consisting of two programs\: genBlastA and genBlas
 Home          http://genome.sfu.ca/genblast/download.html
 Versions      1.0.4
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genblasta/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genblasta/meta.yaml
 
 
 

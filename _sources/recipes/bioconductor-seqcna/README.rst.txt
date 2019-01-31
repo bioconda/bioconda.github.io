@@ -11,7 +11,7 @@ Copy number analysis of high\-throughput sequencing cancer data with fast summar
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqCNA.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-seqcna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcna/meta.yaml
 
 
 

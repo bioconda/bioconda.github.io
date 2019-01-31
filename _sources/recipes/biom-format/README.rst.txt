@@ -11,7 +11,7 @@ Biological Observation Matrix \(BIOM\) format
 Home          http://www.biom-format.org
 Versions      2.1.7, 2.1.6, 2.1.5, 2.1.4, 1.3.1
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biom-format/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biom-format/meta.yaml
 
 
 

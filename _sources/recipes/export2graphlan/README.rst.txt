@@ -12,7 +12,7 @@ export2graphlan is a conversion software tool for producing both annotation and 
 Home          https://bitbucket.org/CibioCM/export2graphlan/overview
 Versions      0.20, 0.19
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/export2graphlan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//export2graphlan/meta.yaml
 
 
 

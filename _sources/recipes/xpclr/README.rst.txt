@@ -11,7 +11,7 @@ Code to compute xp\-clr values to detect selection as per Chen\, Patterson \& Re
 Home          https://github.com/hardingnj/xpclr
 Versions      1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xpclr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xpclr/meta.yaml
 
 
 

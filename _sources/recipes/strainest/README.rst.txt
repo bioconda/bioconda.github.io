@@ -11,7 +11,7 @@ Abundance estimation of strains
 Home          https://github.com/compmetagen/strainest
 Versions      1.2.4, 1.2.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/strainest/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//strainest/meta.yaml
 
 
 

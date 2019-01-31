@@ -11,7 +11,7 @@ A computational tool to evaluate HLA loss using next\-generation sequencing data
 Home          https://bitbucket.org/mcgranahanlab/lohhla
 Versions      20171108
 License       UNKNOWN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lohhla/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lohhla/meta.yaml
 
 
 

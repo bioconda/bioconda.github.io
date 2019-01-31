@@ -11,7 +11,7 @@ A fusion gene caller for STAR. The FusionFilter tools to create needed index dat
 Home          https://github.com/STAR-Fusion/STAR-Fusion
 Versions      1.5.0, 1.4.0, 1.3.2, 1.2.0, 1.1.0, 1.0.0, 0.7.0, 0.5.4, 0.5.3, 0.4.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/star-fusion/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//star-fusion/meta.yaml
 
 
 

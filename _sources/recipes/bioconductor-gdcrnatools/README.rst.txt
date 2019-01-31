@@ -11,7 +11,7 @@ This is an easy\-to\-use package for downloading\, organizing\, and integrative 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GDCRNATools.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gdcrnatools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gdcrnatools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Tool for inspecting subroutines.
 Home          http://metacpan.org/pod/Sub::Info
 Versions      0.002
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-info/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-info/meta.yaml
 
 
 

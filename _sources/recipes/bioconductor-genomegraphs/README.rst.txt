@@ -11,7 +11,7 @@ Genomic data analyses requires integrated visualization of known genomic informa
 Home          https://bioconductor.org/packages/3.8/bioc/html/GenomeGraphs.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genomegraphs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomegraphs/meta.yaml
 
 
 

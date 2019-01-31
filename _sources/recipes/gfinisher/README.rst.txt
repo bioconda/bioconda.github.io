@@ -11,7 +11,7 @@ GFinisher is an application tools for refinement and finalization of prokaryotic
 Home          https://sourceforge.net/projects/gfinisher/
 Versions      1.4
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gfinisher/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gfinisher/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Java based common sequence file format reader and sequence file manipulation.
 Home          https://github.com/rdpstaff/ReadSeq
 Versions      2.0.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rdp-readseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rdp-readseq/meta.yaml
 
 
 

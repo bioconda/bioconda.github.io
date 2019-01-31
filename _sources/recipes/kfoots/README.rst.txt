@@ -11,7 +11,7 @@ The package provides methods for fitting multivariate count data with a mixture 
 Home          http://github.com/lamortenera/kfoots
 Versions      1.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kfoots/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kfoots/meta.yaml
 
 
 

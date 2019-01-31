@@ -11,7 +11,7 @@ Data from 8 Affymetrix genechips\, looking at a 2x2 factorial design \(with 2 re
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/estrogen.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-estrogen/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-estrogen/meta.yaml
 
 
 

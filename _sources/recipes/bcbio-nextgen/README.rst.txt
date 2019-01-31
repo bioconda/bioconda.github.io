@@ -11,7 +11,7 @@ Validated\, scalable\, community developed variant calling\, RNA\-seq and small 
 Home          https://github.com/chapmanb/bcbio-nextgen
 Versions      1.1.3, 1.1.3a, 1.1.2, 1.1.2a, 1.1.1, 1.1.1a, 1.1.0, 1.1.0a, 1.0.9, 1.0.9a, 1.0.8, 1.0.8a, 1.0.7, 1.0.7a0, 1.0.6, 1.0.6a0, 1.0.5, 1.0.5a, 1.0.4, 1.0.4a0, 1.0.3, 1.0.3a, 1.0.2, 1.0.2a, 1.0.1, 1.0.1a0, 1.0.0, 1.0.0a0, 0.9.9, 0.9.9a0, 0.9.8, 0.9.8a0, 0.9.7, 0.9.7a, 0.9.6, 0.9.6a, 0.9.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcbio-nextgen/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcbio-nextgen/meta.yaml
 
 
 

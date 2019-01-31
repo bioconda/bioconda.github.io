@@ -11,7 +11,7 @@ Bax File Decoder and Data Compressor
 Home          https://github.com/thegenemyers/DEXTRACTOR
 Versions      1.0p2, 1.0p1
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dextractor/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dextractor/meta.yaml
 
 
 

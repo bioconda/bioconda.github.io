@@ -11,7 +11,7 @@ This package contains 8 data objects supporting functionality and examples of th
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DMRcatedata.html
 Versions      1.16.0, 1.14.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmrcatedata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dmrcatedata/meta.yaml
 
 
 

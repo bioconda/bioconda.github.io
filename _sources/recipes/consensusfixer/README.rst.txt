@@ -11,7 +11,7 @@ Computes a consensus sequence with wobbles\, ambiguous bases\, and in\-frame ins
 Home          https://github.com/cbg-ethz/ConsensusFixer
 Versions      0.4, 0.3.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/consensusfixer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//consensusfixer/meta.yaml
 
 
 

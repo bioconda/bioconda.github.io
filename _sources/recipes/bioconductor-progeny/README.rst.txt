@@ -11,7 +11,7 @@ This package provides a function to infer pathway activity from gene expression 
 Home          https://bioconductor.org/packages/3.8/bioc/html/progeny.html
 Versions      
 License       Apache License (== 2.0) | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-progeny/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-progeny/meta.yaml
 
 
 

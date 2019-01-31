@@ -11,7 +11,7 @@ On demand loader for PerlIO layers and root of PerlIO\:\:\* name space
 Home          http://metacpan.org/pod/PerlIO
 Versions      1.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perlio/1.09/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perlio/1.09/meta.yaml
 
 
 

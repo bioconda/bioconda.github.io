@@ -11,7 +11,7 @@ Some functions for modeling sequence read counts as a generalized poisson model 
 Home          https://CRAN.R-project.org/package=GPseq
 Versions      0.5
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gpseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gpseq/meta.yaml
 
 
 

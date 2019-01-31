@@ -11,7 +11,7 @@ BBCAnalyzer is a package for visualizing the relative or absolute number of base
 Home          https://bioconductor.org/packages/3.8/bioc/html/BBCAnalyzer.html
 Versions      1.10.0, 1.8.0, 1.6.0
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bbcanalyzer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bbcanalyzer/meta.yaml
 
 
 

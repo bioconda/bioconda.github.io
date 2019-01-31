@@ -11,7 +11,7 @@ VDB is the database engine that all SRA tools use. It is a columnar database sys
 Home          https://github.com/ncbi/ncbi-vdb
 Versions      2.9.3, 2.9.1, 2.9.0
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ncbi-vdb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ncbi-vdb/meta.yaml
 
 
 

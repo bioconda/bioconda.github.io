@@ -11,7 +11,7 @@ A cross\-platform R framework that facilitates processing of any number of Affym
 Home          http://www.aroma-project.org/, https://github.com/HenrikBengtsson/aroma.affymetrix
 Versions      3.1.1, 3.1.0, 3.0.0
 License       LGPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-aroma.affymetrix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-aroma.affymetrix/meta.yaml
 
 
 

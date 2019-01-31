@@ -11,7 +11,7 @@ simplistic interface to pkg\-config
 Home          http://gtk2-perl.sourceforge.net
 Versions      1.16
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-pkgconfig/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-pkgconfig/meta.yaml
 
 
 

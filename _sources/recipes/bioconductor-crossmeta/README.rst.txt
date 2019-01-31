@@ -11,7 +11,7 @@ Implements cross\-platform and cross\-species meta\-analyses of Affymentrix\, Il
 Home          https://bioconductor.org/packages/3.8/bioc/html/crossmeta.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-crossmeta/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-crossmeta/meta.yaml
 
 
 

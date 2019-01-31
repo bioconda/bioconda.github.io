@@ -11,7 +11,7 @@ Python scripts to find enrichment of GO terms
 Home          https://github.com/tanghaibao/goatools
 Versions      0.8.12, 0.8.11, 0.8.9, 0.8.4, 0.7.11, 0.6.10, 0.6.4, 0.5.9
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/goatools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//goatools/meta.yaml
 
 
 

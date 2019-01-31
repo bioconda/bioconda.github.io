@@ -11,7 +11,7 @@ Vcfstats is a tool that can generate metrics from a vcf file.
 Home          https://github.com/biopet/vcfstats
 Versions      1.2, 1.1, 1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-vcfstats/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet-vcfstats/meta.yaml
 
 
 

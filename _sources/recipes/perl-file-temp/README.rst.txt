@@ -11,7 +11,7 @@ return name and handle of a temporary file safely
 Home          https://github.com/Perl-Toolchain-Gang/File-Temp
 Versions      0.2304
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-temp/0.2304/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-temp/0.2304/meta.yaml
 
 
 

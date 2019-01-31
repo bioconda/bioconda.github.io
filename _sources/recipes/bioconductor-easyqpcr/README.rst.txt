@@ -11,7 +11,7 @@ This package is based on the qBase algorithms published by Hellemans et al. in 2
 Home          https://bioconductor.org/packages/3.8/bioc/html/EasyqpcR.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-easyqpcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-easyqpcr/meta.yaml
 
 
 

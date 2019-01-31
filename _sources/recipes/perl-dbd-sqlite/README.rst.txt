@@ -11,7 +11,7 @@ Self Contained RDBMS in a DBI Driver
 Home          https://metacpan.org/pod/DBD::SQLite
 Versions      1.60, 1.58, 1.50
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-dbd-sqlite/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-dbd-sqlite/meta.yaml
 
 
 

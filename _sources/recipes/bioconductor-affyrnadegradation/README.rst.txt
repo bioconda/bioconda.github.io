@@ -11,7 +11,7 @@ The package helps with the assessment and correction of RNA degradation effects 
 Home          https://bioconductor.org/packages/3.8/bioc/html/AffyRNADegradation.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affyrnadegradation/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affyrnadegradation/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ k\-SLAM is a program for alignment based metagenomic analysis of large sets of h
 Home          https://github.com/aindj/k-SLAM
 Versions      1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/k-slam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//k-slam/meta.yaml
 
 
 

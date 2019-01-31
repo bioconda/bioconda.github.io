@@ -11,7 +11,7 @@ Open Babel is a chemical toolbox designed to speak the many languages of chemica
 Home          http://openbabel.org
 Versions      2.4.1, 2.3.90dev7d621d9, 2.3.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/openbabel/2.3.2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openbabel/2.3.2/meta.yaml
 
 
 

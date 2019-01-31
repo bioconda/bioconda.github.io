@@ -11,7 +11,7 @@ Precision HLA typing and expression from next\-generation RNA sequencing data
 Home          https://bitbucket.org/sebastian_boegel/seq2hla
 Versions      2.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seq2hla/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seq2hla/meta.yaml
 
 
 

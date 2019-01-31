@@ -11,7 +11,7 @@ Estimate the Proportion of Immune and Cancer cells from bulk gene expression dat
 Home          https://github.com/GfellerLab/EPIC
 Versions      1.1
 License       other
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-epic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-epic/meta.yaml
 
 
 

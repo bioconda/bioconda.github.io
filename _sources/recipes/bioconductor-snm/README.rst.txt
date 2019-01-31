@@ -11,7 +11,7 @@ SNM is a modeling strategy especially designed for normalizing high\-throughput 
 Home          https://bioconductor.org/packages/3.8/bioc/html/snm.html
 Versions      1.28.0, 1.26.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-snm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snm/meta.yaml
 
 
 

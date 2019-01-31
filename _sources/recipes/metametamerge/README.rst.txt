@@ -11,7 +11,7 @@ Merging module of the MetaMeta Pipeline
 Home          https://github.com/pirovc/metametamerge/
 Versions      1.1, 1.0
 License       The MIT License (MIT)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metametamerge/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metametamerge/meta.yaml
 
 
 

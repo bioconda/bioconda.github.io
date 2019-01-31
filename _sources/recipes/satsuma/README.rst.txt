@@ -11,7 +11,7 @@ FFT cross\-correlation based synteny aligner\, \(re\)designed to make full use o
 Home          https://github.com/bioinfologics/satsuma2
 Versions      20161123
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/satsuma/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//satsuma/meta.yaml
 
 
 

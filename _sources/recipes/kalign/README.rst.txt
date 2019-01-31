@@ -11,7 +11,7 @@ Kalign is a fast and accurate multiple sequence alignment algorithm designed to 
 Home          http://msa.sbc.su.se/cgi-bin/msa.cgi
 Versions      2.04
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kalign/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kalign/meta.yaml
 
 
 

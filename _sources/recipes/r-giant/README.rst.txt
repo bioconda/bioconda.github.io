@@ -11,7 +11,7 @@ Toolbox for various enrichment analysis methods and quantification of uncertaint
 Home          https://CRAN.R-project.org/package=GiANT
 Versions      1.2
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-giant/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-giant/meta.yaml
 
 
 

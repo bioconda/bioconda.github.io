@@ -11,7 +11,7 @@ A pipeline for Detecting Resistome Associated taXa.
 Home          https://github.com/will-rowe/drax
 Versions      0.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/drax/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//drax/meta.yaml
 
 
 

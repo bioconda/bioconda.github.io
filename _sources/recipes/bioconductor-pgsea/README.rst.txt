@@ -11,7 +11,7 @@ Parametric Analysis of Gene Set Enrichment
 Home          https://bioconductor.org/packages/3.8/bioc/html/PGSEA.html
 Versions      1.54.0, 1.52.0, 1.51.0, 1.50.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pgsea/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pgsea/meta.yaml
 
 
 

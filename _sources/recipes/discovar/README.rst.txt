@@ -11,7 +11,7 @@ Suitable for variant calling with reference and de novo assembly of small genome
 Home          https://www.broadinstitute.org/software/discovar
 Versions      52488
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/discovar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discovar/meta.yaml
 
 
 

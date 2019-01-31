@@ -11,7 +11,7 @@ Quality statistics and visual representations for second\-generation sequencing 
 Home          http://solexaqa.sourceforge.net/
 Versions      3.1.7.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/solexaqa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//solexaqa/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Test for warnings and the lack of them
 Home          https://github.com/karenetheridge/Test-Warnings
 Versions      0.026, 0.021
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-warnings/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-warnings/meta.yaml
 
 
 

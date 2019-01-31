@@ -11,7 +11,7 @@ The functions in this package return optimized parameter estimates and log likel
 Home          https://bioconductor.org/packages/3.8/bioc/html/metabomxtr.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metabomxtr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metabomxtr/meta.yaml
 
 
 

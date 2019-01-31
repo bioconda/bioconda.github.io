@@ -11,7 +11,7 @@ GERP identifies constrained elements in multiple alignments by quantifying subst
 Home          http://mendel.stanford.edu/SidowLab/downloads/gerp/index.html
 Versions      2.1
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gerp++/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gerp++/meta.yaml
 
 
 

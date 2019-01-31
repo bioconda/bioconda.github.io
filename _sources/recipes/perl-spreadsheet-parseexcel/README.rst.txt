@@ -11,7 +11,7 @@ Read information from an Excel file.
 Home          http://github.com/runrig/spreadsheet-parseexcel/
 Versions      0.65
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-spreadsheet-parseexcel/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-spreadsheet-parseexcel/meta.yaml
 
 
 

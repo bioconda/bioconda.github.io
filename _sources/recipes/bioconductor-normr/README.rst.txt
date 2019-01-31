@@ -11,7 +11,7 @@ Robust normalization and difference calling procedures for ChIP\-seq and alike d
 Home          https://bioconductor.org/packages/3.8/bioc/html/normr.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-normr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-normr/meta.yaml
 
 
 

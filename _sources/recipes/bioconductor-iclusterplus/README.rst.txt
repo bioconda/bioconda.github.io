@@ -11,7 +11,7 @@ Integrative clustering of multiple genomic data using a joint latent variable mo
 Home          https://bioconductor.org/packages/3.8/bioc/html/iClusterPlus.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-iclusterplus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iclusterplus/meta.yaml
 
 
 

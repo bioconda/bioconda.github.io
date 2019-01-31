@@ -11,7 +11,7 @@ This is a package for estimating the copula mixture model and plotting correspon
 Home          https://CRAN.R-project.org/package=idr
 Versions      1.2
 License       GPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-idr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-idr/meta.yaml
 
 
 

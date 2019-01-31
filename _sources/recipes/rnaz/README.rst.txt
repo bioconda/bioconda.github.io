@@ -11,7 +11,7 @@ predicting structural noncoding RNAs
 Home          https://www.tbi.univie.ac.at/~wash/RNAz/
 Versions      2.1
 License       MIT-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnaz/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnaz/meta.yaml
 
 
 

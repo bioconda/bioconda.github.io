@@ -11,7 +11,7 @@ RnaSeqSampleSizeData package provides the read counts and dispersion distributio
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RnaSeqSampleSizeData.html
 Versions      1.12.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnaseqsamplesizedata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaseqsamplesizedata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Pathway Fingerprint vectors that have been pre\-calculated for \~390\,000 public
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pathprintGEOData.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pathprintgeodata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathprintgeodata/meta.yaml
 
 
 

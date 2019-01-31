@@ -11,7 +11,7 @@ DADI implements methods for demographic history and selection inference from gen
 Home          https://bitbucket.org/gutenkunstlab/dadi
 Versions      1.7.0
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dadi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dadi/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ iCLIPro is a Python package that can be used to control for systematic misassign
 Home          http://www.biolab.si/iCLIPro/doc/
 Versions      0.1.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/iclipro/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//iclipro/meta.yaml
 
 
 

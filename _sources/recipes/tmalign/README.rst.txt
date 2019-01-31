@@ -11,7 +11,7 @@ TM\-align sequence\-order independent protein structure alignment
 Home          https://zhanglab.ccmb.med.umich.edu/TM-align/
 Versions      20170708
 License       BSD-like
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tmalign/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tmalign/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Read SAM\/BAM database files
 Home          https://metacpan.org/pod/Bio::DB::Sam
 Versions      1.41
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-db-sam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-db-sam/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Powerful tool designed for mapping of short reads onto a reference genome from I
 Home          http://www.novocraft.com/products/novoalign/
 Versions      3.09.00, 3.07.00, 3.06.05, 3.04.04, 3.03.02
 License       Commercial (requires license for commercial use or for features likes multi-threading)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/novoalign/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//novoalign/meta.yaml
 
 
 

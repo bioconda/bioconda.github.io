@@ -11,7 +11,7 @@ Methods for microarray analysis that take basic data types such as matrices and 
 Home          https://bioconductor.org/packages/3.8/bioc/html/aroma.light.html
 Versions      3.10.0, 3.8.0, 3.6.0, 3.4.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-aroma.light/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aroma.light/meta.yaml
 
 
 

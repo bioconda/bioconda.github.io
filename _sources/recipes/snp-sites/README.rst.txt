@@ -11,7 +11,7 @@ Finds SNP sites from a multi\-FASTA alignment file.
 Home          https://github.com/sanger-pathogens/snp-sites
 Versions      2.4.1, 2.4.0, 2.3.3, 2.3.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snp-sites/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snp-sites/meta.yaml
 
 
 

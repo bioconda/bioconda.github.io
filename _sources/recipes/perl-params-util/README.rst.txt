@@ -11,7 +11,7 @@ Simple\, compact and correct param\-checking functions
 Home          http://metacpan.org/pod/Params::Util
 Versions      1.07
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-params-util/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-params-util/meta.yaml
 
 
 

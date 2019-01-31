@@ -11,7 +11,7 @@ Affymetrix hugene10 annotation data \(chip hugene10sttranscriptcluster\) assembl
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hugene10sttranscriptcluster.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hugene10sttranscriptcluster.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hugene10sttranscriptcluster.db/meta.yaml
 
 
 

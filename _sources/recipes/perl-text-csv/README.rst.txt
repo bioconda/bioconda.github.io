@@ -11,7 +11,7 @@ comma\-separated values manipulator \(using XS or PurePerl\)
 Home          http://metacpan.org/pod/Text::CSV
 Versions      1.99, 1.97, 1.33
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-csv/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-csv/meta.yaml
 
 
 

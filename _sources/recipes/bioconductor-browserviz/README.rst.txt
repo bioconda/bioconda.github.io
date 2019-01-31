@@ -11,7 +11,7 @@ Interactvive graphics in a web browser from R\, using websockets and JSON.
 Home          https://bioconductor.org/packages/3.8/bioc/html/BrowserViz.html
 Versions      2.2.0, 1.10.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-browserviz/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-browserviz/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Pythonic\/Cythonic Nanopore Translocation Analysis
 Home          http://parkin.github.io/pypore/
 Versions      0.0.6.dev20180702231556, 0.0.6.dev20161116235131, 0.0.5.dev20160304220337
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pypore/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pypore/meta.yaml
 
 
 

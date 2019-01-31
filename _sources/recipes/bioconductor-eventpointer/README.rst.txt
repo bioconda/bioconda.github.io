@@ -11,7 +11,7 @@ EventPointer is an R package to identify alternative splicing events that involv
 Home          https://bioconductor.org/packages/3.8/bioc/html/EventPointer.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-eventpointer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-eventpointer/meta.yaml
 
 
 

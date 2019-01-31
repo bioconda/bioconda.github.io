@@ -11,7 +11,7 @@ Tools for MS\-based proteomics
 Home          https://code.google.com/p/msproteomicstools
 Versions      0.5.0
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/msproteomicstools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//msproteomicstools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ a set of version requirements for a CPAN dist
 Home          https://github.com/Perl-Toolchain-Gang/CPAN-Meta-Requirements
 Versions      2.140
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cpan-meta-requirements/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cpan-meta-requirements/meta.yaml
 
 
 

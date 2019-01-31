@@ -11,7 +11,7 @@ Improved Identification and Taxonomic Classification of Small and Large Subunit 
 Home          http://microbiology.se/software/metaxa2/
 Versions      2.2
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaxa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaxa/meta.yaml
 
 
 

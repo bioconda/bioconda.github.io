@@ -11,7 +11,7 @@ The Bellman\'s GAP Compiler \(GAP\-C\) is the novel ADP compiler which translate
 Home          https://bibiserv.cebitec.uni-bielefeld.de/gapc
 Versions      0.1
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bellmans-gapc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bellmans-gapc/meta.yaml
 
 
 

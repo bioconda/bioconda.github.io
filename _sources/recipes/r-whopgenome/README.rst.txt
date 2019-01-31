@@ -11,7 +11,7 @@ Provides very fast access to whole genome\, population scale variation data from
 Home          https://CRAN.R-project.org/package=WhopGenome
 Versions      0.9.7
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-whopgenome/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-whopgenome/meta.yaml
 
 
 

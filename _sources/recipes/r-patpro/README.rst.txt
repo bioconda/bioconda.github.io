@@ -11,7 +11,7 @@ Quickly and easily visualize longitudinal microbiome profiles using standard out
 Home          https://CRAN.R-project.org/package=patPRO
 Versions      1.1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-patpro/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-patpro/meta.yaml
 
 
 

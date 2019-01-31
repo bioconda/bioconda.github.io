@@ -11,7 +11,7 @@ The package pRolocGUI comprises functions to interactively visualise organelle \
 Home          https://bioconductor.org/packages/3.8/bioc/html/pRolocGUI.html
 Versions      1.12.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-prolocgui/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prolocgui/meta.yaml
 
 
 

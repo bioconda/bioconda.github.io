@@ -11,7 +11,7 @@ Pathview is a tool set for pathway based data integration and visualization. It 
 Home          https://bioconductor.org/packages/3.8/bioc/html/pathview.html
 Versions      1.20.0, 1.18.0, 1.16.5, 1.9.0
 License       GPL (>=3.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pathview/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathview/meta.yaml
 
 
 

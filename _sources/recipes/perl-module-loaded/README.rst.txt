@@ -11,7 +11,7 @@ Mark modules as loaded\/unloaded
 Home          http://metacpan.org/pod/Module::Loaded
 Versions      0.08
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-loaded/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-module-loaded/meta.yaml
 
 
 

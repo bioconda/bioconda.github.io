@@ -11,7 +11,7 @@ SparCC is a python module for computing correlations in compositional data \(16S
 Home          https://bitbucket.org/yonatanf/sparcc
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sparcc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sparcc/meta.yaml
 
 
 

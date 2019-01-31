@@ -11,7 +11,7 @@ calculate iRep replication rates from metagenome sequencing
 Home          https://github.com/christophertbrown/iRep
 Versions      1.1.7
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/irep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//irep/meta.yaml
 
 
 

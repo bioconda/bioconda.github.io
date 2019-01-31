@@ -11,7 +11,7 @@ Implements the structural model for variances in order to detect differentially 
 Home          https://CRAN.R-project.org/package=SMVar
 Versions      1.3.3
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-smvar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-smvar/meta.yaml
 
 
 

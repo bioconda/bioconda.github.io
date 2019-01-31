@@ -11,7 +11,7 @@ CNV detection tool for targeted NGS panel data. Extension of the cn.mops package
 Home          https://bioconductor.org/packages/3.8/bioc/html/panelcn.mops.html
 Versions      
 License       LGPL (>= 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-panelcn.mops/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-panelcn.mops/meta.yaml
 
 
 

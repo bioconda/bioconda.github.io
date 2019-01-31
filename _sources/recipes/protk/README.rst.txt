@@ -11,7 +11,7 @@ protk \(Proteomics toolkit\)
 Home          https://github.com/iracooke/protk
 Versions      1.4.4a
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/protk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//protk/meta.yaml
 
 
 

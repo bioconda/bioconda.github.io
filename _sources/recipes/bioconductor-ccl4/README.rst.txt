@@ -11,7 +11,7 @@ NChannelSet for rat hepatocytes treated with Carbon Tetrachloride \(CCl4\) data 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CCl4.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ccl4/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ccl4/meta.yaml
 
 
 

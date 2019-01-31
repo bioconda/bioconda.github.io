@@ -11,7 +11,7 @@ Sensitive detection of INDELs \(INsertions and DELetions\)
 Home          http://scalpel.sourceforge.net/
 Versions      0.5.4, 0.5.3, 0.5.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/scalpel/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//scalpel/meta.yaml
 
 
 

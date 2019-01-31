@@ -11,7 +11,7 @@ Prodigal \(Prokaryotic Dynamic Programming Genefinding Algorithm\) is a microbia
 Home          http://prodigal.ornl.gov/
 Versions      2.6.3, 2.6.2
 License       GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prodigal/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prodigal/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Interface to Adobe Font Metrics files
 Home          http://metacpan.org/pod/Font-AFM
 Versions      1.20
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-font-afm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-font-afm/meta.yaml
 
 
 

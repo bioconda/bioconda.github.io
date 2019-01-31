@@ -11,7 +11,7 @@ This package provides extensive functionality for comparing results obtained by 
 Home          https://bioconductor.org/packages/3.8/bioc/html/compcodeR.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-compcoder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-compcoder/meta.yaml
 
 
 

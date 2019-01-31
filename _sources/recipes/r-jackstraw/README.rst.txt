@@ -11,7 +11,7 @@ Test for association between the observed data and their systematic patterns of 
 Home          https://CRAN.R-project.org/package=jackstraw
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-jackstraw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-jackstraw/meta.yaml
 
 
 

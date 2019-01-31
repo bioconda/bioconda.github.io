@@ -11,7 +11,7 @@ BlastAlign uses NCBI Blast to align nucleotide sequences that have large indels 
 Home          http://evolve.zoo.ox.ac.uk/Evolve/Blastalign.html
 Versions      1.4
 License       GNU GENERAL PUBLIC LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blastalign/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//blastalign/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ install subroutines into packages easily
 Home          https://github.com/rjbs/Sub-Install
 Versions      0.928
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-install/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-install/meta.yaml
 
 
 

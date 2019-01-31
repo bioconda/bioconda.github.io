@@ -11,7 +11,7 @@ Base class for HTML formatters
 Home          https://metacpan.org/release/HTML-Formatter
 Versions      2.16, 2.14
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-formatter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-formatter/meta.yaml
 
 
 

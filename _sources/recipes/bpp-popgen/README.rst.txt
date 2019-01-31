@@ -11,7 +11,7 @@ Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 Home          https://github.com/BioPP/bpp-popgen
 Versions      2.4.1
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bpp-popgen/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bpp-popgen/meta.yaml
 
 
 

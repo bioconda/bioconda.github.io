@@ -11,7 +11,7 @@ A multipoint parametric linkage analysis tool for large consanguineous pedigrees
 Home          https://github.com/ajm/swiftlink
 Versions      1.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/swiftlink/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//swiftlink/meta.yaml
 
 
 

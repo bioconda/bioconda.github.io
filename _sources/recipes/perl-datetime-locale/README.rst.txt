@@ -11,7 +11,7 @@ Localization support for DateTime.pm
 Home          http://metacpan.org/release/DateTime-Locale
 Versions      1.12
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-datetime-locale/1.12/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-datetime-locale/1.12/meta.yaml
 
 
 

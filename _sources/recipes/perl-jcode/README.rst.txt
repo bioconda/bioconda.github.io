@@ -11,7 +11,7 @@ Japanese Charset Handler
 Home          http://metacpan.org/pod/Jcode
 Versions      2.07
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-jcode/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-jcode/meta.yaml
 
 
 

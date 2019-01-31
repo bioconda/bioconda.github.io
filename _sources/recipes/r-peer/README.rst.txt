@@ -11,7 +11,7 @@ PEER is a collection of Bayesian approaches to infer hidden determinants and the
 Home          
 Versions      1.3
 License       GPL 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-peer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-peer/meta.yaml
 
 
 

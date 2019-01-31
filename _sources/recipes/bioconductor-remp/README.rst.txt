@@ -11,7 +11,7 @@ Machine learning\-based tools to predict DNA methylation of locus\-specific repe
 Home          https://bioconductor.org/packages/3.8/bioc/html/REMP.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-remp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-remp/meta.yaml
 
 
 

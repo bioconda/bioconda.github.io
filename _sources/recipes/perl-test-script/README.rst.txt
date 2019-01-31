@@ -11,7 +11,7 @@ Basic cross\-platform tests for scripts
 Home          https://metacpan.org/pod/Test::Script
 Versions      1.25
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-script/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-script/meta.yaml
 
 
 

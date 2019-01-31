@@ -11,7 +11,7 @@ Test data and XML files for testing compliance of the flowUtils\/flowCore packag
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/gatingMLData.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gatingmldata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gatingmldata/meta.yaml
 
 
 

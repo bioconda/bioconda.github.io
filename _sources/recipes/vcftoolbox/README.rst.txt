@@ -11,7 +11,7 @@ Tools for manipulating and parsing vcf files
 Home          http://github.com/moonso/vcftoolbox
 Versions      1.5.1, 0.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vcftoolbox/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcftoolbox/meta.yaml
 
 
 

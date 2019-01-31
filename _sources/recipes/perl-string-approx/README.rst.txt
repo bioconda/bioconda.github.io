@@ -11,7 +11,7 @@ Perl extension for approximate matching \(fuzzy matching\)
 Home          http://metacpan.org/pod/String::Approx
 Versions      3.27
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-string-approx/3.27/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-string-approx/3.27/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ DNA methylation and variant Caller for Bisulfite Sequencing Data.
 Home          https://github.com/heathsc/bs_call
 Versions      2.02
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bs_call/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bs_call/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ CoCoScore\: context\-aware co\-occurrence scores for biomedical text mining appl
 Home          https://github.com/JungeAlexander/cocoscore
 Versions      0.2.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cocoscore/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cocoscore/meta.yaml
 
 
 

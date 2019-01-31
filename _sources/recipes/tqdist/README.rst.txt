@@ -11,7 +11,7 @@ computes the triplet distance between rooted trees in O\(n log n\) time and the 
 Home          http://users-cs.au.dk/cstorm/software/tqdist/
 Versions      1.0.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tqdist/1.0.0/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tqdist/1.0.0/meta.yaml
 
 
 

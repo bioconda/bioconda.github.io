@@ -11,7 +11,7 @@ Perl extension for replacing a link by a copy of the linked file.
 Home          https://metacpan.org/pod/File::Copy::Link
 Versions      0.140
 License       Perl
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-copy-link/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-copy-link/meta.yaml
 
 
 

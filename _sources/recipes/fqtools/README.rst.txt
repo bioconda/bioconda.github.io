@@ -11,7 +11,7 @@ An efficient FASTQ manipulation suite.
 Home          https://github.com/alastair-droop/fqtools
 Versions      2.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fqtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fqtools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Getopt\:\:Long\, but simpler and more powerful
 Home          https://github.com/rjbs/Getopt-Long-Descriptive
 Versions      0.103
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-getopt-long-descriptive/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-getopt-long-descriptive/meta.yaml
 
 
 

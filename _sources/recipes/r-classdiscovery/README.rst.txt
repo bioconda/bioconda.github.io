@@ -11,7 +11,7 @@ Defines the classes used for \"class discovery\" problems in the OOMPA project \
 Home          http://oompa.r-forge.r-project.org/
 Versions      3.3.9
 License       Apache (== 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-classdiscovery/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-classdiscovery/meta.yaml
 
 
 

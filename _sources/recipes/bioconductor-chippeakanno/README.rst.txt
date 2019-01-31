@@ -11,7 +11,7 @@ The package includes functions to retrieve the sequences around the peak\, obtai
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChIPpeakAnno.html
 Versions      3.14.2, 3.12.0, 3.10.2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chippeakanno/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chippeakanno/meta.yaml
 
 
 

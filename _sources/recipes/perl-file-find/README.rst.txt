@@ -11,7 +11,7 @@ Traverse a directory tree.
 Home          http://metacpan.org/pod/File::Find
 Versions      1.27
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-find/1.27/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-find/1.27/meta.yaml
 
 
 

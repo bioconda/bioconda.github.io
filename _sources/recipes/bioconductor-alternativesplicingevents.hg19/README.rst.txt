@@ -11,7 +11,7 @@ Data frame containing alternative splicing events. The splicing events were comp
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/alternativeSplicingEvents.hg19.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-alternativesplicingevents.hg19/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-alternativesplicingevents.hg19/meta.yaml
 
 
 

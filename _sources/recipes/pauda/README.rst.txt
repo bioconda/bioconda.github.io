@@ -11,7 +11,7 @@ PAUDA is a new approach toward the problem of comparing DNA reads against a data
 Home          https://ab.inf.uni-tuebingen.de/software/pauda
 Versions      1.0.1
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pauda/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pauda/meta.yaml
 
 
 

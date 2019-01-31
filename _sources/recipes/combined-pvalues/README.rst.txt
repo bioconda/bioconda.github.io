@@ -14,7 +14,7 @@ This is useful for ChIP\-Seq probes and Tiling arrays\, or any data with spatial
 Home          https://github.com/brentp/combined-pvalues
 Versions      0.48, 0.46
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/combined-pvalues/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//combined-pvalues/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package containing an environment representing the HG U95D.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu95dcdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hgu95dcdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu95dcdf/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Building SuperTranscripts\: A linear representation of transcriptome data
 Home          https://github.com/Oshlack/Lace
 Versions      1.00, 0.99, 0.80
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lace/meta.yaml
 
 
 

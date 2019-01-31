@@ -11,7 +11,7 @@ Affymetrix ragene20 annotation data \(chip ragene20stprobeset\) assembled using 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ragene20stprobeset.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ragene20stprobeset.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ragene20stprobeset.db/meta.yaml
 
 
 

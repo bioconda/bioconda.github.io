@@ -11,7 +11,7 @@ Globally\/Universally Unique Identifiers \(GUIDs\/UUIDs\)
 Home          http://metacpan.org/pod/Data::UUID
 Versions      1.221
 License       bsd
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-uuid/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-uuid/meta.yaml
 
 
 

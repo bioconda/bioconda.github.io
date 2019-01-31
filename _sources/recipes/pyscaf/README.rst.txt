@@ -11,7 +11,7 @@ Genome assembly scaffolding using information from paired\-end\/mate\-pair libra
 Home          https://github.com/lpryszcz/pyScaf
 Versions      0.12a4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyscaf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyscaf/meta.yaml
 
 
 

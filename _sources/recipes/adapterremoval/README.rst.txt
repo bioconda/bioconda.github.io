@@ -11,7 +11,7 @@ The AdapterRemoval v2 tool for merging and clipping reads.
 Home          https://github.com/MikkelSchubert/adapterremoval
 Versions      2.2.2
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/adapterremoval/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//adapterremoval/meta.yaml
 
 
 

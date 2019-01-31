@@ -11,7 +11,7 @@ This package provides functions for construction of customized protein databases
 Home          https://bioconductor.org/packages/3.8/bioc/html/PGA.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pga/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pga/meta.yaml
 
 
 

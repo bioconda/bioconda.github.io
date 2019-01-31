@@ -11,7 +11,7 @@ Bioinformatics Toolkit
 Home          http://metacpan.org/pod/BioPerl
 Versions      1.7.2, 1.6.924
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bioperl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bioperl/meta.yaml
 
 
 

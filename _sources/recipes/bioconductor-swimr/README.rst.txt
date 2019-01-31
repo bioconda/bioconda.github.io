@@ -11,7 +11,7 @@ SwimR is an R\-based suite that calculates\, analyses\, and plots the frequency 
 Home          https://bioconductor.org/packages/3.8/bioc/html/SwimR.html
 Versions      1.18.0, 1.16.0
 License       LGPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-swimr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-swimr/meta.yaml
 
 
 

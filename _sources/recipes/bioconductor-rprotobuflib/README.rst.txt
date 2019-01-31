@@ -11,7 +11,7 @@ This package provides the headers and static library of Protocol buffers 2.6.0 f
 Home          https://bioconductor.org/packages/3.8/bioc/html/RProtoBufLib.html
 Versions      1.2.0, 1.0.0
 License       BSD_3_clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rprotobuflib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rprotobuflib/meta.yaml
 
 
 

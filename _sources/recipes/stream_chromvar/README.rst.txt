@@ -11,7 +11,7 @@ Determine variation in chromatin accessibility across sets of annotations or pea
 Home          http://bioconductor.org/packages/3.8/bioc/html/chromVAR.html
 Versions      1.4.0, 1.2.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/stream_chromvar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stream_chromvar/meta.yaml
 
 
 

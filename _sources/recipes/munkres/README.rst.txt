@@ -11,7 +11,7 @@ munkres algorithm for the Assignment Problem
 Home          http://software.clapper.org/munkres/
 Versions      1.0.7
 License       Apache License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/munkres/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//munkres/meta.yaml
 
 
 

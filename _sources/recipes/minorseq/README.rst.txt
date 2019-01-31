@@ -11,7 +11,7 @@ Minor Variant Calling and Phasing Tools
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.11.0
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/minorseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//minorseq/meta.yaml
 
 
 

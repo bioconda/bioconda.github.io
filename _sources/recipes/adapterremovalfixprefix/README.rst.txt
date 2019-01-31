@@ -11,7 +11,7 @@ adapterremovalfixprefix
 Home          https://github.com/apeltzer/AdapterRemovalFixPrefix
 Versions      0.0.4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/adapterremovalfixprefix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//adapterremovalfixprefix/meta.yaml
 
 
 

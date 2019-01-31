@@ -11,7 +11,7 @@ Filter Workflow4Metabolomics dataMatrix\, sampleMetadata\, and variableMetadata 
 Home          https://github.com/HegemanLab/w4mclassfilter
 Versions      0.98.9, 0.98.8, 0.98.7, 0.98.6, 0.98.3, 0.98.2, 0.98.1, 0.98.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/w4mclassfilter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//w4mclassfilter/meta.yaml
 
 
 

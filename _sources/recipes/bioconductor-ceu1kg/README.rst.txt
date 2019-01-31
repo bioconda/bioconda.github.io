@@ -11,7 +11,7 @@ CEU genotypes from 1000 genomes \"low coverage\" pilot phase I \(approx 8 millio
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ceu1kg.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ceu1kg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ceu1kg/meta.yaml
 
 
 

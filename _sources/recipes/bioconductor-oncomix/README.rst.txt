@@ -11,7 +11,7 @@ This package helps identify mRNAs that are overexpressed in subsets of tumors re
 Home          https://bioconductor.org/packages/3.8/bioc/html/oncomix.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-oncomix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oncomix/meta.yaml
 
 
 

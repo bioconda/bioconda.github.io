@@ -11,7 +11,7 @@ The EMDomics algorithm is used to perform a supervised multi\-class analysis to 
 Home          https://bioconductor.org/packages/3.8/bioc/html/EMDomics.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-emdomics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-emdomics/meta.yaml
 
 
 

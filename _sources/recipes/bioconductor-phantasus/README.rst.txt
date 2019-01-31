@@ -11,7 +11,7 @@ Phantasus is a web\-application for visual and interactive gene expression analy
 Home          https://bioconductor.org/packages/3.8/bioc/html/phantasus.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-phantasus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phantasus/meta.yaml
 
 
 

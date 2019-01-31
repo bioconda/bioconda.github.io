@@ -11,7 +11,7 @@ Manage deprecation warnings for your distribution
 Home          http://metacpan.org/release/Package-DeprecationManager
 Versions      0.17
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-package-deprecationmanager/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-package-deprecationmanager/meta.yaml
 
 
 

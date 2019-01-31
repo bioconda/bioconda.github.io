@@ -11,7 +11,7 @@ This R package makes use of the exhaustive RESTful Web service API that has been
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellbaseR.html
 Versions      
 License       Apache License (== 2.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cellbaser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellbaser/meta.yaml
 
 
 

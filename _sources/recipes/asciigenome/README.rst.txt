@@ -11,7 +11,7 @@ Command\-line genome browser running from terminal window and solely based on AS
 Home          https://github.com/dariober/ASCIIGenome
 Versions      1.15.0, 1.14.0, 1.13.0, 1.12.0, 1.8.0, 1.2.0, 1.1.0, 1.0.0, 0.6.4, 0.2.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/asciigenome/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//asciigenome/meta.yaml
 
 
 

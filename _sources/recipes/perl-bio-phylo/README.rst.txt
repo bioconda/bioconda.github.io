@@ -11,7 +11,7 @@ An object\-oriented Perl toolkit for analyzing and manipulating phyloinformatic 
 Home          http://biophylo.blogspot.com/
 Versions      0.58
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-phylo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-phylo/meta.yaml
 
 
 

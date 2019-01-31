@@ -11,7 +11,7 @@ We have developed a tool SOAPsplice for genome\-wide ab initio detection of spli
 Home          http://soap.genomics.org.cn/soapsplice.html
 Versions      1.10
 License       freely available
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapsplice/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapsplice/meta.yaml
 
 
 

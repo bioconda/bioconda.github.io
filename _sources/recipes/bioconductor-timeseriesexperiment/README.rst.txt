@@ -11,7 +11,7 @@ Visualization and analysis toolbox for short time course data which includes dim
 Home          https://bioconductor.org/packages/3.8/bioc/html/TimeSeriesExperiment.html
 Versions      
 License       LGPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-timeseriesexperiment/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-timeseriesexperiment/meta.yaml
 
 
 

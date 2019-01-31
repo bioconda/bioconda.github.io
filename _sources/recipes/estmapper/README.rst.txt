@@ -11,7 +11,7 @@ Software package for the high\-throughput alignment of large cDNA \(EST\, mRNA\)
 Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_ESTmapper
 Versions      2008
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/estmapper/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//estmapper/meta.yaml
 
 
 

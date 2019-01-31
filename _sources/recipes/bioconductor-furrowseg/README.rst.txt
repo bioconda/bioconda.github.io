@@ -11,7 +11,7 @@ Image feature data and analysis codes for the Guglielmi\, Barry et al. paper des
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/furrowSeg.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-furrowseg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-furrowseg/meta.yaml
 
 
 

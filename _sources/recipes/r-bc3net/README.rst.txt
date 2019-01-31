@@ -11,7 +11,7 @@ Implementation of the BC3NET algorithm for gene regulatory network inference \(d
 Home          https://CRAN.R-project.org/package=bc3net
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-bc3net/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-bc3net/meta.yaml
 
 
 

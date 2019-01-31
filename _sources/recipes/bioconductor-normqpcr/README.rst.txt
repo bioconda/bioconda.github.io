@@ -11,7 +11,7 @@ Functions for the selection of optimal reference genes and the normalisation of 
 Home          https://bioconductor.org/packages/3.8/bioc/html/NormqPCR.html
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-normqpcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-normqpcr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Calculates Natural Product\(NP\)\-likeness of a molecule\, i.e. the similarity o
 Home          https://sourceforge.net/projects/np-likeness/
 Versions      2.1
 License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/np-likeness-scorer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//np-likeness-scorer/meta.yaml
 
 
 

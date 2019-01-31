@@ -11,7 +11,7 @@ This package detects statistically significant difference between read enrichmen
 Home          http://bioconductor.org/packages/release/bioc/html/MMDiff.html
 Versions      1.10.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mmdiff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mmdiff/meta.yaml
 
 
 

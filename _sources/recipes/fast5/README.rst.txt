@@ -11,7 +11,7 @@ A C\+\+ header\-only library for reading Oxford Nanopore Fast5 files.
 Home          https://github.com/mateidavid/fast5
 Versions      0.6.5, 0.6.4, 0.6.3.p1, 0.6.2, 0.6.2.p1, 0.6.1, 0.5.10a, 0.5.9, 0.5.8, 0.5.6, 0.2.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fast5/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fast5/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Routines for PLS\-based genomic analyses\, implementing PLS methods for classifi
 Home          https://CRAN.R-project.org/package=plsgenomics
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-plsgenomics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-plsgenomics/meta.yaml
 
 
 

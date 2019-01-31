@@ -11,7 +11,7 @@ Simple API for XML
 Home          http://metacpan.org/pod/XML::SAX
 Versions      1.00, 0.99
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-sax/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-sax/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A Linear Discriminant Analysis \(LEfSe\) wrapper.
 Home          https://github.com/twbattaglia/koeken
 Versions      0.2.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/koeken/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//koeken/meta.yaml
 
 
 

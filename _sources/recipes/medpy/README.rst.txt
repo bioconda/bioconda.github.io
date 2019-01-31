@@ -11,7 +11,7 @@ Medical image processing in Python
 Home          https://github.com/loli/medpy
 Versions      0.3.0
 License       GNU General Public (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/medpy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//medpy/meta.yaml
 
 
 

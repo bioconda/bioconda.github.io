@@ -11,7 +11,7 @@ Conversion of numbered HTML entities
 Home          http://metacpan.org/pod/HTML-Entities-Numbered
 Versions      0.04
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-entities-numbered/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-entities-numbered/meta.yaml
 
 
 

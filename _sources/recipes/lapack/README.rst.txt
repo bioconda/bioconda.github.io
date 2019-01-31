@@ -11,7 +11,7 @@ Linear Algebra PACKage
 Home          http://www.netlib.org/lapack
 Versions      3.6.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lapack/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lapack/meta.yaml
 
 
 

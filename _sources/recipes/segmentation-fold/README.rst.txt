@@ -11,7 +11,7 @@ RNA\-Folding with predefined segments including K\-turns and loop\-E\-motifs
 Home          https://github.com/yhoogstrate/segmentation-fold
 Versions      1.7.0, 1.6.8
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/segmentation-fold/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//segmentation-fold/meta.yaml
 
 
 

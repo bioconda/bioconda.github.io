@@ -11,7 +11,7 @@ backSPIN clustering algorythm
 Home          https://github.com/linnarsson-lab/BackSPIN
 Versions      0.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/backspinpy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//backspinpy/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Microarray gene expression data from the study of Vawter et al.\, 2004.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RUVnormalizeData.html
 Versions      0.114.0, 0.112.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ruvnormalizedata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ruvnormalizedata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Chromswitch implements a flexible method to detect chromatin state switches betw
 Home          https://bioconductor.org/packages/3.8/bioc/html/chromswitch.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chromswitch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chromswitch/meta.yaml
 
 
 

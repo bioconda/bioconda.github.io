@@ -11,7 +11,7 @@ Perl interface to the SHA\-1 algorithm
 Home          http://metacpan.org/pod/Digest::SHA1
 Versions      2.13
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-digest-sha1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-digest-sha1/meta.yaml
 
 
 

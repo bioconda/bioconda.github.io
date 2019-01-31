@@ -11,7 +11,7 @@ Sequence to graph aligner for long reads
 Home          https://github.com/maickrau/GraphAligner
 Versions      1.0.1, 1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/graphaligner/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//graphaligner/meta.yaml
 
 
 

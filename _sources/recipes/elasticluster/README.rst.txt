@@ -11,7 +11,7 @@ Create\, manage and setup computing clusters hosted on a public or private cloud
 Home          https://github.com/gc3-uzh-ch/elasticluster
 Versions      0.1.3bcbio
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/elasticluster/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//elasticluster/meta.yaml
 
 
 

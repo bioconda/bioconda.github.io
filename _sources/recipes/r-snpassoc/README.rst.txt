@@ -11,7 +11,7 @@ This package carries out most common analysis when performing whole genome assoc
 Home          http://www.creal.cat/jrgonzalez/software.htm
 Versions      1.9_2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-snpassoc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-snpassoc/meta.yaml
 
 
 

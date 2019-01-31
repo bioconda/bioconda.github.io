@@ -11,7 +11,7 @@ A tool to study splicing across multiple conditions at high speed and accuracy.
 Home          https://github.com/comprna/SUPPA
 Versions      2.3
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/suppa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//suppa/meta.yaml
 
 
 

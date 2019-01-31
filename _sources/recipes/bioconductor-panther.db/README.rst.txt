@@ -11,7 +11,7 @@ A set of annotation maps describing the entire Gene Ontology assembled using dat
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/PANTHER.db.html
 Versions      1.0.4
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-panther.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-panther.db/meta.yaml
 
 
 

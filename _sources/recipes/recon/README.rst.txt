@@ -11,7 +11,7 @@ The RECON package performs de novo identification and classification of repeat s
 Home          http://eddylab.org/software/recon/
 Versions      1.08
 License       GNU General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/recon/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//recon/meta.yaml
 
 
 

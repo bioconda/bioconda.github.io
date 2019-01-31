@@ -11,7 +11,7 @@ The OBITools package is a set of programs specifically designed for analyzing NG
 Home          http://metabarcoding.org/obitools
 Versions      1.2.11, 1.2.10, 1.0.010
 License       CeCILL-V2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/obitools/1.2.10/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//obitools/1.2.10/meta.yaml
 
 
 

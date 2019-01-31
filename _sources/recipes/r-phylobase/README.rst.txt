@@ -11,7 +11,7 @@ Provides a base S4 class for comparative methods\, incorporating one or more tre
 Home          https://github.com/fmichonneau/phylobase
 Versions      0.8.4
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-phylobase/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-phylobase/meta.yaml
 
 
 

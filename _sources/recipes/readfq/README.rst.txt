@@ -11,7 +11,7 @@ A high\-speed tool to calculate reads number and total base count in FASTQ file\
 Home          https://github.com/billzt/readfq
 Versions      2015.08.30
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/readfq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//readfq/meta.yaml
 
 
 

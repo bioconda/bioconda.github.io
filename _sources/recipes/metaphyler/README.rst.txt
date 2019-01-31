@@ -11,7 +11,7 @@ Estimating Bacterial Composition from Metagenomic Sequences
 Home          http://metaphyler.cbcb.umd.edu/
 Versions      1.25
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaphyler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaphyler/meta.yaml
 
 
 

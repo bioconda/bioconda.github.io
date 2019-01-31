@@ -11,7 +11,7 @@ ctat\-lncrna uses slncky
 Home          https://github.com/NCIP/ctat-lncrna
 Versions      1.0.1, 1.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ctat-lncrna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ctat-lncrna/meta.yaml
 
 
 

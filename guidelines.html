@@ -88,8 +88,10 @@ you tried to address the problem upstream (<a class="reference internal" href="#
 <div class="section" id="stable-urls">
 <span id="stable-url"></span><h3>Stable urls<a class="headerlink" href="#stable-urls" title="Permalink to this headline">¶</a></h3>
 <p>While supported by conda, <cite>git_url</cite> and <cite>git_rev</cite> are not as stable as a git
-tarball. Ideally a github repo should have tagged releases that are accessible
-as tarballs from the “releases” section of the github repo.</p>
+tarball. Ideally, a github repo should have tagged releases that are accessible
+as tarballs from the “releases” section of the github repo. Correspondingly, a
+bitbucket repo should have have tagged versions that are accessible as tarballs
+from the “Downloads” -&gt; “tags” section of the bitbucket repo.</p>
 <p>TODO: additional info on the various R and bioconductor URLs</p>
 </div>
 <div class="section" id="hashes">
@@ -229,7 +231,7 @@ in the meta.yaml</cite>
 &lt;<a class="reference external" href="http://conda.pydata.org/docs/building/meta-yaml.html#patches">http://conda.pydata.org/docs/building/meta-yaml.html#patches</a>&gt;`_.</p>
 </div>
 <div class="section" id="r-cran">
-<h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
+<span id="id5"></span><h2>R (CRAN)<a class="headerlink" href="#r-cran" title="Permalink to this headline">¶</a></h2>
 <div class="admonition note">
 <p class="first admonition-title">Note</p>
 <p class="last">If you have conda-build 3 installed locally and use <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span></code>,
@@ -264,7 +266,8 @@ package available on CRAN and is <em>case-sensitive</em>. Either run that comman
 in the <code class="docutils literal notranslate"><span class="pre">recipes</span></code> dir or move the recipe it creates to <code class="docutils literal notranslate"><span class="pre">recipes</span></code>. The
 recipe name will have an <code class="docutils literal notranslate"><span class="pre">r-</span></code> prefix and will be converted to
 lowercase. Typically can be used without modification, though
-dependencies may also need recipes.</p>
+dependencies may also need recipes. For further details on skeleton entries, you
+can also refer to the <a class="reference external" href="https://github.com/conda/conda-build/blob/master/conda_build/skeletons/cran.py">cran skeleton template</a>.</p>
 <p>Please remove any unnecessary comments and delete the <code class="docutils literal notranslate"><span class="pre">bld.bat</span></code> file which is
 used only on Windows.</p>
 <p>If the recipe was created using <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">skeleton</span> <span class="pre">cran</span></code> or the
@@ -296,6 +299,21 @@ though dependencies may also need recipes. Recipes for dependencies with an
 <ul class="simple">
 <li>typical bioconductor recipe: <a class="reference external" href="https://github.com/bioconda/bioconda-recipes/tree/master/recipes/bioconductor-limma">bioconductor-limma/meta.yaml</a></li>
 </ul>
+</div>
+<div class="section" id="r-other-sources">
+<h2>R (other sources)<a class="headerlink" href="#r-other-sources" title="Permalink to this headline">¶</a></h2>
+<p>If a package is only provided in a public repository (e.g. at github or
+bitbucket) or via some other website, first check with the authors of the
+package, if they are planning to publish it on CRAN or Bioconductor. This is
+always preferable, as it will ensure quality control and permanent availability
+at a stable URL, and can warrant waiting for such a publication. If this is not
+planned, you should check if a tagged version is available in a public repo (see
+<a class="reference internal" href="#stable-url"><span class="std std-ref">infos on stable URLs</span></a> above) or if the authors are willing
+to generate one. Only if none of this succeeds, the risk of the source
+repository or website disappearing should be taken.</p>
+<p>Once you have obtained a <a class="reference internal" href="#stable-url"><span class="std std-ref">stable URL</span></a> to the package, follow
+the <a class="reference internal" href="#r-cran"><span class="std std-ref">guidelines for R packages on CRAN</span></a> above and adjust the URL
+and checksum accordingly.</p>
 </div>
 <div class="section" id="java">
 <h2>Java<a class="headerlink" href="#java" title="Permalink to this headline">¶</a></h2>
@@ -489,7 +507,7 @@ and <a class="reference external" href="https://github.com/bioconda/bioconda-rec
 issue.</p>
 </div>
 <div class="section" id="tests">
-<span id="id10"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
+<span id="id11"></span><h2>Tests<a class="headerlink" href="#tests" title="Permalink to this headline">¶</a></h2>
 <p>An adequate test must be included in the recipe. An “adequate” test
 depends on the recipe, but must be able to detect a successful
 installation. While many packages may ship their own test suite (unit
@@ -578,6 +596,7 @@ and others.</p>
 <li class="toctree-l3"><a class="reference internal" href="#python">Python</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#r-cran">R (CRAN)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#r-bioconductor">R (Bioconductor)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#r-other-sources">R (other sources)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#java">Java</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#perl">Perl</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#c-c">C/C++</a></li>

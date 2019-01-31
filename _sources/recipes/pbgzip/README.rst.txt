@@ -11,7 +11,7 @@ Parallel Block GZIP
 Home          https://github.com/nh13/pbgzip
 Versions      2016.08.04, 2015.10.28
 License       MIT/Expat
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbgzip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbgzip/meta.yaml
 
 
 

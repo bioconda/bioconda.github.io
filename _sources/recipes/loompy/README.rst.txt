@@ -11,7 +11,7 @@ Work with .loom files for single\-cell RNA\-seq data
 Home          https://github.com/linnarsson-lab/loompy
 Versions      2.0.16, 2.0.10, 2.0.9, 1.1.0, 1.0.2
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/loompy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//loompy/meta.yaml
 
 
 

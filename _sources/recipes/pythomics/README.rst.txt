@@ -11,7 +11,7 @@ A multi\-omic python package
 Home          https://github.com/pandeylab/pythomics
 Versions      0.3.42, 0.3.40
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pythomics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pythomics/meta.yaml
 
 
 

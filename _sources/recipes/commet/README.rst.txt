@@ -11,7 +11,7 @@ Comparing and combining multiple metagenomic datasets
 Home          https://colibread.inria.fr/software/commet/
 Versions      24.7.14
 License       GNU Affero General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/commet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//commet/meta.yaml
 
 
 

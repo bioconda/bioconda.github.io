@@ -11,7 +11,7 @@ Many\-Core Engine for Perl providing parallel processing capabilities
 Home          https://github.com/marioroy/mce-perl
 Versions      1.837, 1.836, 1.835, 1.814
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mce/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mce/meta.yaml
 
 
 

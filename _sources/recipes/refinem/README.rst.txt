@@ -11,7 +11,7 @@ A toolbox for improving population genomes.
 Home          http://pypi.python.org/pypi/refinem/
 Versions      0.0.24
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/refinem/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//refinem/meta.yaml
 
 Documentation https://github.com/dparks1134/RefineM/blob/master/README.md
 

@@ -11,7 +11,7 @@ Keep imports and functions out of your namespace
 Home          http://search.cpan.org/dist/namespace-clean
 Versions      0.27
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-namespace-clean/0.27/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-namespace-clean/0.27/meta.yaml
 
 
 

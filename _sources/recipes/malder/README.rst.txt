@@ -11,7 +11,7 @@ MALDER is a version of ALDER \(http\:\/\/groups.csail.mit.edu\/cb\/alder\/\) tha
 Home          https://github.com/joepickrell/malder
 Versions      1.0.1e83d4e
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/malder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//malder/meta.yaml
 
 
 

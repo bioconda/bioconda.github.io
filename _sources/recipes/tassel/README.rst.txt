@@ -11,7 +11,7 @@ TASSEL is a software package to evaluate traits associations\, evolutionary patt
 Home          http://www.maizegenetics.net/tassel
 Versions      5.2.40, 4.3.15, 3.0.174
 License       LGPL V2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tassel/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tassel/meta.yaml
 
 
 

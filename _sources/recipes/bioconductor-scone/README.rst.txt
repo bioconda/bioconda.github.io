@@ -11,7 +11,7 @@ SCONE is an R package for comparing and ranking the performance of different nor
 Home          https://bioconductor.org/packages/3.8/bioc/html/scone.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scone/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scone/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ PanTools is a disk\-based java application for computational pan\-genomics
 Home          https://github.com/Sheikhizadeh/pantools
 Versions      1.0
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pantools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pantools/meta.yaml
 
 
 

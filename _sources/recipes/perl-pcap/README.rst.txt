@@ -11,7 +11,7 @@ NGS reference implementations and helper code for the IGCG\/TCGA Pan\-Cancer Ana
 Home          https://github.com/ICGC-TCGA-PanCancer/PCAP-core
 Versions      1.11.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pcap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pcap/meta.yaml
 
 
 

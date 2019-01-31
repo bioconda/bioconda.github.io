@@ -11,7 +11,7 @@ Another python module to read and write the Newick format
 Home          http://www.daimi.au.dk/~mailund/newick.html
 Versions      1.3
 License       GNU General Public License v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-mailund-newick/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-mailund-newick/meta.yaml
 
 
 

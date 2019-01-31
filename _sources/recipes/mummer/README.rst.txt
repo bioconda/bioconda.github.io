@@ -11,7 +11,7 @@ MUMmer is a system for rapidly aligning entire genomes
 Home          http://mummer.sourceforge.net/
 Versions      3.23
 License       The Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mummer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mummer/meta.yaml
 
 
 

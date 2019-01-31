@@ -11,7 +11,7 @@ Perl module for calculating critical values and upper probabilities of common st
 Home          http://metacpan.org/pod/Statistics-Distributions
 Versions      1.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-distributions/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-statistics-distributions/meta.yaml
 
 
 

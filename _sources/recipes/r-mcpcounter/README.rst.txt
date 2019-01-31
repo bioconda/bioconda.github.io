@@ -11,7 +11,7 @@ Estimating tissue\-infiltrating immune and other stromal subpopulations abundanc
 Home          https://github.com/ebecht/MCPcounter
 Versions      0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mcpcounter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mcpcounter/meta.yaml
 
 
 

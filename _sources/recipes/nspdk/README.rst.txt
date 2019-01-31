@@ -11,7 +11,7 @@ Neighborhood Subgraph Pairwise Distance Kernel \(NSPDK\).
 Home          http://dtai.cs.kuleuven.be/ml/systems/nspdk
 Versions      9.2
 License       GNUv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nspdk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nspdk/meta.yaml
 
 
 

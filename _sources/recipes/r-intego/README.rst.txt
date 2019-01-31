@@ -11,7 +11,7 @@ An unsupervised gene clustering algorithm based on the integration of external b
 Home          http://marie.verbanck.free.fr/packages/InteGO/
 Versions      2.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-intego/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-intego/meta.yaml
 
 
 

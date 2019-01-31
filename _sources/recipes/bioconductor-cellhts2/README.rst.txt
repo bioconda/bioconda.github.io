@@ -11,7 +11,7 @@ This package provides tools for the analysis of high\-throughput assays that wer
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellHTS2.html
 Versions      2.44.0, 2.42.0, 2.40.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cellhts2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellhts2/meta.yaml
 
 
 

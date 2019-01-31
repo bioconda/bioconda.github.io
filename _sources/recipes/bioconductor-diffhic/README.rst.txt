@@ -11,7 +11,7 @@ Detects differential interactions across biological conditions in a Hi\-C experi
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffHic.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-diffhic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diffhic/meta.yaml
 
 
 

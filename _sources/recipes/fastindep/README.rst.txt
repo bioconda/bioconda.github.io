@@ -11,7 +11,7 @@ A fast random heuristic algorithm for identifying large sets of unrelated indivi
 Home          https://github.com/endrebak/fastindep
 Versions      1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastindep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastindep/meta.yaml
 
 
 

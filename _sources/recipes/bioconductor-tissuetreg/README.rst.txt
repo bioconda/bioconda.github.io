@@ -11,7 +11,7 @@ The package provides ready to use epigenomes \(obtained from TWGBS\) and transcr
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tissueTreg.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tissuetreg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tissuetreg/meta.yaml
 
 
 

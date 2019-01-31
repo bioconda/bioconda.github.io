@@ -11,7 +11,7 @@ Matching cell populations and building meta\-clusters and templates from a colle
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowMatch.html
 Versions      1.16.0, 1.14.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowmatch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowmatch/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides version 1.7 of the \'HTSlib\' C library for high\-throughp
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rhtslib.html
 Versions      1.12.1, 1.10.0, 1.8.0, 1.6.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rhtslib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rhtslib/meta.yaml
 
 
 

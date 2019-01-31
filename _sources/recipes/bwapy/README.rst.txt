@@ -11,7 +11,7 @@ Bwapy provides python wrappers for bwa.
 Home          https://github.com/nanoporetech/bwapy
 Versions      0.1.4
 License       Mozilla Public License Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bwapy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bwapy/meta.yaml
 
 
 

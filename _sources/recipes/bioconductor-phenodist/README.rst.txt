@@ -11,7 +11,7 @@ PhenoDist is designed for measuring phenotypic distance in image\-based high\-th
 Home          http://bioconductor.org/packages/3.7/bioc/html/phenoDist.html
 Versions      1.27.0, 1.26.0
 License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-phenodist/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phenodist/meta.yaml
 
 
 

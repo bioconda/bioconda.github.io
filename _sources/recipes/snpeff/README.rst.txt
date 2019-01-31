@@ -11,7 +11,7 @@ Genetic variant annotation and effect prediction toolbox
 Home          http://snpeff.sourceforge.net/
 Versions      4.3.1t, 4.3.1r, 4.3.1q, 4.3.1p, 4.3.1o, 4.3.1m, 4.3.1k, 4.3, 4.3k, 4.3i, 4.3g, 4.3b, 4.2, 4.1l
 License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snpeff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpeff/meta.yaml
 
 
 

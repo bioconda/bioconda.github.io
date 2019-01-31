@@ -11,7 +11,7 @@ Peptide\-MHC I binding affinity prediction
 Home          https://github.com/hammerlab/mhcflurry
 Versions      1.2.2
 License       Apache License Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mhcflurry/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mhcflurry/meta.yaml
 
 Documentation http://openvax.github.io/mhcflurry/
 

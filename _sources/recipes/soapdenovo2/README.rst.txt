@@ -11,7 +11,7 @@ SOAPdenovo is a novel short\-read assembly method that can build a de novo draft
 Home          http://soap.genomics.org.cn/soapdenovo.html
 Versions      2.40
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapdenovo2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapdenovo2/meta.yaml
 
 
 

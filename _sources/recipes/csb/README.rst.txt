@@ -11,7 +11,7 @@ Computational Structural Biology Toolbox
 Home          http://github.com/csb-toolbox
 Versions      1.2.5
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/csb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//csb/meta.yaml
 
 
 

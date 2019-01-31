@@ -11,7 +11,7 @@ Analysis pipeline for metagenomic\, microeukaryotic sequencing data.
 Home          https://bitbucket.org/dbeisser/taxmapper
 Versions      1.0.2, 1.0.1, 1.0.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/taxmapper/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//taxmapper/meta.yaml
 
 
 

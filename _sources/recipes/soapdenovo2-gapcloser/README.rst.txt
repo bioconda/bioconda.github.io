@@ -11,7 +11,7 @@ a tool named GapCloser for SOAPdenovo.
 Home          http://soap.genomics.org.cn/soapdenovo.html
 Versions      1.12
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapdenovo2-gapcloser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapdenovo2-gapcloser/meta.yaml
 
 
 

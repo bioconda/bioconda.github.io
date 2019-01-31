@@ -11,7 +11,7 @@ R package providing functions to perform geneset significance analysis over simp
 Home          https://bioconductor.org/packages/3.8/bioc/html/BAGS.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bags/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bags/meta.yaml
 
 
 

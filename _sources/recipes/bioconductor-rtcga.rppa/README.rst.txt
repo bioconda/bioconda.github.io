@@ -11,7 +11,7 @@ Package provides RPPA datasets from The Cancer Genome Atlas Project for all avai
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.RPPA.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtcga.rppa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.rppa/meta.yaml
 
 
 

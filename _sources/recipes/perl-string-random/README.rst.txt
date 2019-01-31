@@ -11,7 +11,7 @@ Perl module to generate random strings based on a pattern
 Home          http://metacpan.org/release/String-Random
 Versions      0.30
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-string-random/0.30/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-string-random/0.30/meta.yaml
 
 
 

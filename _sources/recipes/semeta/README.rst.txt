@@ -14,7 +14,7 @@ in C\+\+
 Home          http://it.hcmute.edu.vn/bioinfo/metapro/SeMeta.html
 Versions      1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/semeta/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//semeta/meta.yaml
 
 
 

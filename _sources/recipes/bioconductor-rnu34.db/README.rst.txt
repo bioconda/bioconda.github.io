@@ -11,7 +11,7 @@ Affymetrix Rat Neurobiology U34 Array annotation data \(chip rnu34\) assembled u
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rnu34.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnu34.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnu34.db/meta.yaml
 
 
 

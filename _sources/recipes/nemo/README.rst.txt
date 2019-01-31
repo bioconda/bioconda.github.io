@@ -11,7 +11,7 @@ Individual\-based forward\-time genetics simulation software
 Home          http://nemo2.sourceforge.net
 Versions      2.3.51
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nemo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nemo/meta.yaml
 
 
 

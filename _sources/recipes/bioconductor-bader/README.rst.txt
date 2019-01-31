@@ -11,7 +11,7 @@ For RNA sequencing count data\, BADER fits a Bayesian hierarchical model. The al
 Home          https://bioconductor.org/packages/3.8/bioc/html/BADER.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bader/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bader/meta.yaml
 
 
 

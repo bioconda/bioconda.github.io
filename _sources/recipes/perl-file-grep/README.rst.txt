@@ -11,7 +11,7 @@ Find matches to a pattern in a series of files and related functions
 Home          http://metacpan.org/pod/File::Grep
 Versions      0.02
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-grep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-grep/meta.yaml
 
 
 

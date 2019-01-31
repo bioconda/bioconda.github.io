@@ -11,7 +11,7 @@ Metadata information from netcdf file for Galaxy use.
 Home          https://github.com/Alanamosse/Netcdf-Metadata-Info/
 Versions      1.1.6
 License       GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/netcdf-metadata-info/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//netcdf-metadata-info/meta.yaml
 
 
 

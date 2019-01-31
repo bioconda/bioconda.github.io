@@ -11,7 +11,7 @@ Mixture of Isoforms model \(MISO\) for isoform quantitation using RNA\-Seq
 Home          http://genes.mit.edu/burgelab/miso/
 Versions      0.5.4
 License       GPL2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/misopy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//misopy/meta.yaml
 
 
 

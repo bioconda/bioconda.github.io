@@ -11,7 +11,7 @@ Create or remove directory trees
 Home          http://metacpan.org/pod/File::Path
 Versions      2.15, 2.12, 2.09
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-path/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-path/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Track the number of times subs are called
 Home          https://github.com/karenetheridge/Test-SubCalls
 Versions      1.10
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-subcalls/1.10/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-subcalls/1.10/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Cellular Fraction and Copy Numbers from Tumor Sequencing
 Home          https://github.com/mskcc/facets
 Versions      0.5.14
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-facets/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-facets/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ BLAST\+ is a new suite of BLAST tools that utilizes the NCBI C\+\+ Toolkit.
 Home          http://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastDocs
 Versions      2.7.1, 2.6.0, 2.5.0, 2.2.31, 2.2.21
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blast/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//blast/meta.yaml
 
 
 

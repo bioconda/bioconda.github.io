@@ -11,7 +11,7 @@ Affymetrix porcine annotation data \(chip porcine\) assembled using data from pu
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/porcine.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-porcine.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-porcine.db/meta.yaml
 
 
 

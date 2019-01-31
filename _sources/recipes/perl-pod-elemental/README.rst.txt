@@ -11,7 +11,7 @@ work with nestable Pod elements
 Home          https://github.com/rjbs/Pod-Elemental
 Versions      0.103004
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-elemental/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-elemental/meta.yaml
 
 
 

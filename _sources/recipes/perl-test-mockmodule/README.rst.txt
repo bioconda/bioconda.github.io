@@ -11,7 +11,7 @@ Override subroutines in a module for unit testing
 Home          https://github.com/geofffranks/test-mockmodule
 Versions      0.13
 License       gpl_3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-mockmodule/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-mockmodule/meta.yaml
 
 
 

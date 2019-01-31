@@ -11,7 +11,7 @@ Visualize your data in Scalable Vector Graphics \(SVG\) format.
 Home          http://metacpan.org/pod/SVG-Graph
 Versions      0.02
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-svg-graph/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-svg-graph/meta.yaml
 
 
 

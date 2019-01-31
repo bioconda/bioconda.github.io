@@ -11,7 +11,7 @@ Tadarida\-D \(Toolbox for Animal Detection on Acoustic Recordings \- Detection a
 Home          https://github.com/YvesBas/Tadarida-D
 Versions      1.03, 1.02, 1.01, 1.0
 License       LGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tadarida-d/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tadarida-d/meta.yaml
 
 
 

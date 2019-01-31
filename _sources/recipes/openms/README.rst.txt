@@ -11,7 +11,7 @@ OpenMS is an open\-source software C\+\+ library for LC\-MS data management and 
 Home          https://github.com/OpenMS/OpenMS
 Versions      2.4.0, 2.3.0, 2.2.0, 2.1.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/openms/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openms/meta.yaml
 
 
 

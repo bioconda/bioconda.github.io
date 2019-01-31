@@ -11,7 +11,7 @@ Compositional data analysis tools and visualizations
 Home          https://biocore.github.io/gneiss/
 Versions      0.4.4
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gneiss/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gneiss/meta.yaml
 
 
 

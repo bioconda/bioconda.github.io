@@ -11,7 +11,7 @@ Tool to select representative sequences from a multiple sequence alignment
 Home          https://github.com/eggzilla/SelectSequencesFromMSA
 Versions      1.0.5, 1.0.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/selectsequencesfrommsa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//selectsequencesfrommsa/meta.yaml
 
 
 

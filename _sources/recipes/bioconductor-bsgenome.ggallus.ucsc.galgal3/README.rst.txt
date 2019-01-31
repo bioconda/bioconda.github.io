@@ -11,7 +11,7 @@ Full genome sequences for Gallus gallus \(Chicken\) as provided by UCSC \(galGal
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ggallus.UCSC.galGal3.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.ggallus.ucsc.galgal3/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.ggallus.ucsc.galgal3/meta.yaml
 
 
 

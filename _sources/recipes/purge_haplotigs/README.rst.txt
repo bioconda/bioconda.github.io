@@ -11,7 +11,7 @@ Pipeline to help with curating heterozygous diploid genome assemblies.
 Home          https://bitbucket.org/mroachawri/purge_haplotigs/
 Versions      1.0.4, 1.0.3, 1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/purge_haplotigs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//purge_haplotigs/meta.yaml
 
 
 

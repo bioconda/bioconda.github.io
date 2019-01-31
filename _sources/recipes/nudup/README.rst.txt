@@ -11,7 +11,7 @@ Marks\/removes duplicate molecules based on the molecular tagging technology use
 Home          http://nugentechnologies.github.io/nudup/
 Versions      2.3.3, 2.3.2, 2.3.1, 2.2_post2016104
 License       GNU Lesser General Public License 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nudup/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nudup/meta.yaml
 
 
 

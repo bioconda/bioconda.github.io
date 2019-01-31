@@ -11,7 +11,7 @@ A Data Structure for Pangenomes \-\- Identification of Singletons and Core Regio
 Home          https://bitbucket.org/CorinnaErnst/pancake
 Versions      1.1.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pancake/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pancake/meta.yaml
 
 
 

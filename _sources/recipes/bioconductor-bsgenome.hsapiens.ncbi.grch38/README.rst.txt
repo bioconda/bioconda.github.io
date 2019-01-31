@@ -11,7 +11,7 @@ Full genome sequences for Homo sapiens \(Human\) as provided by NCBI \(GRCh38\, 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Hsapiens.NCBI.GRCh38.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.hsapiens.ncbi.grch38/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.hsapiens.ncbi.grch38/meta.yaml
 
 
 

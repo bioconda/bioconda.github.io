@@ -11,7 +11,7 @@ Nanonet provides recurrent neural network basecalling for Oxford Nanopore MinION
 Home          https://github.com/nanoporetech/nanonet
 Versions      2.0.0
 License       MPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nanonet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanonet/meta.yaml
 
 
 

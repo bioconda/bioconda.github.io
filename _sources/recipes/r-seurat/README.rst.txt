@@ -11,7 +11,7 @@ A toolkit for quality control\, analysis\, and exploration of single cell RNA se
 Home          http://www.satijalab.org/seurat, https://github.com/satijalab/seurat
 Versions      2.3.4, 2.3.1, 2.2.0, 1.4.0.16
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-seurat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-seurat/meta.yaml
 
 
 

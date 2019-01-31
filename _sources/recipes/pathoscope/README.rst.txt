@@ -11,7 +11,7 @@ Species identification and strain attribution with unassembled sequencing data
 Home          https://github.com/PathoScope/PathoScope
 Versions      2.0.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pathoscope/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pathoscope/meta.yaml
 
 
 

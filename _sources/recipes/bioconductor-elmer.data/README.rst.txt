@@ -11,7 +11,7 @@ Supporting data for the ELMER package. It includes\: \- elmer.data.example.promo
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ELMER.data.html
 Versions      2.4.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-elmer.data/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-elmer.data/meta.yaml
 
 
 

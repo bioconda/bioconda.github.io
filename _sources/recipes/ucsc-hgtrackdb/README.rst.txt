@@ -11,7 +11,7 @@ Create trackDb table from text files.
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-hgtrackdb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-hgtrackdb/meta.yaml
 
 
 

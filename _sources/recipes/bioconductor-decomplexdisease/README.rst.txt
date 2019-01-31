@@ -11,7 +11,7 @@ It is designed to find the differential expressed genes \(DEGs\) for complex dis
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEComplexDisease.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-decomplexdisease/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-decomplexdisease/meta.yaml
 
 
 

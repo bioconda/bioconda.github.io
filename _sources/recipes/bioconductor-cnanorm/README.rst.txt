@@ -11,7 +11,7 @@ Performs ratio\, GC content correction and normalization of data obtained using 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNAnorm.html
 Versions      1.26.0, 1.24.0, 1.22.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cnanorm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnanorm/meta.yaml
 
 
 

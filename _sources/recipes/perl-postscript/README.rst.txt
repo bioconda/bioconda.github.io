@@ -11,7 +11,7 @@ helper module for PostScript\:\:TextBlock
 Home          http://metacpan.org/pod/PostScript
 Versions      0.06
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-postscript/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-postscript/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The ProPhex k\-mer index.
 Home          https://github.com/prophyle/prophex
 Versions      0.1.1, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/prophex/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prophex/meta.yaml
 
 
 

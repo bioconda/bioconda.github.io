@@ -11,7 +11,7 @@ Quantitative microbiome analysis
 Home          The package home page
 Versions      0.1.2
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metaquant/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metaquant/meta.yaml
 
 
 Development   https://github.com/caleb-easterly/metaquant

@@ -11,7 +11,7 @@ Base class for Sys\:\:Info
 Home          http://metacpan.org/pod/Sys::Info::Base
 Versions      0.7807, 0.7804
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sys-info-base/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sys-info-base/meta.yaml
 
 
 

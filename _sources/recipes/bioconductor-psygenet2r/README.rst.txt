@@ -11,7 +11,7 @@ Package to retrieve data from PsyGeNET database \(www.psygenet.org\) and to perf
 Home          https://bioconductor.org/packages/3.8/bioc/html/psygenet2r.html
 Versions      1.12.0, 1.10.0
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-psygenet2r/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-psygenet2r/meta.yaml
 
 
 

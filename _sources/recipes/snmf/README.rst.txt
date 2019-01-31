@@ -11,7 +11,7 @@ Fast and efficient program for estimating individual admixture coefficients base
 Home          http://membres-timc.imag.fr/Olivier.Francois/snmf/index.htm
 Versions      1.2
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snmf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snmf/meta.yaml
 
 
 

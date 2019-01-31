@@ -11,7 +11,7 @@ Viral quasispecies assembly via maximal clique finding. A method to reconstruct 
 Home          https://github.com/cbg-ethz/haploclique
 Versions      1.3.1
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/haploclique/1.3.1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//haploclique/1.3.1/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ topGO package provides tools for testing GO terms while accounting for the topol
 Home          https://bioconductor.org/packages/3.8/bioc/html/topGO.html
 Versions      2.32.0, 2.30.0, 2.28.0, 2.24.0, 2.22.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-topgo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-topgo/meta.yaml
 
 
 

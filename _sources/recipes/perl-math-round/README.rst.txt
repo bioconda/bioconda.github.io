@@ -11,7 +11,7 @@ Perl extension for rounding numbers
 Home          http://metacpan.org/pod/Math-Round
 Versions      0.07
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-round/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-math-round/meta.yaml
 
 
 

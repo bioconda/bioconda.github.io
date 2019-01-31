@@ -11,7 +11,7 @@ Perl extension for filesystem disk space information.
 Home          http://metacpan.org/pod/Filesys-Df
 Versions      0.92
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-filesys-df/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-filesys-df/meta.yaml
 
 
 

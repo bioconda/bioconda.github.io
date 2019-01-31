@@ -11,7 +11,7 @@ The aims of SpidermiR are \: i\) facilitate the network open\-access data retrie
 Home          https://bioconductor.org/packages/3.8/bioc/html/SpidermiR.html
 Versions      1.10.0, 1.8.2
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-spidermir/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spidermir/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Compare XML in perl tests
 Home          http://metacpan.org/pod/Test-XML
 Versions      0.08
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-xml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-xml/meta.yaml
 
 
 

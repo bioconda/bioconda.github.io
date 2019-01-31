@@ -11,7 +11,7 @@ Extend File\:\:ShareDir to Local Libraries
 Home          https://github.com/ingydotnet/file-share-pm
 Versions      0.25
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-share/0.25/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-share/0.25/meta.yaml
 
 
 

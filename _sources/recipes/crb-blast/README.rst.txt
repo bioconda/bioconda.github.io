@@ -11,7 +11,7 @@ Conditional Reciprocal Best BLAST \- high confidence ortholog assignment.
 Home          https://github.com/cboursnell/crb-blast
 Versions      0.6.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/crb-blast/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//crb-blast/meta.yaml
 
 
 

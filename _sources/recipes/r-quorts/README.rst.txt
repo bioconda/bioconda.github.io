@@ -11,7 +11,7 @@ The QoRTs software package is a fast\, efficient\, and portable multifunction to
 Home          https://github.com/hartleys/QoRTs
 Versions      1.3.0
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-quorts/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-quorts/meta.yaml
 
 
 

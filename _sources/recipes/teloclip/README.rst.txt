@@ -11,7 +11,7 @@ A tool for the recovery of unassembled telomeres from soft\-clipped read alignme
 Home          https://github.com/Adamtaranto/teloclip
 Versions      0.0.3, 0.0.2
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/teloclip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//teloclip/meta.yaml
 
 
 

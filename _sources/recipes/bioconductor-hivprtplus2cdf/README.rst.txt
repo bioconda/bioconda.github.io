@@ -11,7 +11,7 @@ A package containing an environment representing the HIV PRTPlus 2.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hivprtplus2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hivprtplus2cdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hivprtplus2cdf/meta.yaml
 
 
 

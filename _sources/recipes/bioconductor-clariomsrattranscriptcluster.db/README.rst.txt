@@ -11,7 +11,7 @@ Affymetrix clariomsrat annotation data \(chip clariomsrattranscriptcluster\) ass
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/clariomsrattranscriptcluster.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-clariomsrattranscriptcluster.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clariomsrattranscriptcluster.db/meta.yaml
 
 
 

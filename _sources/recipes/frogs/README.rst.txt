@@ -11,7 +11,7 @@ FROGS is a workflow designed to produce an OTUs count matrix from high depth seq
 Home          https://github.com/geraldinepascal/FROGS
 Versions      2.0.1
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/frogs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//frogs/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MGLEX \- MetaGenome Likelihood EXtractor
 Home          https://github.com/fungs/mglex
 Versions      0.2.1, 0.2.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mglex/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mglex/meta.yaml
 
 
 

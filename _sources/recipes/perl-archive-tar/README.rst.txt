@@ -11,7 +11,7 @@ Manipulates TAR archives
 Home          http://metacpan.org/pod/Archive::Tar
 Versions      2.32, 2.18
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-archive-tar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-archive-tar/meta.yaml
 
 
 

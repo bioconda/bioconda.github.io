@@ -11,7 +11,7 @@ Implements classes and methods for large\-scale SNP association studies
 Home          https://bioconductor.org/packages/3.8/bioc/html/chopsticks.html
 Versions      1.46.0, 1.42.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chopsticks/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chopsticks/meta.yaml
 
 
 

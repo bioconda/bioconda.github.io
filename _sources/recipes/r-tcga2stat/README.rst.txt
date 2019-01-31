@@ -11,7 +11,7 @@ Automatically downloads and processes TCGA genomics and clinical data into a for
 Home          http://www.liuzlab.org/TCGA2STAT/
 Versions      1.2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-tcga2stat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-tcga2stat/meta.yaml
 
 
 

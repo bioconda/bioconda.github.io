@@ -11,7 +11,7 @@ Affymetrix mogene21 annotation data \(chip mogene21sttranscriptcluster\) assembl
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mogene21sttranscriptcluster.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mogene21sttranscriptcluster.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mogene21sttranscriptcluster.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Kaptive reports information about capsular \(K\) loci found in genome assemblies
 Home          https://github.com/katholt/Kaptive
 Versions      0.5.1, 0.3, 0.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kaptive/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kaptive/meta.yaml
 
 
 

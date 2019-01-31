@@ -11,7 +11,7 @@ The package provides functions for calculation of linear\-quadratic cell surviva
 Home          https://bioconductor.org/packages/3.8/bioc/html/CFAssay.html
 Versions      1.14.0, 1.12.0, 1.10.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cfassay/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cfassay/meta.yaml
 
 
 

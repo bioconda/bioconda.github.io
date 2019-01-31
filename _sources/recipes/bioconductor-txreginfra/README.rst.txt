@@ -11,7 +11,7 @@ This package provides interfaces to genomic metadata employed in regulatory netw
 Home          https://bioconductor.org/packages/3.8/bioc/html/TxRegInfra.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txreginfra/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txreginfra/meta.yaml
 
 
 

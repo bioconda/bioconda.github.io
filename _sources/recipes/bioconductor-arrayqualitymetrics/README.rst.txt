@@ -11,7 +11,7 @@ This package generates microarray quality metrics reports for data in Bioconduct
 Home          https://bioconductor.org/packages/3.8/bioc/html/arrayQualityMetrics.html
 Versions      3.36.0, 3.34.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-arrayqualitymetrics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-arrayqualitymetrics/meta.yaml
 
 
 

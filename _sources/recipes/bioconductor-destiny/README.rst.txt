@@ -11,7 +11,7 @@ Create and plot diffusion maps.
 Home          https://bioconductor.org/packages/3.8/bioc/html/destiny.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-destiny/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-destiny/meta.yaml
 
 
 

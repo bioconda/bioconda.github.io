@@ -11,7 +11,7 @@ The package allows for predicting whether a coiled coil sequence \(amino acid se
 Home          https://bioconductor.org/packages/3.8/bioc/html/procoil.html
 Versions      2.8.0, 2.6.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-procoil/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-procoil/meta.yaml
 
 
 

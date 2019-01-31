@@ -11,7 +11,7 @@ Perl YAML Serialization using XS and libyaml
 Home          https://metacpan.org/release/YAML-LibYAML
 Versions      0.66, 0.63
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-yaml-libyaml/0.63/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-yaml-libyaml/0.63/meta.yaml
 
 
 

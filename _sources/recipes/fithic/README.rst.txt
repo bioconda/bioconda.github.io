@@ -11,7 +11,7 @@ Fit\-Hi\-C is a tool for assigning statistical confidence estimates to chromosom
 Home          https://github.com/ay-lab/fithic/tree/master
 Versions      2.0.6, 2.0.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fithic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fithic/meta.yaml
 
 
 

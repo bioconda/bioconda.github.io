@@ -11,7 +11,7 @@ A data package containing summarized Illumina 450k array data on 2800 samples an
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MethylAidData.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-methylaiddata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methylaiddata/meta.yaml
 
 
 

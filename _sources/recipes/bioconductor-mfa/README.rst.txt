@@ -11,7 +11,7 @@ MFA models genomic bifurcations using a Bayesian hierarchical mixture of factor 
 Home          https://bioconductor.org/packages/3.8/bioc/html/mfa.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mfa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mfa/meta.yaml
 
 
 

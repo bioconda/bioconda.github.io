@@ -11,7 +11,7 @@ MaxEntScan is based on the approach for modeling the sequences of short sequence
 Home          http://genes.mit.edu/burgelab/maxent/Xmaxentscan_scoreseq.html
 Versions      0_2004.04.21
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/maxentscan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//maxentscan/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ locate and a \'use lib\' or export directories based on \$FindBin\:\:Bin.
 Home          http://metacpan.org/pod/FindBin::libs
 Versions      2.017008
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-findbin-libs/2.017008/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-findbin-libs/2.017008/meta.yaml
 
 
 

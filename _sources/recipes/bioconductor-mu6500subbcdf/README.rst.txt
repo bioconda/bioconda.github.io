@@ -11,7 +11,7 @@ A package containing an environment representing the Mu6500subB.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu6500subbcdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mu6500subbcdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu6500subbcdf/meta.yaml
 
 
 

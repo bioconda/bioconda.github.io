@@ -11,7 +11,7 @@ Normalized gene expression data from rheumatic diseases from study published by 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/rheumaticConditionWOLLBOLD.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rheumaticconditionwollbold/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rheumaticconditionwollbold/meta.yaml
 
 
 

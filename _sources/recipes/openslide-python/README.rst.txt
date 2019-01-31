@@ -11,7 +11,7 @@ Python interface to OpenSlide
 Home          http://openslide.org/
 Versions      1.1.1
 License       GNU Lesser General Public v2 (LGPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/openslide-python/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//openslide-python/meta.yaml
 
 
 

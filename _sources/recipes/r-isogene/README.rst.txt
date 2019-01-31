@@ -11,7 +11,7 @@ Offers framework for testing for monotonic relationship between gene expression 
 Home          https://CRAN.R-project.org/package=IsoGene
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-isogene/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-isogene/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Organise your Moose types in libraries
 Home          https://github.com/moose/MooseX-Types
 Versions      0.50, 0.46
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-types/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-types/meta.yaml
 
 
 

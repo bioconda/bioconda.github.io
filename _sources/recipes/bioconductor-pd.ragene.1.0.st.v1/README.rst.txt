@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix RaGene\-1\_0\-st\-v1
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ragene.1.0.st.v1.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.ragene.1.0.st.v1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.ragene.1.0.st.v1/meta.yaml
 
 
 

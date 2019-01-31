@@ -11,7 +11,7 @@ This packages aims for easy accessible application of classifiers which have bee
 Home          https://bioconductor.org/packages/3.8/bioc/html/geneClassifiers.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneclassifiers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneclassifiers/meta.yaml
 
 
 

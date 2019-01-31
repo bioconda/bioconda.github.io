@@ -11,7 +11,7 @@ In putative Transcription Factor Binding Sites \(TFBSs\)  identification from se
 Home          https://github.com/ge11232002/TFMPvalue
 Versions      0.0.6
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-tfmpvalue/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-tfmpvalue/meta.yaml
 
 
 

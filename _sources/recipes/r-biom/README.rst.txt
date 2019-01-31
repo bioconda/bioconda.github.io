@@ -11,7 +11,7 @@ This is an R package for interfacing with the BIOM format.
 Home          https://github.com/joey711/biom/, http://biom-format.org/
 Versions      0.3.12
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-biom/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-biom/meta.yaml
 
 
 

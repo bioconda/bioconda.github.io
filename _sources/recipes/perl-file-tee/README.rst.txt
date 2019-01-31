@@ -11,7 +11,7 @@ replicate data sent to a Perl stream
 Home          http://metacpan.org/pod/File::Tee
 Versions      0.07
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-tee/0.07/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-tee/0.07/meta.yaml
 
 
 

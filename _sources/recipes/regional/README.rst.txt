@@ -11,7 +11,7 @@ simple manipulation and display of spatial regions in python
 Home          https://github.com/freeman-lab/regional
 Versions      1.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/regional/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//regional/meta.yaml
 
 
 

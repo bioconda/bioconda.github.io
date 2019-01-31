@@ -11,7 +11,7 @@ Stochastic Statistical Analysis of Qualitative Traits
 Home          http://www.genetics.ucla.edu/software/
 Versions      2.91
 License       INDIVIDUAL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/simwalk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//simwalk/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Dispatch your trivially parallizable jobs with sharedmem.
 Home          http://github.com/rainwoodman/sharedmem
 Versions      0.3.5
 License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sharedmem/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sharedmem/meta.yaml
 
 
 

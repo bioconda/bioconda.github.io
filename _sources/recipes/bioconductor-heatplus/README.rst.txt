@@ -11,7 +11,7 @@ Display a rectangular heatmap \(intensity plot\) of a data matrix. By default\, 
 Home          https://bioconductor.org/packages/3.8/bioc/html/Heatplus.html
 Versions      2.26.0, 2.24.0, 2.22.0, 2.20.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-heatplus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-heatplus/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Produces logo plots highlighting both enrichment and depletion of characters\, a
 Home          https://bioconductor.org/packages/3.8/bioc/html/Logolas.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-logolas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-logolas/meta.yaml
 
 
 

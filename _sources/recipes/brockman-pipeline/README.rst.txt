@@ -11,7 +11,7 @@ Brockman Representation Of Chromatin by K\-mers in Mark\-Associated Nucleotides
 Home          https://github.com/Carldeboer/Brockman
 Versions      1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/brockman-pipeline/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//brockman-pipeline/meta.yaml
 
 
 

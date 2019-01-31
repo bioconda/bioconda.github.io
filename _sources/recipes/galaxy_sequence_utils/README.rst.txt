@@ -11,7 +11,7 @@ Sequence Utilities from the Galaxy project
 Home          https://github.com/galaxyproject/sequence_utils
 Versions      1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.1, 1.0.0
 License       Academic Free License version 3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/galaxy_sequence_utils/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//galaxy_sequence_utils/meta.yaml
 
 
 

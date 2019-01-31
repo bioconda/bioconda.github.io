@@ -11,7 +11,7 @@ Variable selection methods are provided for several classification methods\: the
 Home          https://CRAN.R-project.org/package=BioMark
 Versions      0.4.5
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-biomark/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-biomark/meta.yaml
 
 
 

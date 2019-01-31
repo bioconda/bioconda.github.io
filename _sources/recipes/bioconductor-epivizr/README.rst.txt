@@ -11,7 +11,7 @@ This package provides connections to the epiviz web app \(http\:\/\/epiviz.cbcb.
 Home          https://bioconductor.org/packages/3.8/bioc/html/epivizr.html
 Versions      2.10.0, 2.8.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-epivizr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-epivizr/meta.yaml
 
 
 

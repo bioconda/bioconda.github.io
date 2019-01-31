@@ -11,7 +11,7 @@ StereoGene\: Rapid Estimation of Genomewide Correlation of Continuous or Interva
 Home          http://stereogene.bioinf.fbb.msu.ru
 Versions      2.20
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/stereogene/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stereogene/meta.yaml
 
 
 

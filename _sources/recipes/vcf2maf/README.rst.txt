@@ -11,7 +11,7 @@ Convert a VCF into a MAF where each variant is annotated to only one of all poss
 Home          https://github.com/mskcc/vcf2maf
 Versions      1.6.16, 1.6.15, 1.6.14, 1.6.12, 1.6.8
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vcf2maf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcf2maf/meta.yaml
 
 
 

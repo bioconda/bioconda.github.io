@@ -11,7 +11,7 @@ Aligning Reads by Expectation\-Maximization.\\nBased on MACS \(Model Based Analy
 Home          http://cbcl.ics.uci.edu/AREM
 Versions      1.0.1
 License       Artistic License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/arem/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//arem/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ computationally efficient analysis of eQTL\, mQTL\, dsQTL\, etc.
 Home          https://bioconductor.org/packages/3.8/bioc/html/gQTLstats.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gqtlstats/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gqtlstats/meta.yaml
 
 
 

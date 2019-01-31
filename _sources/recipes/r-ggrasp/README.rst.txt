@@ -11,7 +11,7 @@ Given a group of genomes and their relationship with each other\, the package cl
 Home          https://CRAN.R-project.org/package=ggrasp
 Versions      1.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ggrasp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ggrasp/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A python module for the Clustergrammer visualization project
 Home          https://github.com/MaayanLab/clustergrammer-py
 Versions      1.13.5
 License       MIT license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clustergrammer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clustergrammer/meta.yaml
 
 
 

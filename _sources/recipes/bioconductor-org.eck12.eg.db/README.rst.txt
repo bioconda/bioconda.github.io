@@ -11,7 +11,7 @@ Genome wide annotation for E coli strain K12\, primarily based on mapping using 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/org.EcK12.eg.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-org.eck12.eg.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-org.eck12.eg.db/meta.yaml
 
 
 

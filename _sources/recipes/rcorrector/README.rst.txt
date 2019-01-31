@@ -11,7 +11,7 @@ Rcorrector\(RNA\-seq error CORRECTOR\) is a kmer\-based error correction method 
 Home          https://github.com/mourisl/Rcorrector/
 Versions      1.0.3.1, 1.0.3, 1.0.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rcorrector/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rcorrector/meta.yaml
 
 
 

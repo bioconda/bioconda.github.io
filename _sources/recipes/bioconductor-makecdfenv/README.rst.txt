@@ -11,7 +11,7 @@ This package has two functions. One reads a Affymetrix chip description file \(C
 Home          https://bioconductor.org/packages/3.8/bioc/html/makecdfenv.html
 Versions      1.56.0, 1.54.0, 1.52.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-makecdfenv/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-makecdfenv/meta.yaml
 
 
 

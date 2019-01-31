@@ -11,7 +11,7 @@ Methods for aggregating ranked lists\, especially lists of genes. It implements 
 Home          https://CRAN.R-project.org/package=RobustRankAggreg
 Versions      1.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-robustrankaggreg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-robustrankaggreg/meta.yaml
 
 
 

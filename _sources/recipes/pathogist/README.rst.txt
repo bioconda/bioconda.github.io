@@ -11,7 +11,7 @@ Calibrated multi\-criterion genomic analysis for public health microbiology
 Home          https://github.com/WGS-TB/PathOGiST
 Versions      0.2.3
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pathogist/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pathogist/meta.yaml
 
 
 

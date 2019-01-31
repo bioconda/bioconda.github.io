@@ -11,7 +11,7 @@ The DKFZ bias filter flags SNVs that appear to be biased based on the variant re
 Home          https://github.com/eilslabs/DKFZBiasFilter
 Versions      1.2.3a
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dkfz-bias-filter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dkfz-bias-filter/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A phase informative read \(PIR\) is a sequencing read that span at least 2 heter
 Home          https://mathgen.stats.ox.ac.uk/genetics_software/shapeit/shapeit.html
 Versions      1.0
 License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/extractpirs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//extractpirs/meta.yaml
 
 
 

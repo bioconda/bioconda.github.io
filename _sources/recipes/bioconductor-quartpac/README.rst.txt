@@ -11,7 +11,7 @@ Identifies clustering of somatic mutations in proteins over the entire quaternar
 Home          https://bioconductor.org/packages/3.8/bioc/html/QuartPAC.html
 Versions      1.12.1, 1.10.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-quartpac/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-quartpac/meta.yaml
 
 
 

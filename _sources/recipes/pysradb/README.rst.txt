@@ -11,7 +11,7 @@ Python package for interacting with SRAdb and downloading datasets from SRA
 Home          https://github.com/saketkc/pysradb
 Versions      0.6.0, 0.4.2, 0.4.0, 0.3.0, 0.2.2
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pysradb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysradb/meta.yaml
 
 Documentation https://saketkc.github.io/pysradb
 

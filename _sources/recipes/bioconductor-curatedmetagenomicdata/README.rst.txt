@@ -11,7 +11,7 @@ The curatedMetagenomicData package provides microbial taxonomic\, functional\, a
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedMetagenomicData.html
 Versions      1.10.2, 1.8.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-curatedmetagenomicdata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-curatedmetagenomicdata/meta.yaml
 
 
 

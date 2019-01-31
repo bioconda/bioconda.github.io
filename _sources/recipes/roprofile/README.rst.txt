@@ -11,7 +11,7 @@ Generation of pan\-genome profile files using Roary output.
 Home          https://github.com/cimendes/roProfile
 Versions      1.4.5
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/roprofile/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//roprofile/meta.yaml
 
 
 

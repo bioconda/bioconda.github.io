@@ -11,7 +11,7 @@ The topdownr package allows automatic and systemic investigation of fragment con
 Home          https://bioconductor.org/packages/3.8/bioc/html/topdownr.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-topdownr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-topdownr/meta.yaml
 
 
 

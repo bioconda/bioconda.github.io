@@ -11,7 +11,7 @@ BFC is a standalone high\-performance tool for correcting sequencing errors from
 Home          https://github.com/lh3/bfc
 Versions      r181
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bfc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bfc/meta.yaml
 
 
 

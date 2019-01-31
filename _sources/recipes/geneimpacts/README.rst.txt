@@ -11,7 +11,7 @@ prioritize effects of variant annotations from VEP\, SnpEff\, et al.
 Home          https://github.com/brentp/geneimpacts
 Versions      0.3.6, 0.3.5, 0.3.4, 0.3.3, 0.3.1, 0.3.0a0, 0.2.0, 0.1.4, 0.1.3, 0.1.2, 0.1.1, 0.1.0, 0.0.9, 0.0.8, 0.0.7, 0.0.5, 0.0.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/geneimpacts/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//geneimpacts/meta.yaml
 
 
 

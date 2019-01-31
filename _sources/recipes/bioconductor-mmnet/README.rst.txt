@@ -11,7 +11,7 @@ This package gives the implementations microbiome metabolic network constructing
 Home          http://bioconductor.org/packages/3.5/bioc/html/mmnet.html
 Versions      1.13.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mmnet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mmnet/meta.yaml
 
 
 

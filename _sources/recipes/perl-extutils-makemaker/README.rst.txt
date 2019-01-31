@@ -11,7 +11,7 @@ Create a module Makefile
 Home          https://metacpan.org/release/ExtUtils-MakeMaker
 Versions      7.34, 7.24, 6.66
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-makemaker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-makemaker/meta.yaml
 
 
 

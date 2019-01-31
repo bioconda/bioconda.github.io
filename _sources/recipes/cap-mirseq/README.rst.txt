@@ -11,7 +11,7 @@ A comprehensive analysis pipeline for deep microRNA sequencing
 Home          http://bioinformaticstools.mayo.edu/research/cap-mirseq/
 Versions      version
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cap-mirseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cap-mirseq/meta.yaml
 
 
 

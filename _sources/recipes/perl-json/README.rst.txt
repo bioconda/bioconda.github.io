@@ -11,7 +11,7 @@ JSON \(JavaScript Object Notation\) encoder\/decoder
 Home          http://metacpan.org/pod/JSON
 Versions      4.00, 2.97001, 2.90
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-json/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json/meta.yaml
 
 
 

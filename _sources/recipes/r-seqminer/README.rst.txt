@@ -11,7 +11,7 @@ Integrate sequencing data \(Variant call format\, e.g. VCF or BCF\) or meta\-ana
 Home          http://seqminer.genomic.codes
 Versions      6.1, 6.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-seqminer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-seqminer/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package contains a set of processing and plotting methods for performing co
 Home          https://bioconductor.org/packages/3.8/bioc/html/conumee.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-conumee/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-conumee/meta.yaml
 
 
 

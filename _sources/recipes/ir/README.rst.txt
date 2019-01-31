@@ -11,7 +11,7 @@ Program for Calculating the Repetitiveness of DNA Sequences
 Home          http://guanine.evolbio.mpg.de/cgi-bin/ir/ir.cgi.pl
 Versions      2.8.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ir/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ir/meta.yaml
 
 
 

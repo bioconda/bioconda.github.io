@@ -11,7 +11,7 @@ Calls copy number variants \(CNVs\) from targeted sequence data\, typically exom
 Home          https://CRAN.R-project.org/package=ExomeDepth
 Versions      1.1.10
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-exomedepth/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-exomedepth/meta.yaml
 
 
 

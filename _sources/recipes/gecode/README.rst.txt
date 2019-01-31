@@ -11,7 +11,7 @@ Generic constraint development environment
 Home          http://www.gecode.org/
 Versions      5.1.0, 5.0.0, 4.4.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gecode/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gecode/meta.yaml
 
 
 

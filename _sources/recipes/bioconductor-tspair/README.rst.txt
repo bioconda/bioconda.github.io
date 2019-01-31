@@ -11,7 +11,7 @@ These functions calculate the pair of genes that show the maximum difference in 
 Home          https://bioconductor.org/packages/3.8/bioc/html/tspair.html
 Versions      1.38.0, 1.36.0, 1.34.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tspair/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tspair/meta.yaml
 
 
 

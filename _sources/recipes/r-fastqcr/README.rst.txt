@@ -11,7 +11,7 @@ r-fastqcr
 Home          http://www.sthda.com/english/rpkgs/fastqcr/
 Versions      0.1.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-fastqcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-fastqcr/meta.yaml
 
 
 

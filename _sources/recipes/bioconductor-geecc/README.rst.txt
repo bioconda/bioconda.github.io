@@ -11,7 +11,7 @@ Use log\-linear models to perform hypergeometric and chi\-squared tests for gene
 Home          https://bioconductor.org/packages/3.8/bioc/html/geecc.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geecc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geecc/meta.yaml
 
 
 

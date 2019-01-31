@@ -11,7 +11,7 @@ Statistical tools for building random mutagenesis libraries for prokaryotes. The
 Home          https://bioconductor.org/packages/3.8/bioc/html/occugene.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-occugene/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-occugene/meta.yaml
 
 
 

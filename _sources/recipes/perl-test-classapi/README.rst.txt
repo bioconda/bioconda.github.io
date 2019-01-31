@@ -11,7 +11,7 @@ Provides basic first\-pass API testing for large class trees
 Home          https://github.com/karenetheridge/Test-ClassAPI
 Versions      1.07, 1.06
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-classapi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-classapi/meta.yaml
 
 
 

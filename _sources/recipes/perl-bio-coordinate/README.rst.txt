@@ -11,7 +11,7 @@ Methods for dealing with genomic coordinates.
 Home          https://metacpan.org/release/Bio-Coordinate
 Versions      1.007001
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-coordinate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-coordinate/meta.yaml
 
 
 

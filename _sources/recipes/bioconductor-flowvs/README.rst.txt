@@ -11,7 +11,7 @@ Per\-channel variance stabilization from a collection of flow cytometry samples 
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowVS.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowvs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowvs/meta.yaml
 
 
 

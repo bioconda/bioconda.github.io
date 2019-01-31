@@ -11,7 +11,7 @@ SortMeRNA is a biological sequence analysis tool for filtering\, mapping and OTU
 Home          http://bioinfo.lifl.fr/RNA/sortmerna
 Versions      2.1b, 2.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sortmerna/2.1b/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sortmerna/2.1b/meta.yaml
 
 
 

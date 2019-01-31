@@ -11,7 +11,7 @@ GenomeBaser manages complete \(bacterial\) genomes from NCBI
 Home          http://github.com/mscook/GenomeBaser
 Versions      0.1.2
 License       ECL 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomebaser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genomebaser/meta.yaml
 
 
 

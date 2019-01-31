@@ -11,7 +11,7 @@ simple\, intuitive interface to the fork\(\) system call
 Home          http://github.com/ap/Proc-Fork
 Versions      0.806, 0.804
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-proc-fork/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-proc-fork/meta.yaml
 
 
 

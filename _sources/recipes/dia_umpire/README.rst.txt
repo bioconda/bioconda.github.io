@@ -14,7 +14,7 @@ using DIA data\, and also incorporates targeted extraction to reduce the number 
 Home          https://github.com/Nesvilab/DIA-Umpire
 Versions      2.1.3, 2.1.2
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dia_umpire/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dia_umpire/meta.yaml
 
 
 

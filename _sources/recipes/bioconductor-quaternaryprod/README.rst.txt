@@ -11,7 +11,7 @@ QuaternaryProd is an R package that performs causal reasoning on biological netw
 Home          https://bioconductor.org/packages/3.8/bioc/html/QuaternaryProd.html
 Versions      1.14.0, 1.6.0
 License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-quaternaryprod/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-quaternaryprod/meta.yaml
 
 
 

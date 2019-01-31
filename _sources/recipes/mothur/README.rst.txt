@@ -11,7 +11,7 @@ This project seeks to develop a single piece of open\-source\, expandable softwa
 Home          http://www.mothur.org
 Versions      1.41.0, 1.40.5, 1.39.5, 1.38.1.1, 1.36.1, 1.25.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mothur/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mothur/meta.yaml
 
 
 Development   https://github.com/mothur/mothur

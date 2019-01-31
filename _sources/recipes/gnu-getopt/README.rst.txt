@@ -11,7 +11,7 @@ Command\-line option parsing library
 Home          http://software.frodo.looijaard.name/getopt/
 Versions      1.1.6
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gnu-getopt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gnu-getopt/meta.yaml
 
 
 

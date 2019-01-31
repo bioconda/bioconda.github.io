@@ -11,7 +11,7 @@ multiHiCcompare provides functions for joint normalization and difference detect
 Home          https://bioconductor.org/packages/3.8/bioc/html/multiHiCcompare.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-multihiccompare/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-multihiccompare/meta.yaml
 
 
 

@@ -14,7 +14,7 @@ diversity analyses.
 Home          https://github.com/JTFouquier/ghost-tree
 Versions      0.2.2
 License       BSD license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ghost-tree/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ghost-tree/meta.yaml
 
 
 

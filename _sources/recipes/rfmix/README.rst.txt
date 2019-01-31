@@ -11,7 +11,7 @@ RFMix implements a fast discriminative approach to modeling ancestry along an ad
 Home          https://github.com/slowkoni/rfmix
 Versions      2.03.r0.9505bfa
 License       Free for Academic Use
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rfmix/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rfmix/meta.yaml
 
 
 

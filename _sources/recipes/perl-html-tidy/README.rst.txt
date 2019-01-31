@@ -11,7 +11,7 @@ perl-html-tidy
 Home          http://github.com/petdance/html-tidy
 Versions      1.60, 1.56
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-html-tidy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-html-tidy/meta.yaml
 
 
 

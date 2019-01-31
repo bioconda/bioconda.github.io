@@ -11,7 +11,7 @@ RNAither analyzes cell\-based RNAi screens\, and includes quality assessment\, c
 Home          https://bioconductor.org/packages/3.8/bioc/html/RNAither.html
 Versions      2.28.0, 2.24.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnaither/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaither/meta.yaml
 
 
 

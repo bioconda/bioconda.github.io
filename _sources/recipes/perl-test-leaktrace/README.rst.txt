@@ -11,7 +11,7 @@ Traces memory leaks
 Home          http://metacpan.org/pod/Test-LeakTrace
 Versions      0.16, 0.15
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-leaktrace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-leaktrace/meta.yaml
 
 
 

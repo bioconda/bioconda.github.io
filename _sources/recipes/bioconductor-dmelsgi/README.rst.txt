@@ -11,7 +11,7 @@ The package contains the experimental data and documented source code of the man
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DmelSGI.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dmelsgi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dmelsgi/meta.yaml
 
 
 

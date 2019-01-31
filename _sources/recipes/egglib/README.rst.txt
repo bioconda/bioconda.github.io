@@ -11,7 +11,7 @@ EggLib is a C\+\+\/Python library and program package for evolutionary genetics 
 Home          http://mycor.nancy.inra.fr/egglib/
 Versions      3.0.0b21
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/egglib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//egglib/meta.yaml
 
 
 

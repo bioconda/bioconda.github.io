@@ -11,7 +11,7 @@ Scan contig files against PubMLST typing schemes
 Home          https://github.com/tseemann/mlst
 Versions      2.16.1, 2.16, 2.15.2, 2.15.1, 2.15, 2.14, 2.13, 2.12, 2.11, 2.10, 2.9, 2.6
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mlst/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mlst/meta.yaml
 
 
 

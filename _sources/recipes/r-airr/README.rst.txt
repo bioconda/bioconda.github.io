@@ -11,7 +11,7 @@ Schema definitions and read\, write and validation tools for data  formatted in 
 Home          http://docs.airr-community.org
 Versions      1.2.0
 License       CC BY 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-airr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-airr/meta.yaml
 
 
 

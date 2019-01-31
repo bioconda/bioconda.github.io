@@ -11,7 +11,7 @@ Vulcan \(VirtUaL ChIP\-Seq Analysis through Networks\) is a package that interro
 Home          https://bioconductor.org/packages/3.8/bioc/html/vulcan.html
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-vulcan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vulcan/meta.yaml
 
 
 

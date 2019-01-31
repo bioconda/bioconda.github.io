@@ -11,7 +11,7 @@ The package provides tools to model and test the association between multiple ge
 Home          https://bioconductor.org/packages/3.8/bioc/html/ASGSCA.html
 Versions      1.14.0, 1.12.0, 1.10.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-asgsca/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-asgsca/meta.yaml
 
 
 

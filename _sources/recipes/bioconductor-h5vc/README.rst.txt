@@ -11,7 +11,7 @@ This package contains functions to interact with tally data from NGS experiments
 Home          https://bioconductor.org/packages/3.8/bioc/html/h5vc.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-h5vc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-h5vc/meta.yaml
 
 
 

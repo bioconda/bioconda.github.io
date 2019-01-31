@@ -11,7 +11,7 @@ extends Cache\:\:SizeAwareMemoryCache
 Home          http://metacpan.org/pod/Cache::Cache
 Versions      1.08
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cache-cache/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cache-cache/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Robust statistical inference for quantitative LC\-MS proteomics.
 Home          https://github.com/statOmics/MSqRob
 Versions      0.7.5
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-msqrob/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-msqrob/meta.yaml
 
 
 

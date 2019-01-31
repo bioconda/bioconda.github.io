@@ -11,7 +11,7 @@ Graphical pan\-genome analysis with suffix skips
 Home          https://sourceforge.net/projects/splitmem/
 Versions      1.0
 License       Apache License V2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/splitmem/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//splitmem/meta.yaml
 
 
 

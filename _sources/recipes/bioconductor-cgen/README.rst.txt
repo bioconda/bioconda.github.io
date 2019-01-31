@@ -11,7 +11,7 @@ An R package for analysis of case\-control studies in genetic epidemiology.
 Home          https://bioconductor.org/packages/3.8/bioc/html/CGEN.html
 Versions      
 License       GPL-2 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cgen/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cgen/meta.yaml
 
 
 

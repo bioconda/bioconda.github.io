@@ -11,7 +11,7 @@ Extern is an opinionated version of Pythons subprocess\, making it just that lit
 Home          https://pypi.python.org/pypi/extern/
 Versions      0.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/extern/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//extern/meta.yaml
 
 
 

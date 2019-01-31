@@ -11,7 +11,7 @@ Sparse binary format for genomic interaction matrices
 Home          https://github.com/mirnylab/cooler
 Versions      0.8.2, 0.8.1, 0.7.11, 0.7.10, 0.7.9, 0.7.8, 0.7.7, 0.7.6, 0.7.4, 0.7.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cooler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cooler/meta.yaml
 
 
 

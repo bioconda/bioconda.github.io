@@ -11,7 +11,7 @@ Database independent interface for Perl
 Home          http://dbi.perl.org/
 Versions      1.642, 1.641, 1.640, 1.636, 1.634
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-dbi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-dbi/meta.yaml
 
 
 

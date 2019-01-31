@@ -11,7 +11,7 @@ Affymetrix chicken annotation data \(chip chicken\) assembled using data from pu
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/chicken.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chicken.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chicken.db/meta.yaml
 
 
 

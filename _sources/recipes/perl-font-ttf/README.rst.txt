@@ -11,7 +11,7 @@ TTF font support for Perl
 Home          http://metacpan.org/pod/Font-TTF
 Versions      1.06, 1.05
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-font-ttf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-font-ttf/meta.yaml
 
 
 

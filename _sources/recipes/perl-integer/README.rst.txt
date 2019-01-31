@@ -11,7 +11,7 @@ Perl pragma to use integer arithmetic instead of floating point
 Home          http://metacpan.org/pod/integer
 Versions      1.01
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-integer/1.01/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-integer/1.01/meta.yaml
 
 
 

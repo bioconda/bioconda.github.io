@@ -11,7 +11,7 @@ Codelink Mouse Whole Genome Bioarray \(\~36 000 mouse gene targets\) annotation 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mwgcod.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mwgcod.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mwgcod.db/meta.yaml
 
 
 

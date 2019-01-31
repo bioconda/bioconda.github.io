@@ -11,7 +11,7 @@ Tests whether a set of counts fit a given expected ratio. For example\, a geneti
 Home          https://CRAN.R-project.org/package=XNomial
 Versions      1.0.4
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-xnomial/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-xnomial/meta.yaml
 
 
 

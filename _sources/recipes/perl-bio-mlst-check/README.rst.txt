@@ -11,7 +11,7 @@ Multilocus sequence type checking using blast
 Home          http://www.sanger.ac.uk/
 Versions      2.1.1706216
 License       gpl_3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-mlst-check/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-mlst-check/meta.yaml
 
 
 

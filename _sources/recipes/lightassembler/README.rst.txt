@@ -11,7 +11,7 @@ Lightweight assembly algorithm designed to be executed on a desktop machine. It 
 Home          https://github.com/SaraEl-Metwally/LightAssembler
 Versions      1.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lightassembler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lightassembler/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package was automatically created by package AnnotationForge version 1.11.2
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/medicagoprobe.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-medicagoprobe/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-medicagoprobe/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Peng G\, Fan Y\, Palculict TB\, Shen P\, Ruteshouser EC\, Chi A\, Davis RW\, Huf
 Home          http://bioinformatics.mdanderson.org/main/FamSeq
 Versions      1.0.3
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/famseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//famseq/meta.yaml
 
 
 

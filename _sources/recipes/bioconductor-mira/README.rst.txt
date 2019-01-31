@@ -11,7 +11,7 @@ MIRA measures the degree of \"dip\" in methylation level surrounding a regulator
 Home          https://bioconductor.org/packages/3.8/bioc/html/MIRA.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mira/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mira/meta.yaml
 
 
 

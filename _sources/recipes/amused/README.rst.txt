@@ -11,7 +11,7 @@ Auditing Motifs Using Statistical Enrichment \& Depletion
 Home          https://github.com/Carldeboer/AMUSED
 Versions      1.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/amused/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//amused/meta.yaml
 
 
 

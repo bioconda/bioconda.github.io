@@ -11,7 +11,7 @@ Test\:\:Toolbox \- tools for testing
 Home          http://metacpan.org/pod/Test::Toolbox
 Versions      0.4
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-toolbox/0.4/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-toolbox/0.4/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Allows users to calculate pairwise Nei\'s Genetic Distances \(Nei 1972\)\, pairw
 Home          https://CRAN.R-project.org/package=StAMPP
 Versions      1.5.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-stampp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-stampp/meta.yaml
 
 
 

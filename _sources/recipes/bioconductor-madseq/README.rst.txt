@@ -11,7 +11,7 @@ The MADSEQ package provides a group of hierarchical Bayeisan models for the dete
 Home          https://bioconductor.org/packages/3.8/bioc/html/MADSEQ.html
 Versions      1.6.1, 1.4.1
 License       GPL(>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-madseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-madseq/meta.yaml
 
 
 

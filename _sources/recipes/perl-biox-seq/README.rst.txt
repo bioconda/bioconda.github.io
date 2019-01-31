@@ -11,7 +11,7 @@ a basic but fast biological sequence object and associated parsers
 Home          http://metacpan.org/pod/BioX::Seq
 Versions      0.006007
 License       gpl_3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-biox-seq/0.006007/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-biox-seq/0.006007/meta.yaml
 
 
 

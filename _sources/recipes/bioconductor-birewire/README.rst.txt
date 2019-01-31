@@ -11,7 +11,7 @@ Fast functions for bipartite network rewiring through N consecutive switching st
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiRewire.html
 Versions      3.12.0, 3.10.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-birewire/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-birewire/meta.yaml
 
 
 

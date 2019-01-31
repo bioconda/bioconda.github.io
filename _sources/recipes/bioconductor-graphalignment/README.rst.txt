@@ -11,7 +11,7 @@ Graph alignment is an extension package for the R programming environment which 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GraphAlignment.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-graphalignment/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-graphalignment/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A tool to create a draft genome file out of a GATK VCF file and enabling users t
 Home          https://github.com/apeltzer/vcf2genome
 Versions      0.91
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vcf2genome/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcf2genome/meta.yaml
 
 
 

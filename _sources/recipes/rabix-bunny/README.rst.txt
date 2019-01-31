@@ -11,7 +11,7 @@ Open\-source development kit for the Common Workflow Language from Seven Bridges
 Home          https://github.com/rabix/bunny
 Versions      1.0.4, 1.0.3, 1.0.2, 1.0.1, 1.0.0rc5, 1.0.0rc4
 License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rabix-bunny/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rabix-bunny/meta.yaml
 
 
 

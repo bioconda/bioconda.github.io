@@ -11,7 +11,7 @@ This is a python implementation which determines the MOTP and MOTA metrics from 
 Home          https://github.com/Videmo/pymot
 Versions      13.09.2016
 License       All Rights Reserved
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pymot/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pymot/meta.yaml
 
 
 

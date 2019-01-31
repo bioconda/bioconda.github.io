@@ -11,7 +11,7 @@ A toolkit for assigning objective taxonomic classifications to bacterial and arc
 Home          http://pypi.python.org/pypi/gtdbtk/
 Versions      0.1.5, 0.1.3
 License       GNU General Public v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gtdbtk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gtdbtk/meta.yaml
 
 
 

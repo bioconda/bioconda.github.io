@@ -11,7 +11,7 @@ Tools for manipulating biological data\, particularly multiple sequence alignmen
 Home          https://github.com/bxlab/bx-python
 Versions      0.8.2, 0.8.1, 0.7.4, 0.7.3, 0.7.2, 0.7.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bx-python/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bx-python/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ flexible and easy file manipulation
 Home          https://github.com/brentp/toolshed
 Versions      0.4.6
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/toolshed/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//toolshed/meta.yaml
 
 
 

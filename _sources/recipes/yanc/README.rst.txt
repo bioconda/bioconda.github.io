@@ -11,7 +11,7 @@ Yet another nose colorer
 Home          https://github.com/0compute/yanc
 Versions      0.3.3
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/yanc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//yanc/meta.yaml
 
 
 

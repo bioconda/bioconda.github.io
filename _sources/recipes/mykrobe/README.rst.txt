@@ -11,7 +11,7 @@ Rapid antibiotic\-resistance predictions from genome sequence data for Staphyloc
 Home          https://github.com/iqbal-lab/Mykrobe-predictor
 Versions      0.5.6
 License       Custom non-commercial license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mykrobe/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mykrobe/meta.yaml
 
 
 

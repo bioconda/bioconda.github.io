@@ -11,7 +11,7 @@ A Test\:\:Builder based module to ease testing with files and dirs
 Home          http://metacpan.org/pod/Test::Files
 Versions      0.14
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-files/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-files/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ AutoDock Vina is an open\-source program for doing molecular docking
 Home          http://vina.scripps.edu/
 Versions      1.1.2
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/autodock-vina/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//autodock-vina/meta.yaml
 
 
 

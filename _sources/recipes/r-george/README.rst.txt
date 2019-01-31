@@ -11,7 +11,7 @@ geoRge\, a computational tool for stable isotope labelling detection in LC\/MS\-
 Home          https://github.com/jcapelladesto/geoRge/README.md
 Versions      1.0.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-george/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-george/meta.yaml
 
 
 

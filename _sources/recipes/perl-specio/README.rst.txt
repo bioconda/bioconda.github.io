@@ -11,7 +11,7 @@ Type constraints and coercions for Perl
 Home          http://metacpan.org/release/Specio
 Versions      0.43, 0.42
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-specio/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-specio/meta.yaml
 
 
 

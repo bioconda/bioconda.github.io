@@ -11,7 +11,7 @@ Provides an API for analysing repetitive parameter estimations and simulations o
 Home          https://github.com/pdp10/sbpiper
 Versions      1.9.0, 1.8.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-sbpiper/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-sbpiper/meta.yaml
 
 
 

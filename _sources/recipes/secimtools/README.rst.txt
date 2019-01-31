@@ -11,7 +11,7 @@ Metabolomics tools from the SECIM project
 Home          https://github.com/secimTools/SECIMTools
 Versions      1.0.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/secimtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//secimtools/meta.yaml
 
 
 

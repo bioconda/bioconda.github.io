@@ -11,7 +11,7 @@ SOAPaligner\/soap2 is an updated version of SOAP software for short oligonucleot
 Home          http://soap.genomics.org.cn/soapaligner.html
 Versions      2.21
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapaligner/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapaligner/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MetaboSignal is an R package that allows merging\, analyzing and customizing met
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetaboSignal.html
 Versions      1.10.0, 1.8.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metabosignal/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metabosignal/meta.yaml
 
 
 

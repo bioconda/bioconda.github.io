@@ -11,7 +11,7 @@ FourCSeq is an R package dedicated to the analysis of \(multiplexed\) 4C sequenc
 Home          https://bioconductor.org/packages/3.8/bioc/html/FourCSeq.html
 Versions      1.14.0, 1.12.0, 1.10.0, 1.4.0
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fourcseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fourcseq/meta.yaml
 
 
 

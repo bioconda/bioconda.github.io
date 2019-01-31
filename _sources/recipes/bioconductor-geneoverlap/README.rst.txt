@@ -11,7 +11,7 @@ Test two sets of gene lists and visualize the results.
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneOverlap.html
 Versions      1.16.0, 1.14.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneoverlap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneoverlap/meta.yaml
 
 
 

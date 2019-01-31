@@ -11,7 +11,7 @@ Provide an interface to ZIP archive files.
 Home          http://metacpan.org/pod/Archive::Zip
 Versions      1.64, 1.60, 1.55
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-archive-zip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-archive-zip/meta.yaml
 
 
 

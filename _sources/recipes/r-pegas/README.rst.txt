@@ -11,7 +11,7 @@ Functions for reading\, writing\, plotting\, analysing\, and manipulating alleli
 Home          http://ape-package.ird.fr/pegas.html
 Versions      0.11, 0.10
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pegas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pegas/meta.yaml
 
 
 

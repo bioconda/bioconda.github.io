@@ -11,7 +11,7 @@ MicroRazerS \- Rapid Alignment of Small RNA Reads
 Home          https://github.com/seqan/seqan/tree/seqan-v2.1.1/apps/micro_razers
 Versions      1.0.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/micro_razers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//micro_razers/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A collection of tools to handle microsatellite data of any ploidy \(and samples 
 Home          https://cran.r-project.org/web/packages/polysat/index.html
 Versions      1.7_3
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-polysat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-polysat/meta.yaml
 
 
 

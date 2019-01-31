@@ -11,7 +11,7 @@ The dks package consists of a set of diagnostic functions for multiple testing m
 Home          https://bioconductor.org/packages/3.8/bioc/html/dks.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dks/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dks/meta.yaml
 
 
 

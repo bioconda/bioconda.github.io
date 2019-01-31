@@ -11,7 +11,7 @@ POA is Partial Order Alignment\, a fast program for multiple sequence alignment 
 Home          https://sourceforge.net/projects/poamsa
 Versions      2.0
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/poa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//poa/meta.yaml
 
 
 

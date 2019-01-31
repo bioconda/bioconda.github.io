@@ -11,7 +11,7 @@ The ReportingTools software package enables users to easily display reports of a
 Home          https://bioconductor.org/packages/3.8/bioc/html/ReportingTools.html
 Versions      2.20.0, 2.17.3
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-reportingtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-reportingtools/meta.yaml
 
 
 

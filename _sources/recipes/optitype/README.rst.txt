@@ -11,7 +11,7 @@ Precision HLA typing from next\-generation sequencing data
 Home          https://github.com/FRED-2/OptiType
 Versions      1.3.2, 1.3.1, 1.2.1, 1.2
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/optitype/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//optitype/meta.yaml
 
 
 

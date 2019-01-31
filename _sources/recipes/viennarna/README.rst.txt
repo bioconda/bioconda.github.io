@@ -11,7 +11,7 @@ Vienna RNA package \-\- RNA secondary structure prediction and comparison
 Home          http://www.tbi.univie.ac.at/RNA/
 Versions      2.4.11, 2.4.9, 2.4.8, 2.4.7, 2.4.6, 2.4.5, 2.4.4, 2.4.3, 2.4.2, 2.4.1, 2.3.5, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.10, 2.2.9, 2.2.8, 2.2.7, 2.2.5, 2.1.9, 2.1.8, 2.1.5, 1.8.5
 License       custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/viennarna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//viennarna/meta.yaml
 
 
 

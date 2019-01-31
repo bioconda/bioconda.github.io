@@ -11,7 +11,7 @@ Split multiple alignment files
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-mafsplit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-mafsplit/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Aligns 2 CE\-MS or LC\-MS datasets using accurate mass information.
 Home          http://www.ms-utils.org/msalign2/index.html
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/msalign2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//msalign2/meta.yaml
 
 
 

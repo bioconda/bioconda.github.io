@@ -11,7 +11,7 @@ Variant quality score recalibration with Convolutional Neural Networks
 Home          https://broadinstitute.org/
 Versions      0.0.194, 0.0.132
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vqsr_cnn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vqsr_cnn/meta.yaml
 
 
 

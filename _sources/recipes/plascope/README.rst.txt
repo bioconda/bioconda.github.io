@@ -11,7 +11,7 @@ PlaScope is a targeted approach to assess the plasmidome of bacteria.
 Home          https://github.com/GuilhemRoyer/PlaScope
 Versions      1.3
 License       GPL (>=3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plascope/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plascope/meta.yaml
 
 
 

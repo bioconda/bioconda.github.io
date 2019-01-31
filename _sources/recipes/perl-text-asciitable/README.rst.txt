@@ -11,7 +11,7 @@ Create a nice formatted table using ASCII characters.
 Home          http://metacpan.org/pod/Text::ASCIITable
 Versions      0.22
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-text-asciitable/0.22/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-text-asciitable/0.22/meta.yaml
 
 
 

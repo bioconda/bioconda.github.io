@@ -11,7 +11,7 @@ A multi\-platform collection of C\+\+ software libraries for Computer Vision and
 Home          https://sf.net/projects/vxl/
 Versions      1.17.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vnl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vnl/meta.yaml
 
 
 

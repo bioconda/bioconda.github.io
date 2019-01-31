@@ -11,7 +11,7 @@ Determine sample ploidy via flow cytometry histogram analysis. Reads Flow Cytome
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowPloidy.html
 Versions      1.6.0, 1.4.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowploidy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowploidy/meta.yaml
 
 
 

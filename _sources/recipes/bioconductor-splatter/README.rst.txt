@@ -11,7 +11,7 @@ Splatter is a package for the simulation of single\-cell RNA sequencing count da
 Home          https://bioconductor.org/packages/3.8/bioc/html/splatter.html
 Versions      1.4.3, 1.2.1
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-splatter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-splatter/meta.yaml
 
 
 

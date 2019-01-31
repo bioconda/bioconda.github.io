@@ -11,7 +11,7 @@ Infer Probabilities of MiRNA\-mRNA Interaction Signature \(ProMISe\) using paire
 Home          https://bioconductor.org/packages/3.8/bioc/html/Roleswitch.html
 Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-roleswitch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-roleswitch/meta.yaml
 
 
 

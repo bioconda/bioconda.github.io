@@ -11,7 +11,7 @@ Statistics\:\:R \- Perl interface with the R statistical program
 Home          http://search.cpan.org/dist/Statistics-R/
 Versions      0.34
 License       Perl5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-r/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-statistics-r/meta.yaml
 
 
 

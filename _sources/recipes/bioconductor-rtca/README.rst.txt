@@ -11,7 +11,7 @@ Import\, analyze and visualize data from Roche\(R\) xCELLigence RTCA systems. Th
 Home          https://bioconductor.org/packages/3.8/bioc/html/RTCA.html
 Versions      1.32.0, 1.30.0, 1.28.0
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rtca/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtca/meta.yaml
 
 
 

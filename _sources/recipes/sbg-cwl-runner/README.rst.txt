@@ -11,7 +11,7 @@ A CWL Runner for SBG platform
 Home          https://github.com/kaushik-work/sbg-cwl-runner
 Versions      2018.11
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sbg-cwl-runner/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sbg-cwl-runner/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Metagenomics\-focused BAM file manipulation
 Home          https://github.com/Ecogenomics/BamM
 Versions      1.7.3
 License       LGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bamm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bamm/meta.yaml
 
 
 

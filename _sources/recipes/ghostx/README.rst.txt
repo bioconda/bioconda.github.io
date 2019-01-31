@@ -11,7 +11,7 @@ GHOSTX is a homology search tool which can detect remote homologues like BLAST a
 Home          http://www.bi.cs.titech.ac.jp/ghostx/
 Versions      1.3.7
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ghostx/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ghostx/meta.yaml
 
 
 

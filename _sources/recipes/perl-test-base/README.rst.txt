@@ -11,7 +11,7 @@ A Data Driven Testing Framework
 Home          https://github.com/ingydotnet/test-base-pm
 Versions      0.89, 0.88
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-base/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-base/meta.yaml
 
 
 

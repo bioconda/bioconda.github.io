@@ -11,7 +11,7 @@ Imports the \'gkmSVM\' v2.0 functionalities into R \<http\:\/\/www.beerlab.org\/
 Home          https://CRAN.R-project.org/package=gkmSVM
 Versions      0.79.0, 0.71.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gkmsvm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gkmsvm/meta.yaml
 
 
 

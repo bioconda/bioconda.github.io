@@ -11,7 +11,7 @@ Feature selection aims to identify and remove redundant\, irrelevant and noisy v
 Home          https://bioconductor.org/packages/3.8/bioc/html/GARS.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gars/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gars/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ An image processing package for plant phenotyping.
 Home          https://plantcv.danforthcenter.org
 Versions      3.0.5, 3.0.3
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plantcv/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plantcv/meta.yaml
 
 Documentation https://plantcv.readthedocs.io
 

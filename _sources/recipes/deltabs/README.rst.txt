@@ -11,7 +11,7 @@ Quantifying the significance of genetic variation using probabilistic profile\-b
 Home          https://github.com/UCanCompBio/deltaBS/wiki
 Versions      0.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/deltabs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deltabs/meta.yaml
 
 
 

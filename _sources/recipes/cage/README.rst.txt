@@ -11,7 +11,7 @@ Changepoint Analysis for Efficient Variant Calling
 Home          https://github.com/adambloniarz/CAGe
 Versions      2016.05.13, 2016.01.24
 License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cage/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cage/meta.yaml
 
 
 

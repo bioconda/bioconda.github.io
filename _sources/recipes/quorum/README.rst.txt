@@ -11,7 +11,7 @@ QuorUM \(Quality Optimized Reads from the University of Maryland\) is an error c
 Home          http://www.genome.umd.edu/quorum.html
 Versions      1.1.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/quorum/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quorum/meta.yaml
 
 
 

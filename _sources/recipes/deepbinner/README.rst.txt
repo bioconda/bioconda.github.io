@@ -11,7 +11,7 @@ A signal\-level demultiplexer for Oxford Nanopore reads.
 Home          https://github.com/rrwick/Deepbinner
 Versions      0.2.0, 0.1.2
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/deepbinner/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deepbinner/meta.yaml
 
 
 

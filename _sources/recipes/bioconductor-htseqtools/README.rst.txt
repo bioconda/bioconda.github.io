@@ -11,7 +11,7 @@ We provide efficient\, easy\-to\-use tools for High\-Throughput Sequencing \(ChI
 Home          https://bioconductor.org/packages/3.8/bioc/html/htSeqTools.html
 Versions      1.28.3, 1.26.0
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-htseqtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htseqtools/meta.yaml
 
 
 

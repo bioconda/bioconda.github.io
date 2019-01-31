@@ -11,7 +11,7 @@ libdeflate is a library for fast\, whole\-buffer DEFLATE\-based compression and 
 Home          https://github.com/ebiggers/libdeflate
 Versions      1.0, 0.8
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libdeflate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libdeflate/meta.yaml
 
 
 

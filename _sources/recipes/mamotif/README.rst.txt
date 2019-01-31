@@ -11,7 +11,7 @@ An integrative toolkit for searching cell type\-specific co\-factors associated 
 Home          https://github.com/shao-lab/MAmotif
 Versions      1.0.1, 1.0
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mamotif/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mamotif/meta.yaml
 
 
 

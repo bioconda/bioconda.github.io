@@ -11,7 +11,7 @@ Identifying the variants of DNA sequences sensitively and accurately is an impor
 Home          https://github.com/aquaskyline/Clairvoyante
 Versions      1.0
 License       AGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clairvoyante/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clairvoyante/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ generate .ra format from lines with pipe\-separated fields
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-linestora/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-linestora/meta.yaml
 
 
 

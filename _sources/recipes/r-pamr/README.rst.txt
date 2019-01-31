@@ -11,7 +11,7 @@ Some functions for sample classification in microarrays
 Home          https://CRAN.R-project.org/package=pamr
 Versions      1.55
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pamr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pamr/meta.yaml
 
 
 

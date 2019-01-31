@@ -11,7 +11,7 @@ a wrapper for uShuffle
 Home          https://github.com/agordon/fasta_ushuffle
 Versions      0.2
 License       custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fasta_ushuffle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fasta_ushuffle/meta.yaml
 
 
 

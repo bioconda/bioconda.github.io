@@ -11,7 +11,7 @@ Marker gene\-based OTU \(mOTU\) profiling
 Home          http://motu-tool.org/
 Versions      2.0.1, 2.0.0, 1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/motus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//motus/meta.yaml
 
 
 Development   https://github.com/motu-tool/mOTUs_v2

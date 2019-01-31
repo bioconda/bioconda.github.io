@@ -11,7 +11,7 @@ Python implementation of the SourceTracker R package.
 Home          http://www.biota.com
 Versions      2.0.1
 License       modified BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sourcetracker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sourcetracker/meta.yaml
 
 Documentation https://github.com/biota/sourcetracker2
 

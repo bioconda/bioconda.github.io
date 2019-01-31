@@ -11,7 +11,7 @@ Reads from an RNA\-seq experiment between two lung cancer cell lines\: H1993 \(m
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/LungCancerLines.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lungcancerlines/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lungcancerlines/meta.yaml
 
 
 

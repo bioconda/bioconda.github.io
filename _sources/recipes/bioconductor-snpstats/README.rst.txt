@@ -11,7 +11,7 @@ Classes and statistical methods for large SNP association studies. This extends 
 Home          https://bioconductor.org/packages/3.8/bioc/html/snpStats.html
 Versions      1.30.0, 1.28.0, 1.26.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-snpstats/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snpstats/meta.yaml
 
 
 

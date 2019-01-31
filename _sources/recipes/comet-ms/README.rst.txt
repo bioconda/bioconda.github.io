@@ -11,7 +11,7 @@ Comet is a command line tool that does MS\/MS database search.
 Home          http://comet-ms.sourceforge.net/
 Versions      2018013, 2018012, 2016013
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/comet-ms/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//comet-ms/meta.yaml
 
 
 

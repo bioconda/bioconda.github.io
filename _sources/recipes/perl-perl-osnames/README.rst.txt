@@ -11,7 +11,7 @@ List possible \$\^O \(\$OSNAME\) values\, with description
 Home          https://metacpan.org/release/Perl-osnames
 Versions      0.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perl-osnames/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perl-osnames/meta.yaml
 
 
 

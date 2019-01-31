@@ -11,7 +11,7 @@ A framework for doing microbial comparative genomics in R. The main purpose of t
 Home          https://bioconductor.org/packages/3.8/bioc/html/FindMyFriends.html
 Versions      1.10.0, 1.8.0
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-findmyfriends/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-findmyfriends/meta.yaml
 
 
 

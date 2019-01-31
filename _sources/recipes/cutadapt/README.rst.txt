@@ -11,7 +11,7 @@ trim adapters from high\-throughput sequencing reads
 Home          https://cutadapt.readthedocs.io/
 Versions      1.18, 1.17, 1.16, 1.15, 1.14, 1.13, 1.12, 1.11, 1.10, 1.9.1, 1.8.3, 1.8.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cutadapt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cutadapt/meta.yaml
 
 
 

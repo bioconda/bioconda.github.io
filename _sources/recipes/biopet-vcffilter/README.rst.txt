@@ -11,7 +11,7 @@ This tool enables a user to filter VCF files.
 Home          https://github.com/biopet/vcffilter
 Versions      0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-vcffilter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet-vcffilter/meta.yaml
 
 
 

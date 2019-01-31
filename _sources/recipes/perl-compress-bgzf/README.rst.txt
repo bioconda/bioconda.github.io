@@ -11,7 +11,7 @@ Read\/write blocked GZIP \(BGZF\) files
 Home          http://metacpan.org/pod/Compress::BGZF
 Versions      0.005
 License       gpl_3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-compress-bgzf/0.005/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-compress-bgzf/0.005/meta.yaml
 
 
 

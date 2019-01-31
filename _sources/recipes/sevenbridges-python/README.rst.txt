@@ -11,7 +11,7 @@ SBG API python client bindings
 Home          https://github.com/sbg/sevenbridges-python
 Versions      0.17.7, 0.17.5, 0.17.4, 0.17.3, 0.17.2, 0.17.1, 0.17.0, 0.16.0, 0.15.2, 0.15.0, 0.7.2
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sevenbridges-python/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sevenbridges-python/meta.yaml
 
 
 Development   https://github.com/sbg/sevenbridges-python

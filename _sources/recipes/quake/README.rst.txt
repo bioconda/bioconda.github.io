@@ -11,7 +11,7 @@ Quake is a package to correct substitution sequencing errors in experiments with
 Home          http://www.cbcb.umd.edu/software/quake/
 Versions      0.3.5
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/quake/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//quake/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ FTP Client class
 Home          http://metacpan.org/pod/Net::FTP
 Versions      2.79
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-net-ftp/2.79/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-net-ftp/2.79/meta.yaml
 
 
 

@@ -12,7 +12,7 @@ Read error correction tool based on multiple alignment.
 Home          https://github.com/aminallam/karect
 Versions      1.0
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/karect/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//karect/meta.yaml
 
 Documentation https://github.com/aminallam/karect/blob/master/karect_manual.pdf
 

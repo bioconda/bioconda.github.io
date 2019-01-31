@@ -11,7 +11,7 @@ Neurodocker is a command\-line program that generates custom Dockerfiles and Sin
 Home          https://github.com/kaczmarj/neurodocker
 Versions      0.4.3, 0.4.2, 0.4.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/neurodocker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//neurodocker/meta.yaml
 
 
 

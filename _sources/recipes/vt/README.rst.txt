@@ -11,7 +11,7 @@ A tool set for manipulating and generating VCF files
 Home          https://genome.sph.umich.edu/wiki/Vt
 Versions      2015.11.10, 0.57721
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vt/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package generates ranked lists of differential gene expression for either d
 Home          https://bioconductor.org/packages/3.8/bioc/html/DrugVsDisease.html
 Versions      2.22.0, 2.20.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drugvsdisease/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-drugvsdisease/meta.yaml
 
 
 

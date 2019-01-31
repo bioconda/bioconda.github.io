@@ -11,7 +11,7 @@ This package was automatically created by package AnnotationForge version 1.7.17
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/RaExExonProbesetLocation.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-raexexonprobesetlocation/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-raexexonprobesetlocation/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Functions to check whether a vector of p\-values respects the assumptions of FDR
 Home          https://CRAN.R-project.org/package=cp4p
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-cp4p/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cp4p/meta.yaml
 
 
 

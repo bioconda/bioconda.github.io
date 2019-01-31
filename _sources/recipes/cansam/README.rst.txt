@@ -11,7 +11,7 @@ C\+\+ binding for SAM\/BAM files
 Home          https://github.com/jmarshall/cansam/
 Versions      21d64bb
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cansam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cansam/meta.yaml
 
 
 

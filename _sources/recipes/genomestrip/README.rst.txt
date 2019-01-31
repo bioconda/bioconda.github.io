@@ -11,7 +11,7 @@ Genome STRiP \(Genome STRucture In Populations\) is a suite of tools for discove
 Home          http://software.broadinstitute.org/software/genomestrip/
 Versions      2.00.1833
 License       custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomestrip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genomestrip/meta.yaml
 
 
 

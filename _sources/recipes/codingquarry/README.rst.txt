@@ -11,7 +11,7 @@ CodingQuarry\: highly accurate hidden Markov model gene prediction in fungal gen
 Home          https://sourceforge.net/p/codingquarry/
 Versions      2.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/codingquarry/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//codingquarry/meta.yaml
 
 
 

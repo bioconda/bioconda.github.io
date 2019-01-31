@@ -11,7 +11,7 @@ BaseCounter counts the bases from genes and transcripts and outputs information 
 Home          https://github.com/biopet/basecounter
 Versions      0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet-basecounter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet-basecounter/meta.yaml
 
 
 

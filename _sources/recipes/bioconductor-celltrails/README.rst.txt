@@ -11,7 +11,7 @@ CellTrails is an unsupervised algorithm for the de novo chronological ordering\,
 Home          https://bioconductor.org/packages/3.8/bioc/html/CellTrails.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-celltrails/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-celltrails/meta.yaml
 
 
 

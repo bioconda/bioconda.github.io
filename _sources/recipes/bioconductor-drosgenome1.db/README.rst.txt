@@ -11,7 +11,7 @@ Affymetrix Drosophila Genome Array annotation data \(chip drosgenome1\) assemble
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/drosgenome1.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drosgenome1.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-drosgenome1.db/meta.yaml
 
 
 

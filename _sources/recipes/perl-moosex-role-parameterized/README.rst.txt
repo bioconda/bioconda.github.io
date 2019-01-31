@@ -11,7 +11,7 @@ Moose roles with composition parameters
 Home          https://github.com/moose/MooseX-Role-Parameterized
 Versions      1.10
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-role-parameterized/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-role-parameterized/meta.yaml
 
 
 

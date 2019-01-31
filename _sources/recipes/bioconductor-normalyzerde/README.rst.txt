@@ -11,7 +11,7 @@ NormalyzerDE provides screening of normalization methods for LC\-MS based expres
 Home          https://bioconductor.org/packages/3.8/bioc/html/NormalyzerDE.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-normalyzerde/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-normalyzerde/meta.yaml
 
 
 

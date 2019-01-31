@@ -11,7 +11,7 @@ Map Perl operating system names to generic types
 Home          https://github.com/Perl-Toolchain-Gang/Perl-OSType
 Versions      1.010
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ostype/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ostype/meta.yaml
 
 
 

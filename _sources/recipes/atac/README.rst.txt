@@ -11,7 +11,7 @@ ATAC is a computational process for comparative mapping between two genome assem
 Home          http://kmer.sourceforge.net/wiki/index.php/Overview_of_the_ATAC_process
 Versions      2008
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/atac/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//atac/meta.yaml
 
 
 

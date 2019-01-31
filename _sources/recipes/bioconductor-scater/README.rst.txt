@@ -11,7 +11,7 @@ A collection of tools for doing various analyses of single\-cell RNA\-seq gene e
 Home          https://bioconductor.org/packages/3.8/bioc/html/scater.html
 Versions      1.8.4, 1.6.0, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scater/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scater/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl Archive Tookit
 Home          http://metacpan.org/pod/PAR
 Versions      1.014
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-par/1.014/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-par/1.014/meta.yaml
 
 
 

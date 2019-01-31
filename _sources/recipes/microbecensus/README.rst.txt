@@ -11,7 +11,7 @@ A command\-line tool for estimating average genome size from shotgun sequence da
 Home          https://github.com/snayfach/MicrobeCensus
 Versions      1.1.1, 1.1.0
 License       GNU General Public License v3 or later (GPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/microbecensus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//microbecensus/meta.yaml
 
 
 

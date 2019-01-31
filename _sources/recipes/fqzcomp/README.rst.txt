@@ -11,7 +11,7 @@ Fqzcomp is a basic fastq compressor\, designed primarily for high performance.
 Home          https://sourceforge.net/projects/fqzcomp/
 Versions      4.6
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fqzcomp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fqzcomp/meta.yaml
 
 
 

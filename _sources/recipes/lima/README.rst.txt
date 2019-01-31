@@ -11,7 +11,7 @@ lima \- The PacBio Barcode Demultiplexer
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.8.0, 1.7.1, 1.7.0, 1.6.2, 1.6.1
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lima/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lima/meta.yaml
 
 
 

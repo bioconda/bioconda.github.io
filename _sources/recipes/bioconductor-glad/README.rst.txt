@@ -11,7 +11,7 @@ Analysis of array CGH data \: detection of breakpoints in genomic profiles and a
 Home          https://bioconductor.org/packages/3.8/bioc/html/GLAD.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-glad/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-glad/meta.yaml
 
 
 

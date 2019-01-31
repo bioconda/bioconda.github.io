@@ -11,7 +11,7 @@ Selection of conserved blocks from multiple alignments for their use in phylogen
 Home          http://molevol.cmima.csic.es/castresana/Gblocks.html
 Versions      0.91b
 License       The software and its accompanying documentation are provided as is, without guarantee of support or maintenance.
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gblocks/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gblocks/meta.yaml
 
 
 

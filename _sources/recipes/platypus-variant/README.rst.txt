@@ -11,7 +11,7 @@ A Haplotype\-Based Variant Caller For Next Generation Sequence Data
 Home          http://www.well.ox.ac.uk/platypus
 Versions      0.8.1.1, 0.8.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/platypus-variant/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//platypus-variant/meta.yaml
 
 
 

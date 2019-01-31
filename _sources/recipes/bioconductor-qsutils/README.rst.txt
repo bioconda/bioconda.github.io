@@ -11,7 +11,7 @@ Set of utility functions for viral quasispecies analysis with NGS data. Most fun
 Home          https://bioconductor.org/packages/3.8/bioc/html/QSutils.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-qsutils/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-qsutils/meta.yaml
 
 
 

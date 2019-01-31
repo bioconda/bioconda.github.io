@@ -11,7 +11,7 @@ An R package for tissue heterogeneity characterization by convex analysis of mix
 Home          https://bioconductor.org/packages/3.8/bioc/html/CAMTHC.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-camthc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-camthc/meta.yaml
 
 
 

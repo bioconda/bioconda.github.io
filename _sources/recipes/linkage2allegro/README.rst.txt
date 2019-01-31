@@ -11,7 +11,7 @@ Converts between the output linkage formats of Merlin\, Simwalk\, Genehunter\, a
 Home          https://github.com/BioTools-Tek/linkage-converter
 Versions      2017.3, 2017.2, 2017.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/linkage2allegro/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//linkage2allegro/meta.yaml
 
 
 

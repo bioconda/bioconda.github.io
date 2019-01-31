@@ -11,7 +11,7 @@ Implements the circular binary segmentation \(CBS\) algorithm to segment DNA cop
 Home          https://bioconductor.org/packages/3.8/bioc/html/DNAcopy.html
 Versions      1.54.0, 1.52.0, 1.50.1, 1.48.0, 1.46.0, 1.44.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-dnacopy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dnacopy/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ install modules compatible with the running perl.
 Home          http://metacpan.org/pod/Module::FromPerlVer
 Versions      0.008002
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-fromperlver/0.008002/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-module-fromperlver/0.008002/meta.yaml
 
 
 

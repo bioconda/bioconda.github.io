@@ -11,7 +11,7 @@ This package was created by frmaTools version 1.13.0.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mogene.1.0.st.v1frmavecs.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mogene.1.0.st.v1frmavecs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mogene.1.0.st.v1frmavecs/meta.yaml
 
 
 

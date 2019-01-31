@@ -11,7 +11,7 @@ Automated accessor generation
 Home          http://metacpan.org/pod/Class::Accessor
 Versions      0.51, 0.34
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-accessor/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-accessor/meta.yaml
 
 
 

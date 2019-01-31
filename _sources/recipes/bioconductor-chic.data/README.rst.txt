@@ -11,7 +11,7 @@ This package contains annotation and metagene profile data for the ChIC package.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ChIC.data.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chic.data/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chic.data/meta.yaml
 
 
 

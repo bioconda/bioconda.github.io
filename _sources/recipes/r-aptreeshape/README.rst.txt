@@ -11,7 +11,7 @@ Simulation and analysis of phylogenetic tree topologies using statistical indice
 Home          https://CRAN.R-project.org/package=apTreeshape
 Versions      1.5_0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-aptreeshape/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-aptreeshape/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ MERLIN uses sparse trees to represent gene flow in pedigrees and is a fast pedig
 Home          http://csg.sph.umich.edu/abecasis/merlin
 Versions      1.1.2
 License       OpenSource
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/merlin/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//merlin/meta.yaml
 
 
 

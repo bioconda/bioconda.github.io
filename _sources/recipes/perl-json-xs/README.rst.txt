@@ -11,7 +11,7 @@ JSON serialising\/deserialising\, done correctly and fast
 Home          http://metacpan.org/pod/JSON::XS
 Versions      4.0, 3.04, 2.34
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-json-xs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json-xs/meta.yaml
 
 
 

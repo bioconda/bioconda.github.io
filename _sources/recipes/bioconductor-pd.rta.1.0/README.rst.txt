@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix RTA\-1\_0
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.rta.1.0.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.rta.1.0/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.rta.1.0/meta.yaml
 
 
 

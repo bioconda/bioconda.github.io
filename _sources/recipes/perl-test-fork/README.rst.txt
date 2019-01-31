@@ -11,7 +11,7 @@ test code which forks
 Home          http://metacpan.org/pod/Test::Fork
 Versions      0.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-fork/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-fork/meta.yaml
 
 
 

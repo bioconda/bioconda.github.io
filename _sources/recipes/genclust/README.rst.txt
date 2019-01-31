@@ -11,7 +11,7 @@ A genetic algorithm for clustering gene expression data.
 Home          http://www.math.unipa.it/~lobosco/genclust/
 Versions      1.0
 License       GNU GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genclust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genclust/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Illumina HumanHT12v3 annotation data \(chip illuminaHumanv3\) assembled using da
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/illuminaHumanv3.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanv3.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanv3.db/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Short read connector enables the comparisons of two read sets
 Home          https://github.com/GATB/short_read_connector
 Versions      1.1.3
 License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/short-read-connector/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//short-read-connector/meta.yaml
 
 
 

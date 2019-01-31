@@ -11,7 +11,7 @@ Data package containing a set of high\-dimensional cytometry datasets saved in S
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HDCytoData.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hdcytodata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hdcytodata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ mro\:\:\* interface compatibility for Perls \< 5.9.5
 Home          https://metacpan.org/release/MRO-Compat
 Versions      0.13
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mro-compat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mro-compat/meta.yaml
 
 
 

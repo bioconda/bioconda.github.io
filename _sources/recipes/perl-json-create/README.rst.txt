@@ -11,7 +11,7 @@ fast\, minimal\, UTF\-8\-only serialization of data to JSON
 Home          http://metacpan.org/pod/JSON::Create
 Versions      0.24
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-json-create/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-json-create/meta.yaml
 
 
 

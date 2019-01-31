@@ -11,7 +11,7 @@ libMuscle header files.
 Home          http://darlinglab.org/mauve/
 Versions      3.7
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libmuscle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libmuscle/meta.yaml
 
 
 

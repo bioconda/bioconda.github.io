@@ -11,7 +11,7 @@ Call variants based on a Bayesian multinomial mixture model.
 Home          https://github.com/veg/mmvc
 Versions      1.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mmvc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mmvc/meta.yaml
 
 
 

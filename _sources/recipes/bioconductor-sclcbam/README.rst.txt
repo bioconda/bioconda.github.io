@@ -11,7 +11,7 @@ Whole\-exome sequencing data from a murine small\-cell lung tumor\; only contain
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/SCLCBam.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sclcbam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sclcbam/meta.yaml
 
 
 

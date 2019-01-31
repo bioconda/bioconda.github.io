@@ -11,7 +11,7 @@ The package offers four network inference statistical models using Dynamic Bayes
 Home          https://bioconductor.org/packages/3.8/bioc/html/GRENITS.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-grenits/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-grenits/meta.yaml
 
 
 

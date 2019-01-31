@@ -11,7 +11,7 @@ Nextflow pipeline for pre\-processing Illumina FASTQ files
 Home          https://github.com/rpetit3/illumina-cleanup
 Versions      1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/illumina-cleanup/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//illumina-cleanup/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A pipeline and a framework for NGS analysis \(RNA\-Seq and Chip\-Seq\)
 Home          http://www.tools.genomique.biologie.ens.fr/eoulsan/
 Versions      2.3, 2.2, 2.0_beta4
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/eoulsan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//eoulsan/meta.yaml
 
 
 Development   https://github.com/GenomicParisCentre/eoulsan

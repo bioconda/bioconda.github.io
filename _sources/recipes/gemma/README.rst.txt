@@ -11,7 +11,7 @@ Linear mixed models \(LMMs\) for genome\-wide association \(GWA\)
 Home          https://github.com/genetics-statistics/GEMMA
 Versions      0.98
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gemma/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gemma/meta.yaml
 
 
 

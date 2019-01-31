@@ -11,7 +11,7 @@ Simple construction\, analysis and modification of binary data.
 Home          https://github.com/scott-griffiths/bitstring
 Versions      3.1.5
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bitstring/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bitstring/meta.yaml
 
 
 

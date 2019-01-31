@@ -11,7 +11,7 @@ Change the sequence of a fastq file to enable sharing of confidential informatio
 Home          https://github.com/wdecoster/fastq-anonymous
 Versions      1.0.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastq-anonymous/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq-anonymous/meta.yaml
 
 
 

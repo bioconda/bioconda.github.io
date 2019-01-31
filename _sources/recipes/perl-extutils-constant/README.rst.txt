@@ -11,7 +11,7 @@ generate XS code to import C header constants
 Home          http://metacpan.org/pod/ExtUtils::Constant
 Versions      0.24
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-constant/0.24/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-constant/0.24/meta.yaml
 
 
 

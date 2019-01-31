@@ -11,7 +11,7 @@ Raw data downloaded from GEO for the compound LY294002. Raw data is from multipl
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/lydata.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lydata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lydata/meta.yaml
 
 
 

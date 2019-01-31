@@ -11,7 +11,7 @@ Perl\-powered file rename script with many helpful built\-ins
 Home          http://plasmasturm.org/code/rename
 Versions      1.600
 License       GNU GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rename/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rename/meta.yaml
 
 
 

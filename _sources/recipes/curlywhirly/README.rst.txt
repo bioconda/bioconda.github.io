@@ -11,7 +11,7 @@ CurlyWhirly is an application for viewing multi\-dimensional data\, with a parti
 Home          https://ics.hutton.ac.uk/curlywhirly
 Versions      1.17.08.31
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/curlywhirly/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//curlywhirly/meta.yaml
 
 
 

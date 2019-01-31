@@ -11,7 +11,7 @@ Second version of RareVariantVis package aims to provide comprehensive informati
 Home          https://bioconductor.org/packages/3.8/bioc/html/RareVariantVis.html
 Versions      2.8.0, 2.6.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rarevariantvis/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rarevariantvis/meta.yaml
 
 
 

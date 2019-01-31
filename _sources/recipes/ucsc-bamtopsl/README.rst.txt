@@ -11,7 +11,7 @@ Convert a bam file to a psl and optionally also a fasta file that contains the r
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-bamtopsl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bamtopsl/meta.yaml
 
 
 

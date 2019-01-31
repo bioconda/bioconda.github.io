@@ -11,7 +11,7 @@ Library and Tools for interfacing with PacBio pbsmrtpipe workflow engine
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      1.1.1, 0.3.29, 0.2.17
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbcommand/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbcommand/meta.yaml
 
 
 

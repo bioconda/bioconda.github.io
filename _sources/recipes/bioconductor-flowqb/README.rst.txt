@@ -11,7 +11,7 @@ flowQB is a fully automated R Bioconductor package to calculate automatically th
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowQB.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowqb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowqb/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Genomics analysis platform built on Apache Avro\, Apache Spark and Parquet
 Home          https://github.com/bigdatagenomics/adam
 Versions      0.25.0, 0.24.0, 0.23.0, 0.22.0
 License       Apache 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/adam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//adam/meta.yaml
 
 
 

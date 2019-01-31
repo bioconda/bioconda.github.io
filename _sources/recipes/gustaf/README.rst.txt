@@ -11,7 +11,7 @@ Gustaf is a tool primarily designed for multi\-split mapping of sequencing reads
 Home          https://github.com/seqan/seqan/tree/master/apps/gustaf/README.rst
 Versions      1.0.8
 License       https://github.com/seqan/seqan/tree/master/apps/gustaf/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gustaf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gustaf/meta.yaml
 
 
 

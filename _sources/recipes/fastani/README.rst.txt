@@ -11,7 +11,7 @@ FastANI is developed for fast alignment\-free computation of whole\-genome Avera
 Home          https://github.com/ParBLiSS/FastANI
 Versions      1.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastani/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastani/meta.yaml
 
 
 

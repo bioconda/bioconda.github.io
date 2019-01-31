@@ -11,7 +11,7 @@ The NGS Archive Linker is a Perl script used to generate a structure of links fo
 Home          https://github.com/phac-nml/irida-linker
 Versions      1.0.2, 1.0.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/irida-linker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//irida-linker/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Basic functions for microbial sequence data analysis. The idea is to use the bas
 Home          https://CRAN.R-project.org/package=microseq
 Versions      1.2
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-microseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-microseq/meta.yaml
 
 
 

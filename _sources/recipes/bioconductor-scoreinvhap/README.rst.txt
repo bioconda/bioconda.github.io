@@ -11,7 +11,7 @@ scoreInvHap can get the samples\' inversion status of known inversions. scoreInv
 Home          https://bioconductor.org/packages/3.8/bioc/html/scoreInvHap.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-scoreinvhap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scoreinvhap/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A collection of fastq manipulation scripts written in C for speed.
 Home          http://homes.cs.washington.edu/~dcjones/fastq-tools/
 Versions      0.8
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastq_tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq_tools/meta.yaml
 
 
 

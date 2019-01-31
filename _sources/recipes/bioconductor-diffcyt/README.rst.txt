@@ -11,7 +11,7 @@ Statistical methods for differential discovery analyses in high\-dimensional cyt
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffcyt.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-diffcyt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diffcyt/meta.yaml
 
 
 

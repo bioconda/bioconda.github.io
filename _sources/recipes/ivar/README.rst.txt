@@ -11,7 +11,7 @@ iVar is a computational package that contains functions broadly useful for viral
 Home          https://andersen-lab.github.io/ivar/html/
 Versions      1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ivar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ivar/meta.yaml
 
 
 Development   https://github.com/gkarthik/ivar

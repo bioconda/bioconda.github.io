@@ -11,7 +11,7 @@ update file access and modification times\, optionally creating files if needed
 Home          https://github.com/neilb/File-Touch
 Versions      0.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-touch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-touch/meta.yaml
 
 
 

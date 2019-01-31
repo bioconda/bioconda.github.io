@@ -11,7 +11,7 @@ Biopet \(Bio Pipeline Execution Toolkit\) is the main pipeline development frame
 Home          https://github.com/biopet/biopet
 Versions      0.9.0, 0.8.0, 0.7.0
 License       https://github.com/biopet/biopet/blob/develop/biopet-core/src/main/resources/nl/lumc/sasc/biopet/License.txt
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biopet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biopet/meta.yaml
 
 
 

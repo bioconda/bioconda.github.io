@@ -11,7 +11,7 @@ Multivariate tools to analyze comparative data\, i.e. a phylogeny and some trait
 Home          https://CRAN.R-project.org/package=adephylo
 Versions      1.1_11
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-adephylo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-adephylo/meta.yaml
 
 
 

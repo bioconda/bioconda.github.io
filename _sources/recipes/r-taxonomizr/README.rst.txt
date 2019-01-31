@@ -11,7 +11,7 @@ Functions for assigning taxonomy to NCBI accession numbers and taxon IDs based o
 Home          https://CRAN.R-project.org/package=taxonomizr
 Versions      0.5.1
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-taxonomizr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-taxonomizr/meta.yaml
 
 
 

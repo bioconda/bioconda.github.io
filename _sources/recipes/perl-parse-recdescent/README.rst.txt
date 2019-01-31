@@ -11,7 +11,7 @@ Generate Recursive\-Descent Parsers
 Home          http://metacpan.org/pod/Parse-RecDescent
 Versions      1.967015, 1.967013
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-parse-recdescent/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-parse-recdescent/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Importation\, normalization\, visualization\, and quality control functions to c
 Home          https://bioconductor.org/packages/3.8/bioc/html/MANOR.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-manor/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-manor/meta.yaml
 
 
 

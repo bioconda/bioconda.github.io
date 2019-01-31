@@ -11,7 +11,7 @@ A package for the orthology prediction data download from OMA database.
 Home          https://bioconductor.org/packages/3.8/bioc/html/OmaDB.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-omadb/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omadb/meta.yaml
 
 
 

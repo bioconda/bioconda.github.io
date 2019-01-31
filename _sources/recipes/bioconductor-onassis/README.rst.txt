@@ -11,7 +11,7 @@ A package that allows the annotation of text with ontology terms \(mainly from O
 Home          https://bioconductor.org/packages/3.8/bioc/html/Onassis.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-onassis/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-onassis/meta.yaml
 
 
 

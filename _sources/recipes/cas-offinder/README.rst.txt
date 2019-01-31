@@ -11,7 +11,7 @@ Cas\-OFFinder is OpenCL based\, ultrafast and versatile program that searches fo
 Home          https://github.com/snugel/cas-offinder
 Versions      2.4
 License       BSD-3-Clause AND MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cas-offinder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cas-offinder/meta.yaml
 
 
 

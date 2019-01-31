@@ -11,7 +11,7 @@ Nim\-based executables used by Falcon assembly workflow
 Home          https://github.com/bio-nim/nim-falcon
 Versions      0.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nim-falcon/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nim-falcon/meta.yaml
 
 
 

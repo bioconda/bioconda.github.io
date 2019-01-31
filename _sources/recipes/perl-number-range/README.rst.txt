@@ -11,7 +11,7 @@ Perl extension defining ranges of numbers and testing if a number is found in th
 Home          http://metacpan.org/pod/Number::Range
 Versions      0.12
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-number-range/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-number-range/meta.yaml
 
 
 

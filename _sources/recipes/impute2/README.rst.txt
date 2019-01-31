@@ -11,7 +11,7 @@ Genotype imputation and haplotype phasing
 Home          https://mathgen.stats.ox.ac.uk/impute/impute_v2.html
 Versions      2.3.2
 License       Academic use, commerically restricted (http://www.stats.ox.ac.uk/~marchini/software/gwas/gwas.html#licence)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/impute2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//impute2/meta.yaml
 
 
 

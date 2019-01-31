@@ -11,7 +11,7 @@ Detects Gene Ontology and\/or other user defined categories which are over\/unde
 Home          https://bioconductor.org/packages/3.8/bioc/html/goseq.html
 Versions      1.32.0, 1.30.0, 1.28.0, 1.26.0, 1.22.0
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-goseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-goseq/meta.yaml
 
 
 

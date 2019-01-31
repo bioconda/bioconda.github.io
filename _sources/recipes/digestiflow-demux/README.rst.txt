@@ -11,7 +11,7 @@ A command line client tool to perform semiautomatic demultiplexing of Illumina f
 Home          https://github.com/bihealth/digestiflow-demux
 Versions      0.2.0, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/digestiflow-demux/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//digestiflow-demux/meta.yaml
 
 
 

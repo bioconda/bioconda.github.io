@@ -11,7 +11,7 @@ Package for assessing the statistical significance of periodic expression based 
 Home          https://bioconductor.org/packages/3.8/bioc/html/cycle.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cycle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cycle/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ CMPH \- C Minimal Perfect Hashing Library
 Home          http://cmph.sourceforge.net/
 Versions      2.0
 License       LGPL and the MPL 1.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cmph/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cmph/meta.yaml
 
 
 

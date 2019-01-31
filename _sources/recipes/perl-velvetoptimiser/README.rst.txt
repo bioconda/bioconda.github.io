@@ -11,7 +11,7 @@ Automatically optimise three of Velvet\'s assembly parameters.
 Home          https://github.com/tseemann/VelvetOptimiser
 Versions      2.2.6, 2.2.5
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-velvetoptimiser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-velvetoptimiser/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides probe\-level data for 20 HGU133A and 20 HGU133B arrays whi
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ALLMLL.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-allmll/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-allmll/meta.yaml
 
 
 

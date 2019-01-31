@@ -11,7 +11,7 @@ Locates the full path to the script bin directory to allow the use of paths rela
 Home          https://metacpan.org/pod/FindBin::Real
 Versions      1.05
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-findbin-real/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-findbin-real/meta.yaml
 
 
 

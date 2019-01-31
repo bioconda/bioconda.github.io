@@ -11,7 +11,7 @@ Simulator for ddRADseq \(double digest restriction site associated DNA sequencin
 Home          https://bitbucket.org/genomeinformatics/rage
 Versions      1.6.3, 1.6.1, 1.5.2, 1.5.1, 1.4.0, 1.3.1, 1.3.0, 1.2.2, 1.1.4
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ddrage/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ddrage/meta.yaml
 
 
 

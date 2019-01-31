@@ -11,7 +11,7 @@ BSMAP is a short reads mapping software for bisulfite sequencing reads.
 Home          https://code.google.com/archive/p/bsmap/
 Versions      2.90
 License       GNU GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bsmap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bsmap/meta.yaml
 
 
 

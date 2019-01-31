@@ -11,7 +11,7 @@ Li B\, Chen W\, Zhan X\, Busonero F\, Sanna S\, et al. \(2012\) A Likelihood\-Ba
 Home          https://genome.sph.umich.edu/wiki/Polymutt
 Versions      0.18
 License       custom (written permission by author to publish on bioconda)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/polymutt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//polymutt/meta.yaml
 
 
 

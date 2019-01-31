@@ -11,7 +11,7 @@ A tool to derive SNP matrices and phylogenetic tree from raw reads\, contigs\, a
 Home          https://github.com/LANL-Bioinformatics/PhaME
 Versions      1.0.3, 1.0.2, 1.0.1, 1.0, 1.0.0
 License       GPLV2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phame/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phame/meta.yaml
 
 
 

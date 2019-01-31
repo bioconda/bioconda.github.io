@@ -11,7 +11,7 @@ Get information about a class and its structure
 Home          http://metacpan.org/pod/Class-Inspector
 Versions      1.32, 1.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-inspector/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-inspector/meta.yaml
 
 
 

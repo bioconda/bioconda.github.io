@@ -11,7 +11,7 @@ A method for jointly and quantitatively characterizing multivariate epigenetic l
 Home          https://github.com/yuzhang123/IDEAS
 Versions      1.20
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ideas/1.20/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ideas/1.20/meta.yaml
 
 
 

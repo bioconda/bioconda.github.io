@@ -11,7 +11,7 @@ This package provides functions for preprocessing\, automated gating and meta\-a
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetaCyto.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metacyto/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metacyto/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Provides tools to identify and visualize branches in a phylogenetic tree that ar
 Home          https://CRAN.R-project.org/package=SigTree
 Versions      1.10.6
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-sigtree/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-sigtree/meta.yaml
 
 
 

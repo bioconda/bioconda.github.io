@@ -11,7 +11,7 @@ Differential expression of small RNA\-seq when reference annotation is not given
 Home          https://bioconductor.org/packages/3.8/bioc/html/srnadiff.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-srnadiff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-srnadiff/meta.yaml
 
 
 

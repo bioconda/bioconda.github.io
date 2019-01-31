@@ -11,7 +11,7 @@ An interface to iDigBio\'s search API that allows downloading specimen records. 
 Home          https://github.com/iDigBio/ridigbio
 Versions      0.3.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ridigbio/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ridigbio/meta.yaml
 
 
 

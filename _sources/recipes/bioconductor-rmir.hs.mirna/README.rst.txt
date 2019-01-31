@@ -11,7 +11,7 @@ Various databases of microRNA Targets
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/RmiR.Hs.miRNA.html
 Versions      1.0.7
 License       The Artistic License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rmir.hs.mirna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmir.hs.mirna/meta.yaml
 
 
 

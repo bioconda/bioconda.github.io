@@ -11,7 +11,7 @@ EricScript is a computational framework for the discovery of gene fusions in pai
 Home          https://sites.google.com/site/bioericscript
 Versions      0.5.5
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ericscript/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ericscript/meta.yaml
 
 
 

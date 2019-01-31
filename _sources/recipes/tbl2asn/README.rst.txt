@@ -11,7 +11,7 @@ tbl2asn is a program that automates the creation of sequence records for submiss
 Home          https://www.ncbi.nlm.nih.gov/genbank/tbl2asn2
 Versions      25.6, 25.3, 25.0
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tbl2asn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tbl2asn/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A set of wrappers for individual components of the Seurat package. Functions R p
 Home          https://github.com/ebi-gene-expression-group/r-seurat-scripts
 Versions      0.0.4, 0.0.3, 0.0.2, 0.0.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-seurat-scripts/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-seurat-scripts/meta.yaml
 
 
 Development   https://github.com/ebi-gene-expression-group/r-seurat-scripts

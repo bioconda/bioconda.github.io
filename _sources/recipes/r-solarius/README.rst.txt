@@ -11,7 +11,7 @@ SOLAR is the standard software program to perform linkage and association mappin
 Home          https://github.com/ugcd/solarius
 Versions      0.3.0.2
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-solarius/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-solarius/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ uShuffle\-\-\-a useful tool for shuffling biological sequences while preserving 
 Home          http://digital.cs.usu.edu/~mjiang/ushuffle/
 Versions      1.2.2, 1.2.1
 License       custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ushuffle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ushuffle/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ NMRPro reads and processes different types of NMR spectra.
 Home          https://github.com/ahmohamed/nmrpro
 Versions      20161019
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nmrpro/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nmrpro/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ CLI tools to process mapped Hi\-C data
 Home          https://github.com/mirnylab/pairtools
 Versions      0.2.2, 0.2.1, 0.2.0, 0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pairtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pairtools/meta.yaml
 
 Documentation http://pairtools.readthedocs.io/
 

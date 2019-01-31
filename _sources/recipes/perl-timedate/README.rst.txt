@@ -11,7 +11,7 @@ Date formating subroutines
 Home          http://metacpan.org/pod/TimeDate
 Versions      2.30
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-timedate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-timedate/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Parsnp is a command\-line\-tool for efficient microbial core genome alignment an
 Home          https://github.com/marbl/parsnp
 Versions      1.2
 License       custom; see https://raw.githubusercontent.com/marbl/parsnp/master/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/parsnp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parsnp/meta.yaml
 
 
 

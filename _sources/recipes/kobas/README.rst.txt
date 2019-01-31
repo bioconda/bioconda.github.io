@@ -11,7 +11,7 @@ KEGG Orthology Based Annotation System
 Home          http://kobas.cbi.pku.edu.cn
 Versions      3.0.3, 2.1.1
 License       Biopython License Agreement
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kobas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kobas/meta.yaml
 
 
 

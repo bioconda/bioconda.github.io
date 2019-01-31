@@ -11,7 +11,7 @@ Tools for phylogenetic data analysis including visualization and cluster\-comput
 Home          https://github.com/smdabdoub/phylotoast
 Versions      1.4.0rc2, 1.3.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/phylotoast/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//phylotoast/meta.yaml
 
 
 

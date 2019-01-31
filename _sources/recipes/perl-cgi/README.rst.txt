@@ -11,7 +11,7 @@ A generic file fetching mechanism
 Home          https://metacpan.org/pod/distribution/CGI/lib/CGI.pod
 Versions      4.40, 4.22
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cgi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cgi/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ miRNA and isomiR annotation
 Home          https://github.com/lpantano/seqbuster
 Versions      3.2, 3.1, 3.1a, 3.0, 2.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seqbuster/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqbuster/meta.yaml
 
 
 

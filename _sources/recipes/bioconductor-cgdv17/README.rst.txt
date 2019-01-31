@@ -11,7 +11,7 @@ Complete Genomics Diversity Panel\, chr17 on 46 individuals
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/cgdv17.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cgdv17/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cgdv17/meta.yaml
 
 
 

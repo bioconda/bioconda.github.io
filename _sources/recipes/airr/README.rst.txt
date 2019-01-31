@@ -11,7 +11,7 @@ AIRR Community Data Representation Standard reference library for antibody and T
 Home          http://docs.airr-community.org
 Versions      1.2.1
 License       CC BY 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/airr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//airr/meta.yaml
 
 
 

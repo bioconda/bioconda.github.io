@@ -11,7 +11,7 @@ mapDamage\: tracking and quantifying damage patterns in ancient DNA sequences ht
 Home          https://github.com/ginolhac/mapDamage
 Versions      2.0.9, 2.0.8, 2.0.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mapdamage2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mapdamage2/meta.yaml
 
 
 

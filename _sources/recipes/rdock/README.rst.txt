@@ -11,7 +11,7 @@ A Fast\, Versatile and Open Source Program for Docking Ligands to Proteins and N
 Home          http://rdock.sourceforge.net/
 Versions      2013.1
 License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rdock/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rdock/meta.yaml
 
 
 

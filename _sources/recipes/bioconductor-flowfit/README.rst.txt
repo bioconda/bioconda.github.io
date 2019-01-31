@@ -11,7 +11,7 @@ This package estimate the proliferation of a cell population in cell\-tracking d
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowFit.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowfit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowfit/meta.yaml
 
 
 

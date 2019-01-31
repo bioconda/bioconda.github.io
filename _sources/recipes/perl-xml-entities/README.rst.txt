@@ -11,7 +11,7 @@ Mapping of XML entities to Unicode
 Home          http://metacpan.org/pod/XML::Entities
 Versions      1.0002
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-entities/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-entities/meta.yaml
 
 
 

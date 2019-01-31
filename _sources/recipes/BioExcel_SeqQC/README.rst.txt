@@ -11,7 +11,7 @@ Sequence Quality Control pipeline\/modules
 Home          https://github.com/bioexcel/bioexcel_seqqc
 Versions      0.6, 0.5
 License       Apache Software License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/BioExcel_SeqQC/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//BioExcel_SeqQC/meta.yaml
 
 
 

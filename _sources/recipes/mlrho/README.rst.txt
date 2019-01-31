@@ -11,7 +11,7 @@ Takes as input a file with assembled reads from a single diploid individual and 
 Home          http://guanine.evolbio.mpg.de/mlRho/
 Versions      2.9
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mlrho/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mlrho/meta.yaml
 
 
 

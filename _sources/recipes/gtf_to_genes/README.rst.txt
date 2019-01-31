@@ -11,7 +11,7 @@ Fast GTF parser
 Home          http://code.google.com/p/gtf-to-genes/
 Versions      1.40
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gtf_to_genes/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gtf_to_genes/meta.yaml
 
 
 

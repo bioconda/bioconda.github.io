@@ -11,7 +11,7 @@ circos\-tools provides several utility add\-on scripts\, such as for bundling li
 Home          http://circos.ca
 Versions      
 License       GNU General Public License v2 (GPLv2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/circos-tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//circos-tools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Efficiently compute time from local and GMT time
 Home          http://metacpan.org/release/Time-Local
 Versions      1.2300, 1.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-time-local/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-time-local/meta.yaml
 
 
 

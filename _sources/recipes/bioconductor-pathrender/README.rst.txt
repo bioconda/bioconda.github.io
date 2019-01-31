@@ -11,7 +11,7 @@ build graphs from pathway databases\, render them by Rgraphviz.
 Home          https://bioconductor.org/packages/3.8/bioc/html/pathRender.html
 Versions      1.48.0, 1.46.0
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pathrender/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathrender/meta.yaml
 
 
 

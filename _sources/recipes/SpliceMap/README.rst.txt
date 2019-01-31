@@ -11,7 +11,7 @@ Detects splice junctions from RNA\-seq data. This method does not depend on any 
 Home          http://www.stanford.edu/group/wonglab/SpliceMap/
 Versions      3.3.5.2
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/SpliceMap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//SpliceMap/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Given a CSV file of variable information defining the regions of interest\, retu
 Home          https://github.com/xguse/extract-genome-region
 Versions      0.0.3
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/extract_genome_region/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//extract_genome_region/meta.yaml
 
 
 

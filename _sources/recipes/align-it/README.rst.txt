@@ -11,7 +11,7 @@ Align\-it is a tool to align molecules according to their pharmacophores. A phar
 Home          http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/align-it/1.0.4/align-it.html
 Versions      1.0.3
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/align-it/1.0.3/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//align-it/1.0.3/meta.yaml
 
 
 

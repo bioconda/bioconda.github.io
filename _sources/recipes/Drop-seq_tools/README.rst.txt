@@ -12,7 +12,7 @@ Package for the analysis of Drop\-seq data developed by Jim Nemesh in the McCarr
 Home          http://mccarrolllab.com/dropseq/
 Versions      2.0.0, 1.13
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/Drop-seq_tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//Drop-seq_tools/meta.yaml
 
 
 

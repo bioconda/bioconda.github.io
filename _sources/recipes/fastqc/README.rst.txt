@@ -11,7 +11,7 @@ A quality control tool for high throughput sequence data.
 Home          http://www.bioinformatics.babraham.ac.uk/projects/fastqc/
 Versions      0.11.8, 0.11.7, 0.11.6, 0.11.5, 0.11.4, 0.11.3, 0.11.2, 0.10.1
 License       GPL >=3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastqc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastqc/meta.yaml
 
 
 

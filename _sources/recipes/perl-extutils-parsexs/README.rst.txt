@@ -11,7 +11,7 @@ converts Perl XS code into C code
 Home          http://metacpan.org/pod/ExtUtils::ParseXS
 Versions      3.35, 3.28
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-parsexs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-parsexs/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ IO\:\: style interface to Compress\:\:Zlib
 Home          http://metacpan.org/pod/IO::Zlib
 Versions      1.10
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-zlib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-zlib/meta.yaml
 
 
 

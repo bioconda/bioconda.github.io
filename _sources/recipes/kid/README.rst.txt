@@ -11,7 +11,7 @@ A simple and pythonic XML template language
 Home          https://pypi.python.org/pypi/kid
 Versions      0.9.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kid/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kid/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Regular expressions for XML tokens
 Home          http://metacpan.org/pod/XML-RegExp
 Versions      0.04
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-regexp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-regexp/meta.yaml
 
 
 

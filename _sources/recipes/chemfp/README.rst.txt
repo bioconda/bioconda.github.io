@@ -23,7 +23,7 @@ OpenEye\, and RDKit toolkits.
 Home          https://chemfp.com
 Versions      1.4, 1.3, 1.3a1, 1.1p1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chemfp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//chemfp/meta.yaml
 
 
 

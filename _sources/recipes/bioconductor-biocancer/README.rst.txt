@@ -11,7 +11,7 @@ bioCancer is a Shiny App to visualize and analyse interactively Multi\-Assays of
 Home          https://bioconductor.org/packages/3.8/bioc/html/bioCancer.html
 Versions      
 License       AGPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biocancer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocancer/meta.yaml
 
 
 

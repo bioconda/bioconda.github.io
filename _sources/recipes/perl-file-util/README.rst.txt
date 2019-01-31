@@ -11,7 +11,7 @@ Easy\, versatile\, portable file handling
 Home          https://github.com/tommybutler/file-util/wiki
 Versions      4.161950
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-util/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-util/meta.yaml
 
 
 

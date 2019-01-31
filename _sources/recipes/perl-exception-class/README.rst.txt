@@ -11,7 +11,7 @@ A module that allows you to declare real exception classes in Perl
 Home          http://metacpan.org/release/Exception-Class
 Versions      1.44, 1.40
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-exception-class/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-exception-class/meta.yaml
 
 
 

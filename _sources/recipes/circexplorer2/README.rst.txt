@@ -11,7 +11,7 @@ Circular RNA analysis toolkits
 Home          https://github.com/YangLab/CIRCexplorer2
 Versions      2.3.5, 2.3.3, 2.3.2, 2.3.1, 2.3.0, 2.2.7, 2.2.6, 2.2.5, 2.2.4, 2.2.3, 2.2.2, 2.2.1, 2.2.0, 2.1.2, 2.1.1, 2.1.0, 2.0.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/circexplorer2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//circexplorer2/meta.yaml
 
 
 

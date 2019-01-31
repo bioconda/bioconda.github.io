@@ -11,7 +11,7 @@ Advanced Enumerations \(compatible with Python\'s stdlib Enum\)\, NamedTuples\, 
 Home          https://bitbucket.org/stoneleaf/aenum
 Versions      2.0.8, 1.4.5
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/aenum/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//aenum/meta.yaml
 
 
 

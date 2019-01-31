@@ -15,7 +15,7 @@ empirical and non\-emperical priors and fine\-mapping.
 Home          https://sourceforge.net/projects/trinculo/
 Versions      0.96
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/trinculo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trinculo/meta.yaml
 
 
 

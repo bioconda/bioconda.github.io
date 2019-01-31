@@ -11,7 +11,7 @@ Tool for modeling RNA\-Seq experiments in silico
 Home          http://sammeth.net/confluence/display/SIM/Home
 Versions      1.2.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/flux-simulator/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flux-simulator/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Process UMI\-4C data from scratch to produce nice plots.
 Home          https://bitbucket.org/tanaylab/umi4cpackage
 Versions      0.0.0.9000
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-umi4c/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-umi4c/meta.yaml
 
 
 

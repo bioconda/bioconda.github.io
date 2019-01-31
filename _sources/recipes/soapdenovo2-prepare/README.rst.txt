@@ -11,7 +11,7 @@ SoapDenovo2 data prepare module using assembled contig to do scaffold assembly.
 Home          https://github.com/aquaskyline/SOAPdenovo2
 Versions      2.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapdenovo2-prepare/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapdenovo2-prepare/meta.yaml
 
 
 

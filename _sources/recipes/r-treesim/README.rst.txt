@@ -11,7 +11,7 @@ Simulation methods for phylogenetic trees where \(i\) all tips are sampled at on
 Home          https://CRAN.R-project.org/package=TreeSim
 Versions      2.3
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-treesim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-treesim/meta.yaml
 
 
 

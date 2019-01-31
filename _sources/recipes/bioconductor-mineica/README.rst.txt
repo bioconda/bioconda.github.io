@@ -11,7 +11,7 @@ The goal of MineICA is to perform Independent Component Analysis \(ICA\) on mult
 Home          https://bioconductor.org/packages/3.8/bioc/html/MineICA.html
 Versions      1.18.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mineica/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mineica/meta.yaml
 
 
 

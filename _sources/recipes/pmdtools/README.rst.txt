@@ -11,7 +11,7 @@ Compute postmortem damage patterns and decontaminate ancient genomes
 Home          https://github.com/pontussk/PMDtools
 Versions      0.60
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pmdtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pmdtools/meta.yaml
 
 
 

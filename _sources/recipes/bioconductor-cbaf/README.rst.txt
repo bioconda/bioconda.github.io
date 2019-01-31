@@ -11,7 +11,7 @@ This package contains functions that allow analysing and comparing various gene 
 Home          https://bioconductor.org/packages/3.8/bioc/html/cbaf.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cbaf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cbaf/meta.yaml
 
 
 

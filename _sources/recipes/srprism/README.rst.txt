@@ -11,7 +11,7 @@ SRPRISM \- Short Read Alignment Tool
 Home          ftp://ftp.ncbi.nlm.nih.gov/pub/agarwala/srprism/
 Versions      2.4.24
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/srprism/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//srprism/meta.yaml
 
 
 

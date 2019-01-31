@@ -11,7 +11,7 @@ Bayesian Inference of Phylogeny
 Home          http://mrbayes.sourceforge.net
 Versions      3.2.6
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mrbayes/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mrbayes/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A method for identifying pattern changes between 2 experimental conditions in co
 Home          https://CRAN.R-project.org/package=DiffCorr
 Versions      
 License       GPL (> 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-diffcorr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-diffcorr/meta.yaml
 
 
 

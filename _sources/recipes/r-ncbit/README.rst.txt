@@ -11,7 +11,7 @@ making NCBI taxonomic data locally available and searchable as an R object
 Home          https://CRAN.R-project.org/package=ncbit
 Versions      2013.03.29
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ncbit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ncbit/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package contains a function to do exact Hardy\-Weinburg testing \(using Fis
 Home          https://CRAN.R-project.org/package=GWASExactHW
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gwasexacthw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gwasexacthw/meta.yaml
 
 
 

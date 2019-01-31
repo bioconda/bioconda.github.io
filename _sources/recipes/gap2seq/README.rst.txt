@@ -11,7 +11,7 @@ Gap2Seq is a tool for filling gaps between contigs in genome assemblies.
 Home          https://www.cs.helsinki.fi/u/lmsalmel/Gap2Seq/
 Versions      2.1, 2.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gap2seq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gap2seq/meta.yaml
 
 
 

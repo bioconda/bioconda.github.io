@@ -11,7 +11,7 @@ Find differentially expressed genes from RNA\-seq data with few replicates using
 Home          http://compbio.tongji.edu.cn/~fengjx/GFOLD/gfold.html
 Versions      1.1.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gfold/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gfold/meta.yaml
 
 
 

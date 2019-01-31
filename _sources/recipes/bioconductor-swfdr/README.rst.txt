@@ -11,7 +11,7 @@ This package allows users to estimate the science\-wise false discovery rate fro
 Home          https://bioconductor.org/packages/3.8/bioc/html/swfdr.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-swfdr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-swfdr/meta.yaml
 
 
 

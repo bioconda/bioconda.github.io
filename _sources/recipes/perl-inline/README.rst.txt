@@ -11,7 +11,7 @@ Write Perl Subroutines in Other Programming Languages
 Home          https://github.com/ingydotnet/inline-pm
 Versions      0.80
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-inline/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-inline/meta.yaml
 
 
 

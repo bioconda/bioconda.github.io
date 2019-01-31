@@ -11,7 +11,7 @@ check for POD errors in files
 Home          http://search.cpan.org/dist/Test-Pod/
 Versions      1.52, 1.51
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-pod/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-pod/meta.yaml
 
 
 

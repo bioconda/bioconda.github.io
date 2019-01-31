@@ -11,7 +11,7 @@ This packages provides a targeted pre\-processing method for GC\-MS data.
 Home          https://bioconductor.org/packages/3.8/bioc/html/TargetSearch.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-targetsearch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-targetsearch/meta.yaml
 
 
 

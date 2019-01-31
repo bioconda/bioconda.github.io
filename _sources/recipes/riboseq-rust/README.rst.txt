@@ -11,7 +11,7 @@ Ribo\-seq Unit Step Transformation. Tools to characterise the determinants of ri
 Home          https://lapti.ucc.ie/rust/
 Versions      1.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/riboseq-rust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//riboseq-rust/meta.yaml
 
 
 

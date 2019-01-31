@@ -11,7 +11,7 @@ Parse CIGAR strings and translate coordinates to\/from reference\/query
 Home          https://github.com/MullinsLab/Bio-Cigar
 Versions      1.01
 License       gpl_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-cigar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-cigar/meta.yaml
 
 
 

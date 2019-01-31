@@ -11,7 +11,7 @@ A collection of utilities for constructing complex geometries from primitive sha
 Home          https://github.com/pletzer/icqsol
 Versions      0.3.26, 0.3.20
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/icqsol/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//icqsol/meta.yaml
 
 
 

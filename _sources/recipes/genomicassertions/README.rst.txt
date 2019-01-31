@@ -11,7 +11,7 @@ A package to test common files in genomics \(.vcf.gz\, .bam\)
 Home          https://github.com/dakl/genomicassertions
 Versions      0.2.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomicassertions/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genomicassertions/meta.yaml
 
 
 

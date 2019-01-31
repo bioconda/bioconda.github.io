@@ -11,7 +11,7 @@ Celera Assembler \(wgs\-assembler\) is a de novo whole\-genome shotgun \(WGS\) D
 Home          http://wgs-assembler.sourceforge.net/wiki/index.php?title=Main_Page
 Versions      8.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wgs-assembler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wgs-assembler/meta.yaml
 
 
 

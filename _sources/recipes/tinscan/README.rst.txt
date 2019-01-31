@@ -11,7 +11,7 @@ Find alignment signatures characteristic of transposon insertion sites.
 Home          https://github.com/Adamtaranto/TE-insertion-scanner
 Versions      0.2.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tinscan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tinscan/meta.yaml
 
 
 

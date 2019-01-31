@@ -11,7 +11,7 @@ store multi\-level Perl hash structure in single level tied hash
 Home          http://metacpan.org/pod/MLDBM
 Versions      2.05
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mldbm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mldbm/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Species richness estimation is an important problem in biodiversity analysis. Th
 Home          https://CRAN.R-project.org/package=breakaway
 Versions      3.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-breakaway/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-breakaway/meta.yaml
 
 
 

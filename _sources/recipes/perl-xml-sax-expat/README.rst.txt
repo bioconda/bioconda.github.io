@@ -11,7 +11,7 @@ SAX Driver for Expat
 Home          http://metacpan.org/pod/XML-SAX-Expat
 Versions      0.51
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-sax-expat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-sax-expat/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Provides HDF5 storage based methods and functions for manipulation of flow cytom
 Home          https://bioconductor.org/packages/3.8/bioc/html/ncdfFlow.html
 Versions      2.26.0, 2.24.0, 2.22.2, 2.22.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ncdfflow/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ncdfflow/meta.yaml
 
 
 

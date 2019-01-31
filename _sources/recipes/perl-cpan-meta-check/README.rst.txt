@@ -11,7 +11,7 @@ Verify requirements in a CPAN\:\:Meta object
 Home          http://metacpan.org/pod/CPAN::Meta::Check
 Versions      0.014, 0.012
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-cpan-meta-check/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-cpan-meta-check/meta.yaml
 
 
 

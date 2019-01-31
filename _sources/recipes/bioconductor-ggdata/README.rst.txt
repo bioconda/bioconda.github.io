@@ -11,7 +11,7 @@ data exemplars dealing with hapmap SNP reports\, GWAS\, etc.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GGdata.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ggdata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ggdata/meta.yaml
 
 
 

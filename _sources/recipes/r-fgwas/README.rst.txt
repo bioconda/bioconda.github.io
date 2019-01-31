@@ -11,7 +11,7 @@ GWAS tools for longitudinal genetic traits based on fGWAS statistical model.
 Home          https://github.com/wzhy2000/fGWAS
 Versions      0.3.6, 0.3.5
 License       GNU GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-fgwas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-fgwas/meta.yaml
 
 
 

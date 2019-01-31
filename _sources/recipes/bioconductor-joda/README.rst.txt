@@ -11,7 +11,7 @@ Package \'joda\' implements three steps of an algorithm called JODA. The algorit
 Home          https://bioconductor.org/packages/3.8/bioc/html/joda.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-joda/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-joda/meta.yaml
 
 
 

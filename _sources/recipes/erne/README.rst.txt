@@ -11,7 +11,7 @@ ERNE \- Extended Randomized Numerical alignEr
 Home          http://erne.sourceforge.net
 Versions      2.1.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/erne/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//erne/meta.yaml
 
 
 

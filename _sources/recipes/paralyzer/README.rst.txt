@@ -11,7 +11,7 @@ We developed the PARalyzer algorithm to generate a high resolution map of intera
 Home          https://ohlerlab.mdc-berlin.de/software/PARalyzer_85/
 Versions      1.5
 License       PARalyzer is provided for academic use only, if you wish to use it in another setting please contact Uwe Ohler.
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/paralyzer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//paralyzer/meta.yaml
 
 
 

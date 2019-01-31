@@ -11,7 +11,7 @@ A normalization tool for RNA\-Seq data\, implementing the conditional quantile n
 Home          https://bioconductor.org/packages/3.8/bioc/html/cqn.html
 Versions      1.26.0, 1.24.0, 1.22.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cqn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cqn/meta.yaml
 
 
 

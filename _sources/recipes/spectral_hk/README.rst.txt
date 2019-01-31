@@ -11,7 +11,7 @@ NCGC Spectral HashKey
 Home          https://bitbucket.org/ncgc/spectral_hk
 Versions      0.1
 License       PUBLIC DOMAIN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/spectral_hk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spectral_hk/meta.yaml
 
 
 

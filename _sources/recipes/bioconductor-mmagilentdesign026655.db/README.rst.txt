@@ -11,7 +11,7 @@ Agilent Chips that use Agilent design number 026655 annotation data \(chip MmAgi
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MmAgilentDesign026655.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mmagilentdesign026655.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mmagilentdesign026655.db/meta.yaml
 
 
 

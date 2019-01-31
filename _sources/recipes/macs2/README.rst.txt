@@ -11,7 +11,7 @@ Model Based Analysis for ChIP\-Seq data
 Home          http://github.com/taoliu/MACS/
 Versions      2.1.2, 2.1.1.20160309, 2.1.1, 2.1.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/macs2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//macs2/meta.yaml
 
 
 

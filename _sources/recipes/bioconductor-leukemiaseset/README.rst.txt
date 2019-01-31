@@ -11,7 +11,7 @@ Expressionset containing gene expresion data from 60 bone marrow samples of pati
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/leukemiasEset.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-leukemiaseset/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-leukemiaseset/meta.yaml
 
 
 

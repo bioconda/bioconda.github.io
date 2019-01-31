@@ -11,7 +11,7 @@ Python API for Arvados\, an open source platform for managing and analyzing biom
 Home          https://github.com/curoverse/arvados/tree/master/sdk/python
 Versions      1.3.0.20181130020805, 1.2.1, 1.2.0.20181121194423, 1.2.0.20181109162613, 1.2.0.20181108215719, 1.2.0.20180905185317, 0.1.20171211211613, 0.1.20171010180436, 0.1.20170818194607, 0.1.20161123074954, 0.1.20161031135838, 0.1.20160517202250, 0.1.20160412193510, 0.1.20160331153549, 0.1.20160318153100, 0.1.20160301181511
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/arvados-python-client/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//arvados-python-client/meta.yaml
 
 
 

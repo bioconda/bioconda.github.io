@@ -11,7 +11,7 @@ Low\-level HTTP connection \(client\)
 Home          https://github.com/libwww-perl/Net-HTTP
 Versions      6.18, 6.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-net-http/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-net-http/meta.yaml
 
 
 

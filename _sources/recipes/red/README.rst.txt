@@ -11,7 +11,7 @@ Red \(RepeatsDetector\)\: an intelligent\, rapid\, accurate tool for detecting r
 Home          http://toolsmith.ens.utulsa.edu
 Versions      2015.05.22
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/red/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//red/meta.yaml
 
 
 

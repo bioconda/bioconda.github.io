@@ -11,7 +11,7 @@ Analysis of ChIP\-seq and other functional sequencing data \[Kharchenko PV \(200
 Home          https://CRAN.R-project.org/package=spp
 Versions      1.15.5, 1.15.2, 1.14post, 1.14, 1.13, 1.11
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-spp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-spp/meta.yaml
 
 
 

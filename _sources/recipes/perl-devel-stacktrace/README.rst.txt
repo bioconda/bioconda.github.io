@@ -11,7 +11,7 @@ An object representing a stack trace
 Home          http://metacpan.org/release/Devel-StackTrace
 Versions      2.03, 2.00
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-stacktrace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-stacktrace/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Provides several methods for factor analysis in high dimension \(both n\,p \>\> 
 Home          https://CRAN.R-project.org/package=cate
 Versions      1.0.4
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-cate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cate/meta.yaml
 
 
 

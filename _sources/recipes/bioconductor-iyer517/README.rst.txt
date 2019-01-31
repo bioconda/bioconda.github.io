@@ -11,7 +11,7 @@ representation of public Iyer data from http\:\/\/genome\-www.stanford.edu\/seru
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Iyer517.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-iyer517/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iyer517/meta.yaml
 
 
 

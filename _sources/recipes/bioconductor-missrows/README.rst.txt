@@ -11,7 +11,7 @@ The missRows package implements the MI\-MFA method to deal with missing individu
 Home          https://bioconductor.org/packages/3.8/bioc/html/missRows.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-missrows/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-missrows/meta.yaml
 
 
 

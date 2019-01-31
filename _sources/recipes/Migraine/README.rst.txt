@@ -11,7 +11,7 @@ Implements coalescent algorithms for maximum likelihood analysis of population g
 Home          http://kimura.univ-montp2.fr/~rousset/Migraine.htm
 Versions      0.5.4, 0.5.2
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/Migraine/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//Migraine/meta.yaml
 
 
 

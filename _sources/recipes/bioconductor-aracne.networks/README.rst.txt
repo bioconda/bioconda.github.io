@@ -11,7 +11,7 @@ This package contains ARACNe\-inferred networks from TCGA tumor datasets. It als
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/aracne.networks.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-aracne.networks/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aracne.networks/meta.yaml
 
 
 

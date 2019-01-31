@@ -11,7 +11,7 @@ Combines all of the best Perl IO modules into a single nifty object oriented int
 Home          https://github.com/ingydotnet/io-all-pm
 Versions      0.87, 0.86
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-all/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-all/meta.yaml
 
 
 

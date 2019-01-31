@@ -11,7 +11,7 @@ Clusters and compares protein or nucleotide sequences
 Home          https://github.com/weizhongli/cdhit
 Versions      4.6.8, 4.6.6, 4.6.4
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cd-hit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cd-hit/meta.yaml
 
 
 

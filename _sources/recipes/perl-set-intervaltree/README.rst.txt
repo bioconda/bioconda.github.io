@@ -11,7 +11,7 @@ An interval tree implementation in PERL.
 Home          https://metacpan.org/pod/Set::IntervalTree
 Versions      0.11, 0.10, 0.1
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-set-intervaltree/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-set-intervaltree/meta.yaml
 
 
 

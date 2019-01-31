@@ -11,7 +11,7 @@ Jellyfish is a tool for fast\, memory\-efficient counting of k\-mers in DNA. A k
 Home          http://www.genome.umd.edu/jellyfish.html
 Versions      2.2.10, 2.2.6, 2.2.3, 1.1.12, 1.1.11
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/jellyfish/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//jellyfish/meta.yaml
 
 
 Development   https://github.com/gmarcais/Jellyfish

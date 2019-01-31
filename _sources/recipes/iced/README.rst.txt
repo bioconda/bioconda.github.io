@@ -11,7 +11,7 @@ The python module iced implements the ICE normalization of hic data.
 Home          https://github.com/hiclib/iced
 Versions      0.5.0, 0.4.2
 License       new BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/iced/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//iced/meta.yaml
 
 
 

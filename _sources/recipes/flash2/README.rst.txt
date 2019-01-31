@@ -11,7 +11,7 @@ Merge paired\-end reads from fragments that are shorter than twice the read leng
 Home          https://github.com/dstreett/FLASH2
 Versions      2.2.00
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/flash2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//flash2/meta.yaml
 
 
 

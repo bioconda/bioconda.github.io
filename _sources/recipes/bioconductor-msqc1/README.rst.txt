@@ -11,7 +11,7 @@ The data set contains an eight technical replicate data set and a three replicat
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/msqc1.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msqc1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msqc1/meta.yaml
 
 
 

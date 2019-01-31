@@ -11,7 +11,7 @@ DNase\-seq analysis library
 Home          http://jpiper.github.io/pyDNase
 Versions      0.3.0, 0.2.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pydnase/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pydnase/meta.yaml
 
 Documentation http://pythonhosted.org/pyDNase/index.html
 

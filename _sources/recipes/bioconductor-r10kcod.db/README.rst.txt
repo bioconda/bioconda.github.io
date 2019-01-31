@@ -11,7 +11,7 @@ Codelink UniSet Rat I Bioarray \(\~10 000 rat gene targets\) annotation data \(c
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/r10kcod.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-r10kcod.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-r10kcod.db/meta.yaml
 
 
 

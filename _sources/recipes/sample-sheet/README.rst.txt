@@ -11,7 +11,7 @@ An Illumina Sample Sheet parsing library
 Home          https://github.com/clintval/sample-sheet
 Versions      0.8.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sample-sheet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sample-sheet/meta.yaml
 
 Documentation https://sample-sheet.readthedocs.io/
 

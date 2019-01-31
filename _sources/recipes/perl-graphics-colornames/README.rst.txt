@@ -11,7 +11,7 @@ defines RGB values for common color names
 Home          http://metacpan.org/pod/Graphics::ColorNames
 Versions      2.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-graphics-colornames/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-graphics-colornames/meta.yaml
 
 
 

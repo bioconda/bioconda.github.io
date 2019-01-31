@@ -11,7 +11,7 @@ A module for working with NMR data in Python
 Home          http://www.nmrglue.com
 Versions      0.6, 0.5
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nmrglue/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nmrglue/meta.yaml
 
 
 

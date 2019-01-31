@@ -11,7 +11,7 @@ Emulate file interface for in\-core strings
 Home          http://metacpan.org/pod/IO-String
 Versions      1.08
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-string/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-string/meta.yaml
 
 
 

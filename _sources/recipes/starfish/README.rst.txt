@@ -11,7 +11,7 @@ standardized analysis pipeline for image\-based transcriptomics
 Home          https://github.com/spacetx/starfish
 Versions      0.0.31, 0.0.30, 0.0.29, 0.0.27, 0.0.26, 0.0.25, 0.0.23, 0.0.21, 0.0.20, 0.0.19, 0.0.18, 0.0.17, 0.0.16, 0.0.14
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/starfish/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//starfish/meta.yaml
 
 
 

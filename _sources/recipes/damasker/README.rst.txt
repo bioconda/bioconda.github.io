@@ -11,7 +11,7 @@ DAMASKER\: Module to determine where repeats are and make soft\-masks of said
 Home          https://github.com/thegenemyers/DAMASKER
 Versions      1.0p1
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/damasker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//damasker/meta.yaml
 
 
 

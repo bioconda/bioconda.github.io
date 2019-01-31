@@ -11,7 +11,7 @@ create and use a local lib\/ for perl modules with PERL5LIB
 Home          http://metacpan.org/pod/local::lib
 Versions      2.000024
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-local-lib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-local-lib/meta.yaml
 
 
 

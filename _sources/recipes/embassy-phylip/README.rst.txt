@@ -11,7 +11,7 @@ embassy\/emboss wrappers for phylip functions
 Home          http://emboss.open-bio.org/
 Versions      3.69.650
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/embassy-phylip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//embassy-phylip/meta.yaml
 
 
 

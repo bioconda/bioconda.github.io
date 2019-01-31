@@ -11,7 +11,7 @@ Interface to Thorsten Joachims\' SVM\-Light
 Home          https://bitbucket.org/wcauchois/pysvmlight
 Versions      0.4
 License       UNKNOWN
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pysvmlight/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysvmlight/meta.yaml
 
 
 

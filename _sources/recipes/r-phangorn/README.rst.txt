@@ -11,7 +11,7 @@ Package contains methods for estimation of phylogenetic trees and networks using
 Home          https://github.com/KlausVigo/phangorn
 Versions      2.4.0, 2.2.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-phangorn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-phangorn/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Lambda is a local aligner optimized for many query sequences and searches in pro
 Home          http://seqan.github.io/lambda/
 Versions      1.0.3
 License       AGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lambda/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lambda/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perform random operations on fastq files\, using unix streaming. Secure your ana
 Home          https://github.com/lskatz/fasten
 Versions      0.1.13
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fasten/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fasten/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Lightweight pure\-perl XML Parser \(based on regexps\)
 Home          http://metacpan.org/pod/XML-Parser-Lite
 Versions      0.722, 0.721
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-parser-lite/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-parser-lite/meta.yaml
 
 
 

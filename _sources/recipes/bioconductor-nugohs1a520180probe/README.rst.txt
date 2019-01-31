@@ -11,7 +11,7 @@ This package was automatically created by package AnnotationForge version 1.11.2
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180probe.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nugohs1a520180probe/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nugohs1a520180probe/meta.yaml
 
 
 

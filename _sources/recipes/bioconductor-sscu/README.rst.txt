@@ -11,7 +11,7 @@ The package calculates the indexes for selective stength in codon usage in bacte
 Home          https://bioconductor.org/packages/3.8/bioc/html/sscu.html
 Versions      2.10.0, 2.8.0, 2.6.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sscu/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sscu/meta.yaml
 
 
 

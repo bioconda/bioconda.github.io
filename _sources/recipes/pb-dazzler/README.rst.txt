@@ -11,7 +11,7 @@ The Dresden Assembler suite \-\- Pacific Biosciences forks
 Home          https://github.com/PacificBiosciences
 Versions      0.0.0
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pb-dazzler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pb-dazzler/meta.yaml
 
 
 

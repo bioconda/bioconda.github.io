@@ -12,7 +12,7 @@ MiXCR is a universal software for fast and accurate analysis of raw T\- or B\- c
 Home          https://github.com/milaboratory/mixcr
 Versions      2.1.10, 2.1.3
 License       https://github.com/milaboratory/mixcr/blob/develop/LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mixcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mixcr/meta.yaml
 
 
 

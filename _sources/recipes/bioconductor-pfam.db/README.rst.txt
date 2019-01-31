@@ -11,7 +11,7 @@ A set of protein ID mappings for PFAM assembled using data from public repositor
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/PFAM.db.html
 Versions      3.6.0, 3.5.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pfam.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pfam.db/meta.yaml
 
 
 

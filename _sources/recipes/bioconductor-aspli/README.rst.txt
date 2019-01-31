@@ -11,7 +11,7 @@ Integrative pipeline for the analysis of alternative splicing using RNAseq.
 Home          https://bioconductor.org/packages/3.8/bioc/html/ASpli.html
 Versions      1.6.0, 1.4.0, 1.2.3
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-aspli/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aspli/meta.yaml
 
 
 

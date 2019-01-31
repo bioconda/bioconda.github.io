@@ -11,7 +11,7 @@ This R package is designed for subsampling procedure to simulate sequencing expe
 Home          https://bioconductor.org/packages/3.8/bioc/html/samExploreR.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-samexplorer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-samexplorer/meta.yaml
 
 
 

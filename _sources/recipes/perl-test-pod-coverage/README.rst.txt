@@ -11,7 +11,7 @@ Check for pod coverage in your distribution
 Home          http://metacpan.org/pod/Test::Pod::Coverage
 Versions      1.10
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-pod-coverage/1.10/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-pod-coverage/1.10/meta.yaml
 
 
 

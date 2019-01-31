@@ -11,7 +11,7 @@ This package contains microarray gene expression data generated from the Connect
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ccdata.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ccdata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ccdata/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Bandage \- a Bioinformatics Application for Navigating De novo Assembly Graphs E
 Home          https://github.com/rrwick/Bandage
 Versions      0.8.1
 License       GNU General Public License, version 3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bandage/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bandage/meta.yaml
 
 
 

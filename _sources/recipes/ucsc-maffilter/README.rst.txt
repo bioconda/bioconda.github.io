@@ -11,7 +11,7 @@ Filter out maf files. Output goes to standard out
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 324
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-maffilter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-maffilter/meta.yaml
 
 
 

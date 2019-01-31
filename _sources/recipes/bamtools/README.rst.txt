@@ -11,7 +11,7 @@ C\+\+ API \& command\-line toolkit for working with BAM data
 Home          https://github.com/pezmaster31/bamtools
 Versions      2.5.1, 2.4.1, 2.4.0, 2.3.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bamtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bamtools/meta.yaml
 
 
 

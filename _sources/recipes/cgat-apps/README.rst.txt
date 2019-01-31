@@ -11,7 +11,7 @@ Computational Genomics Analysis Toolkit
 Home          https://www.cgat.org/downloads/public/cgat/documentation
 Versions      0.5.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cgat-apps/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cgat-apps/meta.yaml
 
 
 

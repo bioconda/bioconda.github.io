@@ -11,7 +11,7 @@ The TRONCO \(TRanslational ONCOlogy\) R package collects algorithms to infer pro
 Home          https://bioconductor.org/packages/3.8/bioc/html/TRONCO.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tronco/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tronco/meta.yaml
 
 
 

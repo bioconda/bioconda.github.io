@@ -11,7 +11,7 @@ Contains the Homo.sapiens object to access data from several related annotation 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Homo.sapiens.html
 Versions      1.3.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-homo.sapiens/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-homo.sapiens/meta.yaml
 
 
 

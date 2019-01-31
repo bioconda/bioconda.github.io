@@ -11,7 +11,7 @@ OPSIN is a Java\(1.6\+\) library for IUPAC name\-to\-structure conversion offeri
 Home          https://bitbucket.org/dan2097/opsin/
 Versions      2.1.0, 1.4.0
 License       Artistic License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/opsin/1.4.0/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//opsin/1.4.0/meta.yaml
 
 
 

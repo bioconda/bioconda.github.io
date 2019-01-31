@@ -11,7 +11,7 @@ LineagePulse is a differential expression and expression model fitting package t
 Home          https://bioconductor.org/packages/3.8/bioc/html/LineagePulse.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-lineagepulse/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lineagepulse/meta.yaml
 
 
 

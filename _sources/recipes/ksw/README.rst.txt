@@ -11,7 +11,7 @@ Ksw\: \(interactive\) smith\-waterman in C
 Home          https://github.com/nh13/ksw
 Versions      0.2.1, 0.2.0, 0.1.0a, 0.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ksw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ksw/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Munkres.pm
 Home          http://metacpan.org/pod/Algorithm-Munkres
 Versions      0.08
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-algorithm-munkres/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-algorithm-munkres/meta.yaml
 
 
 

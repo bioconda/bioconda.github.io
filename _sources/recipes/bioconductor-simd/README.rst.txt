@@ -11,7 +11,7 @@ This package provides a inferential analysis method for detecting differentially
 Home          https://bioconductor.org/packages/3.8/bioc/html/SIMD.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-simd/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-simd/meta.yaml
 
 
 

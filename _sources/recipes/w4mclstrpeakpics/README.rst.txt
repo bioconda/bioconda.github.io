@@ -11,7 +11,7 @@ Visualize W4M sample\-cluster peaks \- Produce a figure to assess the similariti
 Home          https://github.com/HegemanLab/w4mclstrpeakpics
 Versions      0.98.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/w4mclstrpeakpics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//w4mclstrpeakpics/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Primer3\-py is a Python\-abstracted API for the popular Primer3 library.
 Home          https://libnano.github.io/primer3-py/
 Versions      0.5.4, 0.5.1
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/primer3-py/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//primer3-py/meta.yaml
 
 
 

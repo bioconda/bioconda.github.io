@@ -11,7 +11,7 @@ Lightweight interface to shared memory
 Home          http://metacpan.org/pod/IPC::ShareLite
 Versions      0.17
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ipc-sharelite/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ipc-sharelite/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Latent variable modeling with Principal Component Analysis\(PCA\) and Partial Le
 Home          https://bioconductor.org/packages/3.8/bioc/html/ropls.html
 Versions      1.12.0, 1.10.0, 1.8.0, 1.6.0, 1.4.4, 1.4.2, 1.2.14
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ropls/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ropls/meta.yaml
 
 
 

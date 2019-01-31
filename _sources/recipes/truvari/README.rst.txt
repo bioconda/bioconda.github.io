@@ -11,7 +11,7 @@ Structural variant comparison tool for VCFs
 Home          https://github.com/spiralgenetics/truvari
 Versions      0.1.2018.08.10
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/truvari/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//truvari/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Perl SAX parser using nsgmls
 Home          http://metacpan.org/pod/libxml-perl
 Versions      0.08
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-libxml-perl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-libxml-perl/meta.yaml
 
 
 

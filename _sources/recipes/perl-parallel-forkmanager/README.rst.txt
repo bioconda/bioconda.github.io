@@ -11,7 +11,7 @@ A simple parallel processing fork manager
 Home          https://github.com/dluxhu/perl-parallel-forkmanager
 Versions      2.02, 1.17
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-parallel-forkmanager/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-parallel-forkmanager/meta.yaml
 
 
 

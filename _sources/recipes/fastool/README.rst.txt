@@ -11,7 +11,7 @@ A simple and quick tool to read huge FastQ and FastA files \(both normal and gzi
 Home          https://github.com/fstrozzi/Fastool
 Versions      0.1.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastool/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastool/meta.yaml
 
 
 

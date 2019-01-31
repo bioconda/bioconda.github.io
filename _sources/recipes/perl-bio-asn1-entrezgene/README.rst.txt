@@ -11,7 +11,7 @@ Regular expression\-based Perl Parser for NCBI Entrez Gene
 Home          http://search.cpan.org/dist/Bio-ASN1-EntrezGene
 Versions      1.73, 1.72, 1.70
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-asn1-entrezgene/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-asn1-entrezgene/meta.yaml
 
 
 

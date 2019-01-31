@@ -28,7 +28,7 @@ The FASTX\-Toolkit tools perform some of these preprocessing tasks.\'
 Home          https://github.com/agordon/fastx_toolkit
 Versions      0.0.14
 License       AGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastx_toolkit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastx_toolkit/meta.yaml
 
 
 

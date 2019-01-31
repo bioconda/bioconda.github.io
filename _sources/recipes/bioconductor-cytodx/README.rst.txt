@@ -11,7 +11,7 @@ This package provides functions that predict clinical outcomes using single cell
 Home          https://bioconductor.org/packages/3.8/bioc/html/CytoDx.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cytodx/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cytodx/meta.yaml
 
 
 

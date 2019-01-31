@@ -11,7 +11,7 @@ metabolomics formula prediction and van Krevelen diagram generation
 Home          https://github.com/HegemanLab/vkmz
 Versions      1.4dev2, v1.4dev1, v1.3.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vkmz/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vkmz/meta.yaml
 
 
 

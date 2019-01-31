@@ -11,7 +11,7 @@ A problem when recording 3D fluorescent microscopy images is how to properly pre
 Home          https://bioconductor.org/packages/3.8/bioc/html/MaxContrastProjection.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-maxcontrastprojection/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-maxcontrastprojection/meta.yaml
 
 
 

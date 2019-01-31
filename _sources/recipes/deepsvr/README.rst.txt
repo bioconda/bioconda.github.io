@@ -11,7 +11,7 @@ DeepSVR stands for deep somatic variant refinement. It uses deep learning to cla
 Home          https://github.com/griffithlab/deepsvr
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/deepsvr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//deepsvr/meta.yaml
 
 
 

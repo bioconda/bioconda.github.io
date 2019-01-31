@@ -11,7 +11,7 @@ Tools to access CHADO databases
 Home          https://github.com/sanger-pathogens/chado-tools
 Versions      0.0.5, 0.0.4, 0.0.3
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chado-tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//chado-tools/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Interval tree convenience classes for genomic data
 Home          https://github.com/konstantint/intervaltree-bio
 Versions      1.0.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/intervaltree_bio/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//intervaltree_bio/meta.yaml
 
 
 

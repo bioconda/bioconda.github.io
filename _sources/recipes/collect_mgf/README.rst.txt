@@ -11,7 +11,7 @@ Collects MGF files and dd\_results from an XMass setup\_QDD.tcl experiment to a 
 Home          http://www.ms-utils.org/collect_mgf.c
 Versions      1.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/collect_mgf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//collect_mgf/meta.yaml
 
 
 

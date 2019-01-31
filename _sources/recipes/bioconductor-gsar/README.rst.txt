@@ -11,7 +11,7 @@ Gene set analysis using specific alternative hypotheses. Tests for differential 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GSAR.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gsar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gsar/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Fastphylo is software project containing the implementations of the algorithms \
 Home          https://github.com/arvestad/FastPhylo
 Versions      1.0.3
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastphylo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastphylo/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ NucDiff locates and categorizes differences between two closely related nucleoti
 Home          https://github.com/uio-cels/NucDiff
 Versions      2.0.2, 0.1.1
 License       MPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nucdiff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nucdiff/meta.yaml
 
 
 

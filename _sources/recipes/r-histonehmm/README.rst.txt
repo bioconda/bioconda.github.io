@@ -11,7 +11,7 @@ histoneHMM is a software to analyse ChIP\-seq data of histone modifications with
 Home          http://histonehmm.molgen.mpg.de/
 Versions      1.7, 1.6
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-histonehmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-histonehmm/meta.yaml
 
 
 Development   https://github.com/matthiasheinig/histoneHMM

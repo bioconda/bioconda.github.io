@@ -11,7 +11,7 @@ A package to analyze flow cytometric data using gate information to follow popul
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowCyBar.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-flowcybar/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowcybar/meta.yaml
 
 
 

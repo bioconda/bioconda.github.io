@@ -11,7 +11,7 @@ A python interface to the 2D triangulation program TRIANGLE
 Home          https://github.com/pletzer/pytriangle
 Versions      1.0.9, 1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pytriangle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pytriangle/meta.yaml
 
 
 

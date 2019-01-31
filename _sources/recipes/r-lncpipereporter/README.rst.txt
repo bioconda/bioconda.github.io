@@ -11,7 +11,7 @@ Automatically Aggregating and Summarizing lncRNA Analysis Results for Interactiv
 Home          https://github.com/bioinformatist/LncPipeReporter
 Versions      0.1.1
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-lncpipereporter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-lncpipereporter/meta.yaml
 
 
 

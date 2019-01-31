@@ -11,7 +11,7 @@ A package containing an environment representing the Hu35KsubD.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hu35ksubdcdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hu35ksubdcdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hu35ksubdcdf/meta.yaml
 
 
 

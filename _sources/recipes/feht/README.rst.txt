@@ -11,7 +11,7 @@ A commandline program to automatically identify markers predictive of groups. Ca
 Home          https://github.com/chadlaing/feht/
 Versions      1.1.0, 1.0.1
 License       BSD 3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/feht/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//feht/meta.yaml
 
 
 

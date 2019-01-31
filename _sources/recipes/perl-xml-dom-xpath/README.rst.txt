@@ -11,7 +11,7 @@ Perl extension to add XPath support to XML\:\:DOM\, using XML\:\:XPath engine
 Home          http://metacpan.org/pod/XML-DOM-XPath
 Versions      0.14
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-xml-dom-xpath/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-xml-dom-xpath/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package to visualise Gene Ontology \(GO\) enrichment analysis results on gene 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GOsummaries.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gosummaries/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gosummaries/meta.yaml
 
 
 

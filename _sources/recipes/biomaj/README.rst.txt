@@ -11,7 +11,7 @@ Automates the update cycle and the supervision of the locally mirrored databank 
 Home          http://biomaj.genouest.org
 Versions      3.0.19
 License       GNU Affero General Public License v3 or later (AGPLv3+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biomaj/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biomaj/meta.yaml
 
 
 

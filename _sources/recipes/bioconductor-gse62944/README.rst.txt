@@ -11,7 +11,7 @@ TCGA processed RNA\-Seq data for 9264 tumor and 741 normal samples across 24 can
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GSE62944.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gse62944/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gse62944/meta.yaml
 
 
 

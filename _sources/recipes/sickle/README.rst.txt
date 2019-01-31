@@ -11,7 +11,7 @@ A lightweight OAI client library for Python
 Home          http://github.com/mloesch/sickle
 Versions      0.6.4, 0.6.3, 0.5
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sickle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sickle/meta.yaml
 
 
 

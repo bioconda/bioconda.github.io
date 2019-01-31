@@ -11,7 +11,7 @@ A python module to read and write the Newick format
 Home          https://github.com/glottobank/python-newick
 Versions      0.9.2, 0.8.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-newick/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-newick/meta.yaml
 
 
 

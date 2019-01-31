@@ -11,7 +11,7 @@ Inferring copy number variants in high\-coverage human genomes with next\-genera
 Home          http://www.utahresearch.org/mingfuzhu/erds/
 Versions      1.1
 License       Free to academia and non-profit organizations
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/erds/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//erds/meta.yaml
 
 
 

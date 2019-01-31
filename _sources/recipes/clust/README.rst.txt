@@ -11,7 +11,7 @@ Optimised consensus clustering of multiple heterogeneous datasets.
 Home          https://github.com/baselabujamous/clust
 Versions      1.8.10, 1.8.9, 1.8.7, 1.8.4
 License       University of Oxford Academic Use Licence
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clust/meta.yaml
 
 
 

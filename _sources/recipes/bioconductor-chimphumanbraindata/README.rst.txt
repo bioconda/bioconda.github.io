@@ -11,7 +11,7 @@ This data package contains chimp and human brain data extracted from the ArrayEx
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ChimpHumanBrainData.html
 Versions      
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chimphumanbraindata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chimphumanbraindata/meta.yaml
 
 
 

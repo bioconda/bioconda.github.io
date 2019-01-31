@@ -11,7 +11,7 @@ Python Client for BioThings API services.
 Home          https://github.com/biothings/biothings_client.py
 Versions      0.2.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biothings_client/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biothings_client/meta.yaml
 
 
 

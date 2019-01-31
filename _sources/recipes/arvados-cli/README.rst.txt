@@ -11,7 +11,7 @@ Command line interface to Arvados\, a free and open source platform for big data
 Home          http://doc.arvados.org/sdk/cli/index.html
 Versions      0.1.20151207150126
 License       Apache v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/arvados-cli/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//arvados-cli/meta.yaml
 
 
 

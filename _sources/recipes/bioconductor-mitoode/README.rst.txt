@@ -11,7 +11,7 @@ The package contains the methods to fit a cell\-cycle model on cell count data a
 Home          https://bioconductor.org/packages/3.8/bioc/html/mitoODE.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mitoode/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mitoode/meta.yaml
 
 
 

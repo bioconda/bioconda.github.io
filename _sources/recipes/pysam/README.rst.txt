@@ -11,7 +11,7 @@ Pysam is a python module for reading and manipulating Samfiles. It is a lightwei
 Home          https://github.com/pysam-developers/pysam
 Versions      0.15.2, 0.15.1, 0.15.0.1, 0.15.0, 0.14.1, 0.14.0, 0.13.0, 0.12.0.1, 0.11.2.2, 0.11.2.1, 0.11.1, 0.11.0, 0.10.0, 0.9.1.4, 0.9.1, 0.9.0, 0.8.4, 0.8.4pre0, 0.8.3, 0.7.7
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pysam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysam/meta.yaml
 
 
 

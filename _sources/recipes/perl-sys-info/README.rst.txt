@@ -11,7 +11,7 @@ Fetch information from the host system
 Home          http://metacpan.org/pod/Sys::Info
 Versions      0.7811, 0.78
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sys-info/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sys-info/meta.yaml
 
 
 

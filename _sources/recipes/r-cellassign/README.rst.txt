@@ -11,7 +11,7 @@ Automated\, probabilistic assignment of cell types in scRNA\-seq data
 Home          https://github.com/Irrationone/cellassign
 Versions      0.99.0
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-cellassign/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cellassign/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Automatically generated RnBeads annotation package for the assembly rn5.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RnBeads.rn5.html
 Versions      1.12.0, 1.10.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnbeads.rn5/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnbeads.rn5/meta.yaml
 
 
 

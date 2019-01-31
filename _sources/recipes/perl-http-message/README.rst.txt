@@ -11,7 +11,7 @@ HTTP style message \(base class\)
 Home          https://github.com/libwww-perl/HTTP-Message
 Versions      6.18, 6.11
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-http-message/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-http-message/meta.yaml
 
 
 

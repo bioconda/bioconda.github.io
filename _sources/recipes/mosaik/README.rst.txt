@@ -11,7 +11,7 @@ MOSAIK is a stable\, sensitive and open\-source program for mapping second and t
 Home          https://github.com/wanpinglee/MOSAIK
 Versions      2.2.26
 License       GPL 2.0+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mosaik/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mosaik/meta.yaml
 
 
 

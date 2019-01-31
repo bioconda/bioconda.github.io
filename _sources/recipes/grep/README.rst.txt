@@ -11,7 +11,7 @@ Grep searches one or more input files for lines containing a match to a specifie
 Home          https://www.gnu.org/software/grep/
 Versions      2.14
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/grep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//grep/meta.yaml
 
 
 

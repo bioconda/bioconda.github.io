@@ -11,7 +11,7 @@ The central goal of XGR by Fang et al. \(2016\) \<doi\:10.1186\/s13073\-016\-038
 Home          http://XGR.r-forge.r-project.org, http://galahad.well.ox.ac.uk/XGR
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-xgr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-xgr/meta.yaml
 
 
 

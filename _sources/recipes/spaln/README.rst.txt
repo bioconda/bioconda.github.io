@@ -11,7 +11,7 @@ Map and align a set of cDNA\/EST or protein sequences onto a genome
 Home          http://www.genome.ist.i.kyoto-u.ac.jp/~aln_user/spaln/
 Versions      2.3.2
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/spaln/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spaln/meta.yaml
 
 
 Development   https://github.com/ogotoh/spaln

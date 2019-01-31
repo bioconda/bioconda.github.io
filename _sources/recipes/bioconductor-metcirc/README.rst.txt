@@ -11,7 +11,7 @@ MetCirc comprises a workflow to interactively explore high\-resolution MS\/MS me
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetCirc.html
 Versions      1.10.0, 1.6.0, 1.2.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metcirc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metcirc/meta.yaml
 
 
 

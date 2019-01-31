@@ -11,7 +11,7 @@ a set of common perl utilities for generating consistent Vcf headers
 Home          https://github.com/cancerit/cgpVcf
 Versions      2.2.1, 1.3.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sanger-cgp-vcf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sanger-cgp-vcf/meta.yaml
 
 
 

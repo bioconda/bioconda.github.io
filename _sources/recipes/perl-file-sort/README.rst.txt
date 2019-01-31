@@ -11,7 +11,7 @@ Sort a file or merge sort multiple files
 Home          http://metacpan.org/pod/File-Sort
 Versions      1.01
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-sort/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-sort/meta.yaml
 
 
 

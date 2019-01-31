@@ -11,7 +11,7 @@ FACS example data for cell\-based assays. This data is used in the examples and 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/facsDorit.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-facsdorit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-facsdorit/meta.yaml
 
 
 

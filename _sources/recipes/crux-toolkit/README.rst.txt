@@ -11,7 +11,7 @@ A cross\-platform suite of analysis tools for interpreting protein mass spectrom
 Home          http://crux.ms
 Versions      3.2
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/crux-toolkit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//crux-toolkit/meta.yaml
 
 
 Development   https://github.com/crux-toolkit/crux-toolkit

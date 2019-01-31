@@ -11,7 +11,7 @@ Big Data Genomics ADAM Pipe API wrappers for bioinformatics tools
 Home          https://github.com/bigdatagenomics/cannoli
 Versions      0.2.0
 License       Apache 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cannoli/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cannoli/meta.yaml
 
 
 

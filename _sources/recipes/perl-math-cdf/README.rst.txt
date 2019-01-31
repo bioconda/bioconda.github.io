@@ -11,7 +11,7 @@ Generate probabilities and quantiles from several statistical probability functi
 Home          http://metacpan.org/pod/Math-CDF
 Versions      0.1
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-cdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-math-cdf/meta.yaml
 
 
 

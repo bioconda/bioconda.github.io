@@ -11,7 +11,7 @@ pythonic way to crate xml\/\(x\)html files
 Home          https://pypi.python.org/pypi/xmlbuilder/1.0
 Versions      1.0
 License       LGPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xmlbuilder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xmlbuilder/meta.yaml
 
 
 

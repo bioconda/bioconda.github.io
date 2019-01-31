@@ -11,7 +11,7 @@ A few simple math function for other Oxford Nanopore processing scripts
 Home          https://github.com/wdecoster/nanomath
 Versions      0.22.0, 0.21.0, 0.20.0, 0.18.1, 0.16.2, 0.14.2, 0.12.5
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nanomath/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nanomath/meta.yaml
 
 
 

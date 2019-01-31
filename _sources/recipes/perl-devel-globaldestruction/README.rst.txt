@@ -11,7 +11,7 @@ Provides function returning the equivalent of \$\{\^GLOBAL\_PHASE\} eq \'DESTRUC
 Home          https://metacpan.org/release/Devel-GlobalDestruction
 Versions      0.14, 0.13
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-devel-globaldestruction/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-devel-globaldestruction/meta.yaml
 
 
 

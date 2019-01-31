@@ -11,7 +11,7 @@ CONUS is an implementation of simple stochastic context\-free grammars for RNA s
 Home          http://eddylab.org/software/conus/
 Versions      1.0
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/conus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//conus/meta.yaml
 
 
 

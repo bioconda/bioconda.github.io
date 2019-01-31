@@ -11,7 +11,7 @@ Motif \(transcription factor binding sites\) discovery in sequences from coregul
 Home          http://159.149.160.51/modtools/
 Versions      2.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/weeder/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//weeder/meta.yaml
 
 
 

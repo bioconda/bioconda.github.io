@@ -11,7 +11,7 @@ A pipeline for viral metagenomics
 Home          http://virmet.readthedocs.io
 Versions      v1.1.1, v1.1, v1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/virmet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//virmet/meta.yaml
 
 
 Development   https://github.com/ozagordi/VirMet

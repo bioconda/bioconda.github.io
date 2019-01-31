@@ -11,7 +11,7 @@ Small general purpose library for C and Python with focus on bioinformatics.
 Home          https://github.com/benedictpaten/sonLib
 Versions      1.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sonlib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sonlib/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Base class for creating singleton objects
 Home          http://metacpan.org/pod/Class::Singleton
 Versions      1.5
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-singleton/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-singleton/meta.yaml
 
 
 

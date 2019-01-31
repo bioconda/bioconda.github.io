@@ -11,7 +11,7 @@ Choose appropriate clone utility
 Home          https://metacpan.org/release/Clone-Choose
 Versions      0.010
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-clone-choose/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-clone-choose/meta.yaml
 
 
 

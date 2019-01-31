@@ -11,7 +11,7 @@ return across multiple call levels
 Home          http://metacpan.org/pod/Return::MultiLevel
 Versions      0.05
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-return-multilevel/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-return-multilevel/meta.yaml
 
 
 

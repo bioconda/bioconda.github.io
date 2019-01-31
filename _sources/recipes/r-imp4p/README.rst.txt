@@ -11,7 +11,7 @@ Functions to analyse missing value mechanisms and to impute data sets in the con
 Home          https://CRAN.R-project.org/package=imp4p
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-imp4p/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-imp4p/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Give this a XML document to look at and it will come up with a DTD
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357, 332
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-autodtd/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-autodtd/meta.yaml
 
 
 

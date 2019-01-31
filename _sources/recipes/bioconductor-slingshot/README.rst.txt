@@ -11,7 +11,7 @@ Provides functions for inferring continuous\, branching lineage structures in lo
 Home          https://bioconductor.org/packages/3.8/bioc/html/slingshot.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-slingshot/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-slingshot/meta.yaml
 
 
 

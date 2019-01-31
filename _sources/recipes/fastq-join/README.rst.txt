@@ -11,7 +11,7 @@ Similar to audy\'s stitch program\, but in C\, more efficient and supports some 
 Home          https://github.com/brwnj/fastq-join
 Versions      1.3.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastq-join/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq-join/meta.yaml
 
 
 

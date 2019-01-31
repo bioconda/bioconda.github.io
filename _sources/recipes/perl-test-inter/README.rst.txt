@@ -11,7 +11,7 @@ framework for more readable interactive test scripts
 Home          http://metacpan.org/pod/Test::Inter
 Versions      1.07, 1.06
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-inter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-inter/meta.yaml
 
 
 

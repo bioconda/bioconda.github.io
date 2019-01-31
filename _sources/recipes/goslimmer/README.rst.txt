@@ -11,7 +11,7 @@ GOSlimmer transforms GO annotations to a slimmed version of GO
 Home          https://github.com/DanFaria/GOSlimmer
 Versions      1.0
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/goslimmer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//goslimmer/meta.yaml
 
 
 

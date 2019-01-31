@@ -11,7 +11,7 @@ These recipes convert a variety and a growing number of public proteomics data s
 Home          https://bioconductor.org/packages/3.8/bioc/html/ProteomicsAnnotationHubData.html
 Versions      1.8.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-proteomicsannotationhubdata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-proteomicsannotationhubdata/meta.yaml
 
 
 

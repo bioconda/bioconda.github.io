@@ -11,7 +11,7 @@ Calculates the coverage of high\-throughput short\-reads against a genome of ref
 Home          https://bioconductor.org/packages/3.8/bioc/html/easyRNASeq.html
 Versions      2.16.0, 2.14.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-easyrnaseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-easyrnaseq/meta.yaml
 
 
 

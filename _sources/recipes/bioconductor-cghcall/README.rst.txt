@@ -11,7 +11,7 @@ Calls aberrations for array CGH data using a six state mixture model as well as 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CGHcall.html
 Versions      2.42.0, 2.40.0, 2.38.0, 2.34.1, 2.34.0
 License       GPL (http://www.gnu.org/copyleft/gpl.html)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cghcall/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cghcall/meta.yaml
 
 
 

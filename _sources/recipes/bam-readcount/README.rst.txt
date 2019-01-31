@@ -11,7 +11,7 @@ bam\-readcount generates metrics at single nucleotide positions.
 Home          https://github.com/genome/bam-readcount
 Versions      0.8
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bam-readcount/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bam-readcount/meta.yaml
 
 
 

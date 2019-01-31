@@ -11,7 +11,7 @@ SOAPcoverarge can calculate sequencing coverage or physical coverage as well as 
 Home          http://soap.genomics.org.cn/soapaligner.html
 Versions      2.7.7
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/soapcoverage/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//soapcoverage/meta.yaml
 
 
 

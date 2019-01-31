@@ -11,7 +11,7 @@ ecoPrimers is a software that finds primers from a set of sequence.
 Home          https://git.metabarcoding.org/obitools/ecoprimers/wikis/home
 Versions      1.0
 License       CeCill v2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ecoprimers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ecoprimers/meta.yaml
 
 
 

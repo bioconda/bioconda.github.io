@@ -11,7 +11,7 @@ MSnbase provides infrastructure for manipulation\, processing and visualisation 
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSnbase.html
 Versions      2.4.0, 2.2.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-msnbase/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msnbase/meta.yaml
 
 
 

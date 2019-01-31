@@ -11,7 +11,7 @@ revtrans \- performs a reverse translation of a peptide alignment.
 Home          http://www.cbs.dtu.dk/services/RevTrans-2.0/web/download.php
 Versions      1.4
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/revtrans/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//revtrans/meta.yaml
 
 
 

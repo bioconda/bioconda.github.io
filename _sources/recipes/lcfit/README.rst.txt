@@ -11,7 +11,7 @@ Likelihood curve fitting by nonlinear least squares.
 Home          https://github.com/matsengrp/lcfit
 Versions      0.5, 0.4
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/lcfit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//lcfit/meta.yaml
 
 
 

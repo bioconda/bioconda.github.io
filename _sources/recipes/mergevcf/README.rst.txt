@@ -11,7 +11,7 @@ Python package and routines for merging VCF files
 Home          https://github.com/ljdursi/mergevcf
 Versions      1.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mergevcf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mergevcf/meta.yaml
 
 
 

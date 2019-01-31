@@ -11,7 +11,7 @@ Multiple alignment of RNAs
 Home          http://www.bioinf.uni-freiburg.de/Software/LocARNA/
 Versions      1.9.2, 1.9.1, 1.9.0, 1.8.12, 1.8.11, 1.8.10, 1.8.9, 1.8.7
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/locarna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//locarna/meta.yaml
 
 
 

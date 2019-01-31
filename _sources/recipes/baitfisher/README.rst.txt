@@ -11,7 +11,7 @@ The BaitFisher\-package is a software package for designing hybrid enrichment pr
 Home          https://github.com/cmayer/BaitFisher-package
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/baitfisher/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//baitfisher/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Utility package to find gene \<\-\> drug relationships within CARD
 Home          https://gitlab.com/cgps/card_trick
 Versions      0.1.2, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/card_trick/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//card_trick/meta.yaml
 
 
 

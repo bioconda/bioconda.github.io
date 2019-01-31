@@ -11,7 +11,7 @@ A tool for conducting RNA seq analysis.
 Home          https://github.com/mshakya/PyPiReT
 Versions      0.3.4
 License       GPLV2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/piret/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//piret/meta.yaml
 
 
 

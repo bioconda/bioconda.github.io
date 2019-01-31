@@ -11,7 +11,7 @@ Illumina\, 454 and Solid read simulator
 Home          http://www.niehs.nih.gov/research/resources/software/biostatistics/art/
 Versions      2016.06.05, 3.19.15, 3.11.14
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/art/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//art/meta.yaml
 
 
 

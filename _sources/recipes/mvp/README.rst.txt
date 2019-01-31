@@ -11,7 +11,7 @@ detect creation\/destruction of sequence motifs as a result of mutations
 Home          https://gitlab.com/LPCDRP/motif-variants
 Versions      0.4.3, 0.4.1
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mvp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mvp/meta.yaml
 
 
 

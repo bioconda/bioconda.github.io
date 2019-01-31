@@ -11,7 +11,7 @@ This package contains functions enabling data exchange between R and Gaggle enab
 Home          https://bioconductor.org/packages/3.8/bioc/html/gaggle.html
 Versions      
 License       GPL version 2 or newer
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gaggle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gaggle/meta.yaml
 
 
 

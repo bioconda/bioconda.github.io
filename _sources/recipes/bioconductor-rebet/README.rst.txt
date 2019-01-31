@@ -11,7 +11,7 @@ There is an increasing focus to investigate the association between rare variant
 Home          https://bioconductor.org/packages/3.8/bioc/html/REBET.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rebet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rebet/meta.yaml
 
 
 

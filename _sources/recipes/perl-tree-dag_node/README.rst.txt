@@ -11,7 +11,7 @@ An N\-ary tree
 Home          http://metacpan.org/pod/Tree-DAG_Node
 Versions      1.31, 1.29
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-tree-dag_node/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tree-dag_node/meta.yaml
 
 
 

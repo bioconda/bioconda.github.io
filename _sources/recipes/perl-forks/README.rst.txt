@@ -11,7 +11,7 @@ drop\-in replacement for Perl threads using fork\(\)
 Home          http://search.cpan.org/~rybskej/forks/lib/forks.pm
 Versions      0.36
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-forks/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-forks/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package contains utility functions used by the Genome Analysis Toolkit \(GA
 Home          https://CRAN.R-project.org/package=gsalib
 Versions      2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gsalib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gsalib/meta.yaml
 
 
 

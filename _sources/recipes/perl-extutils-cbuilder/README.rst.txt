@@ -11,7 +11,7 @@ Compile and link C code for Perl modules
 Home          http://search.cpan.org/dist/ExtUtils-CBuilder
 Versions      0.280230
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-cbuilder/0.280230/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-cbuilder/0.280230/meta.yaml
 
 
 

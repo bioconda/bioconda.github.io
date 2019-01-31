@@ -11,7 +11,7 @@ The package contains functions that are intended for extracting the signatures o
 Home          https://bioconductor.org/packages/3.8/bioc/html/SVAPLSseq.html
 Versions      1.6.0, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-svaplsseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-svaplsseq/meta.yaml
 
 
 

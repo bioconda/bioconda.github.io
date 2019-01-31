@@ -11,7 +11,7 @@ Sequence Elements Enrichment Analysis \(SEER\)\, python implementation
 Home          https://github.com/mgalardini/pyseer
 Versions      1.2.0, 1.1.2, 1.1.1, 1.1.0, 1.0.2, 0.3.1
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyseer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyseer/meta.yaml
 
 
 

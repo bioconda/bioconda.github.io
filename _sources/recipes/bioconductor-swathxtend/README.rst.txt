@@ -11,7 +11,7 @@ Contains utility functions for integrating spectral libraries for SWATH and stat
 Home          https://bioconductor.org/packages/3.8/bioc/html/SwathXtend.html
 Versions      2.2.0, 2.0.0, 1.4.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-swathxtend/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-swathxtend/meta.yaml
 
 
 

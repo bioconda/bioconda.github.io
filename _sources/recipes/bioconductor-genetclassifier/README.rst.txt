@@ -11,7 +11,7 @@ Comprehensive package to automatically train and validate a multi\-class SVM cla
 Home          https://bioconductor.org/packages/3.8/bioc/html/geNetClassifier.html
 Versions      1.20.0, 1.18.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genetclassifier/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genetclassifier/meta.yaml
 
 
 

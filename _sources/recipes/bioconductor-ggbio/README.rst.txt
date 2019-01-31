@@ -11,7 +11,7 @@ The ggbio package extends and specializes the grammar of graphics for biological
 Home          https://bioconductor.org/packages/3.8/bioc/html/ggbio.html
 Versions      1.28.5, 1.26.0, 1.24.1, 1.22.0, 1.20.2, 1.18.5, 1.18.1, 1.18.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ggbio/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ggbio/meta.yaml
 
 
 

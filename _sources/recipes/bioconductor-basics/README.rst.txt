@@ -11,7 +11,7 @@ Single\-cell mRNA sequencing can uncover novel cell\-to\-cell heterogeneity in g
 Home          https://bioconductor.org/packages/3.8/bioc/html/BASiCS.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-basics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-basics/meta.yaml
 
 
 

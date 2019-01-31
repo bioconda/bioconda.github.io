@@ -11,7 +11,7 @@ LAST finds similar regions between sequences\, and aligns them. It is designed f
 Home          http://last.cbrc.jp/
 Versions      941, 876, 874, 847, 719, 638, 490
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/last/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//last/meta.yaml
 
 
 

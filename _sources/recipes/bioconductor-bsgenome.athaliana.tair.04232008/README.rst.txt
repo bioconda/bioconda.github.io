@@ -11,7 +11,7 @@ Full genome sequences for Arabidopsis thaliana as provided by TAIR \(snapshot fr
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Athaliana.TAIR.04232008.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.athaliana.tair.04232008/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.athaliana.tair.04232008/meta.yaml
 
 
 

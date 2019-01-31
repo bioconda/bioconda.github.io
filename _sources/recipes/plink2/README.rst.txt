@@ -11,7 +11,7 @@ Whole genome association analysis toolset\, designed to perform a range of basic
 Home          https://www.cog-genomics.org/plink2
 Versions      1.90b3.35
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/plink2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//plink2/meta.yaml
 
 
 

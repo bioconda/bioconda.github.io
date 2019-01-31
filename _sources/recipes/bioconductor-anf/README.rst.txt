@@ -11,7 +11,7 @@ This package is used for complex patient clustering by integrating multi\-omic d
 Home          https://bioconductor.org/packages/3.8/bioc/html/ANF.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-anf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-anf/meta.yaml
 
 
 

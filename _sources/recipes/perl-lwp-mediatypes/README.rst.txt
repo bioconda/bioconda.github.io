@@ -11,7 +11,7 @@ guess media type for a file or a URL
 Home          http://metacpan.org/pod/LWP::MediaTypes
 Versions      6.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-lwp-mediatypes/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-lwp-mediatypes/meta.yaml
 
 
 

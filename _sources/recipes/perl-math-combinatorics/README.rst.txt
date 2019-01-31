@@ -11,7 +11,7 @@ Perform combinations and permutations on lists
 Home          http://metacpan.org/pod/Math-Combinatorics
 Versions      0.09
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-combinatorics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-math-combinatorics/meta.yaml
 
 
 

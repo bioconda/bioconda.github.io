@@ -11,7 +11,7 @@ Validate method\/function parameters
 Home          http://metacpan.org/pod/Params-Validate
 Versions      1.29, 1.26, 1.08
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-params-validate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-params-validate/meta.yaml
 
 
 

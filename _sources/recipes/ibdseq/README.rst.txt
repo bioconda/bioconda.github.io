@@ -11,7 +11,7 @@ IBDseq is a software program for detecting segments of identity\-by\-descent \(I
 Home          http://faculty.washington.edu/browning/ibdseq.html
 Versions      r1206
 License       Apache v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ibdseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ibdseq/meta.yaml
 
 
 

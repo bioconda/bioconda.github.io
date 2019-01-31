@@ -11,7 +11,7 @@ Python 3 Metabolic Network Topology Tools
 Home          https://github.com/cfrioux/MeneTools
 Versions      1.0.4_1
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/menetools/1.0.4_1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//menetools/1.0.4_1/meta.yaml
 
 
 

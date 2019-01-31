@@ -11,7 +11,7 @@ Slurp entire files into variables
 Home          http://metacpan.org/pod/Slurp
 Versions      0.4
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-slurp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-slurp/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Tablet is a lightweight\, high\-performance graphical viewer for next generation
 Home          https://ics.hutton.ac.uk/tablet
 Versions      1.17.08.17
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tablet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tablet/meta.yaml
 
 
 

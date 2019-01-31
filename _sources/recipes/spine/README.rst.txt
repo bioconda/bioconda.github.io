@@ -11,7 +11,7 @@ Identification of conserved nucleotide core genome of bacteria and other small g
 Home          https://github.com/egonozer/Spine
 Versions      0.2.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/spine/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//spine/meta.yaml
 
 
 

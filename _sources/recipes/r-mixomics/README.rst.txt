@@ -11,7 +11,7 @@ Multivariate methods are well suited to large omics data sets where the number o
 Home          http://www.mixOmics.org
 Versions      6.3.1, 6.2.0, 6.1.1, 5.2.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mixomics/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mixomics/meta.yaml
 
 
 

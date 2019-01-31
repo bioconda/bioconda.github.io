@@ -11,7 +11,7 @@ Methods for segmenting\, normalising and processing aCGH data\; including plotti
 Home          https://bioconductor.org/packages/3.8/bioc/html/snapCGH.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-snapcgh/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snapcgh/meta.yaml
 
 
 

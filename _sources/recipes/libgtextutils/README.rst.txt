@@ -11,7 +11,7 @@ Gordon Text utils Library
 Home          https://github.com/agordon/libgtextutils
 Versions      0.7
 License       AGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libgtextutils/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libgtextutils/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ HLAProfiler uses k\-mer profiles to predict HLA types from paired\-end RNA\-seq 
 Home          https://github.com/ExpressionAnalysis/HLAProfiler
 Versions      1.0.5, 1.0.4, 1.0.3, 1.0.2, 1.0.1
 License       Custom non-commercial license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hlaprofiler/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hlaprofiler/meta.yaml
 
 
 

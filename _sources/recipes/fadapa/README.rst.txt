@@ -11,7 +11,7 @@ FAstqc DAta PArser \- A minimal parser to parse FastQC output data
 Home          https://github.com/fadapa/fadapa
 Versions      0.3.1
 License       uncopyrighted
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fadapa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fadapa/meta.yaml
 
 
 

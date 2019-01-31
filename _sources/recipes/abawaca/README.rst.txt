@@ -11,7 +11,7 @@ abawaca is a binning program for metagenomics
 Home          https://github.com/CK7/abawaca
 Versions      1.00
 License       open source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/abawaca/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//abawaca/meta.yaml
 
 
 

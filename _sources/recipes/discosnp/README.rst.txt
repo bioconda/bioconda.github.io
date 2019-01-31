@@ -11,7 +11,7 @@ Designed for discovering all kinds of SNPs
 Home          https://gatb.inria.fr/software/discosnp/
 Versions      2.3.0, 2.2.10
 License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/discosnp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//discosnp/meta.yaml
 
 
 

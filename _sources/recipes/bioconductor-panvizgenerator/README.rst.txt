@@ -11,7 +11,7 @@ PanViz is a JavaScript based visualisation tool for functionaly annotated pangen
 Home          https://bioconductor.org/packages/3.8/bioc/html/PanVizGenerator.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-panvizgenerator/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-panvizgenerator/meta.yaml
 
 
 

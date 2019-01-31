@@ -11,7 +11,7 @@ SV detection from paired end reads mapping
 Home          https://github.com/genome/breakdancer
 Versions      1.4.5
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/breakdancer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//breakdancer/meta.yaml
 
 
 

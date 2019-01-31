@@ -11,7 +11,7 @@ command\-line tools for processing ChIP\-nexus data
 Home          https://github.com/avsecz/nimnexus
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nimnexus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nimnexus/meta.yaml
 
 
 

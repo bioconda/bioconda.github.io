@@ -11,7 +11,7 @@ C Language Support for Inline
 Home          https://github.com/ingydotnet/inline-c-pm
 Versions      0.78, 0.76
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-inline-c/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-inline-c/meta.yaml
 
 
 

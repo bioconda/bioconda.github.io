@@ -11,7 +11,7 @@ Locate Mac OS X Standard System Directories
 Home          https://github.com/chansen/p5-Mac-SystemDirectory
 Versions      0.10
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-mac-systemdirectory/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-mac-systemdirectory/meta.yaml
 
 
 

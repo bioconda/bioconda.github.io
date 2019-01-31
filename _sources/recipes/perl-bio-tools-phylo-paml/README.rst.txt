@@ -11,7 +11,7 @@ Parses output from the PAML programs codeml\, baseml\, basemlg\, codemlsites and
 Home          https://metacpan.org/release/Bio-Tools-Phylo-PAML
 Versions      1.7.3
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-bio-tools-phylo-paml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-bio-tools-phylo-paml/meta.yaml
 
 
 

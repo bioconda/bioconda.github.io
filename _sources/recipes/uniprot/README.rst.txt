@@ -11,7 +11,7 @@ Retrieve protein sequence identifiers and metadata from http\:\/\/uniprot.org
 Home          http://github.com/boscoh/uniprot
 Versions      1.3
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/uniprot/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//uniprot/meta.yaml
 
 
 

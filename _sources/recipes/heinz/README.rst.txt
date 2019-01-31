@@ -11,7 +11,7 @@ The algorithm for identification of the optimal scoring subnetwork.
 Home          https://github.com/ls-cwi/heinz
 Versions      2.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/heinz/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//heinz/meta.yaml
 
 
 

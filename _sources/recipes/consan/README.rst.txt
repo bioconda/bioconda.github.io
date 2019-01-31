@@ -11,7 +11,7 @@ Pairwise RNA structural alignment\, both unconstrained and constrained on alignm
 Home          http://eddylab.org/software/consan/
 Versions      1.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/consan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//consan/meta.yaml
 
 
 

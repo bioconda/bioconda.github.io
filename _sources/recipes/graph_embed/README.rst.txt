@@ -11,7 +11,7 @@ Compute a 2D embedding of a data matrix given supervised class information.
 Home          https://github.com/fabriziocosta/GraphEmbed
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/graph_embed/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//graph_embed/meta.yaml
 
 
 

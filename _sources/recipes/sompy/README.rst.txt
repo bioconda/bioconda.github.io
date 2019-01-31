@@ -11,7 +11,7 @@ Numpy based SOM Library.
 Home          https://github.com/ttlg/sompy
 Versions      0.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sompy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sompy/meta.yaml
 
 
 

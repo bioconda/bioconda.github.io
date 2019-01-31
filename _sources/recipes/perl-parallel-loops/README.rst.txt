@@ -11,7 +11,7 @@ Execute loops using parallel forked subprocesses
 Home          http://metacpan.org/pod/Parallel::Loops
 Versions      0.10, 0.08
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-parallel-loops/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-parallel-loops/meta.yaml
 
 
 

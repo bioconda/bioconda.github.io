@@ -11,7 +11,7 @@ Workspace Overmind
 Home          http://an9.org/w/WorkspacePy
 Versions      0.3.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/workspace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//workspace/meta.yaml
 
 
 

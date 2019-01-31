@@ -11,7 +11,7 @@ A comprehensive pipeline for analyzing and interactively visualizing genomic pro
 Home          https://bioconductor.org/packages/3.8/bioc/html/rCGH.html
 Versions      1.10.0, 1.8.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rcgh/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rcgh/meta.yaml
 
 
 

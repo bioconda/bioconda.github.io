@@ -11,7 +11,7 @@ This package provides interfaces to selected sklearn elements\, and demonstrates
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocSklearn.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biocsklearn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocsklearn/meta.yaml
 
 
 

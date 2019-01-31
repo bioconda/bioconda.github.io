@@ -11,7 +11,7 @@ incredibly simple helpers for testing code with exceptions
 Home          https://github.com/rjbs/Test-Fatal
 Versions      0.014
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-fatal/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-fatal/meta.yaml
 
 
 

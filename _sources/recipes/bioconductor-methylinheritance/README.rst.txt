@@ -11,7 +11,7 @@ Permutation analysis\, based on Monte Carlo sampling\, for testing the hypothesi
 Home          https://bioconductor.org/packages/3.8/bioc/html/methylInheritance.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-methylinheritance/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methylinheritance/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ AC\-DIAMOND is a DNA\-protein alignment tool
 Home          https://github.com/Maihj/AC-DIAMOND
 Versions      1.0
 License       GNU Affero General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ac-diamond/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ac-diamond/meta.yaml
 
 
 

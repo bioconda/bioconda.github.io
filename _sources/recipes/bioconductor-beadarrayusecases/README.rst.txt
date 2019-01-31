@@ -11,7 +11,7 @@ Example data files and use cases for processing Illumina BeadArray expression da
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/BeadArrayUseCases.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-beadarrayusecases/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-beadarrayusecases/meta.yaml
 
 
 

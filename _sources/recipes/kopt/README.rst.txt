@@ -11,7 +11,7 @@ Keras\-hyperopt \(kopt\)\; Hyper\-parameter tuning for Keras using hyperopt.
 Home          https://github.com/avsecz/keras-hyperopt
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kopt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kopt/meta.yaml
 
 
 

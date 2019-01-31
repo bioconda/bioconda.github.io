@@ -11,7 +11,7 @@ NextSeq .bcl Conversion
 Home          https://github.com/brwnj/bcl2fastq
 Versions      1.2.4, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcl2fastq-nextseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcl2fastq-nextseq/meta.yaml
 
 
 

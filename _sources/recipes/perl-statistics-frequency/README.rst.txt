@@ -11,7 +11,7 @@ simple counting of elements
 Home          http://metacpan.org/pod/Statistics::Frequency
 Versions      0.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-frequency/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-statistics-frequency/meta.yaml
 
 
 

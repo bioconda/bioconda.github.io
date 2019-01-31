@@ -11,7 +11,7 @@ A bioinformatics toolkit for processing high\-throughput lymphocyte receptor seq
 Home          http://changeo.readthedocs.io
 Versions      0.4.5, 0.4.4
 License       Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/changeo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//changeo/meta.yaml
 
 
 

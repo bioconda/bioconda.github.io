@@ -11,7 +11,7 @@ Cross\-hybridisation study on the ATH1 Affymetrix GeneChip
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/XhybCasneuf.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-xhybcasneuf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xhybcasneuf/meta.yaml
 
 
 

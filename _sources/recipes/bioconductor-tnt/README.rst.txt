@@ -11,7 +11,7 @@ A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) t
 Home          https://bioconductor.org/packages/3.8/bioc/html/TnT.html
 Versions      
 License       AGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tnt/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tnt/meta.yaml
 
 
 

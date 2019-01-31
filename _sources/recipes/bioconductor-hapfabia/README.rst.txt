@@ -11,7 +11,7 @@ A package to identify very short IBD segments in large sequencing data by FABIA 
 Home          https://bioconductor.org/packages/3.8/bioc/html/hapFabia.html
 Versions      1.22.0, 1.20.0
 License       LGPL (>= 2.1)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hapfabia/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hapfabia/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Targeted assembly software
 Home          https://colibread.inria.fr/software/mapsembler2/
 Versions      2.2.4
 License       GNU Affero General Public License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mapsembler2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mapsembler2/meta.yaml
 
 
 

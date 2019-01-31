@@ -11,7 +11,7 @@ iFull genome sequences for Apis mellifera \(Honey Bee\) as provided by BeeBase \
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Amellifera.BeeBase.assembly4.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.amellifera.beebase.assembly4/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.amellifera.beebase.assembly4/meta.yaml
 
 
 

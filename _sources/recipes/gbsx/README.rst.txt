@@ -11,7 +11,7 @@ Toolkit for experimental design and demultiplexing genotyping by sequencing expe
 Home          https://github.com/GenomicsCoreLeuven/GBSX
 Versions      1.3
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gbsx/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gbsx/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Pseudo ttys and constants
 Home          http://metacpan.org/pod/IO-Tty
 Versions      1.12
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-io-tty/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-io-tty/meta.yaml
 
 
 

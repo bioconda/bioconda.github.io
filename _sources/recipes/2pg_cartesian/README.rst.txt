@@ -11,7 +11,7 @@
 Home          https://github.com/rodrigofaccioli/2pg_cartesian
 Versions      1.0.1
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/2pg_cartesian/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//2pg_cartesian/meta.yaml
 
 
 

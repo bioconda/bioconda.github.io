@@ -11,7 +11,7 @@ Allow unsafe handling of signals in selected blocks
 Home          http://metacpan.org/pod/Perl::Unsafe::Signals
 Versions      0.03
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perl-unsafe-signals/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perl-unsafe-signals/meta.yaml
 
 
 

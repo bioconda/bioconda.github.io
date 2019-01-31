@@ -11,7 +11,7 @@ play with other peoples\' lexical variables
 Home          http://metacpan.org/pod/PadWalker
 Versions      2.3
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-padwalker/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-padwalker/meta.yaml
 
 
 

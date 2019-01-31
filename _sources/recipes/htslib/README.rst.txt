@@ -11,7 +11,7 @@ C library for high\-throughput sequencing data formats.
 Home          https://github.com/samtools/htslib
 Versions      1.9, 1.8, 1.7, 1.6, 1.5, 1.4.1, 1.4, 1.3.2, 1.3.1, 1.3, 1.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/htslib/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//htslib/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Dmelanogaster.UCSC.dm6.ensGene.html
 Versions      3.4.1, 3.3.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txdb.dmelanogaster.ucsc.dm6.ensgene/meta.yaml
 
 
 

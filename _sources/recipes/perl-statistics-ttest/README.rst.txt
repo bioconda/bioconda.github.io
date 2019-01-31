@@ -11,7 +11,7 @@ Perl module to perform T\-test on 2 independent samples Statistics\:\:TTest\:\:S
 Home          http://metacpan.org/pod/Statistics-TTest
 Versions      1.1
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-ttest/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-statistics-ttest/meta.yaml
 
 
 

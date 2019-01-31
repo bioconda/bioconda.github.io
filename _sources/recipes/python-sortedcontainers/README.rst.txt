@@ -11,7 +11,7 @@ sorted collections library\, written in pure\-Python\, and fast as C\-extensions
 Home          https://pypi.org/project/sortedcontainers/#description
 Versions      2.1.0, 2.0.5, 2.0.4
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/python-sortedcontainers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//python-sortedcontainers/meta.yaml
 
 
 

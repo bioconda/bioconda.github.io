@@ -11,7 +11,7 @@ Structured version objects
 Home          http://metacpan.org/pod/version
 Versions      0.9924
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-version/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-version/meta.yaml
 
 
 

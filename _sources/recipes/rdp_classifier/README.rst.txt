@@ -11,7 +11,7 @@ Naive Bayesian classifier that can rapidly and accurately provide taxonomic assi
 Home          http://rdp.cme.msu.edu/
 Versions      2.2
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rdp_classifier/2.2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rdp_classifier/2.2/meta.yaml
 
 
 

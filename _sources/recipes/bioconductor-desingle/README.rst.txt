@@ -11,7 +11,7 @@ DEsingle is an R package for differential expression \(DE\) analysis of single\-
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEsingle.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-desingle/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-desingle/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ ngshmmalign is a profile HMM aligner for NGS reads designed particularly for sma
 Home          https://github.com/cbg-ethz/ngshmmalign
 Versions      0.1.1
 License       GNU General Public License v2 or later (GPLv2+)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ngshmmalign/0.1.1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ngshmmalign/0.1.1/meta.yaml
 
 
 

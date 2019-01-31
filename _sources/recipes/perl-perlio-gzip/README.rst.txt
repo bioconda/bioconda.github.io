@@ -11,7 +11,7 @@ PerlIO interface to gzip\/gunzip
 Home          http://metacpan.org/pod/PerlIO-gzip
 Versions      0.20, 0.19
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-perlio-gzip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-perlio-gzip/meta.yaml
 
 
 

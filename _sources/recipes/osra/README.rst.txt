@@ -11,7 +11,7 @@ OSRA is a utility designed to convert graphical representations of chemical stru
 Home          http://cactus.nci.nih.gov/osra/
 Versions      2.1.0, 2.0.1
 License       Simplified BSD Licence
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/osra/2.0.1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//osra/2.0.1/meta.yaml
 
 
 

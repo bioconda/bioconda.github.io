@@ -11,7 +11,7 @@ An SIMD Smith\-Waterman C\/C\+\+\/Python\/Java Library for Use in Genomic Applic
 Home          https://github.com/mengyao/Complete-Striped-Smith-Waterman-Library
 Versions      1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/libssw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//libssw/meta.yaml
 
 
 

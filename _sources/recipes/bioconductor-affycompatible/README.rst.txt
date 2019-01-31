@@ -11,7 +11,7 @@ This package provides an interface to Affymetrix chip annotation and sample attr
 Home          https://bioconductor.org/packages/3.8/bioc/html/AffyCompatible.html
 Versions      1.40.0, 1.38.0, 1.36.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affycompatible/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affycompatible/meta.yaml
 
 
 

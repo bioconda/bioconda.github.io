@@ -11,7 +11,7 @@ This is MDAsim 2\+\, a tool to simulate whole genome amplification of a DNA sequ
 Home          https://github.com/hzi-bifo/mdasim
 Versions      2.1.1, 2.1.0, 2.0.1, 2.0.0, 1.2
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mdasim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mdasim/meta.yaml
 
 
 

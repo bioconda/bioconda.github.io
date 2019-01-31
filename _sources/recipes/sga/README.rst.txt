@@ -11,7 +11,7 @@ SGA \- String Graph Assembler. SGA is a de novo assembler for DNA sequence reads
 Home          https://github.com/jts/sga
 Versions      0.10.15, 0.10.13
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sga/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sga/meta.yaml
 
 
 

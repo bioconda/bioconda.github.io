@@ -11,7 +11,7 @@ An small dataset that can be used to run examples from the beadarray vignette an
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/beadarrayExampleData.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-beadarrayexampledata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-beadarrayexampledata/meta.yaml
 
 
 

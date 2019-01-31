@@ -11,7 +11,7 @@ The Genepop population genetics package.
 Home          http://kimura.univ-montp2.fr/~rousset/Genepop.htm
 Versions      4.6, 4.5.1
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genepop/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genepop/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package that implements some simple capabilities for representing and manipula
 Home          https://bioconductor.org/packages/3.8/bioc/html/hypergraph.html
 Versions      1.52.0, 1.50.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hypergraph/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hypergraph/meta.yaml
 
 
 

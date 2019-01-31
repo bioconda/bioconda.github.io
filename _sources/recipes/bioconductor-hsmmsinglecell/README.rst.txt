@@ -11,7 +11,7 @@ Skeletal myoblasts undergo a well\-characterized sequence of morphological and t
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HSMMSingleCell.html
 Versions      0.114.0, 0.112.0, 0.110.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hsmmsinglecell/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hsmmsinglecell/meta.yaml
 
 
 

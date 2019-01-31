@@ -11,7 +11,7 @@ This tool is made to remove \"tips\" \(short dead ends\) from a compacted de Bru
 Home          https://github.com/Malfoy/BTRIM
 Versions      1.0.1, 1.0.0
 License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/btrim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//btrim/meta.yaml
 
 
 

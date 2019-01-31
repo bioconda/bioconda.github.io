@@ -11,7 +11,7 @@ perl-statistics-basic
 Home          http://metacpan.org/pod/Statistics-Basic
 Versions      1.6611
 License       open_source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-statistics-basic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-statistics-basic/meta.yaml
 
 
 

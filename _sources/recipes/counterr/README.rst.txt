@@ -11,7 +11,7 @@ Counterr is a light\-weight command line tool that computes errors in sequencing
 Home          https://github.com/dayzerodx/counterr
 Versions      0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/counterr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//counterr/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ RCAS is an automated system that provides dynamic genome annotations for custom 
 Home          https://bioconductor.org/packages/3.8/bioc/html/RCAS.html
 Versions      1.6.0, 1.5.4, 1.4.0, 1.2.0, 1.1.1, 1.0.0, 1.0.0.dev75225b9
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rcas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rcas/meta.yaml
 
 
 

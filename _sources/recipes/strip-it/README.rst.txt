@@ -11,7 +11,7 @@ Strip\-it is a program that extracts predefined scaffolds from organic small mol
 Home          http://silicos-it.be.s3-website-eu-west-1.amazonaws.com/software/strip-it/1.0.2/strip-it.html
 Versions      1.0.2
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/strip-it/1.0.2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//strip-it/1.0.2/meta.yaml
 
 
 

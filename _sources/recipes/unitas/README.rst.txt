@@ -11,7 +11,7 @@ unitas is a convenient tool for efficient annotation of small non\-coding RNA se
 Home          http://www.smallrnagroup.uni-mainz.de/software.html
 Versions      1.6.1
 License       Creative Commons Attribution Non-Commercial License V2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/unitas/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//unitas/meta.yaml
 
 
 

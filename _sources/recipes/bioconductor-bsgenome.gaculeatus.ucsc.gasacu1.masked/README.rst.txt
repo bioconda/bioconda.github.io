@@ -11,7 +11,7 @@ Full genome sequences for Gasterosteus aculeatus \(Stickleback\) as provided by 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Gaculeatus.UCSC.gasAcu1.masked.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.gaculeatus.ucsc.gasacu1.masked/meta.yaml
 
 
 

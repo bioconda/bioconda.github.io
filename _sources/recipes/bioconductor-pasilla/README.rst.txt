@@ -11,7 +11,7 @@ This package provides per\-exon and per\-gene read counts computed for selected 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pasilla.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pasilla/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pasilla/meta.yaml
 
 
 

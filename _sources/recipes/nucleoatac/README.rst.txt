@@ -11,7 +11,7 @@ Python package for calling nucleosomes using ATAC\-Seq data. Also includes gener
 Home          https://github.com/GreenleafLab/NucleoATAC
 Versions      0.3.4, 0.3.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/nucleoatac/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//nucleoatac/meta.yaml
 
 Documentation http://nucleoatac.readthedocs.io/en/latest/
 

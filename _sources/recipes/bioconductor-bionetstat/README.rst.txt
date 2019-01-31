@@ -11,7 +11,7 @@ A package to perform differential network analysis\, differential node analysis 
 Home          https://bioconductor.org/packages/3.8/bioc/html/BioNetStat.html
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bionetstat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bionetstat/meta.yaml
 
 
 

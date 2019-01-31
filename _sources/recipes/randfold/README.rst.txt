@@ -11,7 +11,7 @@ Minimum free energy of folding randomization test software
 Home          http://bioinformatics.psb.ugent.be/software/details/Randfold
 Versions      2.0.1
 License       GNU GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/randfold/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//randfold/meta.yaml
 
 
 

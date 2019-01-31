@@ -11,7 +11,7 @@ novoplasty
 Home          https://github.com/ndierckx/NOVOPlasty
 Versions      2.2.2
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/novoplasty/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//novoplasty/meta.yaml
 
 
 

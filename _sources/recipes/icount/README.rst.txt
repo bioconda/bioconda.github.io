@@ -11,7 +11,7 @@ Computational pipeline for analysis of iCLIP data
 Home          https://github.com/tomazc/iCount
 Versions      2.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/icount/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//icount/meta.yaml
 
 
 

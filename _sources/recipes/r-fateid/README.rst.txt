@@ -11,7 +11,7 @@ Application of \'FateID\' allows computation and visualization of cell fate bias
 Home          https://CRAN.R-project.org/package=FateID
 Versions      0.1.4
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-fateid/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-fateid/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A set of tools and methods for making and manipulating transcript centric annota
 Home          https://bioconductor.org/packages/3.8/bioc/html/GenomicFeatures.html
 Versions      1.32.3, 1.30.3, 1.30.0, 1.28.5, 1.26.4, 1.26.0, 1.24.5, 1.22.13, 1.22.6, 1.22.4, 1.22.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genomicfeatures/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomicfeatures/meta.yaml
 
 
 

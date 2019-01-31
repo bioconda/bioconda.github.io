@@ -11,7 +11,7 @@ qcli
 Home          
 Versions      0.1.1
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/qcli/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//qcli/meta.yaml
 
 
 

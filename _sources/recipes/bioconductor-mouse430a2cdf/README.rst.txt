@@ -11,7 +11,7 @@ A package containing an environment representing the Mouse430A\_2.cdf file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mouse430a2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mouse430a2cdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mouse430a2cdf/meta.yaml
 
 
 

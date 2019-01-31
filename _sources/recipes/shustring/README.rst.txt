@@ -11,7 +11,7 @@ Program for Computing SHortest Unique SubSTRINGs
 Home          http://guanine.evolbio.mpg.de/cgi-bin/shustring/shustring.cgi.pl
 Versions      2.6
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/shustring/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//shustring/meta.yaml
 
 
 

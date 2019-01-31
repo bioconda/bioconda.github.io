@@ -11,7 +11,7 @@ Target capture coverage QC
 Home          https://github.com/vladsaveliev/TargQC
 Versions      1.4.4
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/targqc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//targqc/meta.yaml
 
 
 

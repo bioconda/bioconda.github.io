@@ -11,7 +11,7 @@ HIV TRACE is an application that identifies potential transmission clusters with
 Home          https://github.com/veg/hivtrace
 Versions      0.1.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hivtrace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hivtrace/meta.yaml
 
 
 

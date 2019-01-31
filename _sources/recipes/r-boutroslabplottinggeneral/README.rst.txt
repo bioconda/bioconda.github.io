@@ -11,7 +11,7 @@ boutroslabplottinggeneral
 Home          https://labs.oicr.on.ca/boutros-lab/software/bpg
 Versions      5.3.4
 License       GPL-2extra
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-boutroslabplottinggeneral/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-boutroslabplottinggeneral/meta.yaml
 
 
 

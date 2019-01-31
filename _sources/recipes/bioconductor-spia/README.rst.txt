@@ -11,7 +11,7 @@ This package implements the Signaling Pathway Impact Analysis \(SPIA\) which use
 Home          https://bioconductor.org/packages/3.8/bioc/html/SPIA.html
 Versions      2.32.0, 2.30.0, 2.28.0
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-spia/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spia/meta.yaml
 
 
 

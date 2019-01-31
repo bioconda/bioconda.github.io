@@ -11,7 +11,7 @@ CuReSim \(Customized Read Simulator\) is a customized tool which generates synth
 Home          http://www.pegase-biosciences.com/curesim-a-customized-read-simulator/
 Versions      1.3
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/curesim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//curesim/meta.yaml
 
 
 

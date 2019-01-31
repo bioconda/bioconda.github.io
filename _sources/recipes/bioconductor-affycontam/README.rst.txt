@@ -11,7 +11,7 @@ structured corruption of cel file data to demonstrate QA effectiveness
 Home          https://bioconductor.org/packages/3.8/bioc/html/affyContam.html
 Versions      1.38.0, 1.36.0, 1.34.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affycontam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affycontam/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Full genome sequences for Asparagus officinalis \(Garden asparagus\) as provided
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Aofficinalis.NCBI.V1.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-bsgenome.aofficinalis.ncbi.v1/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.aofficinalis.ncbi.v1/meta.yaml
 
 
 

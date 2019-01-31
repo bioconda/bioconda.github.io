@@ -11,7 +11,7 @@ Fast but inaccurate adapter trimmer for Illumina reads.
 Home          https://github.com/lh3/trimadap
 Versions      r11, r10, r9
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/trimadap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//trimadap/meta.yaml
 
 
 

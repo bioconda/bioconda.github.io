@@ -11,7 +11,7 @@ Quantify and interpret multiple sources of biological and technical variation in
 Home          https://bioconductor.org/packages/3.8/bioc/html/variancePartition.html
 Versions      1.10.4, 1.8.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-variancepartition/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-variancepartition/meta.yaml
 
 
 

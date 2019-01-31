@@ -11,7 +11,7 @@ Produce highly customizable publication quality graphics for genomic data primar
 Home          https://bioconductor.org/packages/3.8/bioc/html/GenVisR.html
 Versions      1.12.1, 1.8.0, 1.6.3
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genvisr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genvisr/meta.yaml
 
 
 

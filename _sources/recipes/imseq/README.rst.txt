@@ -12,7 +12,7 @@ IMSEQ is a fast\, PCR and sequencing error aware tool to analyze high throughput
 Home          http://www.imtools.org/
 Versions      1.1.0
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/imseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//imseq/meta.yaml
 
 
 

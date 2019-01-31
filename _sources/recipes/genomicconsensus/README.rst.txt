@@ -11,7 +11,7 @@ PacBio genomic consensus and variant caller for RSII and Sequel
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      2.3.2, 2.3.1
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/genomicconsensus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//genomicconsensus/meta.yaml
 
 
 

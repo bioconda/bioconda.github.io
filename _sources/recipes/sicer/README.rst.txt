@@ -11,7 +11,7 @@ A clustering approach for identification of enriched domains from histone modifi
 Home          http://home.gwu.edu/~wpeng/Software.htm
 Versions      1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sicer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sicer/meta.yaml
 
 
 

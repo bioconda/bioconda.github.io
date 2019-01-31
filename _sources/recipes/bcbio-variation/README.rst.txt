@@ -11,7 +11,7 @@ Toolkit to analyze genomic variation data\, built on the GATK with Clojure
 Home          https://github.com/chapmanb/bcbio.variation
 Versions      0.2.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcbio-variation/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcbio-variation/meta.yaml
 
 
 

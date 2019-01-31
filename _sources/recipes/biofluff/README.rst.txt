@@ -11,7 +11,7 @@ Exploratory analysis and visualization of high\-throughput sequencing data
 Home          https://github.com/simonvh/fluff
 Versions      3.0.3, 3.0.2, 2.1.3, 2.1.2, 2.1.1, 2.1.0, 2.0.2, 2.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/biofluff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biofluff/meta.yaml
 
 
 

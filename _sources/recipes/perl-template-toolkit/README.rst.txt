@@ -11,7 +11,7 @@ comprehensive template processing system
 Home          http://metacpan.org/pod/Template-Toolkit
 Versions      2.26
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-template-toolkit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-template-toolkit/meta.yaml
 
 
 

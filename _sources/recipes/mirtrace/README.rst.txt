@@ -18,7 +18,7 @@ origins of meat products or detecting parasitic microRNAs in host serum.
 Home          https://github.com/friedlanderlab/mirtrace
 Versions      1.0.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mirtrace/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mirtrace/meta.yaml
 
 
 

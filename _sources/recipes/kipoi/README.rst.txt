@@ -11,7 +11,7 @@ Kipoi\: model zoo for genomics
 Home          https://github.com/kipoi/kipoi
 Versions      0.6.5, 0.6.3, 0.6.0, 0.5.7, 0.3.6
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kipoi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kipoi/meta.yaml
 
 
 

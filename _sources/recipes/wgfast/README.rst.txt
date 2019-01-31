@@ -11,7 +11,7 @@ The whole genome focused array SNP typing \(WG\-FAST\) pipeline
 Home          https://github.com/jasonsahl/wgfast
 Versions      1.0.3
 License       GPL v3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wgfast/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wgfast/meta.yaml
 
 
 

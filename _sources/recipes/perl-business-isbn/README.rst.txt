@@ -11,7 +11,7 @@ work with International Standard Book Numbers
 Home          https://github.com/briandfoy/business-isbn
 Versions      3.004
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-business-isbn/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-business-isbn/meta.yaml
 
 
 

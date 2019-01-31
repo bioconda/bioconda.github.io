@@ -11,7 +11,7 @@ Classes and methods for handling pedigree data. It also includes functions to ca
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneticsPed.html
 Versions      
 License       LGPL (>= 2.1) | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneticsped/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneticsped/meta.yaml
 
 
 

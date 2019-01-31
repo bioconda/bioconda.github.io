@@ -11,7 +11,7 @@ Package with metadata for genotyping Illumina Omni2.5 Quad arrays using the \'cr
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/humanomni25quadv1bCrlmm.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-humanomni25quadv1bcrlmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-humanomni25quadv1bcrlmm/meta.yaml
 
 
 

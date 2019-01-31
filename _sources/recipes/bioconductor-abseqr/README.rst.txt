@@ -11,7 +11,7 @@ AbSeq is a comprehensive bioinformatic pipeline for the analysis of sequencing d
 Home          https://bioconductor.org/packages/3.8/bioc/html/abseqR.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-abseqr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-abseqr/meta.yaml
 
 
 

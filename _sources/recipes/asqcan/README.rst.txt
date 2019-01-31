@@ -11,7 +11,7 @@ A combined pipeline for bacterial genome assembly\, quality control and annotati
 Home          https://github.com/bogemad/asqcan
 Versions      0.2, 0.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/asqcan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//asqcan/meta.yaml
 
 
 

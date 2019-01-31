@@ -11,7 +11,7 @@ Efficient inferencing of recombination in bacterial genomes
 Home          https://github.com/xavierdidelot/ClonalFrameML
 Versions      1.11
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clonalframeml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clonalframeml/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A package containing an environment representing the miRNA\-1\_0.CDF file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mirna10cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mirna10cdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirna10cdf/meta.yaml
 
 
 

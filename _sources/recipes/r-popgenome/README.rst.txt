@@ -11,7 +11,7 @@ Provides efficient tools for population genomics data analysis\, able to process
 Home          http://popgenome.weebly.com
 Versions      2.6.1
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-popgenome/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-popgenome/meta.yaml
 
 
 

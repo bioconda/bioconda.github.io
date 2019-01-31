@@ -11,7 +11,7 @@ Multi\-Omics Factor Analysis
 Home          https://github.com/PMBio/MOFA
 Versions      1.1.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mofapy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mofapy/meta.yaml
 
 
 

@@ -12,7 +12,7 @@ Meraculous is a whole genome assembler for Next Generation Sequencing data\, gea
 Home          https://jgi.doe.gov/data-and-tools/meraculous/
 Versions      2.2.6, 2.2.5.1.1.ga103cd6, 2.2.5, 2.2.4
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/meraculous/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//meraculous/meta.yaml
 
 
 

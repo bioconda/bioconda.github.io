@@ -11,7 +11,7 @@ Scan genomes for internally repeated sequences\, elements which are repetitive i
 Home          https://github.com/Adamtaranto/mimeo
 Versions      1.1.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mimeo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mimeo/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Personalized Variant Antigens by Cancer Sequencing \(pVAC\-Seq\)
 Home          https://github.com/griffithlab/pVAC-Seq
 Versions      4.0.10, 4.0.9
 License       NPOSL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pvacseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pvacseq/meta.yaml
 
 Documentation http://pvac-seq.readthedocs.io/
 

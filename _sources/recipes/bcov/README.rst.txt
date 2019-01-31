@@ -11,7 +11,7 @@ BCov is a software package designed for predicting protein beta\-sheet topology 
 Home          http://biocomp.unibo.it/savojard/bcov/index.html
 Versions      1.0
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bcov/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcov/meta.yaml
 
 
 

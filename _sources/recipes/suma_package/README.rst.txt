@@ -11,7 +11,7 @@ Fast and exact comparison of sequences
 Home          http://metabarcoding.org/sumatra
 Versions      1.0.00
 License       CeCILL FSLA
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/suma_package/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//suma_package/meta.yaml
 
 
 

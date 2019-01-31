@@ -11,7 +11,7 @@ Zerone discretizes several ChIP\-seq replicates simultaneously and resolves conf
 Home          https://github.com/nanakiksc/zerone
 Versions      1.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-zerone/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-zerone/meta.yaml
 
 
 Development   https://github.com/nanakiksc/zerone

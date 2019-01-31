@@ -11,7 +11,7 @@ Perl libraries that do feature extraction for metavelvet\-sl
 Home          http://metavelvet.dna.bio.keio.ac.jp/MSL.html
 Versions      1.0
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/metavelvet-sl-feature-extraction/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//metavelvet-sl-feature-extraction/meta.yaml
 
 
 

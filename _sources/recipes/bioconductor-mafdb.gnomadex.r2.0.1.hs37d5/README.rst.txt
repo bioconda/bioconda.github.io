@@ -11,7 +11,7 @@ Store minor allele frequency data from the Genome Aggregation Database \(gnomAD 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.gnomADex.r2.0.1.hs37d5.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mafdb.gnomadex.r2.0.1.hs37d5/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mafdb.gnomadex.r2.0.1.hs37d5/meta.yaml
 
 
 

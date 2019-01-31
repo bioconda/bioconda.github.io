@@ -11,7 +11,7 @@ This package is an R version of the package MAT and contains functions to parse 
 Home          https://bioconductor.org/packages/3.8/bioc/html/rMAT.html
 Versions      3.30.0, 3.28.0, 3.26.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rmat/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmat/meta.yaml
 
 
 

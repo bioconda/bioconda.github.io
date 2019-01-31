@@ -11,7 +11,7 @@ A set of annotation maps describing the entire MeSH assembled using data from Me
 Home          https://bioconductor.org/packages/3.8/bioc/html/meshr.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-meshr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-meshr/meta.yaml
 
 
 

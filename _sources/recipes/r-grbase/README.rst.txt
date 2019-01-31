@@ -11,7 +11,7 @@ The \'gRbase\' package provides general features which are used by other graphic
 Home          http://people.math.aau.dk/~sorenh/software/gR/
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-grbase/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-grbase/meta.yaml
 
 
 

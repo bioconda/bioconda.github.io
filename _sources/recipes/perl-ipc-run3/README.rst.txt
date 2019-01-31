@@ -11,7 +11,7 @@ run a subprocess with input\/ouput redirection
 Home          http://metacpan.org/pod/IPC::Run3
 Versions      0.048
 License       open_source
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ipc-run3/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ipc-run3/meta.yaml
 
 
 

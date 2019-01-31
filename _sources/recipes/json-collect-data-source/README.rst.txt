@@ -11,7 +11,7 @@ This tool is able to receive multiple datasets \(optionally with their metadata\
 Home          https://github.com/fabio-cumbo/galaxy-json-collect-data-source
 Versions      1.0.1, 1.0.0
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/json-collect-data-source/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//json-collect-data-source/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Format a header and rows into a table
 Home          http://metacpan.org/pod/Term::Table
 Versions      0.013, 0.012
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-term-table/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-term-table/meta.yaml
 
 
 

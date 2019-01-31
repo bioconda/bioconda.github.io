@@ -11,7 +11,7 @@ PASA\, acronym for Program to Assemble Spliced Alignments \(and pronounced \'pas
 Home          https://pasapipeline.github.io/
 Versions      2.3.3
 License       Broad Institute
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pasa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pasa/meta.yaml
 
 
 

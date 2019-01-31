@@ -11,7 +11,7 @@ Ra is short for RNA Assembler and it is a C\+\+ implementation of an overlap\-la
 Home          https://github.com/mariokostelac/ra
 Versions      0.9
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ra/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ra/meta.yaml
 
 
 

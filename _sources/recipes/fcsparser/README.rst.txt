@@ -11,7 +11,7 @@ A python package for reading raw fcs files
 Home          https://github.com/eyurtsev/fcsparser
 Versions      0.2.0, 0.1.4
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fcsparser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fcsparser/meta.yaml
 
 
 

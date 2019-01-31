@@ -11,7 +11,7 @@ An Image Mass Cytometry \(IMC\) file conversion tool that aims to convert IMC ra
 Home          https://github.com/BodenmillerGroup/imctools
 Versions      0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/imctools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//imctools/meta.yaml
 
 Documentation https://github.com/BodenmillerGroup/imctools/blob/master/README.md
 

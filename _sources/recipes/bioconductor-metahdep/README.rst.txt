@@ -11,7 +11,7 @@ Tools for meta\-analysis in the presence of hierarchical \(and\/or sampling\) de
 Home          https://bioconductor.org/packages/3.8/bioc/html/metahdep.html
 Versions      1.38.0, 1.36.0, 1.34.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metahdep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metahdep/meta.yaml
 
 
 

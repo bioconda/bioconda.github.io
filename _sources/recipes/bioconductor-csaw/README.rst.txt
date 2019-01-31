@@ -11,7 +11,7 @@ Detection of differentially bound regions in ChIP\-seq data with sliding windows
 Home          https://bioconductor.org/packages/3.8/bioc/html/csaw.html
 Versions      1.14.1, 1.12.0, 1.10.0, 1.6.1, 1.4.1, 1.4.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-csaw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-csaw/meta.yaml
 
 
 

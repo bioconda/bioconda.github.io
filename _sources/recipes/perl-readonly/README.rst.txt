@@ -11,7 +11,7 @@ Facility for creating read\-only scalars\, arrays\, hashes
 Home          https://github.com/sanko/readonly
 Versions      2.05, 1.04
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-readonly/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-readonly/meta.yaml
 
 
 

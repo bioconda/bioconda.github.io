@@ -11,7 +11,7 @@ Only use Sub\:\:Exporter if you need it
 Home          http://search.cpan.org/dist/Sub-Exporter-Progressive/
 Versions      0.001013, 0.001011
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-exporter-progressive/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-exporter-progressive/meta.yaml
 
 
 

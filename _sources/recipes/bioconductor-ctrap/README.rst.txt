@@ -11,7 +11,7 @@ Compare differential gene expression results with those from known cellular pert
 Home          https://bioconductor.org/packages/3.8/bioc/html/cTRAP.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ctrap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ctrap/meta.yaml
 
 
 

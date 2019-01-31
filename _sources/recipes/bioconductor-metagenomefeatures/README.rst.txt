@@ -11,7 +11,7 @@ metagenomeFeatures was developed for use in exploring the taxonomic annotations 
 Home          https://bioconductor.org/packages/3.8/bioc/html/metagenomeFeatures.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metagenomefeatures/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metagenomefeatures/meta.yaml
 
 
 

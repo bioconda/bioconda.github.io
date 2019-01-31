@@ -11,7 +11,7 @@ Automatically generated RnBeads annotation package for the assembly hg38.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RnBeads.hg38.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rnbeads.hg38/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnbeads.hg38/meta.yaml
 
 
 

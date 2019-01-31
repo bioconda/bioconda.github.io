@@ -11,7 +11,7 @@ A pipeline for the analysis of GRO\-seq data.
 Home          https://bioconductor.org/packages/3.8/bioc/html/groHMM.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-grohmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-grohmm/meta.yaml
 
 
 

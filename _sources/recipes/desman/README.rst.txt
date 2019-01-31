@@ -11,7 +11,7 @@ De novo Extraction of Strains from MetAgeNomes
 Home          https://github.com/chrisquince/DESMAN
 Versions      2.1
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/desman/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//desman/meta.yaml
 
 
 

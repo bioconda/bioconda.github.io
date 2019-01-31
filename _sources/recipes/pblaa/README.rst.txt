@@ -11,7 +11,7 @@ PacBio tool to deconvolute mixtures of alleles and loci into phased consensus se
 Home          https://github.com/PacificBiosciences/pbbioconda
 Versions      2.4.2
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pblaa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pblaa/meta.yaml
 
 
 

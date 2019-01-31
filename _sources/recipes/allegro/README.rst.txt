@@ -11,7 +11,7 @@ A fast linkage and haplotype analysis utility making use of MTBDD to reduce comp
 Home          http://www.nature.com/ng/journal/v37/n10/full/ng1005-1015.html?foxtrotcallback=true
 Versions      3, 2
 License       INDIVIDUAL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/allegro/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//allegro/meta.yaml
 
 
 

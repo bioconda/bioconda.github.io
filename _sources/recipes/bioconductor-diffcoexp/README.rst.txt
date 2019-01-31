@@ -11,7 +11,7 @@ A tool for the identification of differentially coexpressed links \(DCLs\) and d
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffcoexp.html
 Versions      
 License       GPL (>2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-diffcoexp/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diffcoexp/meta.yaml
 
 
 

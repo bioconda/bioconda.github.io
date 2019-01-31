@@ -11,7 +11,7 @@ Performs outlier detection of sequences in a multiple sequence alignment using b
 Home          https://bioconductor.org/packages/3.8/bioc/html/odseq.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-odseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-odseq/meta.yaml
 
 
 

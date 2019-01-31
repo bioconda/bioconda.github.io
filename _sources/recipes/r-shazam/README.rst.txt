@@ -11,7 +11,7 @@ Provides a computational framework for analyzing mutations in immunoglobulin \(I
 Home          http://shazam.readthedocs.io
 Versions      0.1.10, 0.1.9
 License       CC BY-SA 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-shazam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-shazam/meta.yaml
 
 
 

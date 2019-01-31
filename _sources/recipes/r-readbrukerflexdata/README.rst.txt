@@ -11,7 +11,7 @@ Reads data files acquired by Bruker Daltonics\' matrix\-assisted laser desorptio
 Home          http://strimmerlab.org/software/maldiquant/ https://github.com/sgibb/readBrukerFlexData/
 Versions      1.8.5, 1.8.2
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-readbrukerflexdata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-readbrukerflexdata/meta.yaml
 
 
 

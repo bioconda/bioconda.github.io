@@ -11,7 +11,7 @@ Computes various confidence intervals for the Kaplan\-Meier estimator\, namely\:
 Home          https://CRAN.R-project.org/package=km.ci
 Versions      0.5_2
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-km.ci/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-km.ci/meta.yaml
 
 
 

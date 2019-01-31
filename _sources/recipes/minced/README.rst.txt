@@ -11,7 +11,7 @@ MinCED \- Mining CRISPRs in Environmental Datasets
 Home          https://github.com/ctSkennerton/minced
 Versions      0.3.2, 0.3.0, 0.2.0
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/minced/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//minced/meta.yaml
 
 
 

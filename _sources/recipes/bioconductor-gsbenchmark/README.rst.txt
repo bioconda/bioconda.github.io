@@ -11,7 +11,7 @@ Benchmarks for Machine Learning Analysis of the Gene Sets. The package contains 
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GSBenchMark.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gsbenchmark/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gsbenchmark/meta.yaml
 
 
 

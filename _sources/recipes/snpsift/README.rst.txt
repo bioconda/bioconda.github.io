@@ -11,7 +11,7 @@ Toolbox that allows you to filter and manipulate annotated files
 Home          http://snpeff.sourceforge.net/SnpSift.html
 Versions      4.3.1t, 4.3.1r, 4.3.1p, 4.3.1o, 4.3.1m, 4.3, 4.2, 4.1l
 License       LGPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snpsift/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpsift/meta.yaml
 
 
 

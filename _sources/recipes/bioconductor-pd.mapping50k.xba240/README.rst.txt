@@ -11,7 +11,7 @@ Platform Design Info for Affymetrix Mapping50K\_Xba240
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mapping50k.xba240.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pd.mapping50k.xba240/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.mapping50k.xba240/meta.yaml
 
 
 

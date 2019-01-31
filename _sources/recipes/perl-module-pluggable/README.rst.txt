@@ -11,7 +11,7 @@ automatically give your module the ability to have plugins
 Home          http://metacpan.org/pod/Module::Pluggable
 Versions      5.2
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-pluggable/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-module-pluggable/meta.yaml
 
 
 

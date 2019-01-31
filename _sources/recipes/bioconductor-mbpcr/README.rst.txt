@@ -11,7 +11,7 @@ Estimates the DNA copy number profile using mBPCR to detect regions with copy nu
 Home          https://bioconductor.org/packages/3.8/bioc/html/mBPCR.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mbpcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mbpcr/meta.yaml
 
 
 

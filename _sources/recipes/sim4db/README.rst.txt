@@ -11,7 +11,7 @@ Sim4db and leaff\: Utilities for fast batch spliced alignment and sequence index
 Home          http://kmer.sourceforge.net/wiki/index.php/Getting_Started_with_Sim4db
 Versions      2008
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sim4db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sim4db/meta.yaml
 
 
 

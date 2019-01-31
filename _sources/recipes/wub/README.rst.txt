@@ -11,7 +11,7 @@ Tools and software library developed by the ONT Applications group
 Home          https://github.com/nanoporetech/wub
 Versions      0.3.0, 0.2.0, 0.1.0
 License       MPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wub/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wub/meta.yaml
 
 
 

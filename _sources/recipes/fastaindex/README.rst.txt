@@ -11,7 +11,7 @@ FastA indexing and sequence retrival.
 Home          https://github.com/lpryszcz/FastaIndex
 Versions      0.11c
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastaindex/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastaindex/meta.yaml
 
 
 

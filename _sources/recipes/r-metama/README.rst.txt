@@ -11,7 +11,7 @@ Combines either p\-values or modified effect sizes from different studies to fin
 Home          https://CRAN.R-project.org/package=metaMA
 Versions      3.1.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-metama/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-metama/meta.yaml
 
 
 

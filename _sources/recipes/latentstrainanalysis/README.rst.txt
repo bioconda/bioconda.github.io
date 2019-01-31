@@ -11,7 +11,7 @@ Partitioning and analysis methods for large\, complex sequence datasets
 Home          https://github.com/brian-cleary/LatentStrainAnalysis
 Versions      0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/latentstrainanalysis/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//latentstrainanalysis/meta.yaml
 
 
 

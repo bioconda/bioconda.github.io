@@ -11,7 +11,7 @@ XS implementation of parts of Class\:\:Load
 Home          https://github.com/moose/Class-Load-XS
 Versions      0.10, 0.09
 License       artistic_2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-load-xs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-load-xs/meta.yaml
 
 
 

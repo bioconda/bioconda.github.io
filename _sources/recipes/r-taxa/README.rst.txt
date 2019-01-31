@@ -11,7 +11,7 @@ Provides taxonomic classes for groupings of taxonomic names without data\, and t
 Home          https://github.com/ropensci/taxa
 Versions      0.3.2, 0.3.1, 0.2.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-taxa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-taxa/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Contains the HGU133 and HGU95 spikein experiment data.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/SpikeIn.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-spikein/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spikein/meta.yaml
 
 
 

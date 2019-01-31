@@ -11,7 +11,7 @@ RUVcorr allows to apply global removal of unwanted variation \(ridged version of
 Home          https://bioconductor.org/packages/3.8/bioc/html/RUVcorr.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ruvcorr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ruvcorr/meta.yaml
 
 
 

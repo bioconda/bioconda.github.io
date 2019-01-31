@@ -11,7 +11,7 @@ A collection of tools to explore the phylogenetic signal in univariate and multi
 Home          https://CRAN.R-project.org/package=phylosignal
 Versions      1.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-phylosignal/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-phylosignal/meta.yaml
 
 
 

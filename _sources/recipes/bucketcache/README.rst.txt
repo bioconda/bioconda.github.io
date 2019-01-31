@@ -11,7 +11,7 @@ Versatile persisent file cache.
 Home          https://github.com/RazerM/bucketcache
 Versions      0.12.0
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bucketcache/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bucketcache/meta.yaml
 
 
 

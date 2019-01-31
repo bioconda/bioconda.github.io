@@ -11,7 +11,7 @@ Various libraries containing useful functions for working with DNA sequences\, w
 Home          https://github.com/Carldeboer/Ruby-DNA-Tools
 Versions      1.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ruby-dna-tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ruby-dna-tools/meta.yaml
 
 
 

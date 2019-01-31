@@ -11,7 +11,7 @@ DriverNet is a package to predict functional important driver genes in cancer by
 Home          https://bioconductor.org/packages/3.8/bioc/html/DriverNet.html
 Versions      1.20.0, 1.18.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-drivernet/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-drivernet/meta.yaml
 
 
 

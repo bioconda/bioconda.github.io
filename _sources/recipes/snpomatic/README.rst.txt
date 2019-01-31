@@ -11,7 +11,7 @@ SNP\-o\-matic is a fast\, stringent short\-read mapping software.
 Home          https://github.com/magnusmanske/snpomatic
 Versions      1.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/snpomatic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//snpomatic/meta.yaml
 
 
 

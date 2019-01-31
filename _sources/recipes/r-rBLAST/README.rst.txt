@@ -11,7 +11,7 @@ Seamlessly interfaces the Basic Local Alignment Search Tool \(BLAST\) to search 
 Home          https://github.com/mhahsler/rBLAST
 Versions      0.99.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rBLAST/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rBLAST/meta.yaml
 
 
 

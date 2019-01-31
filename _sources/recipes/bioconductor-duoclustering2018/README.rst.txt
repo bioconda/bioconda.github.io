@@ -11,7 +11,7 @@ Preprocessed experimental and simulated scRNA\-seq data sets used for evaluation
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DuoClustering2018.html
 Versions      
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-duoclustering2018/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-duoclustering2018/meta.yaml
 
 
 

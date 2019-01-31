@@ -11,7 +11,7 @@ A pure perl multi\-level hash\/array DBM that supports transactions
 Home          http://metacpan.org/pod/DBM::Deep
 Versions      2.0013
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-dbm-deep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-dbm-deep/meta.yaml
 
 
 

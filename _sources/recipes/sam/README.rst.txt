@@ -11,7 +11,7 @@ SAM \- Sequence Alignment and Modeling System
 Home          https://compbio.soe.ucsc.edu/sam2src/
 Versions      3.5
 License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sam/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sam/meta.yaml
 
 
 

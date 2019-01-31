@@ -11,7 +11,7 @@ Test fallback behaviour in absence of modules
 Home          http://metacpan.org/pod/Test-Without-Module
 Versions      0.20
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-without-module/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-without-module/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ A wrapper for IgBlast V\-\(D\)\-J mapping tool designed to facilitate analysis i
 Home          https://github.com/mikessh/migmap
 Versions      1.0.3, 1.0.2, 0.9.7
 License       Apache-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/migmap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//migmap/meta.yaml
 
 
 

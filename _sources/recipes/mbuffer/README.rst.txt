@@ -11,7 +11,7 @@ mbuffer is a tool for buffering data streams with a large set of unique features
 Home          http://www.maier-komor.de/mbuffer.html
 Versions      20160228
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mbuffer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mbuffer/meta.yaml
 
 
 

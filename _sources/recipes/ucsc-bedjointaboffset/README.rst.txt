@@ -11,7 +11,7 @@ given a bed file and tab file where each have a column with matching values\: fi
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-bedjointaboffset/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-bedjointaboffset/meta.yaml
 
 
 

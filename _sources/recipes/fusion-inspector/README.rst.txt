@@ -11,7 +11,7 @@ FusionInspector is a component of the Trinity Cancer Transcriptome Analysis Tool
 Home          https://github.com/FusionInspector/FusionInspector
 Versions      1.3.1, 1.2.0, 1.1.0
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fusion-inspector/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fusion-inspector/meta.yaml
 
 
 

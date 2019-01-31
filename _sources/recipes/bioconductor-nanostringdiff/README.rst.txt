@@ -11,7 +11,7 @@ This Package utilizes a generalized linear model\(GLM\) of the negative binomial
 Home          https://bioconductor.org/packages/3.8/bioc/html/NanoStringDiff.html
 Versions      
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-nanostringdiff/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nanostringdiff/meta.yaml
 
 
 

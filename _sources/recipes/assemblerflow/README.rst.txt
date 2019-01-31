@@ -11,7 +11,7 @@ A Nextflow pipeline assembler for genomics. Pick your modules. Assemble them. Ru
 Home          https://github.com/ODiogoSilva/assemblerflow
 Versions      1.1.0.post3, 1.1.0.post1, 1.0.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/assemblerflow/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//assemblerflow/meta.yaml
 
 Documentation http://assemblerflow.readthedocs.io/en/latest/
 

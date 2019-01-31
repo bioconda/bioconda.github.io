@@ -11,7 +11,7 @@ Histosketching Using Little Kmers.
 Home          https://github.com/will-rowe/hulk
 Versions      0.1.2, 0.1.0, 0.0.2, 0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hulk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hulk/meta.yaml
 
 
 

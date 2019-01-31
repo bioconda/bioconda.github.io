@@ -11,7 +11,7 @@ The package provides a set of R functions for interacting with BioPAX OWL files 
 Home          https://bioconductor.org/packages/3.8/bioc/html/paxtoolsr.html
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-paxtoolsr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-paxtoolsr/meta.yaml
 
 
 

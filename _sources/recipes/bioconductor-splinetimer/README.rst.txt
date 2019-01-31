@@ -11,7 +11,7 @@ This package provides functions for differential gene expression analysis of gen
 Home          https://bioconductor.org/packages/3.8/bioc/html/splineTimeR.html
 Versions      1.8.0, 1.6.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-splinetimer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-splinetimer/meta.yaml
 
 
 

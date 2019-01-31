@@ -11,7 +11,7 @@ Detect encoding of the current terminal
 Home          http://metacpan.org/pod/Term::Encoding
 Versions      0.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-term-encoding/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-term-encoding/meta.yaml
 
 
 

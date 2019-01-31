@@ -11,7 +11,7 @@ PICRUSt\: Phylogenetic Investigation of Communities by Reconstruction of Unobser
 Home          http://picrust.github.com
 Versions      1.1.3, 1.1.2, 1.1.1, 1.1.0, 1.0.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/picrust/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//picrust/meta.yaml
 
 
 

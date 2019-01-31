@@ -11,7 +11,7 @@ Coordinated Gene Activity in Pattern Sets \(CoGAPS\) implements a Bayesian MCMC 
 Home          https://bioconductor.org/packages/3.8/bioc/html/CoGAPS.html
 Versions      
 License       GPL (==2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cogaps/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cogaps/meta.yaml
 
 
 

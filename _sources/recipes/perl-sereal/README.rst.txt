@@ -11,7 +11,7 @@ Fast\, compact\, powerful binary \(de\-\)serialization
 Home          http://metacpan.org/pod/Sereal
 Versions      4.005, 3.015
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sereal/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sereal/meta.yaml
 
 
 

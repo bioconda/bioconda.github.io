@@ -11,7 +11,7 @@ A versatile software package for read mapping and integrative analysis of genomi
 Home          http://www.bioinformatics.bbsrc.ac.uk/projects/bismark/
 Versions      3.0.6.2
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pash/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pash/meta.yaml
 
 
 

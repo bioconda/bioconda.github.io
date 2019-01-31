@@ -11,7 +11,7 @@ A python script for counting RPF reads map to CDS region.
 Home          https://github.com/xzt41/RPF-count-CDS
 Versions      0.0.1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rpfcountcds/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rpfcountcds/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Coverage analysis tool for clinical sequencing
 Home          http://www.chanjo.co/
 Versions      3.3.0, 3.1.1
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/chanjo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//chanjo/meta.yaml
 
 
 

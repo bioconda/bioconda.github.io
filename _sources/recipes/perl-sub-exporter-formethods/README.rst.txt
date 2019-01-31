@@ -11,7 +11,7 @@ helper routines for using Sub\:\:Exporter to build methods
 Home          https://github.com/rjbs/Sub-Exporter-ForMethods
 Versions      0.100052
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-sub-exporter-formethods/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-sub-exporter-formethods/meta.yaml
 
 
 

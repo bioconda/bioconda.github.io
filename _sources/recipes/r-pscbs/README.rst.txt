@@ -11,7 +11,7 @@ Segmentation of allele\-specific DNA copy number data and detection of regions w
 Home          https://github.com/HenrikBengtsson/PSCBS
 Versions      0.64.0, 0.63.0, 0.61.0, 0.60.3, 0.60.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-pscbs/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-pscbs/meta.yaml
 
 
 

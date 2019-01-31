@@ -11,7 +11,7 @@ Find tandem repeat length changes\, from \"long\" DNA reads aligned to a genome
 Home          https://github.com/mcfrith/tandem-genotypes
 Versions      1.4.0, 1.2.0
 License       GPL-3.0-or-later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tandem-genotypes/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tandem-genotypes/meta.yaml
 
 
 

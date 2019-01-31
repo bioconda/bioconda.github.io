@@ -11,7 +11,7 @@ FASTQ summary statistics in JSON format
 Home          https://github.com/rpetit3/fastq-scan
 Versions      0.3, 0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fastq-scan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fastq-scan/meta.yaml
 
 
 

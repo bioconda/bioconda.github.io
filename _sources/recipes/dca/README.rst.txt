@@ -11,7 +11,7 @@ Count autoencoder for scRNA\-seq denoising
 Home          https://github.com/theislab/dca
 Versions      0.2.2
 License       Apache Software
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dca/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dca/meta.yaml
 
 
 

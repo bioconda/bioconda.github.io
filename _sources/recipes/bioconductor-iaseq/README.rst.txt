@@ -11,7 +11,7 @@ It fits correlation motif model to multiple RNAseq or ChIPseq studies to improve
 Home          https://bioconductor.org/packages/3.8/bioc/html/iASeq.html
 Versions      1.24.0, 1.22.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-iaseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iaseq/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Affymetrix Murine Genome 19k Set annotation data \(chip mu19ksuba\) assembled us
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mu19ksuba.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mu19ksuba.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu19ksuba.db/meta.yaml
 
 
 

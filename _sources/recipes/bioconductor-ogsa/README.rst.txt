@@ -11,7 +11,7 @@ OGSA provides a global estimate of pathway deregulation in cancer subtypes by in
 Home          https://bioconductor.org/packages/3.8/bioc/html/OGSA.html
 Versions      1.10.0, 1.8.0, 1.6.0
 License       GPL (== 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ogsa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ogsa/meta.yaml
 
 
 

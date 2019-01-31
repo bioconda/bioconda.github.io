@@ -11,7 +11,7 @@ Phenotypes comparison based on a pathway consensus approach. Assess the relation
 Home          https://bioconductor.org/packages/3.8/bioc/html/PCAN.html
 Versions      1.8.0, 1.6.0, 1.4.0
 License       CC BY-NC-ND 4.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pcan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcan/meta.yaml
 
 
 

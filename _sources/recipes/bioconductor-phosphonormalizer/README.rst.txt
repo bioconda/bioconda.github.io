@@ -11,7 +11,7 @@ It uses the overlap between enriched and non\-enriched datasets to compensate fo
 Home          https://bioconductor.org/packages/3.8/bioc/html/phosphonormalizer.html
 Versions      1.4.0, 1.2.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-phosphonormalizer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phosphonormalizer/meta.yaml
 
 
 

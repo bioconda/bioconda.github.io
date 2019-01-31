@@ -11,7 +11,7 @@ A completely overhauled tool which discovers microRNA genes by analyzing sequenc
 Home          https://www.mdc-berlin.de/8551903/en/research/research_teams/systems_biology_of_gene_regulatory_elements/projects/miRDeep
 Versions      2.0.0.8, 2.0.0.7
 License       academic
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mirdeep2/2.0.0.8/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mirdeep2/2.0.0.8/meta.yaml
 
 
 

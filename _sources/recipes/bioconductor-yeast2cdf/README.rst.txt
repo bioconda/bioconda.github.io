@@ -11,7 +11,7 @@ A package containing an environment representing the Yeast\_2.cdf file.
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/yeast2cdf.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-yeast2cdf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-yeast2cdf/meta.yaml
 
 
 

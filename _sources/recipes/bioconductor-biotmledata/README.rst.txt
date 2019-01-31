@@ -11,7 +11,7 @@ Microarray data \(from the Illumina Ref\-8 BeadChips platform\) and phenotype\-l
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/biotmleData.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-biotmledata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biotmledata/meta.yaml
 
 
 

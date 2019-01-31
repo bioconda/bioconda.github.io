@@ -11,7 +11,7 @@ A mixed collection of useful and semi\-useful diverse statistical functions\, so
 Home          https://github.com/ekstroem/MESS
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-mess/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mess/meta.yaml
 
 
 

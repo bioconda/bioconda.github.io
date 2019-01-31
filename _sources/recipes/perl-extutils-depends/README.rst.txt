@@ -11,7 +11,7 @@ Easily build XS extensions that depend on XS extensions
 Home          http://gtk2-perl.sourceforge.net
 Versions      0.405
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-depends/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-depends/meta.yaml
 
 
 

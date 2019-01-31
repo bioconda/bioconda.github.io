@@ -11,7 +11,7 @@ Quality control and differential expression for bcbio RNA\-seq experiments.
 Home          https://github.com/hbc/bcbioRNASeq
 Versions      0.2.8, 0.2.7, 0.2.4, 0.2.4a, 0.2.3a, 0.1.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-bcbiornaseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-bcbiornaseq/meta.yaml
 
 
 

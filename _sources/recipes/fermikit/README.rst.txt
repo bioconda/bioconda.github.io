@@ -11,7 +11,7 @@ FermiKit is a de novo assembly based variant calling pipeline for deep Illumina 
 Home          https://github.com/lh3/fermikit
 Versions      0.14.dev1
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fermikit/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fermikit/meta.yaml
 
 
 

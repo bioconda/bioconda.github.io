@@ -11,7 +11,7 @@ Create aggregate bioinformatics analysis reports across many samples and tools
 Home          http://multiqc.info
 Versions      1.7, 1.6, 1.6a0, 1.5, 1.5a, 1.4, 1.3, 1.2, 1.1, 1.0, 0.9.1a0, 0.9, 0.9a, 0.8, 0.8dev0, 0.7.1dev0, 0.7, 0.6, 0.5, 0.4
 License       GNU General Public License v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/multiqc/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//multiqc/meta.yaml
 
 
 

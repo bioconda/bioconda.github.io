@@ -11,7 +11,7 @@ Tools to analyze \& visualize Illumina Infinium methylation arrays.
 Home          https://bioconductor.org/packages/3.8/bioc/html/minfi.html
 Versions      1.26.2, 1.24.0, 1.22.1, 1.20.0, 1.16.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-minfi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-minfi/meta.yaml
 
 
 

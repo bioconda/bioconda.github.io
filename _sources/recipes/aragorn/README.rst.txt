@@ -11,7 +11,7 @@ ARAGORN\, tRNA \(and tmRNA\) detection
 Home          http://mbio-serv2.mbioekol.lu.se/ARAGORN/
 Versions      1.2.38, 1.2.36
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/aragorn/1.2.38/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//aragorn/1.2.38/meta.yaml
 
 
 

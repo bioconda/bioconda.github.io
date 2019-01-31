@@ -11,7 +11,7 @@ Ultraperformant Chip\-Seq broad domain finder based on SICER.
 Home          http://github.com/endrebak/epic2
 Versions      0.0.16, 0.0.15
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/epic2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//epic2/meta.yaml
 
 
 

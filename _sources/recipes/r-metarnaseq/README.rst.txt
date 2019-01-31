@@ -11,7 +11,7 @@ Implementation of two p\-value combination techniques \(inverse normal and Fishe
 Home          https://CRAN.R-project.org/package=metaRNASeq
 Versions      1.0.2
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-metarnaseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-metarnaseq/meta.yaml
 
 
 

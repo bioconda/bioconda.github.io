@@ -11,7 +11,7 @@ Prepare Sailfish and Salmon output for downstream analysis
 Home          https://github.com/COMBINE-lab/wasabi
 Versions      0.2, 0.1, 0.0.1
 License       BSD-3-clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-wasabi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-wasabi/meta.yaml
 
 
 

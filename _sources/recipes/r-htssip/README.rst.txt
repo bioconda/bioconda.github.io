@@ -11,7 +11,7 @@ Functions for analyzing high throughput sequencing  stable isotope probing \(HTS
 Home          https://CRAN.R-project.org/package=HTSSIP
 Versions      1.4.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-htssip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-htssip/meta.yaml
 
 
 

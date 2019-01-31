@@ -11,7 +11,7 @@ Base annotation databases for fly\, intended ONLY to be used by AnnotationDbi to
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/fly.db0.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-fly.db0/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fly.db0/meta.yaml
 
 
 

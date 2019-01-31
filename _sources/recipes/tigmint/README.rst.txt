@@ -11,7 +11,7 @@ Correct misassemblies using linked reads
 Home          https://bcgsc.github.io/tigmint/
 Versions      1.1.2
 License       GNU General Public v3 (GPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/tigmint/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//tigmint/meta.yaml
 
 Documentation https://github.com/bcgsc/tigmint#readme
 

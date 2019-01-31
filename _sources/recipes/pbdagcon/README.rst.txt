@@ -11,7 +11,7 @@ A sequence consensus algorithm implementation based on using directed acyclic gr
 Home          https://github.com/PacificBiosciences/pbdagcon
 Versions      0.1
 License       BSD-3-Clause-Clear
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbdagcon/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbdagcon/meta.yaml
 
 
 

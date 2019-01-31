@@ -11,7 +11,7 @@ This package contains a systems biology markup language \(SBML\) interface to R.
 Home          https://bioconductor.org/packages/3.8/bioc/html/SBMLR.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sbmlr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sbmlr/meta.yaml
 
 
 

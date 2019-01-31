@@ -11,7 +11,7 @@ Priority index or Pi is developed as a genomic\-led target prioritisation system
 Home          https://bioconductor.org/packages/3.8/bioc/html/Pi.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pi/meta.yaml
 
 
 

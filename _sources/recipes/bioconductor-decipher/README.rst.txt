@@ -11,7 +11,7 @@ A toolset for deciphering and managing biological sequences.
 Home          https://bioconductor.org/packages/3.8/bioc/html/DECIPHER.html
 Versions      2.8.1, 2.6.0
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-decipher/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-decipher/meta.yaml
 
 
 

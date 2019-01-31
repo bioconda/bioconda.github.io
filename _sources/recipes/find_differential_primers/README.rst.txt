@@ -11,7 +11,7 @@ Scripts to aid the design of differential primers for diagnostic PCR.
 Home          https://github.com/widdowquinn/find_differential_primers
 Versions      0.1.3, 0.1.3.p1
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/find_differential_primers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//find_differential_primers/meta.yaml
 
 
 

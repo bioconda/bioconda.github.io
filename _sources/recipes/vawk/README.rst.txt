@@ -11,7 +11,7 @@ An awk\-like VCF parser
 Home          https://github.com/cc2qe/vawk
 Versions      0.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vawk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vawk/meta.yaml
 
 
 

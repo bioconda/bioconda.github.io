@@ -11,7 +11,7 @@ This package implements analysis tools for DNA methylation data generated using 
 Home          https://bioconductor.org/packages/3.8/bioc/html/charm.html
 Versions      
 License       LGPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-charm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-charm/meta.yaml
 
 
 

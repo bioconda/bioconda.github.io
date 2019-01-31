@@ -11,7 +11,7 @@ NGS is a new\, domain\-specific API for accessing reads\, alignments and pileups
 Home          https://github.com/ncbi/ngs
 Versions      2.9.3, 2.9.1, 2.9.0
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ncbi-ngs-sdk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ncbi-ngs-sdk/meta.yaml
 
 
 

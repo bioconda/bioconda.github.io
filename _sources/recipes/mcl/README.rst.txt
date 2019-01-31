@@ -11,7 +11,7 @@ MCL \- a cluster algorithm for graphs
 Home          http://micans.org/mcl/
 Versions      14.137
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/mcl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//mcl/meta.yaml
 
 
 

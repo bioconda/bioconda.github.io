@@ -11,7 +11,7 @@ Bioinformatics platform containing interactive plots and tables for differential
 Home          https://bioconductor.org/packages/3.8/bioc/html/debrowser.html
 Versions      
 License       GPL-3 + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-debrowser/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-debrowser/meta.yaml
 
 
 

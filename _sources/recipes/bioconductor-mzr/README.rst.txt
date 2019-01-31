@@ -11,7 +11,7 @@ mzR provides a unified API to the common file formats and parsers available for 
 Home          https://bioconductor.org/packages/3.8/bioc/html/mzR.html
 Versions      2.12.0, 2.10.0, 2.6.3, 2.4.1
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mzr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mzr/meta.yaml
 
 
 

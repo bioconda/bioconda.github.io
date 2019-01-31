@@ -11,7 +11,7 @@ XHMM \(eXome\-Hidden Markov Model\).
 Home          http://atgu.mgh.harvard.edu/xhmm/index.shtml
 Versions      0.0.0.2016_01_04.cc14e52
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/xhmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//xhmm/meta.yaml
 
 
 

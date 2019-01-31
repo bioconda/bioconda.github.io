@@ -11,7 +11,7 @@ A package for designing compact and comprehensive probe sets.
 Home          https://github.com/broadinstitute/catch
 Versions      1.1.0, 1.0.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/catch/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//catch/meta.yaml
 
 
 

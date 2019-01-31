@@ -11,7 +11,7 @@ This package provides R functions for common pre\-procssing steps that are appli
 Home          https://bioconductor.org/packages/3.8/bioc/html/PepsNMR.html
 Versions      
 License       GPL-2 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-pepsnmr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pepsnmr/meta.yaml
 
 
 

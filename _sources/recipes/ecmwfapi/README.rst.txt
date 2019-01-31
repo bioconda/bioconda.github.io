@@ -11,7 +11,7 @@ ECMWF API is a set of services developed by ECMWF http\:\/\/www.ecmwf.int to all
 Home          https://software.ecmwf.int/wiki/display/WEBAPI/Access+ECMWF+Public+Datasets#AccessECMWFPublicDatasets-clientlibraries
 Versions      1.4.1
 License       Apache Licence Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ecmwfapi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ecmwfapi/meta.yaml
 
 
 

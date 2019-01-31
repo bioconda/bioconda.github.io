@@ -11,7 +11,7 @@ Fast Artificial Neural Network Library
 Home          http://leenissen.dk/fann/wp/
 Versions      2.2.0
 License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/fann/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//fann/meta.yaml
 
 
 

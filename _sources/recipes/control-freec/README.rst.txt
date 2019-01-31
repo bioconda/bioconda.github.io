@@ -13,7 +13,7 @@ sequencing data.
 Home          https://github.com/BoevaLab/FREEC
 Versions      11.4, 10.6, 10.5
 License       GPL (>=2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/control-freec/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//control-freec/meta.yaml
 
 
 

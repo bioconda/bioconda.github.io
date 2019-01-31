@@ -11,7 +11,7 @@ Compute local minima and energy barriers of a landscape.
 Home          https://www.tbi.univie.ac.at/RNA/Barriers/
 Versions      1.7.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/barriers/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//barriers/meta.yaml
 
 
 

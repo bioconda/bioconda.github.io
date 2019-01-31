@@ -11,7 +11,7 @@ A Tie\:\:RefHash subclass with weakened references in the keys.
 Home          http://metacpan.org/pod/Tie::RefHash::Weak
 Versions      0.09
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-tie-refhash-weak/0.09/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-tie-refhash-weak/0.09/meta.yaml
 
 
 

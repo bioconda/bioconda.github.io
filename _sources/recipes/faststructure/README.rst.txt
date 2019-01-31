@@ -11,7 +11,7 @@ A variational framework for inferring population structure from SNP genotype dat
 Home          https://github.com/rajanil/fastStructure
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/faststructure/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//faststructure/meta.yaml
 
 
 

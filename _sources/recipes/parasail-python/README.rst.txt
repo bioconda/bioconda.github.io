@@ -11,7 +11,7 @@ pairwise sequence alignment library
 Home          https://github.com/jeffdaily/parasail-python
 Versions      1.1.12
 License       BSD
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/parasail-python/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parasail-python/meta.yaml
 
 
 

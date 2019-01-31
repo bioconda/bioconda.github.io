@@ -11,7 +11,7 @@ perl-moosex-role-withoverloading
 Home          https://github.com/moose/MooseX-Role-WithOverloading
 Versions      0.17
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-role-withoverloading/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-role-withoverloading/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Example datasets of a slightly large size. They represent \'real world examples\
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/affydata.html
 Versions      1.28.0, 1.26.0, 1.24.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-affydata/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affydata/meta.yaml
 
 
 

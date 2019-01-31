@@ -11,7 +11,7 @@ A5\-miseq is a pipeline for assembling DNA sequence data generated on the Illumi
 Home          https://sourceforge.net/projects/ngop
 Versions      20160825
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/a5-miseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//a5-miseq/meta.yaml
 
 
 

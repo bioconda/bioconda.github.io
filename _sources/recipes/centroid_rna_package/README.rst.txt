@@ -11,7 +11,7 @@ Colection of RNA secondary structure prediction programs based on gamma\-centroi
 Home          https://github.com/satoken/centroid-rna-package
 Versions      0.0.15
 License       GPL-V2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/centroid_rna_package/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//centroid_rna_package/meta.yaml
 
 
 

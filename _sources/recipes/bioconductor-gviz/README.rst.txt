@@ -11,7 +11,7 @@ Genomic data analyses requires integrated visualization of known genomic informa
 Home          https://bioconductor.org/packages/3.8/bioc/html/Gviz.html
 Versions      1.24.0, 1.22.3, 1.22.0, 1.20.0, 1.16.5, 1.14.2
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-gviz/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gviz/meta.yaml
 
 
 

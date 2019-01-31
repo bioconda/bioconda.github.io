@@ -11,7 +11,7 @@ The package enables a simple unified interface to several annotation packages ea
 Home          https://bioconductor.org/packages/3.8/bioc/html/OrganismDbi.html
 Versions      1.22.0, 1.20.0, 1.18.1, 1.14.1, 1.12.1, 1.12.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-organismdbi/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-organismdbi/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package was automatically created by package AnnotationDbi version 1.11.8. 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/HuExExonProbesetLocationHg19.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-huexexonprobesetlocationhg19/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-huexexonprobesetlocationhg19/meta.yaml
 
 
 

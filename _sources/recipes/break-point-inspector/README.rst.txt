@@ -11,7 +11,7 @@ BPI uses Manta’s variant calls to re\-analyse BAM files and precisely determin
 Home          https://github.com/hartwigmedical/hmftools/tree/master/break-point-inspector
 Versions      1.5
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/break-point-inspector/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//break-point-inspector/meta.yaml
 
 
 

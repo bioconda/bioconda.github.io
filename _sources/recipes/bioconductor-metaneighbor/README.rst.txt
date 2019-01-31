@@ -11,7 +11,7 @@ MetaNeighbor allows users to quantify cell type replicability across datasets us
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetaNeighbor.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metaneighbor/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metaneighbor/meta.yaml
 
 
 

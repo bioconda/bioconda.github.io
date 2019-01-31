@@ -11,7 +11,7 @@ A collection of Ovarian Cancer Transcriptomic Datasets that are part of the Meta
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MetaGxOvarian.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-metagxovarian/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metagxovarian/meta.yaml
 
 
 

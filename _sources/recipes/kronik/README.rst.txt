@@ -11,7 +11,7 @@ Utility for processing Hardklor features to find candidate peptides by chromatog
 Home          https://github.com/mhoopmann/kronik
 Versions      2.20
 License       Apache License, Version 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kronik/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kronik/meta.yaml
 
 
 

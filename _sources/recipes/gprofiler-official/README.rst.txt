@@ -11,7 +11,7 @@ Functional enrichment analysis and more via the g\:Profiler toolkit
 Home          http://biit.cs.ut.ee/gprofiler
 Versions      0.2.3
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gprofiler-official/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gprofiler-official/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ The package contains a collection of functions for left\-censored missing data i
 Home          https://CRAN.R-project.org/package=imputeLCMD
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-imputelcmd/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-imputelcmd/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Classes and setuptools plugin for Mercurial and Git repositories
 Home          https://github.com/jaraco/hgtools
 Versions      8.1.1, 6.5.1
 License       GNU General Public License (GPL)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hgtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hgtools/meta.yaml
 
 
 

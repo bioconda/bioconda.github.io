@@ -11,7 +11,7 @@ Module name tools and transformations
 Home          http://metacpan.org/pod/Module::Util
 Versions      1.09
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-module-util/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-module-util/meta.yaml
 
 
 

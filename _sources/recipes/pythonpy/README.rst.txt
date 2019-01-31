@@ -11,7 +11,7 @@ the swiss army knife of the command line
 Home          https://github.com/Russell91/pythonpy
 Versions      0.4.11, 0.4.2
 License       Unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pythonpy/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pythonpy/meta.yaml
 
 
 

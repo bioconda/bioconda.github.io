@@ -11,7 +11,7 @@ Framework providing basic pedigree analysis and plotting utilities as well as a 
 Home          https://bioconductor.org/packages/3.8/bioc/html/FamAgg.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-famagg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-famagg/meta.yaml
 
 
 

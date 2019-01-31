@@ -11,7 +11,7 @@ Bio\+\+ is a set of C\+\+ libraries for Bioinformatics.
 Home          https://github.com/BioPP/bpp-core
 Versions      2.4.1, 2.2.0
 License       CeCILL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bpp-core/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bpp-core/meta.yaml
 
 
 

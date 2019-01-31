@@ -11,7 +11,7 @@ Quality control \(QC\) pipeline for ChIP\-seq data using a comprehensive set of 
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChIC.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-chic/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chic/meta.yaml
 
 
 

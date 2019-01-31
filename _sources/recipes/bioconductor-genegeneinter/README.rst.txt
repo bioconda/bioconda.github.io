@@ -11,7 +11,7 @@ The aim of this package is to propose several methods for testing gene\-gene int
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneGeneInteR.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genegeneinter/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genegeneinter/meta.yaml
 
 
 

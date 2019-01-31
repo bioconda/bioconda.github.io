@@ -11,7 +11,7 @@ Wgsim is a small tool for simulating sequence reads from a reference genome.
 Home          https://github.com/lh3/wgsim
 Versions      1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/wgsim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//wgsim/meta.yaml
 
 
 

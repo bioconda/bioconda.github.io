@@ -11,7 +11,7 @@ Motif based sequence Analysis tools
 Home          http://alternate.meme-suite.org/
 Versions      5.0.2, 4.12.0, 4.11.2, 4.11.1
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/meme/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//meme/meta.yaml
 
 
 

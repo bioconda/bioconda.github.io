@@ -11,7 +11,7 @@ A statistical framework to examine the combinations of clones that co\-exist in 
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneAccord.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-geneaccord/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneaccord/meta.yaml
 
 
 

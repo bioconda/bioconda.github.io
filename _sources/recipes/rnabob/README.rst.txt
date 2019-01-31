@@ -11,7 +11,7 @@ fast RNA motif searching
 Home          
 Versions      2.2.1
 License       
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnabob/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnabob/meta.yaml
 
 
 

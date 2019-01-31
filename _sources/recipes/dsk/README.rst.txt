@@ -11,7 +11,7 @@ DSK is a k\-mer counter for reads or genomes.
 Home          https://github.com/GATB/dsk/
 Versions      2.2.0
 License       AGPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dsk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dsk/meta.yaml
 
 
 

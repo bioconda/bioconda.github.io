@@ -11,7 +11,7 @@ The appreci8R is an R version of our appreci8\-algorithm \- A Pipeline for PREci
 Home          https://bioconductor.org/packages/3.8/bioc/html/appreci8R.html
 Versions      
 License       LGPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-appreci8r/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-appreci8r/meta.yaml
 
 
 

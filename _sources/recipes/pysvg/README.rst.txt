@@ -11,7 +11,7 @@ Python SVG Library
 Home          http://codeboje.de/pysvg/
 Versions      0.2.2
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pysvg/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pysvg/meta.yaml
 
 
 

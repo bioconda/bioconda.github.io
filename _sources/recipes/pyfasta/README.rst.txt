@@ -11,7 +11,7 @@ fast\, memory\-efficient\, pythonic \(and command\-line\) access to fasta sequen
 Home          http://github.com/brentp/pyfasta/
 Versions      0.5.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyfasta/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyfasta/meta.yaml
 
 
 

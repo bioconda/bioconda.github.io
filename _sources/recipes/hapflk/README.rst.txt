@@ -11,7 +11,7 @@ hapflk is a software implementing the hapFLK and FLK tests for the detection of 
 Home          https://forge-dga.jouy.inra.fr/projects/hapflk
 Versions      1.3.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/hapflk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//hapflk/meta.yaml
 
 
 

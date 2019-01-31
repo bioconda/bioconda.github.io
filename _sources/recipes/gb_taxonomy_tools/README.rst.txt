@@ -11,7 +11,7 @@ These are four simple utilities which perform certain manipulations and  visuali
 Home          https://github.com/spond/gb_taxonomy_tools
 Versions      1.0.1, 1.0.0
 License       GNU General Public License v2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gb_taxonomy_tools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gb_taxonomy_tools/meta.yaml
 
 
 

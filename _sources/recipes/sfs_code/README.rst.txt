@@ -11,7 +11,7 @@ This article introduces a new forward population genetic simulation program that
 Home          http://sfscode.sourceforge.net/SFS_CODE/index/index.html
 Versions      20150910
 License       file
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sfs_code/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sfs_code/meta.yaml
 
 
 

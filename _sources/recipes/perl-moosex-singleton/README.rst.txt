@@ -11,7 +11,7 @@ Turn your Moose class into a singleton
 Home          https://github.com/moose/MooseX-Singleton
 Versions      0.30
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-moosex-singleton/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-moosex-singleton/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Agilent Human 1A \(V2\) annotation data \(chip hgug4110b\) assembled using data 
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgug4110b.db.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hgug4110b.db/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgug4110b.db/meta.yaml
 
 
 

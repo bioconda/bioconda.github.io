@@ -11,7 +11,7 @@ produce RFC 2822 date strings
 Home          https://github.com/rjbs/Email-Date-Format
 Versions      1.005
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-email-date-format/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-email-date-format/meta.yaml
 
 
 

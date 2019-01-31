@@ -11,7 +11,7 @@ Command\-line interface to the Cromwell workflow manager
 Home          https://github.com/broadinstitute/cromshell
 Versions      0.2.3
 License       BSD-3-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cromshell/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cromshell/meta.yaml
 
 
 

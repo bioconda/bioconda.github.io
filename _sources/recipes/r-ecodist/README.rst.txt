@@ -11,7 +11,7 @@ Dissimilarity\-based analysis functions including ordination and Mantel test fun
 Home          https://CRAN.R-project.org/package=ecodist
 Versions      2.0.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-ecodist/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-ecodist/meta.yaml
 
 
 

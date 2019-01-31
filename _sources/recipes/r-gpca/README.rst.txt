@@ -11,7 +11,7 @@ This package implements guided principal components analysis for the detection o
 Home          https://CRAN.R-project.org/package=gPCA
 Versions      1.0
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gpca/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gpca/meta.yaml
 
 
 

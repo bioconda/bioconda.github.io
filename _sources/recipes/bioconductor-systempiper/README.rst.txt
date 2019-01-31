@@ -11,7 +11,7 @@ R package for building and running automated end\-to\-end analysis workflows for
 Home          https://bioconductor.org/packages/3.8/bioc/html/systemPipeR.html
 Versions      1.14.0, 1.12.0, 1.10.2, 1.9.0, 1.4.8, 1.4.7
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-systempiper/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-systempiper/meta.yaml
 
 
 

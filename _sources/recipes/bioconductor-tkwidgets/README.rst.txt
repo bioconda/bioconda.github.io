@@ -11,7 +11,7 @@ Widgets to provide user interfaces. tcltk should have been installed for the wid
 Home          https://bioconductor.org/packages/3.8/bioc/html/tkWidgets.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-tkwidgets/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tkwidgets/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package provides functions for fitting dPeak\, a statistical framework to d
 Home          http://dongjunchung.github.io/dpeak/
 Versions      2.0.1
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-dpeak/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-dpeak/meta.yaml
 
 
 

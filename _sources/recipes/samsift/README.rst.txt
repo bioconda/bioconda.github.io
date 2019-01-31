@@ -11,7 +11,7 @@ Advanced filtering and tagging of SAM\/BAM alignments using Python expressions.
 Home          https://github.com/karel-brinda/samsift
 Versions      0.2.5, 0.2.3, 0.2.2, 0.2.1, 0.2.0, 0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/samsift/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//samsift/meta.yaml
 
 
 

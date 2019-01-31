@@ -11,7 +11,7 @@ Annotates cDNA\, protein\, mutation type\, and other funcational changes to vari
 Home          https://github.com/BioTools-Tek/funcannot
 Versions      v2.8
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/funcannot/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//funcannot/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Target prediction for prokaryotic trans\-acting small RNAs
 Home          https://github.com/PatrickRWright/CopraRNA
 Versions      2.1.3, 2.1.2, 2.1.1, 2.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/coprarna/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//coprarna/meta.yaml
 
 
 

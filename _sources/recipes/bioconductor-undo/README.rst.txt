@@ -11,7 +11,7 @@ UNDO is an R package for unsupervised deconvolution of tumor and stromal mixed e
 Home          https://bioconductor.org/packages/3.8/bioc/html/UNDO.html
 Versions      1.22.0, 1.20.0
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-undo/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-undo/meta.yaml
 
 
 

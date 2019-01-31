@@ -11,7 +11,7 @@ Analysis of Ct values from high throughput quantitative real\-time PCR \(qPCR\) 
 Home          https://bioconductor.org/packages/3.8/bioc/html/HTqPCR.html
 Versions      1.34.0, 1.32.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-htqpcr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htqpcr/meta.yaml
 
 
 

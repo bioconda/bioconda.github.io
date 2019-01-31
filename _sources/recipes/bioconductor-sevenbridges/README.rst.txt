@@ -11,7 +11,7 @@ R client and utilities for Seven Bridges platform API\, from Cancer Genomics Clo
 Home          https://bioconductor.org/packages/3.8/bioc/html/sevenbridges.html
 Versions      
 License       Apache License 2.0 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-sevenbridges/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sevenbridges/meta.yaml
 
 
 

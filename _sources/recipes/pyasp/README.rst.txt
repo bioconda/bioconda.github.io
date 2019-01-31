@@ -11,7 +11,7 @@ A convenience wrapper for the ASP tools gringo\, gringo4 and clasp.
 Home          http://pypi.python.org/pypi/pyasp/
 Versions      1.4.3
 License       GPLv3+
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pyasp/1.4.3/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pyasp/1.4.3/meta.yaml
 
 
 

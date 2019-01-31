@@ -11,7 +11,7 @@ format Pod as plaintext
 Home          http://metacpan.org/pod/Pod::Simple::Text
 Versions      3.28
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-simple-text/3.28/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-simple-text/3.28/meta.yaml
 
 
 

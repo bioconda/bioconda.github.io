@@ -11,7 +11,7 @@ convert between color spaces
 Home          http://metacpan.org/pod/Graphics::ColorObject
 Versions      0.5.0
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-graphics-colorobject/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-graphics-colorobject/meta.yaml
 
 
 

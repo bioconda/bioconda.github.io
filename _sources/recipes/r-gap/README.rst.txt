@@ -11,7 +11,7 @@ It is designed as an integrated package for genetic data analysis of both popula
 Home          https://jinghuazhao.github.io
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-gap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gap/meta.yaml
 
 
 

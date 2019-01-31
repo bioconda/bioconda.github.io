@@ -11,7 +11,7 @@ Provides an R interface to functions of the \'SAMtools\' C\-Library by Heng Li \
 Home          https://CRAN.R-project.org/package=rbamtools
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-rbamtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rbamtools/meta.yaml
 
 
 

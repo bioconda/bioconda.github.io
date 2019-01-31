@@ -11,7 +11,7 @@ Modular command\-line solution for visualisation\, quality control and taxonomic
 Home          https://blobtools.readme.io/docs/what-is-blobtools
 Versions      1.0.1
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/blobtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//blobtools/meta.yaml
 
 
 

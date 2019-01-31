@@ -11,7 +11,7 @@ Strategic Kmer Extension for Scrupulous Assemblies
 Home          https://ftp.ncbi.nlm.nih.gov/pub/agarwala/skesa
 Versions      2.3.0, 2.2, 2.1
 License       Public Domain
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/skesa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//skesa/meta.yaml
 
 
 

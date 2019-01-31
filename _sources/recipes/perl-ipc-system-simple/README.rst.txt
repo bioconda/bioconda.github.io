@@ -11,7 +11,7 @@ Run commands simply\, with detailed diagnostics
 Home          http://metacpan.org/pod/IPC::System::Simple
 Versions      1.25
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-ipc-system-simple/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-ipc-system-simple/meta.yaml
 
 
 

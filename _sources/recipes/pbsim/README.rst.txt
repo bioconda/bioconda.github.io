@@ -11,7 +11,7 @@ PBSIM simulates PacBio reads
 Home          https://code.google.com/archive/p/pbsim/
 Versions      1.0.3
 License       GPLv2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pbsim/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pbsim/meta.yaml
 
 
 

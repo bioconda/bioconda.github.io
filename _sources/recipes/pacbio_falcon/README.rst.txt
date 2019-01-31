@@ -11,7 +11,7 @@ A set of tools for fast aligning long reads for consensus and assembly
 Home          https://github.com/PacificBiosciences/FALCON
 Versions      052016
 License       Standard PacBio Open Source License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pacbio_falcon/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pacbio_falcon/meta.yaml
 
 
 

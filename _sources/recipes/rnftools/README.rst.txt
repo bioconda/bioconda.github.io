@@ -11,7 +11,7 @@ RNF framework for NGS\: simulation of reads\, evaluation of mappers\, conversion
 Home          http://karel-brinda.github.io/rnftools
 Versions      0.3.1.3, 0.3.1.2, 0.3.1.1, 0.3.1.0, 0.3.0.2
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/rnftools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rnftools/meta.yaml
 
 
 

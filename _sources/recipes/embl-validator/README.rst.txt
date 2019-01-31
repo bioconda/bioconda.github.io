@@ -11,7 +11,7 @@ ENA flat file validator for submission
 Home          http://www.ebi.ac.uk/ena/software/flat-file-validator
 Versions      1.1.180, 1.1.173
 License       Apache-2-0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/embl-validator/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//embl-validator/meta.yaml
 
 
 

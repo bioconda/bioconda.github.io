@@ -11,7 +11,7 @@ LiveKraken is a real\-time metagenomic classifier for Illumina sequencing data.
 Home          https://gitlab.com/SimonHTausch/LiveKraken
 Versions      1.0
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/livekraken/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//livekraken/meta.yaml
 
 
 

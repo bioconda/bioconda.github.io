@@ -11,7 +11,7 @@ This script sorts and \(optionally\) filters the rows\/variants of a VCF file \(
 Home          https://github.com/hepcat72/vcfSampleCompare
 Versions      v2.008, v2.006
 License       GNU
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/vcfsamplecompare/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//vcfsamplecompare/meta.yaml
 
 
 

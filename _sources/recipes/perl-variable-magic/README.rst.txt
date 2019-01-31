@@ -11,7 +11,7 @@ Associate user\-defined magic to variables from Perl.
 Home          http://search.cpan.org/dist/Variable-Magic/
 Versions      0.61
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-variable-magic/0.61/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-variable-magic/0.61/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Enriched domain detector for ChIP\-seq data
 Home          http://github.com/CollasLab/edd
 Versions      1.1.18
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/edd/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//edd/meta.yaml
 
 
 

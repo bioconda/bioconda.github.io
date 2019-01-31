@@ -11,7 +11,7 @@ Estimate and predict power among groups and multiple sample sizes with simulated
 Home          https://bioconductor.org/packages/3.8/bioc/html/PowerExplorer.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-powerexplorer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-powerexplorer/meta.yaml
 
 
 

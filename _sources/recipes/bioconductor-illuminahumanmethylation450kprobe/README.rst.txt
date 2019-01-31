@@ -11,7 +11,7 @@ Probe sequences from Illumina \(ftp.illumina.com\) for hm450 probes
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylation450kprobe.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-illuminahumanmethylation450kprobe/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanmethylation450kprobe/meta.yaml
 
 
 

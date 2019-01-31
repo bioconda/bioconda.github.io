@@ -11,7 +11,7 @@ Log4j implementation for Perl
 Home          http://metacpan.org/pod/Log::Log4perl
 Versions      1.49, 1.47
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-log-log4perl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-log-log4perl/meta.yaml
 
 
 

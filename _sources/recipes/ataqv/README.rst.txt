@@ -11,7 +11,7 @@ ataqv is a toolkit for measuring and comparing ATAC\-seq results. It was written
 Home          https://parkerlab.github.io/ataqv/
 Versions      1.0.0
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ataqv/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ataqv/meta.yaml
 
 Documentation https://github.com/ParkerLab/ataqv/blob/master/README.rst
 

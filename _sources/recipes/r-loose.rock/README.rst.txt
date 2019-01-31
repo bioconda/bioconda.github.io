@@ -11,7 +11,7 @@ Collection of functions to improve work\-flow in survival analysis and data scie
 Home          https://www.github.com/averissimo/loose.rock
 Versions      
 License       GPL (>= 3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-loose.rock/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-loose.rock/meta.yaml
 
 
 

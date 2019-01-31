@@ -11,7 +11,7 @@ Takes in a gVCF or VCF and reports metrics to assess quality of calls.
 Home          https://bioconductor.org/packages/3.8/bioc/html/genotypeeval.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genotypeeval/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genotypeeval/meta.yaml
 
 
 

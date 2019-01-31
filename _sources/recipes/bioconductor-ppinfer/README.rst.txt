@@ -11,7 +11,7 @@ Interactions between proteins occur in many\, if not most\, biological processes
 Home          https://bioconductor.org/packages/3.8/bioc/html/PPInfer.html
 Versions      1.6.0, 1.4.0, 1.2.4
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ppinfer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ppinfer/meta.yaml
 
 
 

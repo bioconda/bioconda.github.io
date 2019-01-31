@@ -11,7 +11,7 @@ Tools for dealing with mass spectrometry files \(e.g.\, mzML\, mzXML\, mzIdentML
 Home          https://proteowizard.sourceforge.net
 Versions      3_0_9992
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/proteowizard/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//proteowizard/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ This package allows to characterize the operating characteristics of a microarra
 Home          https://bioconductor.org/packages/3.8/bioc/html/OCplus.html
 Versions      
 License       LGPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-ocplus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ocplus/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ DETONATE \(DE novo TranscriptOme rNa\-seq Assembly with or without the Truth Eva
 Home          http://deweylab.biostat.wisc.edu/detonate/
 Versions      1.11
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/detonate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//detonate/meta.yaml
 
 
 

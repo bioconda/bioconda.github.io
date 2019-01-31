@@ -11,7 +11,7 @@ The GEM read mapper \(v3\).
 Home          https://github.com/smarco/gem3-mapper
 Versions      3.6.1
 License       GPL-3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gem3-mapper/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gem3-mapper/meta.yaml
 
 
 

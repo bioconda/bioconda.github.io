@@ -11,7 +11,7 @@ Massive and Integrative Gene Set Analysis. The MIGSA package allows to perform a
 Home          https://bioconductor.org/packages/3.8/bioc/html/MIGSA.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-migsa/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-migsa/meta.yaml
 
 
 

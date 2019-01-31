@@ -11,7 +11,7 @@ SeqMap is a tool for mapping large amount of oligonucleotide to the genome.
 Home          http://www-personal.umich.edu/~jianghui/seqmap/
 Versions      1.0.13
 License       Custom OSS
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seqmap/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqmap/meta.yaml
 
 
 

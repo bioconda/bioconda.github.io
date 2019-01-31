@@ -11,7 +11,7 @@ Allows for importing most common motif types into R for use by functions provide
 Home          https://bioconductor.org/packages/3.8/bioc/html/universalmotif.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-universalmotif/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-universalmotif/meta.yaml
 
 
 

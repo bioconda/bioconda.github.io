@@ -11,7 +11,7 @@ Command\-line tools for processing biological sequencing data.
 Home          https://expressionanalysis.github.io/ea-utils/
 Versions      1.1.2.779, 1.1.2.537
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ea-utils/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ea-utils/meta.yaml
 
 
 

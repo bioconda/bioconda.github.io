@@ -11,7 +11,7 @@ Deconvolution of gene expression data by Population\-Specific Expression Analysi
 Home          https://bioconductor.org/packages/3.8/bioc/html/PSEA.html
 Versions      1.14.0, 1.12.0, 1.10.0
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-psea/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-psea/meta.yaml
 
 
 

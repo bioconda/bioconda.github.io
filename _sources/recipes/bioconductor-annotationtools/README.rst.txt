@@ -11,7 +11,7 @@ Functions to annotate microarrays\, find orthologs\, and integrate heterogeneous
 Home          https://bioconductor.org/packages/3.8/bioc/html/annotationTools.html
 Versions      1.54.0, 1.52.0, 1.50.0
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-annotationtools/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-annotationtools/meta.yaml
 
 
 

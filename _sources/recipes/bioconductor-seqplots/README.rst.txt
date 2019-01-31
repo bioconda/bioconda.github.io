@@ -11,7 +11,7 @@ SeqPlots is a tool for plotting next generation sequencing \(NGS\) based experim
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqplots.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-seqplots/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqplots/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ CLOVE\: Classification of genomic fusions into structural variation events.
 Home          https://github.com/PapenfussLab/clove
 Versions      0.17
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clove/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clove/meta.yaml
 
 
 

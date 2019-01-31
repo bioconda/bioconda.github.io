@@ -11,7 +11,7 @@ Multiple alignment of nucleotide sequences guided by amino acid information
 Home          http://pc16141.mncn.csic.es/
 Versions      1.1
 License       None
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/translatorx/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//translatorx/meta.yaml
 
 
 

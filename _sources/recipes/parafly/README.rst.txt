@@ -11,7 +11,7 @@ Given a file containing a list of unix commands\, multithreading is used to proc
 Home          http://parafly.sourceforge.net/
 Versions      r2013_01_21
 License       The Broad Institute (own license thingy)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/parafly/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//parafly/meta.yaml
 
 
 

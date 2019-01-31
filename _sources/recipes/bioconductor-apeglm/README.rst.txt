@@ -11,7 +11,7 @@ apeglm provides Bayesian shrinkage estimators for effect sizes for a variety of 
 Home          https://bioconductor.org/packages/3.8/bioc/html/apeglm.html
 Versions      1.2.1, 1.0.3
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-apeglm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-apeglm/meta.yaml
 
 
 

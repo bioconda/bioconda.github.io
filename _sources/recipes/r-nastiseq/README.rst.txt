@@ -11,7 +11,7 @@ Pairs of RNA molecules transcribed from partially or entirely complementary loci
 Home          https://ohlerlab.mdc-berlin.de/software/NASTIseq_104/
 Versions      1.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-nastiseq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-nastiseq/meta.yaml
 
 
 

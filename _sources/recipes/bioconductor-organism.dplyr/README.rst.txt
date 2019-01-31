@@ -11,7 +11,7 @@ This package provides an alternative interface to Bioconductor \'annotation\' re
 Home          https://bioconductor.org/packages/3.8/bioc/html/Organism.dplyr.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-organism.dplyr/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-organism.dplyr/meta.yaml
 
 
 

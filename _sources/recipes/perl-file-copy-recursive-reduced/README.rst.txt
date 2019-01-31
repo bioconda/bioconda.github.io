@@ -11,7 +11,7 @@ Recursive copying of files and directories within Perl 5 toolchain
 Home          http://thenceforward.net/perl/modules/File-Copy-Recursive-Reduced/
 Versions      0.006
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-file-copy-recursive-reduced/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-file-copy-recursive-reduced/meta.yaml
 
 
 

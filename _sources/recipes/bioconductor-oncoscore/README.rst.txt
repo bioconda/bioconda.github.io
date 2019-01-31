@@ -11,7 +11,7 @@ OncoScore is a tool to measure the association of genes to cancer based on citat
 Home          https://bioconductor.org/packages/3.8/bioc/html/OncoScore.html
 Versions      
 License       file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-oncoscore/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oncoscore/meta.yaml
 
 
 

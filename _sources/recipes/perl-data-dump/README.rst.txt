@@ -11,7 +11,7 @@ Pretty printing of data structure
 Home          https://metacpan.org/pod/Data::Dump
 Versions      1.23
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-data-dump/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-data-dump/meta.yaml
 
 
 

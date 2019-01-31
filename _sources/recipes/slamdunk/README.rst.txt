@@ -11,7 +11,7 @@ SlamDunk is a novel\, fully automated software tool for automated\, robust\, sca
 Home          http://t-neumann.github.io/slamdunk
 Versions      0.3.3, 0.3.2
 License       GNU Affero General Public License v3 (AGPLv3)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/slamdunk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//slamdunk/meta.yaml
 
 
 

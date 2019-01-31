@@ -11,7 +11,7 @@ Disty McMatrixface \- compute a distance matrix from a core genome alignment fil
 Home          https://github.com/c2-d2/disty
 Versions      0.1.0
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/disty/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//disty/meta.yaml
 
 
 

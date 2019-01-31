@@ -11,7 +11,7 @@ Integration of the Ra assembler \- a de novo DNA assembler for third generation 
 Home          https://github.com/mariokostelac/ra-integrate
 Versions      0.1
 License       GPL3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ra-integrate/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ra-integrate/meta.yaml
 
 
 

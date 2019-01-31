@@ -11,7 +11,7 @@ Tools for BED\, FASTA\, FASTQ\, GFA1\/2\, GFF3\, and VCF files
 Home          https://github.com/heuermh/dishevelled-bio
 Versions      1.0.1, 1.0
 License       LGPL version 3 or later
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/dsh-bio/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//dsh-bio/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Cubic Spline Interpolation of data
 Home          http://metacpan.org/pod/Math-Spline
 Versions      0.02
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-math-spline/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-math-spline/meta.yaml
 
 
 

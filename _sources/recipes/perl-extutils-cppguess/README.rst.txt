@@ -11,7 +11,7 @@ guess C\+\+ compiler and flags
 Home          http://metacpan.org/pod/ExtUtils::CppGuess
 Versions      0.12
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-extutils-cppguess/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-extutils-cppguess/meta.yaml
 
 
 

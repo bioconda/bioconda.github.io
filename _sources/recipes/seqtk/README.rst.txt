@@ -11,7 +11,7 @@ Seqtk is a fast and lightweight tool for processing sequences in the FASTA or FA
 Home          https://github.com/lh3/seqtk
 Versions      1.3, 1.2, r93, r82, r75
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/seqtk/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqtk/meta.yaml
 
 
 

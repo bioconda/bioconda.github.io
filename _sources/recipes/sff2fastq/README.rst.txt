@@ -11,7 +11,7 @@ Extract 454 Genome Sequencer reads from a SFF file and convert them into a FASTQ
 Home          https://github.com/indraniel/sff2fastq
 Versions      0.9.2
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/sff2fastq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//sff2fastq/meta.yaml
 
 
 

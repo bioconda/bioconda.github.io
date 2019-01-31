@@ -11,7 +11,7 @@ Uses platform\-specific implemenations of the GatingML2.0 standard to exchange g
 Home          https://bioconductor.org/packages/3.8/bioc/html/CytoML.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cytoml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cytoml/meta.yaml
 
 
 

@@ -11,7 +11,7 @@ Kraken is a system for assigning taxonomic labels to short DNA sequences\, usual
 Home          https://github.com/ExpressionAnalysis/kraken/tree/v0.10.5-beta-ea.2
 Versions      0.10.5ea.3
 License       GPLv3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/kraken-ea/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//kraken-ea/meta.yaml
 
 
 

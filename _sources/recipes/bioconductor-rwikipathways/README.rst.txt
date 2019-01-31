@@ -11,7 +11,7 @@ Use this package to interface with the WikiPathways API.
 Home          https://bioconductor.org/packages/3.8/bioc/html/rWikiPathways.html
 Versions      
 License       MIT + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rwikipathways/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rwikipathways/meta.yaml
 
 
 

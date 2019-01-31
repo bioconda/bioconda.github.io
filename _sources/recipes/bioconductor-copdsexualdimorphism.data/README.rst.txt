@@ -11,7 +11,7 @@ Datasets to support COPDSexaulDimorphism Package.
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/COPDSexualDimorphism.data.html
 Versions      
 License       LGPL-2.1
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-copdsexualdimorphism.data/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copdsexualdimorphism.data/meta.yaml
 
 
 

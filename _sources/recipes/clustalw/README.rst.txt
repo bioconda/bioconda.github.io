@@ -11,7 +11,7 @@ ClustalW2 is a general purpose multiple sequence alignment program for DNA or pr
 Home          http://www.clustal.org/clustal2/
 Versions      2.1
 License       GNU Lesser GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/clustalw/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//clustalw/meta.yaml
 
 
 

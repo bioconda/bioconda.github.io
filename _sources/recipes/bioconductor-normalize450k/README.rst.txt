@@ -11,7 +11,7 @@ Precise measurements are important for epigenome\-wide studies investigating DNA
 Home          https://bioconductor.org/packages/3.8/bioc/html/normalize450K.html
 Versions      
 License       BSD_2_clause + file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-normalize450k/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-normalize450k/meta.yaml
 
 
 

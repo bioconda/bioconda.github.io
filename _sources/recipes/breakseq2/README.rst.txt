@@ -11,7 +11,7 @@ BreakSeq2\: Ultrafast and accurate nucleotide\-resolution analysis of structural
 Home          http://bioinform.github.io/breakseq2
 Versions      2.2
 License       BSD-2-Clause
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/breakseq2/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//breakseq2/meta.yaml
 
 
 

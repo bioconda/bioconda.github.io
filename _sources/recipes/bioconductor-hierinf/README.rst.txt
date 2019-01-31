@@ -11,7 +11,7 @@ Tools to perform hierarchical inference for one or multiple studies \/ data sets
 Home          https://bioconductor.org/packages/3.8/bioc/html/hierinf.html
 Versions      
 License       GPL-3 | file LICENSE
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-hierinf/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hierinf/meta.yaml
 
 
 

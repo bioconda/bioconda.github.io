@@ -11,7 +11,7 @@ SSAKE is a genomics application for de novo assembly of millions of very short D
 Home          https://github.com/warrenlr/SSAKE
 Versions      4.0
 License       GPL-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ssake/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ssake/meta.yaml
 
 
 

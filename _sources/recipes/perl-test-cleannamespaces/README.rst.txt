@@ -11,7 +11,7 @@ Check for uncleaned imports
 Home          https://github.com/karenetheridge/Test-CleanNamespaces
 Versions      0.24, 0.23
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-cleannamespaces/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-cleannamespaces/meta.yaml
 
 
 

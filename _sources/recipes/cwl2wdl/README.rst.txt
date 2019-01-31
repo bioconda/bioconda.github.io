@@ -11,7 +11,7 @@ Proof of concept converter from Common Workflow Language \(CWL\) to the Broad In
 Home          https://github.com/adamstruck/cwl2wdl
 Versions      0.1dev44, 0.1dev37
 License       MIT
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/cwl2wdl/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cwl2wdl/meta.yaml
 
 
 

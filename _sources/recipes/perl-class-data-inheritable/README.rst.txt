@@ -11,7 +11,7 @@ Inheritable\, overridable class data
 Home          http://metacpan.org/pod/Class-Data-Inheritable
 Versions      0.08
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-class-data-inheritable/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-class-data-inheritable/meta.yaml
 
 
 

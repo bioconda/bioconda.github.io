@@ -11,7 +11,7 @@ Makes Nuclear Magnetic Resonance spectroscopy \(NMR spectroscopy\) data analysis
 Home          https://CRAN.R-project.org/package=speaq
 Versions      2.3.3, 2.1.0, 1.2.3, 1.2.1
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/r-speaq/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-speaq/meta.yaml
 
 
 

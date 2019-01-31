@@ -11,7 +11,7 @@ Pod\:\:Checker verifies POD documentation contents for compliance with the POD f
 Home          http://metacpan.org/pod/Pod::Checker
 Versions      1.60
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-pod-checker/1.60/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-pod-checker/1.60/meta.yaml
 
 
 

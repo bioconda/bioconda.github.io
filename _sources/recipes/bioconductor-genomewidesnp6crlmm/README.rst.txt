@@ -11,7 +11,7 @@ Package with metadata for fast genotyping Affymetrix GenomeWideSnp\_6 arrays usi
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/genomewidesnp6Crlmm.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-genomewidesnp6crlmm/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomewidesnp6crlmm/meta.yaml
 
 
 

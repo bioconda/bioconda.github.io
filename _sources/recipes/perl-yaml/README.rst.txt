@@ -11,7 +11,7 @@ YAML Ain\'t Markup Language™
 Home          https://github.com/ingydotnet/yaml-pm
 Versions      1.27, 1.26, 1.24, 1.18, 1.15
 License       perl_5
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-yaml/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-yaml/meta.yaml
 
 
 

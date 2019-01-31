@@ -11,7 +11,7 @@ The VEP determines the effect of your variants \(SNPs\, insertions\, deletions\,
 Home          http://www.ensembl.org/info/docs/tools/vep/index.html
 Versions      95.1, 95.0, 94.5, 94.4, 94.0, 93.4, 93.2, 92.4, 92.3, 92.0, 91.3, 91.2, 91.1, 91.0, 90.10, 90.9, 90.7, 90.6, 90.5, 90.3, 90.1, 89.7, 89.4, 89.1, 88.10, 88.9, 88.8, 88
 License       Apache 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ensembl-vep/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ensembl-vep/meta.yaml
 
 
 

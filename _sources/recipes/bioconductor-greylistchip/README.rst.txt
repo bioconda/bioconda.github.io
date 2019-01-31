@@ -11,7 +11,7 @@ Identify regions of ChIP experiments with high signal in the input\, that lead t
 Home          https://bioconductor.org/packages/3.8/bioc/html/GreyListChIP.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-greylistchip/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-greylistchip/meta.yaml
 
 
 

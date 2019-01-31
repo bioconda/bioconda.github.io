@@ -11,7 +11,7 @@ a search tool that finds shorter sequences \(usually genes\) in large database s
 Home          http://www.bioinf.uni-leipzig.de/
 Versions      1.3
 License       GPL
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gotohscan/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//gotohscan/meta.yaml
 
 
 

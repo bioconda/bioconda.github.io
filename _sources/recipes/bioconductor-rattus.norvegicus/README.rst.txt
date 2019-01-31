@@ -11,7 +11,7 @@ Contains the Rattus.norvegicus object to access data from several related annota
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Rattus.norvegicus.html
 Versions      
 License       Artistic-2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-rattus.norvegicus/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rattus.norvegicus/meta.yaml
 
 
 

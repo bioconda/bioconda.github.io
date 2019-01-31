@@ -11,7 +11,7 @@ Most commonly needed test functions and features
 Home          http://metacpan.org/pod/Test-Most
 Versions      0.35, 0.34
 License       unknown
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/perl-test-most/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//perl-test-most/meta.yaml
 
 
 

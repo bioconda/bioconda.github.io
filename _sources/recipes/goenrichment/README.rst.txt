@@ -11,7 +11,7 @@ GOEnrichment analyses a set of gene products for GO term enrichment
 Home          https://github.com/DanFaria/GOEnrichment
 Versions      2.0.1
 License       Apache License 2.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/goenrichment/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//goenrichment/meta.yaml
 
 
 

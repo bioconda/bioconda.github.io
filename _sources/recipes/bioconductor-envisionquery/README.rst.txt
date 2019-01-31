@@ -11,7 +11,7 @@ Tools to retrieve data from ENVISION\, the Database for Annotation\, Visualizati
 Home          https://bioconductor.org/packages/3.8/bioc/html/ENVISIONQuery.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-envisionquery/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-envisionquery/meta.yaml
 
 
 

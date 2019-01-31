@@ -11,7 +11,7 @@ The CEMiTool package unifies the discovery and the analysis of coexpression gene
 Home          https://bioconductor.org/packages/3.8/bioc/html/CEMiTool.html
 Versions      
 License       GPL-3
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cemitool/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cemitool/meta.yaml
 
 
 

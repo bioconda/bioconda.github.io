@@ -11,7 +11,7 @@ DALIGNER\: Find all significant local alignments between reads
 Home          https://github.com/thegenemyers/DALIGNER
 Versions      1.0, 1.0p2, 1.0p1
 License       Custom
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/daligner/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//daligner/meta.yaml
 
 
 

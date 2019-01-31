@@ -11,7 +11,7 @@ ITSx is an open source software utility to extract the highly variable ITS1 and 
 Home          http://microbiology.se/software/itsx/
 Versions      1.1b
 License       GNU General Public License v3.0
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/itsx/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//itsx/meta.yaml
 
 
 

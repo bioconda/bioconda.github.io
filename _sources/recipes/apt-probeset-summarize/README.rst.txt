@@ -11,7 +11,7 @@ From Affymetrix Power Tools package. apt\-probeset\-summarize is program for ana
 Home          https://downloads.thermofisher.com
 Versions      2.10.0
 License       GNU GENERAL PUBLIC LICENSE Version 2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/apt-probeset-summarize/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//apt-probeset-summarize/meta.yaml
 
 
 

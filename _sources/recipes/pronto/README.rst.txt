@@ -11,7 +11,7 @@ Python frontend to ontologies
 Home          http://github.com/althonos/pronto
 Versions      0.12.1, 0.12.0, 0.11.1, 0.11.0, 0.10.2, 0.3.3
 License       MIT License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/pronto/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pronto/meta.yaml
 
 
 

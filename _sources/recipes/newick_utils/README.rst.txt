@@ -11,7 +11,7 @@ The Newick Utilities are a suite of Unix shell tools for processing phylogenetic
 Home          http://cegg.unige.ch/newick_utils
 Versions      1.6
 License       BSD License
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/newick_utils/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//newick_utils/meta.yaml
 
 
 

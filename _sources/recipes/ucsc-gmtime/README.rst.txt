@@ -11,7 +11,7 @@ convert unix timestamp to date string
 Home          http://hgdownload.cse.ucsc.edu/admin/exe/
 Versions      366, 357
 License       varies; see http://genome.ucsc.edu/license
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/ucsc-gmtime/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//ucsc-gmtime/meta.yaml
 
 
 

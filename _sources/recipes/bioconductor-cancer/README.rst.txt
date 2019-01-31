@@ -11,7 +11,7 @@ The package is user friendly interface based on the cgdsr and other modeling pac
 Home          https://bioconductor.org/packages/3.8/bioc/html/canceR.html
 Versions      
 License       GPL-2
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-cancer/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cancer/meta.yaml
 
 
 

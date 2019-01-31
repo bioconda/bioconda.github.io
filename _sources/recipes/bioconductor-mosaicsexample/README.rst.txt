@@ -11,7 +11,7 @@ Data for the mosaics package\, consisting of \(1\) chromosome 22 ChIP and contro
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/mosaicsExample.html
 Versions      
 License       GPL (>= 2)
-Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/bioconductor-mosaicsexample/meta.yaml
+Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mosaicsexample/meta.yaml
 
 
 
