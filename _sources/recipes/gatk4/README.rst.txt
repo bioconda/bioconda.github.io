@@ -9,7 +9,7 @@ Genome Analysis Toolkit \(GATK4\)
 
 ============= ===========
 Home          https://www.broadinstitute.org/gatk/
-Versions      4.0.12.0, 4.0.11.0, 4.0.10.0, 4.0.9.0, 4.0.8.1, 4.0.7.0, 4.0.6.0, 4.0.5.2, 4.0.5.1, 4.0.4.0, 4.0.3.0, 4.0.2.1, 4.0.2.0, 4.0.1.2, 4.0.1.1, 4.0.1.0, 4.0.0.0, 4.0b6, 4.0b5, 4.0b4, 4.0b3, 4.0b2, 4.0b1, 4.0a1.2.7.2
+Versions      4.1.0.0, 4.0.12.0, 4.0.11.0, 4.0.10.0, 4.0.9.0, 4.0.8.1, 4.0.7.0, 4.0.6.0, 4.0.5.2, 4.0.5.1, 4.0.4.0, 4.0.3.0, 4.0.2.1, 4.0.2.0, 4.0.1.2, 4.0.1.1, 4.0.1.0, 4.0.0.0, 4.0b6, 4.0b5, 4.0b4, 4.0b3, 4.0b2, 4.0b1, 4.0a1.2.7.2
 License       BSD-3-Clause
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//home/circleci/project/docs/bioconda-recipes/recipes/gatk4/meta.yaml
 
