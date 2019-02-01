@@ -1329,6 +1329,7 @@ Available packages
     <tr><td><a href="recipes/krocus/README.html">krocus</a></td><td>0.2.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/krocus/README.html">krocus</a></td><td>0.2.2</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/maxentpy/README.html">maxentpy</a></td><td>0.0.1</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
+    <tr><td><a href="recipes/islandpath/README.html">islandpath</a></td><td>1.0.4</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/islandpath/README.html">islandpath</a></td><td>1.0.3</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-algorithm-cluster/README.html">perl-algorithm-cluster</a></td><td>1.57</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
     <tr><td><a href="recipes/perl-algorithm-cluster/README.html">perl-algorithm-cluster</a></td><td>1.56</td><td></td><td><i class="fa fa-linux"></i></td><td><i class="fa fa-apple"></i></td></tr>
