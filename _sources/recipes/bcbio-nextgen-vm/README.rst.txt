@@ -9,7 +9,7 @@ Run bcbio\-nextgen genomic sequencing analyses using isolated containers and vir
 
 ============= ===========
 Home          https://github.com/chapmanb/bcbio-nextgen-vm
-Versions      0.1.2a, 0.1.1, 0.1.0a
+Versions      0.1.3, 0.1.2a, 0.1.1, 0.1.0a
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bcbio-nextgen-vm/meta.yaml
 
