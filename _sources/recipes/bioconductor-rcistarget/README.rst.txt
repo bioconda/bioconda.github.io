@@ -9,7 +9,7 @@ RcisTarget identifies transcription factor binding motifs \(TFBS\) over\-represe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RcisTarget.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rcistarget/meta.yaml
 

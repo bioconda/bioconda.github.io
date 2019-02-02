@@ -9,7 +9,7 @@ The gprege package implements the methodology described in Kalaitzis \& Lawrence
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gprege.html
-Versions      
+Versions      1.26.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gprege/meta.yaml
 

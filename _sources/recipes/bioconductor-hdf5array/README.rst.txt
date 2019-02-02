@@ -9,7 +9,7 @@ Implements the HDF5Array and TENxMatrix classes\, 2 convenient and memory\-effic
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HDF5Array.html
-Versions      1.8.1, 1.6.0
+Versions      1.10.1, 1.8.1, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hdf5array/meta.yaml
 

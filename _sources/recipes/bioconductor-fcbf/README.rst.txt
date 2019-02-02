@@ -9,7 +9,7 @@ This package provides a simple R implementation for the Fast Correlation Based F
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/FCBF.html
-Versions      
+Versions      1.0.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fcbf/meta.yaml
 

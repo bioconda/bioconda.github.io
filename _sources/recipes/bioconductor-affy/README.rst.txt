@@ -9,7 +9,7 @@ The package contains functions for exploratory oligonucleotide array analysis. T
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/affy.html
-Versions      1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0
+Versions      1.60.0, 1.58.0, 1.56.0, 1.54.0, 1.50.0, 1.48.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affy/meta.yaml
 

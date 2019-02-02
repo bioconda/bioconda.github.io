@@ -9,7 +9,7 @@ Full genome sequences for Mus musculus \(Mouse\) as provided by UCSC \(mm9\, Jul
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Mmusculus.UCSC.mm9.masked.html
-Versions      
+Versions      1.3.99
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.mmusculus.ucsc.mm9.masked/meta.yaml
 

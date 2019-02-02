@@ -9,7 +9,7 @@ Tools to test correlation between gene expression and phenotype in a way that is
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/phenoTest.html
-Versions      
+Versions      1.30.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phenotest/meta.yaml
 

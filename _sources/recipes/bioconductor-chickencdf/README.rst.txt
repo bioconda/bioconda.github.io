@@ -9,7 +9,7 @@ A package containing an environment representing the Chicken.cdf file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/chickencdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chickencdf/meta.yaml
 

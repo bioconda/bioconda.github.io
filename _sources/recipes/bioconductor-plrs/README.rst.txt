@@ -9,7 +9,7 @@ The present package implements a flexible framework for modeling the relationshi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/plrs.html
-Versions      
+Versions      1.22.0
 License       GPL (>=2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-plrs/meta.yaml
 

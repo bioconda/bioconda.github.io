@@ -9,7 +9,7 @@ While gene signatures are frequently used to predict phenotypes \(e.g. predict p
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SigCheck.html
-Versions      
+Versions      2.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sigcheck/meta.yaml
 

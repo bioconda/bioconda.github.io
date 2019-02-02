@@ -9,7 +9,7 @@ exprSet for Karaman et al. \(2003\) human\, bonobo and gorilla fibroblasts data
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/fibroEset.html
-Versions      
+Versions      1.24.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fibroeset/meta.yaml
 

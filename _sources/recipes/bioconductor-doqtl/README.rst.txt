@@ -9,7 +9,7 @@ DOQTL is a quantitative trait locus \(QTL\) mapping pipeline designed for Divers
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/DOQTL.html
-Versions      1.16.2, 1.14.0
+Versions      1.18.0, 1.16.2, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-doqtl/meta.yaml
 

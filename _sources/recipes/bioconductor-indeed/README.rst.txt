@@ -9,7 +9,7 @@ An Implementation of Integrated Differential Expression and Differential Network
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/INDEED.html
-Versions      
+Versions      1.0.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-indeed/meta.yaml
 

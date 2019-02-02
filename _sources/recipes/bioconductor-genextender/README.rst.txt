@@ -9,7 +9,7 @@ geneXtendeR optimizes the functional annotation of ChIP\-seq peaks by exploring 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/geneXtendeR.html
-Versions      
+Versions      1.8.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genextender/meta.yaml
 

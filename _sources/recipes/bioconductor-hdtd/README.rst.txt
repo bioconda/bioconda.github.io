@@ -9,7 +9,7 @@ Characterization of intra\-individual variability using physiologically relevant
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HDTD.html
-Versions      
+Versions      1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hdtd/meta.yaml
 

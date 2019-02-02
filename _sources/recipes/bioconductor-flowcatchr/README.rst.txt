@@ -9,7 +9,7 @@ flowcatchR is a set of tools to analyze in vivo microscopy imaging data\, focuse
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowcatchR.html
-Versions      
+Versions      1.16.0
 License       BSD_3_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowcatchr/meta.yaml
 

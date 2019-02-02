@@ -9,7 +9,7 @@ The CellScore Standard Dataset contains expression data from a wide variety of h
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/hgu133plus2CellScore.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133plus2cellscore/meta.yaml
 

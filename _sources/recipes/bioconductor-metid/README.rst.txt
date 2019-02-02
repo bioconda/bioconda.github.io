@@ -9,7 +9,7 @@ This package uses an innovative network\-based approach that will enhance our ab
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MetID.html
-Versions      
+Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metid/meta.yaml
 

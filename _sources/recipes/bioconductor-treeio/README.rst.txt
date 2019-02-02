@@ -9,7 +9,7 @@ Base classes and functions for parsing and exporting phylogenetic trees. \'treei
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/treeio.html
-Versions      1.4.3, 1.2.1, 1.2.0, 1.0.2
+Versions      1.6.1, 1.4.3, 1.2.1, 1.2.0, 1.0.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-treeio/meta.yaml
 

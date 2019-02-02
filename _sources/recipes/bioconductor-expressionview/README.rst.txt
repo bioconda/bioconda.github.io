@@ -9,7 +9,7 @@ ExpressionView visualizes possibly overlapping biclusters in a gene expression m
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ExpressionView.html
-Versions      
+Versions      1.34.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-expressionview/meta.yaml
 

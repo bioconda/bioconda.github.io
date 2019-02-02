@@ -9,7 +9,7 @@ Base annotation databases for zebrafish\, intended ONLY to be used by Annotation
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/zebrafish.db0.html
-Versions      
+Versions      3.7.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-zebrafish.db0/meta.yaml
 

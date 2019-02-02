@@ -9,7 +9,7 @@ netSmooth is an R package for network smoothing of single cell RNA sequencing da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/netSmooth.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-netsmooth/meta.yaml
 

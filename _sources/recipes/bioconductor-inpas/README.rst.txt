@@ -9,7 +9,7 @@ Alternative polyadenylation \(APA\) is one of the important post\-transcriptiona
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/InPAS.html
-Versions      
+Versions      1.14.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-inpas/meta.yaml
 

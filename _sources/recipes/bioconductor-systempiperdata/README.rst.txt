@@ -9,7 +9,7 @@ systemPipeRdata is a helper package to generate with a single command NGS workfl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/systemPipeRdata.html
-Versions      
+Versions      1.10.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-systempiperdata/meta.yaml
 

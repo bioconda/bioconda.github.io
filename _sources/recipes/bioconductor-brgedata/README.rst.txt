@@ -9,7 +9,7 @@ This package contains several sets of omics data including Gene Expression \(Exp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/brgedata.html
-Versions      
+Versions      1.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-brgedata/meta.yaml
 

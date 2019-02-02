@@ -9,7 +9,7 @@ This package provides functionalities for analysis\, annotation and visualizaton
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/maser.html
-Versions      
+Versions      1.0.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-maser/meta.yaml
 

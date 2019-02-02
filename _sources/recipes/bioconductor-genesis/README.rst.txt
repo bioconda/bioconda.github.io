@@ -9,7 +9,7 @@ The GENESIS package provides methodology for estimating\, inferring\, and accoun
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GENESIS.html
-Versions      
+Versions      2.12.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genesis/meta.yaml
 

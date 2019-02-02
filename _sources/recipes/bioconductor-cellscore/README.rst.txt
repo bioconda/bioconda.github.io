@@ -9,7 +9,7 @@ The CellScore package contains functions to evaluate the cell identity of a test
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CellScore.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellscore/meta.yaml
 

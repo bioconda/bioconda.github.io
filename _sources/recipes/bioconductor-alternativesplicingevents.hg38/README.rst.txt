@@ -9,7 +9,7 @@ Data frame containing alternative splicing events. The splicing events were comp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/alternativeSplicingEvents.hg38.html
-Versions      
+Versions      1.0.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-alternativesplicingevents.hg38/meta.yaml
 

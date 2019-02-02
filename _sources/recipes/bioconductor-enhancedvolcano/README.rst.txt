@@ -9,7 +9,7 @@ Volcano plots represent a useful way to visualise the results of differential ex
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/EnhancedVolcano.html
-Versions      
+Versions      1.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-enhancedvolcano/meta.yaml
 

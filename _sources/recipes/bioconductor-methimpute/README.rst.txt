@@ -9,7 +9,7 @@ This package implements functions for calling methylation for all cytosines in t
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/methimpute.html
-Versions      
+Versions      1.4.1, 1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methimpute/meta.yaml
 

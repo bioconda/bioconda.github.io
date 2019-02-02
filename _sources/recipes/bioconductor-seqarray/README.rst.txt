@@ -9,7 +9,7 @@ Big data management of whole\-genome sequencing variant calls with thousands of 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SeqArray.html
-Versions      
+Versions      1.22.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqarray/meta.yaml
 

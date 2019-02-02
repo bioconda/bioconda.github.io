@@ -9,7 +9,7 @@ SonVariantsChr21 is a dataset of annotated genomic variants coming from Complete
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/AshkenazimSonChr21.html
-Versions      
+Versions      1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ashkenazimsonchr21/meta.yaml
 

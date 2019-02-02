@@ -9,7 +9,7 @@ Fragment\-level analysis of gas chromatography \- mass spectrometry metabolomics
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flagme.html
-Versions      1.34.0
+Versions      1.38.1, 1.38.0, 1.34.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flagme/meta.yaml
 

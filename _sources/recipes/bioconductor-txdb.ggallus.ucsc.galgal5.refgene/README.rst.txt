@@ -9,7 +9,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Ggallus.UCSC.galGal5.refGene.html
-Versions      
+Versions      3.4.4
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txdb.ggallus.ucsc.galgal5.refgene/meta.yaml
 

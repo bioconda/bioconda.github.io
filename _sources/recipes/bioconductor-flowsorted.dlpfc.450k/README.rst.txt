@@ -9,7 +9,7 @@ Raw data objects for the Illumina 450k DNA methylation microarrays.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/FlowSorted.DLPFC.450k.html
-Versions      
+Versions      1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowsorted.dlpfc.450k/meta.yaml
 

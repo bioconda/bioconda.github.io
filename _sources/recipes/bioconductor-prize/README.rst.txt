@@ -9,7 +9,7 @@ The high throughput studies often produce large amounts of numerous genes and pr
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Prize.html
-Versions      1.10.0, 1.8.0
+Versions      1.12.1, 1.10.0, 1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prize/meta.yaml
 

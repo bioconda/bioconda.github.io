@@ -9,7 +9,7 @@ Using strand inheritance data from multiple single cells from the organism whose
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/contiBAIT.html
-Versions      1.8.0, 1.6.0
+Versions      1.10.0, 1.8.0, 1.6.0
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-contibait/meta.yaml
 

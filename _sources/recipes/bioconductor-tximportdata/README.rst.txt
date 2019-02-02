@@ -9,7 +9,7 @@ This package provides the output of running various transcript abundance quantif
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tximportData.html
-Versions      
+Versions      1.10.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tximportdata/meta.yaml
 

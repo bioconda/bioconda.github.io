@@ -9,7 +9,7 @@ variant\-transcription factor\-phenotype networks\, inspired by Maurano et al.\,
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/vtpnet.html
-Versions      
+Versions      0.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vtpnet/meta.yaml
 

@@ -9,7 +9,7 @@ Platform Design Info for NimbleGen charm\_hg18\_example
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.charm.hg18.example.html
-Versions      
+Versions      0.99.4
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.charm.hg18.example/meta.yaml
 

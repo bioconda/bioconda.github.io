@@ -9,7 +9,7 @@ A set of PCR \(parent\-child relationship\) in MeSH.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MeSH.PCR.db.html
-Versions      
+Versions      1.11.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mesh.pcr.db/meta.yaml
 

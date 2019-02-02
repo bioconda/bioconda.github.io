@@ -9,7 +9,7 @@ Subset of BAM files of human lung tumor and pooled normal samples by targeted pa
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/NGScopyData.html
-Versions      
+Versions      1.2.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ngscopydata/meta.yaml
 

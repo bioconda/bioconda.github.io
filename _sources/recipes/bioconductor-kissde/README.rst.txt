@@ -9,7 +9,7 @@ Retrieves condition\-specific variants in RNA\-seq data \(SNVs\, alternative\-sp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/kissDE.html
-Versions      
+Versions      1.2.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-kissde/meta.yaml
 

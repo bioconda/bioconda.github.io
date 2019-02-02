@@ -9,7 +9,7 @@ This companion package for SNPhood provides some example datasets of a larger si
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/SNPhoodData.html
-Versions      
+Versions      1.12.0
 License       LGPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snphooddata/meta.yaml
 

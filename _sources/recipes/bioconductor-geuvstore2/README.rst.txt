@@ -9,7 +9,7 @@ demonstrate storage discipline for eQTL enumerations and analyses based on a sel
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/geuvStore2.html
-Versions      
+Versions      1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geuvstore2/meta.yaml
 

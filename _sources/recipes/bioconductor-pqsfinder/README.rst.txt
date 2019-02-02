@@ -9,7 +9,7 @@ The main functionality of this package is to detect DNA sequence patterns that a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/pqsfinder.html
-Versions      1.8.0, 1.6.3
+Versions      1.10.0, 1.8.0, 1.6.3
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pqsfinder/meta.yaml
 

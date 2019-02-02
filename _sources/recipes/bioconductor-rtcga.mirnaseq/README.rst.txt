@@ -9,7 +9,7 @@ Package provides miRNASeq datasets from The Cancer Genome Atlas Project for all 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.miRNASeq.html
-Versions      
+Versions      1.10.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.mirnaseq/meta.yaml
 

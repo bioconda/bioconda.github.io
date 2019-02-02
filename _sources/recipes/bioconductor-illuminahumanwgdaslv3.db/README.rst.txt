@@ -9,7 +9,7 @@ Illumina HumanHT12WGDASLv3 annotation data \(chip illuminaHumanWGDASLv3\) assemb
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/illuminaHumanWGDASLv3.db.html
-Versions      
+Versions      1.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanwgdaslv3.db/meta.yaml
 

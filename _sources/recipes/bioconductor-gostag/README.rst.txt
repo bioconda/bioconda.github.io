@@ -9,7 +9,7 @@ Gene lists derived from the results of genomic analyses are rich in biological i
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/goSTAG.html
-Versions      
+Versions      1.6.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gostag/meta.yaml
 

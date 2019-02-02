@@ -9,7 +9,7 @@ We presented the Genotype\-imputed Gene Set Enrichment Analysis \(GIGSEA\)\, a n
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GIGSEA.html
-Versions      
+Versions      1.0.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gigsea/meta.yaml
 

@@ -9,7 +9,7 @@ we provide a new SNP sequence partitioning method which partitions the whole SNP
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gpart.html
-Versions      
+Versions      1.0.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gpart/meta.yaml
 

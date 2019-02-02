@@ -9,7 +9,7 @@ MSstatsQC is an R package which provides longitudinal system suitability monitor
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSstatsQC.html
-Versions      
+Versions      2.0.1
 License       Artistic License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msstatsqc/meta.yaml
 

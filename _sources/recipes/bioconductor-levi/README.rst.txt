@@ -9,7 +9,7 @@ The tool integrates data from biological networks with transcriptomes\, displayi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/levi.html
-Versions      
+Versions      1.0.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-levi/meta.yaml
 

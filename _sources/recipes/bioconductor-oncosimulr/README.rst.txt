@@ -9,7 +9,7 @@ Functions for forward population genetic simulation in asexual populations\, wit
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/OncoSimulR.html
-Versions      2.10.0, 2.8.0
+Versions      2.12.0, 2.10.0, 2.8.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oncosimulr/meta.yaml
 

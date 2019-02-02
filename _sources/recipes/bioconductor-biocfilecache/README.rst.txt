@@ -9,7 +9,7 @@ This package creates a persistent on\-disk cache of files that the user can add\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocFileCache.html
-Versions      1.4.0, 1.2.3
+Versions      1.6.0, 1.4.0, 1.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocfilecache/meta.yaml
 

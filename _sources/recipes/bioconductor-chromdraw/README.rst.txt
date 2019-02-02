@@ -9,7 +9,7 @@ ChromDraw is a R package for drawing the schemes of karyotype\(s\) in the linear
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/chromDraw.html
-Versions      2.10.0, 2.8.0, 2.6.0
+Versions      2.12.0, 2.10.0, 2.8.0, 2.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chromdraw/meta.yaml
 

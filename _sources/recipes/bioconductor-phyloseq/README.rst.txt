@@ -9,7 +9,7 @@ phyloseq provides a set of classes and tools to facilitate the import\, storage\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/phyloseq.html
-Versions      1.24.2, 1.22.3, 1.20.0, 1.19.1, 1.16.2, 1.14.0
+Versions      1.26.0, 1.24.2, 1.22.3, 1.20.0, 1.19.1, 1.16.2, 1.14.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phyloseq/meta.yaml
 

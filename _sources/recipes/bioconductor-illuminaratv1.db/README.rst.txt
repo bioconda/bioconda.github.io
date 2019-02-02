@@ -9,7 +9,7 @@ Illumina Ratv1 annotation data \(chip illuminaRatv1\) assembled using data from 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/illuminaRatv1.db.html
-Versions      
+Versions      1.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminaratv1.db/meta.yaml
 

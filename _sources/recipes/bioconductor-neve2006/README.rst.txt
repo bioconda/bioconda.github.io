@@ -9,7 +9,7 @@ Experimental organization of combined expression and CGH data
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Neve2006.html
-Versions      
+Versions      0.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-neve2006/meta.yaml
 

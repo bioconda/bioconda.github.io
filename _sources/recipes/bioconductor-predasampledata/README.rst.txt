@@ -9,7 +9,7 @@ Sample data for PREDA package. \(annotations objects synchronized with GeneAnnot
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/PREDAsampledata.html
-Versions      
+Versions      0.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-predasampledata/meta.yaml
 

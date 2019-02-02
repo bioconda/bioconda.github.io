@@ -9,7 +9,7 @@ This package estimates four stromal properties identified in TNBC patients in ea
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/STROMA4.html
-Versions      
+Versions      1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stroma4/meta.yaml
 

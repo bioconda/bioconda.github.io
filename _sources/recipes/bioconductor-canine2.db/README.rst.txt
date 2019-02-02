@@ -9,7 +9,7 @@ Affymetrix canine2 annotation data \(chip canine2\) assembled using data from pu
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/canine2.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-canine2.db/meta.yaml
 

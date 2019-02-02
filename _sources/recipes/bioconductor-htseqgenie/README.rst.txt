@@ -9,7 +9,7 @@ Libraries to perform NGS analysis.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HTSeqGenie.html
-Versions      
+Versions      4.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htseqgenie/meta.yaml
 

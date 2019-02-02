@@ -9,7 +9,7 @@ Junction count data from an example dataset taken from a subset of the RNA\-seq 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/JctSeqData.html
-Versions      
+Versions      1.12.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-jctseqdata/meta.yaml
 

@@ -9,7 +9,7 @@ An R package to detect selection in biological pathways. Using gene selection sc
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/signet.html
-Versions      
+Versions      1.2.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-signet/meta.yaml
 

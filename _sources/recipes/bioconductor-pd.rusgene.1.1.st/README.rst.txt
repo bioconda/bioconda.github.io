@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix RUSGene\-1\_1\-st
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.rusgene.1.1.st.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.rusgene.1.1.st/meta.yaml
 

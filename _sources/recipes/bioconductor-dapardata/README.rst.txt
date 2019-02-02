@@ -9,7 +9,7 @@ Mass\-spectrometry based UPS proteomics data sets from Ramus C\, Hovasse A\, Mar
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DAPARdata.html
-Versions      
+Versions      1.12.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dapardata/meta.yaml
 

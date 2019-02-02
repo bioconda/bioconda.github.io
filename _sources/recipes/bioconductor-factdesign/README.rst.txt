@@ -9,7 +9,7 @@ This package provides a set of tools for analyzing data from a factorial designe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/factDesign.html
-Versions      
+Versions      1.58.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-factdesign/meta.yaml
 

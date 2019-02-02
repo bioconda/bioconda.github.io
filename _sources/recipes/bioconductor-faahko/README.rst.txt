@@ -9,7 +9,7 @@ Positive ionization mode data in NetCDF file format. Centroided subset from 200\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/faahKO.html
-Versions      1.18.0
+Versions      1.22.0, 1.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-faahko/meta.yaml
 

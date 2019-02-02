@@ -9,7 +9,7 @@ Package for modified nearest\-neighbor classification based on calculation of a 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/clst.html
-Versions      1.28.0, 1.26.0
+Versions      1.30.0, 1.28.0, 1.26.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clst/meta.yaml
 

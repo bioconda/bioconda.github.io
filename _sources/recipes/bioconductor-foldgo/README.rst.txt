@@ -9,7 +9,7 @@ FoldGO is a package designed to annotate gene sets derived from expression exper
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/FoldGO.html
-Versions      
+Versions      1.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-foldgo/meta.yaml
 

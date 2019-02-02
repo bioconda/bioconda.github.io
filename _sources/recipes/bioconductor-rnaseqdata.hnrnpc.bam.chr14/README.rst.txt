@@ -9,7 +9,7 @@ The package contains 8 BAM files\, 1 per sequencing run. Each BAM file was obtai
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RNAseqData.HNRNPC.bam.chr14.html
-Versions      
+Versions      0.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rnaseqdata.hnrnpc.bam.chr14/meta.yaml
 

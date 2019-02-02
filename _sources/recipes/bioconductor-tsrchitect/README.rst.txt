@@ -9,7 +9,7 @@ In recent years\, large\-scale transcriptional sequence data has yielded conside
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TSRchitect.html
-Versions      
+Versions      1.8.9
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tsrchitect/meta.yaml
 

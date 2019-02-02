@@ -9,7 +9,7 @@ Gene\-level read counts from RNA\-Seq for gallein\-treated and control zebrafish
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/zebrafishRNASeq.html
-Versions      
+Versions      1.2.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-zebrafishrnaseq/meta.yaml
 

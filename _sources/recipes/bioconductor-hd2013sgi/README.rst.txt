@@ -9,7 +9,7 @@ This package contains the experimental data and a complete executable transcript
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HD2013SGI.html
-Versions      
+Versions      1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hd2013sgi/meta.yaml
 

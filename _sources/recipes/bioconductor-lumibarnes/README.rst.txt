@@ -9,7 +9,7 @@ The Barnes benchmark dataset can be used to evaluate the algorithms for Illumina
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/lumiBarnes.html
-Versions      
+Versions      1.22.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumibarnes/meta.yaml
 

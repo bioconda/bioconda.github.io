@@ -9,7 +9,7 @@ ASEB is an R package to predict lysine sites that can be acetylated by a specifi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ASEB.html
-Versions      1.24.0, 1.22.0, 1.20.0
+Versions      1.26.0, 1.24.0, 1.22.0, 1.20.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-aseb/meta.yaml
 

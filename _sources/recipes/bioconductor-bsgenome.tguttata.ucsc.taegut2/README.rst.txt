@@ -9,7 +9,7 @@ Full genome sequences for Taeniopygia guttata \(Zebra finch\) as provided by UCS
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Tguttata.UCSC.taeGut2.html
-Versions      
+Versions      1.4.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.tguttata.ucsc.taegut2/meta.yaml
 

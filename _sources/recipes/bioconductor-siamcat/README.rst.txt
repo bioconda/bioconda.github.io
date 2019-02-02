@@ -9,7 +9,7 @@ Pipeline for Statistical Inference of Associations between Microbial Communities
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SIAMCAT.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-siamcat/meta.yaml
 

@@ -9,7 +9,7 @@ Base annotation databases for human\, intended ONLY to be used by AnnotationDbi 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/human.db0.html
-Versions      
+Versions      3.7.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-human.db0/meta.yaml
 

@@ -9,7 +9,7 @@ Peak calling for ChIP\-seq data with consideration of potential GC bias in seque
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gcapc.html
-Versions      
+Versions      1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gcapc/meta.yaml
 

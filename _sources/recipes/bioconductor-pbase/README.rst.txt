@@ -9,7 +9,7 @@ A set of classes and functions to investigate and understand protein sequence da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Pbase.html
-Versions      0.18.0
+Versions      0.22.1, 0.22.0, 0.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pbase/meta.yaml
 

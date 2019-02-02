@@ -9,7 +9,7 @@ The MACPET package can be used for complete interaction analysis for ChIA\-PET d
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MACPET.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-macpet/meta.yaml
 

@@ -9,7 +9,7 @@ A package containing an environment representing the RG\_U34B.cdf file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rgu34bcdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgu34bcdf/meta.yaml
 

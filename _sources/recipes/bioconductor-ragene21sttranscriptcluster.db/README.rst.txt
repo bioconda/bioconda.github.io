@@ -9,7 +9,7 @@ Affymetrix ragene21 annotation data \(chip ragene21sttranscriptcluster\) assembl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ragene21sttranscriptcluster.db.html
-Versions      
+Versions      8.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ragene21sttranscriptcluster.db/meta.yaml
 

@@ -9,7 +9,7 @@ Methods and functionality to analyse flow data that is beyond the basic infrastr
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowStats.html
-Versions      
+Versions      3.40.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowstats/meta.yaml
 

@@ -9,7 +9,7 @@ SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build 150. 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/SNPlocs.Hsapiens.dbSNP150.GRCh38.html
-Versions      
+Versions      0.99.20
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-snplocs.hsapiens.dbsnp150.grch38/meta.yaml
 

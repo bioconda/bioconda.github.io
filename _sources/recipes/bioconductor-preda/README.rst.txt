@@ -9,7 +9,7 @@ Package for the position related analysis of quantitative functional genomics da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PREDA.html
-Versions      1.26.1, 1.24.0
+Versions      1.28.0, 1.26.1, 1.24.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-preda/meta.yaml
 

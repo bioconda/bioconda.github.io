@@ -9,7 +9,7 @@ This package provides QDNAseq bin annotations for the human genome build hg19.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/QDNAseq.hg19.html
-Versions      
+Versions      1.12.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-qdnaseq.hg19/meta.yaml
 

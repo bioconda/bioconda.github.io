@@ -9,7 +9,7 @@ The TissueEnrich package is used to calculate enrichment of tissue\-specific gen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TissueEnrich.html
-Versions      1.0.7
+Versions      1.2.1, 1.0.7
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tissueenrich/meta.yaml
 

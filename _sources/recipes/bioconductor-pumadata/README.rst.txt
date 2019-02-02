@@ -9,7 +9,7 @@ This is a simple data package including various data sets derived from the estro
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pumadata.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pumadata/meta.yaml
 

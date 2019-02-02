@@ -9,7 +9,7 @@ This package enables the detection of driver chromosomal imbalances including lo
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/VegaMC.html
-Versions      3.18.0, 3.16.0
+Versions      3.20.0, 3.18.0, 3.16.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vegamc/meta.yaml
 

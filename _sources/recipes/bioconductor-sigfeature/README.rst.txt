@@ -9,7 +9,7 @@ This package provides a novel feature selection algorithm for binary classificat
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/sigFeature.html
-Versions      
+Versions      1.0.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sigfeature/meta.yaml
 

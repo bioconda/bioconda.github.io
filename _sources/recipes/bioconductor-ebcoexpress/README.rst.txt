@@ -9,7 +9,7 @@ An Empirical Bayesian Approach to Differential Co\-Expression Analysis at the Ge
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/EBcoexpress.html
-Versions      
+Versions      1.26.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ebcoexpress/meta.yaml
 

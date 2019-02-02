@@ -9,7 +9,7 @@ Base annotation databases for E coli Sakai Strain\, intended ONLY to be used by 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ecoliSakai.db0.html
-Versions      
+Versions      3.7.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ecolisakai.db0/meta.yaml
 

@@ -9,7 +9,7 @@ Gene Set Enrichment Analysis of P\-value based statistics for outlier gene detec
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/coGPS.html
-Versions      1.24.0, 1.22.0
+Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cogps/meta.yaml
 

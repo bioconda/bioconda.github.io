@@ -9,7 +9,7 @@ This package includes mappings information between different types of Illumina I
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/lumiHumanIDMapping.html
-Versions      
+Versions      1.10.1
 License       The Artistic License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumihumanidmapping/meta.yaml
 

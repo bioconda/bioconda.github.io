@@ -9,7 +9,7 @@ Single\-cell RNA\-seq technologies enable high throughput gene expression measur
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SIMLR.html
-Versions      1.6.0, 1.4.0
+Versions      1.8.1, 1.8.0, 1.6.0, 1.4.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-simlr/meta.yaml
 

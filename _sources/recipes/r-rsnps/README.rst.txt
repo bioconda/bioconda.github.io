@@ -9,7 +9,7 @@ A programmatic interface to various \'SNP\' \'datasets\' on the web\: \'OpenSNP\
 
 ============= ===========
 Home          https://github.com/ropensci/rsnps
-Versions      
+Versions      0.3.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-rsnps/meta.yaml
 

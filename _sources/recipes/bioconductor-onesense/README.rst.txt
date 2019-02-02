@@ -9,7 +9,7 @@ A graphical user interface that facilitates the dimensional reduction method bas
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/oneSENSE.html
-Versions      
+Versions      1.4.0
 License       GPL (>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-onesense/meta.yaml
 

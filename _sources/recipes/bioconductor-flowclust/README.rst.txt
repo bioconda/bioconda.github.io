@@ -9,7 +9,7 @@ Robust model\-based clustering using a t\-mixture model with Box\-Cox transforma
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowClust.html
-Versions      
+Versions      3.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowclust/meta.yaml
 

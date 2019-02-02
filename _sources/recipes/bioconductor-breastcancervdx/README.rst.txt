@@ -9,7 +9,7 @@ Gene expression data from a breast cancer study published by Wang et al. in 2005
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerVDX.html
-Versions      
+Versions      1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-breastcancervdx/meta.yaml
 

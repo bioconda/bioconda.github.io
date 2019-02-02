@@ -9,7 +9,7 @@ This package implements a model of per\-position sequencing bias in high\-throug
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqbias.html
-Versions      
+Versions      1.30.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqbias/meta.yaml
 

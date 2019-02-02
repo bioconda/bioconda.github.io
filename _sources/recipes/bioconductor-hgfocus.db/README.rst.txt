@@ -9,7 +9,7 @@ Affymetrix Human Genome Focus Array annotation data \(chip hgfocus\) assembled u
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgfocus.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgfocus.db/meta.yaml
 

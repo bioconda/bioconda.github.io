@@ -9,7 +9,7 @@ A prototype for a mechanism for specifying the types of parameters and the retur
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TypeInfo.html
-Versions      
+Versions      1.48.0
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-typeinfo/meta.yaml
 

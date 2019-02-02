@@ -9,7 +9,7 @@ A package containing an environment representing the HG\-Focus.CDF file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgfocuscdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgfocuscdf/meta.yaml
 

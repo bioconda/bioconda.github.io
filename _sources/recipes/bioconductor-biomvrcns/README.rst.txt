@@ -9,7 +9,7 @@ In this package\, a Hidden Semi Markov Model \(HSMM\) and one homogeneous segmen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/biomvRCNS.html
-Versions      
+Versions      1.22.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biomvrcns/meta.yaml
 

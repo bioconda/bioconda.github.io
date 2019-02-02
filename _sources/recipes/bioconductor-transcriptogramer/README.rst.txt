@@ -9,7 +9,7 @@ R package for transcriptional analysis based on transcriptograms\, a method to a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/transcriptogramer.html
-Versions      
+Versions      1.4.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-transcriptogramer/meta.yaml
 

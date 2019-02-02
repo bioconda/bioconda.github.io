@@ -9,7 +9,7 @@ Provides kallisto workflow and transcript expression of RNA\-Seq data from Brook
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/PasillaTranscriptExpr.html
-Versions      
+Versions      1.10.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pasillatranscriptexpr/meta.yaml
 

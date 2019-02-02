@@ -9,7 +9,7 @@ This package contains functions useful for designing genetics studies\, includin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneticsDesign.html
-Versions      1.48.0, 1.46.0
+Versions      1.50.0, 1.48.0, 1.46.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneticsdesign/meta.yaml
 

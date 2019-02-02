@@ -9,7 +9,7 @@ This package stores two merged expressionSet objects that contain the gene expre
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/mcsurvdata.html
-Versions      
+Versions      1.0.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mcsurvdata/meta.yaml
 

@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name U133\_X3P
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.u133.x3p.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.u133.x3p/meta.yaml
 

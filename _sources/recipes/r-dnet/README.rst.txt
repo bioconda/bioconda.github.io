@@ -9,7 +9,7 @@ The focus of the dnet by Fang and Gough \(2014\) \<doi\:10.1186\/s13073\-014\-00
 
 ============= ===========
 Home          http://dnet.r-forge.r-project.org, https://github.com/hfang-bristol/dnet
-Versions      
+Versions      1.1.4
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-dnet/meta.yaml
 

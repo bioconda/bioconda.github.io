@@ -9,7 +9,7 @@ Provides a set of genomic copy neutral samples hybridized using Illumina Methyla
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CopyNeutralIMA.html
-Versions      
+Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copyneutralima/meta.yaml
 

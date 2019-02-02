@@ -9,7 +9,7 @@ Supporting data for package OMICsPCA
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/OMICsPCAdata.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omicspcadata/meta.yaml
 

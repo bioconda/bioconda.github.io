@@ -9,7 +9,7 @@ GOfuncR performs a gene ontology enrichment analysis based on the ontology enric
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GOfuncR.html
-Versions      
+Versions      1.2.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gofuncr/meta.yaml
 

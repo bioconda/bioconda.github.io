@@ -9,7 +9,7 @@ This experiment data contains some processed data used in the celaref package vi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/celarefData.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-celarefdata/meta.yaml
 

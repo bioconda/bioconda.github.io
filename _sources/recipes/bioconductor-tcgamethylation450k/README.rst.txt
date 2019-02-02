@@ -9,7 +9,7 @@ The Cancer Genome Atlas \(TCGA\) is applying genomics technologies to over 20 di
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/TCGAMethylation450k.html
-Versions      
+Versions      1.18.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tcgamethylation450k/meta.yaml
 

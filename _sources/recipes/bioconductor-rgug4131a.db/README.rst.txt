@@ -9,7 +9,7 @@ Agilent \"Rat Genome\, Whole\" annotation data \(chip rgug4131a\) assembled usin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rgug4131a.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgug4131a.db/meta.yaml
 

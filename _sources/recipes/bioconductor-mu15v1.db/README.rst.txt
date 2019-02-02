@@ -9,7 +9,7 @@ FHCRC Genomics Shared Resource Mu15v1 Annotation Data \(Mu15v1\) assembled using
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Mu15v1.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu15v1.db/meta.yaml
 

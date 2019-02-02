@@ -9,7 +9,7 @@ NuPoP is an R package for Nucleosome Positioning Prediction.This package is buil
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/NuPoP.html
-Versions      
+Versions      1.32.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nupop/meta.yaml
 

@@ -9,7 +9,7 @@ This package contains methods for converting standard objects constructed by bio
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/biobroom.html
-Versions      
+Versions      1.14.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biobroom/meta.yaml
 

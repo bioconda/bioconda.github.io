@@ -9,7 +9,7 @@ artMS provides a set of tools for the analysis of proteomics label\-free dataset
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/artMS.html
-Versions      
+Versions      1.0.1
 License       GPL (>= 3) + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-artms/meta.yaml
 

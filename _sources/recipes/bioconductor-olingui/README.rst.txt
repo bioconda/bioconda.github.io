@@ -9,7 +9,7 @@ Graphical user interface for the OLIN package
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/OLINgui.html
-Versions      
+Versions      1.56.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-olingui/meta.yaml
 

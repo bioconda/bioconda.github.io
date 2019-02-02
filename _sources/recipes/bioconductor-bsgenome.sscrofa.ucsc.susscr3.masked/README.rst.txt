@@ -9,7 +9,7 @@ Full genome sequences for Sus scrofa \(Pig\) as provided by UCSC \(susScr3\, Aug
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr3.masked.html
-Versions      
+Versions      1.3.99
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.sscrofa.ucsc.susscr3.masked/meta.yaml
 

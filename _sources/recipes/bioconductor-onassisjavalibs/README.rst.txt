@@ -9,7 +9,7 @@ A package that contains java libraries to call conceptmapper and compute semnati
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/OnassisJavaLibs.html
-Versions      
+Versions      1.4.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-onassisjavalibs/meta.yaml
 

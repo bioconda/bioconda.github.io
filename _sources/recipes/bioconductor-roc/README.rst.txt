@@ -9,7 +9,7 @@ utilities for ROC\, with uarray focus
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ROC.html
-Versions      1.56.0, 1.54.0, 1.52.0
+Versions      1.58.0, 1.56.0, 1.54.0, 1.52.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-roc/meta.yaml
 

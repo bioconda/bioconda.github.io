@@ -9,7 +9,7 @@ Tools for manipulation of RiboSeq\, RNASeq and CageSeq data. ORFik is extremely 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ORFik.html
-Versions      
+Versions      1.2.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-orfik/meta.yaml
 

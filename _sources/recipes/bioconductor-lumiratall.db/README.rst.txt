@@ -9,7 +9,7 @@ Illumina Rat Illumina expression annotation data \(chip lumiRatAll\) assembled u
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/lumiRatAll.db.html
-Versions      
+Versions      1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumiratall.db/meta.yaml
 

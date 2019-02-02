@@ -9,7 +9,7 @@ A package containing an environment representing the HGU133Plus2\_Hs\_Hspec.cdf 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Hspec.html
-Versions      
+Versions      0.99.1
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hspec/meta.yaml
 

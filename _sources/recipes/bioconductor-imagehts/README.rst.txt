@@ -9,7 +9,7 @@ imageHTS is an R package dedicated to the analysis of high\-throughput microscop
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/imageHTS.html
-Versions      1.30.0, 1.26.0
+Versions      1.32.0, 1.30.0, 1.26.0
 License       LGPL-2.1
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-imagehts/meta.yaml
 

@@ -9,7 +9,7 @@ This package implements a Kolmogorov Smirnov rank\-sum based algorithm for train
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/dualKS.html
-Versions      
+Versions      1.42.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dualks/meta.yaml
 

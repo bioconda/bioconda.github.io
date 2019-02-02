@@ -9,7 +9,7 @@ Pigengene package provides an efficient way to infer biological signatures from 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Pigengene.html
-Versions      
+Versions      1.8.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pigengene/meta.yaml
 

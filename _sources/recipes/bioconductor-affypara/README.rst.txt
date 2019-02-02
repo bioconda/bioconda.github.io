@@ -9,7 +9,7 @@ The package contains parallelized functions for exploratory oligonucleotide arra
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/affyPara.html
-Versions      
+Versions      1.42.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affypara/meta.yaml
 

@@ -9,7 +9,7 @@ PhenoPath infers genomic trajectories \(pseudotimes\) in the presence of heterog
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/phenopath.html
-Versions      
+Versions      1.6.0
 License       Apache License (== 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phenopath/meta.yaml
 

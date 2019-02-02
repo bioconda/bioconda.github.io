@@ -9,7 +9,7 @@ An R package for subset\-based analysis of heterogeneous traits and subtypes
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ASSET.html
-Versions      
+Versions      2.0.0
 License       GPL-2 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-asset/meta.yaml
 

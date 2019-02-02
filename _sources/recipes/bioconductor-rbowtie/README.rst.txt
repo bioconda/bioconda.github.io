@@ -9,7 +9,7 @@ This package provides an R wrapper around the popular bowtie short read aligner 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rbowtie.html
-Versions      1.20.0, 1.18.0, 1.16.0
+Versions      1.22.0, 1.20.0, 1.18.0, 1.16.0
 License       Artistic-1.0 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rbowtie/meta.yaml
 

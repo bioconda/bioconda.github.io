@@ -9,7 +9,7 @@ Provides the peak intensity data for detecting differentially abundant proteins 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MSstatsBioData.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msstatsbiodata/meta.yaml
 

@@ -9,7 +9,7 @@ Unknown annotation data \(chip hgubeta7\) assembled using data from public repos
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgubeta7.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgubeta7.db/meta.yaml
 

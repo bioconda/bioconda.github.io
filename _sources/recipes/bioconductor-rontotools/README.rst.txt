@@ -9,7 +9,7 @@ Suite of tools for functional analysis.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ROntoTools.html
-Versions      2.8.0, 2.6.0, 2.4.0
+Versions      2.10.0, 2.8.0, 2.6.0, 2.4.0
 License       CC BY-NC-ND 4.0 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rontotools/meta.yaml
 

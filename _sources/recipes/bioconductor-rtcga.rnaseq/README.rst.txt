@@ -9,7 +9,7 @@ Package provides rna\-seq datasets from The Cancer Genome Atlas Project for all 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RTCGA.rnaseq.html
-Versions      
+Versions      20151101.12.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga.rnaseq/meta.yaml
 

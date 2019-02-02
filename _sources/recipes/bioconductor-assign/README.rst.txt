@@ -9,7 +9,7 @@ ASSIGN is a computational tool to evaluate the pathway deregulation\/activation 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ASSIGN.html
-Versions      
+Versions      1.18.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-assign/meta.yaml
 

@@ -9,7 +9,7 @@ Meta\-data and tools to work with E. coli. The tools are mostly plotting functio
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ecolitk.html
-Versions      
+Versions      1.54.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ecolitk/meta.yaml
 

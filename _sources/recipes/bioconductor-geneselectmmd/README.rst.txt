@@ -9,7 +9,7 @@ Gene selection based on a mixture of marginal distributions
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneSelectMMD.html
-Versions      
+Versions      2.26.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneselectmmd/meta.yaml
 

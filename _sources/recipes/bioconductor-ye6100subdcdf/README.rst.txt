@@ -9,7 +9,7 @@ A package containing an environment representing the Ye6100subD.CDF file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ye6100subdcdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ye6100subdcdf/meta.yaml
 

@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix MoGene\-2\_1\-st
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mogene.2.1.st.html
-Versions      
+Versions      3.14.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.mogene.2.1.st/meta.yaml
 

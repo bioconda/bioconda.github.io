@@ -9,7 +9,7 @@ Hipathia is a method for the computation of signal transduction along signaling 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/hipathia.html
-Versions      
+Versions      1.3.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hipathia/meta.yaml
 

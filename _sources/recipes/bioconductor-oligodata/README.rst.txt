@@ -9,7 +9,7 @@ Dataset samples \(Affymetrix\: Expression\, Gene\, Exon\, SNP\; NimbleGen\: Expr
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/oligoData.html
-Versions      
+Versions      1.8.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-oligodata/meta.yaml
 

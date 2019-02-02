@@ -9,7 +9,7 @@ This package provides expression profile and CNV data for glioblastoma from TCGA
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/diggitdata.html
-Versions      
+Versions      1.14.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diggitdata/meta.yaml
 

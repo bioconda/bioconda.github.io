@@ -9,7 +9,7 @@ Infer and discriminate RIP peaks from RIP\-seq alignments using two\-state HMM w
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RIPSeeker.html
-Versions      1.20.0, 1.18.0, 1.16.0
+Versions      1.22.0, 1.20.0, 1.18.0, 1.16.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ripseeker/meta.yaml
 

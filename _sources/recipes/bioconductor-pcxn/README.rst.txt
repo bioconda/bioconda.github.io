@@ -9,7 +9,7 @@ Discover the correlated pathways\/gene sets of a single pathway\/gene set or dis
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/pcxn.html
-Versions      
+Versions      2.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcxn/meta.yaml
 

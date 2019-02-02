@@ -9,7 +9,7 @@ Provides efficient low\-level and highly reusable S4 classes for storing\, manip
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IRanges.html
-Versions      2.14.12, 2.12.0, 2.10.5, 2.8.2, 2.8.0, 2.6.1, 2.6.0, 2.4.8, 2.4.7, 2.4.6, 2.4.1, 2.4.0, 2.2.9
+Versions      2.16.0, 2.14.12, 2.12.0, 2.10.5, 2.8.2, 2.8.0, 2.6.1, 2.6.0, 2.4.8, 2.4.7, 2.4.6, 2.4.1, 2.4.0, 2.2.9
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iranges/meta.yaml
 

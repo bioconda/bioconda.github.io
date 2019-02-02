@@ -9,7 +9,7 @@ PCxN database contains correlation coefficients and p values between pre\-define
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pcxnData.html
-Versions      
+Versions      2.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcxndata/meta.yaml
 

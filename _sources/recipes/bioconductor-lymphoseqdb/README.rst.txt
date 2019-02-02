@@ -9,7 +9,7 @@ This package provides annotation databases that support the package LymphoSeq.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/LymphoSeqDB.html
-Versions      
+Versions      0.99.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lymphoseqdb/meta.yaml
 

@@ -9,7 +9,7 @@ sapFinder is developed to automate \(1\) variation\-associated database construc
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/sapFinder.html
-Versions      
+Versions      1.20.1, 1.20.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sapfinder/meta.yaml
 

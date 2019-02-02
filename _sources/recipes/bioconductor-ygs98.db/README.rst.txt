@@ -9,7 +9,7 @@ Affymetrix Yeast Genome S98 Array annotation data \(chip ygs98\) assembled using
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ygs98.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ygs98.db/meta.yaml
 

@@ -9,7 +9,7 @@ This package extends the function of the LiquidAssociation package for genome\-w
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/fastLiquidAssociation.html
-Versions      
+Versions      1.18.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fastliquidassociation/meta.yaml
 

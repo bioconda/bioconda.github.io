@@ -9,7 +9,7 @@ Functions to check whether a vector of p\-values respects the assumptions of FDR
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=cp4p
-Versions      
+Versions      0.3.5
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-cp4p/meta.yaml
 

@@ -9,7 +9,7 @@ Metagenome annotation package with for the Greengenes 16S rRNA Database version 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/greengenes13.5MgDb.html
-Versions      
+Versions      2.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-greengenes13.5mgdb/meta.yaml
 

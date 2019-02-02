@@ -9,7 +9,7 @@ Linnorm is an R package for the analysis of RNA\-seq\, scRNA\-seq\, ChIP\-seq co
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Linnorm.html
-Versions      
+Versions      2.6.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-linnorm/meta.yaml
 

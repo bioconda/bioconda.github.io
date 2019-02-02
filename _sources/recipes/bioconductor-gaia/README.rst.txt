@@ -9,7 +9,7 @@ This package allows to assess the statistical significance of chromosomal aberra
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gaia.html
-Versions      
+Versions      2.26.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gaia/meta.yaml
 

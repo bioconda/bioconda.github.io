@@ -9,7 +9,7 @@ Processing and Analysis of Agilent microRNA data
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/AgiMicroRna.html
-Versions      
+Versions      2.32.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-agimicrorna/meta.yaml
 

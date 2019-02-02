@@ -9,7 +9,7 @@ This package can be used to simulate RNA\-seq reads from differential expression
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/polyester.html
-Versions      
+Versions      1.18.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-polyester/meta.yaml
 

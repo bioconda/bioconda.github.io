@@ -9,7 +9,7 @@ The gene set collection used for the GIGSEA package.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GIGSEAdata.html
-Versions      
+Versions      1.0.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gigseadata/meta.yaml
 

@@ -9,7 +9,7 @@ ChIP\-seq analysis subset from \"Conserved nucleosome positioning defines replic
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/EatonEtAlChIPseq.html
-Versions      
+Versions      0.20.0
 License       Artistic 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-eatonetalchipseq/meta.yaml
 

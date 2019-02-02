@@ -9,7 +9,7 @@ This package identifies differential expression in high\-throughput \'count\' da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/baySeq.html
-Versions      2.14.0, 2.12.0, 2.10.0
+Versions      2.16.0, 2.14.0, 2.12.0, 2.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bayseq/meta.yaml
 

@@ -9,7 +9,7 @@ The signeR package provides an empirical Bayesian approach to mutational signatu
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/signeR.html
-Versions      1.6.1, 1.4.0, 1.2.2, 1.0.1
+Versions      1.8.0, 1.6.1, 1.4.0, 1.2.2, 1.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-signer/meta.yaml
 

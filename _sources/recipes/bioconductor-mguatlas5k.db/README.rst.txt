@@ -9,7 +9,7 @@ Clontech BD Atlas Long Oligos Mouse 5K annotation data \(chip mguatlas5k\) assem
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mguatlas5k.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mguatlas5k.db/meta.yaml
 

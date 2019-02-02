@@ -9,7 +9,7 @@ Ion Trap positive ionization mode data in mzData file format.  Subset from 500\-
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/msdata.html
-Versions      
+Versions      0.22.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msdata/meta.yaml
 

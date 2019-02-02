@@ -9,7 +9,7 @@ The package is developed for the analysis of affinity\-based epitranscriptome sh
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/exomePeak.html
-Versions      2.14.0, 2.13.2
+Versions      2.16.0, 2.14.0, 2.13.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-exomepeak/meta.yaml
 

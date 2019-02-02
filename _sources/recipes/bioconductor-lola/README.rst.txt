@@ -9,7 +9,7 @@ Provides functions for testing overlap of sets of genomic regions with public an
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/LOLA.html
-Versions      1.10.0, 1.8.0
+Versions      1.12.0, 1.10.0, 1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lola/meta.yaml
 

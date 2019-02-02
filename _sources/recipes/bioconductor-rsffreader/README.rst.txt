@@ -9,7 +9,7 @@ rSFFreader reads sequence\, qualities and clip point values from sff files gener
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/rSFFreader.html
-Versions      
+Versions      0.30.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rsffreader/meta.yaml
 

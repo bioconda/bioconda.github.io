@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name NuGO\_Mm1a520177
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.nugo.mm1a520177.html
-Versions      
+Versions      3.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.nugo.mm1a520177/meta.yaml
 

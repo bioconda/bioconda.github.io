@@ -9,7 +9,7 @@ Data from 6 gpr files aims to identify differential expressed genes between the 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/beta7.html
-Versions      
+Versions      1.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-beta7/meta.yaml
 

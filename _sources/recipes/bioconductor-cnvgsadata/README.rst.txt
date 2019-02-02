@@ -9,7 +9,7 @@ This package contains the data used in the vignette of the cnvGSA package.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/cnvGSAdata.html
-Versions      
+Versions      1.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnvgsadata/meta.yaml
 

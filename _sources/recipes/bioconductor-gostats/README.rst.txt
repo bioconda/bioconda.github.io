@@ -9,7 +9,7 @@ A set of tools for interacting with GO and microarray data. A variety of basic m
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GOstats.html
-Versions      2.46.0, 2.44.0, 2.42.0, 2.38.1, 2.36.0
+Versions      2.48.0, 2.46.0, 2.44.0, 2.42.0, 2.38.1, 2.36.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gostats/meta.yaml
 

@@ -9,7 +9,7 @@ A suite of tools for subsetting\, visualizing\, annotating\, and statistically a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/diffloop.html
-Versions      1.8.0, 1.6.0
+Versions      1.10.0, 1.8.0, 1.6.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diffloop/meta.yaml
 

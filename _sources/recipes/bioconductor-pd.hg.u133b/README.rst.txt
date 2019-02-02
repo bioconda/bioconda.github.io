@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name HG\-U133B
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.hg.u133b.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.hg.u133b/meta.yaml
 

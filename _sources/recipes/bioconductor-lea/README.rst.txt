@@ -9,7 +9,7 @@ LEA is an R package dedicated to landscape genomics and ecological association t
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/LEA.html
-Versions      
+Versions      2.4.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lea/meta.yaml
 

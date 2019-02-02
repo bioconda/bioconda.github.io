@@ -9,7 +9,7 @@ Raw data objects for the Illumina 450k DNA methylation microarrays\, for cell ty
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/FlowSorted.CordBloodNorway.450k.html
-Versions      
+Versions      1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowsorted.cordbloodnorway.450k/meta.yaml
 

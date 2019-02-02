@@ -9,7 +9,7 @@ MIGSA vignette data. The MIGSAdata package provides several data objects needed 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MIGSAdata.html
-Versions      
+Versions      1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-migsadata/meta.yaml
 

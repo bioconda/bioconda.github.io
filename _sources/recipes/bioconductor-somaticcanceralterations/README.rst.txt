@@ -9,7 +9,7 @@ Collection of somatic cancer alteration datasets
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/SomaticCancerAlterations.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-somaticcanceralterations/meta.yaml
 

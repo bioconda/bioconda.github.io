@@ -9,7 +9,7 @@ For a given clustered data\, which can also be split into two conditions\, this 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/condcomp.html
-Versions      
+Versions      1.0.1
 License       GPL (>=2) | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-condcomp/meta.yaml
 

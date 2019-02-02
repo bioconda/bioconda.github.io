@@ -9,7 +9,7 @@ Affymetrix mogene21 annotation data \(chip mogene21stprobeset\) assembled using 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mogene21stprobeset.db.html
-Versions      
+Versions      8.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mogene21stprobeset.db/meta.yaml
 

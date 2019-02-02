@@ -9,7 +9,7 @@ The HiTC package was developed to explore high\-throughput \'C\' data such as 5C
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HiTC.html
-Versions      1.24.0, 1.22.0
+Versions      1.26.0, 1.24.0, 1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hitc/meta.yaml
 

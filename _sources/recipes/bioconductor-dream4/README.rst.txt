@@ -9,7 +9,7 @@ Simulated expression data for five 10\-node\, and five 100\-node networks\, with
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/DREAM4.html
-Versions      
+Versions      1.18.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dream4/meta.yaml
 

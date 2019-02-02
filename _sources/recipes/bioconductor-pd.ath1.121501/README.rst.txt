@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name ATH1\-121501
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ath1.121501.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.ath1.121501/meta.yaml
 

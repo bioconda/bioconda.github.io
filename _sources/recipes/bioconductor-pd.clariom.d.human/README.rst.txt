@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix Clariom\_D\_Human
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.d.human.html
-Versions      
+Versions      3.14.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.clariom.d.human/meta.yaml
 

@@ -9,7 +9,7 @@ This package provides functionalities for the fitting of cell population growth 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellGrowth.html
-Versions      1.24.0, 1.22.0, 1.20.0
+Versions      1.26.1, 1.24.0, 1.22.0, 1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellgrowth/meta.yaml
 

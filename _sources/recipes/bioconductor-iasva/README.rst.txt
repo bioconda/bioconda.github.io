@@ -9,7 +9,7 @@ Iteratively Adjusted Surrogate Variable Analysis \(IA\-SVA\) is a statistical fr
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/iasva.html
-Versions      
+Versions      1.0.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iasva/meta.yaml
 

@@ -9,7 +9,7 @@ A framework for performing clustering analysis iteratively.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/iterClust.html
-Versions      
+Versions      1.4.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-iterclust/meta.yaml
 

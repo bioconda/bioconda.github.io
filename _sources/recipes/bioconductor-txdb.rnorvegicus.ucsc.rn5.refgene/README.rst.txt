@@ -9,7 +9,7 @@ Exposes an annotation databases generated from UCSC by exposing these as TxDb ob
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/TxDb.Rnorvegicus.UCSC.rn5.refGene.html
-Versions      3.4.3, 3.4.2, 3.4.1, 3.4.0
+Versions      3.4.4, 3.4.3, 3.4.2, 3.4.1, 3.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-txdb.rnorvegicus.ucsc.rn5.refgene/meta.yaml
 

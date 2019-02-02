@@ -9,7 +9,7 @@ Supporting data for the chipenrich package. Includes pre\-defined gene sets\, ge
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/chipenrich.data.html
-Versions      
+Versions      2.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chipenrich.data/meta.yaml
 

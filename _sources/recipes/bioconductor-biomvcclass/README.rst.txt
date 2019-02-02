@@ -9,7 +9,7 @@ Creates classes used in model\-view\-controller \(MVC\) design
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BioMVCClass.html
-Versions      1.48.0, 1.46.0
+Versions      1.50.0, 1.48.0, 1.46.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biomvcclass/meta.yaml
 

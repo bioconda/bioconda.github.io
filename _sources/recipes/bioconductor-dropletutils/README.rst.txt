@@ -9,7 +9,7 @@ Provides a number of utility functions for handling single\-cell \(RNA\-seq\) da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/DropletUtils.html
-Versions      1.0.3
+Versions      1.2.1, 1.0.3
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dropletutils/meta.yaml
 

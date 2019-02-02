@@ -9,7 +9,7 @@ Supplementary Data package for tandem timer methods paper by Barry et al. \(2015
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/TimerQuant.html
-Versions      
+Versions      1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-timerquant/meta.yaml
 

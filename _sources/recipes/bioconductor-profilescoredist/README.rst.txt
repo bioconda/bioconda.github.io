@@ -9,7 +9,7 @@ Regularization and score distributions for position count matrices.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/profileScoreDist.html
-Versions      
+Versions      1.10.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-profilescoredist/meta.yaml
 

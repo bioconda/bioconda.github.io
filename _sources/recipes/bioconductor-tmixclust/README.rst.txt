@@ -9,7 +9,7 @@ Implementation of a clustering method for time series gene expression data based
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TMixClust.html
-Versions      
+Versions      1.4.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tmixclust/meta.yaml
 

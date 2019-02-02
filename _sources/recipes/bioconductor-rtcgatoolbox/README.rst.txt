@@ -9,7 +9,7 @@ Managing data from large scale projects such as The Cancer Genome Atlas \(TCGA\)
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RTCGAToolbox.html
-Versions      2.10.0, 2.8.0, 2.6.0
+Versions      2.12.1, 2.10.0, 2.8.0, 2.6.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcgatoolbox/meta.yaml
 

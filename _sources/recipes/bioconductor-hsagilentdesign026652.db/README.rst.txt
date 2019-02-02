@@ -9,7 +9,7 @@ Agilent Chips that use Agilent design number 026652 annotation data \(chip HsAgi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/HsAgilentDesign026652.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hsagilentdesign026652.db/meta.yaml
 

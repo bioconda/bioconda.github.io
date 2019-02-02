@@ -9,7 +9,7 @@ An interface to the fast\-access storage format for VCF data provided in SeqArra
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SeqVarTools.html
-Versions      
+Versions      1.20.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqvartools/meta.yaml
 

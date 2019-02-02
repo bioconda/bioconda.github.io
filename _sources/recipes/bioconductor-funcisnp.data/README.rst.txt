@@ -9,7 +9,7 @@ Data sets needed for FunciSNP to integrate information from GWAS\, 1000genomes a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/FunciSNP.data.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-funcisnp.data/meta.yaml
 

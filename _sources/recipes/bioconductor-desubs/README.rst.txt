@@ -9,7 +9,7 @@ DEsubs is a network\-based systems biology package that extracts disease\-pertur
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/DEsubs.html
-Versions      
+Versions      1.8.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-desubs/meta.yaml
 

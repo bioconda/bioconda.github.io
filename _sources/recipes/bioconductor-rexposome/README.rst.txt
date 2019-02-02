@@ -9,7 +9,7 @@ Package that allows to explore the exposome and to perform association analyses 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/rexposome.html
-Versions      
+Versions      1.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rexposome/meta.yaml
 

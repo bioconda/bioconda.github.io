@@ -9,7 +9,7 @@ This package integrates literature\-constrained and data\-driven methods to infe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNORfeeder.html
-Versions      
+Versions      1.22.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnorfeeder/meta.yaml
 

@@ -9,7 +9,7 @@ Package contains methods for data retrieval from IMPC Database.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IMPCdata.html
-Versions      
+Versions      1.18.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-impcdata/meta.yaml
 

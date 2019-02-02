@@ -9,7 +9,7 @@ Inference of Genetic Variants Driving Cellullar Phenotypes by the DIGGIT algorit
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/diggit.html
-Versions      
+Versions      1.14.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-diggit/meta.yaml
 

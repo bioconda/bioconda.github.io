@@ -9,7 +9,7 @@ This is a microarray data set on acute lymphoblastic leukemia\, published in 200
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/stjudem.html
-Versions      
+Versions      1.22.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stjudem/meta.yaml
 

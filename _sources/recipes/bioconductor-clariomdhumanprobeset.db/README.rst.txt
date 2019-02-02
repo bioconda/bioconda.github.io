@@ -9,7 +9,7 @@ Affymetrix clariomdhuman annotation data \(chip clariomdhumanprobeset\) assemble
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/clariomdhumanprobeset.db.html
-Versions      
+Versions      8.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clariomdhumanprobeset.db/meta.yaml
 

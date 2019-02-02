@@ -9,7 +9,7 @@ Memory\-efficient reading\, writing\, and manipulation of structured binary data
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/matter.html
-Versions      1.6.0, 1.4.1, 1.2.0
+Versions      1.8.0, 1.6.0, 1.4.1, 1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-matter/meta.yaml
 

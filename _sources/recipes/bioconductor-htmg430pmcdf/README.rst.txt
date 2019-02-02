@@ -9,7 +9,7 @@ A package containing an environment representing the HT\_MG\-430\_PM.cdf file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/htmg430pmcdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-htmg430pmcdf/meta.yaml
 

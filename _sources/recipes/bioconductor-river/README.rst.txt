@@ -9,7 +9,7 @@ An implementation of a probabilistic modeling framework that jointly analyzes pe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RIVER.html
-Versions      
+Versions      1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-river/meta.yaml
 

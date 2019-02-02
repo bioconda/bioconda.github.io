@@ -9,7 +9,7 @@ A preprocessing pipeline for single cell RNA\-seq data that starts from the fast
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/scPipe.html
-Versions      1.2.1, 1.0.0
+Versions      1.4.0, 1.2.1, 1.0.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scpipe/meta.yaml
 

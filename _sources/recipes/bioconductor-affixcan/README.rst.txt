@@ -9,7 +9,7 @@ Impute a GReX \(Genetically Regulated Expression\) for a set of genes in a sampl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/AffiXcan.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affixcan/meta.yaml
 

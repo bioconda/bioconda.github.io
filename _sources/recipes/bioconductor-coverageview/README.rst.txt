@@ -9,7 +9,7 @@ This package provides a framework for the visualization of genome coverage profi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CoverageView.html
-Versions      
+Versions      1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-coverageview/meta.yaml
 

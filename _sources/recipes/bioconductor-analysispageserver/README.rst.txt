@@ -9,7 +9,7 @@ AnalysisPageServer is a modular system that enables sharing of customizable R an
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/AnalysisPageServer.html
-Versions      
+Versions      1.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-analysispageserver/meta.yaml
 

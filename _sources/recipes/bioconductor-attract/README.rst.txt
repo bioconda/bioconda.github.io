@@ -9,7 +9,7 @@ This package contains the functions to find the gene expression modules that rep
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/attract.html
-Versions      
+Versions      1.34.0
 License       LGPL (>= 2.0)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-attract/meta.yaml
 

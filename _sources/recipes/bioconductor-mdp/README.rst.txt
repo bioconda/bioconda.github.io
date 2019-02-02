@@ -9,7 +9,7 @@ The Molecular Degree of Perturbation webtool quantifies the heterogeneity of sam
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/mdp.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mdp/meta.yaml
 

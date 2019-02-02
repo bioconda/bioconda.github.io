@@ -9,7 +9,7 @@ A suite of helper functions for checking and manipulating TCGA data including da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TCGAutils.html
-Versions      
+Versions      1.2.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tcgautils/meta.yaml
 

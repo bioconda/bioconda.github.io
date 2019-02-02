@@ -9,7 +9,7 @@ Saccharomyces cerevisiae \(Yeast\) full genome as provided by UCSC \(sacCer2\, J
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Scerevisiae.UCSC.sacCer2.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.scerevisiae.ucsc.saccer2/meta.yaml
 

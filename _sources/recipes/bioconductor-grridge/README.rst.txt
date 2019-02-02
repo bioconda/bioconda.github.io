@@ -9,7 +9,7 @@ This package allows the use of multiple sources of co\-data \(e.g. external p\-v
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GRridge.html
-Versions      
+Versions      1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-grridge/meta.yaml
 

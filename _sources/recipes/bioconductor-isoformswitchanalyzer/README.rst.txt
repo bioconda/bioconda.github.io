@@ -9,7 +9,7 @@ IsoformSwitchAnalyzeR enables identification and analysis of alternative splicin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IsoformSwitchAnalyzeR.html
-Versions      1.2.0, 1.0.0
+Versions      1.4.0, 1.2.0, 1.0.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-isoformswitchanalyzer/meta.yaml
 

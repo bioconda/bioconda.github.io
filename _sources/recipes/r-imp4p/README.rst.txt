@@ -9,7 +9,7 @@ Functions to analyse missing value mechanisms and to impute data sets in the con
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=imp4p
-Versions      
+Versions      0.7
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-imp4p/meta.yaml
 

@@ -9,7 +9,7 @@ Full genome sequences for Arabidopsis thaliana as provided by TAIR \(TAIR9 Genom
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Athaliana.TAIR.TAIR9.html
-Versions      
+Versions      1.3.1000
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.athaliana.tair.tair9/meta.yaml
 

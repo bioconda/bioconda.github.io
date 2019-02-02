@@ -9,7 +9,7 @@ Efficient implementations for all the popular synergy scoring models for drug co
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/synergyfinder.html
-Versions      1.6.1, 1.4.0, 1.2.0, 1.0.0
+Versions      1.8.0, 1.6.1, 1.4.0, 1.2.0, 1.0.0
 License       Mozilla Public License 2.0 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-synergyfinder/meta.yaml
 

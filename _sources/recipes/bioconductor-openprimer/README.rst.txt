@@ -9,7 +9,7 @@ An implementation of methods for designing\, evaluating\, and comparing primer s
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/openPrimeR.html
-Versions      
+Versions      1.4.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-openprimer/meta.yaml
 

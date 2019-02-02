@@ -9,7 +9,7 @@ The package contains Chip Seq\, Methylation and Cage data\, downloaded from Enco
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/genomationData.html
-Versions      
+Versions      1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genomationdata/meta.yaml
 

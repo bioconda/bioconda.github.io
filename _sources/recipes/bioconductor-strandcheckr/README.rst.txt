@@ -9,7 +9,7 @@ This package aims to quantify and remove putative double strand DNA from a stran
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/strandCheckR.html
-Versions      
+Versions      1.0.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-strandcheckr/meta.yaml
 

@@ -9,7 +9,7 @@ This package provides data that were presented in the article \"Comprehensive ma
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/LiebermanAidenHiC2009.html
-Versions      
+Versions      0.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-liebermanaidenhic2009/meta.yaml
 

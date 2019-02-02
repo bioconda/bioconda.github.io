@@ -9,7 +9,7 @@ A simple\, fast Bayesian method for computing posterior probabilities for relati
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BayesKnockdown.html
-Versions      
+Versions      1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bayesknockdown/meta.yaml
 

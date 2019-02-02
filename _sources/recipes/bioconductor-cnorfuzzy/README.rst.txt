@@ -9,7 +9,7 @@ This package is an extension to CellNOptR.  It contains additional functionality
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNORfuzzy.html
-Versions      1.22.0, 1.20.0
+Versions      1.24.0, 1.22.0, 1.20.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnorfuzzy/meta.yaml
 

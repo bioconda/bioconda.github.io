@@ -9,7 +9,7 @@ Celular taxonomy of the primary visual cortex in adult mice based on single cell
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/allenpvc.html
-Versions      
+Versions      1.0.0
 License       CC0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-allenpvc/meta.yaml
 

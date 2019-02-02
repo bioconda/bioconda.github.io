@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name X\_laevis\_2
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.x.laevis.2.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.x.laevis.2/meta.yaml
 

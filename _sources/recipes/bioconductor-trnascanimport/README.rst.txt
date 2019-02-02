@@ -9,7 +9,7 @@ The package imports the result of tRNAscan\-SE as a GRanges object.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/tRNAscanImport.html
-Versions      
+Versions      1.2.0
 License       GPL-3 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-trnascanimport/meta.yaml
 

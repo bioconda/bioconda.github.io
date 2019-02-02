@@ -9,7 +9,7 @@ A package for processing protein mass spectrometry data.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PROcess.html
-Versions      1.56.0, 1.54.0
+Versions      1.58.1, 1.56.0, 1.54.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-process/meta.yaml
 

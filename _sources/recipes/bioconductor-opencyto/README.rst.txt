@@ -9,7 +9,7 @@ This package is designed to facilitate the automated gating methods in sequentia
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/openCyto.html
-Versions      
+Versions      1.20.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-opencyto/meta.yaml
 

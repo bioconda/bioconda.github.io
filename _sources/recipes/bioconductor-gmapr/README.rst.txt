@@ -9,7 +9,7 @@ GSNAP and GMAP are a pair of tools to align short\-read data written by Tom Wu. 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gmapR.html
-Versions      
+Versions      1.24.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gmapr/meta.yaml
 

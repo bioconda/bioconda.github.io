@@ -9,7 +9,7 @@ This is a data package that accompanies a ChIP\-chip tutorial\, which has been p
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ccTutorial.html
-Versions      
+Versions      1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cctutorial/meta.yaml
 

@@ -9,7 +9,7 @@ metagenomeFeatures was developed for use in exploring the taxonomic annotations 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/metagenomeFeatures.html
-Versions      
+Versions      2.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metagenomefeatures/meta.yaml
 

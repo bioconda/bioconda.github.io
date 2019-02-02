@@ -9,7 +9,7 @@ Exploratory data analysis to assess the quality of a set of LC\-MS\/MS experimen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/msmsEDA.html
-Versions      1.16.0
+Versions      1.20.0, 1.16.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msmseda/meta.yaml
 

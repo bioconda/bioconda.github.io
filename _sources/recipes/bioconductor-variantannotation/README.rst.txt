@@ -9,7 +9,7 @@ Annotate variants\, compute amino acid coding changes\, predict coding outcomes.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/VariantAnnotation.html
-Versions      1.26.1, 1.24.1, 1.22.3, 1.20.3, 1.18.7, 1.16.4, 1.16.3, 1.16.1, 1.16.0
+Versions      1.28.3, 1.26.1, 1.24.1, 1.22.3, 1.20.3, 1.18.7, 1.16.4, 1.16.3, 1.16.1, 1.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-variantannotation/meta.yaml
 

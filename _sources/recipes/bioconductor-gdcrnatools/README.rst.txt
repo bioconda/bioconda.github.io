@@ -9,7 +9,7 @@ This is an easy\-to\-use package for downloading\, organizing\, and integrative 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GDCRNATools.html
-Versions      
+Versions      1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gdcrnatools/meta.yaml
 

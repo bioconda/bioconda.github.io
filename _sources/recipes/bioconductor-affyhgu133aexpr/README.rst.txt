@@ -9,7 +9,7 @@ Contains pre\-built human \(GPL96\) database of gene expression profiles. The ge
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Affyhgu133aExpr.html
-Versions      
+Versions      1.20.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affyhgu133aexpr/meta.yaml
 

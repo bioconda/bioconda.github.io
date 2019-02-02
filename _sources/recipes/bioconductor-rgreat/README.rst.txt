@@ -9,7 +9,7 @@ This package makes GREAT \(Genomic Regions Enrichment of Annotations Tool\) anal
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/rGREAT.html
-Versions      1.12.1, 1.11.1, 1.8.0
+Versions      1.14.0, 1.12.1, 1.11.1, 1.8.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgreat/meta.yaml
 

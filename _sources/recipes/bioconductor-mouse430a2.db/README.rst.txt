@@ -9,7 +9,7 @@ Affymetrix Mouse Genome 430A 2.0 Array annotation data \(chip mouse430a2\) assem
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mouse430a2.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mouse430a2.db/meta.yaml
 

@@ -9,7 +9,7 @@ A R interface to the TnT javascript library \(https\:\/\/github.com\/ tntvis\) t
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TnT.html
-Versions      
+Versions      1.4.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tnt/meta.yaml
 

@@ -9,7 +9,7 @@ A streamlined tool provides a graphical user interface for quality control based
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/statTarget.html
-Versions      
+Versions      1.12.0
 License       LGPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stattarget/meta.yaml
 

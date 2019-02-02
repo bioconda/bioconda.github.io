@@ -9,7 +9,7 @@ COCOA is a method for understanding variation among samples and can be used with
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/COCOA.html
-Versions      
+Versions      1.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cocoa/meta.yaml
 

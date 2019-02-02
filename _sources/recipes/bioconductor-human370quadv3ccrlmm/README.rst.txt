@@ -9,7 +9,7 @@ Package with metadata for genotyping Illumina 370kQuad arrays using the \'crlmm\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/human370quadv3cCrlmm.html
-Versions      
+Versions      1.0.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-human370quadv3ccrlmm/meta.yaml
 

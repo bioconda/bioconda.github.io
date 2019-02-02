@@ -9,7 +9,7 @@ Affymetrix Rat Genome U34 Set annotation data \(chip rgu34b\) assembled using da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rgu34b.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgu34b.db/meta.yaml
 

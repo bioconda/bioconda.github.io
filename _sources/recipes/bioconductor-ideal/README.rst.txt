@@ -9,7 +9,7 @@ This package provides functions for an Interactive Differential Expression AnaLy
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ideal.html
-Versions      1.4.0, 1.2.0
+Versions      1.6.0, 1.4.0, 1.2.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ideal/meta.yaml
 

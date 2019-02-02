@@ -9,7 +9,7 @@ Codelink ADME Rat 16\-Assay Bioarray annotation data \(chip adme16cod\) assemble
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/adme16cod.db.html
-Versions      
+Versions      3.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-adme16cod.db/meta.yaml
 

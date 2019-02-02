@@ -9,7 +9,7 @@ Tool for analysis of codon usage in various unannotated or KEGG\/COG annotated D
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/coRdon.html
-Versions      
+Versions      1.0.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cordon/meta.yaml
 

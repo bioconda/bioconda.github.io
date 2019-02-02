@@ -9,7 +9,7 @@ Calculates a single number for a whole sequence that reflects the propensity of 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MatrixRider.html
-Versions      
+Versions      1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-matrixrider/meta.yaml
 

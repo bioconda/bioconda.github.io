@@ -9,7 +9,7 @@ Identification of metabolites using high precision mass spectrometry. MS Peaks a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rdisop.html
-Versions      
+Versions      1.42.1, 1.42.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rdisop/meta.yaml
 

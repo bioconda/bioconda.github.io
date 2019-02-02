@@ -9,7 +9,7 @@ This packages offers a pipeline for import\, processing and analysis of ToF\-SIM
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/tofsims.html
-Versions      
+Versions      1.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tofsims/meta.yaml
 

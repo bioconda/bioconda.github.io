@@ -9,7 +9,7 @@ CorMut provides functions for computing kaks for individual sites or specific am
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CorMut.html
-Versions      
+Versions      1.24.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cormut/meta.yaml
 

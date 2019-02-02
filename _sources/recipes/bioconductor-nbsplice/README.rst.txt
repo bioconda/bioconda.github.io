@@ -9,7 +9,7 @@ The package proposes a differential splicing evaluation method based on isoform 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/NBSplice.html
-Versions      
+Versions      1.0.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nbsplice/meta.yaml
 

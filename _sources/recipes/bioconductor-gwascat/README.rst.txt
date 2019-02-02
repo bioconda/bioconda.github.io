@@ -9,7 +9,7 @@ Represent and model data in the EMBL\-EBI GWAS catalog.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/gwascat.html
-Versions      
+Versions      2.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gwascat/meta.yaml
 

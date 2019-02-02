@@ -9,7 +9,7 @@ Cicero computes putative cis\-regulatory maps from single\-cell chromatin access
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/cicero.html
-Versions      
+Versions      1.0.14
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cicero/meta.yaml
 

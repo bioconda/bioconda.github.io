@@ -9,7 +9,7 @@ Illumina Mouse Illumina expression annotation data \(chip lumiMouseAll\) assembl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/lumiMouseAll.db.html
-Versions      
+Versions      1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lumimouseall.db/meta.yaml
 

@@ -9,7 +9,7 @@ Suit of tools for bi\-level meta\-analysis. The package can be used in a wide ra
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BLMA.html
-Versions      
+Versions      1.6.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-blma/meta.yaml
 

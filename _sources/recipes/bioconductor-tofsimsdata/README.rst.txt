@@ -9,7 +9,7 @@ This packages contains data to be used with the \'tofsims\' package.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tofsimsData.html
-Versions      
+Versions      1.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tofsimsdata/meta.yaml
 

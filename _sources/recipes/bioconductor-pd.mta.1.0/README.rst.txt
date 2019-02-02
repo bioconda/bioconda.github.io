@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix MTA\-1\_0
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mta.1.0.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.mta.1.0/meta.yaml
 

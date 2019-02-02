@@ -9,7 +9,7 @@ Estimates gene expressions from several laser scans of the same microarray
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/multiscan.html
-Versions      1.40.0, 1.38.0, 1.36.0
+Versions      1.42.0, 1.40.0, 1.38.0, 1.36.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-multiscan/meta.yaml
 

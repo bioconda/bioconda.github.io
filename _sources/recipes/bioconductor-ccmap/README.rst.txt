@@ -9,7 +9,7 @@ Finds drugs and drug combinations that are predicted to reverse or mimic gene ex
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ccmap.html
-Versions      
+Versions      1.8.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ccmap/meta.yaml
 

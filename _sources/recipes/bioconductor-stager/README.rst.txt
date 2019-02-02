@@ -9,7 +9,7 @@ The stageR package allows automated stage\-wise analysis of high\-throughput gen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/stageR.html
-Versions      
+Versions      1.4.0
 License       GNU General Public License version 3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stager/meta.yaml
 

@@ -9,7 +9,7 @@ The package allows the representation of targeted experiment in R. This is based
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TarSeqQC.html
-Versions      1.10.0, 1.8.0, 1.6.2, 1.6.1
+Versions      1.12.0, 1.10.0, 1.8.0, 1.6.2, 1.6.1
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tarseqqc/meta.yaml
 

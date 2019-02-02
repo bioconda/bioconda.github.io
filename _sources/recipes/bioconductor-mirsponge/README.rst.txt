@@ -9,7 +9,7 @@ This package provides several functions to study miRNA sponge \(also called ceRN
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/miRsponge.html
-Versions      
+Versions      1.8.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirsponge/meta.yaml
 

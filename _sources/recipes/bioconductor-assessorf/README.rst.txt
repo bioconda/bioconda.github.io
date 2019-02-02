@@ -9,7 +9,7 @@ In order to assess the quality of a set of predicted genes for a genome\, eviden
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/AssessORF.html
-Versions      
+Versions      1.0.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-assessorf/meta.yaml
 

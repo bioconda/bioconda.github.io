@@ -9,7 +9,7 @@ Utility functions for visualization of expressionSet \(or SummarizedExperiment\)
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/esetVis.html
-Versions      1.6.3, 1.4.0
+Versions      1.8.0, 1.6.3, 1.4.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-esetvis/meta.yaml
 

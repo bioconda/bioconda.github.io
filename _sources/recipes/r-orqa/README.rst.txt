@@ -9,7 +9,7 @@ Assess repeatability\, accuracy and corss\-platform agreement of titration micro
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=orQA
-Versions      
+Versions      0.2.1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-orqa/meta.yaml
 

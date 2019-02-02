@@ -9,7 +9,7 @@ A flexible framework for storing and accessing high\-resolution Hi\-C data throu
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HiCBricks.html
-Versions      
+Versions      1.0.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hicbricks/meta.yaml
 

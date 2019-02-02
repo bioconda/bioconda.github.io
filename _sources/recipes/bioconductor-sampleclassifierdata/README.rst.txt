@@ -9,7 +9,7 @@ This package contains two microarray and two RNA\-seq datasets that have been pr
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/sampleClassifierData.html
-Versions      
+Versions      1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sampleclassifierdata/meta.yaml
 

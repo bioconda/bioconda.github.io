@@ -9,7 +9,7 @@ Graphical displays with embedded statistical tests for gated ICS flow cytometry 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowPlots.html
-Versions      
+Versions      1.30.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowplots/meta.yaml
 

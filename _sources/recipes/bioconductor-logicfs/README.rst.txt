@@ -9,7 +9,7 @@ Identification of interactions between binary variables using Logic Regression. 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/logicFS.html
-Versions      
+Versions      2.2.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-logicfs/meta.yaml
 

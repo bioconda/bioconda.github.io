@@ -9,7 +9,7 @@ Six arrays. Three from amplified RNA\, three from the typical procedure.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/AmpAffyExample.html
-Versions      
+Versions      1.22.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ampaffyexample/meta.yaml
 

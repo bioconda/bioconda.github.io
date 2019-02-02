@@ -9,7 +9,7 @@ The Cancer Genome Atlas \(TCGA\) Data Portal provides a platform for researchers
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RTCGA.html
-Versions      1.10.0, 1.8.0
+Versions      1.12.1, 1.10.0, 1.8.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rtcga/meta.yaml
 

@@ -9,7 +9,7 @@ Genome\-wide data is used to stratify large complex datasets into classes using 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/M3C.html
-Versions      
+Versions      1.4.1
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-m3c/meta.yaml
 

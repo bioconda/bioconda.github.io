@@ -9,7 +9,7 @@ KinSwingR integrates phosphosite data derived from mass\-spectrometry data and k
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/KinSwingR.html
-Versions      
+Versions      1.0.3
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-kinswingr/meta.yaml
 

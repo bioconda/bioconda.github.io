@@ -9,7 +9,7 @@ Implements topological gene set analysis using a two\-step empirical approach. I
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/clipper.html
-Versions      
+Versions      1.22.0
 License       AGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clipper/meta.yaml
 

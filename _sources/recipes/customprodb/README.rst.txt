@@ -9,7 +9,7 @@ Generate customized protein sequence database from RNA\-Seq data for proteomics 
 
 ============= ===========
 Home          http://bioconductor.org/packages/release/bioc/html/customProDB.html
-Versions      1.14.0
+Versions      1.22.0, 1.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//customprodb/meta.yaml
 

@@ -9,7 +9,7 @@ Experiment data package. The set were prepared using microarray images of human 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/blimaTestingData.html
-Versions      
+Versions      1.2.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-blimatestingdata/meta.yaml
 

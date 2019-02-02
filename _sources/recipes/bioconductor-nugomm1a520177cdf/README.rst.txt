@@ -9,7 +9,7 @@ A package containing an environment representing the NuGO\_Mm1a520177.cdf file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugomm1a520177cdf.html
-Versions      
+Versions      3.4.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nugomm1a520177cdf/meta.yaml
 

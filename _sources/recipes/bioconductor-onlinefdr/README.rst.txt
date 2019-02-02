@@ -9,7 +9,7 @@ This package allows users to control the false discovery rate for online hypothe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/onlineFDR.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-onlinefdr/meta.yaml
 

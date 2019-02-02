@@ -9,7 +9,7 @@ Sample dataset obtained from http\:\/\/www.hapmap.org
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/hapmapsnp6.html
-Versions      
+Versions      1.24.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hapmapsnp6/meta.yaml
 

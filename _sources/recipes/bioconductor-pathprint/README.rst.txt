@@ -9,7 +9,7 @@ Algorithms to convert a gene expression array provided as an expression table or
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/pathprint.html
-Versions      1.10.4, 1.6.0
+Versions      1.12.0, 1.10.4, 1.6.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathprint/meta.yaml
 

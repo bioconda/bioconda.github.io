@@ -9,7 +9,7 @@ This package implements the GENIE3 algorithm for inferring gene regulatory netwo
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GENIE3.html
-Versions      
+Versions      1.4.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-genie3/meta.yaml
 

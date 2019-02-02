@@ -9,7 +9,7 @@ slalom is a scalable modelling framework for single\-cell RNA\-seq data that use
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/slalom.html
-Versions      
+Versions      1.4.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-slalom/meta.yaml
 

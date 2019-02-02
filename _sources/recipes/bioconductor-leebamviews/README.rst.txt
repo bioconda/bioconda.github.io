@@ -9,7 +9,7 @@ data from PMID 19096707\; prototype for managing multiple NGS samples
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/leeBamViews.html
-Versions      
+Versions      1.18.0
 License       Artistic 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-leebamviews/meta.yaml
 

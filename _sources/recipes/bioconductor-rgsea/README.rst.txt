@@ -9,7 +9,7 @@ Combining bootstrap aggregating and Gene set enrichment analysis \(GSEA\)\, RGSE
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RGSEA.html
-Versions      1.14.0, 1.12.0, 1.10.0
+Versions      1.16.0, 1.14.0, 1.12.0, 1.10.0
 License       GPL(>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rgsea/meta.yaml
 

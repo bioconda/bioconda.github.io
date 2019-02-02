@@ -9,7 +9,7 @@ Example spectra\, example compound list\(s\) and an example annotation list for 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/RMassBankData.html
-Versions      
+Versions      1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmassbankdata/meta.yaml
 

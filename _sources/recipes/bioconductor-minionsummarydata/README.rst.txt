@@ -9,7 +9,7 @@ Summarised MinION sequencing data for Salmonella Typhi published by Ashton et al
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/minionSummaryData.html
-Versions      
+Versions      1.12.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-minionsummarydata/meta.yaml
 

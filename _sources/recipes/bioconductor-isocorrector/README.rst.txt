@@ -9,7 +9,7 @@ IsoCorrectoR performs the correction of mass spectrometry data from stable isoto
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IsoCorrectoR.html
-Versions      
+Versions      1.0.5
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-isocorrector/meta.yaml
 

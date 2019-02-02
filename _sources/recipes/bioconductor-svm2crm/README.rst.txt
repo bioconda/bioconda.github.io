@@ -9,7 +9,7 @@ Detection of cis\-regulatory elements using svm implemented in LiblineaR.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SVM2CRM.html
-Versions      
+Versions      1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-svm2crm/meta.yaml
 

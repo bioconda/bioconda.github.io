@@ -9,7 +9,7 @@ Package contains methods for statistical analysis of phenotypic data.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PhenStat.html
-Versions      
+Versions      2.18.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phenstat/meta.yaml
 

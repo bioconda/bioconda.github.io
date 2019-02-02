@@ -9,7 +9,7 @@ This package contains the helper files that are required to run the Bioconductor
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/CopyhelpeR.html
-Versions      1.12.0, 1.10.0
+Versions      1.14.0, 1.12.0, 1.10.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-copyhelper/meta.yaml
 

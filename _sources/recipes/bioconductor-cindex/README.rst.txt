@@ -9,7 +9,7 @@ The CINdex package addresses important area of high\-throughput genomic analysis
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CINdex.html
-Versions      1.8.0, 1.6.0
+Versions      1.10.0, 1.8.0, 1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cindex/meta.yaml
 

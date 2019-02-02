@@ -9,7 +9,7 @@ Provides annotation on GC content\, mappability and genomic features for various
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/seqCNA.annot.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcna.annot/meta.yaml
 

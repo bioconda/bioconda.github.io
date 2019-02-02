@@ -9,7 +9,7 @@ We developed SRGnet to analyze synergistic regulatory mechanisms in transcriptom
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SRGnet.html
-Versions      
+Versions      1.8.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-srgnet/meta.yaml
 

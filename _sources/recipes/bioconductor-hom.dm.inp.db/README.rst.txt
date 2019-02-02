@@ -9,7 +9,7 @@ Homology information for Drosophila melanogaster from Inparanoid assembled using
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hom.Dm.inp.db.html
-Versions      
+Versions      3.1.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hom.dm.inp.db/meta.yaml
 

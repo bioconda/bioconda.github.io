@@ -9,7 +9,7 @@ ProteoMM is a statistical method to perform model\-based peptide\-level differen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ProteoMM.html
-Versions      
+Versions      1.0.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-proteomm/meta.yaml
 

@@ -9,7 +9,7 @@ Agilent Human 1 cDNA Microarray Kit annotation data \(chip hgug4100a\) assembled
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgug4100a.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgug4100a.db/meta.yaml
 

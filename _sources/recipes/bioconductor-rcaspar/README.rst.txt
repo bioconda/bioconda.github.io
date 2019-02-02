@@ -9,7 +9,7 @@ The package is the R\-version of the C\-based software \\bold\{CASPAR\} \(Kadera
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RCASPAR.html
-Versions      1.26.0, 1.24.0, 1.22.0
+Versions      1.28.0, 1.26.0, 1.24.0, 1.22.0
 License       GPL (>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rcaspar/meta.yaml
 

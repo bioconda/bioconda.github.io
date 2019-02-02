@@ -9,7 +9,7 @@ Independent Surrogate Variable Analysis is an algorithm for feature selection in
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=isva
-Versions      
+Versions      1.9
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-isva/meta.yaml
 

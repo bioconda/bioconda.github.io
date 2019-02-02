@@ -9,7 +9,7 @@ Full genome sequences for Pan troglodytes \(Chimp\) as provided by UCSC \(panTro
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Ptroglodytes.UCSC.panTro2.masked.html
-Versions      
+Versions      1.3.99
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.ptroglodytes.ucsc.pantro2.masked/meta.yaml
 

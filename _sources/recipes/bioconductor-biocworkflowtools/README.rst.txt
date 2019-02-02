@@ -9,7 +9,7 @@ Provides functions to ease the transition between Rmarkdown and LaTeX documents 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocWorkflowTools.html
-Versions      1.6.2, 1.4.0, 1.2.0
+Versions      1.8.0, 1.6.2, 1.4.0, 1.2.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocworkflowtools/meta.yaml
 

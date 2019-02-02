@@ -9,7 +9,7 @@ The package contains functions for calculate direct and model\-based estimators 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/LiquidAssociation.html
-Versions      1.34.0, 1.32.0
+Versions      1.36.0, 1.34.0, 1.32.0
 License       GPL (>=3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-liquidassociation/meta.yaml
 

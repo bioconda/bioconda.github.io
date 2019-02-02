@@ -9,7 +9,7 @@ CellScape facilitates interactive browsing of single cell clonal evolution datas
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellscape.html
-Versions      
+Versions      1.6.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellscape/meta.yaml
 

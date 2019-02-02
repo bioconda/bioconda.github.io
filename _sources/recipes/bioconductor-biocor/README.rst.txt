@@ -9,7 +9,7 @@ Calculates functional similarities based on the pathways described on KEGG and R
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BioCor.html
-Versions      
+Versions      1.6.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocor/meta.yaml
 

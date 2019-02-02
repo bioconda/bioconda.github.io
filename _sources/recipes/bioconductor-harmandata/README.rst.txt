@@ -9,7 +9,7 @@ Datasets of accompany Harman\, a PCA and constrained optimisation based techniqu
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HarmanData.html
-Versions      
+Versions      1.10.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-harmandata/meta.yaml
 

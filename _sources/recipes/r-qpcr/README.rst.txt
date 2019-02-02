@@ -9,7 +9,7 @@ Model fitting\, optimal model selection and calculation of various features that
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=qpcR
-Versions      
+Versions      1.4_1
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-qpcr/meta.yaml
 

@@ -9,7 +9,7 @@ The main functions for methylGSA are methylglm and methylRRA. methylGSA implemen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/methylGSA.html
-Versions      
+Versions      1.0.2
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methylgsa/meta.yaml
 

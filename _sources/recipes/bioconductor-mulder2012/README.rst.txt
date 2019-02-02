@@ -9,7 +9,7 @@ This package provides functions to reproduce results and figures in Mulder K. et
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/Mulder2012.html
-Versions      
+Versions      0.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mulder2012/meta.yaml
 

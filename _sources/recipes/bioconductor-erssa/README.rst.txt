@@ -9,7 +9,7 @@ The ERSSA package takes user supplied RNA\-seq differential expression dataset a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ERSSA.html
-Versions      
+Versions      1.0.0
 License       GPL-3 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-erssa/meta.yaml
 

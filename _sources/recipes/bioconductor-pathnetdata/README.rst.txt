@@ -9,7 +9,7 @@ This package contains the data employed in the vignette of the PathNet package. 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/PathNetData.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pathnetdata/meta.yaml
 

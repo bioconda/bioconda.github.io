@@ -9,7 +9,7 @@ Tools for the analysis of enrichment\-based epigenomic data.  Features include s
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Repitools.html
-Versions      1.26.0, 1.24.0, 1.22.0, 1.20.0
+Versions      1.28.0, 1.26.0, 1.24.0, 1.22.0, 1.20.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-repitools/meta.yaml
 

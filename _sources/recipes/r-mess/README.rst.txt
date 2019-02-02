@@ -9,7 +9,7 @@ A mixed collection of useful and semi\-useful diverse statistical functions\, so
 
 ============= ===========
 Home          https://github.com/ekstroem/MESS
-Versions      
+Versions      0.5.4
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-mess/meta.yaml
 

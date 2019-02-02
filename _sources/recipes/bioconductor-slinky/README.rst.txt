@@ -9,7 +9,7 @@ Wrappers to query the L1000 metadata available via the clue.io REST API as well 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/slinky.html
-Versions      
+Versions      1.0.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-slinky/meta.yaml
 

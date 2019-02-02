@@ -9,7 +9,7 @@ Package with metadata for genotyping Illumina 550k arrays using the \'crlmm\' pa
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/human550v3bCrlmm.html
-Versions      
+Versions      1.0.4
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-human550v3bcrlmm/meta.yaml
 

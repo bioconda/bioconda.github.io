@@ -9,7 +9,7 @@ This package is intended to transform SWATH data from the OpenSWATH software int
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SWATH2stats.html
-Versions      1.10.2, 1.8.1, 1.6.1
+Versions      1.12.1, 1.10.2, 1.8.1, 1.6.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-swath2stats/meta.yaml
 

@@ -9,7 +9,7 @@ The R453Plus1 Toolbox comprises useful functions for the analysis of data genera
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/R453Plus1Toolbox.html
-Versions      
+Versions      1.32.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-r453plus1toolbox/meta.yaml
 

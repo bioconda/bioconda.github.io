@@ -9,7 +9,7 @@ A statistical framework to examine the combinations of clones that co\-exist in 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneAccord.html
-Versions      
+Versions      1.0.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneaccord/meta.yaml
 

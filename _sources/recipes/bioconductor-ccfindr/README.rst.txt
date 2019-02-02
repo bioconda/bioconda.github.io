@@ -9,7 +9,7 @@ A collection of tools for cancer genomic data clustering analyses\, including th
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ccfindR.html
-Versions      
+Versions      1.2.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ccfindr/meta.yaml
 

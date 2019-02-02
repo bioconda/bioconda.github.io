@@ -9,7 +9,7 @@ Define a SummarizedExperiment and exploratory app for Ivy\-GAP glioblastoma imag
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ivygapSE.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ivygapse/meta.yaml
 

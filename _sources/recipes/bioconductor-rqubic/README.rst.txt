@@ -9,7 +9,7 @@ This package implements the QUBIC algorithm introduced by Li et al. for the qual
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/rqubic.html
-Versions      
+Versions      1.28.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rqubic/meta.yaml
 

@@ -9,7 +9,7 @@ Genome wide annotation for Arabidopsis\, primarily based on mapping using TAIR i
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/org.At.tair.db.html
-Versions      
+Versions      3.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-org.at.tair.db/meta.yaml
 

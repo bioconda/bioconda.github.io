@@ -9,7 +9,7 @@ Translating mature miRNA names to different miRBase versions\, sequence retrieva
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/miRNAmeConverter.html
-Versions      1.8.0, 1.6.0
+Versions      1.10.0, 1.8.0, 1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mirnameconverter/meta.yaml
 

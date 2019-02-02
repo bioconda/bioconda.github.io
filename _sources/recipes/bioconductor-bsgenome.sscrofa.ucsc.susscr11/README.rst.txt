@@ -9,7 +9,7 @@ Full genome sequences for Sus scrofa \(Pig\) as provided by UCSC \(susScr11\, Fe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Sscrofa.UCSC.susScr11.html
-Versions      
+Versions      1.4.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.sscrofa.ucsc.susscr11/meta.yaml
 

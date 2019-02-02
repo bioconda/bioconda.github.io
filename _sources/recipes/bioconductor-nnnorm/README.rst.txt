@@ -9,7 +9,7 @@ This package allows to detect and correct for spatial and intensity biases with 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/nnNorm.html
-Versions      2.44.0, 2.42.0, 2.40.0
+Versions      2.46.0, 2.44.0, 2.42.0, 2.40.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nnnorm/meta.yaml
 

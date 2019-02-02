@@ -9,7 +9,7 @@ Affymetrix Rat Genome 230 2.0 Array annotation data \(chip rat2302\) assembled u
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rat2302.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rat2302.db/meta.yaml
 

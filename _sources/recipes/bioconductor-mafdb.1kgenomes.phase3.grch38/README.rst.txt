@@ -9,7 +9,7 @@ Store minor allele frequency data from the Phase 3 of the 1000 Genomes Project f
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.1Kgenomes.phase3.GRCh38.html
-Versions      
+Versions      3.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mafdb.1kgenomes.phase3.grch38/meta.yaml
 

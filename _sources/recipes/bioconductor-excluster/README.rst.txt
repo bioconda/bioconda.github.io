@@ -9,7 +9,7 @@ ExCluster flattens Ensembl and GENCODE GTF files into GFF files\, which are used
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ExCluster.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-excluster/meta.yaml
 

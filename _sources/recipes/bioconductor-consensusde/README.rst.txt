@@ -9,7 +9,7 @@ This package allows users to perform DE analysis using multiple algorithms. It s
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/consensusDE.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-consensusde/meta.yaml
 

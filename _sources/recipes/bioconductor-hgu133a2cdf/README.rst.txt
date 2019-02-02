@@ -9,7 +9,7 @@ A package containing an environment representing the HG\-U133A\_2.cdf file.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a2cdf.html
-Versions      
+Versions      2.18.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133a2cdf/meta.yaml
 

@@ -9,7 +9,7 @@ The classification protocol starts with a feature selection step and continues w
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/cancerclass.html
-Versions      
+Versions      1.26.0
 License       GPL 3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cancerclass/meta.yaml
 

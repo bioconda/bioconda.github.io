@@ -9,7 +9,7 @@ Interactive R package with an intuitive Shiny\-based graphical interface for alt
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/psichomics.html
-Versions      
+Versions      1.8.1
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-psichomics/meta.yaml
 

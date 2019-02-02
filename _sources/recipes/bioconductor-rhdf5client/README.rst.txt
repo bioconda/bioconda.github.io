@@ -9,7 +9,7 @@ Provides functionality for reading data from h5serv server from within R.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/rhdf5client.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rhdf5client/meta.yaml
 

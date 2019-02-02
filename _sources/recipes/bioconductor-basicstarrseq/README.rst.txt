@@ -9,7 +9,7 @@ Basic peak calling on STARR\-seq data based on a method introduced in \"Genome\-
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BasicSTARRseq.html
-Versions      
+Versions      1.10.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-basicstarrseq/meta.yaml
 

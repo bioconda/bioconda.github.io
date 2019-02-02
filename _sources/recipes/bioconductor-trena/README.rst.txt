@@ -9,7 +9,7 @@ Methods for reconstructing transcriptional regulatory networks\, especially in s
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/trena.html
-Versions      
+Versions      1.4.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-trena/meta.yaml
 

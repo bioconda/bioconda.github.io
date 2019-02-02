@@ -9,7 +9,7 @@ This package is designed to facilitate comparison of automated gating methods ag
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowWorkspace.html
-Versions      3.28.2, 3.26.2, 3.24.4
+Versions      3.30.1, 3.28.2, 3.26.2, 3.24.4
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowworkspace/meta.yaml
 

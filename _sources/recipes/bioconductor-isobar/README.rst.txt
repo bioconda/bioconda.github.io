@@ -9,7 +9,7 @@ isobar provides methods for preprocessing\, normalization\, and report generatio
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/isobar.html
-Versions      
+Versions      1.28.0
 License       LGPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-isobar/meta.yaml
 

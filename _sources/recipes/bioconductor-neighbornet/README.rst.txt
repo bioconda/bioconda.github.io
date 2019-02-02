@@ -9,7 +9,7 @@ Identify the putative mechanism explaining the active interactions between genes
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/NeighborNet.html
-Versions      
+Versions      1.0.0
 License       CC BY-NC-ND 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-neighbornet/meta.yaml
 

@@ -9,7 +9,7 @@ MWASTools provides a complete pipeline to perform metabolome\-wide association s
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MWASTools.html
-Versions      1.4.0, 1.2.0
+Versions      1.6.0, 1.4.0, 1.2.0
 License       CC BY-NC-ND 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mwastools/meta.yaml
 

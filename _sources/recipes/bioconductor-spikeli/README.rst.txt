@@ -9,7 +9,7 @@ SpikeLI is a package that performs the analysis of the Affymetrix spike\-in data
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/spikeLI.html
-Versions      2.40.0, 2.38.0, 2.36.0
+Versions      2.42.0, 2.40.0, 2.38.0, 2.36.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spikeli/meta.yaml
 

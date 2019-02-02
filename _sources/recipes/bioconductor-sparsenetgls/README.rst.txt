@@ -9,7 +9,7 @@ The package provides methods of combining the graph structure learning and gener
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/sparsenetgls.html
-Versions      
+Versions      1.0.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sparsenetgls/meta.yaml
 

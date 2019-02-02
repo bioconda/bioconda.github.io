@@ -9,7 +9,7 @@ Full genome sequences for Canis lupus familiaris \(Dog\) as provided by UCSC \(c
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Cfamiliaris.UCSC.canFam2.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.cfamiliaris.ucsc.canfam2/meta.yaml
 

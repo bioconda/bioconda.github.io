@@ -9,7 +9,7 @@ This package was automatically created by package matchprobes version 1.4.0. The
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/tinesath1probe.html
-Versions      
+Versions      1.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tinesath1probe/meta.yaml
 

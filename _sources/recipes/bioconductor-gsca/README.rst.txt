@@ -9,7 +9,7 @@ GSCA takes as input several lists of activated and repressed genes. GSCA then se
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GSCA.html
-Versions      2.10.0, 2.8.0
+Versions      2.12.0, 2.10.0, 2.8.0
 License       GPL(>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gsca/meta.yaml
 

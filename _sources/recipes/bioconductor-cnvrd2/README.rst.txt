@@ -9,7 +9,7 @@ CNVrd2 uses next\-generation sequencing data to measure human gene copy number f
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CNVrd2.html
-Versions      
+Versions      1.20.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cnvrd2/meta.yaml
 

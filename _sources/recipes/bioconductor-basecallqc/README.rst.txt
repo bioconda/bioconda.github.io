@@ -9,7 +9,7 @@ The basecallQC package provides tools to work with Illumina bcl2Fastq \(versions
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/basecallQC.html
-Versions      1.4.0, 1.2.0
+Versions      1.6.0, 1.4.0, 1.2.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-basecallqc/meta.yaml
 

@@ -9,7 +9,7 @@ It is designed as an integrated package for genetic data analysis of both popula
 
 ============= ===========
 Home          https://jinghuazhao.github.io
-Versions      
+Versions      1.1_22
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-gap/meta.yaml
 

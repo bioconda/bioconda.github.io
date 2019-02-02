@@ -9,7 +9,7 @@ This Package utilizes a Semi\-parametric Differential Abundance analysis \(SDA\)
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/SDAMS.html
-Versions      
+Versions      1.2.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sdams/meta.yaml
 

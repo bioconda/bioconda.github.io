@@ -9,7 +9,7 @@ Simple statistical identification of contaminating sequence features in marker\-
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/decontam.html
-Versions      1.0.0
+Versions      1.2.1, 1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-decontam/meta.yaml
 

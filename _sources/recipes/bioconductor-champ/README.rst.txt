@@ -9,7 +9,7 @@ The package includes quality control metrics\, a selection of normalization meth
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChAMP.html
-Versions      
+Versions      2.12.2
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-champ/meta.yaml
 

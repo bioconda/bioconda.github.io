@@ -9,7 +9,7 @@ Fragmentation spectral libraries and data to test the msPurity package
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/msPurityData.html
-Versions      1.8.0
+Versions      1.10.0, 1.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mspuritydata/meta.yaml
 

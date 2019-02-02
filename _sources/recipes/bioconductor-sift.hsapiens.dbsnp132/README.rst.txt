@@ -9,7 +9,7 @@ Database of SIFT predictions for Homo sapiens dbSNP build 132
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/SIFT.Hsapiens.dbSNP132.html
-Versions      
+Versions      1.0.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sift.hsapiens.dbsnp132/meta.yaml
 

@@ -9,7 +9,7 @@ makeFeatureDbFromUCSC cannot cope with this track\, hence a package
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/FDb.UCSC.snp135common.hg19.html
-Versions      
+Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fdb.ucsc.snp135common.hg19/meta.yaml
 

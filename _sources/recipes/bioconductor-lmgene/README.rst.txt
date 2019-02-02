@@ -9,7 +9,7 @@ LMGene package for analysis of microarray data using a linear model and glog dat
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/LMGene.html
-Versions      2.36.0, 2.34.0
+Versions      2.38.0, 2.36.0, 2.34.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-lmgene/meta.yaml
 

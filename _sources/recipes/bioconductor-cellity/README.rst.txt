@@ -9,7 +9,7 @@ A support vector machine approach to identifying and filtering low quality cells
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/cellity.html
-Versions      
+Versions      1.10.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cellity/meta.yaml
 

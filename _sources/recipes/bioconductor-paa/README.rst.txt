@@ -9,7 +9,7 @@ PAA imports single color \(protein\) microarray data that has been saved in gpr 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PAA.html
-Versions      
+Versions      1.16.0
 License       BSD_3_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-paa/meta.yaml
 

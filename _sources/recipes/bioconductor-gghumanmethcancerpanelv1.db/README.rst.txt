@@ -9,7 +9,7 @@ Illumina Golden Gate Human Methylation Cancer Panel Version 1 annotation data \(
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/GGHumanMethCancerPanelv1.db.html
-Versions      
+Versions      1.4.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gghumanmethcancerpanelv1.db/meta.yaml
 

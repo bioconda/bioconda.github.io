@@ -9,7 +9,7 @@ A complete toolset for methylome\-wide association studies \(MWAS\). It is speci
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ramwas.html
-Versions      
+Versions      1.6.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ramwas/meta.yaml
 

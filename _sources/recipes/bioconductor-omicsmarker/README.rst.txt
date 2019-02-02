@@ -9,7 +9,7 @@ Tools for classification and feature selection for \'omics\' level datasets.  It
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/OmicsMarkeR.html
-Versions      
+Versions      1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omicsmarker/meta.yaml
 

@@ -9,7 +9,7 @@ Stepwise normalization functions for cDNA microarray data.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/stepNorm.html
-Versions      1.52.0, 1.50.0, 1.48.0
+Versions      1.54.0, 1.52.0, 1.50.0, 1.48.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-stepnorm/meta.yaml
 

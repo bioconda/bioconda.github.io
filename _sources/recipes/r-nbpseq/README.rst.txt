@@ -9,7 +9,7 @@ Negative Binomial \(NB\) models for two\-group comparisons and regression infere
 
 ============= ===========
 Home          https://CRAN.R-project.org/package=NBPSeq
-Versions      
+Versions      0.3.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-nbpseq/meta.yaml
 

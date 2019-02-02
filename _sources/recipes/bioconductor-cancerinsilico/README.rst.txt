@@ -9,7 +9,7 @@ The CancerInSilico package provides an R interface for running mathematical mode
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/CancerInSilico.html
-Versions      2.0.0, 1.4.0
+Versions      2.2.1, 2.2.0, 2.0.0, 1.4.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-cancerinsilico/meta.yaml
 

@@ -9,7 +9,7 @@ The \'Rariant\' package identifies single nucleotide variants from sequencing da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rariant.html
-Versions      1.16.0, 1.14.0
+Versions      1.18.0, 1.16.0, 1.14.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rariant/meta.yaml
 

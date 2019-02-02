@@ -9,7 +9,7 @@ Illumina HumanWGv2 annotation data \(chip illuminaHumanv2BeadID\) assembled usin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/illuminaHumanv2BeadID.db.html
-Versions      
+Versions      1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanv2beadid.db/meta.yaml
 

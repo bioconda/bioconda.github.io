@@ -9,7 +9,7 @@ Bioconductor has a rich ecosystem of metadata around packages\, usage\, and buil
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BiocPkgTools.html
-Versions      
+Versions      1.0.2
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-biocpkgtools/meta.yaml
 

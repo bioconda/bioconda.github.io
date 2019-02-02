@@ -9,7 +9,7 @@ This package provides a dummy regulatory network and ChIP\-Seq dataset for runni
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/vulcandata.html
-Versions      
+Versions      1.4.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vulcandata/meta.yaml
 

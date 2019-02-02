@@ -9,7 +9,7 @@ This package has been developed to evaluate cellular engineering processes for d
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/eegc.html
-Versions      
+Versions      1.8.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-eegc/meta.yaml
 

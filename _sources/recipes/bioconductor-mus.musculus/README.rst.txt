@@ -9,7 +9,7 @@ Contains the Mus.musculus object to access data from several related annotation 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Mus.musculus.html
-Versions      
+Versions      1.3.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mus.musculus/meta.yaml
 

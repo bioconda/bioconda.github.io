@@ -9,7 +9,7 @@ Data analysis\, linear models and differential expression for microarray data.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/limma.html
-Versions      3.36.5, 3.34.9, 3.34.6, 3.34.1, 3.34.0, 3.32.10, 3.30.13, 3.29.0, 3.28.21, 3.28.10, 3.28.6, 3.28.2, 3.27.4, 3.26.9, 3.26.7, 3.26.3, 3.26.1, 3.26.0, 3.24.15
+Versions      3.38.3, 3.36.5, 3.34.9, 3.34.6, 3.34.1, 3.34.0, 3.32.10, 3.30.13, 3.29.0, 3.28.21, 3.28.10, 3.28.6, 3.28.2, 3.27.4, 3.26.9, 3.26.7, 3.26.3, 3.26.1, 3.26.0, 3.24.15
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-limma/meta.yaml
 

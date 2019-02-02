@@ -9,7 +9,7 @@ A set of annotation maps describing the entire Gene Ontology assembled using dat
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/GO.db.html
-Versions      3.6.0, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.0, 3.2.2
+Versions      3.7.0, 3.6.0, 3.5.0, 3.4.2, 3.4.1, 3.4.0, 3.3.0, 3.2.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-go.db/meta.yaml
 

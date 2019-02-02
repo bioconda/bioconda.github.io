@@ -9,7 +9,7 @@ This package implements a benchmarking of several gene network inference algorit
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/netbenchmark.html
-Versions      
+Versions      1.14.0
 License       CC BY-NC-SA 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-netbenchmark/meta.yaml
 

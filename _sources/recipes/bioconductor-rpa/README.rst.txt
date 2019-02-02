@@ -9,7 +9,7 @@ Probabilistic analysis of probe reliability and differential gene expression on 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/RPA.html
-Versions      1.36.0, 1.34.0, 1.32.0
+Versions      1.38.0, 1.36.0, 1.34.0, 1.32.0
 License       BSD_2_clause + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rpa/meta.yaml
 

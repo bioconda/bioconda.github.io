@@ -9,7 +9,7 @@ hiReadsProcessor contains set of functions which allow users to process LM\-PCR 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/hiReadsProcessor.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hireadsprocessor/meta.yaml
 

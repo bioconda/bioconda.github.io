@@ -9,7 +9,7 @@ Inference of protein activity from gene expression data\, including the VIPER an
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/viper.html
-Versions      1.14.0, 1.12.0, 1.10.0
+Versions      1.16.0, 1.14.0, 1.12.0, 1.10.0
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-viper/meta.yaml
 

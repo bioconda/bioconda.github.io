@@ -9,7 +9,7 @@ An extension of Bayesian Model Averaging \(BMA\) for network construction using 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/networkBMA.html
-Versions      2.20.0, 2.18.0
+Versions      2.22.0, 2.20.0, 2.18.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-networkbma/meta.yaml
 

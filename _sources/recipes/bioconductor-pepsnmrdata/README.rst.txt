@@ -9,7 +9,7 @@ This package contains all the datasets used in the PepsNMR package.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/PepsNMRData.html
-Versions      
+Versions      1.0.0
 License       GPL-2 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pepsnmrdata/meta.yaml
 

@@ -9,7 +9,7 @@ Recently a very large collection of single\-cell RNA\-seq \(scRNA\-seq\) dataset
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/scfind.html
-Versions      
+Versions      1.4.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scfind/meta.yaml
 

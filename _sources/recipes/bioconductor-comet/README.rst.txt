@@ -9,7 +9,7 @@ Visualisation of EWAS results in a genomic region. In addition to phenotype\-ass
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/coMET.html
-Versions      
+Versions      1.14.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-comet/meta.yaml
 

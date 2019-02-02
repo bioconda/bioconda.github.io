@@ -9,7 +9,7 @@ Supplying gene expression data sets for the demos of the biclustering method \"F
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/fabiaData.html
-Versions      
+Versions      1.20.0
 License       LGPL (>= 2.1)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fabiadata/meta.yaml
 

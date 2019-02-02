@@ -9,7 +9,7 @@ Example data for the topdownr package generated on a Thermo Orbitrap Fusion Lumo
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/topdownrdata.html
-Versions      
+Versions      1.4.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-topdownrdata/meta.yaml
 

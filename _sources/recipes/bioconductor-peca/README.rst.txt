@@ -9,7 +9,7 @@ Calculates Probe\-level Expression Change Averages \(PECA\) to identify differen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PECA.html
-Versions      1.16.0, 1.14.0, 1.12.0
+Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-peca/meta.yaml
 

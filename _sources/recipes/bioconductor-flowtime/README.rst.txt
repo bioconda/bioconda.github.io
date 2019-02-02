@@ -9,7 +9,7 @@ This package was developed for analysis of both dynamic and steady state experim
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/flowTime.html
-Versions      
+Versions      1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-flowtime/meta.yaml
 

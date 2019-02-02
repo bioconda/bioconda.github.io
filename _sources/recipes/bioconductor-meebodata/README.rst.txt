@@ -9,7 +9,7 @@ R objects describing the MEEBO set.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/MEEBOdata.html
-Versions      
+Versions      1.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-meebodata/meta.yaml
 

@@ -9,7 +9,7 @@ Re\-analysis of human gene expression data generated on the Affymetrix HG U133Pl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HumanAffyData.html
-Versions      
+Versions      1.8.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-humanaffydata/meta.yaml
 

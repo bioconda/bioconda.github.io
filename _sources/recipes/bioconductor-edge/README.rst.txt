@@ -9,7 +9,7 @@ The edge package implements methods for carrying out differential expression ana
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/edge.html
-Versions      
+Versions      2.14.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-edge/meta.yaml
 

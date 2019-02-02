@@ -9,7 +9,7 @@ Metagenome annotation package with for the Ribosomal Database Project 16S rRNA D
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ribosomaldatabaseproject11.5MgDb.html
-Versions      
+Versions      1.00.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ribosomaldatabaseproject11.5mgdb/meta.yaml
 

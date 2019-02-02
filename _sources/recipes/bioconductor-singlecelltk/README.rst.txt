@@ -9,7 +9,7 @@ Run common single cell analysis directly through your browser including differen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/singleCellTK.html
-Versions      
+Versions      1.2.3
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-singlecelltk/meta.yaml
 

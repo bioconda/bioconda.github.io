@@ -9,7 +9,7 @@ CAGE \(Cap Analysis Gene Expression\) data from FANTOM3 and FANTOM4 projects pro
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/FANTOM3and4CAGE.html
-Versions      
+Versions      1.18.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fantom3and4cage/meta.yaml
 

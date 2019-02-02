@@ -9,7 +9,7 @@ bioconductor-bsgenome.hsapiens.1000genomes.hs37d5
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Hsapiens.1000genomes.hs37d5.html
-Versions      
+Versions      0.99.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.hsapiens.1000genomes.hs37d5/meta.yaml
 

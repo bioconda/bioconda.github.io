@@ -9,7 +9,7 @@ Provides a convenient API for accessing data sets within ImmuneSpace \(www.immun
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ImmuneSpaceR.html
-Versions      
+Versions      1.10.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-immunespacer/meta.yaml
 

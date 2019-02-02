@@ -9,7 +9,7 @@ Affymetrix rta10 annotation data \(chip rta10transcriptcluster\) assembled using
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/rta10transcriptcluster.db.html
-Versions      
+Versions      8.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rta10transcriptcluster.db/meta.yaml
 

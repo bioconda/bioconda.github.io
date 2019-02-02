@@ -9,7 +9,7 @@ Tools for helping process short read data for chipseq experiments
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/chipseq.html
-Versions      1.30.0, 1.28.0, 1.26.1, 1.24.0
+Versions      1.32.0, 1.30.0, 1.28.0, 1.26.1, 1.24.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chipseq/meta.yaml
 

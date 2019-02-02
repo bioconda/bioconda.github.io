@@ -9,7 +9,7 @@ FHCRC Genomics Shared Resource Mu22v3 Annotation Data \(Mu22v3\) assembled using
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Mu22v3.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mu22v3.db/meta.yaml
 

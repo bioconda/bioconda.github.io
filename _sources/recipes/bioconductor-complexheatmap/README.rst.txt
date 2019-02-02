@@ -9,7 +9,7 @@ Complex heatmaps are efficient to visualize associations between different sourc
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ComplexHeatmap.html
-Versions      1.18.1, 1.17.1, 1.14.0, 1.6.0
+Versions      1.20.0, 1.18.1, 1.17.1, 1.14.0, 1.6.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-complexheatmap/meta.yaml
 

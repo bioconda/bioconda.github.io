@@ -9,7 +9,7 @@ Affymetrix hugene10 annotation data \(chip hugene10stprobeset\) assembled using 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hugene10stprobeset.db.html
-Versions      
+Versions      8.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hugene10stprobeset.db/meta.yaml
 

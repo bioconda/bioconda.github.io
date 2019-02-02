@@ -9,7 +9,7 @@ ATAC\-seq\, an assay for Transposase\-Accessible Chromatin using sequencing\, is
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ATACseqQC.html
-Versions      1.4.3, 1.2.0, 1.0.5
+Versions      1.6.4, 1.4.3, 1.2.0, 1.0.5
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-atacseqqc/meta.yaml
 

@@ -9,7 +9,7 @@ This package translates microarray expression data into metadata of reduced dime
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/oposSOM.html
-Versions      
+Versions      2.0.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-opossom/meta.yaml
 

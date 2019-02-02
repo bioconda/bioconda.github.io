@@ -9,7 +9,7 @@ Tools to integrate\, annotate\, and link phenotypes to cellular organizational u
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/PCpheno.html
-Versions      1.42.0, 1.40.0
+Versions      1.44.0, 1.42.0, 1.40.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pcpheno/meta.yaml
 

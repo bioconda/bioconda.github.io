@@ -9,7 +9,7 @@ This is a collection of 24 data sets for which the phenotype is a disease with a
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/KEGGdzPathwaysGEO.html
-Versions      1.18.0, 1.16.0
+Versions      1.20.0, 1.18.0, 1.16.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-keggdzpathwaysgeo/meta.yaml
 

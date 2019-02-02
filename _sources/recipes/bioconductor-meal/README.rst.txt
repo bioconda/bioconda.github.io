@@ -9,7 +9,7 @@ Package to integrate methylation and expression data. It can also perform methyl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MEAL.html
-Versions      
+Versions      1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-meal/meta.yaml
 

@@ -9,7 +9,7 @@ This package contains a collection of functions for the visualisation and the st
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/DAPAR.html
-Versions      
+Versions      1.14.4
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-dapar/meta.yaml
 

@@ -9,7 +9,7 @@ Gene expression data from the breast cancer study published by Schmidt et al. in
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/breastCancerMAINZ.html
-Versions      
+Versions      1.20.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-breastcancermainz/meta.yaml
 

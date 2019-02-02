@@ -9,7 +9,7 @@ Oryza sativa full genome as provided by MSU \(MSU7 Genome Release\) and stored i
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Osativa.MSU.MSU7.html
-Versions      
+Versions      0.99.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.osativa.msu.msu7/meta.yaml
 

@@ -9,7 +9,7 @@ An intuitive R package simplifies network analyses output from multiplexed high\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/XINA.html
-Versions      
+Versions      1.0.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xina/meta.yaml
 

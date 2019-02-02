@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix Mapping50K\_Hind240
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.mapping50k.hind240.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.mapping50k.hind240/meta.yaml
 

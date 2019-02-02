@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix Clariom\_S\_Mouse\_HT
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.clariom.s.mouse.ht.html
-Versions      
+Versions      3.14.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.clariom.s.mouse.ht/meta.yaml
 

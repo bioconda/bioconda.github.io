@@ -9,7 +9,7 @@ This package was automatically created by package AnnotationForge version 1.11.2
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugomm1a520177probe.html
-Versions      
+Versions      3.4.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nugomm1a520177probe/meta.yaml
 

@@ -9,7 +9,7 @@ A package containing metadata for Hs6UG171 arrays assembled using data from publ
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/Hs6UG171.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hs6ug171.db/meta.yaml
 

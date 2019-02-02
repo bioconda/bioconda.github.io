@@ -9,7 +9,7 @@ Identification of genetic variants affecting alternative splicing.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IVAS.html
-Versions      2.0.0, 1.98.0
+Versions      2.2.0, 2.0.0, 1.98.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ivas/meta.yaml
 

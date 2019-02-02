@@ -9,7 +9,7 @@ Current gene set enrichment methods rely upon permutations for inference.  These
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/npGSEA.html
-Versions      1.16.0, 1.14.0, 1.12.0
+Versions      1.18.0, 1.16.0, 1.14.0, 1.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-npgsea/meta.yaml
 

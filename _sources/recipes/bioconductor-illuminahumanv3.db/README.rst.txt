@@ -9,7 +9,7 @@ Illumina HumanHT12v3 annotation data \(chip illuminaHumanv3\) assembled using da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/illuminaHumanv3.db.html
-Versions      
+Versions      1.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanv3.db/meta.yaml
 

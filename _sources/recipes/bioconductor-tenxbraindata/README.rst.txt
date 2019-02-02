@@ -9,7 +9,7 @@ Single\-cell RNA\-seq data for 1.3 million brain cells from E18 mice\, generated
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/TENxBrainData.html
-Versions      
+Versions      1.2.0
 License       CC BY 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tenxbraindata/meta.yaml
 

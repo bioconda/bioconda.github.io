@@ -9,7 +9,7 @@ Affymetrix nugohs1a520180 annotation data \(chip nugohs1a520180\) assembled usin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/nugohs1a520180.db.html
-Versions      
+Versions      3.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-nugohs1a520180.db/meta.yaml
 

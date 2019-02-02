@@ -9,7 +9,7 @@ Enriched heatmap is a special type of heatmap which visualizes the enrichment of
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/EnrichedHeatmap.html
-Versions      
+Versions      1.12.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-enrichedheatmap/meta.yaml
 

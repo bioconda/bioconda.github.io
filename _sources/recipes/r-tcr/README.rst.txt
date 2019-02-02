@@ -9,7 +9,7 @@ Platform for the advanced analysis of T cell receptor and Immunoglobulin reperto
 
 ============= ===========
 Home          http://imminfo.github.io/tcr/
-Versions      
+Versions      2.2.2
 License       Apache License 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//r-tcr/meta.yaml
 

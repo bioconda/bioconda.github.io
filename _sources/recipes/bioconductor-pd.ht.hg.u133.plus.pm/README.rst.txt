@@ -9,7 +9,7 @@ Platform Design Info for The Manufacturer\'s Name HT\_HG\-U133\_Plus\_PM
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.ht.hg.u133.plus.pm.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.ht.hg.u133.plus.pm/meta.yaml
 

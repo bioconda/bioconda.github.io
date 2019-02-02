@@ -9,7 +9,7 @@ An annotation package for Illumina\'s EPIC methylation arrays.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/IlluminaHumanMethylation27kanno.ilmn12.hg19.html
-Versions      
+Versions      0.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminahumanmethylation27kanno.ilmn12.hg19/meta.yaml
 

@@ -9,7 +9,7 @@ This package produces metagene plots to compare the behavior of DNA\-interacting
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/metagene.html
-Versions      
+Versions      2.14.0
 License       Artistic-2.0 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metagene/meta.yaml
 

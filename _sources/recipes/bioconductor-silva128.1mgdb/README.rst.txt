@@ -9,7 +9,7 @@ Metagenome annotation package with for the SILVA SSR rRNA database release 128.1
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/silva128.1MgDb.html
-Versions      
+Versions      1.00.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-silva128.1mgdb/meta.yaml
 

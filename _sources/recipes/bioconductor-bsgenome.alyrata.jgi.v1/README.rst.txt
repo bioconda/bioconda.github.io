@@ -9,7 +9,7 @@ Arabidopsis lyrata 8x Release \[project ID 4002920\] as provided by JGI \( snaps
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Alyrata.JGI.v1.html
-Versions      
+Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.alyrata.jgi.v1/meta.yaml
 

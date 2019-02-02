@@ -9,7 +9,7 @@ Tools for computational epigenomics developed for the analysis\, integration and
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/compEpiTools.html
-Versions      1.14.1, 1.12.0, 1.10.0
+Versions      1.16.0, 1.14.1, 1.12.0, 1.10.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-compepitools/meta.yaml
 

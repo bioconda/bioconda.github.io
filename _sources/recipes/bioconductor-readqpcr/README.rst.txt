@@ -9,7 +9,7 @@ The package provides functions to read raw RT\-qPCR data of different platforms.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ReadqPCR.html
-Versions      1.26.0, 1.24.0, 1.22.0
+Versions      1.28.0, 1.26.0, 1.24.0, 1.22.0
 License       LGPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-readqpcr/meta.yaml
 

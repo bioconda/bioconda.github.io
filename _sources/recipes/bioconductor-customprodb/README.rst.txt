@@ -9,7 +9,7 @@ Database search is the most widely used approach for peptide and protein identif
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/customProDB.html
-Versions      1.14.0
+Versions      1.22.0, 1.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-customprodb/meta.yaml
 

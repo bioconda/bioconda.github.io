@@ -9,7 +9,7 @@ Store UCSC phastCons conservation scores for the human genome \(hg38\) calculate
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/phastCons7way.UCSC.hg38.html
-Versions      
+Versions      3.7.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-phastcons7way.ucsc.hg38/meta.yaml
 

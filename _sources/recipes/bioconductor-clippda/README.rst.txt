@@ -9,7 +9,7 @@ Methods for the nalysis of data from clinical proteomic profiling studies. The f
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/clippda.html
-Versions      
+Versions      1.32.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-clippda/meta.yaml
 

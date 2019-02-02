@@ -9,7 +9,7 @@ This package provides classes for holding and manipulating Illumina methylation 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/methylumi.html
-Versions      2.26.0, 2.24.1, 2.22.0
+Versions      2.28.0, 2.26.0, 2.24.1, 2.22.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-methylumi/meta.yaml
 

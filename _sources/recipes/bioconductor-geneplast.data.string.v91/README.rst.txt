@@ -9,7 +9,7 @@ The package geneplast.data.string.v91 contains input data used in the analysis p
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/geneplast.data.string.v91.html
-Versions      
+Versions      0.99.6
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneplast.data.string.v91/meta.yaml
 

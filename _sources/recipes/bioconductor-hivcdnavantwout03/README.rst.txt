@@ -9,7 +9,7 @@ The expression levels of approximately 4600 cellular RNA transcripts were assess
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/HIVcDNAvantWout03.html
-Versions      
+Versions      1.22.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hivcdnavantwout03/meta.yaml
 

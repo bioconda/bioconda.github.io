@@ -9,7 +9,7 @@ Affymetrix HT Human Genome U133 Array Plate Set annotation data \(chip hthgu133b
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hthgu133b.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hthgu133b.db/meta.yaml
 

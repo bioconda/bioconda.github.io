@@ -9,7 +9,7 @@ Agilent Mouse annotation data \(chip mgug4121a\) assembled using data from publi
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/mgug4121a.db.html
-Versions      
+Versions      3.2.3
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mgug4121a.db/meta.yaml
 

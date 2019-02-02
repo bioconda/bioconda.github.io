@@ -9,7 +9,7 @@ We provide intuitive maps to visualize\, analyze and compare the association bet
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/chroGPS.html
-Versions      
+Versions      2.0.1
 License       GPL (>=2.14)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chrogps/meta.yaml
 

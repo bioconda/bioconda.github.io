@@ -9,7 +9,7 @@ Positive Ionization FIA\-HRMS data of human plasma spiked with a pool of 40 comp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/plasFIA.html
-Versions      
+Versions      1.10.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-plasfia/meta.yaml
 

@@ -9,7 +9,7 @@ The SEQC\/MAQC\-III Consortium has produced benchmark RNA\-seq data for the asse
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/seqc.html
-Versions      
+Versions      1.16.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqc/meta.yaml
 

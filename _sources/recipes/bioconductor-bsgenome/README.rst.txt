@@ -9,7 +9,7 @@ Infrastructure shared by all the Biostrings\-based genome data packages.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BSgenome.html
-Versions      1.48.0, 1.46.0, 1.44.2, 1.42.0, 1.40.1, 1.38.0
+Versions      1.50.0, 1.48.0, 1.46.0, 1.44.2, 1.42.0, 1.40.1, 1.38.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome/meta.yaml
 

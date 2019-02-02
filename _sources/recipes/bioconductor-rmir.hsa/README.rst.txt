@@ -9,7 +9,7 @@ Various databases of microRNA Targets
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/RmiR.hsa.html
-Versions      
+Versions      1.0.5
 License       The Artistic License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rmir.hsa/meta.yaml
 

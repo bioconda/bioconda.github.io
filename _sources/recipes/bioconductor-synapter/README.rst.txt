@@ -9,7 +9,7 @@ The synapter package provides functionality to reanalyse label\-free proteomics 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/synapter.html
-Versions      2.2.0
+Versions      2.6.1, 2.2.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-synapter/meta.yaml
 

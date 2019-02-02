@@ -9,7 +9,7 @@ software and data for analyses in genetics of gene expression and\/or DNA methyl
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GGtools.html
-Versions      5.16.0, 5.14.0
+Versions      5.18.0, 5.16.0, 5.14.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ggtools/meta.yaml
 

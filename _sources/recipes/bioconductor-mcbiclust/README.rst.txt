@@ -9,7 +9,7 @@ Custom made algorithm and associated methods for finding\, visualising and analy
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MCbiclust.html
-Versions      
+Versions      1.6.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mcbiclust/meta.yaml
 

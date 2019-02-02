@@ -9,7 +9,7 @@ Performs hybrid multiple testing that incorporates method selection and assumpti
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/HybridMTest.html
-Versions      1.24.0, 1.22.0
+Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL Version 2 or later
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hybridmtest/meta.yaml
 

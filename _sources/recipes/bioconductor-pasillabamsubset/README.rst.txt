@@ -9,7 +9,7 @@ Subset of BAM files untreated1.bam \(single\-end reads\) and untreated3.bam \(pa
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/pasillaBamSubset.html
-Versions      
+Versions      0.20.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pasillabamsubset/meta.yaml
 

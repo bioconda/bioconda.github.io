@@ -9,7 +9,7 @@ Provides transcript expression and bi\-allelic genotypes corresponding to the ch
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/GeuvadisTranscriptExpr.html
-Versions      
+Versions      1.10.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geuvadistranscriptexpr/meta.yaml
 

@@ -9,7 +9,7 @@ TargetScan miRNA target predictions for mouse assembled using data from the Targ
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/targetscan.Mm.eg.db.html
-Versions      
+Versions      0.6.1
 License       file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-targetscan.mm.eg.db/meta.yaml
 

@@ -9,7 +9,7 @@ omicRexposome systematizes the association evaluation between exposures and omic
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/omicRexposome.html
-Versions      
+Versions      1.4.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omicrexposome/meta.yaml
 

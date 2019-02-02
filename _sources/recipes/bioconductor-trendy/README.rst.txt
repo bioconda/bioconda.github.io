@@ -9,7 +9,7 @@ Trendy implements segmented \(or breakpoint\) regression models to estimate brea
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Trendy.html
-Versions      
+Versions      1.4.4
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-trendy/meta.yaml
 

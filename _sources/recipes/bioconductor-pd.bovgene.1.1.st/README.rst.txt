@@ -9,7 +9,7 @@ Platform Design Info for Affymetrix BovGene\-1\_1\-st
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/pd.bovgene.1.1.st.html
-Versions      
+Versions      3.12.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pd.bovgene.1.1.st/meta.yaml
 

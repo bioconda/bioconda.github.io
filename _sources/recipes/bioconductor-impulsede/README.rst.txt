@@ -9,7 +9,7 @@ ImpulseDE is suited to capture single impulse\-like patterns in high throughput 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ImpulseDE.html
-Versions      1.6.0, 1.4.0
+Versions      1.8.0, 1.6.0, 1.4.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-impulsede/meta.yaml
 

@@ -9,7 +9,7 @@ Extracted data from 369 TCGA Head and Neck Cancer DNA methylation samples. The e
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/shinyMethylData.html
-Versions      
+Versions      1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-shinymethyldata/meta.yaml
 

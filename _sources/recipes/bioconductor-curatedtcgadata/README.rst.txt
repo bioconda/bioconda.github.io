@@ -9,7 +9,7 @@ This package provides publicly available data from The Cancer Genome Atlas \(TCG
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedTCGAData.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-curatedtcgadata/meta.yaml
 

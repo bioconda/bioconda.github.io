@@ -9,7 +9,7 @@ Functions to analyze methylation data can be found here. Some functions are rele
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/scmeth.html
-Versions      
+Versions      1.2.1
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-scmeth/meta.yaml
 

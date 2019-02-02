@@ -9,7 +9,7 @@ Provides a framework for allelic specific expression investigation using RNA\-se
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/AllelicImbalance.html
-Versions      
+Versions      1.20.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-allelicimbalance/meta.yaml
 

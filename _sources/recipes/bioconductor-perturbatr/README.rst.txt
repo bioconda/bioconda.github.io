@@ -9,7 +9,7 @@ perturbatr does stage\-wise analysis of large\-scale genetic perturbation screen
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/perturbatr.html
-Versions      
+Versions      1.2.1
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-perturbatr/meta.yaml
 

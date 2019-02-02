@@ -9,7 +9,7 @@ This package provides a RangedSummarizedExperiment object of read counts in gene
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/fission.html
-Versions      
+Versions      1.2.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fission/meta.yaml
 

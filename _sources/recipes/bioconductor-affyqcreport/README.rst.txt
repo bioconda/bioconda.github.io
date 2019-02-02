@@ -9,7 +9,7 @@ This package creates a QC report for an AffyBatch object. The report is intended
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/affyQCReport.html
-Versions      
+Versions      1.60.0
 License       LGPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-affyqcreport/meta.yaml
 

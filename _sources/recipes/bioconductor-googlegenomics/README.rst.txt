@@ -9,7 +9,7 @@ Provides an R package to interact with the Google Genomics API.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GoogleGenomics.html
-Versions      
+Versions      2.4.0
 License       Apache License (== 2.0) | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-googlegenomics/meta.yaml
 

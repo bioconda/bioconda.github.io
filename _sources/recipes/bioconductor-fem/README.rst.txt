@@ -9,7 +9,7 @@ The FEM package performs a systems\-level integrative analysis of DNA methylatio
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/FEM.html
-Versions      
+Versions      3.10.0
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fem/meta.yaml
 

@@ -9,7 +9,7 @@ Full genome sequences for Apis mellifera \(Honey Bee\) as provided by UCSC \(api
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Amellifera.UCSC.apiMel2.html
-Versions      
+Versions      1.4.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.amellifera.ucsc.apimel2/meta.yaml
 

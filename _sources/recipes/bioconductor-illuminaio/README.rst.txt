@@ -9,7 +9,7 @@ Tools for parsing Illumina\'s microarray output files\, including IDAT.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/illuminaio.html
-Versions      0.22.0, 0.20.0, 0.18.0, 0.14.0, 0.12.0
+Versions      0.24.0, 0.22.0, 0.20.0, 0.18.0, 0.14.0, 0.12.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-illuminaio/meta.yaml
 

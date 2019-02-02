@@ -9,7 +9,7 @@ The seqCAT package uses variant calling data \(in the form of VCF files\) from h
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/seqCAT.html
-Versions      
+Versions      1.4.0
 License       MIT + file LICENCE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seqcat/meta.yaml
 

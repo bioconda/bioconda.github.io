@@ -9,7 +9,7 @@ Base annotation databases for E coli K12 Strain\, intended ONLY to be used by An
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/ecoliK12.db0.html
-Versions      
+Versions      3.7.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ecolik12.db0/meta.yaml
 

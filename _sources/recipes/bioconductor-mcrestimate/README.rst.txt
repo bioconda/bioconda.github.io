@@ -9,7 +9,7 @@ This package includes a function for combining preprocessing and classification 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MCRestimate.html
-Versions      2.36.0, 2.34.0
+Versions      2.38.0, 2.36.0, 2.34.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mcrestimate/meta.yaml
 

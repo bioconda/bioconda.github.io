@@ -9,7 +9,7 @@ The NetSAM \(Network Seriation and Modularization\) package takes an edge\-list 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/NetSAM.html
-Versions      
+Versions      1.22.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-netsam/meta.yaml
 

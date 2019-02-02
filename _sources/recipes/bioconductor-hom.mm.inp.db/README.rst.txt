@@ -9,7 +9,7 @@ Homology information for Mus musculus from Inparanoid assembled using data from 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hom.Mm.inp.db.html
-Versions      
+Versions      3.1.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hom.mm.inp.db/meta.yaml
 

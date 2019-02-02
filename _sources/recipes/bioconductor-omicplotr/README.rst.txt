@@ -9,7 +9,7 @@ A Shiny app for visual exploration of omic datasets as compositions\, and differ
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/omicplotR.html
-Versions      
+Versions      1.2.0
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-omicplotr/meta.yaml
 

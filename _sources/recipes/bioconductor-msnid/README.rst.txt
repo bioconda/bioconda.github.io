@@ -9,7 +9,7 @@ Extracts MS\/MS ID data from mzIdentML \(leveraging mzID package\) or text files
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MSnID.html
-Versions      1.12.1
+Versions      1.16.1, 1.12.1
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-msnid/meta.yaml
 

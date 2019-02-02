@@ -9,7 +9,7 @@ Bioinformatics platform containing interface to work with offTargetAnalysis and 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/crisprseekplus.html
-Versions      1.6.0, 1.4.1
+Versions      1.8.0, 1.6.0, 1.4.1
 License       GPL-3 + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-crisprseekplus/meta.yaml
 

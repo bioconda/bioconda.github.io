@@ -9,7 +9,7 @@ BrainImageR is a package that provides the user with information of where in the
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/brainImageR.html
-Versions      
+Versions      1.0.0
 License       CC BY-SA 4.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-brainimager/meta.yaml
 

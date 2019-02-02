@@ -9,7 +9,7 @@ The IsoGene Graphical User Interface \(IsoGene\-GUI\) is a user friendly interfa
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/IsoGeneGUI.html
-Versions      
+Versions      2.18.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-isogenegui/meta.yaml
 

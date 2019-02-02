@@ -9,7 +9,7 @@ Indole\-3\-acetaldoxime \(IAOx\) represents an early intermediate of the biosynt
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/mtbls2.html
-Versions      
+Versions      1.12.0
 License       CC0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mtbls2/meta.yaml
 

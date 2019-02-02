@@ -9,7 +9,7 @@ Provides an interface to several normalization and statistical testing packages 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/metaseqR.html
-Versions      
+Versions      1.22.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-metaseqr/meta.yaml
 

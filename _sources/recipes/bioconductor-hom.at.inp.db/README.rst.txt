@@ -9,7 +9,7 @@ Homology information for Arabidopsis thaliana from Inparanoid assembled using da
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hom.At.inp.db.html
-Versions      
+Versions      3.1.2
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hom.at.inp.db/meta.yaml
 

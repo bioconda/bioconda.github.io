@@ -9,7 +9,7 @@ The package is designed to classify gene expression profiles.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/sampleClassifier.html
-Versions      
+Versions      1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sampleclassifier/meta.yaml
 

@@ -9,7 +9,7 @@ This package was created by frmaTools version 1.19.3 and hgu133ahsentrezgcdf ver
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/hgu133a2frmavecs.html
-Versions      
+Versions      1.2.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-hgu133a2frmavecs/meta.yaml
 

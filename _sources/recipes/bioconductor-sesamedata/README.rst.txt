@@ -9,7 +9,7 @@ Provides supporting annotation and test data for SeSAMe package.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/sesameData.html
-Versions      
+Versions      1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-sesamedata/meta.yaml
 

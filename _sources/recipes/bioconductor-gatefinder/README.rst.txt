@@ -9,7 +9,7 @@ Given a vector of cluster memberships for a cell population\, identifies a seque
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GateFinder.html
-Versions      
+Versions      1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-gatefinder/meta.yaml
 

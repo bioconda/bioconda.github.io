@@ -9,7 +9,7 @@ Data from the sequencing of a 50\/50 mixture of HapMap trio samples NA12878 \(CE
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/VariantToolsData.html
-Versions      
+Versions      1.6.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-varianttoolsdata/meta.yaml
 

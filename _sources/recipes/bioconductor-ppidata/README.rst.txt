@@ -9,7 +9,7 @@ This package contains the directed graphs for protein interaction data as derive
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ppiData.html
-Versions      0.18.0, 0.16.0
+Versions      0.20.0, 0.18.0, 0.16.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ppidata/meta.yaml
 

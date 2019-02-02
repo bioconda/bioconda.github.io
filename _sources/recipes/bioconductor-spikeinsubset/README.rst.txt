@@ -9,7 +9,7 @@ Includes probe\-level and expression data for the HGU133 and HGU95 spike\-in exp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/SpikeInSubset.html
-Versions      
+Versions      1.22.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-spikeinsubset/meta.yaml
 

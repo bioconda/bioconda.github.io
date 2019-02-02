@@ -9,7 +9,7 @@ Differential expression analysis of RNA\-seq expression profiles with biological
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/edgeR.html
-Versions      3.22.5, 3.20.7, 3.20.1, 3.20.0, 3.18.1, 3.16.5, 3.14.0, 3.12.1, 3.12.0, 3.10.5
+Versions      3.24.1, 3.22.5, 3.20.7, 3.20.1, 3.20.0, 3.18.1, 3.16.5, 3.14.0, 3.12.1, 3.12.0, 3.10.5
 License       GPL (>=2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-edger/meta.yaml
 

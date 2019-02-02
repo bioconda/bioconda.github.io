@@ -9,7 +9,7 @@ This package generates interactive visualisations for analysis of RNA\-sequencin
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Glimma.html
-Versions      1.8.2, 1.6.0
+Versions      1.10.0, 1.8.2, 1.6.0
 License       GPL-3 | file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-glimma/meta.yaml
 

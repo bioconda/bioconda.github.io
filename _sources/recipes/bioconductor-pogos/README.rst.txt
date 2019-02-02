@@ -9,7 +9,7 @@ Provide simple utilities for querying bhklab PharmacoDB\, modeling API outputs\,
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/pogos.html
-Versions      
+Versions      1.2.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-pogos/meta.yaml
 

@@ -9,7 +9,7 @@ This package gives the implementations of the gene expression signature and its 
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/GeneExpressionSignature.html
-Versions      
+Versions      1.28.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-geneexpressionsignature/meta.yaml
 

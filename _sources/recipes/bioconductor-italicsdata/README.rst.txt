@@ -9,7 +9,7 @@ Data needed to use the ITALICS package
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ITALICSData.html
-Versions      
+Versions      2.20.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-italicsdata/meta.yaml
 

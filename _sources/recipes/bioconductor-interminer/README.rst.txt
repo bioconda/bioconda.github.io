@@ -9,7 +9,7 @@ Databases based on the InterMine platform such as FlyMine\, modMine \(modENCODE\
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/InterMineR.html
-Versions      1.2.1, 1.0.0
+Versions      1.4.1, 1.2.1, 1.0.0
 License       LGPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-interminer/meta.yaml
 

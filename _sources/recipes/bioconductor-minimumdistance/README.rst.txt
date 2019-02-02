@@ -9,7 +9,7 @@ Analysis of de novo copy number variants in trios from high\-dimensional genotyp
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/MinimumDistance.html
-Versions      1.24.1, 1.22.0
+Versions      1.26.0, 1.24.1, 1.22.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-minimumdistance/meta.yaml
 

@@ -9,7 +9,7 @@ Creation of a HTML report of differential expression analyses of count data. It 
 
 ============= ===========
 Home          https://bioconductor.org/packages/devel/bioc/html/DEGreport.html
-Versions      1.19.1, 1.16.0, 1.14.0, 1.12.0, 1.8.2, 1.7.2
+Versions      1.19.1, 1.18.0, 1.16.0, 1.14.0, 1.12.0, 1.8.2, 1.7.2
 License       MIT + file LICENSE
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-degreport/meta.yaml
 

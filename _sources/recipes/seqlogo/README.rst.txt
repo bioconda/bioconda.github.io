@@ -9,7 +9,7 @@ Python port of the R Bioconductor \`seqlogo\` package
 
 ============= ===========
 Home          https://github.com/betteridiot/seqlogo
-Versions      5.2.9, 0.2.0, 0.1.13, 0.1.12
+Versions      5.29.1, 5.2.9, 0.2.0, 0.1.13, 0.1.12
 License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//seqlogo/meta.yaml
 

@@ -9,7 +9,7 @@ This package provides an R wrapper of the popular bowtie2 sequencing reads align
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/Rbowtie2.html
-Versions      
+Versions      1.4.0
 License       GPL (>= 3)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-rbowtie2/meta.yaml
 

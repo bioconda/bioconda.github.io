@@ -9,7 +9,7 @@ Supporting data for the seq2patheway package. Includes modified gene sets from M
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/seq2pathway.data.html
-Versions      1.12.0, 1.10.0
+Versions      1.14.0, 1.12.0, 1.10.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-seq2pathway.data/meta.yaml
 

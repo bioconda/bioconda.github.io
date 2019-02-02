@@ -9,7 +9,7 @@ Extra SNP locations and alleles for Homo sapiens extracted from NCBI dbSNP Build
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/XtraSNPlocs.Hsapiens.dbSNP141.GRCh38.html
-Versions      
+Versions      0.99.12
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-xtrasnplocs.hsapiens.dbsnp141.grch38/meta.yaml
 

@@ -9,7 +9,7 @@ A data package of SELDI\-TOF protein mass spectrometry data of 167 breast cancer
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ProData.html
-Versions      
+Versions      1.20.0
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-prodata/meta.yaml
 

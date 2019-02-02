@@ -9,7 +9,7 @@ Identify low\-quality data using metrics developed for expression data derived f
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ffpe.html
-Versions      1.24.0, 1.22.0
+Versions      1.26.0, 1.24.0, 1.22.0
 License       GPL (>2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ffpe/meta.yaml
 

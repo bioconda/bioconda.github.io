@@ -9,7 +9,7 @@ Curated human breast cancer tissue S4 ExpresionSet datasets from over 16 clinica
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/curatedBreastData.html
-Versions      
+Versions      2.10.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-curatedbreastdata/meta.yaml
 

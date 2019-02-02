@@ -9,7 +9,7 @@ Quantitative and differential analysis of epigenomic and transcriptomic time cou
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/TCseq.html
-Versions      
+Versions      1.6.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tcseq/meta.yaml
 

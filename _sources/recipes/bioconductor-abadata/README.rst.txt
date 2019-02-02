@@ -9,7 +9,7 @@ Provides the data for the gene expression enrichment analysis conducted in the p
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/experiment/html/ABAData.html
-Versions      1.10.0, 1.8.0
+Versions      1.12.0, 1.10.0, 1.8.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-abadata/meta.yaml
 

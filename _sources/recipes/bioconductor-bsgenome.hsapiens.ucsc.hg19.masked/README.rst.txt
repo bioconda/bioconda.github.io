@@ -9,7 +9,7 @@ Full genome sequences for Homo sapiens \(Human\) as provided by UCSC \(hg19\, Fe
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/BSgenome.Hsapiens.UCSC.hg19.masked.html
-Versions      
+Versions      1.3.99
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-bsgenome.hsapiens.ucsc.hg19.masked/meta.yaml
 

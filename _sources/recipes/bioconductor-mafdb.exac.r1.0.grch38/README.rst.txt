@@ -9,7 +9,7 @@ Store minor allele frequency data from the Exome Aggregation Consortium \(ExAC r
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/data/annotation/html/MafDb.ExAC.r1.0.GRCh38.html
-Versions      
+Versions      3.7.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-mafdb.exac.r1.0.grch38/meta.yaml
 

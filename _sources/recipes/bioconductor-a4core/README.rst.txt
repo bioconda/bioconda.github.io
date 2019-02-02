@@ -9,7 +9,7 @@ Automated Affymetrix Array Analysis Core Package
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/a4Core.html
-Versions      1.28.0, 1.26.0, 1.24.0
+Versions      1.30.0, 1.28.0, 1.26.0, 1.24.0
 License       GPL-3
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-a4core/meta.yaml
 

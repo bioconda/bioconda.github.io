@@ -9,7 +9,7 @@ ChIPseqR identifies protein binding sites from ChIP\-seq and nucleosome position
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/ChIPseqR.html
-Versions      
+Versions      1.36.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-chipseqr/meta.yaml
 

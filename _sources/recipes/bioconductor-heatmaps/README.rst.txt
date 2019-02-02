@@ -9,7 +9,7 @@ This package provides functions for plotting heatmaps of genome\-wide data acros
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/heatmaps.html
-Versions      1.4.0, 1.2.0, 1.0.0
+Versions      1.6.0, 1.4.0, 1.2.0, 1.0.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-heatmaps/meta.yaml
 

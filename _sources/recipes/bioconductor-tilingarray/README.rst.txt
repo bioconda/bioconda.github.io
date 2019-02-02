@@ -9,7 +9,7 @@ The package provides functionality that can be useful for the analysis of high\-
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/tilingArray.html
-Versions      
+Versions      1.60.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-tilingarray/meta.yaml
 

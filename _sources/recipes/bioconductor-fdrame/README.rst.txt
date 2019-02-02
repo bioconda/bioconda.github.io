@@ -9,7 +9,7 @@ This package contains two main functions. The first is fdr.ma which takes normal
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/fdrame.html
-Versions      
+Versions      1.54.0
 License       GPL (>= 2)
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-fdrame/meta.yaml
 

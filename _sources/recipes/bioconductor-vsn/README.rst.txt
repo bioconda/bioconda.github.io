@@ -9,7 +9,7 @@ The package implements a method for normalising microarray intensities\, and wor
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/vsn.html
-Versions      3.48.1, 3.46.0, 3.44.0, 3.38.0
+Versions      3.50.0, 3.48.1, 3.46.0, 3.44.0, 3.38.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-vsn/meta.yaml
 

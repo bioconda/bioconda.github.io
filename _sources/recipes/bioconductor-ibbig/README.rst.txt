@@ -9,7 +9,7 @@ iBBiG is a bi\-clustering algorithm which is optimizes for binary data analysis.
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/iBBiG.html
-Versions      
+Versions      1.26.0
 License       Artistic-2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-ibbig/meta.yaml
 

@@ -9,7 +9,7 @@ Provides some functions to detect and correct for batch effects in DNA methylati
 
 ============= ===========
 Home          https://bioconductor.org/packages/3.8/bioc/html/BEclear.html
-Versions      1.12.1, 1.10.0, 1.8.0
+Versions      1.14.0, 1.12.1, 1.10.0, 1.8.0
 License       GPL-2
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconductor-beclear/meta.yaml
 
