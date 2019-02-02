@@ -212,6 +212,49 @@ testing.</p>
 </div>
 </div>
 </div>
+<div class="section" id="updating-recipes-for-a-pinning-change">
+<h1>Updating recipes for a pinning change<a class="headerlink" href="#updating-recipes-for-a-pinning-change" title="Permalink to this headline">¶</a></h1>
+<p>For compatibility reasons, sometimes packages need to be built for specific versions of dependency (e.g., R, Python, or boost). The packages produced for a particular version of a dependency are said to be “pinned” to that dependency version. Bioconda has project wide pinnings for many common dependencies, such as numpy, R, and boost. These pinnings allow for consistency between package and facilitates adding multiple packages to the same conda environment (due to not requiring differing boost versions, for example). These pinnings are largely inherited from the [conda-forge project](<a class="reference external" href="https://github.com/conda-forge/conda-forge-pinning-feedstock">https://github.com/conda-forge/conda-forge-pinning-feedstock</a>) and bioconda then uses a particular version of them. On rare occasions these pinnings are updated (e.g., changing compiler versions, or updating the supported versions of Python) and many packages need to be updated project-wide to account for this. To facilitate such updates, <cite>bioconda-utils</cite> now has an <cite>update-pinning</cite> subcommand. To use this, first create a conda environment with bioconda-utils:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ conda create -n bioconda-utils <span class="nv">conda</span><span class="o">=</span><span class="m">4</span>.5.11 <span class="nv">python</span><span class="o">=</span><span class="m">3</span>.6
+$ <span class="nb">source</span> activate bioconda-utils
+$ conda install -y git pip --file https://raw.githubusercontent.com/bioconda/bioconda-utils/master/bioconda_utils/bioconda_utils-requirements.txt
+$ pip install https://github.com/bioconda/bioconda-utils
+</pre></div>
+</div>
+<p>You then have an environment with the most recent version of <cite>bioconda-utils</cite>. We will use deepTools as an example to show how to update a package and all of its dependencies as needed due to a change in pinnings. First ensure you’re in the bioconda-recipes repository and then:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>$ git checkout -b rebuild_deeptools
+$ bioconda-utils update-pinning --bump-only-python recipes/ config.yml --packages deeptools
+Packages requiring the following:
+  No build number change needed: <span class="m">2</span>
+  A rebuild <span class="k">for</span> a new python version: <span class="m">0</span>
+  A build number increment: <span class="m">17</span>
+$  git status
+On branch rebuild_deeptools
+Changes not staged <span class="k">for</span> commit:
+  <span class="o">(</span>use <span class="s2">&quot;git add &lt;file&gt;...&quot;</span> to update what will be committed<span class="o">)</span>
+  <span class="o">(</span>use <span class="s2">&quot;git checkout -- &lt;file&gt;...&quot;</span> to discard changes in working directory<span class="o">)</span>
+
+    modified:   recipes/bcftools/1.2/meta.yaml
+    modified:   recipes/bcftools/1.3.1/meta.yaml
+    modified:   recipes/bcftools/1.3/meta.yaml
+    modified:   recipes/bcftools/meta.yaml
+    modified:   recipes/deeptools/meta.yaml
+    modified:   recipes/htslib/meta.yaml
+    modified:   recipes/libdeflate/meta.yaml
+    modified:   recipes/py2bit/meta.yaml
+    modified:   recipes/pybigwig/0.1.11/meta.yaml
+    modified:   recipes/pybigwig/meta.yaml
+    modified:   recipes/pysam/0.10.0/meta.yaml
+    modified:   recipes/pysam/0.7.7/meta.yaml
+    modified:   recipes/pysam/0.8.3/meta.yaml
+    modified:   recipes/pysam/0.9.1/meta.yaml
+    modified:   recipes/pysam/meta.yaml
+    modified:   recipes/samtools/1.6/meta.yaml
+    modified:   recipes/samtools/meta.yaml
+</pre></div>
+</div>
+<p>This incremented the build number for the deepTools package as well as all of its dependencies. Note that the 2 dependencies not updated were skipped because it was determined that they were unaffected by the dependency change. In most cases the <cite>–bump-only-python</cite> should be used. This results in packages that simply need a rebuild due to a change in Python version to have their build numbers incremented. Such packages would eventually be built anyway, but this facilitates the update process.</p>
+</div>
 
 
           </div>
@@ -247,6 +290,7 @@ testing.</p>
 </li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="#updating-recipes-for-a-pinning-change">Updating recipes for a pinning change</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linting.html">Linting</a></li>
 <li class="toctree-l1"><a class="reference internal" href="faqs.html">FAQs</a></li>
 <li class="toctree-l1"><a class="reference internal" href="build-system.html">Build system</a></li>
