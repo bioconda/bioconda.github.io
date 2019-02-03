@@ -5,13 +5,15 @@ pypairs
 
 |downloads|
 
-A Python\-reimplementation of the Pairs algorithm described by A. Scialdone et al. \(2015\)
+A python scRNA\-Seq classifier
 
 ============= ===========
 Home          https://github.com/rfechtner/pypairs
-Versions      2.0.6, 2.0.5
-License       MIT
+Versions      3.0.9, 2.0.6, 2.0.5
+License       BSD
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//pypairs/meta.yaml
+
+Documentation https://pypairs.readthedocs.io/
 
 
 
