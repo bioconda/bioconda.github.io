@@ -9,7 +9,7 @@ Utilities for building and managing bioconda recipes.
 
 ============= ===========
 Home          http://bioconda.github.io/build-system.html
-Versions      0.15.3, 0.15.2, 0.15.1, 0.14.9, 0.14.3, 0.14.2, 0.12.3, 0.12.0, 0.11.4, 0.11.3, 0.11.2, 0.11.1
+Versions      0.15.7, 0.15.3, 0.15.2, 0.15.1, 0.14.9, 0.14.3, 0.14.2, 0.12.3, 0.12.0, 0.11.4, 0.11.3, 0.11.2, 0.11.1
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//bioconda-utils/meta.yaml
 

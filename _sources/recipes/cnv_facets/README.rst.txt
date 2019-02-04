@@ -8,7 +8,7 @@ cnv_facets
 Detect somatic copy number variants \(CNV\) in tumour\-normal samples using next generation sequencing data
 
 ============= ===========
-Home          https://github.com/wwcrc/cnv_facets
+Home          https://github.com/dariober/cnv_facets
 Versions      0.12.1, 0.12.0, v0.11.3, v0.11.2
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//cnv_facets/meta.yaml

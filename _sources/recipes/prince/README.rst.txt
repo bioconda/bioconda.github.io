@@ -9,7 +9,7 @@ PRINCE estimates Variable Number Tandem Repeats \(VNTR\) copy number from raw ne
 
 ============= ===========
 Home          https://github.com/WGS-TB/PythonPrince
-Versions      2.0, 1.2, 1.1, 1.0
+Versions      2.1, 2.0, 1.2, 1.1, 1.0
 License       MIT
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//prince/meta.yaml
 
