@@ -18,7 +18,6 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//
 ============= ===========
 
 \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-analysis\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-analysis.readthedocs.io\/en\/latest\/\?badge\=latest\)
-\[\!\[Codacy Badge\]\(https\:\/\/api.codacy.com\/project\/badge\/Grade\/159c05eeeb094019b4ef0b4ab000d566\)\]\(https\:\/\/www.codacy.com\/app\/andriopau\/biobb\_analysis\?utm\_source\=github.com\&amp\;utm\_medium\=referral\&amp\;utm\_content\=bioexcel\/biobb\_analysis\&amp\;utm\_campaign\=Badge\_Grade\)
 
 \# biobb\_analysis
 
@@ -30,16 +29,14 @@ bioinformatics tools.
 The latest documentation of this package can be found in our readthedocs site\:
 \[latest API documentation\]\(http\:\/\/biobb\_analysis.readthedocs.io\/en\/latest\/\).
 
-\#\#\# Version
-This software is in Alpha version.
 
 \#\#\# Copyright \& Licensing
 This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
 BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
 \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-\* \(c\) 2015\-2018 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-\* \(c\) 2015\-2018 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+\* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+\* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
 
 Licensed under the
 \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file

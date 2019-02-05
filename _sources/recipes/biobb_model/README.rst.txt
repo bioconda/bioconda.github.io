@@ -9,7 +9,7 @@ Biobb\_model is the Biobb module collection to check and model 3d structures\, c
 
 ============= ===========
 Home          https://github.com/bioexcel/biobb_model
-Versions      0.1.1, 0.1.0, 0.0.6
+Versions      0.1.3, 0.1.1, 0.1.0, 0.0.6
 License       Apache Software License
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//biobb_model/meta.yaml
 
@@ -18,7 +18,6 @@ Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//
 ============= ===========
 
 \[\!\[Documentation Status\]\(https\:\/\/readthedocs.org\/projects\/biobb\-model\/badge\/\?version\=latest\)\]\(https\:\/\/biobb\-model.readthedocs.io\/en\/latest\/\?badge\=latest\)
-\[\!\[Codacy Badge\]\(https\:\/\/api.codacy.com\/project\/badge\/Grade\/f98ed1286f244616bf39352e1877d310\)\]\(https\:\/\/www.codacy.com\/app\/andriopau\/biobb\_model\?utm\_source\=github.com\&amp\;utm\_medium\=referral\&amp\;utm\_content\=bioexcel\/biobb\_model\&amp\;utm\_campaign\=Badge\_Grade\)
 
 \# biobb\_model
 
@@ -31,16 +30,13 @@ bioinformatics tools.
 The latest documentation of this package can be found in our readthedocs site\:
 \[latest API documentation\]\(http\:\/\/biobb\_model.readthedocs.io\/en\/latest\/\).
 
-\#\#\# Version
-This software is in Alpha version.
-
 \#\#\# Copyright \& Licensing
 This software has been developed in the MMB group \(http\:\/\/mmb.irbbarcelona.org\) at the
 BSC \(http\:\/\/www.bsc.es\/\) \& IRB \(https\:\/\/www.irbbarcelona.org\/\) for the European BioExcel \(http\:\/\/bioexcel.eu\/\)\, funded by the European Commission
 \(EU H2020 \[675728\]\(http\:\/\/cordis.europa.eu\/projects\/675728\)\).
 
-\* \(c\) 2015\-2018 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
-\* \(c\) 2015\-2018 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
+\* \(c\) 2015\-2019 \[Barcelona Supercomputing Center\]\(https\:\/\/www.bsc.es\/\)
+\* \(c\) 2015\-2019 \[Institute for Research in Biomedicine\]\(https\:\/\/www.irbbarcelona.org\/\)
 
 Licensed under the
 \[Apache License 2.0\]\(https\:\/\/www.apache.org\/licenses\/LICENSE\-2.0\)\, see the file
