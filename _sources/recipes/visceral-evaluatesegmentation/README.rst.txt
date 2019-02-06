@@ -9,7 +9,7 @@ EvaluateSegmentation is a tool that compares two volumes \(a test segmentation a
 
 ============= ===========
 Home          https://github.com/Visceral-Project/EvaluateSegmentation
-Versions      2015.07.02
+Versions      2015.07.03, 2015.07.02
 License       Apache License, Version 2.0
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//visceral-evaluatesegmentation/meta.yaml
 

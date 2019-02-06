@@ -9,7 +9,7 @@ STREAM\-Single\-cell Trajectories Reconstruction\, Exploration And Mapping of si
 
 ============= ===========
 Home          https://github.com/pinellolab/STREAM_atac
-Versions      0.1.0
+Versions      0.2.0, 0.1.0
 License       Affero
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//stream_atac/meta.yaml
 

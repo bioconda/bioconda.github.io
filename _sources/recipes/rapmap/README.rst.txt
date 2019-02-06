@@ -9,7 +9,7 @@ Rapid sensitive and accurate read mapping via quasi\-mapping
 
 ============= ===========
 Home          https://github.com/COMBINE-lab/RapMap
-Versions      0.5.0, v0.2.1, v0.2.0, v0.1.0pre
+Versions      0.6.0, 0.5.0, v0.2.1, v0.2.0, v0.1.0pre
 License       GPL
 Recipe        https://github.com/bioconda/bioconda-recipes/tree/master/recipes//rapmap/meta.yaml
 
